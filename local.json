@@ -1,0 +1,1265 @@
+{
+ "as_of": "2026-10-26",
+ "note": "Items on this page come from the City of Portsmouth's own releases and from local news outlets. Each item links to its source. Nothing here is a live feed yet; see the Sources card.",
+ "housing": {
+  "portsmouth": {
+   "source": "Redfin, Portsmouth NH housing market",
+   "url": "https://www.redfin.com/city/16139/NH/Portsmouth/housing-market",
+   "period": "Three months ending August 2026",
+   "median": 786480,
+   "yoy": -7.7,
+   "sold": 101,
+   "soldLastYear": 133,
+   "dom": 45,
+   "domLastYear": 34,
+   "overList": 32.7,
+   "note": "Redfin's page summary line shows an average of $760K, up 1.0%; the median above is from the page body and chart. Zip codes 03801, 03870, 03904, 03840, 03803."
+  },
+  "seacoast": {
+   "source": "Seacoast Board of Realtors, reported by Patch",
+   "url": "https://patch.com/new-hampshire/portsmouth-nh/portsmouth-posts-record-8-3-million-sale-seacoast-inventory-rises-sales",
+   "reported": "2026-10-07",
+   "period": "September 2026 and year to date",
+   "towns": "13 Seacoast towns: Exeter, Greenland, Hampton, Hampton Falls, New Castle, Newfields, Newington, North Hampton, Newmarket, Portsmouth, Rye, Seabrook, Stratham",
+   "singleFamily": {
+    "septMedian": 799000,
+    "ytdMedian": 882000,
+    "ytdYoy": 3.8,
+    "septSalesChange": -18.1,
+    "inventory": "Highest since June 2020",
+    "note": "September sales were the lowest since April and the slowest September in two years. Year to date, two more sales than the same period of 2025."
+   },
+   "condo": {
+    "septMedian": 645000,
+    "septSales": 54,
+    "ytdMedian": 575000,
+    "ytdYoy": -1.1,
+    "ytdSalesChange": 3.2,
+    "inventory": "Highest since April 2020",
+    "note": "September median was the high for 2026 and the highest since December 2025."
+   }
+  },
+  "records": [
+   {
+    "what": "58 State St, 8 bedrooms, 12 baths, 8,583 sq ft",
+    "price": 8300000,
+    "note": "Sold $200,000 under asking. Reported as the largest sale in Portsmouth's history.",
+    "date": "2026-09"
+   },
+   {
+    "what": "One Harbour Place condo, 2 bedrooms, 3 baths, 2,350 sq ft, water view",
+    "price": 2875000,
+    "note": "Sold $225,000 under asking. Top condo sale of the month.",
+    "date": "2026-09"
+   }
+  ]
+ },
+ "business": {
+  "note": "Openings and closures come from local news coverage, not from the city. In the coverage checked for the last 90 days, one Portsmouth closure could be verified and no openings. Reports from the Portsmouth Herald are behind a paywall and were not used.",
+  "closures": [
+   {
+    "name": "Red Rover Creamery",
+    "what": "Ice cream shop, open since 2019",
+    "date": "2026-10-31",
+    "detail": "Last day is October 31. Owner Sarah Amsden said months of delay on a kitchen expansion, stalled by an electrical issue, left the shop without the space it needed, and that the business could not afford another slow November-to-April season.",
+    "source": {
+     "label": "Seacoast Current, Sep 30, 2026",
+     "url": "https://seacoastcurrent.com/ixp/701/p/red-rover-creamery-portsmouth-nh-close/"
+    }
+   }
+  ],
+  "openings": []
+ },
+ "notices": [
+  {
+   "date": "2026-10-30",
+   "kind": "Event",
+   "title": "Trick-or-treat is Friday, October 30, 5 to 8 pm",
+   "detail": "Police ask drivers to watch for children and expect heavier traffic that evening. The Recreation Department and Library also have fall and Halloween events.",
+   "source": {
+    "label": "City of Portsmouth, Oct 2",
+    "url": "https://www.portsmouthnh.gov/city/press-releases/city-announces-trick-or-treat-hours-and-fall-events"
+   },
+   "strip": "Trick-or-treat",
+   "stripLine": "Friday, 5 to 8 pm"
+  },
+  {
+   "date": "2026-10-31",
+   "kind": "Roads",
+   "title": "Halloween Parade steps off from Peirce Island at 7 pm Saturday; downtown streets close 6 to 10 pm",
+   "detail": "Closed or local traffic only from 6 pm: Marcy (Hancock to State, and under the bridge to Daniel), Daniel (Bow to Market Square), Bow (Daniel to Market), Market (Hanover to Market Square), Fleet (Hanover to State), Congress (Market to Maplewood), Pleasant (Court to Market Square), State (Fleet to Marcy), Porter (Fleet to Pleasant). No parking on the route 5 to 10 pm; cars still there at 5 pm are towed at the owner's expense. Garages: Hanover, Foundry Place, Worth Lot, Bridge Street Lot at normal rates. It is the 31st independently organized parade.",
+   "source": {
+    "label": "City of Portsmouth, Oct 13",
+    "url": "https://www.portsmouthnh.gov/city/press-releases/parking-restrictions-and-road-closures-2026-portsmouth-halloween-parade"
+   },
+   "strip": "Halloween Parade",
+   "stripLine": "Peirce Island, 7 pm · downtown closed 6 to 10"
+  },
+  {
+   "date": "2026-11-01",
+   "kind": "Trash",
+   "title": "Automated trash and recycling pickup starts in the Pannaway neighborhood in November",
+   "detail": "Each household gets two 64-gallon city-issued wheeled bins, one trash and one single-stream recycling, assigned to the property with RFID tracking. Weekly curbside pickup on the usual day; only the new bins are emptied. Old bins can go to the Recycling Center, 680 Peverly Hill Road. Other neighborhoods follow in 2027. Details: portsnh.co/toter or (603) 431-2000.",
+   "source": {
+    "label": "City of Portsmouth DPW, Oct 22",
+    "url": "https://www.portsmouthnh.gov/city/news/city-portsmouth-nh-dpw-launches-automated-collection-program-trash-and-recycling"
+   }
+  },
+  {
+   "date": "2026-10-13",
+   "kind": "Trash",
+   "title": "Leaves and yard waste: curbside collection and free drop-off at the Recycling Center",
+   "detail": "The city asks residents to keep leaves and clippings out of storm drains and waterways.",
+   "source": {
+    "label": "City of Portsmouth, Oct 13",
+    "url": "https://www.portsmouthnh.gov/city/press-releases/falling-leaves-cleaner-water-yard-waste-guidance"
+   }
+  },
+  {
+   "date": "2026-10-16",
+   "kind": "Water",
+   "title": "Q3 drinking water update: supplies holding up despite the drought that began in June 2025",
+   "detail": "DPW's quarterly report covers the Portsmouth and Pease Tradeport water systems.",
+   "source": {
+    "label": "City of Portsmouth DPW, Oct 16",
+    "url": "https://www.portsmouthnh.gov/publicworks/water/news/dpw-releases-q3-2026-drinking-water-supply-updates-portsmouth-and-pease"
+   }
+  },
+  {
+   "date": "2026-10-20",
+   "kind": "Roads",
+   "title": "Cate Street Bridge project: public information session held October 20",
+   "detail": "6:30 pm at the Senior Activity Center, 125 Cottage Street, with questions afterward.",
+   "source": {
+    "label": "City of Portsmouth DPW, Oct 16",
+    "url": "https://www.portsmouthnh.gov/city/press-releases/dpw-hosts-cate-street-bridge-project-public-information-session-october-20-2026"
+   }
+  },
+  {
+   "date": "2026-10-23",
+   "kind": "Grants",
+   "title": "FY27 CDBG grants open for public facility and accessibility improvements",
+   "detail": "Federal Community Development Block Grant money for public facility and accessibility projects.",
+   "source": {
+    "label": "City of Portsmouth, Oct 23",
+    "url": "https://www.portsmouthnh.gov/community/news/fy27-cdbg-public-facility-and-accessibility-improvement-grants-available"
+   }
+  },
+  {
+   "date": "2026-10-26",
+   "kind": "Library",
+   "title": "Korean Alphabet (Hangul) at the Library, Monday 5:30 pm",
+   "detail": "Portsmouth Public Library, 175 Parrott Avenue.",
+   "source": {
+    "label": "Library calendar",
+    "url": "https://portsmouthpl.librarycalendar.com/event/hangul26"
+   }
+  },
+  {
+   "date": "2026-11-02",
+   "kind": "Library",
+   "title": "The Mind Reset workshop at the Library, Monday 6:30 pm",
+   "detail": "Portsmouth Public Library, 175 Parrott Avenue.",
+   "source": {
+    "label": "Library calendar",
+    "url": "https://portsmouthpl.librarycalendar.com/event/mind-reset"
+   }
+  }
+ ],
+ "election": {
+  "date": "2026-11-03",
+  "hoursNote": "Hours set by the City Council on Aug 17, 2026 (passed unanimously).",
+  "polls": [
+   {
+    "ward": "1",
+    "place": "New Franklin School, 1 Franklin Drive"
+   },
+   {
+    "ward": "2",
+    "place": "Portsmouth Middle School, 155 Parrott Avenue"
+   },
+   {
+    "ward": "3",
+    "place": "Portsmouth Senior Activity Center, 125 Cottage Street"
+   },
+   {
+    "ward": "4",
+    "place": "Portsmouth High School, 50 Andrew Jarvis Drive (new location since the September primary)"
+   },
+   {
+    "ward": "5",
+    "place": "Little Harbour School, 50 Clough Drive"
+   }
+  ],
+  "absentee": "Last day to request an absentee ballot is Monday, November 2, at 5 pm, in person at City Hall.",
+  "sameDay": "Missed the October 22 deadline? Register at your polling place on Election Day with proof of identity, age, citizenship and your Portsmouth address.",
+  "clerk": "City Clerk, 603-610-7245, cityclerk@portsmouthnh.gov",
+  "sampleBallots": "https://www.portsmouthnh.gov/cityclerk/voting-information",
+  "source": {
+   "label": "City of Portsmouth, Oct 15",
+   "url": "https://www.portsmouthnh.gov/city/press-releases/voter-information-november-3-2026-general-election-0"
+  },
+  "hours": "Polls are open 8:00 am to 7:00 pm.",
+  "hoursSource": {
+   "label": "City Council minutes, Aug 17",
+   "url": "https://files.portsmouthnh.gov/minutes/2026/citycouncil/Final August 17, 2026 Minutes and Actions.pdf"
+  }
+ },
+ "social": {
+  "feedNote": "Posts from these accounts are not pulled in yet. A live feed needs the platforms' APIs (Meta for Facebook and Instagram pages, X's paid API, YouTube's free Data API, Bluesky's open API) and a small server to collect them. When it runs, Agorri will show official posts word for word with the time and a link back, no replies or comments, newest first, never ranked.",
+  "accounts": [
+   {
+    "who": "City Hall",
+    "level": "City",
+    "role": "City of Portsmouth",
+    "platform": "Facebook",
+    "url": "https://www.facebook.com/CityHallPortsmouthNH",
+    "type": "Official",
+    "source": "https://www.portsmouthnh.gov/"
+   },
+   {
+    "who": "City of Portsmouth",
+    "level": "City",
+    "role": "City of Portsmouth",
+    "platform": "Instagram",
+    "url": "https://www.instagram.com/cityportsmouth/",
+    "type": "Official",
+    "source": "https://www.portsmouthnh.gov/"
+   },
+   {
+    "who": "City of Portsmouth",
+    "level": "City",
+    "role": "Meetings live and recorded, Channel 22",
+    "platform": "YouTube",
+    "url": "https://www.youtube.com/user/CityofPortsmouth",
+    "type": "Official",
+    "source": "https://www.portsmouthnh.gov/"
+   },
+   {
+    "who": "City of Portsmouth",
+    "level": "City",
+    "role": "Community newsletter",
+    "platform": "Email",
+    "url": "https://www.portsmouthnh.gov/city/portsmouths-community-newsletter",
+    "type": "Official",
+    "source": "https://www.portsmouthnh.gov/"
+   },
+   {
+    "who": "City of Portsmouth",
+    "level": "City",
+    "role": "FlashVote resident surveys",
+    "platform": "Web",
+    "url": "https://www.portsmouthnh.gov/city/flashvote",
+    "type": "Official",
+    "source": "https://www.portsmouthnh.gov/"
+   },
+   {
+    "who": "Portsmouth Police",
+    "level": "Public safety",
+    "role": "Police Department · non-emergency (603) 427-1500",
+    "platform": "Facebook",
+    "url": "https://www.facebook.com/Portsmouth-NH-Police-Department-132395220427/",
+    "type": "Official",
+    "source": "https://www.portsmouthnh.gov/police"
+   },
+   {
+    "who": "Portsmouth Police",
+    "level": "Public safety",
+    "role": "Police Department",
+    "platform": "Instagram",
+    "url": "https://www.instagram.com/portsmouthpolicenh/",
+    "type": "Official",
+    "source": "https://www.portsmouthnh.gov/police"
+   },
+   {
+    "who": "Portsmouth Police",
+    "level": "Public safety",
+    "role": "Police logs, posted by the department",
+    "platform": "Web",
+    "url": "https://www.portsmouthnh.gov/police/police-logs",
+    "type": "Official",
+    "source": "https://www.portsmouthnh.gov/police"
+   },
+   {
+    "who": "Portsmouth Fire",
+    "level": "Public safety",
+    "role": "Fire Department · non-emergency 603-427-1515",
+    "platform": "Facebook",
+    "url": "https://www.facebook.com/portsmouthnhfiredepartment/",
+    "type": "Official",
+    "source": "https://www.portsmouthnh.gov/fire"
+   },
+   {
+    "who": "Public Works",
+    "level": "City",
+    "role": "Construction projects map",
+    "platform": "Web",
+    "url": "https://www.portsmouthnh.gov/publicworks/projects",
+    "type": "Official",
+    "source": "https://www.portsmouthnh.gov/publicworks"
+   },
+   {
+    "who": "Public Works",
+    "level": "City",
+    "role": "Anticipated projects dashboard",
+    "platform": "Web",
+    "url": "https://www.portsmouthnh.gov/projects/dashboard",
+    "type": "Official",
+    "source": "https://www.portsmouthnh.gov/publicworks"
+   },
+   {
+    "who": "Public Works",
+    "level": "City",
+    "role": "Snow parking bans and CodeRED alerts",
+    "platform": "Alerts",
+    "url": "https://www.portsmouthnh.gov/publicworks/parkportsmouth/snow-impacts",
+    "type": "Official",
+    "source": "https://www.portsmouthnh.gov/publicworks"
+   },
+   {
+    "who": "Public Library",
+    "level": "City",
+    "role": "Portsmouth Public Library",
+    "platform": "Facebook",
+    "url": "https://www.facebook.com/pplnh",
+    "type": "Official",
+    "source": "https://www.portsmouthnh.gov/library"
+   },
+   {
+    "who": "Public Library",
+    "level": "City",
+    "role": "Portsmouth Public Library",
+    "platform": "Instagram",
+    "url": "https://www.instagram.com/portsmouthpubliclibrary/",
+    "type": "Official",
+    "source": "https://www.portsmouthnh.gov/library"
+   },
+   {
+    "who": "Public Library",
+    "level": "City",
+    "role": "Portsmouth Public Library",
+    "platform": "YouTube",
+    "url": "https://youtube.com/portslib",
+    "type": "Official",
+    "source": "https://www.portsmouthnh.gov/library"
+   },
+   {
+    "who": "Public Library",
+    "level": "City",
+    "role": "Events calendar",
+    "platform": "Web",
+    "url": "https://portsmouthpl.librarycalendar.com/events/upcoming",
+    "type": "Official",
+    "source": "https://www.portsmouthnh.gov/library"
+   },
+   {
+    "who": "Recreation",
+    "level": "City",
+    "role": "Recreation Department · 603 427-1547",
+    "platform": "Facebook",
+    "url": "https://www.facebook.com/cityofportsmouthnhrec",
+    "type": "Official",
+    "source": "https://www.portsmouthnh.gov/recreation"
+   },
+   {
+    "who": "Recreation",
+    "level": "City",
+    "role": "Recreation Department",
+    "platform": "Instagram",
+    "url": "https://www.instagram.com/portsmouthrecreation/",
+    "type": "Official",
+    "source": "https://www.portsmouthnh.gov/recreation"
+   },
+   {
+    "who": "Jeanne Shaheen",
+    "level": "Federal",
+    "role": "U.S. Senator",
+    "platform": "X",
+    "url": "https://twitter.com/SenatorShaheen",
+    "type": "Official",
+    "source": "https://www.shaheen.senate.gov/",
+    "person": "shaheen"
+   },
+   {
+    "who": "Jeanne Shaheen",
+    "level": "Federal",
+    "role": "U.S. Senator",
+    "platform": "Facebook",
+    "url": "https://www.facebook.com/SenatorShaheen",
+    "type": "Official",
+    "source": "https://www.shaheen.senate.gov/",
+    "person": "shaheen"
+   },
+   {
+    "who": "Jeanne Shaheen",
+    "level": "Federal",
+    "role": "U.S. Senator",
+    "platform": "Instagram",
+    "url": "https://www.instagram.com/senatorshaheen",
+    "type": "Official",
+    "source": "https://www.shaheen.senate.gov/",
+    "person": "shaheen"
+   },
+   {
+    "who": "Jeanne Shaheen",
+    "level": "Federal",
+    "role": "U.S. Senator",
+    "platform": "YouTube",
+    "url": "https://www.youtube.com/senatorshaheen",
+    "type": "Official",
+    "source": "https://www.shaheen.senate.gov/",
+    "person": "shaheen"
+   },
+   {
+    "who": "Jeanne Shaheen",
+    "level": "Federal",
+    "role": "U.S. Senator",
+    "platform": "Bluesky",
+    "url": "https://bsky.app/profile/shaheen.senate.gov",
+    "type": "Official",
+    "source": "https://www.shaheen.senate.gov/",
+    "person": "shaheen"
+   },
+   {
+    "who": "Maggie Hassan",
+    "level": "Federal",
+    "role": "U.S. Senator",
+    "platform": "X",
+    "url": "https://twitter.com/SenatorHassan",
+    "type": "Official",
+    "source": "https://www.hassan.senate.gov/",
+    "person": "hassan"
+   },
+   {
+    "who": "Maggie Hassan",
+    "level": "Federal",
+    "role": "U.S. Senator",
+    "platform": "Facebook",
+    "url": "https://www.facebook.com/SenatorHassan",
+    "type": "Official",
+    "source": "https://www.hassan.senate.gov/",
+    "person": "hassan"
+   },
+   {
+    "who": "Maggie Hassan",
+    "level": "Federal",
+    "role": "U.S. Senator",
+    "platform": "Instagram",
+    "url": "https://www.instagram.com/senatorhassan",
+    "type": "Official",
+    "source": "https://www.hassan.senate.gov/",
+    "person": "hassan"
+   },
+   {
+    "who": "Maggie Hassan",
+    "level": "Federal",
+    "role": "U.S. Senator",
+    "platform": "Bluesky",
+    "url": "https://bsky.app/profile/hassan.senate.gov",
+    "type": "Official",
+    "source": "https://www.hassan.senate.gov/",
+    "person": "hassan"
+   },
+   {
+    "who": "Chris Pappas",
+    "level": "Federal",
+    "role": "U.S. Representative, NH-1",
+    "platform": "Facebook",
+    "url": "https://www.facebook.com/RepChrisPappas",
+    "type": "Official",
+    "source": "https://ballotpedia.org/Chris_Pappas",
+    "person": "pappas"
+   },
+   {
+    "who": "Chris Pappas",
+    "level": "Federal",
+    "role": "U.S. Representative, NH-1",
+    "platform": "X",
+    "url": "https://x.com/RepChrisPappas",
+    "type": "Official",
+    "source": "https://ballotpedia.org/Chris_Pappas",
+    "person": "pappas"
+   },
+   {
+    "who": "Chris Pappas",
+    "level": "Federal",
+    "role": "U.S. Representative, NH-1",
+    "platform": "Instagram",
+    "url": "https://www.instagram.com/repchrispappas/",
+    "type": "Official",
+    "source": "https://ballotpedia.org/Chris_Pappas",
+    "person": "pappas"
+   },
+   {
+    "who": "Chris Pappas",
+    "level": "Federal",
+    "role": "U.S. Representative, NH-1",
+    "platform": "YouTube",
+    "url": "https://www.youtube.com/@congressmanchrispappas2330",
+    "type": "Official",
+    "source": "https://ballotpedia.org/Chris_Pappas",
+    "person": "pappas"
+   },
+   {
+    "who": "Chris Pappas",
+    "level": "Federal",
+    "role": "U.S. Representative, NH-1 · running for U.S. Senate",
+    "platform": "Facebook",
+    "url": "https://www.facebook.com/pappasfornh/",
+    "type": "Campaign",
+    "source": "https://ballotpedia.org/Chris_Pappas",
+    "person": "pappas"
+   },
+   {
+    "who": "Chris Pappas",
+    "level": "Federal",
+    "role": "U.S. Representative, NH-1 · running for U.S. Senate",
+    "platform": "X",
+    "url": "https://x.com/ChrisPappasNH",
+    "type": "Campaign",
+    "source": "https://ballotpedia.org/Chris_Pappas",
+    "person": "pappas"
+   },
+   {
+    "who": "Chris Pappas",
+    "level": "Federal",
+    "role": "U.S. Representative, NH-1 · running for U.S. Senate",
+    "platform": "Instagram",
+    "url": "https://www.instagram.com/pappasfornh/",
+    "type": "Campaign",
+    "source": "https://ballotpedia.org/Chris_Pappas",
+    "person": "pappas"
+   },
+   {
+    "who": "Chris Pappas",
+    "level": "Federal",
+    "role": "U.S. Representative, NH-1 · running for U.S. Senate",
+    "platform": "YouTube",
+    "url": "https://www.youtube.com/@ChrisPappasNH",
+    "type": "Campaign",
+    "source": "https://ballotpedia.org/Chris_Pappas",
+    "person": "pappas"
+   },
+   {
+    "who": "Chris Pappas",
+    "level": "Federal",
+    "role": "U.S. Representative, NH-1 · running for U.S. Senate",
+    "platform": "TikTok",
+    "url": "https://www.tiktok.com/@chrispappasnh",
+    "type": "Campaign",
+    "source": "https://ballotpedia.org/Chris_Pappas",
+    "person": "pappas"
+   },
+   {
+    "who": "Kelly Ayotte",
+    "level": "State",
+    "role": "Governor",
+    "platform": "X",
+    "url": "https://x.com/KellyAyotte",
+    "type": "Campaign",
+    "source": "https://ballotpedia.org/Kelly_Ayotte",
+    "person": "ayotte"
+   },
+   {
+    "who": "Kelly Ayotte",
+    "level": "State",
+    "role": "Governor",
+    "platform": "Facebook",
+    "url": "https://www.facebook.com/KellyAyotteForNH",
+    "type": "Campaign",
+    "source": "https://ballotpedia.org/Kelly_Ayotte",
+    "person": "ayotte"
+   },
+   {
+    "who": "Kelly Ayotte",
+    "level": "State",
+    "role": "Governor",
+    "platform": "Instagram",
+    "url": "https://www.instagram.com/kelly4nh/",
+    "type": "Campaign",
+    "source": "https://ballotpedia.org/Kelly_Ayotte",
+    "person": "ayotte"
+   },
+   {
+    "who": "Kelly Ayotte",
+    "level": "State",
+    "role": "Governor",
+    "platform": "YouTube",
+    "url": "https://www.youtube.com/@KellyforNewHampshire",
+    "type": "Campaign",
+    "source": "https://ballotpedia.org/Kelly_Ayotte",
+    "person": "ayotte"
+   },
+   {
+    "who": "Kelly Ayotte",
+    "level": "State",
+    "role": "Governor · newsroom channel",
+    "platform": "YouTube",
+    "url": "https://youtube.com/@governorayottenewsroom",
+    "type": "Official",
+    "source": "https://nga.org/governors/social",
+    "person": "ayotte"
+   },
+   {
+    "who": "Janet Stevens",
+    "level": "State",
+    "role": "Executive Council, District 3",
+    "platform": "Facebook",
+    "url": "https://www.facebook.com/JanetStevens4NH",
+    "type": "Campaign",
+    "source": "https://ballotpedia.org/Janet_Stevens",
+    "person": "stevens"
+   },
+   {
+    "who": "Janet Stevens",
+    "level": "State",
+    "role": "Executive Council, District 3",
+    "platform": "X",
+    "url": "https://x.com/JanetStevensNH",
+    "type": "Campaign",
+    "source": "https://ballotpedia.org/Janet_Stevens",
+    "person": "stevens"
+   },
+   {
+    "who": "Rebecca Perkins Kwoka",
+    "level": "State",
+    "role": "State Senator, District 21",
+    "platform": "Facebook",
+    "url": "https://www.facebook.com/voterebeccanh",
+    "type": "Campaign",
+    "source": "https://ballotpedia.org/Rebecca_Perkins_Kwoka",
+    "person": "perkinskwoka"
+   },
+   {
+    "who": "Rebecca Perkins Kwoka",
+    "level": "State",
+    "role": "State Senator, District 21",
+    "platform": "X",
+    "url": "https://x.com/LeaderRPK",
+    "type": "Campaign",
+    "source": "https://ballotpedia.org/Rebecca_Perkins_Kwoka",
+    "person": "perkinskwoka"
+   },
+   {
+    "who": "Rebecca Perkins Kwoka",
+    "level": "State",
+    "role": "State Senator, District 21",
+    "platform": "Instagram",
+    "url": "https://www.instagram.com/rebecca_perkins_kwoka/",
+    "type": "Campaign",
+    "source": "https://ballotpedia.org/Rebecca_Perkins_Kwoka",
+    "person": "perkinskwoka"
+   },
+   {
+    "who": "Jennifer Mandelbaum",
+    "level": "State",
+    "role": "State Rep, Ward 1",
+    "platform": "Facebook",
+    "url": "https://www.facebook.com/JenForNewHampshire",
+    "type": "Campaign",
+    "source": "https://ballotpedia.org/Jennifer_Mandelbaum",
+    "person": "mandelbaum"
+   },
+   {
+    "who": "Jennifer Mandelbaum",
+    "level": "State",
+    "role": "State Rep, Ward 1",
+    "platform": "X",
+    "url": "https://x.com/JenMandelbaum",
+    "type": "Campaign",
+    "source": "https://ballotpedia.org/Jennifer_Mandelbaum",
+    "person": "mandelbaum"
+   },
+   {
+    "who": "David Meuse",
+    "level": "State",
+    "role": "State Rep, Wards 1 and 5",
+    "platform": "Facebook",
+    "url": "https://www.facebook.com/meuse4nh",
+    "type": "Official",
+    "source": "https://ballotpedia.org/David_Meuse",
+    "person": "meuse"
+   },
+   {
+    "who": "Carrie Sorensen",
+    "level": "State",
+    "role": "State Rep, Ward 2",
+    "platform": "Instagram",
+    "url": "https://www.instagram.com/carrie4nh/",
+    "type": "Campaign",
+    "source": "https://ballotpedia.org/Carrie_Sorensen",
+    "person": "sorensen"
+   },
+   {
+    "who": "Ned Raynolds",
+    "level": "State",
+    "role": "State Rep, Wards 2, 3 and 4",
+    "platform": "LinkedIn",
+    "url": "https://www.linkedin.com/in/nedraynolds/",
+    "type": "Official",
+    "source": "https://ballotpedia.org/Ned_Raynolds",
+    "person": "raynolds"
+   },
+   {
+    "who": "Gerry Ward",
+    "level": "State",
+    "role": "State Rep, Ward 4",
+    "platform": "Facebook",
+    "url": "https://www.facebook.com/GerryWardForStateRepresentative",
+    "type": "Official",
+    "source": "https://ballotpedia.org/Gerry_Ward",
+    "person": "ward"
+   }
+  ],
+  "notListed": [
+   {
+    "who": "City Council (9 members) and School Board (9 members)",
+    "why": "The city lists email addresses for elected members, not social accounts. A member can confirm an official account and it will be added.",
+    "source": "https://www.portsmouthnh.gov/cityclerk/elected-city-officials"
+   },
+   {
+    "who": "Portsmouth School Department (SAU 52)",
+    "why": "The district site blocks automated reading, so its accounts could not be verified."
+   },
+   {
+    "who": "Buzz Scherr, State Rep, Ward 3",
+    "why": "Ballotpedia lists only personal accounts, which Agorri does not publish.",
+    "source": "https://ballotpedia.org/Buzz_Scherr"
+   },
+   {
+    "who": "Kate Murray, State Rep, Ward 5",
+    "why": "Resigned in August 2026; the seat is on the Nov 3 ballot."
+   },
+   {
+    "who": "Rockingham County Sheriff's Office",
+    "why": "No social accounts on rockso.org. Civil office (603) 679-2241, dispatch (603) 679-2225.",
+    "source": "https://www.rockso.org/"
+   },
+   {
+    "who": "County Attorney, County Commissioner, Register of Deeds",
+    "why": "Not yet checked against each office's own site."
+   }
+  ],
+  "rules": "Official means the account is listed by the office itself or labeled official by Ballotpedia. Campaign means Ballotpedia labels it a campaign account; it is still the person's public voice, so it is listed and marked. Personal accounts are never listed. No account is added from memory or a search result; each row links to where it was found."
+ },
+ "links": [
+  {
+   "name": "Police logs",
+   "url": "https://www.portsmouthnh.gov/police/police-logs",
+   "note": "Posted by the department. Agorri does not republish names."
+  },
+  {
+   "name": "Construction projects map (DPW)",
+   "url": "https://www.portsmouthnh.gov/publicworks/projects"
+  },
+  {
+   "name": "Anticipated projects dashboard (DPW)",
+   "url": "https://www.portsmouthnh.gov/projects/dashboard"
+  },
+  {
+   "name": "Snow parking bans and CodeRED sign-up",
+   "url": "https://www.portsmouthnh.gov/publicworks/parkportsmouth/snow-impacts"
+  },
+  {
+   "name": "Library events",
+   "url": "https://portsmouthpl.librarycalendar.com/events/upcoming"
+  },
+  {
+   "name": "City newsletter",
+   "url": "https://www.portsmouthnh.gov/city/portsmouths-community-newsletter"
+  },
+  {
+   "name": "Government TV Channel 22",
+   "url": "https://www.portsmouthnh.gov/city/portsmouths-government-tv-channel-22"
+  }
+ ],
+ "newsSources": [
+  {
+   "name": "City of Portsmouth news and press releases",
+   "url": "https://www.portsmouthnh.gov/news",
+   "status": "used"
+  },
+  {
+   "name": "Portsmouth Patch",
+   "url": "https://patch.com/new-hampshire/portsmouth-nh",
+   "status": "used"
+  },
+  {
+   "name": "Seacoast Current",
+   "url": "https://seacoastcurrent.com/",
+   "status": "used"
+  },
+  {
+   "name": "Portsmouth Herald / Seacoastonline",
+   "url": "https://www.seacoastonline.com/",
+   "status": "paywalled, not used"
+  },
+  {
+   "name": "NH Bulletin",
+   "url": "https://newhampshirebulletin.com/",
+   "status": "not yet connected"
+  },
+  {
+   "name": "NHPR",
+   "url": "https://www.nhpr.org/",
+   "status": "not yet connected"
+  },
+  {
+   "name": "WMUR",
+   "url": "https://www.wmur.com/",
+   "status": "not yet connected"
+  }
+ ],
+ "events_as_of": "2026-10-27",
+ "events": [
+  {
+   "date": "2026-10-27",
+   "time": "5:30 pm",
+   "title": "Wine Tasting with Jude Blake and Friends: Casey Ryan",
+   "venue": "The Music Hall",
+   "town": "Portsmouth",
+   "kind": "Food & drink",
+   "url": "https://www.themusichall.org/events/winetasting261027/",
+   "source": "The Music Hall"
+  },
+  {
+   "date": "2026-10-27",
+   "time": "6:00 pm",
+   "title": "NT Live: Les Liaisons Dangereuses",
+   "venue": "The Music Hall",
+   "town": "Portsmouth",
+   "kind": "Theater",
+   "url": "https://www.themusichall.org/events/nt-live-les-liaisons-dangereuses/",
+   "source": "The Music Hall"
+  },
+  {
+   "date": "2026-10-27",
+   "time": "7:00 pm",
+   "title": "Pints! Camera! Action! Leatherface (1990)",
+   "venue": "The Music Hall",
+   "town": "Portsmouth",
+   "kind": "Film",
+   "url": "https://www.themusichall.org/events/pints-camera-action-leatherface-1990/",
+   "source": "The Music Hall"
+  },
+  {
+   "date": "2026-10-27",
+   "time": "7:00 pm",
+   "title": "McCue Comedy Class Graduation Show",
+   "venue": "McCues Comedy Club, 580 Portsmouth Traffic Circle",
+   "town": "Portsmouth",
+   "kind": "Comedy",
+   "url": "https://patch.com/new-hampshire/portsmouth-nh/calendar/event/20261027/10fb7a68-0c08-455d-953c-9ca755904eb9/mccue-comedy-class-graduation-show",
+   "source": "Patch calendar"
+  },
+  {
+   "date": "2026-10-29",
+   "time": "9:30 am and 11:30 am",
+   "title": "Chicka Chicka Boom Boom: The Musical",
+   "venue": "The Music Hall",
+   "town": "Portsmouth",
+   "kind": "Family",
+   "url": "https://www.themusichall.org/events/chickachickaboomboom/",
+   "source": "The Music Hall"
+  },
+  {
+   "date": "2026-10-29",
+   "time": "7:30 pm",
+   "title": "Andy Gross",
+   "venue": "The Music Hall",
+   "town": "Portsmouth",
+   "kind": "Comedy",
+   "url": "https://www.themusichall.org/events/andygross/",
+   "source": "The Music Hall"
+  },
+  {
+   "date": "2026-10-30",
+   "time": "5 to 8 pm",
+   "title": "Trick-or-treat hours",
+   "venue": "Citywide",
+   "town": "Portsmouth",
+   "kind": "Halloween",
+   "url": "https://www.portsmouthnh.gov/city/press-releases/city-announces-trick-or-treat-hours-and-fall-events",
+   "source": "City of Portsmouth"
+  },
+  {
+   "date": "2026-10-30",
+   "time": "8:00 pm",
+   "title": "The Breakers: A Tribute to Tom Petty",
+   "venue": "The Music Hall",
+   "town": "Portsmouth",
+   "kind": "Music",
+   "url": "https://www.themusichall.org/events/thebreakers-tompetty/",
+   "source": "The Music Hall"
+  },
+  {
+   "date": "2026-10-30",
+   "time": "8:00 pm",
+   "title": "Clifford Cameron's Vinyl Quartet",
+   "venue": "The Music Hall",
+   "town": "Portsmouth",
+   "kind": "Music",
+   "url": "https://www.themusichall.org/events/cliffordcameron/",
+   "source": "The Music Hall"
+  },
+  {
+   "date": "2026-10-30",
+   "time": "8 pm to midnight",
+   "title": "Portsmouth Rave Project: Freaky Friday",
+   "venue": "3S Artspace, 319 Vaughan St",
+   "town": "Portsmouth",
+   "kind": "Halloween",
+   "url": "https://www.3sarts.org/events/587336231780",
+   "source": "3S Artspace",
+   "price": "$25 to $35",
+   "note": "21+"
+  },
+  {
+   "date": "2026-10-30",
+   "time": "5:00 pm",
+   "title": "Free Halloween Bash at the Exeter Y",
+   "venue": "56 Linden St",
+   "town": "Exeter",
+   "kind": "Halloween",
+   "url": "https://patch.com/new-hampshire/portsmouth-nh/calendar/event/20261030/ba0891b1-17f9-4613-a408-57c9b868a251/free-halloween-bash-at-the-exeter-y",
+   "source": "Patch calendar",
+   "price": "Free"
+  },
+  {
+   "date": "2026-10-31",
+   "time": "4:00 pm",
+   "title": "Hocus Pocus Taste-A-Long Experience",
+   "venue": "The Music Hall",
+   "town": "Portsmouth",
+   "kind": "Halloween",
+   "url": "https://www.themusichall.org/events/hocuspocus-tastealong/",
+   "source": "The Music Hall"
+  },
+  {
+   "date": "2026-10-31",
+   "time": "7:00 pm",
+   "title": "Portsmouth Halloween Parade",
+   "venue": "Steps off from Peirce Island",
+   "town": "Portsmouth",
+   "kind": "Halloween",
+   "url": "https://www.portsmouthnh.gov/city/press-releases/parking-restrictions-and-road-closures-2026-portsmouth-halloween-parade",
+   "source": "City of Portsmouth",
+   "note": "31st year, independently organized. Downtown streets closed 6 to 10 pm."
+  },
+  {
+   "date": "2026-10-31",
+   "time": "9:00 pm",
+   "title": "'The Graveyard Shift'",
+   "venue": "Players Ring, 105 Marcy St",
+   "town": "Portsmouth",
+   "kind": "Theater",
+   "url": "https://patch.com/new-hampshire/portsmouth-nh/calendar/event/20261031/80ac8b8a-ff01-47b9-9f1f-ce7c5826130e/the-graveyard-shift",
+   "source": "Patch calendar"
+  },
+  {
+   "date": "2026-11-01",
+   "time": "12:00 pm",
+   "title": "Girl Scout Fall Fest",
+   "venue": "Camp Seawood, 350 Banfield Rd",
+   "town": "Portsmouth",
+   "kind": "Family",
+   "url": "https://patch.com/new-hampshire/portsmouth-nh/calendar/event/20261101/bbe8e0a3-0bd4-4c59-b7d0-a896ec8c3bd0/girl-scout-fall-fest",
+   "source": "Patch calendar"
+  },
+  {
+   "date": "2026-11-02",
+   "time": "6:30 pm",
+   "title": "The Mind Reset workshop",
+   "venue": "Portsmouth Public Library, 175 Parrott Ave",
+   "town": "Portsmouth",
+   "kind": "Library",
+   "url": "https://portsmouthpl.librarycalendar.com/event/mind-reset",
+   "source": "Library calendar",
+   "price": "Free"
+  },
+  {
+   "date": "2026-11-03",
+   "time": "8 am to 7 pm",
+   "title": "Election Day: polls open",
+   "venue": "Your ward polling place",
+   "town": "Portsmouth",
+   "kind": "Civic",
+   "url": "https://www.portsmouthnh.gov/city/press-releases/voter-information-november-3-2026-general-election-0",
+   "source": "City of Portsmouth"
+  },
+  {
+   "date": "2026-11-05",
+   "time": "7:30 pm",
+   "title": "Greg Piccolo and Heavy Juice",
+   "venue": "Jimmy's Jazz & Blues Club, 135 Congress St",
+   "town": "Portsmouth",
+   "kind": "Music",
+   "url": "https://patch.com/new-hampshire/portsmouth-nh/calendar/event/20261105/aa3297d6-4a80-4265-a46c-584b3178c207/greg-piccolo-and-heavy-juice",
+   "source": "Patch calendar"
+  },
+  {
+   "date": "2026-11-10",
+   "time": "9:00 am",
+   "title": "Veterans Breakfast and Quilts of Valor presentation (10 am)",
+   "venue": "Senior Activity Center, 125 Cottage St",
+   "town": "Portsmouth",
+   "kind": "Veterans",
+   "url": "https://www.portsmouthnh.gov/city/press-releases/city-announces-trick-or-treat-hours-and-fall-events",
+   "source": "City of Portsmouth",
+   "note": "Veterans and spouses. RSVP 603-610-4433."
+  },
+  {
+   "date": "2026-11-12",
+   "time": "5:30 pm",
+   "title": "The Enduring Legacy of Wentworth Cheswill",
+   "venue": "Portsmouth Historical Society, 10 Middle St",
+   "town": "Portsmouth",
+   "kind": "Talk",
+   "url": "https://www.strawberybanke.org/events/",
+   "source": "Strawbery Banke",
+   "price": "$15 members, $20 nonmembers"
+  },
+  {
+   "date": "2026-11-13",
+   "time": "8:00 pm",
+   "title": "Emo Philips",
+   "venue": "McCues Comedy Club, 580 Portsmouth Traffic Circle",
+   "town": "Portsmouth",
+   "kind": "Comedy",
+   "url": "https://patch.com/new-hampshire/portsmouth-nh/calendar/event/20261113/7ddfecb1-2318-4344-ad04-1bd490fd323e/comedy-legend-emo-philips-at-mccues-comedy-club",
+   "source": "Patch calendar"
+  },
+  {
+   "date": "2026-11-14",
+   "time": "10:00 am",
+   "title": "Seacoast Artisans 27th Annual Holiday Fine Arts & Craft Show",
+   "venue": "Great Bay Community College, 320 Corporate Dr",
+   "town": "Portsmouth",
+   "kind": "Market",
+   "url": "https://patch.com/new-hampshire/portsmouth-nh/calendar/event/20261114/e9f3b691-1343-46af-b181-cbddadfcb262/seacoast-artisans-27th-annual-holiday-fine-arts-craft-show-save-the-date",
+   "source": "Patch calendar"
+  },
+  {
+   "date": "2026-11-19",
+   "time": "9:30 am to 1:30 pm",
+   "title": "Craft Fair and Thanksgiving Luncheon (lunch 11:30)",
+   "venue": "Community Campus, 100 Campus Dr",
+   "town": "Portsmouth",
+   "kind": "Market",
+   "url": "https://www.portsmouthnh.gov/city/press-releases/city-announces-trick-or-treat-hours-and-fall-events",
+   "source": "City of Portsmouth"
+  },
+  {
+   "date": "2026-12-04",
+   "time": "",
+   "title": "Candlelight Stroll opens",
+   "venue": "Strawbery Banke Museum",
+   "town": "Portsmouth",
+   "kind": "Holiday",
+   "url": "https://www.strawberybanke.org/events/",
+   "source": "Strawbery Banke"
+  }
+ ],
+ "eventsNote": "Events from The Music Hall, 3S Artspace, Strawbery Banke, the Library, the City and the Patch community calendar, as of Oct 27. Confirm with the organizer. Not yet connected: Eventbrite, the Chamber calendar, the Seacoast Rep, Jimmy's, Prescott Park.",
+ "posts": [
+  {
+   "who": "Jeanne Shaheen",
+   "platform": "Bluesky",
+   "when": "2026-10-27T20:42:00Z",
+   "gist": "Thanks the NH Coalition Against Domestic and Sexual Violence for its Lifetime Achievement Award; survivors deserve dignity and justice.",
+   "url": "https://bsky.app/profile/shaheen.senate.gov/post/3myv3yu3vzk2u",
+   "person": "shaheen",
+   "images": 3,
+   "snap": true
+  },
+  {
+   "who": "Jeanne Shaheen",
+   "platform": "Bluesky",
+   "when": "2026-10-27T18:21:00Z",
+   "gist": "Marks eight years since the Tree of Life Synagogue shooting in Pittsburgh and reaffirms commitment to combating antisemitism and hate.",
+   "url": "https://bsky.app/profile/shaheen.senate.gov/post/3myuu4mi63k26",
+   "person": "shaheen",
+   "snap": true
+  },
+  {
+   "who": "Jeanne Shaheen",
+   "platform": "Bluesky",
+   "when": "2026-10-26T16:31:00Z",
+   "gist": "Promotes the bipartisan INSULIN Act, which would cap insulin costs at $35 a month.",
+   "url": "https://bsky.app/profile/shaheen.senate.gov/post/3mys5i6x74c2s",
+   "person": "shaheen",
+   "snap": true
+  },
+  {
+   "who": "Jeanne Shaheen",
+   "platform": "Bluesky",
+   "when": "2026-10-24T16:18:00Z",
+   "gist": "Thanks Mount Washington Observatory staff, interns and volunteers after a visit.",
+   "url": "https://bsky.app/profile/shaheen.senate.gov/post/3myn3sizsjc2o",
+   "person": "shaheen",
+   "images": 4,
+   "snap": true
+  },
+  {
+   "who": "Jeanne Shaheen",
+   "platform": "Bluesky",
+   "when": "2026-10-23T21:45:00Z",
+   "gist": "Supports youth substance-misuse prevention and education as Red Ribbon Week begins.",
+   "url": "https://bsky.app/profile/shaheen.senate.gov/post/3myl5mmn7ks2n",
+   "person": "shaheen",
+   "snap": true
+  },
+  {
+   "who": "Jeanne Shaheen",
+   "platform": "Bluesky",
+   "when": "2026-10-23T16:10:00Z",
+   "gist": "Joined Seacoast leaders to discuss progress and remaining work on PFAS contamination at Pease.",
+   "url": "https://bsky.app/profile/shaheen.senate.gov/post/3mykkwcuow22w",
+   "person": "shaheen",
+   "images": 4,
+   "snap": true
+  },
+  {
+   "who": "Jeanne Shaheen",
+   "platform": "Bluesky",
+   "when": "2026-10-22T20:50:00Z",
+   "gist": "Stresses American leadership abroad for national security and alliances, after speaking at the UNH 2026 Security Forum.",
+   "url": "https://bsky.app/profile/shaheen.senate.gov/post/3myik3kzxns2p",
+   "person": "shaheen",
+   "images": 4,
+   "snap": true
+  },
+  {
+   "who": "Jeanne Shaheen",
+   "platform": "Bluesky",
+   "when": "2026-10-22T17:36:00Z",
+   "gist": "Criticizes the appointment of a Pentagon public affairs official to run Stars and Stripes, arguing it undermines independent reporting.",
+   "url": "https://bsky.app/profile/shaheen.senate.gov/post/3myi7bnamuc2q",
+   "person": "shaheen",
+   "snap": true
+  },
+  {
+   "who": "Maggie Hassan",
+   "platform": "Bluesky",
+   "when": "2026-10-26T19:18:37Z",
+   "quote": "Meanwhile, Trump's war with Iran has cost the average family an estimated $850 more at the pump.",
+   "gist": "Links to a new Joint Economic Committee report.",
+   "url": "https://bsky.app/profile/hassan.senate.gov/post/3mysgtark2d26",
+   "person": "hassan"
+  },
+  {
+   "who": "Maggie Hassan",
+   "platform": "Bluesky",
+   "when": "2026-10-26T19:18:34Z",
+   "quote": "Americans are paying more at the pump while Trump personally profits off of Big Oil.",
+   "gist": "Says a JEC minority report estimates the President's oil and gas stock holdings grew to as much as $81.6 million during the Iran war. Includes a video.",
+   "url": "https://bsky.app/profile/hassan.senate.gov/post/3mysgt64pi72b",
+   "person": "hassan"
+  },
+  {
+   "who": "Maggie Hassan",
+   "platform": "Bluesky",
+   "when": "2026-10-26T15:05:04Z",
+   "gist": "Shares a Daily Beast article, \"Trump Sparks Fury With Confession His Advisers Tried to Stop.\"",
+   "url": "https://bsky.app/profile/hassan.senate.gov/post/3myrynulxzc2y",
+   "person": "hassan",
+   "snap": true
+  },
+  {
+   "who": "Maggie Hassan",
+   "platform": "Bluesky",
+   "when": "2026-10-26T14:44:19Z",
+   "quote": "Trump and Big Oil profit while Americans have to spend $100+ billion more on gas.",
+   "gist": "Shares a CBS News link.",
+   "url": "https://bsky.app/profile/hassan.senate.gov/post/3myrxisd76c2j",
+   "person": "hassan"
+  },
+  {
+   "who": "Maggie Hassan",
+   "platform": "Bluesky",
+   "when": "2026-10-25T13:20:48Z",
+   "quote": "It was great to tour Jackson's new fire station to meet with local firefighters and local officials.",
+   "gist": "Says firefighters need adequate facilities, equipment and resources.",
+   "url": "https://bsky.app/profile/hassan.senate.gov/post/3mypcei5q6326",
+   "person": "hassan",
+   "images": 2
+  },
+  {
+   "who": "Maggie Hassan",
+   "platform": "Bluesky",
+   "when": "2026-10-23T19:22:28Z",
+   "quote": "Every day, the Raymond Coalition brings Granite Staters together to support young people and prevent substance misuse.",
+   "gist": "Praises the coalition's annual prevention summit.",
+   "url": "https://bsky.app/profile/hassan.senate.gov/post/3mykvnehk3p2f",
+   "person": "hassan",
+   "images": 3
+  },
+  {
+   "who": "Maggie Hassan",
+   "platform": "Bluesky",
+   "when": "2026-10-23T16:52:10Z",
+   "gist": "Says farmers are on track to spend about $2.4 billion more on diesel this year than in 2025, and attributes record-high diesel prices to the Iran war.",
+   "url": "https://bsky.app/profile/hassan.senate.gov/post/3myknamab7u2z",
+   "person": "hassan",
+   "snap": true
+  },
+  {
+   "who": "City of Portsmouth",
+   "platform": "City release",
+   "when": "2026-10-23T12:00:00Z",
+   "quote": "FY27 CDBG Public Facility and Accessibility Improvement Grants Available",
+   "url": "https://www.portsmouthnh.gov/community/news/fy27-cdbg-public-facility-and-accessibility-improvement-grants-available"
+  },
+  {
+   "who": "City of Portsmouth",
+   "platform": "City release",
+   "when": "2026-10-22T12:00:00Z",
+   "quote": "City of Portsmouth, NH DPW Launches Automated Collection Program for Trash and Recycling",
+   "url": "https://www.portsmouthnh.gov/city/news/city-portsmouth-nh-dpw-launches-automated-collection-program-trash-and-recycling"
+  },
+  {
+   "who": "City of Portsmouth",
+   "platform": "City release",
+   "when": "2026-10-16T12:00:00Z",
+   "quote": "DPW Hosts Cate Street Bridge Project Public Information Session on October 20, 2026",
+   "url": "https://www.portsmouthnh.gov/city/press-releases/dpw-hosts-cate-street-bridge-project-public-information-session-october-20-2026"
+  },
+  {
+   "who": "City of Portsmouth",
+   "platform": "City release",
+   "when": "2026-10-16T12:00:00Z",
+   "quote": "DPW Releases Q3 2026 Drinking Water Supply Updates for the Portsmouth and Pease Tradeport Water Systems",
+   "url": "https://www.portsmouthnh.gov/publicworks/water/news/dpw-releases-q3-2026-drinking-water-supply-updates-portsmouth-and-pease"
+  },
+  {
+   "who": "City of Portsmouth",
+   "platform": "City release",
+   "when": "2026-10-15T12:00:00Z",
+   "quote": "Voter Information for the November 3, 2026, General Election",
+   "url": "https://www.portsmouthnh.gov/city/press-releases/voter-information-november-3-2026-general-election-0"
+  },
+  {
+   "who": "City of Portsmouth",
+   "platform": "City release",
+   "when": "2026-10-13T12:00:00Z",
+   "quote": "Parking Restrictions and Road Closures for the 2026 Portsmouth Halloween Parade",
+   "url": "https://www.portsmouthnh.gov/city/press-releases/parking-restrictions-and-road-closures-2026-portsmouth-halloween-parade"
+  },
+  {
+   "who": "City of Portsmouth",
+   "platform": "City release",
+   "when": "2026-10-13T12:00:00Z",
+   "quote": "Falling Leaves, Cleaner Water: Yard Waste Guidance",
+   "url": "https://www.portsmouthnh.gov/city/press-releases/falling-leaves-cleaner-water-yard-waste-guidance"
+  },
+  {
+   "who": "City of Portsmouth",
+   "platform": "City release",
+   "when": "2026-10-02T12:00:00Z",
+   "quote": "City Announces Trick-or-Treat Hours and Fall Events",
+   "url": "https://www.portsmouthnh.gov/city/press-releases/city-announces-trick-or-treat-hours-and-fall-events"
+  }
+ ],
+ "postsAsOf": "2026-10-27T21:15:00Z",
+ "postsNote": "Snapshot, not live. Bluesky posts come from its open API and city releases from portsmouthnh.gov. Facebook, Instagram, X, TikTok and YouTube need API access or a collector before their posts can appear here. Quoted text is the opening of the post; the rest is a short summary. Tap any post to read it in full."
+}

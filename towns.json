@@ -1,0 +1,12 @@
+{
+ "note": "Agorri town registry. To add a town: drop its three data files next to the page and add an entry here with status \"live\". Towns with status \"soon\" show a request page.",
+ "default": "portsmouth",
+ "towns": [
+  {"id":"portsmouth","name":"Portsmouth","state":"NH","stateName":"New Hampshire","kind":"City","status":"live","site":"https://www.portsmouthnh.gov/","files":{"record":"portsmouth.json","beyond":"beyond.json","local":"local.json"}},
+  {"id":"dover","name":"Dover","state":"NH","stateName":"New Hampshire","kind":"City","status":"soon","site":"https://www.dover.nh.gov/"},
+  {"id":"exeter","name":"Exeter","state":"NH","stateName":"New Hampshire","kind":"Town","status":"soon","site":"https://www.exeternh.gov/"},
+  {"id":"hampton","name":"Hampton","state":"NH","stateName":"New Hampshire","kind":"Town","status":"soon","site":"https://www.hamptonnh.gov/"},
+  {"id":"durham","name":"Durham","state":"NH","stateName":"New Hampshire","kind":"Town","status":"soon","site":"https://www.durhamnh.gov/"},
+  {"id":"rye","name":"Rye","state":"NH","stateName":"New Hampshire","kind":"Town","status":"soon","site":"https://www.ryenh.gov/"}
+ ]
+}
