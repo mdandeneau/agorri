@@ -4,6 +4,7 @@
 // At most 4 browsers per address per town; usernames are unique per town. GET ?town= tells this browser whether it's checked.
 // This is an honor-system check (anyone can type a real address). Upgrade path: mailed codes (method "mail").
 import { censusUrl, addressInTown } from '../../lib/address.js';
+import { getSalt } from '../../lib/salt.js';
 
 const MAX_PER_ADDRESS = 4;
 const json = (o, status = 200) => new Response(JSON.stringify(o), { status, headers: { 'content-type': 'application/json; charset=utf-8', 'cache-control': 'no-store' } });
@@ -16,7 +17,7 @@ async function hash(s, salt) {
 export async function onRequest(context) {
   const { request, env } = context;
   if (!env.DB) return json({ error: 'Address check is not connected yet.' }, 503);
-  const salt = env.TALK_SALT || 'agorri';
+  const salt = await getSalt(env);
   const url = new URL(request.url);
   const cid = clean(request.headers.get('x-agorri-client'), 64);
   if (!cid) return json({ error: 'Missing browser id.' }, 400);

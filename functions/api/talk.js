@@ -10,6 +10,7 @@
 //   Without ANTHROPIC_API_KEY: posts go live after the rule checks, and three flags hide a post until a person reviews it.
 // Posting and commenting require an address-checked resident (/api/verify). Support and flags are open to everyone.
 import { MOD_POLICY, modPrompt, modVerdict } from '../../lib/moderation.js';
+import { getSalt } from '../../lib/salt.js';
 
 const KINDS = ['idea', 'question', 'argument', 'comment', 'neighbor'];
 const REF_TYPES = ['town', 'issue', 'meeting', 'decision', 'post', 'news'];
@@ -75,7 +76,7 @@ function shape(r, mk, kids, last, me, mod, aiOn) {
 export async function onRequest(context) {
   const { request, env } = context;
   if (!env.DB) return json({ error: 'Talk is not connected yet.' }, 503);
-  const salt = env.TALK_SALT || 'agorri';
+  const salt = await getSalt(env);
   const url = new URL(request.url);
   const cid = clean(request.headers.get('x-agorri-client'), 64);
   const me = cid ? await hash(cid, salt) : '';

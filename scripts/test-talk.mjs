@@ -7,7 +7,7 @@ import * as verify from '../functions/api/verify.js';
 import { modVerdict } from '../lib/moderation.js';
 import { addressInTown } from '../lib/address.js';
 const db = new DatabaseSync(':memory:');
-for (const f of ['0001_talk.sql', '0002_moderation_and_residents.sql']) db.exec(fs.readFileSync(new URL('../migrations/' + f, import.meta.url), 'utf8'));
+for (const f of ['setup-all.sql']) db.exec(fs.readFileSync(new URL('../migrations/' + f, import.meta.url), 'utf8'));
 const D1 = { prepare(sql) { let a = []; const st = { bind(...x) { a = x; return st; }, async all() { return { results: db.prepare(sql).all(...a) }; }, async first() { return db.prepare(sql).get(...a) ?? null; }, async run() { const r = db.prepare(sql).run(...a); return { success: true, meta: { changes: r.changes } }; } }; return st; } };
 const TOWNS = { towns: [{ id: 'portsmouth', name: 'Portsmouth', state: 'NH', status: 'live' }, { id: 'nashua', name: 'Nashua', state: 'NH', status: 'live' }] };
 const ASSETS = { fetch: async () => new Response(JSON.stringify(TOWNS)) };
@@ -135,4 +135,7 @@ r = await post({ id: 'na1', kind: 'comment', body: 'The council are idiots about
 t('without AI: rule checks only, post goes live', r.status === 200 && r.j.status === 'ok' && aiCalls === before);
 for (const c of ['h1', 'h2', 'h3']) await req(talk, 'POST', { town: 'portsmouth', action: 'report', key: r.j.key, reason: 'Harassment' }, c, NOAI);
 t('without AI: three flags hide it until a person reviews', !(await find(r.j.key, 'erin', NOAI)));
+const NOSALT = { ...ENV, TALK_SALT: undefined };
+await list('erin', NOSALT);
+t('no TALK_SALT secret: a random salt is created once in the database', db.prepare("SELECT v FROM talk_config WHERE k = 'salt'").get().v.length === 48);
 console.log(`\n${ok} passed, ${bad} failed`); process.exit(bad ? 1 : 0);
