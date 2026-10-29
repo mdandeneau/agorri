@@ -13,7 +13,8 @@
    "dom": 45,
    "domLastYear": 34,
    "overList": 32.7,
-   "note": "Redfin's page summary line shows an average of $760K, up 1.0%; the median above is from the page body and chart. Zip codes 03801, 03870, 03904, 03840, 03803."
+   "note": "Redfin's page summary line shows an average of $760K, up 1.0%; the median above is from the page body and chart. Zip codes 03801, 03870, 03904, 03840, 03803.",
+   "soldLabel": "Homes sold"
   },
   "seacoast": {
    "source": "Seacoast Board of Realtors, reported by Patch",
@@ -44,7 +45,8 @@
     "what": "58 State St, 8 bedrooms, 12 baths, 8,583 sq ft",
     "price": 8300000,
     "note": "Sold $200,000 under asking. Reported as the largest sale in Portsmouth's history.",
-    "date": "2026-09"
+    "date": "2026-09",
+    "tagline": "the largest home sale in city history"
    },
    {
     "what": "One Harbour Place condo, 2 bedrooms, 3 baths, 2,350 sq ft, water view",
@@ -103,7 +105,8 @@
    "source": {
     "label": "City of Portsmouth DPW, Oct 22",
     "url": "https://www.portsmouthnh.gov/city/news/city-portsmouth-nh-dpw-launches-automated-collection-program-trash-and-recycling"
-   }
+   },
+   "oneLiner": "Pannaway gets the new automated trash and recycling bins in November; other neighborhoods in 2027"
   },
   {
    "date": "2026-10-13",
@@ -1261,5 +1264,17 @@
   }
  ],
  "postsAsOf": "2026-10-27T21:15:00Z",
- "postsNote": "Snapshot, not live. Bluesky posts come from its open API and city releases from portsmouthnh.gov. Facebook, Instagram, X, TikTok and YouTube need API access or a collector before their posts can appear here. Quoted text is the opening of the post; the rest is a short summary. Tap any post to read it in full."
+ "postsNote": "Snapshot, not live. Bluesky posts come from its open API and city releases from portsmouthnh.gov. Facebook, Instagram, X, TikTok and YouTube need API access or a collector before their posts can appear here. Quoted text is the opening of the post; the rest is a short summary. Tap any post to read it in full.",
+ "notHere": [
+  {
+   "title": "Roadwork",
+   "text": "Public Works keeps a construction map and an anticipated projects dashboard; they are not pulled in yet.",
+   "url": "https://www.portsmouthnh.gov/publicworks/projects",
+   "label": "construction map"
+  },
+  {
+   "title": "Schools",
+   "text": "The district site blocks automated reading; calendar and School Board items need a direct feed from SAU 52."
+  }
+ ]
 }

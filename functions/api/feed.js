@@ -1,5 +1,6 @@
-// GET /api/feed : merges the official sources in /feeds.json into one feed.
-// Cached for 5 minutes at Cloudflare's edge so upstream sites see at most ~12 requests an hour.
+// GET /api/feed?town=<id> : merges the official sources in that town's feeds file (towns.json files.feeds) into one feed.
+// Sources tagged "safety" (police and fire) keep the tag so the page can show them on the Police and fire page.
+// Cached for 5 minutes per town at Cloudflare's edge so upstream sites see at most ~12 requests an hour.
 const TTL = 300;
 
 const decode = s => String(s || '')
@@ -51,14 +52,22 @@ async function fetchSource(src) {
 export async function onRequest(context) {
   const { request, env } = context;
   if (request.method !== 'GET') return new Response('Method not allowed', { status: 405 });
+  const want = (new URL(request.url).searchParams.get('town') || '').toLowerCase().replace(/[^a-z0-9-]/g, '');
+  let feedsPath = '/feeds.json', town = want || 'default';
+  try {
+    const reg = await (await env.ASSETS.fetch(new URL('/towns.json', request.url))).json();
+    const t = (reg.towns || []).find(x => x.id === (want || reg.default));
+    if (want && !t) return new Response(JSON.stringify({ error: 'unknown town' }), { status: 404, headers: { 'content-type': 'application/json' } });
+    if (t) { town = t.id; if (t.files && t.files.feeds) feedsPath = '/' + t.files.feeds.replace(/^\//, ''); }
+  } catch (e) { /* no registry: fall back to /feeds.json */ }
   const cache = typeof caches !== 'undefined' ? caches.default : null;
-  const key = new Request(new URL('/api/feed', request.url).toString());
+  const key = new Request(new URL('/api/feed?town=' + town, request.url).toString());
   if (cache) { const hit = await cache.match(key); if (hit) return hit; }
-  const cfg = await (await env.ASSETS.fetch(new URL('/feeds.json', request.url))).json();
-  const results = await Promise.allSettled((cfg.sources || []).map(fetchSource));
+  const cfg = await (await env.ASSETS.fetch(new URL(feedsPath, request.url))).json();
+  const results = await Promise.allSettled((cfg.sources || []).map(s => fetchSource(s).then(items => s.tag ? items.map(i => ({ ...i, tag: s.tag })) : items)));
   const items = results.flatMap(r => r.status === 'fulfilled' ? r.value : []).sort((a, b) => b.when.localeCompare(a.when)).slice(0, 80);
   const errors = results.map((r, i) => r.status === 'rejected' ? (cfg.sources[i].id) : null).filter(Boolean);
-  const res = new Response(JSON.stringify({ updated: new Date().toISOString(), items, errors }), {
+  const res = new Response(JSON.stringify({ town, updated: new Date().toISOString(), items, errors }), {
     headers: { 'content-type': 'application/json; charset=utf-8', 'cache-control': 'public, max-age=' + TTL } });
   if (cache) context.waitUntil(cache.put(key, res.clone()));
   return res;

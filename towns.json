@@ -1,12 +1,75 @@
 {
- "note": "Agorri town registry. To add a town: drop its three data files next to the page and add an entry here with status \"live\". Towns with status \"soon\" show a request page.",
+ "note": "Agorri town registry. Every live town runs on the same page (index.html), so a layout change applies to all of them. To add a town: put its four files in data/<id>/ (record, local, beyond, feeds), add an entry here with status \"live\", and add \"/<id> /index.html 200\" to _redirects.",
  "default": "portsmouth",
  "towns": [
-  {"id":"portsmouth","name":"Portsmouth","state":"NH","stateName":"New Hampshire","kind":"City","status":"live","site":"https://www.portsmouthnh.gov/","files":{"record":"portsmouth.json","beyond":"beyond.json","local":"local.json"}},
-  {"id":"dover","name":"Dover","state":"NH","stateName":"New Hampshire","kind":"City","status":"soon","site":"https://www.dover.nh.gov/"},
-  {"id":"exeter","name":"Exeter","state":"NH","stateName":"New Hampshire","kind":"Town","status":"soon","site":"https://www.exeternh.gov/"},
-  {"id":"hampton","name":"Hampton","state":"NH","stateName":"New Hampshire","kind":"Town","status":"soon","site":"https://www.hamptonnh.gov/"},
-  {"id":"durham","name":"Durham","state":"NH","stateName":"New Hampshire","kind":"Town","status":"soon","site":"https://www.durhamnh.gov/"},
-  {"id":"rye","name":"Rye","state":"NH","stateName":"New Hampshire","kind":"Town","status":"soon","site":"https://www.ryenh.gov/"}
+  {
+   "id": "portsmouth",
+   "name": "Portsmouth",
+   "state": "NH",
+   "stateName": "New Hampshire",
+   "kind": "City",
+   "status": "live",
+   "site": "https://www.portsmouthnh.gov/",
+   "files": {
+    "record": "data/portsmouth/record.json",
+    "local": "data/portsmouth/local.json",
+    "beyond": "data/portsmouth/beyond.json",
+    "feeds": "data/portsmouth/feeds.json"
+   }
+  },
+  {
+   "id": "nashua",
+   "name": "Nashua",
+   "state": "NH",
+   "stateName": "New Hampshire",
+   "kind": "City",
+   "status": "soon",
+   "site": "https://www.nashuanh.gov/"
+  },
+  {
+   "id": "dover",
+   "name": "Dover",
+   "state": "NH",
+   "stateName": "New Hampshire",
+   "kind": "City",
+   "status": "soon",
+   "site": "https://www.dover.nh.gov/"
+  },
+  {
+   "id": "exeter",
+   "name": "Exeter",
+   "state": "NH",
+   "stateName": "New Hampshire",
+   "kind": "Town",
+   "status": "soon",
+   "site": "https://www.exeternh.gov/"
+  },
+  {
+   "id": "hampton",
+   "name": "Hampton",
+   "state": "NH",
+   "stateName": "New Hampshire",
+   "kind": "Town",
+   "status": "soon",
+   "site": "https://www.hamptonnh.gov/"
+  },
+  {
+   "id": "durham",
+   "name": "Durham",
+   "state": "NH",
+   "stateName": "New Hampshire",
+   "kind": "Town",
+   "status": "soon",
+   "site": "https://www.durhamnh.gov/"
+  },
+  {
+   "id": "rye",
+   "name": "Rye",
+   "state": "NH",
+   "stateName": "New Hampshire",
+   "kind": "Town",
+   "status": "soon",
+   "site": "https://www.ryenh.gov/"
+  }
  ]
 }

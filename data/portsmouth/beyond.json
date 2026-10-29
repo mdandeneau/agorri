@@ -1,0 +1,810 @@
+{
+ "as_of": "2026-10-23",
+ "note": "Officeholders and districts as listed by Citizens Count, the NH Secretary of State roster, Rockingham County and news coverage, checked Oct 23, 2026. Positions are the officials' own survey answers or quoted statements, with the year. Nothing here is characterized or scored.",
+ "ballot_note": "All Rockingham County offices, the Executive Council, the State Senate and every State House seat are on the Tuesday, Nov 3, 2026 ballot, along with Governor, US Senate and US House. Results will replace the names below.",
+ "ward_reps": {
+  "1": [
+   "mandelbaum",
+   "meuse"
+  ],
+  "2": [
+   "sorensen",
+   "raynolds"
+  ],
+  "3": [
+   "scherr",
+   "raynolds"
+  ],
+  "4": [
+   "ward",
+   "raynolds"
+  ],
+  "5": [
+   "murray",
+   "meuse"
+  ]
+ },
+ "levels": [
+  {
+   "id": "federal",
+   "title": "Federal",
+   "blurb": "Two senators and one representative. Portsmouth is in New Hampshire's 1st Congressional District.",
+   "people": [
+    "shaheen",
+    "hassan",
+    "pappas"
+   ]
+  },
+  {
+   "id": "state",
+   "title": "State",
+   "blurb": "The Governor, your Executive Councilor (District 3), your State Senator (District 21), and the State House members for your ward.",
+   "people": [
+    "ayotte",
+    "stevens",
+    "perkinskwoka"
+   ]
+  },
+  {
+   "id": "county",
+   "title": "Rockingham County",
+   "blurb": "County government runs the jail, the sheriff's office, the county attorney (prosecutor), the nursing home and the registry of deeds. Its share of your tax bill is about 5%. All county offices are two-year terms, elected Nov 3, 2026.",
+   "people": [
+    "massahos",
+    "conway",
+    "coyle",
+    "stacey"
+   ]
+  }
+ ],
+ "people": {
+  "shaheen": {
+   "name": "Jeanne Shaheen",
+   "party": "D",
+   "office": "U.S. Senator",
+   "level": "federal",
+   "since": "2009",
+   "status": "Not seeking reelection. Her term ends in January 2027; the seat is on the Nov 3 ballot.",
+   "statusSrc": {
+    "label": "Her announcement, Mar 12, 2025",
+    "url": "https://www.shaheen.senate.gov/news/press/after-30-years-making-a-difference-jeanne-shaheen-announces-she-will-not-seek-reelection-in-2026"
+   },
+   "positions": [
+    [
+     "Federal minimum wage",
+     "For raising it",
+     "\"would increase wages for nearly thirty eight million Americans\"",
+     "Campaign website, 2015"
+    ],
+    [
+     "Abortion",
+     "Against a federal ban after 24 weeks",
+     "\"A woman needs the freedom to consider every medical option.\"",
+     "Facebook, 2018"
+    ],
+    [
+     "Dreamers",
+     "For a bipartisan plan",
+     "\"Dreamers are children, students and workers who were brought to this country through no fault of their own.\"",
+     "Facebook, 2018"
+    ],
+    [
+     "Tariffs",
+     "Against",
+     "\"Escalating this trade war will be disastrous for NH.\"",
+     "Twitter, 2018"
+    ],
+    [
+     "Border wall",
+     "Against",
+     "\"There are cost-effective ways to improve border security.\"",
+     "Twitter, 2017"
+    ],
+    [
+     "Health coverage",
+     "For keeping essential health benefits",
+     "\"we must preserve & protect all essential health benefits.\"",
+     "Twitter, 2017"
+    ]
+   ],
+   "caveat": "Statements on record date from 2015 to 2019 and may not reflect current views.",
+   "src": {
+    "label": "Citizens Count profile",
+    "url": "https://www.citizenscount.org/candidate/jeanne-shaheen/serving/us-senate-2020-2026"
+   }
+  },
+  "hassan": {
+   "name": "Maggie Hassan",
+   "party": "D",
+   "office": "U.S. Senator",
+   "level": "federal",
+   "since": "2017",
+   "status": "Term runs through 2028.",
+   "positions": [
+    [
+     "Term limits",
+     "Against",
+     "\"The best term limit is the ballot box.\"",
+     "2016"
+    ],
+    [
+     "Child tax credit",
+     "For the expansion",
+     "\"a critical investment in our families\"",
+     "Campaign website, 2022"
+    ],
+    [
+     "Abortion",
+     "For access before 24 weeks",
+     "\"hold the line against any efforts to enact a nationwide ban\"",
+     "Campaign website, 2022"
+    ],
+    [
+     "Military aid to Ukraine",
+     "For",
+     "\"we must provide additional aid and equipment to Ukraine\"",
+     "Campaign website, 2022"
+    ],
+    [
+     "Student loan forgiveness",
+     "Partial",
+     "\"While I do not support canceling all student debt\"",
+     "Campaign website, 2022"
+    ],
+    [
+     "Qualified immunity",
+     "Undecided",
+     "\"there might be some unintended consequences to abolishing qualified immunity entirely\"",
+     "2022"
+    ],
+    [
+     "Keystone XL pipeline",
+     "Against",
+     "\"Rejecting the Keystone XL tar-sands pipeline was the right decision for our environment\"",
+     "WMUR, 2022"
+    ]
+   ],
+   "src": {
+    "label": "Citizens Count profile",
+    "url": "https://www.citizenscount.org/candidate/margaret-maggie-hassan/serving/us-senate-2022-2028"
+   }
+  },
+  "pappas": {
+   "name": "Chris Pappas",
+   "party": "D",
+   "office": "U.S. Representative, NH District 1",
+   "level": "federal",
+   "since": "2019",
+   "status": "Ran in the 2026 Democratic primary for U.S. Senate (Sep 8). The NH-1 House seat is on the Nov 3 ballot.",
+   "statusSrc": {
+    "label": "Ballotpedia, 2026 NH Senate race",
+    "url": "https://ballotpedia.org/United_States_Senate_election_in_New_Hampshire,_2026"
+   },
+   "positions": [
+    [
+     "Abortion",
+     "For access before 24 weeks",
+     "\"Every woman deserves the right to make her own decisions about her body, her family, and her future.\"",
+     "2024 survey"
+    ],
+    [
+     "Taxes",
+     "Against increases under $400K income",
+     "\"I won't support any legislation increasing taxes on those making less than $400,000 a year.\"",
+     "2024 survey"
+    ],
+    [
+     "Social Security",
+     "For raising the income cap",
+     "\"someone making a million dollars pays on a fraction of their income\"",
+     "2024 survey"
+    ],
+    [
+     "Gun policy",
+     "For universal background checks",
+     "\"Support universal background checks for all gun purchases\"",
+     "Campaign materials, 2018"
+    ],
+    [
+     "Transgender athletes",
+     "Against restrictions",
+     "\"All students deserve the opportunity to participate fully at school, including in school sports.\"",
+     "2024 survey"
+    ],
+    [
+     "Taiwan",
+     "For increased military aid",
+     "\"the United States must reaffirm our support for and long-term cooperation with Taiwan\"",
+     "2024 survey"
+    ],
+    [
+     "Israel",
+     "Against limiting aid",
+     "\"America's support for the people of Israel must remain firm.\"",
+     "2024 survey"
+    ]
+   ],
+   "src": {
+    "label": "Citizens Count profile",
+    "url": "https://www.citizenscount.org/candidate/christopher-pappas/serving/us-house-2024-2026"
+   }
+  },
+  "ayotte": {
+   "name": "Kelly Ayotte",
+   "party": "R",
+   "office": "Governor of New Hampshire",
+   "level": "state",
+   "since": "2025",
+   "status": "Two-year term. On the Nov 3 ballot.",
+   "positions": [
+    [
+     "Education Freedom Accounts",
+     "For",
+     "\"will fight for Universal education freedom\"",
+     "2024 survey"
+    ],
+    [
+     "Abortion",
+     "Keep current NH law",
+     "\"supports and will not change New Hampshire's existing abortion law\"",
+     "2024 survey"
+    ],
+    [
+     "Income and sales taxes",
+     "Against",
+     "\"will never allow an income or sales tax to be imposed in New Hampshire\"",
+     "2024 survey"
+    ],
+    [
+     "Energy",
+     "All of the above",
+     "\"an all-of-the above energy strategy, including renewable and other clean energy sources\"",
+     "2024 survey"
+    ],
+    [
+     "Housing",
+     "Streamline permitting",
+     "\"streamline the state permitting process and cut unnecessary red tape\"",
+     "2024 survey"
+    ],
+    [
+     "Marijuana legalization",
+     "Against",
+     "\"would not sign a bill legalizing marijuana\"",
+     "2024 survey"
+    ],
+    [
+     "Minimum wage",
+     "Against raising",
+     "\"the market should decide wages\"",
+     "2024 survey"
+    ],
+    [
+     "Sanctuary cities",
+     "For a ban",
+     "\"will ban sanctuary cities\"",
+     "2024 survey"
+    ]
+   ],
+   "src": {
+    "label": "Citizens Count profile",
+    "url": "https://www.citizenscount.org/candidate/kelly-ayotte/serving/nh-governor-2024-2026"
+   }
+  },
+  "stevens": {
+   "name": "Janet Stevens",
+   "party": "R",
+   "office": "Executive Council, District 3",
+   "level": "state",
+   "since": "2021",
+   "status": "The five-member Executive Council approves state contracts over $10,000, judicial nominations and agency heads. Two-year term, on the Nov 3 ballot.",
+   "positions": [
+    [
+     "Charter school funding",
+     "For",
+     "\"I supported the acceptance of $10.1 million in federal grant funds for New Hampshire Charter Schools.\"",
+     "Citizens Count"
+    ],
+    [
+     "Women's health contracts",
+     "For FQHC contracts",
+     "\"I have supported all contracts with FQHCs that provide women's healthcare.\"",
+     "Citizens Count"
+    ],
+    [
+     "Maternal services",
+     "Concerned about losses",
+     "\"concerned with the recent loss of maternal services at a local hospital\"",
+     "Citizens Count"
+    ],
+    [
+     "Judges",
+     "Follow the law",
+     "\"judges faithfully follow the Constitution and the law, not their personal or political preferences\"",
+     "Citizens Count"
+    ],
+    [
+     "Broad-based taxes",
+     "Against",
+     "Answered yes to opposing broad income and sales taxes",
+     "Granite State Taxpayers survey, 2024"
+    ],
+    [
+     "Net metering expansion",
+     "Against",
+     "Survey answer",
+     "Citizens Count"
+    ]
+   ],
+   "caveat": "Gave no answer on abortion, marijuana, minimum wage, climate or guns in the Citizens Count survey.",
+   "src": {
+    "label": "Citizens Count profile",
+    "url": "https://www.citizenscount.org/candidate/janet-stevens/serving/nh-exec-council-2024-2026"
+   }
+  },
+  "perkinskwoka": {
+   "name": "Rebecca Perkins Kwoka",
+   "party": "D",
+   "office": "State Senator, District 21",
+   "level": "state",
+   "since": "2021",
+   "status": "District 21 includes Portsmouth. Two-year term, on the Nov 3 ballot. 22 bills prime-sponsored this term, 3 became law.",
+   "positions": [
+    [
+     "Minimum wage",
+     "For raising",
+     "\"Our workers deserve to be paid a humane wage.\"",
+     "2020 survey"
+    ],
+    [
+     "Net metering expansion",
+     "For",
+     "\"Our green energy future is in reach.\"",
+     "2020 survey"
+    ],
+    [
+     "School funding and property taxes",
+     "Address inequalities",
+     "\"We must address the inequalities in education funding and property taxes across our state.\"",
+     "2020 survey"
+    ],
+    [
+     "Marijuana",
+     "For a path to legalization",
+     "\"I support a pathway to marijuana legalization that includes decriminalization.\"",
+     "2020 survey"
+    ]
+   ],
+   "caveat": "Declined the 2024 Citizens Count survey; quotes are from 2020.",
+   "src": {
+    "label": "Citizens Count profile",
+    "url": "https://www.citizenscount.org/candidate/rebecca-perkins-kwoka/serving/nh-senate-2024-2026"
+   }
+  },
+  "mandelbaum": {
+   "name": "Jennifer Mandelbaum",
+   "party": "D",
+   "office": "State Representative, Rockingham 21 (Ward 1)",
+   "level": "house",
+   "since": "2024",
+   "positions": [
+    [
+     "Education Freedom Accounts",
+     "Against",
+     "\"These programs, however, divert much-needed funds from public schools.\"",
+     "Seacoast Online voter guide, 2024"
+    ],
+    [
+     "Abortion",
+     "Against restrictions",
+     "\"Lawmakers shouldn't come between people and their medical providers.\"",
+     "2024 survey"
+    ],
+    [
+     "Housing",
+     "For zoning changes",
+     "\"create more housing through construction of affordable options\"",
+     "2024 survey"
+    ],
+    [
+     "Climate",
+     "For more state action",
+     "Survey answer",
+     "2024 survey"
+    ],
+    [
+     "Income tax",
+     "Against",
+     "Voted for a constitutional amendment banning income taxes",
+     "2026 voting record"
+    ],
+    [
+     "Stricter gun laws",
+     "For",
+     "Survey answer",
+     "2024 survey"
+    ]
+   ],
+   "src": {
+    "label": "Citizens Count profile",
+    "url": "https://www.citizenscount.org/candidate/jennifer-mandelbaum/serving/nh-house-2024-2026"
+   }
+  },
+  "meuse": {
+   "name": "David Meuse",
+   "party": "D",
+   "office": "State Representative, Rockingham 37 floterial (Wards 1 and 5)",
+   "level": "house",
+   "since": "2024",
+   "positions": [
+    [
+     "Education Freedom Accounts",
+     "Against",
+     "Survey answer",
+     "2024 survey"
+    ],
+    [
+     "Income tax",
+     "Against",
+     "Survey answer",
+     "2024 survey"
+    ],
+    [
+     "Minimum wage",
+     "For raising",
+     "Survey answer",
+     "2024 survey"
+    ],
+    [
+     "Stricter gun laws",
+     "For",
+     "Survey answer",
+     "2024 survey"
+    ],
+    [
+     "Climate",
+     "For more state action",
+     "Survey answer",
+     "2024 survey"
+    ]
+   ],
+   "src": {
+    "label": "Citizens Count profile",
+    "url": "https://www.citizenscount.org/candidate/david-meuse/serving/nh-house-2024-2026"
+   }
+  },
+  "sorensen": {
+   "name": "Carrie Sorensen",
+   "party": "D",
+   "office": "State Representative, Rockingham 28 (Ward 2)",
+   "level": "house",
+   "since": "2024",
+   "positions": [
+    [
+     "Education Freedom Accounts",
+     "Open",
+     "\"We need to educate the children in any way possible that make sense for the child.\"",
+     "Citizens Count"
+    ],
+    [
+     "Zoning",
+     "Keep it local",
+     "Rules should be \"common sense and not be to restrictive.\"",
+     "Citizens Count"
+    ],
+    [
+     "School funding",
+     "Overhaul without a new tax",
+     "\"overhaul funding without a new tax\"",
+     "Citizens Count"
+    ],
+    [
+     "Income tax",
+     "Against",
+     "Survey answer",
+     "2026 survey"
+    ],
+    [
+     "Second-trimester abortion ban",
+     "For",
+     "Survey answer",
+     "2026 survey"
+    ],
+    [
+     "Marijuana, state-run stores",
+     "For",
+     "Survey answer",
+     "2026 survey"
+    ]
+   ],
+   "src": {
+    "label": "Citizens Count profile",
+    "url": "https://www.citizenscount.org/candidate/carrie-sorensen/serving/nh-house-2024-2026"
+   }
+  },
+  "scherr": {
+   "name": "Buzz Scherr",
+   "party": "D",
+   "office": "State Representative, Rockingham 26 (Ward 3)",
+   "level": "house",
+   "since": "2024",
+   "status": "Also serves on the Portsmouth Police Commission (2026 to 2029).",
+   "positions": [
+    [
+     "Education Freedom Accounts",
+     "Against",
+     "Survey answer",
+     "2024 survey"
+    ],
+    [
+     "Income tax",
+     "Against",
+     "Survey answer",
+     "2024 survey"
+    ],
+    [
+     "Abortion before 24 weeks",
+     "For guaranteeing",
+     "Survey answer",
+     "2024 survey"
+    ],
+    [
+     "Minimum wage",
+     "For raising",
+     "Survey answer",
+     "2024 survey"
+    ],
+    [
+     "Stricter gun laws",
+     "For",
+     "Survey answer",
+     "2024 survey"
+    ],
+    [
+     "Local immigration enforcement",
+     "Against requiring it",
+     "Voting record",
+     "2025"
+    ]
+   ],
+   "src": {
+    "label": "Citizens Count profile",
+    "url": "https://www.citizenscount.org/candidate/buzz-scherr/serving/nh-house-2024-2026"
+   }
+  },
+  "ward": {
+   "name": "Gerry Ward",
+   "party": "D",
+   "office": "State Representative, Rockingham 27 (Ward 4)",
+   "level": "house",
+   "since": "2024",
+   "positions": [
+    [
+     "Local immigration enforcement",
+     "Not a priority",
+     "\"This is not a significant issue for NH.\"",
+     "Seacoast Online voter guide, 2024"
+    ],
+    [
+     "Education Freedom Accounts",
+     "Against expansion",
+     "Voted against bills expanding eligibility",
+     "2024 voting record"
+    ],
+    [
+     "Abortion",
+     "Against a first-trimester ban",
+     "Voted against a fetal-heartbeat ban",
+     "2023 voting record"
+    ],
+    [
+     "Income tax amendment",
+     "Voted against banning",
+     "Voted against a constitutional amendment banning income taxes",
+     "2026 voting record"
+    ],
+    [
+     "Stricter gun laws",
+     "For",
+     "Voted for background checks and extreme risk protection orders",
+     "2025 voting record"
+    ],
+    [
+     "Minimum wage",
+     "For raising",
+     "Voted for bills to reach $15 and $17 an hour",
+     "2024 voting record"
+    ]
+   ],
+   "src": {
+    "label": "Citizens Count profile",
+    "url": "https://www.citizenscount.org/candidate/gerald-gerry-ward/serving/nh-house-2024-2026"
+   }
+  },
+  "murray": {
+   "name": "Kate Murray",
+   "party": "D",
+   "office": "State Representative, Rockingham 22 (Ward 5)",
+   "level": "house",
+   "since": "2024",
+   "status": "Resigned in August 2026, per Citizens Count. The seat is on the Nov 3 ballot.",
+   "positions": [
+    [
+     "Education Freedom Accounts",
+     "Against",
+     "\"Public tax money should go for public education.\"",
+     "Citizens Count"
+    ],
+    [
+     "Abortion before 24 weeks",
+     "For guaranteeing",
+     "\"a personal and private decision that should be made by the woman\"",
+     "Citizens Count"
+    ],
+    [
+     "Minimum wage",
+     "For raising",
+     "\"All Granite Staters should earn a livable wage.\"",
+     "Citizens Count"
+    ],
+    [
+     "Gun laws",
+     "Safety measures, not stricter control",
+     "\"common sense, responsible gun safety legislation which does not translate to stricter gun control laws in my view\"",
+     "Citizens Count"
+    ],
+    [
+     "Marijuana",
+     "Undecided",
+     "\"the devil is in the details\"",
+     "Citizens Count"
+    ]
+   ],
+   "src": {
+    "label": "Citizens Count profile",
+    "url": "https://www.citizenscount.org/candidate/kate-murray/serving/nh-house-2024-2026"
+   }
+  },
+  "raynolds": {
+   "name": "Ned Raynolds",
+   "party": "D",
+   "office": "State Representative, Rockingham 39 floterial (Wards 2, 3 and 4)",
+   "level": "house",
+   "since": "2024",
+   "positions": [
+    [
+     "Climate",
+     "For clean energy",
+     "NH's climate stance \"lags well behind every other state not just in New England, but the Northeast U.S.\"",
+     "Campaign website, 2022"
+    ],
+    [
+     "Abortion",
+     "For guaranteeing before 24 weeks",
+     "\"Protect women's right to control their own bodies\"",
+     "Campaign website, 2022"
+    ],
+    [
+     "Gun laws",
+     "For stricter",
+     "\"Insist on reasonable gun control measures.\"",
+     "Campaign website, 2022"
+    ],
+    [
+     "School funding",
+     "Less reliance on property tax",
+     "\"Properly fund and enhance our system of public education\"",
+     "Campaign website, 2022"
+    ],
+    [
+     "Housing",
+     "For local zoning changes",
+     "Shared responsibility among local governments for zoning reform",
+     "Campaign website, 2022"
+    ]
+   ],
+   "src": {
+    "label": "Citizens Count profile",
+    "url": "https://www.citizenscount.org/candidate/ned-raynolds/serving/nh-house-2024-2026"
+   }
+  },
+  "massahos": {
+   "name": "Charles (Chuck) Massahos",
+   "party": "R",
+   "office": "Rockingham County Sheriff",
+   "level": "county",
+   "since": "2019",
+   "status": "Of Salem. First elected 2018, reelected since. The sheriff's office handles court security, prisoner transport, civil process and the county Drug Task Force. On the Nov 3 ballot.",
+   "positions": [
+    [
+     "Approach",
+     "Community-based policing",
+     "The office aims to be \"a community-based police organization.\"",
+     "Union Leader, on his reelection"
+    ],
+    [
+     "Drugs",
+     "Strengthen the Drug Task Force",
+     "Plans to strengthen the Rockingham County Drug Task Force",
+     "Union Leader"
+    ],
+    [
+     "Public safety",
+     "Active shooter training",
+     "Plans to expand active shooter training programs",
+     "Union Leader"
+    ],
+    [
+     "Budget",
+     "Fiscal responsibility",
+     "\"fiscal responsibility, accountability, and constituent service\"",
+     "Campaign site, 2018"
+    ]
+   ],
+   "caveat": "The state Attorney General reviewed a claim that he improperly reduced a county employee's speeding ticket and found he had the discretion to do so.",
+   "src": {
+    "label": "Union Leader",
+    "url": "https://www.unionleader.com/news/politics/voters/rockingham-county-sheriff-cleared-of-wrongdoing-wins-reelection/article_5e1a4696-4dbf-5230-8ef8-3ff178d29a8e.html"
+   },
+   "contact": "(603) 679-9475 · 96 North Road, Brentwood"
+  },
+  "conway": {
+   "name": "Patricia Conway",
+   "party": "",
+   "office": "Rockingham County Attorney",
+   "level": "county",
+   "since": "",
+   "status": "The county's chief prosecutor. Handles felony cases from Portsmouth and 36 other towns, victim and witness services, and right-to-know requests. On the Nov 3 ballot.",
+   "positions": [
+    [
+     "Mission",
+     "Professional prosecution",
+     "\"provide professional and ethical prosecutorial services for the people of Rockingham County\"",
+     "Office website"
+    ],
+    [
+     "Goals",
+     "Justice for victims, less repeat offending",
+     "Stated goals include achieving justice for crime victims and reducing crime and repeat offending",
+     "Office website"
+    ]
+   ],
+   "caveat": "Party and first year in office are not stated on the office site; her campaign site blocks automated reading. Not characterized here.",
+   "src": {
+    "label": "County Attorney's office",
+    "url": "https://www.rockinghamcountyattorney.org/"
+   },
+   "contact": "(603) 642-4249 · 100 North Road, Brentwood"
+  },
+  "coyle": {
+   "name": "Kate Coyle",
+   "party": "D",
+   "office": "County Commissioner, District 1 (includes Portsmouth)",
+   "level": "county",
+   "since": "2023",
+   "status": "Chair of the three-member board, which runs county operations, the budget, buildings and personnel. District 1 covers Portsmouth, Rye, New Castle, Greenland, Newington, Exeter, Hampton and seven other towns. On the Nov 3 ballot.",
+   "positions": [],
+   "caveat": "No position statements on record in the sources checked. The board posts its meeting minutes; the county does not publish per-commissioner votes in a structured form.",
+   "src": {
+    "label": "Rockingham County Commissioners",
+    "url": "https://rockinghamcountynh.org/departments/board-of-commissioners/"
+   },
+   "contact": "(603) 679-9350 · 94 North Road, Brentwood"
+  },
+  "stacey": {
+   "name": "Cathy Ann Stacey",
+   "party": "",
+   "office": "Register of Deeds",
+   "level": "county",
+   "since": "",
+   "status": "Records property deeds, mortgages and liens for the county. On the Nov 3 ballot.",
+   "positions": [],
+   "caveat": "Administrative office; no policy positions apply.",
+   "src": {
+    "label": "Rockingham Registry of Deeds",
+    "url": "https://www.nhdeeds.org/rockingham-home/"
+   },
+   "contact": "(603) 642-5526 · 102 North Road, Brentwood"
+  }
+ }
+}

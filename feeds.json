@@ -1,9 +1,0 @@
-{
- "note": "Official sources for the live Social feed. The /api/feed function reads these every 5 minutes. Only add accounts the office itself lists. Types: rss, atom, bluesky.",
- "sources": [
-  {"id":"city-news","who":"City of Portsmouth","platform":"City website","type":"rss","url":"https://www.portsmouthnh.gov/rss.xml"},
-  {"id":"city-youtube","who":"City of Portsmouth","platform":"YouTube","type":"atom","url":"https://www.youtube.com/feeds/videos.xml?channel_id=UCXUNd8goAjKxc_aXfvXIKdw"},
-  {"id":"shaheen","who":"Jeanne Shaheen","platform":"Bluesky","type":"bluesky","actor":"shaheen.senate.gov","person":"shaheen"},
-  {"id":"hassan","who":"Maggie Hassan","platform":"Bluesky","type":"bluesky","actor":"hassan.senate.gov","person":"hassan"}
- ]
-}
