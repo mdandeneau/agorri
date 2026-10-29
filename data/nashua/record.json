@@ -10104,13 +10104,15 @@
     "name": "Administrative Services",
     "fy26": null,
     "fy27": 22627326,
-    "note": "FY27 proposed total cited at the June 11, 2026 Budget Review Committee. Motions to cut it by $1.5 million (committee) and $1 million (full board) failed."
+    "note": "FY27 proposed total cited at the June 11, 2026 Budget Review Committee. Motions to cut it by $1.5 million (committee) and $1 million (full board) failed.",
+    "short": "Administration"
    },
    {
     "name": "Public Works (general fund)",
     "fy26": 15800000,
     "fy27": 17000000,
-    "note": "Streets, Parks, Fleet, Administration and Engineering, Recreation. FY26 is the Mayor's April 2025 proposal; FY27 is the Mayor's 2026 proposal. Wastewater and Solid Waste are separate enterprise funds."
+    "note": "Streets, Parks, Fleet, Administration and Engineering, Recreation. FY26 is the Mayor's April 2025 proposal; FY27 is the Mayor's 2026 proposal. Wastewater and Solid Waste are separate enterprise funds.",
+    "short": "Public Works"
    },
    {
     "name": "Library",
@@ -10145,7 +10147,7 @@
   "taxRate": {
    "fy27Estimate": null,
    "fy26": 16.83,
-   "note": "Rates are dollars per $1,000 of assessed value, labeled by NH tax year (April 1 to March 31). The 2025 rate of $16.83 was set by the NH Department of Revenue Administration in November 2025 and billed November 14, 2025, so it is the rate in effect during FY2026 (the 'fy26' values below). The 2026 rate, which will fund FY2027, had not been set as of October 28, 2026, and no city estimate was found. The Mayor's FY27 budget memo set a goal of keeping the tax rate increase under 6%.",
+   "note": "Dollars per $1,000 of assessed value. The NH Department of Revenue Administration set the 2025 rate of $16.83 in November 2025. The 2026 rate, which funds FY2027, has not been set; the Mayor's FY27 budget memo set a goal of keeping the increase under 6%.",
    "components": [
     {
      "name": "City",
@@ -10344,7 +10346,8 @@
    "waterPucOrderSept": "https://pennichuck.com/wp-content/uploads/2026/09/26-027-2026-09-25-nphuc-order-28253.pdf",
    "waterOwnership": "https://pennichuck.com/wp-content/uploads/2017/05/Final-SummaryofCityAcquisitionandOwnershipofPennichuckMarch-2018.pdf"
   },
-  "fundLabel": "General Fund"
+  "fundLabel": "General Fund",
+  "glanceNote": "Department lines are the Mayor's proposals; the city's adopted budget book isn't published in a readable form. Everything else is the rest of the General Fund."
  },
  "town": {
   "name": "Nashua",

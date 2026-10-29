@@ -14154,7 +14154,8 @@
     "name": "General Government",
     "fy26": 27133945,
     "fy27": 28011838,
-    "note": "Public Works, administration, finance, library, recreation, planning, inspections and other city departments"
+    "note": "Public Works, administration, finance, library, recreation, planning, inspections and other city departments",
+    "short": "City services"
    },
    {
     "name": "Police",
@@ -14174,18 +14175,21 @@
    {
     "name": "Rockingham County tax",
     "fy26": 6000870,
-    "fy27": 6225610
+    "fy27": 6225610,
+    "short": "County tax"
    },
    {
     "name": "Other non-operating",
     "fy26": 6690724,
     "fy27": 7114185,
-    "note": "Insurance, equipment, vehicles, capital outlay, contingency and other items"
+    "note": "Insurance, equipment, vehicles, capital outlay, contingency and other items",
+    "short": "Insurance, equipment, other"
    },
    {
     "name": "Transfers (pools, Prescott Park, Community Campus)",
     "fy26": 942281,
-    "fy27": 975650
+    "fy27": 975650,
+    "short": "Transfers"
    },
    {
     "name": "Contract contingency",

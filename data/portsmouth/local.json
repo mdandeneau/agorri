@@ -1837,7 +1837,7 @@
     },
     {
      "name": "Residential Knox Box",
-     "detail": "Lock box that lets firefighters enter a home without forcing a door.",
+     "detail": "Residential Knox Box information for homeowners.",
      "url": "https://www.portsmouthnh.gov/fire/residential-knox-box-information"
     },
     {
@@ -1852,7 +1852,7 @@
     },
     {
      "name": "Emergency Management",
-     "detail": "City emergency management organization run through the fire department.",
+     "detail": "City Emergency Management Organization page, under the Fire Department.",
      "url": "https://www.portsmouthnh.gov/fire/emergency-management-organization"
     }
    ],
