@@ -11,6 +11,7 @@ All towns share one page (`index.html`). Only edit data in `data/<town>/`. Never
 - Police and fire: never include names of people arrested, charged, injured or involved, and no home addresses. Type, street or neighborhood, and date only.
 - If a source can't be reached, keep the existing data and say so in the run summary. Never delete data because a fetch failed.
 - Read `docs/DATA_GUIDE.md` first; it defines every field.
+- Never edit, delete or summarize residents' Talk posts during a refresh. They live in the D1 database, not in this repo.
 
 ## Every day, for each live town
 1. **Notices** (`local.json` notices). Add new resident-relevant items from the last 14 days (closures, road work, water, trash, events, elections, grants, hearings). Give dated happenings residents should plan around a `strip` and `stripLine`. Drop notices more than 30 days past.

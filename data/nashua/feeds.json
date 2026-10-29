@@ -1,5 +1,5 @@
 {
- "note": "Official sources for Nashua's live feed. The /api/feed?town=nashua function reads these every 5 minutes. Only add accounts the office itself lists. Types: rss, atom, bluesky. tag \"safety\" sends an item to the Police and fire page. Type \"links\" reads article links from a news homepage (match: URL pattern with year, month, day groups; skip: headlines to ignore); tag \"news\" sends items to the Home news card.",
+ "note": "Official sources for Nashua's live feed. The /api/feed?town=nashua function reads these every minute. Only add accounts the office itself lists. Types: rss, atom, bluesky. tag \"safety\" sends an item to the Police and fire page. Type \"links\" reads article links from a news homepage (match: URL pattern with year, month, day groups; skip: headlines to ignore); tag \"news\" sends items to the Home news card.",
  "sources": [
   {
    "id": "city-news",
@@ -70,6 +70,38 @@
    "match": "/news/(\\d{4})/(\\d{2})/(\\d{2})/[^/?#\"]+/?$",
    "skip": "^Real Estate Transactions",
    "tag": "news"
+  },
+  {
+   "id": "shaheen-youtube",
+   "who": "Jeanne Shaheen",
+   "platform": "YouTube",
+   "type": "atom",
+   "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCjLZAZMbDrybHyttdEC9LFA",
+   "person": "shaheen"
+  },
+  {
+   "id": "hassan-youtube",
+   "who": "Maggie Hassan",
+   "platform": "YouTube",
+   "type": "atom",
+   "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC4dD6MKchWaCEbfHo-VbQhA",
+   "person": "hassan"
+  },
+  {
+   "id": "goodlander-youtube",
+   "who": "Maggie Goodlander",
+   "platform": "YouTube",
+   "type": "atom",
+   "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCQiDPQY53U-S6ZtGBshuHZw",
+   "person": "goodlander"
+  },
+  {
+   "id": "ayotte-youtube",
+   "who": "Kelly Ayotte",
+   "platform": "YouTube",
+   "type": "atom",
+   "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCMX0bI0EPIo2A_KfRxVps3Q",
+   "person": "ayotte"
   }
  ]
 }

@@ -1,7 +1,7 @@
 // GET /api/feed?town=<id> : merges the official sources in that town's feeds file (towns.json files.feeds) into one feed.
 // Sources tagged "safety" (police and fire) or "news" (the local paper) keep the tag so the page can show them in the right place.
-// Cached for 5 minutes per town at Cloudflare's edge so upstream sites see at most ~12 requests an hour.
-const TTL = 300;
+// Cached for 1 minute per town at Cloudflare's edge so each upstream site sees at most ~60 requests an hour.
+const TTL = 60;
 
 const decode = s => String(s || '')
   .replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, '$1')

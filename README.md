@@ -17,6 +17,14 @@ Data refreshes daily through a scheduled Claude task that follows `UPDATE.md` an
 4. Domain: in Cloudflare, add the site `agorri.com` (Free plan) and change the nameservers at your registrar to the two Cloudflare gives you. An apex domain on Pages requires this. Then in the Pages project > Custom domains, add `agorri.com` and `www.agorri.com`.
 5. Optional, for written answers in search: Settings > Variables and Secrets > add `ANTHROPIC_API_KEY` (Encrypt), then redeploy. Get a key at https://console.anthropic.com and set a monthly spend limit there. Uses Claude Haiku 5.5 (about $0.0004 per question). Set `ANSWER_MODEL` to change models.
 6. Optional: add a rate-limiting rule for `/api/ask` under Security if your plan includes one.
+7. Talk (resident posts, shared by everyone): Workers & Pages > D1 > Create database named `agorri`. Open it > Console, paste the contents of `migrations/0001_talk.sql`, and run it. Then in the Pages project > Settings > Bindings > add a D1 binding with variable name `DB` pointing to `agorri`, and add a secret `TALK_SALT` (any long random string). Redeploy. Until this is done, Talk saves posts only in each visitor's own browser.
+
+## Talk: one store for everything residents post
+Ideas, questions, debate arguments (for or against an issue), comments, replies and neighbor posts all live in one table (`talk_items`), each tagged with what it is about: the town, an issue, a meeting, an official post or a news story. The Talk page, issue debates, meeting threads, the ideas forum and Home all read and write this same store.
+- Posts go live immediately after an automatic check (length, at most two links, no phone numbers or email addresses, at most 5 posts per 10 minutes per browser and 30 per hour per connection).
+- Three reports hide a post from everyone but its author until a moderator reviews it. To restore one, set `kept = 1` on its row; to hide one, set `hidden = 1` (D1 console).
+- Anyone can post, as a display name or anonymously. Only verified residents count toward the city's response threshold (verification is not built yet, so `verified` is 0 for now).
+- Browser ids and IPs are stored only as salted hashes.
 
 ## Files
 - `index.html`: the whole site.
@@ -24,6 +32,7 @@ Data refreshes daily through a scheduled Claude task that follows `UPDATE.md` an
 - `towns.json`: town registry. To add a town: add its four files in `data/<id>/`, an entry with `"status": "live"`, and `/<id> /index.html 200` in `_redirects`.
 - `_redirects`: serves the page at `/portsmouth`, `/nashua`, etc.
 - `docs/DATA_GUIDE.md`: field definitions. `UPDATE.md`: the daily refresh runbook.
-- `scripts/check.mjs`: validates the data before a push. `scripts/test-feed.mjs`: offline tests for the feed function.
+- `scripts/check.mjs`: validates the data before a push. `scripts/test-feed.mjs` and `scripts/test-talk.mjs`: offline tests for the feed and Talk functions.
+- `functions/api/talk.js` and `migrations/0001_talk.sql`: the Talk store.
 
 Run locally: `npx wrangler pages dev .` (runs the functions too).

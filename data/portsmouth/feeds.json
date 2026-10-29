@@ -1,5 +1,5 @@
 {
- "note": "Official sources for Portsmouth's live feed. The /api/feed?town=portsmouth function reads these every 5 minutes. Only add accounts the office itself lists. Types: rss, atom, bluesky. tag \"safety\" sends an item to the Police and fire page.",
+ "note": "Official sources for Portsmouth's live feed. The /api/feed?town=portsmouth function reads these every minute. Only add accounts the office itself lists. Types: rss, atom, bluesky. tag \"safety\" sends an item to the Police and fire page.",
  "sources": [
   {
    "id": "city-news",
@@ -46,6 +46,30 @@
    "type": "rss",
    "url": "https://www.portsmouthnh.gov/taxonomy/term/13/feed",
    "tag": "safety"
+  },
+  {
+   "id": "shaheen-youtube",
+   "who": "Jeanne Shaheen",
+   "platform": "YouTube",
+   "type": "atom",
+   "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCjLZAZMbDrybHyttdEC9LFA",
+   "person": "shaheen"
+  },
+  {
+   "id": "pappas-youtube",
+   "who": "Chris Pappas",
+   "platform": "YouTube",
+   "type": "atom",
+   "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCMKDg_1K7cjBKbHGgq1YKkg",
+   "person": "pappas"
+  },
+  {
+   "id": "ayotte-youtube",
+   "who": "Kelly Ayotte",
+   "platform": "YouTube",
+   "type": "atom",
+   "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCMX0bI0EPIo2A_KfRxVps3Q",
+   "person": "ayotte"
   }
  ]
 }

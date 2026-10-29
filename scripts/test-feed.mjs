@@ -55,7 +55,7 @@ const res = await call('https://agorri.com/api/feed');
 const body = await res.json();
 t('handler: default town, merged, newest first', body.town === 'portsmouth' && body.items.length === 4 && body.items[0].platform === 'Bluesky');
 t('handler: failing source reported, others still served', body.errors.length === 1 && body.errors[0] === 'hassan');
-t('handler: cache header', res.headers.get('cache-control') === 'public, max-age=300');
+t('handler: cache header', res.headers.get('cache-control') === 'public, max-age=60');
 const n = await (await call('https://agorri.com/api/feed?town=nashua')).json();
 t('handler: per-town feeds file', n.town === 'nashua' && n.items.length === 6 && n.items.filter(i => i.who === 'Nashua Police').length === 2);
 t('handler: safety and news tags passed through', n.items.filter(i => i.tag === 'safety').length === 2 && n.items.filter(i => i.tag === 'news').length === 4);
