@@ -50,7 +50,13 @@ for (const t of live) {
     Object.values(B.ward_reps || {}).flat().forEach(k => { if (!B.people[k]) errs.push(`${id}: ward_reps names unknown person ${k}`); });
     (B.levels || []).forEach(l => (l.people || []).forEach(k => { if (!B.people[k]) errs.push(`${id}: level ${l.id} names unknown person ${k}`); })); }
   if (F) (F.sources || []).forEach(s => { if (!['rss', 'atom', 'bluesky', 'links'].includes(s.type)) errs.push(`${id}: feeds bad type ${s.id}`); if (s.type !== 'bluesky' && !s.url) errs.push(`${id}: feed ${s.id} needs url`); if (s.type === 'links') { try { if (new RegExp(s.match).source.split('(').length < 4) errs.push(`${id}: feed ${s.id} match needs year, month and day groups`); } catch (e) { errs.push(`${id}: feed ${s.id} match is not a valid pattern`); } } });
-  const txt = JSON.stringify([P, L, B]);
+  const opt = k => { const f = t.files && t.files[k]; if (!f) return null; try { return JSON.parse(fs.readFileSync(new URL(f, root), 'utf8')); } catch (e) { errs.push(`${id}: ${k} is not valid JSON`); return null; } };
+  const PK = opt('parks'), BZ = opt('business'), CD = opt('candidates');
+  if (PK) { (PK.facilities || []).forEach((f, i) => { if (!f.id || !f.name || !f.source || !f.source.url) errs.push(`${id}: parks.facilities[${i}] needs id, name and source.url`); }); if ((PK.facilities || []).length < 5) warns.push(`${id}: only ${(PK.facilities || []).length} park facilities`); }
+  if (BZ) { for (const k of ['organizations', 'cityOffices', 'howTo', 'notices', 'programs']) (BZ[k] || []).forEach((x, i) => { if (!x.source || !x.source.url) errs.push(`${id}: business.${k}[${i}] needs source.url`); }); if (!(BZ.keywords || []).length) warns.push(`${id}: business has no keywords, so no paper headlines will be picked up`); }
+  if (CD) { if (!CD.election || !CD.election.date) errs.push(`${id}: candidates needs election.date`); (CD.races || []).forEach(r => { if (!r.id || !r.office || !r.level) errs.push(`${id}: race ${r.id || '?'} needs id, office and level`); (r.candidates || []).forEach(c => { if (!c.id || !c.name || !c.source || !c.source.url) errs.push(`${id}: candidate ${c.name || '?'} in ${r.id} needs id, name and source.url`); (c.positions || []).forEach((p, i) => { if (!p.topic || !p.stance || !p.source || !p.source.url) errs.push(`${id}: ${c.name} position[${i}] needs topic, stance and source.url`); }); }); });
+    if (CD.election && CD.election.date < today) warns.push(`${id}: the ${CD.election.date} election is over; replace candidates with results (see UPDATE.md)`); }
+  const txt = JSON.stringify([P, L, B, PK, BZ, CD]);
   if (txt.includes('—')) errs.push(`${id}: em dash found in data (house style: none)`);
 }
 warns.forEach(w => console.log('WARN ' + w));

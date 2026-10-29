@@ -1,7 +1,11 @@
 // GET /api/feed?town=<id> : merges the official sources in that town's feeds file (towns.json files.feeds) into one feed.
-// Sources tagged "safety" (police and fire) or "news" (the local paper) keep the tag so the page can show them in the right place.
+// Sources tagged "safety" (police and fire), "news" (the local paper), "business" or "parks" keep the tag so the page can show them in the right place.
+// Each source also passes along its level (City, County, State, Federal) and kind (official or candidate), and is capped at `max`
+// items (default 6 for official accounts, 12 for tagged news-style sources) so a chatty account on one platform cannot crowd out the rest.
 // Cached for 1 minute per town at Cloudflare's edge so each upstream site sees at most ~60 requests an hour.
 const TTL = 60;
+const CAP = src => Math.max(1, Math.min(15, src.max || (src.tag ? 12 : 6)));
+const meta = (src, items) => items.map(i => ({ ...i, ...(src.tag ? { tag: src.tag } : {}), ...(src.level ? { level: src.level } : {}), ...(src.kind ? { kind: src.kind } : {}), ...(src.person ? { person: src.person } : {}) }));
 
 const decode = s => String(s || '')
   .replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, '$1')
@@ -17,7 +21,7 @@ export function parseRSS(xml, src) {
     const b = m[0];
     return { who: src.who, platform: src.platform, when: iso(strip(tag(b, 'pubDate'))), quote: strip(tag(b, 'title')),
       gist: strip(tag(b, 'description')).slice(0, 220), url: strip(tag(b, 'link')), source: src.id };
-  }).filter(x => x.when && x.quote);
+  }).filter(x => x.when && x.quote).slice(0, CAP(src));
 }
 export function parseAtom(xml, src) {
   return [...xml.matchAll(/<entry[\s>][\s\S]*?<\/entry>/gi)].slice(0, 10).map(m => {
@@ -25,7 +29,7 @@ export function parseAtom(xml, src) {
     const href = (b.match(/<link[^>]*href="([^"]+)"/i) || [])[1] || '';
     return { who: src.who, platform: src.platform, when: iso(strip(tag(b, 'published')) || strip(tag(b, 'updated'))),
       quote: strip(tag(b, 'title')), gist: '', url: decode(href), source: src.id };
-  }).filter(x => x.when && x.quote);
+  }).filter(x => x.when && x.quote).slice(0, CAP(src));
 }
 export function parseBluesky(json, src) {
   return (json.feed || []).filter(f => !f.reason && f.post && f.post.record).map(f => {
@@ -33,7 +37,7 @@ export function parseBluesky(json, src) {
     return { who: src.who, platform: 'Bluesky', when: iso(p.record.createdAt), quote: String(p.record.text || '').slice(0, 500), gist: '',
       url: 'https://bsky.app/profile/' + ((p.author && p.author.handle) || src.actor) + '/post/' + p.uri.split('/').pop(),
       person: src.person, images: (p.embed && p.embed.images) ? p.embed.images.length : 0, source: src.id };
-  }).filter(x => x.when);
+  }).filter(x => x.when).slice(0, CAP(src));
 }
 
 // type "links": a news homepage with no feed. Reads <a href> links whose URL matches src.match (with year, month, day groups),
@@ -46,7 +50,7 @@ export function parseLinks(html, src) {
     const title = strip(m[2]); if (title.length < 12 || (skip && skip.test(title))) continue;
     const prev = seen.get(url); if (!prev) seen.set(url, { title, date: d[1] + '-' + d[2] + '-' + d[3], n: seen.size }); else if (title.length > prev.title.length) prev.title = title;
   }
-  return [...seen.entries()].sort((a, b) => b[1].date.localeCompare(a[1].date) || a[1].n - b[1].n).slice(0, 15)
+  return [...seen.entries()].sort((a, b) => b[1].date.localeCompare(a[1].date) || a[1].n - b[1].n).slice(0, CAP(src))
     .map(([url, x], i) => ({ who: src.who, platform: src.platform, when: new Date(Date.parse(x.date + 'T16:00:00Z') - i * 1000).toISOString(), quote: x.title, gist: '', url, source: src.id }));
 }
 
@@ -78,8 +82,8 @@ export async function onRequest(context) {
   const key = new Request(new URL('/api/feed?town=' + town, request.url).toString());
   if (cache) { const hit = await cache.match(key); if (hit) return hit; }
   const cfg = await (await env.ASSETS.fetch(new URL(feedsPath, request.url))).json();
-  const results = await Promise.allSettled((cfg.sources || []).map(s => fetchSource(s).then(items => s.tag ? items.map(i => ({ ...i, tag: s.tag })) : items)));
-  const items = results.flatMap(r => r.status === 'fulfilled' ? r.value : []).sort((a, b) => b.when.localeCompare(a.when)).slice(0, 80);
+  const results = await Promise.allSettled((cfg.sources || []).map(s => fetchSource(s).then(items => meta(s, items))));
+  const items = results.flatMap(r => r.status === 'fulfilled' ? r.value : []).sort((a, b) => b.when.localeCompare(a.when)).slice(0, 160);
   const errors = results.map((r, i) => r.status === 'rejected' ? (cfg.sources[i].id) : null).filter(Boolean);
   const res = new Response(JSON.stringify({ town, updated: new Date().toISOString(), items, errors }), {
     headers: { 'content-type': 'application/json; charset=utf-8', 'cache-control': 'public, max-age=' + TTL } });

@@ -1,19 +1,23 @@
 {
- "note": "Official sources for Nashua's live feed. The /api/feed?town=nashua function reads these every minute. Only add accounts the office itself lists. Types: rss, atom, bluesky. tag \"safety\" sends an item to the Police and fire page. Type \"links\" reads article links from a news homepage (match: URL pattern with year, month, day groups; skip: headlines to ignore); tag \"news\" sends items to the Home news card.",
+ "note": "Live sources for /api/feed. type: rss, atom, bluesky (actor) or links (a homepage, match = article URL regex). tag: safety, news, business or parks routes items to that page instead of the social scroll. level: City, County, State or Federal. kind: official or candidate. max: items kept per source (default 6, tagged sources 12).",
  "sources": [
   {
    "id": "city-news",
    "who": "City of Nashua",
    "platform": "City website",
    "type": "rss",
-   "url": "https://www.nashuanh.gov/RSSFeed.aspx?ModID=1&CID=All-newsflash.xml"
+   "url": "https://www.nashuanh.gov/RSSFeed.aspx?ModID=1&CID=All-newsflash.xml",
+   "kind": "official",
+   "level": "City"
   },
   {
    "id": "city-boa-youtube",
    "who": "City of Nashua (Board of Aldermen meetings)",
    "platform": "YouTube",
    "type": "atom",
-   "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCSDUnus2ubPU8CXWXyAzbdg"
+   "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCSDUnus2ubPU8CXWXyAzbdg",
+   "kind": "official",
+   "level": "City"
   },
   {
    "id": "police-youtube",
@@ -21,21 +25,27 @@
    "platform": "YouTube",
    "type": "atom",
    "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UClP3jVmo6Y48wRYVeIPOBsA",
-   "tag": "safety"
+   "tag": "safety",
+   "kind": "official",
+   "level": "City"
   },
   {
    "id": "library-youtube",
    "who": "Nashua Public Library",
    "platform": "YouTube",
    "type": "atom",
-   "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCoTig-rvcMlN5s64pTe6AAQ"
+   "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCoTig-rvcMlN5s64pTe6AAQ",
+   "kind": "official",
+   "level": "City"
   },
   {
    "id": "nashua-independent",
    "who": "The Nashua Independent",
    "platform": "News",
    "type": "rss",
-   "url": "https://www.nashuaindependent.com/rss/"
+   "url": "https://www.nashuaindependent.com/rss/",
+   "kind": "official",
+   "level": "City"
   },
   {
    "id": "goodlander",
@@ -43,7 +53,9 @@
    "platform": "Bluesky",
    "type": "bluesky",
    "actor": "goodlander.house.gov",
-   "person": "goodlander"
+   "person": "goodlander",
+   "kind": "official",
+   "level": "Federal"
   },
   {
    "id": "shaheen",
@@ -51,7 +63,9 @@
    "platform": "Bluesky",
    "type": "bluesky",
    "actor": "shaheen.senate.gov",
-   "person": "shaheen"
+   "person": "shaheen",
+   "kind": "official",
+   "level": "Federal"
   },
   {
    "id": "hassan",
@@ -59,7 +73,9 @@
    "platform": "Bluesky",
    "type": "bluesky",
    "actor": "hassan.senate.gov",
-   "person": "hassan"
+   "person": "hassan",
+   "kind": "official",
+   "level": "Federal"
   },
   {
    "id": "telegraph",
@@ -69,7 +85,9 @@
    "url": "https://www.nashuatelegraph.com/",
    "match": "/news/(\\d{4})/(\\d{2})/(\\d{2})/[^/?#\"]+/?$",
    "skip": "^Real Estate Transactions",
-   "tag": "news"
+   "tag": "news",
+   "kind": "official",
+   "level": "Other"
   },
   {
    "id": "shaheen-youtube",
@@ -77,7 +95,9 @@
    "platform": "YouTube",
    "type": "atom",
    "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCjLZAZMbDrybHyttdEC9LFA",
-   "person": "shaheen"
+   "person": "shaheen",
+   "kind": "official",
+   "level": "Federal"
   },
   {
    "id": "hassan-youtube",
@@ -85,7 +105,9 @@
    "platform": "YouTube",
    "type": "atom",
    "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC4dD6MKchWaCEbfHo-VbQhA",
-   "person": "hassan"
+   "person": "hassan",
+   "kind": "official",
+   "level": "Federal"
   },
   {
    "id": "goodlander-youtube",
@@ -93,7 +115,9 @@
    "platform": "YouTube",
    "type": "atom",
    "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCQiDPQY53U-S6ZtGBshuHZw",
-   "person": "goodlander"
+   "person": "goodlander",
+   "kind": "official",
+   "level": "Federal"
   },
   {
    "id": "ayotte-youtube",
@@ -101,7 +125,9 @@
    "platform": "YouTube",
    "type": "atom",
    "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCMX0bI0EPIo2A_KfRxVps3Q",
-   "person": "ayotte"
+   "person": "ayotte",
+   "kind": "official",
+   "level": "State"
   }
  ]
 }

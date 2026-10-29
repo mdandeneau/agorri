@@ -22,7 +22,8 @@ All towns share one page (`index.html`). Only edit data in `data/<town>/`. Never
 5. **Local news** (`local.json` paper). Replace `paper.headlines` with the paper's newest local headlines (up to 8, newest first): title exactly as published, article URL, and publish date. Headlines and links only, never story text. Set `paper.asOf` to today. Portsmouth: Portsmouth Patch (the Herald is paywalled with no public feed); take the date from each article page and skip "Patch AM" newsletter posts. Nashua: The Telegraph homepage, `/news/YYYY/MM/DD/` links only (date comes from the URL), skip "Real Estate Transactions". On the live site the Telegraph's headlines also update every few minutes through `/api/feed`.
 
 ## Mondays
-6. **Businesses** (`local.json` business): openings and closings from local news. Headlines and facts only; skip paywalled text. Drop closures more than 30 days past.
+6. **Businesses** (`business.json`, which feeds the Business tab; keep `local.json` business in sync): openings and closings from local news (headlines and facts only; skip paywalled text; drop closures more than 30 days past), new business-relevant city notices from the last 120 days (outdoor dining rules, downtown parking, licensing deadlines, grants, construction near storefronts; drop items older than 120 days), and check that every `howTo` and `cityOffices` link still loads. Business news on the live site comes from the `business`-tagged feeds plus paper headlines matching `keywords`.
+6b. **Parks and recreation** (`parks.json`): update `seasonal` (what is open or closed right now: pools, rinks, beaches, fields), add or finish `projects` from council minutes and the department's pages, refresh `programs` for the coming season from the registration site, and set `as_of`. Facilities change rarely; check addresses once a season.
 
 ## First Monday of each month
 7. **Housing** (`local.json` housing): Redfin's city page and the regional realtor report. Update numbers, period and sources.
@@ -30,8 +31,12 @@ All towns share one page (`index.html`). Only edit data in `data/<town>/`. Never
 ## Each fall, when the FBI publishes a new year
 8. **Crime comparisons** (`local.json` safety.benchmarks). When the FBI releases a new year of Crime in the Nation, update the town, New Hampshire and U.S. rates and counts together, for the same year, from FBI Table 8 (city) and the FBI state and national estimates. Never mix years across the three. Keep the note about small counts and visitors. Police officers per 1,000: town's sworn count over the same population; U.S. figure from the latest Bureau of Justice Statistics local police report for the town's size band.
 
+## Before an election (daily in the last 30 days)
+8b. **Candidates** (`candidates.json`, the Vote tab). Add any candidate missing from a race on the ballot (NH Secretary of State filings, Ballotpedia), and add positions only from the candidate's own survey answers (Citizens Count), campaign site or a quoted statement, each with its source. Copy stances in the candidate's framing; never characterize, score or rank anyone, and treat every party identically. Candidate YouTube channels and Bluesky handles go in `accounts` (the feed picks them up with kind "candidate").
+
 ## After an election
 9. **Officials** (`beyond.json`, and `record.json` officials after a city election). Update winners from official results. Until results are certified, label them unofficial in `status`.
+9b. **Results** (`candidates.json`). The day after, add `result: {votes, pct, won: true/false, source}` to each candidate from the official count (NH Secretary of State or the City Clerk), set `note` to say results are unofficial until certified, and leave the page up for 30 days. Then remove `candidates.json` from the town's files in `towns.json` until the next election's filing period, and drop the `cand-*` feed sources from `feeds.json`.
 
 ## Before pushing
 10. Run `node scripts/check.mjs` (checks every live town). Fix every ERROR. Mention WARNs in the summary.

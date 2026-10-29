@@ -1,5 +1,5 @@
 {
- "note": "Agorri town registry. Every live town runs on the same page (index.html), so a layout change applies to all of them. To add a town: put its four files in data/<id>/ (record, local, beyond, feeds), add an entry here with status \"live\", and add \"/<id> / 200\" to _redirects.",
+ "note": "Agorri town registry. Every live town runs on the same page (index.html), so a layout change applies to all of them. To add a town: put its files in data/<id>/ (record, local, beyond and feeds are required; parks, business and candidates are optional and turn on those tabs), add an entry here with status \"live\", and add \"/<id> / 200\" to _redirects.",
  "default": "portsmouth",
  "towns": [
   {

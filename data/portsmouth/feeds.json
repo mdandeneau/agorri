@@ -1,19 +1,23 @@
 {
- "note": "Official sources for Portsmouth's live feed. The /api/feed?town=portsmouth function reads these every minute. Only add accounts the office itself lists. Types: rss, atom, bluesky. tag \"safety\" sends an item to the Police and fire page.",
+ "note": "Live sources for /api/feed. type: rss, atom, bluesky (actor) or links (a homepage, match = article URL regex). tag: safety, news, business or parks routes items to that page instead of the social scroll. level: City, County, State or Federal. kind: official or candidate. max: items kept per source (default 6, tagged sources 12).",
  "sources": [
   {
    "id": "city-news",
    "who": "City of Portsmouth",
    "platform": "City website",
    "type": "rss",
-   "url": "https://www.portsmouthnh.gov/rss.xml"
+   "url": "https://www.portsmouthnh.gov/rss.xml",
+   "kind": "official",
+   "level": "City"
   },
   {
    "id": "city-youtube",
    "who": "City of Portsmouth",
    "platform": "YouTube",
    "type": "atom",
-   "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXUNd8goAjKxc_aXfvXIKdw"
+   "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXUNd8goAjKxc_aXfvXIKdw",
+   "kind": "official",
+   "level": "City"
   },
   {
    "id": "shaheen",
@@ -21,7 +25,9 @@
    "platform": "Bluesky",
    "type": "bluesky",
    "actor": "shaheen.senate.gov",
-   "person": "shaheen"
+   "person": "shaheen",
+   "kind": "official",
+   "level": "Federal"
   },
   {
    "id": "hassan",
@@ -29,7 +35,9 @@
    "platform": "Bluesky",
    "type": "bluesky",
    "actor": "hassan.senate.gov",
-   "person": "hassan"
+   "person": "hassan",
+   "kind": "official",
+   "level": "Federal"
   },
   {
    "id": "portsmouth-police",
@@ -37,7 +45,9 @@
    "platform": "City website",
    "type": "rss",
    "url": "https://www.portsmouthnh.gov/taxonomy/term/20/feed",
-   "tag": "safety"
+   "tag": "safety",
+   "kind": "official",
+   "level": "City"
   },
   {
    "id": "portsmouth-fire",
@@ -45,7 +55,9 @@
    "platform": "City website",
    "type": "rss",
    "url": "https://www.portsmouthnh.gov/taxonomy/term/13/feed",
-   "tag": "safety"
+   "tag": "safety",
+   "kind": "official",
+   "level": "City"
   },
   {
    "id": "shaheen-youtube",
@@ -53,7 +65,9 @@
    "platform": "YouTube",
    "type": "atom",
    "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCjLZAZMbDrybHyttdEC9LFA",
-   "person": "shaheen"
+   "person": "shaheen",
+   "kind": "official",
+   "level": "Federal"
   },
   {
    "id": "pappas-youtube",
@@ -61,7 +75,9 @@
    "platform": "YouTube",
    "type": "atom",
    "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCMKDg_1K7cjBKbHGgq1YKkg",
-   "person": "pappas"
+   "person": "pappas",
+   "kind": "official",
+   "level": "Federal"
   },
   {
    "id": "ayotte-youtube",
@@ -69,7 +85,9 @@
    "platform": "YouTube",
    "type": "atom",
    "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCMX0bI0EPIo2A_KfRxVps3Q",
-   "person": "ayotte"
+   "person": "ayotte",
+   "kind": "official",
+   "level": "State"
   }
  ]
 }
