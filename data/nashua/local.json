@@ -231,6 +231,16 @@
     "label": "City of Nashua Parking",
     "url": "https://www.nashuanh.gov/310/Parking-Department"
    }
+  },
+  {
+   "date": "2026-11-03",
+   "kind": "Election",
+   "title": "Free CityBus and ADA Paratransit rides to and from the polls on Election Day",
+   "detail": "Tell the driver which polling place you are going to or coming from. Buses do not stop at polling places, so board at a regular bus stop. Demand Response riders pay the usual fare.",
+   "source": {
+    "label": "City of Nashua, Oct 27",
+    "url": "https://www.nashuanh.gov/m/newsflash/Home/Detail/2680"
+   }
   }
  ],
  "links": [
@@ -411,7 +421,8 @@
    "town": "Nashua",
    "kind": "Community",
    "url": "https://www.nashuanh.gov/529/Special-Events",
-   "source": "City of Nashua Parks and Recreation"
+   "source": "City of Nashua Parks and Recreation",
+   "note": "The city reported on Oct 13 that all spots are filled."
   },
   {
    "date": "2026-11-01",
@@ -714,6 +725,16 @@
    "source": "Nashua Center for the Arts"
   },
   {
+   "date": "2026-11-17",
+   "time": "12:00 pm",
+   "title": "\"Tell the Story\": multimedia art project honoring Gloria Timmons (U+I Arts; open to artists of all disciplines)",
+   "venue": "Gloria Timmons Community Center",
+   "town": "Nashua",
+   "kind": "Arts",
+   "url": "https://www.nashuanh.gov/m/newsflash/Home/Detail/2682",
+   "source": "City of Nashua"
+  },
+  {
    "date": "2026-11-18",
    "time": "7:00 pm",
    "title": "Rivier men's basketball vs. Salve Regina",
@@ -832,9 +853,99 @@
    "kind": "Holiday",
    "url": "https://downtownnashua.org/winter-stroll/",
    "source": "Downtown Nashua Association"
+  },
+  {
+   "date": "2026-12-01",
+   "time": "7:30 pm",
+   "title": "An Evening with Chris Isaak",
+   "venue": "Nashua Center for the Arts, 201 Main St",
+   "town": "Nashua",
+   "kind": "Music",
+   "url": "https://nashuacenterforthearts.com/event/an-evening-with-chris-isaak/nashua-center-for-the-arts/",
+   "source": "Nashua Center for the Arts"
+  },
+  {
+   "date": "2026-12-02",
+   "time": "7:30 pm",
+   "title": "Shaun Cassidy: UNWRAPPED, Songs and Stories for the Holidays",
+   "venue": "Nashua Center for the Arts, 201 Main St",
+   "town": "Nashua",
+   "kind": "Music",
+   "url": "https://nashuacenterforthearts.com/event/shaun-cassidy-unwrapped-songs-stories-for-the-holidays/nashua-center-for-the-arts/",
+   "source": "Nashua Center for the Arts"
+  },
+  {
+   "date": "2026-12-04",
+   "time": "7:30 pm",
+   "title": "Vienna Boys Choir: Christmas in Vienna",
+   "venue": "Nashua Center for the Arts, 201 Main St",
+   "town": "Nashua",
+   "kind": "Music",
+   "url": "https://nashuacenterforthearts.com/event/vienna-boys-choir-christmas-in-vienna/nashua-center-for-the-arts/",
+   "source": "Nashua Center for the Arts"
+  },
+  {
+   "date": "2026-12-05",
+   "time": "7:30 pm",
+   "title": "The Irish Tenors: A Family Christmas",
+   "venue": "Nashua Center for the Arts, 201 Main St",
+   "town": "Nashua",
+   "kind": "Music",
+   "url": "https://nashuacenterforthearts.com/event/the-irish-tenors-a-family-christmas/nashua-center-for-the-arts/",
+   "source": "Nashua Center for the Arts"
+  },
+  {
+   "date": "2026-12-06",
+   "time": "4:30 pm",
+   "title": "Safe Haven Ballet presents The Nutcracker",
+   "venue": "Nashua Center for the Arts, 201 Main St",
+   "town": "Nashua",
+   "kind": "Dance",
+   "url": "https://nashuacenterforthearts.com/event/safe-haven-ballet-presents-the-nutcracker-3/nashua-center-for-the-arts/",
+   "source": "Nashua Center for the Arts"
+  },
+  {
+   "date": "2026-12-08",
+   "time": "7:30 pm",
+   "title": "The Temptations",
+   "venue": "Nashua Center for the Arts, 201 Main St",
+   "town": "Nashua",
+   "kind": "Music",
+   "url": "https://nashuacenterforthearts.com/event/the-temptations-2/nashua-center-for-the-arts/",
+   "source": "Nashua Center for the Arts"
+  },
+  {
+   "date": "2026-12-10",
+   "time": "7:30 pm",
+   "title": "Judy Collins: Sweet Judy Blue Eyes, Farewell",
+   "venue": "Nashua Center for the Arts, 201 Main St",
+   "town": "Nashua",
+   "kind": "Music",
+   "url": "https://nashuacenterforthearts.com/event/judy-collins-sweet-judy-blue-eyes-farewell/nashua-center-for-the-arts/",
+   "source": "Nashua Center for the Arts"
+  },
+  {
+   "date": "2026-12-12",
+   "time": "7:30 pm",
+   "title": "Eric D'Alessandro",
+   "venue": "Nashua Center for the Arts, 201 Main St",
+   "town": "Nashua",
+   "kind": "Comedy",
+   "url": "https://nashuacenterforthearts.com/event/eric-dalessandro/nashua-center-for-the-arts/",
+   "source": "Nashua Center for the Arts"
+  },
+  {
+   "date": "2026-12-13",
+   "time": "7:00 pm",
+   "title": "Haley Heynderickx with John Roseboro",
+   "venue": "Nashua Center for the Arts, 201 Main St",
+   "town": "Nashua",
+   "kind": "Music",
+   "url": "https://nashuacenterforthearts.com/event/haley-heynderickx-w-john-roseboro/nashua-center-for-the-arts/",
+   "source": "Nashua Center for the Arts"
   }
  ],
- "events_as_of": "2026-10-28",
+ "events_as_of": "2026-10-29",
  "eventsNote": "Events from the Nashua Center for the Arts, Nashua Public Library, City of Nashua calendar, Downtown Nashua Association, VFW Post 483, Rivier Athletics and the Patch community calendar, as of Oct 28. Confirm with the organizer.",
  "election": {
   "date": "2026-11-03",
@@ -1369,7 +1480,7 @@
  "postsAsOf": "2026-10-28T12:00:00Z",
  "postsNote": "The live feed fills this in.",
  "safety": {
-  "as_of": "2026-10-28",
+  "as_of": "2026-10-29",
   "note": "Compiled from Nashua Police and Nashua Fire Rescue pages, the 2025 police annual report, Fire Commission minutes and local news. Incidents are described by type, street and date only; no names of people involved.",
   "alerts": {
    "name": "Nashua Emergency Alerts",
@@ -1807,7 +1918,7 @@
      "year": "2024",
      "better": "lower",
      "town": 1261.3,
-     "nh": 918.0,
+     "nh": 918,
      "us": 1760.1,
      "counts": {
       "town": 1147,
@@ -1866,7 +1977,7 @@
  "paper": {
   "name": "The Telegraph",
   "url": "https://www.nashuatelegraph.com/",
-  "asOf": "2026-10-28",
+  "asOf": "2026-10-29",
   "note": "Stories open on the paper’s site.",
   "headlines": [
    {

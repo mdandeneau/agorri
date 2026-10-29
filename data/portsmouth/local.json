@@ -167,6 +167,18 @@
     "label": "Library calendar",
     "url": "https://portsmouthpl.librarycalendar.com/event/mind-reset"
    }
+  },
+  {
+   "date": "2026-11-03",
+   "kind": "Election",
+   "title": "Election Day: polls open 8 am to 7 pm; Ward 4 votes at Portsmouth High School",
+   "detail": "Polling places: Ward 1 New Franklin School, Ward 2 Portsmouth Middle School, Ward 3 Senior Activity Center, Ward 4 Portsmouth High School (50 Andrew Jarvis Drive), Ward 5 Little Harbour School. City Clerk: 603-610-7245.",
+   "source": {
+    "label": "City of Portsmouth, City Clerk",
+    "url": "https://www.portsmouthnh.gov/cityclerk/voting-information"
+   },
+   "strip": "Election Day",
+   "stripLine": "Tuesday, 8 am to 7 pm"
   }
  ],
  "election": {
@@ -813,48 +825,8 @@
    "status": "not yet connected"
   }
  ],
- "events_as_of": "2026-10-27",
+ "events_as_of": "2026-10-29",
  "events": [
-  {
-   "date": "2026-10-27",
-   "time": "5:30 pm",
-   "title": "Wine Tasting with Jude Blake and Friends: Casey Ryan",
-   "venue": "The Music Hall",
-   "town": "Portsmouth",
-   "kind": "Food & drink",
-   "url": "https://www.themusichall.org/events/winetasting261027/",
-   "source": "The Music Hall"
-  },
-  {
-   "date": "2026-10-27",
-   "time": "6:00 pm",
-   "title": "NT Live: Les Liaisons Dangereuses",
-   "venue": "The Music Hall",
-   "town": "Portsmouth",
-   "kind": "Theater",
-   "url": "https://www.themusichall.org/events/nt-live-les-liaisons-dangereuses/",
-   "source": "The Music Hall"
-  },
-  {
-   "date": "2026-10-27",
-   "time": "7:00 pm",
-   "title": "Pints! Camera! Action! Leatherface (1990)",
-   "venue": "The Music Hall",
-   "town": "Portsmouth",
-   "kind": "Film",
-   "url": "https://www.themusichall.org/events/pints-camera-action-leatherface-1990/",
-   "source": "The Music Hall"
-  },
-  {
-   "date": "2026-10-27",
-   "time": "7:00 pm",
-   "title": "McCue Comedy Class Graduation Show",
-   "venue": "McCues Comedy Club, 580 Portsmouth Traffic Circle",
-   "town": "Portsmouth",
-   "kind": "Comedy",
-   "url": "https://patch.com/new-hampshire/portsmouth-nh/calendar/event/20261027/10fb7a68-0c08-455d-953c-9ca755904eb9/mccue-comedy-class-graduation-show",
-   "source": "Patch calendar"
-  },
   {
    "date": "2026-10-29",
    "time": "9:30 am and 11:30 am",
@@ -970,6 +942,17 @@
    "source": "Patch calendar"
   },
   {
+   "date": "2026-11-01",
+   "time": "3:00 pm",
+   "title": "Portsmouth Symphony Orchestra Fall Concert: The Universe",
+   "venue": "The Music Hall Historic Theater, 28 Chestnut St",
+   "town": "Portsmouth",
+   "kind": "Music",
+   "url": "https://www.themusichall.org/events/pso26fallconcert/",
+   "source": "The Music Hall",
+   "note": "Pre-concert talk at 1:45 pm."
+  },
+  {
    "date": "2026-11-02",
    "time": "6:30 pm",
    "title": "The Mind Reset workshop",
@@ -991,6 +974,16 @@
    "source": "City of Portsmouth"
   },
   {
+   "date": "2026-11-04",
+   "time": "7:00 pm",
+   "title": "Black Violin",
+   "venue": "The Music Hall Historic Theater",
+   "town": "Portsmouth",
+   "kind": "Music",
+   "url": "https://www.themusichall.org/events/blackviolin-befreetour/",
+   "source": "The Music Hall"
+  },
+  {
    "date": "2026-11-05",
    "time": "7:30 pm",
    "title": "Greg Piccolo and Heavy Juice",
@@ -999,6 +992,26 @@
    "kind": "Music",
    "url": "https://patch.com/new-hampshire/portsmouth-nh/calendar/event/20261105/aa3297d6-4a80-4265-a46c-584b3178c207/greg-piccolo-and-heavy-juice",
    "source": "Patch calendar"
+  },
+  {
+   "date": "2026-11-07",
+   "time": "10:00 am to 2:00 pm",
+   "title": "Thanksgiving Guided Tours (weekends through Nov 29, plus Nov 25 and 27)",
+   "venue": "Strawbery Banke Museum",
+   "town": "Portsmouth",
+   "kind": "History",
+   "url": "https://www.strawberybanke.org/events-collection/thanksgiving-guided-tours-1",
+   "source": "Strawbery Banke Museum"
+  },
+  {
+   "date": "2026-11-07",
+   "time": "10:00 am to 2:00 pm",
+   "title": "Weave a Scarf in a Day Workshop (also Nov 11, 14 and 21)",
+   "venue": "Strawbery Banke Museum",
+   "town": "Portsmouth",
+   "kind": "Workshop",
+   "url": "https://www.strawberybanke.org/events-collection/weave-a-scarf-in-a-day-workshop",
+   "source": "Strawbery Banke Museum"
   },
   {
    "date": "2026-11-10",
@@ -1051,6 +1064,27 @@
    "kind": "Market",
    "url": "https://www.portsmouthnh.gov/city/press-releases/city-announces-trick-or-treat-hours-and-fall-events",
    "source": "City of Portsmouth"
+  },
+  {
+   "date": "2026-11-21",
+   "time": "5:00 pm and 8:00 pm",
+   "title": "Griffin House",
+   "venue": "The Music Hall Lounge, 131 Congress St",
+   "town": "Portsmouth",
+   "kind": "Music",
+   "url": "https://www.themusichall.org/events/griffinhouse26/",
+   "source": "The Music Hall",
+   "price": "$28 advance, $30 day of show"
+  },
+  {
+   "date": "2026-12-02",
+   "time": "",
+   "title": "Mary Poppins opens (runs through Dec 21)",
+   "venue": "The Music Hall Historic Theater",
+   "town": "Portsmouth",
+   "kind": "Theater",
+   "url": "https://www.themusichall.org/marypoppins/",
+   "source": "The Music Hall"
   },
   {
    "date": "2026-12-04",
@@ -1278,7 +1312,7 @@
   }
  ],
  "safety": {
-  "as_of": "2026-10-28",
+  "as_of": "2026-10-29",
   "note": "Compiled from City of Portsmouth police and fire pages, daily police logs, Police and Fire Commission minutes and local news. Incidents are described by type, street and date only; no names of people involved.",
   "alerts": {
    "name": "Smart911 Community Alert System",
@@ -1912,7 +1946,7 @@
      "year": "2024",
      "better": "lower",
      "town": 1284.3,
-     "nh": 918.0,
+     "nh": 918,
      "us": 1760.1,
      "counts": {
       "town": 295,
@@ -1959,7 +1993,7 @@
  "paper": {
   "name": "Portsmouth Patch",
   "url": "https://patch.com/new-hampshire/portsmouth-nh",
-  "asOf": "2026-10-28",
+  "asOf": "2026-10-29",
   "note": "The Portsmouth Herald is paywalled with no public feed, so these come from Patch.",
   "headlines": [
    {
