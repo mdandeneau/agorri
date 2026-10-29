@@ -10277,42 +10277,66 @@
     {
      "name": "School renovations (Dr. Crisp, Amherst Street, Nashua High North and South)",
      "amount": 118400000,
-     "note": "Placeholder request for FY30 to FY32 in the FY2027 CIP"
+     "note": "Placeholder request for FY30 to FY32 in the FY2027 CIP",
+     "short": "School renovations",
+     "status": "requested",
+     "sub": "Dr. Crisp, Amherst St and both high schools, FY30 to FY32"
     },
     {
      "name": "Public Works garage and fleet maintenance facility",
      "amount": 43500000,
-     "note": "Bond resolution R-26-072, under review in October 2026; total project about $53 million"
+     "note": "Bond resolution R-26-072, $43.5 million, approved by the Board of Aldermen Oct 13, 2026 (12-1); total project about $53 million",
+     "short": "Public Works garage",
+     "status": "approved",
+     "sub": "Borrowing approved Oct 13 (R-26-072); total project about $53 million"
     },
     {
      "name": "New Fire Station 5 (Pine Hill Road)",
      "amount": 32500000,
-     "note": "CIP request FY27 to FY29 to replace the aging Airport station; R-26-069 would borrow $1 million for design"
+     "note": "CIP request FY27 to FY29 to replace the aging Airport station; $1 million for design (R-26-069) approved Oct 27, 2026",
+     "short": "New Fire Station 5",
+     "status": "requested",
+     "sub": "Pine Hill Road, FY27 to FY29; $1M design borrowing approved Oct 27"
     },
     {
      "name": "Imagine Main Street",
      "amount": 30000000,
-     "note": "CIP request for FY28"
+     "note": "CIP request for FY28",
+     "short": "Imagine Main Street",
+     "status": "requested",
+     "sub": "Requested for FY28"
     },
     {
      "name": "Mount Pleasant Elementary renovation",
      "amount": 25200000,
-     "note": "CIP request FY28 to FY29; 1925 building"
+     "note": "CIP request FY28 to FY29; 1925 building",
+     "short": "Mount Pleasant Elementary",
+     "status": "requested",
+     "sub": "Renovation of the 1925 building, FY28 to FY29"
     },
     {
      "name": "City-wide financial software (ERP) replacement",
      "amount": 9000000,
-     "note": "Bond resolution R-26-071, recommended by Budget Review Committee October 26, 2026"
+     "note": "Bond resolution R-26-071, approved by the Board of Aldermen Oct 27, 2026 (10-4)",
+     "short": "City finance software",
+     "status": "approved",
+     "sub": "Borrowing approved Oct 27 (R-26-071)"
     },
     {
      "name": "Hydroelectric improvements",
      "amount": 7000000,
-     "note": "CIP request for FY27"
+     "note": "CIP request for FY27",
+     "short": "Hydroelectric improvements",
+     "status": "requested",
+     "sub": "Requested for FY27"
     },
     {
      "name": "Two public pool renovations",
      "amount": 5000000,
-     "note": "Bond resolution R-26-066, under review"
+     "note": "Bond resolution R-26-066, approved by the Board of Aldermen Oct 13, 2026 (12-1)",
+     "short": "Two public pools",
+     "status": "approved",
+     "sub": "Borrowing approved Oct 13 (R-26-066)"
     }
    ]
   },
@@ -10348,6 +10372,28 @@
    "waterOwnership": "https://pennichuck.com/wp-content/uploads/2017/05/Final-SummaryofCityAcquisitionandOwnershipofPennichuckMarch-2018.pdf"
   },
   "fundLabel": "General Fund",
+  "driverChips": [
+   [
+    "Health insurance",
+    "+$3.4M"
+   ],
+   [
+    "Special education",
+    "+$1.8M"
+   ],
+   [
+    "School busing",
+    "+$1.7M"
+   ],
+   [
+    "County tax",
+    "+$1.7M"
+   ],
+   [
+    "56 school positions cut",
+    "−$2.4M"
+   ]
+  ],
   "glanceNote": "Department lines are the Mayor's proposals; the city's adopted budget book isn't published in a readable form. Everything else is the rest of the General Fund."
  },
  "town": {

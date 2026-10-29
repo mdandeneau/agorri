@@ -14386,31 +14386,45 @@
     {
      "name": "Municipal Complex upgrade (City Hall and Police)",
      "amount": 38300000,
-     "note": "On Oct 13, 2026 the council accepted a $58.6M concept; the CIP will be updated"
+     "note": "On Oct 13, 2026 the council accepted a $58.6M concept; the CIP will be updated",
+     "short": "City Hall and police station upgrade",
+     "sub": "Council chose a $58.6M design Oct 13; the plan will be updated"
     },
     {
      "name": "Career and Technical Education Center renovation",
-     "amount": 20130000
+     "amount": 20130000,
+     "short": "Career and Technical Education Center",
+     "sub": "In the FY27 to FY32 capital plan"
     },
     {
      "name": "Mechanic Street sewer pumping station",
-     "amount": 20100000
+     "amount": 20100000,
+     "short": "Mechanic Street sewer pump station",
+     "sub": "In the FY27 to FY32 capital plan"
     },
     {
      "name": "Water transmission main replacement",
-     "amount": 16000000
+     "amount": 16000000,
+     "short": "Water transmission main",
+     "sub": "In the FY27 to FY32 capital plan"
     },
     {
      "name": "Street paving and rehabilitation",
-     "amount": 14000000
+     "amount": 14000000,
+     "short": "Street paving and rehabilitation",
+     "sub": "In the FY27 to FY32 capital plan"
     },
     {
      "name": "Portsmouth and Collins wells treatment",
-     "amount": 13600000
+     "amount": 13600000,
+     "short": "Portsmouth and Collins wells treatment",
+     "sub": "In the FY27 to FY32 capital plan"
     },
     {
      "name": "Elementary schools upgrade",
-     "amount": 10605000
+     "amount": 10605000,
+     "short": "Elementary schools upgrade",
+     "sub": "In the FY27 to FY32 capital plan"
     },
     {
      "name": "Annual water line replacement",
@@ -14434,7 +14448,17 @@
    "lineItems": "https://files.portsmouthnh.gov/finance/fy27/FY27%20Budget%20Excel%20Spreadsheets.xlsx",
    "waterSewer": "https://www.portsmouthnh.gov/node/727321",
    "hub": "https://www.portsmouthnh.gov/finance/proposedadopted-budgets-and-financial-reports"
-  }
+  },
+  "driverChips": [
+   [
+    "Health insurance",
+    "+$3.3M"
+   ],
+   [
+    "Staffing",
+    "−9 positions"
+   ]
+  ]
  },
  "town": {
   "name": "Portsmouth",
