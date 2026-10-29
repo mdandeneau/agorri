@@ -1,5 +1,5 @@
 {
- "note": "Official sources for the live Social feed. The /api/feed function reads these every 5 minutes. Only add accounts the office itself lists. Types: rss, atom, bluesky.",
+ "note": "Official sources for Portsmouth's live feed. The /api/feed?town=portsmouth function reads these every 5 minutes. Only add accounts the office itself lists. Types: rss, atom, bluesky. tag \"safety\" sends an item to the Police and fire page.",
  "sources": [
   {
    "id": "city-news",
@@ -30,6 +30,22 @@
    "type": "bluesky",
    "actor": "hassan.senate.gov",
    "person": "hassan"
+  },
+  {
+   "id": "portsmouth-police",
+   "who": "Portsmouth Police",
+   "platform": "City website",
+   "type": "rss",
+   "url": "https://www.portsmouthnh.gov/taxonomy/term/20/feed",
+   "tag": "safety"
+  },
+  {
+   "id": "portsmouth-fire",
+   "who": "Portsmouth Fire",
+   "platform": "City website",
+   "type": "rss",
+   "url": "https://www.portsmouthnh.gov/taxonomy/term/13/feed",
+   "tag": "safety"
   }
  ]
 }

@@ -1,0 +1,941 @@
+{
+ "as_of": "2026-10-28",
+ "note": "Officeholders and districts as listed by Citizens Count, the NH General Court (RSA 662:5), the NH Secretary of State, the NH Executive Council, Ballotpedia, BallotReady and news coverage, checked Oct 28, 2026. Positions are the officials' own survey answers or quoted statements, with the year. Nothing here is characterized or scored.",
+ "ballot_note": "All Hillsborough County offices, the Executive Council, the State Senate and every State House seat are on the Tuesday, Nov 3, 2026 ballot, along with Governor, US Senate and US House. Results will replace the names below.",
+ "ward_reps": {
+  "1": [
+   "elberger",
+   "raymond",
+   "swanson"
+  ],
+  "2": [
+   "rnewman",
+   "snewman",
+   "ryan"
+  ],
+  "3": [
+   "kluger",
+   "spier"
+  ],
+  "4": [
+   "beauchemin",
+   "davis",
+   "plamondon"
+  ],
+  "5": [
+   "dolan",
+   "manohar",
+   "salvi"
+  ],
+  "6": [
+   "booras",
+   "lloyd",
+   "scully"
+  ],
+  "7": [
+   "gregg",
+   "juris",
+   "sofikitis"
+  ],
+  "8": [
+   "chourasia",
+   "darby",
+   "telerski"
+  ],
+  "9": [
+   "harriottgathright",
+   "jack",
+   "ohm"
+  ]
+ },
+ "levels": [
+  {
+   "id": "federal",
+   "title": "Federal",
+   "blurb": "Two senators and one representative. Nashua is in New Hampshire's 2nd Congressional District.",
+   "people": [
+    "shaheen",
+    "hassan",
+    "goodlander"
+   ]
+  },
+  {
+   "id": "state",
+   "title": "State",
+   "blurb": "The Governor, your Executive Councilor (all of Nashua is in District 5) and your State Senator: Wards 1, 2 and 5 are in Senate District 12; Wards 3, 4, 6, 7, 8 and 9 are in District 13.",
+   "people": [
+    "ayotte",
+    "wheeler",
+    "avard",
+    "rosenwald"
+   ]
+  },
+  {
+   "id": "house",
+   "title": "State House",
+   "blurb": "Nashua has 27 State House seats: each of its nine wards is its own three-seat district (Hillsborough 3 to 11), and no floterial district includes a Nashua ward. One Ward 3 seat has been vacant since Suzanne Vail resigned on June 15, 2026, so 26 members are listed.",
+   "people": [
+    "elberger",
+    "raymond",
+    "swanson",
+    "rnewman",
+    "snewman",
+    "ryan",
+    "kluger",
+    "spier",
+    "beauchemin",
+    "davis",
+    "plamondon",
+    "dolan",
+    "manohar",
+    "salvi",
+    "booras",
+    "lloyd",
+    "scully",
+    "gregg",
+    "juris",
+    "sofikitis",
+    "chourasia",
+    "darby",
+    "telerski",
+    "harriottgathright",
+    "jack",
+    "ohm"
+   ]
+  },
+  {
+   "id": "county",
+   "title": "Hillsborough County",
+   "blurb": "The three county commissioners are the county's executive board, in charge of county finances, buildings and staff; the sheriff, registry of deeds and county attorney's office also sit under the county. Nashua is in Commissioner District 2 with Hudson, Litchfield and Pelham. Every county office is on the Nov 3 ballot.",
+   "people": [
+    "soucy",
+    "newcomb",
+    "coughlin",
+    "hogan",
+    "maidment",
+    "fredette"
+   ]
+  }
+ ],
+ "people": {
+  "elberger": {
+   "name": "Susan A. Elberger",
+   "party": "D",
+   "office": "State Representative, Hillsborough 5 (Ward 1)",
+   "level": "house",
+   "since": "2022",
+   "status": "Ward 1 is Hillsborough District 5, which elects three representatives. Two-year term, on the Nov 3 ballot for reelection.",
+   "positions": [],
+   "src": {
+    "label": "Citizens Count profile",
+    "url": "https://www.citizenscount.org/candidate/susan-elberger/serving/nh-house-2024-2026"
+   }
+  },
+  "raymond": {
+   "name": "Heather Raymond",
+   "party": "D",
+   "office": "State Representative, Hillsborough 5 (Ward 1)",
+   "level": "house",
+   "since": "2022",
+   "status": "Ward 1 is Hillsborough District 5, which elects three representatives. Two-year term, on the Nov 3 ballot for reelection.",
+   "positions": [],
+   "src": {
+    "label": "Citizens Count profile",
+    "url": "https://www.citizenscount.org/candidate/heather-raymond/serving/nh-house-2024-2026"
+   }
+  },
+  "swanson": {
+   "name": "Dale Swanson",
+   "party": "D",
+   "office": "State Representative, Hillsborough 5 (Ward 1)",
+   "level": "house",
+   "since": "2024",
+   "status": "Ward 1 is Hillsborough District 5, which elects three representatives. Two-year term, on the Nov 3 ballot for reelection.",
+   "positions": [],
+   "src": {
+    "label": "Citizens Count profile",
+    "url": "https://www.citizenscount.org/candidate/dale-swanson/serving/nh-house-2024-2026"
+   }
+  },
+  "rnewman": {
+   "name": "Ray Newman",
+   "party": "D",
+   "office": "State Representative, Hillsborough 4 (Ward 2)",
+   "level": "house",
+   "since": "2018",
+   "status": "Ward 2 is Hillsborough District 4, which elects three representatives. Not on the Nov 3 ballot; Citizens Count lists \"Not currently running for a NH office.\"",
+   "positions": [],
+   "src": {
+    "label": "Citizens Count profile",
+    "url": "https://www.citizenscount.org/candidate/ray-newman/serving/nh-house-2024-2026"
+   }
+  },
+  "snewman": {
+   "name": "Sue A. Newman",
+   "party": "D",
+   "office": "State Representative, Hillsborough 4 (Ward 2)",
+   "level": "house",
+   "since": "2016",
+   "status": "Ward 2 is Hillsborough District 4, which elects three representatives. Not on the Nov 3 ballot; Citizens Count lists \"Not currently running for a NH office.\"",
+   "positions": [],
+   "src": {
+    "label": "Citizens Count profile",
+    "url": "https://www.citizenscount.org/candidate/sue-newman/serving/nh-house-2024-2026"
+   }
+  },
+  "ryan": {
+   "name": "Linda V. Ryan",
+   "party": "D",
+   "office": "State Representative, Hillsborough 4 (Ward 2)",
+   "level": "house",
+   "since": "2022",
+   "status": "Ward 2 is Hillsborough District 4, which elects three representatives. Two-year term, on the Nov 3 ballot for reelection.",
+   "positions": [],
+   "src": {
+    "label": "Citizens Count profile",
+    "url": "https://www.citizenscount.org/candidate/linda-v-ryan/serving/nh-house-2024-2026"
+   }
+  },
+  "kluger": {
+   "name": "Lee Ann Kluger",
+   "party": "D",
+   "office": "State Representative, Hillsborough 6 (Ward 3)",
+   "level": "house",
+   "since": "2024",
+   "status": "Ward 3 is Hillsborough District 6, which elects three representatives; its third seat has been vacant since Suzanne Vail resigned on June 15, 2026. Two-year term, on the Nov 3 ballot for reelection.",
+   "positions": [],
+   "src": {
+    "label": "Citizens Count profile",
+    "url": "https://www.citizenscount.org/candidate/lee-ann-kluger/serving/nh-house-2024-2026"
+   },
+   "statusSrc": {
+    "label": "Ballotpedia, Suzanne Vail",
+    "url": "https://ballotpedia.org/Suzanne_Vail"
+   }
+  },
+  "spier": {
+   "name": "Carry Spier",
+   "party": "D",
+   "office": "State Representative, Hillsborough 6 (Ward 3)",
+   "level": "house",
+   "since": "2022",
+   "status": "Ward 3 is Hillsborough District 6, which elects three representatives; its third seat has been vacant since Suzanne Vail resigned on June 15, 2026. Not on the Nov 3 ballot; Citizens Count lists \"Not currently running for a NH office.\"",
+   "positions": [],
+   "src": {
+    "label": "Citizens Count profile",
+    "url": "https://www.citizenscount.org/candidate/carry-spier/serving/nh-house-2024-2026"
+   },
+   "statusSrc": {
+    "label": "Ballotpedia, Suzanne Vail",
+    "url": "https://ballotpedia.org/Suzanne_Vail"
+   }
+  },
+  "beauchemin": {
+   "name": "Paige Beauchemin",
+   "party": "D",
+   "office": "State Representative, Hillsborough 3 (Ward 4)",
+   "level": "house",
+   "since": "2023",
+   "status": "Ward 4 is Hillsborough District 3, which elects three representatives. Won a Nov 7, 2023 special election for this seat. Ran in the Sep 8, 2026 Democratic primary for U.S. House (NH-2), which Maggie Goodlander won; not on the Nov 3 ballot for this seat.",
+   "positions": [],
+   "src": {
+    "label": "Citizens Count profile",
+    "url": "https://www.citizenscount.org/candidate/paige-beauchemin/serving/nh-house-2024-2026"
+   },
+   "statusSrc": {
+    "label": "NHPR, Jun 8, 2026",
+    "url": "https://www.nhpr.org/nh-news/2026-06-08/candidate-filing-period-nh-2026-elections-midterms-newhampshire-politics"
+   }
+  },
+  "davis": {
+   "name": "Fred E. Davis, Jr.",
+   "party": "D",
+   "office": "State Representative, Hillsborough 3 (Ward 4)",
+   "level": "house",
+   "since": "2022",
+   "status": "Ward 4 is Hillsborough District 3, which elects three representatives. Also served 2018 to 2020. Two-year term, on the Nov 3 ballot for reelection.",
+   "positions": [],
+   "src": {
+    "label": "Citizens Count profile",
+    "url": "https://www.citizenscount.org/candidate/fred-e-davis-jr/serving/nh-house-2024-2026"
+   }
+  },
+  "plamondon": {
+   "name": "Marc W. Plamondon",
+   "party": "D",
+   "office": "State Representative, Hillsborough 3 (Ward 4)",
+   "level": "house",
+   "since": "2023",
+   "status": "Ward 4 is Hillsborough District 3, which elects three representatives. Won a May 16, 2023 special election for this seat. Not on the Nov 3 ballot; Citizens Count lists \"Not currently running for a NH office.\"",
+   "positions": [],
+   "src": {
+    "label": "Citizens Count profile",
+    "url": "https://www.citizenscount.org/candidate/marc-w-plamondon/serving/nh-house-2024-2026"
+   },
+   "statusSrc": {
+    "label": "Ballotpedia, Hillsborough 3",
+    "url": "https://ballotpedia.org/New_Hampshire_House_of_Representatives_Hillsborough_3"
+   }
+  },
+  "dolan": {
+   "name": "William Dolan",
+   "party": "D",
+   "office": "State Representative, Hillsborough 9 (Ward 5)",
+   "level": "house",
+   "since": "2022",
+   "status": "Ward 5 is Hillsborough District 9, which elects three representatives. Not on the Nov 3 ballot; Citizens Count lists \"Not currently running for a NH office.\"",
+   "positions": [],
+   "src": {
+    "label": "Citizens Count profile",
+    "url": "https://www.citizenscount.org/candidate/william-dolan/serving/nh-house-2024-2026"
+   }
+  },
+  "manohar": {
+   "name": "Sanjeev K. Manohar",
+   "party": "D",
+   "office": "State Representative, Hillsborough 9 (Ward 5)",
+   "level": "house",
+   "since": "2024",
+   "status": "Ward 5 is Hillsborough District 9, which elects three representatives. Two-year term, on the Nov 3 ballot for reelection.",
+   "positions": [],
+   "src": {
+    "label": "Citizens Count profile",
+    "url": "https://www.citizenscount.org/candidate/sanjeev-k-manohar/serving/nh-house-2024-2026"
+   }
+  },
+  "salvi": {
+   "name": "Santosh Salvi",
+   "party": "D",
+   "office": "State Representative, Hillsborough 9 (Ward 5)",
+   "level": "house",
+   "since": "2024",
+   "status": "Ward 5 is Hillsborough District 9, which elects three representatives. Two-year term, on the Nov 3 ballot for reelection.",
+   "positions": [],
+   "src": {
+    "label": "Citizens Count profile",
+    "url": "https://www.citizenscount.org/candidate/santosh-salvi/serving/nh-house-2024-2026"
+   }
+  },
+  "booras": {
+   "name": "Efstathia Booras",
+   "party": "D",
+   "office": "State Representative, Hillsborough 8 (Ward 6)",
+   "level": "house",
+   "since": "2020",
+   "status": "Ward 6 is Hillsborough District 8, which elects three representatives. Also served 2012 to 2016. Two-year term, on the Nov 3 ballot for reelection.",
+   "positions": [],
+   "src": {
+    "label": "Citizens Count profile",
+    "url": "https://www.citizenscount.org/candidate/efstathia-booras/serving/nh-house-2024-2026"
+   }
+  },
+  "lloyd": {
+   "name": "Christal Lloyd",
+   "party": "D",
+   "office": "State Representative, Hillsborough 8 (Ward 6)",
+   "level": "house",
+   "since": "2022",
+   "status": "Ward 6 is Hillsborough District 8, which elects three representatives. Two-year term, on the Nov 3 ballot for reelection.",
+   "positions": [],
+   "src": {
+    "label": "Citizens Count profile",
+    "url": "https://www.citizenscount.org/candidate/christal-lloyd/serving/nh-house-2024-2026"
+   }
+  },
+  "scully": {
+   "name": "Kevin Scully",
+   "party": "R",
+   "office": "State Representative, Hillsborough 8 (Ward 6)",
+   "level": "house",
+   "since": "2024",
+   "status": "Ward 6 is Hillsborough District 8, which elects three representatives. Also served 2016 to 2018. Not on the Nov 3 ballot; Citizens Count lists \"Not currently running for a NH office.\"",
+   "positions": [],
+   "src": {
+    "label": "Citizens Count profile",
+    "url": "https://www.citizenscount.org/candidate/kevin-scully/serving/nh-house-2024-2026"
+   }
+  },
+  "gregg": {
+   "name": "Alicia Gregg",
+   "party": "D",
+   "office": "State Representative, Hillsborough 7 (Ward 7)",
+   "level": "house",
+   "since": "2022",
+   "status": "Ward 7 is Hillsborough District 7, which elects three representatives. Not on the Nov 3 ballot; Citizens Count lists \"Not currently running for a NH office.\"",
+   "positions": [],
+   "src": {
+    "label": "Citizens Count profile",
+    "url": "https://www.citizenscount.org/candidate/alicia-gregg/serving/nh-house-2024-2026"
+   }
+  },
+  "juris": {
+   "name": "Louis C. Juris",
+   "party": "D",
+   "office": "State Representative, Hillsborough 7 (Ward 7)",
+   "level": "house",
+   "since": "2022",
+   "status": "Ward 7 is Hillsborough District 7, which elects three representatives. Two-year term, on the Nov 3 ballot for reelection.",
+   "positions": [],
+   "src": {
+    "label": "Citizens Count profile",
+    "url": "https://www.citizenscount.org/candidate/louis-c-juris/serving/nh-house-2024-2026"
+   }
+  },
+  "sofikitis": {
+   "name": "Catherine M. Sofikitis",
+   "party": "D",
+   "office": "State Representative, Hillsborough 7 (Ward 7)",
+   "level": "house",
+   "since": "2016",
+   "status": "Ward 7 is Hillsborough District 7, which elects three representatives. Not on the Nov 3 ballot; Citizens Count lists \"Not currently running for a NH office.\"",
+   "positions": [],
+   "src": {
+    "label": "Citizens Count profile",
+    "url": "https://www.citizenscount.org/candidate/catherine-sofikitis/serving/nh-house-2024-2026"
+   }
+  },
+  "chourasia": {
+   "name": "Manoj Chourasia",
+   "party": "D",
+   "office": "State Representative, Hillsborough 11 (Ward 8)",
+   "level": "house",
+   "since": "2024",
+   "status": "Ward 8 is Hillsborough District 11, which elects three representatives. Two-year term, on the Nov 3 ballot for reelection.",
+   "positions": [],
+   "src": {
+    "label": "Citizens Count profile",
+    "url": "https://www.citizenscount.org/candidate/manoj-chourasia/serving/nh-house-2024-2026"
+   }
+  },
+  "darby": {
+   "name": "William \"Will\" Darby",
+   "party": "D",
+   "office": "State Representative, Hillsborough 11 (Ward 8)",
+   "level": "house",
+   "since": "2022",
+   "status": "Ward 8 is Hillsborough District 11, which elects three representatives. Two-year term, on the Nov 3 ballot for reelection.",
+   "positions": [],
+   "src": {
+    "label": "Citizens Count profile",
+    "url": "https://www.citizenscount.org/candidate/william-will-darby/serving/nh-house-2024-2026"
+   }
+  },
+  "telerski": {
+   "name": "Laura Telerski",
+   "party": "D",
+   "office": "State Representative, Hillsborough 11 (Ward 8)",
+   "level": "house",
+   "since": "2018",
+   "status": "Ward 8 is Hillsborough District 11, which elects three representatives. Not running for this seat; she is the Democratic nominee for State Senate, District 13 on Nov 3.",
+   "positions": [],
+   "src": {
+    "label": "Citizens Count profile",
+    "url": "https://www.citizenscount.org/candidate/laura-damphousse-telerski/serving/nh-house-2024-2026"
+   },
+   "statusSrc": {
+    "label": "Citizens Count, 2026 NH Senate race",
+    "url": "https://www.citizenscount.org/candidate/laura-damphousse-telerski/running/2026-general-nh-senate"
+   }
+  },
+  "harriottgathright": {
+   "name": "Linda Harriott-Gathright",
+   "party": "D",
+   "office": "State Representative, Hillsborough 10 (Ward 9)",
+   "level": "house",
+   "since": "2018",
+   "status": "Ward 9 is Hillsborough District 10, which elects three representatives. Also served 2012 to 2014. Two-year term, on the Nov 3 ballot for reelection.",
+   "positions": [],
+   "src": {
+    "label": "Citizens Count profile",
+    "url": "https://www.citizenscount.org/candidate/linda-harriott-gathright/serving/nh-house-2024-2026"
+   }
+  },
+  "jack": {
+   "name": "Martin \"Marty\" Jack",
+   "party": "D",
+   "office": "State Representative, Hillsborough 10 (Ward 9)",
+   "level": "house",
+   "since": "2012",
+   "status": "Ward 9 is Hillsborough District 10, which elects three representatives. Two-year term, on the Nov 3 ballot for reelection.",
+   "positions": [],
+   "src": {
+    "label": "Citizens Count profile",
+    "url": "https://www.citizenscount.org/candidate/martin-marty-jack/serving/nh-house-2024-2026"
+   }
+  },
+  "ohm": {
+   "name": "Bill Ohm",
+   "party": "R",
+   "office": "State Representative, Hillsborough 10 (Ward 9)",
+   "level": "house",
+   "since": "2024",
+   "status": "Ward 9 is Hillsborough District 10, which elects three representatives. Also served 2010 to 2012 and 2014 to 2018. Two-year term, on the Nov 3 ballot for reelection.",
+   "positions": [],
+   "src": {
+    "label": "Citizens Count profile",
+    "url": "https://www.citizenscount.org/candidate/bill-ohm/serving/nh-house-2024-2026"
+   }
+  },
+  "goodlander": {
+   "name": "Maggie Goodlander",
+   "party": "D",
+   "office": "U.S. Representative, NH District 2",
+   "level": "federal",
+   "since": "2025",
+   "status": "NH-2 includes all of Nashua. Two-year term, on the Nov 3 ballot with Lily Tang Williams (R) and Robbie Mahrou (Independent/Other).",
+   "statusSrc": {
+    "label": "Citizens Count, Nashua Ward 3 ballot",
+    "url": "https://citizenscount.org/nh/hillsborough/nashua-ward-3"
+   },
+   "positions": [
+    [
+     "Campaign finance",
+     "For an amendment limiting outside funding",
+     "\"For 15 years, the Supreme Court's dead-wrong decision in Citizens United has unleashed chaos and corruption across America.\"",
+     "Campaign website, 2026"
+    ],
+    [
+     "Proof of citizenship to vote",
+     "Against",
+     "\"The right to vote is the fundamental right from which all of our rights flow.\"",
+     "Campaign website, 2026"
+    ],
+    [
+     "Housing",
+     "For limiting private equity home purchases",
+     "\"Our bipartisan bill takes practical steps to build more homes, reduce needless delays, expand financing options\"",
+     "Campaign website, 2026"
+    ],
+    [
+     "Social Security",
+     "For raising the income cap",
+     "\"the wealthy should pay their fair share into Social Security so we can ensure it's solvency into the future.\"",
+     "Debate at New England College, 2024"
+    ]
+   ],
+   "caveat": "Citizens Count shows \"No Response\" for her 2024 and 2026 Citizens Count survey questions; these quotes come from her website and a debate, as compiled by Citizens Count, and the For/Against labels are Citizens Count's.",
+   "src": {
+    "label": "Citizens Count profile",
+    "url": "https://www.citizenscount.org/candidate/maggie-goodlander/serving/us-house-2024-2026"
+   }
+  },
+  "shaheen": {
+   "name": "Jeanne Shaheen",
+   "party": "D",
+   "office": "U.S. Senator",
+   "level": "federal",
+   "since": "2009",
+   "status": "Not seeking reelection. Her term ends in January 2027; the seat is on the Nov 3 ballot.",
+   "statusSrc": {
+    "label": "Her announcement, Mar 12, 2025",
+    "url": "https://www.shaheen.senate.gov/news/press/after-30-years-making-a-difference-jeanne-shaheen-announces-she-will-not-seek-reelection-in-2026"
+   },
+   "positions": [
+    [
+     "Federal minimum wage",
+     "For raising it",
+     "\"would increase wages for nearly thirty eight million Americans\"",
+     "Campaign website, 2015"
+    ],
+    [
+     "Abortion",
+     "Against a federal ban after 24 weeks",
+     "\"A woman needs the freedom to consider every medical option.\"",
+     "Facebook, 2018"
+    ],
+    [
+     "Dreamers",
+     "For a bipartisan plan",
+     "\"Dreamers are children, students and workers who were brought to this country through no fault of their own.\"",
+     "Facebook, 2018"
+    ],
+    [
+     "Tariffs",
+     "Against",
+     "\"Escalating this trade war will be disastrous for NH.\"",
+     "Twitter, 2018"
+    ],
+    [
+     "Border wall",
+     "Against",
+     "\"There are cost-effective ways to improve border security.\"",
+     "Twitter, 2017"
+    ],
+    [
+     "Health coverage",
+     "For keeping essential health benefits",
+     "\"we must preserve & protect all essential health benefits.\"",
+     "Twitter, 2017"
+    ]
+   ],
+   "caveat": "Statements on record date from 2015 to 2019 and may not reflect current views.",
+   "src": {
+    "label": "Citizens Count profile",
+    "url": "https://www.citizenscount.org/candidate/jeanne-shaheen/serving/us-senate-2020-2026"
+   }
+  },
+  "hassan": {
+   "name": "Maggie Hassan",
+   "party": "D",
+   "office": "U.S. Senator",
+   "level": "federal",
+   "since": "2017",
+   "status": "Term runs through 2028.",
+   "positions": [
+    [
+     "Term limits",
+     "Against",
+     "\"The best term limit is the ballot box.\"",
+     "2016"
+    ],
+    [
+     "Child tax credit",
+     "For the expansion",
+     "\"a critical investment in our families\"",
+     "Campaign website, 2022"
+    ],
+    [
+     "Abortion",
+     "For access before 24 weeks",
+     "\"hold the line against any efforts to enact a nationwide ban\"",
+     "Campaign website, 2022"
+    ],
+    [
+     "Military aid to Ukraine",
+     "For",
+     "\"we must provide additional aid and equipment to Ukraine\"",
+     "Campaign website, 2022"
+    ],
+    [
+     "Student loan forgiveness",
+     "Partial",
+     "\"While I do not support canceling all student debt\"",
+     "Campaign website, 2022"
+    ],
+    [
+     "Qualified immunity",
+     "Undecided",
+     "\"there might be some unintended consequences to abolishing qualified immunity entirely\"",
+     "2022"
+    ],
+    [
+     "Keystone XL pipeline",
+     "Against",
+     "\"Rejecting the Keystone XL tar-sands pipeline was the right decision for our environment\"",
+     "WMUR, 2022"
+    ]
+   ],
+   "src": {
+    "label": "Citizens Count profile",
+    "url": "https://www.citizenscount.org/candidate/margaret-maggie-hassan/serving/us-senate-2022-2028"
+   }
+  },
+  "ayotte": {
+   "name": "Kelly Ayotte",
+   "party": "R",
+   "office": "Governor of New Hampshire",
+   "level": "state",
+   "since": "2025",
+   "status": "Two-year term. On the Nov 3 ballot.",
+   "positions": [
+    [
+     "Education Freedom Accounts",
+     "For",
+     "\"will fight for Universal education freedom\"",
+     "2024 survey"
+    ],
+    [
+     "Abortion",
+     "Keep current NH law",
+     "\"supports and will not change New Hampshire's existing abortion law\"",
+     "2024 survey"
+    ],
+    [
+     "Income and sales taxes",
+     "Against",
+     "\"will never allow an income or sales tax to be imposed in New Hampshire\"",
+     "2024 survey"
+    ],
+    [
+     "Energy",
+     "All of the above",
+     "\"an all-of-the above energy strategy, including renewable and other clean energy sources\"",
+     "2024 survey"
+    ],
+    [
+     "Housing",
+     "Streamline permitting",
+     "\"streamline the state permitting process and cut unnecessary red tape\"",
+     "2024 survey"
+    ],
+    [
+     "Marijuana legalization",
+     "Against",
+     "\"would not sign a bill legalizing marijuana\"",
+     "2024 survey"
+    ],
+    [
+     "Minimum wage",
+     "Against raising",
+     "\"the market should decide wages\"",
+     "2024 survey"
+    ],
+    [
+     "Sanctuary cities",
+     "For a ban",
+     "\"will ban sanctuary cities\"",
+     "2024 survey"
+    ]
+   ],
+   "src": {
+    "label": "Citizens Count profile",
+    "url": "https://www.citizenscount.org/candidate/kelly-ayotte/serving/nh-governor-2024-2026"
+   }
+  },
+  "wheeler": {
+   "name": "Dave Wheeler",
+   "party": "R",
+   "office": "Executive Council, District 5",
+   "level": "state",
+   "since": "2021",
+   "status": "The five-member Executive Council approves state contracts over $10,000, confirms judges and commissioners, and reviews pardon requests. All of Nashua is in District 5. Also served on the Council in earlier terms. Two-year term, on the Nov 3 ballot with Melanie Levesque (D).",
+   "statusSrc": {
+    "label": "NH Executive Council, District 5",
+    "url": "https://council.nh.gov/district-5/councilor-wheeler"
+   },
+   "positions": [
+    [
+     "Interest and Dividends tax",
+     "Against",
+     "\"I will oppose and Vote against any and all efforts to increase taxes.\"",
+     "Granite State Taxpayers survey, 2026"
+    ],
+    [
+     "Contract review threshold",
+     "Against raising it",
+     "\"The previous Democrat Council raised the threshold to $ 25,000 and we saw multiple contracts for $24,995.\"",
+     "Citizens Count survey, 2020"
+    ],
+    [
+     "Education Freedom Accounts",
+     "For",
+     "\"This money allows students to choose the best venue that fits their educational style.\"",
+     "Citizens Count survey, 2022"
+    ],
+    [
+     "Judicial nominees",
+     "Uphold the Constitution",
+     "\"I will be looking for judges who will uphold the Constitution and not try to rewrite it\"",
+     "Concord Monitor, Oct 30, 2024"
+    ]
+   ],
+   "caveat": "Citizens Count shows \"No Response\" for his 2024 and 2026 Citizens Count survey questions.",
+   "src": {
+    "label": "Citizens Count profile",
+    "url": "https://www.citizenscount.org/candidate/dave-wheeler/serving/nh-exec-council-2024-2026"
+   },
+   "contact": "523 Mason Road, Milford, NH 03055 (mailing address on the Council site)"
+  },
+  "avard": {
+   "name": "Kevin A. Avard",
+   "party": "R",
+   "office": "State Senator, District 12",
+   "level": "state",
+   "since": "2020",
+   "status": "District 12 includes Nashua Wards 1, 2 and 5. Also served in the Senate 2014 to 2018. Two-year term, on the Nov 3 ballot with Carryl L. Roy (D).",
+   "statusSrc": {
+    "label": "Citizens Count, Nashua Ward 1",
+    "url": "https://citizenscount.org/nh/hillsborough/nashua-ward-1"
+   },
+   "positions": [
+    [
+     "Housing and zoning",
+     "Protect local control",
+     "\"First and foremost we have to protect local control, each community should decide their future\"",
+     "Citizens Count survey, 2026"
+    ],
+    [
+     "Education Freedom Accounts",
+     "For",
+     "\"Every child deserves an education that meets their needs.\"",
+     "Citizens Count survey, 2026"
+    ],
+    [
+     "Net metering expansion",
+     "For",
+     "\"I am the prime sponsor of that legislation and have been a longtime advocate for an all of the above approach to energy.\"",
+     "Citizens Count survey, 2026"
+    ],
+    [
+     "Nuclear development",
+     "For",
+     "\"I am a cosponsor of a number of pieces of legislation to move this important policy forward.\"",
+     "Citizens Count survey, 2026"
+    ]
+   ],
+   "src": {
+    "label": "Citizens Count profile",
+    "url": "https://www.citizenscount.org/candidate/kevin-avard/serving/nh-senate-2024-2026"
+   }
+  },
+  "rosenwald": {
+   "name": "Cindy Rosenwald",
+   "party": "D",
+   "office": "State Senator, District 13",
+   "level": "state",
+   "since": "2018",
+   "status": "District 13 includes Nashua Wards 3, 4, 6, 7, 8 and 9. Served in the NH House 2004 to 2018. Not seeking reelection; Citizens Count lists \"Not currently running for a NH office.\" The Nov 3 race is Laura Telerski (D) and Daniel J. Paul (R).",
+   "statusSrc": {
+    "label": "Citizens Count, Nashua Ward 7",
+    "url": "https://citizenscount.org/nh/hillsborough/nashua-ward-7"
+   },
+   "positions": [
+    [
+     "Housing and zoning",
+     "For local zoning changes",
+     "\"We need tens of thousands more housing units.\"",
+     "Citizens Count survey, 2024"
+    ],
+    [
+     "Education Freedom Accounts",
+     "Against",
+     "\"More than 80% of the students receiving vouchers were already attending private schools.\"",
+     "Citizens Count survey, 2024"
+    ],
+    [
+     "School funding",
+     "Other",
+     "\"We are in the middle of two major lawsuits that could have a significant effect on how we fund education and to what extent.\"",
+     "Citizens Count survey, 2024"
+    ],
+    [
+     "Business taxes",
+     "Against further cuts",
+     "\"We have lowered business taxes several times in recent years and should not enact further decreases\"",
+     "Citizens Count survey, 2024"
+    ]
+   ],
+   "src": {
+    "label": "Citizens Count profile",
+    "url": "https://www.citizenscount.org/candidate/cindy-rosenwald/serving/nh-senate-2024-2026"
+   }
+  },
+  "soucy": {
+   "name": "Michael Soucy",
+   "party": "R",
+   "office": "Hillsborough County Commissioner, District 2",
+   "level": "county",
+   "since": "",
+   "status": "Of Nashua. District 2 covers Nashua, Hudson, Litchfield and Pelham. Won the seat in 2024; term ends Dec 31, 2026. Not among the Nov 3 candidates: the District 2 race is David G. Fredette (R) and Sherry Dutzy (D).",
+   "statusSrc": {
+    "label": "The Ballot Brief, Hillsborough County 2026",
+    "url": "https://www.theballotbrief.com/state/new-hampshire/hillsborough-county"
+   },
+   "positions": [],
+   "caveat": "First year in office not confirmed from an opened source.",
+   "src": {
+    "label": "BallotReady",
+    "url": "https://www.ballotready.org/people/michael-soucy"
+   }
+  },
+  "newcomb": {
+   "name": "Brian Newcomb",
+   "party": "R",
+   "office": "Hillsborough County Sheriff",
+   "level": "county",
+   "since": "2025",
+   "status": "A 24-year veteran of the office, chosen by the county's House delegation in March 2025 (63 to 56) after Sheriff Chris Connelly resigned to become Gov. Ayotte's chief of staff. The only filer for sheriff on Nov 3.",
+   "statusSrc": {
+    "label": "NH Journal via Patch, Mar 6, 2025",
+    "url": "https://patch.com/new-hampshire/nashua/ayotte-scores-win-newcomb-holds-hillsborough-sheriffs-job-gop"
+   },
+   "positions": [
+    [
+     "Approach",
+     "Professional, impartial policing",
+     "\"I will continue to lead the department in a positive direction that focuses on professionalism and fair and impartial policing\"",
+     "NHPR via Valley News, Mar 7, 2025"
+    ]
+   ],
+   "src": {
+    "label": "NHPR via Valley News",
+    "url": "https://vnews.com/2025/03/07/hillsborough-delegation-chooses-new-county-sheriff-59859718/"
+   }
+  },
+  "coughlin": {
+   "name": "John J. Coughlin",
+   "party": "R",
+   "office": "Hillsborough County Attorney",
+   "level": "county",
+   "since": "2021",
+   "status": "Sworn in Jan 6, 2021 as the county's chief law enforcement official. On the Nov 3 ballot with Travis Bennett (D).",
+   "statusSrc": {
+    "label": "The Ballot Brief, Hillsborough County 2026",
+    "url": "https://www.theballotbrief.com/state/new-hampshire/hillsborough-county"
+   },
+   "positions": [
+    [
+     "Priorities",
+     "Accountability for serious crimes",
+     "\"holding those who commit serious crimes accountable\"",
+     "Concord Sentinel, Oct 31, 2024"
+    ]
+   ],
+   "src": {
+    "label": "Manchester Ink Link, Jan 6, 2021",
+    "url": "https://manchester.inklink.news/police-working-with-newly-sworn-county-attorney-to-improve-prosecution-sentencing-outcomes/"
+   }
+  },
+  "hogan": {
+   "name": "Dennis Hogan",
+   "party": "R",
+   "office": "Hillsborough County Register of Deeds",
+   "level": "county",
+   "since": "2025",
+   "status": "Term ends Dec 31, 2026. On the Nov 3 ballot with Mary Ann Crowell (D).",
+   "statusSrc": {
+    "label": "The Ballot Brief, Hillsborough County 2026",
+    "url": "https://www.theballotbrief.com/state/new-hampshire/hillsborough-county"
+   },
+   "positions": [],
+   "src": {
+    "label": "BallotReady",
+    "url": "https://www.ballotready.org/people/dennis-hogan"
+   }
+  },
+  "maidment": {
+   "name": "Christopher Maidment",
+   "party": "R",
+   "office": "Hillsborough County Register of Probate",
+   "level": "county",
+   "since": "2025",
+   "status": "Running for County Treasurer on Nov 3 rather than this office. The Register of Probate race is Ross W. Terrio (R) and June Trisciani (D).",
+   "statusSrc": {
+    "label": "The Ballot Brief, Hillsborough County 2026",
+    "url": "https://www.theballotbrief.com/state/new-hampshire/hillsborough-county"
+   },
+   "positions": [],
+   "src": {
+    "label": "BallotReady",
+    "url": "https://www.ballotready.org/people/christopher-maidment"
+   }
+  },
+  "fredette": {
+   "name": "David G. Fredette",
+   "party": "R",
+   "office": "Hillsborough County Treasurer",
+   "level": "county",
+   "since": "1999",
+   "status": "Running for County Commissioner, District 2 on Nov 3 with Sherry Dutzy (D) as opponent. The Treasurer race is Christopher Maidment (R) and Beverly Cotton (D).",
+   "statusSrc": {
+    "label": "The Ballot Brief, Hillsborough County 2026",
+    "url": "https://www.theballotbrief.com/state/new-hampshire/hillsborough-county"
+   },
+   "positions": [],
+   "src": {
+    "label": "BallotReady",
+    "url": "https://www.ballotready.org/people/david-g-fredette"
+   }
+  }
+ }
+}

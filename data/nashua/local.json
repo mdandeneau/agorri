@@ -1,0 +1,1795 @@
+{
+ "as_of": "2026-10-28",
+ "note": "From the City of Nashua, its departments and local news, checked Oct 28, 2026. Every item links to its source.",
+ "housing": {
+  "nashua": {
+   "source": "Redfin, Nashua NH housing market",
+   "url": "https://www.redfin.com/city/12918/NH/Nashua/housing-market",
+   "period": "Three months ending September 2026",
+   "median": 539743,
+   "yoy": 5.8,
+   "sold": 284,
+   "soldLastYear": 307,
+   "dom": 17,
+   "domLastYear": 14,
+   "overList": 57.2,
+   "note": "All home types; Redfin calls the market very competitive. For single-family homes only, the NH Association of Realtors put Nashua's August median at $615,000, up 11.8% from $549,950 and tied with June's record (Nashua Ink Link, Sep 13).",
+   "soldLabel": "Homes sold"
+  },
+  "region": {
+   "source": "New Hampshire Association of Realtors, reported by Nashua Ink Link",
+   "url": "https://nashua.inklink.news/new-hampshire-august-home-prices-cool-down-nashuas-heat-back-up/",
+   "reported": "2026-09-13",
+   "period": "August 2026",
+   "towns": "New Hampshire statewide. Hillsborough County single-family median: $566,500, down 3.2% from $585,000.",
+   "singleFamily": {
+    "median": 569900,
+    "yoy": 3.6,
+    "note": "Down from a record $580,000 in July. 1,381 closed sales, up 1.6%; 2.8 months of inventory; 27 days on market."
+   },
+   "condo": {
+    "median": 434900,
+    "yoy": 4.3,
+    "note": "Statewide condos and townhouses. 420 closed sales, down 3.2%; 38 days on market, up from 28."
+   },
+   "summary": "New Hampshire, August 2026 (New Hampshire Association of Realtors, reported by Nashua Ink Link): single-family median $569,900 (+3.6%), condos $434,900 (+4.3%). Hillsborough County single-family median: $566,500, down 3.2% from $585,000."
+  },
+  "records": []
+ },
+ "business": {
+  "note": "Openings and closures come from local news coverage (Nashua Independent, Concord Monitor, 97.5 WOKQ, Nashua Ink Link), not from the city. Nashua Telegraph business stories are mostly paywalled and were not used.",
+  "openings": [
+   {
+    "name": "Mesozoic Tiki Bar & Lounge",
+    "what": "Tiki bar and lounge with wood-fired pizza",
+    "date": "2026-08",
+    "detail": "Opened at 97 Main St in the former Flight Center space with a public soft opening in late August. Live entertainment was set to start in mid-September.",
+    "source": {
+     "label": "97.5 WOKQ, Aug 21, 2026",
+     "url": "https://wokq.com/mesozoic-tiki-bar-nashua-nh/"
+    }
+   },
+   {
+    "name": "Greater Nashua Mental Health, Pine Street site",
+    "what": "Nonprofit community mental health center",
+    "date": "2026-08-10",
+    "detail": "Opened at 3 Pine St. Ext., bringing intake, substance use, justice, older adult and deaf and hard of hearing services back under one roof. A Feb 2 gas explosion destroyed its building at 440 Amherst St.",
+    "source": {
+     "label": "Concord Monitor, Jul 29, 2026",
+     "url": "https://www.concordmonitor.com/2026/07/29/nashua-mental-health-center-reopening-fire/"
+    }
+   },
+   {
+    "name": "Southern New Hampshire Health Pharmacy",
+    "what": "Retail pharmacy, the health system's first",
+    "date": "2026-09",
+    "detail": "Recently opened inside Southern New Hampshire Medical Center and open to non-patients. Hours: Monday to Friday 7 am to 7 pm, Saturday 7 am to noon.",
+    "source": {
+     "label": "The Nashua Independent, Sep 3, 2026",
+     "url": "https://www.nashuaindependent.com/southern-new-hampshire-health-pharmacy-ribbon-cutting/"
+    }
+   },
+   {
+    "name": "Predictive Monitor headquarters",
+    "what": "Life sciences tech company that monitors lab refrigeration",
+    "date": "2026-10",
+    "detail": "Held a ribbon cutting and open house at its new 15,000 sq ft headquarters, a building it bought at 1800 Southwood Drive, after renting a smaller space.",
+    "source": {
+     "label": "The Nashua Independent, Oct 16, 2026",
+     "url": "https://www.nashuaindependent.com/predictive-monitor-held-ribbon-cutting-open-house-for-their-new-15-000-sq-ft-headquarters-in-nashua-nh/"
+    }
+   }
+  ],
+  "closures": [
+   {
+    "name": "Fresh of Nashua",
+    "what": "Downtown women's clothing boutique, open since 2008",
+    "date": "2026-08-15",
+    "detail": "Closed for good on August 15 at 3 pm as its owner retired after 18 years.",
+    "source": {
+     "label": "Nashua Ink Link",
+     "url": "https://nashua.inklink.news/cheryl-plunkett-of-fresh-of-nashua-retires-closing-store-after-18-amazing-years/"
+    }
+   }
+  ]
+ },
+ "notices": [
+  {
+   "date": "2026-10-31",
+   "kind": "Event",
+   "title": "Trick-or-treat is Saturday, October 31, 6 to 8 pm",
+   "detail": "The city keeps its usual schedule. Anyone driving during those hours should take extra care and watch for children.",
+   "source": {
+    "label": "City of Nashua, Oct 26",
+    "url": "https://www.nashuanh.gov/CivicAlerts.aspx?AID=2681"
+   },
+   "strip": "Trick-or-treat",
+   "stripLine": "Saturday, 6 to 8 pm"
+  },
+  {
+   "date": "2026-11-03",
+   "kind": "Election",
+   "title": "Election Day: polls open 6 am to 8 pm in all nine wards",
+   "detail": "You can register at your polling place on Election Day if you are 18 or older, a U.S. citizen and live in the ward. Look up your ward's polling place on the city's Where Do I Vote page. City Clerk: 603-589-3010.",
+   "source": {
+    "label": "City of Nashua, City Clerk",
+    "url": "https://www.nashuanh.gov/205/Where-Do-I-Vote"
+   },
+   "strip": "Election Day",
+   "stripLine": "Tuesday, 6 am to 8 pm"
+  },
+  {
+   "date": "2026-11-03",
+   "kind": "Schools",
+   "title": "No school Nov 3, Nov 11 and Nov 25 to 27",
+   "detail": "Election Day is a teacher in-service day with no classes. Schools and district offices close for Veterans Day and the Thanksgiving recess.",
+   "source": {
+    "label": "Nashua School District 2026-27 calendar",
+    "url": "https://resources.finalsite.net/images/v1770838354/nashuaedu/mcac7yauydwliusi5gmv/Approved2026-2027Calendar.pdf"
+   }
+  },
+  {
+   "date": "2026-11-07",
+   "kind": "Trash",
+   "title": "Last household hazardous waste day of 2026 is Saturday, Nov 7",
+   "detail": "8 am to noon at 25 Crown St. Limit 10 gallons or 20 pounds per household; a $20 fee per vehicle is requested. Latex paint, used oil, asbestos and smoke detectors are not accepted.",
+   "source": {
+    "label": "City of Nashua",
+    "url": "https://www.nashuanh.gov/CivicAlerts.aspx?AID=1098"
+   },
+   "strip": "Hazardous waste",
+   "stripLine": "Saturday, 8 am to noon"
+  },
+  {
+   "date": "2026-11-07",
+   "kind": "Trash",
+   "title": "Extra Saturday hours for soft yard waste at Four Hills Landfill",
+   "detail": "Residents only, on Saturdays Nov 7, 14, 21 and 28. The scale closes at 12:45 pm, but soft yard waste is accepted until 4 pm.",
+   "source": {
+    "label": "City of Nashua, Oct 12",
+    "url": "https://www.nashuanh.gov/CivicAlerts.aspx?AID=2673"
+   },
+   "strip": "Yard waste",
+   "stripLine": "Saturdays in Nov, until 4 pm"
+  },
+  {
+   "date": "2026-11-11",
+   "kind": "Closure",
+   "title": "City Hall closed for Veterans Day, Wednesday, Nov 11",
+   "detail": "City offices close for the holiday. The closure schedule does not apply to the Nashua Transit System or the Division of Public Works.",
+   "source": {
+    "label": "City of Nashua holiday schedule",
+    "url": "https://www.nashuanh.gov/712/Holiday-Schedule"
+   }
+  },
+  {
+   "date": "2026-11-11",
+   "kind": "Event",
+   "title": "Veterans Day Parade steps off from Holman Stadium at 11:11 am",
+   "detail": "Monument ceremonies begin at 8 am. A luncheon for parade participants follows at the Adult Learning Center, 4 Lake St.",
+   "source": {
+    "label": "VFW Post 483",
+    "url": "https://vfw483.org/"
+   }
+  },
+  {
+   "date": "2026-11-11",
+   "kind": "Trash",
+   "title": "Trash and recycling run one day late in Veterans Day and Thanksgiving weeks",
+   "detail": "The Nov 11 and Nov 26 holidays make collection one day late in those weeks. Look up your street's day on the city's schedule map.",
+   "source": {
+    "label": "City of Nashua Solid Waste",
+    "url": "https://www.nashuanh.gov/436/Trash-Recycling-Schedule"
+   }
+  },
+  {
+   "date": "2026-11-23",
+   "kind": "Hearing",
+   "title": "Aldermen hold a public hearing on R-26-077, Monday, Nov 23, 7 pm",
+   "detail": "Special Board of Aldermen meeting in the Aldermanic Chamber, City Hall, 229 Main St. The agenda is on the city's CivicClerk portal; the calendar listing does not say what the resolution covers.",
+   "source": {
+    "label": "City of Nashua calendar",
+    "url": "https://www.nashuanh.gov/Calendar.aspx?EID=14546"
+   }
+  },
+  {
+   "date": "2026-11-26",
+   "kind": "Closure",
+   "title": "City Hall closed Thanksgiving Day and the day after, Nov 26 and 27",
+   "detail": "City offices close both days for the holiday.",
+   "source": {
+    "label": "City of Nashua holiday schedule",
+    "url": "https://www.nashuanh.gov/712/Holiday-Schedule"
+   }
+  },
+  {
+   "date": "2026-11-28",
+   "kind": "Roads",
+   "title": "Main Street closes 2 to 11 pm for the Winter Stroll, Saturday, Nov 28",
+   "detail": "Downtown parking will be limited. Free shuttles run every 15 minutes from 4 to 9:30 pm from Holman Stadium, the Crown Street Park and Ride and Rivier University's Memorial Hall. The organizer's page still carries some details from last year, so check before you go.",
+   "source": {
+    "label": "Downtown Nashua Association",
+    "url": "https://downtownnashua.org/winter-stroll/"
+   }
+  },
+  {
+   "date": "2026-10-27",
+   "kind": "Parking",
+   "title": "Rolling stairwell closures at both downtown garages for about two weeks",
+   "detail": "Stairwell levels at the Elm Street and High Street garages close in turns; follow posted signs and exit maps. The High Street elevator is out of service and the Elm Street north stairs are closed. Gates are not active yet, so prepay at the kiosks.",
+   "source": {
+    "label": "City of Nashua Parking, Oct 27",
+    "url": "https://www.nashuanh.gov/310/Parking-Department"
+   }
+  },
+  {
+   "date": "2026-10-29",
+   "kind": "Parking",
+   "title": "No overnight parking permit pickup at the City Clerk's Office on Oct 29; back Nov 5",
+   "detail": "Overnight street parking from midnight to 6 am needs a permit in designated areas; other streets have a two-hour limit. Parking Department: 603-589-3205.",
+   "source": {
+    "label": "City of Nashua Parking",
+    "url": "https://www.nashuanh.gov/310/Parking-Department"
+   }
+  }
+ ],
+ "links": [
+  {
+   "name": "Pay a bill online",
+   "url": "https://www.nashuanh.gov/131/Online-Payments"
+  },
+  {
+   "name": "Report a problem (SeeClickFix)",
+   "url": "https://www.nashuanh.gov/715/Citizen-Service-Requests---SeeClickFix",
+   "note": "Potholes, drainage, sidewalks, snow and ice, trash, signs and signals"
+  },
+  {
+   "name": "Trash and recycling schedule",
+   "url": "https://www.nashuanh.gov/436/Trash-Recycling-Schedule",
+   "note": "Week A and B recycling calendars and holiday delays"
+  },
+  {
+   "name": "Find your trash day by street",
+   "url": "http://nashuamaps.maps.arcgis.com/apps/webappviewer/index.html?id=3a598afe03644f12ad9991cc0a65be13",
+   "note": "City GIS map"
+  },
+  {
+   "name": "Agendas and minutes (CivicClerk)",
+   "url": "https://nashuanh.portal.civicclerk.com/"
+  },
+  {
+   "name": "City meetings calendar",
+   "url": "https://www.nashuanh.gov/Calendar.aspx"
+  },
+  {
+   "name": "Where do I vote?",
+   "url": "https://www.nashuanh.gov/205/Where-Do-I-Vote",
+   "note": "Ward polling places; polls open 6 am to 8 pm"
+  },
+  {
+   "name": "Police media releases",
+   "url": "https://www.nashuanhpd.gov/DocumentCenter/Index/46",
+   "note": "Posted by the department"
+  },
+  {
+   "name": "Police arrest logs",
+   "url": "https://www.nashuanhpd.gov/DocumentCenter/Index/45",
+   "note": "Posted by the department. Agorri does not republish names."
+  },
+  {
+   "name": "Building permits",
+   "url": "https://www.nashuanh.gov/278/Permits",
+   "note": "Apply by email to permits@nashuanh.gov or at City Hall, 2nd floor; 603-589-3080"
+  },
+  {
+   "name": "Emergency alerts sign-up",
+   "url": "https://nashuanh.genasys.com/portal/en",
+   "note": "City emergency alert system"
+  },
+  {
+   "name": "Notify Me email and text lists",
+   "url": "https://www.nashuanh.gov/list.aspx",
+   "note": "Sign up for city email or text notices"
+  },
+  {
+   "name": "City Hall holiday schedule",
+   "url": "https://www.nashuanh.gov/712/Holiday-Schedule"
+  },
+  {
+   "name": "Public records request (Right to Know)",
+   "url": "https://www.nashuanh.gov/1657/Make-a-Public-Record-Request---RTK"
+  }
+ ],
+ "newsSources": [
+  {
+   "name": "City of Nashua (news, calendar, department pages)",
+   "url": "https://www.nashuanh.gov/",
+   "status": "used"
+  },
+  {
+   "name": "Nashua Police Department",
+   "url": "https://www.nashuanhpd.gov/",
+   "status": "used"
+  },
+  {
+   "name": "Nashua School District",
+   "url": "https://www.nashua.edu/",
+   "status": "used"
+  },
+  {
+   "name": "Nashua Public Library events (LibCal)",
+   "url": "https://nashualibrary.libcal.com/calendar/events",
+   "status": "used"
+  },
+  {
+   "name": "Nashua Center for the Arts",
+   "url": "https://nashuacenterforthearts.com/tickets-events/",
+   "status": "used"
+  },
+  {
+   "name": "Downtown Nashua Association",
+   "url": "https://downtownnashua.org/",
+   "status": "used"
+  },
+  {
+   "name": "The Nashua Independent",
+   "url": "https://www.nashuaindependent.com/",
+   "status": "used"
+  },
+  {
+   "name": "Nashua Ink Link",
+   "url": "https://nashua.inklink.news/",
+   "status": "used"
+  },
+  {
+   "name": "Nashua Patch community calendar",
+   "url": "https://patch.com/new-hampshire/nashua/calendar",
+   "status": "used"
+  },
+  {
+   "name": "Concord Monitor",
+   "url": "https://www.concordmonitor.com/",
+   "status": "used"
+  },
+  {
+   "name": "97.5 WOKQ",
+   "url": "https://wokq.com/",
+   "status": "used"
+  },
+  {
+   "name": "Redfin",
+   "url": "https://www.redfin.com/city/12918/NH/Nashua/housing-market",
+   "status": "used"
+  },
+  {
+   "name": "VFW Post 483",
+   "url": "https://vfw483.org/",
+   "status": "used"
+  },
+  {
+   "name": "Rivier Athletics",
+   "url": "https://rivierathletics.com/",
+   "status": "used"
+  },
+  {
+   "name": "Ballotpedia",
+   "url": "https://ballotpedia.org/",
+   "status": "used"
+  }
+ ],
+ "events": [
+  {
+   "date": "2026-10-29",
+   "time": "11:00 am",
+   "title": "Homeschool Exploration",
+   "venue": "Nashua Public Library, Theater",
+   "town": "Nashua",
+   "kind": "Family",
+   "url": "https://nashualibrary.libcal.com/event/17358561",
+   "source": "Nashua Public Library"
+  },
+  {
+   "date": "2026-10-31",
+   "time": "6:00 pm",
+   "title": "Trick-or-treat across Nashua, 6 to 8 pm",
+   "venue": "Neighborhoods citywide",
+   "town": "Nashua",
+   "kind": "Holiday",
+   "url": "https://www.nashuanh.gov/CivicAlerts.aspx?AID=2681",
+   "source": "City of Nashua"
+  },
+  {
+   "date": "2026-11-01",
+   "time": "12:00 pm",
+   "title": "June Caron Senior Outing: lunch, raffles and entertainment (free for Nashua residents 60+, reserve in person at the DPW office)",
+   "venue": "Courtyard Marriott, 2200 Southwood Drive",
+   "town": "Nashua",
+   "kind": "Community",
+   "url": "https://www.nashuanh.gov/529/Special-Events",
+   "source": "City of Nashua Parks and Recreation"
+  },
+  {
+   "date": "2026-11-01",
+   "time": "1:00 pm",
+   "title": "Sunday Cinema Classics: \"The Candidate\"",
+   "venue": "Nashua Public Library, Theater",
+   "town": "Nashua",
+   "kind": "Art",
+   "url": "https://nashualibrary.libcal.com/event/14994905",
+   "source": "Nashua Public Library"
+  },
+  {
+   "date": "2026-11-02",
+   "time": "4:30 pm",
+   "title": "Día de los Muertos Celebración (grades K to 5)",
+   "venue": "Nashua Public Library, Theater",
+   "town": "Nashua",
+   "kind": "Family",
+   "url": "https://nashualibrary.libcal.com/event/17358586",
+   "source": "Nashua Public Library"
+  },
+  {
+   "date": "2026-11-03",
+   "time": "6:00 am",
+   "title": "State general election: polls open 6 am to 8 pm",
+   "venue": "Ward polling places",
+   "town": "Nashua",
+   "kind": "Civic",
+   "url": "https://www.nashuanh.gov/205/Where-Do-I-Vote",
+   "source": "City of Nashua"
+  },
+  {
+   "date": "2026-11-03",
+   "time": "6:00 pm",
+   "title": "Genealogy Club",
+   "venue": "Nashua Public Library, Large Meeting Room",
+   "town": "Nashua",
+   "kind": "Community",
+   "url": "https://nashualibrary.libcal.com/event/16706655",
+   "source": "Nashua Public Library"
+  },
+  {
+   "date": "2026-11-03",
+   "time": "7:30 pm",
+   "title": "Andy Grammer: Greater Than Pt. II, A One Man Show",
+   "venue": "Nashua Center for the Arts, 201 Main St",
+   "town": "Nashua",
+   "kind": "Music",
+   "url": "https://nashuacenterforthearts.com/event/andy-grammer-greater-than-pt-ii-a-one-man-show/nashua-center-for-the-arts/",
+   "source": "Nashua Center for the Arts"
+  },
+  {
+   "date": "2026-11-04",
+   "time": "10:00 am",
+   "title": "Nashua Community Health Van",
+   "venue": "Nashua Public Library, Library Plaza",
+   "town": "Nashua",
+   "kind": "Community",
+   "url": "https://nashualibrary.libcal.com/event/15862800",
+   "source": "Nashua Public Library"
+  },
+  {
+   "date": "2026-11-04",
+   "time": "6:30 pm",
+   "title": "A Masterclass in Podcasting with Jeff Belanger",
+   "venue": "Nashua Public Library, Large Meeting Room",
+   "town": "Nashua",
+   "kind": "Talk",
+   "url": "https://nashualibrary.libcal.com/event/15841237",
+   "source": "Nashua Public Library"
+  },
+  {
+   "date": "2026-11-04",
+   "time": "7:00 pm",
+   "title": "Library Board of Trustees meeting",
+   "venue": "Nashua Public Library, Activity Room",
+   "town": "Nashua",
+   "kind": "Civic",
+   "url": "https://nashualibrary.libcal.com/event/14998571",
+   "source": "Nashua Public Library"
+  },
+  {
+   "date": "2026-11-04",
+   "time": "7:00 pm",
+   "title": "Nashua Garden Club program: \"Begonias\" (free, open to the public)",
+   "venue": "First Baptist Church, 121 Manchester St",
+   "town": "Nashua",
+   "kind": "Talk",
+   "url": "https://patch.com/new-hampshire/nashua/calendar/event/20261104/38876d4b-dfec-412d-80ff-fdbfc81661f9/invitation-to-nashua-garden-club-november-program-begonias",
+   "source": "Patch community calendar"
+  },
+  {
+   "date": "2026-11-04",
+   "time": "7:30 pm",
+   "title": "AJ McLean presents Alexander James: The Better Man Tour",
+   "venue": "Nashua Center for the Arts, 201 Main St",
+   "town": "Nashua",
+   "kind": "Music",
+   "url": "https://nashuacenterforthearts.com/event/aj-mclean-presents-alexander-james-the-better-man-tour/nashua-center-for-the-arts/",
+   "source": "Nashua Center for the Arts"
+  },
+  {
+   "date": "2026-11-05",
+   "time": "2:00 pm",
+   "title": "The Cloud for Beginners",
+   "venue": "Nashua Public Library, Training Room",
+   "town": "Nashua",
+   "kind": "Talk",
+   "url": "https://nashualibrary.libcal.com/event/17691551",
+   "source": "Nashua Public Library"
+  },
+  {
+   "date": "2026-11-05",
+   "time": "3:45 pm",
+   "title": "Free Ballet for Kids (also Nov 12, 19 and 26)",
+   "venue": "Gloria Timmons Community Center, 36 Arlington St",
+   "town": "Nashua",
+   "kind": "Family",
+   "url": "https://www.nashuanh.gov/Calendar.aspx?EID=14536",
+   "source": "City of Nashua"
+  },
+  {
+   "date": "2026-11-06",
+   "time": "4:00 pm",
+   "title": "First Church Holiday Fair and silent auction (Fri 4 to 7 pm, Sat 9 am to 2 pm)",
+   "venue": "First Church Nashua, 1 Concord St",
+   "town": "Nashua",
+   "kind": "Community",
+   "url": "https://patch.com/new-hampshire/nashua/calendar/event/20261107/9c4a0499-c0ad-489a-9519-283473f9510f/holiday-fair",
+   "source": "Patch community calendar"
+  },
+  {
+   "date": "2026-11-06",
+   "time": "7:00 pm",
+   "title": "Rivier men's basketball vs. Wheaton (Mass.)",
+   "venue": "Muldoon Center, Rivier University",
+   "town": "Nashua",
+   "kind": "Sports",
+   "url": "https://rivierathletics.com/sports/mens-basketball/schedule/2026-27",
+   "source": "Rivier Athletics"
+  },
+  {
+   "date": "2026-11-07",
+   "time": "12:30 pm",
+   "title": "Nashua Historical Society open house and new outdoor story walk",
+   "venue": "Nashua Historical Society, 5 Abbott St",
+   "town": "Nashua",
+   "kind": "Family",
+   "url": "https://patch.com/new-hampshire/nashua/calendar/event/20261107/ad1919cf-e882-4a00-87cc-ec8860927657/nashua-historical-society-open-house-and-story-walk",
+   "source": "Patch community calendar"
+  },
+  {
+   "date": "2026-11-07",
+   "time": "8:00 am",
+   "title": "Household Hazardous Waste collection day (8 am to noon)",
+   "venue": "25 Crown St",
+   "town": "Nashua",
+   "kind": "Community",
+   "url": "https://www.nashuanh.gov/CivicAlerts.aspx?AID=1098",
+   "source": "City of Nashua"
+  },
+  {
+   "date": "2026-11-07",
+   "time": "8:00 pm",
+   "title": "Marty Stuart and His Fabulous Superlatives",
+   "venue": "Nashua Center for the Arts, 201 Main St",
+   "town": "Nashua",
+   "kind": "Music",
+   "url": "https://nashuacenterforthearts.com/event/marty-stuart-and-his-fabulous-superlatives-2/nashua-center-for-the-arts/",
+   "source": "Nashua Center for the Arts"
+  },
+  {
+   "date": "2026-11-08",
+   "time": "1:30 pm",
+   "title": "Author Talk: \"The Chosen City\" with Bill Ranauro",
+   "venue": "Nashua Public Library, Theater",
+   "town": "Nashua",
+   "kind": "Talk",
+   "url": "https://nashualibrary.libcal.com/event/14994906",
+   "source": "Nashua Public Library"
+  },
+  {
+   "date": "2026-11-08",
+   "time": "7:00 pm",
+   "title": "Close Enemies featuring Tom Hamilton of Aerosmith, with Jeff Hilliard",
+   "venue": "Nashua Center for the Arts, 201 Main St",
+   "town": "Nashua",
+   "kind": "Music",
+   "url": "https://nashuacenterforthearts.com/event/close-enemies-featuring-tom-hamilton-of-aerosmith-with-support-from-jeff-hilliard/nashua-center-for-the-arts/",
+   "source": "Nashua Center for the Arts"
+  },
+  {
+   "date": "2026-11-10",
+   "time": "7:30 pm",
+   "title": "Board of Aldermen meeting",
+   "venue": "Aldermanic Chamber, City Hall, 229 Main St",
+   "town": "Nashua",
+   "kind": "Civic",
+   "url": "https://www.nashuanh.gov/Calendar.aspx?EID=13712",
+   "source": "City of Nashua"
+  },
+  {
+   "date": "2026-11-11",
+   "time": "11:11 am",
+   "title": "Veterans Day Parade from Holman Stadium (monument ceremonies from 8 am)",
+   "venue": "Holman Stadium",
+   "town": "Nashua",
+   "kind": "Holiday",
+   "url": "https://vfw483.org/",
+   "source": "VFW Post 483"
+  },
+  {
+   "date": "2026-11-12",
+   "time": "6:30 pm",
+   "title": "Frank Santos Jr. family hypnotist show (Main Dunstable School PTO fundraiser)",
+   "venue": "Nashua High School South auditorium, 36 Riverside St",
+   "town": "Nashua",
+   "kind": "Family",
+   "url": "https://patch.com/new-hampshire/nashua/calendar/event/20261112/e5fc733b-9d40-4834-a77a-057067052d0c/frank-santos-jr-hypnotist-family-friendly-show",
+   "source": "Patch community calendar"
+  },
+  {
+   "date": "2026-11-13",
+   "time": "7:30 pm",
+   "title": "Tusk: The Classic Fleetwood Mac Tribute",
+   "venue": "Nashua Center for the Arts, 201 Main St",
+   "town": "Nashua",
+   "kind": "Music",
+   "url": "https://nashuacenterforthearts.com/event/tusk-the-classic-fleetwood-mac-tribute/nashua-center-for-the-arts/",
+   "source": "Nashua Center for the Arts"
+  },
+  {
+   "date": "2026-11-14",
+   "time": "11:00 am",
+   "title": "Main Street Unwrapped: holiday window unveiling, treats and Santa",
+   "venue": "Main Street, downtown",
+   "town": "Nashua",
+   "kind": "Holiday",
+   "url": "https://downtownnashua.org/main-street-unwrapped/",
+   "source": "Downtown Nashua Association"
+  },
+  {
+   "date": "2026-11-14",
+   "time": "7:30 pm",
+   "title": "Sarah Jarosz: 10 Years of Undercurrent, with Jefferson Hamer",
+   "venue": "Nashua Center for the Arts, 201 Main St",
+   "town": "Nashua",
+   "kind": "Music",
+   "url": "https://nashuacenterforthearts.com/event/sarah-jarosz-10-years-of-undercurrent/nashua-center-for-the-arts/",
+   "source": "Nashua Center for the Arts"
+  },
+  {
+   "date": "2026-11-14",
+   "time": "9:00 am",
+   "title": "Arts and Crafts Supply Swap",
+   "venue": "Nashua Public Library, Chandler Performance Area",
+   "town": "Nashua",
+   "kind": "Community",
+   "url": "https://nashualibrary.libcal.com/event/17661177",
+   "source": "Nashua Public Library"
+  },
+  {
+   "date": "2026-11-14",
+   "time": "9:00 am",
+   "title": "Fall Fair: crafts, baked goods, cookie walk",
+   "venue": "Main Street United Methodist Church, 154 Main St",
+   "town": "Nashua",
+   "kind": "Community",
+   "url": "https://patch.com/new-hampshire/nashua/calendar/event/20261114/a3aa4af2-2eb5-4e35-943a-b90889e7a348/fall-fair",
+   "source": "Patch community calendar"
+  },
+  {
+   "date": "2026-11-15",
+   "time": "1:30 pm",
+   "title": "A More Perfect Union: The Legacy of African American Speechmaking",
+   "venue": "Nashua Public Library, Chandler Performance Area",
+   "town": "Nashua",
+   "kind": "Talk",
+   "url": "https://nashualibrary.libcal.com/event/16816816",
+   "source": "Nashua Public Library"
+  },
+  {
+   "date": "2026-11-15",
+   "time": "4:00 pm",
+   "title": "Taylorville",
+   "venue": "Nashua Center for the Arts, 201 Main St",
+   "town": "Nashua",
+   "kind": "Music",
+   "url": "https://nashuacenterforthearts.com/event/taylorville/nashua-center-for-the-arts/",
+   "source": "Nashua Center for the Arts"
+  },
+  {
+   "date": "2026-11-17",
+   "time": "7:30 pm",
+   "title": "Cowboy Junkies: Celebrating 40 Years and Beyond",
+   "venue": "Nashua Center for the Arts, 201 Main St",
+   "town": "Nashua",
+   "kind": "Music",
+   "url": "https://nashuacenterforthearts.com/event/cowboy-junkies-celebrating-40-years-and-beyond/nashua-center-for-the-arts/",
+   "source": "Nashua Center for the Arts"
+  },
+  {
+   "date": "2026-11-18",
+   "time": "7:00 pm",
+   "title": "Rivier men's basketball vs. Salve Regina",
+   "venue": "Muldoon Center, Rivier University",
+   "town": "Nashua",
+   "kind": "Sports",
+   "url": "https://rivierathletics.com/sports/mens-basketball/schedule/2026-27",
+   "source": "Rivier Athletics"
+  },
+  {
+   "date": "2026-11-19",
+   "time": "7:00 pm",
+   "title": "Joint Special School Building Committee",
+   "venue": "Nashua High School North",
+   "town": "Nashua",
+   "kind": "Civic",
+   "url": "https://www.nashuanh.gov/Calendar.aspx?EID=13847",
+   "source": "City of Nashua"
+  },
+  {
+   "date": "2026-11-20",
+   "time": "8:00 pm",
+   "title": "Face 2 Face: Tribute to Elton John and Billy Joel",
+   "venue": "Nashua Center for the Arts, 201 Main St",
+   "town": "Nashua",
+   "kind": "Music",
+   "url": "https://nashuacenterforthearts.com/event/face-2-face-tribute-to-elton-john-billy-joel/nashua-center-for-the-arts/",
+   "source": "Nashua Center for the Arts"
+  },
+  {
+   "date": "2026-11-21",
+   "time": "12:00 pm",
+   "title": "Rivier men's basketball vs. MIT (YMCA Day)",
+   "venue": "Muldoon Center, Rivier University",
+   "town": "Nashua",
+   "kind": "Sports",
+   "url": "https://rivierathletics.com/sports/mens-basketball/schedule/2026-27",
+   "source": "Rivier Athletics"
+  },
+  {
+   "date": "2026-11-21",
+   "time": "8:00 pm",
+   "title": "The Beautiful Losers: A Tribute to Bob Seger, with Fleetwood Heart",
+   "venue": "Nashua Center for the Arts, 201 Main St",
+   "town": "Nashua",
+   "kind": "Music",
+   "url": "https://nashuacenterforthearts.com/event/the-beautiful-losers-a-tribute-to-bob-seger-the-silver-bullet-band-with-support-from-fleetwood-heart/nashua-center-for-the-arts/",
+   "source": "Nashua Center for the Arts"
+  },
+  {
+   "date": "2026-11-23",
+   "time": "7:00 pm",
+   "title": "Board of Aldermen special meeting: public hearing on R-26-077",
+   "venue": "Aldermanic Chamber, City Hall, 229 Main St",
+   "town": "Nashua",
+   "kind": "Civic",
+   "url": "https://www.nashuanh.gov/Calendar.aspx?EID=14546",
+   "source": "City of Nashua"
+  },
+  {
+   "date": "2026-11-24",
+   "time": "5:00 pm",
+   "title": "Rivier men's basketball vs. Nichols",
+   "venue": "Muldoon Center, Rivier University",
+   "town": "Nashua",
+   "kind": "Sports",
+   "url": "https://rivierathletics.com/sports/mens-basketball/schedule/2026-27",
+   "source": "Rivier Athletics"
+  },
+  {
+   "date": "2026-11-24",
+   "time": "7:00 pm",
+   "title": "Jessica Lynn's A Very Merry Classic Christmas",
+   "venue": "Nashua Center for the Arts, 201 Main St",
+   "town": "Nashua",
+   "kind": "Music",
+   "url": "https://nashuacenterforthearts.com/event/jessica-lynns-a-very-merry-classic-christmas/nashua-center-for-the-arts/",
+   "source": "Nashua Center for the Arts"
+  },
+  {
+   "date": "2026-11-24",
+   "time": "7:30 pm",
+   "title": "Board of Aldermen meeting",
+   "venue": "Aldermanic Chamber, City Hall, 229 Main St",
+   "town": "Nashua",
+   "kind": "Civic",
+   "url": "https://www.nashuanh.gov/Calendar.aspx?EID=13713",
+   "source": "City of Nashua"
+  },
+  {
+   "date": "2026-11-27",
+   "time": "10:00 am",
+   "title": "Plaid Friday: wear plaid for downtown shop deals; totes for the first 100 at Fortin Gage, 86 W. Pearl St",
+   "venue": "Main Street, downtown",
+   "town": "Nashua",
+   "kind": "Community",
+   "url": "https://downtownnashua.org/plaid-friday/",
+   "source": "Downtown Nashua Association"
+  },
+  {
+   "date": "2026-11-27",
+   "time": "7:30 pm",
+   "title": "Beginnings: A Celebration of the Music of Chicago",
+   "venue": "Nashua Center for the Arts, 201 Main St",
+   "town": "Nashua",
+   "kind": "Music",
+   "url": "https://nashuacenterforthearts.com/event/beginnings-a-celebration-of-the-music-of-chicago/nashua-center-for-the-arts/",
+   "source": "Nashua Center for the Arts"
+  },
+  {
+   "date": "2026-11-28",
+   "time": "5:30 pm",
+   "title": "31st Winter Stroll: tree lighting in Renaissance Park, then performers downtown until 9 pm",
+   "venue": "Main Street and Renaissance Park",
+   "town": "Nashua",
+   "kind": "Holiday",
+   "url": "https://downtownnashua.org/winter-stroll/",
+   "source": "Downtown Nashua Association"
+  }
+ ],
+ "events_as_of": "2026-10-28",
+ "eventsNote": "Events from the Nashua Center for the Arts, Nashua Public Library, City of Nashua calendar, Downtown Nashua Association, VFW Post 483, Rivier Athletics and the Patch community calendar, as of Oct 28. Confirm with the organizer.",
+ "election": {
+  "date": "2026-11-03",
+  "hours": "6:00 AM to 8:00 PM",
+  "hoursSource": {
+   "label": "City of Nashua, Legal Notices: Nov 3, 2026 General Election",
+   "url": "https://www.nashuanh.gov/199/Legal-Notices"
+  },
+  "hoursNote": "All nine ward polling places keep the same hours; absentee ballots are processed at the polls starting 8 AM on Election Day.",
+  "polls": [
+   {
+    "ward": "1",
+    "place": "Nashua High School North, 8 Titan Way"
+   },
+   {
+    "ward": "2",
+    "place": "Charlotte Avenue Elementary School, 48 Charlotte Avenue"
+   },
+   {
+    "ward": "3",
+    "place": "Amherst Street Elementary School, 71 Amherst Street"
+   },
+   {
+    "ward": "4",
+    "place": "Ledge Street Elementary School, 139 Ledge Street"
+   },
+   {
+    "ward": "5",
+    "place": "Nashua High School South, 36 Riverside Street"
+   },
+   {
+    "ward": "6",
+    "place": "Fairgrounds Middle School, 27 Cleveland Street"
+   },
+   {
+    "ward": "7",
+    "place": "Dr. Norman W. Crisp Elementary School, 50 Arlington Street"
+   },
+   {
+    "ward": "8",
+    "place": "Bicentennial Elementary School, 296 East Dunstable Road"
+   },
+   {
+    "ward": "9",
+    "place": "New Searles Elementary School, 39 Shady Lane"
+   }
+  ],
+  "absentee": "Request an absentee ballot from the City Clerk using the online form (by mail, email, fax or in person) with photo ID or other verification; applications are accepted up to the day before the election. Return the ballot in person by 5 PM Monday, Nov 2, or by mail so it arrives by 5 PM on Election Day.",
+  "sameDay": "New voters can register at their polling place on Election Day by showing proof of identity, age, citizenship and domicile; affidavits are no longer accepted for identity, age or citizenship.",
+  "clerk": "City Clerk's Office, City Hall, 229 Main Street, Nashua, NH 03060; 603-589-3010",
+  "sampleBallots": "https://www.sos.nh.gov/elections/sample-ballots",
+  "source": {
+   "label": "City of Nashua City Clerk: Elections and Voter Registration",
+   "url": "https://www.nashuanh.gov/195/Elections-Voter-Registration"
+  }
+ },
+ "social": {
+  "feedNote": "Live posts come from official YouTube channels, the city's news feed and Bluesky. Facebook, Instagram, X and TikTok don't offer open feeds, so those accounts link out.",
+  "accounts": [
+   {
+    "who": "City of Nashua",
+    "level": "City",
+    "role": "City government",
+    "platform": "Facebook",
+    "url": "https://www.facebook.com/GateCityGovernment/",
+    "type": "Official",
+    "source": "https://www.nashuanh.gov/79/Social-Networking"
+   },
+   {
+    "who": "City of Nashua",
+    "level": "City",
+    "role": "Board of Aldermen meetings, archived since 2017",
+    "platform": "YouTube",
+    "url": "https://www.youtube.com/channel/UCSDUnus2ubPU8CXWXyAzbdg",
+    "type": "Official",
+    "source": "https://www.nashuanh.gov/79/Social-Networking"
+   },
+   {
+    "who": "Mayor Jim Donchess",
+    "level": "City",
+    "role": "Mayor",
+    "platform": "Facebook",
+    "url": "https://www.facebook.com/MayorJimDonchess",
+    "type": "Official",
+    "source": "https://www.nashuanh.gov/79/Social-Networking"
+   },
+   {
+    "who": "Mayor Jim Donchess",
+    "level": "City",
+    "role": "Mayor",
+    "platform": "X",
+    "url": "https://twitter.com/JimDonchess",
+    "type": "Official",
+    "source": "https://www.nashuanh.gov/79/Social-Networking"
+   },
+   {
+    "who": "Nashua Police Department",
+    "level": "City",
+    "role": "Police, non-emergency 603-594-3500",
+    "platform": "Facebook",
+    "url": "https://www.facebook.com/NashuaPolice",
+    "type": "Official",
+    "source": "https://www.nashuanhpd.gov/"
+   },
+   {
+    "who": "Nashua Police Department",
+    "level": "City",
+    "role": "Police",
+    "platform": "X",
+    "url": "https://twitter.com/NashuaPolice",
+    "type": "Official",
+    "source": "https://www.nashuanh.gov/79/Social-Networking"
+   },
+   {
+    "who": "Nashua Police Department",
+    "level": "City",
+    "role": "Police",
+    "platform": "YouTube",
+    "url": "https://www.youtube.com/channel/UClP3jVmo6Y48wRYVeIPOBsA",
+    "type": "Official",
+    "source": "https://www.nashuanh.gov/79/Social-Networking"
+   },
+   {
+    "who": "Nashua Fire Rescue",
+    "level": "City",
+    "role": "Fire Rescue",
+    "platform": "X",
+    "url": "https://twitter.com/nashuafire",
+    "type": "Official",
+    "source": "https://www.nashuanh.gov/79/Social-Networking"
+   },
+   {
+    "who": "Nashua Fire Marshal's Office",
+    "level": "City",
+    "role": "Fire prevention and inspections",
+    "platform": "Facebook",
+    "url": "https://www.facebook.com/Nashuafiremarshalsoffice/",
+    "type": "Official",
+    "source": "https://www.nashuanh.gov/79/Social-Networking"
+   },
+   {
+    "who": "Nashua Office of Emergency Management",
+    "level": "City",
+    "role": "Emergency management",
+    "platform": "Facebook",
+    "url": "https://www.facebook.com/NashuaOEM/",
+    "type": "Official",
+    "source": "https://www.nashuanh.gov/79/Social-Networking"
+   },
+   {
+    "who": "Nashua Office of Emergency Management",
+    "level": "City",
+    "role": "Emergency management",
+    "platform": "X",
+    "url": "https://twitter.com/NashuaOEM",
+    "type": "Official",
+    "source": "https://www.nashuanh.gov/79/Social-Networking"
+   },
+   {
+    "who": "Nashua Public Works",
+    "level": "City",
+    "role": "Public Works Division",
+    "platform": "Facebook",
+    "url": "https://www.facebook.com/NashuaDPW/",
+    "type": "Official",
+    "source": "https://www.nashuanh.gov/79/Social-Networking"
+   },
+   {
+    "who": "Nashua Public Works",
+    "level": "City",
+    "role": "Public Works Division",
+    "platform": "X",
+    "url": "https://twitter.com/nashuadpw",
+    "type": "Official",
+    "source": "https://www.nashuanh.gov/79/Social-Networking"
+   },
+   {
+    "who": "Nashua Public Health",
+    "level": "City",
+    "role": "Public Health and Community Services",
+    "platform": "Facebook",
+    "url": "https://www.facebook.com/NashuaDPHCS/",
+    "type": "Official",
+    "source": "https://www.nashuanh.gov/79/Social-Networking"
+   },
+   {
+    "who": "Nashua Public Health",
+    "level": "City",
+    "role": "Public Health and Community Services",
+    "platform": "Instagram",
+    "url": "https://www.instagram.com/nashuapublichealth/",
+    "type": "Official",
+    "source": "https://www.nashuanh.gov/79/Social-Networking"
+   },
+   {
+    "who": "Nashua Public Health",
+    "level": "City",
+    "role": "Public Health and Community Services",
+    "platform": "X",
+    "url": "https://x.com/NashuaPHealth",
+    "type": "Official",
+    "source": "https://www.nashuanh.gov/79/Social-Networking"
+   },
+   {
+    "who": "Nashua Public Health",
+    "level": "City",
+    "role": "Public Health and Community Services",
+    "platform": "YouTube",
+    "url": "https://www.youtube.com/@greaternashuapublichealth3977",
+    "type": "Official",
+    "source": "https://www.nashuanh.gov/79/Social-Networking"
+   },
+   {
+    "who": "Nashua Transit System",
+    "level": "City",
+    "role": "City bus service",
+    "platform": "Facebook",
+    "url": "https://www.facebook.com/NashuaTransitSystem/",
+    "type": "Official",
+    "source": "https://www.nashuanh.gov/79/Social-Networking"
+   },
+   {
+    "who": "Nashua Transit System",
+    "level": "City",
+    "role": "City bus service",
+    "platform": "X",
+    "url": "https://twitter.com/Ridebigblue",
+    "type": "Official",
+    "source": "https://www.nashuanh.gov/79/Social-Networking"
+   },
+   {
+    "who": "Nashua Transit System",
+    "level": "City",
+    "role": "City bus service",
+    "platform": "YouTube",
+    "url": "https://www.youtube.com/@nashuatransitsystem5054",
+    "type": "Official",
+    "source": "https://www.nashuanh.gov/79/Social-Networking"
+   },
+   {
+    "who": "Nashua Community Development",
+    "level": "City",
+    "role": "Community Development Division",
+    "platform": "Facebook",
+    "url": "https://www.facebook.com/nashua.cdd/",
+    "type": "Official",
+    "source": "https://www.nashuanh.gov/79/Social-Networking"
+   },
+   {
+    "who": "Nashua Community Development",
+    "level": "City",
+    "role": "Community Development Division",
+    "platform": "X",
+    "url": "https://twitter.com/NashuaCDD",
+    "type": "Official",
+    "source": "https://www.nashuanh.gov/79/Social-Networking"
+   },
+   {
+    "who": "Nashua Public Library",
+    "level": "City",
+    "role": "Public library",
+    "platform": "Facebook",
+    "url": "https://www.facebook.com/nashuapubliclibrary/",
+    "type": "Official",
+    "source": "https://www.nashualibrary.org/"
+   },
+   {
+    "who": "Nashua Public Library",
+    "level": "City",
+    "role": "Public library",
+    "platform": "Instagram",
+    "url": "https://www.instagram.com/nashualibrary/",
+    "type": "Official",
+    "source": "https://www.nashualibrary.org/"
+   },
+   {
+    "who": "Nashua Public Library",
+    "level": "City",
+    "role": "Public library",
+    "platform": "X",
+    "url": "https://twitter.com/nashualibrary",
+    "type": "Official",
+    "source": "https://www.nashualibrary.org/"
+   },
+   {
+    "who": "Nashua Public Library",
+    "level": "City",
+    "role": "Public library",
+    "platform": "YouTube",
+    "url": "https://www.youtube.com/channel/UCoTig-rvcMlN5s64pTe6AAQ/videos",
+    "type": "Official",
+    "source": "https://www.nashualibrary.org/"
+   },
+   {
+    "who": "Nashua Public Library",
+    "level": "City",
+    "role": "Public library",
+    "platform": "TikTok",
+    "url": "https://www.tiktok.com/@nashualibrary",
+    "type": "Official",
+    "source": "https://www.nashualibrary.org/"
+   },
+   {
+    "who": "Nashua Public Library",
+    "level": "City",
+    "role": "Public library",
+    "platform": "LinkedIn",
+    "url": "https://www.linkedin.com/company/nashua-public-library",
+    "type": "Official",
+    "source": "https://www.nashualibrary.org/"
+   },
+   {
+    "who": "Nashua School District",
+    "level": "School",
+    "role": "Public schools",
+    "platform": "Facebook",
+    "url": "https://www.facebook.com/NashuaSchoolDistrict",
+    "type": "Official",
+    "source": "https://www.nashua.edu/"
+   },
+   {
+    "who": "Nashua School District",
+    "level": "School",
+    "role": "Public schools",
+    "platform": "Instagram",
+    "url": "https://www.instagram.com/nashuaschools/",
+    "type": "Official",
+    "source": "https://www.nashua.edu/"
+   },
+   {
+    "who": "Maggie Goodlander",
+    "level": "Federal",
+    "role": "U.S. Representative, NH-2",
+    "platform": "Facebook",
+    "url": "https://www.facebook.com/RepGoodlander/",
+    "type": "Official",
+    "source": "https://ballotpedia.org/Maggie_Goodlander"
+   },
+   {
+    "who": "Maggie Goodlander",
+    "level": "Federal",
+    "role": "U.S. Representative, NH-2",
+    "platform": "X",
+    "url": "https://x.com/RepGoodlander",
+    "type": "Official",
+    "source": "https://ballotpedia.org/Maggie_Goodlander"
+   },
+   {
+    "who": "Maggie Goodlander",
+    "level": "Federal",
+    "role": "U.S. Representative, NH-2",
+    "platform": "Instagram",
+    "url": "https://www.instagram.com/repgoodlander/",
+    "type": "Official",
+    "source": "https://ballotpedia.org/Maggie_Goodlander"
+   },
+   {
+    "who": "Maggie Goodlander",
+    "level": "Federal",
+    "role": "U.S. Representative, NH-2",
+    "platform": "YouTube",
+    "url": "https://www.youtube.com/@RepresentativeMaggieGoodlander",
+    "type": "Official",
+    "source": "https://ballotpedia.org/Maggie_Goodlander"
+   },
+   {
+    "who": "Maggie Goodlander",
+    "level": "Federal",
+    "role": "U.S. Representative, NH-2",
+    "platform": "TikTok",
+    "url": "https://www.tiktok.com/@repgoodlander",
+    "type": "Official",
+    "source": "https://ballotpedia.org/Maggie_Goodlander"
+   },
+   {
+    "who": "Maggie Goodlander",
+    "level": "Federal",
+    "role": "U.S. Representative, NH-2 (handle on her house.gov domain)",
+    "platform": "Bluesky",
+    "url": "https://bsky.app/profile/goodlander.house.gov",
+    "type": "Official",
+    "source": "https://public.api.bsky.app/xrpc/app.bsky.actor.getProfile?actor=goodlander.house.gov"
+   },
+   {
+    "who": "Maggie Goodlander",
+    "level": "Federal",
+    "role": "Democratic nominee, NH-2, Nov 3 ballot",
+    "platform": "Facebook",
+    "url": "https://www.facebook.com/profile.php?id=61559334545230",
+    "type": "Campaign",
+    "source": "https://ballotpedia.org/Maggie_Goodlander"
+   },
+   {
+    "who": "Maggie Goodlander",
+    "level": "Federal",
+    "role": "Democratic nominee, NH-2, Nov 3 ballot",
+    "platform": "X",
+    "url": "https://x.com/MaggieG603",
+    "type": "Campaign",
+    "source": "https://ballotpedia.org/Maggie_Goodlander"
+   },
+   {
+    "who": "Maggie Goodlander",
+    "level": "Federal",
+    "role": "Democratic nominee, NH-2, Nov 3 ballot",
+    "platform": "Instagram",
+    "url": "https://www.instagram.com/maggiefornh/",
+    "type": "Campaign",
+    "source": "https://ballotpedia.org/Maggie_Goodlander"
+   },
+   {
+    "who": "Jeanne Shaheen",
+    "level": "Federal",
+    "role": "U.S. Senator, term ends 2027 (not seeking reelection)",
+    "platform": "Facebook",
+    "url": "https://www.facebook.com/SenatorShaheen",
+    "type": "Official",
+    "source": "https://ballotpedia.org/Jeanne_Shaheen"
+   },
+   {
+    "who": "Jeanne Shaheen",
+    "level": "Federal",
+    "role": "U.S. Senator",
+    "platform": "X",
+    "url": "https://x.com/SenatorShaheen",
+    "type": "Official",
+    "source": "https://ballotpedia.org/Jeanne_Shaheen"
+   },
+   {
+    "who": "Jeanne Shaheen",
+    "level": "Federal",
+    "role": "U.S. Senator",
+    "platform": "Instagram",
+    "url": "https://www.instagram.com/senatorshaheen/",
+    "type": "Official",
+    "source": "https://ballotpedia.org/Jeanne_Shaheen"
+   },
+   {
+    "who": "Jeanne Shaheen",
+    "level": "Federal",
+    "role": "U.S. Senator",
+    "platform": "YouTube",
+    "url": "https://www.youtube.com/@SenatorShaheen",
+    "type": "Official",
+    "source": "https://ballotpedia.org/Jeanne_Shaheen"
+   },
+   {
+    "who": "Jeanne Shaheen",
+    "level": "Federal",
+    "role": "U.S. Senator (handle on her senate.gov domain)",
+    "platform": "Bluesky",
+    "url": "https://bsky.app/profile/shaheen.senate.gov",
+    "type": "Official",
+    "source": "https://public.api.bsky.app/xrpc/app.bsky.actor.getProfile?actor=shaheen.senate.gov"
+   },
+   {
+    "who": "Maggie Hassan",
+    "level": "Federal",
+    "role": "U.S. Senator, term ends 2029",
+    "platform": "Facebook",
+    "url": "https://www.facebook.com/SenatorHassan",
+    "type": "Official",
+    "source": "https://ballotpedia.org/Maggie_Hassan"
+   },
+   {
+    "who": "Maggie Hassan",
+    "level": "Federal",
+    "role": "U.S. Senator",
+    "platform": "X",
+    "url": "https://x.com/SenatorHassan",
+    "type": "Official",
+    "source": "https://ballotpedia.org/Maggie_Hassan"
+   },
+   {
+    "who": "Maggie Hassan",
+    "level": "Federal",
+    "role": "U.S. Senator",
+    "platform": "Instagram",
+    "url": "https://www.instagram.com/senatorhassan/",
+    "type": "Official",
+    "source": "https://ballotpedia.org/Maggie_Hassan"
+   },
+   {
+    "who": "Maggie Hassan",
+    "level": "Federal",
+    "role": "U.S. Senator",
+    "platform": "YouTube",
+    "url": "https://www.youtube.com/@SenatorHassan",
+    "type": "Official",
+    "source": "https://ballotpedia.org/Maggie_Hassan"
+   },
+   {
+    "who": "Maggie Hassan",
+    "level": "Federal",
+    "role": "U.S. Senator (handle on her senate.gov domain)",
+    "platform": "Bluesky",
+    "url": "https://bsky.app/profile/hassan.senate.gov",
+    "type": "Official",
+    "source": "https://public.api.bsky.app/xrpc/app.bsky.actor.getProfile?actor=hassan.senate.gov"
+   }
+  ],
+  "notListed": [
+   {
+    "who": "City of Nashua on Instagram or X",
+    "why": "The city's Social Networking page lists only a city Facebook page plus department accounts.",
+    "source": "https://www.nashuanh.gov/79/Social-Networking"
+   },
+   {
+    "who": "Nashua Parks and Recreation",
+    "why": "No Parks and Recreation account is listed on the city's Social Networking page or the Parks programs page.",
+    "source": "https://www.nashuanh.gov/79/Social-Networking"
+   },
+   {
+    "who": "Nashua Fire Rescue on Facebook",
+    "why": "The city lists an X account for Fire Rescue and a Facebook page for the Fire Marshal's Office only.",
+    "source": "https://www.nashuanh.gov/79/Social-Networking"
+   },
+   {
+    "who": "Mayor Jim Donchess on Instagram",
+    "why": "The city lists the mayor's Facebook and X accounts only.",
+    "source": "https://www.nashuanh.gov/79/Social-Networking"
+   },
+   {
+    "who": "Nashua's state House and Senate members",
+    "why": "Not checked this session. Add only if the NH General Court or Ballotpedia lists an official account.",
+    "source": null
+   }
+  ],
+  "rules": "Official means the account is listed by the office itself or labeled official by Ballotpedia. Campaign means Ballotpedia labels it a campaign account. Personal accounts are never listed."
+ },
+ "posts": [],
+ "postsAsOf": "2026-10-28T12:00:00Z",
+ "postsNote": "The live feed fills this in.",
+ "safety": {
+  "as_of": "2026-10-28",
+  "note": "Compiled from Nashua Police and Nashua Fire Rescue pages, the 2025 police annual report, Fire Commission minutes and local news. Incidents are described by type, street and date only; no names of people involved.",
+  "alerts": {
+   "name": "Nashua Emergency Alerts",
+   "url": "https://nashuanh.genasys.com/portal/en"
+  },
+  "police": {
+   "name": "Nashua Police Department",
+   "chief": {
+    "name": "Kevin Rourke",
+    "since": "2022",
+    "src": "https://www.nashuatelegraph.com/news/local-news/2022/03/03/rourke-sworn-in-as-nashuas-36th-chief-of-police-other-promotions-announced/"
+   },
+   "emergency": "911",
+   "nonEmergency": "(603) 594-3500",
+   "address": "PO Box 785, Nashua, NH 03061 (mailing)",
+   "site": "https://www.nashuanhpd.gov/",
+   "oversight": "Three-member Board of Police Commissioners appointed by the Governor (through the Governor and Executive Council); it hires officers, sets department rules and controls police property.",
+   "logsUrl": "https://www.nashuanhpd.gov/DocumentCenter/Index/45",
+   "logsNote": "Arrest logs and media releases are posted as documents in the department's Document Center. The folder loads by script and individual logs could not be opened this session, so posting frequency and contents are unconfirmed.",
+   "logDigest": [],
+   "stats": [
+    {
+     "label": "Calls for service",
+     "value": 82363,
+     "year": "2025",
+     "src": "https://www.nashuanhpd.gov/Archive.aspx?ADID=56"
+    },
+    {
+     "label": "Arrests",
+     "value": 3407,
+     "year": "2025",
+     "src": "https://www.nashuanhpd.gov/Archive.aspx?ADID=56"
+    },
+    {
+     "label": "Crash calls",
+     "value": 3314,
+     "year": "2025",
+     "src": "https://www.nashuanhpd.gov/Archive.aspx?ADID=56"
+    },
+    {
+     "label": "Traffic summonses",
+     "value": 1167,
+     "year": "2025",
+     "src": "https://www.nashuanhpd.gov/Archive.aspx?ADID=56"
+    },
+    {
+     "label": "Crimes against persons, property and society",
+     "value": 3161,
+     "year": "2025",
+     "src": "https://www.nashuanhpd.gov/Archive.aspx?ADID=56"
+    },
+    {
+     "label": "Full-time sworn officers",
+     "value": 180,
+     "year": "2025",
+     "src": "https://www.nashuanhpd.gov/Archive.aspx?ADID=56"
+    },
+    {
+     "label": "Citizen complaints and internal affairs cases",
+     "value": 13,
+     "year": "2025",
+     "src": "https://nashuanhpd.gov/193/Professional-Standards"
+    }
+   ],
+   "recent": [
+    {
+     "date": "2026-10-19",
+     "kind": "Arrest",
+     "title": "Arrest in two burglaries",
+     "detail": "Nashua police arrested a city man on Oct 17 in connection with two alleged burglaries.",
+     "area": null,
+     "source": {
+      "label": "Nashua Telegraph, Oct 19",
+      "url": "https://www.nashuatelegraph.com/news/2026/10/19/city-man-charged-with-two-burglaries/"
+     }
+    },
+    {
+     "date": "2026-10-13",
+     "kind": "Arrest",
+     "title": "Stalking and protective order arrest",
+     "detail": "Police arrested a man accused of domestic violence against a woman who had a protective order against him. He was held without bail.",
+     "area": null,
+     "source": {
+      "label": "Nashua Telegraph, Oct 13",
+      "url": "https://www.nashuatelegraph.com/news/2026/10/13/nashua-man-accused-of-domestic-violence/"
+     }
+    },
+    {
+     "date": "2026-10-12",
+     "kind": "Arrest",
+     "title": "Cocaine possession arrest",
+     "detail": "Police arrested a man on a cocaine possession charge; he was held pending arraignment in Superior Court.",
+     "area": null,
+     "source": {
+      "label": "Nashua Telegraph, Oct 12",
+      "url": "https://www.nashuatelegraph.com/news/2026/10/12/repeat-offender-arrested-again/"
+     }
+    },
+    {
+     "date": "2026-10-06",
+     "kind": "Investigation",
+     "title": "Federal charge after police find pistol converted to fire automatically",
+     "detail": "Nashua police found a loaded pistol fitted with a 'switch' on Sep 24. A Nashua teen was arrested Oct 4 and federally charged with possessing a machine gun.",
+     "area": null,
+     "source": {
+      "label": "Nashua Telegraph, Oct 6",
+      "url": "https://www.nashuatelegraph.com/news/2026/10/06/nashua-teen-federally-charged-with-having-machine-gun/"
+     }
+    },
+    {
+     "date": "2026-09-29",
+     "kind": "Arrest",
+     "title": "Arrest for protective order violations and stalking",
+     "detail": "Police arrested a man on Sep 28 on two counts of violating a protective order and two counts of stalking. He was held without bail.",
+     "area": null,
+     "source": {
+      "label": "Nashua Telegraph, Sep 29",
+      "url": "https://www.nashuatelegraph.com/news/2026/09/29/city-man-accused-of-violating-protective-order/"
+     }
+    },
+    {
+     "date": "2026-09-22",
+     "kind": "Arrest",
+     "title": "Arson suspect caught after manhunt",
+     "detail": "After a fire on Sep 21, Nashua police and Tyngsborough, Mass., police searched for a suspect whose vehicle was found in Tyngsborough. He was captured Sep 22 and charged with arson and related offenses.",
+     "area": null,
+     "source": {
+      "label": "Nashua Telegraph, Sep 22",
+      "url": "https://www.nashuatelegraph.com/news/2026/09/22/nashua-man-suspected-of-arson/"
+     }
+    },
+    {
+     "date": "2026-09-21",
+     "kind": "Press release",
+     "title": "Four drug arrests in August under substance abuse initiative",
+     "detail": "The Narcotics Intelligence Division and Problem Oriented Policing Unit made four arrests in August sweeps. Residents can report drug activity to the department's drug hotline.",
+     "area": null,
+     "source": {
+      "label": "Patch, Sep 21",
+      "url": "https://patch.com/new-hampshire/nashua/nashua-police-net-4-more-august-department-s-substance-abuse-reduction"
+     }
+    },
+    {
+     "date": "2026-09-20",
+     "kind": "Arrest",
+     "title": "Animal cruelty arrest",
+     "detail": "Police arrested a man on Sep 17 accused of entering an acquaintance's home without permission and injuring a dog. He was held on preventive detention.",
+     "area": null,
+     "source": {
+      "label": "Nashua Telegraph, Sep 20",
+      "url": "https://www.nashuatelegraph.com/news/2026/09/20/city-man-charged-with-animal-cruelty/"
+     }
+    }
+   ],
+   "programs": [
+    {
+     "name": "Citizens Academy",
+     "detail": "Spring 2026 class ran from April 1 to a May 21 graduation.",
+     "url": "https://www.nashuapd.com/DocumentCenter/View/1140/Public-Minutes-4-27-26-FINAL"
+    },
+    {
+     "name": "Police Athletic League (PAL)",
+     "detail": "Department Police Athletic League unit.",
+     "url": "https://www.nashuanhpd.gov/258/POLICE-ATHLETIC-LEAGUE-PAL"
+    },
+    {
+     "name": "Problem Oriented Policing Unit",
+     "detail": "Specialty unit; took part in the 2026 drug sweeps.",
+     "url": "https://www.nashuanhpd.gov/257/PROBLEM-ORIENTED-POLICING-UNIT-POP"
+    },
+    {
+     "name": "School Resource Officers",
+     "detail": "School Resource Officer unit.",
+     "url": "https://www.nashuanhpd.gov/262/SCHOOL-RESOURCE-OFFICERS"
+    },
+    {
+     "name": "Drug Hotline",
+     "detail": "Online form to report drug activity to the Narcotics Intelligence Division.",
+     "url": "https://www.nashuanhpd.gov/FormCenter/Narcotics-Intelligence-Division-7/Nashua-Police-Department-Drug-Hotline-48"
+    },
+    {
+     "name": "Notify Me sign-up",
+     "detail": "Subscribe to department updates (Notify Me).",
+     "url": "https://www.nashuanhpd.gov/list.aspx"
+    },
+    {
+     "name": "Forms and records",
+     "detail": "Department forms.",
+     "url": "https://www.nashuanhpd.gov/209/Forms"
+    },
+    {
+     "name": "Annual reports",
+     "detail": "Yearly reports from 2016 to 2025.",
+     "url": "https://www.nashuanhpd.gov/181"
+    }
+   ],
+   "social": [
+    {
+     "platform": "Facebook",
+     "url": "https://www.facebook.com/NashuaPolice"
+    },
+    {
+     "platform": "X",
+     "url": "https://twitter.com/NashuaPolice"
+    },
+    {
+     "platform": "YouTube",
+     "url": "https://www.youtube.com/channel/UClP3jVmo6Y48wRYVeIPOBsA"
+    }
+   ]
+  },
+  "fire": {
+   "name": "Nashua Fire Rescue",
+   "chief": {
+    "name": "Steve Buxton",
+    "since": "2022",
+    "src": "https://patch.com/new-hampshire/nashua/chief-steve-buxton-sworn-chief-nashua-fire-rescue"
+   },
+   "emergency": "911",
+   "nonEmergency": "(603) 594-3651",
+   "address": "177 Lake Street, Nashua, NH 03060",
+   "site": "https://www.nashuanh.gov/383/Fire-Rescue",
+   "oversight": "Elected five-member Board of Fire Commissioners (four-year terms, with seats filled at each municipal election); it handles hiring and promotions, department rules and property.",
+   "stats": [
+    {
+     "label": "Calls for service a year",
+     "value": "52,000+",
+     "year": null,
+     "src": "https://www.nashuanh.gov/383/Fire-Rescue"
+    },
+    {
+     "label": "Emergency arrivals in 4 minutes or less",
+     "value": "90%+",
+     "year": null,
+     "src": "https://www.nashuanh.gov/383/Fire-Rescue"
+    },
+    {
+     "label": "Career members",
+     "value": 176,
+     "year": null,
+     "src": "https://www.nashuanh.gov/383/Fire-Rescue"
+    },
+    {
+     "label": "Fire stations",
+     "value": 6,
+     "year": null,
+     "src": "https://www.nashuanh.gov/383/Fire-Rescue"
+    }
+   ],
+   "recent": [
+    {
+     "date": "2026-10-07",
+     "kind": "Community",
+     "title": "Commission approves dispatcher hiring list and supervisor promotion",
+     "detail": "The board approved a Fire Alarm Operator hiring list and a Fire Alarm Supervisor promotion, and recommended three bond resolutions ahead of an Oct 26 public hearing.",
+     "area": null,
+     "source": {
+      "label": "Fire Commission minutes, Oct 7",
+      "url": "https://nashuanh.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=14798,plainText=false)"
+     }
+    },
+    {
+     "date": "2026-10-07",
+     "kind": "Community",
+     "title": "Chief looks at shifting an ambulance to daytime",
+     "detail": "The chief is exploring an agreement with AMR to move an ambulance from nighttime to daytime service, when call demand is higher. Some reserve apparatus is up for sale.",
+     "area": null,
+     "source": {
+      "label": "Fire Commission minutes, Oct 7",
+      "url": "https://nashuanh.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=14798,plainText=false)"
+     }
+    },
+    {
+     "date": "2026-10-04",
+     "kind": "Community",
+     "title": "Firefighters Memorial Sunday",
+     "detail": "Annual memorial service at the Firemen's Memorial at 10 a.m.",
+     "area": null,
+     "source": {
+      "label": "Fire Commission minutes, Sep 2",
+      "url": "https://nashuanh.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=14526,plainText=false)"
+     }
+    },
+    {
+     "date": "2026-09-21",
+     "kind": "Incident",
+     "title": "Basement fire damages home on Barnsdale Road",
+     "detail": "Crews responded around 2:15 p.m. to a fire that started in the basement of a single-story home. The house was heavily damaged; no one was home or hurt.",
+     "area": "Barnsdale Road",
+     "source": {
+      "label": "Nashua Independent, Sep 21",
+      "url": "https://www.nashuaindependent.com/16-barnsdale-road-residential-fire-report/"
+     }
+    },
+    {
+     "date": "2026-09-11",
+     "kind": "Community",
+     "title": "9/11 25th anniversary ceremony",
+     "detail": "Ceremony at 70 East Hollis Street marking 25 years since the Sept. 11 attacks.",
+     "area": "East Hollis Street",
+     "source": {
+      "label": "Fire Commission minutes, Sep 2",
+      "url": "https://nashuanh.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=14526,plainText=false)"
+     }
+    },
+    {
+     "date": "2026-09-02",
+     "kind": "Community",
+     "title": "New Engine 1 in service; about 65 apply to be firefighters",
+     "detail": "A new Engine 1 went into service and reserve Ladder 5 and Engine 1 are being sold. The firefighter application period closed Sep 7 with about 65 applicants.",
+     "area": null,
+     "source": {
+      "label": "Fire Commission minutes, Sep 2",
+      "url": "https://nashuanh.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=14526,plainText=false)"
+     }
+    },
+    {
+     "date": "2026-08-30",
+     "kind": "Incident",
+     "title": "Neighbor slows garage fire on Hughey Street",
+     "detail": "A neighbor used a garden hose on a garage fire on Aug 29 until firefighters arrived and put it out. The fire did not reach the house and no one was hurt.",
+     "area": "Hughey Street",
+     "source": {
+      "label": "Nashua Telegraph, Aug 30",
+      "url": "https://www.nashuatelegraph.com/news/2026/08/30/fire-breaks-out-at-hughey-street-home/"
+     }
+    },
+    {
+     "date": "2026-08-22",
+     "kind": "Incident",
+     "title": "Two-alarm fire on Lynde Street",
+     "detail": "A pre-dawn fire engulfed a single-family home; hoarding conditions slowed crews and one firefighter hurt an ankle. Residents got out safely and the Fire Marshal's Office is investigating.",
+     "area": "Lynde Street",
+     "source": {
+      "label": "Nashua Telegraph, Aug 22",
+      "url": "https://www.nashuatelegraph.com/news/2026/08/22/two-alarm-blaze-rips-through-lynde-street-home/"
+     }
+    }
+   ],
+   "programs": [
+    {
+     "name": "Residential burning permits",
+     "detail": "Free permits; burning allowed 5 p.m. to midnight, weather permitting.",
+     "url": "https://www.nashuanh.gov/1364/Residential-Burning-Permits"
+    },
+    {
+     "name": "Knox Box",
+     "detail": "Knox Box information for property owners.",
+     "url": "https://www.nashuanh.gov/1367/Knox-Box-Information"
+    },
+    {
+     "name": "Public education and safety",
+     "detail": "Fire prevention and safety information.",
+     "url": "https://www.nashuanh.gov/452/Public-Education-Safety-Information"
+    },
+    {
+     "name": "Fire Marshal's Office",
+     "detail": "Inspections, permits and fire investigations.",
+     "url": "https://www.nashuanh.gov/427/Fire-Marshals-Office"
+    },
+    {
+     "name": "Summer Nashua Fire Camp",
+     "detail": "Second annual camp held in summer 2026, reported a success in September.",
+     "url": "https://nashuanh.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=14526,plainText=false)"
+    },
+    {
+     "name": "Dive Team",
+     "detail": "Nashua Fire Rescue dive team.",
+     "url": "https://www.nashuanh.gov/408/Dive-Team"
+    }
+   ],
+   "social": [
+    {
+     "platform": "X",
+     "url": "https://twitter.com/nashuafire"
+    },
+    {
+     "platform": "Facebook",
+     "url": "https://www.facebook.com/Nashuafiremarshalsoffice/"
+    }
+   ],
+   "stations": [
+    {
+     "name": "Station 1 (Amherst Street)",
+     "address": "15 Amherst Street, Nashua, NH 03064"
+    },
+    {
+     "name": "Station 2 (Lake Street)",
+     "address": "177 Lake Street, Nashua, NH 03060"
+    },
+    {
+     "name": "Station 3 (Spit Brook Road)",
+     "address": "124 Spit Brook Road, Nashua, NH 03062"
+    },
+    {
+     "name": "Station 4 (Crown Hill)",
+     "address": "70 East Hollis Street, Nashua, NH 03060"
+    },
+    {
+     "name": "Station 5 (Airport)",
+     "address": "101 Pine Hill Road, Nashua, NH 03063"
+    },
+    {
+     "name": "Station 6 (Conant Road)",
+     "address": "2 Conant Road, Nashua, NH 03062"
+    }
+   ],
+   "burnPermits": {
+    "text": "Property owners apply online for a free seasonal campfire permit; others call (603) 594-3636 to book a site visit (3 to 5 p.m. daily).",
+    "url": "https://www.nashuanh.gov/1364/Residential-Burning-Permits"
+   },
+   "liveIncidents": null,
+   "logsUrl": null
+  }
+ },
+ "notHere": [
+  {
+   "title": "Police logs",
+   "text": "Nashua police post arrest logs and media releases in a document library that Agorri can't read automatically yet.",
+   "url": "https://www.nashuanhpd.gov/DocumentCenter/Index/45",
+   "label": "arrest logs"
+  },
+  {
+   "title": "Roadwork",
+   "text": "The city wasn't posting current road work or detour notices in a form Agorri could read."
+  }
+ ]
+}

@@ -23,8 +23,14 @@
    "state": "NH",
    "stateName": "New Hampshire",
    "kind": "City",
-   "status": "soon",
-   "site": "https://www.nashuanh.gov/"
+   "status": "live",
+   "site": "https://www.nashuanh.gov/",
+   "files": {
+    "record": "data/nashua/record.json",
+    "local": "data/nashua/local.json",
+    "beyond": "data/nashua/beyond.json",
+    "feeds": "data/nashua/feeds.json"
+   }
   },
   {
    "id": "dover",

@@ -1276,5 +1276,612 @@
    "title": "Schools",
    "text": "The district site blocks automated reading; calendar and School Board items need a direct feed from SAU 52."
   }
- ]
+ ],
+ "safety": {
+  "as_of": "2026-10-28",
+  "note": "Compiled from City of Portsmouth police and fire pages, daily police logs, Police and Fire Commission minutes and local news. Incidents are described by type, street and date only; no names of people involved.",
+  "alerts": {
+   "name": "Smart911 Community Alert System",
+   "url": "https://www.smart911.com/smart911/ref/login.action?pa=cityofportsmouthnh"
+  },
+  "police": {
+   "name": "Portsmouth Police Department",
+   "chief": {
+    "name": "Mark Newport",
+    "since": "2021",
+    "src": "https://www.portsmouthnh.gov/police/profiles/mark-newport-1"
+   },
+   "emergency": "911",
+   "nonEmergency": "(603) 436-5000",
+   "address": "3 Junkins Avenue, Portsmouth, NH 03801",
+   "site": "https://www.portsmouthnh.gov/police",
+   "oversight": "Elected three-member Police Commission (four-year terms under City Charter Amendment E); it is the department's policy-making body and meets in the City Hall council chambers.",
+   "logsUrl": "https://www.portsmouthnh.gov/police/police-logs",
+   "logsNote": "One PDF media log per day covering 5 a.m. to 5 a.m., posted about 2 to 3 days later. Each lists call number, time, call reason, street and action taken, plus a Daily Arrest Log section. The department says entries are unverified reports.",
+   "logDigest": [
+    {
+     "date": "2026-10-24",
+     "calls": 58,
+     "top": [
+      [
+       "Motor vehicle stop",
+       8
+      ],
+      [
+       "Directed patrol",
+       6
+      ],
+      [
+       "Parking complaint",
+       4
+      ],
+      [
+       "Burglar alarm",
+       3
+      ],
+      [
+       "Theft",
+       3
+      ],
+      [
+       "Hit-and-run crash",
+       3
+      ]
+     ],
+     "arrests": 1,
+     "url": "https://www.portsmouthnh.gov/sites/default/files/2026-10/October%2024-25.pdf"
+    },
+    {
+     "date": "2026-10-23",
+     "calls": 66,
+     "top": [
+      [
+       "Motor vehicle stop",
+       21
+      ],
+      [
+       "Directed patrol",
+       6
+      ],
+      [
+       "Abandoned 911 call",
+       5
+      ],
+      [
+       "Noise complaint",
+       3
+      ],
+      [
+       "Park and walk",
+       3
+      ],
+      [
+       "Burglar alarm",
+       3
+      ]
+     ],
+     "arrests": 2,
+     "url": "https://www.portsmouthnh.gov/sites/default/files/2026-10/October%2023-24.pdf"
+    },
+    {
+     "date": "2026-10-22",
+     "calls": 66,
+     "top": [
+      [
+       "Motor vehicle stop",
+       19
+      ],
+      [
+       "Legal paperwork service",
+       7
+      ],
+      [
+       "Traffic enforcement",
+       4
+      ],
+      [
+       "Property check",
+       4
+      ],
+      [
+       "Burglar alarm",
+       3
+      ],
+      [
+       "Park and walk",
+       3
+      ]
+     ],
+     "arrests": 2,
+     "url": "https://www.portsmouthnh.gov/sites/default/files/2026-10/October%2022-23.pdf"
+    },
+    {
+     "date": "2026-10-21",
+     "calls": 54,
+     "top": [
+      [
+       "Motor vehicle stop",
+       7
+      ],
+      [
+       "Park and walk",
+       5
+      ],
+      [
+       "Check well-being",
+       5
+      ],
+      [
+       "Assist other department",
+       4
+      ],
+      [
+       "Property check",
+       4
+      ],
+      [
+       "Directed patrol",
+       3
+      ]
+     ],
+     "arrests": 1,
+     "url": "https://www.portsmouthnh.gov/sites/default/files/2026-10/October%2021-22.pdf"
+    },
+    {
+     "date": "2026-10-20",
+     "calls": 59,
+     "top": [
+      [
+       "Motor vehicle stop",
+       12
+      ],
+      [
+       "Park and walk",
+       8
+      ],
+      [
+       "Directed patrol",
+       6
+      ],
+      [
+       "Abandoned 911 call",
+       5
+      ],
+      [
+       "Unwanted person",
+       4
+      ],
+      [
+       "Animal call",
+       3
+      ]
+     ],
+     "arrests": 1,
+     "url": "https://www.portsmouthnh.gov/sites/default/files/2026-10/October%2020-21.pdf"
+    }
+   ],
+   "stats": [
+    {
+     "label": "Calls for service, Jan 1 to Sep 30",
+     "value": 21393,
+     "year": "2026",
+     "src": "https://public.powerdms.com/PORTSMOUTHNH/documents/1701824"
+    },
+    {
+     "label": "Arrests, Jan 1 to Sep 30",
+     "value": 511,
+     "year": "2026",
+     "src": "https://public.powerdms.com/PORTSMOUTHNH/documents/1701824"
+    },
+    {
+     "label": "Change in calls for service vs 2023 to 2025 average, Jan to Sep",
+     "value": "−32.9%",
+     "year": "2026",
+     "src": "https://public.powerdms.com/PORTSMOUTHNH/documents/1701824"
+    },
+    {
+     "label": "Motor vehicle stops, September",
+     "value": 393,
+     "year": "2026",
+     "src": "https://public.powerdms.com/PORTSMOUTHNH/documents/1701824"
+    },
+    {
+     "label": "Reportable crashes, September",
+     "value": 37,
+     "year": "2026",
+     "src": "https://public.powerdms.com/PORTSMOUTHNH/documents/1701824"
+    },
+    {
+     "label": "Sworn officers in FY26 City Manager budget",
+     "value": 67,
+     "year": "FY2026",
+     "src": "https://www.portsmouthnh.gov/sites/default/files/2025-06/2025.06.09-City_Council_Work_Session_Police_Presentation.pdf"
+    }
+   ],
+   "recent": [
+    {
+     "date": "2026-10-25",
+     "kind": "Arrest",
+     "title": "DUI arrest after a traffic stop on the Spaulding Turnpike",
+     "detail": "A late-night motor vehicle stop on the northbound Spaulding Turnpike ended in an arrest on DUI and speeding-related charges, per the daily log.",
+     "area": "Spaulding Turnpike",
+     "source": {
+      "label": "PPD daily log, Oct 24-25",
+      "url": "https://www.portsmouthnh.gov/sites/default/files/2026-10/October%2024-25.pdf"
+     }
+    },
+    {
+     "date": "2026-10-24",
+     "kind": "Arrest",
+     "title": "DWI arrest after a traffic stop on Arthur F. Brady Drive",
+     "detail": "An early-morning stop led to an arrest for driving while intoxicated and a lane control violation, per the daily arrest log.",
+     "area": "Arthur F. Brady Drive",
+     "source": {
+      "label": "PPD daily log, Oct 23-24",
+      "url": "https://www.portsmouthnh.gov/sites/default/files/2026-10/October%2023-24.pdf"
+     }
+    },
+    {
+     "date": "2026-10-22",
+     "kind": "Arrest",
+     "title": "Arrest after a traffic stop in Market Square",
+     "detail": "A midday stop ended in an arrest for driving after suspension and reckless driving. A separate warrant arrest was made on Junkins Avenue the same day.",
+     "area": "Market Square",
+     "source": {
+      "label": "PPD daily log, Oct 22-23",
+      "url": "https://www.portsmouthnh.gov/sites/default/files/2026-10/October%2022-23.pdf"
+     }
+    },
+    {
+     "date": "2026-10-20",
+     "kind": "Community",
+     "title": "Commission hears drone-as-first-responder proposal",
+     "detail": "Skydio presented a drone program that would include a public dashboard of flight logs and mission purposes. Footage access would follow department policy and state records law.",
+     "area": null,
+     "source": {
+      "label": "Police Commission minutes, Oct 20",
+      "url": "https://public.powerdms.com/PORTSMOUTHNH/documents/1701824"
+     }
+    },
+    {
+     "date": "2026-10-20",
+     "kind": "Community",
+     "title": "Commission accepts about $2 million in federal grants",
+     "detail": "Commissioners accepted a $1,000,000 Byrne grant for the NH Internet Crimes Against Children program and $1,031,000 for IT and security, and approved $30,000 from a donor fund for rifle suppressors.",
+     "area": null,
+     "source": {
+      "label": "Police Commission minutes, Oct 20",
+      "url": "https://public.powerdms.com/PORTSMOUTHNH/documents/1701824"
+     }
+    },
+    {
+     "date": "2026-10-20",
+     "kind": "Community",
+     "title": "Calls and arrests down from three-year average",
+     "detail": "Through Sep 30, calls for service were down 32.9% and arrests down 25.5% compared with the 2023 to 2025 average. Mold cleanup at the new dispatch center is complete and it is operating.",
+     "area": null,
+     "source": {
+      "label": "Police Commission minutes, Oct 20",
+      "url": "https://public.powerdms.com/PORTSMOUTHNH/documents/1701824"
+     }
+    },
+    {
+     "date": "2026-10-19",
+     "kind": "Investigation",
+     "title": "Investigators renew appeal in 1982 Maplewood Avenue homicide",
+     "detail": "The NH Attorney General's Cold Case Unit and Portsmouth Police asked anyone who lived near Maplewood Avenue or attended the Portsmouth Beauty School in 1982 to call the tip line at 603-271-2663.",
+     "area": "Maplewood Avenue",
+     "source": {
+      "label": "Patch, Oct 19",
+      "url": "https://patch.com/new-hampshire/portsmouth-nh/investigators-renew-appeal-1982-killing-tammy-little-portsmouth"
+     }
+    },
+    {
+     "date": "2026-10-18",
+     "kind": "Traffic",
+     "title": "Road closures and parking ban for Halloween Parade",
+     "detail": "Downtown streets on the parade route are limited to local traffic from 6 to 10 p.m. on Oct 31, and on-street parking is banned from 5 p.m., with towing.",
+     "area": "Downtown",
+     "source": {
+      "label": "Patch (City release), Oct 18",
+      "url": "https://patch.com/new-hampshire/portsmouth-nh/city-portsmouth-parking-restrictions-road-closures-2026-halloween-parade"
+     }
+    },
+    {
+     "date": "2026-10-07",
+     "kind": "Community",
+     "title": "Coffee with a Cop",
+     "detail": "The department scheduled a Coffee with a Cop event for Oct 7.",
+     "area": null,
+     "source": {
+      "label": "City calendar, Oct 7",
+      "url": "https://www.portsmouthnh.gov/police/events/coffee-cop-1"
+     }
+    },
+    {
+     "date": "2026-09-24",
+     "kind": "Press release",
+     "title": "Police seek help identifying jewelry theft suspect",
+     "detail": "On Sep 22 a man posing as a shopper took rings and necklaces from a jewelry store on Woodbury Avenue and fled on foot. Tips go to detectives at 603-610-7534 or Seacoast Crime Stoppers.",
+     "area": "Woodbury Avenue",
+     "source": {
+      "label": "PPD press release, Sep 24",
+      "url": "https://www.portsmouthnh.gov/police/press-releases/jewelry-theft"
+     }
+    },
+    {
+     "date": "2026-09-15",
+     "kind": "Community",
+     "title": "Commission reviews license plate reader rules",
+     "detail": "The department said it does not use fixed license plate readers and has no plans to buy them. Under state law, non-matching plate data must be deleted within three minutes.",
+     "area": null,
+     "source": {
+      "label": "Police Commission minutes, Sep 15",
+      "url": "https://public.powerdms.com/PORTSMOUTHNH/documents/1690442"
+     }
+    },
+    {
+     "date": "2026-09-15",
+     "kind": "Community",
+     "title": "New officer sworn in, life-saving awards presented",
+     "detail": "A new officer joined the force, and two officers received life-saving awards for a spring 2026 emergency involving a child. The chief said staffing is limiting proactive patrols.",
+     "area": null,
+     "source": {
+      "label": "Police Commission minutes, Sep 15",
+      "url": "https://public.powerdms.com/PORTSMOUTHNH/documents/1690442"
+     }
+    },
+    {
+     "date": "2026-09-11",
+     "kind": "Community",
+     "title": "9/11 25th anniversary ceremony",
+     "detail": "A public ceremony at the upper City Hall parking lot honored victims and recognized first responders.",
+     "area": "City Hall",
+     "source": {
+      "label": "City calendar, Sep 11",
+      "url": "https://www.portsmouthnh.gov/police/events/911-remembrance-ceremony-0"
+     }
+    }
+   ],
+   "programs": [
+    {
+     "name": "Drug take-back box",
+     "detail": "Drop off unused or expired medications at the station's 24/7 box. No needles or hazardous materials.",
+     "url": "https://www.portsmouthnh.gov/police/programs-resources"
+    },
+    {
+     "name": "Citizen's Police Academy",
+     "detail": "Program for residents to learn about police operations.",
+     "url": "https://www.portsmouthnh.gov/police/2025-citizens-police-academy"
+    },
+    {
+     "name": "Ride-Along Program",
+     "detail": "Community members can ride with an officer during a shift.",
+     "url": "https://www.portsmouthnh.gov/police/ride-along-program"
+    },
+    {
+     "name": "Police Social Work Program",
+     "detail": "Connects residents with social work support through the department.",
+     "url": "https://www.portsmouthnh.gov/police/police-social-work-program"
+    },
+    {
+     "name": "Records requests",
+     "detail": "Records window is by appointment only, Monday to Thursday. Records Manager: (603) 610-7446.",
+     "url": "https://www.portsmouthnh.gov/police/records-unit"
+    },
+    {
+     "name": "Anonymous tips (Crime Stoppers)",
+     "detail": "Submit an anonymous tip online or call Seacoast Crime Stoppers at (603) 431-1199.",
+     "url": "https://www.portsmouthnh.gov/police/crime-stoppers"
+    },
+    {
+     "name": "2026 Citizen Survey",
+     "detail": "Online community survey from the department.",
+     "url": "https://www.portsmouthnh.gov/police/2026-community-survey"
+    },
+    {
+     "name": "Neighborhood Traffic Calming Program",
+     "detail": "Run by Public Works to address neighborhood traffic concerns.",
+     "url": "https://www.portsmouthnh.gov/publicworks/transportation/neighborhood-traffic-calming-program"
+    }
+   ],
+   "social": [
+    {
+     "platform": "Facebook",
+     "url": "https://www.facebook.com/Portsmouth-NH-Police-Department-132395220427/"
+    },
+    {
+     "platform": "Instagram",
+     "url": "https://www.instagram.com/portsmouthpolicenh/"
+    },
+    {
+     "platform": "YouTube",
+     "url": "https://www.youtube.com/playlist?list=PLNWsoVwtYMQs9vvBT7TmvwjogiKTIO5Pw"
+    }
+   ]
+  },
+  "fire": {
+   "name": "Portsmouth Fire Department",
+   "chief": {
+    "name": "William McQuillen",
+    "since": "2022",
+    "src": "https://www.yahoo.com/news/honor-bill-mcquillen-nominated-portsmouths-215618661.html"
+   },
+   "emergency": "911",
+   "nonEmergency": "(603) 427-1515",
+   "address": "170 Court Street, Portsmouth, NH 03801 (Station 1)",
+   "site": "https://www.portsmouthnh.gov/fire",
+   "oversight": "Elected three-member Board of Fire Commissioners (four-year terms under City Charter Amendment A); meets at Fire Station 2 on Lafayette Road.",
+   "stats": [
+    {
+     "label": "Calls for service, September",
+     "value": 549,
+     "year": "2026",
+     "src": "https://files.portsmouthnh.gov/minutes/2026/FIRE%202026%20/Minutes%20of%2010%20October%2013,%202026%20-%20DRAFT.pdf"
+    },
+    {
+     "label": "Ambulance calls, September",
+     "value": 311,
+     "year": "2026",
+     "src": "https://files.portsmouthnh.gov/minutes/2026/FIRE%202026%20/Minutes%20of%2010%20October%2013,%202026%20-%20DRAFT.pdf"
+    },
+    {
+     "label": "Fire prevention inspections, September",
+     "value": 43,
+     "year": "2026",
+     "src": "https://files.portsmouthnh.gov/minutes/2026/FIRE%202026%20/Minutes%20of%2010%20October%2013,%202026%20-%20DRAFT.pdf"
+    },
+    {
+     "label": "Calls for service, January",
+     "value": 602,
+     "year": "2026",
+     "src": "https://files.portsmouthnh.gov/agendas/2026/Fire%20Commission/Minutes%20of%2002%20February%2010,%202026%20w.%20Public%20Hearing%20on%20Propsed%20FY2027%20Budget%20-%20DRAFT.pdf"
+    },
+    {
+     "label": "Requests for service a year (over)",
+     "value": 4800,
+     "year": null,
+     "src": "https://www.portsmouthnh.gov/fire/overview"
+    },
+    {
+     "label": "Budgeted positions",
+     "value": 66,
+     "year": null,
+     "src": "https://www.portsmouthnh.gov/fire/overview"
+    }
+   ],
+   "recent": [
+    {
+     "date": "2026-10-13",
+     "kind": "Community",
+     "title": "549 calls in September, 311 of them ambulance runs",
+     "detail": "The chief's monthly report listed head injury, abdominal pain and 'no apparent reason' as the top EMS calls.",
+     "area": null,
+     "source": {
+      "label": "Fire Commission minutes, Oct 13",
+      "url": "https://files.portsmouthnh.gov/minutes/2026/FIRE%202026%20/Minutes%20of%2010%20October%2013,%202026%20-%20DRAFT.pdf"
+     }
+    },
+    {
+     "date": "2026-10-13",
+     "kind": "Incident",
+     "title": "Crews help Greenland at house fire with live power lines",
+     "detail": "Portsmouth companies worked about two hours at a residential building fire in Greenland involving energized power lines.",
+     "area": "Greenland (mutual aid)",
+     "source": {
+      "label": "Fire Commission minutes, Oct 13",
+      "url": "https://files.portsmouthnh.gov/minutes/2026/FIRE%202026%20/Minutes%20of%2010%20October%2013,%202026%20-%20DRAFT.pdf"
+     }
+    },
+    {
+     "date": "2026-10-13",
+     "kind": "Community",
+     "title": "Mass casualty and disaster drills at Pease",
+     "detail": "Crews ran a mass casualty drill at the Pease Tradeport simulating about 100 patients, plus the Pease triennial disaster drill and Seabrook Station exercises.",
+     "area": "Pease Tradeport",
+     "source": {
+      "label": "Fire Commission minutes, Oct 13",
+      "url": "https://files.portsmouthnh.gov/minutes/2026/FIRE%202026%20/Minutes%20of%2010%20October%2013,%202026%20-%20DRAFT.pdf"
+     }
+    },
+    {
+     "date": "2026-10-13",
+     "kind": "Community",
+     "title": "New command vehicle and PFAS-free gear",
+     "detail": "A new command vehicle entered service and new PFAS-free protective gear is being issued to firefighters.",
+     "area": null,
+     "source": {
+      "label": "Fire Commission minutes, Oct 13",
+      "url": "https://files.portsmouthnh.gov/minutes/2026/FIRE%202026%20/Minutes%20of%2010%20October%2013,%202026%20-%20DRAFT.pdf"
+     }
+    },
+    {
+     "date": "2026-10-13",
+     "kind": "Community",
+     "title": "Hiring to fill firefighter vacancies",
+     "detail": "Two firefighters recently started, with more offers and interviews pending and a goal of filling all vacancies within three weeks.",
+     "area": null,
+     "source": {
+      "label": "Fire Commission minutes, Oct 13",
+      "url": "https://files.portsmouthnh.gov/minutes/2026/FIRE%202026%20/Minutes%20of%2010%20October%2013,%202026%20-%20DRAFT.pdf"
+     }
+    },
+    {
+     "date": "2026-10-13",
+     "kind": "Community",
+     "title": "Ambulance and fire truck replacements moved to bonding",
+     "detail": "The chief presented the capital plan, with ambulance and fire truck replacement shifted to a bond. A capital plan work session was set for Oct 26.",
+     "area": null,
+     "source": {
+      "label": "Fire Commission minutes, Oct 13",
+      "url": "https://files.portsmouthnh.gov/minutes/2026/FIRE%202026%20/Minutes%20of%2010%20October%2013,%202026%20-%20DRAFT.pdf"
+     }
+    },
+    {
+     "date": "2026-10-13",
+     "kind": "Community",
+     "title": "Fire prevention: 37 permits, 43 inspections in September",
+     "detail": "The prevention bureau also prepared for Fire Prevention Week and commissioned fire protection systems at a flight line hangar.",
+     "area": null,
+     "source": {
+      "label": "Fire Commission minutes, Oct 13",
+      "url": "https://files.portsmouthnh.gov/minutes/2026/FIRE%202026%20/Minutes%20of%2010%20October%2013,%202026%20-%20DRAFT.pdf"
+     }
+    }
+   ],
+   "programs": [
+    {
+     "name": "Smoke and CO alarms",
+     "detail": "Guidance on smoke and carbon monoxide alarms and detectors.",
+     "url": "https://www.portsmouthnh.gov/fire/smoke-and-carbon-monoxide-alarms-and-detectors"
+    },
+    {
+     "name": "Residential Knox Box",
+     "detail": "Lock box that lets firefighters enter a home without forcing a door.",
+     "url": "https://www.portsmouthnh.gov/fire/residential-knox-box-information"
+    },
+    {
+     "name": "Permits and inspections",
+     "detail": "Apply online for fire prevention permits and inspections.",
+     "url": "https://portsmouthnh.viewpointcloud.com/categories/1083"
+    },
+    {
+     "name": "Fire report requests",
+     "detail": "Request fire records or incident reports online.",
+     "url": "https://portsmouthnh.viewpointcloud.com/categories/1083/record-types/6451"
+    },
+    {
+     "name": "Emergency Management",
+     "detail": "City emergency management organization run through the fire department.",
+     "url": "https://www.portsmouthnh.gov/fire/emergency-management-organization"
+    }
+   ],
+   "social": [
+    {
+     "platform": "Facebook",
+     "url": "https://www.facebook.com/portsmouthnhfiredepartment/"
+    }
+   ],
+   "stations": [
+    {
+     "name": "Station 1 (Central)",
+     "address": "170 Court Street, Portsmouth, NH 03801"
+    },
+    {
+     "name": "Station 2",
+     "address": "3010 Lafayette Road, Portsmouth, NH 03801"
+    },
+    {
+     "name": "Station 3 (Pease)",
+     "address": "127 International Drive, Portsmouth, NH 03801"
+    }
+   ],
+   "burnPermits": {
+    "text": "Apply online through the NH Division of Forests and Lands system linked from the city page; open burning is banned on listed downtown streets.",
+    "url": "https://www.portsmouthnh.gov/fire/online-burn-permitting"
+   },
+   "liveIncidents": null,
+   "logsUrl": null
+  }
+ }
 }

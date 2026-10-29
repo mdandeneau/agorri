@@ -1,0 +1,65 @@
+{
+ "note": "Official sources for Nashua's live feed. The /api/feed?town=nashua function reads these every 5 minutes. Only add accounts the office itself lists. Types: rss, atom, bluesky. tag \"safety\" sends an item to the Police and fire page.",
+ "sources": [
+  {
+   "id": "city-news",
+   "who": "City of Nashua",
+   "platform": "City website",
+   "type": "rss",
+   "url": "https://www.nashuanh.gov/RSSFeed.aspx?ModID=1&CID=All-newsflash.xml"
+  },
+  {
+   "id": "city-boa-youtube",
+   "who": "City of Nashua (Board of Aldermen meetings)",
+   "platform": "YouTube",
+   "type": "atom",
+   "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCSDUnus2ubPU8CXWXyAzbdg"
+  },
+  {
+   "id": "police-youtube",
+   "who": "Nashua Police",
+   "platform": "YouTube",
+   "type": "atom",
+   "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UClP3jVmo6Y48wRYVeIPOBsA",
+   "tag": "safety"
+  },
+  {
+   "id": "library-youtube",
+   "who": "Nashua Public Library",
+   "platform": "YouTube",
+   "type": "atom",
+   "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCoTig-rvcMlN5s64pTe6AAQ"
+  },
+  {
+   "id": "nashua-independent",
+   "who": "The Nashua Independent",
+   "platform": "News",
+   "type": "rss",
+   "url": "https://www.nashuaindependent.com/rss/"
+  },
+  {
+   "id": "goodlander",
+   "who": "Maggie Goodlander",
+   "platform": "Bluesky",
+   "type": "bluesky",
+   "actor": "goodlander.house.gov",
+   "person": "goodlander"
+  },
+  {
+   "id": "shaheen",
+   "who": "Jeanne Shaheen",
+   "platform": "Bluesky",
+   "type": "bluesky",
+   "actor": "shaheen.senate.gov",
+   "person": "shaheen"
+  },
+  {
+   "id": "hassan",
+   "who": "Maggie Hassan",
+   "platform": "Bluesky",
+   "type": "bluesky",
+   "actor": "hassan.senate.gov",
+   "person": "hassan"
+  }
+ ]
+}
