@@ -1,0 +1,3867 @@
+{
+ "as_of": "2026-10-29",
+ "election": {
+  "date": "2026-11-03"
+ },
+ "note": "Candidate lists come from Ballotpedia, Citizens Count and, for county offices, The Ballot Brief (drawn from the Secretary of State filing list). Positions are each candidate's own survey answers, campaign pages or quoted statements, with a source on every line. Candidates who did not answer surveys show no positions.",
+ "races": [
+  {
+   "id": "governor",
+   "office": "Governor",
+   "district": "Statewide",
+   "level": "State",
+   "wards": "all",
+   "seats": 1,
+   "term": "2 years",
+   "what": "The governor signs or vetoes state laws, proposes the state budget and nominates agency heads and judges; state decisions on school funding, Medicaid and energy that reach Nashua run through this office.",
+   "candidates": [
+    {
+     "id": "kelly-ayotte",
+     "name": "Kelly Ayotte",
+     "party": "R",
+     "incumbent": true,
+     "hometown": null,
+     "background": "Governor of New Hampshire since 2025. Previously U.S. Senator (2011 to 2016) and New Hampshire Attorney General (2004 to 2009). BA Penn State, JD Villanova.",
+     "website": "https://kellyfornh.com/",
+     "positions": [
+      {
+       "topic": "Education Freedom Accounts",
+       "stance": "For. Survey answer: supports Education Freedom Accounts and will fight for universal education freedom.",
+       "quote": "Kelly supports Education Freedom Accounts and will fight for Universal education freedom",
+       "source": {
+        "label": "Citizens Count survey, 2024 (reprinted by Nashua Ink Link)",
+        "url": "https://nashua.inklink.news/?p=286294"
+       }
+      },
+      {
+       "topic": "Taxes",
+       "stance": "Against a state income or sales tax. Survey answer: no new taxes, will look to cut taxes wherever possible.",
+       "quote": "Kelly will never allow an income or sales tax to be imposed in New Hampshire.",
+       "source": {
+        "label": "Citizens Count survey, 2024",
+        "url": "https://www.citizenscount.org/candidate/kelly-ayotte"
+       }
+      },
+      {
+       "topic": "Abortion",
+       "stance": "Says she supports and will not change New Hampshire's current abortion law.",
+       "quote": "Kelly supports and will not change New Hampshire's existing abortion law",
+       "source": {
+        "label": "Citizens Count survey, 2024",
+        "url": "https://www.citizenscount.org/candidate/kelly-ayotte"
+       }
+      },
+      {
+       "topic": "Energy",
+       "stance": "For encouraging nuclear development; issued a March 2026 executive order directing the Department of Energy to explore next-generation nuclear power. Supports an all-of-the-above energy strategy.",
+       "quote": null,
+       "source": {
+        "label": "Citizens Count, 2026",
+        "url": "https://www.citizenscount.org/candidate/kelly-ayotte"
+       }
+      },
+      {
+       "topic": "Housing",
+       "stance": "Would streamline state permitting and cut red tape, and partner with municipalities on infrastructure.",
+       "quote": "Kelly will work to streamline the state permitting process and cut unnecessary red tape",
+       "source": {
+        "label": "Citizens Count survey, 2024",
+        "url": "https://www.citizenscount.org/candidate/kelly-ayotte"
+       }
+      },
+      {
+       "topic": "Marijuana",
+       "stance": "Against legalization. Says she would not sign a legalization bill, citing youth mental health, road safety and the opioid crisis.",
+       "quote": "Kelly would not sign a bill legalizing marijuana",
+       "source": {
+        "label": "Citizens Count survey, 2024",
+        "url": "https://www.citizenscount.org/candidate/kelly-ayotte"
+       }
+      },
+      {
+       "topic": "Immigration",
+       "stance": "For requiring local law enforcement to cooperate with federal immigration enforcement; would ban sanctuary cities.",
+       "quote": "As Governor, Kelly will ban sanctuary cities to keep New Hampshire communities safe.",
+       "source": {
+        "label": "Citizens Count survey, 2024",
+        "url": "https://www.citizenscount.org/candidate/kelly-ayotte"
+       }
+      },
+      {
+       "topic": "Guns",
+       "stance": "Against stricter gun laws. Supports current laws and will enforce them.",
+       "quote": "Kelly supports our current laws and will enforce them.",
+       "source": {
+        "label": "Citizens Count survey, 2024",
+        "url": "https://www.citizenscount.org/candidate/kelly-ayotte"
+       }
+      },
+      {
+       "topic": "School district tax caps",
+       "stance": "For. Answered Yes on the Granite State Taxpayers survey to implementing tax and spending caps.",
+       "quote": null,
+       "source": {
+        "label": "Granite State Taxpayers survey, 2026 (via Citizens Count)",
+        "url": "https://www.citizenscount.org/candidate/kelly-ayotte"
+       }
+      }
+     ],
+     "accounts": [
+      {
+       "platform": "Website",
+       "url": "https://kellyfornh.com/"
+      },
+      {
+       "platform": "Facebook",
+       "url": "https://www.facebook.com/KellyAyotteForNH/"
+      },
+      {
+       "platform": "X",
+       "url": "https://twitter.com/KellyAyotte"
+      }
+     ],
+     "source": {
+      "label": "Citizens Count candidate profile",
+      "url": "https://www.citizenscount.org/candidate/kelly-ayotte"
+     }
+    },
+    {
+     "id": "cinde-warmington",
+     "name": "Cinde Warmington",
+     "party": "D",
+     "incumbent": false,
+     "hometown": null,
+     "background": "Former Executive Councilor, District 2 (2020 to 2024). About 40 years in health care including laboratory medicine, hospital management and health care regulatory law. JD UNH School of Law.",
+     "website": "https://www.cindewarmington.com",
+     "positions": [
+      {
+       "topic": "Housing",
+       "stance": "Campaign says housing costs are at record highs and headlines a plan on tackling New Hampshire's housing crisis.",
+       "quote": "Housing costs are at record highs",
+       "source": {
+        "label": "Campaign website news page, 2026",
+        "url": "https://www.cindewarmington.com/news/what-planet-warmington-launches-first-tv-ad-highlighting-ayottes-failed-record-as-governor"
+       }
+      },
+      {
+       "topic": "Data centers",
+       "stance": "Calls for a statewide data center moratorium and criticizes a bill making it easier to build large data centers.",
+       "quote": null,
+       "source": {
+        "label": "Campaign website news page, 2026",
+        "url": "https://www.cindewarmington.com/news/what-planet-warmington-launches-first-tv-ad-highlighting-ayottes-failed-record-as-governor"
+       }
+      },
+      {
+       "topic": "Gas prices and tariffs",
+       "stance": "Announced support for a temporary gas tax suspension and demands the governor push for tariff refunds.",
+       "quote": null,
+       "source": {
+        "label": "Campaign website news page, 2026",
+        "url": "https://www.cindewarmington.com/news/what-planet-warmington-launches-first-tv-ad-highlighting-ayottes-failed-record-as-governor"
+       }
+      },
+      {
+       "topic": "Health care",
+       "stance": "Criticizes doubled prescription drug co-pays and higher Medicaid premiums under the current administration.",
+       "quote": null,
+       "source": {
+        "label": "Campaign website news page, 2026",
+        "url": "https://www.cindewarmington.com/news/what-planet-warmington-launches-first-tv-ad-highlighting-ayottes-failed-record-as-governor"
+       }
+      },
+      {
+       "topic": "Education Freedom Accounts",
+       "stance": "Against. Links private school vouchers to property tax increases.",
+       "quote": "All students in New Hampshire have the right to receive a quality public school education",
+       "source": {
+        "label": "Candidate website via Citizens Count, 2024; campaign news page, 2026",
+        "url": "https://www.citizenscount.org/candidate/cinde-warmington"
+       }
+      },
+      {
+       "topic": "Abortion",
+       "stance": "For guaranteeing the right to abortion before 24 weeks and for repealing the ban after 24 weeks.",
+       "quote": "Everyone should have the freedom to make their own reproductive health care decisions",
+       "source": {
+        "label": "Candidate website via Citizens Count, 2024",
+        "url": "https://www.citizenscount.org/candidate/cinde-warmington"
+       }
+      },
+      {
+       "topic": "Guns",
+       "stance": "For stricter gun laws: universal background checks, gun-free school zones, extreme risk protection orders.",
+       "quote": null,
+       "source": {
+        "label": "Candidate website via Citizens Count, 2024",
+        "url": "https://www.citizenscount.org/candidate/cinde-warmington"
+       }
+      },
+      {
+       "topic": "Minimum wage",
+       "stance": "For an increase; supports making the minimum wage a living wage.",
+       "quote": null,
+       "source": {
+        "label": "Candidate website via Citizens Count, 2024",
+        "url": "https://www.citizenscount.org/candidate/cinde-warmington"
+       }
+      },
+      {
+       "topic": "Climate",
+       "stance": "For state action on climate change.",
+       "quote": "Climate change presents a real and imminent threat to our state and we must take bold actions",
+       "source": {
+        "label": "Candidate website via Citizens Count, 2024",
+        "url": "https://www.citizenscount.org/candidate/cinde-warmington"
+       }
+      }
+     ],
+     "accounts": [
+      {
+       "platform": "Website",
+       "url": "https://www.cindewarmington.com"
+      },
+      {
+       "platform": "YouTube",
+       "url": "https://www.youtube.com/@CindeWarmingtonNH",
+       "channel_id": "UC3gxk7gBNBJsA2kmn3oexww"
+      },
+      {
+       "platform": "Bluesky",
+       "url": "https://bsky.app/profile/cindewarmington.bsky.social",
+       "actor": "cindewarmington.bsky.social"
+      },
+      {
+       "platform": "Facebook",
+       "url": "https://www.facebook.com/CindeWarmingtonNH/"
+      },
+      {
+       "platform": "Instagram",
+       "url": "https://instagram.com/cindewarmington/"
+      },
+      {
+       "platform": "X",
+       "url": "https://x.com/CindeWarmington"
+      }
+     ],
+     "source": {
+      "label": "Citizens Count candidate profile",
+      "url": "https://www.citizenscount.org/candidate/cinde-warmington"
+     }
+    },
+    {
+     "id": "stephen-villee",
+     "name": "Stephen Villee",
+     "party": "L",
+     "incumbent": false,
+     "hometown": null,
+     "background": "Software developer. BA Mathematics, Harvard University. Not currently serving in a New Hampshire office. Lists a Hampton, NH address.",
+     "website": "https://villee4nh.com/",
+     "positions": [
+      {
+       "topic": "Taxes",
+       "stance": "Against a broad-based income tax and against reinstating the interest and dividends tax. Would lower business taxes only with a matching cut in state spending.",
+       "quote": "I would love to lower business taxes, but there would have to be a corresponding decrease in state expenditures.",
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/stephen-villee"
+       }
+      },
+      {
+       "topic": "Housing",
+       "stance": "For the state doing more to encourage municipalities to remove zoning barriers to housing.",
+       "quote": null,
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/stephen-villee"
+       }
+      },
+      {
+       "topic": "Energy",
+       "stance": "For encouraging nuclear development including small modular reactors.",
+       "quote": null,
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/stephen-villee"
+       }
+      },
+      {
+       "topic": "Marijuana",
+       "stance": "For legalization under all three models surveyed (home growing, private sales, state-run stores).",
+       "quote": null,
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/stephen-villee"
+       }
+      },
+      {
+       "topic": "Abortion",
+       "stance": "Undecided on the survey's abortion questions; wants any ban to include an exception for rape.",
+       "quote": "Abortion is a very divisive issue, even among libertarians. I want any abortion ban to include an exception for rape",
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/stephen-villee"
+       }
+      },
+      {
+       "topic": "Elections",
+       "stance": "For requiring proof of citizenship for newly registered voters.",
+       "quote": null,
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/stephen-villee"
+       }
+      },
+      {
+       "topic": "Guns",
+       "stance": "Against stricter gun laws.",
+       "quote": null,
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/stephen-villee"
+       }
+      },
+      {
+       "topic": "Public schools",
+       "stance": "Says in the long term he wants to reduce or eliminate public school funding, but that will have to wait.",
+       "quote": "In the long term, I want to reduce or eliminate public school funding. But that will have to wait until more libertarians move to NH.",
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/stephen-villee"
+       }
+      }
+     ],
+     "accounts": [
+      {
+       "platform": "Website",
+       "url": "https://villee4nh.com/"
+      },
+      {
+       "platform": "Facebook",
+       "url": "https://www.facebook.com/stephen.villee"
+      },
+      {
+       "platform": "X",
+       "url": "https://x.com/svillee"
+      }
+     ],
+     "source": {
+      "label": "Citizens Count candidate profile",
+      "url": "https://www.citizenscount.org/candidate/stephen-villee"
+     }
+    }
+   ],
+   "source": {
+    "label": "Ballotpedia, New Hampshire gubernatorial election 2026",
+    "url": "https://ballotpedia.org/New_Hampshire_gubernatorial_election,_2026"
+   }
+  },
+  {
+   "id": "us-senate",
+   "office": "U.S. Senate",
+   "district": "Statewide",
+   "level": "Federal",
+   "wards": "all",
+   "seats": 1,
+   "term": "6 years",
+   "what": "One of New Hampshire's two votes in the U.S. Senate on federal law, budgets, treaties and confirmations; this is an open seat because Sen. Jeanne Shaheen is not running.",
+   "candidates": [
+    {
+     "id": "chris-pappas",
+     "name": "Chris Pappas",
+     "party": "D",
+     "incumbent": false,
+     "hometown": "Manchester",
+     "background": "U.S. Representative for New Hampshire's 1st District since 2019. Previously Executive Councilor (District 4, 2013 to 2019), Hillsborough County Treasurer (2007 to 2011) and state representative (2002 to 2006). Co-owner of the Puritan Backroom restaurant in Manchester.",
+     "website": "https://chrispappas.org/",
+     "positions": [
+      {
+       "topic": "Health care costs",
+       "stance": "Restoring enhanced ACA premium tax credits, capping insulin at $35 and letting Medicare negotiate drug prices.",
+       "quote": null,
+       "source": {
+        "label": "Ballotpedia, 2026",
+        "url": "https://ballotpedia.org/United_States_Senate_election_in_New_Hampshire,_2026"
+       }
+      },
+      {
+       "topic": "Tariffs",
+       "stance": "For decreasing tariffs on imports; calls for getting rid of what he terms reckless tariffs.",
+       "quote": "getting rid of these reckless tariffs",
+       "source": {
+        "label": "C-SPAN/AARP debate via Citizens Count, 2026",
+        "url": "https://www.citizenscount.org/candidate/christopher-pappas/running/2026-primary-us-senate"
+       }
+      },
+      {
+       "topic": "Housing",
+       "stance": "For limiting private equity purchases of homes; cites bipartisan legislation to stop Wall Street from buying single-family homes.",
+       "quote": null,
+       "source": {
+        "label": "Candidate website via Citizens Count, 2026",
+        "url": "https://www.citizenscount.org/candidate/christopher-pappas/running/2026-primary-us-senate"
+       }
+      },
+      {
+       "topic": "Corruption and money in politics",
+       "stance": "Refuses corporate PAC money and says he is fighting to ban stock trading by members of Congress.",
+       "quote": "no family has to choose between buying groceries and paying for a prescription",
+       "source": {
+        "label": "Campaign press release, June 2026",
+        "url": "https://chrispappas.org/2026/06/serving-you-has-always-been-my-number-one-priority-new-tv-and-digital-ads-highlight-pappass-fight-to-lower-costs-end-corruption/"
+       }
+      },
+      {
+       "topic": "Elections",
+       "stance": "Against requiring proof of citizenship to vote; voted no on the SAVE Act.",
+       "quote": "I voted no on this legislation today because it would force unnecessary federal changes to state voter registration",
+       "source": {
+        "label": "Candidate website via Citizens Count, 2026",
+        "url": "https://www.citizenscount.org/candidate/christopher-pappas/running/2026-primary-us-senate"
+       }
+      },
+      {
+       "topic": "Iran",
+       "stance": "Against the war in Iran; voted to reassert Congress's war authority.",
+       "quote": "Today, I voted to reassert Congress's authority to prevent another forever war without a clear endgame",
+       "source": {
+        "label": "Candidate website via Citizens Count, 2026",
+        "url": "https://www.citizenscount.org/candidate/christopher-pappas/running/2026-primary-us-senate"
+       }
+      },
+      {
+       "topic": "Immigration enforcement",
+       "stance": "Against abolishing ICE; says he will hold the line against abuses.",
+       "quote": "I'll continue to hold the line against the abuses that we've seen",
+       "source": {
+        "label": "Southern NH Chamber debate via Citizens Count, 2026",
+        "url": "https://www.citizenscount.org/candidate/christopher-pappas/running/2026-primary-us-senate"
+       }
+      }
+     ],
+     "accounts": [
+      {
+       "platform": "Website",
+       "url": "https://chrispappas.org/"
+      },
+      {
+       "platform": "YouTube",
+       "url": "https://www.youtube.com/@ChrisPappasNH",
+       "channel_id": "UCOMLLJGmSQXBDHufSt5am-w"
+      },
+      {
+       "platform": "Bluesky",
+       "url": "https://bsky.app/profile/chrispappasnh.bsky.social",
+       "actor": "chrispappasnh.bsky.social"
+      },
+      {
+       "platform": "Facebook",
+       "url": "https://www.facebook.com/pappasfornh/"
+      },
+      {
+       "platform": "Instagram",
+       "url": "https://www.instagram.com/pappasfornh/"
+      },
+      {
+       "platform": "X",
+       "url": "https://x.com/chrispappasnh"
+      }
+     ],
+     "source": {
+      "label": "Ballotpedia, U.S. Senate election in New Hampshire 2026",
+      "url": "https://ballotpedia.org/United_States_Senate_election_in_New_Hampshire,_2026"
+     }
+    },
+    {
+     "id": "john-e-sununu",
+     "name": "John E. Sununu",
+     "party": "R",
+     "incumbent": false,
+     "hometown": "Hampton",
+     "background": "U.S. Senator from New Hampshire 2003 to 2009 and U.S. Representative for the 1st District 1997 to 2003. B.S. and M.S. in mechanical engineering from MIT, MBA from Harvard. Has worked in engineering, consulting and manufacturing.",
+     "website": "https://www.sununusenator.com/",
+     "positions": [
+      {
+       "topic": "Cost of living",
+       "stance": "Reducing inflation and lowering costs for housing, health care and energy; opposes middle-class tax increases.",
+       "quote": null,
+       "source": {
+        "label": "Ballotpedia, 2026",
+        "url": "https://ballotpedia.org/United_States_Senate_election_in_New_Hampshire,_2026"
+       }
+      },
+      {
+       "topic": "Term limits",
+       "stance": "For congressional term limits.",
+       "quote": "No more career politicians.",
+       "source": {
+        "label": "Citizens Count, 2026",
+        "url": "https://www.citizenscount.org/candidate/john-e-sununu"
+       }
+      },
+      {
+       "topic": "Taxes",
+       "stance": "For extending the Trump tax act; against raising taxes to reduce the deficit.",
+       "quote": null,
+       "source": {
+        "label": "Citizens Count, 2026",
+        "url": "https://www.citizenscount.org/candidate/john-e-sununu"
+       }
+      },
+      {
+       "topic": "Tariffs",
+       "stance": "Says if there are tariffs they should be set at a reasonable rate.",
+       "quote": "If you're going to have tariffs, set them at a reasonable rate.",
+       "source": {
+        "label": "Citizens Count, 2026",
+        "url": "https://www.citizenscount.org/candidate/john-e-sununu"
+       }
+      },
+      {
+       "topic": "Elections",
+       "stance": "For requiring proof of citizenship to vote; urges an up or down vote on voter ID.",
+       "quote": null,
+       "source": {
+        "label": "Citizens Count, 2026",
+        "url": "https://www.citizenscount.org/candidate/john-e-sununu"
+       }
+      },
+      {
+       "topic": "Health care",
+       "stance": "Against Medicare for All; proposes insurance competition across state lines, price transparency and health savings accounts.",
+       "quote": null,
+       "source": {
+        "label": "Citizens Count, 2026",
+        "url": "https://www.citizenscount.org/candidate/john-e-sununu"
+       }
+      },
+      {
+       "topic": "Social Security and Medicare",
+       "stance": "Says he never voted to cut Social Security benefits; calls for a bipartisan fix to solvency.",
+       "quote": null,
+       "source": {
+        "label": "Ballotpedia, 2026; Citizens Count, 2026",
+        "url": "https://www.citizenscount.org/candidate/john-e-sununu"
+       }
+      },
+      {
+       "topic": "Immigration",
+       "stance": "Against abolishing ICE; says agents should not wear masks and should wear body cameras. For an amendment limiting birthright citizenship.",
+       "quote": null,
+       "source": {
+        "label": "Citizens Count, 2026",
+        "url": "https://www.citizenscount.org/candidate/john-e-sununu"
+       }
+      }
+     ],
+     "accounts": [
+      {
+       "platform": "Website",
+       "url": "https://www.sununusenator.com/"
+      },
+      {
+       "platform": "Facebook",
+       "url": "https://www.facebook.com/SununuSenator/"
+      },
+      {
+       "platform": "X",
+       "url": "https://x.com/SununuSenator"
+      }
+     ],
+     "source": {
+      "label": "Ballotpedia, U.S. Senate election in New Hampshire 2026",
+      "url": "https://ballotpedia.org/United_States_Senate_election_in_New_Hampshire,_2026"
+     }
+    },
+    {
+     "id": "edmond-laplante",
+     "name": "Edmond J. Laplante Jr.",
+     "party": "Other",
+     "incumbent": false,
+     "hometown": "Richmond",
+     "background": "Constitution Party. Auto mechanic since 1984, Marine Corps veteran (1999 to 2007), Richmond school board (SAU 93) representative since 2003 and State Chairman of the Constitution Party of NH.",
+     "website": "https://laplante4constitutionalnh.com/",
+     "positions": [
+      {
+       "topic": "Role of government",
+       "stance": "Constitutional compliance and limited government; transparency and accountability.",
+       "quote": null,
+       "source": {
+        "label": "Ballotpedia, 2026",
+        "url": "https://ballotpedia.org/United_States_Senate_election_in_New_Hampshire,_2026"
+       }
+      },
+      {
+       "topic": "Tariffs",
+       "stance": "Against decreasing tariffs.",
+       "quote": "We should concentrate NOT being so reliant on foreign goods.",
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/edmond-j-laplante-jr"
+       }
+      },
+      {
+       "topic": "Foreign policy",
+       "stance": "Says the U.S. should stay out of foreign affairs that do not affect it directly (Ukraine aid, Israel aid, Iran, Venezuela).",
+       "quote": "We should stay out of foreign affairs that don't affect us directly",
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/edmond-j-laplante-jr"
+       }
+      },
+      {
+       "topic": "Social Security",
+       "stance": "For privatizing Social Security; against raising the retirement age or income cap.",
+       "quote": "We should have individual plans where your funds are yours and yours alone",
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/edmond-j-laplante-jr"
+       }
+      },
+      {
+       "topic": "Abortion",
+       "stance": "Describes himself as pro-life with rare exceptions; against a federal right to abortion before 24 weeks.",
+       "quote": "I'm pro life there are rare exceptions",
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/edmond-j-laplante-jr"
+       }
+      },
+      {
+       "topic": "Elections",
+       "stance": "For proof of citizenship to vote; against mail-in voting.",
+       "quote": null,
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/edmond-j-laplante-jr"
+       }
+      },
+      {
+       "topic": "Housing",
+       "stance": "For limiting private equity purchases of homes.",
+       "quote": null,
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/edmond-j-laplante-jr"
+       }
+      }
+     ],
+     "accounts": [
+      {
+       "platform": "Website",
+       "url": "https://laplante4constitutionalnh.com/"
+      },
+      {
+       "platform": "Facebook",
+       "url": "https://www.facebook.com/laplante4constitutionalnh"
+      },
+      {
+       "platform": "X",
+       "url": "https://x.com/Laplante4Senate"
+      }
+     ],
+     "source": {
+      "label": "Citizens Count candidate profile",
+      "url": "https://www.citizenscount.org/candidate/edmond-j-laplante-jr"
+     }
+    }
+   ],
+   "source": {
+    "label": "Ballotpedia, U.S. Senate election in New Hampshire 2026",
+    "url": "https://ballotpedia.org/United_States_Senate_election_in_New_Hampshire,_2026"
+   }
+  },
+  {
+   "id": "us-house-2",
+   "office": "U.S. House of Representatives",
+   "district": "District 2",
+   "level": "Federal",
+   "wards": "all",
+   "seats": 1,
+   "term": "2 years",
+   "what": "Nashua's representative in the U.S. House, which writes federal law and budgets and oversees federal agencies.",
+   "candidates": [
+    {
+     "id": "maggie-goodlander",
+     "name": "Maggie Goodlander",
+     "party": "D",
+     "incumbent": true,
+     "hometown": "Nashua",
+     "background": "U.S. Representative for the 2nd District since 2025, born and raised in Nashua. Former Navy Reserve intelligence officer, Deputy Assistant Attorney General at the Justice Department, and law clerk to Justice Stephen Breyer.",
+     "website": "https://maggiefornh.com/",
+     "positions": [
+      {
+       "topic": "Cost of living",
+       "stance": "Calls cost of living the central issue, citing housing, health care, child care and energy costs.",
+       "quote": "people are feeling a huge amount of pain right now",
+       "source": {
+        "label": "The Dartmouth, March 2026",
+        "url": "https://www.thedartmouth.com/article/2026/03/rep-maggie-goodlander-calls-for-term-limits-and-affordability-in-push-for-second-congressional-term"
+       }
+      },
+      {
+       "topic": "Housing",
+       "stance": "Increase supply and crack down on corporate abuses; for limiting private equity purchases of homes.",
+       "quote": "We need to increase supply and crack down on corporate abuses that drive up costs.",
+       "source": {
+        "label": "The Dartmouth, March 2026; Citizens Count, 2026",
+        "url": "https://www.thedartmouth.com/article/2026/03/rep-maggie-goodlander-calls-for-term-limits-and-affordability-in-push-for-second-congressional-term"
+       }
+      },
+      {
+       "topic": "Term limits",
+       "stance": "Supports a 12-year term limit for members of Congress.",
+       "quote": "I strongly support a twelve year term limit for members of Congress.",
+       "source": {
+        "label": "The Dartmouth, March 2026",
+        "url": "https://www.thedartmouth.com/article/2026/03/rep-maggie-goodlander-calls-for-term-limits-and-affordability-in-push-for-second-congressional-term"
+       }
+      },
+      {
+       "topic": "Tariffs",
+       "stance": "For decreasing tariffs; says the president's tariffs taxed American families and small businesses.",
+       "quote": null,
+       "source": {
+        "label": "The Dartmouth, March 2026; Citizens Count, 2026",
+        "url": "https://www.thedartmouth.com/article/2026/03/rep-maggie-goodlander-calls-for-term-limits-and-affordability-in-push-for-second-congressional-term"
+       }
+      },
+      {
+       "topic": "Iran",
+       "stance": "Calls the U.S. intervention a war of choice and says Congress must exercise oversight.",
+       "quote": null,
+       "source": {
+        "label": "The Dartmouth, March 2026; WCAX, October 2026",
+        "url": "https://www.wcax.com/2026/10/14/campaign-countdown-goodlander-faces-rematch-nh-2nd-district-race/?outputType=amp"
+       }
+      },
+      {
+       "topic": "Money in politics",
+       "stance": "For an amendment to limit outside funding of campaigns; supports banning stock trading by members and corporate PAC contributions.",
+       "quote": null,
+       "source": {
+        "label": "Citizens Count, 2026; The Dartmouth, March 2026",
+        "url": "https://www.citizenscount.org/candidate/maggie-goodlander/running/2026-general-us-house"
+       }
+      },
+      {
+       "topic": "Elections",
+       "stance": "Against requiring proof of citizenship to vote.",
+       "quote": "The right to vote is the fundamental right from which all of our rights flow.",
+       "source": {
+        "label": "Candidate website via Citizens Count, 2026",
+        "url": "https://www.citizenscount.org/candidate/maggie-goodlander/running/2026-general-us-house"
+       }
+      },
+      {
+       "topic": "Immigration enforcement",
+       "stance": "Voted against a DHS funding bill over ICE oversight; supports standardized uniforms, identification and judicial warrants.",
+       "quote": null,
+       "source": {
+        "label": "The Dartmouth, March 2026",
+        "url": "https://www.thedartmouth.com/article/2026/03/rep-maggie-goodlander-calls-for-term-limits-and-affordability-in-push-for-second-congressional-term"
+       }
+      }
+     ],
+     "accounts": [
+      {
+       "platform": "Website",
+       "url": "https://maggiefornh.com/"
+      },
+      {
+       "platform": "YouTube",
+       "url": "https://www.youtube.com/@RepresentativeMaggieGoodlander",
+       "channel_id": "UCQiDPQY53U-S6ZtGBshuHZw"
+      },
+      {
+       "platform": "Bluesky",
+       "url": "https://bsky.app/profile/repgoodlander.bsky.social",
+       "actor": "repgoodlander.bsky.social"
+      },
+      {
+       "platform": "Facebook",
+       "url": "https://www.facebook.com/RepGoodlander"
+      },
+      {
+       "platform": "Instagram",
+       "url": "https://www.instagram.com/repgoodlander/"
+      },
+      {
+       "platform": "X",
+       "url": "https://x.com/repgoodlander"
+      }
+     ],
+     "source": {
+      "label": "Citizens Count candidate profile",
+      "url": "https://www.citizenscount.org/candidate/maggie-goodlander/running/2026-general-us-house"
+     },
+     "accounts_note": "YouTube, Bluesky, Facebook, Instagram and X listed here are the official House office accounts from goodlander.house.gov/about, not campaign accounts."
+    },
+    {
+     "id": "lily-tang-williams",
+     "name": "Lily Tang Williams",
+     "party": "R",
+     "incumbent": false,
+     "hometown": null,
+     "background": "Republican nominee for this seat in 2022 and 2024. Immigrant who grew up in Mao-era China; runs the nonprofit Asian Americans New Hampshire Coalition. Mother of three adult children, two of them veterans.",
+     "website": "https://www.lilytangwilliams.com/congress/",
+     "positions": [
+      {
+       "topic": "Federal budget",
+       "stance": "For a balanced budget amendment; wants to cut fraud, waste and corporate subsidies.",
+       "quote": "I would introduce a balanced budget amendment.",
+       "source": {
+        "label": "The Dartmouth, April 2026; Citizens Count, 2026",
+        "url": "https://www.thedartmouth.com/article/2026/04/2nd-congressional-district-candidate-lily-tang-williams-calls-for-balanced-budget-amendment-national-constitutional-carry-in-rematch"
+       }
+      },
+      {
+       "topic": "Guns",
+       "stance": "Supports national constitutional carry; opposes red flag laws and additional gun control.",
+       "quote": "I support national constitutional carry.",
+       "source": {
+        "label": "The Dartmouth, April 2026",
+        "url": "https://www.thedartmouth.com/article/2026/04/2nd-congressional-district-candidate-lily-tang-williams-calls-for-balanced-budget-amendment-national-constitutional-carry-in-rematch"
+       }
+      },
+      {
+       "topic": "Immigration",
+       "stance": "Supports securing the border, deporting criminal illegal immigrants and streamlining legal immigration based on labor needs. Against abolishing ICE.",
+       "quote": "I support securing the border and deporting criminal illegal aliens.",
+       "source": {
+        "label": "The Dartmouth, April 2026; Citizens Count, 2026",
+        "url": "https://www.thedartmouth.com/article/2026/04/2nd-congressional-district-candidate-lily-tang-williams-calls-for-balanced-budget-amendment-national-constitutional-carry-in-rematch"
+       }
+      },
+      {
+       "topic": "Elections",
+       "stance": "Supports the SAVE Act: citizenship required to register and photo ID to vote.",
+       "quote": "I support the SAVE Act, citizenship required to register, and photo ID to vote.",
+       "source": {
+        "label": "Citizens Count, 2026",
+        "url": "https://www.citizenscount.org/candidate/lily-tang-williams/running/2026-general-us-house"
+       }
+      },
+      {
+       "topic": "Foreign policy",
+       "stance": "Against the war in Iran; describes her approach as peace through strength with war as last resort. Opposed the $165 billion in Ukraine aid.",
+       "quote": "My foreign policy is peace through strength. War is last resort.",
+       "source": {
+        "label": "Citizens Count, 2026; The Dartmouth, April 2026",
+        "url": "https://www.citizenscount.org/candidate/lily-tang-williams/running/2026-general-us-house"
+       }
+      },
+      {
+       "topic": "Health care",
+       "stance": "Against Medicare for All; favors free market competition to drive prices down.",
+       "quote": null,
+       "source": {
+        "label": "Citizens Count, 2026",
+        "url": "https://www.citizenscount.org/candidate/lily-tang-williams/running/2026-general-us-house"
+       }
+      },
+      {
+       "topic": "Government transparency",
+       "stance": "Calls for real-time transparency in government and a ban on earmarks.",
+       "quote": null,
+       "source": {
+        "label": "WCAX, October 2026",
+        "url": "https://www.wcax.com/2026/10/14/campaign-countdown-goodlander-faces-rematch-nh-2nd-district-race/?outputType=amp"
+       }
+      }
+     ],
+     "accounts": [
+      {
+       "platform": "Website",
+       "url": "https://www.lilytangwilliams.com/congress/"
+      }
+     ],
+     "source": {
+      "label": "Citizens Count candidate profile",
+      "url": "https://www.citizenscount.org/candidate/lily-tang-williams/running/2026-general-us-house"
+     }
+    },
+    {
+     "id": "robbie-mahrou",
+     "name": "Robbie Mahrou",
+     "party": "I",
+     "incumbent": false,
+     "hometown": null,
+     "background": "Independent. Describes himself as not a career politician and says he has worked with small businesses, farmers and local organizations.",
+     "website": "https://livefreenh02.com/",
+     "positions": [
+      {
+       "topic": "Role in Congress",
+       "stance": "Runs as an independent, saying both parties have failed the district on property taxes, energy costs and food and lumber processing.",
+       "quote": null,
+       "source": {
+        "label": "Ballotpedia, 2026",
+        "url": "https://ballotpedia.org/New_Hampshire's_2nd_Congressional_District_election,_2026"
+       }
+      },
+      {
+       "topic": "Food and farms",
+       "stance": "Proposes a regional food processing ecosystem in the Upper Valley using existing federal funds, with no new appropriations.",
+       "quote": null,
+       "source": {
+        "label": "Ballotpedia, 2026",
+        "url": "https://ballotpedia.org/New_Hampshire's_2nd_Congressional_District_election,_2026"
+       }
+      },
+      {
+       "topic": "War powers",
+       "stance": "Wants Congress to reclaim war powers and tariff authority, enforce the War Powers Resolution and repeal the 2001 AUMF. Against the war in Iran.",
+       "quote": null,
+       "source": {
+        "label": "Ballotpedia, 2026; Citizens Count, 2026",
+        "url": "https://ballotpedia.org/New_Hampshire's_2nd_Congressional_District_election,_2026"
+       }
+      },
+      {
+       "topic": "Money in politics",
+       "stance": "For an amendment limiting outside funding of campaigns.",
+       "quote": "No outside money should be permitted in state and local elections, period.",
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/robbie-mahrou/running/2026-general-us-house"
+       }
+      },
+      {
+       "topic": "Housing",
+       "stance": "For limiting private equity purchases of homes.",
+       "quote": "Forcing Americans to rent the American dream instead of having a true stake in it is criminal",
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/robbie-mahrou/running/2026-general-us-house"
+       }
+      },
+      {
+       "topic": "Abortion",
+       "stance": "Against a federal abortion ban; for a federal right to abortion before 24 weeks.",
+       "quote": "The right to make decisions about your own body is a constitutional right.",
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/robbie-mahrou/running/2026-general-us-house"
+       }
+      },
+      {
+       "topic": "Social Security",
+       "stance": "Against raising the retirement age, means testing or raising the income cap.",
+       "quote": "Social Security is a promise. Americans paid into it with every paycheck they ever earned.",
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/robbie-mahrou/running/2026-general-us-house"
+       }
+      },
+      {
+       "topic": "Taxes",
+       "stance": "Against raising taxes to reduce the deficit; for a balanced budget amendment and term limits.",
+       "quote": "Term limits and a balanced budget amendment are long overdue.",
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/robbie-mahrou/running/2026-general-us-house"
+       }
+      }
+     ],
+     "accounts": [
+      {
+       "platform": "Website",
+       "url": "https://livefreenh02.com/"
+      }
+     ],
+     "source": {
+      "label": "Citizens Count candidate profile",
+      "url": "https://www.citizenscount.org/candidate/robbie-mahrou/running/2026-general-us-house"
+     }
+    }
+   ],
+   "source": {
+    "label": "Ballotpedia, New Hampshire's 2nd Congressional District election 2026",
+    "url": "https://ballotpedia.org/New_Hampshire's_2nd_Congressional_District_election,_2026"
+   }
+  },
+  {
+   "id": "exec-council-5",
+   "office": "Executive Council",
+   "district": "District 5",
+   "level": "State",
+   "wards": "all",
+   "seats": 1,
+   "term": "2 years",
+   "what": "One of five councilors who vote with the governor on state contracts, judicial and agency nominations and pardons; Nashua is in District 5.",
+   "candidates": [
+    {
+     "id": "dave-wheeler",
+     "name": "Dave Wheeler",
+     "party": "R",
+     "incumbent": true,
+     "hometown": "Milford",
+     "background": "Executive Councilor, District 5, 2021 to present; also served 2001 to 2005 and 2011 to 2013. Business owner (Maranatha Carpet, Miracle Acres Farm). Resides in Milford.",
+     "website": "http://davewheeler.org/",
+     "positions": [
+      {
+       "topic": "Taxes",
+       "stance": "Against reinstating the interest and dividends tax; pledged to oppose any tax increase. Against a broad-based income tax. For lowering business taxes.",
+       "quote": "I will oppose and Vote against any and all efforts to increase taxes.",
+       "source": {
+        "label": "Granite State Taxpayers survey 2026 and Citizens Count survey 2022, via Citizens Count",
+        "url": "https://www.citizenscount.org/candidate/dave-wheeler/running/2026-general-nh-exec-council"
+       }
+      },
+      {
+       "topic": "Education Freedom Accounts",
+       "stance": "For.",
+       "quote": "Choice in education fosters excellence, monopolies encourage mediocrity.",
+       "source": {
+        "label": "Citizens Count survey, 2022",
+        "url": "https://www.citizenscount.org/candidate/dave-wheeler/running/2026-general-nh-exec-council"
+       }
+      },
+      {
+       "topic": "Abortion",
+       "stance": "For bans in the first and second trimester; against guaranteeing access before 24 weeks; against repealing the 24-week ban.",
+       "quote": null,
+       "source": {
+        "label": "Citizens Count survey, 2022",
+        "url": "https://www.citizenscount.org/candidate/dave-wheeler/running/2026-general-nh-exec-council"
+       }
+      },
+      {
+       "topic": "Planned Parenthood contracts",
+       "stance": "Against state contracts with Planned Parenthood; for contracts with faith-based organizations.",
+       "quote": null,
+       "source": {
+        "label": "Citizens Count survey, 2022",
+        "url": "https://www.citizenscount.org/candidate/dave-wheeler/running/2026-general-nh-exec-council"
+       }
+      },
+      {
+       "topic": "Housing",
+       "stance": "For the state encouraging local zoning changes for housing development.",
+       "quote": null,
+       "source": {
+        "label": "Citizens Count survey, 2022",
+        "url": "https://www.citizenscount.org/candidate/dave-wheeler/running/2026-general-nh-exec-council"
+       }
+      },
+      {
+       "topic": "School district tax caps",
+       "stance": "For. Answered Yes on tax and spending caps.",
+       "quote": null,
+       "source": {
+        "label": "Granite State Taxpayers survey, 2026 (via Citizens Count)",
+        "url": "https://www.citizenscount.org/candidate/dave-wheeler/running/2026-general-nh-exec-council"
+       }
+      },
+      {
+       "topic": "Net metering",
+       "stance": "Against expansion if it raises electric rates for other consumers.",
+       "quote": "Not if it raises electric rates for all other consumers.",
+       "source": {
+        "label": "Citizens Count survey, 2020",
+        "url": "https://www.citizenscount.org/candidate/dave-wheeler/running/2026-general-nh-exec-council"
+       }
+      }
+     ],
+     "accounts": [
+      {
+       "platform": "Website",
+       "url": "http://davewheeler.org/"
+      },
+      {
+       "platform": "Facebook",
+       "url": "https://www.facebook.com/DaveWheelerNH"
+      }
+     ],
+     "source": {
+      "label": "Ballotpedia profile",
+      "url": "https://ballotpedia.org/Dave_Wheeler"
+     }
+    },
+    {
+     "id": "melanie-levesque",
+     "name": "Melanie Levesque",
+     "party": "D",
+     "incumbent": false,
+     "hometown": null,
+     "background": "Former State Senator, District 12 (2018 to 2020) and state representative (2006 to 2010, 2012 to 2014). President of TCS of American Enterprises, LLC. Ran for this seat in 2024.",
+     "website": "https://www.melaniefornh.com/",
+     "positions": [
+      {
+       "topic": "Housing",
+       "stance": "For state action to encourage local zoning changes for housing.",
+       "quote": "We need more housing in New Hampshire.",
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/melanie-levesque/running/2026-general-nh-exec-council"
+       }
+      },
+      {
+       "topic": "Taxes",
+       "stance": "Says she has never supported a state income tax; for reinstating the interest and dividends tax; against business tax cuts.",
+       "quote": "I have never supported a state income tax.",
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/melanie-levesque/running/2026-general-nh-exec-council"
+       }
+      },
+      {
+       "topic": "Education Freedom Accounts",
+       "stance": "Against.",
+       "quote": null,
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/melanie-levesque/running/2026-general-nh-exec-council"
+       }
+      },
+      {
+       "topic": "Abortion",
+       "stance": "For guaranteed access before 24 weeks; for repealing the 24-week ban; against first and second trimester bans.",
+       "quote": null,
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/melanie-levesque/running/2026-general-nh-exec-council"
+       }
+      },
+      {
+       "topic": "Energy",
+       "stance": "Against encouraging nuclear development; for raising the net metering cap.",
+       "quote": "nuclear power is not tested enough to be reliable",
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/melanie-levesque/running/2026-general-nh-exec-council"
+       }
+      },
+      {
+       "topic": "Office of the Child Advocate",
+       "stance": "For restoring funding.",
+       "quote": "we need to fully fund the Office of the Child Advocate",
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/melanie-levesque/running/2026-general-nh-exec-council"
+       }
+      },
+      {
+       "topic": "Guns",
+       "stance": "Supports red flag laws and 48-hour waiting periods.",
+       "quote": "I specifically support Red Flag laws and 48-hour wait periods.",
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/melanie-levesque/running/2026-general-nh-exec-council"
+       }
+      },
+      {
+       "topic": "Elections",
+       "stance": "Against requiring proof of citizenship to register.",
+       "quote": "Voter fraud is not currently an issue demanding state attention",
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/melanie-levesque/running/2026-general-nh-exec-council"
+       }
+      }
+     ],
+     "accounts": [
+      {
+       "platform": "Website",
+       "url": "https://www.melaniefornh.com/"
+      },
+      {
+       "platform": "Facebook",
+       "url": "https://www.facebook.com/Melanie4NH/"
+      },
+      {
+       "platform": "X",
+       "url": "https://x.com/Melanie4NH"
+      },
+      {
+       "platform": "Instagram",
+       "url": "https://www.instagram.com/melanie4executivecouncil/"
+      }
+     ],
+     "source": {
+      "label": "Ballotpedia profile",
+      "url": "https://ballotpedia.org/Melanie_Levesque"
+     }
+    }
+   ],
+   "source": {
+    "label": "Ballotpedia, New Hampshire state executive official elections 2026",
+    "url": "https://ballotpedia.org/New_Hampshire_state_executive_official_elections,_2026"
+   }
+  },
+  {
+   "id": "state-senate-12",
+   "office": "State Senate",
+   "district": "District 12",
+   "level": "State",
+   "wards": [
+    "1",
+    "2",
+    "5"
+   ],
+   "seats": 1,
+   "term": "2 years",
+   "what": "One of 24 state senators who write state law and the state budget; District 12 includes Nashua Wards 1, 2 and 5.",
+   "candidates": [
+    {
+     "id": "kevin-avard",
+     "name": "Kevin Avard",
+     "party": "R",
+     "incumbent": true,
+     "hometown": "Nashua",
+     "background": "State Senator, District 12, 2020 to present and 2014 to 2018; state representative 2010 to 2012. Business owner including a contract cleaning service. From Nashua.",
+     "website": "https://kevinavard.com/",
+     "positions": [
+      {
+       "topic": "Education Freedom Accounts",
+       "stance": "For.",
+       "quote": "Every child deserves an education that meets their needs.",
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/kevin-avard/running/2026-general-nh-senate"
+       }
+      },
+      {
+       "topic": "Taxes",
+       "stance": "Against a broad-based income tax and against the interest and dividends tax; for lowering business taxes.",
+       "quote": null,
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/kevin-avard/running/2026-general-nh-senate"
+       }
+      },
+      {
+       "topic": "Energy",
+       "stance": "For nuclear development; prime sponsor of legislation to expand net metering to 5 MW.",
+       "quote": "I am the prime sponsor of that legislation and have been a longtime advocate for an all of the above approach",
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/kevin-avard/running/2026-general-nh-senate"
+       }
+      },
+      {
+       "topic": "Housing",
+       "stance": "Says local control comes first and each community should decide its future.",
+       "quote": "First and foremost we have to protect local control, each community should decide their future,",
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/kevin-avard/running/2026-general-nh-senate"
+       }
+      },
+      {
+       "topic": "Abortion",
+       "stance": "Says he is pro-life and supports current state law.",
+       "quote": "I am pro life. I support NH's current law that prohibits abortions after 6 months",
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/kevin-avard/running/2026-general-nh-senate"
+       }
+      },
+      {
+       "topic": "Marijuana",
+       "stance": "Against recreational legalization; supports medical cannabis.",
+       "quote": null,
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/kevin-avard/running/2026-general-nh-senate"
+       }
+      },
+      {
+       "topic": "Guns",
+       "stance": "Against stricter gun laws.",
+       "quote": null,
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/kevin-avard/running/2026-general-nh-senate"
+       }
+      },
+      {
+       "topic": "Elections",
+       "stance": "For requiring proof of citizenship for newly registered voters.",
+       "quote": null,
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/kevin-avard/running/2026-general-nh-senate"
+       }
+      }
+     ],
+     "accounts": [
+      {
+       "platform": "Website",
+       "url": "https://kevinavard.com/"
+      },
+      {
+       "platform": "YouTube",
+       "url": "https://www.youtube.com/@KevinAvard",
+       "channel_id": "UCNkcvSsrpyJydRPJx2FDMhQ"
+      },
+      {
+       "platform": "Facebook",
+       "url": "https://www.facebook.com/kevinavard"
+      },
+      {
+       "platform": "X",
+       "url": "https://x.com/kevin_avard"
+      },
+      {
+       "platform": "Instagram",
+       "url": "https://www.instagram.com/aardvark603/"
+      }
+     ],
+     "source": {
+      "label": "Ballotpedia profile",
+      "url": "https://ballotpedia.org/Kevin_Avard"
+     }
+    },
+    {
+     "id": "carryl-roy",
+     "name": "Carryl Roy",
+     "party": "D",
+     "incumbent": false,
+     "hometown": null,
+     "background": "Works in customer service. At-large member of the Hollis School District school board, term ending 2028.",
+     "website": "https://www.carrylroyfornh.com/",
+     "positions": [
+      {
+       "topic": "Education Freedom Accounts",
+       "stance": "Against as structured; wants an income cap and oversight.",
+       "quote": "There needs to be an income cap on who receives these benefits so they are not all going to the wealthiest families.",
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/carryl-l-roy/running/2026-general-nh-senate"
+       }
+      },
+      {
+       "topic": "Taxes",
+       "stance": "Against a broad-based income tax. Would lower business taxes for small businesses while large multinationals pay their fair share.",
+       "quote": "New Hampshire should lower business taxes on small businesses, as they are the backbone of our economy.",
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/carryl-l-roy/running/2026-general-nh-senate"
+       }
+      },
+      {
+       "topic": "Abortion",
+       "stance": "For guaranteeing the right to abortion before 24 weeks.",
+       "quote": "I believe intimate healthcare decisions like this should be between a woman and her doctor.",
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/carryl-l-roy/running/2026-general-nh-senate"
+       }
+      },
+      {
+       "topic": "Energy",
+       "stance": "For encouraging nuclear development.",
+       "quote": null,
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/carryl-l-roy/running/2026-general-nh-senate"
+       }
+      },
+      {
+       "topic": "School district tax caps",
+       "stance": "Against a state mandate; supports local control over tax decisions.",
+       "quote": "I support local control over tax decisions; should not be set at the state level.",
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/carryl-l-roy/running/2026-general-nh-senate"
+       }
+      },
+      {
+       "topic": "Office of the Child Advocate",
+       "stance": "For restoring funding.",
+       "quote": null,
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/carryl-l-roy/running/2026-general-nh-senate"
+       }
+      }
+     ],
+     "accounts": [
+      {
+       "platform": "Website",
+       "url": "https://www.carrylroyfornh.com/"
+      },
+      {
+       "platform": "Facebook",
+       "url": "https://facebook.com/CarrylRoyForNH"
+      },
+      {
+       "platform": "X",
+       "url": "https://x.com/carrylroyfornh"
+      },
+      {
+       "platform": "Instagram",
+       "url": "https://instagram.com/carrylroyfornh"
+      }
+     ],
+     "source": {
+      "label": "Ballotpedia profile",
+      "url": "https://ballotpedia.org/Carryl_Roy"
+     }
+    }
+   ],
+   "source": {
+    "label": "Ballotpedia, New Hampshire State Senate elections 2026",
+    "url": "https://ballotpedia.org/New_Hampshire_State_Senate_elections,_2026"
+   }
+  },
+  {
+   "id": "state-senate-13",
+   "office": "State Senate",
+   "district": "District 13",
+   "level": "State",
+   "wards": [
+    "3",
+    "4",
+    "6",
+    "7",
+    "8",
+    "9"
+   ],
+   "seats": 1,
+   "term": "2 years",
+   "what": "One of 24 state senators who write state law and the state budget; District 13 includes Nashua Wards 3, 4, 6, 7, 8 and 9. The seat is open; current Sen. Cindy Rosenwald is not on the ballot.",
+   "candidates": [
+    {
+     "id": "laura-telerski",
+     "name": "Laura Telerski",
+     "party": "D",
+     "incumbent": false,
+     "hometown": "Nashua",
+     "background": "State representative since 2018, currently for Hillsborough 11; former Nashua selectwoman. From Nashua.",
+     "website": "https://www.lauratelerski.com/",
+     "positions": [
+      {
+       "topic": "Education Freedom Accounts",
+       "stance": "Against (voting record).",
+       "quote": null,
+       "source": {
+        "label": "Citizens Count voting record, 2024",
+        "url": "https://www.citizenscount.org/candidate/laura-damphousse-telerski/running/2026-general-nh-senate"
+       }
+      },
+      {
+       "topic": "Housing",
+       "stance": "For state encouragement of local zoning changes for housing development (voting record).",
+       "quote": null,
+       "source": {
+        "label": "Citizens Count voting record, 2026",
+        "url": "https://www.citizenscount.org/candidate/laura-damphousse-telerski/running/2026-general-nh-senate"
+       }
+      },
+      {
+       "topic": "Taxes",
+       "stance": "Against lowering business taxes (voting record); labeled Other on a broad-based income tax.",
+       "quote": null,
+       "source": {
+        "label": "Citizens Count voting record, 2026",
+        "url": "https://www.citizenscount.org/candidate/laura-damphousse-telerski/running/2026-general-nh-senate"
+       }
+      },
+      {
+       "topic": "School funding",
+       "stance": "Against funding the majority of public schools through local property taxes; against a school district tax cap mandate (voting record).",
+       "quote": null,
+       "source": {
+        "label": "Citizens Count voting record, 2026",
+        "url": "https://www.citizenscount.org/candidate/laura-damphousse-telerski/running/2026-general-nh-senate"
+       }
+      },
+      {
+       "topic": "Guns",
+       "stance": "For stricter gun laws (voting record).",
+       "quote": null,
+       "source": {
+        "label": "Citizens Count voting record, 2026",
+        "url": "https://www.citizenscount.org/candidate/laura-damphousse-telerski/running/2026-general-nh-senate"
+       }
+      },
+      {
+       "topic": "Abortion",
+       "stance": "For guaranteeing the right to abortion before 24 weeks (voting record).",
+       "quote": null,
+       "source": {
+        "label": "Citizens Count voting record, 2024",
+        "url": "https://www.citizenscount.org/candidate/laura-damphousse-telerski/running/2026-general-nh-senate"
+       }
+      },
+      {
+       "topic": "Marijuana",
+       "stance": "For legalization with home growing and with private sales (voting record).",
+       "quote": null,
+       "source": {
+        "label": "Citizens Count voting record, 2024 and 2025",
+        "url": "https://www.citizenscount.org/candidate/laura-damphousse-telerski/running/2026-general-nh-senate"
+       }
+      }
+     ],
+     "accounts": [
+      {
+       "platform": "Website",
+       "url": "https://www.lauratelerski.com/"
+      },
+      {
+       "platform": "Facebook",
+       "url": "https://www.facebook.com/LauraTelerskiNH"
+      },
+      {
+       "platform": "X",
+       "url": "https://x.com/LauraTelerski"
+      },
+      {
+       "platform": "Instagram",
+       "url": "https://www.instagram.com/ltelerski/"
+      }
+     ],
+     "source": {
+      "label": "Ballotpedia profile",
+      "url": "https://ballotpedia.org/Laura_Telerski"
+     },
+     "positions_note": "Citizens Count lists her as awaiting a response to its 2026 survey; stances above are Citizens Count labels derived from her House votes, not her own statements."
+    },
+    {
+     "id": "daniel-paul",
+     "name": "Daniel J. Paul",
+     "party": "R",
+     "incumbent": false,
+     "hometown": "Nashua",
+     "background": "U.S. Navy veteran and Nashua Senior High School graduate; lives in Nashua. Ran in the 2022 Republican primary for this district. Not currently serving in a New Hampshire elected office.",
+     "website": null,
+     "positions": [
+      {
+       "topic": "Education Freedom Accounts",
+       "stance": "For.",
+       "quote": null,
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/daniel-j-paul/running/2026-general-nh-senate"
+       }
+      },
+      {
+       "topic": "Taxes",
+       "stance": "Against a broad-based income tax and against the interest and dividends tax; undecided on lowering business taxes.",
+       "quote": null,
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/daniel-j-paul/running/2026-general-nh-senate"
+       }
+      },
+      {
+       "topic": "Abortion",
+       "stance": "Abortions only for medical need of the mother or fetal nonviability; against guaranteeing access before 24 weeks.",
+       "quote": "Abortions only for medical need for mother and/or fetal nonviability",
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/daniel-j-paul/running/2026-general-nh-senate"
+       }
+      },
+      {
+       "topic": "Housing",
+       "stance": "Against the state encouraging local zoning changes for housing development.",
+       "quote": null,
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/daniel-j-paul/running/2026-general-nh-senate"
+       }
+      },
+      {
+       "topic": "Energy",
+       "stance": "For encouraging nuclear development.",
+       "quote": null,
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/daniel-j-paul/running/2026-general-nh-senate"
+       }
+      },
+      {
+       "topic": "Marijuana",
+       "stance": "For legalization with private sales; against home growing only and against state-run stores.",
+       "quote": null,
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/daniel-j-paul/running/2026-general-nh-senate"
+       }
+      },
+      {
+       "topic": "Elections",
+       "stance": "For requiring proof of citizenship for newly registered voters.",
+       "quote": null,
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/daniel-j-paul/running/2026-general-nh-senate"
+       }
+      },
+      {
+       "topic": "Guns",
+       "stance": "Against stricter gun laws.",
+       "quote": null,
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/daniel-j-paul/running/2026-general-nh-senate"
+       }
+      }
+     ],
+     "accounts": [],
+     "source": {
+      "label": "Citizens Count candidate profile",
+      "url": "https://www.citizenscount.org/candidate/daniel-j-paul/running/2026-general-nh-senate"
+     },
+     "background_source": {
+      "label": "The Ballot Brief candidate page (AI-assisted, cites Citizens Count)",
+      "url": "https://theballotbrief.com/candidate/daniel-j-paul-nh"
+     }
+    }
+   ],
+   "source": {
+    "label": "Ballotpedia, New Hampshire State Senate elections 2026",
+    "url": "https://ballotpedia.org/New_Hampshire_State_Senate_elections,_2026"
+   }
+  },
+  {
+   "id": "house-hills-3",
+   "office": "State Representative",
+   "district": "Hillsborough 3",
+   "level": "State",
+   "wards": [
+    "4"
+   ],
+   "seats": 3,
+   "term": "2 years",
+   "what": "Three of Nashua's seats in the 400-member New Hampshire House, which writes state law and the state budget; Hillsborough 3 is Nashua Ward 4 and voters pick up to three.",
+   "candidates": [
+    {
+     "id": "suzanne-beaulieu",
+     "name": "Suzanne A. Beaulieu",
+     "party": "D",
+     "incumbent": false,
+     "hometown": null,
+     "background": "Background not listed on sources read. Declined the 2026 Citizens Count survey.",
+     "website": null,
+     "positions": [
+      {
+       "topic": "Education Freedom Accounts",
+       "stance": "Against public funding of private school tuition.",
+       "quote": "we should not be funding for Private schools tuitions",
+       "source": {
+        "label": "Nashua Ink Link questionnaire, 2026 (via Citizens Count)",
+        "url": "https://www.citizenscount.org/candidate/suzanne-beaulieu/running/2026-general-nh-house"
+       }
+      },
+      {
+       "topic": "Taxes",
+       "stance": "Pledged to oppose any tax increase; answered No on reducing business taxes.",
+       "quote": "I will oppose and vote against any and all efforts to increase taxes.",
+       "source": {
+        "label": "Granite State Taxpayers survey, 2026 (via Citizens Count)",
+        "url": "https://www.citizenscount.org/candidate/suzanne-beaulieu/running/2026-general-nh-house"
+       }
+      },
+      {
+       "topic": "School district tax caps",
+       "stance": "Against; says the way to reduce property taxes is more state funding for public schools.",
+       "quote": null,
+       "source": {
+        "label": "Facebook post cited by Citizens Count, 2026",
+        "url": "https://www.citizenscount.org/candidate/suzanne-beaulieu/running/2026-general-nh-house"
+       }
+      }
+     ],
+     "accounts": [],
+     "source": {
+      "label": "Citizens Count candidate profile",
+      "url": "https://www.citizenscount.org/candidate/suzanne-beaulieu/running/2026-general-nh-house"
+     }
+    },
+    {
+     "id": "fred-e-davis-jr",
+     "name": "Fred E. Davis Jr.",
+     "party": "D",
+     "incumbent": true,
+     "hometown": null,
+     "background": "Incumbent state representative, Hillsborough 3 (assumed office December 2022 per Ballotpedia). Declined the 2026 Citizens Count survey.",
+     "website": null,
+     "positions": [
+      {
+       "topic": "School district tax caps",
+       "stance": "Against (voted against HB 675 and HB 1300).",
+       "quote": null,
+       "source": {
+        "label": "Citizens Count voting record, 2026",
+        "url": "https://www.citizenscount.org/candidate/fred-e-davis-jr/running/2026-general-nh-house"
+       }
+      },
+      {
+       "topic": "Sex-based segregation in anti-discrimination law",
+       "stance": "Against (voted against HB 1217, HB 1299, HB 1442, HB 1447, SB 268, SB 552).",
+       "quote": null,
+       "source": {
+        "label": "Citizens Count voting record, 2026",
+        "url": "https://www.citizenscount.org/candidate/fred-e-davis-jr/running/2026-general-nh-house"
+       }
+      }
+     ],
+     "accounts": [],
+     "source": {
+      "label": "Citizens Count candidate profile",
+      "url": "https://www.citizenscount.org/candidate/fred-e-davis-jr/running/2026-general-nh-house"
+     }
+    },
+    {
+     "id": "michael-joseph",
+     "name": "Michael Joseph",
+     "party": "D",
+     "incumbent": false,
+     "hometown": null,
+     "background": "Replaced Michael Aksten on the ballot after the primary, per Ballotpedia. Declined the 2026 Citizens Count survey; no positions recorded.",
+     "website": null,
+     "positions": [],
+     "accounts": [],
+     "source": {
+      "label": "Citizens Count candidate profile",
+      "url": "https://www.citizenscount.org/candidate/michael-joseph/running/2026-general-nh-house"
+     },
+     "background_source": {
+      "label": "Ballotpedia, Hillsborough 3",
+      "url": "https://ballotpedia.org/New_Hampshire_House_of_Representatives_Hillsborough_3"
+     }
+    },
+    {
+     "id": "john-menyhard",
+     "name": "John Menyhard",
+     "party": "R",
+     "incumbent": false,
+     "hometown": null,
+     "background": "Background not listed on sources read. Declined the 2026 Citizens Count survey; no positions recorded.",
+     "website": null,
+     "positions": [],
+     "accounts": [],
+     "source": {
+      "label": "Citizens Count candidate profile",
+      "url": "https://www.citizenscount.org/candidate/john-menyhard/running/2026-general-nh-house"
+     }
+    }
+   ],
+   "source": {
+    "label": "Citizens Count, Nashua Ward 4 page (district mapping confirmed by NH Secretary of State district list)",
+    "url": "https://citizenscount.org/nh/hillsborough/nashua-ward-4"
+   },
+   "district_source": {
+    "label": "NH Secretary of State, 2024 state representative districts",
+    "url": "https://www.sos.nh.gov/sites/g/files/ehbemt561/files/inline-documents/sonh/2024-state-representative-and-delegate-districts.pdf"
+   }
+  },
+  {
+   "id": "house-hills-4",
+   "office": "State Representative",
+   "district": "Hillsborough 4",
+   "level": "State",
+   "wards": [
+    "2"
+   ],
+   "seats": 3,
+   "term": "2 years",
+   "what": "Three of Nashua's seats in the 400-member New Hampshire House, which writes state law and the state budget; Hillsborough 4 is Nashua Ward 2 and voters pick up to three.",
+   "candidates": [
+    {
+     "id": "renae-lias",
+     "name": "Renae Lias",
+     "party": "D",
+     "incumbent": false,
+     "hometown": null,
+     "background": "Background not listed on sources read. Completed the 2026 Citizens Count survey.",
+     "website": "https://liasforward2.my.canva.site/",
+     "positions": [
+      {
+       "topic": "Education Freedom Accounts",
+       "stance": "Against.",
+       "quote": "precious state funds going to subsidize private school tuitions is not a wise use of public funds",
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/renae-lias/running/2026-general-nh-house"
+       }
+      },
+      {
+       "topic": "Taxes",
+       "stance": "Opposed to any broad-based income tax; would consider a tax on earned income above a high threshold.",
+       "quote": "I am opposed to ANY BROAD-BASED income tax in NH.",
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/renae-lias/running/2026-general-nh-house"
+       }
+      },
+      {
+       "topic": "Abortion",
+       "stance": "For guaranteeing the right to abortion before 24 weeks.",
+       "quote": "I believe that abortion decisions are between a woman, whomever she consults, and her medical providers.",
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/renae-lias/running/2026-general-nh-house"
+       }
+      },
+      {
+       "topic": "Elections",
+       "stance": "Against requiring proof of citizenship for new voters.",
+       "quote": "Many people have a hard time finding their birth certificates and do not have a passport",
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/renae-lias/running/2026-general-nh-house"
+       }
+      }
+     ],
+     "accounts": [
+      {
+       "platform": "Website",
+       "url": "https://liasforward2.my.canva.site/"
+      }
+     ],
+     "source": {
+      "label": "Citizens Count candidate profile",
+      "url": "https://www.citizenscount.org/candidate/renae-lias/running/2026-general-nh-house"
+     }
+    },
+    {
+     "id": "shawn-martin",
+     "name": "Shawn Martin",
+     "party": "R",
+     "incumbent": false,
+     "hometown": null,
+     "background": "Background not listed on sources read. Completed the 2026 Citizens Count survey.",
+     "website": null,
+     "positions": [
+      {
+       "topic": "Education Freedom Accounts",
+       "stance": "Against taking funds from public education for private education.",
+       "quote": "An educated society is better society. Taking funds from public education to fund private education is not ideal",
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/shawn-martin/running/2026-general-nh-house"
+       }
+      },
+      {
+       "topic": "Taxes",
+       "stance": "Against a broad-based income tax.",
+       "quote": "A broad based income tax will hurt retirees and young home owners and families and is not the answer",
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/shawn-martin/running/2026-general-nh-house"
+       }
+      },
+      {
+       "topic": "Energy",
+       "stance": "For nuclear development.",
+       "quote": "Nuclear is the future! With AI and Data Centers across the country energy is going to be critical",
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/shawn-martin/running/2026-general-nh-house"
+       }
+      },
+      {
+       "topic": "Elections",
+       "stance": "For requiring proof of citizenship for new voters.",
+       "quote": "It's not a hardship to provide proof of citizenship if you have never voted",
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/shawn-martin/running/2026-general-nh-house"
+       }
+      }
+     ],
+     "accounts": [],
+     "source": {
+      "label": "Citizens Count candidate profile",
+      "url": "https://www.citizenscount.org/candidate/shawn-martin/running/2026-general-nh-house"
+     }
+    },
+    {
+     "id": "camille-pattison",
+     "name": "Camille Pattison",
+     "party": "D",
+     "incumbent": false,
+     "hometown": null,
+     "background": "Background not listed on sources read. Completed the 2026 Citizens Count survey.",
+     "website": "https://www.camillefornh.com/",
+     "positions": [
+      {
+       "topic": "Education Freedom Accounts",
+       "stance": "Against.",
+       "quote": "Public education funds should not be used for private education.",
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/camille-pattison/running/2026-general-nh-house"
+       }
+      },
+      {
+       "topic": "Taxes",
+       "stance": "For reinstating the interest and dividends tax.",
+       "quote": "The state lost over $150 Million in funds from this tax.",
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/camille-pattison/running/2026-general-nh-house"
+       }
+      },
+      {
+       "topic": "Housing",
+       "stance": "For state encouragement of local zoning changes, citing accessory dwelling units by right.",
+       "quote": null,
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/camille-pattison/running/2026-general-nh-house"
+       }
+      },
+      {
+       "topic": "Marijuana",
+       "stance": "For legalization with state-run stores.",
+       "quote": "Using the state run store model, ensures safety for customers.",
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/camille-pattison/running/2026-general-nh-house"
+       }
+      }
+     ],
+     "accounts": [
+      {
+       "platform": "Website",
+       "url": "https://www.camillefornh.com/"
+      }
+     ],
+     "source": {
+      "label": "Citizens Count candidate profile",
+      "url": "https://www.citizenscount.org/candidate/camille-pattison/running/2026-general-nh-house"
+     }
+    },
+    {
+     "id": "linda-v-ryan",
+     "name": "Linda V. Ryan",
+     "party": "D",
+     "incumbent": true,
+     "hometown": null,
+     "background": "Incumbent state representative, Hillsborough 4. Completed the 2026 Citizens Count survey.",
+     "website": null,
+     "positions": [
+      {
+       "topic": "Education Freedom Accounts",
+       "stance": "Against.",
+       "quote": null,
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/linda-v-ryan/running/2026-general-nh-house"
+       }
+      },
+      {
+       "topic": "Abortion",
+       "stance": "Against banning abortion in the first trimester.",
+       "quote": null,
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/linda-v-ryan/running/2026-general-nh-house"
+       }
+      },
+      {
+       "topic": "Guns",
+       "stance": "For stricter gun laws.",
+       "quote": null,
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/linda-v-ryan/running/2026-general-nh-house"
+       }
+      },
+      {
+       "topic": "Sex-based segregation in anti-discrimination law",
+       "stance": "Against.",
+       "quote": "The trans men I have heard testify should definitely not be required to use the womens room",
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/linda-v-ryan/running/2026-general-nh-house"
+       }
+      }
+     ],
+     "accounts": [],
+     "source": {
+      "label": "Citizens Count candidate profile",
+      "url": "https://www.citizenscount.org/candidate/linda-v-ryan/running/2026-general-nh-house"
+     }
+    }
+   ],
+   "source": {
+    "label": "Citizens Count, Nashua Ward 2 page (district mapping confirmed by NH Secretary of State district list)",
+    "url": "https://citizenscount.org/nh/hillsborough/nashua-ward-2"
+   },
+   "district_source": {
+    "label": "NH Secretary of State, 2024 state representative districts",
+    "url": "https://www.sos.nh.gov/sites/g/files/ehbemt561/files/inline-documents/sonh/2024-state-representative-and-delegate-districts.pdf"
+   }
+  },
+  {
+   "id": "house-hills-5",
+   "office": "State Representative",
+   "district": "Hillsborough 5",
+   "level": "State",
+   "wards": [
+    "1"
+   ],
+   "seats": 3,
+   "term": "2 years",
+   "what": "Three of Nashua's seats in the 400-member New Hampshire House, which writes state law and the state budget; Hillsborough 5 is Nashua Ward 1 and voters pick up to three.",
+   "candidates": [
+    {
+     "id": "susan-elberger",
+     "name": "Susan A. Elberger",
+     "party": "D",
+     "incumbent": true,
+     "hometown": null,
+     "background": "Incumbent state representative, Hillsborough 5. Completed the 2026 Citizens Count survey.",
+     "website": null,
+     "positions": [
+      {
+       "topic": "Education Freedom Accounts",
+       "stance": "Against; says there is no accountability on how the money is spent.",
+       "quote": "There is no accountability on how the money is spent.",
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/susan-elberger/running/2026-general-nh-house"
+       }
+      },
+      {
+       "topic": "Taxes",
+       "stance": "Against lowering business taxes.",
+       "quote": "We need to balance the needs of large corporations against the needs of our neighbors who run small businesses",
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/susan-elberger/running/2026-general-nh-house"
+       }
+      },
+      {
+       "topic": "Housing",
+       "stance": "For encouraging, not requiring, municipalities to remove zoning barriers.",
+       "quote": "Encourage, yes. Require, no.",
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/susan-elberger/running/2026-general-nh-house"
+       }
+      },
+      {
+       "topic": "Guns",
+       "stance": "For gun safety laws including red flag laws and a waiting period.",
+       "quote": null,
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/susan-elberger/running/2026-general-nh-house"
+       }
+      }
+     ],
+     "accounts": [],
+     "source": {
+      "label": "Citizens Count candidate profile",
+      "url": "https://www.citizenscount.org/candidate/susan-elberger/running/2026-general-nh-house"
+     }
+    },
+    {
+     "id": "heather-raymond",
+     "name": "Heather Raymond",
+     "party": "D",
+     "incumbent": true,
+     "hometown": null,
+     "background": "Incumbent state representative, Hillsborough 5. Completed the 2026 Citizens Count survey.",
+     "website": null,
+     "positions": [
+      {
+       "topic": "Education Freedom Accounts",
+       "stance": "Against.",
+       "quote": "The EFA voucher program has vastly exceeded its budget every year since inception without any meaningful oversight.",
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/heather-raymond/running/2026-general-nh-house"
+       }
+      },
+      {
+       "topic": "Taxes",
+       "stance": "Against lowering business taxes; for reinstating the interest and dividends tax with higher exemption levels.",
+       "quote": "New Hampshire has lowered business taxes 6 times in the past 10 years.",
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/heather-raymond/running/2026-general-nh-house"
+       }
+      },
+      {
+       "topic": "Office of the Child Advocate",
+       "stance": "For restoring funding.",
+       "quote": "It is a critical tool for protecting the safety of granite state children.",
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/heather-raymond/running/2026-general-nh-house"
+       }
+      }
+     ],
+     "accounts": [],
+     "source": {
+      "label": "Citizens Count candidate profile",
+      "url": "https://www.citizenscount.org/candidate/heather-raymond/running/2026-general-nh-house"
+     }
+    },
+    {
+     "id": "paul-schibbelhute",
+     "name": "Paul Schibbelhute",
+     "party": "R",
+     "incumbent": false,
+     "hometown": null,
+     "background": "Background not listed on sources read. Declined the 2026 Citizens Count survey; no positions recorded.",
+     "website": null,
+     "positions": [],
+     "accounts": [],
+     "source": {
+      "label": "Citizens Count candidate profile",
+      "url": "https://www.citizenscount.org/candidate/paul-schibbelhute/running/2026-general-nh-house"
+     }
+    },
+    {
+     "id": "dale-swanson",
+     "name": "Dale Swanson",
+     "party": "D",
+     "incumbent": true,
+     "hometown": null,
+     "background": "Incumbent state representative, Hillsborough 5. Completed the 2026 Citizens Count survey.",
+     "website": null,
+     "positions": [
+      {
+       "topic": "Education Freedom Accounts",
+       "stance": "Against.",
+       "quote": "School vouchers are theft.",
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/dale-swanson/running/2026-general-nh-house"
+       }
+      },
+      {
+       "topic": "Taxes",
+       "stance": "Against further business tax cuts.",
+       "quote": "Further business tax cuts mainly benefit wealthy businesses while doing little for small businesses",
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/dale-swanson/running/2026-general-nh-house"
+       }
+      },
+      {
+       "topic": "Elections",
+       "stance": "Against requiring proof of citizenship for new voters.",
+       "quote": "Rather than preventing fraudulent voting, these kinds of laws make it more difficult for citizens to vote.",
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/dale-swanson/running/2026-general-nh-house"
+       }
+      },
+      {
+       "topic": "Guns",
+       "stance": "Undecided on stricter gun laws.",
+       "quote": "It is too easy for high risk individuals to obtain a gun, but 'gun control' is a very emotional terminology",
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/dale-swanson/running/2026-general-nh-house"
+       }
+      }
+     ],
+     "accounts": [],
+     "source": {
+      "label": "Citizens Count candidate profile",
+      "url": "https://www.citizenscount.org/candidate/dale-swanson/running/2026-general-nh-house"
+     }
+    }
+   ],
+   "source": {
+    "label": "Citizens Count, Nashua Ward 1 page (district mapping confirmed by NH Secretary of State district list)",
+    "url": "https://citizenscount.org/nh/hillsborough/nashua-ward-1"
+   },
+   "district_source": {
+    "label": "NH Secretary of State, 2024 state representative districts",
+    "url": "https://www.sos.nh.gov/sites/g/files/ehbemt561/files/inline-documents/sonh/2024-state-representative-and-delegate-districts.pdf"
+   }
+  },
+  {
+   "id": "house-hills-6",
+   "office": "State Representative",
+   "district": "Hillsborough 6",
+   "level": "State",
+   "wards": [
+    "3"
+   ],
+   "seats": 3,
+   "term": "2 years",
+   "what": "Three of Nashua's seats in the 400-member New Hampshire House, which writes state law and the state budget; Hillsborough 6 is Nashua Ward 3 and voters pick up to three.",
+   "candidates": [
+    {
+     "id": "michele-roussel-buckley",
+     "name": "Michele Roussel Buckley",
+     "party": "D",
+     "incumbent": false,
+     "hometown": null,
+     "background": "Background not listed on sources read. Declined the 2026 Citizens Count survey.",
+     "website": "https://www.michele4ward3.com/",
+     "positions": [
+      {
+       "topic": "Housing",
+       "stance": "For a wider range of housing options and streamlined permitting.",
+       "quote": "I support encouraging a wider range of housing options, streamlining responsible permitting where appropriate",
+       "source": {
+        "label": "Other source, 2026 (via Citizens Count)",
+        "url": "https://www.citizenscount.org/candidate/michele-roussel-buckley/running/2026-general-nh-house"
+       }
+      },
+      {
+       "topic": "School funding",
+       "stance": "Against relying mainly on local property taxes.",
+       "quote": "Our current funding system relies too heavily on local property taxes, creating inequities between communities",
+       "source": {
+        "label": "Other source, 2026 (via Citizens Count)",
+        "url": "https://www.citizenscount.org/candidate/michele-roussel-buckley/running/2026-general-nh-house"
+       }
+      }
+     ],
+     "accounts": [
+      {
+       "platform": "Website",
+       "url": "https://www.michele4ward3.com/"
+      }
+     ],
+     "source": {
+      "label": "Citizens Count candidate profile",
+      "url": "https://www.citizenscount.org/candidate/michele-roussel-buckley/running/2026-general-nh-house"
+     }
+    },
+    {
+     "id": "doris-hohensee",
+     "name": "Doris Hohensee",
+     "party": "R",
+     "incumbent": false,
+     "hometown": null,
+     "background": "Background not listed on sources read. Completed the 2026 Citizens Count survey.",
+     "website": null,
+     "positions": [
+      {
+       "topic": "Education Freedom Accounts",
+       "stance": "Against state funding for private schools.",
+       "quote": "I do not support state (public) funding for private (non-public) schools.",
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/doris-hohensee/running/2026-general-nh-house"
+       }
+      },
+      {
+       "topic": "Taxes",
+       "stance": "For lowering business taxes.",
+       "quote": "Historically, lowering business taxes has resulted in increased state revenue",
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/doris-hohensee/running/2026-general-nh-house"
+       }
+      },
+      {
+       "topic": "Sex-based segregation in anti-discrimination law",
+       "stance": "For.",
+       "quote": "The privacy and safety of women is essential.",
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/doris-hohensee/running/2026-general-nh-house"
+       }
+      },
+      {
+       "topic": "Guns",
+       "stance": "Against stricter gun laws.",
+       "quote": null,
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/doris-hohensee/running/2026-general-nh-house"
+       }
+      }
+     ],
+     "accounts": [],
+     "source": {
+      "label": "Citizens Count candidate profile",
+      "url": "https://www.citizenscount.org/candidate/doris-hohensee/running/2026-general-nh-house"
+     }
+    },
+    {
+     "id": "lee-ann-kluger",
+     "name": "Lee Ann Kluger",
+     "party": "D",
+     "incumbent": true,
+     "hometown": null,
+     "background": "Incumbent state representative, Hillsborough 6. Declined the 2026 Citizens Count survey.",
+     "website": "https://klugerfornh.com/",
+     "positions": [
+      {
+       "topic": "Guns",
+       "stance": "For (voted to consider expanded background checks with a waiting period and extreme risk protection orders).",
+       "quote": null,
+       "source": {
+        "label": "Citizens Count voting record, 2026",
+        "url": "https://www.citizenscount.org/candidate/lee-ann-kluger/running/2026-general-nh-house"
+       }
+      },
+      {
+       "topic": "School district tax caps",
+       "stance": "Against (voted against HB 675 and HB 1300).",
+       "quote": null,
+       "source": {
+        "label": "Citizens Count voting record, 2026",
+        "url": "https://www.citizenscount.org/candidate/lee-ann-kluger/running/2026-general-nh-house"
+       }
+      },
+      {
+       "topic": "Housing",
+       "stance": "For local zoning changes (voted to limit parking requirements, SB 284).",
+       "quote": null,
+       "source": {
+        "label": "Citizens Count voting record, 2026",
+        "url": "https://www.citizenscount.org/candidate/lee-ann-kluger/running/2026-general-nh-house"
+       }
+      }
+     ],
+     "accounts": [
+      {
+       "platform": "Website",
+       "url": "https://klugerfornh.com/"
+      }
+     ],
+     "source": {
+      "label": "Citizens Count candidate profile",
+      "url": "https://www.citizenscount.org/candidate/lee-ann-kluger/running/2026-general-nh-house"
+     },
+     "positions_note": "Stances are Citizens Count labels from her House votes, not her own statements."
+    },
+    {
+     "id": "elena-pavlou",
+     "name": "Elena Pavlou",
+     "party": "R",
+     "incumbent": false,
+     "hometown": null,
+     "background": "Background not listed on sources read. Declined the 2026 Citizens Count survey; no positions recorded.",
+     "website": null,
+     "positions": [],
+     "accounts": [],
+     "source": {
+      "label": "Citizens Count candidate profile",
+      "url": "https://www.citizenscount.org/candidate/elena-pavlou/running/2026-general-nh-house"
+     }
+    },
+    {
+     "id": "daniel-richardson",
+     "name": "Daniel Richardson",
+     "party": "R",
+     "incumbent": false,
+     "hometown": null,
+     "background": "Background not listed on sources read. Completed the 2026 Citizens Count survey.",
+     "website": null,
+     "positions": [
+      {
+       "topic": "School funding",
+       "stance": "For funding the majority of public schools through local property taxes.",
+       "quote": "The best local control is from local funding.",
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/daniel-richardson/running/2026-general-nh-house"
+       }
+      },
+      {
+       "topic": "Elections",
+       "stance": "For requiring proof of citizenship for new voters.",
+       "quote": null,
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/daniel-richardson/running/2026-general-nh-house"
+       }
+      },
+      {
+       "topic": "Taxes",
+       "stance": "Against a broad-based income tax.",
+       "quote": null,
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/daniel-richardson/running/2026-general-nh-house"
+       }
+      },
+      {
+       "topic": "Marijuana",
+       "stance": "Against legalization with home growing.",
+       "quote": null,
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/daniel-richardson/running/2026-general-nh-house"
+       }
+      }
+     ],
+     "accounts": [],
+     "source": {
+      "label": "Citizens Count candidate profile",
+      "url": "https://www.citizenscount.org/candidate/daniel-richardson/running/2026-general-nh-house"
+     }
+    },
+    {
+     "id": "adam-r-thompson",
+     "name": "Adam R. Thompson",
+     "party": "D",
+     "incumbent": false,
+     "hometown": null,
+     "background": "Background not listed on sources read. Declined the 2026 Citizens Count survey.",
+     "website": "https://arthompson.org/",
+     "positions": [
+      {
+       "topic": "Education Freedom Accounts",
+       "stance": "Against.",
+       "quote": "stop siphoning public tax dollars into private school vouchers",
+       "source": {
+        "label": "Nashua Ink Link questionnaire, 2026 (via Citizens Count)",
+        "url": "https://www.citizenscount.org/candidate/adam-r-thompson/running/2026-general-nh-house"
+       }
+      },
+      {
+       "topic": "Housing",
+       "stance": "For modernizing zoning with municipalities while preserving local control.",
+       "quote": "We need to partner with municipalities to modernize zoning while preserving local control.",
+       "source": {
+        "label": "Nashua Ink Link questionnaire, 2026 (via Citizens Count)",
+        "url": "https://www.citizenscount.org/candidate/adam-r-thompson/running/2026-general-nh-house"
+       }
+      },
+      {
+       "topic": "School funding",
+       "stance": "Against relying mainly on local property taxes; says the state must fund its share.",
+       "quote": "Concord must also step up to fully fund its share of public education.",
+       "source": {
+        "label": "Nashua Ink Link questionnaire, 2026 (via Citizens Count)",
+        "url": "https://www.citizenscount.org/candidate/adam-r-thompson/running/2026-general-nh-house"
+       }
+      }
+     ],
+     "accounts": [
+      {
+       "platform": "Website",
+       "url": "https://arthompson.org/"
+      }
+     ],
+     "source": {
+      "label": "Citizens Count candidate profile",
+      "url": "https://www.citizenscount.org/candidate/adam-r-thompson/running/2026-general-nh-house"
+     }
+    }
+   ],
+   "source": {
+    "label": "Citizens Count, Nashua Ward 3 page (district mapping confirmed by NH Secretary of State district list)",
+    "url": "https://citizenscount.org/nh/hillsborough/nashua-ward-3"
+   },
+   "district_source": {
+    "label": "NH Secretary of State, 2024 state representative districts",
+    "url": "https://www.sos.nh.gov/sites/g/files/ehbemt561/files/inline-documents/sonh/2024-state-representative-and-delegate-districts.pdf"
+   }
+  },
+  {
+   "id": "house-hills-7",
+   "office": "State Representative",
+   "district": "Hillsborough 7",
+   "level": "State",
+   "wards": [
+    "7"
+   ],
+   "seats": 3,
+   "term": "2 years",
+   "what": "Three of Nashua's seats in the 400-member New Hampshire House, which writes state law and the state budget; Hillsborough 7 is Nashua Ward 7 and voters pick up to three.",
+   "candidates": [
+    {
+     "id": "louis-c-juris",
+     "name": "Louis C. Juris",
+     "party": "D",
+     "incumbent": true,
+     "hometown": null,
+     "background": "Incumbent state representative, Hillsborough 7. Completed the 2026 Citizens Count survey.",
+     "website": null,
+     "positions": [
+      {
+       "topic": "Education Freedom Accounts",
+       "stance": "Against, except perhaps for low-income families or special needs.",
+       "quote": "Perhaps in some cases of low income families and or special student needs",
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/louis-c-juris/running/2026-general-nh-house"
+       }
+      },
+      {
+       "topic": "Taxes",
+       "stance": "Against a broad-based income tax.",
+       "quote": null,
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/louis-c-juris/running/2026-general-nh-house"
+       }
+      },
+      {
+       "topic": "Energy",
+       "stance": "For expanding net metering.",
+       "quote": null,
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/louis-c-juris/running/2026-general-nh-house"
+       }
+      },
+      {
+       "topic": "Guns",
+       "stance": "Undecided; open to measures in school zones and red flag situations.",
+       "quote": "In some cases such as school zones and 'red flag situations'",
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/louis-c-juris/running/2026-general-nh-house"
+       }
+      }
+     ],
+     "accounts": [],
+     "source": {
+      "label": "Citizens Count candidate profile",
+      "url": "https://www.citizenscount.org/candidate/louis-c-juris/running/2026-general-nh-house"
+     }
+    },
+    {
+     "id": "avalon-lewis",
+     "name": "Avalon Lewis",
+     "party": "R",
+     "incumbent": false,
+     "hometown": null,
+     "background": "Background not listed on sources read. Declined the 2026 Citizens Count survey.",
+     "website": null,
+     "positions": [
+      {
+       "topic": "Taxes",
+       "stance": "Pledged to oppose any tax increase.",
+       "quote": "I will oppose and vote against any and all efforts to increase taxes.",
+       "source": {
+        "label": "Granite State Taxpayers survey, 2026 (via Citizens Count)",
+        "url": "https://www.citizenscount.org/candidate/avalon-lewis/running/2026-general-nh-house"
+       }
+      },
+      {
+       "topic": "School district tax caps",
+       "stance": "For; answered Yes on tax and spending caps.",
+       "quote": null,
+       "source": {
+        "label": "Granite State Taxpayers survey, 2026 (via Citizens Count)",
+        "url": "https://www.citizenscount.org/candidate/avalon-lewis/running/2026-general-nh-house"
+       }
+      }
+     ],
+     "accounts": [],
+     "source": {
+      "label": "Citizens Count candidate profile",
+      "url": "https://www.citizenscount.org/candidate/avalon-lewis/running/2026-general-nh-house"
+     }
+    },
+    {
+     "id": "jim-mahoney",
+     "name": "Jim Mahoney",
+     "party": "D",
+     "incumbent": false,
+     "hometown": null,
+     "background": "Background not listed on sources read. Declined the 2026 Citizens Count survey.",
+     "website": null,
+     "positions": [
+      {
+       "topic": "Education Freedom Accounts",
+       "stance": "Against; would reverse state changes favoring vouchers.",
+       "quote": "reverse changes made at the state-level favoring school vouchers and 'Education Freedom Accounts'",
+       "source": {
+        "label": "Nashua Ink Link questionnaire, 2026 (via Citizens Count)",
+        "url": "https://www.citizenscount.org/candidate/jim-mahoney/running/2026-general-nh-house"
+       }
+      },
+      {
+       "topic": "Taxes",
+       "stance": "For reversing cuts to the Business Enterprise Tax and reversing the repeal of the interest and dividends tax.",
+       "quote": null,
+       "source": {
+        "label": "Nashua Ink Link questionnaire, 2026 (via Citizens Count)",
+        "url": "https://www.citizenscount.org/candidate/jim-mahoney/running/2026-general-nh-house"
+       }
+      },
+      {
+       "topic": "Housing",
+       "stance": "For restoring funding to the Housing Champions program.",
+       "quote": "Restore funding to New Hampshire's 'Housing Champions Program'",
+       "source": {
+        "label": "Nashua Ink Link questionnaire, 2026 (via Citizens Count)",
+        "url": "https://www.citizenscount.org/candidate/jim-mahoney/running/2026-general-nh-house"
+       }
+      }
+     ],
+     "accounts": [],
+     "source": {
+      "label": "Citizens Count candidate profile",
+      "url": "https://www.citizenscount.org/candidate/jim-mahoney/running/2026-general-nh-house"
+     }
+    },
+    {
+     "id": "roy-h-parker",
+     "name": "Roy H. Parker",
+     "party": "R",
+     "incumbent": false,
+     "hometown": null,
+     "background": "Background not listed on sources read. Declined the 2026 Citizens Count survey.",
+     "website": "https://royparkernhstaterep.com/",
+     "positions": [
+      {
+       "topic": "Housing",
+       "stance": "For helping local communities cut red tape to allow more housing.",
+       "quote": "Help local communities cut red tape to allow more housing to be built.",
+       "source": {
+        "label": "Nashua Ink Link questionnaire, 2026 (via Citizens Count)",
+        "url": "https://www.citizenscount.org/candidate/roy-h-parker/running/2026-general-nh-house"
+       }
+      }
+     ],
+     "accounts": [
+      {
+       "platform": "Website",
+       "url": "https://royparkernhstaterep.com/"
+      }
+     ],
+     "source": {
+      "label": "Citizens Count candidate profile",
+      "url": "https://www.citizenscount.org/candidate/roy-h-parker/running/2026-general-nh-house"
+     }
+    },
+    {
+     "id": "charlene-bangs-pedersen",
+     "name": "Charlene Bangs Pedersen",
+     "party": "D",
+     "incumbent": false,
+     "hometown": null,
+     "background": "Background not listed on sources read. Declined the 2026 Citizens Count survey.",
+     "website": null,
+     "positions": [
+      {
+       "topic": "School funding",
+       "stance": "Against relying on property taxes to fund education.",
+       "quote": "There is a realization that property taxes will no longer be the way to fund education, among other things.",
+       "source": {
+        "label": "Nashua Ink Link questionnaire, 2026 (via Citizens Count)",
+        "url": "https://www.citizenscount.org/candidate/charlene-bangs-pedersen/running/2026-general-nh-house"
+       }
+      }
+     ],
+     "accounts": [],
+     "source": {
+      "label": "Citizens Count candidate profile",
+      "url": "https://www.citizenscount.org/candidate/charlene-bangs-pedersen/running/2026-general-nh-house"
+     }
+    }
+   ],
+   "source": {
+    "label": "Citizens Count, Nashua Ward 7 page (district mapping confirmed by NH Secretary of State district list)",
+    "url": "https://citizenscount.org/nh/hillsborough/nashua-ward-7"
+   },
+   "district_source": {
+    "label": "NH Secretary of State, 2024 state representative districts",
+    "url": "https://www.sos.nh.gov/sites/g/files/ehbemt561/files/inline-documents/sonh/2024-state-representative-and-delegate-districts.pdf"
+   }
+  },
+  {
+   "id": "house-hills-8",
+   "office": "State Representative",
+   "district": "Hillsborough 8",
+   "level": "State",
+   "wards": [
+    "6"
+   ],
+   "seats": 3,
+   "term": "2 years",
+   "what": "Three of Nashua's seats in the 400-member New Hampshire House, which writes state law and the state budget; Hillsborough 8 is Nashua Ward 6 and voters pick up to three.",
+   "candidates": [
+    {
+     "id": "efstathia-booras",
+     "name": "Efstathia Booras",
+     "party": "D",
+     "incumbent": true,
+     "hometown": null,
+     "background": "Incumbent state representative, Hillsborough 8. Declined the 2026 Citizens Count survey.",
+     "website": null,
+     "positions": [
+      {
+       "topic": "School funding",
+       "stance": "Against relying mainly on local property taxes; voted against HB 675 and HB 1815.",
+       "quote": null,
+       "source": {
+        "label": "Citizens Count voting record, 2026",
+        "url": "https://www.citizenscount.org/candidate/efstathia-booras/running/2026-general-nh-house"
+       }
+      },
+      {
+       "topic": "Guns",
+       "stance": "For (voted to consider red flag laws, expanded background checks and a 3-day waiting period).",
+       "quote": null,
+       "source": {
+        "label": "Citizens Count voting record, 2026",
+        "url": "https://www.citizenscount.org/candidate/efstathia-booras/running/2026-general-nh-house"
+       }
+      },
+      {
+       "topic": "Sex-based segregation in anti-discrimination law",
+       "stance": "Against (voting record).",
+       "quote": null,
+       "source": {
+        "label": "Citizens Count voting record, 2026",
+        "url": "https://www.citizenscount.org/candidate/efstathia-booras/running/2026-general-nh-house"
+       }
+      }
+     ],
+     "accounts": [],
+     "source": {
+      "label": "Citizens Count candidate profile",
+      "url": "https://www.citizenscount.org/candidate/efstathia-booras/running/2026-general-nh-house"
+     },
+     "positions_note": "Stances are Citizens Count labels from her House votes, not her own statements."
+    },
+    {
+     "id": "christal-lloyd",
+     "name": "Christal Lloyd",
+     "party": "D",
+     "incumbent": true,
+     "hometown": null,
+     "background": "Incumbent state representative, Hillsborough 8. Declined the 2026 Citizens Count survey.",
+     "website": "https://www.clloydcampaign.com/",
+     "positions": [
+      {
+       "topic": "Housing",
+       "stance": "For (voted for bills easing zoning rules and to keep the Housing Champion program).",
+       "quote": null,
+       "source": {
+        "label": "Citizens Count voting record, 2025 to 2026",
+        "url": "https://www.citizenscount.org/candidate/christal-lloyd/running/2026-general-nh-house"
+       }
+      },
+      {
+       "topic": "School district tax caps",
+       "stance": "Against (voting record).",
+       "quote": null,
+       "source": {
+        "label": "Citizens Count voting record, 2026",
+        "url": "https://www.citizenscount.org/candidate/christal-lloyd/running/2026-general-nh-house"
+       }
+      },
+      {
+       "topic": "Energy",
+       "stance": "For expanding net metering (voting record).",
+       "quote": null,
+       "source": {
+        "label": "Citizens Count voting record, 2025",
+        "url": "https://www.citizenscount.org/candidate/christal-lloyd/running/2026-general-nh-house"
+       }
+      }
+     ],
+     "accounts": [
+      {
+       "platform": "Website",
+       "url": "https://www.clloydcampaign.com/"
+      }
+     ],
+     "source": {
+      "label": "Citizens Count candidate profile",
+      "url": "https://www.citizenscount.org/candidate/christal-lloyd/running/2026-general-nh-house"
+     },
+     "positions_note": "Stances are Citizens Count labels from her House votes, not her own statements."
+    },
+    {
+     "id": "fran-nutter-upham",
+     "name": "Frances E. Nutter-Upham",
+     "party": "D",
+     "incumbent": false,
+     "hometown": null,
+     "background": "Background not listed on sources read. Declined the 2026 Citizens Count survey; no 2025 or 2026 positions recorded.",
+     "website": null,
+     "positions": [],
+     "accounts": [],
+     "source": {
+      "label": "Citizens Count candidate profile",
+      "url": "https://www.citizenscount.org/candidate/fran-nutter-upham/running/2026-general-nh-house"
+     }
+    },
+    {
+     "id": "travis-tripodi",
+     "name": "Travis Tripodi",
+     "party": "R",
+     "incumbent": false,
+     "hometown": null,
+     "background": "Background not listed on sources read. Declined the 2026 Citizens Count survey; no 2026 positions recorded.",
+     "website": null,
+     "positions": [
+      {
+       "topic": "Education Freedom Accounts",
+       "stance": "For.",
+       "quote": null,
+       "source": {
+        "label": "Citizens Count survey, 2024",
+        "url": "https://www.citizenscount.org/candidate/travis-tripodi/running/2026-general-nh-house"
+       }
+      },
+      {
+       "topic": "Guns",
+       "stance": "Against stricter gun laws.",
+       "quote": null,
+       "source": {
+        "label": "Citizens Count survey, 2024",
+        "url": "https://www.citizenscount.org/candidate/travis-tripodi/running/2026-general-nh-house"
+       }
+      }
+     ],
+     "accounts": [],
+     "source": {
+      "label": "Citizens Count candidate profile",
+      "url": "https://www.citizenscount.org/candidate/travis-tripodi/running/2026-general-nh-house"
+     }
+    }
+   ],
+   "source": {
+    "label": "Citizens Count, Nashua Ward 6 page (district mapping confirmed by NH Secretary of State district list)",
+    "url": "https://citizenscount.org/nh/hillsborough/nashua-ward-6"
+   },
+   "district_source": {
+    "label": "NH Secretary of State, 2024 state representative districts",
+    "url": "https://www.sos.nh.gov/sites/g/files/ehbemt561/files/inline-documents/sonh/2024-state-representative-and-delegate-districts.pdf"
+   }
+  },
+  {
+   "id": "house-hills-9",
+   "office": "State Representative",
+   "district": "Hillsborough 9",
+   "level": "State",
+   "wards": [
+    "5"
+   ],
+   "seats": 3,
+   "term": "2 years",
+   "what": "Three of Nashua's seats in the 400-member New Hampshire House, which writes state law and the state budget; Hillsborough 9 is Nashua Ward 5 and voters pick up to three.",
+   "candidates": [
+    {
+     "id": "joseph-cole",
+     "name": "Joseph Cole",
+     "party": "R",
+     "incumbent": false,
+     "hometown": null,
+     "background": "Background not listed on sources read. Declined the 2026 Citizens Count survey.",
+     "website": null,
+     "positions": [
+      {
+       "topic": "Education Freedom Accounts",
+       "stance": "For; answered Yes to additional school choice options.",
+       "quote": null,
+       "source": {
+        "label": "Granite State Taxpayers survey, 2026 (via Citizens Count)",
+        "url": "https://www.citizenscount.org/candidate/joseph-cole/running/2026-general-nh-house"
+       }
+      },
+      {
+       "topic": "Taxes",
+       "stance": "Pledged to oppose any tax increase.",
+       "quote": "I will oppose and vote against any and all efforts to increase taxes.",
+       "source": {
+        "label": "Granite State Taxpayers survey, 2026 (via Citizens Count)",
+        "url": "https://www.citizenscount.org/candidate/joseph-cole/running/2026-general-nh-house"
+       }
+      },
+      {
+       "topic": "School district tax caps",
+       "stance": "For; answered Yes on tax and spending caps.",
+       "quote": null,
+       "source": {
+        "label": "Granite State Taxpayers survey, 2026 (via Citizens Count)",
+        "url": "https://www.citizenscount.org/candidate/joseph-cole/running/2026-general-nh-house"
+       }
+      }
+     ],
+     "accounts": [],
+     "source": {
+      "label": "Citizens Count candidate profile",
+      "url": "https://www.citizenscount.org/candidate/joseph-cole/running/2026-general-nh-house"
+     }
+    },
+    {
+     "id": "rich-green",
+     "name": "Rich Green",
+     "party": "D",
+     "incumbent": false,
+     "hometown": null,
+     "background": "Background not listed on sources read. Declined the 2026 Citizens Count survey.",
+     "website": null,
+     "positions": [
+      {
+       "topic": "Taxes",
+       "stance": "Against lowering business taxes.",
+       "quote": "First step: stop lowering Corporate taxes.",
+       "source": {
+        "label": "Nashua Ink Link questionnaire, 2026 (via Citizens Count)",
+        "url": "https://www.citizenscount.org/candidate/rich-green/running/2026-general-nh-house"
+       }
+      },
+      {
+       "topic": "Housing",
+       "stance": "For modifying zoning where feasible with little environmental impact.",
+       "quote": "Modify zoning regulations where feasible with little environmental impact.",
+       "source": {
+        "label": "Nashua Ink Link questionnaire, 2026 (via Citizens Count)",
+        "url": "https://www.citizenscount.org/candidate/rich-green/running/2026-general-nh-house"
+       }
+      },
+      {
+       "topic": "School funding",
+       "stance": "Against relying so heavily on property taxes.",
+       "quote": "There must be an option other than being so reliant on property taxes.",
+       "source": {
+        "label": "Nashua Ink Link questionnaire, 2026 (via Citizens Count)",
+        "url": "https://www.citizenscount.org/candidate/rich-green/running/2026-general-nh-house"
+       }
+      }
+     ],
+     "accounts": [],
+     "source": {
+      "label": "Citizens Count candidate profile",
+      "url": "https://www.citizenscount.org/candidate/rich-green/running/2026-general-nh-house"
+     }
+    },
+    {
+     "id": "sanjeev-k-manohar",
+     "name": "Sanjeev K. Manohar",
+     "party": "D",
+     "incumbent": true,
+     "hometown": null,
+     "background": "Incumbent state representative, Hillsborough 9. Professor and former chair of a chemical engineering department that includes a nuclear engineering program, per his survey statement. Completed the 2026 Citizens Count survey.",
+     "website": "https://sanjeevmanohar.com/",
+     "positions": [
+      {
+       "topic": "Education Freedom Accounts",
+       "stance": "Against subsidizing private or home school choices without meaningful income limits.",
+       "quote": "I do not believe taxpayers should be asked to subsidize those choices without meaningful income limits",
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/sanjeev-k-manohar/running/2026-general-nh-house"
+       }
+      },
+      {
+       "topic": "Taxes",
+       "stance": "Against a broad-based tax on earned income; wants the state to pay a greater share of public education.",
+       "quote": "I do not support a broad-based tax on earned income.",
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/sanjeev-k-manohar/running/2026-general-nh-house"
+       }
+      },
+      {
+       "topic": "Energy",
+       "stance": "For expanding net metering.",
+       "quote": "I support expanding net metering.",
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/sanjeev-k-manohar/running/2026-general-nh-house"
+       }
+      },
+      {
+       "topic": "Guns",
+       "stance": "For background checks, red flag laws with due process and safe storage.",
+       "quote": "I support common-sense measures such as background checks",
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/sanjeev-k-manohar/running/2026-general-nh-house"
+       }
+      }
+     ],
+     "accounts": [
+      {
+       "platform": "Website",
+       "url": "https://sanjeevmanohar.com/"
+      }
+     ],
+     "source": {
+      "label": "Citizens Count candidate profile",
+      "url": "https://www.citizenscount.org/candidate/sanjeev-k-manohar/running/2026-general-nh-house"
+     }
+    },
+    {
+     "id": "santosh-salvi",
+     "name": "Santosh Salvi",
+     "party": "D",
+     "incumbent": true,
+     "hometown": null,
+     "background": "Incumbent state representative, Hillsborough 9. Completed the 2026 Citizens Count survey.",
+     "website": "https://www.santoshfornashua.org/",
+     "positions": [
+      {
+       "topic": "Education Freedom Accounts",
+       "stance": "Against; strong supporter of public schools.",
+       "quote": "Strong supporter of public school and making sure public schools are getting stronger to compete with charter schools",
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/santosh-salvi/running/2026-general-nh-house"
+       }
+      },
+      {
+       "topic": "Taxes",
+       "stance": "Against a broad-based income tax.",
+       "quote": null,
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/santosh-salvi/running/2026-general-nh-house"
+       }
+      },
+      {
+       "topic": "Abortion",
+       "stance": "For guaranteeing the right to abortion before 24 weeks.",
+       "quote": null,
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/santosh-salvi/running/2026-general-nh-house"
+       }
+      },
+      {
+       "topic": "Elections",
+       "stance": "For requiring proof of citizenship for new voters, with registration available online, in person and by mail.",
+       "quote": "We need to have a process in place that every new voter can register online/in person/through mail",
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/santosh-salvi/running/2026-general-nh-house"
+       }
+      }
+     ],
+     "accounts": [
+      {
+       "platform": "Website",
+       "url": "https://www.santoshfornashua.org/"
+      }
+     ],
+     "source": {
+      "label": "Citizens Count candidate profile",
+      "url": "https://www.citizenscount.org/candidate/santosh-salvi/running/2026-general-nh-house"
+     }
+    }
+   ],
+   "source": {
+    "label": "Citizens Count, Nashua Ward 5 page (district mapping confirmed by NH Secretary of State district list)",
+    "url": "https://citizenscount.org/nh/hillsborough/nashua-ward-5"
+   },
+   "district_source": {
+    "label": "NH Secretary of State, 2024 state representative districts",
+    "url": "https://www.sos.nh.gov/sites/g/files/ehbemt561/files/inline-documents/sonh/2024-state-representative-and-delegate-districts.pdf"
+   }
+  },
+  {
+   "id": "house-hills-10",
+   "office": "State Representative",
+   "district": "Hillsborough 10",
+   "level": "State",
+   "wards": [
+    "9"
+   ],
+   "seats": 3,
+   "term": "2 years",
+   "what": "Three of Nashua's seats in the 400-member New Hampshire House, which writes state law and the state budget; Hillsborough 10 is Nashua Ward 9 and voters pick up to three.",
+   "candidates": [
+    {
+     "id": "linda-harriott-gathright",
+     "name": "Linda Harriott-Gathright",
+     "party": "D",
+     "incumbent": true,
+     "hometown": null,
+     "background": "Incumbent state representative, Hillsborough 10. Declined the 2026 Citizens Count survey.",
+     "website": null,
+     "positions": [
+      {
+       "topic": "School district tax caps",
+       "stance": "Against (voted against HB 675 and HB 1300).",
+       "quote": null,
+       "source": {
+        "label": "Citizens Count voting record, 2026",
+        "url": "https://www.citizenscount.org/candidate/linda-harriott-gathright/running/2026-general-nh-house"
+       }
+      },
+      {
+       "topic": "Sex-based segregation in anti-discrimination law",
+       "stance": "Against (voting record).",
+       "quote": null,
+       "source": {
+        "label": "Citizens Count voting record, 2026",
+        "url": "https://www.citizenscount.org/candidate/linda-harriott-gathright/running/2026-general-nh-house"
+       }
+      }
+     ],
+     "accounts": [],
+     "source": {
+      "label": "Citizens Count candidate profile",
+      "url": "https://www.citizenscount.org/candidate/linda-harriott-gathright/running/2026-general-nh-house"
+     },
+     "positions_note": "Stances are Citizens Count labels from her House votes, not her own statements."
+    },
+    {
+     "id": "martin-marty-jack",
+     "name": "Martin \"Marty\" Jack",
+     "party": "D",
+     "incumbent": true,
+     "hometown": null,
+     "background": "Incumbent state representative, Hillsborough 10. Declined the 2026 Citizens Count survey.",
+     "website": null,
+     "positions": [
+      {
+       "topic": "Taxes",
+       "stance": "Against lowering the Business Enterprise Tax (voted against HB 155).",
+       "quote": null,
+       "source": {
+        "label": "Citizens Count voting record, 2026",
+        "url": "https://www.citizenscount.org/candidate/martin-marty-jack/running/2026-general-nh-house"
+       }
+      },
+      {
+       "topic": "School district tax caps",
+       "stance": "Against (voted against HB 675 and HB 1300).",
+       "quote": null,
+       "source": {
+        "label": "Citizens Count voting record, 2026",
+        "url": "https://www.citizenscount.org/candidate/martin-marty-jack/running/2026-general-nh-house"
+       }
+      },
+      {
+       "topic": "Energy",
+       "stance": "For expanding net metering (voting record).",
+       "quote": null,
+       "source": {
+        "label": "Citizens Count voting record, 2025",
+        "url": "https://www.citizenscount.org/candidate/martin-marty-jack/running/2026-general-nh-house"
+       }
+      }
+     ],
+     "accounts": [],
+     "source": {
+      "label": "Citizens Count candidate profile",
+      "url": "https://www.citizenscount.org/candidate/martin-marty-jack/running/2026-general-nh-house"
+     },
+     "positions_note": "Stances are Citizens Count labels from his House votes, not his own statements."
+    },
+    {
+     "id": "samantha-oloughlin",
+     "name": "Samantha O'Loughlin",
+     "party": "D",
+     "incumbent": false,
+     "hometown": null,
+     "background": "Background not listed on sources read. Completed the 2026 Citizens Count survey.",
+     "website": null,
+     "positions": [
+      {
+       "topic": "Education Freedom Accounts",
+       "stance": "Other; says students should have access within reason.",
+       "quote": "I think they should have access within reason",
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/samantha-oloughlin/running/2026-general-nh-house"
+       }
+      },
+      {
+       "topic": "Abortion",
+       "stance": "For guaranteeing the right to abortion before 24 weeks.",
+       "quote": null,
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/samantha-oloughlin/running/2026-general-nh-house"
+       }
+      },
+      {
+       "topic": "Elections",
+       "stance": "For requiring proof of citizenship for new voters.",
+       "quote": null,
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/samantha-oloughlin/running/2026-general-nh-house"
+       }
+      },
+      {
+       "topic": "Public school open enrollment",
+       "stance": "For.",
+       "quote": null,
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/samantha-oloughlin/running/2026-general-nh-house"
+       }
+      }
+     ],
+     "accounts": [],
+     "source": {
+      "label": "Citizens Count candidate profile",
+      "url": "https://www.citizenscount.org/candidate/samantha-oloughlin/running/2026-general-nh-house"
+     }
+    },
+    {
+     "id": "bill-ohm",
+     "name": "Bill Ohm",
+     "party": "R",
+     "incumbent": true,
+     "hometown": null,
+     "background": "Incumbent state representative, Hillsborough 10. Completed the 2026 Citizens Count survey.",
+     "website": "https://billohm.com/",
+     "positions": [
+      {
+       "topic": "Education Freedom Accounts",
+       "stance": "For.",
+       "quote": "Parents should have the right to decide which school is best for their kids, and the money should follow that choice.",
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/bill-ohm/running/2026-general-nh-house"
+       }
+      },
+      {
+       "topic": "Elections",
+       "stance": "For requiring proof of citizenship for new voters.",
+       "quote": "It's reasonable to require proof of citizenship upon registration to vote.",
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/bill-ohm/running/2026-general-nh-house"
+       }
+      },
+      {
+       "topic": "Energy",
+       "stance": "Against expanding net metering.",
+       "quote": "Net metering is a subsidy. Other electric users have to pay for this subsidy.",
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/bill-ohm/running/2026-general-nh-house"
+       }
+      },
+      {
+       "topic": "Taxes",
+       "stance": "Against a broad-based income tax.",
+       "quote": "This would kill the NH Advantage. We have been successful without it.",
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/bill-ohm/running/2026-general-nh-house"
+       }
+      }
+     ],
+     "accounts": [
+      {
+       "platform": "Website",
+       "url": "https://billohm.com/"
+      }
+     ],
+     "source": {
+      "label": "Citizens Count candidate profile",
+      "url": "https://www.citizenscount.org/candidate/bill-ohm/running/2026-general-nh-house"
+     }
+    }
+   ],
+   "source": {
+    "label": "Citizens Count, Nashua Ward 9 page (district mapping confirmed by NH Secretary of State district list)",
+    "url": "https://citizenscount.org/nh/hillsborough/nashua-ward-9"
+   },
+   "district_source": {
+    "label": "NH Secretary of State, 2024 state representative districts",
+    "url": "https://www.sos.nh.gov/sites/g/files/ehbemt561/files/inline-documents/sonh/2024-state-representative-and-delegate-districts.pdf"
+   }
+  },
+  {
+   "id": "house-hills-11",
+   "office": "State Representative",
+   "district": "Hillsborough 11",
+   "level": "State",
+   "wards": [
+    "8"
+   ],
+   "seats": 3,
+   "term": "2 years",
+   "what": "Three of Nashua's seats in the 400-member New Hampshire House, which writes state law and the state budget; Hillsborough 11 is Nashua Ward 8 and voters pick up to three.",
+   "candidates": [
+    {
+     "id": "manoj-chourasia",
+     "name": "Manoj Chourasia",
+     "party": "D",
+     "incumbent": true,
+     "hometown": null,
+     "background": "Incumbent state representative, Hillsborough 11. Declined the 2026 Citizens Count survey.",
+     "website": "https://chourasia4nh.com/",
+     "positions": [
+      {
+       "topic": "Guns",
+       "stance": "For (voted to consider expanded background checks, a waiting period and extreme risk protection orders).",
+       "quote": null,
+       "source": {
+        "label": "Citizens Count voting record, 2026",
+        "url": "https://www.citizenscount.org/candidate/manoj-chourasia/running/2026-general-nh-house"
+       }
+      },
+      {
+       "topic": "School funding",
+       "stance": "Against relying mainly on local property taxes (voting record).",
+       "quote": null,
+       "source": {
+        "label": "Citizens Count voting record, 2026",
+        "url": "https://www.citizenscount.org/candidate/manoj-chourasia/running/2026-general-nh-house"
+       }
+      },
+      {
+       "topic": "Housing",
+       "stance": "For local zoning changes (voted to keep the Housing Champion program).",
+       "quote": null,
+       "source": {
+        "label": "Citizens Count voting record, 2025 to 2026",
+        "url": "https://www.citizenscount.org/candidate/manoj-chourasia/running/2026-general-nh-house"
+       }
+      }
+     ],
+     "accounts": [
+      {
+       "platform": "Website",
+       "url": "https://chourasia4nh.com/"
+      }
+     ],
+     "source": {
+      "label": "Citizens Count candidate profile",
+      "url": "https://www.citizenscount.org/candidate/manoj-chourasia/running/2026-general-nh-house"
+     },
+     "positions_note": "Stances are Citizens Count labels from his House votes, not his own statements."
+    },
+    {
+     "id": "william-will-darby",
+     "name": "William \"Will\" Darby",
+     "party": "D",
+     "incumbent": true,
+     "hometown": null,
+     "background": "Incumbent state representative, Hillsborough 11. Completed the 2026 Citizens Count survey.",
+     "website": "https://willdarby4nashua.com/",
+     "positions": [
+      {
+       "topic": "Education Freedom Accounts",
+       "stance": "Against; says the program mostly benefits families already in private school or homeschooling.",
+       "quote": null,
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/william-will-darby/running/2026-general-nh-house"
+       }
+      },
+      {
+       "topic": "Taxes",
+       "stance": "Against taxes on earned income or sales.",
+       "quote": "I do not support taxes on earned income or sales.",
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/william-will-darby/running/2026-general-nh-house"
+       }
+      },
+      {
+       "topic": "Housing",
+       "stance": "Supports the state doing more to remove housing barriers and funding the Housing Champions program.",
+       "quote": "New Hampshire needs more housing, and particularly more affordable housing.",
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/william-will-darby/running/2026-general-nh-house"
+       }
+      },
+      {
+       "topic": "Office of the Child Advocate",
+       "stance": "For restoring funding.",
+       "quote": "This funding must be restored to help protect children throughout the state.",
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/william-will-darby/running/2026-general-nh-house"
+       }
+      }
+     ],
+     "accounts": [
+      {
+       "platform": "Website",
+       "url": "https://willdarby4nashua.com/"
+      }
+     ],
+     "source": {
+      "label": "Citizens Count candidate profile",
+      "url": "https://www.citizenscount.org/candidate/william-will-darby/running/2026-general-nh-house"
+     }
+    },
+    {
+     "id": "kristie-hart",
+     "name": "Kristie Hart",
+     "party": "R",
+     "incumbent": false,
+     "hometown": null,
+     "background": "Background not listed on sources read. Completed the 2026 Citizens Count survey.",
+     "website": null,
+     "positions": [
+      {
+       "topic": "Education Freedom Accounts",
+       "stance": "For.",
+       "quote": null,
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/kristie-hart/running/2026-general-nh-house"
+       }
+      },
+      {
+       "topic": "Taxes",
+       "stance": "For lowering business taxes; against a broad-based income tax.",
+       "quote": null,
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/kristie-hart/running/2026-general-nh-house"
+       }
+      },
+      {
+       "topic": "Guns",
+       "stance": "Against stricter gun laws.",
+       "quote": null,
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/kristie-hart/running/2026-general-nh-house"
+       }
+      }
+     ],
+     "accounts": [],
+     "source": {
+      "label": "Citizens Count candidate profile",
+      "url": "https://www.citizenscount.org/candidate/kristie-hart/running/2026-general-nh-house"
+     }
+    },
+    {
+     "id": "arya-shams",
+     "name": "Arya Shams",
+     "party": "D",
+     "incumbent": false,
+     "hometown": null,
+     "background": "Background not listed on sources read. Completed the 2026 Citizens Count survey.",
+     "website": "https://www.arya4nh.com/",
+     "positions": [
+      {
+       "topic": "Education Freedom Accounts",
+       "stance": "Against.",
+       "quote": "No. The families saving money are the same families with enough money to pay tuition to begin with.",
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/arya-shams/running/2026-general-nh-house"
+       }
+      },
+      {
+       "topic": "Taxes",
+       "stance": "Against a broad-based income tax.",
+       "quote": "NH doesn't have a revenue problem...it has a 'priorities problem.'",
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/arya-shams/running/2026-general-nh-house"
+       }
+      },
+      {
+       "topic": "Housing",
+       "stance": "For state encouragement of local zoning changes.",
+       "quote": "This isn't a housing shortage; it's a housing crisis.",
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/arya-shams/running/2026-general-nh-house"
+       }
+      },
+      {
+       "topic": "Guns",
+       "stance": "For stricter gun laws.",
+       "quote": "It isn't controversial to want more education and safer storage practices.",
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/arya-shams/running/2026-general-nh-house"
+       }
+      }
+     ],
+     "accounts": [
+      {
+       "platform": "Website",
+       "url": "https://www.arya4nh.com/"
+      }
+     ],
+     "source": {
+      "label": "Citizens Count candidate profile",
+      "url": "https://www.citizenscount.org/candidate/arya-shams/running/2026-general-nh-house"
+     }
+    }
+   ],
+   "source": {
+    "label": "Citizens Count, Nashua Ward 8 page (district mapping confirmed by NH Secretary of State district list)",
+    "url": "https://citizenscount.org/nh/hillsborough/nashua-ward-8"
+   },
+   "district_source": {
+    "label": "NH Secretary of State, 2024 state representative districts",
+    "url": "https://www.sos.nh.gov/sites/g/files/ehbemt561/files/inline-documents/sonh/2024-state-representative-and-delegate-districts.pdf"
+   }
+  },
+  {
+   "id": "county-sheriff",
+   "office": "Hillsborough County Sheriff",
+   "district": "Hillsborough County",
+   "level": "County",
+   "wards": "all",
+   "seats": 1,
+   "term": "2 years",
+   "what": "Runs the county sheriff's office, which provides court security, civil process service and prisoner transport across the county including Nashua.",
+   "candidates": [
+    {
+     "id": "brian-newcomb",
+     "name": "Brian Newcomb",
+     "party": "R",
+     "incumbent": true,
+     "hometown": null,
+     "background": "Sheriff since March 2025, chosen by the Hillsborough County delegation after Sheriff Chris Connelly resigned to become the governor's chief of staff. Spent 24 years in the sheriff's office rising from court officer and deputy to captain. First countywide run.",
+     "website": null,
+     "positions": [],
+     "accounts": [],
+     "source": {
+      "label": "The Ballot Brief, Hillsborough County Sheriff",
+      "url": "https://theballotbrief.com/state/new-hampshire/hillsborough-county/sheriff"
+     },
+     "party_note": "The Ballot Brief says he appears on both the Democratic and Republican lines on the Secretary of State's list and labels him Republican; GoodParty.org lists him as Democratic. Not confirmed against the SoS list in this session.",
+     "background_source": {
+      "label": "Valley News, March 2025",
+      "url": "https://vnews.com/2025/03/07/hillsborough-delegation-chooses-new-county-sheriff-59859718/"
+     }
+    }
+   ],
+   "source": {
+    "label": "The Ballot Brief, Hillsborough County (AI-assisted; cross-checked with GoodParty.org)",
+    "url": "https://theballotbrief.com/state/new-hampshire/hillsborough-county/sheriff"
+   },
+   "source_note": "County candidate lists come from The Ballot Brief (an AI-assisted guide that cites official filings) cross-checked where possible with GoodParty.org and BallotReady; the NH Secretary of State general election candidate list (mm.nh.gov/files/uploads/sos/docs/2026-ge-candidate-list.pdf) was located but could not be fetched in this session."
+  },
+  {
+   "id": "county-attorney",
+   "office": "Hillsborough County Attorney",
+   "district": "Hillsborough County",
+   "level": "County",
+   "wards": "all",
+   "seats": 1,
+   "term": "2 years",
+   "what": "The county's chief prosecutor, whose office handles felony cases arising in Nashua and the rest of the county.",
+   "candidates": [
+    {
+     "id": "john-j-coughlin",
+     "name": "John J. Coughlin",
+     "party": "R",
+     "incumbent": true,
+     "hometown": null,
+     "background": "Current Hillsborough County Attorney. U.S. Army lieutenant colonel; UNH graduate and Nashua High School graduate. Of Amherst, per The Ballot Brief.",
+     "website": null,
+     "positions": [],
+     "accounts": [],
+     "source": {
+      "label": "The Ballot Brief, Hillsborough County Attorney",
+      "url": "https://theballotbrief.com/state/new-hampshire/hillsborough-county/attorney"
+     },
+     "background_source": {
+      "label": "BallotReady",
+      "url": "https://www.ballotready.org/people/john-j-coughlin"
+     }
+    },
+    {
+     "id": "travis-bennett",
+     "name": "Travis Bennett",
+     "party": "D",
+     "incumbent": false,
+     "hometown": null,
+     "background": "Former New Hampshire state representative (2014 to 2018). The Ballot Brief, citing Citizens Count, lists him as a Plymouth State University student.",
+     "website": null,
+     "positions": [],
+     "accounts": [],
+     "source": {
+      "label": "The Ballot Brief, Hillsborough County Attorney",
+      "url": "https://theballotbrief.com/state/new-hampshire/hillsborough-county/attorney"
+     }
+    }
+   ],
+   "source": {
+    "label": "The Ballot Brief, Hillsborough County (AI-assisted; cross-checked with GoodParty.org)",
+    "url": "https://goodparty.org/elections/nh/hillsborough-county/position/county-attorney"
+   },
+   "source_note": "County candidate lists come from The Ballot Brief (an AI-assisted guide that cites official filings) cross-checked where possible with GoodParty.org and BallotReady; the NH Secretary of State general election candidate list (mm.nh.gov/files/uploads/sos/docs/2026-ge-candidate-list.pdf) was located but could not be fetched in this session."
+  },
+  {
+   "id": "county-treasurer",
+   "office": "Hillsborough County Treasurer",
+   "district": "Hillsborough County",
+   "level": "County",
+   "wards": "all",
+   "seats": 1,
+   "term": "2 years",
+   "what": "Manages the county's cash, investments and borrowing; the current treasurer is not running for re-election.",
+   "candidates": [
+    {
+     "id": "beverly-cotton",
+     "name": "Beverly Cotton",
+     "party": "D",
+     "incumbent": false,
+     "hometown": null,
+     "background": "Retired accounting supervisor and manager; later associate vice president of student finance at a university and a client partner at Ellucian. MBA and a graduate certificate in forensic accounting and fraud.",
+     "website": null,
+     "positions": [
+      {
+       "topic": "Office management",
+       "stance": "Emphasizes reconciliation and transparency under sound accounting principles, and applying capital asset management and investment monitoring experience.",
+       "quote": null,
+       "source": {
+        "label": "The Ballot Brief, 2026",
+        "url": "https://theballotbrief.com/state/new-hampshire/hillsborough-county/treasurer"
+       }
+      }
+     ],
+     "accounts": [],
+     "source": {
+      "label": "The Ballot Brief, Hillsborough County Treasurer",
+      "url": "https://theballotbrief.com/state/new-hampshire/hillsborough-county/treasurer"
+     }
+    },
+    {
+     "id": "christopher-maidment",
+     "name": "Christopher Maidment",
+     "party": "R",
+     "incumbent": false,
+     "hometown": null,
+     "background": "Hillsborough County Register of Probate since 2025. Previously Director of Grassroots Operations at Americans for Prosperity and New Hampshire Political Director for Never Back Down. Of Peterborough.",
+     "website": "https://maidmentnh.com/",
+     "positions": [
+      {
+       "topic": "Office management",
+       "stance": "Conservative cash management under the treasurer statute, plain English financial reporting and modernizing the office.",
+       "quote": null,
+       "source": {
+        "label": "Campaign website via The Ballot Brief, 2026",
+        "url": "https://theballotbrief.com/state/new-hampshire/hillsborough-county/treasurer"
+       }
+      }
+     ],
+     "accounts": [
+      {
+       "platform": "Website",
+       "url": "https://maidmentnh.com/"
+      }
+     ],
+     "source": {
+      "label": "The Ballot Brief, Hillsborough County Treasurer",
+      "url": "https://theballotbrief.com/state/new-hampshire/hillsborough-county/treasurer"
+     },
+     "background_source": {
+      "label": "BallotReady",
+      "url": "https://www.ballotready.org/people/christopher-maidment"
+     }
+    }
+   ],
+   "source": {
+    "label": "The Ballot Brief, Hillsborough County (AI-assisted)",
+    "url": "https://theballotbrief.com/state/new-hampshire/hillsborough-county/treasurer"
+   },
+   "source_note": "County candidate lists come from The Ballot Brief (an AI-assisted guide that cites official filings) cross-checked where possible with GoodParty.org and BallotReady; the NH Secretary of State general election candidate list (mm.nh.gov/files/uploads/sos/docs/2026-ge-candidate-list.pdf) was located but could not be fetched in this session."
+  },
+  {
+   "id": "county-register-of-deeds",
+   "office": "Hillsborough County Register of Deeds",
+   "district": "Hillsborough County",
+   "level": "County",
+   "wards": "all",
+   "seats": 1,
+   "term": "2 years",
+   "what": "Records deeds, mortgages and other land records for every property in the county, including Nashua.",
+   "candidates": [
+    {
+     "id": "mary-ann-crowell",
+     "name": "Mary Ann Crowell",
+     "party": "D",
+     "incumbent": false,
+     "hometown": null,
+     "background": "Of Brookline, per The Ballot Brief. No further biography on sources read.",
+     "website": null,
+     "positions": [],
+     "accounts": [],
+     "source": {
+      "label": "The Ballot Brief, Hillsborough County Register of Deeds",
+      "url": "https://theballotbrief.com/state/new-hampshire/hillsborough-county/register-of-deeds"
+     }
+    },
+    {
+     "id": "dennis-hogan",
+     "name": "Dennis Hogan",
+     "party": "R",
+     "incumbent": true,
+     "hometown": null,
+     "background": "Current Register of Deeds. Attorney practicing in Hillsborough County for two decades after UNH Law; former state legislator, county delegate, Nashua Education Committee member and Hillsborough County Attorney, per his campaign site.",
+     "website": "https://hogandeeds.com",
+     "positions": [
+      {
+       "topic": "Office management",
+       "stance": "Improve registry business functions with management initiatives focused on serving the public; equitable, fiscally responsible leadership for all taxpayers.",
+       "quote": null,
+       "source": {
+        "label": "Campaign website via The Ballot Brief, 2026",
+        "url": "https://theballotbrief.com/state/new-hampshire/hillsborough-county/register-of-deeds"
+       }
+      }
+     ],
+     "accounts": [
+      {
+       "platform": "Website",
+       "url": "https://hogandeeds.com"
+      }
+     ],
+     "source": {
+      "label": "The Ballot Brief, Hillsborough County Register of Deeds",
+      "url": "https://theballotbrief.com/state/new-hampshire/hillsborough-county/register-of-deeds"
+     }
+    }
+   ],
+   "source": {
+    "label": "The Ballot Brief, Hillsborough County (AI-assisted)",
+    "url": "https://theballotbrief.com/state/new-hampshire/hillsborough-county/register-of-deeds"
+   },
+   "source_note": "County candidate lists come from The Ballot Brief (an AI-assisted guide that cites official filings) cross-checked where possible with GoodParty.org and BallotReady; the NH Secretary of State general election candidate list (mm.nh.gov/files/uploads/sos/docs/2026-ge-candidate-list.pdf) was located but could not be fetched in this session."
+  },
+  {
+   "id": "county-register-of-probate",
+   "office": "Hillsborough County Register of Probate",
+   "district": "Hillsborough County",
+   "level": "County",
+   "wards": "all",
+   "seats": 1,
+   "term": "2 years",
+   "what": "A county records office tied to the probate court. A statewide constitutional amendment on the same ballot asks whether to eliminate this office (two-thirds vote needed).",
+   "candidates": [
+    {
+     "id": "june-trisciani",
+     "name": "June Trisciani",
+     "party": "D",
+     "incumbent": false,
+     "hometown": null,
+     "background": "Manchester at-large alderman; has chaired the city's Zoning Ordinance Steering Committee.",
+     "website": null,
+     "positions": [],
+     "accounts": [],
+     "source": {
+      "label": "The Ballot Brief, Hillsborough County Register of Probate",
+      "url": "https://theballotbrief.com/state/new-hampshire/hillsborough-county/register-of-probate"
+     }
+    },
+    {
+     "id": "ross-w-terrio",
+     "name": "Ross W. Terrio",
+     "party": "R",
+     "incumbent": false,
+     "hometown": null,
+     "background": "Manchester Ward 7 alderman since January 2024; state representative for Hillsborough 14 from 2010 to 2012.",
+     "website": null,
+     "positions": [],
+     "accounts": [],
+     "source": {
+      "label": "The Ballot Brief, Hillsborough County Register of Probate",
+      "url": "https://theballotbrief.com/state/new-hampshire/hillsborough-county/register-of-probate"
+     }
+    }
+   ],
+   "source": {
+    "label": "The Ballot Brief, Hillsborough County (AI-assisted)",
+    "url": "https://theballotbrief.com/state/new-hampshire/hillsborough-county/register-of-probate"
+   },
+   "source_note": "County candidate lists come from The Ballot Brief (an AI-assisted guide that cites official filings) cross-checked where possible with GoodParty.org and BallotReady; the NH Secretary of State general election candidate list (mm.nh.gov/files/uploads/sos/docs/2026-ge-candidate-list.pdf) was located but could not be fetched in this session.",
+   "related_ballot_measure": {
+    "label": "Ballotpedia, New Hampshire Eliminate Office of Register of Probate Amendment (2026)",
+    "url": "https://ballotpedia.org/New_Hampshire_Eliminate_Office_of_Register_of_Probate_Amendment_(2026)"
+   }
+  },
+  {
+   "id": "county-commissioner-2",
+   "office": "Hillsborough County Commissioner",
+   "district": "District 2",
+   "level": "County",
+   "wards": "all",
+   "seats": 1,
+   "term": "2 years",
+   "what": "One of three commissioners who run county operations such as the nursing home and jail and propose the county budget; District 2 is Nashua, Hudson, Litchfield and Pelham.",
+   "candidates": [
+    {
+     "id": "sherry-dutzy",
+     "name": "Sherry Dutzy",
+     "party": "D",
+     "incumbent": false,
+     "hometown": null,
+     "background": "Principal of Allemere Business Development Specialists, LLC. Served in the New Hampshire House (elected 2018) and ran for Hillsborough 6 in 2022 and Nashua Fire Commission in 2021. MBA Northeastern University.",
+     "website": null,
+     "positions": [],
+     "accounts": [],
+     "source": {
+      "label": "BallotReady",
+      "url": "https://www.ballotready.org/people/sherry-dutzy"
+     }
+    },
+    {
+     "id": "david-g-fredette",
+     "name": "David G. Fredette",
+     "party": "R",
+     "incumbent": false,
+     "hometown": null,
+     "background": "Hillsborough County Treasurer since 1999; Nashua alderman 1992 to 1999; senior budget control analyst at BAE Systems 1975 to 1999. Nashua High School and Southern New Hampshire University graduate.",
+     "website": null,
+     "positions": [],
+     "accounts": [],
+     "source": {
+      "label": "BallotReady",
+      "url": "https://www.ballotready.org/people/david-g-fredette"
+     }
+    }
+   ],
+   "source": {
+    "label": "The Ballot Brief, Hillsborough County (AI-assisted); district makeup from RSA 662:4",
+    "url": "https://www.theballotbrief.com/state/new-hampshire/hillsborough-county"
+   },
+   "district_source": {
+    "label": "NH RSA 662:4, county commissioner districts",
+    "url": "https://gc.nh.gov/rsa/html/LXIII/662/662-4.htm"
+   },
+   "source_note": "County candidate lists come from The Ballot Brief (an AI-assisted guide that cites official filings) cross-checked where possible with GoodParty.org and BallotReady; the NH Secretary of State general election candidate list (mm.nh.gov/files/uploads/sos/docs/2026-ge-candidate-list.pdf) was located but could not be fetched in this session."
+  }
+ ],
+ "wardRaces": {
+  "1": [
+   "state-senate-12",
+   "house-hills-5"
+  ],
+  "2": [
+   "state-senate-12",
+   "house-hills-4"
+  ],
+  "3": [
+   "state-senate-13",
+   "house-hills-6"
+  ],
+  "4": [
+   "state-senate-13",
+   "house-hills-3"
+  ],
+  "5": [
+   "state-senate-12",
+   "house-hills-9"
+  ],
+  "6": [
+   "state-senate-13",
+   "house-hills-8"
+  ],
+  "7": [
+   "state-senate-13",
+   "house-hills-7"
+  ],
+  "8": [
+   "state-senate-13",
+   "house-hills-11"
+  ],
+  "9": [
+   "state-senate-13",
+   "house-hills-10"
+  ]
+ },
+ "methodology": "Sources used, in order of reliance: Ballotpedia race pages (Governor, U.S. Senate, NH-02, Executive Council, State Senate, NH House elections and Hillsborough 3); Citizens Count ward pages for Nashua Wards 1 to 9 (candidate lists and profile URLs) and Citizens Count candidate profiles (survey answers, Granite State Taxpayers survey answers, Nashua Ink Link questionnaire excerpts, and voting-record labels); NH Secretary of State 2024 state representative district list (ward to district mapping: Ward 1 = Hillsborough 5, Ward 2 = 4, Ward 3 = 6, Ward 4 = 3, Ward 5 = 9, Ward 6 = 8, Ward 7 = 7, Ward 8 = 11, Ward 9 = 10; no floterial district includes a Nashua ward); NH RSA 662:4 (County Commissioner District 2 = Nashua, Hudson, Litchfield, Pelham); The Ballot Brief, GoodParty.org and BallotReady for county offices; goodlander.house.gov, chrispappas.org and cindewarmington.com for social accounts; The Dartmouth, WCAX, Vermont Public, NHPR, Valley News, Patch and NH Journal for background. Incomplete: (1) The NH SoS 2026 general election candidate list PDF was found but blocked by the proxy, so the SoS list was not read directly; the Ballotpedia and Citizens Count lists agree with each other for every state and federal race. (2) County office candidate lists rest on The Ballot Brief (AI-assisted) plus GoodParty.org and BallotReady; Sheriff Brian Newcomb's party line(s) are not confirmed. (3) Ballotpedia's NH House elections page lists John Menyhard as not on the ballot for Hillsborough 3 while Ballotpedia's Hillsborough 3 page, Citizens Count and Nashua Ink Link list him as the Republican candidate; he is included. (4) Bluesky profile pages (bsky.app) could not be fetched; handles given are as published on the candidates' own sites. YouTube channel ids were confirmed from the channel pages for Pappas, Warmington, Goodlander (official House channel) and Avard only. (5) Campaign websites for Ayotte, Pappas (home page), Sununu, Goodlander, Williams, Mahrou, Wheeler and Levesque could not be fetched, so positions for those candidates come from Citizens Count, Ballotpedia and news coverage. (6) Laura Telerski and several House incumbents did not answer the 2026 Citizens Count survey; their stances are Citizens Count labels derived from votes and are marked as such. (7) Backgrounds for most State House candidates are not published on the sources read. (8) The 'what' sentence for each office is a general description written for this file, not a quoted source. A statewide constitutional amendment to eliminate the office of Register of Probate is also on the ballot (see county-register-of-probate.related_ballot_measure).",
+ "sources": [
+  {
+   "label": "Ballotpedia",
+   "url": "https://ballotpedia.org/New_Hampshire_elections,_2026"
+  },
+  {
+   "label": "Citizens Count",
+   "url": "https://www.citizenscount.org/"
+  },
+  {
+   "label": "NH Secretary of State",
+   "url": "https://www.sos.nh.gov/elections"
+  }
+ ]
+}

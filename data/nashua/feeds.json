@@ -166,6 +166,83 @@
    "max": 15,
    "need": "both",
    "auto": true
+  },
+  {
+   "id": "cand-cinde-warmington-youtube",
+   "who": "Cinde Warmington",
+   "platform": "YouTube",
+   "type": "atom",
+   "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC3gxk7gBNBJsA2kmn3oexww",
+   "person": "cinde-warmington",
+   "level": "State",
+   "kind": "candidate",
+   "auto": true
+  },
+  {
+   "id": "cand-cinde-warmington-bluesky",
+   "who": "Cinde Warmington",
+   "platform": "Bluesky",
+   "type": "bluesky",
+   "actor": "cindewarmington.bsky.social",
+   "person": "cinde-warmington",
+   "level": "State",
+   "kind": "candidate",
+   "auto": true
+  },
+  {
+   "id": "cand-chris-pappas-youtube",
+   "who": "Chris Pappas",
+   "platform": "YouTube",
+   "type": "atom",
+   "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCOMLLJGmSQXBDHufSt5am-w",
+   "person": "chris-pappas",
+   "level": "Federal",
+   "kind": "candidate",
+   "auto": true
+  },
+  {
+   "id": "cand-chris-pappas-bluesky",
+   "who": "Chris Pappas",
+   "platform": "Bluesky",
+   "type": "bluesky",
+   "actor": "chrispappasnh.bsky.social",
+   "person": "chris-pappas",
+   "level": "Federal",
+   "kind": "candidate",
+   "auto": true
+  },
+  {
+   "id": "cand-maggie-goodlander-youtube",
+   "who": "Maggie Goodlander",
+   "platform": "YouTube",
+   "type": "atom",
+   "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCQiDPQY53U-S6ZtGBshuHZw",
+   "person": "maggie-goodlander",
+   "level": "Federal",
+   "kind": "candidate",
+   "auto": true
+  },
+  {
+   "id": "cand-maggie-goodlander-bluesky",
+   "who": "Maggie Goodlander",
+   "platform": "Bluesky",
+   "type": "bluesky",
+   "actor": "repgoodlander.bsky.social",
+   "person": "maggie-goodlander",
+   "level": "Federal",
+   "kind": "candidate",
+   "auto": true
+  },
+  {
+   "id": "cand-kevin-avard-youtube",
+   "who": "Kevin Avard",
+   "platform": "YouTube",
+   "type": "atom",
+   "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCNkcvSsrpyJydRPJx2FDMhQ",
+   "person": "kevin-avard",
+   "level": "State",
+   "kind": "candidate",
+   "auto": true
   }
  ]
 }
