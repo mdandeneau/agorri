@@ -17,14 +17,16 @@ Data refreshes daily through a scheduled Claude task that follows `UPDATE.md` an
 4. Domain: in Cloudflare, add the site `agorri.com` (Free plan) and change the nameservers at your registrar to the two Cloudflare gives you. An apex domain on Pages requires this. Then in the Pages project > Custom domains, add `agorri.com` and `www.agorri.com`.
 5. Optional, for written answers in search: Settings > Variables and Secrets > add `ANTHROPIC_API_KEY` (Encrypt), then redeploy. Get a key at https://console.anthropic.com and set a monthly spend limit there. Uses Claude Haiku 5.5 (about $0.0004 per question). Set `ANSWER_MODEL` to change models.
 6. Optional: add a rate-limiting rule for `/api/ask` under Security if your plan includes one.
-7. Talk (resident posts, shared by everyone): Workers & Pages > D1 > Create database named `agorri`. Open it > Console, paste the contents of `migrations/0001_talk.sql`, and run it. Then in the Pages project > Settings > Bindings > add a D1 binding with variable name `DB` pointing to `agorri`, and add a secret `TALK_SALT` (any long random string). Redeploy. Until this is done, Talk saves posts only in each visitor's own browser.
+7. Talk (resident posts, shared by everyone): Workers & Pages > D1 > Create database named `agorri`. Open it > Console and run `migrations/0001_talk.sql`, then `migrations/0002_moderation_and_residents.sql`. In the Pages project > Settings > Bindings, add a D1 binding with variable name `DB` pointing to `agorri`. Add secrets: `TALK_SALT` (any long random string), `MOD_TOKEN` (a long random string; moderators enter it once at agorri.com/<town>#mod), and `ANTHROPIC_API_KEY` if not already set (it powers the AI review). Redeploy. Until this is done, Talk saves posts only in each visitor's own browser.
 
 ## Talk: one store for everything residents post
 Ideas, questions, debate arguments (for or against an issue), comments, replies and neighbor posts all live in one table (`talk_items`), each tagged with what it is about: the town, an issue, a meeting, an official post or a news story. The Talk page, issue debates, meeting threads, the ideas forum and Home all read and write this same store.
-- Posts go live immediately after an automatic check (length, at most two links, no phone numbers or email addresses, at most 5 posts per 10 minutes per browser and 30 per hour per connection).
-- Three reports hide a post from everyone but its author until a moderator reviews it. To restore one, set `kept = 1` on its row; to hide one, set `hidden = 1` (D1 console).
-- Anyone can post, as a display name or anonymously. Only verified residents count toward the city's response threshold (verification is not built yet, so `verified` is 0 for now).
-- Browser ids and IPs are stored only as salted hashes.
+- **Address check before posting.** Posting and commenting need a check that the resident's address is inside the town (`/api/verify`, U.S. Census Bureau geocoder). Honor system for now; only a salted hash of the matched address is kept, at most 4 accounts per address, usernames unique per town. Reading, supporting and flagging are open to everyone. Upgrade path: mailed codes.
+- **AI review of every post** (`lib/moderation.js` holds the house rules; change a category's action there). Restrict: hate or slurs, threats, harassment of private people, personal information, sexual content, spam. Sent to a person: campaigning, off-topic national politics, unsupported accusations, possibly false claims. Nudge (author can edit, take a suggested rewrite, or post anyway): hostile tone. Rules are about conduct, never viewpoint.
+- **Flags** carry a reason and trigger another AI review: clear violations come down, grey areas stay up and go to a person, and three flags on a post the AI allowed also go to a person. Flags alone never hide a post while AI review is on.
+- **Review queue** at `#mod` for moderators (MOD_TOKEN): held posts, appeals, flagged posts and AI takedowns, with Approve or Remove and a note to the author. Every AI and human decision is logged in `talk_modlog`.
+- Authors can always ask a person to review a blocked or removed post. Automatic checks also block phone numbers, emails, more than two links, and more than 5 posts in 10 minutes.
+- Without `ANTHROPIC_API_KEY`, posts go live after the rule checks and three flags hide a post until a person reviews it.
 
 ## Files
 - `index.html`: the whole site.
@@ -33,6 +35,6 @@ Ideas, questions, debate arguments (for or against an issue), comments, replies 
 - `_redirects`: serves the page at `/portsmouth`, `/nashua`, etc.
 - `docs/DATA_GUIDE.md`: field definitions. `UPDATE.md`: the daily refresh runbook.
 - `scripts/check.mjs`: validates the data before a push. `scripts/test-feed.mjs` and `scripts/test-talk.mjs`: offline tests for the feed and Talk functions.
-- `functions/api/talk.js` and `migrations/0001_talk.sql`: the Talk store.
+- `functions/api/talk.js`, `functions/api/verify.js`, `lib/moderation.js`, `lib/address.js` and `migrations/`: Talk, moderation and the address check.
 
 Run locally: `npx wrangler pages dev .` (runs the functions too).
