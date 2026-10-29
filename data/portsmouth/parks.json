@@ -1,6 +1,6 @@
 {
  "as_of": "2026-10-29",
- "note": "Compiled from City of Portsmouth Recreation Department and Public Works (Parks and Greenery) pages on portsmouthnh.gov, fetched October 29, 2026. Neighborhood playgrounds and DPW-maintained parks beyond those with their own city pages are listed by name only from the city's Parks and Playgrounds map; fees shown only as images on the city site are not included.",
+ "note": "From the city's own parks and recreation pages, with a source on every item. Fees shown only as images on the city site are left out.",
  "department": {
   "name": "City of Portsmouth Recreation Department",
   "url": "https://www.portsmouthnh.gov/recreation",
@@ -896,5 +896,6 @@
     "url": "https://www.portsmouthnh.gov/recreation/recreation-board"
    }
   }
- ]
+ ],
+ "methodology": "Compiled from City of Portsmouth Recreation Department and Public Works (Parks and Greenery) pages on portsmouthnh.gov, fetched October 29, 2026. Neighborhood playgrounds and DPW-maintained parks beyond those with their own city pages are listed by name only from the city's Parks and Playgrounds map; fees shown only as images on the city site are not included."
 }
