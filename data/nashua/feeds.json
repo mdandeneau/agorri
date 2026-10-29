@@ -1,5 +1,5 @@
 {
- "note": "Official sources for Nashua's live feed. The /api/feed?town=nashua function reads these every 5 minutes. Only add accounts the office itself lists. Types: rss, atom, bluesky. tag \"safety\" sends an item to the Police and fire page.",
+ "note": "Official sources for Nashua's live feed. The /api/feed?town=nashua function reads these every 5 minutes. Only add accounts the office itself lists. Types: rss, atom, bluesky. tag \"safety\" sends an item to the Police and fire page. Type \"links\" reads article links from a news homepage (match: URL pattern with year, month, day groups; skip: headlines to ignore); tag \"news\" sends items to the Home news card.",
  "sources": [
   {
    "id": "city-news",
@@ -60,6 +60,16 @@
    "type": "bluesky",
    "actor": "hassan.senate.gov",
    "person": "hassan"
+  },
+  {
+   "id": "telegraph",
+   "who": "The Telegraph",
+   "platform": "News",
+   "type": "links",
+   "url": "https://www.nashuatelegraph.com/",
+   "match": "/news/(\\d{4})/(\\d{2})/(\\d{2})/[^/?#\"]+/?$",
+   "skip": "^Real Estate Transactions",
+   "tag": "news"
   }
  ]
 }

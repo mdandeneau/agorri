@@ -785,7 +785,7 @@
   {
    "name": "Portsmouth Patch",
    "url": "https://patch.com/new-hampshire/portsmouth-nh",
-   "status": "used"
+   "status": "used (headlines on Home)"
   },
   {
    "name": "Seacoast Current",
@@ -795,7 +795,7 @@
   {
    "name": "Portsmouth Herald / Seacoastonline",
    "url": "https://www.seacoastonline.com/",
-   "status": "paywalled, not used"
+   "status": "paywalled, no public feed"
   },
   {
    "name": "NH Bulletin",
@@ -1883,5 +1883,48 @@
    "liveIncidents": null,
    "logsUrl": null
   }
+ },
+ "paper": {
+  "name": "Portsmouth Patch",
+  "url": "https://patch.com/new-hampshire/portsmouth-nh",
+  "asOf": "2026-10-28",
+  "note": "The Portsmouth Herald is paywalled with no public feed, so these come from Patch.",
+  "headlines": [
+   {
+    "title": "UNH Paul College Announces New Executive Program To Support Organizational AI Strategy",
+    "url": "https://patch.com/new-hampshire/portsmouth-nh/unh-paul-college-announces-new-executive-program-support-organizational",
+    "date": "2026-10-27"
+   },
+   {
+    "title": "Devine Millimet Partners With NH SBDC To Provide Free Legal Consulting Services To Small Businesses",
+    "url": "https://patch.com/new-hampshire/portsmouth-nh/devine-millimet-partners-nh-sbdc-provide-free-legal-consulting-services",
+    "date": "2026-10-26"
+   },
+   {
+    "title": "Portsmouth DPW Launches Automated Collection Program For Trash And Recycling",
+    "url": "https://patch.com/new-hampshire/portsmouth-nh/portsmouth-dpw-launches-automated-collection-program-trash-recycling",
+    "date": "2026-10-23"
+   },
+   {
+    "title": "Investigators Renew Appeal In 1982 Killing Of Tammy Little In Portsmouth",
+    "url": "https://patch.com/new-hampshire/portsmouth-nh/investigators-renew-appeal-1982-killing-tammy-little-portsmouth",
+    "date": "2026-10-19"
+   },
+   {
+    "title": "Monkey Mind Escape Rooms Retires The Stolen Diamond After 8.5 Years And Nearly 7,000 Players",
+    "url": "https://patch.com/new-hampshire/portsmouth-nh/monkey-mind-escape-rooms-retires-stolen-diamond-after-8-5-years-nearly-7",
+    "date": "2026-10-19"
+   },
+   {
+    "title": "City Of Portsmouth, DPW Hosts Cate Street Bridge Project Public Info Session Oct. 20",
+    "url": "https://patch.com/new-hampshire/portsmouth-nh/city-portsmouth-nh-dpw-hosts-cate-street-bridge-project-public-info",
+    "date": "2026-10-18"
+   },
+   {
+    "title": "City Of Portsmouth: Parking Restrictions And Road Closures For The 2026 Halloween Parade",
+    "url": "https://patch.com/new-hampshire/portsmouth-nh/city-portsmouth-parking-restrictions-road-closures-2026-halloween-parade",
+    "date": "2026-10-18"
+   }
+  ]
  }
 }

@@ -39,6 +39,7 @@ for (const t of live) {
     const upcoming = (L.events || []).filter(e => e.date >= today).length; if (upcoming < 5) warns.push(`${id}: only ${upcoming} upcoming events`);
     if (L.events_as_of && daysAgo(L.events_as_of) > 3) warns.push(`${id}: events are ${daysAgo(L.events_as_of)} days old`);
     for (const k of ['business', 'social', 'links', 'newsSources']) if (!L[k]) errs.push(`${id}: local missing ${k}`);
+    if (L.paper) { if (!L.paper.name || !L.paper.url) errs.push(`${id}: paper needs name and url`); (L.paper.headlines || []).forEach((h, i) => { if (!h.title || !h.url || !/^\d{4}-\d{2}-\d{2}$/.test(h.date || '')) errs.push(`${id}: paper.headlines[${i}] needs title, url and date`); }); const hd = (L.paper.headlines || []).map(h => h.date); if (hd.join() !== [...hd].sort().reverse().join()) errs.push(`${id}: paper.headlines must be newest first`); if (L.paper.asOf && daysAgo(L.paper.asOf) > 2) warns.push(`${id}: paper headlines are ${daysAgo(L.paper.asOf)} days old`); } else warns.push(`${id}: no paper headlines`);
     const S = L.safety;
     if (S) {
       for (const d of ['police', 'fire']) if (S[d]) (S[d].recent || []).forEach((r, i) => { if (!r.date || !r.title || !r.source || !r.source.url) errs.push(`${id}: safety.${d}.recent[${i}] needs date, title and source.url`); });
@@ -48,7 +49,7 @@ for (const t of live) {
   if (B) { for (const k of ['people', 'levels', 'ward_reps']) if (!B[k]) errs.push(`${id}: beyond missing ${k}`);
     Object.values(B.ward_reps || {}).flat().forEach(k => { if (!B.people[k]) errs.push(`${id}: ward_reps names unknown person ${k}`); });
     (B.levels || []).forEach(l => (l.people || []).forEach(k => { if (!B.people[k]) errs.push(`${id}: level ${l.id} names unknown person ${k}`); })); }
-  if (F) (F.sources || []).forEach(s => { if (!['rss', 'atom', 'bluesky'].includes(s.type)) errs.push(`${id}: feeds bad type ${s.id}`); if (s.type !== 'bluesky' && !s.url) errs.push(`${id}: feed ${s.id} needs url`); });
+  if (F) (F.sources || []).forEach(s => { if (!['rss', 'atom', 'bluesky', 'links'].includes(s.type)) errs.push(`${id}: feeds bad type ${s.id}`); if (s.type !== 'bluesky' && !s.url) errs.push(`${id}: feed ${s.id} needs url`); if (s.type === 'links') { try { if (new RegExp(s.match).source.split('(').length < 4) errs.push(`${id}: feed ${s.id} match needs year, month and day groups`); } catch (e) { errs.push(`${id}: feed ${s.id} match is not a valid pattern`); } } });
   const txt = JSON.stringify([P, L, B]);
   if (txt.includes('—')) errs.push(`${id}: em dash found in data (house style: none)`);
 }

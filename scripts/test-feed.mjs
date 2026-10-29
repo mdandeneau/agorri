@@ -1,5 +1,5 @@
 // Offline test of functions/api/feed.js with sample upstream responses. Run: node scripts/test-feed.mjs
-import { onRequest, parseRSS, parseAtom, parseBluesky } from '../functions/api/feed.js';
+import { onRequest, parseRSS, parseAtom, parseBluesky, parseLinks } from '../functions/api/feed.js';
 const RSS = `<?xml version="1.0" encoding="utf-8"?><rss version="2.0"><channel><title>City of Portsmouth</title>
 <item><title>Water main break on South Street</title><link>https://www.portsmouthnh.gov/node/728878</link><description>&lt;p&gt;Expect delays &amp;amp; detours near &lt;b&gt;South St&lt;/b&gt;.&lt;/p&gt;</description><pubDate>Mon, 19 Oct 2026 16:59:42 +0000</pubDate></item>
 <item><title><![CDATA[City of Portsmouth, NH DPW Launches Automated Collection Program]]></title><link>https://www.portsmouthnh.gov/city/news/x</link><description></description><pubDate>Thu, 22 Oct 2026 12:04:53 +0000</pubDate></item>
@@ -17,6 +17,14 @@ t('rss: CDATA title', r[1].quote.startsWith('City of Portsmouth, NH DPW'));
 t('rss: ISO date', r[0].when === '2026-10-19T16:59:42.000Z');
 const a = parseAtom(ATOM, { id: 'y', who: 'City of Portsmouth', platform: 'YouTube' });
 t('atom: link decoded', a[0].url === 'https://www.youtube.com/watch?v=abc&t=1');
+const HOME = `<div><a href="https://www.nashuatelegraph.com/news/2026/10/27/fda-tips/"><img src="x.jpg"></a><h2><a href="https://www.nashuatelegraph.com/news/2026/10/27/fda-tips/">FDA offers Halloween safety tips</a></h2>
+<h1><a href="/news/2026/10/28/church-fair/">St. Patrick Church Fair slated for Nov. 21</a></h1><a href="/news/2026/10/28/church-fair/">Read</a>
+<h2><a href="/news/2026/10/22/real-estate-transactions-32/">Real Estate Transactions</a></h2><a href="/news/community-news/">Community News more</a>
+<h2><a href="/sports/2026/10/28/game/">Big game recap for the weekend</a></h2><h2><a href="/news/2026/10/28/second-story/">Second story of the same day here</a></h2></div>`;
+const L = parseLinks(HOME, { id: 'tel', who: 'The Telegraph', platform: 'News', url: 'https://www.nashuatelegraph.com/', match: '/news/(\\d{4})/(\\d{2})/(\\d{2})/[^/?#"]+/?$', skip: '^Real Estate Transactions' });
+t('links: 3 stories, skip and non-matching links dropped', L.length === 3);
+t('links: newest first, page order within a day', L[0].quote.startsWith('St. Patrick') && L[1].quote.startsWith('Second story') && L[2].quote.startsWith('FDA'));
+t('links: relative URLs resolved, date from URL', L[0].url === 'https://www.nashuatelegraph.com/news/2026/10/28/church-fair/' && L[2].when.startsWith('2026-10-27'));
 const b = parseBluesky(BSKY, { id: 's', who: 'Jeanne Shaheen', actor: 'shaheen.senate.gov', person: 'shaheen' });
 t('bluesky: repost skipped', b.length === 1);
 t('bluesky: post url + images', b[0].url === 'https://bsky.app/profile/shaheen.senate.gov/post/3abc' && b[0].images === 2);
@@ -30,10 +38,12 @@ const files = { '/towns.json': { default: 'portsmouth', towns: [
     { id: 'shaheen', who: 'Jeanne Shaheen', platform: 'Bluesky', type: 'bluesky', actor: 'shaheen.senate.gov', person: 'shaheen' },
     { id: 'hassan', who: 'Maggie Hassan', platform: 'Bluesky', type: 'bluesky', actor: 'hassan.senate.gov', person: 'hassan' } ] },
   '/data/nashua/feeds.json': { sources: [
-    { id: 'nashua-police', who: 'Nashua Police', platform: 'City website', type: 'rss', url: 'https://example.gov/police.rss', tag: 'safety' } ] } };
+    { id: 'nashua-police', who: 'Nashua Police', platform: 'City website', type: 'rss', url: 'https://example.gov/police.rss', tag: 'safety' },
+    { id: 'tel', who: 'The Telegraph', platform: 'News', type: 'links', url: 'https://www.nashuatelegraph.com/', match: '/news/(\\d{4})/(\\d{2})/(\\d{2})/[^/?#"]+/?$', tag: 'news' } ] } };
 globalThis.fetch = async (u) => {
   u = String(u);
   if (u.includes('rss.xml') || u.includes('police.rss')) return new Response(RSS);
+  if (u.includes('nashuatelegraph.com')) return new Response(HOME);
   if (u.includes('youtube.com')) return new Response(ATOM);
   if (u.includes('hassan')) return new Response('down', { status: 503 });
   if (u.includes('bsky.app')) return new Response(JSON.stringify(BSKY));
@@ -47,8 +57,8 @@ t('handler: default town, merged, newest first', body.town === 'portsmouth' && b
 t('handler: failing source reported, others still served', body.errors.length === 1 && body.errors[0] === 'hassan');
 t('handler: cache header', res.headers.get('cache-control') === 'public, max-age=300');
 const n = await (await call('https://agorri.com/api/feed?town=nashua')).json();
-t('handler: per-town feeds file', n.town === 'nashua' && n.items.length === 2 && n.items.every(i => i.who === 'Nashua Police'));
-t('handler: safety tag passed through', n.items.every(i => i.tag === 'safety'));
+t('handler: per-town feeds file', n.town === 'nashua' && n.items.length === 6 && n.items.filter(i => i.who === 'Nashua Police').length === 2);
+t('handler: safety and news tags passed through', n.items.filter(i => i.tag === 'safety').length === 2 && n.items.filter(i => i.tag === 'news').length === 4);
 t('handler: unknown town is 404', (await call('https://agorri.com/api/feed?town=atlantis')).status === 404);
 const post = await call('https://agorri.com/api/feed', { method: 'POST' });
 t('handler: rejects POST', post.status === 405);

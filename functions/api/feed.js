@@ -1,5 +1,5 @@
 // GET /api/feed?town=<id> : merges the official sources in that town's feeds file (towns.json files.feeds) into one feed.
-// Sources tagged "safety" (police and fire) keep the tag so the page can show them on the Police and fire page.
+// Sources tagged "safety" (police and fire) or "news" (the local paper) keep the tag so the page can show them in the right place.
 // Cached for 5 minutes per town at Cloudflare's edge so upstream sites see at most ~12 requests an hour.
 const TTL = 300;
 
@@ -36,6 +36,20 @@ export function parseBluesky(json, src) {
   }).filter(x => x.when);
 }
 
+// type "links": a news homepage with no feed. Reads <a href> links whose URL matches src.match (with year, month, day groups),
+// keeps the longest text per URL, and dates each item from its URL (page order kept within a day).
+export function parseLinks(html, src) {
+  const re = new RegExp(src.match), skip = src.skip ? new RegExp(src.skip, 'i') : null, seen = new Map();
+  for (const m of html.matchAll(/<a\s[^>]*href="([^"]+)"[^>]*>([\s\S]*?)<\/a>/gi)) {
+    let url = decode(m[1]); try { url = new URL(url, src.url).toString(); } catch (e) { continue; }
+    const d = url.match(re); if (!d) continue;
+    const title = strip(m[2]); if (title.length < 12 || (skip && skip.test(title))) continue;
+    const prev = seen.get(url); if (!prev) seen.set(url, { title, date: d[1] + '-' + d[2] + '-' + d[3], n: seen.size }); else if (title.length > prev.title.length) prev.title = title;
+  }
+  return [...seen.entries()].sort((a, b) => b[1].date.localeCompare(a[1].date) || a[1].n - b[1].n).slice(0, 15)
+    .map(([url, x], i) => ({ who: src.who, platform: src.platform, when: new Date(Date.parse(x.date + 'T16:00:00Z') - i * 1000).toISOString(), quote: x.title, gist: '', url, source: src.id }));
+}
+
 async function fetchSource(src) {
   const init = { headers: { 'user-agent': 'Agorri civic feed (agorri.com)' }, cf: { cacheTtl: TTL, cacheEverything: true } };
   if (src.type === 'bluesky') {
@@ -46,7 +60,7 @@ async function fetchSource(src) {
   const r = await fetch(src.url, init);
   if (!r.ok) throw new Error(src.id + ' ' + r.status);
   const xml = await r.text();
-  return src.type === 'atom' ? parseAtom(xml, src) : parseRSS(xml, src);
+  return src.type === 'atom' ? parseAtom(xml, src) : src.type === 'links' ? parseLinks(xml, src) : parseRSS(xml, src);
 }
 
 export async function onRequest(context) {

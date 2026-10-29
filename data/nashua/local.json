@@ -302,6 +302,11 @@
  ],
  "newsSources": [
   {
+   "name": "The Telegraph (Nashua)",
+   "url": "https://www.nashuatelegraph.com/",
+   "status": "used (headlines on Home)"
+  },
+  {
    "name": "City of Nashua (news, calendar, department pages)",
    "url": "https://www.nashuanh.gov/",
    "status": "used"
@@ -1791,5 +1796,53 @@
    "title": "Roadwork",
    "text": "The city wasn't posting current road work or detour notices in a form Agorri could read."
   }
- ]
+ ],
+ "paper": {
+  "name": "The Telegraph",
+  "url": "https://www.nashuatelegraph.com/",
+  "asOf": "2026-10-28",
+  "note": "Stories open on the paper’s site.",
+  "headlines": [
+   {
+    "title": "Warmington frantically trying to catch Ayotte in governor’s race",
+    "url": "https://www.nashuatelegraph.com/news/2026/10/28/warmington-frantically-trying-to-catch-ayotte-in-governors-race/",
+    "date": "2026-10-28"
+   },
+   {
+    "title": "St. Patrick Church Fair slated for Nov. 21",
+    "url": "https://www.nashuatelegraph.com/news/2026/10/28/st-patrick-church-fair-slated-for-nov-21/",
+    "date": "2026-10-28"
+   },
+   {
+    "title": "FDA offers Halloween safety tips",
+    "url": "https://www.nashuatelegraph.com/news/2026/10/27/fda-offers-halloween-safety-tips-4/",
+    "date": "2026-10-27"
+   },
+   {
+    "title": "GOP candidates spar with Dems at Manchester forum",
+    "url": "https://www.nashuatelegraph.com/news/2026/10/27/gop-candidates-spar-with-dems-at-manchester-forum/",
+    "date": "2026-10-27"
+   },
+   {
+    "title": "Strategist Bank receives conditional approval from state and FDIC",
+    "url": "https://www.nashuatelegraph.com/news/2026/10/27/strategist-bank-receives-conditional-approval-from-state-and-fdic/",
+    "date": "2026-10-27"
+   },
+   {
+    "title": "Harris stumps in Manchester, touts growing reproductive rights movement",
+    "url": "https://www.nashuatelegraph.com/news/2026/10/26/harris-stumps-in-manchester-touts-growing-reproductive-rights-movement/",
+    "date": "2026-10-26"
+   },
+   {
+    "title": "Rotary Halloween party a fellowship of kindred spirits",
+    "url": "https://www.nashuatelegraph.com/news/2026/10/26/rotary-halloween-party-a-fellowship-of-kindred-spirits/",
+    "date": "2026-10-26"
+   },
+   {
+    "title": "Jacques Memorial School Halloween Parade slated for Oct. 30",
+    "url": "https://www.nashuatelegraph.com/news/2026/10/26/jacques-memorial-school-halloween-parade-slated-for-oct-30/",
+    "date": "2026-10-26"
+   }
+  ]
+ }
 }
