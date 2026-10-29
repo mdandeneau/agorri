@@ -1,0 +1,21 @@
+// Offline test of the optional site password (functions/_middleware.js). Run: node scripts/test-gate.mjs
+import { onRequest } from '../functions/_middleware.js';
+let ok = 0, bad = 0; const t = (name, cond) => { cond ? ok++ : bad++; console.log((cond ? 'PASS ' : 'FAIL ') + name); };
+const next = async () => new Response('<h1>site</h1>', { headers: { 'content-type': 'text/html' } });
+const call = (url, init = {}, env = { SITE_PASSWORD: 'river-otter-42' }) => onRequest({ request: new Request('https://agorri.com' + url, init), env, next });
+t('no password set: site is open', (await (await call('/portsmouth', {}, {})).text()).includes('site'));
+let r = await call('/portsmouth');
+t('password set: page asks for it', r.status === 401 && (await r.text()).includes('private testing'));
+t('password set: API refuses', (await call('/api/talk?town=portsmouth')).status === 401);
+const form = pw => { const f = new FormData(); f.set('password', pw); f.set('back', '/nashua'); return { method: 'POST', body: f }; };
+r = await call('/__gate', form('wrong'));
+t('wrong password: stays on the gate', r.status === 401 && (await r.text()).includes('didn'));
+r = await call('/__gate', form('river-otter-42'));
+const ck = (r.headers.get('set-cookie') || '').split(';')[0];
+t('right password: back to the page with a 30-day cookie', r.status === 303 && r.headers.get('location') === '/nashua' && /Max-Age=2592000/.test(r.headers.get('set-cookie')) && /HttpOnly/.test(r.headers.get('set-cookie')));
+r = await call('/nashua', { headers: { cookie: ck } });
+t('with the cookie: site loads, not indexed', (await r.text()).includes('site') && r.headers.get('x-robots-tag') === 'noindex');
+t('changing the password signs everyone out', (await call('/nashua', { headers: { cookie: ck } }, { SITE_PASSWORD: 'new-one' })).status === 401);
+const f2 = new FormData(); f2.set('password', 'river-otter-42'); f2.set('back', '//evil.example');
+t('no open redirect after sign-in', (await call('/__gate', { method: 'POST', body: f2 })).headers.get('location') === '/');
+console.log(`\n${ok} passed, ${bad} failed`); process.exit(bad ? 1 : 0);
