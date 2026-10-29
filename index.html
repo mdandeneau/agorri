@@ -800,6 +800,39 @@ a.more-l,.more-l{text-decoration:none}
 .nh:hover .nh-t{color:var(--accent)}
 .nh small{color:var(--muted);font-size:12px;white-space:nowrap}
 
+/* v35: clean-cut Home */
+.hhead{align-items:baseline}
+.kpis{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin-top:4px}
+@media (max-width:760px){.kpis{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}}
+.kpi{display:flex;flex-direction:column;gap:4px;text-decoration:none;color:var(--ink);min-width:0}
+.kpi:hover{box-shadow:var(--shadow),0 0 0 1px var(--line)}
+.kpi .k-l{font-size:12px;font-weight:600;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.kpi .k-v{font-size:26px;font-weight:800;letter-spacing:-0.02em;line-height:1.1}
+.kpi .k-s{font-size:12.5px;color:var(--muted);line-height:1.35}
+.kpi .k-d{font-size:12.5px;color:var(--muted);line-height:1.35;margin-top:auto}
+@media (max-width:760px){.kpi .k-v{font-size:22px}}
+.t-up,.t-good{color:var(--green-ink);font-weight:700}
+.t-dn,.t-bad{color:var(--red-ink);font-weight:700}
+.moneygrid.two{grid-template-columns:repeat(auto-fit,minmax(320px,1fr))}
+.bm-head{font-size:17px;line-height:1.3;font-weight:700}
+.bm{display:flex;flex-direction:column;gap:5px;padding:10px 0 4px;border-top:1px solid var(--line)}
+.bcard .bm:first-of-type{border-top:0}
+.bm-h{display:flex;justify-content:space-between;gap:4px 10px;align-items:baseline;flex-wrap:wrap}
+.bm-l{font-weight:600;font-size:14px}
+.bm-l small{color:var(--muted);font-weight:500;font-size:12px}
+.bm-v{font-size:12px;font-weight:700;color:var(--muted)}
+.bm-r{display:grid;grid-template-columns:104px minmax(0,1fr) 52px;gap:8px;align-items:center;font-size:12.5px;color:var(--muted)}
+.bm-r .bm-n{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.bm-r .trk{display:block;height:8px;border-radius:4px;background:var(--soft);overflow:hidden}
+.bm-r .trk i{display:block;height:100%;border-radius:4px;background:var(--muted);opacity:.45;min-width:2px}
+.bm-r.me{color:var(--ink);font-weight:600}
+.bm-r.me .trk i{background:var(--s1);opacity:1}
+.bm-r b{text-align:right;color:var(--ink);font-size:12.5px}
+.ncols{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:12px 32px}
+.ncap{font-size:12px;font-weight:700;color:var(--muted);padding:2px 0 6px;border-bottom:1px solid var(--line)}
+.ncap a{font-size:12px;text-decoration:none}
+.ncols .nh:first-child{border-top:0;padding-top:9px}
+
 </style>
 
 </head>
@@ -971,7 +1004,7 @@ function headline(m,k){return `<a class="ol" href="#meeting-${k}"><span class="m
 function pollRail(){if(!LX||!LX.election)return '';const e=LX.election;return `<div class="card stack" style="gap:8px"><div class="between"><h3>Vote ${fmtD(e.date)}</h3><a class="muted" href="#local" style="text-decoration:none">Details ›</a></div><b style="font-size:14px">${esc(e.hours)}</b><div class="polls">${e.polls.map(p=>`<b>Ward ${p.ward}</b><span>${esc(p.place.replace(/ \(.*\)$/,''))}</span>`).join('')}</div></div>`;}
 function numRow(){const P=HTOWN();const rt=RATE();const r=(D.budget&&D.budget.taxRate)||{};const hv=homeVal(),own=S.homes&&TOWN&&S.homes[TOWN.id];const bill=rt?Math.round(hv/1000*rt):null;
  return `<div class="nums">${rt?`<a href="#budget" data-tip="Property tax per $1,000 of assessed value. ${esc(r.note||'')}"><b class="num">$${rt}</b><span>Tax rate per $1,000${r.fy27Estimate?', FY27 est.':r.rateLabel?', '+esc(r.rateLabel):''}</span></a>`:''}${bill?`<a href="#budget" data-tip="Estimated yearly property tax on a ${money(hv)} home at $${rt} per $1,000. Enter your own home's value on the Budget page."><b class="num">$${bill.toLocaleString()}</b><span>${own?'Your tax bill, est.':'Yearly tax on a '+money(hv)+' home, est.'}</span></a>`:''}${P&&P.median?`<a href="#local"><b class="num">${money(P.median)}</b><span>Median home sale, ${P.yoy>0?'+':''}${P.yoy}% vs last year</span></a>`:''}</div>`;}
-function issueRow(i){const c=cnt(i.id),n=c.s+c.o,v=S.votes[i.id];return `<div class="irow"><div class="stack" style="gap:2px;min-width:0"><a class="t" href="#issue-${i.id}">${esc(i.title)}</a><span class="muted">${esc(i.status)}${i.next?' · '+esc(i.next):''}</span></div><div class="row" style="gap:6px;flex-wrap:nowrap"><button class="btn sm yes${v==='s'?' on':''}" data-vote="s" data-tip="Support: counted as feedback from verified residents. Not a binding vote." data-id="${i.id}">${v==='s'?'Supporting':'Support'}</button><button class="btn sm no${v==='o'?' on':''}" data-vote="o" data-tip="Oppose: counted as feedback from verified residents. Not a binding vote." data-id="${i.id}">${v==='o'?'Opposing':'Oppose'}</button></div><span class="muted num" style="white-space:nowrap">${n?Math.round(c.s/n*100)+'% support · ':''}${(n/voters()*100).toFixed(2)}% of ${voters().toLocaleString()} voters</span>${friendLine(i.id)}</div>`;}
+function issueRow(i){const c=cnt(i.id),n=c.s+c.o,v=S.votes[i.id];return `<div class="irow"><div class="stack" style="gap:2px;min-width:0"><a class="t" href="#issue-${i.id}">${esc(i.title)}</a><span class="muted">${esc(i.status)}${i.next?' · '+esc(i.next):''}</span></div><div class="row" style="gap:6px;flex-wrap:nowrap"><button class="btn sm yes${v==='s'?' on':''}" data-vote="s" data-tip="Support: counted as feedback from verified residents. Not a binding vote." data-id="${i.id}">${v==='s'?'Supporting':'Support'}</button><button class="btn sm no${v==='o'?' on':''}" data-vote="o" data-tip="Oppose: counted as feedback from verified residents. Not a binding vote." data-id="${i.id}">${v==='o'?'Opposing':'Oppose'}</button></div><span class="muted num" style="white-space:nowrap">${n?Math.round(c.s/n*100)+'% support · '+n.toLocaleString()+' verified':'Open for input'}</span>${friendLine(i.id)}</div>`;}
 function budgetParts(){const B=D.budget;if(!B||!B.generalFund)return null;const ds=(B.departments||[]).filter(d=>d.fy27>0).map(d=>({name:d.short||d.name,full:d.name,v:d.fy27}));const sum=ds.reduce((x,d)=>x+d.v,0);if(ds.length<2||sum>B.generalFund*1.02)return null;ds.sort((x,y)=>y.v-x.v);const top=ds.slice(0,5),fold=ds.slice(5);const rest=B.generalFund-top.reduce((x,d)=>x+d.v,0);if(rest>B.generalFund*0.004)top.push({name:'Everything else',v:rest,other:true,fold:fold.map(d=>d.full).concat((B.departments||[]).filter(d=>!(d.fy27>0)&&d.fy26>0).map(d=>d.name)),unlisted:B.generalFund-sum>B.generalFund*0.004});return top.map((d,k)=>({...d,pct:d.v/B.generalFund*100,k}));}
 function partTip(p){const B=D.budget;const pc=p.pct<1?'under 1':Math.round(p.pct);let t=`${p.full||p.name}: ${money(p.v)}, ${pc}% of the ${B.fundLabel||'General Fund'}`;if(p.other){const f=p.fold.length?p.fold.join(', '):'';t+='. '+(f?'Includes '+f+(p.unlisted?' and lines not itemized here':''):'Lines not itemized here');}return t+'.';}
 function budgetCard(asLink){const B=D.budget,ps=budgetParts();if(!ps)return '';const fy=(B.fiscalYear||'').split(' ')[0];const tag=asLink?'a':'div';
@@ -979,7 +1012,7 @@ function budgetCard(asLink){const B=D.budget,ps=budgetParts();if(!ps)return '';c
   <div class="between" style="align-items:flex-end;gap:8px"><div class="stack" style="gap:2px"><span class="eyebrow">Where the money goes</span><span><b class="big num">${money(B.generalFund)}</b> <span class="muted">${esc(B.fundLabel||'General Fund')} budget, ${esc(fy)}</span></span></div>${asLink?'<span class="more-l">Budget ›</span>':''}</div>
   <div class="bbar" role="img" aria-label="${esc(ps.map(p=>p.name+' '+Math.round(p.pct)+' percent').join(', '))}">${ps.map(p=>`<span style="flex:${p.pct.toFixed(2)} 1 0;background:var(--s${p.k+1})" data-tip="${esc(partTip(p))}"></span>`).join('')}</div>
   <div class="blegend">${ps.map(p=>`<span data-tip="${esc(partTip(p))}"><i style="background:var(--s${p.k+1})"></i><span class="bl-n">${esc(p.name)}</span><b class="num">${p.pct<1?'<1':Math.round(p.pct)}%</b>${asLink?'':`<em class="num">${money(p.v)}</em>`}</span>`).join('')}</div>
-  ${asLink&&RATE()?`<div class="between" style="gap:8px;border-top:1px solid var(--line);padding-top:10px"><span class="muted">Yearly tax on a ${money(homeVal())} home, est.</span><b class="num" style="font-size:16px">$${Math.round(homeVal()/1000*RATE()).toLocaleString()}</b></div>`:''}${B.glanceNote?`<span class="srcline" style="font-weight:500">${esc(B.glanceNote)}</span>`:''}</${tag}>`;}
+  ${B.glanceNote?`<span class="srcline" style="font-weight:500">${esc(B.glanceNote)}</span>`:''}</${tag}>`;}
 function lineChart(pts,opt){opt=opt||{};if(!pts||pts.length<2)return '';const ys=pts.map(p=>p.y);let lo=Math.min(...ys),hi=Math.max(...ys);const pad=(hi-lo)*0.2||1;lo-=pad;hi+=pad*0.4;const n=pts.length;const X=i=>(i/(n-1))*100;const Y=v=>100-((v-lo)/(hi-lo))*100;const P=pts.map((p,i)=>({x:X(i),y:Y(p.y),p}));
  return `<div class="lcw"><div class="lc" style="height:${opt.h||90}px" role="img" aria-label="${esc(pts.map(p=>p.x+' '+p.label).join(', '))}"><svg viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">${P.slice(1).map((s,i)=>`<line x1="${P[i].x}" y1="${P[i].y}" x2="${s.x}" y2="${s.y}" vector-effect="non-scaling-stroke"${s.p.est?' class="est"':''}></line>`).join('')}</svg>${P.map((s,i)=>`<span class="lc-pt${s.p.est?' est':''}${i===n-1?' last':''}" style="left:${s.x}%;top:${s.y}%" data-tip="${esc(s.p.tip||'')}"><b>${esc(s.p.label)}</b></span>`).join('')}</div><div class="lc-x">${P.map(s=>`<span style="left:${s.x}%">${esc(s.p.x)}</span>`).join('')}</div></div>`;}
 function taxPoints(){const r=D.budget&&D.budget.taxRate;return ((r&&r.history)||[]).filter(h=>h.rate).map(h=>{const fy=String(h.fy).replace(/ tax year$/,'');return {x:fy,y:h.rate,label:'$'+Number(h.rate).toFixed(2),est:/estimate/i.test(h.note||''),tip:`${fy}: $${h.rate} per $1,000${h.note?'. '+h.note.replace(/\.$/,''):''}.`};});}
@@ -1038,16 +1071,42 @@ function newsCard(){const N=LX&&LX.paper;if(!N)return '';const live=(N.live||[])
  return `<div class="card stack bcard" style="gap:10px"><div class="between" style="align-items:flex-end;gap:8px"><div class="stack" style="gap:2px"><span class="eyebrow">Local news</span><span><b class="big">${esc(N.name)}</b> <span class="muted">latest headlines</span></span></div><a class="more-l" href="${esc(N.url)}" target="_blank" rel="noopener">Read ›</a></div>
   <div class="nh-rows">${hs.map(h=>`<a class="nh" href="${esc(h.url)}" target="_blank" rel="noopener"><span class="nh-t">${esc(h.title)}</span><small class="num">${dl(h.date)}</small></a>`).join('')}</div>
   <span class="srcline" style="font-weight:500">${esc(N.note||'')} ${useLive?'Live from the paper’s site.':'Updated '+fmtD(N.asOf)+'.'}</span></div>`;}
+const BM=()=>{const x=LX&&LX.safety&&LX.safety.benchmarks;return x&&(x.items||[]).length?x:null;};
+const bmFmt=v=>v==null?'n/a':v>=100?Math.round(v).toLocaleString():v>=10?v.toFixed(1):v.toFixed(2);
+function bmCmp(a,b2){if(a==null||b2==null)return null;return a<b2*0.95?'below':a>b2*1.05?'above':'about';}
+function bmVerdict(it){const n=bmCmp(it.town,it.nh),u=bmCmp(it.town,it.us);if(!n&&!u)return {txt:'',short:'',tone:''};const uw=it.usWho||'U.S.';const w=(c,who)=>c==='about'?'about the '+who+' average':c+' the '+who+' average';let txt,short;if(n&&u&&n===u&&!it.usWho){txt=n==='about'?'About the NH and U.S. averages':CAP(n)+' the NH and U.S. averages';short=CAP(n)+' NH and U.S.';}else{txt=CAP([n&&w(n,'NH'),u&&w(u,uw)].filter(Boolean).join(', '));short=CAP([n&&n+' NH',u&&u+' '+uw].filter(Boolean).join(', '));}
+ let tone='';if(it.better==='lower'){if(n==='below'&&u!=='above'||u==='below'&&n!=='above')tone='good';if(n==='above'&&u!=='below'||u==='above'&&n!=='below')tone='bad';if(n==='below'&&u==='above'||n==='above'&&u==='below')tone='';}return {txt,short,tone};}
+function bmBlock(it,quiet){const v=quiet?{txt:''}:bmVerdict(it);const rows=[[TN(),it.town,'me',it.counts&&it.counts.town],[it.nhLabel||'New Hampshire',it.nh,'',it.counts&&it.counts.nh],[it.usLabel||'United States',it.us,'',it.counts&&it.counts.us]].filter(r=>r[1]!=null);const mx=Math.max(...rows.map(r=>r[1]),1e-9);
+ return `<div class="bm" data-tip="${esc(it.label+' '+it.unit+(it.year?', '+it.year:'')+(it.def?'. '+it.def:''))}"><div class="bm-h"><span class="bm-l">${esc(it.label)} <small>${esc(it.unit)}</small></span>${v.txt?`<span class="bm-v ${v.tone?'t-'+v.tone:''}">${esc(v.txt)}</span>`:''}</div>${rows.map(([n,val,c,k])=>`<div class="bm-r ${c}"${k!=null?` data-tip="${esc(n)}: ${k.toLocaleString()} offenses reported in ${esc(it.year||'')}"`:''}><span class="bm-n">${esc(n)}</span><span class="trk"><i style="width:${(val/mx*100).toFixed(1)}%"></i></span><b class="num">${bmFmt(val)}</b></div>`).join('')}</div>`;}
+function benchCard(){const B=BM();if(!B)return safetyCard();const items=B.items.filter(i=>i.home!==false).slice(0,3);const lead=B.items.find(i=>i.better==='lower');const v=lead?bmVerdict(lead):{txt:'',tone:''};const vs=items.map(i=>bmVerdict(i).txt);const same=items.length>1&&vs.every(x=>x===vs[0]);const P=LX.safety.police||{};const logs=(P.logDigest||[]).filter(g=>g.calls).slice().sort((a,b2)=>a.date.localeCompare(b2.date)).slice(-7);const avg=logs.length>=3?Math.round(logs.reduce((a,g)=>a+g.calls,0)/logs.length):null;
+ return `<a class="card stack bcard" href="#safety" style="gap:6px"><div class="between" style="align-items:flex-start;gap:8px"><div class="stack" style="gap:2px"><span class="eyebrow">Public safety vs NH and U.S.</span><b class="bm-head">${same?'Reported crime is '+esc(vs[0].charAt(0).toLowerCase()+vs[0].slice(1)):lead?esc(lead.label)+': '+esc(v.txt.charAt(0).toLowerCase()+v.txt.slice(1)):'How '+esc(TN())+' compares'}</b></div><span class="more-l">Police and fire ›</span></div>
+  ${items.map(i=>bmBlock(i,same)).join('')}
+  <span class="srcline" style="font-weight:500">${esc(B.homeNote||B.note||'')}${avg?` Latest police log: ${avg} calls a day.`:''}</span></a>`;}
+function paperHeads(){const N=LX&&LX.paper;if(!N)return null;const live=(N.live||[]).map(p=>({title:p.quote,url:p.url,date:(p.when||'').slice(0,10)}));const useLive=live.length>=3;return {N,useLive,hs:(useLive?live:(N.headlines||[])).slice(0,5)};}
+function dayLbl(d){const y=(()=>{const x=new Date(TODAY+'T12:00:00');x.setDate(x.getDate()-1);return x.toISOString().slice(0,10);})();return d===TODAY?'Today':d===y?'Yesterday':fmtD(d);}
+function kpiTiles(){const B=D.budget||{};const fy=(B.fiscalYear||'').split(' ')[0];const t=[];
+ if(B.generalFund)t.push({l:'City budget',v:money(B.generalFund),s:`${esc(B.fundLabel||'General Fund')}, ${esc(fy)}`,d:B.changePct!=null?`<span class="${B.changePct>0?'t-up':'t-dn'}">${B.changePct>0?'+':''}${(+B.changePct).toFixed(1)}%</span> vs last year`:'',h:'#budget',tip:'The town’s main operating budget this fiscal year'});
+ if(RATE())t.push({l:'Property tax, est.',v:'$'+Math.round(homeVal()/1000*RATE()).toLocaleString(),s:`a year on a ${money(homeVal())} home`,d:`$${RATE().toFixed(2)} per $1,000`,h:'#budget',tip:'Estimated from this year’s tax rate. Change the home value on the Budget page.'});
+ const BMX=BM(),lead=BMX&&BMX.items.find(i=>i.better==='lower');
+ if(lead){const v=bmVerdict(lead);t.push({l:lead.label,v:bmFmt(lead.town),s:esc(lead.unit),d:v.short?`<span class="${v.tone?'t-'+v.tone:''}">${esc(v.short)}</span>`:'',h:'#safety',tip:lead.label+' '+lead.unit+(lead.year?', '+lead.year:'')+'. Compared with New Hampshire and the U.S.'});}
+ else{const P=LX&&LX.safety&&LX.safety.police;const st=P&&(P.stats||[]).find(s=>typeof s.value==='number'&&/calls/i.test(s.label));if(st)t.push({l:'Police calls',v:st.value.toLocaleString(),s:esc(lc1(st.label))+(st.year?' · '+esc(st.year):''),h:'#safety',tip:'Police calls for service'});}
+ const P=HTOWN();if(P&&P.median)t.push({l:'Median home sale',v:money(P.median),s:esc((P.period||'').replace(/^Three months ending (\w{3})\w* (\d{4})$/,'3 months to $1 $2')),d:P.yoy!=null?`<span class="${P.yoy<0?'t-dn':'t-up'}">${P.yoy>0?'+':''}${P.yoy}%</span> vs last year`:'',h:'#local',tip:esc(P.source||'')});
+ return t.length?`<div class="kpis">${t.slice(0,4).map(x=>`<a class="card kpi" href="${x.h}" data-tip="${esc(x.tip)}"><span class="k-l">${esc(x.l)}</span><b class="k-v num">${x.v}</b><span class="k-s">${x.s}</span>${x.d?`<span class="k-d">${x.d}</span>`:''}</a>`).join('')}</div>`:'';}
+function newsBlock(){const ph=paperHeads();const around=talk().filter(t=>t.tag!=='Housing'&&t.tag!=='Record sale').slice(0,4);if(!(ph&&ph.hs.length)&&!around.length)return '';
+ return `<section class="blk"><div class="sec"><h2>Local news</h2><a href="#local">Local ›</a></div><div class="ncols">
+  ${ph&&ph.hs.length?`<div class="stack" style="gap:2px"><div class="between ncap"><span>${esc(ph.N.name)}</span><a href="${esc(ph.N.url)}" target="_blank" rel="noopener">Read ›</a></div><div class="nh-rows">${ph.hs.map(h=>`<a class="nh" href="${esc(h.url)}" target="_blank" rel="noopener"><span class="nh-t">${esc(h.title)}</span><small class="num">${dayLbl(h.date)}</small></a>`).join('')}</div><span class="srcline">${esc(ph.N.note||'')}${ph.useLive?' Live.':''}</span></div>`:''}
+  ${around.length?`<div class="stack" style="gap:2px"><div class="ncap"><span>Around town</span></div><div class="ols">${around.map(oneLiner).join('')}</div></div>`:''}
+ </div></section>`;}
 function mondayOf(s){const d=ld(s);d.setDate(d.getDate()-((d.getDay()+6)%7));return MON[d.getMonth()]+' '+d.getDate();}
-function pageHome(){const a=D.about;const m=D.council_meetings[0];const yes=m?m.decisions.filter(d=>/^pass|^approved/i.test(d.outcome||'')).length:0;const news=talk().filter(t=>t.tag!=='Housing'&&t.tag!=='Record sale').slice(0,3);
+function pageHome(){const m=D.council_meetings[0];const yes=m?m.decisions.filter(d=>/^pass|^approved/i.test(d.outcome||'')).length:0;const nev=upcomingEvents().length;
  return `
- <section class="between"><h1>${TN()}</h1><span class="muted">Week of ${mondayOf(TODAY)}</span></section>
- <section class="blk"><div class="sec"><h2>Coming up</h2><a href="#local">Calendar ›</a></div><div class="mos">${moments().map(momentCard).join('')}</div></section>
- <section class="blk"><div class="sec"><h2>At a glance</h2></div><div class="moneygrid">${budgetCard(true)}${safetyCard()}${homeCard()}${newsCard()}</div></section>
+ <section class="between hhead"><h1>${TN()}</h1><span class="muted">Week of ${mondayOf(TODAY)}</span></section>
+ ${kpiTiles()}
+ <section class="blk"><div class="sec"><h2>Coming up</h2><a href="#local">${nev?'All '+nev+' events ›':'Calendar ›'}</a></div><div class="mos">${moments().map(momentCard).join('')}</div></section>
  <section class="blk"><div class="sec"><h2>What the city is deciding</h2><a href="#issues">All ${D.issues.length} ›</a></div><div class="ols">${D.issues.slice(0,3).map(issueRow).join('')}</div></section>
+ <section class="blk"><div class="moneygrid two">${benchCard()}${budgetCard(true)}</div></section>
  ${m?`<section class="blk"><div class="sec"><h2>Latest ${esc(m.body||GB())} meeting</h2><a href="#record">Meeting record ›</a></div><a class="ol" href="#meeting-0">${dateBox(m.date)}<span class="evt"><span style="font-weight:600">${esc(m.headline)}</span><span class="muted">${m.decisions.length?m.decisions.length+' decisions, '+yes+' passed · ':''}Full meeting ›</span></span></a></section>`:''}
- ${news.length?`<section class="blk"><div class="sec"><h2>Local news</h2><a href="#local">Local ›</a></div><div class="ols">${news.map(oneLiner).join('')}</div></section>`:''}
- <section class="blk"><div class="sec"><h2>Events</h2><a href="#local">All ${upcomingEvents().length} ›</a></div><div class="ols">${upcomingEvents(4).map(evRow).join('')}</div></section>
+ ${newsBlock()}
  ${foot()}`;}
 
 /* ================= Issues ================= */
@@ -1484,6 +1543,7 @@ function pageSafety(){const SF=LX&&LX.safety;if(!SF)return `<section class="stac
  return `<section class="between"><div class="stack" style="gap:4px"><h1>Police and fire</h1><p class="muted">What ${esc(TN())}'s departments are responding to, from their own logs and releases. No names, ever.</p></div></section>
  <div class="sos"><a class="sos-911" href="tel:911" data-tip="Any emergency: police, fire or medical"><b>911</b><span>Emergency</span></a>${P&&P.nonEmergency?`<a href="${telHref(P.nonEmergency)}" data-tip="Police business line, for anything that isn't an emergency"><b class="num">${esc(P.nonEmergency)}</b><span>Police, non-emergency</span></a>`:''}${F&&F.nonEmergency?`<a href="${telHref(F.nonEmergency)}" data-tip="Fire department business line"><b class="num">${esc(F.nonEmergency)}</b><span>Fire, non-emergency</span></a>`:''}${SF.alerts&&SF.alerts.url?`<a href="${esc(SF.alerts.url)}" target="_blank" rel="noopener" data-tip="The city's official emergency alert sign-up"><b class="al">${esc(SF.alerts.name||'Alerts')}</b><span>Get emergency alerts ↗</span></a>`:''}</div>
  <div class="cols"><div class="main">
+  ${BM()?`<section class="blk"><div class="sec"><h2>How ${esc(TN())} compares</h2><span class="muted">vs New Hampshire and the U.S.</span></div><div class="card stack" style="gap:4px">${BM().items.map(i=>bmBlock(i)).join('')}<div class="srcline" style="font-weight:500">${esc(BM().note||'')} ${BM().fireNote?' '+esc(BM().fireNote):''} Sources: ${(BM().sources||[]).map(x=>`<a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.label)}</a>`).join(', ')}.</div></div></section>`:''}
   <section class="blk"><div class="sec"><h2>Latest</h2><span class="muted">${SF.live&&SF.live.length?'<span class="livedot"></span>Live · ':''}${all.length} items</span></div>
   <div class="chips" role="group" aria-label="Department">${['All','Police','Fire'].map(x=>`<button type="button" data-safdept="${x}" class="${SAF.dept===x?'on':''}">${x==='All'?'Both departments':x}</button>`).join('')}</div>
   <div class="ols">${moreList(items.map(safetyRow),8,'','','items')||'<p class="muted" style="padding:12px 0">Nothing posted recently.</p>'}</div></section>
@@ -1491,7 +1551,7 @@ function pageSafety(){const SF=LX&&LX.safety;if(!SF)return `<section class="stac
   <section class="blk"><div class="sec"><h2>The departments</h2></div><div class="dgrid">${deptCard(P,'Police')}${deptCard(F,'Fire')}</div></section>
   ${tiles?`<section class="blk"><div class="sec"><h2>By the numbers</h2></div><div class="strip">${tiles}</div></section>`:''}
   ${progs.length?`<section class="blk"><div class="sec"><h2>Programs and services</h2></div><div class="ols">${moreList(progs.map(x=>`<a class="ol" href="${esc(x.url||'#safety')}"${x.url?' target="_blank" rel="noopener"':''}><span class="evt"><span style="font-weight:600">${esc(x.name)}</span><span class="muted" style="font-weight:500">${esc(x.detail||'')}</span></span><span class="tag ${x.dept==='Fire'?'amber':'blue'}" style="margin-left:auto">${x.dept}</span></a>`),4,'','','programs')}</div></section>`:''}
-  <p class="muted">${esc(SF.note||'')} Updated ${fmtD(SF.as_of)}. Police and fire items never appear on Home and never send notifications.</p>
+  <p class="muted">${esc(SF.note||'')} Updated ${fmtD(SF.as_of)}. Home shows only counts and comparisons; individual police and fire items never appear there and never send notifications.</p>
  </div></div>${foot()}`;}
 /* ================= Private notifications ================= */
 const NSTOP=new Set('the a an and or of to in on for with at by from is are be this that it its as into about should city council aldermen alderman board new more most'.split(' '));

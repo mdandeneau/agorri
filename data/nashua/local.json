@@ -1595,12 +1595,6 @@
    "oversight": "Elected five-member Board of Fire Commissioners (four-year terms, with seats filled at each municipal election); it handles hiring and promotions, department rules and property.",
    "stats": [
     {
-     "label": "Calls for service a year",
-     "value": "52,000+",
-     "year": null,
-     "src": "https://www.nashuanh.gov/383/Fire-Rescue"
-    },
-    {
      "label": "Emergency arrivals in 4 minutes or less",
      "value": "90%+",
      "year": null,
@@ -1783,6 +1777,78 @@
    },
    "liveIncidents": null,
    "logsUrl": null
+  },
+  "benchmarks": {
+   "year": "2024",
+   "note": "FBI figures for 2024, the latest year with matching city, state and national numbers. Rates are offenses reported to police per 100,000 residents. People who work in or shop in Nashua but live elsewhere aren’t counted as residents, which pushes per-resident rates up. The FBI advises against ranking places on these numbers alone.",
+   "homeNote": "FBI, 2024. Per-resident rates; visitors and commuters aren’t counted as residents.",
+   "fireNote": "No fire comparison yet: national fire figures don’t match how these departments count calls or staff.",
+   "items": [
+    {
+     "id": "violent",
+     "label": "Violent crime",
+     "unit": "per 100,000 residents",
+     "year": "2024",
+     "better": "lower",
+     "town": 160.5,
+     "nh": 110.1,
+     "us": 359.1,
+     "counts": {
+      "town": 146,
+      "nh": 1551,
+      "us": 1221345
+     },
+     "def": "Murder, rape, robbery and aggravated assault reported to police."
+    },
+    {
+     "id": "property",
+     "label": "Property crime",
+     "unit": "per 100,000 residents",
+     "year": "2024",
+     "better": "lower",
+     "town": 1261.3,
+     "nh": 918.0,
+     "us": 1760.1,
+     "counts": {
+      "town": 1147,
+      "nh": 12935,
+      "us": 5986400
+     },
+     "def": "Burglary, theft and motor vehicle theft reported to police."
+    },
+    {
+     "id": "officers",
+     "label": "Police officers",
+     "unit": "per 1,000 residents",
+     "year": "2025",
+     "better": "neutral",
+     "home": false,
+     "town": 1.98,
+     "nh": null,
+     "us": 1.6,
+     "usLabel": "Similar U.S. cities",
+     "usWho": "similar-size U.S. city",
+     "def": "Nashua: 180 full-time sworn officers in the department’s 2025 annual report, per 2024 population (90,938). U.S.: local police departments serving 50,000 to 99,999 residents, full-time-equivalent sworn officers, 2020. No matching New Hampshire average is published."
+    }
+   ],
+   "sources": [
+    {
+     "label": "FBI Table 8 for Nashua, 2024 (via OpenCrime)",
+     "url": "https://www.opencrime.us/cities/nashua-new-hampshire"
+    },
+    {
+     "label": "FBI New Hampshire estimates, 2024 (via OpenCrime)",
+     "url": "https://www.opencrime.us/states/nh"
+    },
+    {
+     "label": "FBI national estimates, 2024 (via OpenCrime)",
+     "url": "https://www.opencrime.us/years/2024"
+    },
+    {
+     "label": "Bureau of Justice Statistics, Local Police Departments 2020",
+     "url": "https://bjs.ojp.gov/sites/g/files/xyckuh236/files/media/document/lpdp20_emb.pdf"
+    }
+   ]
   }
  },
  "notHere": [

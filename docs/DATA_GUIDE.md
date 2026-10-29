@@ -39,3 +39,9 @@ Official sources for the live feed: [{id, who, platform, type rss|atom|bluesky, 
 ## Known limits
 - Portsmouth: local campaign finance is paper-only at the City Clerk. School Board agendas are on Google Drive; Police Commission on PowerDMS. Most council votes are tallies only.
 - Nashua: see `notes` in each Nashua file's research log in UPDATE.md.
+
+## local.json: paper (Home local news)
+`name`, `url`, `asOf`, `note`, and `headlines` (newest first): `title` exactly as published, article `url`, `date` (YYYY-MM-DD). Headlines and links only. A feeds.json source with `"type": "links", "tag": "news"` lets the live site read newer headlines from the paper's homepage.
+
+## local.json: safety.benchmarks (Home and Police and fire comparisons)
+`year`, `note` (shown on the Police and fire page), `homeNote` (shown on Home), `fireNote`, `sources` [{label, url}], and `items`: each has `id`, `label`, `unit`, `year`, `better` ("lower" or "neutral"), `town`, `nh`, `us` (rates; `nh` may be null), optional `counts` {town, nh, us}, `def`, optional `usLabel`/`usWho` when the U.S. figure is a peer group, and `home: false` to keep an item off Home. Town, NH and U.S. figures in one item must be the same year and definition.

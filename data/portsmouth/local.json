@@ -1882,6 +1882,78 @@
    },
    "liveIncidents": null,
    "logsUrl": null
+  },
+  "benchmarks": {
+   "year": "2024",
+   "note": "FBI figures for 2024, the latest year with matching city, state and national numbers. Rates are offenses reported to police per 100,000 residents. Portsmouth’s small counts swing year to year (its violent crime rate ran from 113.5 to 246.4 between 2020 and 2024), and the many people who work in or visit Portsmouth aren’t counted as residents, which pushes per-resident rates up. The FBI advises against ranking places on these numbers alone.",
+   "homeNote": "FBI, 2024. Per-resident rates; visitors and commuters aren’t counted as residents.",
+   "fireNote": "No fire comparison yet: national fire figures don’t match how these departments count calls or staff.",
+   "items": [
+    {
+     "id": "violent",
+     "label": "Violent crime",
+     "unit": "per 100,000 residents",
+     "year": "2024",
+     "better": "lower",
+     "town": 187.2,
+     "nh": 110.1,
+     "us": 359.1,
+     "counts": {
+      "town": 43,
+      "nh": 1551,
+      "us": 1221345
+     },
+     "def": "Murder, rape, robbery and aggravated assault reported to police."
+    },
+    {
+     "id": "property",
+     "label": "Property crime",
+     "unit": "per 100,000 residents",
+     "year": "2024",
+     "better": "lower",
+     "town": 1284.3,
+     "nh": 918.0,
+     "us": 1760.1,
+     "counts": {
+      "town": 295,
+      "nh": 12935,
+      "us": 5986400
+     },
+     "def": "Burglary, theft and motor vehicle theft reported to police."
+    },
+    {
+     "id": "officers",
+     "label": "Police officers",
+     "unit": "per 1,000 residents",
+     "year": "2025",
+     "better": "neutral",
+     "home": false,
+     "town": 2.92,
+     "nh": null,
+     "us": 1.9,
+     "usLabel": "Similar U.S. cities",
+     "usWho": "similar-size U.S. city",
+     "def": "Portsmouth: 67 sworn officers in the FY26 city budget, per 2024 population (22,969). U.S.: local police departments serving 10,000 to 24,999 residents, full-time-equivalent sworn officers, 2020. No matching New Hampshire average is published."
+    }
+   ],
+   "sources": [
+    {
+     "label": "FBI Table 8 for Portsmouth, 2024 (via OpenCrime)",
+     "url": "https://www.opencrime.us/cities/portsmouth-new-hampshire"
+    },
+    {
+     "label": "FBI New Hampshire estimates, 2024 (via OpenCrime)",
+     "url": "https://www.opencrime.us/states/nh"
+    },
+    {
+     "label": "FBI national estimates, 2024 (via OpenCrime)",
+     "url": "https://www.opencrime.us/years/2024"
+    },
+    {
+     "label": "Bureau of Justice Statistics, Local Police Departments 2020",
+     "url": "https://bjs.ojp.gov/sites/g/files/xyckuh236/files/media/document/lpdp20_emb.pdf"
+    }
+   ]
   }
  },
  "paper": {

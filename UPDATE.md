@@ -26,13 +26,16 @@ All towns share one page (`index.html`). Only edit data in `data/<town>/`. Never
 ## First Monday of each month
 7. **Housing** (`local.json` housing): Redfin's city page and the regional realtor report. Update numbers, period and sources.
 
+## Each fall, when the FBI publishes a new year
+8. **Crime comparisons** (`local.json` safety.benchmarks). When the FBI releases a new year of Crime in the Nation, update the town, New Hampshire and U.S. rates and counts together, for the same year, from FBI Table 8 (city) and the FBI state and national estimates. Never mix years across the three. Keep the note about small counts and visitors. Police officers per 1,000: town's sworn count over the same population; U.S. figure from the latest Bureau of Justice Statistics local police report for the town's size band.
+
 ## After an election
-8. **Officials** (`beyond.json`, and `record.json` officials after a city election). Update winners from official results. Until results are certified, label them unofficial in `status`.
+9. **Officials** (`beyond.json`, and `record.json` officials after a city election). Update winners from official results. Until results are certified, label them unofficial in `status`.
 
 ## Before pushing
-9. Run `node scripts/check.mjs` (checks every live town). Fix every ERROR. Mention WARNs in the summary.
-10. Commit to `main` as "Daily refresh YYYY-MM-DD: what changed" and push. Cloudflare redeploys in about a minute.
-11. End with a short summary per town: what was added, what was removed, anything marked needs_review, any source that failed.
+10. Run `node scripts/check.mjs` (checks every live town). Fix every ERROR. Mention WARNs in the summary.
+11. Commit to `main` as "Daily refresh YYYY-MM-DD: what changed" and push. Cloudflare redeploys in about a minute.
+12. End with a short summary per town: what was added, what was removed, anything marked needs_review, any source that failed.
 
 ---
 
