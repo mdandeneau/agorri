@@ -31,7 +31,7 @@ Ideas, questions, debate arguments (for or against an issue), comments, replies 
 ## Files
 - `index.html`: the whole site.
 - `data/<town>/record.json` (meetings, votes, officials, budget), `local.json` (events, notices, housing, businesses, police and fire, social accounts), `beyond.json` (county, state, federal), `feeds.json` (live feed sources).
-- `towns.json`: town registry. To add a town: add its four files in `data/<id>/`, an entry with `"status": "live"`, and `/<id> /index.html 200` in `_redirects`.
+- `towns.json`: town registry. To add a town: add its four files in `data/<id>/`, an entry with `"status": "live"`, and `/<id> / 200` in `_redirects` (rewriting to `/index.html` makes Cloudflare redirect to the home page).
 - `_redirects`: serves the page at `/portsmouth`, `/nashua`, etc.
 - `docs/DATA_GUIDE.md`: field definitions. `UPDATE.md`: the daily refresh runbook.
 - `scripts/check.mjs`: validates the data before a push. `scripts/test-feed.mjs` and `scripts/test-talk.mjs`: offline tests for the feed and Talk functions.
