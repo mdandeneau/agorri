@@ -1,0 +1,529 @@
+{
+ "as_of": "2026-10-29",
+ "note": "From the city's own pages (Economic Development, Tax Incentives, Building Safety, Planning, news flash, the Nashua on the Move newsletter) and open local coverage: The Nashua Independent, NH Business Review, Ink Link. The Telegraph is paywalled and not used.",
+ "organizations": [
+  {
+   "name": "City of Nashua Economic Development",
+   "what": "City office at 229 Main Street that helps businesses locate, expand and access incentives; Director Liz Hannum.",
+   "url": "https://www.nashuanh.gov/333/Economic-Development",
+   "phone": "603-589-3260",
+   "kind": "Economic development",
+   "source": {
+    "label": "City of Nashua, Economic Development",
+    "url": "https://www.nashuanh.gov/333/Economic-Development"
+   }
+  },
+  {
+   "name": "Greater Nashua Chamber of Commerce",
+   "what": "Chamber at 60 Main Street, Suite 200, supporting Greater Nashua businesses and nonprofits through advocacy, networking and professional development.",
+   "url": "https://www.nashuachamber.com/",
+   "phone": "(603) 881-8333",
+   "kind": "Chamber",
+   "source": {
+    "label": "Greater Nashua Chamber of Commerce",
+    "url": "https://www.nashuachamber.com/"
+   }
+  },
+  {
+   "name": "Downtown Nashua Association (formerly Great American Downtown)",
+   "what": "Nonprofit at 6 Main Street that runs downtown signature events, activation and small business support, and publishes The Downtowner newsletter.",
+   "url": "https://www.downtownnashua.org/",
+   "phone": "(603) 883-5700",
+   "kind": "Downtown",
+   "source": {
+    "label": "Downtown Nashua Association",
+    "url": "https://www.downtownnashua.org/"
+   }
+  },
+  {
+   "name": "NH Small Business Development Center, Nashua office",
+   "what": "Free one-on-one business advising and courses; the Nashua office is at Nashua Community College.",
+   "url": "https://nhsbdc.org/",
+   "phone": null,
+   "kind": "Nonprofit",
+   "source": {
+    "label": "City of Nashua, Help for Entrepreneurs",
+    "url": "https://www.nashuanh.gov/1072/Help-for-Entrepreneurs"
+   }
+  },
+  {
+   "name": "SCORE Merrimack Valley NH",
+   "what": "Free mentoring, workshops and online planning tools for starting and growing a business.",
+   "url": "http://merrimackvalley.score.org/",
+   "phone": null,
+   "kind": "Nonprofit",
+   "source": {
+    "label": "City of Nashua, Help for Entrepreneurs",
+    "url": "https://www.nashuanh.gov/1072/Help-for-Entrepreneurs"
+   }
+  },
+  {
+   "name": "Center for Women & Enterprise",
+   "what": "Nonprofit programs that help women start and run businesses.",
+   "url": "https://www.cweonline.org/",
+   "phone": null,
+   "kind": "Nonprofit",
+   "source": {
+    "label": "City of Nashua, Help for Entrepreneurs",
+    "url": "https://www.nashuanh.gov/1072/Help-for-Entrepreneurs"
+   }
+  },
+  {
+   "name": "Nashua Public Library",
+   "what": "Market research help, entrepreneurship books, prospect-list databases and meeting space for professional groups.",
+   "url": "http://www.nashualibrary.org/",
+   "phone": null,
+   "kind": "Nonprofit",
+   "source": {
+    "label": "City of Nashua, Help for Entrepreneurs",
+    "url": "https://www.nashuanh.gov/1072/Help-for-Entrepreneurs"
+   }
+  },
+  {
+   "name": "NH Department of Business and Economic Affairs",
+   "what": "State agency; administers ERZ tax credits (ERZ-2 form) and the Opportunity Zone 2.0 designations announced October 28, 2026.",
+   "url": "http://nheconomy.com/",
+   "phone": null,
+   "kind": "State",
+   "source": {
+    "label": "City of Nashua, ERZ Tax Credits",
+    "url": "https://www.nashuanh.gov/1094/Economic-Revitalization-Zone-Tax-Credits"
+   }
+  },
+  {
+   "name": "Greater Nashua Revolving Loan Fund",
+   "what": "City-run small business lender making loans up to $250,000 for working capital, equipment and owner-occupied commercial real estate.",
+   "url": "https://www.nashuanh.gov/1111/Greater-Nashua-Revolving-Loan-Fund",
+   "phone": "603-589-3070",
+   "kind": "Lender",
+   "source": {
+    "label": "City of Nashua, Greater Nashua Revolving Loan Fund",
+    "url": "https://www.nashuanh.gov/1111/Greater-Nashua-Revolving-Loan-Fund"
+   }
+  }
+ ],
+ "cityOffices": [
+  {
+   "name": "Economic Development (Office of the Mayor)",
+   "what": "Site searches, incentives (ERZ, 79-E, TIF), the Revolving Loan Fund and the Nashua on the Move newsletter; also receives 79-E applications.",
+   "url": "https://www.nashuanh.gov/333/Economic-Development",
+   "phone": "603-589-3260",
+   "source": {
+    "label": "City of Nashua, Economic Development directory",
+    "url": "https://www.nashuanh.gov/m/directory/department?did=17"
+   }
+  },
+  {
+   "name": "Building Safety (Community Development, 229 Main St., 2nd floor)",
+   "what": "Building, mechanical, electrical and plumbing permits; submit a Building and Landuse Application with plan sets by mail, drop box or in person, or email commercial submittals to permits@nashuanh.gov.",
+   "url": "https://www.nashuanh.gov/275",
+   "phone": "603-589-3080",
+   "source": {
+    "label": "City of Nashua, Building Safety",
+    "url": "https://www.nashuanh.gov/275"
+   }
+  },
+  {
+   "name": "Planning Department",
+   "what": "Zoning, Land Use Code, Planning Board, Zoning Board of Adjustment and Historic District Commission applications.",
+   "url": "https://www.nashuanh.gov/295/Planning-Department",
+   "phone": "603-589-3090",
+   "source": {
+    "label": "City of Nashua, Planning Department",
+    "url": "https://www.nashuanh.gov/295/Planning-Department"
+   }
+  },
+  {
+   "name": "Code Enforcement",
+   "what": "Property and code compliance questions for commercial spaces.",
+   "url": "https://www.nashuanh.gov/284",
+   "phone": "603-589-3100",
+   "source": {
+    "label": "City of Nashua, Community Development directory",
+    "url": "https://www.nashuanh.gov/m/directory/department?did=10"
+   }
+  },
+  {
+   "name": "Public Health Department",
+   "what": "Food service rules and inspections, including health requirements for outdoor dining.",
+   "url": "https://www.nashuanh.gov/1389/Outdoor-Dining",
+   "phone": "603-589-4530",
+   "source": {
+    "label": "City of Nashua, Outdoor Dining",
+    "url": "https://www.nashuanh.gov/1389/Outdoor-Dining"
+   }
+  },
+  {
+   "name": "Fire Marshal",
+   "what": "Fire code requirements and fire fee for outdoor dining and tents or canopies.",
+   "url": "https://www.nashuanh.gov/1389/Outdoor-Dining",
+   "phone": "603-589-3465",
+   "source": {
+    "label": "City of Nashua, Outdoor Dining",
+    "url": "https://www.nashuanh.gov/1389/Outdoor-Dining"
+   }
+  },
+  {
+   "name": "Transportation Department (parking)",
+   "what": "Parking violations and downtown parking questions.",
+   "url": "https://www.nashuanh.gov/309",
+   "phone": "603-589-3205",
+   "source": {
+    "label": "City of Nashua, Community Development directory",
+    "url": "https://www.nashuanh.gov/m/directory/department?did=10"
+   }
+  },
+  {
+   "name": "Urban Programs",
+   "what": "Federal CDBG and HOME programs administered through Community Development.",
+   "url": "https://www.nashuanh.gov/314",
+   "phone": "603-589-3085",
+   "source": {
+    "label": "City of Nashua, Community Development directory",
+    "url": "https://www.nashuanh.gov/m/directory/department?did=10"
+   }
+  }
+ ],
+ "howTo": [
+  {
+   "title": "Open a business in a commercial space",
+   "steps": "Contact Economic Development (603-589-3260) for site help, then check the Land Use Code and zoning with the Planning Department (603-589-3090). File a Building and Landuse Application with Building Safety (603-589-3080) for any fit-up work; commercial submittals can be emailed to permits@nashuanh.gov with one paper plan set delivered to City Hall.",
+   "url": "https://www.nashuanh.gov/275",
+   "source": {
+    "label": "City of Nashua, Building Safety",
+    "url": "https://www.nashuanh.gov/275"
+   }
+  },
+  {
+   "title": "Outdoor dining permit",
+   "steps": "Dining in the public right-of-way uses the Request for Right-Of-Way Dining form; dining on private or commercial property uses the Outdoor Dining Permit packet, checklist, Jotform upload and site plan review. Meet Fire Marshal, Public Health and Building requirements, and submit a hazardous weather plan if using canopies. A fire fee applies. Email OutdoorDining@nashuanh.gov.",
+   "url": "https://www.nashuanh.gov/1389/Outdoor-Dining",
+   "source": {
+    "label": "City of Nashua, Outdoor Dining",
+    "url": "https://www.nashuanh.gov/1389/Outdoor-Dining"
+   }
+  },
+  {
+   "title": "Apply for 79-E downtown tax relief on a building rehab",
+   "steps": "Projects in the Downtown Nashua Community Revitalization Tax Relief District that spend at least 15 percent of pre-rehab assessed value or $75,000 (whichever is less) and fit the Downtown Master Plan can apply. Submit the signed application to the Office of the Mayor-Economic Development; staff send it to the Board of Aldermen, which holds a public hearing and decides within 45 days.",
+   "url": "https://www.nashuanh.gov/1126/Downtown-Nashua-Tax-Relief-Incentive",
+   "source": {
+    "label": "City of Nashua, Downtown Nashua Tax Relief Incentive",
+    "url": "https://www.nashuanh.gov/1126/Downtown-Nashua-Tax-Relief-Incentive"
+   }
+  },
+  {
+   "title": "Apply for a Revolving Loan Fund loan",
+   "steps": "Businesses in or moving to Nashua and nearby towns can borrow up to $250,000 (most loans $10,000 to $50,000) for working capital, equipment or owner-occupied real estate. Start with a free pre-application to check eligibility; the full application follows if the project qualifies. Call 603-589-3070 for the current rate.",
+   "url": "https://www.nashuanh.gov/1111/Greater-Nashua-Revolving-Loan-Fund",
+   "source": {
+    "label": "City of Nashua, Greater Nashua Revolving Loan Fund",
+    "url": "https://www.nashuanh.gov/1111/Greater-Nashua-Revolving-Loan-Fund"
+   }
+  },
+  {
+   "title": "Claim ERZ tax credits",
+   "steps": "Firms that make a threshold capital investment and create new jobs in one of the city's ERZ areas (Downtown/Simon Street, Westwood Industrial Park, Southwood/Trafalgar, Spit Brook Road, Northeastern Blvd, Amherst Street, Perimeter Road/Nashua Airport) can apply using the state ERZ-2 form. Credits apply against the Business Profits Tax and Business Enterprise Tax up to $200,000. Contact the Office of the Mayor-Economic Development.",
+   "url": "https://www.nashuanh.gov/1094/Economic-Revitalization-Zone-Tax-Credits",
+   "source": {
+    "label": "City of Nashua, ERZ Tax Credits",
+    "url": "https://www.nashuanh.gov/1094/Economic-Revitalization-Zone-Tax-Credits"
+   }
+  },
+  {
+   "title": "Find commercial space",
+   "steps": "The Economic Development Division will help locate space from small shared startup offices to large turnkey lots and can run a customized site search. Call 603-589-3260 or review the ten business districts.",
+   "url": "https://www.nashuanh.gov/1073/Find-Available-Property",
+   "source": {
+    "label": "City of Nashua, Find Available Property",
+    "url": "https://www.nashuanh.gov/1073/Find-Available-Property"
+   }
+  }
+ ],
+ "notices": [
+  {
+   "date": "2026-10-29",
+   "title": "Mulberry Street closures for water and sewer work, Oct 29 to Nov 5",
+   "detail": "Mulberry Street between Main Street and Elm Street will see occasional closures on weekdays from 7:00 AM to 3:30 PM through Thursday, November 5 for utility work.",
+   "url": "https://www.nashuanh.gov/m/newsflash/Home/Detail/2683",
+   "source": {
+    "label": "City of Nashua, News Flash",
+    "url": "https://www.nashuanh.gov/m/newsflash/Home/Detail/2683"
+   }
+  },
+  {
+   "date": "2026-10-28",
+   "title": "Opportunity Zone 2.0 designations approved for 25 NH census tracts",
+   "detail": "Governor Ayotte announced U.S. Treasury approval of 25 tracts across all 10 counties, effective January 1, 2027 through December 31, 2036. The article does not name Nashua tracts; maps are on the state website.",
+   "url": "https://www.nashuaindependent.com/governor-announces-federal-approval-of-25-opportunity-zone-2-0-designations/",
+   "source": {
+    "label": "The Nashua Independent",
+    "url": "https://www.nashuaindependent.com/governor-announces-federal-approval-of-25-opportunity-zone-2-0-designations/"
+   }
+  },
+  {
+   "date": "2026-10-27",
+   "title": "Chamber hosts gubernatorial candidates at Nashua business forum",
+   "detail": "Gov. Kelly Ayotte and challenger Cinde Warmington outlined competing visions on taxes, affordability, housing, health care and child care at a Greater Nashua Chamber of Commerce forum.",
+   "url": "https://www.nashuaindependent.com/ayotte-warmington-outline-competing-visions-at-nashua-business-forum/",
+   "source": {
+    "label": "The Nashua Independent",
+    "url": "https://www.nashuaindependent.com/ayotte-warmington-outline-competing-visions-at-nashua-business-forum/"
+   }
+  },
+  {
+   "date": "2026-10-26",
+   "title": "Nashua on the Move: Co.Starters bootcamp, Millyard redevelopment, parking pilot, Main Street lighting",
+   "detail": "The October 2026 Economic Development newsletter reports Co.Starters entrepreneurship bootcamps with NH SBDC expected February or March 2027 (contact HannumL@nashuanh.gov), BIDA's selection of Lansing Melbourne Group for Millyard redevelopment of the former police training facility and Pine Street lot, an overnight residential parking pilot under consideration, permanent downtown tree lighting starting later in October, LaRose Alley upgrades targeted for summer 2027, and a new business recruitment marketing campaign.",
+   "url": "https://www.nashuanh.gov/DocumentCenter/View/36931/NASHUA-ON-THE-MOVE---October-26",
+   "source": {
+    "label": "City of Nashua, Nashua on the Move, October 2026",
+    "url": "https://www.nashuanh.gov/DocumentCenter/View/36931/NASHUA-ON-THE-MOVE---October-26"
+   }
+  },
+  {
+   "date": "2026-10-26",
+   "title": "Downtown Monster Mash trick-or-treat on Main Street",
+   "detail": "Downtown Nashua Association's Halloween event brought families to Main Street, with candy handed out by Main Street businesses.",
+   "url": "https://www.nashuaindependent.com/nashua-celebrates-halloween-with-candy-costumes-and-canines/",
+   "source": {
+    "label": "The Nashua Independent",
+    "url": "https://www.nashuaindependent.com/nashua-celebrates-halloween-with-candy-costumes-and-canines/"
+   }
+  },
+  {
+   "date": "2026-10-16",
+   "title": "Predictive Monitor opens 15,000 sq ft headquarters at 1800 Southwood Drive",
+   "detail": "The life sciences technology company held a ribbon cutting and open house for its new Nashua headquarters.",
+   "url": "https://www.nashuaindependent.com/predictive-monitor-held-ribbon-cutting-open-house-for-their-new-15-000-sq-ft-headquarters-in-nashua-nh/",
+   "source": {
+    "label": "The Nashua Independent",
+    "url": "https://www.nashuaindependent.com/predictive-monitor-held-ribbon-cutting-open-house-for-their-new-15-000-sq-ft-headquarters-in-nashua-nh/"
+   }
+  },
+  {
+   "date": "2026-07-17",
+   "title": "4 Bud Way flex industrial property sells for $6.8 million",
+   "detail": "Colliers brokered the sale of the fully leased 45,650 sq ft property from JP Irving LLC (Kelley Family Properties) to SIG 4 Bud LLC (Sticks Investment Group).",
+   "url": "https://members.nashuachamber.com/news/details/colliers-facilitates-6-8-million-sale-of-fully-leased-industrial-property-in-nashua-new-hampshire-07-17-2026",
+   "source": {
+    "label": "Greater Nashua Chamber of Commerce, member news",
+    "url": "https://members.nashuachamber.com/news/details/colliers-facilitates-6-8-million-sale-of-fully-leased-industrial-property-in-nashua-new-hampshire-07-17-2026"
+   }
+  }
+ ],
+ "programs": [
+  {
+   "name": "Downtown Nashua Tax Relief Incentive (RSA 79-E)",
+   "what": "Five to 13 years of property tax relief on the increase in value from substantially rehabilitating a downtown building, in exchange for a public benefit covenant.",
+   "url": "https://www.nashuanh.gov/1126/Downtown-Nashua-Tax-Relief-Incentive",
+   "source": {
+    "label": "City of Nashua, Tax Incentives",
+    "url": "https://www.nashuanh.gov/1122/Tax-Incentives"
+   }
+  },
+  {
+   "name": "Economic Revitalization Zone (ERZ) tax credits",
+   "what": "State tax credits against the Business Profits Tax and Business Enterprise Tax, up to $200,000, for firms that invest and create jobs in the city's designated zones.",
+   "url": "https://www.nashuanh.gov/1094/Economic-Revitalization-Zone-Tax-Credits",
+   "source": {
+    "label": "City of Nashua, ERZ Tax Credits",
+    "url": "https://www.nashuanh.gov/1094/Economic-Revitalization-Zone-Tax-Credits"
+   }
+  },
+  {
+   "name": "Greater Nashua Revolving Loan Fund",
+   "what": "Loans up to $250,000 (typically $10,000 to $50,000) for working capital, equipment and owner-occupied commercial real estate; the city says it is improving the program to support growth and job creation.",
+   "url": "https://www.nashuanh.gov/1111/Greater-Nashua-Revolving-Loan-Fund",
+   "source": {
+    "label": "City of Nashua, Greater Nashua Revolving Loan Fund",
+    "url": "https://www.nashuanh.gov/1111/Greater-Nashua-Revolving-Loan-Fund"
+   }
+  },
+  {
+   "name": "Tax Increment Financing (TIF)",
+   "what": "Under RSA 162-K, new property tax revenue from a development in a designated district pays for public improvements that support it.",
+   "url": "https://www.nashuanh.gov/1125/Tax-Increment-Financing",
+   "source": {
+    "label": "City of Nashua, Tax Incentives",
+    "url": "https://www.nashuanh.gov/1122/Tax-Incentives"
+   }
+  },
+  {
+   "name": "Research and Development Tax Credit",
+   "what": "State R&D tax credit available to Nashua firms of all sizes.",
+   "url": "https://www.nashuanh.gov/1118/Research-and-Development-Tax-Credit",
+   "source": {
+    "label": "City of Nashua, Tax Incentives",
+    "url": "https://www.nashuanh.gov/1122/Tax-Incentives"
+   }
+  },
+  {
+   "name": "Brownfields Cleanup Revolving Loan Fund",
+   "what": "City loan fund for cleaning up contaminated sites, listed under Incentives and Tax Credits.",
+   "url": "https://www.nashuanh.gov/1123/Brownfields-Cleanup-Revolving-Loan-Fund",
+   "source": {
+    "label": "City of Nashua, Resources",
+    "url": "https://www.nashuanh.gov/1039/Resources"
+   }
+  },
+  {
+   "name": "HUBZone",
+   "what": "Federal contracting preference for small businesses located in designated HUBZone areas of Nashua.",
+   "url": "https://www.nashuanh.gov/1124/HUBZone",
+   "source": {
+    "label": "City of Nashua, Resources",
+    "url": "https://www.nashuanh.gov/1039/Resources"
+   }
+  },
+  {
+   "name": "Co.Starters entrepreneurship bootcamp (with NH SBDC)",
+   "what": "City-promoted bootcamp expected February or March 2027; contact HannumL@nashuanh.gov.",
+   "url": "https://www.nashuanh.gov/DocumentCenter/View/36931/NASHUA-ON-THE-MOVE---October-26",
+   "source": {
+    "label": "City of Nashua, Nashua on the Move, October 2026",
+    "url": "https://www.nashuanh.gov/DocumentCenter/View/36931/NASHUA-ON-THE-MOVE---October-26"
+   }
+  },
+  {
+   "name": "SBDC counseling and SCORE mentoring",
+   "what": "Free one-on-one advising through the NH SBDC Nashua office at Nashua Community College and free mentoring through SCORE Merrimack Valley NH.",
+   "url": "https://www.nashuanh.gov/1072/Help-for-Entrepreneurs",
+   "source": {
+    "label": "City of Nashua, Help for Entrepreneurs",
+    "url": "https://www.nashuanh.gov/1072/Help-for-Entrepreneurs"
+   }
+  }
+ ],
+ "openings": [
+  {
+   "name": "Mesozoic Tiki Bar & Lounge",
+   "what": "Tiki bar and lounge at 97 Main St",
+   "date": "2026-08",
+   "detail": "Opened August 2026 at 97 Main St.",
+   "source": {
+    "label": "WOKQ",
+    "url": "https://wokq.com/mesozoic-tiki-bar-nashua-nh/"
+   }
+  },
+  {
+   "name": "Greater Nashua Mental Health Pine Street site",
+   "what": "Mental health center at 3 Pine St. Ext.",
+   "date": "2026-08-10",
+   "detail": "Reopened August 10, 2026 at 3 Pine St. Ext. after a fire.",
+   "source": {
+    "label": "Concord Monitor, Jul 29, 2026",
+    "url": "https://www.concordmonitor.com/2026/07/29/nashua-mental-health-center-reopening-fire/"
+   }
+  },
+  {
+   "name": "Southern New Hampshire Health Pharmacy",
+   "what": "Pharmacy",
+   "date": "2026-09",
+   "detail": "Ribbon cutting reported September 3, 2026.",
+   "source": {
+    "label": "The Nashua Independent, Sep 3, 2026",
+    "url": "https://www.nashuaindependent.com/southern-new-hampshire-health-pharmacy-ribbon-cutting/"
+   }
+  },
+  {
+   "name": "Predictive Monitor headquarters",
+   "what": "Life sciences technology company's 15,000 sq ft headquarters at 1800 Southwood Drive",
+   "date": "2026-10",
+   "detail": "Ribbon cutting and open house reported October 16, 2026; the company's OverShield system monitors refrigeration for pharmaceutical and biotech products.",
+   "source": {
+    "label": "The Nashua Independent, Oct 16, 2026",
+    "url": "https://www.nashuaindependent.com/predictive-monitor-held-ribbon-cutting-open-house-for-their-new-15-000-sq-ft-headquarters-in-nashua-nh/"
+   }
+  },
+  {
+   "name": "Infinity Aviation Group (grand re-opening)",
+   "what": "Aviation services at 79 Perimeter Rd, Nashua Airport",
+   "date": "2026-04-22",
+   "detail": "Grand re-opening and ribbon cutting for newly renovated terminal and hangar facilities, April 22, 2026.",
+   "source": {
+    "label": "Greater Nashua Chamber of Commerce, events",
+    "url": "https://members.nashuachamber.com/events/details/infinity-aviation-group-ribbon-cutting-7510"
+   }
+  }
+ ],
+ "closures": [],
+ "keywords": [
+  "restaurant",
+  "opens",
+  "opening",
+  "closing",
+  "closes",
+  "closed",
+  "storefront",
+  "chamber",
+  "downtown",
+  "main street",
+  "retail",
+  "brewery",
+  "taproom",
+  "cafe",
+  "bakery",
+  "boutique",
+  "developer",
+  "development",
+  "millyard",
+  "lease",
+  "small business",
+  "ribbon cutting",
+  "grand opening",
+  "parking",
+  "outdoor dining",
+  "permit",
+  "license",
+  "zoning",
+  "land use",
+  "tenant",
+  "industrial",
+  "headquarters",
+  "employer",
+  "hiring",
+  "layoffs",
+  "sbdc",
+  "score",
+  "grant",
+  "tax credit",
+  "erz",
+  "79-e",
+  "tif",
+  "revolving loan",
+  "bida",
+  "pheasant lane",
+  "nash casino"
+ ],
+ "stats": [
+  {
+   "label": "Holiday Stroll attendance",
+   "value": "Over 30,000 attendees every year",
+   "as_of": null,
+   "source": {
+    "label": "City of Nashua, Downtown Nashua",
+    "url": "https://www.nashuanh.gov/1060/Downtown-Nashua"
+   }
+  },
+  {
+   "label": "Business districts",
+   "value": "10 distinct business districts",
+   "as_of": null,
+   "source": {
+    "label": "City of Nashua, Business Districts",
+    "url": "https://www.nashuanh.gov/1038/Business-Districts"
+   }
+  },
+  {
+   "label": "The Downtowner newsletter readership",
+   "value": "Over 5,000 readers",
+   "as_of": null,
+   "source": {
+    "label": "Downtown Nashua Association",
+    "url": "https://www.downtownnashua.org/"
+   }
+  }
+ ],
+ "methodology": "Compiled Oct 29, 2026 from pages fetched this session: nashuanh.gov (Economic Development, Tax Incentives, Revolving Loan Fund, Outdoor Dining, Help for Entrepreneurs, Community Development directory, Building Safety, Planning, news flash, Nashua on the Move October 2026 newsletter), The Nashua Independent (site and RSS), Greater Nashua Chamber of Commerce (homepage and member news), Downtown Nashua Association, Manchester Ink Link, NH Business Review, Nashua Telegraph homepage headlines, Patch and WOKQ. Not covered: Nashua Telegraph articles (paywalled), the Nashua City Clerk page (fetch failed), the Chamber's ChamberMate news releases and ribbon cutting listings (fetch blocked), Nashua Ink Link (no working feed found), WMUR (fetch blocked). No city page stating a food service license process, sign permit process, vendor or peddler license, or official business counts was found. No 2026 closures in Nashua were verified from readable sources."
+}

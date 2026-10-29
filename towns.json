@@ -14,7 +14,10 @@
     "record": "data/portsmouth/record.json",
     "local": "data/portsmouth/local.json",
     "beyond": "data/portsmouth/beyond.json",
-    "feeds": "data/portsmouth/feeds.json"
+    "feeds": "data/portsmouth/feeds.json",
+    "parks": "data/portsmouth/parks.json",
+    "business": "data/portsmouth/business.json",
+    "candidates": "data/portsmouth/candidates.json"
    }
   },
   {
@@ -29,7 +32,8 @@
     "record": "data/nashua/record.json",
     "local": "data/nashua/local.json",
     "beyond": "data/nashua/beyond.json",
-    "feeds": "data/nashua/feeds.json"
+    "feeds": "data/nashua/feeds.json",
+    "business": "data/nashua/business.json"
    }
   },
   {

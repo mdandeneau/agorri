@@ -5,7 +5,7 @@
 // Cached for 1 minute per town at Cloudflare's edge so each upstream site sees at most ~60 requests an hour.
 const TTL = 60;
 const CAP = src => Math.max(1, Math.min(15, src.max || (src.tag ? 12 : 6)));
-const meta = (src, items) => items.map(i => ({ ...i, ...(src.tag ? { tag: src.tag } : {}), ...(src.level ? { level: src.level } : {}), ...(src.kind ? { kind: src.kind } : {}), ...(src.person ? { person: src.person } : {}) }));
+const meta = (src, items) => items.map(i => ({ ...i, ...(src.tag ? { tag: src.tag } : {}), ...(src.level ? { level: src.level } : {}), ...(src.kind ? { kind: src.kind } : {}), ...(src.person ? { person: src.person } : {}), ...(src.need ? { need: src.need } : {}) }));
 
 const decode = s => String(s || '')
   .replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, '$1')

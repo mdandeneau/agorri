@@ -1,0 +1,527 @@
+{
+ "as_of": "2026-10-29",
+ "note": "From the city's own pages (Economic Development, City Clerk, Health, Inspection, Planning) and open local coverage: Seacoast Current, Patch, NH Business Review. The Portsmouth Herald is paywalled and not used. Fees that the city does not publish online are left out.",
+ "organizations": [
+  {
+   "name": "City of Portsmouth Office of Economic Development",
+   "what": "City office that helps businesses start, expand or relocate in Portsmouth and staffs the Economic Development Commission.",
+   "url": "https://www.portsmouthnh.gov/economic",
+   "phone": "(603) 610-7220",
+   "kind": "Economic development",
+   "source": {
+    "label": "City of Portsmouth, Economic Development",
+    "url": "https://www.portsmouthnh.gov/economic-development"
+   }
+  },
+  {
+   "name": "The Chamber Collaborative of Greater Portsmouth",
+   "what": "Small business collective at 500 Market St. that runs networking events, candidate forums and the annual 10 to Watch awards.",
+   "url": "https://www.portsmouthchamber.org/",
+   "phone": "603.610.5514",
+   "kind": "Chamber",
+   "source": {
+    "label": "Chamber Collaborative of Greater Portsmouth",
+    "url": "https://www.portsmouthchamber.org/"
+   }
+  },
+  {
+   "name": "NH Small Business Development Center (SBDC)",
+   "what": "Free appointment-based counseling and low-cost training for new and established business owners.",
+   "url": "https://www.nhsbdc.org/",
+   "phone": null,
+   "kind": "Nonprofit",
+   "source": {
+    "label": "City of Portsmouth, Business Assistance",
+    "url": "https://www.portsmouthnh.gov/economic/business-assistance"
+   }
+  },
+  {
+   "name": "Seacoast SCORE",
+   "what": "Volunteer nonprofit offering free business mentoring and workshops to Rockingham and Strafford county residents.",
+   "url": "http://seacoast.score.org/",
+   "phone": null,
+   "kind": "Nonprofit",
+   "source": {
+    "label": "City of Portsmouth, Business Assistance",
+    "url": "https://www.portsmouthnh.gov/economic/business-assistance"
+   }
+  },
+  {
+   "name": "Regional Economic Development Corporation (REDC)",
+   "what": "Promotes economic development in Rockingham County and five eastern Hillsborough County communities.",
+   "url": "http://www.redc.com/",
+   "phone": null,
+   "kind": "Economic development",
+   "source": {
+    "label": "City of Portsmouth, Business Assistance",
+    "url": "https://www.portsmouthnh.gov/economic/business-assistance"
+   }
+  },
+  {
+   "name": "NH Department of Business and Economic Affairs",
+   "what": "State agency covering business and industrial development, international trade and procurement assistance.",
+   "url": "http://nheconomy.com/",
+   "phone": null,
+   "kind": "State",
+   "source": {
+    "label": "City of Portsmouth, Business Assistance",
+    "url": "https://www.portsmouthnh.gov/economic/business-assistance"
+   }
+  },
+  {
+   "name": "NH Business Finance Authority (BFA)",
+   "what": "Provides financial assistance and credit enhancements to companies building or expanding facilities in New Hampshire.",
+   "url": "http://www.nhbfa.com",
+   "phone": null,
+   "kind": "Lender",
+   "source": {
+    "label": "City of Portsmouth, Financial Assistance",
+    "url": "https://www.portsmouthnh.gov/economic/financial-assistance"
+   }
+  },
+  {
+   "name": "Granite State Development Corporation",
+   "what": "Loan program financing up to 90 percent of fixed assets, construction, renovation and equipment for eligible for-profit businesses.",
+   "url": "http://www.granitestatedev.com/",
+   "phone": null,
+   "kind": "Lender",
+   "source": {
+    "label": "City of Portsmouth, Financial Assistance",
+    "url": "https://www.portsmouthnh.gov/economic/financial-assistance"
+   }
+  },
+  {
+   "name": "New Hampshire Community Loan Fund",
+   "what": "Community development financial institution lending to small businesses, nonprofits and child-care providers.",
+   "url": "http://www.communityloanfund.org/",
+   "phone": null,
+   "kind": "Lender",
+   "source": {
+    "label": "City of Portsmouth, Financial Assistance",
+    "url": "https://www.portsmouthnh.gov/economic/financial-assistance"
+   }
+  },
+  {
+   "name": "Institute for Cooperative Community Development (ICCD)",
+   "what": "Microloan program offering small loans of up to $25,000 to New Hampshire businesses.",
+   "url": "http://cdi.coop/",
+   "phone": null,
+   "kind": "Lender",
+   "source": {
+    "label": "City of Portsmouth, Financial Assistance",
+    "url": "https://www.portsmouthnh.gov/economic/financial-assistance"
+   }
+  }
+ ],
+ "cityOffices": [
+  {
+   "name": "Office of Economic Development",
+   "what": "First stop before signing a lease; staff help with site selection, incentives and navigating city approvals.",
+   "url": "https://www.portsmouthnh.gov/economic/contact",
+   "phone": "603-610-7220",
+   "source": {
+    "label": "City of Portsmouth, How to Start a Business",
+    "url": "https://www.portsmouthnh.gov/economic/how-start-business-portsmouth-nh"
+   }
+  },
+  {
+   "name": "Planning and Sustainability Department",
+   "what": "Zoning confirmation, land use approvals (Planning Board, Historic District Commission, conditional use permits), sign questions and outdoor dining encumbrance permits.",
+   "url": "https://www.portsmouthnh.gov/planportsmouth",
+   "phone": "(603) 610-7216",
+   "source": {
+    "label": "City of Portsmouth, Planning contact",
+    "url": "https://www.portsmouthnh.gov/planportsmouth/contact"
+   }
+  },
+  {
+   "name": "Inspection Department",
+   "what": "Building permits, tenant fit-up permits and certificates of occupancy, applied for through the online permit portal.",
+   "url": "https://www.portsmouthnh.gov/inspection",
+   "phone": "(603) 610-7243",
+   "source": {
+    "label": "City of Portsmouth, Inspection",
+    "url": "https://www.portsmouthnh.gov/inspection"
+   }
+  },
+  {
+   "name": "Health Department",
+   "what": "Food service permits, pre-opening walk-throughs and inspections for restaurants, mobile vendors and farmers market vendors.",
+   "url": "https://www.portsmouthnh.gov/health",
+   "phone": "(603) 610-7273",
+   "source": {
+    "label": "City of Portsmouth, Food Permits",
+    "url": "https://www.portsmouthnh.gov/health/food-permits"
+   }
+  },
+  {
+   "name": "City Clerk",
+   "what": "Vendor (hawkers and peddlers) licenses, sidewalk obstruction licenses, taxi, amusement, bowling and billiards, pawn broker and event or parade permits.",
+   "url": "https://www.portsmouthnh.gov/cityclerk",
+   "phone": "(603) 610-7245",
+   "source": {
+    "label": "City of Portsmouth, City Clerk",
+    "url": "https://www.portsmouthnh.gov/cityclerk"
+   }
+  },
+  {
+   "name": "Community Development",
+   "what": "Administers CDBG grants, including FY27 public facility and accessibility improvement grants for nonprofits.",
+   "url": "https://www.portsmouthnh.gov/community/news/fy27-cdbg-public-facility-and-accessibility-improvement-grants-available",
+   "phone": "603-610-7281",
+   "source": {
+    "label": "City of Portsmouth, FY27 CDBG grants",
+    "url": "https://www.portsmouthnh.gov/community/news/fy27-cdbg-public-facility-and-accessibility-improvement-grants-available"
+   }
+  }
+ ],
+ "howTo": [
+  {
+   "title": "Open a business (any type)",
+   "steps": "Before signing a lease, talk to the Economic Development Office, confirm zoning allows your use, and request a free informal walk-through with Inspection and Fire staff. After choosing a site, get any land use approvals (Historic District Commission, Planning Board or conditional use permits), then apply for a building permit in the permit portal and choose Tenant Fit-Up, which applies to every new business even if nothing changes. A Certificate of Occupancy is issued after inspections.",
+   "url": "https://www.portsmouthnh.gov/economic/how-start-business-portsmouth-nh",
+   "source": {
+    "label": "City of Portsmouth, How to Start a Business",
+    "url": "https://www.portsmouthnh.gov/economic/how-start-business-portsmouth-nh"
+   }
+  },
+  {
+   "title": "Open a restaurant or food business",
+   "steps": "Contact the Health Department early; a free walk-through is usually scheduled within two business days and food service floor plans must be approved before construction. Use the New/Renovated Food Establishment Checklist and the Restaurant Construction Guide, then apply in the OpenGov/ViewPoint portal. The permit is issued after pre-opening inspections; annual permits expire September 30 and seasonal permits October 15.",
+   "url": "https://www.portsmouthnh.gov/health/food-permits",
+   "source": {
+    "label": "City of Portsmouth, Food Permits",
+    "url": "https://www.portsmouthnh.gov/health/food-permits"
+   }
+  },
+  {
+   "title": "Outdoor dining (sidewalk, parking space or travel lane cafe)",
+   "steps": "Apply through the city permit portal for an Outdoor Dining Encumbrance Permit; the 2026 application period opened March 10, with public realm use from May 1 to October 12. Fees are $5 per square foot of cafe area with a $750 minimum for sidewalks, parking spaces or travel lanes. If the cafe extends in front of a neighboring business, get that abutter's written consent first. Planning Department: (603) 610-7216.",
+   "url": "https://www.portsmouthnh.gov/planportsmouth/news/city-start-reviewing-applications-outdoor-dining-encumbrance-permits-starting",
+   "source": {
+    "label": "City of Portsmouth, Outdoor Dining Encumbrance Permits 2026",
+    "url": "https://www.portsmouthnh.gov/planportsmouth/news/city-start-reviewing-applications-outdoor-dining-encumbrance-permits-starting"
+   }
+  },
+  {
+   "title": "Sidewalk obstruction license (tables, chairs, A-frame signs, racks)",
+   "steps": "Any table, chair, bench, A-frame sign, clothing rack or mannequin on a city sidewalk needs a sidewalk obstruction license. Review Chapter 6, Article I of the city ordinances, then apply or renew through the Permitting and Licensing portal. City Clerk: (603) 610-7245.",
+   "url": "https://www.portsmouthnh.gov/cityclerk/sidewalk-obstruction-license",
+   "source": {
+    "label": "City of Portsmouth, Sidewalk Obstruction License",
+    "url": "https://www.portsmouthnh.gov/cityclerk/sidewalk-obstruction-license"
+   }
+  },
+  {
+   "title": "Vendor or peddler license",
+   "steps": "Anyone selling goods or food while moving from place to place on city property needs a Vending (Hawkers and Peddlers) License from the City Clerk. Food vendors must first get a license from the Health Department. Complete the 2026 vendor application and bring it to the City Clerk at 1 Junkins Avenue.",
+   "url": "https://www.portsmouthnh.gov/cityclerk/vendors-license",
+   "source": {
+    "label": "City of Portsmouth, Vendor's License",
+    "url": "https://www.portsmouthnh.gov/cityclerk/vendors-license"
+   }
+  },
+  {
+   "title": "Sign permit",
+   "steps": "Sign regulations are Article 12 of the Zoning Ordinance. The Inspection Department does not issue sign permits; contact the Planning Department at 603-610-7216. Signs in the historic district may also need Historic District Commission review.",
+   "url": "https://www.portsmouthnh.gov/planportsmouth/land-use-and-zoning-regulations",
+   "source": {
+    "label": "City of Portsmouth, Inspection",
+    "url": "https://www.portsmouthnh.gov/inspection"
+   }
+  },
+  {
+   "title": "Business license",
+   "steps": "The City of Portsmouth does not require a general business license. The State of New Hampshire issues business registrations through the Secretary of State (603-271-3242).",
+   "url": "https://www.portsmouthnh.gov/cityclerk/business-license",
+   "source": {
+    "label": "City of Portsmouth, Business License",
+    "url": "https://www.portsmouthnh.gov/cityclerk/business-license"
+   }
+  }
+ ],
+ "notices": [
+  {
+   "date": "2026-10-28",
+   "title": "Opportunity Zone 2.0 designations approved for 25 NH census tracts",
+   "detail": "Governor Ayotte announced U.S. Treasury approval of 25 New Hampshire tracts across all 10 counties, effective January 1, 2027 through December 31, 2036. The article does not name Portsmouth tracts; maps are on the state website.",
+   "url": "https://www.nashuaindependent.com/governor-announces-federal-approval-of-25-opportunity-zone-2-0-designations/",
+   "source": {
+    "label": "The Nashua Independent",
+    "url": "https://www.nashuaindependent.com/governor-announces-federal-approval-of-25-opportunity-zone-2-0-designations/"
+   }
+  },
+  {
+   "date": "2026-10-26",
+   "title": "Free legal, accounting and financial consulting for small businesses via NH SBDC",
+   "detail": "Devine Millimet partnered with the NH Small Business Development Center to offer up to five hours of private sessions with legal, accounting or financial professionals through the SBDC LeAF program.",
+   "url": "https://patch.com/new-hampshire/portsmouth-nh/devine-millimet-partners-nh-sbdc-provide-free-legal-consulting-services",
+   "source": {
+    "label": "Patch Portsmouth",
+    "url": "https://patch.com/new-hampshire/portsmouth-nh/devine-millimet-partners-nh-sbdc-provide-free-legal-consulting-services"
+   }
+  },
+  {
+   "date": "2026-10-23",
+   "title": "FY27 CDBG public facility and accessibility grants open",
+   "detail": "Grants of roughly $25,000 to $150,000 for 501(c)(3) nonprofits serving low and moderate income Portsmouth residents or making ADA improvements. Rolling applications until December 18, 2026; shovel-ready projects finishing by February 20, 2027 get priority. Contact Kay Wright, 603-610-7281.",
+   "url": "https://www.portsmouthnh.gov/community/news/fy27-cdbg-public-facility-and-accessibility-improvement-grants-available",
+   "source": {
+    "label": "City of Portsmouth, Community Development",
+    "url": "https://www.portsmouthnh.gov/community/news/fy27-cdbg-public-facility-and-accessibility-improvement-grants-available"
+   }
+  },
+  {
+   "date": "2026-10-16",
+   "title": "Cate Street Bridge project public information session",
+   "detail": "DPW held a public session on October 20 at the Senior Activity Center with project updates and Q&A on the Cate Street Bridge construction.",
+   "url": "https://www.portsmouthnh.gov/city/press-releases/dpw-hosts-cate-street-bridge-project-public-information-session-october-20-2026",
+   "source": {
+    "label": "City of Portsmouth, Press Releases",
+    "url": "https://www.portsmouthnh.gov/city/whats-new"
+   }
+  },
+  {
+   "date": "2026-10-13",
+   "title": "Parking restrictions and road closures for the October 31 Halloween Parade",
+   "detail": "The parade will cause significant traffic delays along its downtown route; drivers are urged to use alternate roads and parking restrictions apply along the route.",
+   "url": "https://www.portsmouthnh.gov/city/press-releases/parking-restrictions-and-road-closures-2026-portsmouth-halloween-parade",
+   "source": {
+    "label": "City of Portsmouth, Press Releases",
+    "url": "https://www.portsmouthnh.gov/city/whats-new"
+   }
+  },
+  {
+   "date": "2026-10-12",
+   "title": "2026 outdoor dining season ended October 12",
+   "detail": "Per the city's March 10 notice, use of sidewalks, travel lanes and parking spaces for outdoor dining ran May 1 through October 12, 2026. Applications for the next season are handled by the Planning Department.",
+   "url": "https://www.portsmouthnh.gov/planportsmouth/news/city-start-reviewing-applications-outdoor-dining-encumbrance-permits-starting",
+   "source": {
+    "label": "City of Portsmouth, Planning",
+    "url": "https://www.portsmouthnh.gov/planportsmouth/news/city-start-reviewing-applications-outdoor-dining-encumbrance-permits-starting"
+   }
+  },
+  {
+   "date": "2026-09-29",
+   "title": "City evaluates stormwater funding options, including a possible stormwater utility",
+   "detail": "The city hired Raftelis Financial Consultants to study whether to create a dedicated Stormwater Enterprise Utility, which could change how stormwater infrastructure is funded and billed to property owners.",
+   "url": "https://www.portsmouthnh.gov/city/press-releases/portsmouth-evaluates-stormwater-funding-options",
+   "source": {
+    "label": "City of Portsmouth, Press Releases",
+    "url": "https://www.portsmouthnh.gov/city/whats-new"
+   }
+  },
+  {
+   "date": "2026-08-17",
+   "title": "Council parking work session: proposed short-term rate increase and workforce parking options",
+   "detail": "Staff proposed on-street and lot rates of $3 per hour for the first 3 hours and $6 per hour after. Downtown workforce options include the Parrott Avenue pilot (about $3.35 for a 10-hour day, 108 spaces) and the Foundry Garage ($3 for up to 10 hours, up to 20 times a month). Foundry workforce parking hit 160 cars a day in July 2026.",
+   "url": "https://files.portsmouthnh.gov/agendas/2026/City Council/2026.08.17.Parking_Work_Session-Presentation.pdf",
+   "source": {
+    "label": "City of Portsmouth, City Council parking work session presentation",
+    "url": "https://files.portsmouthnh.gov/agendas/2026/City Council/2026.08.17.Parking_Work_Session-Presentation.pdf"
+   }
+  }
+ ],
+ "programs": [
+  {
+   "name": "Economic Revitalization Zone (ERZ) tax credits",
+   "what": "State tax credits against the Business Profits Tax and Business Enterprise Tax, up to $40,000 a year for five years, for businesses that expand or relocate and create full-time jobs in one of five Portsmouth zones: Pease Tradeport, Portsmouth Office Park (Commerce Way), Heritage-Constitution Industrial Park, Central Business District and West End.",
+   "url": "https://www.portsmouthnh.gov/economic/economic-revitalization-zones-erz",
+   "source": {
+    "label": "City of Portsmouth, ERZ",
+    "url": "https://www.portsmouthnh.gov/economic/economic-revitalization-zones-erz"
+   }
+  },
+  {
+   "name": "Outdoor Dining Encumbrance Permit",
+   "what": "Seasonal permit to use sidewalks, parking spaces or travel lanes for cafe seating, May 1 to October 12 in 2026, at $5 per square foot with a $750 minimum.",
+   "url": "https://www.portsmouthnh.gov/planportsmouth/news/city-start-reviewing-applications-outdoor-dining-encumbrance-permits-starting",
+   "source": {
+    "label": "City of Portsmouth, Planning",
+    "url": "https://www.portsmouthnh.gov/planportsmouth/news/city-start-reviewing-applications-outdoor-dining-encumbrance-permits-starting"
+   }
+  },
+  {
+   "name": "Downtown Workforce Parking Program",
+   "what": "Discounted parking for downtown employees: Foundry Garage at $3 for up to 10 hours (up to 20 times a month) and the Parrott Avenue on-street pilot at 30 cents an hour plus a 35 cent fee.",
+   "url": "https://files.portsmouthnh.gov/agendas/2026/City Council/2026.08.17.Parking_Work_Session-Presentation.pdf",
+   "source": {
+    "label": "City of Portsmouth, parking work session Aug 17, 2026",
+    "url": "https://files.portsmouthnh.gov/agendas/2026/City Council/2026.08.17.Parking_Work_Session-Presentation.pdf"
+   }
+  },
+  {
+   "name": "FY27 CDBG Public Facility and Accessibility Improvement Grants",
+   "what": "Competitive grants, generally $25,000 to $150,000, for 501(c)(3) nonprofits; applications accepted on a rolling basis until December 18, 2026.",
+   "url": "https://www.portsmouthnh.gov/community/news/fy27-cdbg-public-facility-and-accessibility-improvement-grants-available",
+   "source": {
+    "label": "City of Portsmouth, Community Development",
+    "url": "https://www.portsmouthnh.gov/community/news/fy27-cdbg-public-facility-and-accessibility-improvement-grants-available"
+   }
+  },
+  {
+   "name": "SBDC counseling and SCORE mentoring",
+   "what": "Free one-on-one business counseling through the NH SBDC and free mentoring and workshops through Seacoast SCORE; the Portsmouth Public Library also offers business research databases.",
+   "url": "https://www.portsmouthnh.gov/economic/business-assistance",
+   "source": {
+    "label": "City of Portsmouth, Business Assistance",
+    "url": "https://www.portsmouthnh.gov/economic/business-assistance"
+   }
+  },
+  {
+   "name": "Foreign Trade Zone No. 81",
+   "what": "Three Portsmouth sites (Pease International Tradeport, the Port of New Hampshire and the Portsmouth Industrial Park on Lafayette Road) are part of Foreign Trade Zone 81, awarded in 1982.",
+   "url": "https://www.portsmouthnh.gov/economic/why-portsmouth-0",
+   "source": {
+    "label": "City of Portsmouth, About Portsmouth",
+    "url": "https://www.portsmouthnh.gov/economic/why-portsmouth-0"
+   }
+  },
+  {
+   "name": "Small business loans (BFA, GSDC, Community Loan Fund, ICCD microloans, SBA 7(a))",
+   "what": "Loan and guaranty programs listed by the city for fixed assets, equipment, working capital and microloans up to $25,000.",
+   "url": "https://www.portsmouthnh.gov/economic/financial-assistance",
+   "source": {
+    "label": "City of Portsmouth, Financial Assistance",
+    "url": "https://www.portsmouthnh.gov/economic/financial-assistance"
+   }
+  }
+ ],
+ "openings": [
+  {
+   "name": "Lost Cowboy Taproom",
+   "what": "Taproom, sister location of Lost Cowboy Brewing Co. in Nashua",
+   "date": "2026-06",
+   "detail": "Listed among New Hampshire restaurants that opened in June and July 2026; the article gives no street address.",
+   "source": {
+    "label": "Seacoast Current, Aug 10, 2026",
+    "url": "https://seacoastcurrent.com/ixp/701/p/new-hampshire-restaurants-june-july-2026/"
+   }
+  },
+  {
+   "name": "Leavitt & Co.",
+   "what": "Three-floor boutique selling accessories, home decor and women's clothing at 2 Bow Street",
+   "date": "2026-04",
+   "detail": "Second store for the Newburyport-based shop; the March 16, 2026 article said it was expected to open in April 2026. Opening not separately confirmed.",
+   "source": {
+    "label": "WOKQ, Mar 16, 2026",
+    "url": "https://wokq.com/portsmouth-new-boutique-leavitt-nh-newburyport/"
+   }
+  },
+  {
+   "name": "Small Talk Wine Co.",
+   "what": "Wine bar planned for 238 State Street, the former Savario's space",
+   "date": null,
+   "detail": "Reported July 15, 2026 as expected to open, with the company hiring; no opening date announced.",
+   "source": {
+    "label": "Seacoast Current, Jul 15, 2026",
+    "url": "https://seacoastcurrent.com/ixp/701/p/small-talk-wine-portsmouth-nh/"
+   }
+  }
+ ],
+ "closures": [
+  {
+   "name": "Red Rover Creamery",
+   "what": "Ice cream shop in Portsmouth",
+   "date": "2026-10-31",
+   "detail": "Closing for good; last day October 31, 2026.",
+   "source": {
+    "label": "Seacoast Current",
+    "url": "https://seacoastcurrent.com/ixp/701/p/red-rover-creamery-portsmouth-nh-close/"
+   }
+  },
+  {
+   "name": "Earth Eagle Tavern (Portsmouth)",
+   "what": "Tavern and beer garden, the original Portsmouth location",
+   "date": "2026-09-27",
+   "detail": "Closed Sunday, September 27, 2026; the Somersworth sister location remains open. No reason was given.",
+   "source": {
+    "label": "Seacoast Current, Sep 15, 2026",
+    "url": "https://seacoastcurrent.com/ixp/701/p/earth-eagle-portsmouth-nh-closing-2026/"
+   }
+  }
+ ],
+ "keywords": [
+  "restaurant",
+  "opens",
+  "opening",
+  "closing",
+  "closes",
+  "closed",
+  "storefront",
+  "chamber",
+  "downtown",
+  "retail",
+  "brewery",
+  "taproom",
+  "cafe",
+  "bakery",
+  "boutique",
+  "developer",
+  "development",
+  "lease",
+  "small business",
+  "ribbon cutting",
+  "grand opening",
+  "market square",
+  "parking",
+  "outdoor dining",
+  "sidewalk cafe",
+  "permit",
+  "license",
+  "zoning",
+  "tenant",
+  "hotel",
+  "pease",
+  "tradeport",
+  "shipyard",
+  "employer",
+  "hiring",
+  "layoffs",
+  "sbdc",
+  "score",
+  "grant",
+  "tax credit",
+  "erz",
+  "cdbg"
+ ],
+ "stats": [
+  {
+   "label": "Parking Fund budgeted contribution, FY27",
+   "value": "$6.86 million (up 67.6 percent since FY22); $2.5 million direct support to the General Fund",
+   "as_of": "2026-08-17",
+   "source": {
+    "label": "City of Portsmouth, City Council parking work session",
+    "url": "https://files.portsmouthnh.gov/agendas/2026/City Council/2026.08.17.Parking_Work_Session-Presentation.pdf"
+   }
+  },
+  {
+   "label": "Foundry Garage workforce parking, daily users",
+   "value": "160 per day in July 2026 (+23.1 percent vs July 2025)",
+   "as_of": "2026-07",
+   "source": {
+    "label": "City of Portsmouth, City Council parking work session",
+    "url": "https://files.portsmouthnh.gov/agendas/2026/City Council/2026.08.17.Parking_Work_Session-Presentation.pdf"
+   }
+  },
+  {
+   "label": "Hanover Garage reconstruction",
+   "value": "$6.8 million project, 2022 to 2025, 900 spaces",
+   "as_of": "2026-08-17",
+   "source": {
+    "label": "City of Portsmouth, City Council parking work session",
+    "url": "https://files.portsmouthnh.gov/agendas/2026/City Council/2026.08.17.Parking_Work_Session-Presentation.pdf"
+   }
+  },
+  {
+   "label": "Portsmouth Naval Shipyard payroll",
+   "value": "$414 million military and civilian payroll (year not stated)",
+   "as_of": null,
+   "source": {
+    "label": "City of Portsmouth, About Portsmouth",
+    "url": "https://www.portsmouthnh.gov/economic/why-portsmouth-0"
+   }
+  }
+ ],
+ "methodology": "Compiled Oct 29, 2026 from pages fetched this session: portsmouthnh.gov (Economic Development, City Clerk, Health, Inspection, Planning, news), Seacoast Current, WOKQ, Patch Portsmouth, NH Business Review, The Nashua Independent. Not covered: Seacoastonline/Portsmouth Herald (paywalled, not fetched), the Chamber Collaborative's news page at business.portsmouthchamber.org (fetch blocked), WMUR (fetch blocked), Business NH Magazine (no RSS found). No official count of registered businesses or downtown vacancy was found. Fees for vendor, sidewalk obstruction and business licenses are not published on the city pages read."
+}

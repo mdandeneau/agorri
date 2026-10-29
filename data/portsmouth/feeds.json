@@ -88,6 +88,131 @@
    "person": "ayotte",
    "kind": "official",
    "level": "State"
+  },
+  {
+   "id": "parks-portsmouth-recreation-rss",
+   "who": "City of Portsmouth Recreation Department",
+   "platform": "City website",
+   "type": "rss",
+   "url": "https://www.portsmouthnh.gov/taxonomy/term/6/feed",
+   "tag": "parks",
+   "level": "City",
+   "kind": "official",
+   "auto": true
+  },
+  {
+   "id": "parks-portsmouth-parks-greenery-rss",
+   "who": "City of Portsmouth Parks and Greenery Division (DPW)",
+   "platform": "City website",
+   "type": "rss",
+   "url": "https://www.portsmouthnh.gov/taxonomy/term/51/feed",
+   "tag": "parks",
+   "level": "City",
+   "kind": "official",
+   "auto": true
+  },
+  {
+   "id": "biz-seacoast-current-rss",
+   "who": "Seacoast Current (Townsquare Media), Seacoast NH and southern Maine news; filter by keywords and 'Portsmouth'",
+   "platform": "News",
+   "type": "rss",
+   "url": "https://seacoastcurrent.com/feed/",
+   "tag": "business",
+   "level": "Other",
+   "kind": "official",
+   "max": 15,
+   "need": "both",
+   "auto": true
+  },
+  {
+   "id": "biz-nhbr-rss",
+   "who": "NH Business Review, statewide business news; filter by 'Portsmouth' and keywords",
+   "platform": "News",
+   "type": "rss",
+   "url": "https://www.nhbr.com/feed/",
+   "tag": "business",
+   "level": "Other",
+   "kind": "official",
+   "max": 15,
+   "need": "both",
+   "auto": true
+  },
+  {
+   "id": "cand-kelly-ayotte-youtube",
+   "who": "Kelly Ayotte",
+   "platform": "YouTube",
+   "type": "atom",
+   "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCLQ_gWh4riybyvpEmnjxBdw",
+   "person": "kelly-ayotte",
+   "level": "State",
+   "kind": "candidate",
+   "auto": true
+  },
+  {
+   "id": "cand-cinde-warmington-bluesky",
+   "who": "Cinde Warmington",
+   "platform": "Bluesky",
+   "type": "bluesky",
+   "actor": "cindewarmington.bsky.social",
+   "person": "cinde-warmington",
+   "level": "State",
+   "kind": "candidate",
+   "auto": true
+  },
+  {
+   "id": "cand-cinde-warmington-youtube",
+   "who": "Cinde Warmington",
+   "platform": "YouTube",
+   "type": "atom",
+   "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC3gxk7gBNBJsA2kmn3oexww",
+   "person": "cinde-warmington",
+   "level": "State",
+   "kind": "candidate",
+   "auto": true
+  },
+  {
+   "id": "cand-chris-pappas-youtube",
+   "who": "Chris Pappas",
+   "platform": "YouTube",
+   "type": "atom",
+   "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCOMLLJGmSQXBDHufSt5am-w",
+   "person": "chris-pappas",
+   "level": "Federal",
+   "kind": "candidate",
+   "auto": true
+  },
+  {
+   "id": "cand-john-e-sununu-youtube",
+   "who": "John E. Sununu",
+   "platform": "YouTube",
+   "type": "atom",
+   "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCFBKQ8ZiDukeM9vCAnuJVeg",
+   "person": "john-e-sununu",
+   "level": "Federal",
+   "kind": "candidate",
+   "auto": true
+  },
+  {
+   "id": "cand-stefany-shaheen-youtube",
+   "who": "Stefany Shaheen",
+   "platform": "YouTube",
+   "type": "atom",
+   "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC8Pm1wGGBDTOByU864aR28A",
+   "person": "stefany-shaheen",
+   "level": "Federal",
+   "kind": "candidate",
+   "auto": true
+  },
+  {
+   "id": "cand-anthony-dilorenzo-youtube",
+   "who": "Anthony DiLorenzo",
+   "platform": "YouTube",
+   "type": "atom",
+   "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCstfQuHWq5bqeHb6s_-e7kQ",
+   "person": "anthony-dilorenzo",
+   "level": "Federal",
+   "kind": "candidate",
+   "auto": true
   }
  ]
 }

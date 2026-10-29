@@ -128,6 +128,44 @@
    "person": "ayotte",
    "kind": "official",
    "level": "State"
+  },
+  {
+   "id": "biz-nashua-independent-business-rss",
+   "who": "The Nashua Independent, Business tag only (press releases, hospital and company news, ribbon cuttings)",
+   "platform": "News",
+   "type": "rss",
+   "url": "https://www.nashuaindependent.com/tag/business/rss/",
+   "tag": "business",
+   "level": "Other",
+   "kind": "official",
+   "max": 15,
+   "auto": true
+  },
+  {
+   "id": "biz-nhbr-rss",
+   "who": "NH Business Review, statewide business news; filter by 'Nashua' and keywords",
+   "platform": "News",
+   "type": "rss",
+   "url": "https://www.nhbr.com/feed/",
+   "tag": "business",
+   "level": "Other",
+   "kind": "official",
+   "max": 15,
+   "need": "both",
+   "auto": true
+  },
+  {
+   "id": "biz-manchester-inklink-rss",
+   "who": "Manchester Ink Link; Manchester-centric with occasional Nashua and statewide items",
+   "platform": "News",
+   "type": "rss",
+   "url": "https://manchester.inklink.news/feed/",
+   "tag": "business",
+   "level": "Other",
+   "kind": "official",
+   "max": 15,
+   "need": "both",
+   "auto": true
   }
  ]
 }

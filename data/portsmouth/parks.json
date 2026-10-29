@@ -1,0 +1,900 @@
+{
+ "as_of": "2026-10-29",
+ "note": "Compiled from City of Portsmouth Recreation Department and Public Works (Parks and Greenery) pages on portsmouthnh.gov, fetched October 29, 2026. Neighborhood playgrounds and DPW-maintained parks beyond those with their own city pages are listed by name only from the city's Parks and Playgrounds map; fees shown only as images on the city site are not included.",
+ "department": {
+  "name": "City of Portsmouth Recreation Department",
+  "url": "https://www.portsmouthnh.gov/recreation",
+  "phone": "603-427-1547",
+  "email": null,
+  "address": "100 Campus Drive, Portsmouth, NH 03801 (Community Campus)",
+  "hours": "Monday to Friday, 9:00 am to 5:00 pm",
+  "what": "Runs the city's recreation centers, indoor and outdoor pools, athletic fields, boat launch, skate park, senior center, and youth, adult and senior programs. Parks, gardens and playground construction are handled by the Parks and Greenery Division of Public Works.",
+  "source": {
+   "label": "Recreation Department",
+   "url": "https://www.portsmouthnh.gov/recreation"
+  }
+ },
+ "registration": {
+  "url": "https://portsmouthnh.myrec.com/info/default.aspx",
+  "label": "Register for programs (MyRec)",
+  "note": "MyRec is used for registration, receipts, schedules, memberships, boat launch passes and Four Tree Island pavilion reservations. Waitlists fill residents first, then nonresidents."
+ },
+ "facilities": [
+  {
+   "id": "community-campus",
+   "name": "Community Campus",
+   "kind": "Community center",
+   "address": "100 Campus Drive, Portsmouth, NH",
+   "features": [
+    "Gym used for basketball, pickleball and walking",
+    "8 outdoor pickleball courts, free, dawn to dusk",
+    "Playground (open dawn to dusk on weekends)",
+    "Walking trail behind the turf field",
+    "Recreation Department central office",
+    "ACE afterschool space"
+   ],
+   "hours": "Monday to Friday 8:30am to 8:00pm; Saturday 8:30am to 4:00pm; Sunday closed",
+   "seasonal": null,
+   "url": "https://www.portsmouthnh.gov/recreation/communitycampus",
+   "note": "A year-long renovation ended with a ribbon-cutting on August 28, 2025.",
+   "source": {
+    "label": "Community Campus",
+    "url": "https://www.portsmouthnh.gov/recreation/communitycampus"
+   }
+  },
+  {
+   "id": "athletic-field-complex",
+   "name": "Recreation Athletic Field Complex (Campus Drive)",
+   "kind": "Field",
+   "address": "Campus Drive, off West Road, Portsmouth, NH",
+   "features": [
+    "Two synthetic turf multi-purpose fields, 360 ft x 225 ft each",
+    "Field 1 lined for softball and soccer",
+    "Field 2 lined for soccer, lacrosse and football",
+    "Lights (added fall 2022, fee to use)",
+    "Bleachers",
+    "Free parking",
+    "Seasonal portable toilets",
+    "Walking trail trailhead"
+   ],
+   "hours": null,
+   "seasonal": null,
+   "url": "https://www.portsmouthnh.gov/recreation/athletic-field-0",
+   "note": "No dogs on the fields; leashed dogs allowed on the walking trail. Field reservations go through Todd Henley with 5 business days notice.",
+   "source": {
+    "label": "Athletic Field",
+    "url": "https://www.portsmouthnh.gov/recreation/athletic-field-0"
+   }
+  },
+  {
+   "id": "connie-bean-center",
+   "name": "Connie Bean Center",
+   "kind": "Community center",
+   "address": "155 Parrott Ave, Portsmouth, NH 03801",
+   "features": [
+    "Youth center for ages 18 and under",
+    "Gym with open gym hours",
+    "Youth basketball and soccer programs",
+    "Vacation camps"
+   ],
+   "hours": null,
+   "seasonal": null,
+   "url": "https://www.portsmouthnh.gov/recreation/connie-bean",
+   "note": "Open gym hours are posted weekly as images on the city page. Phone (603) 427-1548.",
+   "source": {
+    "label": "Connie Bean Center",
+    "url": "https://www.portsmouthnh.gov/recreation/connie-bean"
+   }
+  },
+  {
+   "id": "senior-activity-center",
+   "name": "Senior Activity Center",
+   "kind": "Community center",
+   "address": "125 Cottage Street, Portsmouth, NH",
+   "features": [
+    "Assembly hall with Grab and Go lunches",
+    "Weekly senior programs",
+    "Senior transportation program",
+    "Senior newsletter"
+   ],
+   "hours": null,
+   "seasonal": null,
+   "url": "https://www.portsmouthnh.gov/recreation/senior",
+   "note": "Phone (603) 610-4433.",
+   "source": {
+    "label": "Senior Activity Center",
+    "url": "https://www.portsmouthnh.gov/recreation/senior"
+   }
+  },
+  {
+   "id": "spinnaker-point",
+   "name": "Spinnaker Point Recreation Center",
+   "kind": "Community center",
+   "address": "30 Spinnaker Way, Portsmouth, NH",
+   "features": [
+    "Full-court gym",
+    "Indoor rubberized track, 1/12 mile per lap",
+    "Cardio room and weight room",
+    "50-foot indoor pool, 4 lanes",
+    "Hot tub, steam room and saunas",
+    "Aerobics and multipurpose rooms",
+    "Adults 18 and over, out of high school"
+   ],
+   "hours": "Monday to Friday 6:00 am to 8:00 pm; Saturday and Sunday 7:00 am to 4:00 pm",
+   "seasonal": null,
+   "url": "https://www.portsmouthnh.gov/recreation/spinnaker-point",
+   "note": "Phone (603) 766-1483. Membership required; drop-in fees for open gym and pickleball.",
+   "source": {
+    "label": "Spinnaker Point",
+    "url": "https://www.portsmouthnh.gov/recreation/spinnaker-point"
+   }
+  },
+  {
+   "id": "indoor-pool",
+   "name": "Portsmouth Indoor Pool",
+   "kind": "Pool",
+   "address": "48 Andrew Jarvis Drive, Portsmouth, NH 03801",
+   "features": [
+    "25-meter pool, 6 lanes",
+    "Hot tub",
+    "Handicapped ramp",
+    "Water kept at 81 to 82 degrees",
+    "Group swim lessons, lap swim, aqua fitness",
+    "22 parking spaces marked Indoor Pool Only"
+   ],
+   "hours": null,
+   "seasonal": "Open year-round",
+   "url": "https://www.portsmouthnh.gov/recreation/indoor",
+   "note": "Phone 603-427-1546. Schedule posted as images. Weather closures announced on Facebook.",
+   "source": {
+    "label": "Indoor Pool",
+    "url": "https://www.portsmouthnh.gov/recreation/indoor"
+   }
+  },
+  {
+   "id": "peirce-island-outdoor-pool",
+   "name": "Peirce Island Outdoor Pool",
+   "kind": "Pool",
+   "address": "99 Peirce Island Rd, Portsmouth, NH 03801",
+   "features": [
+    "Public swim, lap swim and swim lessons",
+    "Snacks sold in the bathhouse",
+    "Picnic tables",
+    "Free Wi-Fi",
+    "No diving"
+   ],
+   "hours": null,
+   "seasonal": "2026 season ran June 22 to August 21. Closed for the season.",
+   "url": "https://www.portsmouthnh.gov/recreation/outdoor",
+   "note": "Cash or check only. Phone (603) 433-0039.",
+   "source": {
+    "label": "Outdoor Pool",
+    "url": "https://www.portsmouthnh.gov/recreation/outdoor"
+   }
+  },
+  {
+   "id": "peirce-island",
+   "name": "Peirce Island",
+   "kind": "Park",
+   "address": "Peirce Island Road, Portsmouth, NH",
+   "features": [
+    "27-acre city-owned island on the Piscataqua River",
+    "Walking trails, salt marsh, tide pools",
+    "Off-leash dog area, dawn to dusk",
+    "Playground",
+    "Sand volleyball court",
+    "Seasonal outdoor pool",
+    "Boat launch with kayak racks",
+    "Spiraling Serenity art installation",
+    "State Fish Pier",
+    "Free parking"
+   ],
+   "hours": null,
+   "seasonal": null,
+   "url": "https://portsmouthnh.gov/node/115801",
+   "note": "Dogs must be leashed outside the designated off-leash area. The wastewater plant at the end of the island is closed to the public.",
+   "source": {
+    "label": "Peirce Island",
+    "url": "https://portsmouthnh.gov/node/115801"
+   }
+  },
+  {
+   "id": "peirce-island-boat-launch",
+   "name": "Robert P. Sullivan (Peirce Island) Boat Launch",
+   "kind": "Boat launch",
+   "address": "Peirce Island, Portsmouth, NH",
+   "features": [
+    "Boat ramp and dock",
+    "Kayak racks (May 23 to September 30, 2026; $200 resident, $240 nonresident per season)",
+    "Seasonal portable toilet",
+    "Free parking for launch users",
+    "Free season pass for residents with proof of residency",
+    "Nonresident fees: $10 per launch non-motorized, $20 per launch motorized"
+   ],
+   "hours": null,
+   "seasonal": "Opens Memorial Day weekend; registration opens May 1.",
+   "url": "https://www.portsmouthnh.gov/recreation/boat-launch",
+   "note": "Passes are bought in MyRec under Boat Launch. Contact Spinnaker Point at (603) 766-1483.",
+   "source": {
+    "label": "Boat Launch",
+    "url": "https://www.portsmouthnh.gov/recreation/boat-launch"
+   }
+  },
+  {
+   "id": "four-tree-island",
+   "name": "Four Tree Island",
+   "kind": "Park",
+   "address": "Off Peirce Island via a gravel causeway, Portsmouth, NH",
+   "features": [
+    "Small pavilions with picnic tables and grills, no reservation needed",
+    "One large 25 x 25 ft pavilion with power, reservable free through MyRec",
+    "Accessible restrooms late April through October 31",
+    "Carry in, carry out",
+    "No dogs, no vehicles, no alcohol, no tent stakes"
+   ],
+   "hours": "Dawn to dusk",
+   "seasonal": "Restrooms open late April through October 31, weather permitting.",
+   "url": "https://www.portsmouthnh.gov/prescottpark/four-tree-island",
+   "note": "Reserve the large pavilion at 603-427-1547 or portsmouthnh.myrec.com.",
+   "source": {
+    "label": "Four Tree Island",
+    "url": "https://www.portsmouthnh.gov/prescottpark/four-tree-island"
+   }
+  },
+  {
+   "id": "prescott-park",
+   "name": "Prescott Park",
+   "kind": "Park",
+   "address": "Marcy Street, Portsmouth, NH 03801",
+   "features": [
+    "10-acre waterfront park",
+    "40 formal garden beds on the South Lawn, planted since 1975",
+    "Liberty Gardens annual beds",
+    "Whale sculpture by Cabot Lyford and anchor sculpture",
+    "Public docks on the Piscataqua River",
+    "Arts Festival stage (prescottpark.org)",
+    "Free garden tours Fridays July 10 to August 21, 2026"
+   ],
+   "hours": null,
+   "seasonal": null,
+   "url": "https://www.portsmouthnh.gov/prescottpark",
+   "note": "Gardens are designed and maintained by the Parks and Greenery Division of DPW. No alcohol or pets in the park.",
+   "source": {
+    "label": "Prescott Park",
+    "url": "https://www.portsmouthnh.gov/prescottpark"
+   }
+  },
+  {
+   "id": "prescott-park-docks",
+   "name": "Prescott Park Docks",
+   "kind": "Other",
+   "address": "Prescott Park, Marcy Street, Portsmouth, NH 03801",
+   "features": [
+    "Transient hourly and overnight slips, up to 72 hours",
+    "12 seasonal slips, April 2 to November 1, awarded by lottery with residents first",
+    "Reservations on Dockwa or (603) 498-6816",
+    "Dockmaster monitors VHF Channel 09",
+    "No commercial craft, no rafting, boats over 55 ft need trustee permission"
+   ],
+   "hours": null,
+   "seasonal": "Seasonal slips April 2 through November 1. 2026 seasonal slip applications were taken January 20 to February 19, 2026.",
+   "url": "https://www.portsmouthnh.gov/prescottpark/prescott-park-docks",
+   "note": "Rate chart is an image on the city page.",
+   "source": {
+    "label": "Prescott Park Docks",
+    "url": "https://www.portsmouthnh.gov/prescottpark/prescott-park-docks"
+   }
+  },
+  {
+   "id": "south-mill-pond-complex",
+   "name": "South Mill Pond Recreation Complex",
+   "kind": "Park",
+   "address": "Off Junkins Ave and Parrott Ave, Portsmouth, NH",
+   "features": [
+    "8 pickleball courts (built 2021), lighted",
+    "4 tennis courts",
+    "2 basketball courts",
+    "Fenced off-leash dog park",
+    "Universal-design playground (replaced 2025)",
+    "Parking lot",
+    "Seasonal portable toilets",
+    "Adjacent to Leary Field and Langdon Park"
+   ],
+   "hours": "Dawn to dusk; court lights on until 10:00 pm in prime season",
+   "seasonal": null,
+   "url": "https://www.portsmouthnh.gov/recreation/south-mill-pond-recreation-complex",
+   "note": "Pickleball group play reserved daily on all 8 courts 7:00 to 11:00 am per the complex page; the pickleball page says 9:00 am to 12:00 pm. Yield after 1 hour if others wait.",
+   "source": {
+    "label": "South Mill Pond Recreation Complex",
+    "url": "https://www.portsmouthnh.gov/recreation/south-mill-pond-recreation-complex"
+   }
+  },
+  {
+   "id": "south-mill-pond-playground",
+   "name": "South Mill Pond Playground",
+   "kind": "Playground",
+   "address": "South Mill Pond Park, Portsmouth, NH",
+   "features": [
+    "Universal-design, ADA-compliant playground",
+    "Designed by Ulti-Play Parks and Playgrounds",
+    "Opened with a ribbon-cutting December 1, 2025"
+   ],
+   "hours": null,
+   "seasonal": null,
+   "url": "https://www.portsmouthnh.gov/parksandgreenery/projects/south-mill-pond-playground",
+   "note": "Phase 2 (restrooms and parking lot) is future work.",
+   "source": {
+    "label": "South Mill Pond Playground project",
+    "url": "https://www.portsmouthnh.gov/parksandgreenery/projects/south-mill-pond-playground"
+   }
+  },
+  {
+   "id": "chris-rice-skateboard-park",
+   "name": "Chris Rice Skateboard Park",
+   "kind": "Skate park",
+   "address": "305 Greenland Road, Portsmouth, NH 03801",
+   "features": [
+    "Concrete skate park, opened December 21, 2023",
+    "Lights",
+    "Year-round porta-potties",
+    "Seasonal drinking fountain",
+    "Free parking",
+    "Volunteer-built pump track next door at the Portsmouth Pit (December 2024)",
+    "Access to the Seacoast Greenway rail trail and Portsmouth Bike Park",
+    "No motorized vehicles, e-bikes or electric boards on the skating surface"
+   ],
+   "hours": "January and February dawn to dusk; March through December dawn to 10:00 pm (per main page text)",
+   "seasonal": null,
+   "url": "https://www.portsmouthnh.gov/recreation/skate-park",
+   "note": "Renamed for Chris Rice on June 23, 2025. The page sidebar lists different hours (May to October dawn to 10 pm; November to April dawn to 8 pm).",
+   "source": {
+    "label": "Chris Rice Skateboard Park",
+    "url": "https://www.portsmouthnh.gov/recreation/skate-park"
+   }
+  },
+  {
+   "id": "goodwin-park",
+   "name": "Goodwin Park",
+   "kind": "Park",
+   "address": "Islington Street, Portsmouth, NH",
+   "features": [
+    "Soldiers and Sailors monument (1888)",
+    "Veterans memorials",
+    "Site of the city's Veterans Day ceremony and the start of the Illuminated Holiday Parade"
+   ],
+   "hours": null,
+   "seasonal": null,
+   "url": "https://www.portsmouthnh.gov/publicworks/parksandgreenery/goodwin-park",
+   "note": "Maintained by Parks and Greenery, DPW, (603) 427-1530.",
+   "source": {
+    "label": "Goodwin Park",
+    "url": "https://www.portsmouthnh.gov/publicworks/parksandgreenery/goodwin-park"
+   }
+  },
+  {
+   "id": "haven-park",
+   "name": "Haven Park",
+   "kind": "Park",
+   "address": "Between South Mill Pond and Pleasant Street, Portsmouth, NH",
+   "features": [
+    "Life-sized bronze statue of Maj. Gen. Fitz John Porter",
+    "Historical marker"
+   ],
+   "hours": null,
+   "seasonal": null,
+   "url": "https://www.portsmouthnh.gov/publicworks/parksandgreenery/haven-park",
+   "note": null,
+   "source": {
+    "label": "Haven Park",
+    "url": "https://www.portsmouthnh.gov/publicworks/parksandgreenery/haven-park"
+   }
+  },
+  {
+   "id": "langdon-park",
+   "name": "Langdon Park",
+   "kind": "Park",
+   "address": null,
+   "features": [
+    "Adjacent to the South Mill Pond Recreation Complex",
+    "Site of the Recreation Department egg hunt (March 20, 2027)"
+   ],
+   "hours": null,
+   "seasonal": null,
+   "url": null,
+   "note": "Named on the city's Parks and Playgrounds map. No dedicated city page found.",
+   "source": {
+    "label": "Parks and Playgrounds map (DPW, 2021)",
+    "url": "https://files.portsmouthnh.gov/maps/ParksPlaygrounds8x11.pdf"
+   }
+  },
+  {
+   "id": "leary-field",
+   "name": "Leary Field and Central Little League",
+   "kind": "Field",
+   "address": null,
+   "features": [
+    "Ballfield adjacent to the South Mill Pond Recreation Complex"
+   ],
+   "hours": null,
+   "seasonal": null,
+   "url": null,
+   "note": "Named on the city's Parks and Playgrounds map. No dedicated city page found.",
+   "source": {
+    "label": "Parks and Playgrounds map (DPW, 2021)",
+    "url": "https://files.portsmouthnh.gov/maps/ParksPlaygrounds8x11.pdf"
+   }
+  },
+  {
+   "id": "neighborhood-playgrounds",
+   "name": "Neighborhood parks and playgrounds (map list)",
+   "kind": "Playground",
+   "address": null,
+   "features": [
+    "Cater Park",
+    "Hanscom Park",
+    "Hislop Field",
+    "Aldrich Park",
+    "Alumni Field",
+    "Clough Field",
+    "Big Rock Park",
+    "Harbor Walk Park",
+    "South Playground",
+    "Maple Haven Park",
+    "Pannaway Playground",
+    "North Mill Pond Park",
+    "Bohenko Gateway Park",
+    "Lafayette Playground",
+    "Pine Street Playground",
+    "Rock Street Playground",
+    "Portsmouth Plains Field and Playground",
+    "Peirce Island Playground",
+    "Atlantic Heights Playground",
+    "South Street Playground"
+   ],
+   "hours": null,
+   "seasonal": null,
+   "url": "https://files.portsmouthnh.gov/maps/ParksPlaygrounds8x11.pdf",
+   "note": "Names only, from the DPW Parks and Playgrounds map dated January 26, 2021. Addresses and features are not on the map.",
+   "source": {
+    "label": "Parks and Playgrounds map (DPW, 2021)",
+    "url": "https://files.portsmouthnh.gov/maps/ParksPlaygrounds8x11.pdf"
+   }
+  }
+ ],
+ "programs": [
+  {
+   "name": "Portsmouth Rec Basketball, Youth Boys and Girls (grades 1 to 4)",
+   "who": "Grades 1 to 4",
+   "when": "December 12, 2026 to February 13, 2027; weekday practices, Saturday games",
+   "where": "Practices at Community Campus, games at Connie Bean Center",
+   "cost": "$55 resident / $75 nonresident",
+   "url": "https://www.portsmouthnh.gov/recreation/youth-programs",
+   "source": {
+    "label": "Youth Programs",
+    "url": "https://www.portsmouthnh.gov/recreation/youth-programs"
+   }
+  },
+  {
+   "name": "Portsmouth Rec Basketball, Teen Boys (grades 7 to 12)",
+   "who": "Grades 7 to 12",
+   "when": "December 8, 2026 to February 10, 2027; tryouts December 1 and 2",
+   "where": "Connie Bean Center",
+   "cost": "$70 resident / $90 nonresident",
+   "url": "https://www.portsmouthnh.gov/recreation/youth-programs",
+   "source": {
+    "label": "Youth Programs",
+    "url": "https://www.portsmouthnh.gov/recreation/youth-programs"
+   }
+  },
+  {
+   "name": "PreK and K Basketball Skills and Drills",
+   "who": "Pre-K and kindergarten, co-ed",
+   "when": "Saturdays, December 12, 2026 to January 30, 2027",
+   "where": "Connie Bean Center",
+   "cost": "$45 resident / $65 nonresident",
+   "url": "https://www.portsmouthnh.gov/recreation/youth-programs",
+   "source": {
+    "label": "Youth Programs",
+    "url": "https://www.portsmouthnh.gov/recreation/youth-programs"
+   }
+  },
+  {
+   "name": "Piscataqua Pre-Team Swim Skills",
+   "who": "Ages 6 to 14",
+   "when": "Mondays, November 2 to December 14, 2026; winter session January 4 to February 8, 2027",
+   "where": "Portsmouth Indoor Pool",
+   "cost": "$200 / $250 fall; $170 / $210 winter (resident / nonresident)",
+   "url": "https://www.portsmouthnh.gov/recreation/youth-programs",
+   "source": {
+    "label": "Youth Programs",
+    "url": "https://www.portsmouthnh.gov/recreation/youth-programs"
+   }
+  },
+  {
+   "name": "Funstuff February Vacation Camp",
+   "who": "Grades K to 5",
+   "when": "February 22 to 26, 2027, 9am to 5pm",
+   "where": "Connie Bean Center",
+   "cost": "$250 resident / $275 nonresident",
+   "url": "https://www.portsmouthnh.gov/recreation/youth-programs",
+   "source": {
+    "label": "Youth Programs",
+    "url": "https://www.portsmouthnh.gov/recreation/youth-programs"
+   }
+  },
+  {
+   "name": "ACE Afterschool Care and Enrichment",
+   "who": "Elementary students from Dondero, Little Harbour and New Franklin",
+   "when": "School days 2:30 to 6:00 pm, following the Portsmouth School calendar",
+   "where": "Community Campus, 100 Campus Drive",
+   "cost": "Monthly tuition, amount not listed on the page",
+   "url": "https://www.portsmouthnh.gov/recreation/afterschool-care-enrichment",
+   "source": {
+    "label": "ACE Afterschool Care and Enrichment",
+    "url": "https://www.portsmouthnh.gov/recreation/afterschool-care-enrichment"
+   }
+  },
+  {
+   "name": "Men's City Basketball League",
+   "who": "Adults 18 and over, out of high school",
+   "when": "October 2026 to January 2027, Monday and Thursday nights",
+   "where": "Spinnaker Point gym",
+   "cost": "$150 resident / $175 nonresident",
+   "url": "https://www.portsmouthnh.gov/recreation/adult-sports-programs",
+   "source": {
+    "label": "Adult Programs",
+    "url": "https://www.portsmouthnh.gov/recreation/adult-sports-programs"
+   }
+  },
+  {
+   "name": "Re-Discover Swimming (freestyle technique)",
+   "who": "Ages 15 and over",
+   "when": "Thursdays, October 22, 2026 to February 11, 2027, 5:30 to 6:30 pm",
+   "where": "Portsmouth Indoor Pool",
+   "cost": "Free with pool membership; $12 drop-in",
+   "url": "https://www.portsmouthnh.gov/recreation/adult-sports-programs",
+   "source": {
+    "label": "Adult Programs",
+    "url": "https://www.portsmouthnh.gov/recreation/adult-sports-programs"
+   }
+  },
+  {
+   "name": "Pickleball open gym and outdoor courts",
+   "who": "Adults; outdoor courts open to all",
+   "when": "Community Campus gym Mon, Wed, Fri 12 to 2 pm and Thu 8 am to 12 pm from October 5; Spinnaker Point Mon, Wed, Fri 10:30 am to 12:30 pm and Tue, Thu 9 am to 12 pm",
+   "where": "Community Campus gym, Spinnaker Point, South Mill Pond and Community Campus outdoor courts",
+   "cost": "$5 resident / $10 nonresident per play indoors; outdoor courts free",
+   "url": "https://www.portsmouthnh.gov/recreation/pickleball",
+   "source": {
+    "label": "Pickleball",
+    "url": "https://www.portsmouthnh.gov/recreation/pickleball"
+   }
+  },
+  {
+   "name": "Adult Indoor Walking",
+   "who": "Adults",
+   "when": "Tuesdays 8:00 to 10:00 am, October 6, 2026 through late spring",
+   "where": "Community Campus gym (11 laps = 1 mile)",
+   "cost": "Free",
+   "url": "https://www.portsmouthnh.gov/recreation/adult-sports-programs",
+   "source": {
+    "label": "Adult Programs",
+    "url": "https://www.portsmouthnh.gov/recreation/adult-sports-programs"
+   }
+  },
+  {
+   "name": "Weekend Wellness Series",
+   "who": "Seniors",
+   "when": "Saturdays 10:30 am to 12:00 pm: November 7, November 21, December 5, 2026",
+   "where": "Senior Activity Center",
+   "cost": "$10 per session",
+   "url": "https://www.portsmouthnh.gov/recreation/senior/ongoing-special-event-programs",
+   "source": {
+    "label": "Senior Programs",
+    "url": "https://www.portsmouthnh.gov/recreation/senior/ongoing-special-event-programs"
+   }
+  },
+  {
+   "name": "Grab and Go or Grab and Stay senior lunches",
+   "who": "Seniors",
+   "when": "Grab and Go Monday to Friday; Stay and Eat Tuesdays and Thursdays at 11:00 am",
+   "where": "Senior Activity Center Assembly Hall",
+   "cost": "$3 suggested donation",
+   "url": "https://www.portsmouthnh.gov/recreation/senior/ongoing-special-event-programs",
+   "source": {
+    "label": "Senior Programs",
+    "url": "https://www.portsmouthnh.gov/recreation/senior/ongoing-special-event-programs"
+   }
+  }
+ ],
+ "projects": [
+  {
+   "title": "Prescott Park Project (Master Plan Phase 1A, revised 2026)",
+   "status": "Under review",
+   "summary": "DPW presented a revised plan to the City Council on April 20, 2026 that would relocate and raise the Shaw Warehouse, Player's Ring and garage addition, rebuild the lean-to, replace Water Street with head-in parking, and add ADA walkways and drainage upgrades. The work implements the 2017 Prescott Park Master Plan and responds to flooding from the December 2022 storm surge.",
+   "cost": "FY22 CIP listed $2.925M for Prescott Park facilities capital improvements, including $1.05M from PPP; no current budget on the project page",
+   "url": "https://www.portsmouthnh.gov/node/726032",
+   "keywords": [
+    "prescott park",
+    "shaw warehouse",
+    "player's ring",
+    "water street",
+    "master plan",
+    "resiliency",
+    "sea level"
+   ],
+   "source": {
+    "label": "Prescott Park Project (DPW)",
+    "url": "https://www.portsmouthnh.gov/node/726032"
+   }
+  },
+  {
+   "title": "South Mill Pond Playground replacement, Phase 2",
+   "status": "Planned",
+   "summary": "Phase 1 replaced the playground with a universal-design, ADA-compliant playground; construction started September 29, 2025 and a ribbon-cutting was held December 1, 2025. Phase 2 will add ADA-compliant restrooms in place of the porta-potties and an upgraded parking lot.",
+   "cost": "Included in the FY25 capital budget; no figure listed",
+   "url": "https://www.portsmouthnh.gov/parksandgreenery/projects/south-mill-pond-playground",
+   "keywords": [
+    "south mill pond",
+    "playground",
+    "restrooms",
+    "parking",
+    "ada",
+    "universal design"
+   ],
+   "source": {
+    "label": "South Mill Pond Playground project",
+    "url": "https://www.portsmouthnh.gov/parksandgreenery/projects/south-mill-pond-playground"
+   }
+  },
+  {
+   "title": "Chris Rice Skateboard Park Phase II",
+   "status": "Planned",
+   "summary": "The skate park at 305 Greenland Road opened December 21, 2023 after the Council authorized up to $1,083,500 in bonds in April 2023. The city page says FY28 and FY29 funding covers design and construction of Phase II.",
+   "cost": "Phase I bond up to $1,083,500 (April 2023); Phase II in FY28 and FY29",
+   "url": "https://www.portsmouthnh.gov/recreation/skate-park",
+   "keywords": [
+    "skate park",
+    "skatepark",
+    "greenland road",
+    "pump track",
+    "bike park",
+    "phase ii"
+   ],
+   "source": {
+    "label": "Chris Rice Skateboard Park",
+    "url": "https://www.portsmouthnh.gov/recreation/skate-park"
+   }
+  },
+  {
+   "title": "Athletic Fields Project (Campus Drive), Phases II and III",
+   "status": "Planned",
+   "summary": "The city bonded up to $3.4 million in July 2018 for a multi-field complex on about 50 acres between Campus Drive and the DPW yard on Peverly Hill Road. Phase I built a synthetic turf field with lights and stormwater treatment; Phases II and III call for second and third fields and a new transfer station.",
+   "cost": "Bond up to $3.4 million (2018) plus about $1.6 million previously set aside",
+   "url": "https://www.portsmouthnh.gov/city/projects/athletic-fields-project",
+   "keywords": [
+    "athletic fields",
+    "turf field",
+    "campus drive",
+    "west road",
+    "transfer station",
+    "stump dump"
+   ],
+   "source": {
+    "label": "Athletic Fields Project",
+    "url": "https://www.portsmouthnh.gov/city/projects/athletic-fields-project"
+   }
+  },
+  {
+   "title": "Citywide Park Improvements (CIP)",
+   "status": "Funded",
+   "summary": "An annual $100,000 capital line for furnishings, signage, drainage, walkways, landscaping and lighting in parks such as Sagamore Creek, Goodwin Park, Aldrich Park and Vaughan Mall. The FY22 CIP page also lists a $20,000 annual tree replacement program.",
+   "cost": "$100,000 per year",
+   "url": "https://www.portsmouthnh.gov/node/250402",
+   "keywords": [
+    "park improvements",
+    "cip",
+    "goodwin park",
+    "aldrich park",
+    "vaughan mall",
+    "sagamore creek",
+    "tree replacement"
+   ],
+   "source": {
+    "label": "Parks Facilities CIP (Public Works)",
+    "url": "https://www.portsmouthnh.gov/node/250402"
+   }
+  },
+  {
+   "title": "Comprehensive Recreational Needs Study (2023 update)",
+   "status": "Completed 2026",
+   "summary": "Placework and Horsley Witten Group updated the 2010 needs study with two public workshops in 2022 and a City Council presentation on March 7, 2023. The report guides which facilities and programs the city should add or change.",
+   "cost": null,
+   "url": "https://www.portsmouthnh.gov/recreation/recreational-needs-study-update",
+   "keywords": [
+    "needs study",
+    "recreation needs",
+    "placework",
+    "recreation board"
+   ],
+   "source": {
+    "label": "Recreational Needs Study Update",
+    "url": "https://www.portsmouthnh.gov/recreation/recreational-needs-study-update"
+   }
+  }
+ ],
+ "seasonal": [
+  {
+   "title": "Peirce Island Outdoor Pool closed for the season",
+   "detail": "The 2026 season ran June 22 to August 21. The city page says See you next summer.",
+   "dates": "Closed until summer 2027",
+   "url": "https://www.portsmouthnh.gov/recreation/outdoor",
+   "source": {
+    "label": "Outdoor Pool",
+    "url": "https://www.portsmouthnh.gov/recreation/outdoor"
+   }
+  },
+  {
+   "title": "Spinnaker Point pool area closed for repairs",
+   "detail": "The pool area at Spinnaker Point was closed for repairs through Monday, October 26, 2026. The notice asks visitors to call (603) 766-1483 before coming in for reopening information.",
+   "dates": "Through October 26, 2026",
+   "url": "https://www.portsmouthnh.gov/node/728883",
+   "source": {
+    "label": "Pool Area Closed (Recreation notice, Oct 20, 2026)",
+    "url": "https://www.portsmouthnh.gov/node/728883"
+   }
+  },
+  {
+   "title": "Indoor Pool closed October 25 for the Seacoast Half Marathon",
+   "detail": "The Indoor Pool page lists a closure on Sunday, October 25 for the Seacoast Half Marathon.",
+   "dates": "October 25, 2026",
+   "url": "https://www.portsmouthnh.gov/recreation/indoor",
+   "source": {
+    "label": "Indoor Pool",
+    "url": "https://www.portsmouthnh.gov/recreation/indoor"
+   }
+  },
+  {
+   "title": "Four Tree Island restrooms close October 31",
+   "detail": "Accessible restrooms on Four Tree Island are open daily from late April through October 31, weather permitting. The island stays open dawn to dusk.",
+   "dates": "Restrooms close October 31, 2026",
+   "url": "https://www.portsmouthnh.gov/prescottpark/four-tree-island",
+   "source": {
+    "label": "Four Tree Island",
+    "url": "https://www.portsmouthnh.gov/prescottpark/four-tree-island"
+   }
+  },
+  {
+   "title": "Boat launch kayak racks season ended September 30",
+   "detail": "Kayak rack rentals at the Peirce Island boat launch ran May 23 to September 30, 2026. Seasonal slips at Prescott Park Docks end November 1.",
+   "dates": "Kayak racks ended September 30, 2026; docks seasonal slips end November 1, 2026",
+   "url": "https://www.portsmouthnh.gov/recreation/boat-launch",
+   "source": {
+    "label": "Boat Launch",
+    "url": "https://www.portsmouthnh.gov/recreation/boat-launch"
+   }
+  },
+  {
+   "title": "Fall and holiday events",
+   "detail": "Trick or Treat Friday October 30, 5 to 8 pm citywide. Turkey Shoot and Food Drive Saturday November 21 at Connie Bean gym. Illuminated Holiday Parade and Tree Lighting Saturday December 5, tree lighting 5 pm in Market Square, parade 6 pm from Goodwin Park. Polar Express Storytime December 17 at Community Campus.",
+   "dates": "October 30 to December 17, 2026",
+   "url": "https://www.portsmouthnh.gov/recreation/special-events-trips",
+   "source": {
+    "label": "Special Events and Trips",
+    "url": "https://www.portsmouthnh.gov/recreation/special-events-trips"
+   }
+  },
+  {
+   "title": "Skate park winter hours",
+   "detail": "The Chris Rice Skateboard Park page lists dawn to dusk in January and February and dawn to 10:00 pm March through December. Lights dim before closing.",
+   "dates": "January and February: dawn to dusk",
+   "url": "https://www.portsmouthnh.gov/recreation/skate-park",
+   "source": {
+    "label": "Chris Rice Skateboard Park",
+    "url": "https://www.portsmouthnh.gov/recreation/skate-park"
+   }
+  }
+ ],
+ "contacts": [
+  {
+   "role": "Recreation Director",
+   "name": "Todd A. Henley",
+   "phone": "(603) 610-8897",
+   "email": "tahenley@portsmouthnh.gov",
+   "source": {
+    "label": "Athletic Field (field reservations)",
+    "url": "https://www.portsmouthnh.gov/recreation/athletic-field-0"
+   }
+  },
+  {
+   "role": "Recreation Assistant Director",
+   "name": "Brinn Sullivan",
+   "phone": "(603) 610-8879",
+   "email": "bsullivan@portsmouthnh.gov",
+   "source": {
+    "label": "Recreation Department",
+    "url": "https://www.portsmouthnh.gov/recreation"
+   }
+  },
+  {
+   "role": "Spinnaker Point Fitness Center Manager",
+   "name": "Tim Bailey",
+   "phone": "(603) 766-1483",
+   "email": null,
+   "source": {
+    "label": "Recreation Department",
+    "url": "https://www.portsmouthnh.gov/recreation"
+   }
+  },
+  {
+   "role": "Senior Center Supervisor",
+   "name": "Nicole Finitsis",
+   "phone": "(603) 610-4433",
+   "email": "nmfinitsis@portsmouthnh.gov",
+   "source": {
+    "label": "Senior Activity Center",
+    "url": "https://www.portsmouthnh.gov/recreation/senior"
+   }
+  },
+  {
+   "role": "Indoor Pool Supervisor",
+   "name": "Lexy van Binsbergen",
+   "phone": "(603) 427-1546",
+   "email": "avanbinsbergen@portsmouthnh.gov",
+   "source": {
+    "label": "Adult Programs",
+    "url": "https://www.portsmouthnh.gov/recreation/adult-sports-programs"
+   }
+  },
+  {
+   "role": "Recreation Supervisor (Connie Bean Center)",
+   "name": "Jamie Schaaf",
+   "phone": "(603) 427-1548",
+   "email": null,
+   "source": {
+    "label": "Connie Bean Center",
+    "url": "https://www.portsmouthnh.gov/recreation/connie-bean"
+   }
+  },
+  {
+   "role": "Recreation Supervisor (ACE Director)",
+   "name": "Connor Mullin",
+   "phone": "(603) 427-9011",
+   "email": "cpmullin@portsmouthnh.gov",
+   "source": {
+    "label": "Recreation Department",
+    "url": "https://www.portsmouthnh.gov/recreation"
+   }
+  },
+  {
+   "role": "Parks and Greenery Division, DPW",
+   "name": null,
+   "phone": "(603) 427-1530",
+   "email": null,
+   "source": {
+    "label": "South Mill Pond Playground project",
+    "url": "https://www.portsmouthnh.gov/parksandgreenery/projects/south-mill-pond-playground"
+   }
+  },
+  {
+   "role": "Prescott Park dockmaster (reservations)",
+   "name": null,
+   "phone": "(603) 498-6816",
+   "email": null,
+   "source": {
+    "label": "Prescott Park Docks",
+    "url": "https://www.portsmouthnh.gov/prescottpark/prescott-park-docks"
+   }
+  },
+  {
+   "role": "Recreation Board chair",
+   "name": "Richard Duddy",
+   "phone": null,
+   "email": null,
+   "source": {
+    "label": "Recreation Board",
+    "url": "https://www.portsmouthnh.gov/recreation/recreation-board"
+   }
+  }
+ ]
+}
