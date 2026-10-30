@@ -951,6 +951,13 @@ a.more-l,.more-l{text-decoration:none}
 .brand .mark{width:30px;height:30px;flex-shrink:0;color:var(--accent);display:block}
 .side .brand .mark{width:30px;height:30px}
 @media (max-width:999px){.hub a{display:grid;grid-template-columns:30px minmax(0,1fr);column-gap:14px;row-gap:2px;align-items:start}.hub a .ic{grid-row:span 2}.hub a b{line-height:1.3}}
+.sitefb{position:fixed;left:16px;bottom:calc(16px + env(safe-area-inset-bottom,0px));z-index:31;display:inline-flex;align-items:center;gap:7px;min-height:36px;padding:0 14px;border-radius:999px;border:1px solid var(--line);background:var(--surface);color:var(--ink2);font:inherit;font-size:13px;font-weight:700;box-shadow:0 4px 14px rgba(0,0,0,.12);cursor:pointer}
+.sitefb:hover{color:var(--accent);border-color:var(--accent)}
+.sitefb-side{display:inline-flex;align-items:center;gap:7px;align-self:flex-start;min-height:34px;padding:0 12px;margin:0 0 10px -2px;border-radius:999px;border:1px solid var(--line);background:var(--surface);color:var(--ink2);font:inherit;font-size:13px;font-weight:700;cursor:pointer}
+.sitefb-side:hover{color:var(--accent);border-color:var(--accent)}
+@media (min-width:1000px){#sitefb{display:none}}
+@media (max-width:999px) and (min-width:641px){.sitefb span{display:none}.sitefb{padding:0 10px;left:20px}}
+@media (max-width:640px){.sitefb{left:12px;bottom:calc(76px + env(safe-area-inset-bottom,0px));min-height:38px}.sitefb span{display:none}.sitefb{padding:0 11px}}
 .tb-brand .mark{width:28px;height:28px;color:var(--accent);display:block}
 .navrec{display:flex;flex-direction:column;gap:0;margin-top:14px;padding-top:12px;border-top:1px solid var(--line)}
 .navrec-h{font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);padding:0 12px 6px}
@@ -1000,7 +1007,7 @@ a.more-l,.more-l{text-decoration:none}
 <aside class="side" id="side" aria-label="Main">
   <div class="side-head"><a class="brand" href="#home" data-tip="Agorri home"><svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" class="mark" width="30" height="30" aria-hidden="true"><path d="M16 2.5C8.5 2.5 2.5 7.9 2.5 14.6c0 3.6 1.7 6.8 4.5 9L5.6 29.2l6.4-3.2c1.3.4 2.6.6 4 .6 7.5 0 13.5-5.4 13.5-12S23.5 2.5 16 2.5z" fill="currentColor"/><path d="M16 8.2l7.4 4H8.6z" fill="#fff"/><rect x="10.2" y="13.4" width="2.2" height="6" rx=".5" fill="#fff"/><rect x="14.9" y="13.4" width="2.2" height="6" rx=".5" fill="#fff"/><rect x="19.6" y="13.4" width="2.2" height="6" rx=".5" fill="#fff"/><rect x="8.6" y="20.2" width="14.8" height="2" rx=".5" fill="#fff"/></svg><b>Agorri</b></a></div>
   <nav class="nav" id="nav"></nav>
-  <div class="side-foot lbl"><span>Government you can see.</span><span>A voice they can count.</span></div>
+  <div class="side-foot lbl"><button type="button" class="sitefb-side" data-sitefb><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12a8 8 0 0 1-11.6 7.1L4 20l1.1-4.4A8 8 0 1 1 21 12z"/><path d="M12 8v4M12 15.5v.01"/></svg>Site feedback</button><span>Government you can see.</span><span>A voice they can count.</span></div>
 </aside>
 <header class="tbar" id="tbar">
   <div class="tb-row">
@@ -1013,6 +1020,7 @@ a.more-l,.more-l{text-decoration:none}
 </header>
 <main class="wrap" id="app"><div class="stack" style="gap:6px"><h1>Agorri</h1><p class="lead">Government you can see. A voice they can count.</p><p class="muted">Loading records…</p></div></main>
 <nav class="tabbar" id="tabbar"></nav>
+<button class="sitefb" id="sitefb" aria-haspopup="dialog" data-tip="Feedback on Agorri: bugs, ideas, anything that would make the site better"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12a8 8 0 0 1-11.6 7.1L4 20l1.1-4.4A8 8 0 1 1 21 12z"/><path d="M12 8v4M12 15.5v.01"/></svg><span>Site feedback</span></button>
 <button class="fbbtn" id="ideasbtn" aria-haspopup="dialog"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18h6M10 22h4M12 2a7 7 0 0 0-4 12.7V17h8v-2.3A7 7 0 0 0 12 2z"/></svg>Feedback forum<span class="fbcount" id="ideascount"></span></button>
 <div class="scrim" id="scrim" hidden><div class="sheet" id="sheet" role="dialog" aria-modal="true"></div></div>
 <div class="toast" id="toast" role="status"></div>
@@ -2268,6 +2276,21 @@ document.addEventListener('click',e=>{const b=e.target.closest('button');if(!b)r
  if(b.dataset.tkthread){try{openThread(JSON.parse(b.dataset.tkthread));}catch(err){}return;}
  if(b.dataset.hometab){HOMEP.tab=b.dataset.hometab;if(b.dataset.homekind)HOMEP.kind=b.dataset.homekind;rerender();if(HOMEP.tab==='post'){setTimeout(()=>{const t=document.querySelector('#tkchome .tkc-title,#tkchome .tkc-body');if(t)t.focus();},40);}return;}
  if(b.dataset.parkkind){PARKF.kind=b.dataset.parkkind;rerender();return;}},true);
+/* ---- Site feedback: the widget at the bottom left. Bugs and ideas about Agorri itself, emailed to the owner. ---- */
+const SFB_KINDS=[['bug','Something is broken'],['idea','Idea to improve Agorri'],['other','Something else']];
+var SFB={kind:'bug'};
+function openSiteFeedback(){const pg=(location.pathname||'')+(location.hash||'');openSheet(`<div class="between" style="flex-wrap:nowrap;align-items:flex-start"><div class="stack" style="gap:2px"><h2>Feedback on Agorri</h2><p class="muted">Bugs, confusing bits, ideas to make the site better. This goes straight to the person building Agorri.</p></div><button class="x" data-close aria-label="Close">×</button></div>
+ <form id="sfbform" class="stack" style="gap:12px"><div class="chips" role="group" aria-label="What kind">${SFB_KINDS.map(([k,l])=>`<button type="button" data-sfbkind="${k}" class="${SFB.kind===k?'on':''}">${l}</button>`).join('')}</div>
+  <div class="stack" style="gap:6px"><label for="sfbtext">What happened, or what would make it better?</label><textarea id="sfbtext" rows="5" maxlength="3000" required placeholder="${SFB.kind==='bug'?'What you tapped, what you expected, and what happened instead':'Tell us what would help'}"></textarea></div>
+  <div class="stack" style="gap:6px"><label for="sfbcontact">Your email, if you'd like a reply <span class="muted">(optional)</span></label><input id="sfbcontact" type="email" autocomplete="email" maxlength="200" placeholder="you@example.com"></div>
+  <p class="muted" style="font-size:12.5px">We also send the page you were on (${esc(pg||'/')}) and your browser type, so bugs are easier to find. Nothing else.</p>
+  <div class="tkc-err" id="sfberr" hidden></div><div class="row"><button class="btn primary" type="submit">Send feedback</button></div></form>`);}
+document.addEventListener('click',e=>{const b=e.target.closest('button');if(!b)return;
+ if(b.id==='sitefb'||b.id==='fbopen'||b.dataset.sitefb!==undefined){e.preventDefault();e.stopImmediatePropagation();openSiteFeedback();return;}
+ if(b.dataset.sfbkind){SFB.kind=b.dataset.sfbkind;document.querySelectorAll('[data-sfbkind]').forEach(x=>x.classList.toggle('on',x===b));const t=$('sfbtext');if(t)t.placeholder=SFB.kind==='bug'?'What you tapped, what you expected, and what happened instead':'Tell us what would help';return;}},true);
+document.addEventListener('submit',e=>{const f=e.target;if(!f||f.id!=='sfbform')return;e.preventDefault();e.stopImmediatePropagation();const er=$('sfberr');const btn=f.querySelector('button[type=submit]');const text=$('sfbtext').value.trim();if(text.length<3){er.hidden=false;er.textContent='Write a little more.';return;}btn.disabled=true;btn.textContent='Sending…';er.hidden=true;
+ const body={kind:SFB.kind,text,contact:$('sfbcontact').value.trim(),page:(location.pathname||'')+(location.hash||''),town:TOWN?TOWN.id:''};
+ fetch('/api/feedback',{method:'POST',headers:{'content-type':'application/json','x-agorri-client':(window.TALK&&TALK.uid)||tkCid()},body:JSON.stringify(body)}).then(async r=>{const j=await r.json().catch(()=>({}));if(!r.ok)throw new Error(j.error||'Could not send that. Try again in a minute.');closeSheet();toast('Thanks. Your feedback was sent.');}).catch(x=>{er.hidden=false;er.textContent=OWNHOST?(x.message||'Could not send that.'):'Feedback sends from agorri.com. This preview can’t send it.';}).finally(()=>{btn.disabled=false;btn.textContent='Send feedback';});},true);
 
 /* ================= Live feed (Cloudflare function /api/feed, Bluesky fallback) ================= */
 const LIVE={on:false,updated:null,timer:null};

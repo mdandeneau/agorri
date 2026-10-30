@@ -1,0 +1,25 @@
+// Offline tests for /api/feedback (site feedback widget). Run: node scripts/test-feedback.mjs
+import * as fb from '../functions/api/feedback.js';
+const { DatabaseSync } = await import('node:sqlite'); const sdb = new DatabaseSync(':memory:'); sdb.exec('CREATE TABLE talk_config (k TEXT PRIMARY KEY, v TEXT)');
+const D1 = { prepare(sql) { let a = []; const st = { bind(...x) { a = x; return st; }, async all() { return { results: sdb.prepare(sql).all(...a) }; }, async first() { return sdb.prepare(sql).get(...a) ?? null; }, async run() { sdb.prepare(sql).run(...a); return { success: true }; } }; return st; } };
+let ok = 0, bad = 0; const t = (n, c) => { c ? ok++ : bad++; console.log((c ? 'PASS ' : 'FAIL ') + n); };
+const sent = []; globalThis.fetch = async (u, init) => { sent.push({ u: String(u), body: JSON.parse(init.body), auth: init.headers.authorization }); return new Response('{}', { status: 200 }); };
+const call = (body, env, method = 'POST', headers = {}) => fb.onRequest({ request: new Request('https://agorri.com/api/feedback', { method, headers: { 'content-type': 'application/json', 'x-agorri-client': 'c1', ...headers }, body: method === 'POST' ? JSON.stringify(body) : undefined }), env });
+const ENV = { DB: D1, TALK_SALT: 's' };
+let r = await call({ kind: 'bug', text: 'The map button does nothing on my phone.', page: '/portsmouth#parks', town: 'portsmouth' }, ENV);
+let j = await r.json();
+t('saved without email settings', r.status === 200 && j.ok && j.emailed === false && sent.length === 0);
+t('too short is refused', (await call({ kind: 'idea', text: 'x' }, ENV)).status === 400);
+const ENV2 = { ...ENV, RESEND_API_KEY: 're_test', FEEDBACK_TO: 'owner@example.com' };
+r = await call({ kind: 'idea', text: 'Add a dark mode <b>toggle</b>', page: '/nashua#home', town: 'nashua', contact: 'pat@example.org' }, ENV2); j = await r.json();
+t('emails the owner when configured', j.emailed === true && sent.length === 1 && sent[0].u === 'https://api.resend.com/emails' && sent[0].body.to[0] === 'owner@example.com' && sent[0].auth === 'Bearer re_test');
+t('subject says what kind and which town', /Idea to improve Agorri \(nashua\)/.test(sent[0].body.subject));
+t('feedback text is escaped in the email', sent[0].body.html.includes('&lt;b&gt;toggle&lt;/b&gt;') && !sent[0].body.html.includes('<b>toggle'));
+t('reply goes to the sender when they leave an email', sent[0].body.reply_to === 'pat@example.org');
+t('listing needs the moderator key', (await call(null, ENV, 'GET')).status === 403);
+r = await call(null, { ...ENV, MOD_TOKEN: 'x'.repeat(20) }, 'GET', { 'x-agorri-mod': 'x'.repeat(20) }); j = await r.json();
+t('moderators can list feedback', j.items.length === 2 && j.items[0].emailed === 1);
+for (let i = 0; i < 10; i++) await call({ kind: 'other', text: 'spam spam spam ' + i }, ENV);
+t('rate limited per browser and network', (await call({ kind: 'other', text: 'one more please' }, ENV)).status === 429);
+t('cross-site posts refused', (await call({ kind: 'bug', text: 'hello there' }, ENV, 'POST', { origin: 'https://evil.example' })).status === 403);
+console.log(`\n${ok} passed, ${bad} failed`); process.exit(bad ? 1 : 0);

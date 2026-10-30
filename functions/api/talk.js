@@ -13,7 +13,7 @@ import { MOD_POLICY, modPrompt, modVerdict } from '../../lib/moderation.js';
 import { getSalt } from '../../lib/salt.js';
 
 const KINDS = ['idea', 'question', 'argument', 'comment', 'neighbor'];
-const REF_TYPES = ['town', 'issue', 'meeting', 'decision', 'post', 'news'];
+const REF_TYPES = ['town', 'issue', 'meeting', 'bmeeting', 'decision', 'post', 'news', 'event', 'idea', 'candidate', 'race', 'park', 'project', 'program', 'parknote', 'business', 'notice', 'case', 'official', 'person'];
 const HIDE_AT = 3;
 const FLAG_REASONS = ['Hate or slurs', 'Threat', 'Harassment', 'Personal information', 'Spam or ads', 'Campaigning', 'Off-topic national politics', 'False information', 'Something else'];
 const json = (o, status = 200) => new Response(JSON.stringify(o), { status, headers: { 'content-type': 'application/json; charset=utf-8', 'cache-control': 'no-store' } });

@@ -81,6 +81,11 @@ t('verify: checked for one town only', (await post({ id: 'n0', kind: 'idea', tit
 r = await post({ id: 'i1', kind: 'idea', title: 'Add a crosswalk at Islington and Cass', body: 'Kids cross here.' });
 t('clean post goes live, name from the address check', r.status === 200 && r.j.status === 'ok' && (await find(r.j.key)).name === 'alice_p');
 const ideaKey = r.j.key;
+await req(verify, 'POST', { town: 'portsmouth', address: '1 Junkins Ave', username: 'cara_p' }, 'cara');
+r = await post({ id: 'c-ev', kind: 'comment', body: 'Is this one free to attend?', ref: { t: 'event', id: 'https://example.org/e1', label: 'Halloween Parade' } }, 'cara');
+t('comments stay attached to new item types (events)', r.status === 200 && ((await find(r.j.key)).ref || {}).t === 'event');
+r = await post({ id: 'c-cand', kind: 'comment', body: 'Where does she stand on housing?', ref: { t: 'candidate', id: 'jane-doe', label: 'Jane Doe (Governor)' } }, 'cara');
+t('comments stay attached to new item types (candidates)', r.status === 200 && ((await find(r.j.key)).ref || {}).t === 'candidate');
 r = await post({ id: 'x1', kind: 'comment', body: 'If you do that I will hurt you.' });
 t('threat is blocked with the reason, not stored', r.status === 422 && r.j.moderation.decision === 'restrict' && !(await list('alice')).j.items.some(x => /hurt/.test(x.body)));
 r = await post({ id: 'x2', kind: 'comment', body: 'The council are idiots about parking.' });
