@@ -966,6 +966,17 @@ a.more-l,.more-l{text-decoration:none}
 .postwho{cursor:pointer}.postwho:hover{color:var(--accent);text-decoration:underline}
 .livectl{display:flex;flex-direction:row;flex-wrap:wrap;align-items:center;justify-content:flex-start;gap:10px;margin-top:4px}
 .livectl .seg{margin:0}
+.livebox.flow{max-height:none;overflow:visible}
+.livebox.flow #livefeed{max-height:none;overflow:visible}
+.postmore{display:block;width:100%;height:46px;border:0;border-top:1px solid var(--line);background:transparent;color:var(--accent);font:inherit;font-weight:700;cursor:pointer}
+.postmore:hover{background:var(--soft)}
+.acctfold summary{cursor:pointer;list-style:none;display:flex;flex-wrap:wrap;gap:6px;align-items:baseline}
+.acctfold summary::-webkit-details-marker{display:none}.acctfold summary::after{content:'›';margin-left:auto;color:var(--muted)}
+.acctfold[open] summary::after{content:'‹'}
+.acctlist{margin-top:10px}
+.acctrow{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:6px 16px;align-items:center;padding:10px 0;border-top:1px solid var(--line)}
+.acctrow b{font-size:14px}.acctrow .muted{font-size:12.5px}
+@media (max-width:640px){.acctrow{grid-template-columns:1fr}}
 .tb-brand .mark{width:28px;height:28px;color:var(--accent);display:block}
 .navrec{display:flex;flex-direction:column;gap:0;margin-top:14px;padding-top:12px;border-top:1px solid var(--line)}
 .navrec-h{font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);padding:0 12px 6px}
@@ -1461,7 +1472,7 @@ function route(){if(!TOWN)return;if(TLIVE()&&!D)return;let h=(location.hash||'#h
  else if(h==='town'){html=pageTown();active='lookup';}
  else if(h==='safety'||h==='safety-log'||h==='safety-latest'){html=pageSafety();active='safety';}
  else if(h==='local'){html=pageLocal();active='local';}
- else if(h==='social'){html=pageSocial();active='social';}
+ else if(h==='social'){html=pageSocial2();active='social';}
  else if(h==='business'){html=pageBusiness();active='business';}
  else if(h==='parks'){html=pageParks();active='parks';}
  else if(h==='housing'){html=pageHousing();active='local';}
@@ -2153,7 +2164,7 @@ async function tkVerify(address,username){address=(address||'').trim();username=
  S.vtowns=S.vtowns||{};S.vtowns[TOWN.id]={at:new Date().toISOString(),method:'preview'};S.username=username;S.verified=true;save();return {matched:address,checked:false};}
 
 /* ================= Live social scroll ================= */
-var POSTF={plat:'All',who:'All',scope:'Local',sort:'New'};
+var POSTF={plat:'All',who:'All',scope:'Local',sort:'New',n:12};
 var SEEN={urls:null,fresh:new Set()};
 const LVL_RANK={City:0,'Public safety':0,Schools:0,County:1,State:2,Federal:3,Other:4};
 const PLAT_RANK=['City website','YouTube','News','Chamber','Bluesky','Facebook','Instagram','X','TikTok'];
@@ -2161,23 +2172,31 @@ const SCOPES=[['Local','Local','City and county accounts'],['State','State','Gov
 function postLevel(p){if(p.level)return p.level;const a=socAccounts().find(x=>x.who===p.who);if(a&&a.level)return a.level;if(TOWN&&String(p.who).includes(TN()))return 'City';return /Police|Fire|Library|City|Town|Transit|Health|School/i.test(p.who)?'City':'Other';}
 function postKind(p){return p.kind||'official';}
 function postScopeOk(p){const s=POSTF.scope;if(s==='All')return true;const cand=postKind(p)==='candidate';if(s==='Candidates')return cand;if(cand)return false;const r=LVL_RANK[postLevel(p)];if(s==='Local')return r<=1;if(s==='State')return r===2;if(s==='Federal')return r===3;return true;}
-function postsSorted(){return ((LX&&LX.posts)||[]).slice().sort((a,b)=>b.when.localeCompare(a.when));}
+function postsSorted(){const cut=Date.now()-60*864e5;return ((LX&&LX.posts)||[]).filter(p=>new Date(p.when).getTime()>cut).sort((a,b)=>b.when.localeCompare(a.when));}
 function postsFiltered(){let ps=postsSorted().filter(postScopeOk);if(POSTF.plat!=='All')ps=ps.filter(p=>p.platform===POSTF.plat);if(POSTF.who!=='All')ps=ps.filter(p=>p.who===POSTF.who);
  if(POSTF.scope==='All')ps.sort((a,b)=>((LVL_RANK[postLevel(a)]??4)-(LVL_RANK[postLevel(b)]??4))||b.when.localeCompare(a.when));return ps;}
-function postCard(p){const q=p.quote||'';const g=p.gist||'';const ref={t:'post',id:p.url,label:(postKind(p)==='candidate'?'Campaign post by ':'Post by ')+p.who,url:p.url};const lvl=postLevel(p);
+function cleanGist(p){let g=String(p.gist||'').replace(/\s+/g,' ').trim();const q=String(p.quote||'').trim();if(q&&g.toLowerCase().startsWith(q.toLowerCase()))g=g.slice(q.length).trim();g=g.replace(/^[\w.-]+\s+(Mon|Tue|Wed|Thu|Fri|Sat|Sun),\s*\d{1,2}\/\d{1,2}\/\d{4}\s*-\s*\d{1,2}:\d{2}\s*/i,'').replace(/^[-:,.\s]+/,'');if(g.length<25||(q&&q.toLowerCase().includes(g.toLowerCase().slice(0,40))))return '';if(g.length>200){g=g.slice(0,200);g=g.slice(0,g.lastIndexOf(' '))+'…';}return g;}
+function postCard(p){const q=p.quote||'';const g=cleanGist(p);const ref={t:'post',id:p.url,label:(postKind(p)==='candidate'?'Campaign post by ':'Post by ')+p.who,url:p.url};const lvl=postLevel(p);
  return `<div class="post${SEEN.fresh.has(p.url)?' fresh':''}"><a class="post-in" href="${esc(p.url)}" target="_blank" rel="noopener"><div class="src">${av(ini(p.who)||p.who.slice(0,2).toUpperCase(),p.platform==='Bluesky'?'#0085FF':p.platform==='YouTube'?'#E62117':'#1B74E4')}<div style="min-width:0"><b class="postwho" data-postwho="${esc(p.who)}" role="button" tabindex="0" title="Show only ${esc(p.who)}">${esc(p.who)}</b>${POSTF.scope==='All'&&postKind(p)==='candidate'?' <span class="tag amber">Candidate</span>':''}<br><span class="muted">${esc(p.platform)} · ${ago(p.when)}${p.images?' · '+p.images+' photo'+(p.images>1?'s':''):''}</span></div>${SEEN.fresh.has(p.url)?'<span class="tag green" style="margin-left:auto">New</span>':''}</div>${q?`<p class="q">${esc(q)}</p>`:''}${g?`<p class="g">${p.snap&&!q?'<span class="muted">Summary: </span>':''}${esc(g)}</p>`:''}</a>
   <div class="post-a">${itemBar(ref)}</div></div>`;}
-function postsFeed(limit){let ps=postsFiltered();if(limit)ps=ps.slice(0,limit);let last='';return ps.map(p=>{let h='';const g=POSTF.scope==='All'&&POSTF.who==='All'?postLevel(p):'';if(g&&g!==last){last=g;h=`<div class="post-grp">${esc(g)}</div>`;}return h+postCard(p);}).join('')||`<p class="muted" style="padding:12px">No posts match these filters yet.${POSTF.scope==='Candidates'?' Candidates with open feeds (YouTube or Bluesky) show here; most campaign accounts are on Facebook and Instagram, which don\u2019t offer feeds.':''}</p>`;}
+function postsFeed(limit){let all=postsFiltered();let ps=all.slice(0,limit||POSTF.n);let last='';return ps.map(p=>{let h='';const g=POSTF.scope==='All'&&POSTF.who==='All'?postLevel(p):'';if(g&&g!==last){last=g;h=`<div class="post-grp">${esc(g)}</div>`;}return h+postCard(p);}).join('')+(!limit&&all.length>ps.length?`<button type="button" class="postmore" data-postmore>Show ${Math.min(12,all.length-ps.length)} more</button>`:'')||`<p class="muted" style="padding:12px">No posts match these filters yet.${POSTF.scope==='Candidates'?' Candidates with open feeds (YouTube or Bluesky) show here; most campaign accounts are on Facebook and Instagram, which don\u2019t offer feeds.':''}</p>`;}
 function liveStatusLine(){return LIVE.on?'<span class="livedot"></span>Live · checked '+ago(LIVE.checked||LIVE.updated):'Snapshot '+(LX.postsAsOf?ago(LX.postsAsOf):'');}
 function liveBlock(){const all=postsSorted();const whos=new Set(all.filter(postScopeOk).map(p=>p.who));if(POSTF.who!=='All'&&!whos.has(POSTF.who))POSTF.who='All';POSTF.plat='All';
  return `<div class="livectl"><div class="seg scopeseg" role="group" aria-label="Whose posts">${SCOPES.map(s=>`<button type="button" data-postscope="${s[0]}" class="${POSTF.scope===s[0]?'on':''}" data-tip="${esc(s[2])}">${s[1]}</button>`).join('')}</div>${POSTF.who!=='All'?`<button type="button" class="acctchip" data-postwhoclear>${esc(POSTF.who)} <span aria-hidden="true">×</span></button>`:''}<span class="muted" id="livestat" style="margin-left:auto;font-size:13px">${liveStatusLine()}</span></div>
-  <div class="card livebox"><button type="button" class="newpill" id="newpill" hidden></button><div class="postscroll" id="livefeed">${postsFeed()}</div></div>
-  <p class="muted" style="font-size:12.5px">Tap a name to see only that account. Facebook and Instagram don\u2019t offer open feeds; those accounts are listed below.</p>`;}
+  <div class="card livebox flow"><button type="button" class="newpill" id="newpill" hidden></button><div id="livefeed">${postsFeed()}</div></div>
+  <p class="muted" style="font-size:12.5px">Tap a name to see only that account.</p>`;}
 function refreshLiveDom(newCount){const box=$('livefeed');if(!box)return false;const st=$('livestat');if(st)st.innerHTML=liveStatusLine();const top=box.scrollTop;box.innerHTML=postsFeed();
  if(newCount>0&&top>40){box.scrollTop=top;const pill=$('newpill');if(pill){pill.hidden=false;pill.textContent=newCount+' new post'+(newCount===1?'':'s')+' ↑';}}return true;}
-document.addEventListener('click',e=>{const b=e.target.closest('button');if(!b)return;if(b.id==='newpill'){const box=$('livefeed');if(box)box.scrollTo({top:0,behavior:'smooth'});b.hidden=true;return;}if(b.dataset.postsort){POSTF.sort=b.dataset.postsort;rerender();return;}if(b.dataset.postscope){POSTF.scope=b.dataset.postscope;POSTF.who='All';rerender();return;}if(b.hasAttribute('data-postwhoclear')){POSTF.who='All';rerender();return;}},true);
+document.addEventListener('click',e=>{const b=e.target.closest('button');if(!b)return;if(b.id==='newpill'){const box=$('livefeed');if(box)box.scrollTo({top:0,behavior:'smooth'});b.hidden=true;return;}if(b.dataset.postsort){POSTF.sort=b.dataset.postsort;rerender();return;}if(b.dataset.postscope){POSTF.scope=b.dataset.postscope;POSTF.who='All';POSTF.n=12;rerender();return;}if(b.hasAttribute('data-postwhoclear')){POSTF.who='All';rerender();return;}if(b.hasAttribute('data-postmore')){POSTF.n+=12;const f=$('livefeed');if(f)f.innerHTML=postsFeed();return;}},true);
 document.addEventListener('click',e=>{const w=e.target.closest('[data-postwho]');if(!w)return;e.preventDefault();e.stopPropagation();POSTF.who=w.dataset.postwho;rerender();const f=document.getElementById('livefeed');if(f)f.scrollTop=0;},true);
 document.addEventListener('change',e=>{if(e.target.id==='postwho'){POSTF.who=e.target.value;rerender();}else if(e.target.id==='postplat'){POSTF.plat=e.target.value;rerender();}});
+
+function acctScopeOk(a){const s=POSTF.scope;if(s==='All')return true;if(s==='Candidates')return a.type==='Campaign';if(a.type==='Campaign')return false;const r={City:0,'Public safety':0,Schools:0,County:1,State:2,Federal:3}[a.level];if(s==='Local')return r<=1;if(s==='State')return r===2;if(s==='Federal')return r===3;return true;}
+function pageSocial2(){if(!LX)return pageLocal();const acc=socAccounts().filter(acctScopeOk).filter(a=>!['Email','Alerts'].includes(a.platform));const by={};acc.forEach(a=>{(by[a.who]=by[a.who]||{who:a.who,role:a.role,level:a.level,list:[]}).list.push(a);});const groups=Object.values(by).sort((a,b)=>a.who.localeCompare(b.who));
+ return `<section class="stack" style="gap:4px"><h1>Social media</h1><p class="muted">What your officials are posting, newest first.</p></section>
+ ${liveBlock()}
+ ${groups.length?`<details class="card acctfold"><summary><b>Where to follow them</b> <span class="muted">${groups.length} ${POSTF.scope==='All'?'':esc(POSTF.scope.toLowerCase())+' '}account${groups.length===1?'':'s'}, including Facebook and Instagram</span></summary><div class="acctlist">${groups.map(g=>`<div class="acctrow"><div class="stack" style="gap:1px;min-width:0"><b>${esc(g.who)}</b>${g.role&&g.role!==g.who?`<span class="muted">${esc(g.role)}</span>`:''}</div>${acctChips(g.list)}</div>`).join('')}</div></details>`:''}
+ ${foot()}`;}
 
 /* ================= v38: interests on anything, comments attached to items, Business, Parks and rec, the Nov 3 ballot ================= */
 const STAR='<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l2.8 5.9 6.4.8-4.7 4.4 1.2 6.4L12 17.4 6.3 20.5l1.2-6.4L2.8 9.7l6.4-.8z"/></svg>';
