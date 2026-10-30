@@ -2641,7 +2641,7 @@ document.addEventListener('click',e=>{const b=e.target.closest('[data-hlpick],[d
  else{AS.choices=null;AS.open=false;AS.err='';}
  rerender();},true);
 /* the address typed for the address check also sets the tax estimate, unless the visitor already picked a home */
-const _tkVerify39=tkVerify;tkVerify=async function(a,u){const r=await _tkVerify39(a,u);try{if(r&&r.checked&&!homeSrc())assessLookup(r.matched||a,false);}catch(e){}return r;};
+const _tkVerify39=tkVerify;tkVerify=async function(a,u){const r=await _tkVerify39(a,u);try{if(r&&r.checked&&!homeSrc()&&TOWN&&TOWN.assessor)assessLookup(r.matched||a,false);}catch(e){}return r;};
 /* ---- Back arrow on every page except Home; Home gets a wider column ---- */
 var NAVST=[];
 function navTrack(){const h=(location.hash||'#home').slice(1)||'home';if(NAVST.length>1&&NAVST[NAVST.length-2]===h)NAVST.pop();else if(NAVST[NAVST.length-1]!==h)NAVST.push(h);if(NAVST.length>60)NAVST=NAVST.slice(-60);}
