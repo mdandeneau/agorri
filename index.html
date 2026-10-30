@@ -1090,6 +1090,13 @@ a.agm-line:hover .agm-t b{color:var(--accent)}
 .hl-ch{display:flex;flex-direction:column;gap:6px;max-height:260px;overflow:auto}
 .hl-pick{display:flex;justify-content:space-between;align-items:center;gap:10px;padding:8px 12px;border-radius:10px;border:1px solid var(--line);background:var(--surface);color:var(--ink);font:inherit;font-size:13.5px;text-align:left;cursor:pointer}
 .hl-pick:hover{border-color:var(--accent)}
+.hero2{position:relative;height:250px;border-radius:20px;overflow:hidden;background:var(--soft);box-shadow:var(--shadow)}
+.hero2 img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.hero2::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,0) 35%,rgba(0,0,0,.55) 100%)}
+.hero2-txt{position:absolute;left:24px;bottom:20px;z-index:1;color:#fff;display:flex;flex-direction:column;gap:2px;text-shadow:0 1px 8px rgba(0,0,0,.35)}
+.hero2-txt h1{color:#fff;font-size:30px;letter-spacing:-.01em}.hero2-txt span{font-size:14px;opacity:.92}
+.hero2-cr{position:absolute;right:12px;bottom:10px;z-index:1;font-size:10.5px;color:rgba(255,255,255,.85);text-decoration:none}.hero2-cr:hover{text-decoration:underline}
+@media (max-width:640px){.hero2{height:190px;border-radius:16px;margin:0 -4px}.hero2-txt{left:16px;bottom:16px}.hero2-txt h1{font-size:23px}.hero2-cr{bottom:auto;top:8px;right:10px}}
 @media (max-width:720px){.qiss{margin-left:0;flex-basis:100%}.hcar-b{display:none}.dpgrid{grid-template-columns:1fr}.dp{min-height:0}.hc-feat{flex-basis:80%}.hc{flex-basis:72%}.hcar-track{margin:0 -16px;padding:4px 16px 10px;scroll-padding:0 16px}}
 </style>
 
@@ -2587,11 +2594,16 @@ function decidingPreview(){const m=D.council_meetings[0];const top=D.issues.slic
  ${m?`<a class="pv-meet" href="#meeting-0"><span class="muted">${m.date===addDays(TODAY,-1)?'Last night':'Latest '+esc(m.body||GB())+' meeting, '+fmtD(m.date)}:</span> ${esc(m.headline)} ›</a>`:''}</section>`;}
 function sayingPreview(){const all=(window.TALK&&TALK.ready)?tkTop():[];const top=tkSort(all,'New').slice(0,3);
  return `<section class="blk"><div class="sec"><h2>What residents are saying</h2><a href="#talk">All talk${all.length?' ('+all.length+')':''} ›</a></div>${top.length?`<div class="card pv-list">${top.map(x=>`<a class="pv-row" href="#talk-${esc(x.key)}"><span class="pv-t"><span class="pv-kind">${esc((TK_KINDS[x.kind]||{n:'Post'}).n)}</span> ${esc(x.title||(x.body||'').slice(0,120))}</span><small class="muted">${esc(tkWho(x))} · ${ago(x.at)}</small></a>`).join('')}</div>`:`<div class="card pv-list"><p class="muted pv-empty">No posts yet. Ideas and comments from residents will show up here.</p></div>`}</section>`;}
+/* ---- Home header: the town's photo (towns.json photo, Wikimedia Commons, credited) ---- */
+function heroHead(hi){const d=ld(TODAY).toLocaleDateString('en-US',{weekday:'long',month:'long',day:'numeric'});const P=TOWN&&TOWN.photo;
+ if(!P||!P.src)return `<section class="between hhead"><div class="stack" style="gap:2px"><h1>${hi}, ${TN()}</h1><span class="muted">${d}</span></div></section>`;
+ const u=w=>P.src.replace('{w}',w);
+ return `<section class="hero2"><img src="${esc(u(960))}" srcset="${esc(u(960))} 960w, ${esc(u(1920))} 1920w" sizes="(max-width:900px) 100vw, 900px" alt="${esc(P.alt||'')}" style="object-position:${esc(P.pos||'50% 50%')}" decoding="async" fetchpriority="high"><div class="hero2-txt"><h1>${hi}, ${TN()}</h1><span>${d}</span></div><a class="hero2-cr" href="${esc(P.page)}" target="_blank" rel="noopener">Photo: ${esc(P.author)}, ${esc(P.license)}</a></section>`;}
 /* ---- the new Home ---- */
 function pageHome2(){const m=D.council_meetings[0];const yes=m?m.decisions.filter(d=>/^pass|^approved/i.test(d.outcome||'')).length:0;const nev=upcomingEvents().length;const hr=new Date().getHours();const hi=hr<12?'Good morning':hr<17?'Good afternoon':'Good evening';const yday=m&&m.date===addDays(TODAY,-1);
  if(!WX.ok||WX.town!==TOWN.id)loadWX();
  return `
- <section class="between hhead"><div class="stack" style="gap:2px"><h1>${hi}, ${TN()}</h1><span class="muted">${ld(TODAY).toLocaleDateString('en-US',{weekday:'long',month:'long',day:'numeric'})}</span></div></section>
+ ${heroHead(hi)}
  ${askCard()}
  ${kpiTiles()}
  ${hcBlock()}

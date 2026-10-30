@@ -25,6 +25,15 @@
     "base": "https://gis.vgsi.com/portsmouthnh/",
     "site": "https://gis.vgsi.com/portsmouthnh/",
     "label": "City of Portsmouth Assessor (Vision Government Solutions)"
+   },
+   "photo": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Portsmouth%2C_New_Hampshire.jpg/{w}px-Portsmouth%2C_New_Hampshire.jpg",
+    "alt": "Downtown Portsmouth and the North Church steeple across the Piscataqua River waterfront",
+    "author": "Domenico Convertini",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Portsmouth,_New_Hampshire.jpg",
+    "pos": "50% 40%"
    }
   },
   {
@@ -44,6 +53,15 @@
     "business": "data/nashua/business.json",
     "candidates": "data/nashua/candidates.json",
     "questions": "data/nashua/questions.json"
+   },
+   "photo": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Nashua_NH_Main_Street_52.JPG/{w}px-Nashua_NH_Main_Street_52.JPG",
+    "alt": "Main Street in downtown Nashua",
+    "author": "AlexiusHoratius",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Nashua_NH_Main_Street_52.JPG",
+    "pos": "50% 35%"
    },
    "assessor": {
     "type": "patriot",
