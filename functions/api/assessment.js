@@ -45,17 +45,19 @@ export async function patriot(base, a) {
 }
 
 // Univers (Cole Layer Trumble), used by Conway: street names come from a fixed list, house numbers are zero-padded to 5 digits.
+export const DBG = {};
 export async function univers(base, a) {
-  const page = await (await timed(base, { headers: UA })).text();
+  const pr = await timed(base, { headers: UA }); const page = await pr.text(); DBG.page = pr.status + ' ' + page.length;
   const want = expandDir(a.core);
   const opts = [...page.matchAll(/<option[^>]*value="([^"]*)"/gi)].map(m => m[1].trim()).filter(Boolean);
   const pick = opts.filter(o => { const n = normStreet('1 ' + o.replace(/\s+(UNIT|#)\s*\S+$/i, '')); return n && (expandDir(n.core) === want); }).slice(0, 6);
+  DBG.opts = opts.length; DBG.pick = pick; DBG.posts = [];
   const num = String(a.num).padStart(5, '0');
   const seen = new Set(); const hits = [];
   for (const st of pick) {
     const body = new URLSearchParams({ m_l_b: '', name: '', street_number: num, street_name: st, search: 'Search' });
     const r = await timed(base + 'index.php', { method: 'POST', headers: { ...UA, 'content-type': 'application/x-www-form-urlencoded' }, body });
-    if (!r.ok) continue; const h = await r.text();
+    const h = await r.text(); DBG.posts.push(r.status + ' ' + h.length + ' ' + /View Details/.test(h)); if (!r.ok) continue;
     for (const row of h.match(/<tr[\s\S]*?<\/tr>/gi) || []) {
       const link = (row.match(/href="(view_property_[A-Z]\.php\?account_no=(\d+)&(?:amp;)?series_card=1)"/i) || []);
       if (!link[1] || seen.has(link[2])) continue; seen.add(link[2]);
@@ -93,6 +95,7 @@ export async function onRequest(context) {
   catch (e) { return json({ error: 'The assessor’s database didn’t answer. Try again in a minute.' }, 503); }
   if (!results) return json({ error: 'Assessor lookup is not available for this town yet.' }, 404);
   const out = { town, query: `${a.num} ${a.street}`, results, source: { label: t.assessor.label, url: t.assessor.site || t.assessor.base } };
+  if (url.searchParams.get('debug') === '1') return json({ ...out, debug: DBG });
   if (cache && results.length) context.waitUntil && context.waitUntil(cache.put(key, new Response(JSON.stringify(out), { headers: { 'cache-control': 'max-age=86400' } })));
   return json(out);
 }
