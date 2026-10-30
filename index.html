@@ -2629,7 +2629,7 @@ async function assessLookup(address,quiet){if(!TOWN||!address)return;if(!OWNHOST
   if(j.results.length===1)assessUse(j.results[0],j.source,quiet);else{AS.choices={list:j.results,source:j.source};AS.open=true;}}
  catch(e){AS.err=e.message;if(quiet)AS.err='';}
  AS.busy=false;rerender();}
-function homeLookup(){if(!TOWN||!RATE())return '';const h=homeSrc();const mine=h&&S.homes&&S.homes[TOWN.id]===h.value;
+function homeLookup(){if(!TOWN||!RATE()||!TOWN.assessor)return '';const h=homeSrc();const mine=h&&S.homes&&S.homes[TOWN.id]===h.value;
  if(AS.choices)return `<div class="hl"><span class="hl-q">More than one property at that address. Which is yours?</span><div class="hl-ch">${AS.choices.list.map((x,i)=>`<button type="button" class="hl-pick" data-hlpick="${i}"><span>${esc(tcase(x.loc))}${x.use?` <small class="muted">${esc(tcase(x.use))}</small>`:''}</span><b class="num">$${x.value.toLocaleString()}</b></button>`).join('')}</div><button type="button" class="linkbtn" data-hlcancel>Cancel</button></div>`;
  const form=`<form class="hlform" data-hlform><input name="addr" autocomplete="street-address" aria-label="Your street address" placeholder="Your street address, e.g. 12 Maple St"><button class="btn sm primary" type="submit"${AS.busy?' disabled':''}>${AS.busy?'Looking up…':'Use my home'}</button></form>${AS.err?`<span class="hl-err">${esc(AS.err)}</span>`:''}`;
  if(mine)return `<div class="hl"><span class="hl-src">Your home: <b>${esc(tcase(h.loc))}</b>, assessed at $${h.value.toLocaleString()} by ${esc(h.src)}. Before any exemptions or credits. <button type="button" class="linkbtn" data-hlopen>${AS.open?'Cancel':'Change'}</button></span>${AS.open?form:''}</div>`;

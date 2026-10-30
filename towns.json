@@ -89,12 +89,6 @@
     "candidates": "data/north-conway/candidates.json",
     "questions": "data/north-conway/questions.json"
    },
-   "assessor": {
-    "type": "univers",
-    "base": "https://conway.univers-clt.com/",
-    "site": "https://conway.univers-clt.com/",
-    "label": "the Town of Conway Assessing Office"
-   },
    "photo": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Echo_Lake_and_Cathedral_Ledge%2C_North_Conway_%28494301%29_%2811924544465%29.jpg/{w}px-Echo_Lake_and_Cathedral_Ledge%2C_North_Conway_%28494301%29_%2811924544465%29.jpg",
     "alt": "Cathedral Ledge and fall color reflected in Echo Lake, North Conway",
