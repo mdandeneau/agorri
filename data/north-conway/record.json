@@ -1,0 +1,1217 @@
+{
+ "about": {
+  "town": "North Conway, NH",
+  "as_of": "2026-10-30",
+  "records_from": "2026-04-07",
+  "documents_used": 66,
+  "note": "North Conway is a village inside the Town of Conway, Carroll County, not a separate town, so this is the Town of Conway's record: its Board of Selectmen, Town Manager and annual Town Meeting. Conway uses the official ballot (SB2) form: a deliberative session in early March, then all articles voted by ballot at the April town election. North Conway's water, sewer and fire department are run by the separate North Conway Water Precinct. The town's Selectmen minutes sit in a Google Drive folder that could not be opened for this research, so meeting entries are built from the Conway Daily Sun, a meeting summary and town documents, and are marked as news reports. Plain-English summaries written by AI; items with needs_review=true are uncertain."
+ },
+ "town": {
+  "name": "North Conway",
+  "state": "NH",
+  "body": "Board of Selectmen",
+  "bodyShort": "Selectmen",
+  "members": "selectmen",
+  "registeredVoters": 7447,
+  "registeredByWard": {
+   "All": 7447
+  },
+  "turnout2025": {
+   "ballots": 1702,
+   "registered": 7447,
+   "pct": 22.9
+  },
+  "turnoutNote": "April 14, 2026 annual town election (the most recent town election), as reported by the Conway Daily Sun. Conway has no wards; the April 2026 town election was held at one polling place, the Conway Town Garage.",
+  "sources": {
+   "election": "https://www.conwaydailysun.com/news/local/police-bond-most-articles-pass-in-conway/article_8836980a-16f7-4906-8faa-fcc91580d750.html",
+   "roster": "https://conwaynh.gov/pages/conway-select-board",
+   "wards": "https://conwaynh.gov/news/election-results",
+   "voters": "https://www.conwaydailysun.com/news/local/police-bond-most-articles-pass-in-conway/article_8836980a-16f7-4906-8faa-fcc91580d750.html"
+  },
+  "demoAddress": "23 Main Street",
+  "demoAddressNote": "Conway Town Hall, 23 Main Street, Conway, NH 03818 (in Conway Village, south of North Conway).",
+  "nextCityElection": "April 2027 (annual town election by official ballot; date not yet posted)",
+  "contactNote": "Selectmen do not list individual emails. Reach them through the Town Manager's office at Town Hall, 23 Main Street, Conway: 603-447-3811 (ext. 210) or conway@conwaynh.org. Office hours are 8:30 AM to 4:30 PM weekdays.",
+  "turnoutLabel": "April 2026 town election"
+ },
+ "next_council_meeting": null,
+ "issues": [
+  {
+   "id": "police-station",
+   "title": "Police station addition and renovation",
+   "topic": "City buildings & facilities",
+   "status": "Approved by voters April 14, 2026: $9.37 million bond passed 1,052-620, clearing the three-fifths needed",
+   "next": null,
+   "summary": "After two failed tries, voters approved borrowing to expand and renovate the Conway Police station on East Conway Road. The chief has asked for up to $3 million in federal money to offset the cost; work will be done in phases while the department keeps operating.",
+   "points": [
+    "Article 3 asked for $9,372,828 (gross), to be borrowed; Selectmen recommended it 4-0-0 and the Budget Committee 11-1-0.",
+    "It passed 1,052-620; a three-fifths majority needed 1,023 yes votes.",
+    "In 2025 a $9,150,000 version (Article 18) got 1,116-845, short of three-fifths.",
+    "Chief Chris Mattei applied in February 2026 for FY2027 Congressionally Directed Spending (a federal earmark) with help from Sen. Shaheen's office; the Daily Sun reported up to $3 million could come from it. Award not confirmed."
+   ],
+   "keywords": [
+    "police station",
+    "police department",
+    "pd",
+    "bond",
+    "renovation",
+    "addition",
+    "east conway road"
+   ],
+   "sources": [
+    {
+     "label": "2026 town ballot (articles and recommendations)",
+     "url": "https://conwaynh.gov/uploads/2026-town-official-results.pdf"
+    },
+    {
+     "label": "Conway Daily Sun, Apr 15, 2026: Police bond, most articles pass",
+     "url": "https://www.conwaydailysun.com/news/local/police-bond-most-articles-pass-in-conway/article_8836980a-16f7-4906-8faa-fcc91580d750.html"
+    },
+    {
+     "label": "Conway Daily Sun: Feds may kick in $3 million for Conway PD station",
+     "url": "https://www.conwaydailysun.com/news/local/feds-may-kick-in-3-million-for-conway-pd-station/article_63bf41fa-cec2-4019-b336-dafb33045f18.html"
+    },
+    {
+     "label": "Conway Daily Sun: Police chief outlines station plans",
+     "url": "https://www.conwaydailysun.com/news/local/police-chief-grateful-for-win-at-polls-outlines-station-plans/article_996c22f7-a361-4af8-a055-8e5c7fce1eef.html"
+    },
+    {
+     "label": "2025 Town Report (2025 Article 18 result)",
+     "url": "https://conwaynh.gov/uploads/conway-town-report-2025-web.pdf"
+    }
+   ],
+   "scope": "Town",
+   "related": [
+    {
+     "date": "2026-04-14",
+     "body": "Town election",
+     "url": "https://www.conwaydailysun.com/news/local/police-bond-most-articles-pass-in-conway/article_8836980a-16f7-4906-8faa-fcc91580d750.html",
+     "d": {
+      "title": "Voters approved the $9.37 million police station bond",
+      "detail": "Article 3: bond for the police station addition and remodel; needed a three-fifths vote.",
+      "outcome": "passed 1,052-620"
+     }
+    }
+   ]
+  },
+  {
+   "id": "main-street-project",
+   "title": "Main Street Project: Route 16 intersections in Conway Village",
+   "topic": "Parking & transportation",
+   "status": "Under construction since April 20, 2026; shutting down for winter by the end of November",
+   "next": "Work resumes in 2027; completion targeted October 1, 2027",
+   "summary": "A state and federally funded rebuild, run by the town, of the Route 16 intersections with Route 113 and Route 153 (Washington and Pleasant Streets) in Conway Village, in front of the Conway Public Library: new signals, realigned and widened roads, retaining walls and drainage. This is in Conway Village, a few miles south of North Conway, but it affects the main road through town.",
+   "points": [
+    "NHDOT project 40638, managed by the town; contractor Alvin J. Coleman & Son, Inc. (award April 7, 2026).",
+    "Construction began April 20, 2026; two seasons, finishing by October 1, 2027.",
+    "2026 work covers Phases 1 and 2 and part of Phase 4. Two-way traffic is kept with flaggers; no detours onto side streets.",
+    "Late October 2026: selectmen were told the project will shut down for the winter by the end of November (Daily Sun, Oct 26).",
+    "Questions go to MainSt@conwaynh.org or 603-447-3811 ext. 232."
+   ],
+   "keywords": [
+    "main street",
+    "route 16",
+    "route 113",
+    "route 153",
+    "intersection",
+    "conway village",
+    "traffic",
+    "construction"
+   ],
+   "sources": [
+    {
+     "label": "Town Engineer: Main Street Project page",
+     "url": "https://conwaynh.gov/pages/town-engineer"
+    },
+    {
+     "label": "Selectmen presentation, April 28, 2026",
+     "url": "https://conwaynh.gov/uploads/bos-main-street-presentation_final.pdf"
+    },
+    {
+     "label": "Conway Daily Sun local news (Oct 26 headline: Main Street Project shutting down for winter next month)",
+     "url": "https://www.conwaydailysun.com/news/local/"
+    }
+   ],
+   "scope": "Town",
+   "related": [
+    {
+     "date": "2026-04-28",
+     "body": "Board of Selectmen",
+     "url": "https://conwaynh.gov/uploads/bos-main-street-presentation_final.pdf",
+     "d": {
+      "title": "Briefing on the Main Street Project",
+      "detail": "Town Engineer Jim Badera presented the schedule, phases and traffic plan.",
+      "outcome": "presentation, no vote"
+     }
+    }
+   ]
+  },
+  {
+   "id": "zoning-rewrite",
+   "title": "Conway Forward: rewriting the town's zoning rules",
+   "topic": "Housing & zoning",
+   "status": "Draft ordinance and table of uses posted (October 2026); Planning Board hearings start November 5",
+   "next": "2026-11-05: Planning Board public hearing, 6:30 PM (another on Dec 3)",
+   "summary": "The Planning Board is rewriting the whole Zoning Ordinance and zoning map to carry out the 2024 Master Plan. The draft aims at more housing, protecting farmland, walkable villages and limits on big box style development. Voters would decide at the 2027 Town Meeting.",
+   "points": [
+    "Consultants: Barrett Planning Group, with SE Group (the Master Plan consultant). About 18 months, 2025 to 2027.",
+    "Community meetings were held May 28 and October 22, 2026.",
+    "Planning Board public hearings: November 5 and December 3, 2026 at 6:30 PM; January 7, 2027 if needed.",
+    "Conway currently has eleven zoning districts; the project includes zoning map changes."
+   ],
+   "keywords": [
+    "zoning",
+    "zoning ordinance",
+    "conway forward",
+    "master plan",
+    "housing",
+    "zoning map",
+    "districts",
+    "public hearing"
+   ],
+   "sources": [
+    {
+     "label": "Conway Forward zoning update project page",
+     "url": "https://bpg.mysocialpinpoint.com/conway-forward-zoning"
+    },
+    {
+     "label": "Planning Board page",
+     "url": "https://conwaynh.gov/pages/planning-board"
+    }
+   ],
+   "scope": "Town",
+   "related": [
+    {
+     "date": "2026-10-22",
+     "body": "Planning Board (community meeting)",
+     "url": "https://bpg.mysocialpinpoint.com/conway-forward-zoning",
+     "d": {
+      "title": "Second Conway Forward open house",
+      "detail": "Open house on the draft zoning ordinance, 5 to 7 PM.",
+      "outcome": "public meeting, no vote"
+     }
+    }
+   ]
+  },
+  {
+   "id": "school-tax-cap",
+   "title": "School tax cap question on the November 3 ballot",
+   "topic": "Schools",
+   "status": "On the November 3, 2026 ballot as Question 2",
+   "next": "2026-11-03: voters decide",
+   "summary": "Conway voters will decide whether to cap growth in the local property tax for the Conway School District (SAU 9) for two years, under RSA 32:5-i. The town's Budget Committee voted against recommending it.",
+   "points": [
+    "The levy could not grow beyond the prior year's amount adjusted for inflation and new construction.",
+    "SAU central office spending could not exceed 6 percent of total school district spending; bonded building costs are excluded from both limits.",
+    "SAU 9 says its central office budget is now 4.37 percent of eligible spending.",
+    "Oct 13: the Conway Municipal Budget Committee voted 0 in favor, 9 against, 3 abstaining.",
+    "Only three residents attended the School Board's information session in late October."
+   ],
+   "keywords": [
+    "school tax cap",
+    "tax cap",
+    "school budget",
+    "sau 9",
+    "school district",
+    "question 2"
+   ],
+   "sources": [
+    {
+     "label": "Conway Daily Sun, Oct 28, 2026: School tax cap info session attracts few takers",
+     "url": "https://www.conwaydailysun.com/news/local/school-tax-cap-info-session-attracts-few-takers/article_946e128f-d893-40a5-a4d5-b16f6d6d1a71.html"
+    }
+   ],
+   "scope": "Town",
+   "related": [],
+   "needs_review": true,
+   "review_note": "All details come from one news article; the official ballot question text was not opened."
+  },
+  {
+   "id": "rec-path-phase-2",
+   "title": "Rec Path Phase 2 through Whitaker Woods",
+   "topic": "Parks & recreation",
+   "status": "Petition Article 46 was on the April 14 ballot; supporters called the result disappointing (vote count not confirmed)",
+   "next": null,
+   "summary": "Supporters want a paved path from Cranmore through Whitaker Woods in North Conway and along the state rail corridor to Intervale, paid for only with grants and donations. Selectmen first backed the petition, then voted to oppose it; the Budget Committee also opposed it. The article was non-binding.",
+   "points": [
+    "Estimated cost rose from $3.3 million to $5.6 million; a federal EDA grant was terminated because the timeline could not be met.",
+    "April 7: the Mt. Washington Valley Trails Association said it secured the last private easement along the power line corridor.",
+    "Selectmen voted 3-2 to support the petition, then after the March 4 deliberative session voted 2-1 to oppose it, with Seavey and Shepard abstaining.",
+    "Budget Committee opposed it 8-3-1. Town counsel said the article is non-binding.",
+    "After the vote, the Trails Association said the result was 'certainly disappointing' and its board would meet on next steps."
+   ],
+   "keywords": [
+    "rec path",
+    "recreation path",
+    "whitaker woods",
+    "trail",
+    "intervale",
+    "phase 2",
+    "trails association"
+   ],
+   "sources": [
+    {
+     "label": "Conway Daily Sun, Mar 6, 2026: Selectmen reverse course on Rec Path Phase 2",
+     "url": "https://www.conwaydailysun.com/news/local/selectmen-reverse-course-on-rec-path-phase-2/article_2e7531a8-ccd3-4081-a920-02ccd5c536d8.html"
+    },
+    {
+     "label": "Conway Daily Sun: Conway voters could decide Rec Path fate",
+     "url": "https://www.conwaydailysun.com/news/local/conway-voters-could-decide-rec-path-fate/article_10ae307a-7d76-41c8-b1ce-393f3eb73cf6.html"
+    },
+    {
+     "label": "Conway Daily Sun, Apr 8, 2026: Rec path Phase 2 gets clutch easement",
+     "url": "https://www.conwaydailysun.com/news/local/rec-path-phase-2-gets-clutch-easement/article_ef134c71-9dc5-4fe3-89f3-bb2ada2fdb9a.html"
+    },
+    {
+     "label": "Conway Daily Sun, Apr 15, 2026: election results",
+     "url": "https://www.conwaydailysun.com/news/local/police-bond-most-articles-pass-in-conway/article_8836980a-16f7-4906-8faa-fcc91580d750.html"
+    },
+    {
+     "label": "2026 town ballot (Article 46 text and recommendations)",
+     "url": "https://conwaynh.gov/uploads/2026-town-official-results.pdf"
+    }
+   ],
+   "scope": "Town",
+   "related": [
+    {
+     "date": "2026-04-07",
+     "body": "Board of Selectmen",
+     "url": "https://www.conwaydailysun.com/news/local/rec-path-phase-2-gets-clutch-easement/article_ef134c71-9dc5-4fe3-89f3-bb2ada2fdb9a.html",
+     "d": {
+      "title": "Final private easement announced",
+      "detail": "Selectmen heard that the last private easement had been secured; no vote.",
+      "outcome": "no vote"
+     }
+    }
+   ],
+   "needs_review": true,
+   "review_note": "The Article 46 vote count was not found in any source opened; 'disappointing' is the Trails Association's word as reported."
+  },
+  {
+   "id": "commercial-reassessment",
+   "title": "State-ordered fix to commercial property assessments",
+   "topic": "Budget & taxes",
+   "status": "Reassessment ordered by the state tax board; reported to take effect for the 2027 tax year",
+   "next": null,
+   "summary": "Residents petitioned the NH Board of Tax and Land Appeals (BTLA, the state board that hears property tax appeals) after the 2023 revaluation, arguing commercial property was undervalued and residents paid more as a result. The board found commercial sales assessed at 77 percent of market value. The town has hired a new assessing firm to work with commercial taxpayers.",
+   "points": [
+    "BTLA interim order (early 2025): commercial properties sold Aug 2023 to Aug 2024 were assessed at about 77 percent of market value; the acceptable range is 90 to 110 percent.",
+    "The town's assessing firm, Corcoran Consulting, ended its contract effective March 14, 2025.",
+    "A real estate firm's summary says the BTLA ordered a reassessment for the 2027 tax year in July 2025.",
+    "June 22, 2026: the Assessing Office mailed a notice to commercial taxpayers about Sansoucy Associates."
+   ],
+   "keywords": [
+    "assessment",
+    "reassessment",
+    "revaluation",
+    "assessing",
+    "btla",
+    "commercial property",
+    "sansoucy"
+   ],
+   "sources": [
+    {
+     "label": "NHPR, Feb 4, 2025: State regulators will review Conway property tax assessments",
+     "url": "https://www.nhpr.org/nh-news/2025-02-04/conway-property-tax-assessment-reval-appeal-complaint-commercial-residential"
+    },
+    {
+     "label": "Town notice from the Assessing Office, June 22, 2026",
+     "url": "https://conwaynh.gov/news/notice-from-assessing-office"
+    },
+    {
+     "label": "Pinkham Real Estate, Aug 6, 2026 (summary of the 2025 BTLA order)",
+     "url": "https://pinkhamrealestate.com/blog/why-conways-low-tax-rate-comes-with-an-asterisk-through-2027"
+    }
+   ],
+   "scope": "Town",
+   "related": [],
+   "needs_review": true,
+   "review_note": "The BTLA's July 2025 reassessment order itself could not be opened; the 2027 tax year comes from a secondary source. The text of the June 2026 notice is an image that could not be read."
+  },
+  {
+   "id": "ncwp-pfas",
+   "title": "North Conway Water Precinct: treating PFAS in landfill leachate",
+   "topic": "Infrastructure & utilities",
+   "status": "Precinct voters approved an $8 million bond on March 25, 2026 (40-8)",
+   "next": null,
+   "summary": "The North Conway Water Precinct, a separate local government that runs North Conway's water, sewer and fire department, will design and build treatment for PFAS ('forever chemicals') in landfill leachate (liquid draining from the landfill) sent to its wastewater plant. Officials say the landfill's users should pay for it.",
+   "points": [
+    "The $9.3 million proposal was cut to $8 million at the annual meeting by removing $1.3 million in plant buildings not tied to PFAS; it passed 40-8 by secret ballot.",
+    "A wastewater master planning article passed 41-3.",
+    "Superintendent Jason Gagnon said the precinct would not proceed without an agreement with the Mount Washington Valley Solid Waste District.",
+    "If the precinct paid it all, a 20-year note on about $6 million would cost about $367,000 a year, roughly 25 cents per $1,000 on the precinct tax rate (Feb 25 hearing estimate).",
+    "Officials said 35 to 70 percent of the PFAS at the plant comes from the landfill; $5 million or more in state aid may be available."
+   ],
+   "keywords": [
+    "pfas",
+    "leachate",
+    "wastewater",
+    "sewer",
+    "precinct",
+    "water precinct",
+    "landfill"
+   ],
+   "sources": [
+    {
+     "label": "NCWP bond and budget hearing minutes, Feb 25, 2026",
+     "url": "https://www.ncwp.nh.gov/AgendaCenter/ViewFile/Minutes/_02252026-35"
+    },
+    {
+     "label": "Conway Daily Sun, Mar 27, 2026: North Conway voters pass bond for PFAS treatment",
+     "url": "https://www.conwaydailysun.com/news/local/north-conway-voters-pass-bond-for-pfas-treatment/article_ba79caae-a225-45f8-98e4-410b1f583967.html"
+    }
+   ],
+   "scope": "Town",
+   "related": []
+  }
+ ],
+ "council_meetings": [
+  {
+   "body": "Board of Selectmen",
+   "date": "2026-07-14",
+   "minutes_url": "https://gathergov.com/municipalities/conway-nh/development-news",
+   "minutes_status": "news report",
+   "ocr": false,
+   "source_note": "No official minutes could be opened: the town posts Selectmen minutes in a Google Drive folder linked from conwaynh.gov/documents, which was not reachable for this research. This entry is built from a news report or meeting summary, so it may be incomplete. Source: GatherGov summary of the town's Facebook Live video of the meeting (https://www.facebook.com/100071314939577/videos/3610159842455942); GatherGov shows 5 of 21 items publicly.",
+   "attendance": {
+    "present": [],
+    "absent": []
+   },
+   "headline": "Selectmen used $23,000 from a police revolving fund to replace a wrecked cruiser, reappointed the health officers and named Donohoe to the Conservation Commission.",
+   "decisions": [
+    {
+     "title": "Used $23,000 from the police commercial duty fund to replace a totaled cruiser",
+     "detail": "A 2023 police cruiser was totaled in an accident. After insurance, the shortfall is about $21,000 against a roughly $50,000 Ford cruiser plus $12,000 in equipment. The commercial duty revolving fund had about $79,789 available.",
+     "outcome": "approved unanimously",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": null,
+     "dissent": [],
+     "topic": "Public safety",
+     "dollars": 23000,
+     "ordinance_reading": null,
+     "needs_review": true,
+     "review_note": "The summary dates the accident July 17, after the July 14 meeting; one of the two dates is likely wrong. No official minutes were available."
+    },
+    {
+     "title": "Reappointed the town Health Officer and Assistant Health Officer",
+     "detail": "Jeremy Gibbs reappointed as Health Officer and James Hounsell as Assistant Health Officer.",
+     "outcome": "approved unanimously",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": null,
+     "dissent": [],
+     "topic": "Health & human services",
+     "dollars": null,
+     "ordinance_reading": null,
+     "needs_review": true,
+     "review_note": "From a third-party summary of the meeting video, not minutes."
+    },
+    {
+     "title": "Named Selectman Donohoe the board's representative on the Conservation Commission",
+     "detail": "Peter Donohoe fills the selectmen's seat on the Conservation Commission.",
+     "outcome": "approved (vote count not given in the summary)",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": null,
+     "dissent": [],
+     "topic": "Government & elections",
+     "dollars": null,
+     "ordinance_reading": null,
+     "needs_review": true,
+     "review_note": "Vote count not reported. The summary spells the name 'Donahoe'; the town roster spells it Donohoe."
+    }
+   ],
+   "discussed": [
+    {
+     "title": "Conservation Commission update",
+     "detail": "Report on town land management, a dog waste program in Whitaker Woods, an all-season trail on Black Cap built with the state and The Nature Conservancy, and review of a state alteration of terrain permit (the state permit for large earth-moving projects) for the Ridgeline development.",
+     "topic": "Environment & resilience"
+    },
+    {
+     "title": "Nonpublic session",
+     "detail": "The board went into a closed session under RSA 91-A:3, II (c) (matters that could affect someone's reputation).",
+     "topic": "Government & elections"
+    }
+   ],
+   "public_comment": [],
+   "coming_up": []
+  },
+  {
+   "body": "Board of Selectmen",
+   "date": "2026-06-23",
+   "minutes_url": "https://www.conwaydailysun.com/news/local/selectmen-ok-dog-park-plans-after-public-hearing/article_c7547de4-d3df-477d-9674-2955a804bedd.html",
+   "minutes_status": "news report",
+   "ocr": false,
+   "source_note": "No official minutes could be opened: the town posts Selectmen minutes in a Google Drive folder linked from conwaynh.gov/documents, which was not reachable for this research. This entry is built from a news report or meeting summary, so it may be incomplete. Also used: https://www.conwaydailysun.com/news/local/town-no-trespassing-signs-at-conway-lake-go-too-far/article_032eac30-d230-4d81-a6e5-fad8c4150419.html",
+   "attendance": {
+    "present": [
+     "Porter",
+     "Thibodeau",
+     "Shepard",
+     "Donohoe",
+     "Blake"
+    ],
+    "absent": []
+   },
+   "headline": "After a public hearing, selectmen approved the layout of a town dog park off Thom Steele Way and asked staff to rewrite the no trespassing sign at the Conway Lake town beach.",
+   "decisions": [
+    {
+     "title": "Approved the dog park layout and its government land use designation",
+     "detail": "A roughly 2-acre fenced park on town land off Thom Steele Way, near the Conway Area Humane Society: separate areas for large dogs (about 84,000 sq ft), small dogs (about 5,000 sq ft) and older dogs; 25 parking spaces; dawn to dusk, no lighting; likely closed in winter because it is next to a snow disposal area. Parks and Recreation staff would maintain it in warmer months. The town's insurer, Primex, raised no concerns.",
+     "outcome": "approved unanimously (no tally given)",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": null,
+     "dissent": [],
+     "topic": "Parks & recreation",
+     "dollars": null,
+     "ordinance_reading": null,
+     "needs_review": true,
+     "review_note": "The Daily Sun reports a unanimous vote with five members named but gives no tally or mover. Its June 24 article says 'Tuesday' (June 23)."
+    }
+   ],
+   "discussed": [
+    {
+     "title": "Conway Lake town beach sign",
+     "detail": "The board agreed to review the wording of the 'No Trespassing' sign at the town beach on Conway Lake. Staff, working with the Conway Lake Association, were told to draft new language, possibly replacing outdated fishing rules with a NH Fish and Game QR code.",
+     "topic": "Parks & recreation"
+    }
+   ],
+   "public_comment": [
+    {
+     "topic": "Dog park public hearing",
+     "speakers": null,
+     "gist": "Residents spoke at the hearing; one raised navigation concerns because Thom Steele Way did not yet appear on some GPS systems. The report does not give a speaker count."
+    },
+    {
+     "topic": "Conway Lake beach sign",
+     "speakers": 1,
+     "gist": "A resident argued parts of the sign conflict with state law and the current use program (a state tax break for open land), and that its fishing rules are out of date."
+    }
+   ],
+   "coming_up": [
+    {
+     "date": null,
+     "item": "Revised Conway Lake beach sign wording to come back to the board"
+    }
+   ]
+  },
+  {
+   "body": "Board of Selectmen",
+   "date": "2026-05-19",
+   "minutes_url": "https://www.conwaydailysun.com/news/local/selectmen-choose-thibodeau-to-replace-colbath/article_0737aba5-9917-4857-874c-afaf81579b69.html",
+   "minutes_status": "news report",
+   "ocr": false,
+   "source_note": "No official minutes could be opened: the town posts Selectmen minutes in a Google Drive folder linked from conwaynh.gov/documents, which was not reachable for this research. This entry is built from a news report or meeting summary, so it may be incomplete. Also used: https://www.conwaydailysun.com/news/local/conway-selectmen-scheduled-to-replace-seavey-next-week/article_40eec477-ca86-4777-8d78-0e5d20f55a5b.html",
+   "attendance": {
+    "present": [
+     "Porter",
+     "Donohoe",
+     "Shepard"
+    ],
+    "absent": []
+   },
+   "headline": "The three remaining selectmen appointed Carl Thibodeau to John Colbath's vacant seat until April 2027 and set a process to fill Mary Carey Seavey's seat.",
+   "decisions": [
+    {
+     "title": "Appointed Carl Thibodeau to fill John Colbath's seat",
+     "detail": "Colbath resigned at the end of April, citing personal reasons. Thibodeau serves until the April 2027 town election. Other applicants were former selectman Jac Cuddy, North Conway Community Center director Phil Ouellette and Frank Wolfe.",
+     "outcome": "approved (vote count not reported)",
+     "moved_by": "Shepard",
+     "seconded_by": null,
+     "roll_call": null,
+     "dissent": [],
+     "topic": "Government & elections",
+     "dollars": null,
+     "ordinance_reading": null,
+     "needs_review": true,
+     "review_note": "The Daily Sun names Porter, Donohoe and Shepard as the members who appointed him but gives no tally. Meeting date inferred from the May 20 article ('Tuesday')."
+    },
+    {
+     "title": "Appointed Jac Cuddy and Mike Santuccio to three-year terms",
+     "detail": "The report does not name the board; the town's Zoning Board of Adjustment page now lists Cuddy (vice chair) and Santuccio with terms to 2029.",
+     "outcome": "passed 4-0",
+     "moved_by": "Shepard",
+     "seconded_by": null,
+     "roll_call": null,
+     "dissent": [],
+     "topic": "Government & elections",
+     "dollars": null,
+     "ordinance_reading": null,
+     "needs_review": true,
+     "review_note": "Board name inferred from the ZBA roster. A 4-0 tally implies Thibodeau voted after his appointment; not confirmed."
+    }
+   ],
+   "discussed": [
+    {
+     "title": "Capital Improvements Committee membership",
+     "detail": "Thibodeau and Donohoe already serve; the board discussed adding Planning Board members Ben Colbath and Eliza Grant and a North Conway Water Precinct representative.",
+     "topic": "Budget & taxes"
+    },
+    {
+     "title": "Selectmen on the Zoning Board",
+     "detail": "Thibodeau recommended the board stop having a selectman also serve on the ZBA. A legal review found selectmen cannot reverse a ZBA ruling but can steer the town's legal strategy if a ruling is challenged in court.",
+     "topic": "Government & elections"
+    },
+    {
+     "title": "Filling Seavey's seat",
+     "detail": "Letters of interest were due that Friday to Executive Assistant/HR Director Krista Day; interviews set for May 26 and a decision planned for June 9.",
+     "topic": "Government & elections"
+    }
+   ],
+   "public_comment": [],
+   "coming_up": [
+    {
+     "date": "2026-05-26",
+     "item": "Interviews of applicants for Seavey's seat"
+    }
+   ]
+  },
+  {
+   "body": "Board of Selectmen",
+   "date": "2026-05-12",
+   "minutes_url": "https://www.conwaydailysun.com/news/local/seavey-other-conway-town-officials-resign/article_8a30ade1-17fb-41cc-bb77-6423a12cc06c.html",
+   "minutes_status": "news report",
+   "ocr": false,
+   "source_note": "No official minutes could be opened: the town posts Selectmen minutes in a Google Drive folder linked from conwaynh.gov/documents, which was not reachable for this research. This entry is built from a news report or meeting summary, so it may be incomplete.",
+   "attendance": {
+    "present": [],
+    "absent": []
+   },
+   "headline": "Chair Mary Carey Seavey, re-elected in April, announced her resignation near the end of the meeting, effective May 13; the board also interviewed applicants for John Colbath's seat.",
+   "decisions": [],
+   "discussed": [
+    {
+     "title": "Seavey resigns",
+     "detail": "Seavey said, 'I have decided it's time to step down.' Her resignation took effect May 13. Colbath had resigned about two weeks earlier.",
+     "topic": "Government & elections"
+    },
+    {
+     "title": "Interviews for Colbath's seat",
+     "detail": "The board interviewed four applicants for the seat; appointees serve until April 2027.",
+     "topic": "Government & elections"
+    }
+   ],
+   "public_comment": [],
+   "coming_up": [],
+   "needs_review": true,
+   "review_note": "Attendance not reported. The headline says 'other' officials resigned; names beyond Seavey and Colbath could not be confirmed."
+  },
+  {
+   "body": "Board of Selectmen",
+   "date": "2026-04-28",
+   "minutes_url": "https://conwaynh.gov/uploads/bos-main-street-presentation_final.pdf",
+   "minutes_status": "presentation only",
+   "ocr": false,
+   "source_note": "Official presentation (agenda item 6) posted on the Town Engineer's page; the date comes from that page. No official minutes could be opened: the town posts Selectmen minutes in a Google Drive folder linked from conwaynh.gov/documents, which was not reachable for this research. This entry is built from a news report or meeting summary, so it may be incomplete.",
+   "attendance": {
+    "present": [],
+    "absent": []
+   },
+   "headline": "Town Engineer Jim Badera briefed selectmen on the Main Street Project at the Route 16, 113 and 153 intersections in Conway Village, which began construction April 20.",
+   "decisions": [],
+   "discussed": [
+    {
+     "title": "Main Street Project briefing",
+     "detail": "Two construction seasons, finishing by October 1, 2027. The 2026 season covers Phases 1 and 2 and part of Phase 4. Two-way traffic is kept throughout with flaggers and message boards; no detours onto side streets.",
+     "topic": "Parking & transportation"
+    }
+   ],
+   "public_comment": [],
+   "coming_up": []
+  },
+  {
+   "body": "Board of Selectmen",
+   "date": "2026-04-07",
+   "minutes_url": "https://www.conwaydailysun.com/news/local/rec-path-phase-2-gets-clutch-easement/article_ef134c71-9dc5-4fe3-89f3-bb2ada2fdb9a.html",
+   "minutes_status": "news report",
+   "ocr": false,
+   "source_note": "No official minutes could be opened: the town posts Selectmen minutes in a Google Drive folder linked from conwaynh.gov/documents, which was not reachable for this research. This entry is built from a news report or meeting summary, so it may be incomplete. Also used: https://www.conwaydailysun.com/opinion/columns/peter-donhoe-pulling-this-all-together/article_3f954dd7-ef4e-4dae-a7b2-396710d9f9cd.html",
+   "attendance": {
+    "present": [],
+    "absent": []
+   },
+   "headline": "Selectmen learned that Rec Path Phase 2 supporters had secured the last private easement along the power line corridor, a week before voters took up the petition article.",
+   "decisions": [],
+   "discussed": [
+    {
+     "title": "Rec Path Phase 2 easement",
+     "detail": "The Mt. Washington Valley Trails Association said it secured the final private easement along the NH Electric Cooperative corridor. Selectmen noted land control, design, permitting and scope were still unsettled and that the petition article is non-binding.",
+     "topic": "Parks & recreation"
+    }
+   ],
+   "public_comment": [],
+   "coming_up": [
+    {
+     "date": "2026-04-14",
+     "item": "Town election, including the Rec Path petition article"
+    }
+   ],
+   "needs_review": true,
+   "review_note": "The Daily Sun says the easement arrived 'just before Tuesday's selectmen's meeting, likely April 7'; Donohoe's column confirms April 7."
+  }
+ ],
+ "board_meetings": [
+  {
+   "body": "Planning Board",
+   "date": "2026-10-22",
+   "record_url": "https://bpg.mysocialpinpoint.com/conway-forward-zoning",
+   "record_type": "project page",
+   "headline": "The Planning Board's zoning rewrite (Conway Forward) held its second community open house; a full draft ordinance and table of uses was posted in October and formal hearings start November 5.",
+   "items": [],
+   "policy_items": [
+    {
+     "title": "Conway Forward zoning rewrite",
+     "detail": "A rewrite of the whole Zoning Ordinance to match the 2024 Master Plan, led by Barrett Planning Group with SE Group. Goals include more housing, protecting farmland, walkable villages and limits on big box style development. Conway now has eleven zoning districts. Planning Board public hearings: Nov 5 and Dec 3, 2026 at 6:30 PM, with Jan 7, 2027 if needed; voters decide at Town Meeting in 2027.",
+     "topic": "Housing & zoning",
+     "needs_review": false,
+     "review_note": null
+    }
+   ]
+  },
+  {
+   "body": "Zoning Board of Adjustment",
+   "date": "2026-10-21",
+   "record_url": "https://www.conwaydailysun.com/news/local/",
+   "record_type": "news report",
+   "headline": "The ZBA turned down a 150-foot cell tower proposed for West Side Road in North Conway.",
+   "items": [
+    {
+     "address": "2699 West Side Road, North Conway",
+     "applicant": "Vertical Bridge (Delray Beach, Fla.)",
+     "request": "A special exception (a use the zoning rules allow only if the board finds set conditions are met) to build a 150-foot cell tower, with an access road that would need some trees removed.",
+     "decision": "denied",
+     "vote": null,
+     "conditions": [],
+     "topic": "Infrastructure & utilities",
+     "needs_review": true,
+     "review_note": "Only the Daily Sun headline 'Conway ZBA rejects West Side cell tower proposal' (listed on its local news page Oct 29, 2026) could be read; the article and the town's notice of decision could not be opened. The date assumes the ZBA's scheduled Oct 21 meeting; the hearing may instead have been Sept 16."
+    }
+   ],
+   "policy_items": []
+  },
+  {
+   "body": "Zoning Board of Adjustment",
+   "date": "2026-06-17",
+   "record_url": "https://www.conwaydailysun.com/news/local/west-side-residents-up-in-arms-over-proposed-cell-tower/article_49c9c279-6944-4b46-975d-4b3089b8d3fb.html",
+   "record_type": "news report",
+   "headline": "Vertical Bridge first presented its West Side Road cell tower to the ZBA; the case was continued to September 16 after a balloon test.",
+   "items": [
+    {
+     "address": "2699 West Side Road, North Conway",
+     "applicant": "Vertical Bridge (Delray Beach, Fla.)",
+     "request": "A special exception for a 150-foot cell tower. An August balloon test showed it would be visible from West Side Road, the first tee of North Conway Golf Course and part of Cathedral Ledge.",
+     "decision": "continued",
+     "vote": null,
+     "conditions": [],
+     "topic": "Infrastructure & utilities",
+     "needs_review": true,
+     "review_note": "From Daily Sun reports of July 13 and Aug 4, 2026 (https://www.conwaydailysun.com/news/local/west-side-balloon-test-yields-mixed-opinions/article_e23b2ca5-7a30-4b88-b3e0-06238ba53a7c.html); no ZBA minutes were reachable."
+    }
+   ],
+   "policy_items": []
+  }
+ ],
+ "officials": {
+  "council": [
+   {
+    "name": "Steven Porter",
+    "last": "Porter",
+    "role": "Chair",
+    "votes2025": null,
+    "term": "to 2027",
+    "ward": null
+   },
+   {
+    "name": "Ryan Shepard",
+    "last": "Shepard",
+    "role": "Vice Chair",
+    "votes2025": null,
+    "votes2026": 1198,
+    "term": "2026-2029",
+    "ward": null
+   },
+   {
+    "name": "Peter Donohoe",
+    "last": "Donohoe",
+    "role": "Selectman",
+    "votes2025": 918,
+    "term": "2025-2028",
+    "ward": null
+   },
+   {
+    "name": "Carl Thibodeau",
+    "last": "Thibodeau",
+    "role": "Selectman (appointed May 2026)",
+    "votes2025": null,
+    "term": "to April 2027",
+    "ward": null
+   },
+   {
+    "name": "Victoria Blake",
+    "last": "Blake",
+    "role": "Selectman (appointed June 2026)",
+    "votes2025": null,
+    "term": "to April 2027",
+    "ward": null,
+    "needs_review": true,
+    "review_note": "The Daily Sun reported the board planned to choose Seavey's replacement around June 2 from seven applicants including Blake; she is listed on the board by June 23. The appointment date and vote were not found."
+   }
+  ],
+  "councilNote": "Conway is governed by a five-member Board of Selectmen elected at large to 3-year terms, with a Town Manager running day-to-day operations. Two members resigned in spring 2026 (John Colbath in late April, Chair Mary Carey Seavey on May 13); the board appointed Carl Thibodeau and Victoria Blake to serve until the April 2027 election. Selectmen meet on Tuesdays (2024 agendas list 4:00 PM at Town Hall, 23 Main Street, Conway; the 2026 time was not confirmed), and meetings are streamed live on the town's Facebook page. North Conway's water, sewer and fire department are run by the separate North Conway Water Precinct.",
+  "railNote": "Chair Porter and four other selectmen, all elected townwide.",
+  "rollCallNote": "Selectmen votes are usually reported as tallies; names are rarely recorded.",
+  "staff": [
+   {
+    "name": "John Eastman",
+    "role": "Town Manager",
+    "since": null,
+    "note": "Runs town departments day to day and reports to the Selectmen.",
+    "phone": "603-447-3811 ext. 210",
+    "src": "https://conwaynh.gov/pages/town-manager"
+   },
+   {
+    "name": "Krista Day",
+    "role": "Executive Assistant / Human Resources Director",
+    "since": null,
+    "note": "Selectmen's office and HR.",
+    "phone": "603-447-3811",
+    "src": "https://conwaynh.gov/pages/town-manager"
+   },
+   {
+    "name": "Jim Badera",
+    "role": "Town Engineer",
+    "since": null,
+    "note": "Runs the Main Street Project.",
+    "phone": "603-447-3811 ext. 232",
+    "src": "https://conwaynh.gov/pages/town-engineer"
+   },
+   {
+    "name": "Kathleen Golding",
+    "role": "Finance Director",
+    "since": null,
+    "note": "Listed in the 2025 Town Report.",
+    "phone": null,
+    "src": "https://conwaynh.gov/uploads/conway-town-report-2025-web.pdf"
+   },
+   {
+    "name": "Christopher Mattei",
+    "role": "Police Chief",
+    "since": null,
+    "note": "Police are overseen by an elected Police Commission. Listed in the 2025 Town Report.",
+    "phone": null,
+    "src": "https://conwaynh.gov/uploads/conway-town-report-2025-web.pdf"
+   },
+   {
+    "name": "Philip Remington",
+    "role": "Fire Chief and Emergency Management Director",
+    "since": null,
+    "note": "Town fire department (separate from the North Conway Fire Department run by the Water Precinct). Listed in the 2025 Town Report.",
+    "phone": null,
+    "src": "https://conwaynh.gov/uploads/conway-town-report-2025-web.pdf"
+   },
+   {
+    "name": "Louise M. Inkell",
+    "role": "Town Clerk / Tax Collector",
+    "since": null,
+    "note": "Elections, voter registration, car registrations, property tax collection. Listed in the 2025 Town Report.",
+    "phone": null,
+    "src": "https://conwaynh.gov/uploads/conway-town-report-2025-web.pdf"
+   },
+   {
+    "name": "Ryan O'Connor",
+    "role": "Director of Planning and Community Development",
+    "since": null,
+    "note": "Staff to the Planning Board and ZBA. Listed in the 2025 Town Report.",
+    "phone": null,
+    "src": "https://conwaynh.gov/uploads/conway-town-report-2025-web.pdf"
+   },
+   {
+    "name": "Andrew Smith",
+    "role": "Public Works Director",
+    "since": null,
+    "note": "Roads, transfer station. Listed in the 2025 Town Report.",
+    "phone": null,
+    "src": "https://conwaynh.gov/uploads/conway-town-report-2025-web.pdf"
+   },
+   {
+    "name": "Jeremy Gibbs",
+    "role": "Building Inspector and Health Officer",
+    "since": null,
+    "note": "Reappointed Health Officer July 14, 2026.",
+    "phone": null,
+    "src": "https://conwaynh.gov/uploads/conway-town-report-2025-web.pdf"
+   },
+   {
+    "name": "Michael Lane",
+    "role": "Recreation Director",
+    "since": null,
+    "note": "Listed in the 2025 Town Report.",
+    "phone": null,
+    "src": "https://conwaynh.gov/uploads/conway-town-report-2025-web.pdf"
+   },
+   {
+    "name": "Jefferson Beavers",
+    "role": "Library Director",
+    "since": null,
+    "note": "Conway Public Library. Listed in the 2025 Town Report.",
+    "phone": null,
+    "src": "https://conwaynh.gov/uploads/conway-town-report-2025-web.pdf"
+   }
+  ],
+  "schoolBoard": {
+   "note": "The Conway School Board governs the Conway School District, part of SAU 9 (Superintendent Nicole Bell). Joe Mosca was re-elected chair April 27, 2026 by a 4-2 vote. Members below are as named in Daily Sun reports; first names are given only where reported.",
+   "members": [
+    {
+     "name": "Joe Mosca",
+     "role": "Chair",
+     "term": "re-elected April 2026 (3-year)"
+    },
+    {
+     "name": "Sarah Burke",
+     "term": "elected April 2026 (3-year)"
+    },
+    {
+     "name": "Melanie Labelle",
+     "term": "elected April 2026 (3-year)",
+     "needs_review": true,
+     "review_note": "Shown as 'Lebel' in the April 29 report; likely the same member."
+    },
+    {
+     "name": "Nicole Stanley",
+     "term": "elected April 2026 (1-year)"
+    },
+    {
+     "name": "Megan Beckwith",
+     "term": null,
+     "note": "Nominated vice chair April 27, 2026"
+    },
+    {
+     "name": "Hodge",
+     "term": null
+    },
+    {
+     "name": "Davison",
+     "term": null
+    }
+   ],
+   "sources": [
+    "https://www.conwaydailysun.com/news/local/police-bond-most-articles-pass-in-conway/article_8836980a-16f7-4906-8faa-fcc91580d750.html",
+    "https://www.conwaydailysun.com/news/local/third-time-is-the-charm-mosca-named-chair/article_7a66a2f3-a338-4c9b-b949-a61e710c72b0.html"
+   ]
+  },
+  "commissions": [
+   {
+    "name": "North Conway Water Precinct",
+    "members": [
+     "James (Jim) Umberger (commissioner, re-elected March 2026)",
+     "Deborah Fauver (commissioner)",
+     "Jason Gagnon (superintendent, staff)"
+    ],
+    "note": "A separate local government (village district) covering North Conway, with its own elected commissioners, annual meeting and tax rate ($1.19 per $1,000 in 2025). It runs the water department, the sewer and wastewater treatment plant, and the North Conway Fire Department; it also runs ambulance service paid by the Town of Conway under an agreement. The third commissioner was not named in the records opened. Site: https://www.ncwp.nh.gov",
+    "url": "https://www.ncwp.nh.gov/agendacenter"
+   },
+   {
+    "name": "Police Commission",
+    "members": [
+     "Rodney E. King (elected April 2026, 3-year term)"
+    ],
+    "note": "Elected commission that oversees the Conway Police Department. Other members not listed in the sources opened.",
+    "url": "https://www.conwaypdnh.gov/divisions/commission"
+   },
+   {
+    "name": "Kearsarge Lighting Precinct",
+    "members": [],
+    "note": "A small precinct inside the North Conway Water Precinct area with its own tax rate ($1.45 per $1,000 in 2025).",
+    "url": "https://conwaynh.gov/uploads/2025-conway-tax-rates-final.pdf"
+   }
+  ],
+  "boards": [
+   {
+    "name": "Planning Board",
+    "meets": "One regular meeting a month on a Thursday (2026: Nov 12, Dec 10) plus work sessions on other Thursdays; 6:30 PM for the Conway Forward hearings",
+    "does": "Reviews site plans and subdivisions, writes the Master Plan and proposes zoning changes for the town ballot.",
+    "url": "https://conwaynh.gov/pages/planning-board",
+    "members": [
+     "Benjamin Colbath (Chair, 2027)",
+     "Eliza Reiss (Vice Chair, 2029)",
+     "Erik Corbett (Secretary, 2027)",
+     "Christopher Yarworth (2028)",
+     "Ted Phillips (2028)",
+     "A.O. Lucy (2029)",
+     "Steven Porter (Selectmen's rep.)",
+     "Alternates: Nat Lucy (2027), Ailie Byers (2027)"
+    ]
+   },
+   {
+    "name": "Zoning Board of Adjustment",
+    "meets": "Third Wednesday of the month (2026: Nov 18, Dec 16)",
+    "does": "Decides variances (permission to break a zoning rule for one property), special exceptions and appeals of zoning decisions.",
+    "url": "https://conwaynh.gov/pages/zoning-board-of-adjustment",
+    "members": [
+     "Andrew Chalmers (Chair, 2027)",
+     "Jac Cuddy (Vice Chair, 2029)",
+     "Luigi Bartolomeo (2028)",
+     "Jonathan Hebert (2028)",
+     "Michael Santuccio (2029)",
+     "Alternates: Christopher Yarworth (2027), Frank Wolfe (2029)"
+    ]
+   },
+   {
+    "name": "Municipal Budget Committee",
+    "meets": "As scheduled; met Oct 28, 2026 on the 2027 budget",
+    "does": "Elected committee that reviews the town budget and recommends a figure for the ballot; recommends on every money article.",
+    "url": "https://conwaynh.gov/pages/budget-committee",
+    "members": [
+     "Alexander Loth (Chair, 2027)",
+     "Frank Jost (Vice Chair, 2028)",
+     "David Jensen (2029)",
+     "Kevin Lebel (2028)",
+     "Michael Lacey (2029)",
+     "Bob Drinkhall (2027)",
+     "Wesley Smith (2028)",
+     "Steve Angers (2028)",
+     "Michael Misiaszek (2027)",
+     "Harrison Kanzler (2029)",
+     "Curt Burke Jr. (2029)",
+     "Ryan Shepard (Selectmen's rep.)",
+     "Bill Marvel (Center Conway Fire Precinct rep.)"
+    ]
+   },
+   {
+    "name": "Conservation Commission",
+    "meets": null,
+    "does": "Manages town conservation land such as Whitaker Woods and reviews wetland and land permits.",
+    "url": "https://conwaynh.gov/pages/conservation-commission",
+    "members": [
+     "Nat Lucy (Chair, 2026)",
+     "Dan Lucy (Vice Chair, 2028)",
+     "Corbett Tulip (2028)",
+     "Peter Minnich (2027)",
+     "Larry Huemmler (2027)",
+     "Rob Adair (2026)",
+     "Peter Donohoe (Selectmen's rep., named July 2026)"
+    ],
+    "note": "Members as listed in the 2025 Town Report; the July 2026 selectmen's appointment is from a meeting summary."
+   },
+   {
+    "name": "Historic District Commission",
+    "meets": null,
+    "does": "Reviews changes to buildings in the town's historic district.",
+    "url": "https://conwaynh.gov/pages/historic-district-commission"
+   },
+   {
+    "name": "Capital Improvement Program Committee",
+    "meets": null,
+    "does": "Created by voters in April 2026 (Article 17, passed 1,232-344) to plan large capital projects; Selectmen Thibodeau and Donohoe serve.",
+    "url": "https://www.conwaydailysun.com/news/local/selectmen-choose-thibodeau-to-replace-colbath/article_0737aba5-9917-4857-874c-afaf81579b69.html"
+   }
+  ],
+  "sources": {
+   "roster": "https://conwaynh.gov/pages/conway-select-board",
+   "staff": "https://conwaynh.gov/uploads/conway-town-report-2025-web.pdf",
+   "resignations": "https://www.conwaydailysun.com/news/local/seavey-other-conway-town-officials-resign/article_8a30ade1-17fb-41cc-bb77-6423a12cc06c.html",
+   "appointment": "https://www.conwaydailysun.com/news/local/selectmen-choose-thibodeau-to-replace-colbath/article_0737aba5-9917-4857-874c-afaf81579b69.html"
+  }
+ },
+ "roll_call_votes": [],
+ "attendance": {
+  "Porter": {
+   "present": 2,
+   "total": 2
+  },
+  "Shepard": {
+   "present": 2,
+   "total": 2
+  },
+  "Donohoe": {
+   "present": 2,
+   "total": 2
+  },
+  "Thibodeau": {
+   "present": 1,
+   "total": 1
+  },
+  "Blake": {
+   "present": 1,
+   "total": 1
+  }
+ },
+ "attendance_from": "2026-04-14",
+ "attendance_note": "Counts only meetings where a source listed who attended (May 19 and June 23, 2026). Official minutes were not reachable, so these are not full-term totals.",
+ "topics": [
+  {
+   "topic": "Government & elections",
+   "count": 3
+  },
+  {
+   "topic": "Infrastructure & utilities",
+   "count": 2
+  },
+  {
+   "topic": "Public safety",
+   "count": 1
+  },
+  {
+   "topic": "Health & human services",
+   "count": 1
+  },
+  {
+   "topic": "Parks & recreation",
+   "count": 1
+  },
+  {
+   "topic": "Housing & zoning",
+   "count": 1
+  }
+ ],
+ "budget": {
+  "fiscalYear": "2026 (calendar year, January to December 2026)",
+  "fundLabel": "town operating budget",
+  "adopted": "2026-04-14",
+  "adoptedVote": "Article 5 passed 1,070-565 at the April 14, 2026 town election (official ballot). Selectmen recommended it 5-0-0 and the Budget Committee 8-2-0. The default budget, had it failed, was $15,674,179.",
+  "generalFund": 15997325,
+  "priorGeneralFund": 15083373,
+  "changePct": 6.06,
+  "departments": [],
+  "departmentsNote": "Conway budgets by calendar year, so 'fy26' here means 2025 and 'fy27' means 2026. Department changes come from the town's 2026 Budget Narrative for the March 4 deliberative session, which gives percent and dollar changes but not department totals; the line-by-line MS-737 budget form was not found. Fire, water and sewer are voted as separate articles outside the $15,997,325 operating budget. The narrative's proposed total was $15,959,325 (5.67% over the prior year); the ballot amount is $38,000 higher, presumably changed at the deliberative session (not confirmed). The prior figure used here is the 2025 default budget of $15,083,373, which took effect after voters rejected the proposed $15,213,259 budget 743-1,101 in April 2025. Department totals are not shown because the town publishes only the changes. Fire ($1,214,442), water ($868,914) and sewer ($1,597,570) were voted as separate 2026 articles.",
+  "drivers": [
+   "Ambulance service up $323,621 (35.95%).",
+   "Police up $163,965 (3.43%).",
+   "Solid waste up $97,195 (8.79%).",
+   "Assessing up 43.14%, during the state-ordered review of commercial assessments.",
+   "Property and liability insurance up $23,164 (16.16%).",
+   "Partly offset by the Executive budget falling $98,087 (16.75%)."
+  ],
+  "revenue": {
+   "propertyTaxLevy": null,
+   "nonPropertyTax": null,
+   "nonPropertyTaxDetail": [],
+   "note": "The estimated revenue form (MS-737) was not found. The budget narrative says Selectmen applied $2,000,000 of unreserved fund balance to the tax rate and reports 2025 receipts of $1,020,123 in state rooms and meals tax, $335,000 from selling the Town Hall Annex and $163,293 in investment income."
+  },
+  "taxRate": {
+   "fy27Estimate": null,
+   "fy26": 12.73,
+   "rateLabel": "2025 tax year, North Conway Water Precinct",
+   "note": "Dollars per $1,000 of assessed value. Every Conway property pays the same base rate ($11.54 in 2025: town, local school, state education and county); each precinct then adds its own rate. In North Conway the Water Precinct added $1.19, for $12.73. Other 2025 totals: Center Conway Fire $12.40, areas outside a fire precinct $12.52, Kearsarge Lighting $12.99 (the town sheet says Kearsarge pays both its own and the Water Precinct rate, but its printed total does not add up that way). The 2026 rate had not been published in the sources opened.",
+   "components": [
+    {
+     "name": "Town",
+     "fy26": 2.5,
+     "fy27": null,
+     "fy25": 3.12
+    },
+    {
+     "name": "Schools (local)",
+     "fy26": 7.12,
+     "fy27": null,
+     "fy25": 6.29
+    },
+    {
+     "name": "State education tax",
+     "fy26": 1.11,
+     "fy27": null,
+     "fy25": 1.14
+    },
+    {
+     "name": "Carroll County",
+     "fy26": 0.81,
+     "fy27": null,
+     "fy25": 0.77
+    },
+    {
+     "name": "North Conway Water Precinct",
+     "fy26": 1.19,
+     "fy27": null,
+     "fy25": 1.28
+    }
+   ],
+   "history": [
+    {
+     "fy": "2022 tax year",
+     "rate": null,
+     "note": "Base rate $17.08 before the 2023 revaluation; the North Conway precinct total was not opened."
+    },
+    {
+     "fy": "2023 tax year",
+     "rate": 11.46,
+     "note": "Revaluation year: base rate fell 40.4% to $10.18; precinct $1.28"
+    },
+    {
+     "fy": "2024 tax year",
+     "rate": 12.6,
+     "note": "Base $11.32 plus precinct $1.28"
+    },
+    {
+     "fy": "2025 tax year",
+     "rate": 12.73,
+     "note": "Base $11.54 plus precinct $1.19; town portion fell 19.9% while the local school portion rose 13.2%"
+    }
+   ],
+   "medianHome": {
+    "value": null,
+    "note": "No town-published median assessment was found.",
+    "source": null
+   }
+  },
+  "taxDollar": {
+   "label": "Where a North Conway tax dollar goes (2025 tax rate)",
+   "items": [
+    {
+     "name": "Schools (local)",
+     "pct": 55.9
+    },
+    {
+     "name": "Town",
+     "pct": 19.6
+    },
+    {
+     "name": "North Conway Water Precinct",
+     "pct": 9.3
+    },
+    {
+     "name": "State education tax",
+     "pct": 8.7
+    },
+    {
+     "name": "Carroll County",
+     "pct": 6.4
+    }
+   ]
+  },
+  "enterprise": [
+   {
+    "name": "Town Water Department",
+    "amount": 868914
+   },
+   {
+    "name": "Town Sewer Department",
+    "amount": 1597570
+   },
+   {
+    "name": "North Conway Water Precinct water (2026 proposed, paid by water fees)",
+    "amount": 1570772
+   },
+   {
+    "name": "North Conway Water Precinct sewer (2026 proposed, paid by sewer fees)",
+    "amount": 2281256
+   }
+  ],
+  "waterSewerBill": null,
+  "debtOutstanding": null,
+  "valuation": null,
+  "cip": null,
+  "sources": {
+   "ballot": "https://conwaynh.gov/uploads/2026-town-official-results.pdf",
+   "results": "https://www.conwaydailysun.com/news/local/police-bond-most-articles-pass-in-conway/article_8836980a-16f7-4906-8faa-fcc91580d750.html",
+   "resultsPage": "https://conwaynh.gov/news/election-results",
+   "narrative": "https://conwaynh.gov/uploads/dptm-2026-packet.pdf",
+   "townReport2025": "https://conwaynh.gov/uploads/conway-town-report-2025-web.pdf",
+   "taxRate2025": "https://conwaynh.gov/uploads/2025-conway-tax-rates-final.pdf",
+   "taxRate2024": "https://conwaynh.gov/uploads/2024-conway-tax-rates-final.pdf",
+   "taxRate2023": "https://conwaynh.gov/uploads/2023-conway-tax-rates-final.pdf",
+   "precinctBudget": "https://www.ncwp.nh.gov/AgendaCenter/ViewFile/Minutes/_02252026-35"
+  }
+ }
+}

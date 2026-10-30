@@ -1,0 +1,26 @@
+{
+ "note": "One statement a day for residents to agree or disagree with. Each comes from an open issue and is worded neutrally (rules in UPDATE.md). Only questions with status \"approved\" are shown. Results are what participants said, not what residents want.",
+ "questions": [
+  {
+   "id": "2026-10-30-zoning-rewrite",
+   "date": "2026-10-30",
+   "issue": "zoning-rewrite",
+   "text": "Conway's zoning rewrite should make room for more housing near the villages and limit big box development.",
+   "status": "approved"
+  },
+  {
+   "id": "2026-10-31-school-tax-cap",
+   "date": "2026-10-31",
+   "issue": "school-tax-cap",
+   "text": "Conway should cap how much the school district's property tax can grow for the next two years.",
+   "status": "approved"
+  },
+  {
+   "id": "2026-11-01-rec-path",
+   "date": "2026-11-01",
+   "issue": "rec-path-phase-2",
+   "text": "The Rec Path should be extended through Whitaker Woods to Intervale, paid for with grants and donations.",
+   "status": "approved"
+  }
+ ]
+}

@@ -1,0 +1,1058 @@
+{
+ "as_of": "2026-10-30",
+ "note": "North Conway is a village inside the Town of Conway. Police, roads, the transfer station and elections are run by the Town of Conway; fire protection, water and sewer in North Conway come from the North Conway Water Precinct. Checked Oct 30, 2026 from town, precinct and department pages and local news. Every item links to its source.",
+ "housing": {
+  "north-conway": {
+   "source": "Redfin, Conway NH housing market",
+   "url": "https://www.redfin.com/city/22027/NH/Conway/housing-market",
+   "period": "Three months ending August 2026",
+   "median": 387244,
+   "yoy": -9.4,
+   "sold": 15,
+   "soldLabel": "Homes sold in August",
+   "soldLastYear": 16,
+   "dom": 46,
+   "domLastYear": 88,
+   "overList": 13.4,
+   "note": "Redfin's Conway page, the only local page with full market figures; Redfin does not say whether it covers the whole town or just Conway Village. Homes sold is August only. Redfin rates the market somewhat competitive (47 of 100) with a 97.6% sale-to-list ratio. Redfin's separate North Conway page shows only a one-month median of $646,000, up 39.0% from a year earlier, with no sales count."
+  },
+  "region": {
+   "source": "Redfin, Carroll County NH housing market",
+   "url": "https://www.redfin.com/county/1882/NH/Carroll-County/housing-market",
+   "reported": "2026-10-30",
+   "period": "Three months ending July 2026",
+   "towns": "Carroll County, NH (all towns)",
+   "summary": "Carroll County, three months ending July 2026 (Redfin): median sale price $498,538, up 6.1% from a year earlier. 116 homes sold in July, up from 110. Homes sold after 52 days on the market, compared with 51 a year earlier. For single-family homes only, North Conway Realty counted 156 county sales in the first quarter of 2026 (155 a year earlier), with an average price of $659,578 and 87 days on market, up from 62."
+  },
+  "records": []
+ },
+ "business": {
+  "note": "From the Mt. Washington Valley Chamber of Commerce member news, Settlers Green and The Conway Daily Sun. Chamber member posts carry no dates; the years for Wrap City and 27 North are from the order of the Chamber's numbered posts, which come after a post dated March 27, 2026. The Sun's Rise and Dine story shows no date; its opening dates (Wednesday, June 10 and Saturday, June 20) match the 2026 calendar.",
+  "openings": [
+   {
+    "name": "Ulta Beauty and Lululemon at Settlers Green",
+    "what": "Beauty retailer (7,000 sq ft, Suite G20) and a Lululemon pop-up store (5,000 sq ft, Suite I30)",
+    "date": "2026-05-08",
+    "detail": "Settlers Green scheduled grand openings for both stores on Friday, May 8. Ulta is near the Route 16 entrance; Lululemon is next to Levi's. Marathon Sports, Aeropostale and Perfume Outlet were also signed, with dates to be announced.",
+    "source": {
+     "label": "Settlers Green via Mt. Washington Valley Chamber, Mar 27, 2026",
+     "url": "https://members.visitmwv.com/news/Details/settlers-green-announces-strategic-expansion-with-six-new-retailers-321740"
+    }
+   },
+   {
+    "name": "Books-A-Million, Settlers Green",
+    "what": "Bookstore moving to a larger space",
+    "date": "2026-05-14",
+    "detail": "Scheduled to open May 14 in a new 9,000 sq ft space next to Gap Outlet (Suite D32), about triple its old North Conway footprint.",
+    "source": {
+     "label": "Settlers Green via Mt. Washington Valley Chamber, Mar 27, 2026",
+     "url": "https://members.visitmwv.com/news/Details/settlers-green-announces-strategic-expansion-with-six-new-retailers-321740"
+    }
+   },
+   {
+    "name": "27 North at the Eastern Slope Inn",
+    "what": "Breakfast and lunch restaurant, relocated",
+    "date": "2026-05-29",
+    "detail": "Held its grand opening and ribbon cutting on May 29 in its new home at the Eastern Slope Inn, in the space formerly used by Flatbread Company, with a larger dining room.",
+    "source": {
+     "label": "Mt. Washington Valley Chamber member news",
+     "url": "https://members.visitmwv.com/member-news/Details/ribbon-cutting-for-27-north-at-eastern-slope-inn-335575"
+    }
+   },
+   {
+    "name": "Rise and Dine Bistro",
+    "what": "Breakfast and lunch bistro with bakery case",
+    "date": "2026-06-10",
+    "detail": "Opened daily from Wednesday, June 10 at 27 Seavey Street in North Conway Village, next to Vito Marcello's, with a grand opening Saturday, June 20. Dinner until 8 pm on Mondays and Tuesdays was planned from late June.",
+    "source": {
+     "label": "The Conway Daily Sun",
+     "url": "https://conwaydailysun.com/business/rise-and-dine-bistro-to-open-in-north-conway-village/article_39950965-7a2c-48c2-b9b1-2c8be5be8caa.html"
+    }
+   },
+   {
+    "name": "Wrap City Sandwich Company",
+    "what": "Sandwich, wrap, salad and flatbread restaurant",
+    "date": "2026-06-26",
+    "detail": "Ribbon cutting on Friday, June 26 at 1881 White Mountain Highway. Hours: Monday to Saturday 11 am to 8 pm, Sunday 11 am to 7 pm.",
+    "source": {
+     "label": "Mt. Washington Valley Chamber member news",
+     "url": "https://members.visitmwv.com/member-news/Details/wrap-city-cuts-the-ribbon-at-its-new-north-conway-nh-location-343013"
+    }
+   }
+  ],
+  "closures": [
+   {
+    "name": "Stan's Service Center",
+    "what": "Auto repair and used car business in Conway Village, open since 1972",
+    "date": "2026-04",
+    "detail": "Closed after more than 50 years at 46 Main St. Bellen's Service Center, which operated in the same building, also closed, which the Sun called the end of car repair garages on Main Street in Conway.",
+    "source": {
+     "label": "The Conway Daily Sun, Apr 1, 2026",
+     "url": "https://conwaydailysun.com/business/local/a-conway-landmark-stans-service-center-closing-its-doors/article_b59f9528-3a49-4812-b8fe-a8f0f13e999b.html"
+    }
+   }
+  ]
+ },
+ "notices": [
+  {
+   "date": "2026-10-26",
+   "kind": "Road work",
+   "title": "Conway Village Main Street (Route 16) project pauses for winter in November",
+   "detail": "Phase 2 began Sept 2 on the west side of Route 16, from the Route 16 and 113 intersection north to the Saco River bridge. The plan keeps two-way traffic throughout, with flaggers at times. The Conway Daily Sun reported that work continues through November, then pauses for winter and resumes in April 2027. The town engineer says the project is scheduled to finish by Oct 1, 2027.",
+   "source": {
+    "label": "Town of Conway, Town Engineer project updates",
+    "url": "https://conwaynh.gov/pages/town-engineer"
+   }
+  },
+  {
+   "date": "2026-10-26",
+   "kind": "Roads",
+   "title": "North-South Road to be shut down this week",
+   "detail": "The Conway Daily Sun reported on Oct 26 that North-South Road would be closed this week. Check the story for dates and detours.",
+   "source": {
+    "label": "The Conway Daily Sun, Oct 26",
+    "url": "https://www.conwaydailysun.com/news/local/north-south-road-to-be-shut-down-this-week/article_2a251d06-dedc-4f38-943a-8638a28f21b4.html"
+   }
+  },
+  {
+   "date": "2026-10-28",
+   "kind": "Parks",
+   "title": "Conway's community dog park is open off Thom Steele Way",
+   "detail": "The town's dog park opened this week on town land off Thom Steele Way, near the Conway Area Humane Society. Selectmen approved the layout in June; the town manager said it would be open dawn to dusk with no lighting.",
+   "source": {
+    "label": "The Conway Daily Sun, Oct 28 (and June 24)",
+    "url": "https://www.conwaydailysun.com/news/local/blue-skies-and-wagging-tails-at-dog-park-opening/article_7152fe12-ed87-433f-8f81-2e1a0e6e5fc3.html"
+   }
+  },
+  {
+   "date": "2026-10-30",
+   "kind": "Closure",
+   "title": "Conway Public Library opens late, at 10:30 am, Friday, Oct 30",
+   "detail": "The library opens late for a staff meeting. Regular hours: Monday to Thursday 9 am to 8 pm, Friday 9 am to 5 pm, Saturday 9 am to 1 pm.",
+   "source": {
+    "label": "Conway Public Library",
+    "url": "https://conwaypubliclibrary.org/adult-childrens-community-henney-history-room-teens/events/291136/delayed-opening-library-staff"
+   }
+  },
+  {
+   "date": "2026-11-03",
+   "kind": "Election",
+   "title": "Election Day: polls open 8 am to 7 pm at the Town Garage, Center Conway",
+   "detail": "All Conway voters, including North Conway, vote at the Town Garage, 1611 East Main St., Center Conway. You can register at the polls with proof of identity, age, citizenship and domicile. Absentee ballots returned in person are due by 5 pm Monday, Nov 2. Town Clerk's Office: 603-447-3811 ext. 216.",
+   "source": {
+    "label": "Town of Conway, Elections",
+    "url": "https://conwaynh.gov/pages/elections"
+   },
+   "strip": "Election Day",
+   "stripLine": "Tuesday, 8 am to 7 pm, Town Garage"
+  },
+  {
+   "date": "2026-11-04",
+   "kind": "Event",
+   "title": "Public invited to the Hannes Schneider arrival re-enactment, Nov 4 and 5",
+   "detail": "Fourth graders ride the Conway Scenic Railroad to the North Conway station to re-enact the ski pioneer's arrival. The New England Ski Museum invites the community to form a ski-pole archway in Schouler Park; bring poles or borrow some from the museum.",
+   "source": {
+    "label": "The Conway Daily Sun, Oct 30",
+    "url": "https://www.conwaydailysun.com/news/local/public-invited-to-attend-schneider-arrival-re-enactment-nov-4-5/article_ccb2776f-0339-4064-8be3-f0954e0efe63.html"
+   },
+   "strip": "Ski history",
+   "stripLine": "Schneider re-enactment, Schouler Park, Nov 4 and 5"
+  },
+  {
+   "date": "2026-11-11",
+   "kind": "Closure",
+   "title": "Conway Public Library closed Wednesday, Nov 11, for Veterans Day",
+   "detail": "The library is closed all day.",
+   "source": {
+    "label": "Conway Public Library",
+    "url": "https://conwaypubliclibrary.org/adult-childrens-community-henney-history-room-teens/events/289777/library-closed"
+   },
+   "strip": "Library closed",
+   "stripLine": "Wednesday for Veterans Day"
+  },
+  {
+   "date": "2026-11-15",
+   "until": "2027-04-15",
+   "kind": "Parking",
+   "title": "Winter parking ban starts Nov 15: no street parking midnight to 8 am",
+   "detail": "No parking on any town street from midnight to 8 am, Nov 15 through April 15. Selectmen may shorten the ban to 1:15 am to 8 am in signed areas near licensed bars and restaurants. Pushing snow or ice onto town roads or sidewalks costs $100 for a first offense and $500 after that.",
+   "source": {
+    "label": "Town of Conway, Public Notices",
+    "url": "https://conwaynh.gov/pages/public-notices"
+   },
+   "strip": "Parking ban",
+   "stripLine": "No street parking, midnight to 8 am"
+  },
+  {
+   "date": "2026-12-05",
+   "kind": "Event",
+   "title": "Settlers Green Holiday Festival, with tree lighting at 4 pm, Saturday, Dec 5",
+   "detail": "Free holiday activities around Settlers Green, 2 Common Court, from 10 am to 4 pm, ending with the tree lighting at the gazebo.",
+   "source": {
+    "label": "Visit NH events calendar",
+    "url": "https://www.visitnh.gov/things-to-do/events-calendar/holiday-festival-tree-lighting"
+   },
+   "strip": "Tree lighting",
+   "stripLine": "Settlers Green, Saturday, lighting at 4 pm"
+  }
+ ],
+ "links": [
+  {
+   "name": "Town of Conway website",
+   "url": "https://conwaynh.gov/"
+  },
+  {
+   "name": "Report a problem (Conway 311)",
+   "url": "https://conwaynh.gov/pages/311",
+   "note": "Potholes, graffiti and other non-emergency issues; guest reports allowed"
+  },
+  {
+   "name": "Conway Broadcast text and email alerts",
+   "url": "https://conwaynh.gov/pages/broadcast",
+   "note": "Town notices on closures, meetings and utilities"
+  },
+  {
+   "name": "Transfer station",
+   "url": "https://conwaynh.gov/pages/transfer-station",
+   "note": "755 East Conway Road. Tue and Sat 7 am to 5 pm, Wed to Fri 7 am to 3 pm, closed Sun and Mon. Sticker required."
+  },
+  {
+   "name": "Elections",
+   "url": "https://conwaynh.gov/pages/elections",
+   "note": "Polling place and hours"
+  },
+  {
+   "name": "Public notices",
+   "url": "https://conwaynh.gov/pages/public-notices"
+  },
+  {
+   "name": "Documents, minutes and town reports",
+   "url": "https://conwaynh.gov/documents",
+   "note": "Board minutes are in a Google Drive folder linked here"
+  },
+  {
+   "name": "Meeting videos (Valley Vision)",
+   "url": "https://www.valleyvision.com/"
+  },
+  {
+   "name": "Pay property taxes",
+   "url": "https://nhtaxkiosk.com/?KIOSKID=CONWAY"
+  },
+  {
+   "name": "Town code",
+   "url": "https://ecode360.com/CO0981"
+  },
+  {
+   "name": "Main Street project updates",
+   "url": "https://conwaynh.gov/pages/town-engineer",
+   "note": "Posted by the Town Engineer"
+  },
+  {
+   "name": "Parks and Recreation",
+   "url": "https://conwaynh.myrec.com/info/default.aspx",
+   "note": "176 Main St, Conway; 603-901-1139"
+  },
+  {
+   "name": "Conway Public Library",
+   "url": "https://conwaypubliclibrary.org/"
+  },
+  {
+   "name": "Police dispatch logs",
+   "url": "https://www.conwaypdnh.gov/logs",
+   "note": "Posted by the department. Agorri does not republish names."
+  },
+  {
+   "name": "North Conway Water Precinct departments",
+   "url": "https://ncwp.nh.gov/departments",
+   "note": "Water, sewer and North Conway Fire"
+  },
+  {
+   "name": "Town news feed (RSS)",
+   "url": "https://conwaynh.gov/rss/news.xml"
+  }
+ ],
+ "newsSources": [
+  {
+   "name": "The Conway Daily Sun",
+   "url": "https://www.conwaydailysun.com/",
+   "status": "used (headlines on Home)"
+  },
+  {
+   "name": "Town of Conway",
+   "url": "https://conwaynh.gov/",
+   "status": "used"
+  },
+  {
+   "name": "Conway Police Department",
+   "url": "https://www.conwaypdnh.gov/",
+   "status": "used"
+  },
+  {
+   "name": "North Conway Water Precinct",
+   "url": "https://ncwp.nh.gov/departments",
+   "status": "used"
+  },
+  {
+   "name": "Conway Public Library events",
+   "url": "https://conwaypubliclibrary.org/all-events",
+   "status": "used"
+  },
+  {
+   "name": "Conway Parks and Recreation",
+   "url": "https://conwaynh.myrec.com/info/default.aspx",
+   "status": "used"
+  },
+  {
+   "name": "Cranmore Mountain Resort events",
+   "url": "https://cranmore.com/events",
+   "status": "used"
+  },
+  {
+   "name": "Conway Scenic Railroad excursions",
+   "url": "https://www.conwayscenic.com/excursions/",
+   "status": "used"
+  },
+  {
+   "name": "Visit NH events calendar",
+   "url": "https://www.visitnh.gov/things-to-do/events-calendar/holiday-festival-tree-lighting",
+   "status": "used"
+  },
+  {
+   "name": "Mt. Washington Valley Chamber of Commerce",
+   "url": "https://www.visitmwv.com/events/",
+   "status": "checked; the events calendar loads by script and could not be read. Member news used for business openings."
+  },
+  {
+   "name": "New England Ski Museum",
+   "url": "https://skimuseum.org/4th-grade-history-program",
+   "status": "used"
+  },
+  {
+   "name": "Redfin",
+   "url": "https://www.redfin.com/city/22027/NH/Conway/housing-market",
+   "status": "used"
+  },
+  {
+   "name": "North Conway Realty market blog",
+   "url": "https://northconwayrealty.com/blog/posts/2026/04/03/q1-single-family-home-sales-in-carroll-county-2025-vs-2026/",
+   "status": "used"
+  },
+  {
+   "name": "OpenCrime (FBI data)",
+   "url": "https://www.opencrime.us/cities/conway-new-hampshire",
+   "status": "used"
+  },
+  {
+   "name": "NHPR",
+   "url": "https://www.nhpr.org/nh-news/2026-10-14/absentee-ballots-newhampshire-nh-election-voting",
+   "status": "used"
+  },
+  {
+   "name": "NH Division of Forests and Lands",
+   "url": "https://nhdfl.dncr.nh.gov/forest-protection/fire-permits",
+   "status": "used"
+  },
+  {
+   "name": "NH Department of Transportation",
+   "url": "https://www.dot.nh.gov/news-and-media/conway-40638-public-hearing",
+   "status": "used"
+  }
+ ],
+ "events": [
+  {
+   "date": "2026-10-30",
+   "time": "4:00 pm",
+   "title": "Trunk or Treat: decorated vehicles from local businesses and first responders, music and games (4 to 7 pm)",
+   "venue": "Cranmore Mountain Resort, base area",
+   "town": "North Conway",
+   "kind": "Family",
+   "url": "https://cranmore.com/events/trunk-or-treat-bash",
+   "source": "Cranmore Mountain Resort"
+  },
+  {
+   "date": "2026-10-30",
+   "time": "7:00 pm",
+   "title": "\"Rocky Horror Picture Show\" Halloween screening",
+   "venue": "Majestic Theatre",
+   "town": "Conway",
+   "kind": "Film",
+   "url": "https://www.conwaydailysun.com/things_to_do/movies/rocky-horror-picture-show-at-the-majestic-tonight-friday/article_66cd214a-f4b7-4040-8ce1-11de78b4587b.html",
+   "source": "The Conway Daily Sun"
+  },
+  {
+   "date": "2026-11-02",
+   "time": "6:00 pm",
+   "title": "Adult Basic Literacy Classes (ESL)",
+   "venue": "Conway Public Library, 15 Greenwood Ave",
+   "town": "Conway",
+   "kind": "Community",
+   "url": "https://conwaypubliclibrary.org/adult-community/events/291674/adult-basic-literacy-classes-esl",
+   "source": "Conway Public Library"
+  },
+  {
+   "date": "2026-11-03",
+   "time": "8:00 am",
+   "title": "State general election: polls open 8 am to 7 pm",
+   "venue": "Town Garage, 1611 East Main St., Center Conway",
+   "town": "Conway",
+   "kind": "Civic",
+   "url": "https://conwaynh.gov/pages/elections",
+   "source": "Town of Conway"
+  },
+  {
+   "date": "2026-11-03",
+   "time": "10:30 am",
+   "title": "Tuesday Tales (story time)",
+   "venue": "Conway Public Library, 15 Greenwood Ave",
+   "town": "Conway",
+   "kind": "Family",
+   "url": "https://conwaypubliclibrary.org/childrens/events/290163/tuesday-tales",
+   "source": "Conway Public Library"
+  },
+  {
+   "date": "2026-11-04",
+   "time": "Morning",
+   "title": "Hannes Schneider arrival re-enactment: community ski-pole archway (also Nov 5)",
+   "venue": "Schouler Park, North Conway train station",
+   "town": "North Conway",
+   "kind": "Community",
+   "url": "https://www.conwaydailysun.com/news/local/public-invited-to-attend-schneider-arrival-re-enactment-nov-4-5/article_ccb2776f-0339-4064-8be3-f0954e0efe63.html",
+   "source": "The Conway Daily Sun",
+   "note": "Check the story for 2026 times. In 2025 the museum asked archway volunteers to arrive by 9:45 am."
+  },
+  {
+   "date": "2026-11-05",
+   "time": "6:00 pm",
+   "title": "Cybersecurity Awareness for NH Residents",
+   "venue": "Conway Public Library, 15 Greenwood Ave",
+   "town": "Conway",
+   "kind": "Talk",
+   "url": "https://conwaypubliclibrary.org/adult-community/events/291573/cybersecurity-awareness-nh-residents",
+   "source": "Conway Public Library"
+  },
+  {
+   "date": "2026-11-07",
+   "time": "9:00 am",
+   "title": "470 Club Excursion (all-day train trip)",
+   "venue": "Conway Scenic Railroad, North Conway station",
+   "town": "North Conway",
+   "kind": "Rail",
+   "url": "https://www.conwayscenic.com/excursions/470-club-excursion/",
+   "source": "Conway Scenic Railroad"
+  },
+  {
+   "date": "2026-11-07",
+   "time": "5:25 pm",
+   "title": "Blackout 5K/10K night mountain race (check-in from 4 pm; headlamps required)",
+   "venue": "Cranmore Mountain Resort",
+   "town": "North Conway",
+   "kind": "Sports",
+   "url": "https://cranmore.com/events/blackout-5k-10k-mountain-race",
+   "source": "Cranmore Mountain Resort"
+  },
+  {
+   "date": "2026-11-10",
+   "time": "6:30 pm",
+   "title": "The Story of Conway Photo Shop: Part 2",
+   "venue": "Conway Public Library, 15 Greenwood Ave",
+   "town": "Conway",
+   "kind": "Talk",
+   "url": "https://conwaypubliclibrary.org/adult-community/events/291762/story-conway-photo-shop-part-2",
+   "source": "Conway Public Library"
+  },
+  {
+   "date": "2026-11-12",
+   "time": "6:00 pm",
+   "title": "Pajama Story Time",
+   "venue": "Conway Public Library, 15 Greenwood Ave",
+   "town": "Conway",
+   "kind": "Family",
+   "url": "https://conwaypubliclibrary.org/childrens/events/290603/pajama-story-time",
+   "source": "Conway Public Library"
+  },
+  {
+   "date": "2026-11-16",
+   "time": "4:00 pm",
+   "title": "Library Book Group: \"A Lesson Before Dying\" by Ernest J. Gaines",
+   "venue": "Conway Public Library, 15 Greenwood Ave",
+   "town": "Conway",
+   "kind": "Talk",
+   "url": "https://conwaypubliclibrary.org/adult-book-discussion-community/events/291198/2026-cpl-book-group",
+   "source": "Conway Public Library"
+  },
+  {
+   "date": "2026-11-17",
+   "time": "5:00 pm",
+   "title": "White Mountain National Forest open house",
+   "venue": "Conway Public Library, 15 Greenwood Ave",
+   "town": "Conway",
+   "kind": "Community",
+   "url": "https://conwaypubliclibrary.org/community/events/291633/white-mt-national-forest-service-open-house-event",
+   "source": "Conway Public Library"
+  },
+  {
+   "date": "2026-11-18",
+   "time": "5:00 pm",
+   "title": "Library Board of Trustees meeting",
+   "venue": "Conway Public Library, 15 Greenwood Ave",
+   "town": "Conway",
+   "kind": "Civic",
+   "url": "https://conwaypubliclibrary.org/adult-community-trustees-meeting/events/291767/library-board-trustees-meeting",
+   "source": "Conway Public Library"
+  },
+  {
+   "date": "2026-11-18",
+   "time": "6:15 pm",
+   "title": "Toastmasters",
+   "venue": "Conway Public Library, 15 Greenwood Ave",
+   "town": "Conway",
+   "kind": "Community",
+   "url": "https://conwaypubliclibrary.org/community/events/291510/toastmasters",
+   "source": "Conway Public Library"
+  },
+  {
+   "date": "2026-11-28",
+   "time": "10:30 am",
+   "title": "Winter Mountaineer train season begins (select dates through March 2027)",
+   "venue": "Conway Scenic Railroad, North Conway station",
+   "town": "North Conway",
+   "kind": "Rail",
+   "url": "https://www.conwayscenic.com/excursions/winter-mountaineer/",
+   "source": "Conway Scenic Railroad"
+  },
+  {
+   "date": "2026-11-28",
+   "time": "3:00 pm",
+   "title": "Winter Homecoming: apres-ski party with live music and a trail sign auction (3 to 6 pm)",
+   "venue": "Koessler's, Cranmore Mountain Resort",
+   "town": "North Conway",
+   "kind": "Community",
+   "url": "https://cranmore.com/events/winter-homecoming",
+   "source": "Cranmore Mountain Resort"
+  },
+  {
+   "date": "2026-12-05",
+   "time": "10:00 am",
+   "title": "Holiday Festival and Tree Lighting (free; tree lighting at 4 pm at the gazebo)",
+   "venue": "Settlers Green, 2 Common Court",
+   "town": "North Conway",
+   "kind": "Holiday",
+   "url": "https://www.visitnh.gov/things-to-do/events-calendar/holiday-festival-tree-lighting",
+   "source": "Visit NH events calendar"
+  }
+ ],
+ "events_as_of": "2026-10-30",
+ "eventsNote": "Events from the Conway Public Library, Cranmore, Conway Scenic Railroad, the Town of Conway, Settlers Green (via the Visit NH calendar) and The Conway Daily Sun, as of Oct 30. The Mt. Washington Valley Chamber calendar loads by script and the North Conway Community Center schedule could not be opened, so their events are missing. Conway Scenic's Santa's Holiday Special page says it begins Nov 27 but gives no year, so it is not listed. Confirm with the organizer.",
+ "election": {
+  "date": "2026-11-03",
+  "hours": "8:00 AM to 7:00 PM",
+  "hoursSource": {
+   "label": "Town of Conway, Elections",
+   "url": "https://conwaynh.gov/pages/elections"
+  },
+  "hoursNote": "Conway has one polling place for the whole town, including North Conway.",
+  "polls": [
+   {
+    "ward": "All",
+    "place": "Town Garage, 1611 East Main St., Center Conway, NH 03813"
+   }
+  ],
+  "absentee": "Absentee voting is for voters who will be out of town on Election Day, have a disability or illness that keeps them from voting in person, or have work or caregiving duties. Request a ballot from the Town Clerk with photo ID; applications are accepted up to the day before the election. Return it in person by 5 PM Monday, Nov 2, or by mail so it arrives by 5 PM on Election Day. The town posts the state request form on its Documents page.",
+  "absenteeSource": {
+   "label": "NHPR, Oct 14, 2026",
+   "url": "https://www.nhpr.org/nh-news/2026-10-14/absentee-ballots-newhampshire-nh-election-voting"
+  },
+  "sameDay": "You can register at the polling place on Election Day with proof of identity, age (18 or older), U.S. citizenship and domicile. A REAL ID is not proof of citizenship.",
+  "sameDaySource": {
+   "label": "Town of Conway, Registering to Vote in NH (June 2026)",
+   "url": "https://conwaynh.gov/uploads/2026-registering-to-vote-nh-6.22.26.pdf"
+  },
+  "clerk": "Town Clerk/Tax Collector Louise Inkell, Town Office, 23 Main Street, Conway, NH 03818; 603-447-3811 (ext. 216 for election questions). Open weekdays 8:30 AM to 4:30 PM, closed 12:30 to 1:30 PM.",
+  "sampleBallots": "https://conwaynh.gov/news/state-general-election",
+  "source": {
+   "label": "Town of Conway, Elections",
+   "url": "https://conwaynh.gov/pages/elections"
+  }
+ },
+ "social": {
+  "feedNote": "The town posts news by RSS (conwaynh.gov/rss/news.xml). Facebook, Instagram, X and LinkedIn don't offer open feeds, so those accounts link out.",
+  "accounts": [
+   {
+    "who": "Town of Conway",
+    "level": "City",
+    "role": "Town government",
+    "platform": "Facebook",
+    "url": "https://www.facebook.com/p/Town-of-Conway-NH-100071314939577/",
+    "type": "Official",
+    "source": "https://conwaynh.gov/"
+   },
+   {
+    "who": "Conway Parks and Recreation",
+    "level": "City",
+    "role": "Town recreation department",
+    "platform": "Facebook",
+    "url": "https://www.facebook.com/ConwayParksAndRecreationDepartment",
+    "type": "Official",
+    "source": "https://conwaynh.myrec.com/info/default.aspx"
+   },
+   {
+    "who": "Conway Parks and Recreation",
+    "level": "City",
+    "role": "Town recreation department",
+    "platform": "Instagram",
+    "url": "https://www.instagram.com/conwayrecnh/",
+    "type": "Official",
+    "source": "https://conwaynh.myrec.com/info/default.aspx"
+   },
+   {
+    "who": "Conway Parks and Recreation",
+    "level": "City",
+    "role": "Town recreation department",
+    "platform": "YouTube",
+    "url": "https://www.youtube.com/channel/UCDvIvUja-Ub2NyLZleL141A",
+    "type": "Official",
+    "source": "https://conwaynh.myrec.com/info/default.aspx"
+   },
+   {
+    "who": "Conway Public Library",
+    "level": "City",
+    "role": "Public library",
+    "platform": "Facebook",
+    "url": "https://www.facebook.com/ConwayPublicLibrary",
+    "type": "Official",
+    "source": "https://conwaypubliclibrary.org/"
+   },
+   {
+    "who": "Conway Public Library",
+    "level": "City",
+    "role": "Public library",
+    "platform": "Instagram",
+    "url": "https://www.instagram.com/conwaylibrarynh/",
+    "type": "Official",
+    "source": "https://conwaypubliclibrary.org/"
+   },
+   {
+    "who": "Redstone Fire Department",
+    "level": "City",
+    "role": "Fire department (Redstone)",
+    "platform": "Facebook",
+    "url": "https://www.facebook.com/Redstone-Fire-Department-179390482424661/",
+    "type": "Official",
+    "source": "https://conwaynh.gov/pages/community-information"
+   },
+   {
+    "who": "East Conway Fire Department",
+    "level": "City",
+    "role": "Fire department (East Conway)",
+    "platform": "Facebook",
+    "url": "https://www.facebook.com/EastConwayFire/",
+    "type": "Official",
+    "source": "https://conwaynh.gov/pages/community-information"
+   },
+   {
+    "who": "Mt. Washington Valley Chamber of Commerce",
+    "level": "City",
+    "role": "Regional chamber of commerce and visitor bureau",
+    "platform": "Facebook",
+    "url": "https://www.facebook.com/mtwashingtonvalleynh",
+    "type": "Official",
+    "source": "https://www.visitmwv.com/insider-blog"
+   },
+   {
+    "who": "Mt. Washington Valley Chamber of Commerce",
+    "level": "City",
+    "role": "Regional chamber of commerce and visitor bureau",
+    "platform": "Instagram",
+    "url": "https://www.instagram.com/visitmtwashingtonvalley/",
+    "type": "Official",
+    "source": "https://www.visitmwv.com/insider-blog"
+   },
+   {
+    "who": "Mt. Washington Valley Chamber of Commerce",
+    "level": "City",
+    "role": "Regional chamber of commerce and visitor bureau",
+    "platform": "LinkedIn",
+    "url": "https://www.linkedin.com/company/mt-washington-valley-chamber-of-commerce/",
+    "type": "Official",
+    "source": "https://www.visitmwv.com/insider-blog"
+   },
+   {
+    "who": "The Conway Daily Sun",
+    "level": "City",
+    "role": "Local newspaper",
+    "platform": "Facebook",
+    "url": "https://www.facebook.com/TheConwayDailySun/",
+    "type": "Official",
+    "source": "https://www.conwaydailysun.com/community"
+   },
+   {
+    "who": "The Conway Daily Sun",
+    "level": "City",
+    "role": "Local newspaper",
+    "platform": "X",
+    "url": "https://twitter.com/conwaydailysun/",
+    "type": "Official",
+    "source": "https://www.conwaydailysun.com/community"
+   },
+   {
+    "who": "The Conway Daily Sun",
+    "level": "City",
+    "role": "Local newspaper",
+    "platform": "YouTube",
+    "url": "https://www.youtube.com/user/ConwayDailySun",
+    "type": "Official",
+    "source": "https://www.conwaydailysun.com/community"
+   }
+  ],
+  "notListed": [
+   {
+    "who": "Conway Police Department",
+    "why": "The department's website lists no social media accounts.",
+    "source": "https://www.conwaypdnh.gov/contact-us"
+   },
+   {
+    "who": "North Conway Fire Department",
+    "why": "No account is listed by the precinct or the town; the department's own site could not be opened this session.",
+    "source": "https://conwaynh.gov/pages/community-information"
+   },
+   {
+    "who": "Town of Conway on Instagram, X or YouTube",
+    "why": "The town website links only to a Facebook page.",
+    "source": "https://conwaynh.gov/"
+   },
+   {
+    "who": "Conway Select Board members",
+    "why": "The Select Board page lists no official accounts for members.",
+    "source": "https://conwaynh.gov/pages/conway-select-board"
+   },
+   {
+    "who": "Conway's state, county and federal officials",
+    "why": "Not checked this session. Add only if the office itself or Ballotpedia lists an official account.",
+    "source": null
+   }
+  ],
+  "rules": "Official means the account is listed by the office or organization itself. Personal accounts are never listed."
+ },
+ "posts": [],
+ "postsAsOf": "2026-10-30",
+ "postsNote": "The live feed fills this in.",
+ "safety": {
+  "as_of": "2026-10-30",
+  "note": "Compiled from the Conway Police Department and North Conway Water Precinct pages, the Town of Conway's 2025 report and local news. Conway Police cover the whole town, including North Conway. North Conway Fire serves North Conway; Conway Fire (Conway Village, run by the town since Jan 1, 2025), Center Conway, Redstone and East Conway have their own departments. Incidents are described by type, street and date only; no names of people involved.",
+  "alerts": {
+   "name": "Conway Broadcast (town text and email notices)",
+   "url": "https://conwaynh.gov/pages/broadcast"
+  },
+  "police": {
+   "name": "Conway Police Department",
+   "chief": {
+    "name": "Christopher J. Mattei",
+    "since": null,
+    "src": "https://www.conwaypdnh.gov/divisions/department-roster"
+   },
+   "emergency": "911",
+   "nonEmergency": "(603) 356-5715",
+   "address": "35 East Conway Road, Center Conway, NH 03813",
+   "site": "https://www.conwaypdnh.gov/",
+   "oversight": "Elected three-member Police Commission under the town charter; under state law (RSA 105-C) it appoints police personnel and sets their pay. Commissioners: Andre Pepin (chair), Rodney King and Bruce Ela.",
+   "logsUrl": "https://www.conwaypdnh.gov/logs",
+   "logsNote": "The department's Logs page links to a public Google Drive folder of daily dispatch logs. Agorri could not open the folder this session, so no digest is shown. The Conway Daily Sun also prints the log from time to time (latest seen: week of Oct. 3, posted Oct 9). Agorri does not republish names.",
+   "logDigest": [],
+   "stats": [
+    {
+     "label": "Calls for service",
+     "value": 50961,
+     "year": "2024",
+     "src": "https://www.conwaypdnh.gov/home"
+    },
+    {
+     "label": "Vehicle stops",
+     "value": 6720,
+     "year": "2024",
+     "src": "https://www.conwaypdnh.gov/home"
+    },
+    {
+     "label": "Incident reports",
+     "value": 928,
+     "year": "2024",
+     "src": "https://www.conwaypdnh.gov/home"
+    },
+    {
+     "label": "Motor vehicle crashes reported",
+     "value": 565,
+     "year": "2024",
+     "src": "https://www.conwaypdnh.gov/home"
+    }
+   ],
+   "statsNote": "From the department's 2024 town report figures on its home page. The same box lists 649 arrests but labels them 2025, so arrests are left out.",
+   "recent": [
+    {
+     "date": "2026-10-09",
+     "kind": "Log",
+     "title": "Dispatch log for the week of Oct. 3 published",
+     "detail": "The Conway Daily Sun published the department's dispatch log for the week of Oct. 3. No Conway police press releases or news stories from the last 60 days could be found.",
+     "area": null,
+     "source": {
+      "label": "The Conway Daily Sun, Courts and Cops",
+      "url": "https://www.conwaydailysun.com/news/courts_cops/"
+     }
+    }
+   ],
+   "programs": [
+    {
+     "name": "Project Good Morning",
+     "detail": "Listed among the department's services.",
+     "url": "https://www.conwaypdnh.gov/services/project-good-morning"
+    },
+    {
+     "name": "School Resource Officer",
+     "detail": "Listed among the department's services.",
+     "url": "https://www.conwaypdnh.gov/services/school-resource-officer"
+    },
+    {
+     "name": "Victim Witness Advocate",
+     "detail": "Listed among the department's services.",
+     "url": "https://www.conwaypdnh.gov/services/victim-witness-advocate"
+    },
+    {
+     "name": "K9",
+     "detail": "Listed among the department's services.",
+     "url": "https://www.conwaypdnh.gov/services/k9-summit"
+    },
+    {
+     "name": "Animal Control",
+     "detail": "Listed among the department's services.",
+     "url": "https://www.conwaypdnh.gov/services/animal-control"
+    },
+    {
+     "name": "Alarm registration",
+     "detail": "Information for alarm owners.",
+     "url": "https://www.conwaypdnh.gov/information/alarm-registration"
+    },
+    {
+     "name": "Parking tickets",
+     "detail": "How to pay or appeal.",
+     "url": "https://www.conwaypdnh.gov/information/parking-tickets"
+    },
+    {
+     "name": "Now hiring",
+     "detail": "The department says it is currently hiring.",
+     "url": "https://www.conwaypdnh.gov/information/employment"
+    }
+   ],
+   "social": []
+  },
+  "fire": {
+   "name": "North Conway Fire Department",
+   "chief": {
+    "name": "Chad McCarthy",
+    "since": "2022",
+    "src": "https://www.conwaydailysun.com/news/local/north-conway-has-new-fire-chief-chad-mccarthy/article_27119b72-1290-11ed-967d-b7ba99c13ca0.html"
+   },
+   "emergency": "911",
+   "nonEmergency": "(603) 356-5327",
+   "address": "70 Norcross Circle, North Conway, NH 03860 (mail: PO Box 218)",
+   "site": "https://ncwp.nh.gov/departments",
+   "oversight": "Run by the North Conway Water Precinct, a separate local district with a three-member Board of Commissioners. Precinct voters approve spending at the annual precinct meeting.",
+   "note": "McCarthy became chief in 2022; Agorri found no 2026 source confirming he is still chief. A national fire department registry lists the department as a combination (career and call) department with three stations; only the Norcross Circle station address was found.",
+   "stats": [
+    {
+     "label": "Calls",
+     "value": 1586,
+     "year": "2023",
+     "src": "https://www.ncwp.nh.gov/sites/g/files/vyhlif3586/f/pages/2023_annual_report.pdf"
+    },
+    {
+     "label": "Rescue calls",
+     "value": 926,
+     "year": "2023",
+     "src": "https://www.ncwp.nh.gov/sites/g/files/vyhlif3586/f/pages/2023_annual_report.pdf"
+    },
+    {
+     "label": "Outdoor burning permits issued",
+     "value": 209,
+     "year": "2023",
+     "src": "https://www.ncwp.nh.gov/sites/g/files/vyhlif3586/f/pages/2023_annual_report.pdf"
+    }
+   ],
+   "recent": [],
+   "programs": [
+    {
+     "name": "Outdoor burning permits",
+     "detail": "Required for any outdoor fire unless the ground is snow-covered.",
+     "url": "https://nhdfl.dncr.nh.gov/forest-protection/fire-permits"
+    }
+   ],
+   "social": [],
+   "stations": [
+    {
+     "name": "North Conway Fire Station",
+     "address": "70 Norcross Circle, North Conway, NH 03860"
+    }
+   ],
+   "burnPermits": {
+    "text": "New Hampshire requires a written permit for outdoor burning unless the ground is covered with snow. Get one from the local Forest Fire Warden or fire department, or online at NHFirePermit.com if the town takes part. You must be 18 or older.",
+    "url": "https://nhdfl.dncr.nh.gov/forest-protection/fire-permits"
+   },
+   "liveIncidents": null,
+   "logsUrl": null,
+   "otherDepartments": [
+    {
+     "name": "Conway Fire Department",
+     "detail": "Conway Village. The town took over the Conway Fire and Ambulance Department on Jan 1, 2025, after the Conway Village Fire District was dissolved. Chief: Philip Remington (2025 town report).",
+     "url": "https://conwaynh.gov/uploads/conway-town-report-2025-web.pdf"
+    },
+    {
+     "name": "Center Conway Fire Department",
+     "detail": "Separate department listed by the town.",
+     "url": "https://conwaynh.gov/pages/community-information"
+    },
+    {
+     "name": "Redstone and East Conway Fire Departments",
+     "detail": "Separate departments listed by the town.",
+     "url": "https://conwaynh.gov/pages/community-information"
+    }
+   ]
+  },
+  "benchmarks": {
+   "year": "2024",
+   "note": "FBI figures for 2024, the latest year with matching town, state and national numbers. Rates are offenses reported to police per 100,000 residents; Conway's figures cover the whole town (population 10,441), including North Conway. Conway draws large numbers of visitors and shoppers who aren't counted as residents, which pushes per-resident rates up. The FBI advises against ranking places on these numbers alone.",
+   "homeNote": "FBI, 2024. Per-resident rates; visitors aren't counted as residents.",
+   "fireNote": "No fire comparison yet: national fire figures don't match how these departments count calls or staff.",
+   "items": [
+    {
+     "id": "violent",
+     "label": "Violent crime",
+     "unit": "per 100,000 residents",
+     "year": "2024",
+     "better": "lower",
+     "town": 201.1,
+     "nh": 110.1,
+     "us": 359.1,
+     "counts": {
+      "town": 21,
+      "nh": 1551,
+      "us": 1221345
+     },
+     "def": "Murder, rape, robbery and aggravated assault reported to police."
+    },
+    {
+     "id": "property",
+     "label": "Property crime",
+     "unit": "per 100,000 residents",
+     "year": "2024",
+     "better": "lower",
+     "town": 2145.4,
+     "nh": 918.0,
+     "us": 1760.1,
+     "counts": {
+      "town": 224,
+      "nh": 12935,
+      "us": 5986400
+     },
+     "def": "Burglary, theft and motor vehicle theft reported to police."
+    }
+   ],
+   "sources": [
+    {
+     "label": "FBI Table 8 for Conway, 2024 (via OpenCrime)",
+     "url": "https://www.opencrime.us/cities/conway-new-hampshire"
+    },
+    {
+     "label": "FBI New Hampshire estimates, 2024 (via OpenCrime)",
+     "url": "https://www.opencrime.us/states/nh"
+    },
+    {
+     "label": "FBI national estimates, 2024 (via OpenCrime)",
+     "url": "https://www.opencrime.us/years/2024"
+    }
+   ]
+  }
+ },
+ "notHere": [
+  {
+   "title": "Route 16 and other state roads",
+   "text": "Route 16 (White Mountain Highway and Main Street) and Routes 113 and 153 are state highways. Projects on them, like the Conway Village Main Street rebuild, are NH Department of Transportation work; the town engineer posts updates.",
+   "url": "https://www.dot.nh.gov/news-and-media/conway-40638-public-hearing",
+   "label": "NHDOT project notice"
+  },
+  {
+   "title": "Schools",
+   "text": "Conway's public schools, including Kennett High School, are run through SAU 9 and the school district, which votes on its own ballot, not by the town.",
+   "url": "http://www.sau9.org/",
+   "label": "SAU 9"
+  },
+  {
+   "title": "Fire, water and sewer in North Conway",
+   "text": "The North Conway Water Precinct, not the town, runs the North Conway Fire Department and North Conway's water and sewer systems. Water: 603-356-5382.",
+   "url": "https://ncwp.nh.gov/departments",
+   "label": "precinct departments"
+  },
+  {
+   "title": "Police logs",
+   "text": "Conway police post daily dispatch logs in a Google Drive folder that Agorri can't read automatically yet.",
+   "url": "https://www.conwaypdnh.gov/logs",
+   "label": "dispatch logs"
+  },
+  {
+   "title": "Valley events calendar",
+   "text": "The Mt. Washington Valley Chamber's events calendar loads by script, so Agorri can't read it yet.",
+   "url": "https://www.visitmwv.com/events/",
+   "label": "Chamber calendar"
+  },
+  {
+   "title": "Town meetings calendar",
+   "text": "The town's calendar page was empty when checked, and agendas are posted as images. Board minutes are in a Google Drive folder linked from the Documents page.",
+   "url": "https://conwaynh.gov/documents",
+   "label": "town documents"
+  }
+ ],
+ "paper": {
+  "name": "The Conway Daily Sun",
+  "url": "https://www.conwaydailysun.com/",
+  "asOf": "2026-10-30",
+  "note": "Stories open on the paper's site. Dates are the paper's last-updated dates. Picked from the Local news section for Conway relevance.",
+  "headlines": [
+   {
+    "title": "NH Lottery films holiday TV ad in valley",
+    "url": "https://www.conwaydailysun.com/news/local/nh-lottery-films-holiday-tv-ad-in-valley/article_27933b36-9319-43b9-9835-a2baffebb678.html",
+    "date": "2026-10-30"
+   },
+   {
+    "title": "School tax cap info session attracts few takers",
+    "url": "https://www.conwaydailysun.com/news/local/school-tax-cap-info-session-attracts-few-takers/article_946e128f-d893-40a5-a4d5-b16f6d6d1a71.html",
+    "date": "2026-10-30"
+   },
+   {
+    "title": "Public invited to attend Schneider arrival re-enactment Nov. 4, 5",
+    "url": "https://www.conwaydailysun.com/news/local/public-invited-to-attend-schneider-arrival-re-enactment-nov-4-5/article_ccb2776f-0339-4064-8be3-f0954e0efe63.html",
+    "date": "2026-10-30"
+   },
+   {
+    "title": "Town welfare officer shares 2026 kettling plans",
+    "url": "https://www.conwaydailysun.com/news/local/town-welfare-officer-shares-2026-kettling-plans/article_7449c0dc-c813-47d5-ab5b-00d91c98cadd.html",
+    "date": "2026-10-28"
+   },
+   {
+    "title": "Blue skies and wagging tails at dog park opening",
+    "url": "https://www.conwaydailysun.com/news/local/blue-skies-and-wagging-tails-at-dog-park-opening/article_7152fe12-ed87-433f-8f81-2e1a0e6e5fc3.html",
+    "date": "2026-10-28"
+   },
+   {
+    "title": "Kenney says as executive councilor he can ‘work with DOT’",
+    "url": "https://www.conwaydailysun.com/news/local/kenney-says-as-executive-councilor-he-can-work-with-dot/article_02b9cfd3-6996-4928-b9d7-d027d648284f.html",
+    "date": "2026-10-27"
+   },
+   {
+    "title": "Main Street Project shutting down for winter next month",
+    "url": "https://www.conwaydailysun.com/news/local/main-street-project-shutting-down-for-winter-next-month/article_59e2f5c8-549a-438f-87e2-b73fa9a6f1ca.html",
+    "date": "2026-10-26"
+   },
+   {
+    "title": "North-South Road to be shut down this week",
+    "url": "https://www.conwaydailysun.com/news/local/north-south-road-to-be-shut-down-this-week/article_2a251d06-dedc-4f38-943a-8638a28f21b4.html",
+    "date": "2026-10-26"
+   }
+  ]
+ }
+}

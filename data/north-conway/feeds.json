@@ -1,0 +1,92 @@
+{
+ "note": "Live sources for /api/feed. type: rss, atom, bluesky (actor) or links (a homepage, match = article URL regex). tag: safety, news, business or parks routes items to that page instead of the social scroll. level: City, County, State or Federal. kind: official or candidate. max: items kept per source (default 6, tagged sources 12).",
+ "sources": [
+  {
+   "id": "town-news",
+   "who": "Town of Conway",
+   "platform": "Town website",
+   "type": "rss",
+   "url": "https://conwaynh.gov/rss/news.xml",
+   "kind": "official",
+   "level": "City"
+  },
+  {
+   "id": "pappas-news",
+   "who": "Chris Pappas",
+   "platform": "House website",
+   "type": "rss",
+   "url": "https://pappas.house.gov/rss.xml",
+   "person": "pappas",
+   "kind": "official",
+   "level": "Federal"
+  },
+  {
+   "id": "shaheen",
+   "who": "Jeanne Shaheen",
+   "platform": "Bluesky",
+   "type": "bluesky",
+   "actor": "shaheen.senate.gov",
+   "person": "shaheen",
+   "kind": "official",
+   "level": "Federal"
+  },
+  {
+   "id": "hassan",
+   "who": "Maggie Hassan",
+   "platform": "Bluesky",
+   "type": "bluesky",
+   "actor": "hassan.senate.gov",
+   "person": "hassan",
+   "kind": "official",
+   "level": "Federal"
+  },
+  {
+   "id": "x-senatorshaheen",
+   "who": "Jeanne Shaheen",
+   "platform": "X",
+   "type": "x",
+   "handle": "SenatorShaheen",
+   "level": "Federal",
+   "kind": "official"
+  },
+  {
+   "id": "x-senatorhassan",
+   "who": "Maggie Hassan",
+   "platform": "X",
+   "type": "x",
+   "handle": "SenatorHassan",
+   "level": "Federal",
+   "kind": "official"
+  },
+  {
+   "id": "shaheen-youtube",
+   "who": "Jeanne Shaheen",
+   "platform": "YouTube",
+   "type": "atom",
+   "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCjLZAZMbDrybHyttdEC9LFA",
+   "person": "shaheen",
+   "kind": "official",
+   "level": "Federal"
+  },
+  {
+   "id": "hassan-youtube",
+   "who": "Maggie Hassan",
+   "platform": "YouTube",
+   "type": "atom",
+   "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC4dD6MKchWaCEbfHo-VbQhA",
+   "person": "hassan",
+   "kind": "official",
+   "level": "Federal"
+  },
+  {
+   "id": "ayotte-youtube",
+   "who": "Kelly Ayotte",
+   "platform": "YouTube",
+   "type": "atom",
+   "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCMX0bI0EPIo2A_KfRxVps3Q",
+   "person": "ayotte",
+   "kind": "official",
+   "level": "State"
+  }
+ ]
+}

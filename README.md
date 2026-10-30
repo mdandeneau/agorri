@@ -2,7 +2,7 @@
 
 Government you can see. A voice they can count.
 
-A static site (one page plus JSON data per town) with two small Cloudflare Pages Functions. Every town runs on the same `index.html`, so a layout change applies to all of them. Live towns: Portsmouth (agorri.com/portsmouth) and Nashua (agorri.com/nashua).
+A static site (one page plus JSON data per town) with two small Cloudflare Pages Functions. Every town runs on the same `index.html`, so a layout change applies to all of them. Live towns: Portsmouth (agorri.com/portsmouth), Nashua (agorri.com/nashua) and North Conway (agorri.com/north-conway, the Town of Conway's government).
 - `/api/feed?town=<id>` merges that town's official feeds (`data/<id>/feeds.json`: city RSS, YouTube, officials on Bluesky, police and fire feeds). Cached 5 minutes per town; the page polls it every 5 minutes.
 - `/api/ask` writes short answers for the search bar from the records the page matched. Off until you add an API key.
 

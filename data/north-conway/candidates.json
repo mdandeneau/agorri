@@ -1,0 +1,1833 @@
+{
+ "as_of": "2026-10-30",
+ "election": {
+  "date": "2026-11-03",
+  "polls": "Town Garage, 1611 East Main St., Center Conway, 8am to 7pm",
+  "pollsSource": {
+   "label": "Town of Conway, Elections",
+   "url": "https://conwaynh.gov/pages/elections"
+  }
+ },
+ "note": "Candidate lists come from Citizens Count's Conway ballot page and Ballotpedia race pages and, for county offices, The Ballot Brief (drawn from the Secretary of State filing list) cross-checked with GoodParty.org. Positions are each candidate's own survey answers, campaign pages or quoted statements, with a source on every line. Candidates who did not answer surveys show no positions.",
+ "races": [
+  {
+   "id": "governor",
+   "office": "Governor",
+   "district": "Statewide",
+   "level": "State",
+   "wards": "all",
+   "seats": 1,
+   "term": "2 years",
+   "what": "The governor signs or vetoes state laws, proposes the state budget and nominates agency heads and judges; state decisions on school funding, Medicaid, roads and energy that reach Conway run through this office.",
+   "candidates": [
+    {
+     "id": "kelly-ayotte",
+     "name": "Kelly Ayotte",
+     "party": "R",
+     "incumbent": true,
+     "hometown": null,
+     "background": "Governor of New Hampshire since 2025. Previously U.S. Senator (2011 to 2016) and New Hampshire Attorney General (2004 to 2009). BA Penn State, JD Villanova.",
+     "website": "https://kellyfornh.com/",
+     "positions": [
+      {
+       "topic": "Education Freedom Accounts",
+       "stance": "For. Survey answer: supports Education Freedom Accounts and will fight for universal education freedom.",
+       "quote": "Kelly supports Education Freedom Accounts and will fight for Universal education freedom",
+       "source": {
+        "label": "Citizens Count survey, 2024 (reprinted by Nashua Ink Link)",
+        "url": "https://nashua.inklink.news/?p=286294"
+       }
+      },
+      {
+       "topic": "Taxes",
+       "stance": "Against a state income or sales tax. Survey answer: no new taxes, will look to cut taxes wherever possible.",
+       "quote": "Kelly will never allow an income or sales tax to be imposed in New Hampshire.",
+       "source": {
+        "label": "Citizens Count survey, 2024",
+        "url": "https://www.citizenscount.org/candidate/kelly-ayotte"
+       }
+      },
+      {
+       "topic": "Abortion",
+       "stance": "Says she supports and will not change New Hampshire's current abortion law.",
+       "quote": "Kelly supports and will not change New Hampshire's existing abortion law",
+       "source": {
+        "label": "Citizens Count survey, 2024",
+        "url": "https://www.citizenscount.org/candidate/kelly-ayotte"
+       }
+      },
+      {
+       "topic": "Energy",
+       "stance": "For encouraging nuclear development; issued a March 2026 executive order directing the Department of Energy to explore next-generation nuclear power. Supports an all-of-the-above energy strategy.",
+       "quote": null,
+       "source": {
+        "label": "Citizens Count, 2026",
+        "url": "https://www.citizenscount.org/candidate/kelly-ayotte"
+       }
+      },
+      {
+       "topic": "Housing",
+       "stance": "Would streamline state permitting and cut red tape, and partner with municipalities on infrastructure.",
+       "quote": "Kelly will work to streamline the state permitting process and cut unnecessary red tape",
+       "source": {
+        "label": "Citizens Count survey, 2024",
+        "url": "https://www.citizenscount.org/candidate/kelly-ayotte"
+       }
+      },
+      {
+       "topic": "Marijuana",
+       "stance": "Against legalization. Says she would not sign a legalization bill, citing youth mental health, road safety and the opioid crisis.",
+       "quote": "Kelly would not sign a bill legalizing marijuana",
+       "source": {
+        "label": "Citizens Count survey, 2024",
+        "url": "https://www.citizenscount.org/candidate/kelly-ayotte"
+       }
+      },
+      {
+       "topic": "Immigration",
+       "stance": "For requiring local law enforcement to cooperate with federal immigration enforcement; would ban sanctuary cities.",
+       "quote": "As Governor, Kelly will ban sanctuary cities to keep New Hampshire communities safe.",
+       "source": {
+        "label": "Citizens Count survey, 2024",
+        "url": "https://www.citizenscount.org/candidate/kelly-ayotte"
+       }
+      },
+      {
+       "topic": "Guns",
+       "stance": "Against stricter gun laws. Supports current laws and will enforce them.",
+       "quote": "Kelly supports our current laws and will enforce them.",
+       "source": {
+        "label": "Citizens Count survey, 2024",
+        "url": "https://www.citizenscount.org/candidate/kelly-ayotte"
+       }
+      },
+      {
+       "topic": "School district tax caps",
+       "stance": "For. Answered Yes on the Granite State Taxpayers survey to implementing tax and spending caps.",
+       "quote": null,
+       "source": {
+        "label": "Granite State Taxpayers survey, 2026 (via Citizens Count)",
+        "url": "https://www.citizenscount.org/candidate/kelly-ayotte"
+       }
+      }
+     ],
+     "accounts": [
+      {
+       "platform": "Website",
+       "url": "https://kellyfornh.com/"
+      },
+      {
+       "platform": "Facebook",
+       "url": "https://www.facebook.com/KellyAyotteForNH/"
+      },
+      {
+       "platform": "X",
+       "url": "https://twitter.com/KellyAyotte"
+      }
+     ],
+     "source": {
+      "label": "Citizens Count candidate profile",
+      "url": "https://www.citizenscount.org/candidate/kelly-ayotte"
+     }
+    },
+    {
+     "id": "cinde-warmington",
+     "name": "Cinde Warmington",
+     "party": "D",
+     "incumbent": false,
+     "hometown": null,
+     "background": "Former Executive Councilor, District 2 (2020 to 2024). About 40 years in health care including laboratory medicine, hospital management and health care regulatory law. JD UNH School of Law.",
+     "website": "https://www.cindewarmington.com",
+     "positions": [
+      {
+       "topic": "Housing",
+       "stance": "Campaign says housing costs are at record highs and headlines a plan on tackling New Hampshire's housing crisis.",
+       "quote": "Housing costs are at record highs",
+       "source": {
+        "label": "Campaign website news page, 2026",
+        "url": "https://www.cindewarmington.com/news/what-planet-warmington-launches-first-tv-ad-highlighting-ayottes-failed-record-as-governor"
+       }
+      },
+      {
+       "topic": "Data centers",
+       "stance": "Calls for a statewide data center moratorium and criticizes a bill making it easier to build large data centers.",
+       "quote": null,
+       "source": {
+        "label": "Campaign website news page, 2026",
+        "url": "https://www.cindewarmington.com/news/what-planet-warmington-launches-first-tv-ad-highlighting-ayottes-failed-record-as-governor"
+       }
+      },
+      {
+       "topic": "Gas prices and tariffs",
+       "stance": "Announced support for a temporary gas tax suspension and demands the governor push for tariff refunds.",
+       "quote": null,
+       "source": {
+        "label": "Campaign website news page, 2026",
+        "url": "https://www.cindewarmington.com/news/what-planet-warmington-launches-first-tv-ad-highlighting-ayottes-failed-record-as-governor"
+       }
+      },
+      {
+       "topic": "Health care",
+       "stance": "Criticizes doubled prescription drug co-pays and higher Medicaid premiums under the current administration.",
+       "quote": null,
+       "source": {
+        "label": "Campaign website news page, 2026",
+        "url": "https://www.cindewarmington.com/news/what-planet-warmington-launches-first-tv-ad-highlighting-ayottes-failed-record-as-governor"
+       }
+      },
+      {
+       "topic": "Education Freedom Accounts",
+       "stance": "Against. Links private school vouchers to property tax increases.",
+       "quote": "All students in New Hampshire have the right to receive a quality public school education",
+       "source": {
+        "label": "Candidate website via Citizens Count, 2024; campaign news page, 2026",
+        "url": "https://www.citizenscount.org/candidate/cinde-warmington"
+       }
+      },
+      {
+       "topic": "Abortion",
+       "stance": "For guaranteeing the right to abortion before 24 weeks and for repealing the ban after 24 weeks.",
+       "quote": "Everyone should have the freedom to make their own reproductive health care decisions",
+       "source": {
+        "label": "Candidate website via Citizens Count, 2024",
+        "url": "https://www.citizenscount.org/candidate/cinde-warmington"
+       }
+      },
+      {
+       "topic": "Guns",
+       "stance": "For stricter gun laws: universal background checks, gun-free school zones, extreme risk protection orders.",
+       "quote": null,
+       "source": {
+        "label": "Candidate website via Citizens Count, 2024",
+        "url": "https://www.citizenscount.org/candidate/cinde-warmington"
+       }
+      },
+      {
+       "topic": "Minimum wage",
+       "stance": "For an increase; supports making the minimum wage a living wage.",
+       "quote": null,
+       "source": {
+        "label": "Candidate website via Citizens Count, 2024",
+        "url": "https://www.citizenscount.org/candidate/cinde-warmington"
+       }
+      },
+      {
+       "topic": "Climate",
+       "stance": "For state action on climate change.",
+       "quote": "Climate change presents a real and imminent threat to our state and we must take bold actions",
+       "source": {
+        "label": "Candidate website via Citizens Count, 2024",
+        "url": "https://www.citizenscount.org/candidate/cinde-warmington"
+       }
+      }
+     ],
+     "accounts": [
+      {
+       "platform": "Website",
+       "url": "https://www.cindewarmington.com"
+      },
+      {
+       "platform": "YouTube",
+       "url": "https://www.youtube.com/@CindeWarmingtonNH",
+       "channel_id": "UC3gxk7gBNBJsA2kmn3oexww"
+      },
+      {
+       "platform": "Bluesky",
+       "url": "https://bsky.app/profile/cindewarmington.bsky.social",
+       "actor": "cindewarmington.bsky.social"
+      },
+      {
+       "platform": "Facebook",
+       "url": "https://www.facebook.com/CindeWarmingtonNH/"
+      },
+      {
+       "platform": "Instagram",
+       "url": "https://instagram.com/cindewarmington/"
+      },
+      {
+       "platform": "X",
+       "url": "https://x.com/CindeWarmington"
+      }
+     ],
+     "source": {
+      "label": "Citizens Count candidate profile",
+      "url": "https://www.citizenscount.org/candidate/cinde-warmington"
+     }
+    },
+    {
+     "id": "stephen-villee",
+     "name": "Stephen Villee",
+     "party": "L",
+     "incumbent": false,
+     "hometown": null,
+     "background": "Software developer. BA Mathematics, Harvard University. Not currently serving in a New Hampshire office. Lists a Hampton, NH address.",
+     "website": "https://villee4nh.com/",
+     "positions": [
+      {
+       "topic": "Taxes",
+       "stance": "Against a broad-based income tax and against reinstating the interest and dividends tax. Would lower business taxes only with a matching cut in state spending.",
+       "quote": "I would love to lower business taxes, but there would have to be a corresponding decrease in state expenditures.",
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/stephen-villee"
+       }
+      },
+      {
+       "topic": "Housing",
+       "stance": "For the state doing more to encourage municipalities to remove zoning barriers to housing.",
+       "quote": null,
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/stephen-villee"
+       }
+      },
+      {
+       "topic": "Energy",
+       "stance": "For encouraging nuclear development including small modular reactors.",
+       "quote": null,
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/stephen-villee"
+       }
+      },
+      {
+       "topic": "Marijuana",
+       "stance": "For legalization under all three models surveyed (home growing, private sales, state-run stores).",
+       "quote": null,
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/stephen-villee"
+       }
+      },
+      {
+       "topic": "Abortion",
+       "stance": "Undecided on the survey's abortion questions; wants any ban to include an exception for rape.",
+       "quote": "Abortion is a very divisive issue, even among libertarians. I want any abortion ban to include an exception for rape",
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/stephen-villee"
+       }
+      },
+      {
+       "topic": "Elections",
+       "stance": "For requiring proof of citizenship for newly registered voters.",
+       "quote": null,
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/stephen-villee"
+       }
+      },
+      {
+       "topic": "Guns",
+       "stance": "Against stricter gun laws.",
+       "quote": null,
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/stephen-villee"
+       }
+      },
+      {
+       "topic": "Public schools",
+       "stance": "Says in the long term he wants to reduce or eliminate public school funding, but that will have to wait.",
+       "quote": "In the long term, I want to reduce or eliminate public school funding. But that will have to wait until more libertarians move to NH.",
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/stephen-villee"
+       }
+      }
+     ],
+     "accounts": [
+      {
+       "platform": "Website",
+       "url": "https://villee4nh.com/"
+      },
+      {
+       "platform": "Facebook",
+       "url": "https://www.facebook.com/stephen.villee"
+      },
+      {
+       "platform": "X",
+       "url": "https://x.com/svillee"
+      }
+     ],
+     "source": {
+      "label": "Citizens Count candidate profile",
+      "url": "https://www.citizenscount.org/candidate/stephen-villee"
+     },
+     "party_note": "Citizens Count's Conway ballot page lists him as Independent/Other; other Agorri towns list him as Libertarian.",
+     "needs_review": true,
+     "review_note": "Confirm the party label printed on the Conway ballot."
+    }
+   ],
+   "source": {
+    "label": "Ballotpedia, New Hampshire gubernatorial election 2026",
+    "url": "https://ballotpedia.org/New_Hampshire_gubernatorial_election,_2026"
+   }
+  },
+  {
+   "id": "us-senate",
+   "office": "U.S. Senate",
+   "district": "Statewide",
+   "level": "Federal",
+   "wards": "all",
+   "seats": 1,
+   "term": "6 years",
+   "what": "One of New Hampshire's two votes in the U.S. Senate on federal law, budgets, treaties and confirmations; this is an open seat because Sen. Jeanne Shaheen is not running.",
+   "candidates": [
+    {
+     "id": "chris-pappas",
+     "name": "Chris Pappas",
+     "party": "D",
+     "incumbent": false,
+     "hometown": "Manchester",
+     "background": "U.S. Representative for New Hampshire's 1st District since 2019. Previously Executive Councilor (District 4, 2013 to 2019), Hillsborough County Treasurer (2007 to 2011) and state representative (2002 to 2006). Co-owner of the Puritan Backroom restaurant in Manchester.",
+     "website": "https://chrispappas.org/",
+     "positions": [
+      {
+       "topic": "Health care costs",
+       "stance": "Restoring enhanced ACA premium tax credits, capping insulin at $35 and letting Medicare negotiate drug prices.",
+       "quote": null,
+       "source": {
+        "label": "Ballotpedia, 2026",
+        "url": "https://ballotpedia.org/United_States_Senate_election_in_New_Hampshire,_2026"
+       }
+      },
+      {
+       "topic": "Tariffs",
+       "stance": "For decreasing tariffs on imports; calls for getting rid of what he terms reckless tariffs.",
+       "quote": "getting rid of these reckless tariffs",
+       "source": {
+        "label": "C-SPAN/AARP debate via Citizens Count, 2026",
+        "url": "https://www.citizenscount.org/candidate/christopher-pappas/running/2026-primary-us-senate"
+       }
+      },
+      {
+       "topic": "Housing",
+       "stance": "For limiting private equity purchases of homes; cites bipartisan legislation to stop Wall Street from buying single-family homes.",
+       "quote": null,
+       "source": {
+        "label": "Candidate website via Citizens Count, 2026",
+        "url": "https://www.citizenscount.org/candidate/christopher-pappas/running/2026-primary-us-senate"
+       }
+      },
+      {
+       "topic": "Corruption and money in politics",
+       "stance": "Refuses corporate PAC money and says he is fighting to ban stock trading by members of Congress.",
+       "quote": "no family has to choose between buying groceries and paying for a prescription",
+       "source": {
+        "label": "Campaign press release, June 2026",
+        "url": "https://chrispappas.org/2026/06/serving-you-has-always-been-my-number-one-priority-new-tv-and-digital-ads-highlight-pappass-fight-to-lower-costs-end-corruption/"
+       }
+      },
+      {
+       "topic": "Elections",
+       "stance": "Against requiring proof of citizenship to vote; voted no on the SAVE Act.",
+       "quote": "I voted no on this legislation today because it would force unnecessary federal changes to state voter registration",
+       "source": {
+        "label": "Candidate website via Citizens Count, 2026",
+        "url": "https://www.citizenscount.org/candidate/christopher-pappas/running/2026-primary-us-senate"
+       }
+      },
+      {
+       "topic": "Iran",
+       "stance": "Against the war in Iran; voted to reassert Congress's war authority.",
+       "quote": "Today, I voted to reassert Congress's authority to prevent another forever war without a clear endgame",
+       "source": {
+        "label": "Candidate website via Citizens Count, 2026",
+        "url": "https://www.citizenscount.org/candidate/christopher-pappas/running/2026-primary-us-senate"
+       }
+      },
+      {
+       "topic": "Immigration enforcement",
+       "stance": "Against abolishing ICE; says he will hold the line against abuses.",
+       "quote": "I'll continue to hold the line against the abuses that we've seen",
+       "source": {
+        "label": "Southern NH Chamber debate via Citizens Count, 2026",
+        "url": "https://www.citizenscount.org/candidate/christopher-pappas/running/2026-primary-us-senate"
+       }
+      }
+     ],
+     "accounts": [
+      {
+       "platform": "Website",
+       "url": "https://chrispappas.org/"
+      },
+      {
+       "platform": "YouTube",
+       "url": "https://www.youtube.com/@ChrisPappasNH",
+       "channel_id": "UCOMLLJGmSQXBDHufSt5am-w"
+      },
+      {
+       "platform": "Bluesky",
+       "url": "https://bsky.app/profile/chrispappasnh.bsky.social",
+       "actor": "chrispappasnh.bsky.social"
+      },
+      {
+       "platform": "Facebook",
+       "url": "https://www.facebook.com/pappasfornh/"
+      },
+      {
+       "platform": "Instagram",
+       "url": "https://www.instagram.com/pappasfornh/"
+      },
+      {
+       "platform": "X",
+       "url": "https://x.com/chrispappasnh"
+      }
+     ],
+     "source": {
+      "label": "Ballotpedia, U.S. Senate election in New Hampshire 2026",
+      "url": "https://ballotpedia.org/United_States_Senate_election_in_New_Hampshire,_2026"
+     }
+    },
+    {
+     "id": "john-e-sununu",
+     "name": "John E. Sununu",
+     "party": "R",
+     "incumbent": false,
+     "hometown": "Hampton",
+     "background": "U.S. Senator from New Hampshire 2003 to 2009 and U.S. Representative for the 1st District 1997 to 2003. B.S. and M.S. in mechanical engineering from MIT, MBA from Harvard. Has worked in engineering, consulting and manufacturing.",
+     "website": "https://www.sununusenator.com/",
+     "positions": [
+      {
+       "topic": "Cost of living",
+       "stance": "Reducing inflation and lowering costs for housing, health care and energy; opposes middle-class tax increases.",
+       "quote": null,
+       "source": {
+        "label": "Ballotpedia, 2026",
+        "url": "https://ballotpedia.org/United_States_Senate_election_in_New_Hampshire,_2026"
+       }
+      },
+      {
+       "topic": "Term limits",
+       "stance": "For congressional term limits.",
+       "quote": "No more career politicians.",
+       "source": {
+        "label": "Citizens Count, 2026",
+        "url": "https://www.citizenscount.org/candidate/john-e-sununu"
+       }
+      },
+      {
+       "topic": "Taxes",
+       "stance": "For extending the Trump tax act; against raising taxes to reduce the deficit.",
+       "quote": null,
+       "source": {
+        "label": "Citizens Count, 2026",
+        "url": "https://www.citizenscount.org/candidate/john-e-sununu"
+       }
+      },
+      {
+       "topic": "Tariffs",
+       "stance": "Says if there are tariffs they should be set at a reasonable rate.",
+       "quote": "If you're going to have tariffs, set them at a reasonable rate.",
+       "source": {
+        "label": "Citizens Count, 2026",
+        "url": "https://www.citizenscount.org/candidate/john-e-sununu"
+       }
+      },
+      {
+       "topic": "Elections",
+       "stance": "For requiring proof of citizenship to vote; urges an up or down vote on voter ID.",
+       "quote": null,
+       "source": {
+        "label": "Citizens Count, 2026",
+        "url": "https://www.citizenscount.org/candidate/john-e-sununu"
+       }
+      },
+      {
+       "topic": "Health care",
+       "stance": "Against Medicare for All; proposes insurance competition across state lines, price transparency and health savings accounts.",
+       "quote": null,
+       "source": {
+        "label": "Citizens Count, 2026",
+        "url": "https://www.citizenscount.org/candidate/john-e-sununu"
+       }
+      },
+      {
+       "topic": "Social Security and Medicare",
+       "stance": "Says he never voted to cut Social Security benefits; calls for a bipartisan fix to solvency.",
+       "quote": null,
+       "source": {
+        "label": "Ballotpedia, 2026; Citizens Count, 2026",
+        "url": "https://www.citizenscount.org/candidate/john-e-sununu"
+       }
+      },
+      {
+       "topic": "Immigration",
+       "stance": "Against abolishing ICE; says agents should not wear masks and should wear body cameras. For an amendment limiting birthright citizenship.",
+       "quote": null,
+       "source": {
+        "label": "Citizens Count, 2026",
+        "url": "https://www.citizenscount.org/candidate/john-e-sununu"
+       }
+      }
+     ],
+     "accounts": [
+      {
+       "platform": "Website",
+       "url": "https://www.sununusenator.com/"
+      },
+      {
+       "platform": "Facebook",
+       "url": "https://www.facebook.com/SununuSenator/"
+      },
+      {
+       "platform": "X",
+       "url": "https://x.com/SununuSenator"
+      }
+     ],
+     "source": {
+      "label": "Ballotpedia, U.S. Senate election in New Hampshire 2026",
+      "url": "https://ballotpedia.org/United_States_Senate_election_in_New_Hampshire,_2026"
+     }
+    },
+    {
+     "id": "edmond-laplante",
+     "name": "Edmond J. Laplante Jr.",
+     "party": "Other",
+     "incumbent": false,
+     "hometown": "Richmond",
+     "background": "Constitution Party. Auto mechanic since 1984, Marine Corps veteran (1999 to 2007), Richmond school board (SAU 93) representative since 2003 and State Chairman of the Constitution Party of NH.",
+     "website": "https://laplante4constitutionalnh.com/",
+     "positions": [
+      {
+       "topic": "Role of government",
+       "stance": "Constitutional compliance and limited government; transparency and accountability.",
+       "quote": null,
+       "source": {
+        "label": "Ballotpedia, 2026",
+        "url": "https://ballotpedia.org/United_States_Senate_election_in_New_Hampshire,_2026"
+       }
+      },
+      {
+       "topic": "Tariffs",
+       "stance": "Against decreasing tariffs.",
+       "quote": "We should concentrate NOT being so reliant on foreign goods.",
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/edmond-j-laplante-jr"
+       }
+      },
+      {
+       "topic": "Foreign policy",
+       "stance": "Says the U.S. should stay out of foreign affairs that do not affect it directly (Ukraine aid, Israel aid, Iran, Venezuela).",
+       "quote": "We should stay out of foreign affairs that don't affect us directly",
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/edmond-j-laplante-jr"
+       }
+      },
+      {
+       "topic": "Social Security",
+       "stance": "For privatizing Social Security; against raising the retirement age or income cap.",
+       "quote": "We should have individual plans where your funds are yours and yours alone",
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/edmond-j-laplante-jr"
+       }
+      },
+      {
+       "topic": "Abortion",
+       "stance": "Describes himself as pro-life with rare exceptions; against a federal right to abortion before 24 weeks.",
+       "quote": "I'm pro life there are rare exceptions",
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/edmond-j-laplante-jr"
+       }
+      },
+      {
+       "topic": "Elections",
+       "stance": "For proof of citizenship to vote; against mail-in voting.",
+       "quote": null,
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/edmond-j-laplante-jr"
+       }
+      },
+      {
+       "topic": "Housing",
+       "stance": "For limiting private equity purchases of homes.",
+       "quote": null,
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/edmond-j-laplante-jr"
+       }
+      }
+     ],
+     "accounts": [
+      {
+       "platform": "Website",
+       "url": "https://laplante4constitutionalnh.com/"
+      },
+      {
+       "platform": "Facebook",
+       "url": "https://www.facebook.com/laplante4constitutionalnh"
+      },
+      {
+       "platform": "X",
+       "url": "https://x.com/Laplante4Senate"
+      }
+     ],
+     "source": {
+      "label": "Citizens Count candidate profile",
+      "url": "https://www.citizenscount.org/candidate/edmond-j-laplante-jr"
+     },
+     "party_note": "Citizens Count's Conway ballot page lists him as Independent/Other; he is state chairman of the Constitution Party of NH."
+    }
+   ],
+   "source": {
+    "label": "Ballotpedia, U.S. Senate election in New Hampshire 2026",
+    "url": "https://ballotpedia.org/United_States_Senate_election_in_New_Hampshire,_2026"
+   }
+  },
+  {
+   "id": "us-house-1",
+   "office": "U.S. House",
+   "district": "District 1",
+   "level": "Federal",
+   "wards": "all",
+   "seats": 1,
+   "term": "2 years",
+   "what": "Open seat; Rep. Chris Pappas is running for U.S. Senate. The representative for NH's 1st District, which includes all of Carroll County, votes on federal law and spending and handles federal casework for Conway residents.",
+   "candidates": [
+    {
+     "id": "stefany-shaheen",
+     "name": "Stefany Shaheen",
+     "party": "D",
+     "incumbent": false,
+     "hometown": null,
+     "background": "Co-founder and president of Good Measures, a nutrition counseling service. Served on the Portsmouth City Council (2014 to 2016) and chaired the Portsmouth Police Commission (2019 to 2024). MBA from MIT and MPA from Harvard.",
+     "website": "https://stefanyshaheen.com",
+     "positions": [
+      {
+       "topic": "Health care",
+       "stance": "For Medicare for All with automatic enrollment; against an opt-in version. Says she would break up health care monopolies.",
+       "quote": "We absolutely, positively need Medicare for All.",
+       "source": {
+        "label": "Citizens Count, 2026 (WMUR)",
+        "url": "https://www.citizenscount.org/candidate/stefany-shaheen"
+       }
+      },
+      {
+       "topic": "Housing",
+       "stance": "For limiting private equity purchase of homes; would expand support for first-time and middle class homebuyers and the Low-Income Housing Tax Credit.",
+       "quote": "Step one is to end these Wall Street tax breaks for buying up our homes.",
+       "source": {
+        "label": "Citizens Count, 2026 (candidate website)",
+        "url": "https://www.citizenscount.org/candidate/stefany-shaheen"
+       }
+      },
+      {
+       "topic": "Tariffs",
+       "stance": "For decreasing tariffs on imports.",
+       "quote": "The Supreme Court said clearly: Trump's tariffs are illegal.",
+       "source": {
+        "label": "Citizens Count, 2026 (candidate website)",
+        "url": "https://www.citizenscount.org/candidate/stefany-shaheen"
+       }
+      },
+      {
+       "topic": "Abortion",
+       "stance": "Against a federal abortion ban; for a federal right to abortion before 24 weeks.",
+       "quote": "Like millions of women I needed an abortion when a pregnancy went wrong.",
+       "source": {
+        "label": "Citizens Count, 2026 (candidate website)",
+        "url": "https://www.citizenscount.org/candidate/stefany-shaheen"
+       }
+      },
+      {
+       "topic": "Campaign finance",
+       "stance": "For an amendment to limit outside campaign funding.",
+       "quote": "Get Dark Money Out: Overturn Citizens United",
+       "source": {
+        "label": "Citizens Count, 2026 (candidate website)",
+        "url": "https://www.citizenscount.org/candidate/stefany-shaheen"
+       }
+      },
+      {
+       "topic": "Immigration",
+       "stance": "Other on abolishing ICE; says the agency must be overhauled.",
+       "quote": "ICE must be completely overhauled.",
+       "source": {
+        "label": "Citizens Count, 2026 (candidate website)",
+        "url": "https://www.citizenscount.org/candidate/stefany-shaheen"
+       }
+      }
+     ],
+     "accounts": [
+      {
+       "platform": "Website",
+       "url": "https://stefanyshaheen.com"
+      },
+      {
+       "platform": "Facebook",
+       "url": "https://www.facebook.com/StefanyAShaheen"
+      },
+      {
+       "platform": "X",
+       "url": "https://x.com/Stefany4NH"
+      },
+      {
+       "platform": "YouTube",
+       "url": "https://www.youtube.com/@StefanyShaheenNH",
+       "channel_id": "UC8Pm1wGGBDTOByU864aR28A"
+      }
+     ],
+     "source": {
+      "label": "Citizens Count candidate profile",
+      "url": "https://www.citizenscount.org/candidate/stefany-shaheen"
+     }
+    },
+    {
+     "id": "anthony-dilorenzo",
+     "name": "Anthony DiLorenzo",
+     "party": "R",
+     "incumbent": false,
+     "hometown": null,
+     "background": "Real estate developer and owner of Key Auto Group, which Ballotpedia describes as 20 car dealerships and 11 collision centers. No prior political office. Bachelor's degree from the University of New Hampshire.",
+     "website": "https://dilorenzoforcongress.com/",
+     "positions": [
+      {
+       "topic": "Taxes",
+       "stance": "Against raising taxes to reduce the deficit; for extending the 2017 tax cuts and ending taxes on tips, overtime and Social Security.",
+       "quote": "Protect the 2017 tax cuts and the elimination of taxes on tips, overtime, and social security.",
+       "source": {
+        "label": "Citizens Count, 2026 (candidate website)",
+        "url": "https://www.citizenscount.org/candidate/anthony-dilorenzo"
+       }
+      },
+      {
+       "topic": "Budget",
+       "stance": "For budget cuts to match new spending and for a federal balanced budget amendment.",
+       "quote": "We need to stop spending more money than we take in.",
+       "source": {
+        "label": "Citizens Count, 2026 (WMUR)",
+        "url": "https://www.citizenscount.org/candidate/anthony-dilorenzo"
+       }
+      },
+      {
+       "topic": "Energy",
+       "stance": "For repealing the Jones Act to bring natural gas in by tanker; supports more pipelines; opposes drilling in the White Mountain National Forest.",
+       "quote": "we also need to repeal the Jones Act so we can bring natural gas in via tanker.",
+       "source": {
+        "label": "Citizens Count, 2026 (forum)",
+        "url": "https://www.citizenscount.org/candidate/anthony-dilorenzo"
+       }
+      },
+      {
+       "topic": "Immigration",
+       "stance": "Against abolishing ICE.",
+       "quote": "I support law enforcement, including immigration enforcement, and the remedy again for illegal immigration is deportation.",
+       "source": {
+        "label": "Citizens Count, 2026 (debate)",
+        "url": "https://www.citizenscount.org/candidate/anthony-dilorenzo"
+       }
+      },
+      {
+       "topic": "Health care",
+       "stance": "Against Medicare for All with automatic enrollment.",
+       "quote": "I want to see private healthcare.",
+       "source": {
+        "label": "Citizens Count, 2026 (October debate)",
+        "url": "https://www.citizenscount.org/candidate/anthony-dilorenzo"
+       }
+      },
+      {
+       "topic": "Abortion",
+       "stance": "Against a federal abortion ban and against a federal right to abortion before 24 weeks; says he would respect New Hampshire's laws.",
+       "quote": "Oppose federal abortion legislation and respect New Hampshire's laws.",
+       "source": {
+        "label": "Citizens Count, 2025 (candidate website)",
+        "url": "https://www.citizenscount.org/candidate/anthony-dilorenzo"
+       }
+      }
+     ],
+     "accounts": [
+      {
+       "platform": "Website",
+       "url": "https://dilorenzoforcongress.com/"
+      },
+      {
+       "platform": "Facebook",
+       "url": "https://www.facebook.com/DiLorenzo4NH"
+      },
+      {
+       "platform": "X",
+       "url": "https://x.com/DiLorenzo4NH"
+      },
+      {
+       "platform": "YouTube",
+       "url": "https://www.youtube.com/@dilorenzo4nh",
+       "channel_id": "UCstfQuHWq5bqeHb6s_-e7kQ"
+      }
+     ],
+     "source": {
+      "label": "Citizens Count candidate profile",
+      "url": "https://www.citizenscount.org/candidate/anthony-dilorenzo"
+     }
+    }
+   ],
+   "source": {
+    "label": "Ballotpedia, New Hampshire's 1st Congressional District election, 2026",
+    "url": "https://ballotpedia.org/New_Hampshire's_1st_Congressional_District_election,_2026"
+   },
+   "district_source": {
+    "label": "NH RSA 662:1 (Carroll County is in District 1)",
+    "url": "https://gc.nh.gov/rsa/html/LXIII/662/662-mrg.htm"
+   }
+  },
+  {
+   "id": "exec-council-1",
+   "office": "Executive Council",
+   "district": "District 1",
+   "level": "State",
+   "wards": "all",
+   "seats": 1,
+   "term": "2 years",
+   "what": "One of five councilors who vote with the governor on state contracts, judicial and agency nominations and pardons; Conway is in District 1, which covers the northern half of the state.",
+   "candidates": [
+    {
+     "id": "joseph-kenney",
+     "name": "Joseph D. Kenney",
+     "party": "R",
+     "incumbent": true,
+     "hometown": "Wakefield",
+     "background": "Executive Councilor, District 1, 2014 to 2019 and since 2021. NH House 1994 to 2002 and NH Senate 2002 to 2008 (Wikipedia; years vary by a year between sources). Retired U.S. Marine Corps lieutenant colonel. BA, University of New Hampshire.",
+     "website": null,
+     "positions": [
+      {
+       "topic": "Taxes",
+       "stance": "Against reinstating the Interest and Dividends tax; answered Yes on a school district tax cap mandate.",
+       "quote": "I will oppose and vote against any and all efforts to increase taxes.",
+       "source": {
+        "label": "Granite State Taxpayers survey, 2026 (via Citizens Count)",
+        "url": "https://www.citizenscount.org/candidate/joseph-kenney"
+       }
+      },
+      {
+       "topic": "State contracts",
+       "stance": "Against no-bid state contracts.",
+       "quote": "All contracts should be put out to bid. It's the American way!",
+       "source": {
+        "label": "Citizens Count survey, 2022",
+        "url": "https://www.citizenscount.org/candidate/joseph-kenney"
+       }
+      },
+      {
+       "topic": "Housing and zoning",
+       "stance": "Against the state encouraging local zoning changes.",
+       "quote": "No, New Hampshire prides itself on local control. Town Fathers and Mothers need to make their own decisions",
+       "source": {
+        "label": "Citizens Count survey, 2022",
+        "url": "https://www.citizenscount.org/candidate/joseph-kenney"
+       }
+      },
+      {
+       "topic": "Nominees",
+       "stance": "Says a nominee's political beliefs should not be an important factor.",
+       "quote": "I would be more interested in their constitutional beliefs, legal experiences, professional recommendations, and community service.",
+       "source": {
+        "label": "Citizens Count survey, 2022",
+        "url": "https://www.citizenscount.org/candidate/joseph-kenney"
+       }
+      },
+      {
+       "topic": "Guns",
+       "stance": "Against stricter gun laws.",
+       "quote": "New Hampshire needs to enforce what is currently on the books for gun laws.",
+       "source": {
+        "label": "Citizens Count survey, 2022",
+        "url": "https://www.citizenscount.org/candidate/joseph-kenney"
+       }
+      },
+      {
+       "topic": "Contracts with Planned Parenthood",
+       "stance": "Against.",
+       "quote": "I have supported many other family planning services associated with health care clinics that do not provide abortions.",
+       "source": {
+        "label": "Citizens Count survey, 2022",
+        "url": "https://www.citizenscount.org/candidate/joseph-kenney"
+       }
+      }
+     ],
+     "accounts": [
+      {
+       "platform": "Website",
+       "url": "https://www.council.nh.gov/district-1/councilor-kenney"
+      },
+      {
+       "platform": "Facebook",
+       "url": "https://www.facebook.com/JoeKenneyNH/"
+      }
+     ],
+     "source": {
+      "label": "Citizens Count candidate profile",
+      "url": "https://www.citizenscount.org/candidate/joseph-kenney"
+     },
+     "positions_note": "Citizens Count shows No Response for his 2026 Citizens Count survey questions; 2026 entries are Granite State Taxpayers survey answers.",
+     "background_source": {
+      "label": "Wikipedia, Joseph Kenney",
+      "url": "https://en.wikipedia.org/wiki/Joseph_Kenney"
+     }
+    },
+    {
+     "id": "luz-bay",
+     "name": "Luz Bay",
+     "party": "D",
+     "incumbent": false,
+     "hometown": "Dover",
+     "background": "State representative, Strafford 21, since 2022. Psychometrician with a 29-year career in educational assessment. PhD in educational measurement and statistics, Southern Illinois University Carbondale.",
+     "website": null,
+     "positions": [
+      {
+       "topic": "School district tax caps",
+       "stance": "Against (Citizens Count voting record: voted against capping how much local school districts can increase their budget year to year).",
+       "quote": null,
+       "source": {
+        "label": "Citizens Count voting record, 2026",
+        "url": "https://citizenscount.org/candidate/luz-bay"
+       }
+      },
+      {
+       "topic": "Business taxes",
+       "stance": "Against (Citizens Count voting record: voted against cutting the Business Enterprise Tax rate from 0.55% to 0.50% starting in 2028).",
+       "quote": null,
+       "source": {
+        "label": "Citizens Count voting record, 2026",
+        "url": "https://citizenscount.org/candidate/luz-bay"
+       }
+      },
+      {
+       "topic": "Immigration enforcement",
+       "stance": "Against (Citizens Count voting record: voted against requiring local law enforcement to cooperate with federal immigration enforcement).",
+       "quote": null,
+       "source": {
+        "label": "Citizens Count voting record, 2025",
+        "url": "https://citizenscount.org/candidate/luz-bay"
+       }
+      },
+      {
+       "topic": "Net metering",
+       "stance": "For (Citizens Count voting record: voted to raise the net metering cap from one to five megawatts).",
+       "quote": null,
+       "source": {
+        "label": "Citizens Count voting record, 2025",
+        "url": "https://citizenscount.org/candidate/luz-bay"
+       }
+      },
+      {
+       "topic": "Education Freedom Accounts",
+       "stance": "Against. Survey answer.",
+       "quote": null,
+       "source": {
+        "label": "Citizens Count survey, 2022",
+        "url": "https://citizenscount.org/candidate/luz-bay"
+       }
+      }
+     ],
+     "accounts": [
+      {
+       "platform": "Facebook",
+       "url": "https://www.facebook.com/LuzBay4NH"
+      },
+      {
+       "platform": "X",
+       "url": "https://twitter.com/LuzBay4NH"
+      }
+     ],
+     "source": {
+      "label": "Citizens Count candidate profile",
+      "url": "https://citizenscount.org/candidate/luz-bay"
+     },
+     "positions_note": "Did not answer the 2026 Citizens Count survey. Entries are Citizens Count voting-record labels or her 2022 survey answers, not quotes."
+    }
+   ],
+   "source": {
+    "label": "Ballotpedia, New Hampshire Executive Council election 2026",
+    "url": "https://ballotpedia.org/New_Hampshire_Executive_Council_election,_2026"
+   },
+   "district_source": {
+    "label": "NH RSA 662:2, councilor districts",
+    "url": "https://gc.nh.gov/rsa/html/LXIII/662/662-mrg.htm"
+   }
+  },
+  {
+   "id": "state-senate-3",
+   "office": "State Senate",
+   "district": "District 3",
+   "level": "State",
+   "wards": "all",
+   "seats": 1,
+   "term": "2 years",
+   "what": "One of 24 state senators who write state law and the state budget; District 3 includes Conway and most of Carroll County plus Lincoln, Livermore, Waterville Valley, Middleton and Milton.",
+   "candidates": [
+    {
+     "id": "mark-mcconkey",
+     "name": "Mark E. McConkey",
+     "party": "R",
+     "incumbent": true,
+     "hometown": "Freedom",
+     "background": "State senator since December 2024. NH House 2002 to 2018 and 2020 to 2024, where he chaired the Public Works and Highways Committee. Runs McConkey Construction, a family septic design and installation business. Former chairman of the Ossipee Zoning Board of Adjustment. BS, Springfield College.",
+     "website": "https://mcconkeyfornewhampshire.com",
+     "positions": [
+      {
+       "topic": "Priorities",
+       "stance": "Says his priorities are strong communities, low taxes and personal freedom.",
+       "quote": "my priorities have always been to protect New Hampshire's values of strong communities, low taxes and personal freedom.",
+       "source": {
+        "label": "Campaign announcement, May 2024 (InDepthNH)",
+        "url": "https://indepthnh.org/2024/05/02/republican-rep-mark-mcconkey-announces-campaign-for-state-sen-jeb-bradleys-seat/"
+       }
+      },
+      {
+       "topic": "Roads and bridges",
+       "stance": "Calls state roads and bridges crucial to local business, tourism and safety.",
+       "quote": "Our state roads and bridges are crucial for local businesses, tourism and keeping our families safe.",
+       "source": {
+        "label": "Campaign announcement, May 2024 (InDepthNH)",
+        "url": "https://indepthnh.org/2024/05/02/republican-rep-mark-mcconkey-announces-campaign-for-state-sen-jeb-bradleys-seat/"
+       }
+      },
+      {
+       "topic": "Local projects",
+       "stance": "Cites lake shorelines and dams and Route 16 safety.",
+       "quote": "Whether it is protecting the shorelines and dams on our lakes, or improving safety on Route 16.",
+       "source": {
+        "label": "Campaign announcement, May 2024 (InDepthNH)",
+        "url": "https://indepthnh.org/2024/05/02/republican-rep-mark-mcconkey-announces-campaign-for-state-sen-jeb-bradleys-seat/"
+       }
+      }
+     ],
+     "accounts": [
+      {
+       "platform": "Website",
+       "url": "https://mcconkeyfornewhampshire.com"
+      },
+      {
+       "platform": "Facebook",
+       "url": "https://www.facebook.com/McConkeyforNH"
+      }
+     ],
+     "source": {
+      "label": "Ballotpedia, Mark McConkey",
+      "url": "https://ballotpedia.org/Mark_McConkey"
+     },
+     "positions_note": "His 2026 Citizens Count profile could not be opened in this session and he has not completed Ballotpedia's 2026 survey; quotes are from his 2024 Senate campaign announcement.",
+     "background_source": {
+      "label": "NH Senate, District 3 page",
+      "url": "https://gc.nh.gov/Senate/members/webpages/district03.aspx"
+     }
+    },
+    {
+     "id": "bobbi-boudman",
+     "name": "Bobbi Boudman",
+     "party": "D",
+     "incumbent": false,
+     "hometown": null,
+     "background": "State representative, Carroll 7 (Wolfeboro, Ossipee, Tuftonboro), since winning a March 10, 2026 special election. Wolfeboro budget committee member. Founded Babes in Backpacks and worked for the Los Angeles Department of Recreation and Parks, per Ballotpedia.",
+     "website": "https://voteboudman.com",
+     "positions": [
+      {
+       "topic": "Local control",
+       "stance": "Calls for local control over schools and lower property taxes.",
+       "quote": "We need to get back to local control.",
+       "source": {
+        "label": "Ballotpedia Candidate Connection survey, 2026",
+        "url": "https://ballotpedia.org/Bobbi_Boudman"
+       }
+      },
+      {
+       "topic": "Education Freedom Accounts",
+       "stance": "Against.",
+       "quote": "As a home school mom, I understand a public school cannot fit the needs of every child at all times;",
+       "source": {
+        "label": "Citizens Count survey, 2024",
+        "url": "https://www.citizenscount.org/candidate/bobbi-boudman/serving/nh-house-2024-2026"
+       }
+      },
+      {
+       "topic": "Minimum wage",
+       "stance": "For a state minimum wage increase.",
+       "quote": "New Hampshire's lack of a minimum wage is failing us and we are losing our working class",
+       "source": {
+        "label": "Citizens Count survey, 2024",
+        "url": "https://www.citizenscount.org/candidate/bobbi-boudman/serving/nh-house-2024-2026"
+       }
+      },
+      {
+       "topic": "School funding",
+       "stance": "Against relying mainly on local property taxes.",
+       "quote": "Our current system is not equitable.",
+       "source": {
+        "label": "Citizens Count survey, 2024",
+        "url": "https://www.citizenscount.org/candidate/bobbi-boudman/serving/nh-house-2024-2026"
+       }
+      },
+      {
+       "topic": "Housing and zoning",
+       "stance": "Other.",
+       "quote": "Local control is best, unless a city or town needs assistance with a housing crisis.",
+       "source": {
+        "label": "Citizens Count survey, 2024",
+        "url": "https://www.citizenscount.org/candidate/bobbi-boudman/serving/nh-house-2024-2026"
+       }
+      },
+      {
+       "topic": "Guns",
+       "stance": "Other on stricter gun laws.",
+       "quote": "Gun control for NYC is not what is needed for rural NH.",
+       "source": {
+        "label": "Citizens Count survey, 2024",
+        "url": "https://www.citizenscount.org/candidate/bobbi-boudman/serving/nh-house-2024-2026"
+       }
+      },
+      {
+       "topic": "Immigration enforcement",
+       "stance": "Other.",
+       "quote": "I am for cooperating with federal immigration law enforcement as long as we continue just laws.",
+       "source": {
+        "label": "Citizens Count survey, 2024",
+        "url": "https://www.citizenscount.org/candidate/bobbi-boudman/serving/nh-house-2024-2026"
+       }
+      }
+     ],
+     "accounts": [
+      {
+       "platform": "Website",
+       "url": "https://voteboudman.com"
+      },
+      {
+       "platform": "Facebook",
+       "url": "https://www.facebook.com/BobbiBoudmanPolitical"
+      },
+      {
+       "platform": "Instagram",
+       "url": "https://www.instagram.com/boudmanpolitics"
+      }
+     ],
+     "source": {
+      "label": "Ballotpedia, Bobbi Boudman",
+      "url": "https://ballotpedia.org/Bobbi_Boudman"
+     },
+     "positions_note": "Citizens Count answers are from her 2024 survey as a House candidate; her 2026 Senate profile on Citizens Count could not be opened in this session."
+    }
+   ],
+   "source": {
+    "label": "Ballotpedia, New Hampshire State Senate elections 2026",
+    "url": "https://ballotpedia.org/New_Hampshire_State_Senate_elections,_2026"
+   },
+   "district_source": {
+    "label": "Citizens Count, NH Senate District 3 (towns)",
+    "url": "https://www.citizenscount.org/nh/district/nh-senate-district-03"
+   }
+  },
+  {
+   "id": "house-carroll-1",
+   "office": "State Representative",
+   "district": "Carroll 1",
+   "level": "State",
+   "wards": "all",
+   "seats": 3,
+   "term": "2 years",
+   "what": "Conway's three seats in the 400-member New Hampshire House, which writes state law and the state budget; Carroll 1 is the Town of Conway alone (no floterial district includes Conway) and voters pick up to three.",
+   "candidates": [
+    {
+     "id": "david-paige",
+     "name": "David Paige",
+     "party": "D",
+     "incumbent": true,
+     "hometown": "North Conway",
+     "background": "State representative for Conway since 2022; House Housing Committee member. Publishing executive. Former Conway Public Library trustee (2014 to 2020) and president of United for Libraries (2020 to 2021). BA, Sarah Lawrence College.",
+     "website": "https://www.davidfornh.com/",
+     "positions": [
+      {
+       "topic": "Housing and zoning",
+       "stance": "For the state encouraging local zoning changes; co-sponsored such legislation.",
+       "quote": "I'm proud to have co-sponsored successful legislation this year to encourage such changes",
+       "source": {
+        "label": "Citizens Count survey, 2024",
+        "url": "https://citizenscount.org/candidate/david-paige"
+       }
+      },
+      {
+       "topic": "School funding",
+       "stance": "Against relying mainly on local property taxes.",
+       "quote": "Our current school funding formula is deeply inequitable and is creating a downward spiral in property-poor towns",
+       "source": {
+        "label": "Citizens Count survey, 2024",
+        "url": "https://citizenscount.org/candidate/david-paige"
+       }
+      },
+      {
+       "topic": "Business taxes",
+       "stance": "Against another business tax decrease now.",
+       "quote": "While we all want lower taxes, including our businesses, we cannot afford another business tax decrease at this time",
+       "source": {
+        "label": "Citizens Count survey, 2024",
+        "url": "https://citizenscount.org/candidate/david-paige"
+       }
+      },
+      {
+       "topic": "Child care",
+       "stance": "For more funding for child care providers.",
+       "quote": "I served on the House Special Committee on Childcare during the last biennium",
+       "source": {
+        "label": "Citizens Count survey, 2024",
+        "url": "https://citizenscount.org/candidate/david-paige"
+       }
+      },
+      {
+       "topic": "School district tax caps",
+       "stance": "Against (voted against capping how much local school districts can increase their budget year to year).",
+       "quote": null,
+       "source": {
+        "label": "Citizens Count voting record, 2026",
+        "url": "https://citizenscount.org/candidate/david-paige"
+       }
+      }
+     ],
+     "accounts": [
+      {
+       "platform": "Website",
+       "url": "https://www.davidfornh.com/"
+      },
+      {
+       "platform": "Facebook",
+       "url": "https://www.facebook.com/DavidForNH/"
+      },
+      {
+       "platform": "X",
+       "url": "https://x.com/DavidMPaige"
+      }
+     ],
+     "source": {
+      "label": "Citizens Count candidate profile",
+      "url": "https://citizenscount.org/candidate/david-paige"
+     },
+     "positions_note": "Did not answer the 2026 Citizens Count survey; survey quotes are from 2024."
+    },
+    {
+     "id": "benjamin-colbath",
+     "name": "Benjamin Colbath",
+     "party": "D",
+     "incumbent": false,
+     "hometown": null,
+     "background": "Background not listed on sources read. The Ballot Brief says he lives in Conway and did not answer the Citizens Count survey. Placed first in the Sep 8, 2026 Democratic primary (810 votes).",
+     "website": null,
+     "positions": [],
+     "accounts": [],
+     "source": {
+      "label": "Ballotpedia, NH House Carroll 1",
+      "url": "https://ballotpedia.org/New_Hampshire_House_of_Representatives_Carroll_1"
+     },
+     "background_source": {
+      "label": "The Ballot Brief, Carroll District 1",
+      "url": "https://theballotbrief.com/state/new-hampshire/carroll-county/new-hampshire-house-carroll-district-1"
+     }
+    },
+    {
+     "id": "ellin-leonard",
+     "name": "Ellin M. Leonard",
+     "party": "D",
+     "incumbent": false,
+     "hometown": "Conway",
+     "background": "New Hampshire native who has lived in Conway for more than two decades. Seven years on the Conway Budget Committee and a former Conway library trustee. Worked in sales for more than 20 years.",
+     "website": "https://www.ellinleonard4nh.com/",
+     "positions": [
+      {
+       "topic": "Housing and infrastructure",
+       "stance": "Would back state investment in water and sewer infrastructure to help towns like Conway build housing.",
+       "quote": "I will promote legislation supporting state investment in water and sewer infrastructure",
+       "source": {
+        "label": "Ballotpedia Candidate Connection survey, 2026",
+        "url": "https://ballotpedia.org/Ellin_Leonard"
+       }
+      },
+      {
+       "topic": "Libraries",
+       "stance": "Opposes book bans and outside groups dictating library policy.",
+       "quote": "un-American and will not happen on my watch",
+       "source": {
+        "label": "Ballotpedia Candidate Connection survey, 2026",
+        "url": "https://ballotpedia.org/Ellin_Leonard"
+       }
+      },
+      {
+       "topic": "Representation",
+       "stance": "Says she will advocate for Conway in Concord.",
+       "quote": "I will be Conway's strongest advocate in the New Hampshire State House.",
+       "source": {
+        "label": "Ballotpedia Candidate Connection survey, 2026",
+        "url": "https://ballotpedia.org/Ellin_Leonard"
+       }
+      },
+      {
+       "topic": "Campaign funding",
+       "stance": "Says she refuses outside funding.",
+       "quote": "Since I refuse outside funding, they will be my guiding light.",
+       "source": {
+        "label": "Ballotpedia Candidate Connection survey, 2026",
+        "url": "https://ballotpedia.org/Ellin_Leonard"
+       }
+      }
+     ],
+     "accounts": [
+      {
+       "platform": "Website",
+       "url": "https://www.ellinleonard4nh.com/"
+      }
+     ],
+     "source": {
+      "label": "Ballotpedia, Ellin Leonard",
+      "url": "https://ballotpedia.org/Ellin_Leonard"
+     }
+    },
+    {
+     "id": "karen-umberger",
+     "name": "Karen C. Umberger",
+     "party": "R",
+     "incumbent": false,
+     "hometown": null,
+     "background": "Retired U.S. Air Force colonel (28 years). State representative for Carroll 2, 2008 to 2018 and 2020 to 2022, chairing House Finance in 2022. Board member of the Mount Washington Observatory and the North Conway Rotary Club.",
+     "website": "http://karenumberger.com/",
+     "positions": [
+      {
+       "topic": "Housing and zoning",
+       "stance": "For the state encouraging local zoning changes.",
+       "quote": "Local control is vital, but hindering development based on out of date zoning is not good.",
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/karen-umberger/running/2026-primary-nh-house"
+       }
+      },
+      {
+       "topic": "School district tax caps",
+       "stance": "For.",
+       "quote": "Since each community has the option of instituting a tax cap I am ok with it.",
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/karen-umberger/running/2026-primary-nh-house"
+       }
+      },
+      {
+       "topic": "Marijuana",
+       "stance": "Against legalization.",
+       "quote": "Marijuana should not be legalized for recreational purposes.",
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/karen-umberger/running/2026-primary-nh-house"
+       }
+      },
+      {
+       "topic": "Education Freedom Accounts",
+       "stance": "For. Survey answer.",
+       "quote": null,
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/karen-umberger/running/2026-primary-nh-house"
+       }
+      },
+      {
+       "topic": "Taxes",
+       "stance": "Against an income tax and against reinstating the Interest and Dividends tax. Survey answers.",
+       "quote": null,
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/karen-umberger/running/2026-primary-nh-house"
+       }
+      },
+      {
+       "topic": "Abortion",
+       "stance": "Against first- and second-trimester bans; for guaranteeing access before 24 weeks; against repealing the ban after 24 weeks. Survey answers.",
+       "quote": null,
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/karen-umberger/running/2026-primary-nh-house"
+       }
+      },
+      {
+       "topic": "Voting",
+       "stance": "For requiring proof of citizenship for newly registered voters. Survey answer.",
+       "quote": null,
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/karen-umberger/running/2026-primary-nh-house"
+       }
+      }
+     ],
+     "accounts": [
+      {
+       "platform": "Website",
+       "url": "http://karenumberger.com/"
+      },
+      {
+       "platform": "Facebook",
+       "url": "https://www.facebook.com/karenumbergerfornhrep"
+      }
+     ],
+     "source": {
+      "label": "Citizens Count candidate profile",
+      "url": "https://www.citizenscount.org/candidate/karen-umberger/running/2026-primary-nh-house"
+     },
+     "background_source": {
+      "label": "Ballotpedia, Karen Umberger",
+      "url": "https://ballotpedia.org/Karen_Umberger"
+     }
+    },
+    {
+     "id": "robert-nelson",
+     "name": "Robert W. Nelson",
+     "party": "R",
+     "incumbent": false,
+     "hometown": null,
+     "background": "Background not listed on sources read. Placed second in the Sep 8, 2026 Republican primary (379 votes).",
+     "website": null,
+     "positions": [],
+     "accounts": [],
+     "source": {
+      "label": "Ballotpedia, NH House Carroll 1",
+      "url": "https://ballotpedia.org/New_Hampshire_House_of_Representatives_Carroll_1"
+     }
+    },
+    {
+     "id": "gregory-corrigan",
+     "name": "Gregory T. Corrigan",
+     "party": "R",
+     "incumbent": false,
+     "hometown": null,
+     "background": "Background not listed on sources read. Placed third in the Sep 8, 2026 Republican primary (291 votes).",
+     "website": null,
+     "positions": [],
+     "accounts": [],
+     "source": {
+      "label": "Ballotpedia, NH House Carroll 1",
+      "url": "https://ballotpedia.org/New_Hampshire_House_of_Representatives_Carroll_1"
+     }
+    }
+   ],
+   "source": {
+    "label": "Ballotpedia, NH House Carroll 1 (cross-checked with Citizens Count's Conway page)",
+    "url": "https://ballotpedia.org/New_Hampshire_House_of_Representatives_Carroll_1"
+   },
+   "district_source": {
+    "label": "NH RSA 662:5, Carroll County representative districts",
+    "url": "https://gc.nh.gov/rsa/html/LXIII/662/662-mrg.htm"
+   }
+  },
+  {
+   "id": "county-sheriff",
+   "office": "Carroll County Sheriff",
+   "district": "Carroll County",
+   "level": "County",
+   "wards": "all",
+   "seats": 1,
+   "term": "2 years",
+   "what": "Runs the county sheriff's office, which provides court security, civil process service, prisoner transport and patrol help across the county including Conway.",
+   "candidates": [
+    {
+     "id": "domenic-richardi",
+     "name": "Domenic M. Richardi",
+     "party": "R",
+     "incumbent": true,
+     "hometown": "Conway",
+     "background": "Sheriff since 2013; won every sheriff's general election from 2012 through 2024 per the NH Elections Database. Won the Sep 8, 2026 Republican primary over Justin Worthley (61.8% to 38.2%, per The Ballot Brief).",
+     "website": null,
+     "positions": [],
+     "accounts": [],
+     "source": {
+      "label": "The Ballot Brief, Carroll County Sheriff",
+      "url": "https://theballotbrief.com/state/new-hampshire/carroll-county/sheriff"
+     },
+     "party_note": "The Ballot Brief and GoodParty.org say he is on the Secretary of State's list under both the Democratic and Republican lines; labeled R here as the Republican primary winner.",
+     "background_source": {
+      "label": "NH Elections Database, Domenic M. Richardi",
+      "url": "https://electiondatabase.nhpr.org/candidates/view/Domenic-M-Richardi"
+     }
+    }
+   ],
+   "source": {
+    "label": "The Ballot Brief, Carroll County Sheriff (AI-assisted; cross-checked with GoodParty.org)",
+    "url": "https://theballotbrief.com/state/new-hampshire/carroll-county/sheriff"
+   },
+   "source_note": "County candidate lists come from The Ballot Brief (an AI-assisted guide that says it draws on the Secretary of State's Sep 17, 2026 candidate list) cross-checked with GoodParty.org and the Conway Daily Sun; the Secretary of State's list itself was not opened in this session."
+  },
+  {
+   "id": "county-attorney",
+   "office": "Carroll County Attorney",
+   "district": "Carroll County",
+   "level": "County",
+   "wards": "all",
+   "seats": 1,
+   "term": "2 years",
+   "what": "The county's chief prosecutor, whose office handles felony cases arising in Conway and the rest of the county.",
+   "candidates": [
+    {
+     "id": "keith-blair",
+     "name": "Keith D. Blair",
+     "party": "R",
+     "incumbent": true,
+     "hometown": "Wolfeboro",
+     "background": "Carroll County Attorney since late 2023 (deputy county attorney from 2021). Former Army intelligence collector and instructor. UNH School of Law, 2016.",
+     "website": null,
+     "positions": [],
+     "accounts": [],
+     "source": {
+      "label": "The Ballot Brief, Carroll County Attorney",
+      "url": "https://theballotbrief.com/state/new-hampshire/carroll-county/attorney"
+     },
+     "background_source": {
+      "label": "NH Business Review, Oct 5, 2023",
+      "url": "https://www.nhbr.com/only-one-applicant-for-carroll-county-attorney/"
+     }
+    }
+   ],
+   "source": {
+    "label": "The Ballot Brief, Carroll County Attorney (AI-assisted; cross-checked with GoodParty.org)",
+    "url": "https://goodparty.org/elections/nh/carroll-county/position/county-attorney"
+   },
+   "source_note": "County candidate lists come from The Ballot Brief (an AI-assisted guide that says it draws on the Secretary of State's Sep 17, 2026 candidate list) cross-checked with GoodParty.org and the Conway Daily Sun; the Secretary of State's list itself was not opened in this session."
+  },
+  {
+   "id": "county-treasurer",
+   "office": "Carroll County Treasurer",
+   "district": "Carroll County",
+   "level": "County",
+   "wards": "all",
+   "seats": 1,
+   "term": "2 years",
+   "what": "Manages the county's cash, investments and borrowing.",
+   "candidates": [
+    {
+     "id": "matt-sawyer",
+     "name": "Matt Sawyer, Jr.",
+     "party": "R",
+     "incumbent": true,
+     "hometown": "Effingham",
+     "background": "County treasurer since January 2025. Won the Sep 8, 2026 Republican primary over Andrea Piccard. No Democrat filed.",
+     "website": null,
+     "positions": [],
+     "accounts": [],
+     "source": {
+      "label": "The Ballot Brief, Carroll County Treasurer",
+      "url": "https://theballotbrief.com/state/new-hampshire/carroll-county/treasurer"
+     },
+     "background_source": {
+      "label": "Conway Daily Sun, Sep 9, 2026 primary results",
+      "url": "https://www.conwaydailysun.com/news/local/conway-primary-results-mirror-state-s-in-big-races/article_59c45c4c-44f3-4ee4-a6f4-23510074db59.html"
+     }
+    }
+   ],
+   "source": {
+    "label": "The Ballot Brief, Carroll County Treasurer (AI-assisted; cross-checked with GoodParty.org)",
+    "url": "https://theballotbrief.com/state/new-hampshire/carroll-county/treasurer"
+   },
+   "source_note": "County candidate lists come from The Ballot Brief (an AI-assisted guide that says it draws on the Secretary of State's Sep 17, 2026 candidate list) cross-checked with GoodParty.org and the Conway Daily Sun; the Secretary of State's list itself was not opened in this session."
+  },
+  {
+   "id": "county-register-of-deeds",
+   "office": "Carroll County Register of Deeds",
+   "district": "Carroll County",
+   "level": "County",
+   "wards": "all",
+   "seats": 1,
+   "term": "2 years",
+   "what": "Records deeds, mortgages and other land records for every property in the county, including Conway.",
+   "candidates": [
+    {
+     "id": "karen-rines",
+     "name": "Karen I. Rines",
+     "party": "R",
+     "incumbent": true,
+     "hometown": "Ossipee",
+     "background": "Register of deeds since January 2025, succeeding Lisa Scott.",
+     "website": null,
+     "positions": [],
+     "accounts": [],
+     "source": {
+      "label": "The Ballot Brief, Carroll County Register of Deeds",
+      "url": "https://theballotbrief.com/state/new-hampshire/carroll-county/register-of-deeds"
+     },
+     "party_note": "The Ballot Brief and GoodParty.org say she is on the Secretary of State's list under both the Democratic and Republican lines.",
+     "background_source": {
+      "label": "Conway Daily Sun, Jan 2025 swearing-in",
+      "url": "https://www.conwaydailysun.com/news/local/county-commissioners-other-officials-take-office/article_67331ed6-cdd4-11ef-8f26-97f575f47ae1.html"
+     }
+    }
+   ],
+   "source": {
+    "label": "The Ballot Brief, Carroll County Register of Deeds (AI-assisted; cross-checked with GoodParty.org)",
+    "url": "https://theballotbrief.com/state/new-hampshire/carroll-county/register-of-deeds"
+   },
+   "source_note": "County candidate lists come from The Ballot Brief (an AI-assisted guide that says it draws on the Secretary of State's Sep 17, 2026 candidate list) cross-checked with GoodParty.org and the Conway Daily Sun; the Secretary of State's list itself was not opened in this session."
+  },
+  {
+   "id": "county-register-of-probate",
+   "office": "Carroll County Register of Probate",
+   "district": "Carroll County",
+   "level": "County",
+   "wards": "all",
+   "seats": 1,
+   "term": "2 years",
+   "what": "A county records office tied to the probate court. A statewide constitutional amendment on the same ballot asks whether to eliminate this office (two-thirds vote needed).",
+   "candidates": [
+    {
+     "id": "brett-williams",
+     "name": "Brett I. Williams",
+     "party": "R",
+     "incumbent": false,
+     "hometown": "Tuftonboro",
+     "background": "Chairs the Carroll County Republican Committee, per The Ballot Brief.",
+     "website": null,
+     "positions": [],
+     "accounts": [],
+     "source": {
+      "label": "The Ballot Brief, Carroll County Register of Probate",
+      "url": "https://theballotbrief.com/state/new-hampshire/carroll-county/register-of-probate"
+     }
+    },
+    {
+     "id": "steve-woodcock",
+     "name": "Steve Woodcock",
+     "party": "D",
+     "incumbent": false,
+     "hometown": null,
+     "background": "Background not listed on sources read. GoodParty.org lists the name as Stephen Woodcock.",
+     "website": null,
+     "positions": [],
+     "accounts": [],
+     "source": {
+      "label": "The Ballot Brief, Carroll County Register of Probate",
+      "url": "https://theballotbrief.com/state/new-hampshire/carroll-county/register-of-probate"
+     },
+     "needs_review": true,
+     "review_note": "Possibly Rep. Stephen Woodcock (D-Conway, Carroll 1), who is not running for the House; not confirmed from an opened source, so not stated."
+    }
+   ],
+   "source": {
+    "label": "The Ballot Brief, Carroll County Register of Probate (AI-assisted; cross-checked with GoodParty.org)",
+    "url": "https://theballotbrief.com/state/new-hampshire/carroll-county/register-of-probate"
+   },
+   "source_note": "County candidate lists come from The Ballot Brief (an AI-assisted guide that says it draws on the Secretary of State's Sep 17, 2026 candidate list) cross-checked with GoodParty.org and the Conway Daily Sun; the Secretary of State's list itself was not opened in this session.",
+   "related_ballot_measure": {
+    "label": "Ballotpedia, New Hampshire Eliminate Office of Register of Probate Amendment (2026)",
+    "url": "https://ballotpedia.org/New_Hampshire_Eliminate_Office_of_Register_of_Probate_Amendment_(2026)"
+   }
+  },
+  {
+   "id": "county-commissioner-1",
+   "office": "Carroll County Commissioner",
+   "district": "District 1",
+   "level": "County",
+   "wards": "all",
+   "seats": 1,
+   "term": "2 years",
+   "what": "One of three commissioners who run county operations such as the nursing home and jail and propose the county budget; District 1 is Albany, Bartlett, Chatham, Conway, Hart's Location, Jackson, Sandwich and Hale's Location.",
+   "candidates": [
+    {
+     "id": "gene-chandler",
+     "name": "Gene G. Chandler",
+     "party": "R",
+     "incumbent": true,
+     "hometown": "Bartlett",
+     "background": "Commissioner since May 2025, appointed by the county delegation after Terry McCarthy resigned. Former NH House speaker; chairs the Bartlett Board of Selectmen.",
+     "website": null,
+     "positions": [
+      {
+       "topic": "Approach",
+       "stance": "Says he has no agenda and will listen.",
+       "quote": "I don't have any agenda at all, and I'm open for listening to whatever goes on and making the best decisions I can",
+       "source": {
+        "label": "Conway Daily Sun, May 12, 2025",
+        "url": "https://www.conwaydailysun.com/news/local/chandler-appointed-county-commissioner/article_03af31a6-2cec-47cd-949f-eebdb062fadb.html"
+       }
+      }
+     ],
+     "accounts": [],
+     "source": {
+      "label": "The Ballot Brief, Carroll County Commissioner District 1",
+      "url": "https://theballotbrief.com/state/new-hampshire/carroll-county/commissioner-district-1"
+     },
+     "background_source": {
+      "label": "Conway Daily Sun, May 12, 2025",
+      "url": "https://www.conwaydailysun.com/news/local/chandler-appointed-county-commissioner/article_03af31a6-2cec-47cd-949f-eebdb062fadb.html"
+     }
+    },
+    {
+     "id": "wharton-sinkler",
+     "name": "Wharton Sinkler",
+     "party": "D",
+     "incumbent": false,
+     "hometown": "Sandwich",
+     "background": "Lives in Sandwich since 2021. Career at a large U.S. manufacturer in research, management and financial planning; founded a local bike and pedestrian safety nonprofit in 2013; serves on the Sandwich Energy Committee, per The Ballot Brief citing his campaign site.",
+     "website": "https://www.wharton4carrollcounty.com/",
+     "positions": [
+      {
+       "topic": "Priorities",
+       "stance": "Lists value for taxpayers, more citizen input and doing more with existing county resources.",
+       "quote": "Providing the best value for taxpayers in county services",
+       "source": {
+        "label": "Campaign website, as quoted by The Ballot Brief, 2026",
+        "url": "https://theballotbrief.com/state/new-hampshire/carroll-county/commissioner-district-1"
+       }
+      },
+      {
+       "topic": "County governance",
+       "stance": "For more citizen involvement.",
+       "quote": "Greater citizen involvement and input in county governance",
+       "source": {
+        "label": "Campaign website, as quoted by The Ballot Brief, 2026",
+        "url": "https://theballotbrief.com/state/new-hampshire/carroll-county/commissioner-district-1"
+       }
+      }
+     ],
+     "accounts": [
+      {
+       "platform": "Website",
+       "url": "https://www.wharton4carrollcounty.com/"
+      }
+     ],
+     "source": {
+      "label": "GoodParty.org candidate page",
+      "url": "https://goodparty.org/candidate/wharton-sinkler/carroll-county-commission-district-1"
+     },
+     "positions_note": "His campaign site could not be opened in this session; quotes are as reproduced by The Ballot Brief.",
+     "needs_review": true,
+     "review_note": "Confirm the two quotes against wharton4carrollcounty.com."
+    }
+   ],
+   "source": {
+    "label": "The Ballot Brief, Carroll County Commissioner District 1 (AI-assisted; cross-checked with GoodParty.org)",
+    "url": "https://theballotbrief.com/state/new-hampshire/carroll-county/commissioner-district-1"
+   },
+   "district_source": {
+    "label": "NH RSA 662:4, county commissioner districts",
+    "url": "https://gc.nh.gov/rsa/html/LXIII/662/662-4.htm"
+   },
+   "source_note": "County candidate lists come from The Ballot Brief (an AI-assisted guide that says it draws on the Secretary of State's Sep 17, 2026 candidate list) cross-checked with GoodParty.org and the Conway Daily Sun; the Secretary of State's list itself was not opened in this session. Commissioner Districts 2 and 3 are also on the 2026 ballot but Conway voters do not vote in them."
+  }
+ ],
+ "wardRaces": {},
+ "methodology": "North Conway is a village of the Town of Conway, so the races are the Town of Conway's. Districts: RSA 662 (opened at gc.nh.gov) puts all of Carroll County in U.S. House District 1, Conway in Executive Council District 1, State Senate District 3, County Commissioner District 1 and State House district Carroll 1 (Conway alone, 3 seats); the only Carroll floterial-style districts (Carroll 7 and 8) do not include Conway. Candidate lists: Citizens Count's Conway page (Governor, U.S. Senate, U.S. House 1, Executive Council 1, Senate 3, Carroll 1), Ballotpedia race pages (Executive Council, State Senate, Carroll 1, NH-1), The Ballot Brief and GoodParty.org for county offices, and the Conway Daily Sun for 2025 to 2026 county background. Governor and U.S. Senate candidate entries are carried over from Agorri's statewide candidate research (Oct 29, 2026), as are the U.S. House 1 entries; the candidate names and parties were re-confirmed today against Citizens Count's Conway page, but their position sources were not re-opened in this session. Incomplete: (1) The NH Secretary of State 2026 candidate list and Conway sample ballot were not opened (the sos.nh.gov download was blocked by the proxy and no Conway sample ballot link was found); county rosters rest on The Ballot Brief (AI-assisted) and GoodParty.org. (2) Citizens Count candidate profiles for McConkey (2026), Boudman (2026), Colbath, Leonard, Nelson and Corrigan could not be opened; Boudman's quotes come from her 2024 Citizens Count survey and Ballotpedia, McConkey's from his 2024 campaign announcement. (3) Party labels: Stephen Villee is listed as Libertarian in Agorri's other New Hampshire towns but Independent/Other on Citizens Count's Conway page; Sheriff Richardi and Register of Deeds Rines are reported on both party lines. (4) Whether Register of Probate candidate Steve Woodcock is Rep. Stephen Woodcock is not confirmed. (5) Campaign websites for Paige, Leonard, Umberger, McConkey, Boudman and Sinkler could not be opened directly. (6) The 'what' sentence for each office is a general description written for this file, not a quoted source. A statewide constitutional amendment to eliminate the office of Register of Probate is also on the ballot (see county-register-of-probate.related_ballot_measure).",
+ "sources": [
+  {
+   "label": "Citizens Count, Conway ballot page",
+   "url": "https://citizenscount.org/nh/carroll/conway"
+  },
+  {
+   "label": "Ballotpedia",
+   "url": "https://ballotpedia.org/New_Hampshire_House_of_Representatives_elections,_2026"
+  },
+  {
+   "label": "NH RSA 662 (districts)",
+   "url": "https://gc.nh.gov/rsa/html/LXIII/662/662-mrg.htm"
+  },
+  {
+   "label": "The Ballot Brief, Carroll County",
+   "url": "https://theballotbrief.com/state/new-hampshire/carroll-county"
+  },
+  {
+   "label": "NH Secretary of State",
+   "url": "https://www.sos.nh.gov/elections"
+  }
+ ]
+}

@@ -1,0 +1,616 @@
+{
+ "as_of": "2026-10-30",
+ "note": "Officeholders and districts as listed by NH RSA 662 (districts), Citizens Count, the NH General Court, the NH Executive Council, Ballotpedia, the Conway Daily Sun, Carroll County and The Ballot Brief, checked Oct 30, 2026. North Conway is a village in the Town of Conway, so every district below is the Town of Conway's. Positions are the officials' own survey answers or quoted statements, with the year. Nothing here is characterized or scored.",
+ "ballot_note": "Governor, U.S. Senate, U.S. House (NH-1), Executive Council District 1, State Senate District 3, Conway's three State House seats (Carroll 1), County Commissioner District 1 and the county sheriff, attorney, treasurer, register of deeds and register of probate are all on the Tuesday, Nov 3, 2026 ballot. Conway votes at the Town Garage, 1611 East Main St., Center Conway, 8am to 7pm. Results will replace the names below.",
+ "ward_reps": {
+  "All": [
+   "buco",
+   "paige",
+   "woodcock"
+  ]
+ },
+ "levels": [
+  {
+   "id": "federal",
+   "title": "Federal",
+   "blurb": "Two senators and one representative. All of Carroll County, including Conway, is in New Hampshire's 1st Congressional District.",
+   "people": [
+    "shaheen",
+    "hassan",
+    "pappas"
+   ]
+  },
+  {
+   "id": "state",
+   "title": "State",
+   "blurb": "The Governor, your Executive Councilor (Conway is in District 1) and your State Senator (Conway is in District 3).",
+   "people": [
+    "ayotte",
+    "kenney",
+    "mcconkey"
+   ]
+  },
+  {
+   "id": "house",
+   "title": "State House",
+   "blurb": "Conway is its own three-seat district, Carroll 1, and no floterial district includes Conway (RSA 662:5). All three seats are on the Nov 3 ballot; two of the three current members are not running for them.",
+   "people": [
+    "buco",
+    "paige",
+    "woodcock"
+   ]
+  },
+  {
+   "id": "county",
+   "title": "Carroll County",
+   "blurb": "The three county commissioners are the county's executive board, in charge of the county budget, nursing home, jail and staff; the sheriff, county attorney, treasurer and registries also sit under the county. Conway is in Commissioner District 1 with Albany, Bartlett, Chatham, Hart's Location, Jackson, Sandwich and Hale's Location. Every county office is on the Nov 3 ballot.",
+   "people": [
+    "chandler",
+    "mcgee",
+    "parker",
+    "richardi",
+    "blair",
+    "sawyer",
+    "rines",
+    "lavender"
+   ]
+  }
+ ],
+ "people": {
+  "shaheen": {
+   "name": "Jeanne Shaheen",
+   "party": "D",
+   "office": "U.S. Senator",
+   "level": "federal",
+   "since": "2009",
+   "status": "Not seeking reelection. Her term ends in January 2027; the seat is on the Nov 3 ballot.",
+   "statusSrc": {
+    "label": "Her announcement, Mar 12, 2025",
+    "url": "https://www.shaheen.senate.gov/news/press/after-30-years-making-a-difference-jeanne-shaheen-announces-she-will-not-seek-reelection-in-2026"
+   },
+   "positions": [
+    [
+     "Federal minimum wage",
+     "For raising it",
+     "\"would increase wages for nearly thirty eight million Americans\"",
+     "Campaign website, 2015"
+    ],
+    [
+     "Abortion",
+     "Against a federal ban after 24 weeks",
+     "\"A woman needs the freedom to consider every medical option.\"",
+     "Facebook, 2018"
+    ],
+    [
+     "Dreamers",
+     "For a bipartisan plan",
+     "\"Dreamers are children, students and workers who were brought to this country through no fault of their own.\"",
+     "Facebook, 2018"
+    ],
+    [
+     "Tariffs",
+     "Against",
+     "\"Escalating this trade war will be disastrous for NH.\"",
+     "Twitter, 2018"
+    ],
+    [
+     "Border wall",
+     "Against",
+     "\"There are cost-effective ways to improve border security.\"",
+     "Twitter, 2017"
+    ],
+    [
+     "Health coverage",
+     "For keeping essential health benefits",
+     "\"we must preserve & protect all essential health benefits.\"",
+     "Twitter, 2017"
+    ]
+   ],
+   "caveat": "Statements on record date from 2015 to 2019 and may not reflect current views.",
+   "src": {
+    "label": "Citizens Count profile",
+    "url": "https://www.citizenscount.org/candidate/jeanne-shaheen/serving/us-senate-2020-2026"
+   }
+  },
+  "hassan": {
+   "name": "Maggie Hassan",
+   "party": "D",
+   "office": "U.S. Senator",
+   "level": "federal",
+   "since": "2017",
+   "status": "Term runs through 2028.",
+   "positions": [
+    [
+     "Term limits",
+     "Against",
+     "\"The best term limit is the ballot box.\"",
+     "2016"
+    ],
+    [
+     "Child tax credit",
+     "For the expansion",
+     "\"a critical investment in our families\"",
+     "Campaign website, 2022"
+    ],
+    [
+     "Abortion",
+     "For access before 24 weeks",
+     "\"hold the line against any efforts to enact a nationwide ban\"",
+     "Campaign website, 2022"
+    ],
+    [
+     "Military aid to Ukraine",
+     "For",
+     "\"we must provide additional aid and equipment to Ukraine\"",
+     "Campaign website, 2022"
+    ],
+    [
+     "Student loan forgiveness",
+     "Partial",
+     "\"While I do not support canceling all student debt\"",
+     "Campaign website, 2022"
+    ],
+    [
+     "Qualified immunity",
+     "Undecided",
+     "\"there might be some unintended consequences to abolishing qualified immunity entirely\"",
+     "2022"
+    ],
+    [
+     "Keystone XL pipeline",
+     "Against",
+     "\"Rejecting the Keystone XL tar-sands pipeline was the right decision for our environment\"",
+     "WMUR, 2022"
+    ]
+   ],
+   "src": {
+    "label": "Citizens Count profile",
+    "url": "https://www.citizenscount.org/candidate/margaret-maggie-hassan/serving/us-senate-2022-2028"
+   }
+  },
+  "pappas": {
+   "name": "Chris Pappas",
+   "party": "D",
+   "office": "U.S. Representative, NH District 1",
+   "level": "federal",
+   "since": "2019",
+   "status": "NH-1 includes all of Carroll County, so all of Conway. Not running for reelection to the House: he won the Sep 8 Democratic primary for U.S. Senate and is on the Nov 3 ballot for that seat. The NH-1 race is Stefany Shaheen (D) and Anthony DiLorenzo (R).",
+   "statusSrc": {
+    "label": "Ballotpedia, NH 1st Congressional District 2026",
+    "url": "https://ballotpedia.org/New_Hampshire's_1st_Congressional_District_election,_2026"
+   },
+   "positions": [
+    [
+     "Abortion",
+     "For access before 24 weeks",
+     "\"Every woman deserves the right to make her own decisions about her body, her family, and her future.\"",
+     "2024 survey"
+    ],
+    [
+     "Taxes",
+     "Against increases under $400K income",
+     "\"I won't support any legislation increasing taxes on those making less than $400,000 a year.\"",
+     "2024 survey"
+    ],
+    [
+     "Social Security",
+     "For raising the income cap",
+     "\"someone making a million dollars pays on a fraction of their income\"",
+     "2024 survey"
+    ],
+    [
+     "Gun policy",
+     "For universal background checks",
+     "\"Support universal background checks for all gun purchases\"",
+     "Campaign materials, 2018"
+    ],
+    [
+     "Transgender athletes",
+     "Against restrictions",
+     "\"All students deserve the opportunity to participate fully at school, including in school sports.\"",
+     "2024 survey"
+    ],
+    [
+     "Taiwan",
+     "For increased military aid",
+     "\"the United States must reaffirm our support for and long-term cooperation with Taiwan\"",
+     "2024 survey"
+    ],
+    [
+     "Israel",
+     "Against limiting aid",
+     "\"America's support for the people of Israel must remain firm.\"",
+     "2024 survey"
+    ]
+   ],
+   "src": {
+    "label": "Citizens Count profile",
+    "url": "https://www.citizenscount.org/candidate/christopher-pappas/serving/us-house-2024-2026"
+   }
+  },
+  "ayotte": {
+   "name": "Kelly Ayotte",
+   "party": "R",
+   "office": "Governor of New Hampshire",
+   "level": "state",
+   "since": "2025",
+   "status": "Two-year term. On the Nov 3 ballot with Cinde Warmington (D) and Stephen Villee.",
+   "positions": [
+    [
+     "Education Freedom Accounts",
+     "For",
+     "\"will fight for Universal education freedom\"",
+     "2024 survey"
+    ],
+    [
+     "Abortion",
+     "Keep current NH law",
+     "\"supports and will not change New Hampshire's existing abortion law\"",
+     "2024 survey"
+    ],
+    [
+     "Income and sales taxes",
+     "Against",
+     "\"will never allow an income or sales tax to be imposed in New Hampshire\"",
+     "2024 survey"
+    ],
+    [
+     "Energy",
+     "All of the above",
+     "\"an all-of-the above energy strategy, including renewable and other clean energy sources\"",
+     "2024 survey"
+    ],
+    [
+     "Housing",
+     "Streamline permitting",
+     "\"streamline the state permitting process and cut unnecessary red tape\"",
+     "2024 survey"
+    ],
+    [
+     "Marijuana legalization",
+     "Against",
+     "\"would not sign a bill legalizing marijuana\"",
+     "2024 survey"
+    ],
+    [
+     "Minimum wage",
+     "Against raising",
+     "\"the market should decide wages\"",
+     "2024 survey"
+    ],
+    [
+     "Sanctuary cities",
+     "For a ban",
+     "\"will ban sanctuary cities\"",
+     "2024 survey"
+    ]
+   ],
+   "src": {
+    "label": "Citizens Count profile",
+    "url": "https://www.citizenscount.org/candidate/kelly-ayotte/serving/nh-governor-2024-2026"
+   },
+   "statusSrc": {
+    "label": "Citizens Count, Conway ballot page",
+    "url": "https://citizenscount.org/nh/carroll/conway"
+   }
+  },
+  "kenney": {
+   "name": "Joseph D. Kenney",
+   "party": "R",
+   "office": "Executive Council, District 1",
+   "level": "state",
+   "since": "2021",
+   "status": "The five-member Executive Council approves state contracts, confirms judges and commissioners, and reviews pardon requests. Conway is in District 1. Also served on the Council 2014 to 2019 and in the NH House and Senate before that. Two-year term, on the Nov 3 ballot with Luz Bay (D).",
+   "statusSrc": {
+    "label": "Ballotpedia, NH Executive Council election 2026",
+    "url": "https://ballotpedia.org/New_Hampshire_Executive_Council_election,_2026"
+   },
+   "positions": [
+    [
+     "Interest and Dividends tax",
+     "Against",
+     "\"I will oppose and vote against any and all efforts to increase taxes.\"",
+     "Granite State Taxpayers survey, 2026"
+    ],
+    [
+     "No-bid state contracts",
+     "Against",
+     "\"All contracts should be put out to bid. It's the American way!\"",
+     "Citizens Count survey, 2022"
+    ],
+    [
+     "Housing and zoning",
+     "Against state push on local zoning",
+     "\"No, New Hampshire prides itself on local control. Town Fathers and Mothers need to make their own decisions\"",
+     "Citizens Count survey, 2022"
+    ],
+    [
+     "Judicial nominees",
+     "Political beliefs not a factor",
+     "\"I would be more interested in their constitutional beliefs, legal experiences, professional recommendations, and community service.\"",
+     "Citizens Count survey, 2022"
+    ],
+    [
+     "Stricter gun laws",
+     "Against",
+     "\"New Hampshire needs to enforce what is currently on the books for gun laws.\"",
+     "Citizens Count survey, 2022"
+    ]
+   ],
+   "caveat": "Citizens Count shows \"No Response\" for his 2026 Citizens Count survey questions; the 2026 answer is from the Granite State Taxpayers survey.",
+   "src": {
+    "label": "Citizens Count profile",
+    "url": "https://www.citizenscount.org/candidate/joseph-kenney"
+   }
+  },
+  "mcconkey": {
+   "name": "Mark E. McConkey",
+   "party": "R",
+   "office": "State Senator, District 3",
+   "level": "state",
+   "since": "2024",
+   "status": "District 3 covers Conway and most of Carroll County plus several Grafton and Strafford towns. Of Freedom. Served in the NH House 2002 to 2018 and 2020 to 2024. Two-year term, on the Nov 3 ballot with Bobbi Boudman (D).",
+   "statusSrc": {
+    "label": "Citizens Count, NH Senate District 3",
+    "url": "https://www.citizenscount.org/nh/district/nh-senate-district-03"
+   },
+   "positions": [
+    [
+     "Priorities",
+     "Low taxes, local communities",
+     "\"my priorities have always been to protect New Hampshire's values of strong communities, low taxes and personal freedom.\"",
+     "Campaign announcement, May 2024"
+    ],
+    [
+     "Roads and bridges",
+     "Invest in state roads",
+     "\"Our state roads and bridges are crucial for local businesses, tourism and keeping our families safe.\"",
+     "Campaign announcement, May 2024"
+    ],
+    [
+     "Local projects",
+     "Lakes and Route 16",
+     "\"Whether it is protecting the shorelines and dams on our lakes, or improving safety on Route 16.\"",
+     "Campaign announcement, May 2024"
+    ]
+   ],
+   "caveat": "His Citizens Count profile could not be opened in this session; these quotes are from his May 2024 Senate campaign announcement as published by InDepthNH. Service years and contact details are from his NH Senate page (gc.nh.gov/Senate/members/webpages/district03.aspx).",
+   "src": {
+    "label": "InDepthNH, May 2, 2024",
+    "url": "https://indepthnh.org/2024/05/02/republican-rep-mark-mcconkey-announces-campaign-for-state-sen-jeb-bradleys-seat/"
+   },
+   "contact": "Mark.McConkey@gc.nh.gov, 603-271-8632, State House Room 107, Concord (Senate page)"
+  },
+  "buco": {
+   "name": "Thomas \"Tom\" Buco",
+   "party": "D",
+   "office": "State Representative, Carroll 1 (Conway)",
+   "level": "house",
+   "since": "2022",
+   "status": "Carroll 1 is the town of Conway alone and elects three representatives; no floterial district includes Conway. In this district since Dec 2022; his House page says he has served ten terms. Not on the Nov 3 ballot.",
+   "statusSrc": {
+    "label": "Ballotpedia, NH House Carroll 1",
+    "url": "https://ballotpedia.org/New_Hampshire_House_of_Representatives_Carroll_1"
+   },
+   "positions": [],
+   "src": {
+    "label": "NH House member page",
+    "url": "https://gc.nh.gov/house/members/member.aspx?pid=523"
+   },
+   "contact": "Tom.Buco@gc.nh.gov, 603-986-5629 (House page)"
+  },
+  "paige": {
+   "name": "David Paige",
+   "party": "D",
+   "office": "State Representative, Carroll 1 (Conway)",
+   "level": "house",
+   "since": "2022",
+   "status": "Carroll 1 is the town of Conway alone and elects three representatives. Member of the House Housing Committee. Two-year term, on the Nov 3 ballot for reelection.",
+   "statusSrc": {
+    "label": "Ballotpedia, NH House Carroll 1",
+    "url": "https://ballotpedia.org/New_Hampshire_House_of_Representatives_Carroll_1"
+   },
+   "positions": [
+    [
+     "Housing and zoning",
+     "For state encouragement of zoning changes",
+     "\"I'm proud to have co-sponsored successful legislation this year to encourage such changes\"",
+     "Citizens Count survey, 2024"
+    ],
+    [
+     "School funding",
+     "Against relying mainly on property taxes",
+     "\"Our current school funding formula is deeply inequitable and is creating a downward spiral in property-poor towns\"",
+     "Citizens Count survey, 2024"
+    ],
+    [
+     "Business taxes",
+     "Against further cuts",
+     "\"While we all want lower taxes, including our businesses, we cannot afford another business tax decrease at this time\"",
+     "Citizens Count survey, 2024"
+    ],
+    [
+     "Education Freedom Accounts",
+     "Against",
+     "\"Against\"",
+     "Citizens Count survey, 2024"
+    ]
+   ],
+   "caveat": "Citizens Count shows \"No Response\" for his 2026 Citizens Count survey questions.",
+   "src": {
+    "label": "Citizens Count profile",
+    "url": "https://citizenscount.org/candidate/david-paige"
+   },
+   "contact": "David.Paige@gc.nh.gov (House page)"
+  },
+  "woodcock": {
+   "name": "Stephen Woodcock",
+   "party": "D",
+   "office": "State Representative, Carroll 1 (Conway)",
+   "level": "house",
+   "since": "2018",
+   "status": "Carroll 1 is the town of Conway alone and elects three representatives. Not on the Nov 3 ballot for this seat. A Democrat listed as Steve (The Ballot Brief) or Stephen (GoodParty.org) Woodcock is the Democratic candidate for Carroll County Register of Probate; not confirmed that this is the same person.",
+   "statusSrc": {
+    "label": "The Ballot Brief, Carroll County Register of Probate",
+    "url": "https://theballotbrief.com/state/new-hampshire/carroll-county/register-of-probate"
+   },
+   "needs_review": true,
+   "review_note": "Confirm whether Rep. Stephen Woodcock is the Register of Probate candidate before saying so on the page.",
+   "positions": [],
+   "src": {
+    "label": "NH House member page",
+    "url": "https://gc.nh.gov/house/members/member.aspx?pid=9046"
+   },
+   "contact": "stevewoodcock.rep@gmail.com, 603-356-2904 (House page)"
+  },
+  "chandler": {
+   "name": "Gene G. Chandler",
+   "party": "R",
+   "office": "Carroll County Commissioner, District 1",
+   "level": "county",
+   "since": "2025",
+   "status": "Of Bartlett. District 1 is Albany, Bartlett, Chatham, Conway, Hart's Location, Jackson, Sandwich and Hale's Location. A former NH House speaker, appointed by the county delegation in May 2025 after Terry McCarthy (R-Conway) resigned, to serve until the Nov 2026 election. On the Nov 3 ballot with Wharton Sinkler (D).",
+   "statusSrc": {
+    "label": "The Ballot Brief, Carroll County Commissioner District 1",
+    "url": "https://theballotbrief.com/state/new-hampshire/carroll-county/commissioner-district-1"
+   },
+   "positions": [
+    [
+     "Approach",
+     "Listen first",
+     "\"I don't have any agenda at all, and I'm open for listening to whatever goes on and making the best decisions I can\"",
+     "Conway Daily Sun, May 12, 2025"
+    ]
+   ],
+   "src": {
+    "label": "Conway Daily Sun, May 12, 2025",
+    "url": "https://www.conwaydailysun.com/news/local/chandler-appointed-county-commissioner/article_03af31a6-2cec-47cd-949f-eebdb062fadb.html"
+   }
+  },
+  "mcgee": {
+   "name": "Charles \"Chuck\" McGee",
+   "party": "R",
+   "office": "Carroll County Commissioner, District 2",
+   "level": "county",
+   "since": "2023",
+   "status": "Of Moultonborough; board chair as of May 2025. Appointed in 2023 to fill a vacancy and won the Nov 2024 election. District 2 (Madison, Moultonborough, Ossipee, Tamworth, Tuftonboro) does not include Conway. On the Nov 3 ballot with Tom Randell (D); Conway voters do not vote in this race.",
+   "statusSrc": {
+    "label": "The Ballot Brief, Carroll County 2026 (AI-assisted)",
+    "url": "https://theballotbrief.com/state/new-hampshire/carroll-county"
+   },
+   "positions": [],
+   "src": {
+    "label": "Conway Daily Sun, Jan 2025 swearing-in",
+    "url": "https://www.conwaydailysun.com/news/local/county-commissioners-other-officials-take-office/article_67331ed6-cdd4-11ef-8f26-97f575f47ae1.html"
+   }
+  },
+  "parker": {
+   "name": "Harold B. Parker",
+   "party": "R",
+   "office": "Carroll County Commissioner, District 3",
+   "level": "county",
+   "since": "",
+   "status": "Of Wolfeboro. District 3 (Brookfield, Eaton, Effingham, Freedom, Wakefield, Wolfeboro) does not include Conway. On the Nov 3 ballot with Michael Parton (D); Conway voters do not vote in this race.",
+   "statusSrc": {
+    "label": "The Ballot Brief, Carroll County 2026 (AI-assisted)",
+    "url": "https://theballotbrief.com/state/new-hampshire/carroll-county"
+   },
+   "positions": [],
+   "caveat": "First year in office not confirmed from an opened source.",
+   "src": {
+    "label": "Conway Daily Sun, Jan 2025 swearing-in",
+    "url": "https://www.conwaydailysun.com/news/local/county-commissioners-other-officials-take-office/article_67331ed6-cdd4-11ef-8f26-97f575f47ae1.html"
+   }
+  },
+  "richardi": {
+   "name": "Domenic M. Richardi",
+   "party": "R",
+   "office": "Carroll County Sheriff",
+   "level": "county",
+   "since": "2013",
+   "status": "Of Conway. Won every general election for sheriff from 2012 through 2024, usually on both party lines. Won the Sep 8, 2026 Republican primary over Justin Worthley and is the only candidate on Nov 3.",
+   "statusSrc": {
+    "label": "The Ballot Brief, Carroll County Sheriff",
+    "url": "https://theballotbrief.com/state/new-hampshire/carroll-county/sheriff"
+   },
+   "positions": [],
+   "src": {
+    "label": "NH Elections Database, Domenic M. Richardi",
+    "url": "https://electiondatabase.nhpr.org/candidates/view/Domenic-M-Richardi"
+   },
+   "contact": "603-539-2284 ext. 3301, 95 Water Village Road, Ossipee (county directory)"
+  },
+  "blair": {
+   "name": "Keith D. Blair",
+   "party": "R",
+   "office": "Carroll County Attorney",
+   "level": "county",
+   "since": "2023",
+   "status": "Of Wolfeboro. The county's chief prosecutor. Deputy county attorney from 2021; the only applicant to succeed Michaela Andruzzi in Oct 2023, then elected in 2024. The only filer for county attorney on Nov 3.",
+   "statusSrc": {
+    "label": "The Ballot Brief, Carroll County Attorney",
+    "url": "https://theballotbrief.com/state/new-hampshire/carroll-county/attorney"
+   },
+   "positions": [],
+   "caveat": "NHBR (Oct 5, 2023) reported he would likely be appointed; the appointment date itself was not confirmed from an opened source.",
+   "src": {
+    "label": "NH Business Review, Oct 5, 2023",
+    "url": "https://www.nhbr.com/only-one-applicant-for-carroll-county-attorney/"
+   }
+  },
+  "sawyer": {
+   "name": "Matt Sawyer, Jr.",
+   "party": "R",
+   "office": "Carroll County Treasurer",
+   "level": "county",
+   "since": "2025",
+   "status": "Took office Jan 2025, replacing the late Joe Costello. Won the Sep 8 Republican primary over Andrea Piccard; the only candidate on Nov 3.",
+   "statusSrc": {
+    "label": "The Ballot Brief, Carroll County Treasurer",
+    "url": "https://theballotbrief.com/state/new-hampshire/carroll-county/treasurer"
+   },
+   "positions": [],
+   "caveat": "Hometown is given as Ossipee (Conway Daily Sun, Jan 2025) and Effingham (Conway Daily Sun, Sep 2026; The Ballot Brief).",
+   "src": {
+    "label": "Conway Daily Sun, Jan 2025 swearing-in",
+    "url": "https://www.conwaydailysun.com/news/local/county-commissioners-other-officials-take-office/article_67331ed6-cdd4-11ef-8f26-97f575f47ae1.html"
+   }
+  },
+  "rines": {
+   "name": "Karen I. Rines",
+   "party": "R",
+   "office": "Carroll County Register of Deeds",
+   "level": "county",
+   "since": "2025",
+   "status": "Of Ossipee. Took office Jan 2025, replacing Lisa Scott. The only filer for register of deeds on Nov 3.",
+   "statusSrc": {
+    "label": "The Ballot Brief, Carroll County Register of Deeds",
+    "url": "https://theballotbrief.com/state/new-hampshire/carroll-county/register-of-deeds"
+   },
+   "positions": [],
+   "src": {
+    "label": "Conway Daily Sun, Jan 2025 swearing-in",
+    "url": "https://www.conwaydailysun.com/news/local/county-commissioners-other-officials-take-office/article_67331ed6-cdd4-11ef-8f26-97f575f47ae1.html"
+   }
+  },
+  "lavender": {
+   "name": "Meg Lavender",
+   "party": "R",
+   "office": "Carroll County Register of Probate",
+   "level": "county",
+   "since": "",
+   "status": "Not among the Nov 3 candidates: the Register of Probate race is Brett I. Williams (R) and Steve Woodcock (D). A statewide constitutional amendment on the same ballot asks whether to eliminate this office.",
+   "statusSrc": {
+    "label": "GoodParty.org, Carroll County Register of Probate",
+    "url": "https://goodparty.org/elections/nh/carroll-county/position/county-probate-administrator-register-of-probate-public-administrator"
+   },
+   "positions": [],
+   "needs_review": true,
+   "review_note": "Only GoodParty.org lists her as the current officeholder (term 2025 to 2026); not confirmed from a county or state source.",
+   "src": {
+    "label": "GoodParty.org, Carroll County Register of Probate",
+    "url": "https://goodparty.org/elections/nh/carroll-county/position/county-probate-administrator-register-of-probate-public-administrator"
+   }
+  }
+ }
+}

@@ -1,0 +1,640 @@
+{
+ "as_of": "2026-10-30",
+ "note": "From the Conway Parks and Recreation Department's own pages (conwaynh.myrec.com), the Town of Conway website and town code, NH State Parks pages and the Conway Daily Sun, with a source on every item. North Conway is a village inside the Town of Conway, so town parks serve all of Conway. State parks and the private North Conway Community Center are labeled as not town-run.",
+ "department": {
+  "name": "Town of Conway Parks and Recreation Department",
+  "url": "https://conwaynh.myrec.com/info/default.aspx",
+  "phone": "603-901-1139",
+  "email": null,
+  "address": "176 Main St, Conway, NH 03818",
+  "hours": "Monday to Friday, 8:30 a.m. to 5 p.m.",
+  "what": "Runs town parks, beaches, ballfields and the Conway Rec Facility (Marshall Gymnasium and the Chip Kennett Teen Center), youth and adult programs, the summer recreation parking permit program and the Schouler Park winter skating rink. The department lists no general email; it asks people to call the main office.",
+  "source": {
+   "label": "Conway Parks and Recreation (home page)",
+   "url": "https://conwaynh.myrec.com/info/default.aspx"
+  }
+ },
+ "registration": {
+  "url": "https://conwaynh.myrec.com",
+  "label": "Register for programs (MyRec)",
+  "note": "Create a household account to register for programs. Office visitors should park behind Conway Elementary, not in the SAU 9 or Conway Elementary visitor spaces."
+ },
+ "facilities": [
+  {
+   "id": "whitaker-woods",
+   "name": "Whitaker Woods and Whitaker Homesite",
+   "kind": "Park",
+   "address": "Route 16 (White Mountain Highway), North Conway, NH",
+   "features": [
+    "Ball field (baseball diamond) and open field",
+    "Trails and open space",
+    "Warming house with bathrooms",
+    "Cross-country ski trails; passes, info and trail updates through Mount Washington Valley Ski Touring"
+   ],
+   "hours": null,
+   "seasonal": "The Homesite building is listed as closed on the department's facility list. Ski trail updates come from Mount Washington Valley Ski Touring.",
+   "url": "https://conwaynh.myrec.com/info/facilities/details.aspx?FacilityID=14698",
+   "note": "Town conservation land. Uses (ball field, trails, open space, warming house) from the town's Conservation, Parks and Recreation Areas page. A Whitaker Woods trail map (2017) is posted on the town Documents page.",
+   "source": {
+    "label": "Whitaker Homesite (Conway Rec facility page)",
+    "url": "https://conwaynh.myrec.com/info/facilities/details.aspx?FacilityID=14698"
+   }
+  },
+  {
+   "id": "schouler-park",
+   "name": "Schouler Park",
+   "kind": "Park",
+   "address": "White Mountain Hwy (Main Street), North Conway Village, NH 03860",
+   "features": [
+    "Baseball diamond; reserve it through the rec department",
+    "Outdoor skating rink open to the public in winter",
+    "Home of the town's 4th of July celebration and other special events"
+   ],
+   "hours": null,
+   "seasonal": "Rink hours depend on weather and ice conditions.",
+   "url": "https://conwaynh.myrec.com/info/facilities/details.aspx?FacilityID=14699",
+   "note": "Town code: the park may be used by the public and community organizations, town recreation programs have priority, athletic events need a memorandum of agreement, special events need a special events permit approved by the Board of Selectmen, no adult ball (only boys 12 and under baseball and girls 16 and under softball) and no smoking.",
+   "source": {
+    "label": "Schouler Park (Conway Rec facility page)",
+    "url": "https://conwaynh.myrec.com/info/facilities/details.aspx?FacilityID=14699"
+   }
+  },
+  {
+   "id": "conway-rec-facility",
+   "name": "Conway Rec Facility (Marshall Gymnasium and Chip Kennett Teen Center)",
+   "kind": "Recreation center",
+   "address": "176 Main St, Conway, NH 03818",
+   "features": [
+    "Marshall Gymnasium, with a stage you can rent through the rec department",
+    "The Chip Kennett Teen Center (grades 6 to 8)",
+    "Conway Rec Sports Field",
+    "Arts and Crafts Center",
+    "Settlers Green Conference Room"
+   ],
+   "hours": "Office Monday to Friday, 8:30 a.m. to 5 p.m.",
+   "seasonal": null,
+   "url": "https://conwaynh.myrec.com/info/facilities/details.aspx?FacilityID=14710",
+   "note": "Park behind Conway Elementary; the SAU 9 and Conway Elementary visitor spaces are not for Parks and Recreation use.",
+   "source": {
+    "label": "Conway Rec Facility (Conway Rec facility page)",
+    "url": "https://conwaynh.myrec.com/info/facilities/details.aspx?FacilityID=14710"
+   }
+  },
+  {
+   "id": "davis-park",
+   "name": "Davis Park",
+   "kind": "Beach",
+   "address": "67 East Side Rd, Conway, NH 03813",
+   "features": [
+    "Beachfront swimming on the Saco River",
+    "3 tennis courts",
+    "2 outdoor basketball courts"
+   ],
+   "hours": null,
+   "seasonal": "Summer parking needs a town recreation parking sticker; the fine schedule lists $30 for Davis Park.",
+   "url": "https://conwaynh.myrec.com/info/facilities/details.aspx?FacilityID=14701",
+   "note": "Parking rules from the department's 2024 parking program guidelines.",
+   "source": {
+    "label": "Davis Park (Conway Rec facility page)",
+    "url": "https://conwaynh.myrec.com/info/facilities/details.aspx?FacilityID=14701"
+   }
+  },
+  {
+   "id": "conway-lake",
+   "name": "Conway Lake Beach and Boat Launch",
+   "kind": "Beach",
+   "address": "414 Mill St, Center Conway, NH 03813",
+   "features": [
+    "Swimming beach",
+    "Public boat launch",
+    "Parking across the street from the beach"
+   ],
+   "hours": null,
+   "seasonal": "In the summer parking season the Conway Lake lot is for residents only; the department says daily passes are not sold to non-residents there.",
+   "url": "https://conwaynh.myrec.com/info/facilities/details.aspx?FacilityID=14700",
+   "note": "Resident-only rule from the department home page and the 2024 parking program guidelines.",
+   "source": {
+    "label": "Conway Lake / Boat Launch (Conway Rec facility page)",
+    "url": "https://conwaynh.myrec.com/info/facilities/details.aspx?FacilityID=14700"
+   }
+  },
+  {
+   "id": "first-bridge",
+   "name": "First Bridge",
+   "kind": "Park",
+   "address": "River Rd, North Conway, NH",
+   "features": [
+    "Grassy park about half a mile from downtown North Conway",
+    "Picnics, swimming and canoeing on the Saco River"
+   ],
+   "hours": null,
+   "seasonal": "Summer parking needs a town recreation parking sticker; the fine schedule lists $30 for the First Bridge lot and $100 for parking anywhere on River Road.",
+   "url": "https://conwaynh.myrec.com/info/facilities/details.aspx?FacilityID=14702",
+   "note": "Parking rules from the department's 2024 parking program guidelines.",
+   "source": {
+    "label": "First Bridge (Conway Rec facility page)",
+    "url": "https://conwaynh.myrec.com/info/facilities/details.aspx?FacilityID=14702"
+   }
+  },
+  {
+   "id": "hussey-field",
+   "name": "Hussey Field",
+   "kind": "Field",
+   "address": "244 River Rd, North Conway, NH",
+   "features": [
+    "Event field: Native American Pow Wow and the Carroll County Kennel Club's annual dog show",
+    "Roundabout for canoe, kayak and tube access to the Saco River"
+   ],
+   "hours": null,
+   "seasonal": null,
+   "url": "https://conwaynh.myrec.com/info/facilities/details.aspx?FacilityID=14703",
+   "note": null,
+   "source": {
+    "label": "Hussey Field (Conway Rec facility page)",
+    "url": "https://conwaynh.myrec.com/info/facilities/details.aspx?FacilityID=14703"
+   }
+  },
+  {
+   "id": "johnny-eastman-park",
+   "name": "Johnny Eastman Park",
+   "kind": "Field",
+   "address": "1808 East Main Street, Center Conway, NH 03813",
+   "features": [
+    "Dick O'Brien Field (ballfield)",
+    "Newly built public pickleball courts"
+   ],
+   "hours": null,
+   "seasonal": null,
+   "url": "https://conwaynh.myrec.com/info/facilities/details.aspx?FacilityID=14731",
+   "note": null,
+   "source": {
+    "label": "Johnny Eastman Park (Conway Rec facility page)",
+    "url": "https://conwaynh.myrec.com/info/facilities/details.aspx?FacilityID=14731"
+   }
+  },
+  {
+   "id": "smith-eastman",
+   "name": "Smith-Eastman Park (Smith/Eastman Recreation Area)",
+   "kind": "Park",
+   "address": null,
+   "features": [
+    "Town recreation area in the summer parking permit program"
+   ],
+   "hours": null,
+   "seasonal": "Summer parking needs a town recreation parking sticker; the fine schedule lists $30 for Smith-Eastman Park and roadway.",
+   "url": "https://conwaynh.myrec.com/forms/5998_parkingprogramguidelines_2024.pdf",
+   "note": "Not on the department's facility list, so no address or amenities from an official page.",
+   "source": {
+    "label": "Conway Rec parking program guidelines, 2024 (PDF)",
+    "url": "https://conwaynh.myrec.com/forms/5998_parkingprogramguidelines_2024.pdf"
+   }
+  },
+  {
+   "id": "rotary-park",
+   "name": "Rotary Park",
+   "kind": "Park",
+   "address": "Corner of Depot St and Route 16 (White Mountain Highway), North Conway, NH 03860",
+   "features": [
+    "Small village park"
+   ],
+   "hours": null,
+   "seasonal": null,
+   "url": "https://conwaynh.myrec.com/info/facilities/details.aspx?FacilityID=14705",
+   "note": "The facility page lists no amenities.",
+   "source": {
+    "label": "Rotary Park (Conway Rec facility page)",
+    "url": "https://conwaynh.myrec.com/info/facilities/details.aspx?FacilityID=14705"
+   }
+  },
+  {
+   "id": "shedd-woods",
+   "name": "Shedd Woods",
+   "kind": "Park",
+   "address": "Route 16 (White Mountain Highway), North Conway, NH",
+   "features": [
+    "Open space",
+    "Picnic area"
+   ],
+   "hours": null,
+   "seasonal": null,
+   "url": "https://conwaynh.myrec.com/info/facilities/details.aspx?FacilityID=14706",
+   "note": "Features from the town's Conservation, Parks and Recreation Areas page.",
+   "source": {
+    "label": "Town of Conway, Conservation, Parks and Recreation Areas",
+    "url": "https://conwaynh.org/conservation-land"
+   }
+  },
+  {
+   "id": "redstone-quarry-memorial-park",
+   "name": "Redstone Quarry Memorial Park",
+   "kind": "Park",
+   "address": "Redstone St, Redstone, NH 03813",
+   "features": [
+    "Town park in the village of Redstone"
+   ],
+   "hours": null,
+   "seasonal": null,
+   "url": "https://conwaynh.myrec.com/info/facilities/details.aspx?FacilityID=14704",
+   "note": "The facility page lists no amenities.",
+   "source": {
+    "label": "Redstone Quarry Memorial Park (Conway Rec facility page)",
+    "url": "https://conwaynh.myrec.com/info/facilities/details.aspx?FacilityID=14704"
+   }
+  },
+  {
+   "id": "pudding-pond",
+   "name": "Pudding Pond",
+   "kind": "Trail",
+   "address": "Thompson Road, Conway, NH",
+   "features": [
+    "Trails",
+    "Open space"
+   ],
+   "hours": null,
+   "seasonal": null,
+   "url": "https://conwaynh.org/conservation-land",
+   "note": "Town conservation land.",
+   "source": {
+    "label": "Town of Conway, Conservation, Parks and Recreation Areas",
+    "url": "https://conwaynh.org/conservation-land"
+   }
+  },
+  {
+   "id": "walkers-pond",
+   "name": "Walker's Pond",
+   "kind": "Trail",
+   "address": "Mill Street, Conway, NH",
+   "features": [
+    "Trails"
+   ],
+   "hours": null,
+   "seasonal": null,
+   "url": "https://conwaynh.org/conservation-land",
+   "note": "Town conservation land. A Walker's Pond trail map is posted on the town Documents page.",
+   "source": {
+    "label": "Town of Conway, Conservation, Parks and Recreation Areas",
+    "url": "https://conwaynh.org/conservation-land"
+   }
+  },
+  {
+   "id": "common-lands",
+   "name": "Common Lands (Hurricane Mountain Road)",
+   "kind": "Trail",
+   "address": "Hurricane Mountain Road, Conway, NH",
+   "features": [
+    "Trails",
+    "Open space"
+   ],
+   "hours": null,
+   "seasonal": null,
+   "url": "https://conwaynh.org/conservation-land",
+   "note": "Town conservation land.",
+   "source": {
+    "label": "Town of Conway, Conservation, Parks and Recreation Areas",
+    "url": "https://conwaynh.org/conservation-land"
+   }
+  },
+  {
+   "id": "dog-park",
+   "name": "Conway public dog park (Thom Steele Way)",
+   "kind": "Dog park",
+   "address": "102 Thom Steele Way, Conway, NH (near the Conway Area Humane Society)",
+   "features": [
+    "Separate fenced areas for small dogs (about 5,000 sq ft) and large dogs (about 84,000 sq ft)",
+    "ADA-accessible pathways and two accessible parking spaces",
+    "Benches, shaded seating and picnic tables"
+   ],
+   "hours": "Dawn to dusk, no lighting",
+   "seasonal": "Not open in winter; the site is next to a town snow disposal area.",
+   "url": "https://www.conwaydailysun.com/news/local/selectmen-ok-dog-park-plans-after-public-hearing/article_c7547de4-d3df-477d-9674-2955a804bedd.html",
+   "note": "Town-owned land; resident Tim Quint led the project with donations and grants, and Parks and Rec staff are expected to maintain the grounds in warmer months. Selectmen approved the plans unanimously after a public hearing (Conway Daily Sun, June 24, 2026). The Daily Sun later ran the headline \"Blue skies and wagging tails at dog park opening\"; that article was not opened.",
+   "source": {
+    "label": "Conway Daily Sun, Jun 24, 2026",
+    "url": "https://www.conwaydailysun.com/news/local/selectmen-ok-dog-park-plans-after-public-hearing/article_c7547de4-d3df-477d-9674-2955a804bedd.html"
+   }
+  },
+  {
+   "id": "north-conway-community-center",
+   "name": "North Conway Community Center (private nonprofit, not town-run)",
+   "kind": "Recreation center",
+   "address": "78 Norcross Circle, North Conway, NH 03860",
+   "features": [
+    "Gym",
+    "Meeting and activity space",
+    "Sports programs",
+    "Playground being renovated into a multigenerational, ADA-accessible space"
+   ],
+   "hours": "Monday to Friday, 9 a.m. to 5 p.m.; pre-registered programs and events have 24-hour access",
+   "seasonal": null,
+   "url": "https://northconwaycc.myrec.com",
+   "note": "A nonprofit with its own board and registration site; phone 603-356-2096.",
+   "source": {
+    "label": "North Conway Community Center",
+    "url": "https://northconwaycc.myrec.com"
+   }
+  },
+  {
+   "id": "echo-lake-state-park",
+   "name": "Echo Lake State Park (NH State Parks, not town)",
+   "kind": "State park",
+   "address": "68 Echo Lake Road, North Conway, NH 03860",
+   "features": [
+    "Swimming beach and picnic areas",
+    "Trail around the lake and trails up to Cathedral Ledge",
+    "Fishing, canoeing, mountain biking, snowshoeing",
+    "Day use $4 adults, $2 ages 6 to 11; free for 65 and over and 5 and under"
+   ],
+   "hours": "Always open for recreation unless closed or posted",
+   "seasonal": "Beach and hiking are unstaffed after October 31; off-season there are no comfort stations and gates may be closed. Pay at the self-serve Iron Ranger station when unstaffed. Pets are not allowed at Echo Lake from May 1 to October 31.",
+   "url": "https://www.nhstateparks.org/find-parks-trails/echo-lake-state-park",
+   "note": "Run by the State of New Hampshire. Park office 603-356-2672.",
+   "source": {
+    "label": "NH State Parks, Echo Lake State Park",
+    "url": "https://www.nhstateparks.org/find-parks-trails/echo-lake-state-park"
+   }
+  },
+  {
+   "id": "cathedral-ledge-state-park",
+   "name": "Cathedral Ledge State Park (NH State Parks, not town)",
+   "kind": "State park",
+   "address": "579 Cathedral Ledge Road, Bartlett, NH 03812 (address as listed by NH State Parks)",
+   "features": [
+    "700-foot ledge with a mile-long auto road to the top and views across the Saco River Valley",
+    "Scenic overlook, picnic area and a new accessible trail to a valley view",
+    "Rock and ice climbing on Cathedral and nearby White Horse ledges"
+   ],
+   "hours": "Always open for recreation unless closed or posted",
+   "seasonal": "The park opened for the season May 2 and becomes unstaffed October 31; pay at Iron Ranger stations along the road or at the summit when unstaffed.",
+   "url": "https://www.nhstateparks.org/find-parks-trails/cathedral-ledge-state-park",
+   "note": "Run by the State of New Hampshire. Pets allowed only on hiking trails in the Cathedral and White Horse areas. Carry in, carry out; no drones.",
+   "source": {
+    "label": "NH State Parks, Cathedral Ledge State Park",
+    "url": "https://www.nhstateparks.org/find-parks-trails/cathedral-ledge-state-park"
+   }
+  }
+ ],
+ "programs": [
+  {
+   "name": "Adult Pickleball, Session 1",
+   "who": "Adults, all skill levels (beginner, intermediate and advanced time slots)",
+   "when": "Sundays Nov 8 to Jan 31; Mondays Nov 9 to Jan 25; Tuesdays Nov 10 to Jan 26; Thursdays Nov 12 to Jan 28 (no Thanksgiving). Registration opened Oct 15.",
+   "where": "Not stated on the program listing",
+   "cost": "$30 to $36 for residents and $40 to $48 for non-residents, depending on the day",
+   "url": "https://conwaynh.myrec.com/info/activities/program_details.aspx?ProgramID=30077",
+   "source": {
+    "label": "Conway Rec calendar list",
+    "url": "https://conwaynh.myrec.com/info/calendar/list.aspx"
+   }
+  },
+  {
+   "name": "Adult Exercise Class (Fun with Frann)",
+   "who": "Adults of all ages and abilities",
+   "when": "Mondays, Wednesdays and Fridays, 9:15 to 10:15 a.m. (fall session)",
+   "where": "Marshall Gymnasium, 176 Main St, Conway",
+   "cost": "$44 for 16 classes",
+   "url": "https://conwaynh.myrec.com/info/activities/program_details.aspx?ProgramID=29968",
+   "source": {
+    "label": "Conway Rec calendar list",
+    "url": "https://conwaynh.myrec.com/info/calendar/list.aspx"
+   }
+  },
+  {
+   "name": "Chip Kennett Teen Center",
+   "who": "Grades 6 to 8",
+   "when": "Wednesdays 2:15 to 6:30 p.m., Thursdays 5 to 8:30 p.m., Fridays 5 to 9 p.m., some Saturday field trips. Session 1 runs September to January, Session 2 January to May.",
+   "where": "Conway Rec Facility, 176 Main St, Conway",
+   "cost": "$35 per session or $60 for the full year",
+   "url": "https://conwaynh.myrec.com/info/activities/program_details.aspx?ProgramID=30070",
+   "source": {
+    "label": "Conway Rec calendar list",
+    "url": "https://conwaynh.myrec.com/info/calendar/list.aspx"
+   }
+  },
+  {
+   "name": "After-school Craft Club and Pickleball (Sandwich programs)",
+   "who": "Grades K to 2 and 3 to 5 (Craft Club), grades 3 to 5 and 6 to 8 (pickleball)",
+   "when": "November to early December; first sessions Nov 9 to Nov 13",
+   "where": "Children are picked up from Pine Tree or Conway Elementary with a permission note",
+   "cost": null,
+   "url": "https://conwaynh.myrec.com/info/activities/program_details.aspx?ProgramID=30079",
+   "source": {
+    "label": "Conway Rec calendar list",
+    "url": "https://conwaynh.myrec.com/info/calendar/list.aspx"
+   }
+  },
+  {
+   "name": "Pond Hockey",
+   "who": "Kindergarten to grade 5",
+   "when": "Winter; dates not yet posted",
+   "where": null,
+   "cost": null,
+   "url": "https://conwaynh.myrec.com/info/activities/program_details.aspx?ProgramID=30069",
+   "source": {
+    "label": "Conway Rec programs list",
+    "url": "https://conwaynh.myrec.com/info/activities/default.aspx?type=activities"
+   }
+  },
+  {
+   "name": "North Conway Community Center Community Celebration fundraiser (private nonprofit)",
+   "who": "Adults",
+   "when": "Friday, November 6, 6 to 10 p.m.",
+   "where": "North Conway Community Center gym, 78 Norcross Circle",
+   "cost": "$50 per person",
+   "url": "https://northconwaycc.myrec.com",
+   "source": {
+    "label": "North Conway Community Center",
+    "url": "https://northconwaycc.myrec.com"
+   }
+  }
+ ],
+ "projects": [
+  {
+   "title": "Public dog park on Thom Steele Way",
+   "status": "Open",
+   "summary": "A fenced dog park on town land at 102 Thom Steele Way, led by resident Tim Quint and paid for with donations and grants. Selectmen approved the layout unanimously after a June 2026 public hearing. A Conway Daily Sun headline later reported the park's opening.",
+   "cost": "$62,000 estimate on the town's project page, financed without taxpayer money",
+   "url": "https://conwaynh.gov/pages/proposed-public-dog-park-project",
+   "keywords": [
+    "dog park",
+    "thom steele",
+    "off leash",
+    "humane society",
+    "quint"
+   ],
+   "source": {
+    "label": "Town of Conway, Proposed Public Dog Park Project",
+    "url": "https://conwaynh.gov/pages/proposed-public-dog-park-project"
+   }
+  },
+  {
+   "title": "Recreation path Phase 2 (Cranmore to Intervale)",
+   "status": "On hold",
+   "summary": "Phase 2 would run from the Cranmore trailhead along the north edge of Whitaker Woods and the Mountain Division rail line to Intervale Cross Road. In November 2025 the estimate rose to about $5.6 million and selectmen voted 5-0 not to sign an amended federal EDA grant application, putting the project on hold. The Daily Sun later reported a related warrant article (Article 46) on the April 14 town ballot; its outcome was not verified.",
+   "cost": "About $5.6 million (up from about $3.3 million), November 2025",
+   "url": "https://www.laconiadailysun.com/news/state/conway-rec-path-cost-doubles-putting-project-on-hold/article_240f3685-7bb8-4df3-839a-e1ee021ba180.html",
+   "keywords": [
+    "rec path",
+    "recreation path",
+    "whitaker woods",
+    "intervale",
+    "cranmore",
+    "trails association"
+   ],
+   "source": {
+    "label": "Conway Daily Sun (via Laconia Daily Sun), Nov 28, 2025",
+    "url": "https://www.laconiadailysun.com/news/state/conway-rec-path-cost-doubles-putting-project-on-hold/article_240f3685-7bb8-4df3-839a-e1ee021ba180.html"
+   }
+  },
+  {
+   "title": "North Conway Community Center playground renovation (private nonprofit)",
+   "status": "Fundraising",
+   "summary": "The nonprofit community center is rebuilding its playground as a multigenerational space with an ADA-accessible surface and sensory-friendly equipment. Donations of $100 or more are recognized on an indoor plaque.",
+   "cost": null,
+   "url": "https://northconwaycc.myrec.com",
+   "keywords": [
+    "playground",
+    "community center",
+    "norcross"
+   ],
+   "source": {
+    "label": "North Conway Community Center",
+    "url": "https://northconwaycc.myrec.com"
+   }
+  }
+ ],
+ "seasonal": [
+  {
+   "title": "Echo Lake and Cathedral Ledge state parks go unstaffed",
+   "detail": "After October 31 both NH State Parks are unstaffed: no comfort stations, gates may be closed, and you pay at self-serve Iron Ranger stations. The parks stay open for recreation unless posted.",
+   "dates": "From October 31, 2026",
+   "url": "https://www.nhstateparks.org/find-parks-trails/echo-lake-state-park",
+   "source": {
+    "label": "NH State Parks, Echo Lake State Park",
+    "url": "https://www.nhstateparks.org/find-parks-trails/echo-lake-state-park"
+   }
+  },
+  {
+   "title": "Schouler Park skating rink in winter",
+   "detail": "The outdoor rink at Schouler Park in North Conway Village is open to the public in the winter months; hours depend on weather and ice.",
+   "dates": null,
+   "url": "https://conwaynh.myrec.com/info/facilities/details.aspx?FacilityID=14699",
+   "source": {
+    "label": "Schouler Park (Conway Rec facility page)",
+    "url": "https://conwaynh.myrec.com/info/facilities/details.aspx?FacilityID=14699"
+   }
+  },
+  {
+   "title": "Dog park closed for winter",
+   "detail": "The Thom Steele Way dog park is not planned to open in winter because it sits next to a town snow disposal area.",
+   "dates": null,
+   "url": "https://www.conwaydailysun.com/news/local/selectmen-ok-dog-park-plans-after-public-hearing/article_c7547de4-d3df-477d-9674-2955a804bedd.html",
+   "source": {
+    "label": "Conway Daily Sun, Jun 24, 2026",
+    "url": "https://www.conwaydailysun.com/news/local/selectmen-ok-dog-park-plans-after-public-hearing/article_c7547de4-d3df-477d-9674-2955a804bedd.html"
+   }
+  },
+  {
+   "title": "Summer recreation parking season is over",
+   "detail": "Parking stickers ($5, Conway and Albany full-time residents and second homeowners) are needed at Davis Park, First Bridge, Smith-Eastman, River Road and the resident-only Conway Lake lot from the Saturday of Father's Day weekend to the Sunday of Labor Day weekend. Stickers are sold at the Town Clerk's office. These dates come from the 2024 guidelines.",
+   "dates": "Father's Day weekend to Labor Day weekend",
+   "url": "https://conwaynh.myrec.com/forms/5998_parkingprogramguidelines_2024.pdf",
+   "source": {
+    "label": "Conway Rec parking program guidelines, 2024 (PDF)",
+    "url": "https://conwaynh.myrec.com/forms/5998_parkingprogramguidelines_2024.pdf"
+   }
+  },
+  {
+   "title": "Winter overnight parking ban starts November 15",
+   "detail": "From November 15 to April 15, no parking on town streets from midnight to 8 a.m. (1:15 a.m. start in some liquor-license areas), and no pushing snow onto streets or sidewalks. Fines are $100 for a first offense and $500 after that.",
+   "dates": "November 15, 2026 to April 15, 2027",
+   "url": "https://conwaynh.gov/pages/public-notices",
+   "source": {
+    "label": "Town of Conway, Public Notices",
+    "url": "https://conwaynh.gov/pages/public-notices"
+   }
+  },
+  {
+   "title": "Adult pickleball starts November 8",
+   "detail": "Session 1 of town adult pickleball runs November 8 to January 31 with day and evening slots for all levels.",
+   "dates": "November 8, 2026",
+   "url": "https://conwaynh.myrec.com/info/activities/program_details.aspx?ProgramID=30077",
+   "source": {
+    "label": "Conway Rec calendar list",
+    "url": "https://conwaynh.myrec.com/info/calendar/list.aspx"
+   }
+  }
+ ],
+ "contacts": [
+  {
+   "role": "Director of Parks and Recreation",
+   "name": "Michael Lane",
+   "phone": "603-901-1139",
+   "email": null,
+   "source": {
+    "label": "Conway Rec, Meet the Staff",
+    "url": "https://conwaynh.myrec.com/info/dept/staff.aspx?ContactGroupID=783"
+   }
+  },
+  {
+   "role": "Assistant Director",
+   "name": "Robby Moody",
+   "phone": "603-901-1139",
+   "email": null,
+   "source": {
+    "label": "Conway Rec, Meet the Staff",
+    "url": "https://conwaynh.myrec.com/info/dept/staff.aspx?ContactGroupID=783"
+   }
+  },
+  {
+   "role": "Chip Kennett Teen Center Coordinator",
+   "name": "Lauren Kidder",
+   "phone": "603-901-1139",
+   "email": "lauren@conwaynhrec.gov",
+   "source": {
+    "label": "Conway Rec calendar list",
+    "url": "https://conwaynh.myrec.com/info/calendar/list.aspx"
+   }
+  },
+  {
+   "role": "Programmer",
+   "name": "Meghan Livingston",
+   "phone": "603-901-1139",
+   "email": null,
+   "source": {
+    "label": "Conway Rec, Meet the Staff",
+    "url": "https://conwaynh.myrec.com/info/dept/staff.aspx?ContactGroupID=783"
+   }
+  },
+  {
+   "role": "Recreation parking stickers (sold at Town Hall)",
+   "name": "Town Clerk/Tax Collector's office",
+   "phone": "603-447-3811, ext. 3",
+   "email": null,
+   "source": {
+    "label": "Town of Conway, Town Clerk and Tax Collector",
+    "url": "https://conwaynh.gov/pages/town-clerk-tax-collector"
+   }
+  },
+  {
+   "role": "North Conway Community Center (private nonprofit)",
+   "name": null,
+   "phone": "603-356-2096",
+   "email": "phil@northconwaycommunitycenter.org",
+   "source": {
+    "label": "North Conway Community Center",
+    "url": "https://northconwaycc.myrec.com"
+   }
+  },
+  {
+   "role": "Echo Lake State Park office (NH State Parks)",
+   "name": null,
+   "phone": "603-356-2672",
+   "email": null,
+   "source": {
+    "label": "NH State Parks, Echo Lake State Park",
+    "url": "https://www.nhstateparks.org/find-parks-trails/echo-lake-state-park"
+   }
+  }
+ ],
+ "methodology": "Compiled October 30, 2026 from pages opened this session: the Conway Parks and Recreation MyRec site (home, facility list and facility pages, staff, programs and calendar), the department's 2024 parking program guidelines, the Town of Conway website (Conservation, Parks and Recreation Areas, Proposed Public Dog Park Project, Public Notices, Town Clerk), Conway town code on eCode360 (Schouler Park), NH State Parks pages for Echo Lake and Cathedral Ledge, the North Conway Community Center MyRec site, and Conway Daily Sun articles (one read through the Laconia Daily Sun). Not covered: the Daily Sun article on the dog park opening and the outcome of the April 2026 rec path ballot article could not be opened; Mount Washington Valley Ski Touring pages and the town trail map PDFs were not opened; the Smith-Eastman area has no official facility page; winter program dates (pond hockey, rink hours) were not yet posted; the department's 2026 parking guidelines were not found, so 2024 rules are shown."
+}

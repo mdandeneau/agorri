@@ -67,3 +67,14 @@ All towns share one page (`index.html`). Only edit data in `data/<town>/`. Never
 - News: https://nashua.inklink.news/, https://www.nashuaindependent.com/ (RSS: /rss/), The Telegraph https://www.nashuatelegraph.com/ (headlines on Home; mostly paywalled, headlines only)
 - Housing: https://www.redfin.com/city/12918/NH/Nashua/housing-market ; NH Association of Realtors via Nashua Ink Link.
 - Known gaps: department-level adopted budget (ClearGov book is not readable as text), FY25 debt outstanding, police daily logs, police and fire RSS feeds.
+
+## North Conway sources
+North Conway is a village of the Town of Conway, so its record is the Town of Conway's (Board of Selectmen, official-ballot Town Meeting in April). The North Conway Water Precinct is its own small government: water, sewer and the North Conway Fire Department.
+- Town site: https://conwaynh.gov (news RSS: https://conwaynh.gov/rss/news.xml). Select Board agendas (posted as images): https://conwaynh.gov/pages/conway-select-board. Minutes: the Google Drive folder linked from https://conwaynh.gov/documents. Selectmen meet Tuesdays and stream on the town's Facebook page; Valley Vision (valleyvision.com) posts the videos.
+- Until official minutes can be read, meetings are built from Conway Daily Sun reporting and marked `minutes_status: "news report"` with a `source_note`. Replace them with the minutes when the Drive folder is reachable.
+- Paper: The Conway Daily Sun (conwaydailysun.com, Local section). No RSS; article URLs carry no date, so headlines are refreshed by hand.
+- Elections: one polling place, the Town Garage, 1611 East Main St., Center Conway. Town Clerk 603-447-3811.
+- Planning Board and ZBA: notices on conwaynh.gov; Conway Forward zoning rewrite: https://bpg.mysocialpinpoint.com/conway-forward-zoning
+- Assessing (tax lookup): https://conway.univers-clt.com/ (house numbers are zero-padded; each property lists its tax district). Tax rates by precinct: NH DRA tax rate sheets.
+- Police: https://conwaypdnh.gov (no daily logs online). Fire in North Conway: North Conway Water Precinct.
+

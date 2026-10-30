@@ -1,0 +1,419 @@
+{
+ "as_of": "2026-10-30",
+ "note": "From the Town of Conway's own pages (departments, Documents, Public Notices, town code), the Conway Forward zoning project site, the Mt Washington Valley Chamber of Commerce, NH state agencies and open Conway Daily Sun coverage. North Conway is a village in the Town of Conway, so permits and licenses run through Conway Town Hall at 23 Main Street in Conway Village.",
+ "organizations": [
+  {
+   "name": "Mt Washington Valley Chamber of Commerce",
+   "what": "Chamber at 2473 White Mountain Highway, North Conway, with close to 600 member businesses and organizations that support growth and promote the Mt. Washington Valley as a place to live, work and visit.",
+   "url": "https://www.visitmwv.com/members/mt-washington-valley-chamber-of-commerce/",
+   "phone": "(603) 356-5701",
+   "kind": "Chamber",
+   "source": {
+    "label": "Mt Washington Valley Chamber of Commerce",
+    "url": "https://www.visitmwv.com/members/mt-washington-valley-chamber-of-commerce/"
+   }
+  },
+  {
+   "name": "Mt Washington Valley Economic Council",
+   "what": "Nonprofit founded in 1990 that runs a Revolving Loan Fund for local businesses (it lent $560,000 to 27 small businesses during the pandemic). In June 2026 it sold its Technology Village office space to Northeast Woodland Chartered Public School, planned to leave by August 1 and was discussing a possible merger with a larger economic council. Executive director Jac Cuddy. Phone and website from its Chamber directory listing.",
+   "url": "http://www.mwvec.com",
+   "phone": "(603) 447-6622",
+   "kind": "Economic development",
+   "source": {
+    "label": "Conway Daily Sun, Jun 11, 2026",
+    "url": "https://www.conwaydailysun.com/news/local/after-sale-of-tech-village-whats-next-for-economic-council/article_db83d604-5912-44ed-95f7-6b387209a094.html"
+   }
+  },
+  {
+   "name": "NH Small Business Development Center, North and Central Region",
+   "what": "Business advising; the regional office is at the Grafton Regional Development Council, 131 Main Street, Plymouth. The SBDC locations page does not list which towns each office serves; request advising through nhsbdc.org.",
+   "url": "https://www.nhsbdc.org/about-sbdc/locations",
+   "phone": "603-862-2200",
+   "kind": "Nonprofit",
+   "source": {
+    "label": "NH SBDC, Locations",
+    "url": "https://www.nhsbdc.org/about-sbdc/locations"
+   }
+  },
+  {
+   "name": "NH DHHS Food Protection Section",
+   "what": "State office that licenses anyone who makes, stores or sells food in New Hampshire (except in self-inspecting communities) and reviews floor plans for new or remodeled food businesses.",
+   "url": "https://www.dhhs.nh.gov/programs-services/environmental-health-and-you/food-protection/food-establishments",
+   "phone": "(603) 271-4589",
+   "kind": "State",
+   "source": {
+    "label": "NH DHHS, Food Establishments",
+    "url": "https://www.dhhs.nh.gov/programs-services/environmental-health-and-you/food-protection/food-establishments"
+   }
+  },
+  {
+   "name": "Congressman Chris Pappas, North Conway office",
+   "what": "District office at 2541 White Mountain Highway, Building 1 Unit 4, North Conway, for help with federal agencies; the office does not receive mail.",
+   "url": "https://pappas.house.gov/contact",
+   "phone": "(603) 733-5100",
+   "kind": "Federal",
+   "source": {
+    "label": "Rep. Chris Pappas, Contact",
+    "url": "https://pappas.house.gov/contact"
+   }
+  }
+ ],
+ "cityOffices": [
+  {
+   "name": "Planning and Zoning (Town Hall, 23 Main St, Conway)",
+   "what": "Staffs the Planning Board and Zoning Board of Adjustment and reviews site plan and subdivision applications. Director of Planning and Development Ryan O'Connor, Planner Holly Whitelaw, Zoning Administrator Bill Barbin. Zoning permit, site plan, temporary event permit and ZBA forms are on the town Documents page. The Kearsarge Lighting Precinct has its own zoning, which the town does not enforce.",
+   "url": "https://conwaynh.gov/pages/planning-department-planning-board",
+   "phone": "(603) 447-3811, ext. 223",
+   "source": {
+    "label": "Town of Conway, Planning and Zoning",
+    "url": "https://conwaynh.gov/pages/planning-department-planning-board"
+   }
+  },
+  {
+   "name": "Building Inspection and Code Enforcement",
+   "what": "Building permits (apply online through Cloudpermit) and building, fire, health and zoning inspections; helps new and existing businesses with moves and expansions. Building Inspector Jeremy Gibbs. Codes include the 2021 IBC, 2021 IRC and 2021 NFPA 101 Life Safety Code.",
+   "url": "https://conwaynh.gov/pages/building-inspection-code-enforcement",
+   "phone": "(603) 447-3811, ext. 223",
+   "source": {
+    "label": "Town of Conway, Building Inspection and Code Enforcement",
+    "url": "https://conwaynh.gov/pages/building-inspection-code-enforcement"
+   }
+  },
+  {
+   "name": "Town Clerk and Tax Collector",
+   "what": "Vehicle and boat registrations, vital records and property tax payments; also sells summer recreation parking stickers. Town Clerk/Tax Collector Louise Inkell. Closed daily 12:30 to 1:30 p.m.",
+   "url": "https://conwaynh.gov/pages/town-clerk-tax-collector",
+   "phone": "(603) 447-3811, ext. 3",
+   "source": {
+    "label": "Town of Conway, Town Clerk and Tax Collector",
+    "url": "https://conwaynh.gov/pages/town-clerk-tax-collector"
+   }
+  },
+  {
+   "name": "Assessing",
+   "what": "Property values, abatement and exemption forms, and owner, location or map-and-parcel reports (spreadsheets by email for $100). Online tax maps and cards through AxisGIS. Chief Assessor Thomas Hughes.",
+   "url": "https://conwaynh.gov/pages/assessing",
+   "phone": "(603) 447-3811, ext. 219",
+   "source": {
+    "label": "Town of Conway, Assessing",
+    "url": "https://conwaynh.gov/pages/assessing"
+   }
+  },
+  {
+   "name": "Town Manager's office",
+   "what": "Handles recreation parking passes for business-owned vehicles and extra passes for trusts and LLCs (by application, not in person).",
+   "url": "https://conwaynh.gov/pages/town-departments",
+   "phone": "(603) 447-3811",
+   "source": {
+    "label": "Conway Rec parking program guidelines, 2024 (PDF)",
+    "url": "https://conwaynh.myrec.com/forms/5998_parkingprogramguidelines_2024.pdf"
+   }
+  }
+ ],
+ "howTo": [
+  {
+   "title": "Open a business in a commercial space",
+   "steps": "Check zoning with Planning and Zoning (603-447-3811, ext. 223); a change or expansion of use may need Planning Board site plan review and a zoning permit (forms on the town Documents page). Every commercial improvement needs a building permit, whatever the cost, and the building inspector may require a certificate of occupancy for a commercial remodel or a change in tenancy. Commercial applications need architectural or structural documents. Apply for building permits online through Cloudpermit. Contractors must register with the town (no fee).",
+   "url": "https://conwaynh.gov/pages/building-inspection-code-enforcement",
+   "source": {
+    "label": "Town of Conway Code, Chapter 23 Building Construction",
+    "url": "https://conwaynh.gov/uploads/chapter-23-building-construction-proposed-amendments-1-.pdf"
+   }
+  },
+  {
+   "title": "Put up a sign",
+   "steps": "Signs need a town sign permit. The Sign Permit form is posted under both Building and Public Works and Planning and Zoning on the town Documents page; call Planning and Zoning (603-447-3811, ext. 223) with questions about sign rules for your district.",
+   "url": "https://conwaynh.gov/documents",
+   "source": {
+    "label": "Town of Conway, Documents",
+    "url": "https://conwaynh.gov/documents"
+   }
+  },
+  {
+   "title": "Run a short-term rental",
+   "steps": "In 2023 the NH Supreme Court (Town of Conway v. Kudrick) held that Conway's zoning ordinance allows non-owner-occupied short-term rentals in residential districts. The town runs a Rental Certificate Program: owners of one- and two-family rentals file a self-affidavit, multi-family owners register, and a rental inspection fee schedule applies (all on the town Documents page). The town's zoning rewrite (Conway Forward) is underway, with Planning Board hearings in November and December 2026, so check with Planning and Zoning before you buy or list.",
+   "url": "https://conwaynh.gov/documents",
+   "source": {
+    "label": "Town of Conway, Documents (Rental Certificate Program)",
+    "url": "https://conwaynh.gov/documents"
+   }
+  },
+  {
+   "title": "Get a food license (restaurant, cafe, food truck, food maker)",
+   "steps": "Food licenses come from the state, not the town: apply to the NH DHHS Food Protection Section with the fee. For a newly built or remodeled kitchen, submit a Floor Plan Review Application (online portal with a Food Operation Questionnaire, or on paper) before licensing. Questions: 603-271-4589. Building and fire code work still goes through Conway's Building Inspection office.",
+   "url": "https://dhhs.nh.gov/programs-services/environmental-health-and-you/food-protection/submit-floor-plan-review",
+   "source": {
+    "label": "NH DHHS, Submit a Floor Plan Review",
+    "url": "https://dhhs.nh.gov/programs-services/environmental-health-and-you/food-protection/submit-floor-plan-review"
+   }
+  },
+  {
+   "title": "Hold a special or temporary event",
+   "steps": "Use the town's Special Event Permit application and guidelines, or the Planning and Zoning Temporary Event Permit, both on the Documents page. Events in Schouler Park need a special events permit approved by the Board of Selectmen; athletic events in town parks need a memorandum of agreement. Raffles need a town raffle permit.",
+   "url": "https://conwaynh.gov/documents",
+   "source": {
+    "label": "Town of Conway, Documents",
+    "url": "https://conwaynh.gov/documents"
+   }
+  },
+  {
+   "title": "Plan for winter parking and snow",
+   "steps": "From November 15 to April 15 there is no parking on town streets from midnight to 8 a.m. (1:15 a.m. start in some liquor-license areas), and businesses may not push snow or ice onto streets or sidewalks. Fines are $100 for a first offense and $500 after that.",
+   "url": "https://conwaynh.gov/pages/public-notices",
+   "source": {
+    "label": "Town of Conway, Public Notices",
+    "url": "https://conwaynh.gov/pages/public-notices"
+   }
+  }
+ ],
+ "notices": [
+  {
+   "date": "2026-10-23",
+   "title": "MWV Chamber annual meeting reviews year of results",
+   "detail": "Conway Daily Sun business headline from the chamber's annual meeting; a companion story covered the chamber's award winners. Article not opened.",
+   "url": "https://www.conwaydailysun.com/business/local/mwv-chamber-annual-meeting-reviews-year-of-results/article_f10744bb-9538-44be-8f9f-a59fb1294686.html",
+   "source": {
+    "label": "Conway Daily Sun, Business",
+    "url": "https://www.conwaydailysun.com/business/"
+   }
+  },
+  {
+   "date": "2026-10-23",
+   "title": "Panelists outline housing challenges at breakfast forum",
+   "detail": "Conway Daily Sun business headline. Article not opened.",
+   "url": "https://www.conwaydailysun.com/business/local/panelists-outline-housing-challenges-at-breakfast-forum/article_812ef7d9-3a70-48d8-b859-6e58788d51a1.html",
+   "source": {
+    "label": "Conway Daily Sun, Business",
+    "url": "https://www.conwaydailysun.com/business/"
+   }
+  },
+  {
+   "date": "2026-10-22",
+   "title": "Conway Forward zoning rewrite: Planning Board hearings Nov 5 and Dec 3",
+   "detail": "The town is rewriting its zoning ordinance and map to match the 2024 Conway Forward Master Plan (consultant Barrett Planning Group). The second community meeting was October 22; the October 2026 draft ordinance and table of uses are posted. Planning Board public hearings are November 5 and December 3, 2026 (January 7, 2027 if needed), 6:30 p.m., before a 2027 Town Meeting vote.",
+   "url": "https://bpg.mysocialpinpoint.com/conway-forward-zoning",
+   "source": {
+    "label": "Conway Forward Zoning Update",
+    "url": "https://bpg.mysocialpinpoint.com/conway-forward-zoning"
+   }
+  },
+  {
+   "date": "2026-10-16",
+   "title": "Columbus Day Weekend was a strong one, survey says",
+   "detail": "Conway Daily Sun business headline on a survey of the holiday weekend. Article not opened.",
+   "url": "https://www.conwaydailysun.com/business/local/columbus-day-weekend-was-a-strong-one-survey-says/article_39dfd945-b52b-4b84-9483-5af49860f3f3.html",
+   "source": {
+    "label": "Conway Daily Sun, Business",
+    "url": "https://www.conwaydailysun.com/business/"
+   }
+  },
+  {
+   "date": "2026-10-16",
+   "title": "Cranmore completes first four phases at base area",
+   "detail": "Conway Daily Sun business headline on the North Conway ski area's base-area build-out. Article not opened.",
+   "url": "https://www.conwaydailysun.com/business/local/cranmore-completes-first-four-phases-at-base-area/article_4996991c-125b-4553-bb39-87cc1b15833b.html",
+   "source": {
+    "label": "Conway Daily Sun, Business",
+    "url": "https://www.conwaydailysun.com/business/"
+   }
+  }
+ ],
+ "programs": [
+  {
+   "name": "Mt Washington Valley Economic Council Revolving Loan Fund",
+   "what": "Local small business loans from the Economic Council; the council said in June 2026 it is looking for new space and may merge, so call before applying.",
+   "url": "http://www.mwvec.com",
+   "source": {
+    "label": "Conway Daily Sun, Jun 11, 2026",
+    "url": "https://www.conwaydailysun.com/news/local/after-sale-of-tech-village-whats-next-for-economic-council/article_db83d604-5912-44ed-95f7-6b387209a094.html"
+   }
+  },
+  {
+   "name": "Town Rental Certificate Program",
+   "what": "Town registration and self-certification for rental housing: a self-affidavit for one- and two-family homes, a multi-family registration form and a rental inspection fee schedule.",
+   "url": "https://conwaynh.gov/documents",
+   "source": {
+    "label": "Town of Conway, Documents",
+    "url": "https://conwaynh.gov/documents"
+   }
+  },
+  {
+   "name": "Chamber membership",
+   "what": "Member listings and exposure, partnerships, networking (Chamber After Hours), ski and golf passes, a newsletter, monthly PR and social media reports, and a voice in Concord. The membership year runs August to July with pro-rated fees.",
+   "url": "https://www.visitmwv.com/chamber/your-chamber",
+   "source": {
+    "label": "Mt Washington Valley Chamber, Your Chamber",
+    "url": "https://www.visitmwv.com/chamber/your-chamber"
+   }
+  },
+  {
+   "name": "SBDC business advising",
+   "what": "One-on-one advising through the NH Small Business Development Center's North and Central Region office in Plymouth.",
+   "url": "https://www.nhsbdc.org/about-sbdc/locations",
+   "source": {
+    "label": "NH SBDC, Locations",
+    "url": "https://www.nhsbdc.org/about-sbdc/locations"
+   }
+  },
+  {
+   "name": "Town alerts (Conway Broadcast)",
+   "what": "Free town alerts by text or email for closures, meeting notices, utility alerts and community news.",
+   "url": "https://conwaynh.gov/pages/broadcast",
+   "source": {
+    "label": "Town of Conway, Broadcast",
+    "url": "https://conwaynh.gov/pages/broadcast"
+   }
+  }
+ ],
+ "openings": [
+  {
+   "name": "Ulta Beauty",
+   "what": "Beauty store, 7,000 sq ft, Suite G20 near the Route 16 entrance to Settlers Green",
+   "date": "2026-05-08",
+   "detail": "Grand opening Friday, May 8, part of a six-store Settlers Green expansion announced March 25, 2026.",
+   "source": {
+    "label": "Mt Washington Valley Chamber, member news",
+    "url": "https://members.visitmwv.com/news/Details/settlers-green-announces-strategic-expansion-with-six-new-retailers-321740"
+   }
+  },
+  {
+   "name": "Lululemon",
+   "what": "Athletic apparel store, 5,000 sq ft, Suite I30 next to Levi's at Settlers Green",
+   "date": "2026-05-08",
+   "detail": "Grand opening Friday, May 8.",
+   "source": {
+    "label": "Mt Washington Valley Chamber, member news",
+    "url": "https://members.visitmwv.com/news/Details/settlers-green-announces-strategic-expansion-with-six-new-retailers-321740"
+   }
+  },
+  {
+   "name": "Books-A-Million",
+   "what": "Bookstore, 9,000 sq ft, Suite D32 next to Gap Outlet at Settlers Green",
+   "date": "2026-05-14",
+   "detail": "Opening Thursday, May 14. Marathon Sports, Aeropostale and Perfume Outlet were also announced for Settlers Green with dates to come.",
+   "source": {
+    "label": "Mt Washington Valley Chamber, member news",
+    "url": "https://members.visitmwv.com/news/Details/settlers-green-announces-strategic-expansion-with-six-new-retailers-321740"
+   }
+  },
+  {
+   "name": "Rise and Dine Bistro",
+   "what": "Breakfast and lunch restaurant at 27 Seavey Street, North Conway Village",
+   "date": "2026-06-10",
+   "detail": "Open daily from Wednesday, June 10, with a grand opening Saturday, June 20. Owners Hannah and Christoph Schneider.",
+   "source": {
+    "label": "Conway Daily Sun, Jun 3, 2026",
+    "url": "https://www.conwaydailysun.com/business/rise-and-dine-bistro-to-open-in-north-conway-village/article_39950965-7a2c-48c2-b9b1-2c8be5be8caa.html"
+   }
+  }
+ ],
+ "closures": [
+  {
+   "name": "Stan's Service Center",
+   "what": "Auto repair shop at 46 Main St., Conway Village",
+   "date": "2026-04",
+   "detail": "Reported April 1, 2026 to be closing after more than 50 years; the article notes cars increasingly need dealer service for proprietary systems.",
+   "source": {
+    "label": "Conway Daily Sun, Apr 1, 2026",
+    "url": "https://www.conwaydailysun.com/business/local/a-conway-landmark-stans-service-center-closing-its-doors/article_b59f9528-3a49-4812-b8fe-a8f0f13e999b.html"
+   }
+  }
+ ],
+ "keywords": [
+  "restaurant",
+  "bistro",
+  "cafe",
+  "bakery",
+  "brewery",
+  "taproom",
+  "opens",
+  "opening",
+  "grand opening",
+  "ribbon cutting",
+  "closing",
+  "closes",
+  "closed",
+  "relocat",
+  "storefront",
+  "retail",
+  "retailer",
+  "outlet",
+  "settlers green",
+  "chamber",
+  "mwv chamber",
+  "economic council",
+  "tech village",
+  "main street",
+  "north conway village",
+  "conway village",
+  "hotel",
+  "resort",
+  "lodging",
+  "cranmore",
+  "short-term rental",
+  "rental",
+  "zoning",
+  "conway forward",
+  "planning board",
+  "site plan",
+  "permit",
+  "license",
+  "developer",
+  "development",
+  "lease",
+  "tenant",
+  "sold",
+  "buys",
+  "small business",
+  "employer",
+  "hiring",
+  "layoffs",
+  "workforce housing",
+  "sbdc",
+  "loan fund",
+  "tourism",
+  "visitors",
+  "foliage",
+  "ski season",
+  "rooms and meals"
+ ],
+ "stats": [
+  {
+   "label": "Chamber members",
+   "value": "Close to 600 member businesses and organizations",
+   "as_of": null,
+   "source": {
+    "label": "Mt Washington Valley Chamber of Commerce",
+    "url": "https://www.visitmwv.com/members/mt-washington-valley-chamber-of-commerce/"
+   }
+  },
+  {
+   "label": "Town of Conway population",
+   "value": "9,822 (2020 census), down from 10,115 in 2010",
+   "as_of": "2020",
+   "source": {
+    "label": "Wikipedia, Conway, New Hampshire (census figures)",
+    "url": "https://en.wikipedia.org/wiki/Conway,_New_Hampshire"
+   }
+  },
+  {
+   "label": "North Conway village population",
+   "value": "2,116 (2020 census, census-designated place)",
+   "as_of": "2020",
+   "source": {
+    "label": "Wikipedia, North Conway, New Hampshire (census figures)",
+    "url": "https://en.wikipedia.org/wiki/North_Conway,_New_Hampshire"
+   }
+  },
+  {
+   "label": "Economic Council pandemic lending",
+   "value": "$560,000 in low-interest loans to 27 small local businesses",
+   "as_of": null,
+   "source": {
+    "label": "Conway Daily Sun, Jun 11, 2026",
+    "url": "https://www.conwaydailysun.com/news/local/after-sale-of-tech-village-whats-next-for-economic-council/article_db83d604-5912-44ed-95f7-6b387209a094.html"
+   }
+  }
+ ],
+ "methodology": "Compiled October 30, 2026 from pages opened this session: conwaynh.gov (Town Departments, Planning and Zoning, Building Inspection, Town Clerk, Assessing, Documents, Public Notices, Broadcast, news RSS), the Chapter 23 Building Construction text posted by the town, the Conway Forward zoning project site, the Mt Washington Valley Chamber (member page, Your Chamber page, member news), the NH SBDC locations page, NH DHHS Food Protection pages, Rep. Pappas's contact page, a 2023 summary of Town of Conway v. Kudrick (casemine.com), and Conway Daily Sun articles and its Business section listing. Notices marked 'Article not opened' are headlines and dates as listed on the Daily Sun Business page. Not covered: the sign permit, rental certificate and special event PDFs could not be opened, so fees and exact rules are not shown; no North Conway or Conway Main Street organization was found; the Economic Council's own website and NHES community profile were not opened; the June 22, 2026 Assessing notice to commercial taxpayers about Sansoucy Associates falls just outside the 120-day window and its text is an image; the TD Bank North Conway branch closing (January 29, 2026) and the MaineHealth Urgent Care opening (February 2026) are older than six months and left out."
+}

@@ -71,6 +71,41 @@
    }
   },
   {
+   "id": "north-conway",
+   "name": "North Conway",
+   "state": "NH",
+   "stateName": "New Hampshire",
+   "kind": "Town",
+   "govName": "Town of Conway",
+   "status": "live",
+   "site": "https://conwaynh.gov/",
+   "files": {
+    "record": "data/north-conway/record.json",
+    "local": "data/north-conway/local.json",
+    "beyond": "data/north-conway/beyond.json",
+    "feeds": "data/north-conway/feeds.json",
+    "parks": "data/north-conway/parks.json",
+    "business": "data/north-conway/business.json",
+    "candidates": "data/north-conway/candidates.json",
+    "questions": "data/north-conway/questions.json"
+   },
+   "assessor": {
+    "type": "univers",
+    "base": "https://conway.univers-clt.com/",
+    "site": "https://conway.univers-clt.com/",
+    "label": "the Town of Conway Assessing Office"
+   },
+   "photo": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Echo_Lake_and_Cathedral_Ledge%2C_North_Conway_%28494301%29_%2811924544465%29.jpg/{w}px-Echo_Lake_and_Cathedral_Ledge%2C_North_Conway_%28494301%29_%2811924544465%29.jpg",
+    "alt": "Cathedral Ledge and fall color reflected in Echo Lake, North Conway",
+    "author": "Robert Linsdell",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Echo_Lake_and_Cathedral_Ledge,_North_Conway_(494301)_(11924544465).jpg",
+    "pos": "50% 45%"
+   }
+  },
+  {
    "id": "dover",
    "name": "Dover",
    "state": "NH",
