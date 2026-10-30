@@ -4,6 +4,7 @@
 // Changing SITE_PASSWORD signs everyone out. Remove it to open the site to the public.
 const COOKIE = 'agorri_gate';
 const DAYS = 30;
+const PUBLIC = new Set(['/favicon.svg', '/apple-touch-icon.png', '/og.png']);
 
 async function token(pw, salt) {
   const d = await crypto.subtle.digest('SHA-256', new TextEncoder().encode('agorri-gate|' + salt + '|' + pw));
@@ -14,16 +15,16 @@ const esc = s => String(s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;'
 const safeBack = b => (typeof b === 'string' && b.startsWith('/') && !b.startsWith('//') && !b.startsWith('/__gate')) ? b : '/';
 
 export function gatePage(message, back) {
-  return `<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex"><title>Agorri</title>
+  return `<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex"><title>Agorri</title><link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <style>:root{--bg:#F0F2F5;--card:#fff;--ink:#050505;--muted:#65676B;--accent:#1B74E4;--line:#E4E6EB;--err:#B3261E}
 @media (prefers-color-scheme:dark){:root{--bg:#18191A;--card:#242526;--ink:#E4E6EB;--muted:#B0B3B8;--accent:#2D88FF;--line:#3A3B3C;--err:#F2B8B5}}
 *{box-sizing:border-box}body{margin:0;min-height:100vh;display:grid;place-items:center;background:var(--bg);color:var(--ink);font:15px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;padding:16px}
 .card{width:100%;max-width:380px;background:var(--card);border-radius:14px;box-shadow:0 1px 3px rgba(0,0,0,.12);padding:28px 24px;display:flex;flex-direction:column;gap:14px}
-.brand{display:flex;align-items:center;gap:10px;font-weight:800;font-size:22px;color:var(--accent)}.dot{width:30px;height:30px;border-radius:50%;background:var(--accent)}
+.brand{display:flex;align-items:center;gap:10px;font-weight:800;font-size:22px;color:var(--accent)}.brand svg{flex-shrink:0}
 p{margin:0;color:var(--muted)}label{font-weight:600;font-size:13px}input{width:100%;height:44px;border:1px solid var(--line);border-radius:10px;padding:0 12px;font:inherit;background:var(--card);color:var(--ink)}
 input:focus{outline:2px solid var(--accent);outline-offset:1px}button{height:44px;border:0;border-radius:10px;background:var(--accent);color:#fff;font:inherit;font-weight:700;cursor:pointer}
 .err{color:var(--err);font-weight:600;font-size:13px}.tag{font-size:13px}</style></head><body>
-<form class="card" method="post" action="/__gate"><div class="brand"><span class="dot"></span>Agorri</div>
+<form class="card" method="post" action="/__gate"><div class="brand"><svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" width="32" height="32" aria-hidden="true"><path d="M16 2.5C8.5 2.5 2.5 7.9 2.5 14.6c0 3.6 1.7 6.8 4.5 9L5.6 29.2l6.4-3.2c1.3.4 2.6.6 4 .6 7.5 0 13.5-5.4 13.5-12S23.5 2.5 16 2.5z" fill="var(--accent)"/><path d="M16 8.2l7.4 4H8.6z" fill="#fff"/><rect x="10.2" y="13.4" width="2.2" height="6" rx=".5" fill="#fff"/><rect x="14.9" y="13.4" width="2.2" height="6" rx=".5" fill="#fff"/><rect x="19.6" y="13.4" width="2.2" height="6" rx=".5" fill="#fff"/><rect x="8.6" y="20.2" width="14.8" height="2" rx=".5" fill="#fff"/></svg>Agorri</div>
 <p>Agorri is in private testing. Enter the password to continue.</p>
 <label for="pw">Password</label><input id="pw" name="password" type="password" autocomplete="current-password" required autofocus>
 <input type="hidden" name="back" value="${esc(safeBack(back))}">
@@ -50,6 +51,7 @@ export async function onRequest(context) {
     await new Promise(r => setTimeout(r, 600));
     return html(gatePage('That password didn’t work.', back), 401);
   }
+  if (PUBLIC.has(url.pathname)) return next(); // the logo files, so the password page and link previews can show them
   if (url.pathname === '/robots.txt') return new Response('User-agent: *\nDisallow: /\n', { headers: { 'content-type': 'text/plain' } });
 
   const cookie = (request.headers.get('cookie') || '').split(/;\s*/).find(c => c.startsWith(COOKIE + '='));

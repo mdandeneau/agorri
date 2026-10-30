@@ -10,6 +10,10 @@
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://agorri.com/">
 <meta name="theme-color" content="#1B74E4">
+<meta property="og:image" content="https://agorri.com/og.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <style>
 :root{
   --bg:#F0F2F5;--surface:#FFFFFF;--soft:#E9EBEF;--line:#E4E6EB;--ink:#050505;--ink2:#3B4452;--muted:#65676B;
@@ -944,6 +948,8 @@ a.more-l,.more-l{text-decoration:none}
 .howto summary{cursor:pointer;list-style:none}.howto summary::-webkit-details-marker{display:none}.howto summary::after{content:' ›';color:var(--muted)}
 .post-a .ibar{margin-left:0}
 .livectl .chips button .num{font-weight:500;opacity:.75;margin-left:2px}
+.brand .mark{width:30px;height:30px;flex-shrink:0;color:var(--accent);display:block}
+.side .brand .mark{width:30px;height:30px}
 @media (max-width:720px){.facgrid{grid-template-columns:1fr}.cand{grid-template-columns:36px minmax(0,1fr)}.intb span{display:none}}
 
 </style>
@@ -985,7 +991,7 @@ a.more-l,.more-l{text-decoration:none}
 </style>
 
 <aside class="side" id="side" aria-label="Main">
-  <div class="side-head"><a class="brand" href="#home" data-tip="Agorri home"><i></i><b>Agorri</b></a></div>
+  <div class="side-head"><a class="brand" href="#home" data-tip="Agorri home"><svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" class="mark" width="30" height="30" aria-hidden="true"><path d="M16 2.5C8.5 2.5 2.5 7.9 2.5 14.6c0 3.6 1.7 6.8 4.5 9L5.6 29.2l6.4-3.2c1.3.4 2.6.6 4 .6 7.5 0 13.5-5.4 13.5-12S23.5 2.5 16 2.5z" fill="currentColor"/><path d="M16 8.2l7.4 4H8.6z" fill="#fff"/><rect x="10.2" y="13.4" width="2.2" height="6" rx=".5" fill="#fff"/><rect x="14.9" y="13.4" width="2.2" height="6" rx=".5" fill="#fff"/><rect x="19.6" y="13.4" width="2.2" height="6" rx=".5" fill="#fff"/><rect x="8.6" y="20.2" width="14.8" height="2" rx=".5" fill="#fff"/></svg><b>Agorri</b></a></div>
   <nav class="nav" id="nav"></nav>
   <div class="side-foot lbl"><span>Government you can see.</span><span>A voice they can count.</span></div>
 </aside>
@@ -1083,7 +1089,7 @@ function needVerify(fn){if(S.verified){fn();return;}pending=fn;const keep=panel;
 function openVerify(){openSheet(`
  <div class="between" style="flex-wrap:nowrap;align-items:flex-start"><h2>Check your address to post</h2><button class="x" data-close aria-label="Close" data-tip="Close">×</button></div>
  <p style="color:var(--ink2)">Anyone can read everything here. To post, comment, or weigh in on what the city is deciding, we check that your address is in ${esc(TN())}, so the conversation stays local.</p>
- <form id="vform" class="stack"><div class="stack" style="gap:6px"><label for="vaddr">Home address</label><input id="vaddr" placeholder="${esc((D&&D.town&&D.town.demoAddress)||'1 Main Street')}" autocomplete="street-address" required></div><div class="stack" style="gap:6px"><label for="vuser">Public username</label><input id="vuser" value="${esc(S.username||'')}" placeholder="south_end_neighbor" autocomplete="nickname" required><span class="muted">Other residents see this name. Your address is never shown.</span></div><div id="vstatus" class="tkc-err" hidden></div><button class="btn primary" type="submit">Check address</button></form>
+ <form id="vform" class="stack"><div class="stack" style="gap:6px"><label for="vaddr">Home address</label><input id="vaddr" placeholder="Your street address, with the house number" autocomplete="street-address" required></div><div class="stack" style="gap:6px"><label for="vuser">Public username</label><input id="vuser" value="${esc(S.username||'')}" placeholder="south_end_neighbor" autocomplete="nickname" required><span class="muted">Other residents see this name. Your address is never shown.</span></div><div id="vstatus" class="tkc-err" hidden></div><button class="btn primary" type="submit">Check address</button></form>
  <div class="answer"><b>How it works:</b> we look up your address with the U.S. Census Bureau's address service to confirm it's inside ${esc(TN())}. Agorri doesn't keep your address, only a scrambled fingerprint so one address can't open more than four accounts. Next step, coming later: a code mailed to your address.</div>`);}
 function openAccount(){openSheet(`<div class="between" style="flex-wrap:nowrap"><h2>${esc(S.username)}</h2><button class="x" data-close aria-label="Close" data-tip="Close">×</button></div><div class="stack" style="gap:4px"><span class="tag green" style="align-self:flex-start">${(S.vtowns&&S.vtowns[TOWN.id]&&S.vtowns[TOWN.id].method==='preview')?'Preview: address not checked':'Address checked'} · ${TN()}</span><span class="muted">Your address is private and not stored. Your username is the only thing other residents see.</span></div><div class="row"><button class="btn" id="unverify">Switch back to visitor (demo)</button><button class="btn" id="fbopen">Feedback on Agorri</button></div>`);}
 
@@ -1529,7 +1535,7 @@ function askIssue(i,q){const w=q.toLowerCase().split(/\W+/).filter(x=>x.length>3
  if(best.d)return `<b>${esc(best.d.title)}</b> ${outTag(best.d.outcome)}<p style="margin-top:6px">${esc(best.d.detail)}</p><p class="srcline" style="margin-top:6px">Source: <a href="${esc(best.r.url)}" target="_blank" rel="noopener">${esc(best.r.body)} minutes, ${fmtD(best.r.date)} (PDF)</a></p>`;
  return `<p>${esc(best.p)}</p><p class="srcline" style="margin-top:6px">Source: ${i.sources.map(s=>`<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.label)}</a>`).join(' · ')}</p>`;}
 document.addEventListener('submit',e=>{e.preventDefault();const f=e.target;
- if(f.id==='vform'){const btn=f.querySelector('button[type=submit]');const st=$('vstatus');btn.disabled=true;if(st)st.hidden=true;tkVerify($('vaddr').value,$('vuser').value).then(res=>{const fn=pending;pending=null;const wasPanel=panel;$('scrim').hidden=true;$('sheet').innerHTML='';rerender();toast(res.checked?'Address checked. You can post now.':'Preview: the address isn\u2019t checked here. You can post now.');if(fn)fn();if(wasPanel==='ideas'&&$('scrim').hidden)openIdeasPanel();}).catch(err=>{if(st){st.hidden=false;st.textContent=err.message||'Could not check that address.';}}).finally(()=>{btn.disabled=false;});return;}
+ if(f.id==='vform'){const btn=f.querySelector('button[type=submit]');const st=$('vstatus');btn.disabled=true;const bl=btn.textContent;btn.textContent='Checking with the Census Bureau…';if(st)st.hidden=true;f._bl=bl;tkVerify($('vaddr').value,$('vuser').value).then(res=>{const fn=pending;pending=null;const wasPanel=panel;$('scrim').hidden=true;$('sheet').innerHTML='';rerender();toast(res.checked?'Address checked. You can post now.':'Preview: the address isn\u2019t checked here. You can post now.');if(fn)fn();if(wasPanel==='ideas'&&$('scrim').hidden)openIdeasPanel();}).catch(err=>{if(st){st.hidden=false;st.textContent=err.message||'Could not check that address.';}}).finally(()=>{btn.disabled=false;btn.textContent=f._bl||'Check address';});return;}
  if(f.id==='fpost'){const text=$('fptext').value.trim();if(!text)return;const aud=f.dataset.aud||'friends';needVerify(()=>{S.posts.unshift({tab:aud==='friends'?null:S.nbTab,text,aud,at:new Date().toISOString()});save();rerender();toast(aud==='friends'?'Posted to your friends.':aud==='anon'?'Submitted anonymously. It appears after review, usually within a day.':'Submitted for review. It appears as @'+S.username+' within a day.');});return;}
  if(f.id==='gask'){const q=$('gaskq').value.trim();if(q){openAsk(q);$('gaskq').value='';}return;}
  if(f.id==='pask'){runAsk($('paskq').value);return;}
@@ -1896,7 +1902,7 @@ function tkChanged(){TALK.ver++;TALK.cache=null;tkMaybeRender();}
 function tkTyping(){const a=document.activeElement;return !!(a&&(a.tagName==='TEXTAREA'||(a.tagName==='INPUT'&&a.type!=='checkbox'&&a.type!=='radio'))&&a.closest('form'));}
 function tkMaybeRender(){if(!$('scrim').hidden&&$('sheet').dataset.thread&&!tkTyping())refreshThread();if(tkTyping()||!$('scrim').hidden){TALK.dirty=true;return;}TALK.dirty=false;rerender();}
 document.addEventListener('focusout',()=>{setTimeout(()=>{if(TALK.dirty&&!tkTyping())tkMaybeRender();},250);});
-function tkSetResident(r){if(!TOWN)return;S.vtowns=S.vtowns||{};if(r){S.vtowns[TOWN.id]={at:S.vtowns[TOWN.id]&&S.vtowns[TOWN.id].at||new Date().toISOString(),method:r.method||'address',server:true};S.username=r.username||S.username;S.verified=true;}else if(S.vtowns[TOWN.id]&&S.vtowns[TOWN.id].server){delete S.vtowns[TOWN.id];S.verified=false;}save();}
+function tkSetResident(r){if(!TOWN)return;S.vtowns=S.vtowns||{};if(r){S.vtowns[TOWN.id]={at:S.vtowns[TOWN.id]&&S.vtowns[TOWN.id].at||new Date().toISOString(),method:r.method||'address',server:true};S.username=r.username||S.username;S.verified=true;}else if(S.vtowns[TOWN.id]&&(S.vtowns[TOWN.id].server||TALK.mode==='api'||OWNHOST)){delete S.vtowns[TOWN.id];S.verified=false;}save();}
 async function tkInit(){if(TALK.mode==='artifact'&&TALK.db){tkChanged();return;}if(TALK.mode==='api'){TALK.sig=null;tkApiLoad();if(TALK.isMod)tkLoadQueue();return;}TALK.uid=tkCid();
  // 1) agorri.com: Cloudflare function backed by D1
  if(OWNHOST){try{const r=await fetch('/api/talk?town='+encodeURIComponent(TOWN.id),{headers:tkHeaders(),cache:'no-store'});if(r.ok&&(r.headers.get('content-type')||'').includes('json')){const j=await r.json();if(j&&Array.isArray(j.items)){TALK.mode='api';TALK.apiItems=j.items;TALK.ai=!!j.ai;TALK.isMod=!!j.mod;tkSetResident(j.resident);TALK.ready=true;tkChanged();if(TALK.isMod)tkLoadQueue();clearInterval(TALK.timer);TALK.timer=setInterval(()=>{if(document.visibilityState==='visible'){tkApiLoad();if(TALK.isMod)tkLoadQueue();}},20000);return;}}}catch(e){}}
@@ -2080,7 +2086,7 @@ document.addEventListener('click',e=>{const b=e.target.closest('button');const a
 document.addEventListener('click',e=>{const a=e.target.closest('a[data-tkgo]');if(!a)return;e.preventDefault();TALK.f.ctx=a.dataset.tkgo;TALK.f.kind='All';TALK.pref={ref:{t:a.dataset.tkgo.split(':')[0],id:a.dataset.tkgo.split(':').slice(1).join(':')},kind:'comment'};if((location.hash||'')==='#talk')rerender();else location.hash='#talk';});
 document.addEventListener('change',e=>{if(e.target.id==='tkctx'){TALK.f.ctx=e.target.value;rerender();}});
 document.addEventListener('submit',e=>{const f=e.target;if(!f.matches)return;
- if(f.matches('form[data-tkc]')){e.preventDefault();e.stopImmediatePropagation();if(!S.verified){if(f.closest('#sheet')){const t=tkFormPayload(f);const err=tkCheck(t);const er=f.querySelector('.tkc-err');if(err){if(er){er.hidden=false;er.textContent=err;}return;}needVerify(()=>{tkPost(t).then(st=>{toast(st==='pending'?'Sent to a person to review. Only you can see it until then.':'Posted.');openThread(t.ref);}).catch(x=>{toast(x.mod==='nudge'||x.mod==='restrict'?'Not posted: '+(x.message||'it may break a house rule')+'. Open the comments again to edit it.':(x.message||'Could not post.'));openThread(t.ref);});});return;}needVerify(()=>tkSubmit(f));return;}tkSubmit(f);return;}
+ if(f.matches('form[data-tkc]')){e.preventDefault();e.stopImmediatePropagation();if(!S.verified){if(f.closest('#sheet')){const t=tkFormPayload(f);const err=tkCheck(t);const er=f.querySelector('.tkc-err');if(err){if(er){er.hidden=false;er.textContent=err;}return;}const go=()=>tkPost(t).then(st=>{toast(st==='pending'?'Sent to a person to review. Only you can see it until then.':'Posted.');openThread(t.ref);}).catch(x=>{if(x.mod==='verify'){toast('The address check didn\u2019t save. Please check your address again.');needVerify(go);return;}toast(x.mod==='nudge'||x.mod==='restrict'?'Not posted: '+(x.message||'it may break a house rule')+'. Open the comments again to edit it.':(x.message||'Could not post.'));openThread(t.ref);});needVerify(go);return;}needVerify(()=>tkSubmit(f));return;}tkSubmit(f);return;}
  if(f.id==='tkflag'){e.preventDefault();e.stopImmediatePropagation();const r=(new FormData(f).get('why')||'Something else').toString();const k=f.dataset.key;closeSheet();tkReport(k,r);return;}
  if(f.id==='modkey'){e.preventDefault();e.stopImmediatePropagation();const v=$('modk').value.trim();try{localStorage.setItem('agorri-mod',v);}catch(err){}TALK.sig=null;tkLoadQueue().then(()=>{tkApiLoad();if(!TALK.isMod)toast('That key didn’t work.');rerender();});return;}},true);
 /* ================= Address check ================= */
@@ -2088,7 +2094,8 @@ async function tkVerify(address,username){address=(address||'').trim();username=
  if(!/^[A-Za-z0-9_.-]{3,24}$/.test(username))throw new Error('Usernames are 3 to 24 letters, numbers, dots, dashes or underscores.');
  if(address.length<5||!/\d/.test(address))throw new Error('Enter your street address with the house number.');
  if(OWNHOST){let r=null;try{r=await fetch('/api/verify',{method:'POST',headers:{'content-type':'application/json','x-agorri-client':TALK.uid||tkCid()},body:JSON.stringify({town:TOWN.id,address,username})});}catch(e){}
-  if(r&&r.status!==503&&r.status!==404){const j=await r.json().catch(()=>({}));if(!r.ok)throw new Error(j.error||'Could not check that address.');tkSetResident({username:j.username,method:'address'});TALK.sig=null;tkApiLoad();return {matched:j.matched,checked:true};}}
+  if(r&&r.status!==404){const j=await r.json().catch(()=>({}));if(!r.ok)throw new Error(j.error||'Could not check that address. Try again in a minute.');tkSetResident({username:j.username,method:'address'});TALK.sig=null;await tkApiLoad();return {matched:j.matched,checked:true};}
+  if(TALK.mode==='api'||!r)throw new Error('Couldn\u2019t reach the address check. Check your connection and try again.');}
  // Preview or no server: check with the Census Bureau directly when the browser allows it.
  try{const ctl=new AbortController();const tm=setTimeout(()=>ctl.abort(),8000);const r=await fetch(ADDRLIB.censusUrl(address,TN(),TOWN.state),{signal:ctl.signal});clearTimeout(tm);if(r.ok){const res=ADDRLIB.addressInTown(await r.json(),TN(),TOWN.state);
    if(!res.ok&&res.reason==='not_found')throw new Error('We couldn’t find that address. Check the house number and street name.');if(!res.ok)throw new Error(`That address is in ${res.place||'another town'}, not ${TN()}.`);

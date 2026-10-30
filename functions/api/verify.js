@@ -41,13 +41,17 @@ export async function onRequest(context) {
   const address = clean(b.address, 200);
   if (address.length < 5 || !/\d/.test(address)) return json({ error: 'Enter your street address with the house number.' }, 400);
 
-  let res;
-  const ctl = new AbortController(); const timer = setTimeout(() => ctl.abort(), 10000);
-  try {
-    const r = await fetch(censusUrl(address, t.name, t.state), { signal: ctl.signal, headers: { 'user-agent': 'Agorri address check (agorri.com)' } });
-    if (!r.ok) throw new Error('census ' + r.status);
-    res = addressInTown(await r.json(), t.name, t.state);
-  } catch (e) { return json({ error: 'The address check is unavailable right now. Try again in a few minutes.' }, 503); } finally { clearTimeout(timer); }
+  // The Census geocoder is free and usually answers in under a second, but it is sometimes slow or briefly down. Two tries, 12 seconds each.
+  let res, lastErr = null;
+  for (let attempt = 0; attempt < 2 && !res; attempt++) {
+    const ctl = new AbortController(); const timer = setTimeout(() => ctl.abort(), 12000);
+    try {
+      const r = await fetch(censusUrl(address, t.name, t.state), { signal: ctl.signal, headers: { 'user-agent': 'Agorri address check (agorri.com)' } });
+      if (!r.ok) throw new Error('census ' + r.status);
+      res = addressInTown(await r.json(), t.name, t.state);
+    } catch (e) { lastErr = e; } finally { clearTimeout(timer); }
+  }
+  if (!res) return json({ error: 'The U.S. Census address service didn\u2019t answer. Try again in a minute.', detail: String(lastErr && lastErr.message || '') }, 503);
   if (!res.ok && res.reason === 'not_found') return json({ error: 'We couldn’t find that address. Check the house number and street name.' }, 400);
   if (!res.ok) return json({ error: `That address is in ${res.place || 'another town'}, not ${t.name}.` }, 400);
 

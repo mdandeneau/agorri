@@ -18,4 +18,5 @@ t('with the cookie: site loads, not indexed', (await r.text()).includes('site') 
 t('changing the password signs everyone out', (await call('/nashua', { headers: { cookie: ck } }, { SITE_PASSWORD: 'new-one' })).status === 401);
 const f2 = new FormData(); f2.set('password', 'river-otter-42'); f2.set('back', '//evil.example');
 t('no open redirect after sign-in', (await call('/__gate', { method: 'POST', body: f2 })).headers.get('location') === '/');
+t('logo files stay public', (await call('/favicon.svg')).status === 200 && (await call('/og.png')).status === 200);
 console.log(`\n${ok} passed, ${bad} failed`); process.exit(bad ? 1 : 0);
