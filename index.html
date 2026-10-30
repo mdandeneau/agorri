@@ -1052,7 +1052,26 @@ a.agm-line:hover .agm-t b{color:var(--accent)}
 .hcar-b{position:absolute;top:50%;transform:translateY(-60%);z-index:2;width:36px;height:36px;border-radius:50%;border:0;background:var(--surface);box-shadow:0 2px 8px rgba(0,0,0,.18);font-size:22px;line-height:1;color:var(--ink);cursor:pointer;display:flex;align-items:center;justify-content:center}
 .hcar-b.prev{left:-14px}.hcar-b.next{right:-14px}
 .hcar.at-start .prev,.hcar.at-end .next{opacity:0;pointer-events:none}
-@media (max-width:720px){.qiss{margin-left:0;flex-basis:100%}.hcar-b{display:none}.hc{flex-basis:72%}.hcar-track{margin:0 -16px;padding:4px 16px 10px;scroll-padding:0 16px}}
+.hc-feat{flex-basis:268px;background:var(--accent);color:var(--accent-ink);--tone:var(--accent)}
+.hc-feat .hc-top{background:rgba(255,255,255,.14);color:var(--accent-ink)}.hc-feat .hc-d b{color:var(--accent-ink)}
+.hc-feat .hc-k,.hc-feat .hc-l{color:var(--accent-ink);opacity:.9}.hc-feat .hc-t{font-size:20px;letter-spacing:-.01em}
+.hc-feat .hc-ic{color:var(--accent)}.hc-feat:hover{box-shadow:0 0 0 2px var(--accent-soft-ink)}
+.hc-go{margin-top:auto;padding-top:6px;font-size:13.5px;font-weight:700}
+.pv-list{padding:4px 16px}
+.pv-row{display:flex;align-items:baseline;justify-content:space-between;gap:12px;padding:10px 0;border-top:1px solid var(--line);text-decoration:none;color:var(--ink)}
+.pv-row:first-child{border-top:0}.pv-row:hover .pv-t{text-decoration:underline}
+.pv-t{font-size:14.5px;font-weight:600;line-height:1.35;min-width:0;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.pv-row small{white-space:nowrap;flex-shrink:0;font-size:12px}
+.pv-kind{font-size:10.5px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;color:var(--accent-soft-ink);background:var(--accent-soft);border-radius:6px;padding:1px 6px;vertical-align:1px;margin-right:4px}
+.pv-foot{font-size:12px;padding:2px 0 10px}.pv-empty{font-size:13.5px;padding:10px 0}
+.dpgrid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+.dp{display:flex;flex-direction:column;gap:6px;padding:14px;text-decoration:none;color:var(--ink);min-height:132px}
+.dp:hover{box-shadow:0 0 0 2px var(--accent)}
+.dp-k{font-size:11px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;color:var(--accent-soft-ink)}
+.dp-t{font-size:15px;font-weight:700;line-height:1.25;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.dp-s{font-size:12.5px;line-height:1.35;margin-top:auto;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.pv-meet{display:block;margin-top:10px;font-size:13.5px;color:var(--ink);text-decoration:none;line-height:1.4}.pv-meet:hover{text-decoration:underline}
+@media (max-width:720px){.qiss{margin-left:0;flex-basis:100%}.hcar-b{display:none}.dpgrid{grid-template-columns:1fr}.dp{min-height:0}.hc-feat{flex-basis:80%}.hc{flex-basis:72%}.hcar-track{margin:0 -16px;padding:4px 16px 10px;scroll-padding:0 16px}}
 </style>
 
 </head>
@@ -2522,9 +2541,12 @@ function hcItems(){const out=[];if(!LX||!D)return out;const tm=addDays(TODAY,1);
  const rank=x=>x.warn?0:x.late?2:1;return out.sort((a,b)=>a.date.localeCompare(b.date)||rank(a)-rank(b)).slice(0,14);}
 function hcCard(x){const d=ld(x.date);const tm=addDays(TODAY,1);const when=x.date===TODAY?'Today':x.date===tm?'Tomorrow':d.toLocaleDateString('en-US',{weekday:'short'})+' · '+MON[d.getMonth()];
  return `<a class="hc t-${x.tone}${x.date===TODAY?' is-today':''}" href="${esc(x.href||'#local')}"${x.ext?' target="_blank" rel="noopener"':''}><span class="hc-top"><span class="hc-d"><small>${esc(when)}</small><b>${d.getDate()}</b></span><span class="hc-ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${HC_IC[x.tone]||HC_IC.event}</svg></span></span><span class="hc-k">${esc(x.k)}</span><span class="hc-t">${esc(x.t)}</span>${x.line?`<span class="hc-l">${esc(x.line)}</span>`:''}${x.src?`<span class="hc-s">${esc(x.src)} ↗</span>`:''}</a>`;}
-function hcBlock(){const it=hcItems();if(!it.length)return '';const nev=upcomingEvents().length;const nt=it.filter(x=>x.date===TODAY).length;
+function hcVote(){const C=LX&&LX.cand,e=LX&&LX.election;if(!e||!e.date||e.date<TODAY)return '';const days=Math.round((ld(e.date)-ld(TODAY))/864e5);if(days>45)return '';const d=ld(e.date);
+ const races=C?racesForWard(S.ward):[];const nc=races.reduce((n,r)=>n+(r.candidates||[]).length,0);const href=C?'#election':'#local';
+ return `<a class="hc hc-feat t-vote" href="${href}"><span class="hc-top"><span class="hc-d"><small>${days===0?'Today':days===1?'Tomorrow':'In '+days+' days'}</small><b>${d.getDate()}</b></span><span class="hc-ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${HC_IC.vote}</svg></span></span><span class="hc-k">${d.toLocaleDateString('en-US',{weekday:'long',month:'short',day:'numeric'})} · Election</span><span class="hc-t">Vote ${days===0?'today':days===1?'tomorrow':'in '+days+' days'}</span><span class="hc-l">${races.length?`${races.length} races, ${nc} candidates on a Ward ${esc(S.ward)} ballot. `:''}${esc(e.hours||'')}</span><span class="hc-go">${C?'Who is running ›':'Where to vote ›'}</span></a>`;}
+function hcBlock(){const fv=hcVote();const it=hcItems().filter(x=>!(fv&&x.tone==='vote'));if(!it.length&&!fv)return '';const nev=upcomingEvents().length;const nt=it.filter(x=>x.date===TODAY).length;
  return `<section class="blk"><div class="sec"><h2>Today and coming up</h2><a href="#local">${nev?'All '+nev+' events ›':'Calendar ›'}</a></div>
- <div class="hcar"><button type="button" class="hcar-b prev" data-hcar="-1" aria-label="Earlier">‹</button><div class="hcar-track" tabindex="0" aria-label="${nt?nt+' things today, then what is coming up':'What is coming up'}">${it.map(hcCard).join('')}</div><button type="button" class="hcar-b next" data-hcar="1" aria-label="Later">›</button></div></section>`;}
+ <div class="hcar"><button type="button" class="hcar-b prev" data-hcar="-1" aria-label="Earlier">‹</button><div class="hcar-track" tabindex="0" aria-label="${nt?nt+' things today, then what is coming up':'What is coming up'}">${fv}${it.map(hcCard).join('')}</div><button type="button" class="hcar-b next" data-hcar="1" aria-label="Later">›</button></div></section>`;}
 function hcSync(){document.querySelectorAll('.hcar').forEach(c=>{const t=c.querySelector('.hcar-track');if(!t)return;const f=()=>{c.classList.toggle('at-start',t.scrollLeft<4);c.classList.toggle('at-end',t.scrollLeft+t.clientWidth>=t.scrollWidth-4);};if(!t._hc){t._hc=1;t.addEventListener('scroll',f,{passive:true});}f();});}
 document.addEventListener('click',e=>{const b=e.target.closest('[data-hcar]');if(!b)return;const t=b.parentElement.querySelector('.hcar-track');if(t)t.scrollBy({left:(+b.dataset.hcar)*Math.max(240,t.clientWidth*.85),behavior:'smooth'});});
 /* ---- the ask card: the day's statement plus the idea box ---- */
@@ -2537,6 +2559,14 @@ function askCard(){const q=todaysQ();
  <div class="qrow"><div class="row qbtns" role="group" aria-label="Your answer">${[['agree','Agree'],['disagree','Disagree'],['pass','Pass']].map(([k,l])=>`<button type="button" class="btn sm${mine===k?' on primary':''}" data-qans="${k}" data-qid="${esc(q.id)}" title="Answer to see what others said. Address-checked answers are counted separately for the city.">${l}</button>`).join('')}</div>${iss?`<a class="muted qiss" href="#issue-${iss.id}">${esc(iss.title)} ›</a>`:''}</div>
  ${mine?(res&&res.total?qResults(res):`<p class="muted qhint">${OWNHOST?'Thanks. Results load in a moment.':'Thanks. Results are counted on agorri.com.'}</p>`):''}
  ${box}</section>`;}
+/* ---- Home previews: news, decisions, residents ---- */
+function newsPreview(){const ph=paperHeads();const hs=ph&&ph.hs?ph.hs.slice(0,3):[];if(!hs.length)return '';
+ return `<section class="blk"><div class="sec"><h2>Local news</h2><a href="#local">More ›</a></div><div class="card pv-list">${hs.map(h=>`<a class="pv-row" href="${esc(h.url)}" target="_blank" rel="noopener"><span class="pv-t">${esc(h.title)}${isNewDate(h.at||h.date)?' '+NEWDOT:''}</span><small class="muted num">${dayLbl(h.date)}</small></a>`).join('')}<div class="pv-foot muted">${esc(ph.N.name)}${ph.useLive?' · live':''}</div></div></section>`;}
+function decidingPreview(){const m=D.council_meetings[0];const top=D.issues.slice(0,3);if(!top.length)return '';
+ return `<section class="blk"><div class="sec"><h2>What the city is deciding</h2><a href="#issues">All ${D.issues.length} ›</a></div><div class="dpgrid">${top.map(i=>`<a class="card dp" href="#issue-${i.id}"><span class="dp-k">${esc(i.topic||'Issue')}${isNewDate(issueLast(i))?' '+NEWDOT:''}</span><span class="dp-t">${esc(i.title)}</span><span class="dp-s muted">${esc(i.next||i.status||'')}</span></a>`).join('')}</div>
+ ${m?`<a class="pv-meet" href="#meeting-0"><span class="muted">${m.date===addDays(TODAY,-1)?'Last night':'Latest '+esc(m.body||GB())+' meeting, '+fmtD(m.date)}:</span> ${esc(m.headline)} ›</a>`:''}</section>`;}
+function sayingPreview(){const all=(window.TALK&&TALK.ready)?tkTop():[];const top=tkSort(all,'New').slice(0,3);
+ return `<section class="blk"><div class="sec"><h2>What residents are saying</h2><a href="#talk">All talk${all.length?' ('+all.length+')':''} ›</a></div>${top.length?`<div class="card pv-list">${top.map(x=>`<a class="pv-row" href="#talk-${esc(x.key)}"><span class="pv-t"><span class="pv-kind">${esc((TK_KINDS[x.kind]||{n:'Post'}).n)}</span> ${esc(x.title||(x.body||'').slice(0,120))}</span><small class="muted">${esc(tkWho(x))} · ${ago(x.at)}</small></a>`).join('')}</div>`:`<div class="card pv-list"><p class="muted pv-empty">No posts yet. Ideas and comments from residents will show up here.</p></div>`}</section>`;}
 /* ---- the new Home ---- */
 function pageHome2(){const m=D.council_meetings[0];const yes=m?m.decisions.filter(d=>/^pass|^approved/i.test(d.outcome||'')).length:0;const nev=upcomingEvents().length;const hr=new Date().getHours();const hi=hr<12?'Good morning':hr<17?'Good afternoon':'Good evening';const yday=m&&m.date===addDays(TODAY,-1);
  if(!WX.ok||WX.town!==TOWN.id)loadWX();
@@ -2546,13 +2576,10 @@ function pageHome2(){const m=D.council_meetings[0];const yes=m?m.decisions.filte
  ${yourStuff()}
  ${kpiTiles()}
  ${hcBlock()}
- ${voteBlock()}
- <section class="blk"><div class="sec"><h2>What the city is deciding</h2><a href="#issues">All ${D.issues.length} ›</a></div><div class="ols">${D.issues.slice(0,3).map(i=>isNewDate(issueLast(i))?issueRow(i).replace('</a>',' '+NEWDOT+'</a>'):issueRow(i)).join('')}</div></section>
- ${tkHomeBlock()}
+ ${newsPreview()}
+ ${decidingPreview()}
+ ${sayingPreview()}
  ${becauseResidents()}
- <section class="blk"><div class="moneygrid two">${benchCard()}${budgetCard(true)}</div></section>
- ${m?`<section class="blk"><div class="sec"><h2>${yday?'What happened last night':'Latest '+esc(m.body||GB())+' meeting'}</h2><a href="#record">Meeting record ›</a></div><a class="ol" href="#meeting-0">${dateBox(m.date)}<span class="evt"><span style="font-weight:600">${esc(m.headline)}</span><span class="muted">${m.decisions.length?m.decisions.length+' decisions, '+yes+' passed · ':''}Full meeting ›</span></span></a></section>`:''}
- ${newsBlock()}
  ${foot()}`;}
 
 /* ================= Live feed (Cloudflare function /api/feed, Bluesky fallback) ================= */
