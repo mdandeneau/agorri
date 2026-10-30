@@ -1,0 +1,856 @@
+{
+ "as_of": "2026-10-29",
+ "note": "From the city's own parks and recreation pages, with a source on every item. Fees shown only as images on the city site are left out.",
+ "department": {
+  "name": "City of Nashua Parks and Recreation Department (Division of Public Works)",
+  "url": "https://www.nashuanh.gov/393/Parks-Recreation",
+  "phone": "603-589-3370",
+  "email": "recreation@nashuanh.gov",
+  "address": "848 West Hollis St, Nashua, NH 03064",
+  "hours": "Monday to Friday, 8 a.m. to 5 p.m.",
+  "what": "Maintains city parks, playgrounds, ballfields, stadiums, three outdoor pools and seasonal ice rinks, and runs youth sports, trips, special events, garden plots and facility rentals. Program cancellation line 603-589-3360.",
+  "source": {
+   "label": "Parks and Recreation",
+   "url": "https://www.nashuanh.gov/393/Parks-Recreation"
+  }
+ },
+ "registration": {
+  "url": "https://nashua.recdesk.com",
+  "label": "Register for programs (RecDesk)",
+  "note": "Used for Biddy Basketball, swim lessons, public trips, summer camps and Greeley Park gazebo permits. In-person registration at 848 West Hollis Street."
+ },
+ "facilities": [
+  {
+   "id": "mine-falls-park",
+   "name": "Mine Falls Park",
+   "kind": "Park",
+   "address": "Whipple Street, Nashua, NH 03060",
+   "features": [
+    "325 acres between the Nashua River and the Mill Pond canal system",
+    "Walking trails, part of the NH Heritage Trail system since 1992",
+    "Three-mile canal and 1886 gatehouse",
+    "Several fields for organized sports",
+    "Walking, biking, boating, fishing and cross-country skiing",
+    "Entrances include Whipple Street, Lincoln Park and the Stellos Stadium side"
+   ],
+   "hours": "Monday to Sunday, 6 a.m. to 10 p.m.",
+   "seasonal": null,
+   "url": "https://www.nashuanh.gov/491/Mine-Falls-Park",
+   "note": "Park rules (from the Park Rules page): pets on leash, carry out trash, no alcohol, camping, fires or motorized vehicles. The Stellos Stadium entrance is shown on the citywide parks map. Trail map PDF at nashuanh.gov/DocumentCenter/View/2328.",
+   "source": {
+    "label": "Mine Falls Park",
+    "url": "https://www.nashuanh.gov/491/Mine-Falls-Park"
+   }
+  },
+  {
+   "id": "greeley-park",
+   "name": "Greeley Park",
+   "kind": "Park",
+   "address": "100 Concord Street, Nashua, NH 03064",
+   "features": [
+    "Bandshell for summer concerts and events",
+    "Stone House pavilion (1911)",
+    "Gazebo, rentable for $25 per day",
+    "Wading pool for small children, dawn to dusk",
+    "Playground",
+    "Baseball and softball fields, lighted",
+    "Tennis courts",
+    "Horseshoes",
+    "Picnic areas and restrooms",
+    "Trails and sledding",
+    "Victory Garden plots for residents",
+    "Boat launch on Hills Ferry Road in the park's undeveloped area"
+   ],
+   "hours": null,
+   "seasonal": "Wading pool is seasonal; a full replacement was put out to bid in April 2026.",
+   "url": "https://www.nashuanh.gov/Facilities/Facility/Details/29",
+   "note": "Address from the 2026 wading pool bid and Inklink event listing; the facility directory lists Concord Street only. Gazebo fee from the Facility Rentals page, wading pool hours from the Swimming Pools page, garden plots from the Garden plots page, boat launch from facility directory entry 19, Stone House year from the Jan 2025 Aldermen report. Home of Santa in the Park, Dec 5.",
+   "source": {
+    "label": "Greeley Park (facility directory)",
+    "url": "https://www.nashuanh.gov/Facilities/Facility/Details/29"
+   }
+  },
+  {
+   "id": "greeley-park-boat-launch",
+   "name": "Greeley Park Boat Launch",
+   "kind": "Boat launch",
+   "address": "Hills Ferry Road, Nashua, NH 03060",
+   "features": [
+    "Boat launch on the Merrimack River",
+    "Part of Greeley Park's undeveloped area"
+   ],
+   "hours": null,
+   "seasonal": null,
+   "url": "https://www.nashuanh.gov/Facilities/Facility/Details/19",
+   "note": null,
+   "source": {
+    "label": "Boat Launch (facility directory)",
+    "url": "https://www.nashuanh.gov/Facilities/Facility/Details/19"
+   }
+  },
+  {
+   "id": "holman-stadium",
+   "name": "Holman Stadium",
+   "kind": "Field",
+   "address": "Amherst Street, Nashua, NH 03060",
+   "features": [
+    "Historic ballpark built in 1937",
+    "Seats over 3,000",
+    "Lighted baseball field",
+    "Picnic areas and restrooms",
+    "Home of the Nashua Silver Knights (Futures Collegiate Baseball League)",
+    "Hosts high school and college baseball, college football and the July 4 celebration"
+   ],
+   "hours": null,
+   "seasonal": null,
+   "url": "https://www.nashuanh.gov/482/Holman-Stadium",
+   "note": "Silver Knights: 603-718-8883. Street address, lighting, picnic areas and restrooms from facility directory entry 31. Centennial Pool and the David Deane Skateboard Park are next door on Sargents Avenue and Stadium Drive.",
+   "source": {
+    "label": "Holman Stadium",
+    "url": "https://www.nashuanh.gov/482/Holman-Stadium"
+   }
+  },
+  {
+   "id": "stellos-stadium",
+   "name": "Stellos Stadium",
+   "kind": "Field",
+   "address": "23 Stadium Drive, Nashua, NH 03060",
+   "features": [
+    "Football field and play field with fan seating",
+    "Nashua School District athletic facility",
+    "Use limited by ordinance to nonprofessional youth events",
+    "Entrance to Mine Falls Park"
+   ],
+   "hours": null,
+   "seasonal": null,
+   "url": "https://www.nashuanh.gov/533/Stellos-Stadium",
+   "note": "Schedules are on the Nashua North and Nashua South athletics sites.",
+   "source": {
+    "label": "Stellos Stadium",
+    "url": "https://www.nashuanh.gov/533/Stellos-Stadium"
+   }
+  },
+  {
+   "id": "roby-park",
+   "name": "Roby Park (Jeff Morin Field)",
+   "kind": "Park",
+   "address": "Spit Brook Road, Nashua, NH",
+   "features": [
+    "Playing fields and softball field",
+    "Playground",
+    "Sledding",
+    "Seasonal outdoor ice rink, general skating 10am to 8pm, no hockey",
+    "Erin's Trail walking loop",
+    "Next to Pennichuck Middle School"
+   ],
+   "hours": null,
+   "seasonal": "Outdoor rink opens when weather allows; no skate rentals.",
+   "url": "https://www.nashuanh.gov/1464/Ice-Skating-Rink--Seasonal",
+   "note": "Features from the city's Jeff Morin Field at Roby Park trail map (2012) and the seasonal rink page.",
+   "source": {
+    "label": "Jeff Morin Field at Roby Park Trail Map (PDF)",
+    "url": "https://www.nashuanh.gov/DocumentCenter/View/20639/Jeff-Morin-Field-at-Roby-Park-Trail-Map-PDF"
+   }
+  },
+  {
+   "id": "lincoln-park",
+   "name": "Lincoln Park",
+   "kind": "Field",
+   "address": "Coliseum Avenue, Nashua, NH 03060",
+   "features": [
+    "Cal Ripken baseball field",
+    "Entrance to Mine Falls Park, meeting point for Trail Days"
+   ],
+   "hours": null,
+   "seasonal": null,
+   "url": "https://www.nashuanh.gov/Facilities/Facility/Details/35",
+   "note": null,
+   "source": {
+    "label": "Lincoln Park (facility directory)",
+    "url": "https://www.nashuanh.gov/Facilities/Facility/Details/35"
+   }
+  },
+  {
+   "id": "crown-hill-pool",
+   "name": "Crown Hill Pool",
+   "kind": "Pool",
+   "address": "Burke Street, near Girls Inc., Nashua, NH 03060",
+   "features": [
+    "Outdoor city pool",
+    "Diving allowed off the red-lined area",
+    "Baseball and softball field"
+   ],
+   "hours": "When open: Monday to Friday 1 to 7 p.m.; Saturday and Sunday 1 to 6 p.m.",
+   "seasonal": "Closed for the 2026 season.",
+   "url": "https://www.nashuanh.gov/549/Swimming-Pools",
+   "note": "Children 12 and under must be with an adult 18 or older.",
+   "source": {
+    "label": "Swimming Pools",
+    "url": "https://www.nashuanh.gov/549/Swimming-Pools"
+   }
+  },
+  {
+   "id": "rotary-pool-labine-park",
+   "name": "Rotary Pool at Labine Park",
+   "kind": "Pool",
+   "address": "Cleveland Street, next to Fairgrounds Elementary School, Nashua, NH 03060",
+   "features": [
+    "Outdoor city pool, diving allowed off the red-lined area",
+    "Wading pool",
+    "Lighted baseball and softball diamond",
+    "Playground",
+    "Tennis court",
+    "Seasonal outdoor ice rink, hockey only, 11am to 10pm"
+   ],
+   "hours": "Pool when open: Monday to Friday 1 to 7 p.m.; Saturday and Sunday 1 to 6 p.m.",
+   "seasonal": "Pool closed for the 2026 season. Rink opens when weather allows.",
+   "url": "https://www.nashuanh.gov/Facilities/Facility/Details/34",
+   "note": "Pool hours and diving rule from the Swimming Pools page; rink hours from the seasonal rink page.",
+   "source": {
+    "label": "Labine Park Rotary Pool (facility directory)",
+    "url": "https://www.nashuanh.gov/Facilities/Facility/Details/34"
+   }
+  },
+  {
+   "id": "centennial-pool-north-common",
+   "name": "Centennial Pool and North Common (Four Corners)",
+   "kind": "Pool",
+   "address": "Sargents Avenue, near Holman Stadium, Nashua, NH 03060",
+   "features": [
+    "Outdoor city pool, no diving",
+    "Lighted picnic areas, playground and tennis court at North Common",
+    "Seasonal outdoor rink: general skating 11am to 4:30pm and 6 to 10pm; hockey 8 to 11am and 4:30 to 6pm"
+   ],
+   "hours": "Pool when open: Monday to Friday 1 to 7 p.m.; Saturday and Sunday 1 to 6 p.m.",
+   "seasonal": "Pool closed for the 2026 season. Rink opens when weather allows.",
+   "url": "https://www.nashuanh.gov/549/Swimming-Pools",
+   "note": "North Common amenities from the facility directory; rink hours from the seasonal rink page.",
+   "source": {
+    "label": "Swimming Pools",
+    "url": "https://www.nashuanh.gov/549/Swimming-Pools"
+   }
+  },
+  {
+   "id": "david-deane-skateboard-park",
+   "name": "David Deane Skateboard Park",
+   "kind": "Skate park",
+   "address": "Stadium Drive, Nashua, NH 03060",
+   "features": [
+    "Lighted skate park",
+    "Helmets and pads required",
+    "No bikes with pegs, no food inside the fence",
+    "Children under 11 need a parent"
+   ],
+   "hours": "8 a.m. to 10 p.m.",
+   "seasonal": "Closes in rain, snow, ice or wet conditions.",
+   "url": "https://www.nashuanh.gov/1656/Skateboard-Parks",
+   "note": null,
+   "source": {
+    "label": "Skateboard Parks",
+    "url": "https://www.nashuanh.gov/1656/Skateboard-Parks"
+   }
+  },
+  {
+   "id": "ash-street-skateboard-park",
+   "name": "Ash Street Skateboard Park",
+   "kind": "Skate park",
+   "address": "Ash Street, Nashua, NH",
+   "features": [
+    "Skate park with existing ramps",
+    "Helmets and pads required"
+   ],
+   "hours": "8 a.m. to dusk",
+   "seasonal": "Closes in rain, snow, ice or wet conditions.",
+   "url": "https://www.nashuanh.gov/1656/Skateboard-Parks",
+   "note": "The Reverend Doctor Bertha A. Perkins Los Amigos Park playground is at 34 Ash Street (facility directory entry 17).",
+   "source": {
+    "label": "Skateboard Parks",
+    "url": "https://www.nashuanh.gov/1656/Skateboard-Parks"
+   }
+  },
+  {
+   "id": "rotary-common-park",
+   "name": "Rotary Common Park",
+   "kind": "Park",
+   "address": "315 Main Street, Nashua, NH 03060",
+   "features": [
+    "Reflection Garden and Labyrinth",
+    "NH Holocaust Memorial",
+    "Sculptures from the International Sculpture Symposium",
+    "Parking at Globe Plaza across Main Street"
+   ],
+   "hours": null,
+   "seasonal": null,
+   "url": "https://www.nashuanh.gov/1622/Rotary-Common-Park",
+   "note": null,
+   "source": {
+    "label": "Rotary Common Park",
+    "url": "https://www.nashuanh.gov/1622/Rotary-Common-Park"
+   }
+  },
+  {
+   "id": "nashua-river-rail-trail",
+   "name": "Nashua River Rail Trail (Gilson Road trailhead)",
+   "kind": "Trail",
+   "address": "94 Gilson Road, Nashua, NH",
+   "features": [
+    "Paved rail trail for walking and biking",
+    "Meeting point for the Friday Walking Club"
+   ],
+   "hours": null,
+   "seasonal": null,
+   "url": "https://www.nashuanh.gov/552/Walking-Program",
+   "note": "Also marked on the citywide parks map with a West Groton Road entrance.",
+   "source": {
+    "label": "Walking Program",
+    "url": "https://www.nashuanh.gov/552/Walking-Program"
+   }
+  },
+  {
+   "id": "kirkpatrick-park",
+   "name": "Kirkpatrick Park",
+   "kind": "Park",
+   "address": "Shady Lane, Nashua, NH 03060",
+   "features": [
+    "Cal Ripken field, lighted",
+    "Basketball court",
+    "Tennis court",
+    "Playground"
+   ],
+   "hours": null,
+   "seasonal": null,
+   "url": "https://www.nashuanh.gov/Facilities/Facility/Details/33",
+   "note": null,
+   "source": {
+    "label": "Kirkpatrick Park (facility directory)",
+    "url": "https://www.nashuanh.gov/Facilities/Facility/Details/33"
+   }
+  },
+  {
+   "id": "sunset-heights",
+   "name": "Sunset Heights",
+   "kind": "Park",
+   "address": "Osgood Road, Nashua, NH 03060",
+   "features": [
+    "Cal Ripken field",
+    "Basketball court",
+    "Tennis court",
+    "Playground"
+   ],
+   "hours": null,
+   "seasonal": null,
+   "url": "https://www.nashuanh.gov/Facilities/Facility/Details/51",
+   "note": null,
+   "source": {
+    "label": "Sunset Heights (facility directory)",
+    "url": "https://www.nashuanh.gov/Facilities/Facility/Details/51"
+   }
+  },
+  {
+   "id": "fields-grove",
+   "name": "Fields Grove",
+   "kind": "Park",
+   "address": "Field Street, Nashua, NH 03060",
+   "features": [
+    "Basketball court",
+    "Tennis court",
+    "Playground",
+    "Picnic areas"
+   ],
+   "hours": null,
+   "seasonal": null,
+   "url": "https://www.nashuanh.gov/Facilities/Facility/Details/27",
+   "note": null,
+   "source": {
+    "label": "Fields Grove (facility directory)",
+    "url": "https://www.nashuanh.gov/Facilities/Facility/Details/27"
+   }
+  },
+  {
+   "id": "lyons-field",
+   "name": "Lyons Field",
+   "kind": "Field",
+   "address": "Marshall Street, Nashua, NH 03060",
+   "features": [
+    "Baseball and softball diamond, Cal Ripken field",
+    "Playground",
+    "Skating",
+    "Sledding"
+   ],
+   "hours": null,
+   "seasonal": null,
+   "url": "https://www.nashuanh.gov/Facilities/Facility/Details/36",
+   "note": null,
+   "source": {
+    "label": "Lyons Field (facility directory)",
+    "url": "https://www.nashuanh.gov/Facilities/Facility/Details/36"
+   }
+  },
+  {
+   "id": "roussel-gardner-fields",
+   "name": "Roussel / Gardner Fields",
+   "kind": "Field",
+   "address": "78 Haines Street, Nashua, NH 03060",
+   "features": [
+    "Cal Ripken field",
+    "T-ball field",
+    "Soccer field",
+    "Playground"
+   ],
+   "hours": null,
+   "seasonal": null,
+   "url": "https://www.nashuanh.gov/Facilities/Facility/Details/45",
+   "note": null,
+   "source": {
+    "label": "Roussel / Gardner Fields (facility directory)",
+    "url": "https://www.nashuanh.gov/Facilities/Facility/Details/45"
+   }
+  },
+  {
+   "id": "main-dunstable-soccer-fields",
+   "name": "Main Dunstable Soccer Fields",
+   "kind": "Field",
+   "address": "453-455 Main Dunstable Rd, Nashua, NH 03060",
+   "features": [
+    "Soccer fields"
+   ],
+   "hours": null,
+   "seasonal": null,
+   "url": "https://www.nashuanh.gov/Facilities/Facility/Details/39",
+   "note": "Yudicky Farm, a lighted baseball and softball diamond, is also on Main Dunstable Road.",
+   "source": {
+    "label": "Main Dunstable Soccer Fields (facility directory)",
+    "url": "https://www.nashuanh.gov/Facilities/Facility/Details/39"
+   }
+  },
+  {
+   "id": "memorial-park",
+   "name": "Memorial Park",
+   "kind": "Field",
+   "address": "Ledge Street, Nashua, NH",
+   "features": [
+    "Baseball field, Cal Ripken field, lighted",
+    "Basketball court",
+    "Skating"
+   ],
+   "hours": null,
+   "seasonal": null,
+   "url": "https://www.nashuanh.gov/Facilities/Facility/Details/38",
+   "note": "The directory page lists the city as Concord, NH, which appears to be an error; Memorial Park is on the Nashua citywide parks map.",
+   "source": {
+    "label": "Memorial Park (facility directory)",
+    "url": "https://www.nashuanh.gov/Facilities/Facility/Details/38"
+   }
+  },
+  {
+   "id": "sullivan-park",
+   "name": "Sullivan Park",
+   "kind": "Playground",
+   "address": "Bowers Street, Nashua, NH 03060",
+   "features": [
+    "Lighted basketball court",
+    "Playground"
+   ],
+   "hours": null,
+   "seasonal": null,
+   "url": "https://www.nashuanh.gov/Facilities/Facility/Details/50",
+   "note": null,
+   "source": {
+    "label": "Sullivan Park (facility directory)",
+    "url": "https://www.nashuanh.gov/Facilities/Facility/Details/50"
+   }
+  },
+  {
+   "id": "elks-playground",
+   "name": "Elks Playground",
+   "kind": "Playground",
+   "address": "Rancourt Street, Nashua, NH 03060",
+   "features": [
+    "Baseball and softball",
+    "Playground",
+    "Skating"
+   ],
+   "hours": null,
+   "seasonal": null,
+   "url": "https://www.nashuanh.gov/Facilities/Facility/Details/25",
+   "note": null,
+   "source": {
+    "label": "Elks Playground (facility directory)",
+    "url": "https://www.nashuanh.gov/Facilities/Facility/Details/25"
+   }
+  },
+  {
+   "id": "conway-arena",
+   "name": "Conway Arena",
+   "kind": "Rink",
+   "address": null,
+   "features": [
+    "Indoor ice rink with skate rentals",
+    "Operated under a 2002 lease overseen by the city's Conway Ice Arena Commission, which approves fees, hours and schedules"
+   ],
+   "hours": null,
+   "seasonal": null,
+   "url": "https://www.nashuanh.gov/629/Conway-Ice-Arena-Commission",
+   "note": "The city's rink page points to conwayarena.com for indoor skating; that site could not be fetched in this session.",
+   "source": {
+    "label": "Ice Skating Rink (Seasonal)",
+    "url": "https://www.nashuanh.gov/1464/Ice-Skating-Rink--Seasonal"
+   }
+  },
+  {
+   "id": "salmon-brook-sanctuary",
+   "name": "Salmon Brook Sanctuary",
+   "kind": "Trail",
+   "address": "St Lazare Street, Nashua, NH 03060",
+   "features": [
+    "Conservation area"
+   ],
+   "hours": null,
+   "seasonal": null,
+   "url": "https://www.nashuanh.gov/Facilities/Facility/Details/46",
+   "note": "Joyce Park Sanctuary on Spalding Avenue is a second city conservation area.",
+   "source": {
+    "label": "Salmon Brook Sanctuary (facility directory)",
+    "url": "https://www.nashuanh.gov/Facilities/Facility/Details/46"
+   }
+  }
+ ],
+ "programs": [
+  {
+   "name": "Biddy Basketball (Jr. Biddy, Biddy, Bantam)",
+   "who": "Ages 7 to 9, 10 to 12, and boys 13 to 15 (age as of September 30)",
+   "when": "November 2026 to early March 2027; registration closed September 30 (October 31 for Bantam)",
+   "where": "Gyms at fourteen Nashua schools",
+   "cost": "$20 per player",
+   "url": "https://www.nashuanh.gov/465/Biddy-Basketball",
+   "source": {
+    "label": "Biddy Basketball",
+    "url": "https://www.nashuanh.gov/465/Biddy-Basketball"
+   }
+  },
+  {
+   "name": "Walking Club",
+   "who": "All ages and walking speeds, with the Nashua Senior Center",
+   "when": "Fridays at 9 a.m.; 2026 season ends October 30, returns April 2027",
+   "where": "Nashua River Rail Trail, 94 Gilson Road, and Mine Falls",
+   "cost": null,
+   "url": "https://www.nashuanh.gov/552/Walking-Program",
+   "source": {
+    "label": "Walking Program",
+    "url": "https://www.nashuanh.gov/552/Walking-Program"
+   }
+  },
+  {
+   "name": "Boston Celtics vs. Milwaukee Bucks trip",
+   "who": "All ages; under 18 with a ticketed adult",
+   "when": "Wednesday, November 4, 2026",
+   "where": "Coach bus from Nashua to TD Garden",
+   "cost": "$110 per person",
+   "url": "https://www.nashuanh.gov/520/Public-Trips",
+   "source": {
+    "label": "Public Trips",
+    "url": "https://www.nashuanh.gov/520/Public-Trips"
+   }
+  },
+  {
+   "name": "New York City day trip",
+   "who": "All ages; under 18 with a ticketed adult",
+   "when": "Saturday, December 12, 2026; bus leaves 5:45 a.m., returns about 11:30 p.m.",
+   "where": "Coach bus to Madison Avenue near St. Patrick's Cathedral",
+   "cost": "$95 per person",
+   "url": "https://www.nashuanh.gov/520/Public-Trips",
+   "source": {
+    "label": "Public Trips",
+    "url": "https://www.nashuanh.gov/520/Public-Trips"
+   }
+  },
+  {
+   "name": "June Caron Senior Outing",
+   "who": "Nashua residents age 60 and over; reservations in person from October 5",
+   "when": "Sunday, November 1, 2026, 12 to 2 p.m. (spots filled as of October 13)",
+   "where": "Courtyard Marriott, 2200 Southwood Drive",
+   "cost": "Free",
+   "url": "https://www.nashuanh.gov/529/Special-Events",
+   "source": {
+    "label": "Special Events",
+    "url": "https://www.nashuanh.gov/529/Special-Events"
+   }
+  },
+  {
+   "name": "Santa in the Park",
+   "who": "Families",
+   "when": "Saturday, December 5, 2026, 12 to 2 p.m.",
+   "where": "Greeley Park",
+   "cost": "Free",
+   "url": "https://www.nashuanh.gov/529/Special-Events",
+   "source": {
+    "label": "Special Events",
+    "url": "https://www.nashuanh.gov/529/Special-Events"
+   }
+  },
+  {
+   "name": "Victory Garden plots at Greeley Park",
+   "who": "Nashua residents only; two-year waitlist",
+   "when": "May to October",
+   "where": "Greeley Park",
+   "cost": "$30 per year for a plot about 20 by 20 feet",
+   "url": "https://www.nashuanh.gov/1460/Garden-plots",
+   "source": {
+    "label": "Garden plots",
+    "url": "https://www.nashuanh.gov/1460/Garden-plots"
+   }
+  },
+  {
+   "name": "Swim lessons at city pools",
+   "who": "Preschool (ages 4 to 5) through Level 5",
+   "when": "Summer, Monday to Friday 9 a.m. to 12 p.m., two-week sessions",
+   "where": "Crown Hill, Rotary and Centennial pools",
+   "cost": "$20 per session",
+   "url": "https://www.nashuanh.gov/549/Swimming-Pools",
+   "source": {
+    "label": "Swimming Pools",
+    "url": "https://www.nashuanh.gov/549/Swimming-Pools"
+   }
+  },
+  {
+   "name": "Mine Falls Park Trail Days",
+   "who": "Volunteers, all ages",
+   "when": "2026 dates were April 18, May 16, June 20, August 15, September 19 and October 24, 9 a.m.",
+   "where": "Lincoln Park entrance to Mine Falls Park",
+   "cost": "Free",
+   "url": "https://www.nashuanh.gov/491/Mine-Falls-Park",
+   "source": {
+    "label": "Mine Falls Park",
+    "url": "https://www.nashuanh.gov/491/Mine-Falls-Park"
+   }
+  }
+ ],
+ "projects": [
+  {
+   "title": "Greeley Park wading pool replacement",
+   "status": "Planned",
+   "summary": "The city issued a design-build bid (IFB0897-050726) on April 16, 2026 to fully replace the wading pool at 100 Concord Street with new water lines and concrete decking, with bids due May 7, 2026. Work could begin June 1, 2026 and must finish by May 21, 2027.",
+   "cost": "Not stated in the bid; Aldermen approved a $75,000 supplemental item in January 2025 covering pool locker room surfaces and the 1923 wading pool",
+   "url": "https://www.nashuanh.gov/DocumentCenter/View/35191",
+   "keywords": [
+    "greeley park",
+    "wading pool",
+    "pool",
+    "splash pad",
+    "concord street"
+   ],
+   "source": {
+    "label": "Greeley Park Wading Pool Design and Construction bid (PDF)",
+    "url": "https://www.nashuanh.gov/DocumentCenter/View/35191"
+   }
+  },
+  {
+   "title": "Greeley Park bandshell repairs",
+   "status": "Funded",
+   "summary": "Bid IFB0748-050825 (April 2025) covers a new metal roof, new panels, painting, new ceiling panels and weatherproof sound and electrical cabinets for the late-1980s bandshell. The contract allowed work from November 3, 2025 with completion required by April 24, 2026.",
+   "cost": null,
+   "url": "https://www.nashuanh.gov/DocumentCenter/View/32448",
+   "keywords": [
+    "greeley park",
+    "bandshell",
+    "band shell",
+    "concert",
+    "roof"
+   ],
+   "source": {
+    "label": "Greeley Park Bandshell Repairs bid (PDF)",
+    "url": "https://www.nashuanh.gov/DocumentCenter/View/32448"
+   }
+  },
+  {
+   "title": "Greeley Park Stone House improvements",
+   "status": "Funded",
+   "summary": "Bid IFB0774-040925 (March 2025) rehabilitates the 1911 Stone House pavilion with ADA-compliant bathrooms, a roof replacement and structural repairs. A January 2025 Board of Aldermen report put the engineering estimate at about $995,000.",
+   "cost": "About $995,000 (engineering estimate reported January 2025)",
+   "url": "https://www.governmentcontracts.us/government-contracts/opportunity-details/55087568925614329.htm",
+   "keywords": [
+    "greeley park",
+    "stone house",
+    "pavilion",
+    "ada",
+    "restrooms",
+    "roof"
+   ],
+   "source": {
+    "label": "Board of Aldermen supplemental capital spending, Jan 7, 2025 (Citizen Portal)",
+    "url": "https://cpo.soar.com/articles/6371748/New-Hampshire/Board-of-Aldermen-approves-452-million-in-supplemental-capital-spending-drops-commuter-rail-and-Spruce-Street-connector-items"
+   }
+  },
+  {
+   "title": "Millyard dog park",
+   "status": "Proposed",
+   "summary": "A 2021 feasibility study found the Millyard parcel (Lot 77-5) near the Mine Falls Park entrance is a feasible site for a public dog park, with flood plain limits to be managed by design. The Animal and Dog Park Advisory Committee is forming a nonprofit to fund, build and run it.",
+   "cost": null,
+   "url": "https://www.nashuanh.gov/1505/Millyard-Dog-Park-Feasibility-Study",
+   "keywords": [
+    "dog park",
+    "millyard",
+    "adpac",
+    "mine falls",
+    "off leash"
+   ],
+   "source": {
+    "label": "Millyard Dog Park Feasibility Study",
+    "url": "https://www.nashuanh.gov/1505/Millyard-Dog-Park-Feasibility-Study"
+   }
+  },
+  {
+   "title": "Mine Falls Hydroelectric Project relicensing (FERC No. 3442)",
+   "status": "Under review",
+   "summary": "The city filed a final hydroelectric license application, revised July 6, 2022, for the Mine Falls hydro plant in the park. The city page does not say whether FERC has acted.",
+   "cost": null,
+   "url": "https://www.nashuanh.gov/1243/Mine-Falls-Hydro-Project-Relicensing",
+   "keywords": [
+    "mine falls",
+    "hydro",
+    "hydroelectric",
+    "ferc",
+    "canal"
+   ],
+   "source": {
+    "label": "Mine Falls Hydro Project Relicensing",
+    "url": "https://www.nashuanh.gov/1243/Mine-Falls-Hydro-Project-Relicensing"
+   }
+  }
+ ],
+ "seasonal": [
+  {
+   "title": "City pools closed for the season",
+   "detail": "Crown Hill, Rotary and Centennial pools are closed for the 2026 season. The Greeley Park wading pool is dawn to dusk in season and is slated for replacement.",
+   "dates": "Closed until summer 2027",
+   "url": "https://www.nashuanh.gov/549/Swimming-Pools",
+   "source": {
+    "label": "Swimming Pools",
+    "url": "https://www.nashuanh.gov/549/Swimming-Pools"
+   }
+  },
+  {
+   "title": "Outdoor ice rinks open when weather allows",
+   "detail": "Three outdoor rinks: Roby Park (general skating 10am to 8pm, no hockey), Labine Park (hockey only, 11am to 10pm) and Four Corners on Sargent Ave (general skating 11am to 4:30pm and 6 to 10pm, hockey 8 to 11am and 4:30 to 6pm). No skate rentals; rinks may close in warm weather.",
+   "dates": null,
+   "url": "https://www.nashuanh.gov/1464/Ice-Skating-Rink--Seasonal",
+   "source": {
+    "label": "Ice Skating Rink (Seasonal)",
+    "url": "https://www.nashuanh.gov/1464/Ice-Skating-Rink--Seasonal"
+   }
+  },
+  {
+   "title": "Walking Club ends October 30",
+   "detail": "The Friday Walking Club at the Nashua River Rail Trail ends for 2026 on October 30 and returns in April 2027.",
+   "dates": "October 30, 2026",
+   "url": "https://www.nashuanh.gov/552/Walking-Program",
+   "source": {
+    "label": "Walking Program",
+    "url": "https://www.nashuanh.gov/552/Walking-Program"
+   }
+  },
+  {
+   "title": "Nashua Trick-or-Treat",
+   "detail": "City trick-or-treat hours are Saturday, October 31, 6 to 8 p.m.",
+   "dates": "October 31, 2026",
+   "url": "https://www.nashuanh.gov/CivicAlerts.aspx",
+   "source": {
+    "label": "City of Nashua News Flash",
+    "url": "https://www.nashuanh.gov/CivicAlerts.aspx"
+   }
+  },
+  {
+   "title": "Santa in the Park",
+   "detail": "Meet Santa at Greeley Park, Saturday, December 5, 12 to 2 p.m. Free, with a small gift and candy cane for each child.",
+   "dates": "December 5, 2026",
+   "url": "https://www.nashuanh.gov/529/Special-Events",
+   "source": {
+    "label": "Special Events",
+    "url": "https://www.nashuanh.gov/529/Special-Events"
+   }
+  },
+  {
+   "title": "Skate parks close in wet weather",
+   "detail": "David Deane (Stadium Drive, 8am to 10pm) and Ash Street (8am to dusk) skate parks close during rain, snow, ice or wet surface conditions.",
+   "dates": null,
+   "url": "https://www.nashuanh.gov/1656/Skateboard-Parks",
+   "source": {
+    "label": "Skateboard Parks",
+    "url": "https://www.nashuanh.gov/1656/Skateboard-Parks"
+   }
+  }
+ ],
+ "contacts": [
+  {
+   "role": "Superintendent of Parks",
+   "name": "Bryan Conant",
+   "phone": "603-589-3370",
+   "email": null,
+   "source": {
+    "label": "Parks and Recreation",
+    "url": "https://www.nashuanh.gov/393/Parks-Recreation"
+   }
+  },
+  {
+   "role": "Communications Administrator",
+   "name": "Lauren Byers",
+   "phone": null,
+   "email": null,
+   "source": {
+    "label": "Parks and Recreation",
+    "url": "https://www.nashuanh.gov/393/Parks-Recreation"
+   }
+  },
+  {
+   "role": "Recreation office (programs, garden plots)",
+   "name": null,
+   "phone": "603-589-3370",
+   "email": "recreation@nashuanh.gov",
+   "source": {
+    "label": "Youth Sports",
+    "url": "https://www.nashuanh.gov/553/Youth-Sports"
+   }
+  },
+  {
+   "role": "Program cancellation line",
+   "name": null,
+   "phone": "603-589-3360",
+   "email": null,
+   "source": {
+    "label": "Parks and Recreation",
+    "url": "https://www.nashuanh.gov/393/Parks-Recreation"
+   }
+  },
+  {
+   "role": "Special events in parks",
+   "name": null,
+   "phone": null,
+   "email": "specialevents@nashuanh.gov",
+   "source": {
+    "label": "Facility Rentals",
+    "url": "https://www.nashuanh.gov/1461/Facility-Rentals"
+   }
+  },
+  {
+   "role": "Animal and Dog Park Advisory Committee",
+   "name": "Deb Chisolm (primary contact)",
+   "phone": "603-589-3092",
+   "email": "ADPAC@nashuanh.gov",
+   "source": {
+    "label": "Animal and Dog Park Advisory Committee",
+    "url": "https://www.nashuanh.gov/1276/Animal-and-Dog-Park"
+   }
+  },
+  {
+   "role": "Nashua Silver Knights (Holman Stadium tenant)",
+   "name": null,
+   "phone": "603-718-8883",
+   "email": null,
+   "source": {
+    "label": "Holman Stadium",
+    "url": "https://www.nashuanh.gov/482/Holman-Stadium"
+   }
+  }
+ ],
+ "methodology": "Compiled from City of Nashua Parks and Recreation pages, the city's facility directory, bid documents and the citywide parks map on nashuanh.gov, with one local news item, fetched October 29, 2026. Not covered: facility directory pages for Roby Park, Mine Falls Park, Southwest Park and Centennial Pool could not be fetched, so those entries rely on the park, pool and rink pages; program fees for Conway Arena and Nashua Senior Center are not included."
+}

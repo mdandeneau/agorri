@@ -130,6 +130,17 @@
    "level": "State"
   },
   {
+   "id": "parks-nashua-parks-rec-advisories-rss",
+   "who": "City of Nashua Parks and Recreation (News Flash: Parks and Recreation Advisories)",
+   "platform": "City website",
+   "type": "rss",
+   "url": "https://www.nashuanh.gov/RSSFeed.aspx?ModID=1&CID=12",
+   "tag": "parks",
+   "level": "City",
+   "kind": "official",
+   "auto": true
+  },
+  {
    "id": "biz-nashua-independent-business-rss",
    "who": "The Nashua Independent, Business tag only (press releases, hospital and company news, ribbon cuttings)",
    "platform": "News",
@@ -207,17 +218,6 @@
    "type": "bluesky",
    "actor": "chrispappasnh.bsky.social",
    "person": "chris-pappas",
-   "level": "Federal",
-   "kind": "candidate",
-   "auto": true
-  },
-  {
-   "id": "cand-maggie-goodlander-youtube",
-   "who": "Maggie Goodlander",
-   "platform": "YouTube",
-   "type": "atom",
-   "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCQiDPQY53U-S6ZtGBshuHZw",
-   "person": "maggie-goodlander",
    "level": "Federal",
    "kind": "candidate",
    "auto": true

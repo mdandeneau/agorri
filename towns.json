@@ -33,6 +33,7 @@
     "local": "data/nashua/local.json",
     "beyond": "data/nashua/beyond.json",
     "feeds": "data/nashua/feeds.json",
+    "parks": "data/nashua/parks.json",
     "business": "data/nashua/business.json",
     "candidates": "data/nashua/candidates.json"
    }

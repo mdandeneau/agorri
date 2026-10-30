@@ -258,7 +258,7 @@
    "hours": null,
    "seasonal": null,
    "url": "https://www.portsmouthnh.gov/prescottpark",
-   "note": "Gardens are designed and maintained by the Parks and Greenery Division of DPW. No alcohol or pets in the park.",
+   "note": "Gardens are designed and maintained by the Parks and Greenery Division of DPW. No alcohol or pets in the park (rule from the Prescott Park Docks page).",
    "source": {
     "label": "Prescott Park",
     "url": "https://www.portsmouthnh.gov/prescottpark"
@@ -303,7 +303,7 @@
    "hours": "Dawn to dusk; court lights on until 10:00 pm in prime season",
    "seasonal": null,
    "url": "https://www.portsmouthnh.gov/recreation/south-mill-pond-recreation-complex",
-   "note": "Pickleball group play reserved daily on all 8 courts 7:00 to 11:00 am per the complex page; the pickleball page says 9:00 am to 12:00 pm. Yield after 1 hour if others wait.",
+   "note": "Pickleball group play reserved daily on all 8 courts 7:00 to 11:00 am per the complex page; the pickleball page says 9:00 am to 12:00 pm. Yield after 1 hour if others wait. Playground replacement date from the DPW South Mill Pond Playground project page.",
    "source": {
     "label": "South Mill Pond Recreation Complex",
     "url": "https://www.portsmouthnh.gov/recreation/south-mill-pond-recreation-complex"
@@ -365,7 +365,7 @@
    "hours": null,
    "seasonal": null,
    "url": "https://www.portsmouthnh.gov/publicworks/parksandgreenery/goodwin-park",
-   "note": "Maintained by Parks and Greenery, DPW, (603) 427-1530.",
+   "note": "Maintained by Parks and Greenery, DPW, (603) 427-1530. Veterans Day ceremony and parade start from the Recreation Special Events and Trips page.",
    "source": {
     "label": "Goodwin Park",
     "url": "https://www.portsmouthnh.gov/publicworks/parksandgreenery/goodwin-park"
@@ -401,7 +401,7 @@
    "hours": null,
    "seasonal": null,
    "url": null,
-   "note": "Named on the city's Parks and Playgrounds map. No dedicated city page found.",
+   "note": "Named on the city's Parks and Playgrounds map; adjacency from the South Mill Pond Recreation Complex page; egg hunt from the Special Events and Trips page. No dedicated city page found.",
    "source": {
     "label": "Parks and Playgrounds map (DPW, 2021)",
     "url": "https://files.portsmouthnh.gov/maps/ParksPlaygrounds8x11.pdf"
@@ -418,7 +418,7 @@
    "hours": null,
    "seasonal": null,
    "url": null,
-   "note": "Named on the city's Parks and Playgrounds map. No dedicated city page found.",
+   "note": "Named on the city's Parks and Playgrounds map; adjacency from the South Mill Pond Recreation Complex page. No dedicated city page found.",
    "source": {
     "label": "Parks and Playgrounds map (DPW, 2021)",
     "url": "https://files.portsmouthnh.gov/maps/ParksPlaygrounds8x11.pdf"
