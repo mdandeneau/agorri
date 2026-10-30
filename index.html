@@ -2755,7 +2755,7 @@ async function runAsk(q){q=(q||'').trim();if(!q)return;const body=$('askbody');i
  catch(e){if(sig.aborted||!e||e.code==='cancelled')return;if(e.text)tx.textContent=e.text;const M={not_granted:'Written answers are off for this view. The matching records are below.',sampling_disabled:'Written answers are not available on this account. The matching records are below.',rate_limited:'Too many questions at once. Wait a minute and try again.',refused:'That question could not be answered here. The matching records are below.'};st.textContent=M[e.code]||'The answer did not come through. The matching records are below.';if(e.code==='not_granted'||e.code==='sampling_disabled'||e.code==='not_declared')FB.sample=null;}}
 
 /* ================= Boot ================= */
-(async()=>{let reg=null;try{const r=await fetch('towns.json');if(r.ok)reg=await r.json();}catch(e){}
+(async()=>{let reg=null;try{const r=await fetch('towns.json',{cache:'no-cache'});if(r.ok)reg=await r.json();}catch(e){}
  TOWNS=(reg&&reg.towns)||[{id:'portsmouth',name:'Portsmouth',state:'NH',stateName:'New Hampshire',kind:'City',status:'live',files:{record:'portsmouth.json',beyond:'beyond.json',local:'local.json'}}];
  const pt=OWNHOST?location.pathname.split('/').filter(Boolean)[0]:null;const pick=(pt&&TOWNS.find(t=>t.id===pt.toLowerCase()))||TOWNS.find(t=>t.id===S.town)||TOWNS.find(t=>t.id===(reg&&reg.default))||TOWNS.find(t=>t.status==='live')||TOWNS[0];
  await switchTown(pick.id,true);})();
