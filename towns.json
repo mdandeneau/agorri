@@ -19,6 +19,12 @@
     "business": "data/portsmouth/business.json",
     "candidates": "data/portsmouth/candidates.json",
     "questions": "data/portsmouth/questions.json"
+   },
+   "assessor": {
+    "type": "vgsi",
+    "base": "https://gis.vgsi.com/portsmouthnh/",
+    "site": "https://gis.vgsi.com/portsmouthnh/",
+    "label": "City of Portsmouth Assessor (Vision Government Solutions)"
    }
   },
   {
@@ -38,6 +44,12 @@
     "business": "data/nashua/business.json",
     "candidates": "data/nashua/candidates.json",
     "questions": "data/nashua/questions.json"
+   },
+   "assessor": {
+    "type": "patriot",
+    "base": "https://assessing.nashuanh.gov/",
+    "site": "https://assessing.nashuanh.gov/",
+    "label": "City of Nashua Assessing (Patriot Properties)"
    }
   },
   {

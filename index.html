@@ -1078,6 +1078,18 @@ a.agm-line:hover .agm-t b{color:var(--accent)}
 .side .nav .sitefb-nav:hover{filter:brightness(1.06)}
 @media (max-width:999px) and (min-width:641px){.side .nav .sitefb-nav{width:52px;height:48px;padding:0;justify-content:center}}
 #sitefb{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}#sitefb:hover{color:var(--accent-ink);filter:brightness(1.06)}
+.wrap.wide{max-width:900px}
+.tbback{display:inline-flex;align-items:center;justify-content:center;width:38px;height:38px;flex-shrink:0;border-radius:50%;border:0;background:var(--surface);box-shadow:0 0 0 1px var(--line);color:var(--ink);cursor:pointer;margin-right:4px}
+.tbback[hidden]{display:none}.tbback:hover{color:var(--accent);box-shadow:0 0 0 1px var(--accent)}
+@media (max-width:640px){.tbar.has-back .tb-brand{display:none}.tbback{width:34px;height:34px}}
+.hl{display:flex;flex-direction:column;gap:8px;font-size:13px;line-height:1.4}
+.hl-q{color:var(--ink2)}.hl-src{color:var(--ink2)}.hl-src b{color:var(--ink)}
+.hlform{display:flex;gap:8px}.hlform input{flex:1 1 auto;min-width:0;height:36px;border-radius:10px;border:1px solid var(--line);background:var(--surface);color:var(--ink);padding:0 12px;font:inherit;font-size:14px}
+.hlform input:focus{outline:none;border-color:var(--accent);box-shadow:0 0 0 2px var(--accent-soft)}
+.hl-err{color:var(--red-ink);font-size:12.5px}
+.hl-ch{display:flex;flex-direction:column;gap:6px;max-height:260px;overflow:auto}
+.hl-pick{display:flex;justify-content:space-between;align-items:center;gap:10px;padding:8px 12px;border-radius:10px;border:1px solid var(--line);background:var(--surface);color:var(--ink);font:inherit;font-size:13.5px;text-align:left;cursor:pointer}
+.hl-pick:hover{border-color:var(--accent)}
 @media (max-width:720px){.qiss{margin-left:0;flex-basis:100%}.hcar-b{display:none}.dpgrid{grid-template-columns:1fr}.dp{min-height:0}.hc-feat{flex-basis:80%}.hc{flex-basis:72%}.hcar-track{margin:0 -16px;padding:4px 16px 10px;scroll-padding:0 16px}}
 </style>
 
@@ -1124,6 +1136,7 @@ a.agm-line:hover .agm-t b{color:var(--accent)}
 </aside>
 <header class="tbar" id="tbar">
   <div class="tb-row">
+    <button type="button" class="tbback" id="tbback" hidden aria-label="Back" data-tip="Back"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 18l-6-6 6-6"/></svg></button>
     <a class="tb-brand" href="#home" aria-label="Agorri home" data-tip="Agorri home"><svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" class="mark" width="28" height="28" aria-hidden="true"><path d="M16 2.5C8.5 2.5 2.5 7.9 2.5 14.6c0 3.6 1.7 6.8 4.5 9L5.6 29.2l6.4-3.2c1.3.4 2.6.6 4 .6 7.5 0 13.5-5.4 13.5-12S23.5 2.5 16 2.5z" fill="currentColor"/><path d="M16 8.2l7.4 4H8.6z" fill="#fff"/><rect x="10.2" y="13.4" width="2.2" height="6" rx=".5" fill="#fff"/><rect x="14.9" y="13.4" width="2.2" height="6" rx=".5" fill="#fff"/><rect x="19.6" y="13.4" width="2.2" height="6" rx=".5" fill="#fff"/><rect x="8.6" y="20.2" width="14.8" height="2" rx=".5" fill="#fff"/></svg></a>
     <button class="townbtn" id="townbtn" aria-haspopup="dialog" aria-label="Change town" data-tip="Change town. Portsmouth is live; more Seacoast towns are coming."><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s7-6.5 7-12a7 7 0 1 0-14 0c0 5.5 7 12 7 12z"/><circle cx="12" cy="9" r="2.5"/></svg><span id="townname">Portsmouth, NH</span><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg></button>
     <form class="ask" id="gask" role="search"><span class="tipicon" data-tip="Ask anything about the town. Answers come only from the public record, each with its source."><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg></span><input id="gaskq" placeholder="Ask anything about Portsmouth" autocomplete="off" aria-label="Ask anything about Portsmouth"></form>
@@ -1276,7 +1289,7 @@ function topicsChart(){const T=D.topics||[];if(T.length<3)return '';const mx=T[0
 function slotMap(){const m={};(budgetParts()||[]).forEach(p=>{m[p.full||p.name]=p.k;m[p.name]=p.k;});return m;}
 function billCard(){const B=D.budget,rt=RATE();const items=(B.taxDollar&&B.taxDollar.items)||[];if(!rt||!items.length)return '';const hv=homeVal(),own=S.homes&&TOWN&&S.homes[TOWN.id];const bill=Math.round(hv/1000*rt);const top=items.slice(0,5);const rest=items.slice(5).reduce((a,x)=>a+x.pct,0);const rows=top.map((x,k)=>({name:x.name,pct:x.pct,k})).concat(rest>0.05?[{name:'Everything else',pct:Math.round(rest*10)/10,k:5}]:[]);const mx=Math.max(...rows.map(r=>r.pct));const max=Math.max(1500000,Math.ceil(hv*2/100000)*100000);
  return `<div class="card stack bcard" style="gap:10px"><div class="between" style="align-items:flex-end;gap:8px"><div class="stack" style="gap:2px"><span class="eyebrow">${own?'Your tax bill, est.':'Tax bill on a typical home, est.'}</span><span><b class="big num" id="hb-bill">$${bill.toLocaleString()}</b> <span class="muted" id="hb-sub">a year · $${Math.round(bill/12).toLocaleString()}/mo · $${(bill/365).toFixed(2)}/day</span></span></div><a class="more-l" href="#budget">Taxes ›</a></div>
- <label class="hbr"><span class="between"><span>Home's assessed value</span><b class="num" id="hb-hv">$${hv.toLocaleString()}</b></span><input type="range" id="hvr" min="100000" max="${max}" step="5000" value="${hv}" aria-label="Home's assessed value"></label>
+ ${homeLookup()}<label class="hbr"><span class="between"><span>Home's assessed value</span><b class="num" id="hb-hv">$${hv.toLocaleString()}</b></span><input type="range" id="hvr" min="100000" max="${max}" step="5000" value="${hv}" aria-label="Home's assessed value"></label>
  <div class="hb-rows">${rows.map(r=>`<div class="hb-row" data-tip="${esc(r.name)}: ${r.pct}% of the bill"><span class="hb-n">${esc(r.name)}</span><span class="hb-bar"><i style="width:${(r.pct/mx*100).toFixed(1)}%"></i></span><b class="num" data-pct="${r.pct}">$${Math.round(bill*r.pct/100).toLocaleString()}</b></div>`).join('')}</div>
  <span class="srcline" style="font-weight:500">${esc(B.taxDollar.label)}. At $${rt} per $1,000.</span></div>`;}
 function buildCard(){const C=D.budget.cip;const ps=((C&&C.top)||[]).slice().sort((a,b2)=>b2.amount-a.amount).slice(0,5);if(ps.length<3)return '';const mx=ps[0].amount;const st=ps.some(p=>p.status);
@@ -2482,7 +2495,7 @@ function newCounts(){const p=sincePrev();if(!p||!D)return {issues:0,talk:0,local
  return {issues:D.issues.filter(i=>isNewDate(issueLast(i))).length,talk:(window.TALK&&TALK.ready?tkTop().filter(x=>!x.mine&&x.at>p).length:0),local:((LX&&LX.notices)||[]).filter(n=>isNewDate(n.date)&&n.date<=TODAY).length};}
 const NEWDOT='<span class="newdot" title="New since your last visit">New</span>';
 function applyNavBadges(){const n=newCounts();[['issues',n.issues],['talk',n.talk],['local',n.local]].forEach(([k,c])=>{document.querySelectorAll(`#nav a[href="#${k}"],#tabbar a[href="#${k}"]`).forEach(a=>{let b=a.querySelector('.navnew');if(!c){if(b)b.remove();return;}if(!b){b=document.createElement('span');b.className='navnew';a.appendChild(b);}b.textContent=c;b.title=c+' new since your last visit';});});}
-var SEEN_ONCE={};const _route39=route;route=function(){if(TOWN&&!SEEN_ONCE[TOWN.id]){SEEN_ONCE[TOWN.id]=1;try{seenInit();}catch(e){}}_route39();try{applyNavBadges();hcSync();}catch(e){}};
+var SEEN_ONCE={};const _route39=route;route=function(){if(TOWN&&!SEEN_ONCE[TOWN.id]){SEEN_ONCE[TOWN.id]=1;try{seenInit();}catch(e){}}_route39();try{applyNavBadges();hcSync();navChrome();}catch(e){}};
 /* ---- weather alerts from the National Weather Service ---- */
 async function loadWX(){if(!TOWN||!TOWN_PT[TOWN.id])return;if(WX.town===TOWN.id&&Date.now()-WX.at<15*60e3)return;WX.town=TOWN.id;WX.at=Date.now();
  try{const [la,lo]=TOWN_PT[TOWN.id];const r=await fetch(`https://api.weather.gov/alerts/active?point=${la},${lo}`,{headers:{accept:'application/geo+json'}});if(!r.ok)throw 0;const j=await r.json();
@@ -2588,6 +2601,39 @@ function pageHome2(){const m=D.council_meetings[0];const yes=m?m.decisions.filte
  ${sayingPreview()}
  ${becauseResidents()}
  ${foot()}`;}
+/* ---- Tax estimate from the city assessor's value for your address (functions/api/assessment.js) ---- */
+var AS={busy:false,err:'',choices:null,open:false};
+const tcase=s=>String(s||'').toLowerCase().replace(/\b([a-z])/g,c=>c.toUpperCase()).replace(/\b(Nh|Us|Ii|Iii)\b/g,x=>x.toUpperCase()).replace(/(\d)([a-z])\b/g,(m,d,c)=>d+c.toUpperCase());
+function homeSrc(){return (S.homeSrc&&TOWN&&S.homeSrc[TOWN.id])||null;}
+function assessUse(x,src,quiet){S.homes=S.homes||{};S.homes[TOWN.id]=x.value;S.homeSrc=S.homeSrc||{};S.homeSrc[TOWN.id]={loc:x.loc,value:x.value,use:x.use||'',src:(src&&src.label)||'the city assessor',at:TODAY};AS.choices=null;AS.open=false;AS.err='';save();
+ if(!quiet&&RATE())toast(`Tax estimate updated: ${tcase(x.loc)}, assessed at $${x.value.toLocaleString()}, about $${Math.round(x.value/1000*RATE()).toLocaleString()} a year.`);}
+async function assessLookup(address,quiet){if(!TOWN||!address)return;if(!OWNHOST){AS.err='Looking up your home works on agorri.com.';rerender();return;}
+ AS.busy=true;AS.err='';AS.choices=null;rerender();
+ try{const r=await fetch(`/api/assessment?town=${encodeURIComponent(TOWN.id)}&address=${encodeURIComponent(address)}`);const j=await r.json().catch(()=>({}));
+  if(!r.ok)throw new Error(j.error||'The lookup didn’t work. Try again in a minute.');
+  if(!j.results||!j.results.length)throw new Error(`The assessor has no record for ${tcase(j.query||address)}. Check the house number and street.`);
+  if(j.results.length===1)assessUse(j.results[0],j.source,quiet);else{AS.choices={list:j.results,source:j.source};AS.open=true;}}
+ catch(e){AS.err=e.message;if(quiet)AS.err='';}
+ AS.busy=false;rerender();}
+function homeLookup(){if(!TOWN||!RATE())return '';const h=homeSrc();const mine=h&&S.homes&&S.homes[TOWN.id]===h.value;
+ if(AS.choices)return `<div class="hl"><span class="hl-q">More than one property at that address. Which is yours?</span><div class="hl-ch">${AS.choices.list.map((x,i)=>`<button type="button" class="hl-pick" data-hlpick="${i}"><span>${esc(tcase(x.loc))}${x.use?` <small class="muted">${esc(tcase(x.use))}</small>`:''}</span><b class="num">$${x.value.toLocaleString()}</b></button>`).join('')}</div><button type="button" class="linkbtn" data-hlcancel>Cancel</button></div>`;
+ const form=`<form class="hlform" data-hlform><input name="addr" autocomplete="street-address" aria-label="Your street address" placeholder="Your street address, e.g. 12 Maple St"><button class="btn sm primary" type="submit"${AS.busy?' disabled':''}>${AS.busy?'Looking up…':'Use my home'}</button></form>${AS.err?`<span class="hl-err">${esc(AS.err)}</span>`:''}`;
+ if(mine)return `<div class="hl"><span class="hl-src">Your home: <b>${esc(tcase(h.loc))}</b>, assessed at $${h.value.toLocaleString()} by ${esc(h.src)}. Before any exemptions or credits. <button type="button" class="linkbtn" data-hlopen>${AS.open?'Cancel':'Change'}</button></span>${AS.open?form:''}</div>`;
+ return `<div class="hl"><span class="hl-q">Get your own bill: enter your address and we'll use the city assessor's value for your home.</span>${form}</div>`;}
+document.addEventListener('submit',e=>{const f=e.target;if(!f.matches||!f.matches('[data-hlform]'))return;e.preventDefault();e.stopImmediatePropagation();const v=(new FormData(f).get('addr')||'').toString().trim();if(!/\d/.test(v)){AS.err='Include the house number.';rerender();return;}assessLookup(v,false);},true);
+document.addEventListener('click',e=>{const b=e.target.closest('[data-hlpick],[data-hlopen],[data-hlcancel]');if(!b)return;e.preventDefault();
+ if(b.dataset.hlpick!==undefined&&AS.choices){const x=AS.choices.list[+b.dataset.hlpick];if(x)assessUse(x,AS.choices.source,false);}
+ else if(b.dataset.hlopen!==undefined){AS.open=!AS.open;AS.err='';}
+ else{AS.choices=null;AS.open=false;AS.err='';}
+ rerender();},true);
+/* the address typed for the address check also sets the tax estimate, unless the visitor already picked a home */
+const _tkVerify39=tkVerify;tkVerify=async function(a,u){const r=await _tkVerify39(a,u);try{if(r&&r.checked&&!homeSrc())assessLookup(r.matched||a,false);}catch(e){}return r;};
+/* ---- Back arrow on every page except Home; Home gets a wider column ---- */
+var NAVST=[];
+function navTrack(){const h=(location.hash||'#home').slice(1)||'home';if(NAVST.length>1&&NAVST[NAVST.length-2]===h)NAVST.pop();else if(NAVST[NAVST.length-1]!==h)NAVST.push(h);if(NAVST.length>60)NAVST=NAVST.slice(-60);}
+window.addEventListener('hashchange',navTrack);navTrack();
+function navChrome(){const h=(location.hash||'#home').slice(1)||'home';const home=h==='home';const b=document.getElementById('tbback');if(b)b.hidden=home;const t=document.getElementById('tbar');if(t)t.classList.toggle('has-back',!home);const app=document.getElementById('app');if(app)app.classList.toggle('wide',home||h==='home-classic');}
+document.addEventListener('click',e=>{const b=e.target.closest('#tbback');if(!b)return;e.preventDefault();if(NAVST.length>1)history.back();else location.hash='#home';});
 
 /* ================= Live feed (Cloudflare function /api/feed, Bluesky fallback) ================= */
 const LIVE={on:false,updated:null,timer:null};
