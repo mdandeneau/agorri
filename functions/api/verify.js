@@ -1,9 +1,9 @@
 // /api/verify : address check before a resident can post or comment.
-// POST {town, address, username} -> checks with the U.S. Census geocoder that the address is real and inside the town.
+// POST {town, address, username} -> checks with the U.S. Census geocoder (OpenStreetMap as a backup) that the address is real and inside the town.
 // Stores only a salted hash of the matched address (never the address), the public username, and the method.
 // At most 4 browsers per address per town; usernames are unique per town. GET ?town= tells this browser whether it's checked.
 // This is an honor-system check (anyone can type a real address). Upgrade path: mailed codes (method "mail").
-import { censusUrl, addressInTown } from '../../lib/address.js';
+import { censusUrl, addressInTown, osmUrl, osmInTown } from '../../lib/address.js';
 import { getSalt } from '../../lib/salt.js';
 
 const MAX_PER_ADDRESS = 4;
@@ -51,7 +51,16 @@ export async function onRequest(context) {
       res = addressInTown(await r.json(), t.name, t.state);
     } catch (e) { lastErr = e; } finally { clearTimeout(timer); }
   }
-  if (!res) return json({ error: 'The U.S. Census address service didn\u2019t answer. Try again in a minute.', detail: String(lastErr && lastErr.message || '') }, 503);
+  // Backup: OpenStreetMap, used only when the Census service didn't answer.
+  if (!res) {
+    const ctl = new AbortController(); const timer = setTimeout(() => ctl.abort(), 8000);
+    try {
+      const r = await fetch(osmUrl(address, t.name, t.state), { signal: ctl.signal, headers: { 'user-agent': 'Agorri address check (agorri.com)', 'accept-language': 'en' } });
+      if (!r.ok) throw new Error('osm ' + r.status);
+      res = osmInTown(await r.json(), t.name, t.state);
+    } catch (e) { lastErr = e; } finally { clearTimeout(timer); }
+  }
+  if (!res) return json({ error: 'The address services didn\u2019t answer. Try again in a minute.', detail: String(lastErr && lastErr.message || '') }, 503);
   if (!res.ok && res.reason === 'not_found') return json({ error: 'We couldn’t find that address. Check the house number and street name.' }, 400);
   if (!res.ok) return json({ error: `That address is in ${res.place || 'another town'}, not ${t.name}.` }, 400);
 

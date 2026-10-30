@@ -5,7 +5,7 @@ import fs from 'node:fs';
 import * as talk from '../functions/api/talk.js';
 import * as verify from '../functions/api/verify.js';
 import { modVerdict } from '../lib/moderation.js';
-import { addressInTown } from '../lib/address.js';
+import { addressInTown, osmInTown } from '../lib/address.js';
 const db = new DatabaseSync(':memory:');
 for (const f of ['setup-all.sql']) db.exec(fs.readFileSync(new URL('../migrations/' + f, import.meta.url), 'utf8'));
 const D1 = { prepare(sql) { let a = []; const st = { bind(...x) { a = x; return st; }, async all() { return { results: db.prepare(sql).all(...a) }; }, async first() { return db.prepare(sql).get(...a) ?? null; }, async run() { const r = db.prepare(sql).run(...a); return { success: true, meta: { changes: r.changes } }; } }; return st; } };
@@ -55,6 +55,11 @@ t('verdict: policy action wins over the model', modVerdict('{"decision":"restric
 t('verdict: unknown category goes to a person', modVerdict({ decision: 'restrict', category: 'weird' }).decision === 'review');
 t('verdict: junk is null', modVerdict('no json here') === null);
 t('address: inside town', addressInTown(geo('1 JUNKINS AVE, PORTSMOUTH, NH, 03801', 'Portsmouth'), 'Portsmouth', 'NH').ok);
+const osm = (hn, road, city, state) => [{ address: { house_number: hn, road, city, state, postcode: '03801' } }];
+t('address backup: real address in town', osmInTown(osm('699', 'Middle Street', 'Portsmouth', 'New Hampshire'), 'Portsmouth', 'NH').ok);
+t('address backup: street only does not count', !osmInTown([{ address: { road: 'Middle Street', city: 'Portsmouth', state: 'New Hampshire' } }], 'Portsmouth', 'NH').ok);
+t('address backup: other town refused', osmInTown(osm('288', 'Central Avenue', 'Dover', 'New Hampshire'), 'Portsmouth', 'NH').place === 'Dover');
+t('address backup: same town name in another state refused', !osmInTown(osm('1', 'Main Street', 'Portsmouth', 'Rhode Island'), 'Portsmouth', 'NH').ok);
 t('address: other town named', addressInTown(geo('1 MAIN ST, DOVER, NH, 03820', 'Dover'), 'Portsmouth', 'NH').place === 'Dover city');
 
 // address check
