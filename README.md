@@ -26,7 +26,7 @@ X has no free API, so X posts come from a scheduled Apify task (a third-party sc
 
 ## Site feedback
 
-The **Site feedback** button (bottom left of the side bar on desktop, a small round button above the tab bar on phones) sends bugs and ideas about Agorri itself to `/api/feedback`. Every item is saved in the database (`site_feedback`, created automatically). To get an email for each one, add two settings in the Pages project (Settings > Variables and Secrets): `RESEND_API_KEY` (Secret; a free key from resend.com, made with the same email you want notified) and `FEEDBACK_TO` (the address to notify). Then redeploy. Moderators with `MOD_TOKEN` can list all feedback with a GET to `/api/feedback`. Test: `node scripts/test-feedback.mjs`.
+The **Site feedback** button (a highlighted blue item in the main side bar menu, right under Vote, on desktop; a small blue round button above the tab bar on phones) sends bugs and ideas about Agorri itself to `/api/feedback`. Every item is saved in the database (`site_feedback`, created automatically). To get an email for each one, add two settings in the Pages project (Settings > Variables and Secrets): `RESEND_API_KEY` (Secret; a free key from resend.com, made with the same email you want notified) and `FEEDBACK_TO` (the address to notify). Then redeploy. Moderators with `MOD_TOKEN` can list all feedback with a GET to `/api/feedback`. Test: `node scripts/test-feedback.mjs`.
 
 ## Interests and comments
 
