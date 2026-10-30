@@ -1,0 +1,33 @@
+{
+ "note": "One statement a day for residents to agree or disagree with. Each comes from an open issue and is worded neutrally (rules in UPDATE.md). Only questions with status \"approved\" are shown. Results are what participants said, not what residents want.",
+ "questions": [
+  {
+   "id": "2026-10-30-homelessness",
+   "date": "2026-10-30",
+   "issue": "homelessness",
+   "text": "Nashua should open a year-round homeless resource center.",
+   "status": "approved"
+  },
+  {
+   "id": "2026-10-31-public-comment",
+   "date": "2026-10-31",
+   "issue": "public-comment",
+   "text": "Anyone should be able to give public comment at Board of Aldermen meetings remotely, not just in person.",
+   "status": "approved"
+  },
+  {
+   "id": "2026-11-01-dpw-garage",
+   "date": "2026-11-01",
+   "issue": "dpw-garage",
+   "text": "Building a new $43.5 million Public Works garage is a good use of city borrowing.",
+   "status": "approved"
+  },
+  {
+   "id": "2026-11-02-downtown",
+   "date": "2026-11-02",
+   "issue": "downtown",
+   "text": "Nashua should keep using tax increment financing (TIF) to pay for downtown and Millyard redevelopment.",
+   "status": "approved"
+  }
+ ]
+}

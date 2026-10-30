@@ -1,0 +1,33 @@
+{
+ "note": "One statement a day for residents to agree or disagree with. Each comes from an open issue and is worded neutrally (rules in UPDATE.md). Only questions with status \"approved\" are shown. Results are what participants said, not what residents want.",
+ "questions": [
+  {
+   "id": "2026-10-30-parking",
+   "date": "2026-10-30",
+   "issue": "parking",
+   "text": "Portsmouth should keep the resident parking pilot (free parking for residents in pilot zones, paid parking for nonresidents) after its first year.",
+   "status": "approved"
+  },
+  {
+   "id": "2026-10-31-stormwater",
+   "date": "2026-10-31",
+   "issue": "stormwater",
+   "text": "Portsmouth should create a separate stormwater fee to pay for managing rain runoff.",
+   "status": "approved"
+  },
+  {
+   "id": "2026-11-01-prescott",
+   "date": "2026-11-01",
+   "issue": "prescott",
+   "text": "A covered stage at Prescott Park, paid for by the Prescott Park Arts Festival, would be good for the park.",
+   "status": "approved"
+  },
+  {
+   "id": "2026-11-02-municipal",
+   "date": "2026-11-02",
+   "issue": "municipal",
+   "text": "The city should go ahead with the phased $58.6 million renovation of City Hall and the police station.",
+   "status": "approved"
+  }
+ ]
+}

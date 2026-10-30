@@ -1002,6 +1002,31 @@ a.agm-line:hover .agm-t b{color:var(--accent)}
 .side .nav .navrec a.on{color:var(--accent);font-weight:700;background:transparent;box-shadow:none}
 @media (max-width:720px){.facgrid{grid-template-columns:1fr}.cand{grid-template-columns:36px minmax(0,1fr)}.intb span{display:none}}
 
+
+/* v39 daily-return Home */
+.todaycard{padding:14px 16px}.todaycard h2,.qcard h2,.yscard h2{font-size:17px}
+.tlines{display:flex;flex-direction:column;margin-top:8px}
+.tline{display:grid;grid-template-columns:96px 1fr;gap:10px;padding:8px 0;border-top:1px solid var(--line);font-size:14.5px;line-height:1.4}
+.tline:first-child{border-top:0}
+.tline .tlk{font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.04em;color:var(--muted);padding-top:2px}
+.tline.warn .tlk{color:var(--amber-ink)}
+.tline .tt a{color:var(--ink);text-decoration:none}.tline .tt a:hover{text-decoration:underline}
+.tline .tt a.tsrc{color:var(--muted);font-size:12.5px;white-space:nowrap}
+.qcard{padding:14px 16px}.qtext{font-size:17px;font-weight:600;line-height:1.35;margin:8px 0 10px}
+.qbtns{gap:8px;flex-wrap:wrap}.qbtns .btn{min-width:92px}
+.qres{margin-top:10px;display:flex;flex-direction:column;gap:6px}
+.qbar{display:flex;height:8px;border-radius:999px;overflow:hidden;background:var(--soft)}
+.qbar .qa{background:var(--accent)}.qbar .qd{background:var(--amber-track)}
+.qnums{font-size:13px;gap:8px;flex-wrap:wrap}
+.yscard{padding:14px 16px}
+.ysrow{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:9px 0;border-top:1px solid var(--line);font-size:14px}
+.ysrow:first-of-type{border-top:0}
+.ysrow .ys-t{color:var(--ink);font-weight:600;text-decoration:none;text-align:left;overflow:hidden;text-overflow:ellipsis}
+.ysrow .muted{font-size:12.5px}
+.newdot{display:inline-block;font-size:10.5px;font-weight:700;letter-spacing:.03em;text-transform:uppercase;color:var(--accent-soft-ink);background:var(--accent-soft);border-radius:999px;padding:1px 6px;vertical-align:middle;margin-left:4px}
+.navnew{margin-left:auto;min-width:18px;height:18px;padding:0 5px;border-radius:999px;background:var(--accent);color:var(--accent-ink);font-size:11px;font-weight:700;display:inline-flex;align-items:center;justify-content:center}
+#tabbar a{position:relative}#tabbar .navnew{position:absolute;top:2px;left:calc(50% + 6px);margin:0;height:16px;min-width:16px;font-size:10px}
+@media (max-width:560px){.tline{grid-template-columns:1fr;gap:2px}}
 </style>
 
 </head>
@@ -1233,10 +1258,10 @@ function socialCard(){if(!LX)return '';const acc=socAccounts();const cut=Date.no
   return `<a class="card stack bcard" href="#social" style="gap:10px">${cardHead('Social media',posts.length+' posts','from official accounts this week',1,'Social ›')}<div class="hb-rows">${top.map(([w,n])=>`<div class="hb-row" data-tip="${esc(w)}: ${n} post${n===1?'':'s'} this week"><span class="hb-n">${esc(w)}</span><span class="hb-bar"><i style="width:${(n/mx*100).toFixed(1)}%"></i></span><b class="num">${n}</b></div>`).join('')}</div>${latest?`<div class="soc-latest"><span class="muted">Latest · ${esc(latest.who)} · ${ago(latest.when)}</span><span>${esc((latest.quote||latest.gist||'').slice(0,140))}${(latest.quote||latest.gist||'').length>140?'…':''}</span></div>`:''}</a>`;}
  if(!acc.length)return '';const pl={};acc.forEach(a=>{pl[a.platform]=(pl[a.platform]||0)+1;});const top=Object.entries(pl).sort((a,b2)=>b2[1]-a[1]).slice(0,6);const mx=top[0][1];const who=new Set(acc.map(a=>a.who)).size;
  return `<a class="card stack bcard" href="#social" style="gap:10px">${cardHead('Social media',acc.length+' accounts','from '+who+' offices and officials',1,'Social ›')}<div class="hb-rows">${top.map(([p,n])=>`<div class="hb-row" data-tip="${esc(p)}: ${n} official account${n===1?'':'s'}"><span class="hb-n">${esc(p)}</span><span class="hb-bar"><i style="width:${(n/mx*100).toFixed(1)}%"></i></span><b class="num">${n}</b></div>`).join('')}</div><span class="srcline" style="font-weight:500">Accounts listed by the offices themselves. Live posts fill in from the official feeds.</span></a>`;}
-function newsCard(){const N=LX&&LX.paper;if(!N)return '';const live=(N.live||[]).map(p=>({title:p.quote,url:p.url,date:(p.when||'').slice(0,10)}));const useLive=live.length>=3;const hs=(useLive?live:(N.headlines||[])).slice(0,5);if(!hs.length)return '';
+function newsCard(){const N=LX&&LX.paper;if(!N)return '';const live=(N.live||[]).map(p=>({title:p.quote,url:p.url,date:(p.when||'').slice(0,10),at:p.when}));const useLive=live.length>=3;const hs=(useLive?live:(N.headlines||[])).slice(0,5);if(!hs.length)return '';
  const yd=(()=>{const d=new Date(TODAY+'T12:00:00');d.setDate(d.getDate()-1);return d.toISOString().slice(0,10);})();const dl=d=>d===TODAY?'Today':d===yd?'Yesterday':fmtD(d);
  return `<div class="card stack bcard" style="gap:10px"><div class="between" style="align-items:flex-end;gap:8px"><div class="stack" style="gap:2px"><span class="eyebrow">Local news</span><span><b class="big">${esc(N.name)}</b> <span class="muted">latest headlines</span></span></div><a class="more-l" href="${esc(N.url)}" target="_blank" rel="noopener">Read ›</a></div>
-  <div class="nh-rows">${hs.map(h=>`<a class="nh" href="${esc(h.url)}" target="_blank" rel="noopener"><span class="nh-t">${esc(h.title)}</span><small class="num">${dl(h.date)}</small></a>`).join('')}</div>
+  <div class="nh-rows">${hs.map(h=>`<a class="nh" href="${esc(h.url)}" target="_blank" rel="noopener"><span class="nh-t">${esc(h.title)}${typeof isNewDate==='function'&&isNewDate(h.at||h.date)?' '+NEWDOT:''}</span><small class="num">${dl(h.date)}</small></a>`).join('')}</div>
   <span class="srcline" style="font-weight:500">${esc(N.note||'')} ${useLive?'Live from the paper’s site.':'Updated '+fmtD(N.asOf)+'.'}</span></div>`;}
 const BM=()=>{const x=LX&&LX.safety&&LX.safety.benchmarks;return x&&(x.items||[]).length?x:null;};
 const bmFmt=v=>v==null?'n/a':v>=100?Math.round(v).toLocaleString():v>=10?v.toFixed(1):v.toFixed(2);
@@ -1249,7 +1274,7 @@ function benchCard(){const B=BM();if(!B)return safetyCard();const items=B.items.
  return `<a class="card stack bcard" href="#safety" style="gap:6px"><div class="between" style="align-items:flex-start;gap:8px"><div class="stack" style="gap:2px"><span class="eyebrow">Public safety vs NH and U.S.</span><b class="bm-head">${same?'Reported crime is '+esc(vs[0].charAt(0).toLowerCase()+vs[0].slice(1)):lead?esc(lead.label)+': '+esc(v.txt.charAt(0).toLowerCase()+v.txt.slice(1)):'How '+esc(TN())+' compares'}</b></div><span class="more-l">Police and fire ›</span></div>
   ${items.map(i=>bmBlock(i,same)).join('')}
   <span class="srcline" style="font-weight:500">${esc(B.homeNote||B.note||'')}${avg?` Latest police log: ${avg} calls a day.`:''}</span></a>`;}
-function paperHeads(){const N=LX&&LX.paper;if(!N)return null;const live=(N.live||[]).map(p=>({title:p.quote,url:p.url,date:(p.when||'').slice(0,10)}));const useLive=live.length>=3;return {N,useLive,hs:(useLive?live:(N.headlines||[])).slice(0,5)};}
+function paperHeads(){const N=LX&&LX.paper;if(!N)return null;const live=(N.live||[]).map(p=>({title:p.quote,url:p.url,date:(p.when||'').slice(0,10),at:p.when}));const useLive=live.length>=3;return {N,useLive,hs:(useLive?live:(N.headlines||[])).slice(0,5)};}
 function dayLbl(d){const y=(()=>{const x=new Date(TODAY+'T12:00:00');x.setDate(x.getDate()-1);return x.toISOString().slice(0,10);})();return d===TODAY?'Today':d===y?'Yesterday':fmtD(d);}
 function kpiTiles(){const B=D.budget||{};const fy=(B.fiscalYear||'').split(' ')[0];const t=[];
  if(B.generalFund)t.push({l:'City budget',v:money(B.generalFund),s:`${esc(B.fundLabel||'General Fund')}, ${esc(fy)}`,d:B.changePct!=null?`<span class="${B.changePct>0?'t-up':'t-dn'}">${B.changePct>0?'+':''}${(+B.changePct).toFixed(1)}%</span> vs last year`:'',h:'#budget',tip:'The town’s main operating budget this fiscal year'});
@@ -1262,7 +1287,7 @@ function kpiTiles(){const B=D.budget||{};const fy=(B.fiscalYear||'').split(' ')[
  const ST=socialTile();const row=t.slice(0,ST?3:4);if(ST)row.push(ST);return row.length?`<div class="kpis">${row.map(kpiCard).join('')}</div>`:'';}
 function newsBlock(){const ph=paperHeads();const around=talk().filter(t=>t.tag!=='Housing'&&t.tag!=='Record sale').slice(0,4);if(!(ph&&ph.hs.length)&&!around.length)return '';
  return `<section class="blk"><div class="sec"><h2>Local news</h2><a href="#local">Local ›</a></div><div class="ncols">
-  ${ph&&ph.hs.length?`<div class="stack" style="gap:2px"><div class="between ncap"><span>${esc(ph.N.name)}</span><a href="${esc(ph.N.url)}" target="_blank" rel="noopener">Read ›</a></div><div class="nh-rows">${ph.hs.map(h=>`<div class="nhw"><a class="nh" href="${esc(h.url)}" target="_blank" rel="noopener"><span class="nh-t">${esc(h.title)}</span><small class="num">${dayLbl(h.date)}</small></a>${itemBar({t:'news',id:h.url,label:h.title,url:h.url},{sm:true})}</div>`).join('')}</div><span class="srcline">${esc(ph.N.note||'')}${ph.useLive?' Live.':''}</span></div>`:''}
+  ${ph&&ph.hs.length?`<div class="stack" style="gap:2px"><div class="between ncap"><span>${esc(ph.N.name)}</span><a href="${esc(ph.N.url)}" target="_blank" rel="noopener">Read ›</a></div><div class="nh-rows">${ph.hs.map(h=>`<div class="nhw"><a class="nh" href="${esc(h.url)}" target="_blank" rel="noopener"><span class="nh-t">${esc(h.title)}${typeof isNewDate==='function'&&isNewDate(h.at||h.date)?' '+NEWDOT:''}</span><small class="num">${dayLbl(h.date)}</small></a>${itemBar({t:'news',id:h.url,label:h.title,url:h.url},{sm:true})}</div>`).join('')}</div><span class="srcline">${esc(ph.N.note||'')}${ph.useLive?' Live.':''}</span></div>`:''}
   ${around.length?`<div class="stack" style="gap:2px"><div class="ncap"><span>Around town</span></div><div class="ols">${around.map(oneLiner).join('')}</div></div>`:''}
  </div></section>`;}
 function mondayOf(s){const d=ld(s);d.setDate(d.getDate()-((d.getDay()+6)%7));return MON[d.getMonth()]+' '+d.getDate();}
@@ -1497,7 +1522,8 @@ function route(){if(!TOWN)return;if(TLIVE()&&!D)return;let h=(location.hash||'#h
  else if(h.startsWith('talk-')){html=pageTalkThread(h.slice(5));active='talk';}
  else if(h==='friends'){if(!FRIENDS)S.fTab='board';html=pageFriends();active=FRIENDS?'friends':'neighbors';}
  else if(h==='staff'){html=pageStaff();active='home';}
- else html=pageHome();
+ else if(h==='home-classic')html=pageHome();
+ else html=pageHome2();
  currentArea={home:'Home',ideas:'Ideas',local:'Local',social:'Lookup',safety:'Lookup',friends:'Neighbors',issues:'Issues',lookup:'Lookup',neighbors:'Neighbors',talk:'Talk',business:'Business',parks:'Parks',election:'Vote'}[active]||'Home';
  $('app').innerHTML=html;
  const L=[['home','Home'],['local','Local'],['issues','Issues'],['talk','Talk'],['lookup','More']];
@@ -2298,7 +2324,7 @@ function pageBusiness(){if(!LX)return `<section class="stack"><h1>Business</h1><
  return `<section class="stack" style="gap:4px"><h1>Business</h1><p class="lead">Local business news, what is opening and closing, what is before the city's boards, and who to call to start or grow a business in ${esc(TN())}.</p>${B.note?`<p class="muted">${esc(B.note)}</p>`:''}</section>
  <div class="cols"><div class="main">
   <div class="sec"><h2>Business news</h2><span class="muted">${LX.bizLive&&LX.bizLive.length?'Live':'From the local paper'}</span></div>
-  ${news.length?`<div class="nh-rows">${news.map(h=>`<div class="nhw"><a class="nh" href="${esc(h.url)}" target="_blank" rel="noopener"><span class="nh-t">${esc(h.title)}</span><small class="num">${esc(h.who||'')}${h.when?' · '+dayLbl(String(h.when).slice(0,10)):''}</small></a>${itemBar({t:'news',id:h.url,label:h.title,url:h.url},{sm:true})}</div>`).join('')}</div>`:`<div class="notconn"><b>No business stories in the current headlines.</b> Business news shows here as the local paper and the sources below publish it.</div>`}
+  ${news.length?`<div class="nh-rows">${news.map(h=>`<div class="nhw"><a class="nh" href="${esc(h.url)}" target="_blank" rel="noopener"><span class="nh-t">${esc(h.title)}${typeof isNewDate==='function'&&isNewDate(h.at||h.date)?' '+NEWDOT:''}</span><small class="num">${esc(h.who||'')}${h.when?' · '+dayLbl(String(h.when).slice(0,10)):''}</small></a>${itemBar({t:'news',id:h.url,label:h.title,url:h.url},{sm:true})}</div>`).join('')}</div>`:`<div class="notconn"><b>No business stories in the current headlines.</b> Business news shows here as the local paper and the sources below publish it.</div>`}
   <div class="sec"><h2>Opening and closing</h2><span class="muted">From local news coverage</span></div>
   <div class="feed">${ops.map(b=>bizCard(b,'Opening')).join('')}${cls.map(b=>bizCard(b,'Closing')).join('')}${!ops.length&&!cls.length?`<div class="notconn">${esc(bz.note||'No verified openings or closures in recent coverage.')}</div>`:''}</div>
   ${!ops.length&&bz.note?`<p class="muted">${esc(bz.note)}</p>`:''}
@@ -2390,6 +2416,88 @@ function issueTimelineOne(i){const yr=TODAY.slice(0,4);const rel=relYear(i.relat
  <div class="agm-grid one">${monthHead()}<div class="agm-line"><span></span><div class="agm-row">${monthCells(rel,yr)}</div><span></span></div></div>
  <div class="ols">${last.map(r=>`<div class="ol">${dateBox(r.date)}<span class="evt"><span style="font-weight:600">${esc((r.d&&r.d.title)||r.title||'')}</span><span class="muted">${esc([r.body,r.d&&r.d.outcome].filter(Boolean).join(' · '))}</span></span></div>`).join('')}</div></section>`;}
 
+/* ================= v39: daily-return Home (Today, Today's question, Your stuff, new since last visit). Classic Home stays at #home-classic. ================= */
+const TOWN_PT={portsmouth:[43.0718,-70.7626],nashua:[42.7654,-71.4676]};
+var WX={town:null,at:0,alerts:[],ok:false};
+var QX={id:null,res:null,busy:false};
+const addDays=(s,n)=>{const d=ld(s);d.setDate(d.getDate()+n);return d.toISOString().slice(0,10);};
+/* ---- last visit: "new" means changed since the visit before this one ---- */
+function seenInit(){if(!TOWN)return;S.seen=S.seen||{};const s=S.seen[TOWN.id]||{};const now=new Date().toISOString();if(!s.cur||Date.now()-new Date(s.cur).getTime()>30*60e3){s.prev=s.cur||null;}s.cur=now;S.seen[TOWN.id]=s;save();}
+function sincePrev(){const s=S.seen&&TOWN&&S.seen[TOWN.id];return s&&s.prev?s.prev:null;}
+function isNewDate(t){const p=sincePrev();if(!p||!t)return false;t=String(t);return t.length>10?t>p:t>p.slice(0,10);}
+function issueLast(i){return (i.related||[]).reduce((m,r)=>r.date>m?r.date:m,'');}
+function newCounts(){const p=sincePrev();if(!p||!D)return {issues:0,talk:0,local:0};
+ return {issues:D.issues.filter(i=>isNewDate(issueLast(i))).length,talk:(window.TALK&&TALK.ready?tkTop().filter(x=>!x.mine&&x.at>p).length:0),local:((LX&&LX.notices)||[]).filter(n=>isNewDate(n.date)&&n.date<=TODAY).length};}
+const NEWDOT='<span class="newdot" title="New since your last visit">New</span>';
+function applyNavBadges(){const n=newCounts();[['issues',n.issues],['talk',n.talk],['local',n.local]].forEach(([k,c])=>{document.querySelectorAll(`#nav a[href="#${k}"],#tabbar a[href="#${k}"]`).forEach(a=>{let b=a.querySelector('.navnew');if(!c){if(b)b.remove();return;}if(!b){b=document.createElement('span');b.className='navnew';a.appendChild(b);}b.textContent=c;b.title=c+' new since your last visit';});});}
+var SEEN_ONCE={};const _route39=route;route=function(){if(TOWN&&!SEEN_ONCE[TOWN.id]){SEEN_ONCE[TOWN.id]=1;try{seenInit();}catch(e){}}_route39();try{applyNavBadges();}catch(e){}};
+/* ---- weather alerts from the National Weather Service ---- */
+async function loadWX(){if(!TOWN||!TOWN_PT[TOWN.id])return;if(WX.town===TOWN.id&&Date.now()-WX.at<15*60e3)return;WX.town=TOWN.id;WX.at=Date.now();
+ try{const [la,lo]=TOWN_PT[TOWN.id];const r=await fetch(`https://api.weather.gov/alerts/active?point=${la},${lo}`,{headers:{accept:'application/geo+json'}});if(!r.ok)throw 0;const j=await r.json();
+  WX.alerts=(j.features||[]).map(f=>f.properties||{}).filter(p=>p.event&&p.status==='Actual').map(p=>({event:p.event,headline:p.headline||p.event,ends:p.ends||p.expires,url:'https://forecast.weather.gov/MapClick.php?lat='+la+'&lon='+lo}));WX.ok=true;
+  if(((location.hash||'#home').slice(1)||'home')==='home'&&$('scrim').hidden&&!tkTyping())rerender();}catch(e){WX.ok=false;}}
+/* ---- Today card ---- */
+function todayLines(){const L=[];const tm=addDays(TODAY,1);if(!LX||!D)return L;const e=LX.election;
+ if(e&&e.date===TODAY)L.push({k:'Vote',t:`Election Day. ${e.hours||''}`,h:LX.cand?'#election':'#local'});else if(e&&e.date===tm)L.push({k:'Vote',t:`Election Day is tomorrow. ${e.hours||''}`,h:LX.cand?'#election':'#local'});
+ WX.alerts.slice(0,2).forEach(a=>L.push({k:'Weather',t:a.headline,src:{label:'National Weather Service',url:a.url},warn:true}));
+ const nm=D.next_council_meeting;if(nm&&nm.date===TODAY){const star=nm.items.filter(it=>Object.values(intMap()).some(x=>x.t==='issue'&&(D.issues.find(i=>i.id===x.id)||{keywords:[]}).keywords.some(k=>it.item.toLowerCase().includes(k.toLowerCase()))));L.push({k:'Meeting',t:`${GB()} meets tonight.${star.length?' On the agenda and on your list: '+star.map(s=>s.item).join('; '):''}`,h:'#issues'});}
+ const hasE=L.some(x=>x.k==='Vote');const nts=(LX.notices||[]).filter(n=>(n.date===TODAY||n.date===tm||(n.date<=TODAY&&n.until&&n.until>=TODAY))&&!(hasE&&n.kind==='Election')).sort((a,b)=>a.date.localeCompare(b.date)).slice(0,3);
+ nts.forEach(n=>L.push({k:n.kind==='Road work'?'Roads':(n.kind||'Notice'),t:(n.date===tm?'Tomorrow: ':'')+n.title,src:n.source}));
+ const w1=t=>String(t||'').toLowerCase().split(/[\s,:]+/)[0];const ev=upcomingEvents().filter(x=>x.date===TODAY&&!nts.some(n=>w1(n.title).length>4&&w1(n.title)===w1(x.title))).slice(0,2);ev.forEach(x=>L.push({k:'Today',t:`${x.title}${x.time?', '+x.time:''}${x.venue?', '+x.venue:''}`,src:{label:x.source||'Details',url:x.url}}));
+ const B=LX.biz||LX.business||{};const wk=addDays(TODAY,-7);[...(B.openings||[]).map(b=>({...b,o:1})),...(B.closures||[])].filter(b=>b.date&&b.date>=wk&&b.date<=tm).slice(0,1).forEach(b=>L.push({k:b.o?'Opening':'Closing',t:`${b.name}${b.o?' opened '+fmtD(b.date):b.date>=TODAY?': last day is '+(b.date===TODAY?'today':b.date===tm?'tomorrow':fmtD(b.date)):' closed '+fmtD(b.date)}`,src:b.source}));
+ const P=LX.safety&&LX.safety.police;const logs=((P&&P.logDigest)||[]).slice().sort((a,b)=>b.date.localeCompare(a.date));if(logs.length&&logs[0].date>=addDays(TODAY,-7)){const wkl=logs.slice(0,7);const avg=Math.round(wkl.reduce((n,x)=>n+(x.calls||0),0)/wkl.length);const c=logs[0].calls;L.push({k:'Police log',t:`${c} calls on ${fmtD(logs[0].date)}, ${Math.abs(c-avg)<=Math.max(3,avg*.1)?'about the same as':c>avg?'more than':'fewer than'} the ${wkl.length}-day average of ${avg}.`,h:'#safety-log'});}
+ return L;}
+function todayCard(){const L=todayLines();const d=ld(TODAY);const day=d.toLocaleDateString('en-US',{weekday:'long',month:'long',day:'numeric'});const nx=!L.length?upcomingEvents().find(x=>x.date>TODAY):null;
+ return `<section class="card todaycard"><h2>Today in ${esc(TN())}</h2>
+ ${L.length?`<div class="tlines">${L.map(x=>`<div class="tline${x.warn?' warn':''}"><span class="tlk">${esc(x.k)}</span><span class="tt">${x.h?`<a href="${x.h}">${esc(x.t)}</a>`:esc(x.t)}${x.src&&x.src.url?` <a class="tsrc" href="${esc(x.src.url)}" target="_blank" rel="noopener">${esc(x.src.label||'Source')} ↗</a>`:''}</span></div>`).join('')}</div>`:`<p class="muted" style="margin-top:6px">Nothing unusual today in ${esc(TN())}.${nx?` Next up: <a href="${esc(nx.url)}" target="_blank" rel="noopener">${esc(nx.title)}</a>, ${fmtD(nx.date)}.`:''}</p>`}</section>`;}
+/* ---- Today's question ---- */
+function todaysQ(){const Q=(LX&&LX.questions&&LX.questions.questions)||[];return Q.filter(q=>q.status==='approved'&&q.date<=TODAY).sort((a,b)=>b.date.localeCompare(a.date))[0]||null;}
+function qMine(id){S.qa=S.qa||{};return S.qa[id]||null;}
+async function qLoad(q){if(!OWNHOST||!q)return;if(QX.id===q.id&&QX.res)return;QX.id=q.id;try{const r=await fetch(`/api/question?town=${encodeURIComponent(TOWN.id)}&id=${encodeURIComponent(q.id)}`,{headers:{'x-agorri-client':(window.TALK&&TALK.uid)||tkCid()},cache:'no-store'});if(r.ok){QX.res=await r.json();if(QX.res.mine){S.qa=S.qa||{};S.qa[q.id]=QX.res.mine;save();}if(((location.hash||'#home').slice(1)||'home')==='home'&&$('scrim').hidden&&!tkTyping())rerender();}}catch(e){}}
+async function qAnswer(q,choice){S.qa=S.qa||{};S.qa[q.id]=choice;save();rerender();if(!OWNHOST)return;try{const r=await fetch('/api/question',{method:'POST',headers:{'content-type':'application/json','x-agorri-client':(window.TALK&&TALK.uid)||tkCid()},body:JSON.stringify({town:TOWN.id,id:q.id,choice})});if(r.ok){QX.id=q.id;QX.res=await r.json();rerender();}}catch(e){}}
+function qResults(res){const a=res.agree,d=res.disagree,n=a+d;const pa=n?Math.round(a/n*100):0;const v=res.verified||{};const vn=(v.agree||0)+(v.disagree||0)+(v.pass||0);
+ return `<div class="qres"><div class="qbar"><span class="qa" style="width:${pa}%"></span><span class="qd" style="width:${n?100-pa:0}%"></span></div><div class="between qnums"><span><b>${pa}%</b> agree · <b>${n?100-pa:0}%</b> disagree</span><span class="muted">${res.pass?res.pass+' passed · ':''}What ${res.total.toLocaleString()} participant${res.total===1?'':'s'} said${vn?`, ${vn} address-checked`:''}</span></div></div>`;}
+function questionCard(){const q=todaysQ();if(!q)return '';const iss=D.issues.find(i=>i.id===q.issue);const mine=qMine(q.id);if(mine&&OWNHOST&&QX.id!==q.id)qLoad(q);else if(OWNHOST&&QX.id!==q.id)qLoad(q);const res=QX.id===q.id?QX.res:null;
+ return `<section class="card qcard"><div class="between"><h2>Today's question</h2>${iss?`<a class="muted" href="#issue-${iss.id}" style="text-decoration:none">${esc(iss.title)} ›</a>`:''}</div>
+ <p class="qtext">${esc(q.text)}</p>
+ <div class="row qbtns" role="group" aria-label="Your answer">${[['agree','Agree'],['disagree','Disagree'],['pass','Pass']].map(([k,l])=>`<button type="button" class="btn${mine===k?' on primary':''}" data-qans="${k}" data-qid="${esc(q.id)}">${l}</button>`).join('')}</div>
+ ${mine?(res&&res.total?qResults(res):`<p class="muted" style="font-size:13px">${OWNHOST?'Thanks. Results load in a moment.':'Thanks. Results are counted on agorri.com.'}</p>`):`<p class="muted" style="font-size:12.5px">Answer to see what others said. Address-checked answers are counted separately for the city.</p>`}</section>`;}
+document.addEventListener('click',e=>{const b=e.target.closest('button[data-qans]');if(!b)return;const q=todaysQ();if(!q||q.id!==b.dataset.qid)return;qAnswer(q,b.dataset.qans);},true);
+/* ---- Your stuff ---- */
+function myIdeas(){if(!(window.TALK&&TALK.ready))return [];return tkAll().filter(x=>x.mine&&x.kind==='idea'&&!x.parent);}
+function repliesToMe(){if(!(window.TALK&&TALK.ready))return [];const mine=new Set(tkAll().filter(x=>x.mine).map(x=>x.key));return tkAll().filter(x=>!x.mine&&x.parent&&mine.has(x.parent)).sort((a,b)=>b.at.localeCompare(a.at));}
+function starredAhead(){const lim=addDays(TODAY,21);const fut=futureItems().filter(u=>u.date&&u.date>=TODAY&&u.date<=lim);return Object.values(intMap()).filter(x=>x.t==='issue').map(x=>{const i=D.issues.find(y=>y.id===x.id);if(!i)return null;const hit=fut.find(u=>i.keywords.some(k=>u.item.toLowerCase().includes(k.toLowerCase())));return hit?{i,hit}:null;}).filter(Boolean);}
+function yourStuff(){const ideas=myIdeas(),reps=repliesToMe().slice(0,3),ahead=starredAhead(),fol=intRows().filter(x=>x.fresh>0).slice(0,4),th=myThreads().slice(0,3);if(!ideas.length&&!reps.length&&!ahead.length&&!fol.length&&!th.length)return '';
+ const row=(t,meta,act)=>`<div class="ysrow"><div class="stack" style="gap:2px;min-width:0">${t}${meta?`<span class="muted">${meta}</span>`:''}</div>${act||''}</div>`;
+ return `<section class="card yscard"><div class="between"><h2>Your stuff</h2><a class="muted" href="#talk" style="text-decoration:none">Talk ›</a></div>
+ ${ideas.map(x=>{const v=x.vsup||0;const left=Math.max(0,REQ_T-v);return row(`<a href="#talk-${esc(x.key)}" class="ys-t">${esc(x.title||x.body||'Your idea')}</a>`,`<span class="ysprog"><span class="bar" style="height:6px;width:120px;display:inline-block;vertical-align:middle"><span style="width:${Math.min(100,Math.round(v/REQ_T*100))}%"></span></span> ${left?left+' more address-checked supporter'+(left===1?'':'s')+' to reach the city':'Reached the city'}${(x.modStatus||'ok')!=='ok'?' · waiting for review':''}</span>`,`<a class="tkb" href="#talk-${esc(x.key)}">Open</a>`);}).join('')}
+ ${reps.map(x=>row(`<a href="#talk-${esc(x.parent)}" class="ys-t">${esc(tkWho(x))} replied: ${esc((x.body||'').slice(0,90))}</a>`,ago(x.at),`<a class="tkb" href="#talk-${esc(x.parent)}">Reply</a>`)).join('')}
+ ${ahead.map(({i,hit})=>row(`<a href="#issue-${i.id}" class="ys-t">${esc(i.title)}</a>`,`On the ${fmtD(hit.date)} ${esc(GB())} agenda: ${esc(hit.item.slice(0,90))}`,`<a class="tkb" href="#issue-${i.id}">Open</a>`)).join('')}
+ ${fol.map(i=>row(`<button type="button" class="linkbtn ys-t" data-tkthread="${esc(JSON.stringify({t:i.t,id:i.id,label:i.label,href:i.href,url:i.url}))}">${esc(i.label)}</button>`,`<b style="color:var(--accent)">${i.fresh} new comment${i.fresh===1?'':'s'}</b>`,'')).join('')}
+ ${!fol.length&&!reps.length&&th.length?th.map(t=>row(`<button type="button" class="linkbtn ys-t" data-tkthread="${esc(JSON.stringify({t:t.ref.t,id:t.ref.id,label:t.ref.label||'',href:t.ref.href||'',url:t.ref.url||''}))}">${esc(t.ref.label||(tkCtx(t.ref)||{}).label||'')}</button>`,`You commented · ${t.total} total`,'')).join(''):''}</section>`;}
+/* ---- Because of residents (hidden until something happens) ---- */
+function becauseResidents(){const wk=addDays(TODAY,-7);const items=allRequests().filter(d=>['Threshold met','Under review','Planned','Done','Declined'].includes(liveStatus(d))&&(d.statusAt||d.clockStart||'')>=wk);if(!items.length)return '';
+ return `<section class="blk"><div class="sec"><h2>Because of residents</h2><a href="#ideas">All ideas ›</a></div><div class="list">${items.slice(0,4).map(requestRow).join('')}</div></section>`;}
+/* ---- the new Home ---- */
+function pageHome2(){const m=D.council_meetings[0];const yes=m?m.decisions.filter(d=>/^pass|^approved/i.test(d.outcome||'')).length:0;const nev=upcomingEvents().length;const hr=new Date().getHours();const hi=hr<12?'Good morning':hr<17?'Good afternoon':'Good evening';const yday=m&&m.date===addDays(TODAY,-1);
+ if(!WX.ok||WX.town!==TOWN.id)loadWX();
+ return `
+ <section class="between hhead"><div class="stack" style="gap:2px"><h1>${hi}, ${TN()}</h1><span class="muted">${ld(TODAY).toLocaleDateString('en-US',{weekday:'long',month:'long',day:'numeric'})}</span></div></section>
+ ${todayCard()}
+ ${questionCard()}
+ ${yourStuff()}
+ ${tkComposer({id:'home',kinds:['idea'],kind:'idea',compact:true,showRef:false,head:`<b>What should ${esc(TN())} do?</b> <span class="muted">Share an idea for the city. To comment on something, tap ${BUBBLE} on it.</span>`})}
+ ${kpiTiles()}
+ ${voteBlock()}
+ <section class="blk"><div class="sec"><h2>Coming up</h2><a href="#local">${nev?'All '+nev+' events ›':'Calendar ›'}</a></div><div class="mos">${moments().map(momentCard).join('')}</div></section>
+ <section class="blk"><div class="sec"><h2>What the city is deciding</h2><a href="#issues">All ${D.issues.length} ›</a></div><div class="ols">${D.issues.slice(0,3).map(i=>isNewDate(issueLast(i))?issueRow(i).replace('</a>',' '+NEWDOT+'</a>'):issueRow(i)).join('')}</div></section>
+ ${tkHomeBlock()}
+ ${becauseResidents()}
+ <section class="blk"><div class="moneygrid two">${benchCard()}${budgetCard(true)}</div></section>
+ ${m?`<section class="blk"><div class="sec"><h2>${yday?'What happened last night':'Latest '+esc(m.body||GB())+' meeting'}</h2><a href="#record">Meeting record ›</a></div><a class="ol" href="#meeting-0">${dateBox(m.date)}<span class="evt"><span style="font-weight:600">${esc(m.headline)}</span><span class="muted">${m.decisions.length?m.decisions.length+' decisions, '+yes+' passed · ':''}Full meeting ›</span></span></a></section>`:''}
+ ${newsBlock()}
+ ${foot()}`;}
+
 /* ================= Live feed (Cloudflare function /api/feed, Bluesky fallback) ================= */
 const LIVE={on:false,updated:null,timer:null};
 async function fetchBlueskyLive(s){const r=await fetch('https://public.api.bsky.app/xrpc/app.bsky.feed.getAuthorFeed?actor='+encodeURIComponent(s.actor)+'&limit=15&filter=posts_no_replies');if(!r.ok)return [];const j=await r.json();
@@ -2407,7 +2515,7 @@ function townList(filter){const f=(filter||'').trim().toLowerCase();const ts=(TO
  return ts.map(t=>`<button type="button" class="townrow${TOWN&&t.id===TOWN.id?' on':''}" data-town="${t.id}"><span class="stack" style="gap:1px;min-width:0"><b>${esc(townLabel(t))}</b><span class="muted">${esc(t.kind)}</span></span>${t.status==='live'?'<span class="tag green">Live</span>':(S.townReq[t.id]?'<span class="tag">Requested</span>':'<span class="tag">Coming soon</span>')}</button>`).join('')||`<p class="muted" style="padding:10px 0">No town by that name yet. <button type="button" class="btn ghost sm" data-reqother="${esc(f)}">Request ${esc(filter)}</button></p>`;}
 function openTownPicker(){panel=null;openSheet(`<div class="between" style="flex-wrap:nowrap;align-items:flex-start"><div class="stack" style="gap:2px"><h2>Choose your town</h2><p class="muted">Each town is built from its own public record. More are on the way.</p></div><button class="x" data-close aria-label="Close" data-tip="Close">×</button></div>
  <input id="townq" placeholder="Search towns" autocomplete="off" aria-label="Search towns"><div id="townlist" class="stack" style="gap:0">${townList('')}</div>`);}
-async function loadTownData(t){if(TCACHE[t.id])return TCACHE[t.id];const f=t.files||{};const keys=Object.keys(f).filter(k=>k!=='feeds');const got=await Promise.all(keys.map(k=>fetch(f[k]).then(r=>r.ok?r.json():(k==='record'?Promise.reject(new Error(r.status)):null)).catch(e=>{if(k==='record')throw e;return null;})));const g={};keys.forEach((k,i)=>g[k]=got[i]);if(!g.record)throw new Error('record');const LXo=g.local||null;if(LXo){LXo.parks=g.parks||null;LXo.biz=g.business||null;LXo.cand=g.candidates||null;}const out={D:g.record,BX:g.beyond||null,LX:LXo};TCACHE[t.id]=out;return out;}
+async function loadTownData(t){if(TCACHE[t.id])return TCACHE[t.id];const f=t.files||{};const keys=Object.keys(f).filter(k=>k!=='feeds');const got=await Promise.all(keys.map(k=>fetch(f[k]).then(r=>r.ok?r.json():(k==='record'?Promise.reject(new Error(r.status)):null)).catch(e=>{if(k==='record')throw e;return null;})));const g={};keys.forEach((k,i)=>g[k]=got[i]);if(!g.record)throw new Error('record');const LXo=g.local||null;if(LXo){LXo.parks=g.parks||null;LXo.biz=g.business||null;LXo.cand=g.candidates||null;LXo.questions=g.questions||null;}const out={D:g.record,BX:g.beyond||null,LX:LXo};TCACHE[t.id]=out;return out;}
 async function switchTown(id,quiet){const t=(TOWNS||[]).find(x=>x.id===id);if(!t)return;if(!S.vtowns){S.vtowns={};if(S.verified)S.vtowns[id]={at:new Date().toISOString(),method:'demo'};}S.verified=!!S.vtowns[id];TOWN=t;S.town=id;save();setTownChrome();if(!$('scrim').hidden)closeSheet();
  if(t.status==='live'){$('app').innerHTML='<p class="muted">Loading '+esc(t.name)+' records…</p>';try{const r=await loadTownData(t);D=r.D;BX=r.BX;LX=r.LX;REQ_T=Math.max(1,Math.round(voters()*0.01));}catch(err){$('app').innerHTML=`<div class="card stack"><h2>Couldn't load the ${esc(t.name)} records</h2><p class="muted">The data file didn't load (${esc(err.message)}). Reload the page to try again.</p></div>`;return;}}
  route();window.scrollTo(0,0);if(TLIVE()){sweepNotifs();startLive();tkInit();}else clearInterval(LIVE.timer);updateBell();if(!quiet)toast(t.status==='live'?'Showing '+t.name+'.':t.name+' is not live yet.');}

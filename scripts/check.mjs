@@ -56,7 +56,10 @@ for (const t of live) {
   if (BZ) { for (const k of ['organizations', 'cityOffices', 'howTo', 'notices', 'programs']) (BZ[k] || []).forEach((x, i) => { if (!x.source || !x.source.url) errs.push(`${id}: business.${k}[${i}] needs source.url`); }); if (!(BZ.keywords || []).length) warns.push(`${id}: business has no keywords, so no paper headlines will be picked up`); }
   if (CD) { if (!CD.election || !CD.election.date) errs.push(`${id}: candidates needs election.date`); (CD.races || []).forEach(r => { if (!r.id || !r.office || !r.level) errs.push(`${id}: race ${r.id || '?'} needs id, office and level`); (r.candidates || []).forEach(c => { if (!c.id || !c.name || !c.source || !c.source.url) errs.push(`${id}: candidate ${c.name || '?'} in ${r.id} needs id, name and source.url`); (c.positions || []).forEach((p, i) => { if (!p.topic || !p.stance || !p.source || !p.source.url) errs.push(`${id}: ${c.name} position[${i}] needs topic, stance and source.url`); }); }); });
     if (CD.election && CD.election.date < today) warns.push(`${id}: the ${CD.election.date} election is over; replace candidates with results (see UPDATE.md)`); }
-  const txt = JSON.stringify([P, L, B, PK, BZ, CD]);
+  const QS = opt('questions');
+  if (QS) { const ids = new Set(); (QS.questions || []).forEach((q, i) => { if (!q.id || !q.date || !q.text || !q.status) errs.push(`${id}: questions[${i}] needs id, date, text and status`); if (ids.has(q.id)) errs.push(`${id}: question id ${q.id} is used twice`); ids.add(q.id); if (!['draft', 'approved', 'retired'].includes(q.status)) errs.push(`${id}: question ${q.id} status must be draft, approved or retired`); if (q.issue && P && !(P.issues || []).some(x => x.id === q.issue)) errs.push(`${id}: question ${q.id} links to unknown issue ${q.issue}`); if (q.text && q.text.length > 220) warns.push(`${id}: question ${q.id} is long; keep it to one sentence`); });
+    if (!(QS.questions || []).some(q => q.status === 'approved' && q.date <= today)) warns.push(`${id}: no approved question for today`); }
+  const txt = JSON.stringify([P, L, B, PK, BZ, CD, QS]);
   if (txt.includes('—')) errs.push(`${id}: em dash found in data (house style: none)`);
 }
 warns.forEach(w => console.log('WARN ' + w));
