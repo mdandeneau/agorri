@@ -1027,6 +1027,32 @@ a.agm-line:hover .agm-t b{color:var(--accent)}
 .navnew{margin-left:auto;min-width:18px;height:18px;padding:0 5px;border-radius:999px;background:var(--accent);color:var(--accent-ink);font-size:11px;font-weight:700;display:inline-flex;align-items:center;justify-content:center}
 #tabbar a{position:relative}#tabbar .navnew{position:absolute;top:2px;left:calc(50% + 6px);margin:0;height:16px;min-width:16px;font-size:10px}
 @media (max-width:560px){.tline{grid-template-columns:1fr;gap:2px}}
+.askcard{padding:16px 18px}.askcard h2{font-size:18px}
+.askcard .qtext{font-size:16.5px;font-weight:500;line-height:1.4;margin:10px 0 12px;color:var(--ink);padding:10px 14px;border-left:3px solid var(--accent);background:var(--accent-soft);border-radius:4px 10px 10px 4px}
+.qrow{gap:10px;flex-wrap:wrap;align-items:center}.qiss{font-size:13px;text-decoration:none}.qiss:hover{text-decoration:underline}
+.qhint{font-size:12.5px;margin-top:8px}
+.askdiv{height:1px;background:var(--line);margin:14px -18px 12px}
+.askcard .tkc{box-shadow:none;background:transparent;padding:0;border:0;margin:0}
+.hcar{position:relative}
+.hcar-track{display:flex;gap:12px;overflow-x:auto;scroll-snap-type:x mandatory;scroll-padding:0 2px;padding:4px 2px 10px;scrollbar-width:none;-webkit-overflow-scrolling:touch}
+.hcar-track::-webkit-scrollbar{display:none}
+.hc{flex:0 0 196px;scroll-snap-align:start;background:var(--surface);border-radius:16px;box-shadow:var(--shadow);text-decoration:none;color:var(--ink);display:flex;flex-direction:column;gap:5px;padding:0 14px 14px;overflow:hidden;min-height:196px;--tone:var(--accent);--tone-soft:var(--accent-soft);--tone-ink:var(--accent-soft-ink)}
+.hc:hover{box-shadow:0 0 0 2px var(--tone)}
+.hc-top{display:flex;align-items:flex-start;justify-content:space-between;margin:0 -14px 6px;padding:12px 14px 10px;background:var(--tone-soft);color:var(--tone-ink)}
+.hc-d{display:flex;flex-direction:column;line-height:1}.hc-d small{font-size:11px;font-weight:800;letter-spacing:.06em;text-transform:uppercase}.hc-d b{font-size:32px;font-weight:800;letter-spacing:-.03em;margin-top:3px;color:var(--ink)}
+.hc-ic{width:38px;height:38px;border-radius:12px;background:var(--surface);display:flex;align-items:center;justify-content:center;color:var(--tone)}
+.hc-k{font-size:11px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;color:var(--tone-ink)}
+.hc-t{font-size:15px;font-weight:700;line-height:1.25;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.hc-l{font-size:12.5px;color:var(--muted);line-height:1.35;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.hc-s{font-size:11.5px;color:var(--muted);margin-top:auto;padding-top:4px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.hc.is-today .hc-d small{color:var(--tone-ink)}
+.hc.t-weather,.hc.t-road{--tone:var(--amber);--tone-soft:var(--amber-soft);--tone-ink:var(--amber-ink)}
+.hc.t-biz{--tone:var(--green);--tone-soft:var(--green-soft);--tone-ink:var(--green-ink)}
+.hc.t-safety,.hc.t-notice{--tone:var(--muted);--tone-soft:var(--soft);--tone-ink:var(--ink2)}
+.hcar-b{position:absolute;top:50%;transform:translateY(-60%);z-index:2;width:36px;height:36px;border-radius:50%;border:0;background:var(--surface);box-shadow:0 2px 8px rgba(0,0,0,.18);font-size:22px;line-height:1;color:var(--ink);cursor:pointer;display:flex;align-items:center;justify-content:center}
+.hcar-b.prev{left:-14px}.hcar-b.next{right:-14px}
+.hcar.at-start .prev,.hcar.at-end .next{opacity:0;pointer-events:none}
+@media (max-width:720px){.hcar-b{display:none}.hc{flex-basis:72%}.hcar-track{margin:0 -16px;padding:4px 16px 10px;scroll-padding:0 16px}.askdiv{margin:14px -16px 12px}.askcard{padding:14px 16px}}
 </style>
 
 </head>
@@ -2430,7 +2456,7 @@ function newCounts(){const p=sincePrev();if(!p||!D)return {issues:0,talk:0,local
  return {issues:D.issues.filter(i=>isNewDate(issueLast(i))).length,talk:(window.TALK&&TALK.ready?tkTop().filter(x=>!x.mine&&x.at>p).length:0),local:((LX&&LX.notices)||[]).filter(n=>isNewDate(n.date)&&n.date<=TODAY).length};}
 const NEWDOT='<span class="newdot" title="New since your last visit">New</span>';
 function applyNavBadges(){const n=newCounts();[['issues',n.issues],['talk',n.talk],['local',n.local]].forEach(([k,c])=>{document.querySelectorAll(`#nav a[href="#${k}"],#tabbar a[href="#${k}"]`).forEach(a=>{let b=a.querySelector('.navnew');if(!c){if(b)b.remove();return;}if(!b){b=document.createElement('span');b.className='navnew';a.appendChild(b);}b.textContent=c;b.title=c+' new since your last visit';});});}
-var SEEN_ONCE={};const _route39=route;route=function(){if(TOWN&&!SEEN_ONCE[TOWN.id]){SEEN_ONCE[TOWN.id]=1;try{seenInit();}catch(e){}}_route39();try{applyNavBadges();}catch(e){}};
+var SEEN_ONCE={};const _route39=route;route=function(){if(TOWN&&!SEEN_ONCE[TOWN.id]){SEEN_ONCE[TOWN.id]=1;try{seenInit();}catch(e){}}_route39();try{applyNavBadges();hcSync();}catch(e){}};
 /* ---- weather alerts from the National Weather Service ---- */
 async function loadWX(){if(!TOWN||!TOWN_PT[TOWN.id])return;if(WX.town===TOWN.id&&Date.now()-WX.at<15*60e3)return;WX.town=TOWN.id;WX.at=Date.now();
  try{const [la,lo]=TOWN_PT[TOWN.id];const r=await fetch(`https://api.weather.gov/alerts/active?point=${la},${lo}`,{headers:{accept:'application/geo+json'}});if(!r.ok)throw 0;const j=await r.json();
@@ -2478,18 +2504,49 @@ function yourStuff(){const ideas=myIdeas(),reps=repliesToMe().slice(0,3),ahead=s
 /* ---- Because of residents (hidden until something happens) ---- */
 function becauseResidents(){const wk=addDays(TODAY,-7);const items=allRequests().filter(d=>['Threshold met','Under review','Planned','Done','Declined'].includes(liveStatus(d))&&(d.statusAt||d.clockStart||'')>=wk);if(!items.length)return '';
  return `<section class="blk"><div class="sec"><h2>Because of residents</h2><a href="#ideas">All ideas ›</a></div><div class="list">${items.slice(0,4).map(requestRow).join('')}</div></section>`;}
+/* ---- Today and coming up: one swipeable row of cards ---- */
+const HC_IC={weather:'<path d="M7 18h10a4 4 0 0 0 .5-7.97A6 6 0 0 0 6 11.5 3.5 3.5 0 0 0 7 18z"/>',road:'<path d="M3 9h18v5H3z"/><path d="M7 9l-2 5M12 9l-2 5M17 9l-2 5M6 14v6M18 14v6"/>',event:'<rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/>',biz:'<path d="M3 9l1.5-5h15L21 9"/><path d="M3 9h18v2.5a3 3 0 0 1-6 0 3 3 0 0 1-6 0 3 3 0 0 1-6 0z"/><path d="M5 14v7h14v-7"/>',safety:'<path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6z"/>',civic:'<path d="M12 3l9 5H3z"/><path d="M5 10v8M9 10v8M15 10v8M19 10v8M3 20h18"/>',vote:'<path d="M4 11h16v10H4z"/><path d="M8 11V4h8v7"/><path d="M10 7l1.5 1.5L15 5"/>',notice:'<path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10.3 21a1.94 1.94 0 0 0 3.4 0"/>'};
+function hcTone(kind){kind=String(kind||'');if(/Road|Parking|Closure|Detour/i.test(kind))return 'road';if(/Election|Vote/i.test(kind))return 'vote';if(/Hearing|Meeting|Council|Board/i.test(kind))return 'civic';if(/Trash|Water|Schools|Notice/i.test(kind))return 'notice';return 'event';}
+function hcItems(){const out=[];if(!LX||!D)return out;const tm=addDays(TODAY,1);const e=LX.election;
+ const fmtT=s=>{try{return new Date(s).toLocaleTimeString('en-US',{hour:'numeric',minute:'2-digit'});}catch(x){return '';}};
+ WX.alerts.slice(0,2).forEach(a=>out.push({date:TODAY,tone:'weather',k:'Weather',t:a.event,line:a.ends?'Until '+fmtT(a.ends)+(a.ends.slice(0,10)>TODAY?' '+fmtD(a.ends.slice(0,10)):''):a.headline,href:a.url,ext:true,src:'National Weather Service',warn:true}));
+ if(e&&(e.date===TODAY||e.date===tm))out.push({date:e.date,tone:'vote',k:'Vote',t:'Election Day',line:e.hours||'',href:LX.cand?'#election':'#local'});
+ const nm=D.next_council_meeting;if(nm&&nm.date===TODAY){const star=nm.items.filter(it=>Object.values(intMap()).some(x=>x.t==='issue'&&(D.issues.find(i=>i.id===x.id)||{keywords:[]}).keywords.some(k=>it.item.toLowerCase().includes(k.toLowerCase()))));out.push({date:TODAY,tone:'civic',k:'Meeting',t:GB()+' meets tonight',line:star.length?'On your list: '+star.map(s=>s.item).join('; '):(nm.items[0]||{}).item||'',href:'#issues'});}
+ (LX.notices||[]).filter(n=>(n.date===TODAY||n.date===tm||(n.date<=TODAY&&n.until&&n.until>=TODAY))&&!(n.kind==='Election'&&out.some(x=>x.tone==='vote'))).sort((a,b)=>a.date.localeCompare(b.date)).slice(0,4).forEach(n=>out.push({date:n.date<TODAY?TODAY:n.date,tone:hcTone(n.kind),k:n.kind==='Road work'?'Roads':(n.kind||'Notice'),t:n.strip||n.title,line:n.strip?(n.stripLine||''):'',href:(n.source&&n.source.url)||'#local',ext:!!(n.source&&n.source.url),src:n.source&&n.source.label}));
+ const B=LX.biz||LX.business||{};const wk=addDays(TODAY,-7);[...(B.openings||[]).map(b=>({...b,o:1})),...(B.closures||[])].filter(b=>b.date&&b.date.length===10&&b.date>=wk&&b.date<=tm).slice(0,2).forEach(b=>out.push({date:b.date>=TODAY?b.date:TODAY,tone:'biz',k:b.o?'Opening':'Closing',t:b.name,line:b.o?'Opened '+fmtD(b.date):b.date>=TODAY?'Last day is '+(b.date===TODAY?'today':b.date===tm?'tomorrow':fmtD(b.date)):'Closed '+fmtD(b.date),href:(b.source&&b.source.url)||'#business',ext:!!(b.source&&b.source.url),src:b.source&&b.source.label}));
+ /* police log stays in the Police and fire tile above */
+ const w1=t=>String(t||'').toLowerCase().split(/[\s,:·]+/)[0];const lc=t=>String(t||'').toLowerCase().replace(/[^a-z0-9 ]/g,'').trim();const dup=x=>out.some(o=>{if(o.date!==x.date)return false;const a=lc(o.t),b=lc(x.t);return a===b||(w1(o.t)===w1(x.t)&&w1(x.t).length>3)||(a.length>8&&b.includes(a))||(b.length>8&&a.includes(b));});
+ upcomingEvents().filter(x=>x.date===TODAY).forEach(x=>{const c={date:x.date,tone:'event',k:x.kind||'Event',t:x.title,line:[x.time,x.venue].filter(Boolean).join(' · '),href:x.url,ext:true,src:x.source};if(!dup(c))out.push(c);});
+ moments().forEach(m=>{const c={date:m.date,tone:/Election/.test(m.title)?'vote':/meets$/.test(m.title)?'civic':'event',k:/Election/.test(m.title)?'Vote':/meets$/.test(m.title)?'Meeting':'Coming up',t:m.title,line:m.line,href:m.href,ext:m.ext};if(!dup(c))out.push(c);});
+ upcomingEvents().filter(x=>x.date>TODAY).forEach(x=>{if(out.length>=14)return;const c={date:x.date,tone:'event',k:x.kind||'Event',t:x.title,line:[x.time,x.venue].filter(Boolean).join(' · '),href:x.url,ext:true,src:x.source};if(!dup(c))out.push(c);});
+ const rank=x=>x.warn?0:x.late?2:1;return out.sort((a,b)=>a.date.localeCompare(b.date)||rank(a)-rank(b)).slice(0,14);}
+function hcCard(x){const d=ld(x.date);const tm=addDays(TODAY,1);const when=x.date===TODAY?'Today':x.date===tm?'Tomorrow':d.toLocaleDateString('en-US',{weekday:'short'})+' · '+MON[d.getMonth()];
+ return `<a class="hc t-${x.tone}${x.date===TODAY?' is-today':''}" href="${esc(x.href||'#local')}"${x.ext?' target="_blank" rel="noopener"':''}><span class="hc-top"><span class="hc-d"><small>${esc(when)}</small><b>${d.getDate()}</b></span><span class="hc-ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${HC_IC[x.tone]||HC_IC.event}</svg></span></span><span class="hc-k">${esc(x.k)}</span><span class="hc-t">${esc(x.t)}</span>${x.line?`<span class="hc-l">${esc(x.line)}</span>`:''}${x.src?`<span class="hc-s">${esc(x.src)} ↗</span>`:''}</a>`;}
+function hcBlock(){const it=hcItems();if(!it.length)return '';const nev=upcomingEvents().length;const nt=it.filter(x=>x.date===TODAY).length;
+ return `<section class="blk"><div class="sec"><h2>Today and coming up</h2><a href="#local">${nev?'All '+nev+' events ›':'Calendar ›'}</a></div>
+ <div class="hcar"><button type="button" class="hcar-b prev" data-hcar="-1" aria-label="Earlier">‹</button><div class="hcar-track" tabindex="0" aria-label="${nt?nt+' things today, then what is coming up':'What is coming up'}">${it.map(hcCard).join('')}</div><button type="button" class="hcar-b next" data-hcar="1" aria-label="Later">›</button></div></section>`;}
+function hcSync(){document.querySelectorAll('.hcar').forEach(c=>{const t=c.querySelector('.hcar-track');if(!t)return;const f=()=>{c.classList.toggle('at-start',t.scrollLeft<4);c.classList.toggle('at-end',t.scrollLeft+t.clientWidth>=t.scrollWidth-4);};if(!t._hc){t._hc=1;t.addEventListener('scroll',f,{passive:true});}f();});}
+document.addEventListener('click',e=>{const b=e.target.closest('[data-hcar]');if(!b)return;const t=b.parentElement.querySelector('.hcar-track');if(t)t.scrollBy({left:(+b.dataset.hcar)*Math.max(240,t.clientWidth*.85),behavior:'smooth'});});
+/* ---- the ask card: the day's statement plus the idea box ---- */
+function askCard(){const q=todaysQ();const box=o=>tkComposer({id:'home',kinds:['idea'],kind:'idea',compact:true,showRef:false,head:o});
+ if(!q)return box(`<b>What should ${esc(TN())} do?</b> <span class="muted">Share an idea for the city. To comment on something, tap ${BUBBLE} on it.</span>`);
+ const iss=D.issues.find(i=>i.id===q.issue);const mine=qMine(q.id);if(OWNHOST&&QX.id!==q.id)qLoad(q);const res=QX.id===q.id?QX.res:null;
+ return `<section class="card askcard"><h2>What should ${esc(TN())} do?</h2>
+ <p class="qtext">${esc(q.text)}</p>
+ <div class="between qrow"><div class="row qbtns" role="group" aria-label="Your answer">${[['agree','Agree'],['disagree','Disagree'],['pass','Pass']].map(([k,l])=>`<button type="button" class="btn${mine===k?' on primary':''}" data-qans="${k}" data-qid="${esc(q.id)}">${l}</button>`).join('')}</div>${iss?`<a class="muted qiss" href="#issue-${iss.id}">${esc(iss.title)} ›</a>`:''}</div>
+ ${mine?(res&&res.total?qResults(res):`<p class="muted qhint">${OWNHOST?'Thanks. Results load in a moment.':'Thanks. Results are counted on agorri.com.'}</p>`):`<p class="muted qhint">Answer to see what others said. Address-checked answers are counted separately for the city.</p>`}
+ <div class="askdiv"></div>
+ ${box(`<b>Have your own idea?</b> <span class="muted">Share it with the city. To comment on something, tap ${BUBBLE} on it.</span>`)}</section>`;}
 /* ---- the new Home ---- */
 function pageHome2(){const m=D.council_meetings[0];const yes=m?m.decisions.filter(d=>/^pass|^approved/i.test(d.outcome||'')).length:0;const nev=upcomingEvents().length;const hr=new Date().getHours();const hi=hr<12?'Good morning':hr<17?'Good afternoon':'Good evening';const yday=m&&m.date===addDays(TODAY,-1);
  if(!WX.ok||WX.town!==TOWN.id)loadWX();
  return `
  <section class="between hhead"><div class="stack" style="gap:2px"><h1>${hi}, ${TN()}</h1><span class="muted">${ld(TODAY).toLocaleDateString('en-US',{weekday:'long',month:'long',day:'numeric'})}</span></div></section>
- ${todayCard()}
- ${questionCard()}
+ ${askCard()}
  ${yourStuff()}
- ${tkComposer({id:'home',kinds:['idea'],kind:'idea',compact:true,showRef:false,head:`<b>What should ${esc(TN())} do?</b> <span class="muted">Share an idea for the city. To comment on something, tap ${BUBBLE} on it.</span>`})}
  ${kpiTiles()}
+ ${hcBlock()}
  ${voteBlock()}
- <section class="blk"><div class="sec"><h2>Coming up</h2><a href="#local">${nev?'All '+nev+' events ›':'Calendar ›'}</a></div><div class="mos">${moments().map(momentCard).join('')}</div></section>
  <section class="blk"><div class="sec"><h2>What the city is deciding</h2><a href="#issues">All ${D.issues.length} ›</a></div><div class="ols">${D.issues.slice(0,3).map(i=>isNewDate(issueLast(i))?issueRow(i).replace('</a>',' '+NEWDOT+'</a>'):issueRow(i)).join('')}</div></section>
  ${tkHomeBlock()}
  ${becauseResidents()}
