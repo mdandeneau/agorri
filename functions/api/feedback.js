@@ -30,7 +30,9 @@ async function sendEmail(env, f) {
   const body = { from: env.FEEDBACK_FROM || 'Agorri feedback <onboarding@resend.dev>', to: [env.FEEDBACK_TO], subject: m.subject, html: m.html, text: m.text };
   if (f.contact && /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(f.contact)) body.reply_to = f.contact;
   const r = await fetch('https://api.resend.com/emails', { method: 'POST', headers: { authorization: 'Bearer ' + env.RESEND_API_KEY, 'content-type': 'application/json' }, body: JSON.stringify(body) });
-  return r.ok;
+  if (r.ok) return true;
+  let why = ''; try { const j = await r.json(); why = j.message || j.name || ''; } catch (e) {}
+  return { error: 'Resend ' + r.status + (why ? ': ' + String(why).slice(0, 200) : '') };
 }
 
 export async function onRequest(context) {
@@ -62,8 +64,8 @@ export async function onRequest(context) {
   const res = await env.DB.prepare('INSERT INTO site_feedback (at, town, kind, text, page, contact, author, ip, ua) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?) RETURNING id')
     .bind(f.at, f.town, f.kind, f.text, f.page, f.contact, author, ip, f.ua).first();
   f.id = res && res.id;
-  let emailed = false;
-  try { emailed = await sendEmail(env, f); } catch (e) { emailed = false; }
+  let emailed = false, emailError;
+  try { const r = await sendEmail(env, f); if (r === true) emailed = true; else if (r && r.error) emailError = r.error; } catch (e) { emailError = 'send failed'; }
   if (emailed) await env.DB.prepare('UPDATE site_feedback SET emailed = 1 WHERE id = ?').bind(f.id).run();
-  return json({ ok: true, id: f.id, emailed });
+  return json({ ok: true, id: f.id, emailed, ...(emailError ? { emailError } : {}) });
 }
