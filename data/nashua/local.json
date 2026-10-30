@@ -241,6 +241,17 @@
     "label": "City of Nashua, Oct 27",
     "url": "https://www.nashuanh.gov/m/newsflash/Home/Detail/2680"
    }
+  },
+  {
+   "date": "2026-10-29",
+   "until": "2026-11-05",
+   "kind": "Road work",
+   "title": "Water and sewer work on Mulberry Street, with occasional closures, through Nov 5",
+   "detail": "Mulberry Street between Main Street and Elm Street may close at times from Thursday, Oct 29 through Thursday, Nov 5, 7 am to 3:30 pm, for water and sewer work.",
+   "source": {
+    "label": "City of Nashua, Oct 29",
+    "url": "https://www.nashuanh.gov/m/newsflash/Home/Detail/2683"
+   }
   }
  ],
  "links": [
@@ -393,16 +404,6 @@
   }
  ],
  "events": [
-  {
-   "date": "2026-10-29",
-   "time": "11:00 am",
-   "title": "Homeschool Exploration",
-   "venue": "Nashua Public Library, Theater",
-   "town": "Nashua",
-   "kind": "Family",
-   "url": "https://nashualibrary.libcal.com/event/17358561",
-   "source": "Nashua Public Library"
-  },
   {
    "date": "2026-10-31",
    "time": "6:00 pm",
@@ -945,7 +946,7 @@
    "source": "Nashua Center for the Arts"
   }
  ],
- "events_as_of": "2026-10-29",
+ "events_as_of": "2026-10-30",
  "eventsNote": "Events from the Nashua Center for the Arts, Nashua Public Library, City of Nashua calendar, Downtown Nashua Association, VFW Post 483, Rivier Athletics and the Patch community calendar, as of Oct 28. Confirm with the organizer.",
  "election": {
   "date": "2026-11-03",
@@ -1480,7 +1481,7 @@
  "postsAsOf": "2026-10-28T12:00:00Z",
  "postsNote": "The live feed fills this in.",
  "safety": {
-  "as_of": "2026-10-29",
+  "as_of": "2026-10-30",
   "note": "Compiled from Nashua Police and Nashua Fire Rescue pages, the 2025 police annual report, Fire Commission minutes and local news. Incidents are described by type, street and date only; no names of people involved.",
   "alerts": {
    "name": "Nashua Emergency Alerts",
@@ -1977,9 +1978,24 @@
  "paper": {
   "name": "The Telegraph",
   "url": "https://www.nashuatelegraph.com/",
-  "asOf": "2026-10-29",
+  "asOf": "2026-10-30",
   "note": "Stories open on the paper’s site.",
   "headlines": [
+   {
+    "title": "Parents defend Mt. Pleasant and New Searles",
+    "url": "https://www.nashuatelegraph.com/news/2026/10/29/parents-defend-mt-pleasant-and-new-searles/",
+    "date": "2026-10-29"
+   },
+   {
+    "title": "Pappas and Shaheen warn against privatizing Social Security",
+    "url": "https://www.nashuatelegraph.com/news/2026/10/29/pappas-and-shaheen-warn-against-privatizing-social-security/",
+    "date": "2026-10-29"
+   },
+   {
+    "title": "The Nash presents $2.3m to local nonprofits",
+    "url": "https://www.nashuatelegraph.com/news/2026/10/29/the-nash-presents-2-3m-to-local-nonprofits/",
+    "date": "2026-10-29"
+   },
    {
     "title": "Warmington frantically trying to catch Ayotte in governor’s race",
     "url": "https://www.nashuatelegraph.com/news/2026/10/28/warmington-frantically-trying-to-catch-ayotte-in-governors-race/",
@@ -2004,21 +2020,6 @@
     "title": "Strategist Bank receives conditional approval from state and FDIC",
     "url": "https://www.nashuatelegraph.com/news/2026/10/27/strategist-bank-receives-conditional-approval-from-state-and-fdic/",
     "date": "2026-10-27"
-   },
-   {
-    "title": "Harris stumps in Manchester, touts growing reproductive rights movement",
-    "url": "https://www.nashuatelegraph.com/news/2026/10/26/harris-stumps-in-manchester-touts-growing-reproductive-rights-movement/",
-    "date": "2026-10-26"
-   },
-   {
-    "title": "Rotary Halloween party a fellowship of kindred spirits",
-    "url": "https://www.nashuatelegraph.com/news/2026/10/26/rotary-halloween-party-a-fellowship-of-kindred-spirits/",
-    "date": "2026-10-26"
-   },
-   {
-    "title": "Jacques Memorial School Halloween Parade slated for Oct. 30",
-    "url": "https://www.nashuatelegraph.com/news/2026/10/26/jacques-memorial-school-halloween-parade-slated-for-oct-30/",
-    "date": "2026-10-26"
    }
   ]
  }

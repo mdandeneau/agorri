@@ -825,28 +825,8 @@
    "status": "not yet connected"
   }
  ],
- "events_as_of": "2026-10-29",
+ "events_as_of": "2026-10-30",
  "events": [
-  {
-   "date": "2026-10-29",
-   "time": "9:30 am and 11:30 am",
-   "title": "Chicka Chicka Boom Boom: The Musical",
-   "venue": "The Music Hall",
-   "town": "Portsmouth",
-   "kind": "Family",
-   "url": "https://www.themusichall.org/events/chickachickaboomboom/",
-   "source": "The Music Hall"
-  },
-  {
-   "date": "2026-10-29",
-   "time": "7:30 pm",
-   "title": "Andy Gross",
-   "venue": "The Music Hall",
-   "town": "Portsmouth",
-   "kind": "Comedy",
-   "url": "https://www.themusichall.org/events/andygross/",
-   "source": "The Music Hall"
-  },
   {
    "date": "2026-10-30",
    "time": "5 to 8 pm",
@@ -1312,7 +1292,7 @@
   }
  ],
  "safety": {
-  "as_of": "2026-10-29",
+  "as_of": "2026-10-30",
   "note": "Compiled from City of Portsmouth police and fire pages, daily police logs, Police and Fire Commission minutes and local news. Incidents are described by type, street and date only; no names of people involved.",
   "alerts": {
    "name": "Smart911 Community Alert System",
@@ -1993,7 +1973,7 @@
  "paper": {
   "name": "Portsmouth Patch",
   "url": "https://patch.com/new-hampshire/portsmouth-nh",
-  "asOf": "2026-10-29",
+  "asOf": "2026-10-30",
   "note": "The Portsmouth Herald is paywalled with no public feed, so these come from Patch.",
   "headlines": [
    {
