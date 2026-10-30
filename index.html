@@ -1854,7 +1854,7 @@ function modWorse(a, b) { return (RANK[b && b.decision] || 0) > (RANK[a && a.dec
 
 return {MOD_POLICY,modPrompt,modVerdict,modWorse};})();
 const ADDRLIB=(()=>{
-// Address check: is this a real address inside the town? Uses the U.S. Census Bureau's public geocoder.
+// Address check: is this a real address inside the town? Uses the U.S. Census Bureau's public geocoder, with OpenStreetMap as a backup.
 // Used by /api/verify on agorri.com and by the page in the preview.
 const STATE_FIPS = { NH: '33', ME: '23', MA: '25', VT: '50' };
 
@@ -1882,14 +1882,36 @@ function addressInTown(json, town, state) {
   return { ok: false, reason: 'outside', matched: first.matchedAddress, place: where.NAME || where.BASENAME || '' };
 }
 
+// Backup source when the Census geocoder is down: OpenStreetMap's Nominatim (free; at most one request a second, which a
+// town-sized site never approaches). Only an exact match counts: the result must carry a house number and sit in the town.
+const STATE_NAMES = { NH: 'New Hampshire', ME: 'Maine', MA: 'Massachusetts', VT: 'Vermont' };
+function osmUrl(address, town, state) {
+  const a = /,/.test(address) || /\b\d{5}\b/.test(address) ? address : `${address}, ${town}, ${state}`;
+  return 'https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=3&countrycodes=us&q=' + encodeURIComponent(a);
+}
+function osmInTown(list, town, state) {
+  const hits = (Array.isArray(list) ? list : []).filter(x => x && x.address && x.address.house_number && x.address.road);
+  if (!hits.length) return { ok: false, reason: 'not_found' };
+  const stateName = (STATE_NAMES[state] || state || '').toLowerCase();
+  const placeOf = a => a.city || a.town || a.village || a.municipality || a.hamlet || '';
+  for (const x of hits) {
+    const a = x.address;
+    if (base(placeOf(a)) === base(town) && (!stateName || String(a.state || '').toLowerCase() === stateName)) {
+      return { ok: true, matched: `${a.house_number} ${a.road}, ${placeOf(a)}, ${state}${a.postcode ? ', ' + a.postcode : ''}`.toUpperCase(), place: placeOf(a), source: 'osm' };
+    }
+  }
+  const a = hits[0].address;
+  return { ok: false, reason: 'outside', matched: '', place: placeOf(a) };
+}
+
 return {STATE_FIPS,censusUrl,addressInTown};})();
 /* ================= Talk: one conversation store for every resident post ================= */
 /* Every idea, question, debate argument, comment, reply and neighbor post lives here, tagged with what it is about (ref).
    Storage: Cloudflare /api/talk (D1) on agorri.com, the artifact's shared db in the preview, or this browser as a fallback.
    Moderation: the rules in MODLIB (lib/moderation.js). AI review on every post and every flag; a person for grey areas.
    Posting needs an address check (ADDRLIB, /api/verify). Support and flags are open to everyone. */
-const TK_KINDS={idea:{n:'Idea',p:'Ideas',tone:'blue',ph:'Add a crosswalk near the elementary school'},question:{n:'Question',p:'Questions',tone:'amber',ph:'What do you want to know?'},argument:{n:'Debate',p:'Debate',tone:'green',ph:'Your argument in a sentence or two'},comment:{n:'Comment',p:'Comments',tone:'',ph:'What do you think?'},neighbor:{n:'Neighbors',p:'Neighbors',tone:'',ph:'An event, a lost pet, a recommendation, something to give away'}};
-const TK_ORDER=['idea','question','argument','comment','neighbor'];
+const TK_KINDS={idea:{n:'Idea',p:'Ideas',tone:'blue',ph:'Add a crosswalk near the elementary school'},question:{n:'Comment',p:'Comments',tone:'',ph:'What do you think?'},argument:{n:'Debate',p:'Debate',tone:'green',ph:'Your argument in a sentence or two'},comment:{n:'Comment',p:'Comments',tone:'',ph:'What do you think?'},neighbor:{n:'Neighbors',p:'Neighbors',tone:'',ph:'An event, a lost pet, a recommendation, something to give away'}};
+const TK_ORDER=['idea','argument','comment','neighbor'];
 const NB_TAGS=['Events','Lost and found','Recommendations','Buy, sell, free'];
 const FLAG_REASONS=['Hate or slurs','Threat','Harassment','Personal information','Spam or ads','Campaigning','Off-topic national politics','False information','Something else'];
 const TK_HIDE_AT=3;
@@ -2004,7 +2026,8 @@ function tkComposer(o){o=o||{};const kinds=o.kinds||['idea','question','comment'
   <div class="tkc-mod" hidden></div>
   <div class="tkc-foot">${S.verified?`<label class="chk"><input type="checkbox" name="anon"> Post anonymously</label><span class="muted">as @${esc(S.username||'resident')}</span>`:`<span class="muted">Posting needs a quick address check. Reading is open to everyone.</span>`}<button class="btn primary" type="submit">${S.verified?(o.parent?'Reply':'Post'):'Check address and post'}</button></div>
   <p class="muted tkc-note">${TALK.ai?'An AI checks each post against the <a href="#talk" data-tkrules>house rules</a>; grey areas go to a person.':'Posts are checked against the <a href="#talk" data-tkrules>house rules</a>.'} No phone numbers or emails.</p><div class="tkc-err" hidden></div></form>`;}
-function tkKindCounts(list){const n={All:list.length};TK_ORDER.forEach(k=>{n[k]=list.filter(x=>x.kind===k).length;});return n;}
+function tkKindOf(x){return x.kind==='question'?'comment':x.kind;}
+function tkKindCounts(list){const n={All:list.length};TK_ORDER.forEach(k=>{n[k]=list.filter(x=>tkKindOf(x)===k).length;});return n;}
 function tkSort(list,s){const a=list.slice();if(s==='Top')a.sort((x,y)=>(y.sup-x.sup)||y.at.localeCompare(x.at));else if(s==='Discussed')a.sort((x,y)=>(y.replies-x.replies)||(y.active||y.at).localeCompare(x.active||x.at));else a.sort((x,y)=>(y.active||y.at).localeCompare(x.active||x.at));return a;}
 function tkCtxOptions(){const o=[['All','All topics'],['town','General']];D.issues.forEach(i=>o.push(['issue:'+i.id,i.title]));o.push(['meeting','Meetings'],['post','Official posts'],['news','News'],['event','Events'],['idea','Ideas'],['candidate','Candidates'],['park','Parks and rec'],['business','Businesses'],['notice','City notices'],['person','Officials']);return o;}
 function tkRules(open){const P=MODLIB.MOD_POLICY;const by=a=>Object.values(P.categories).filter(c=>c.action===a);const li=c=>`<li><b>${esc(c.label)}.</b> ${esc(c.rule)}</li>`;
@@ -2016,10 +2039,10 @@ function tkRules(open){const P=MODLIB.MOD_POLICY;const by=a=>Object.values(P.cat
   <div><h3>Asked to reconsider</h3><ul class="pts">${by('nudge').map(li).join('')}</ul><p class="muted">You can edit, take the suggested wording, or post anyway.</p></div>
   <div><h3>Always fine</h3><ul class="pts">${P.allowed.map(a=>`<li>${esc(a)}</li>`).join('')}</ul></div>
   <p class="muted">Blocked or taken down by mistake? Tap "Ask a person to review." Flags alone never hide a post; if three or more people flag something the AI allowed, a person looks at it. Every moderation decision is logged.</p></div></details>`;}
-function pageTalk(){const f=TALK.f;const all=tkTop();let list=all;if(f.ctx!=='All')list=list.filter(x=>{const k=tkRefKey(x.ref);return f.ctx===k||(f.ctx===(x.ref&&x.ref.t));});const cn=tkKindCounts(list);if(f.kind!=='All')list=list.filter(x=>x.kind===f.kind);list=tkSort(list,f.sort);
+function pageTalk(){const f=TALK.f;const all=tkTop();let list=all;if(f.ctx!=='All')list=list.filter(x=>{const k=tkRefKey(x.ref);return f.ctx===k||(f.ctx===(x.ref&&x.ref.t));});const cn=tkKindCounts(list);if(f.kind!=='All')list=list.filter(x=>tkKindOf(x)===f.kind);list=tkSort(list,f.sort);
  const pref=TALK.pref;const recs=f.kind==='idea'||f.kind==='All'?allRequests().filter(d=>!d.mine&&!d.tk).slice(0,f.kind==='idea'?20:0):[];const q=TALK.isMod?tkQueue().length:0;
- return `<section class="between" style="align-items:flex-end"><div class="stack" style="gap:4px"><h1>Talk</h1><p class="lead">What residents are saying about ${esc(TN())}: ideas, questions, debates and comments, all in one place. Comments live on the thing they are about (tap the speech bubble on any item); everything shows up here too.</p></div>${TALK.isMod?`<a class="btn" href="#mod">Review queue${q?' · '+q:''}</a>`:''}</section>
- ${tkComposer({id:'main',kinds:(pref&&pref.ref&&pref.ref.t!=='town')?['comment','question','idea']:['idea','question','neighbor'],kind:pref&&pref.kind||'idea',ref:pref&&pref.ref||{t:'town'},clearable:!!(pref&&pref.ref&&pref.ref.t!=='town')})}
+ return `<section class="between" style="align-items:flex-end"><div class="stack" style="gap:4px"><h1>Talk</h1><p class="lead">What residents are saying about ${esc(TN())}: ideas, debates and comments, all in one place. Comments live on the thing they are about (tap the speech bubble on any item); everything shows up here too.</p></div>${TALK.isMod?`<a class="btn" href="#mod">Review queue${q?' · '+q:''}</a>`:''}</section>
+ ${tkComposer({id:'main',kinds:(pref&&pref.ref&&pref.ref.t!=='town')?['comment','idea']:['idea','neighbor'],kind:pref&&pref.kind||'idea',ref:pref&&pref.ref||{t:'town'},clearable:!!(pref&&pref.ref&&pref.ref.t!=='town')})}
  <div class="tkf"><div class="chips" role="group" aria-label="Type">${['All',...TK_ORDER].map(k=>`<button type="button" data-tkf="${k}" class="${f.kind===k?'on':''}">${k==='All'?'Everything':TK_KINDS[k].p}${cn[k]?' '+cn[k]:''}</button>`).join('')}</div>
   <div class="row tkf2"><label class="sr" for="tkctx">Topic</label><select id="tkctx">${tkCtxOptions().map(([v,l])=>`<option value="${esc(v)}"${f.ctx===v?' selected':''}>${esc(l)}</option>`).join('')}</select><div class="seg" role="group" aria-label="Sort">${[['New','New'],['Top','Top'],['Discussed','Most discussed']].map(([k,l])=>`<button type="button" data-tksort="${k}" class="${f.sort===k?'on':''}">${l}</button>`).join('')}</div></div></div>
  <div class="tklist">${list.map(x=>tkRow(x)).join('')||`<div class="card tk-empty"><b>Nothing here yet.</b><p class="muted">${f.kind==='idea'||f.kind==='All'?'Post the first idea for '+esc(TN())+'. Ideas with '+REQ_T+' address-checked supporters get a public answer from the city within 30 days.':'Start the conversation with the box above.'}</p></div>`}</div>
@@ -2047,11 +2070,11 @@ function pageMod(){if(!TALK.isMod){if(TALK.mode==='api'||OWNHOST)return `<sectio
 function tkDebate(i){const all=tkFor('issue',i.id);const args=s=>tkSort(all.filter(x=>x.kind==='argument'&&x.stance===s),'Top');const fo=args('for'),ag=args('against');const rest=tkSort(all.filter(x=>x.kind!=='argument'),'New');
  return `<section class="card stack" style="gap:12px" id="debate"><div class="between"><h2>The debate</h2><a class="more-l" href="#talk" data-tkgo="issue:${esc(i.id)}">All talk on this ›</a></div>
   <div class="deb"><div class="deb-col"><h3 class="deb-for">For <span class="muted num">${fo.length}</span></h3>${fo.map(x=>tkRow(x,{noCtx:true,noTag:true})).join('')||'<p class="muted">No arguments for yet.</p>'}</div><div class="deb-col"><h3 class="deb-ag">Against <span class="muted num">${ag.length}</span></h3>${ag.map(x=>tkRow(x,{noCtx:true,noTag:true})).join('')||'<p class="muted">No arguments against yet.</p>'}</div></div>
-  ${tkComposer({id:'deb-'+i.id,kinds:['argument','question','comment'],ref:{t:'issue',id:i.id},showRef:false,compact:true})}
+  ${tkComposer({id:'deb-'+i.id,kinds:['argument','comment'],ref:{t:'issue',id:i.id},showRef:false,compact:true})}
   ${rest.length?`<div class="stack" style="gap:0"><h3 style="margin-top:4px">Questions and comments</h3><div class="tklist">${rest.map(x=>tkRow(x,{noCtx:true})).join('')}</div></div>`:''}</section>`;}
 function tkMeeting(m){const ref={t:'meeting',id:m.date,label:(m.body||GB())+' meeting, '+fmtD(m.date)};const all=tkSort(tkFor('meeting',m.date),'New');
- return `<section class="card stack" style="gap:12px"><div class="between"><h2>Talk about this meeting</h2><span class="muted">${all.length||'No'} post${all.length===1?'':'s'}</span></div><div class="tklist">${all.map(x=>tkRow(x,{noCtx:true})).join('')}</div>${tkComposer({id:'mtg',kinds:['comment','question','idea'],ref,showRef:false,compact:true})}</section>`;}
-function tkHomeBlock(){const top=tkSort(tkTop(),'New').slice(0,4);return `<section class="blk"><div class="sec"><h2>What residents are saying</h2><a href="#talk">All talk${tkTop().length?' ('+tkTop().length+')':''} ›</a></div>${top.length?`<div class="tklist">${top.map(x=>tkRow(x)).join('')}</div>`:`<div class="card tk-empty"><p class="muted">No posts yet. Ideas, questions and debate from residents will show up here.</p></div>`}</section>`;}
+ return `<section class="card stack" style="gap:12px"><div class="between"><h2>Talk about this meeting</h2><span class="muted">${all.length||'No'} post${all.length===1?'':'s'}</span></div><div class="tklist">${all.map(x=>tkRow(x,{noCtx:true})).join('')}</div>${tkComposer({id:'mtg',kinds:['comment','idea'],ref,showRef:false,compact:true})}</section>`;}
+function tkHomeBlock(){const top=tkSort(tkTop(),'New').slice(0,4);return `<section class="blk"><div class="sec"><h2>What residents are saying</h2><a href="#talk">All talk${tkTop().length?' ('+tkTop().length+')':''} ›</a></div>${top.length?`<div class="tklist">${top.map(x=>tkRow(x)).join('')}</div>`:`<div class="card tk-empty"><p class="muted">No posts yet. Ideas, comments and debate from residents will show up here.</p></div>`}</section>`;}
 function tkGo(ref,kind){TALK.pref={ref,kind:kind||'comment'};if((location.hash||'')==='#talk')rerender();else location.hash='#talk';setTimeout(()=>{const t=document.querySelector('#tkcmain .tkc-body');if(t)t.focus();},60);}
 function tkFormPayload(f){const fd=new FormData(f);const kind=f.dataset.parent?'comment':f.dataset.kind;
  const t={kind,ref:JSON.parse(f.dataset.ref||'{"t":"town"}'),parent:f.dataset.parent||null,stance:kind==='argument'?(fd.get('stance')||'for'):null,title:['idea','question','neighbor'].includes(kind)?(fd.get('title')||'').toString().trim():'',body:(fd.get('body')||'').toString().trim(),tag:kind==='neighbor'?fd.get('tag'):null,anon:!!fd.get('anon')};
@@ -2150,7 +2173,7 @@ function tkThreadSheet(ref){const c=tkCtx(ref)||{label:ref.label||'',href:'#talk
  return `<div class="between" style="flex-wrap:nowrap;align-items:flex-start"><div class="stack" style="gap:2px;min-width:0"><span class="muted">Comments on</span><h2 style="font-size:18px;line-height:1.3">${esc(c.label||ref.label||'')}</h2></div><button class="x" data-close aria-label="Close">×</button></div>
  <div class="row" style="gap:6px">${intBtn(ref)}${c.href&&c.href!=='#talk'?`<a class="tkb" href="${esc(c.href)}"${c.ext?' target="_blank" rel="noopener"':' data-closelink'}>Open ${c.ext?'↗':'›'}</a>`:''}<a class="tkb" href="#talk" data-tkgo="${esc(k)}">In Talk ›</a></div>
  <div class="tklist">${list.map(x=>tkRow(x,{noCtx:true})).join('')||'<div class="card tk-empty"><p class="muted">No comments yet. Yours would be the first.</p></div>'}</div>
- ${tkComposer({id:'sheet',kinds:['comment','question'],ref:{t:ref.t,id:ref.id,label:ref.label||c.label,url:ref.url||'',href:ref.href||''},showRef:false,compact:true})}`;}
+ ${tkComposer({id:'sheet',kinds:['comment'],ref:{t:ref.t,id:ref.id,label:ref.label||c.label,url:ref.url||'',href:ref.href||''},showRef:false,compact:true})}`;}
 function openThread(ref){openSheet(tkThreadSheet(ref));$('sheet').dataset.thread=JSON.stringify(ref);const t=$('sheet').querySelector('.tkc-body');if(t&&!tkFor(ref.t,ref.id).length)t.focus();}
 function refreshThread(){const s=$('sheet');if($('scrim').hidden||!s.dataset.thread)return false;try{const ref=JSON.parse(s.dataset.thread);const y=s.scrollTop;s.innerHTML=tkThreadSheet(ref);s.scrollTop=y;return true;}catch(e){return false;}}
 /* ---- Home: the open box posts ideas and questions; its Comments tab is your conversations ---- */
@@ -2164,8 +2187,8 @@ function mySummary(){const th=myThreads(),ints=intRows();const keys=new Set(ints
   ${ints.length?`<div class="stack" style="gap:2px"><div class="ncap"><span>Your interests</span><span class="muted">${ints.length}</span></div>${ints.slice(0,8).map(i=>row(i,`${i.n?i.n+' comment'+(i.n===1?'':'s'):'No comments yet'}${i.fresh?' · <b style="color:var(--accent)">'+i.fresh+' new</b>':''}`,intBtn({t:i.t,id:i.id,label:i.label,href:i.href,url:i.url},{sm:true}))).join('')}${ints.length>8?`<span class="muted">And ${ints.length-8} more.</span>`:''}</div>`:''}
   ${onInt.length?`<div class="stack" style="gap:0"><div class="ncap"><span>New on things you follow</span></div><div class="tklist">${onInt.map(x=>tkRow(x)).join('')}</div></div>`:''}</div>`;}
 function tkPrompt(){const th=myThreads().length,ints=intRows();const fresh=ints.reduce((n,i)=>n+i.fresh,0);const cl=`Comments${fresh?' <b style="color:var(--accent)">'+fresh+' new</b>':th||ints.length?' '+(th+ints.length):''}`;
- if(HOMEP.tab==='comments')return `<div class="tkc card compact k-comment" id="homecomments"><div class="tkc-head"><b>Your conversations</b> <span class="muted">What you commented on and what you follow.</span></div><div class="chips tkc-kinds" role="group" aria-label="What are you posting?"><button type="button" data-hometab="post" data-homekind="idea">Idea</button><button type="button" data-hometab="post" data-homekind="question">Question</button><button type="button" class="on" data-hometab="comments">${cl}</button></div>${mySummary()}</div>`;
- return tkComposer({id:'home',kinds:['idea','question'],kind:HOMEP.kind,compact:true,showRef:false,head:`<b>What should ${esc(TN())} do?</b> <span class="muted">Share an idea or ask a question. To comment on something, tap ${BUBBLE} on it.</span>`,extraChips:`<button type="button" data-hometab="comments">${cl}</button>`});}
+ if(HOMEP.tab==='comments')return `<div class="tkc card compact k-comment" id="homecomments"><div class="tkc-head"><b>Your conversations</b> <span class="muted">What you commented on and what you follow.</span></div><div class="chips tkc-kinds" role="group" aria-label="What are you posting?"><button type="button" data-hometab="post" data-homekind="idea">Idea</button><button type="button" class="on" data-hometab="comments">${cl}</button></div>${mySummary()}</div>`;
+ return tkComposer({id:'home',kinds:['idea'],kind:'idea',compact:true,showRef:false,head:`<b>What should ${esc(TN())} do?</b> <span class="muted">Share an idea for the city. To comment on something, tap ${BUBBLE} on it.</span>`,extraChips:`<button type="button" data-hometab="comments">${cl}</button>`});}
 /* ---- Home: the ballot, while an election is coming ---- */
 function voteBlock(){const C=LX&&LX.cand,e=LX&&LX.election;if(!C||!e||e.date<TODAY)return '';const days=Math.round((ld(e.date)-ld(TODAY))/864e5);if(days>45)return '';const races=racesForWard(S.ward);const nc=races.reduce((n,r)=>n+(r.candidates||[]).length,0);
  return `<section class="blk"><div class="sec"><h2>Vote ${days===0?'today':days===1?'tomorrow':'in '+days+' days'}</h2><a href="#election">Who is running ›</a></div><a class="card ol votecard" href="#election" style="padding:12px 16px"><span class="evt"><span style="font-weight:600">${esc(fmtD(e.date))}: ${races.length} races, ${nc} candidates on a Ward ${esc(S.ward)} ballot</span><span class="muted">${esc(e.hours||'')} ${races.slice(0,6).map(r=>r.office).join(' · ')}${races.length>6?' · and more':''}</span></span><span class="muted" style="margin-left:auto;white-space:nowrap">Open ›</span></a></section>`;}
