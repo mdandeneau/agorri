@@ -67,5 +67,6 @@ export async function onRequest(context) {
   let emailed = false, emailError;
   try { const r = await sendEmail(env, f); if (r === true) emailed = true; else if (r && r.error) emailError = r.error; } catch (e) { emailError = 'send failed'; }
   if (emailed) await env.DB.prepare('UPDATE site_feedback SET emailed = 1 WHERE id = ?').bind(f.id).run();
+  if (!emailed && !emailError) emailError = 'Email is not set up: ' + [env.RESEND_API_KEY ? '' : 'RESEND_API_KEY missing', env.FEEDBACK_TO ? '' : 'FEEDBACK_TO missing'].filter(Boolean).join(', ');
   return json({ ok: true, id: f.id, emailed, ...(emailError ? { emailError } : {}) });
 }
