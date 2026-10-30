@@ -1027,12 +1027,12 @@ a.agm-line:hover .agm-t b{color:var(--accent)}
 .navnew{margin-left:auto;min-width:18px;height:18px;padding:0 5px;border-radius:999px;background:var(--accent);color:var(--accent-ink);font-size:11px;font-weight:700;display:inline-flex;align-items:center;justify-content:center}
 #tabbar a{position:relative}#tabbar .navnew{position:absolute;top:2px;left:calc(50% + 6px);margin:0;height:16px;min-width:16px;font-size:10px}
 @media (max-width:560px){.tline{grid-template-columns:1fr;gap:2px}}
-.askcard{padding:16px 18px}.askcard h2{font-size:18px}
-.askcard .qtext{font-size:16.5px;font-weight:500;line-height:1.4;margin:10px 0 12px;color:var(--ink);padding:10px 14px;border-left:3px solid var(--accent);background:var(--accent-soft);border-radius:4px 10px 10px 4px}
-.qrow{gap:10px;flex-wrap:wrap;align-items:center}.qiss{font-size:13px;text-decoration:none}.qiss:hover{text-decoration:underline}
-.qhint{font-size:12.5px;margin-top:8px}
-.askdiv{height:1px;background:var(--line);margin:14px -18px 12px}
-.askcard .tkc{box-shadow:none;background:transparent;padding:0;border:0;margin:0}
+.askcard{padding:14px 16px 12px}.askcard h2{font-size:15px;color:var(--muted);font-weight:600;margin:0}
+.askcard .qtext{font-size:16.5px;font-weight:600;line-height:1.35;margin:4px 0 10px;color:var(--ink)}
+.qrow{display:flex;gap:6px 12px;flex-wrap:wrap;align-items:center}.qbtns{gap:6px}.qbtns .btn{min-width:78px}
+.qiss{font-size:12.5px;text-decoration:none;margin-left:auto;max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.qiss:hover{text-decoration:underline}
+.askcard .qres{margin-top:8px}.qhint{font-size:12.5px;margin-top:6px}
+.askcard .tkc{box-shadow:none;background:transparent;padding:0;border:0;margin:12px 0 0}
 .hcar{position:relative}
 .hcar-track{display:flex;gap:12px;overflow-x:auto;scroll-snap-type:x mandatory;scroll-padding:0 2px;padding:4px 2px 10px;scrollbar-width:none;-webkit-overflow-scrolling:touch}
 .hcar-track::-webkit-scrollbar{display:none}
@@ -1052,7 +1052,7 @@ a.agm-line:hover .agm-t b{color:var(--accent)}
 .hcar-b{position:absolute;top:50%;transform:translateY(-60%);z-index:2;width:36px;height:36px;border-radius:50%;border:0;background:var(--surface);box-shadow:0 2px 8px rgba(0,0,0,.18);font-size:22px;line-height:1;color:var(--ink);cursor:pointer;display:flex;align-items:center;justify-content:center}
 .hcar-b.prev{left:-14px}.hcar-b.next{right:-14px}
 .hcar.at-start .prev,.hcar.at-end .next{opacity:0;pointer-events:none}
-@media (max-width:720px){.hcar-b{display:none}.hc{flex-basis:72%}.hcar-track{margin:0 -16px;padding:4px 16px 10px;scroll-padding:0 16px}.askdiv{margin:14px -16px 12px}.askcard{padding:14px 16px}}
+@media (max-width:720px){.qiss{margin-left:0;flex-basis:100%}.hcar-b{display:none}.hc{flex-basis:72%}.hcar-track{margin:0 -16px;padding:4px 16px 10px;scroll-padding:0 16px}}
 </style>
 
 </head>
@@ -2528,15 +2528,15 @@ function hcBlock(){const it=hcItems();if(!it.length)return '';const nev=upcoming
 function hcSync(){document.querySelectorAll('.hcar').forEach(c=>{const t=c.querySelector('.hcar-track');if(!t)return;const f=()=>{c.classList.toggle('at-start',t.scrollLeft<4);c.classList.toggle('at-end',t.scrollLeft+t.clientWidth>=t.scrollWidth-4);};if(!t._hc){t._hc=1;t.addEventListener('scroll',f,{passive:true});}f();});}
 document.addEventListener('click',e=>{const b=e.target.closest('[data-hcar]');if(!b)return;const t=b.parentElement.querySelector('.hcar-track');if(t)t.scrollBy({left:(+b.dataset.hcar)*Math.max(240,t.clientWidth*.85),behavior:'smooth'});});
 /* ---- the ask card: the day's statement plus the idea box ---- */
-function askCard(){const q=todaysQ();const box=o=>tkComposer({id:'home',kinds:['idea'],kind:'idea',compact:true,showRef:false,head:o});
- if(!q)return box(`<b>What should ${esc(TN())} do?</b> <span class="muted">Share an idea for the city. To comment on something, tap ${BUBBLE} on it.</span>`);
+function askCard(){const q=todaysQ();
+ if(!q)return tkComposer({id:'home',kinds:['idea'],kind:'idea',compact:true,showRef:false,head:`<b>What should ${esc(TN())} do?</b> <span class="muted">Share an idea for the city. To comment on something, tap ${BUBBLE} on it.</span>`});
  const iss=D.issues.find(i=>i.id===q.issue);const mine=qMine(q.id);if(OWNHOST&&QX.id!==q.id)qLoad(q);const res=QX.id===q.id?QX.res:null;
+ const box=tkComposer({id:'home',kinds:['idea'],kind:'idea',compact:true,showRef:false}).replace(/placeholder="[^"]*"/,'placeholder="Or share your own idea for the city"');
  return `<section class="card askcard"><h2>What should ${esc(TN())} do?</h2>
  <p class="qtext">${esc(q.text)}</p>
- <div class="between qrow"><div class="row qbtns" role="group" aria-label="Your answer">${[['agree','Agree'],['disagree','Disagree'],['pass','Pass']].map(([k,l])=>`<button type="button" class="btn${mine===k?' on primary':''}" data-qans="${k}" data-qid="${esc(q.id)}">${l}</button>`).join('')}</div>${iss?`<a class="muted qiss" href="#issue-${iss.id}">${esc(iss.title)} ›</a>`:''}</div>
- ${mine?(res&&res.total?qResults(res):`<p class="muted qhint">${OWNHOST?'Thanks. Results load in a moment.':'Thanks. Results are counted on agorri.com.'}</p>`):`<p class="muted qhint">Answer to see what others said. Address-checked answers are counted separately for the city.</p>`}
- <div class="askdiv"></div>
- ${box(`<b>Have your own idea?</b> <span class="muted">Share it with the city. To comment on something, tap ${BUBBLE} on it.</span>`)}</section>`;}
+ <div class="qrow"><div class="row qbtns" role="group" aria-label="Your answer">${[['agree','Agree'],['disagree','Disagree'],['pass','Pass']].map(([k,l])=>`<button type="button" class="btn sm${mine===k?' on primary':''}" data-qans="${k}" data-qid="${esc(q.id)}" title="Answer to see what others said. Address-checked answers are counted separately for the city.">${l}</button>`).join('')}</div>${iss?`<a class="muted qiss" href="#issue-${iss.id}">${esc(iss.title)} ›</a>`:''}</div>
+ ${mine?(res&&res.total?qResults(res):`<p class="muted qhint">${OWNHOST?'Thanks. Results load in a moment.':'Thanks. Results are counted on agorri.com.'}</p>`):''}
+ ${box}</section>`;}
 /* ---- the new Home ---- */
 function pageHome2(){const m=D.council_meetings[0];const yes=m?m.decisions.filter(d=>/^pass|^approved/i.test(d.outcome||'')).length:0;const nev=upcomingEvents().length;const hr=new Date().getHours();const hi=hr<12?'Good morning':hr<17?'Good afternoon':'Good evening';const yday=m&&m.date===addDays(TODAY,-1);
  if(!WX.ok||WX.town!==TOWN.id)loadWX();
