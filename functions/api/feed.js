@@ -1,4 +1,5 @@
 // GET /api/feed?town=<id> : merges the official sources in that town's feeds file (towns.json files.feeds) into one feed.
+// Source types: rss, atom, bluesky, links (a homepage), x (X accounts via a scheduled Apify task; see README).
 // Sources tagged "safety" (police and fire), "news" (the local paper), "business" or "parks" keep the tag so the page can show them in the right place.
 // Each source also passes along its level (City, County, State, Federal) and kind (official or candidate), and is capped at `max`
 // items (default 6 for official accounts, 12 for tagged news-style sources) so a chatty account on one platform cannot crowd out the rest.
@@ -54,7 +55,39 @@ export function parseLinks(html, src) {
     .map(([url, x], i) => ({ who: src.who, platform: src.platform, when: new Date(Date.parse(x.date + 'T16:00:00Z') - i * 1000).toISOString(), quote: x.title, gist: '', url, source: src.id }));
 }
 
-async function fetchSource(src) {
+// type "x": posts from X (Twitter) accounts, read from a scheduled Apify task's latest results (X has no free API).
+// One task covers every handle; env APIFY_TOKEN and APIFY_X_TASK (the task id) must be set. Items are matched to src.handle.
+let xCache = { at: 0, items: null };
+async function apifyX(env) {
+  if (!env || !env.APIFY_TOKEN || !env.APIFY_X_TASK) return [];
+  if (xCache.items && Date.now() - xCache.at < 10 * 60e3) return xCache.items;
+  const u = 'https://api.apify.com/v2/actor-tasks/' + encodeURIComponent(env.APIFY_X_TASK) + '/runs/last/dataset/items?status=SUCCEEDED&clean=true&limit=1000&token=' + encodeURIComponent(env.APIFY_TOKEN);
+  const r = await fetch(u, { headers: { 'user-agent': 'Agorri civic feed (agorri.com)' } });
+  if (!r.ok) throw new Error('apify ' + r.status);
+  const items = await r.json();
+  xCache = { at: Date.now(), items: Array.isArray(items) ? items : [] };
+  return xCache.items;
+}
+export function parseX(items, src) {
+  const want = String(src.handle || '').replace(/^@/, '').toLowerCase();
+  const pick = (...v) => v.find(x => x != null && x !== '');
+  return (items || []).map(t => {
+    const a = t.author || t.user || {};
+    const handle = String(pick(a.userName, a.username, a.screen_name, t.username, t.screen_name, '') || '').replace(/^@/, '').toLowerCase();
+    const id = pick(t.id, t.id_str, t.tweetId);
+    const text = String(pick(t.text, t.full_text, t.fullText, '') || '');
+    const when = iso(pick(t.createdAt, t.created_at, t.date, ''));
+    const url = pick(t.url, t.twitterUrl, handle && id ? `https://x.com/${handle}/status/${id}` : '');
+    const isReply = !!(t.isReply || t.inReplyToId || t.in_reply_to_status_id_str);
+    const isRT = !!(t.isRetweet || t.retweeted_tweet || t.retweetedTweet || /^RT @/.test(text));
+    return { handle, text, when, url, isReply, isRT, images: ((t.extendedEntities || t.extended_entities || {}).media || t.media || []).length || 0 };
+  }).filter(x => x.handle === want && x.when && x.text && x.url && !x.isReply && !x.isRT)
+    .sort((a, b) => b.when.localeCompare(a.when)).slice(0, CAP(src))
+    .map(x => ({ who: src.who, platform: 'X', when: x.when, quote: decode(x.text).replace(/\s*https:\/\/t\.co\/\w+$/, '').slice(0, 500), gist: '', url: x.url, images: x.images, source: src.id }));
+}
+
+async function fetchSource(src, env) {
+  if (src.type === 'x') return parseX(await apifyX(env), src);
   const init = { headers: { 'user-agent': 'Agorri civic feed (agorri.com)' }, cf: { cacheTtl: TTL, cacheEverything: true } };
   if (src.type === 'bluesky') {
     const r = await fetch('https://public.api.bsky.app/xrpc/app.bsky.feed.getAuthorFeed?actor=' + encodeURIComponent(src.actor) + '&limit=15&filter=posts_no_replies', init);
@@ -82,7 +115,7 @@ export async function onRequest(context) {
   const key = new Request(new URL('/api/feed?town=' + town, request.url).toString());
   if (cache) { const hit = await cache.match(key); if (hit) return hit; }
   const cfg = await (await env.ASSETS.fetch(new URL(feedsPath, request.url))).json();
-  const results = await Promise.allSettled((cfg.sources || []).map(s => fetchSource(s).then(items => meta(s, items))));
+  const results = await Promise.allSettled((cfg.sources || []).map(s => fetchSource(s, env).then(items => meta(s, items))));
   const items = results.flatMap(r => r.status === 'fulfilled' ? r.value : []).sort((a, b) => b.when.localeCompare(a.when)).slice(0, 160);
   const errors = results.map((r, i) => r.status === 'rejected' ? (cfg.sources[i].id) : null).filter(Boolean);
   const res = new Response(JSON.stringify({ town, updated: new Date().toISOString(), items, errors }), {

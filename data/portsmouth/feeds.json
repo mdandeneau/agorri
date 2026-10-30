@@ -213,6 +213,158 @@
    "level": "Federal",
    "kind": "candidate",
    "auto": true
+  },
+  {
+   "id": "x-senatorshaheen",
+   "who": "Jeanne Shaheen",
+   "platform": "X",
+   "type": "x",
+   "handle": "SenatorShaheen",
+   "level": "Federal",
+   "kind": "official"
+  },
+  {
+   "id": "x-senatorhassan",
+   "who": "Maggie Hassan",
+   "platform": "X",
+   "type": "x",
+   "handle": "SenatorHassan",
+   "level": "Federal",
+   "kind": "official"
+  },
+  {
+   "id": "x-repchrispappas",
+   "who": "Chris Pappas",
+   "platform": "X",
+   "type": "x",
+   "handle": "RepChrisPappas",
+   "level": "Federal",
+   "kind": "official"
+  },
+  {
+   "id": "x-chrispappasnh",
+   "who": "Chris Pappas",
+   "platform": "X",
+   "type": "x",
+   "handle": "ChrisPappasNH",
+   "level": "Federal",
+   "kind": "candidate"
+  },
+  {
+   "id": "x-kellyayotte",
+   "who": "Kelly Ayotte",
+   "platform": "X",
+   "type": "x",
+   "handle": "KellyAyotte",
+   "level": "State",
+   "kind": "candidate"
+  },
+  {
+   "id": "x-janetstevensnh",
+   "who": "Janet Stevens",
+   "platform": "X",
+   "type": "x",
+   "handle": "JanetStevensNH",
+   "level": "State",
+   "kind": "candidate"
+  },
+  {
+   "id": "x-leaderrpk",
+   "who": "Rebecca Perkins Kwoka",
+   "platform": "X",
+   "type": "x",
+   "handle": "LeaderRPK",
+   "level": "State",
+   "kind": "candidate"
+  },
+  {
+   "id": "x-jenmandelbaum",
+   "who": "Jennifer Mandelbaum",
+   "platform": "X",
+   "type": "x",
+   "handle": "JenMandelbaum",
+   "level": "State",
+   "kind": "candidate"
+  },
+  {
+   "id": "x-cindewarmington",
+   "who": "Cinde Warmington",
+   "platform": "X",
+   "type": "x",
+   "handle": "CindeWarmington",
+   "level": "State",
+   "kind": "candidate",
+   "person": "cinde-warmington"
+  },
+  {
+   "id": "x-svillee",
+   "who": "Stephen Villee",
+   "platform": "X",
+   "type": "x",
+   "handle": "svillee",
+   "level": "State",
+   "kind": "candidate",
+   "person": "stephen-villee"
+  },
+  {
+   "id": "x-sununusenator",
+   "who": "John E. Sununu",
+   "platform": "X",
+   "type": "x",
+   "handle": "SununuSenator",
+   "level": "Federal",
+   "kind": "candidate",
+   "person": "john-e-sununu"
+  },
+  {
+   "id": "x-laplante4senate",
+   "who": "Edmond J. Laplante Jr.",
+   "platform": "X",
+   "type": "x",
+   "handle": "Laplante4Senate",
+   "level": "Federal",
+   "kind": "candidate",
+   "person": "edmond-laplante"
+  },
+  {
+   "id": "x-stefany4nh",
+   "who": "Stefany Shaheen",
+   "platform": "X",
+   "type": "x",
+   "handle": "Stefany4NH",
+   "level": "Federal",
+   "kind": "candidate",
+   "person": "stefany-shaheen"
+  },
+  {
+   "id": "x-dilorenzo4nh",
+   "who": "Anthony DiLorenzo",
+   "platform": "X",
+   "type": "x",
+   "handle": "DiLorenzo4NH",
+   "level": "Federal",
+   "kind": "candidate",
+   "person": "anthony-dilorenzo"
+  },
+  {
+   "id": "x-lisa4nh",
+   "who": "Lisa Kennedy Sheldon",
+   "platform": "X",
+   "type": "x",
+   "handle": "lisa4nh",
+   "level": "State",
+   "kind": "candidate",
+   "person": "lisa-kennedy-sheldon"
+  },
+  {
+   "id": "x-buzzscherr",
+   "who": "Buzz Scherr",
+   "platform": "X",
+   "type": "x",
+   "handle": "BuzzScherr",
+   "level": "State",
+   "kind": "candidate",
+   "person": "buzz-scherr"
   }
  ]
 }

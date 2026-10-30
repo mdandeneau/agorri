@@ -1,5 +1,5 @@
 // Offline test of functions/api/feed.js with sample upstream responses. Run: node scripts/test-feed.mjs
-import { onRequest, parseRSS, parseAtom, parseBluesky, parseLinks } from '../functions/api/feed.js';
+import { onRequest, parseRSS, parseAtom, parseBluesky, parseLinks, parseX } from '../functions/api/feed.js';
 const RSS = `<?xml version="1.0" encoding="utf-8"?><rss version="2.0"><channel><title>City of Portsmouth</title>
 <item><title>Water main break on South Street</title><link>https://www.portsmouthnh.gov/node/728878</link><description>&lt;p&gt;Expect delays &amp;amp; detours near &lt;b&gt;South St&lt;/b&gt;.&lt;/p&gt;</description><pubDate>Mon, 19 Oct 2026 16:59:42 +0000</pubDate></item>
 <item><title><![CDATA[City of Portsmouth, NH DPW Launches Automated Collection Program]]></title><link>https://www.portsmouthnh.gov/city/news/x</link><description></description><pubDate>Thu, 22 Oct 2026 12:04:53 +0000</pubDate></item>
@@ -62,4 +62,15 @@ t('handler: safety and news tags passed through', n.items.filter(i => i.tag === 
 t('handler: unknown town is 404', (await call('https://agorri.com/api/feed?town=atlantis')).status === 404);
 const post = await call('https://agorri.com/api/feed', { method: 'POST' });
 t('handler: rejects POST', post.status === 405);
+const XITEMS = [
+  { id: '1', text: 'Road closure on Main St tonight https://t.co/abc', createdAt: 'Wed Oct 29 18:00:00 +0000 2026', url: 'https://x.com/NashuaPolice/status/1', author: { userName: 'NashuaPolice' } },
+  { id: '2', text: 'RT @someone: not ours', createdAt: 'Wed Oct 29 17:00:00 +0000 2026', author: { userName: 'NashuaPolice' } },
+  { id: '3', text: '@resident thanks, we will look', createdAt: 'Wed Oct 29 16:00:00 +0000 2026', isReply: true, author: { userName: 'NashuaPolice' } },
+  { id: '4', full_text: 'Other account', created_at: 'Wed Oct 29 15:00:00 +0000 2026', user: { screen_name: 'nashuafire' } },
+];
+const X = parseX(XITEMS, { id: 'x-police', who: 'Nashua Police', handle: '@NashuaPolice' });
+t('x: own posts only, no replies or retweets', X.length === 1 && X[0].platform === 'X' && X[0].who === 'Nashua Police');
+t('x: trailing t.co link trimmed, date parsed', X[0].quote === 'Road closure on Main St tonight' && X[0].when === '2026-10-29T18:00:00.000Z');
+const XF = parseX(XITEMS, { id: 'x-fire', who: 'Nashua Fire', handle: 'NashuaFire' });
+t('x: other field names and handle case work', XF.length === 1 && XF[0].url === 'https://x.com/nashuafire/status/4');
 console.log(`\n${ok} passed, ${bad} failed`); process.exit(bad ? 1 : 0);
