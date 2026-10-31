@@ -1,0 +1,346 @@
+{
+ "as_of": "2026-10-31",
+ "note": "Portsmouth runs its own school district (SAU 52) with three elementary schools, one middle school, one high school with a career and technical center, a preschool program and a small alternative high school. The elected nine-member School Board builds the school budget, and the City Council approves it as part of the city budget.",
+ "districts": [
+  {
+   "id": "portsmouth-school-district",
+   "name": "Portsmouth School District",
+   "towns": [
+    "Portsmouth"
+   ],
+   "sau": "SAU 52",
+   "site": "https://www.portsmouthnh.gov/school",
+   "superintendent": {
+    "name": "Zach McLaughlin, EdD",
+    "since": null,
+    "src": {
+     "label": "Superintendent's Office (district site)",
+     "url": "https://portsmouthnh.gov/node/2911"
+    }
+   },
+   "board": {
+    "name": "School Board",
+    "meets": "Usually one or two Tuesdays a month at 7:00 pm at City Hall, 1 Junkins Avenue, most often in Council Chambers. Budget work sessions run January to February at 6:30 pm in the School Department Conference Room. Committees (Finance, Facilities, Policy, Community Engagement, Educator Capacity) meet in the daytime.",
+    "agendasUrl": "https://www.portsmouthnh.gov/school/school-board/school-board-archived-meetings-and-material",
+    "videoUrl": "https://www.youtube.com/playlist?list=PLNWsoVwtYMQumJAkryvUDfzHcYDkytfc0",
+    "members": [
+     {
+      "name": "Lisa Rapaport",
+      "role": "Chair",
+      "term": "2029",
+      "ward": null
+     },
+     {
+      "name": "Brian French",
+      "role": "Vice Chair",
+      "term": "2029",
+      "ward": null
+     },
+     {
+      "name": "Steven Adler",
+      "role": "Member",
+      "term": "2029",
+      "ward": null
+     },
+     {
+      "name": "Patricia \"Tish\" Campbell",
+      "role": "Member",
+      "term": "2027",
+      "ward": null
+     },
+     {
+      "name": "Nancy Novelline Clayburgh",
+      "role": "Member",
+      "term": "2029",
+      "ward": null
+     },
+     {
+      "name": "Christiana \"Pip\" Clews",
+      "role": "Member",
+      "term": "2027",
+      "ward": null
+     },
+     {
+      "name": "David \"Leigh\" Hudson",
+      "role": "Member",
+      "term": "2027",
+      "ward": null
+     },
+     {
+      "name": "Byron Matto",
+      "role": "Member",
+      "term": "2027",
+      "ward": null
+     },
+     {
+      "name": "Jennifer Shump",
+      "role": "Member",
+      "term": "2029",
+      "ward": null
+     }
+    ],
+    "source": {
+     "label": "School Board members (district site); terms from City Clerk's elected officials list",
+     "url": "https://www.portsmouthnh.gov/school-department/school-board#board-members"
+    }
+   },
+   "schools": [
+    {
+     "name": "Dondero Elementary School",
+     "level": "Elementary",
+     "grades": "K-5",
+     "address": "32 Van Buren Avenue, Portsmouth, NH 03801",
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": "Katherine Callahan",
+     "url": "https://www.portsmouthnh.gov/school/dondero"
+    },
+    {
+     "name": "Little Harbour Elementary School",
+     "level": "Elementary",
+     "grades": "K-5",
+     "address": "50 Clough Drive, Portsmouth, NH 03801",
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": "Erin Lawson",
+     "url": "https://www.portsmouthnh.gov/school/littleharbour"
+    },
+    {
+     "name": "New Franklin Elementary School",
+     "level": "Elementary",
+     "grades": "K-5",
+     "address": "1 Franklin Drive, Portsmouth, NH 03801",
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": "Joanne Simons",
+     "url": "https://www.portsmouthnh.gov/school/newfrank"
+    },
+    {
+     "name": "Portsmouth Middle School",
+     "level": "Middle",
+     "grades": "6-8",
+     "address": "155 Parrott Avenue, Portsmouth, NH 03801",
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": "Phillip Davis",
+     "url": "https://www.portsmouthnh.gov/school/pms"
+    },
+    {
+     "name": "Portsmouth High School",
+     "level": "High",
+     "grades": "9-12",
+     "address": "50 Andrew Jarvis Drive, Portsmouth, NH 03801",
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": "Christopher Tebo",
+     "url": "https://www.portsmouthnh.gov/school/phs"
+    },
+    {
+     "name": "Career Technical Education Center",
+     "level": "Other",
+     "grades": null,
+     "address": "50 Andrew Jarvis Drive, Portsmouth, NH 03801 (at Portsmouth High School)",
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": "Nicole Bellabona (CTE Director)",
+     "url": "https://www.portsmouthnh.gov/school/phs/career-technical-education-center"
+    },
+    {
+     "name": "Robert J. Lister Academy",
+     "level": "High",
+     "grades": null,
+     "address": "100 Campus Drive, Suite 12, Portsmouth, NH 03801",
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": "https://www.portsmouthnh.gov/school/rjla"
+    },
+    {
+     "name": "Portsmouth Early Education Program (PEEP)",
+     "level": "Pre-K",
+     "grades": "Preschool",
+     "address": "50 Clough Drive, Portsmouth, NH 03801 (at Little Harbour)",
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": "https://www.portsmouthnh.gov/school/peep"
+    }
+   ],
+   "enrollment": null,
+   "budget": {
+    "year": "FY2027 (2026-27)",
+    "total": 71637655,
+    "prior": 67257304,
+    "changePct": 6.51,
+    "adopted": "2026-06-08",
+    "adoptedVote": "Approved by the City Council as part of the city General Fund budget, Resolution #8-2026, passed 8-1",
+    "perPupil": 25488,
+    "perPupilYear": "2023-24",
+    "perPupilSource": {
+     "label": "NH Department of Education, Cost per Pupil by District, 2023-2024 (state report, copy posted by the Rye Civic League)",
+     "url": "https://ryecivicleague.org/wp-content/uploads/2025/11/NH-2024-Cost-per-Pupil.pdf"
+    },
+    "note": "This is the School Department's share of the city General Fund, up $4,380,351 from last year. Grants and other special funds are not included. The per-pupil cost is the state's figure for 2023-24 ($25,487.77 for preschool to grade 12), the latest district report we could open; the state average that year was $21,545.17.",
+    "source": {
+     "label": "City of Portsmouth FY2027 Adopted Budget",
+     "url": "https://files.portsmouthnh.gov/finance/fy27/AdoptedBudget6082026 FINAL.pdf"
+    }
+   },
+   "results": [],
+   "calendarUrl": "https://www.portsmouthnh.gov/school/school-year-calendar",
+   "closingsUrl": "https://www.portsmouthnh.gov/school/school-closings",
+   "issues": [
+    {
+     "title": "School tax cap question on the November 3 ballot",
+     "status": "Voters decide November 3",
+     "summary": "Every New Hampshire city and town, including Portsmouth, will vote on whether to limit how fast local school taxes can grow. It passes in a community only if at least 60% of voters there say yes. If adopted, growth in the local school tax levy would be held to the prior year's amount plus inflation and new construction, and superintendent's office spending would be capped at 6% of district spending. Bonded building costs are left out of both limits. The cap would start July 1, 2027, last two years, and go back on the ballot in 2028. It does not lower taxes; it limits how quickly they can rise.",
+     "date": "2026-10-01",
+     "source": {
+      "label": "NHPR, Oct. 1, 2026",
+      "url": "https://www.nhpr.org/politics/2026-10-01/school-tax-cap-ballot-question-nh-midterm-election-2026"
+     }
+    },
+    {
+     "title": "Next year's school budget (FY2028) is starting",
+     "status": "Early committee work",
+     "summary": "The School Board's Finance Committee reviewed a continuing services budget (what it would cost to keep current programs next year) on October 2. The board has scheduled budget work sessions on January 5, January 19, February 2 and February 16, 2027, at 6:30 pm in the School Department Conference Room at City Hall. The Finance Committee meets again November 6 and December 4.",
+     "date": "2026-10-02",
+     "source": {
+      "label": "School Board meetings and materials (district site)",
+      "url": "https://www.portsmouthnh.gov/school/school-board/school-board-archived-meetings-and-material"
+     }
+    },
+    {
+     "title": "What is driving school costs and staffing this year",
+     "status": "In this year's budget",
+     "summary": "School health insurance through SchoolCare rose 26.2%, adding $2,751,313. Pupil transportation rose $441,191 (19.91%), mostly for out-of-district and special education routes. School staffing in the General Fund dropped by a net 7.56 full-time positions: two central office jobs, a net one teaching position, a net 2.5 paraeducator positions, two tutors and one high school clerical job, while an Assistant Special Education Director was added.",
+     "date": "2026-05-28",
+     "source": {
+      "label": "City FY27 budget work session slides, May 28, 2026",
+      "url": "https://files.portsmouthnh.gov/finance/fy27/FY27%20Budget%20Work%20Session%20May%2028%20Q&A%20Slides%20.pdf"
+     }
+    },
+    {
+     "title": "Elementary school upgrades and playgrounds",
+     "status": "Under way",
+     "summary": "On August 3 the City Council unanimously approved borrowing up to $6.5 million for school facility improvements: elementary school upgrades, elementary playground upgrades, and school paving and roofing. City staff said the Little Harbour playground was under construction and New Franklin's is next.",
+     "date": "2026-08-03",
+     "source": {
+      "label": "City Council minutes, Aug. 3, 2026",
+      "url": "https://files.portsmouthnh.gov/minutes/2026/citycouncil/FINAL. August 3, 2026 Minutes and Actions.pdf"
+     }
+    },
+    {
+     "title": "Long-term building plan, including the CTE Center renovation",
+     "status": "Planned",
+     "summary": "The school capital plan schedules $10.5 million in bonds for elementary upgrades from FY2027 to FY2029, mainly interior renovations at New Franklin. A $20 million renovation of the Career Technical Education Center at the high school is planned for FY2030 to FY2032, with $13 million from city bonds and $7 million expected from state and federal sources. The plan also sets aside $3 million for citywide school facility repairs over six years.",
+     "date": "2026-02-05",
+     "source": {
+      "label": "School Infrastructure presentation to City Council (2026)",
+      "url": "https://files.portsmouthnh.gov/agendas/2026/City Council/School Infrastructure Presentation to Council.pdf"
+     }
+    },
+    {
+     "title": "SchoolCare health insurance assessment",
+     "status": "City agreed to pay",
+     "summary": "SchoolCare, the statewide pool that insures school employees, billed its members an extra $30 million to cover a deficit. Portsmouth's share was about $1.57 million. After a dispute over how to pay it, the City Council voted unanimously to let the city manager negotiate a one-time payment so school staff coverage would not lapse in May.",
+     "date": "2026-03-16",
+     "source": {
+      "label": "New Hampshire Union Leader",
+      "url": "https://www.unionleader.com/news/local/portsmouth-to-pay-unexpected-school-insurance-bill/article_c1e65997-33d5-42c6-b541-cc0f0b8a89be.html"
+     },
+     "needs_review": true,
+     "review_note": "The news report is undated; the date shown is the City Council meeting named in the city press release."
+    }
+   ],
+   "upcoming": [
+    {
+     "date": "2026-11-02",
+     "time": "11:00 am",
+     "title": "School Board Community Engagement Committee",
+     "venue": "School Department Conference Room, City Hall",
+     "url": "https://www.portsmouthnh.gov/school/events/school-board-community-engagement-committee-meeting-2"
+    },
+    {
+     "date": "2026-11-03",
+     "time": null,
+     "title": "General election, with the local school tax cap question on the ballot (no school that day)",
+     "venue": "Ward polling places; four are in schools: New Franklin, Portsmouth Middle, Portsmouth High and Little Harbour",
+     "url": "https://www.portsmouthnh.gov/city/press-releases/voter-information-november-3-2026-general-election-0"
+    },
+    {
+     "date": "2026-11-03",
+     "time": "4:00 pm",
+     "title": "School Board Educator Capacity Committee",
+     "venue": "School Department Conference Room, City Hall",
+     "url": "https://www.portsmouthnh.gov/school/events/school-board-educator-capacity-committee-0"
+    },
+    {
+     "date": "2026-11-06",
+     "time": "9:00 am",
+     "title": "School Board Finance Committee",
+     "venue": "Alice Lee Conference Room, 4th Floor, City Hall",
+     "url": "https://www.portsmouthnh.gov/school/events/school-board-finance-committee-3"
+    },
+    {
+     "date": "2026-11-10",
+     "time": "9:30 am",
+     "title": "School Board Policy Committee",
+     "venue": "City Hall (room not yet posted)",
+     "url": "https://www.portsmouthnh.gov/school/events/school-board-policy-committee-meeting-51"
+    },
+    {
+     "date": "2026-11-10",
+     "time": "7:00 pm",
+     "title": "School Board meeting",
+     "venue": "Eileen Dondero Foley Council Chambers, City Hall",
+     "url": "https://www.portsmouthnh.gov/school/school-events-calendar"
+    },
+    {
+     "date": "2026-11-13",
+     "time": "9:00 am",
+     "title": "School Board Facilities Committee",
+     "venue": "School Department Conference Room, City Hall",
+     "url": "https://www.portsmouthnh.gov/school/events/school-board-facilities-committee-3"
+    },
+    {
+     "date": "2026-12-04",
+     "time": "9:00 am",
+     "title": "School Board Finance Committee",
+     "venue": "City Hall (room not yet posted)",
+     "url": "https://www.portsmouthnh.gov/school/events/school-board-finance-committee-4"
+    },
+    {
+     "date": "2026-12-08",
+     "time": "7:00 pm",
+     "title": "School Board meeting",
+     "venue": "Council Chambers, City Hall",
+     "url": "https://www.portsmouthnh.gov/node/14016"
+    }
+   ],
+   "news": [
+    {
+     "title": "What will the tax cap on the ballot mean for NH schools? Depends who you ask.",
+     "url": "https://www.nhpr.org/education/2026-10-30/school-budget-taxes-cap-election-ballot-teacher-students-education-nh-newhampshire",
+     "date": "2026-10-30"
+    },
+    {
+     "title": "There is a school tax cap question on your ballot this year. Here's what it means.",
+     "url": "https://www.nhpr.org/politics/2026-10-01/school-tax-cap-ballot-question-nh-midterm-election-2026",
+     "date": "2026-10-01"
+    },
+    {
+     "title": "Portsmouth High School Makes Top 5 List Of Best New Hampshire High Schools In New Analysis",
+     "url": "https://patch.com/new-hampshire/portsmouth-nh/portsmouth-high-school-makes-top-5-list-best-new-hampshire-high-schools",
+     "date": "2026-09-29"
+    },
+    {
+     "title": "Reminder to Drivers to Watch for Students as Schools Reopen",
+     "url": "https://www.portsmouthnh.gov/city/2026-crossing-guard",
+     "date": "2026-08-24"
+    }
+   ]
+  }
+ ],
+ "methodology": "Built on October 31, 2026 from pages opened on the district site (portsmouthnh.gov/school: school pages, board page, meeting archive, events calendar, approved meeting dates, calendar and closings pages), the City Clerk's elected officials list (board terms), the city's FY2027 adopted budget and May 28 budget work session slides, the August 3, 2026 City Council minutes, the School Infrastructure presentation to the City Council, a March 13, 2026 city press release and Union Leader report on SchoolCare, NHPR and Patch. Grades: elementary K-5 comes from a district-wide K-5 assistant principal listed on the Little Harbour page; middle 6-8 from the Portsmouth Middle School directory page; high 9-12 from the high school page. Gaps: no official enrollment figures could be opened (the NH DOE iPlatform and profile pages, the district's 2026 Annual Report and the Google Drive budget books were unreachable), so enrollment is blank; Robert J. Lister Academy's page says it serves 27 to 30 students. No graduation rate or test results are listed because no state or district page with Portsmouth figures could be opened. The per-pupil cost is the NH DOE 2023-24 report read from a copy posted by the Rye Civic League; a 2024-25 state report was not found. School Board agendas and minutes are posted as Google Drive files that could not be read, so recent board votes (including October 6 and October 27) are not summarized. The superintendent's start year, board wards, and the principals of the Lister Academy and PEEP are not listed on the pages opened. The CTE Center page lists Nicole Bellabona as Interim CTE Director; a later appointment could not be confirmed from an official page. The School Infrastructure presentation is undated; its date is set to February 5, 2026, the City Council and School Board joint work session whose agenda lists a school facilities needs presentation by the superintendent, which it most likely belongs to. The SchoolCare issue date is the March 16, 2026 council meeting named in the city's press release."
+}
