@@ -164,17 +164,17 @@
    "site": "https://www.whitefieldnh.gov/",
    "budget": {
     "fiscalYear": "2026",
-    "generalFund": null,
+    "generalFund": 5165265,
     "priorGeneralFund": null,
-    "fundLabel": "town operating budget",
+    "fundLabel": "town operating budget (warrant amount)",
     "adopted": null,
-    "adoptedVote": "Voted at the Town Meeting on March 10, 2026 (business meeting 7:30 p.m.); the article and result were not found.",
+    "adoptedVote": "Article 4 at the March 10, 2026 Town Meeting, \"for general municipal operations\", recommended by the Board of Selectmen; the result was not found.",
     "source": {
-     "label": "Town of Whitefield, 2025 Annual Report (UNH Scholars Repository, online February 27, 2026)",
+     "label": "Town of Whitefield, 2025 Annual Report: 2026 Warrant, Article 4, and MS-636 (UNH Scholars Repository)",
      "url": "https://scholars.unh.edu/cgi/viewcontent.cgi?article=1144&context=whitefield_nh_reports"
     },
     "needs_review": true,
-    "review_note": "The 2026 warrant and budget are printed in a center insert of the 2025 annual report that has no readable text. The town website's Documents page has no 2026 warrant, budget or minutes. No news report of the result was found. The budget hearing was February 9, 2026."
+    "review_note": "Read from the scanned 2026 warrant in the 2025 annual report (PDF page 56); the MS-636 budget summary (PDF page 70) gives the same operating figure. The Town Meeting result was not found. Separate articles include capital reserve deposits, a $1,250,000 Union Street water line and a $317,906 plow truck, mostly grant-funded."
    },
    "taxRate": {
     "year": "2025",
@@ -206,17 +206,17 @@
    "site": "https://www.effingham.nh.gov/",
    "budget": {
     "fiscalYear": "2026",
-    "generalFund": null,
+    "generalFund": 2514425,
     "priorGeneralFund": null,
-    "fundLabel": "town operating budget",
+    "fundLabel": "town operating budget (warrant amount)",
     "adopted": null,
-    "adoptedVote": "Voted at the Town Meeting on Saturday, March 14, 2026; the amount and result were not found.",
+    "adoptedVote": "Article 17 at the second session of Town Meeting, March 14, 2026: the Budget Committee's recommended $2,514,425 for general municipal operations, $50,000 of it from the unassigned fund balance; Selectmen recommended 3-0 and the Budget Committee 5-1. The result was not found.",
     "source": {
-     "label": "Effingham Board of Selectmen minutes, March 3, 2026",
-     "url": "https://www.effingham.nh.gov/AgendaCenter/ViewFile/Minutes/_03032026-133"
+     "label": "Town of Effingham, 2026 Warrant (Article 17)",
+     "url": "https://www.effingham.nh.gov/DocumentCenter/View/331/2026-Warrant-PDF"
     },
     "needs_review": true,
-    "review_note": "The town's Documents page lists a 2026 Warrant (https://www.effingham.nh.gov/DocumentCenter/View/331/2026-Warrant-PDF) but it could not be opened in this task. The March 17 and 31, 2026 Selectmen minutes mention the MS-232 (appropriations as voted) but give no amounts. The January 6, 2026 minutes record budget revisions of $595,001 for Highways and Streets and $893,402 for Other Warrants, with no operating total."
+    "review_note": "Warrant amount read from the scanned 2026 warrant; the Town Meeting result was not found. Separate articles include $520,000 for Pine River Road paving (Article 18) and several capital reserve and trust fund deposits."
    },
    "taxRate": {
     "year": "2025",
@@ -482,17 +482,17 @@
    "site": "https://www.eatonnh.gov/",
    "budget": {
     "fiscalYear": "2026",
-    "generalFund": null,
-    "priorGeneralFund": null,
-    "fundLabel": "town operating budget",
+    "generalFund": 925133,
+    "priorGeneralFund": 870889,
+    "fundLabel": "town budget (proposed)",
     "adopted": null,
-    "adoptedVote": "Not found.",
+    "adoptedVote": "The 2025 annual report's budget table proposes $925,133 for 2026 (2025 budget $870,889); the Town Meeting result was not found.",
     "source": {
-     "label": "Annual report of the officers of the town of Eaton, New Hampshire 2025 (UNH Scholars Repository)",
-     "url": "https://scholars.unh.edu/eaton_nh_reports/145"
+     "label": "Town of Eaton, 2025 Annual Report, Budget of the Town (report page 27, UNH Scholars Repository)",
+     "url": "https://scholars.unh.edu/cgi/viewcontent.cgi?article=1144&context=eaton_nh_reports"
     },
     "needs_review": true,
-    "review_note": "The 2025 annual report PDF (https://scholars.unh.edu/cgi/viewcontent.cgi?article=1144&context=eaton_nh_reports) could not be opened in this task, and no 2026 warrant, minutes or news report was found."
+    "review_note": "Total appropriations from the budget table in the 2025 annual report, not the warrant article or a Town Meeting result."
    },
    "taxRate": {
     "year": "2025",
@@ -524,17 +524,17 @@
    "site": "https://www.townofshelburnenh.gov/",
    "budget": {
     "fiscalYear": "2026",
-    "generalFund": null,
+    "generalFund": 635118,
     "priorGeneralFund": 627444,
-    "fundLabel": "town operating budget",
+    "fundLabel": "town operating budget (warrant amount)",
     "adopted": null,
-    "adoptedVote": "Not found for 2026. In 2025 the warrant asked $627,444 \"for General Operation\" (Article 4).",
+    "adoptedVote": "Article 4 at the Town Meeting on March 10, 2026, \"for General Operation\", recommended by the Board of Selectpersons and the Budget Committee; the result was not found.",
     "source": {
-     "label": "Town of Shelburne, 2024 Annual Report (2025 warrant and budget)",
-     "url": "https://www.townofshelburnenh.gov/_files/ugd/0e126e_43fbbb0fdc194597a6d438a281e268ce.pdf"
+     "label": "Town of Shelburne, 2025 Annual Report, Town Meeting Warrant (report page 59)",
+     "url": "https://www.townofshelburnenh.gov/_files/ugd/0e126e_9daf1842e287472a8c2e541fe0e146f6.pdf"
     },
     "needs_review": true,
-    "review_note": "The 2025 annual report (https://www.townofshelburnenh.gov/_files/ugd/0e126e_9daf1842e287472a8c2e541fe0e146f6.pdf and the UNH copy) has unreadable text, so the 2026 warrant could not be read. The prior-year figure is the 2025 warrant amount, recommended by the Selectmen and Budget Committee; its result was not found. The 2024 Town Meeting appropriated $624,279 for General Operation."
+    "review_note": "Warrant amount from the 2026 warrant printed in the 2025 annual report; the Town Meeting result was not found. The prior-year figure is the 2025 warrant amount."
    },
    "taxRate": {
     "year": "2025",
