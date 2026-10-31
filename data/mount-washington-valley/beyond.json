@@ -838,5 +838,21 @@
    },
    "contact": "Brian.Taylor@gc.nh.gov, 603-986-8316 (House page)"
   }
- }
+ },
+ "openQuestions": [
+  {
+   "topic": "Jackson's congressional district",
+   "text": "Citizens Count's Jackson page shows Jackson in the 2nd Congressional District. New Hampshire law (RSA 662:1) puts all of Carroll County, including Jackson, in the 1st District, and the Bartlett and Madison pages agree, so Agorri shows Jackson in District 1. Check your sample ballot to be sure.",
+   "sources": [
+    {
+     "label": "RSA 662 (NH General Court)",
+     "url": "https://gc.nh.gov/rsa/html/LXIII/662/662-mrg.htm"
+    },
+    {
+     "label": "Citizens Count, Jackson",
+     "url": "https://citizenscount.org/nh/carroll/jackson"
+    }
+   ]
+  }
+ ]
 }

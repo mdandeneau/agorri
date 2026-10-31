@@ -1,6 +1,6 @@
 {
  "as_of": "2026-10-30",
- "note": "From the Conway Parks and Recreation Department's own pages (conwaynh.myrec.com), the Town of Conway website and town code, NH State Parks pages and the Conway Daily Sun, with a source on every item. North Conway is a village inside the Town of Conway, so town parks serve all of Conway. State parks and the private North Conway Community Center are labeled as not town-run.",
+ "note": "Parks and recreation across the Mount Washington Valley: Conway Parks and Recreation plus Bartlett, Jackson and Madison. From the Conway Parks and Recreation Department's own pages (conwaynh.myrec.com), the Town of Conway website and town code, NH State Parks pages and the Conway Daily Sun, with a source on every item. North Conway is a village inside the Town of Conway, so town parks serve all of Conway. State parks and the private North Conway Community Center are labeled as not town-run.",
  "department": {
   "name": "Town of Conway Parks and Recreation Department",
   "url": "https://conwaynh.myrec.com/info/default.aspx",
@@ -38,7 +38,8 @@
    "source": {
     "label": "Whitaker Homesite (Conway Rec facility page)",
     "url": "https://conwaynh.myrec.com/info/facilities/details.aspx?FacilityID=14698"
-   }
+   },
+   "town": "Conway"
   },
   {
    "id": "schouler-park",
@@ -57,7 +58,8 @@
    "source": {
     "label": "Schouler Park (Conway Rec facility page)",
     "url": "https://conwaynh.myrec.com/info/facilities/details.aspx?FacilityID=14699"
-   }
+   },
+   "town": "Conway"
   },
   {
    "id": "conway-rec-facility",
@@ -78,7 +80,8 @@
    "source": {
     "label": "Conway Rec Facility (Conway Rec facility page)",
     "url": "https://conwaynh.myrec.com/info/facilities/details.aspx?FacilityID=14710"
-   }
+   },
+   "town": "Conway"
   },
   {
    "id": "davis-park",
@@ -97,7 +100,8 @@
    "source": {
     "label": "Davis Park (Conway Rec facility page)",
     "url": "https://conwaynh.myrec.com/info/facilities/details.aspx?FacilityID=14701"
-   }
+   },
+   "town": "Conway"
   },
   {
    "id": "conway-lake",
@@ -116,7 +120,8 @@
    "source": {
     "label": "Conway Lake / Boat Launch (Conway Rec facility page)",
     "url": "https://conwaynh.myrec.com/info/facilities/details.aspx?FacilityID=14700"
-   }
+   },
+   "town": "Conway"
   },
   {
    "id": "first-bridge",
@@ -134,7 +139,8 @@
    "source": {
     "label": "First Bridge (Conway Rec facility page)",
     "url": "https://conwaynh.myrec.com/info/facilities/details.aspx?FacilityID=14702"
-   }
+   },
+   "town": "Conway"
   },
   {
    "id": "hussey-field",
@@ -152,7 +158,8 @@
    "source": {
     "label": "Hussey Field (Conway Rec facility page)",
     "url": "https://conwaynh.myrec.com/info/facilities/details.aspx?FacilityID=14703"
-   }
+   },
+   "town": "Conway"
   },
   {
    "id": "johnny-eastman-park",
@@ -170,7 +177,8 @@
    "source": {
     "label": "Johnny Eastman Park (Conway Rec facility page)",
     "url": "https://conwaynh.myrec.com/info/facilities/details.aspx?FacilityID=14731"
-   }
+   },
+   "town": "Conway"
   },
   {
    "id": "smith-eastman",
@@ -187,7 +195,8 @@
    "source": {
     "label": "Conway Rec parking program guidelines, 2024 (PDF)",
     "url": "https://conwaynh.myrec.com/forms/5998_parkingprogramguidelines_2024.pdf"
-   }
+   },
+   "town": "Conway"
   },
   {
    "id": "rotary-park",
@@ -204,7 +213,8 @@
    "source": {
     "label": "Rotary Park (Conway Rec facility page)",
     "url": "https://conwaynh.myrec.com/info/facilities/details.aspx?FacilityID=14705"
-   }
+   },
+   "town": "Conway"
   },
   {
    "id": "shedd-woods",
@@ -222,7 +232,8 @@
    "source": {
     "label": "Town of Conway, Conservation, Parks and Recreation Areas",
     "url": "https://conwaynh.org/conservation-land"
-   }
+   },
+   "town": "Conway"
   },
   {
    "id": "redstone-quarry-memorial-park",
@@ -239,7 +250,8 @@
    "source": {
     "label": "Redstone Quarry Memorial Park (Conway Rec facility page)",
     "url": "https://conwaynh.myrec.com/info/facilities/details.aspx?FacilityID=14704"
-   }
+   },
+   "town": "Conway"
   },
   {
    "id": "pudding-pond",
@@ -257,7 +269,8 @@
    "source": {
     "label": "Town of Conway, Conservation, Parks and Recreation Areas",
     "url": "https://conwaynh.org/conservation-land"
-   }
+   },
+   "town": "Conway"
   },
   {
    "id": "walkers-pond",
@@ -274,7 +287,8 @@
    "source": {
     "label": "Town of Conway, Conservation, Parks and Recreation Areas",
     "url": "https://conwaynh.org/conservation-land"
-   }
+   },
+   "town": "Conway"
   },
   {
    "id": "common-lands",
@@ -292,7 +306,8 @@
    "source": {
     "label": "Town of Conway, Conservation, Parks and Recreation Areas",
     "url": "https://conwaynh.org/conservation-land"
-   }
+   },
+   "town": "Conway"
   },
   {
    "id": "dog-park",
@@ -311,7 +326,8 @@
    "source": {
     "label": "Conway Daily Sun, Jun 24, 2026",
     "url": "https://www.conwaydailysun.com/news/local/selectmen-ok-dog-park-plans-after-public-hearing/article_c7547de4-d3df-477d-9674-2955a804bedd.html"
-   }
+   },
+   "town": "Conway"
   },
   {
    "id": "north-conway-community-center",
@@ -331,7 +347,8 @@
    "source": {
     "label": "North Conway Community Center",
     "url": "https://northconwaycc.myrec.com"
-   }
+   },
+   "town": "Conway"
   },
   {
    "id": "echo-lake-state-park",
@@ -351,7 +368,8 @@
    "source": {
     "label": "NH State Parks, Echo Lake State Park",
     "url": "https://www.nhstateparks.org/find-parks-trails/echo-lake-state-park"
-   }
+   },
+   "town": "Conway"
   },
   {
    "id": "cathedral-ledge-state-park",
@@ -370,6 +388,180 @@
    "source": {
     "label": "NH State Parks, Cathedral Ledge State Park",
     "url": "https://www.nhstateparks.org/find-parks-trails/cathedral-ledge-state-park"
+   },
+   "town": "Conway"
+  },
+  {
+   "id": "madison-silver-lake-town-beach",
+   "town": "Madison",
+   "name": "Silver Lake Town Beach (Foot of the Lake)",
+   "kind": "Beach",
+   "address": "East Shore Drive, Madison, NH",
+   "features": [
+    "Picnic tables and grills",
+    "Restrooms",
+    "Swimming float"
+   ],
+   "hours": null,
+   "seasonal": "Parking needs a current Madison Facility Permit sticker, issued at Town Hall to property owners, residents and renters with a lease of at least a year. The lake was lowered to its winter level by Oct 15, 2026.",
+   "url": "https://silverlakemadison.com/lake-information/",
+   "note": "Amenities from the Silver Lake Association of Madison (a nonprofit lake group); permit rules from the town's transfer station and home pages.",
+   "source": {
+    "label": "Silver Lake Association of Madison, Lake Information",
+    "url": "https://silverlakemadison.com/lake-information/"
+   }
+  },
+  {
+   "id": "madison-silver-lake-boat-launch",
+   "town": "Madison",
+   "name": "Silver Lake Boat Launch (town)",
+   "kind": "Boat launch",
+   "address": "East Shore Drive, Madison, NH",
+   "features": [
+    "Public launch for motorized boats",
+    "Annual town launch permit required"
+   ],
+   "hours": null,
+   "seasonal": "The DPW repaired the launch Oct 19 to 23, 2026, with the lake dropped an extra 2 feet.",
+   "url": "https://www.madison-nh.org/",
+   "note": "Boats and trailers must meet aquatic invasive species rules, per the Silver Lake Association.",
+   "source": {
+    "label": "Town of Madison, home page",
+    "url": "https://www.madison-nh.org/"
+   }
+  },
+  {
+   "id": "madison-burke-field",
+   "town": "Madison",
+   "name": "Burke Field",
+   "kind": "Field",
+   "address": null,
+   "features": [
+    "Town ballfield; the Rec Committee posts a field schedule"
+   ],
+   "hours": null,
+   "seasonal": null,
+   "url": "https://www.madison-nh.org/boards/rec-program/",
+   "note": "Only a 2025 field schedule is posted; no address or amenities on the page.",
+   "source": {
+    "label": "Town of Madison, Rec Committee",
+    "url": "https://www.madison-nh.org/boards/rec-program/"
+   }
+  },
+  {
+   "id": "jackson-prospect-farm",
+   "town": "Jackson",
+   "name": "Prospect Farm (Conservation Commission land)",
+   "kind": "Trail",
+   "address": null,
+   "features": [
+    "Managed under a Conservation Commission forest stewardship plan and general management plan"
+   ],
+   "hours": null,
+   "seasonal": null,
+   "url": "https://www.jackson-nh.gov/boards-committees/conservation-commission/",
+   "note": "The commission's page posts plans, a forest type map and a history page but no address or trail details.",
+   "source": {
+    "label": "Town of Jackson, Conservation Commission",
+    "url": "https://www.jackson-nh.gov/boards-committees/conservation-commission/"
+   }
+  },
+  {
+   "id": "jackson-falls",
+   "town": "Jackson",
+   "name": "Jackson Falls (Wildcat River)",
+   "kind": "Park",
+   "address": "Jackson Village, NH",
+   "features": [
+    "Part of the Jackson Falls Historic District",
+    "Bank stabilization project in planning (conceptual plans and a preliminary cost estimate posted)"
+   ],
+   "hours": null,
+   "seasonal": null,
+   "url": "https://www.jackson-nh.gov/boards-committees/conservation-commission/",
+   "note": "The town posts a Jackson Falls property owner parking document (revised May 2022). The commission held a public hearing on bank stabilization Oct 5, 2026. Ownership of the falls area is not stated on the page.",
+   "source": {
+    "label": "Town of Jackson, Conservation Commission",
+    "url": "https://www.jackson-nh.gov/boards-committees/conservation-commission/"
+   }
+  },
+  {
+   "id": "old-jackson-library",
+   "town": "Jackson",
+   "name": "Old Jackson Library",
+   "kind": "Community space",
+   "address": "125 Main St, Jackson, NH 03846",
+   "features": [
+    "Weekly yoga, mahjong and canasta, plus meetings, listed on the town calendar"
+   ],
+   "hours": null,
+   "seasonal": null,
+   "url": "https://www.jackson-nh.gov/events/month/",
+   "note": "Address from a town calendar listing; who runs the building is not stated.",
+   "source": {
+    "label": "Town of Jackson, Calendar of Events",
+    "url": "https://www.jackson-nh.gov/events/month/"
+   }
+  },
+  {
+   "id": "jackson-xc",
+   "town": "Jackson",
+   "name": "Jackson XC, Jackson Ski Touring Foundation (private nonprofit, not town-run)",
+   "kind": "Trail",
+   "address": "153 Main Street, Jackson, NH 03846",
+   "features": [
+    "About 150 km of cross-country ski trails and about 40 km of snowshoe trails (the foundation's own page also says 100 km in one place)",
+    "Trails link to AMC trails in Pinkham Notch and White Mountain National Forest backcountry trails",
+    "Base lodge with retail, rentals and waxing area; lessons and races",
+    "Trail pass or season pass required"
+   ],
+   "hours": null,
+   "seasonal": "No 2026-27 opening date posted. The foundation says initial snowmaking is coming this season.",
+   "url": "https://www.jacksonxc.org/about/",
+   "note": "A 501(c)(3) nonprofit chartered in 1972; phone 603-383-9355. The White Mountain National Forest also lists it as a Nordic ski area.",
+   "source": {
+    "label": "Jackson XC, Our Mission",
+    "url": "https://www.jacksonxc.org/about/"
+   }
+  },
+  {
+   "id": "doublehead-cabin",
+   "town": "Jackson",
+   "name": "Doublehead Cabin (White Mountain National Forest, federal)",
+   "kind": "Cabin",
+   "address": "Summit of North Doublehead; trailhead on Dundee Road, about 0.5 mile past Black Mountain Ski Area, Jackson",
+   "features": [
+    "CCC-built log cabin with eight bunks and a wood stove",
+    "1.8-mile Doublehead Ski Trail with steep grades",
+    "Outhouse; no water on site"
+   ],
+   "hours": null,
+   "seasonal": "Uninsulated and cold in winter. Trailhead parking fits about six cars, three or four in winter.",
+   "url": "https://fs.usda.gov/r09/whitemountain/recreation/doublehead-cabin",
+   "note": "Rental $40 a night plus an $8 reservation fee. The trail starts on private land.",
+   "source": {
+    "label": "USDA Forest Service, Doublehead Cabin",
+    "url": "https://fs.usda.gov/r09/whitemountain/recreation/doublehead-cabin"
+   }
+  },
+  {
+   "id": "dianas-baths",
+   "town": "Bartlett",
+   "name": "Diana's Baths (White Mountain National Forest, federal)",
+   "kind": "Trail",
+   "address": "3872 West Side Road (Forest Service address lists North Conway, NH 03860)",
+   "features": [
+    "Pools and cascades on Lucy Brook",
+    "About three-quarters of a mile on the Moat Mountain Trail, with an ADA-accessible section and benches",
+    "Large parking lot and self-serve pay station"
+   ],
+   "hours": null,
+   "seasonal": "Year-round fee site; the lot is maintained in winter. No parking on the roadway.",
+   "url": "https://fs.usda.gov/r09/whitemountain/recreation/dianas-baths",
+   "note": "Wikipedia places the site in the southeast corner of Bartlett. The Forest Service page does not list fee amounts and is inconsistent on restrooms.",
+   "source": {
+    "label": "USDA Forest Service, Diana's Baths",
+    "url": "https://fs.usda.gov/r09/whitemountain/recreation/dianas-baths"
    }
   }
  ],
@@ -384,7 +576,8 @@
    "source": {
     "label": "Conway Rec calendar list",
     "url": "https://conwaynh.myrec.com/info/calendar/list.aspx"
-   }
+   },
+   "town": "Conway"
   },
   {
    "name": "Adult Exercise Class (Fun with Frann)",
@@ -396,7 +589,8 @@
    "source": {
     "label": "Conway Rec calendar list",
     "url": "https://conwaynh.myrec.com/info/calendar/list.aspx"
-   }
+   },
+   "town": "Conway"
   },
   {
    "name": "Chip Kennett Teen Center",
@@ -408,7 +602,8 @@
    "source": {
     "label": "Conway Rec calendar list",
     "url": "https://conwaynh.myrec.com/info/calendar/list.aspx"
-   }
+   },
+   "town": "Conway"
   },
   {
    "name": "After-school Craft Club and Pickleball (Sandwich programs)",
@@ -420,7 +615,8 @@
    "source": {
     "label": "Conway Rec calendar list",
     "url": "https://conwaynh.myrec.com/info/calendar/list.aspx"
-   }
+   },
+   "town": "Conway"
   },
   {
    "name": "Pond Hockey",
@@ -432,7 +628,8 @@
    "source": {
     "label": "Conway Rec programs list",
     "url": "https://conwaynh.myrec.com/info/activities/default.aspx?type=activities"
-   }
+   },
+   "town": "Conway"
   },
   {
    "name": "North Conway Community Center Community Celebration fundraiser (private nonprofit)",
@@ -444,6 +641,33 @@
    "source": {
     "label": "North Conway Community Center",
     "url": "https://northconwaycc.myrec.com"
+   },
+   "town": "Conway"
+  },
+  {
+   "town": "Jackson",
+   "name": "Old Jackson Library weekly programs (yoga, vinyasa yoga, mahjong, canasta)",
+   "who": "Adults; the calendar does not say who runs them",
+   "when": "Saturdays 9 to 10 am (yoga); Mondays 9 to 10:15 am (vinyasa yoga) and 1 to 5 pm (mahjong); Wednesdays 8:30 to 9:45 am (basic yoga) and 3 to 5 pm (canasta), as listed through early November",
+   "where": "Old Jackson Library, 125 Main St, Jackson",
+   "cost": null,
+   "url": "https://www.jackson-nh.gov/events/month/",
+   "source": {
+    "label": "Town of Jackson, Calendar of Events",
+    "url": "https://www.jackson-nh.gov/events/month/"
+   }
+  },
+  {
+   "town": "Jackson",
+   "name": "Jackson XC Ski Swap (private nonprofit)",
+   "who": "Anyone buying or consigning ski gear",
+   "when": "Consignment drop-off 9 am to 4 pm through Thursday, Nov 5; sale Saturday, Nov 7, 9 am to 1 pm",
+   "where": "Jackson XC, 153 Main St, Jackson (drop-off location; the sale listing gives no place)",
+   "cost": null,
+   "url": "https://jacksonxc.org/event/ski-swap",
+   "source": {
+    "label": "Jackson XC, Ski Swap",
+    "url": "https://jacksonxc.org/event/ski-swap"
    }
   }
  ],
@@ -633,6 +857,39 @@
    "source": {
     "label": "NH State Parks, Echo Lake State Park",
     "url": "https://www.nhstateparks.org/find-parks-trails/echo-lake-state-park"
+   }
+  },
+  {
+   "role": "Bartlett Recreation Department (Bartlett)",
+   "name": "Bartlett Recreation Department",
+   "phone": null,
+   "email": null,
+   "note": "603-374-2331; bartlettrec@gmail.com; 1313 U.S. Route 302, Bartlett (mail PO Box 363). Hours vary, call ahead. General programs for children and adults, summer camp and after-school activities.",
+   "source": {
+    "label": "Bartlett Recreation Department",
+    "url": "https://bartlettnh.myrec.com/info/default.aspx"
+   }
+  },
+  {
+   "role": "Madison Rec Committee and Rec Program (Madison)",
+   "name": "Madison Rec Committee and Rec Program",
+   "phone": null,
+   "email": null,
+   "note": "Town Hall, 1923 Village Road; 603-367-4332. No rec staff are named on the town page.",
+   "source": {
+    "label": "Madison Rec Committee and Rec Program",
+    "url": "https://www.madisonrecnh.com/"
+   }
+  },
+  {
+   "role": "Jackson Conservation Commission (town conservation land; no town recreation department was found) (Jackson)",
+   "name": "Jackson Conservation Commission (town conservation land; no town recreation department was found)",
+   "phone": null,
+   "email": null,
+   "note": "jacksonnh.cc@gmail.com; 603-383-4223; meets the first Monday of each month, 5:30 pm, Town Offices, 54 Main Street",
+   "source": {
+    "label": "Jackson Conservation Commission (town conservation land; no town recreation department was found)",
+    "url": "https://www.jackson-nh.gov/boards-committees/conservation-commission/"
    }
   }
  ],

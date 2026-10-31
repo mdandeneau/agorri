@@ -1,6 +1,6 @@
 {
  "as_of": "2026-10-30",
- "note": "North Conway is a village inside the Town of Conway. Police, roads, the transfer station and elections are run by the Town of Conway; fire protection, water and sewer in North Conway come from the North Conway Water Precinct. Checked Oct 30, 2026 from town, precinct and department pages and local news. Every item links to its source.",
+ "note": "Mount Washington Valley local desk: Conway (including North Conway), Bartlett, Jackson and Madison. North Conway is a village inside the Town of Conway. Police, roads, the transfer station and elections are run by the Town of Conway; fire protection, water and sewer in North Conway come from the North Conway Water Precinct. Checked Oct 30, 2026 from town, precinct and department pages and local news. Every item links to its source.",
  "housing": {
   "region": {
    "source": "Redfin, Carroll County NH housing market",
@@ -95,80 +95,42 @@
  },
  "notices": [
   {
-   "date": "2026-10-26",
-   "kind": "Road work",
-   "title": "Conway Village Main Street (Route 16) project pauses for winter in November",
-   "detail": "Phase 2 began Sept 2 on the west side of Route 16, from the Route 16 and 113 intersection north to the Saco River bridge. The plan keeps two-way traffic throughout, with flaggers at times. The Conway Daily Sun reported that work continues through November, then pauses for winter and resumes in April 2027. The town engineer says the project is scheduled to finish by Oct 1, 2027.",
+   "town": "Bartlett and Jackson",
+   "date": "2026-12-24",
+   "until": "2026-12-25",
+   "kind": "Transfer station",
+   "title": "Bartlett/Jackson Transfer Station closed Dec 24 and 25",
+   "detail": "The shared station at 102 Transfer Station Road (NH Route 16), Jackson, is open Monday, Tuesday and Friday noon to 6 pm and Saturday and Sunday 10 am to 4 pm; closed Wednesday and Thursday. Jackson's page lists Dec 24 and 25 as closed (no year given); Bartlett's lists Christmas Day. A sticker is required (two per property).",
    "source": {
-    "label": "Town of Conway, Town Engineer project updates",
-    "url": "https://conwaynh.gov/pages/town-engineer"
+    "label": "Town of Jackson, Bartlett/Jackson Transfer Station",
+    "url": "https://www.jackson-nh.gov/departments/bartlett-jackson-transfer-station/"
    }
   },
   {
-   "date": "2026-10-26",
-   "kind": "Roads",
-   "title": "North-South Road to be shut down this week",
-   "detail": "The Conway Daily Sun reported on Oct 26 that North-South Road would be closed this week. Check the story for dates and detours.",
-   "source": {
-    "label": "The Conway Daily Sun, Oct 26",
-    "url": "https://www.conwaydailysun.com/news/local/north-south-road-to-be-shut-down-this-week/article_2a251d06-dedc-4f38-943a-8638a28f21b4.html"
-   }
-  },
-  {
-   "date": "2026-10-28",
-   "kind": "Parks",
-   "title": "Conway's community dog park is open off Thom Steele Way",
-   "detail": "The town's dog park opened this week on town land off Thom Steele Way, near the Conway Area Humane Society. Selectmen approved the layout in June; the town manager said it would be open dawn to dusk with no lighting.",
-   "source": {
-    "label": "The Conway Daily Sun, Oct 28 (and June 24)",
-    "url": "https://www.conwaydailysun.com/news/local/blue-skies-and-wagging-tails-at-dog-park-opening/article_7152fe12-ed87-433f-8f81-2e1a0e6e5fc3.html"
-   }
-  },
-  {
-   "date": "2026-10-30",
-   "kind": "Closure",
-   "title": "Conway Public Library opens late, at 10:30 am, Friday, Oct 30",
-   "detail": "The library opens late for a staff meeting. Regular hours: Monday to Thursday 9 am to 8 pm, Friday 9 am to 5 pm, Saturday 9 am to 1 pm.",
-   "source": {
-    "label": "Conway Public Library",
-    "url": "https://conwaypubliclibrary.org/adult-childrens-community-henney-history-room-teens/events/291136/delayed-opening-library-staff"
-   }
-  },
-  {
-   "date": "2026-11-03",
-   "kind": "Election",
-   "title": "Election Day: polls open 8 am to 7 pm at the Town Garage, Center Conway",
-   "detail": "All Conway voters, including North Conway, vote at the Town Garage, 1611 East Main St., Center Conway. You can register at the polls with proof of identity, age, citizenship and domicile. Absentee ballots returned in person are due by 5 pm Monday, Nov 2. Town Clerk's Office: 603-447-3811 ext. 216.",
-   "source": {
-    "label": "Town of Conway, Elections",
-    "url": "https://conwaynh.gov/pages/elections"
-   },
-   "strip": "Election Day",
-   "stripLine": "Tuesday, 8 am to 7 pm, Town Garage"
-  },
-  {
-   "date": "2026-11-04",
+   "date": "2026-12-05",
    "kind": "Event",
-   "title": "Public invited to the Hannes Schneider arrival re-enactment, Nov 4 and 5",
-   "detail": "Fourth graders ride the Conway Scenic Railroad to the North Conway station to re-enact the ski pioneer's arrival. The New England Ski Museum invites the community to form a ski-pole archway in Schouler Park; bring poles or borrow some from the museum.",
+   "title": "Settlers Green Holiday Festival, with tree lighting at 4 pm, Saturday, Dec 5",
+   "detail": "Free holiday activities around Settlers Green, 2 Common Court, from 10 am to 4 pm, ending with the tree lighting at the gazebo.",
    "source": {
-    "label": "The Conway Daily Sun, Oct 30",
-    "url": "https://www.conwaydailysun.com/news/local/public-invited-to-attend-schneider-arrival-re-enactment-nov-4-5/article_ccb2776f-0339-4064-8be3-f0954e0efe63.html"
+    "label": "Visit NH events calendar",
+    "url": "https://www.visitnh.gov/things-to-do/events-calendar/holiday-festival-tree-lighting"
    },
-   "strip": "Ski history",
-   "stripLine": "Schneider re-enactment, Schouler Park, Nov 4 and 5"
+   "strip": "Tree lighting",
+   "stripLine": "Settlers Green, Saturday, lighting at 4 pm",
+   "town": "Conway"
   },
   {
-   "date": "2026-11-11",
-   "kind": "Closure",
-   "title": "Conway Public Library closed Wednesday, Nov 11, for Veterans Day",
-   "detail": "The library is closed all day.",
+   "town": "Jackson",
+   "date": "2026-11-19",
+   "kind": "Schools",
+   "title": "Jackson School District strategic plan workshop, Nov 19",
+   "detail": "The school district is gathering public input on its strategic plan at workshops at The Whitney Center; the next is Nov 19, 3:30 to 5:30 pm. The plan is set to be launched at the School Board meeting on Jan 19, 2027, at 6 pm. A sign-up form is linked from the town's post.",
    "source": {
-    "label": "Conway Public Library",
-    "url": "https://conwaypubliclibrary.org/adult-childrens-community-henney-history-room-teens/events/289777/library-closed"
+    "label": "Town of Jackson, Community Planning Forum (Oct 13, 2026)",
+    "url": "https://www.jackson-nh.gov/news-and-alerts/community-planning-forum/"
    },
-   "strip": "Library closed",
-   "stripLine": "Wednesday for Veterans Day"
+   "strip": "School planning",
+   "stripLine": "Jackson schools strategic plan workshop, Whitney Center"
   },
   {
    "date": "2026-11-15",
@@ -181,94 +143,579 @@
     "url": "https://conwaynh.gov/pages/public-notices"
    },
    "strip": "Parking ban",
-   "stripLine": "No street parking, midnight to 8 am"
+   "stripLine": "No street parking, midnight to 8 am",
+   "town": "Conway"
   },
   {
-   "date": "2026-12-05",
-   "kind": "Event",
-   "title": "Settlers Green Holiday Festival, with tree lighting at 4 pm, Saturday, Dec 5",
-   "detail": "Free holiday activities around Settlers Green, 2 Common Court, from 10 am to 4 pm, ending with the tree lighting at the gazebo.",
+   "date": "2026-11-11",
+   "kind": "Closure",
+   "title": "Conway Public Library closed Wednesday, Nov 11, for Veterans Day",
+   "detail": "The library is closed all day.",
    "source": {
-    "label": "Visit NH events calendar",
-    "url": "https://www.visitnh.gov/things-to-do/events-calendar/holiday-festival-tree-lighting"
+    "label": "Conway Public Library",
+    "url": "https://conwaypubliclibrary.org/adult-childrens-community-henney-history-room-teens/events/289777/library-closed"
    },
-   "strip": "Tree lighting",
-   "stripLine": "Settlers Green, Saturday, lighting at 4 pm"
+   "strip": "Library closed",
+   "stripLine": "Wednesday for Veterans Day",
+   "town": "Conway"
+  },
+  {
+   "town": "Jackson",
+   "date": "2026-11-05",
+   "kind": "Closure",
+   "title": "Jackson Selectmen's Office closed Thursday, Nov 5, for training",
+   "detail": "The office is closed all day.",
+   "source": {
+    "label": "Town of Jackson, home page calendar",
+    "url": "https://www.jackson-nh.gov/"
+   },
+   "strip": "Office closed",
+   "stripLine": "Jackson Selectmen's Office closed Thursday"
+  },
+  {
+   "date": "2026-11-04",
+   "kind": "Event",
+   "title": "Public invited to the Hannes Schneider arrival re-enactment, Nov 4 and 5",
+   "detail": "Fourth graders ride the Conway Scenic Railroad to the North Conway station to re-enact the ski pioneer's arrival. The New England Ski Museum invites the community to form a ski-pole archway in Schouler Park; bring poles or borrow some from the museum.",
+   "source": {
+    "label": "The Conway Daily Sun, Oct 30",
+    "url": "https://www.conwaydailysun.com/news/local/public-invited-to-attend-schneider-arrival-re-enactment-nov-4-5/article_ccb2776f-0339-4064-8be3-f0954e0efe63.html"
+   },
+   "strip": "Ski history",
+   "stripLine": "Schneider re-enactment, Schouler Park, Nov 4 and 5",
+   "town": "Conway"
+  },
+  {
+   "date": "2026-11-03",
+   "kind": "Election",
+   "title": "Election Day: polls open 8 am to 7 pm at the Town Garage, Center Conway",
+   "detail": "All Conway voters, including North Conway, vote at the Town Garage, 1611 East Main St., Center Conway. You can register at the polls with proof of identity, age, citizenship and domicile. Absentee ballots returned in person are due by 5 pm Monday, Nov 2. Town Clerk's Office: 603-447-3811 ext. 216.",
+   "source": {
+    "label": "Town of Conway, Elections",
+    "url": "https://conwaynh.gov/pages/elections"
+   },
+   "strip": "Election Day",
+   "stripLine": "Tuesday, 8 am to 7 pm, Town Garage",
+   "town": "Conway"
+  },
+  {
+   "town": "Bartlett",
+   "date": "2026-11-03",
+   "kind": "Election",
+   "title": "Election Day in Bartlett: vote 8 am to 7 pm at Josiah Bartlett Elementary School",
+   "detail": "Polls are at Josiah Bartlett Elementary School, 1313 US Route 302, Bartlett Village. Use the entrance by the cafeteria at the east end of the building, not the front door or the Community Room. Bring government-issued photo ID; student IDs are not accepted. Expect a busy day and follow parking attendants. Absentee ballots are available from the Town Clerk until 5 pm Monday, Nov 2. The Bartlett and Hale's Location ballots were posted Oct 21. Questions: 603-356-2300.",
+   "source": {
+    "label": "Town of Bartlett, General Election Voting Information (Oct 29, 2026)",
+    "url": "https://www.townofbartlett.nh.gov/CivicAlerts.aspx?AID=47"
+   },
+   "strip": "Election Day",
+   "stripLine": "Bartlett votes at Josiah Bartlett Elementary, 8 to 7"
+  },
+  {
+   "town": "Bartlett",
+   "date": "2026-11-03",
+   "until": "2026-11-04",
+   "kind": "Closure",
+   "title": "Bartlett town offices: Selectmen's Office closes 11:30 am Nov 3; Town Clerk closed Nov 3 and 4",
+   "detail": "The Office of the Selectmen closes at 11:30 on Election Day. The Town Clerk/Tax Collector's office is closed Tuesday and Wednesday, Nov 3 and 4, for the election.",
+   "source": {
+    "label": "Town of Bartlett, News Flash (posted Oct 23 and Oct 27, 2026)",
+    "url": "https://www.townofbartlett.nh.gov/CivicAlerts.aspx?CID=1"
+   },
+   "strip": "Office closures",
+   "stripLine": "Bartlett Town Clerk closed Nov 3 and 4"
+  },
+  {
+   "town": "Jackson",
+   "date": "2026-11-03",
+   "kind": "Election",
+   "title": "Election Day in Jackson: vote 8 am to 7 pm at the Whitney Community Center",
+   "detail": "Jackson's polling place is the Whitney Community Center, 16 Black Mountain Road. The town calendar lists General Election Day, Nov 3, 8 am to 7 pm. Town Offices: 603-383-4223.",
+   "source": {
+    "label": "Citizens Count, Jackson (polling place); Town of Jackson calendar (hours)",
+    "url": "https://citizenscount.org/nh/carroll/jackson"
+   },
+   "strip": "Election Day",
+   "stripLine": "Jackson votes at Whitney Community Center, 8 to 7"
+  },
+  {
+   "town": "Madison",
+   "date": "2026-11-03",
+   "kind": "Election",
+   "title": "Election Day in Madison: vote 8 am to 7 pm at Madison Elementary School",
+   "detail": "Polls are in James Noyes Hall (the gym) at Madison Elementary School, 2069 Village Road (Route 113). Absentee request forms and ballot tracking are linked from the town's Elections page. Town Hall: 603-367-4332.",
+   "source": {
+    "label": "Town of Madison, Elections and Voting",
+    "url": "https://madison-nh.org/departments/town-clerk/elections-voting"
+   },
+   "strip": "Election Day",
+   "stripLine": "Madison votes at Madison Elementary gym, 8 to 7"
+  },
+  {
+   "town": "Bartlett",
+   "date": "2026-11-02",
+   "kind": "Hearing",
+   "title": "Bartlett Planning Board public hearing, Monday, Nov 2",
+   "detail": "A Planning Board public hearing agenda is posted for Nov 2, 2026. Agorri could not open the agenda, so the time and the applications are not shown here; check the Agenda Center.",
+   "source": {
+    "label": "Town of Bartlett, Agenda Center",
+    "url": "https://www.townofbartlett.nh.gov/agendacenter"
+   },
+   "strip": "Planning hearing",
+   "stripLine": "Bartlett Planning Board public hearing Monday"
+  },
+  {
+   "town": "Madison",
+   "date": "2026-11-01",
+   "kind": "Planning",
+   "title": "Last day to send photos for the Madison Master Plan: Sunday, Nov 1",
+   "detail": "Email photos to troy@nccouncil.org with the subject \"Madison Master Plan Photos.\" Photographers whose pictures are chosen must sign a release.",
+   "source": {
+    "label": "Town of Madison, home page",
+    "url": "https://www.madison-nh.org/"
+   },
+   "strip": "Photo deadline",
+   "stripLine": "Madison Master Plan photos due Sunday"
+  },
+  {
+   "town": "Madison",
+   "date": "2026-10-31",
+   "kind": "Roads",
+   "title": "Madison: some previously closed roads are not fully repaired",
+   "detail": "An undated notice on the town home page (seen Oct 31) says roads that were closed may not be fully repaired; drive slowly and watch road edges while the DPW and contractors rebuild roads. The Conway Daily Sun reported that the June 10 to 11 storm washed out roads across Madison.",
+   "source": {
+    "label": "Town of Madison, home page",
+    "url": "https://www.madison-nh.org/"
+   }
+  },
+  {
+   "town": "Madison",
+   "date": "2026-10-31",
+   "kind": "Service",
+   "title": "Madison Town Hall phone problem: use 603-600-7793",
+   "detail": "An undated home page notice (seen Oct 31) says Town Hall calls are affected by a Consolidated Communications (Fidium) problem. Use 603-600-7793 until it is fixed. The regular number is 603-367-4332; Town Hall is open Monday to Thursday, 8 am to 4 pm.",
+   "source": {
+    "label": "Town of Madison, home page",
+    "url": "https://www.madison-nh.org/"
+   }
+  },
+  {
+   "date": "2026-10-30",
+   "kind": "Closure",
+   "title": "Conway Public Library opens late, at 10:30 am, Friday, Oct 30",
+   "detail": "The library opens late for a staff meeting. Regular hours: Monday to Thursday 9 am to 8 pm, Friday 9 am to 5 pm, Saturday 9 am to 1 pm.",
+   "source": {
+    "label": "Conway Public Library",
+    "url": "https://conwaypubliclibrary.org/adult-childrens-community-henney-history-room-teens/events/291136/delayed-opening-library-staff"
+   },
+   "town": "Conway"
+  },
+  {
+   "town": "Jackson",
+   "date": "2026-10-30",
+   "kind": "Hearing",
+   "title": "Jackson ZBA hearing set for Oct 30 is postponed, new date to be announced",
+   "detail": "The town calendar lists the Zoning Board of Adjustment hearing that had been set for Oct 30 at 7 pm as postponed, date to be determined.",
+   "source": {
+    "label": "Town of Jackson, Calendar of Events",
+    "url": "https://www.jackson-nh.gov/events/month/"
+   }
+  },
+  {
+   "date": "2026-10-28",
+   "kind": "Parks",
+   "title": "Conway's community dog park is open off Thom Steele Way",
+   "detail": "The town's dog park opened this week on town land off Thom Steele Way, near the Conway Area Humane Society. Selectmen approved the layout in June; the town manager said it would be open dawn to dusk with no lighting.",
+   "source": {
+    "label": "The Conway Daily Sun, Oct 28 (and June 24)",
+    "url": "https://www.conwaydailysun.com/news/local/blue-skies-and-wagging-tails-at-dog-park-opening/article_7152fe12-ed87-433f-8f81-2e1a0e6e5fc3.html"
+   },
+   "town": "Conway"
+  },
+  {
+   "town": "Madison",
+   "date": "2026-10-27",
+   "kind": "Roads",
+   "title": "Madison DPW posts updated snow removal and ice control guidelines",
+   "detail": "The Department of Public Works page links to Standard Operating Guidelines for snow removal and ice control dated Oct 27, 2026. DPW: 603-367-8233, dpw@madison-nh.org.",
+   "source": {
+    "label": "Town of Madison, Department of Public Works",
+    "url": "https://www.madison-nh.org/departments/department-of-public-works/"
+   }
+  },
+  {
+   "date": "2026-10-26",
+   "kind": "Road work",
+   "title": "Conway Village Main Street (Route 16) project pauses for winter in November",
+   "detail": "Phase 2 began Sept 2 on the west side of Route 16, from the Route 16 and 113 intersection north to the Saco River bridge. The plan keeps two-way traffic throughout, with flaggers at times. The Conway Daily Sun reported that work continues through November, then pauses for winter and resumes in April 2027. The town engineer says the project is scheduled to finish by Oct 1, 2027.",
+   "source": {
+    "label": "Town of Conway, Town Engineer project updates",
+    "url": "https://conwaynh.gov/pages/town-engineer"
+   },
+   "town": "Conway"
+  },
+  {
+   "date": "2026-10-26",
+   "kind": "Roads",
+   "title": "North-South Road to be shut down this week",
+   "detail": "The Conway Daily Sun reported on Oct 26 that North-South Road would be closed this week. Check the story for dates and detours.",
+   "source": {
+    "label": "The Conway Daily Sun, Oct 26",
+    "url": "https://www.conwaydailysun.com/news/local/north-south-road-to-be-shut-down-this-week/article_2a251d06-dedc-4f38-943a-8638a28f21b4.html"
+   },
+   "town": "Conway"
+  },
+  {
+   "town": "Madison",
+   "date": "2026-10-19",
+   "until": "2026-10-23",
+   "kind": "Parks",
+   "title": "Silver Lake drawn down for winter; boat launch repaired Oct 19 to 23",
+   "detail": "The lake was lowered to its normal winter level by Oct 15, then dropped another 2 feet from Oct 19 to 23 so the DPW could repair the boat launch. Boat owners were asked to remove boats first.",
+   "source": {
+    "label": "Town of Madison, home page",
+    "url": "https://www.madison-nh.org/"
+   }
+  },
+  {
+   "town": "Bartlett",
+   "date": "2026-10-15",
+   "kind": "Hearing",
+   "title": "Bartlett Zoning Board of Adjustment public hearing, Oct 15",
+   "detail": "The town's Agenda Center lists a ZBA public hearing on Oct 15, 2026. No minutes were posted when checked.",
+   "source": {
+    "label": "Town of Bartlett, Agenda Center",
+    "url": "https://www.townofbartlett.nh.gov/agendacenter"
+   }
+  },
+  {
+   "town": "Madison",
+   "date": "2026-10-12",
+   "kind": "Closure",
+   "title": "Madison Town Hall closed Oct 12; transfer station kept regular hours",
+   "detail": "Town Hall was closed all day Monday, Oct 12. The transfer station, 219 Boulder Road, is open Monday and Friday 7 am to noon and Saturday and Sunday 7 am to 4 pm, closed Christmas Day.",
+   "source": {
+    "label": "Town of Madison, Transfer Station",
+    "url": "https://www.madison-nh.org/departments/transfer-station/"
+   }
+  },
+  {
+   "town": "Bartlett",
+   "date": "2026-10-06",
+   "kind": "Alert",
+   "title": "Bartlett warns of fake Planning Board and Zoning Board invoices",
+   "detail": "The town has received reports of fake documents and invoices that look like they come from the Planning Board or Zoning Board. Call the Town Office (603-356-2950) to confirm any document or payment request, and report scams to the NH Attorney General's Office.",
+   "source": {
+    "label": "Town of Bartlett, News Flash (posted Oct 6, 2026)",
+    "url": "https://www.townofbartlett.nh.gov/CivicAlerts.aspx?CID=1"
+   }
+  },
+  {
+   "town": "Bartlett and Jackson",
+   "date": "2026-10-06",
+   "kind": "Transfer station",
+   "title": "Bartlett/Jackson Transfer Station is hiring an attendant",
+   "detail": "Full-time (preferred, 40 hours a week) or part-time. Outdoor physical work with weekend and holiday shifts. Pay $21 to $22.50 an hour; full-time staff get health, dental and paid time off. Applications at the Selectmen's Office, 56 Town Hall Road, Intervale, weekdays 8 am to 1 pm, or online from the town's post.",
+   "source": {
+    "label": "Town of Bartlett, News Flash (posted Oct 6, 2026)",
+    "url": "https://www.townofbartlett.nh.gov/CivicAlerts.aspx?CID=1"
+   }
+  },
+  {
+   "town": "Jackson",
+   "date": "2026-10-05",
+   "kind": "Hearing",
+   "title": "Conservation Commission public hearing on Jackson Falls bank stabilization",
+   "detail": "Held Oct 5, 6:30 to 8:30 pm, at the Jackson Town Offices, 54 Main Street. The commission's page posts conceptual plans and a preliminary cost estimate for the Jackson Falls bank stabilization project.",
+   "source": {
+    "label": "Town of Jackson, Conservation Commission",
+    "url": "https://www.jackson-nh.gov/boards-committees/conservation-commission/"
+   }
+  },
+  {
+   "town": "Jackson",
+   "date": "2026-10-05",
+   "kind": "Closure",
+   "title": "Jackson Town Clerk closed several October days",
+   "detail": "The Town Clerk's Office was closed Oct 5, Oct 7 to 9 (Town Clerk conference), Oct 12 (holiday) and Oct 16. Electronic registration renewals take 10 days to process; you can also mail payment or use the black mail slot marked Town Clerk/Tax Collector at the back of the building.",
+   "source": {
+    "label": "Town of Jackson, October Town Clerk Closures (Oct 5, 2026)",
+    "url": "https://www.jackson-nh.gov/town-clerk/october-town-clerk-closures/"
+   }
+  },
+  {
+   "town": "Jackson",
+   "date": "2026-10-01",
+   "kind": "Planning",
+   "title": "Jackson Master Plan survey is open",
+   "detail": "The Planning Board is writing the 2026 Master Plan, a ten-year guide for the town, and asks residents and non-residents to fill out a survey online or on paper. Paper copies are at the post office and the Town Office; return them to the box at the Town Office.",
+   "source": {
+    "label": "Town of Jackson, Planning Board Master Plan Survey Flyer (Oct 1, 2026)",
+    "url": "https://www.jackson-nh.gov/news-and-alerts/planning-board-master-plan-survey-flyer/"
+   }
   }
  ],
  "links": [
   {
    "name": "Town of Conway website",
-   "url": "https://conwaynh.gov/"
+   "url": "https://conwaynh.gov/",
+   "town": "Conway"
   },
   {
    "name": "Report a problem (Conway 311)",
    "url": "https://conwaynh.gov/pages/311",
-   "note": "Potholes, graffiti and other non-emergency issues; guest reports allowed"
+   "note": "Potholes, graffiti and other non-emergency issues; guest reports allowed",
+   "town": "Conway"
   },
   {
    "name": "Conway Broadcast text and email alerts",
    "url": "https://conwaynh.gov/pages/broadcast",
-   "note": "Town notices on closures, meetings and utilities"
+   "note": "Town notices on closures, meetings and utilities",
+   "town": "Conway"
   },
   {
    "name": "Transfer station",
    "url": "https://conwaynh.gov/pages/transfer-station",
-   "note": "755 East Conway Road. Tue and Sat 7 am to 5 pm, Wed to Fri 7 am to 3 pm, closed Sun and Mon. Sticker required."
+   "note": "755 East Conway Road. Tue and Sat 7 am to 5 pm, Wed to Fri 7 am to 3 pm, closed Sun and Mon. Sticker required.",
+   "town": "Conway"
   },
   {
    "name": "Elections",
    "url": "https://conwaynh.gov/pages/elections",
-   "note": "Polling place and hours"
+   "note": "Polling place and hours",
+   "town": "Conway"
   },
   {
    "name": "Public notices",
-   "url": "https://conwaynh.gov/pages/public-notices"
+   "url": "https://conwaynh.gov/pages/public-notices",
+   "town": "Conway"
   },
   {
    "name": "Documents, minutes and town reports",
    "url": "https://conwaynh.gov/documents",
-   "note": "Board minutes are in a Google Drive folder linked here"
+   "note": "Board minutes are in a Google Drive folder linked here",
+   "town": "Conway"
   },
   {
    "name": "Meeting videos (Valley Vision)",
-   "url": "https://www.valleyvision.com/"
+   "url": "https://www.valleyvision.com/",
+   "town": "Conway"
   },
   {
    "name": "Pay property taxes",
-   "url": "https://nhtaxkiosk.com/?KIOSKID=CONWAY"
+   "url": "https://nhtaxkiosk.com/?KIOSKID=CONWAY",
+   "town": "Conway"
   },
   {
    "name": "Town code",
-   "url": "https://ecode360.com/CO0981"
+   "url": "https://ecode360.com/CO0981",
+   "town": "Conway"
   },
   {
    "name": "Main Street project updates",
    "url": "https://conwaynh.gov/pages/town-engineer",
-   "note": "Posted by the Town Engineer"
+   "note": "Posted by the Town Engineer",
+   "town": "Conway"
   },
   {
    "name": "Parks and Recreation",
    "url": "https://conwaynh.myrec.com/info/default.aspx",
-   "note": "176 Main St, Conway; 603-901-1139"
+   "note": "176 Main St, Conway; 603-901-1139",
+   "town": "Conway"
   },
   {
    "name": "Conway Public Library",
-   "url": "https://conwaypubliclibrary.org/"
+   "url": "https://conwaypubliclibrary.org/",
+   "town": "Conway"
   },
   {
    "name": "Police dispatch logs",
    "url": "https://www.conwaypdnh.gov/logs",
-   "note": "Posted by the department. Agorri does not republish names."
+   "note": "Posted by the department. Agorri does not republish names.",
+   "town": "Conway"
   },
   {
    "name": "North Conway Water Precinct departments",
    "url": "https://ncwp.nh.gov/departments",
-   "note": "Water, sewer and North Conway Fire"
+   "note": "Water, sewer and North Conway Fire",
+   "town": "Conway"
   },
   {
    "name": "Town news feed (RSS)",
-   "url": "https://conwaynh.gov/rss/news.xml"
+   "url": "https://conwaynh.gov/rss/news.xml",
+   "town": "Conway"
+  },
+  {
+   "town": "Bartlett",
+   "name": "Town of Bartlett website",
+   "url": "https://www.townofbartlett.nh.gov/",
+   "note": "56 Town Hall Road, Intervale; 603-356-2950"
+  },
+  {
+   "town": "Bartlett",
+   "name": "Agendas and minutes (Agenda Center)",
+   "url": "https://www.townofbartlett.nh.gov/agendacenter"
+  },
+  {
+   "town": "Bartlett",
+   "name": "Town news (News Flash)",
+   "url": "https://www.townofbartlett.nh.gov/CivicAlerts.aspx?CID=1"
+  },
+  {
+   "town": "Bartlett",
+   "name": "Notify Me (email and text sign-up)",
+   "url": "https://www.townofbartlett.nh.gov/list.aspx"
+  },
+  {
+   "town": "Bartlett",
+   "name": "Report a concern",
+   "url": "https://www.townofbartlett.nh.gov/FormCenter/General-Forms-4/Report-a-Concern-46"
+  },
+  {
+   "town": "Bartlett",
+   "name": "Bartlett/Jackson Transfer Station",
+   "url": "https://www.townofbartlett.nh.gov/1201/BartlettJackson-Transfer-Station",
+   "note": "Mon, Tue, Fri noon to 6 pm; Sat and Sun 10 am to 4 pm; closed Wed and Thu. Sticker required."
+  },
+  {
+   "town": "Bartlett",
+   "name": "Town Clerk / Tax Collector",
+   "url": "https://www.townofbartlett.nh.gov/1193/Town-Clerk-Tax-Collector",
+   "note": "603-356-2300. Mon, Tue, Fri 8 am to 4 pm; Wed 7 am to 6 pm; Thu 8 am to 12:30 pm; closed 12:30 to 1:30 daily."
+  },
+  {
+   "town": "Bartlett",
+   "name": "Pay property taxes",
+   "url": "https://nhtaxkiosk.com/?KIOSKID=BARTLETT"
+  },
+  {
+   "town": "Bartlett",
+   "name": "Online fire permits",
+   "url": "https://nh.burnsafeamerica.com/"
+  },
+  {
+   "town": "Bartlett",
+   "name": "Bartlett Recreation (schedules)",
+   "url": "https://bartlettnh.myrec.com/info/default.aspx",
+   "note": "603-374-2331"
+  },
+  {
+   "town": "Bartlett",
+   "name": "Bartlett Public Library",
+   "url": "https://bartlettpubliclibrary.org/",
+   "note": "1313 US Route 302; 603-374-2755"
+  },
+  {
+   "town": "Jackson",
+   "name": "Town of Jackson website",
+   "url": "https://www.jackson-nh.gov/",
+   "note": "54 Main Street; 603-383-4223"
+  },
+  {
+   "town": "Jackson",
+   "name": "Meetings and agendas",
+   "url": "https://www.jackson-nh.gov/meetings-and-agendas/"
+  },
+  {
+   "town": "Jackson",
+   "name": "Town calendar",
+   "url": "https://www.jackson-nh.gov/events/"
+  },
+  {
+   "town": "Jackson",
+   "name": "News and alerts",
+   "url": "https://www.jackson-nh.gov/category/news-and-alerts/"
+  },
+  {
+   "town": "Jackson",
+   "name": "Bartlett/Jackson Transfer Station",
+   "url": "https://www.jackson-nh.gov/departments/bartlett-jackson-transfer-station/",
+   "note": "102 Transfer Station Road (Route 16); 603-383-9129"
+  },
+  {
+   "town": "Jackson",
+   "name": "Town Clerk / Tax Collector",
+   "url": "https://www.jackson-nh.gov/departments/town-clerk-tax-collector/"
+  },
+  {
+   "town": "Jackson",
+   "name": "Pay property taxes",
+   "url": "https://nhtaxkiosk.com/?KIOSKID=JACKSON"
+  },
+  {
+   "town": "Jackson",
+   "name": "Highway Department",
+   "url": "https://www.jackson-nh.gov/departments/highway-department/",
+   "note": "Road Agent James Langdon, 603-915-1959"
+  },
+  {
+   "town": "Jackson",
+   "name": "Jackson Public Library",
+   "url": "https://jacksonlibrary.org/"
+  },
+  {
+   "town": "Jackson",
+   "name": "Old town reports (UNH)",
+   "url": "https://scholars.unh.edu/jackson_nh_reports/"
+  },
+  {
+   "town": "Madison",
+   "name": "Town of Madison website",
+   "url": "https://www.madison-nh.org/",
+   "note": "1923 Village Road; 603-367-4332 (603-600-7793 during the phone problem)"
+  },
+  {
+   "town": "Madison",
+   "name": "Selectmen agendas",
+   "url": "https://www.madison-nh.org/selectmen/meeting-agendas/"
+  },
+  {
+   "town": "Madison",
+   "name": "Selectmen minutes",
+   "url": "https://www.madison-nh.org/selectmen/selectmen-minutes/"
+  },
+  {
+   "town": "Madison",
+   "name": "Madison Alert System sign-up",
+   "url": "https://madisonnh.genasys.com/portal/en"
+  },
+  {
+   "town": "Madison",
+   "name": "Transfer Station",
+   "url": "https://www.madison-nh.org/departments/transfer-station/",
+   "note": "219 Boulder Road; Mon and Fri 7 am to noon, Sat and Sun 7 am to 4 pm; 603-367-8323"
+  },
+  {
+   "town": "Madison",
+   "name": "Town Clerk",
+   "url": "https://www.madison-nh.org/departments/town-clerk/"
+  },
+  {
+   "town": "Madison",
+   "name": "Elections and voting",
+   "url": "https://madison-nh.org/departments/town-clerk/elections-voting"
+  },
+  {
+   "town": "Madison",
+   "name": "Pay property taxes",
+   "url": "https://nhtaxkiosk.com/?KIOSKID=MADISON"
+  },
+  {
+   "town": "Madison",
+   "name": "Department of Public Works",
+   "url": "https://www.madison-nh.org/departments/department-of-public-works/",
+   "note": "603-367-8233; dpw@madison-nh.org"
+  },
+  {
+   "town": "Madison",
+   "name": "Madison TV meeting video",
+   "url": "https://www.youtube.com/@madtv603"
+  },
+  {
+   "town": "Madison",
+   "name": "Madison Public Library",
+   "url": "https://madisonlibrary-nh.org/WP/",
+   "note": "1895 Village Road; 603-367-8545"
   }
  ],
  "newsSources": [
@@ -361,12 +808,42 @@
  "events": [
   {
    "date": "2026-11-02",
+   "time": "4:00 pm",
+   "title": "Capital Improvement Committee meeting (4 to 5 pm)",
+   "venue": "Town of Madison (room not stated on the calendar)",
+   "town": "Madison",
+   "kind": "Civic",
+   "url": "https://www.madison-nh.org/",
+   "source": "Town of Madison"
+  },
+  {
+   "date": "2026-11-02",
+   "time": "5:30 pm",
+   "title": "Conservation Commission meeting (5:30 to 6:30 pm)",
+   "venue": "Jackson Town Offices, 54 Main Street",
+   "town": "Jackson",
+   "kind": "Civic",
+   "url": "https://www.jackson-nh.gov/boards-committees/conservation-commission/",
+   "source": "Town of Jackson"
+  },
+  {
+   "date": "2026-11-02",
    "time": "6:00 pm",
    "title": "Adult Basic Literacy Classes (ESL)",
    "venue": "Conway Public Library, 15 Greenwood Ave",
    "town": "Conway",
    "kind": "Community",
    "url": "https://conwaypubliclibrary.org/adult-community/events/291674/adult-basic-literacy-classes-esl",
+   "source": "Conway Public Library"
+  },
+  {
+   "date": "2026-11-03",
+   "time": "10:30 am",
+   "title": "Tuesday Tales (story time)",
+   "venue": "Conway Public Library, 15 Greenwood Ave",
+   "town": "Conway",
+   "kind": "Family",
+   "url": "https://conwaypubliclibrary.org/childrens/events/290163/tuesday-tales",
    "source": "Conway Public Library"
   },
   {
@@ -381,13 +858,43 @@
   },
   {
    "date": "2026-11-03",
-   "time": "10:30 am",
-   "title": "Tuesday Tales (story time)",
-   "venue": "Conway Public Library, 15 Greenwood Ave",
-   "town": "Conway",
-   "kind": "Family",
-   "url": "https://conwaypubliclibrary.org/childrens/events/290163/tuesday-tales",
-   "source": "Conway Public Library"
+   "time": "9:00 am",
+   "title": "Board of Selectmen work session (9 to 11 am)",
+   "venue": "Town of Madison (room not stated on the calendar)",
+   "town": "Madison",
+   "kind": "Civic",
+   "url": "https://www.madison-nh.org/selectmen/",
+   "source": "Town of Madison"
+  },
+  {
+   "date": "2026-11-04",
+   "time": "2:00 pm",
+   "title": "Madison PEG TV Board work session on job descriptions and operating policies",
+   "venue": "Madison Town Hall meeting room, 1923 Village Road",
+   "town": "Madison",
+   "kind": "Civic",
+   "url": "https://www.madison-nh.org/boards/madison-tv/",
+   "source": "Town of Madison"
+  },
+  {
+   "date": "2026-11-04",
+   "time": "5:30 pm",
+   "title": "Master Plan Steering Committee meeting (5:30 to 6:30 pm)",
+   "venue": "Town of Madison (room not stated on the calendar)",
+   "town": "Madison",
+   "kind": "Civic",
+   "url": "https://www.madison-nh.org/",
+   "source": "Town of Madison"
+  },
+  {
+   "date": "2026-11-04",
+   "time": "7:00 pm",
+   "title": "Planning Board meeting",
+   "venue": "Town of Madison (room not stated on the calendar)",
+   "town": "Madison",
+   "kind": "Civic",
+   "url": "https://www.madison-nh.org/",
+   "source": "Town of Madison"
   },
   {
    "date": "2026-11-04",
@@ -402,6 +909,16 @@
   },
   {
    "date": "2026-11-05",
+   "time": "4:30 pm",
+   "title": "Conservation Commission meeting",
+   "venue": "Town of Madison (room not stated on the calendar)",
+   "town": "Madison",
+   "kind": "Civic",
+   "url": "https://www.madison-nh.org/departments/police/",
+   "source": "Town of Madison (calendar on department pages)"
+  },
+  {
+   "date": "2026-11-05",
    "time": "6:00 pm",
    "title": "Cybersecurity Awareness for NH Residents",
    "venue": "Conway Public Library, 15 Greenwood Ave",
@@ -409,6 +926,16 @@
    "kind": "Talk",
    "url": "https://conwaypubliclibrary.org/adult-community/events/291573/cybersecurity-awareness-nh-residents",
    "source": "Conway Public Library"
+  },
+  {
+   "date": "2026-11-07",
+   "time": "5:25 pm",
+   "title": "Blackout 5K/10K night mountain race (check-in from 4 pm; headlamps required)",
+   "venue": "Cranmore Mountain Resort",
+   "town": "North Conway",
+   "kind": "Sports",
+   "url": "https://cranmore.com/events/blackout-5k-10k-mountain-race",
+   "source": "Cranmore Mountain Resort"
   },
   {
    "date": "2026-11-07",
@@ -422,13 +949,25 @@
   },
   {
    "date": "2026-11-07",
-   "time": "5:25 pm",
-   "title": "Blackout 5K/10K night mountain race (check-in from 4 pm; headlamps required)",
-   "venue": "Cranmore Mountain Resort",
-   "town": "North Conway",
-   "kind": "Sports",
-   "url": "https://cranmore.com/events/blackout-5k-10k-mountain-race",
-   "source": "Cranmore Mountain Resort"
+   "time": "9:00 am",
+   "title": "Jackson XC Annual Ski Swap sale (9 am to 1 pm); consignment drop-off runs through Nov 5",
+   "venue": "Jackson XC (Jackson Ski Touring Foundation), 153 Main St",
+   "town": "Jackson",
+   "kind": "Community",
+   "url": "https://jacksonxc.org/event/ski-swap",
+   "source": "Jackson XC",
+   "note": "The sale listing does not state a location. Drop-off (9 am to 4 pm, Nov 1 to 5) is at 153 Main St, the foundation's base. Consignors register online first."
+  },
+  {
+   "date": "2026-11-10",
+   "time": "5:00 pm",
+   "title": "Board of Selectmen meeting (also Nov 24 and Dec 8)",
+   "venue": "Madison Town Hall meeting room (lower level), 1923 Village Road",
+   "town": "Madison",
+   "kind": "Civic",
+   "url": "https://www.madison-nh.org/selectmen/",
+   "source": "Town of Madison",
+   "note": "The Selectmen page lists 5 pm in its schedule but 4:30 pm in its introduction; confirm the start time."
   },
   {
    "date": "2026-11-10",
@@ -449,6 +988,17 @@
    "kind": "Family",
    "url": "https://conwaypubliclibrary.org/childrens/events/290603/pajama-story-time",
    "source": "Conway Public Library"
+  },
+  {
+   "date": "2026-11-15",
+   "time": "Projected",
+   "title": "Black Mountain projected opening day for the 2026-27 ski season",
+   "venue": "Black Mountain Ski Area",
+   "town": "Jackson",
+   "kind": "Sports",
+   "url": "https://www.onthesnow.com/new-hampshire/projected-openings.html",
+   "source": "OnTheSnow projected openings",
+   "note": "A projection from OnTheSnow, not an announced date. Black Mountain's own events page lists no 2026-27 opening date."
   },
   {
    "date": "2026-11-16",
@@ -491,6 +1041,27 @@
    "source": "Conway Public Library"
   },
   {
+   "date": "2026-11-19",
+   "time": "3:30 pm",
+   "title": "Jackson School District strategic plan community workshop (3:30 to 5:30 pm)",
+   "venue": "The Whitney Center",
+   "town": "Jackson",
+   "kind": "Civic",
+   "url": "https://www.jackson-nh.gov/news-and-alerts/community-planning-forum/",
+   "source": "Town of Jackson"
+  },
+  {
+   "date": "2026-11-26",
+   "time": "9:00 am",
+   "title": "Jackson Turkey Trot 5K (9:30 am) and Kids 1K Fun Run (9 am), benefiting Jackson Grammar School and Girls on the Run",
+   "venue": "Eagle Mountain House lower fields, 179 Carter Notch Rd (staging and parking)",
+   "town": "Jackson",
+   "kind": "Sports",
+   "url": "https://whitemountainski.co/pages/jackson-turkey-trot",
+   "source": "White Mountain Ski Co.",
+   "price": "$25 for the 5K ($30 race day); kids 10 and under free"
+  },
+  {
    "date": "2026-11-28",
    "time": "10:30 am",
    "title": "Winter Mountaineer train season begins (select dates through March 2027)",
@@ -511,6 +1082,27 @@
    "source": "Cranmore Mountain Resort"
   },
   {
+   "date": "2026-11-28",
+   "time": "3:30 pm",
+   "title": "Traditionally Yours Celebration: Santa's first visit and the village tree lighting (about 5 pm)",
+   "venue": "Jackson Town Gazebo; afterparty in the Christmas Farm Inn and Spa barn",
+   "town": "Jackson",
+   "kind": "Holiday",
+   "url": "https://jacksonnh.com/event/traditionally-yours-celebration-2/",
+   "source": "Jackson Area Chamber of Commerce"
+  },
+  {
+   "date": "2026-12-04",
+   "time": "Projected",
+   "title": "Attitash projected opening day for the 2026-27 ski season",
+   "venue": "Attitash Mountain Resort",
+   "town": "Bartlett",
+   "kind": "Sports",
+   "url": "https://www.onthesnow.com/new-hampshire/projected-openings.html",
+   "source": "OnTheSnow projected openings",
+   "note": "A projection, not an announced date. Attitash's site says pass prices go up Nov. 15 and lists no opening day."
+  },
+  {
    "date": "2026-12-05",
    "time": "10:00 am",
    "title": "Holiday Festival and Tree Lighting (free; tree lighting at 4 pm at the gazebo)",
@@ -519,10 +1111,42 @@
    "kind": "Holiday",
    "url": "https://www.visitnh.gov/things-to-do/events-calendar/holiday-festival-tree-lighting",
    "source": "Visit NH events calendar"
+  },
+  {
+   "date": "2026-12-07",
+   "time": "5:30 pm",
+   "title": "Conservation Commission meeting (5:30 to 6:30 pm)",
+   "venue": "Jackson Town Offices, 54 Main Street",
+   "town": "Jackson",
+   "kind": "Civic",
+   "url": "https://www.jackson-nh.gov/boards-committees/conservation-commission/",
+   "source": "Town of Jackson"
+  },
+  {
+   "date": "2026-12-11",
+   "time": "Projected",
+   "title": "King Pine projected opening day for the 2026-27 ski season",
+   "venue": "King Pine Ski Area, East Madison",
+   "town": "Madison",
+   "kind": "Sports",
+   "url": "https://www.onthesnow.com/new-hampshire/projected-openings.html",
+   "source": "OnTheSnow projected openings",
+   "note": "A projection, not an announced date. Boston.com reported Oct 22, 2026 that King Pine is upgrading snowmaking, trail signs and its tavern this winter and joining the Indy Pass."
+  },
+  {
+   "date": "2026-12-12",
+   "time": "11:00 am",
+   "title": "29th Annual Inn-to-Inn Holiday Cookie Tour, 11 am to 3 pm (also Sunday, Dec 13)",
+   "venue": "About ten participating inns from Jackson to Madison",
+   "town": "Jackson to Madison",
+   "kind": "Holiday",
+   "url": "https://innatellisriver.com/?p=8664",
+   "source": "Inn at Ellis River (participating inn)",
+   "note": "The page gives Saturday, Dec 12 and Sunday, Dec 13 but no year; those weekdays match 2026 and the 2025 tour (28th) was Dec 13 and 14, 2025. Tickets are sold through the tour; the inn's page lists only its package."
   }
  ],
  "events_as_of": "2026-10-31",
- "eventsNote": "Events from the Conway Public Library, Cranmore, Conway Scenic Railroad, the Town of Conway, Settlers Green (via the Visit NH calendar) and The Conway Daily Sun, as of Oct 30. The Mt. Washington Valley Chamber calendar loads by script and the North Conway Community Center schedule could not be opened, so their events are missing. Conway Scenic's Santa's Holiday Special page says it begins Nov 27 but gives no year, so it is not listed. Confirm with the organizer.",
+ "eventsNote": "Events from the Conway Public Library, Cranmore, Conway Scenic Railroad, the Town of Conway, Settlers Green (via the Visit NH calendar) and The Conway Daily Sun, as of Oct 30. The Mt. Washington Valley Chamber calendar loads by script and the North Conway Community Center schedule could not be opened, so their events are missing. Conway Scenic's Santa's Holiday Special page says it begins Nov 27 but gives no year, so it is not listed. Confirm with the organizer. Valley-wide: Conway, Bartlett, Jackson and Madison. From the Town of Bartlett, Town of Jackson and Town of Madison calendars and notices, Jackson XC, the Jackson Area Chamber, White Mountain Ski Co., the Inn at Ellis River and OnTheSnow, as of Oct 31. Ski opening dates are OnTheSnow projections, not resort announcements. Story Land's 2026 season ended Oct 25 with Happy Hauntings (visitwhitemountains.com), so it has no events in this window. Not covered: the Jackson Area Chamber November and December calendar pages, the Attitash events calendar, the Bartlett, Jackson and Madison library sites and the Bartlett and Madison recreation sites could not be opened. Weekly programs at the Old Jackson Library (yoga, mahjong, canasta) are listed in parks-add.json, not here.",
  "election": {
   "date": "2026-11-03",
   "hours": "8:00 AM to 7:00 PM",
@@ -576,7 +1200,8 @@
     "platform": "Facebook",
     "url": "https://www.facebook.com/p/Town-of-Conway-NH-100071314939577/",
     "type": "Official",
-    "source": "https://conwaynh.gov/"
+    "source": "https://conwaynh.gov/",
+    "town": "Conway"
    },
    {
     "who": "Conway Parks and Recreation",
@@ -585,7 +1210,8 @@
     "platform": "Facebook",
     "url": "https://www.facebook.com/ConwayParksAndRecreationDepartment",
     "type": "Official",
-    "source": "https://conwaynh.myrec.com/info/default.aspx"
+    "source": "https://conwaynh.myrec.com/info/default.aspx",
+    "town": "Conway"
    },
    {
     "who": "Conway Parks and Recreation",
@@ -594,7 +1220,8 @@
     "platform": "Instagram",
     "url": "https://www.instagram.com/conwayrecnh/",
     "type": "Official",
-    "source": "https://conwaynh.myrec.com/info/default.aspx"
+    "source": "https://conwaynh.myrec.com/info/default.aspx",
+    "town": "Conway"
    },
    {
     "who": "Conway Parks and Recreation",
@@ -603,7 +1230,8 @@
     "platform": "YouTube",
     "url": "https://www.youtube.com/channel/UCDvIvUja-Ub2NyLZleL141A",
     "type": "Official",
-    "source": "https://conwaynh.myrec.com/info/default.aspx"
+    "source": "https://conwaynh.myrec.com/info/default.aspx",
+    "town": "Conway"
    },
    {
     "who": "Conway Public Library",
@@ -612,7 +1240,8 @@
     "platform": "Facebook",
     "url": "https://www.facebook.com/ConwayPublicLibrary",
     "type": "Official",
-    "source": "https://conwaypubliclibrary.org/"
+    "source": "https://conwaypubliclibrary.org/",
+    "town": "Conway"
    },
    {
     "who": "Conway Public Library",
@@ -621,7 +1250,8 @@
     "platform": "Instagram",
     "url": "https://www.instagram.com/conwaylibrarynh/",
     "type": "Official",
-    "source": "https://conwaypubliclibrary.org/"
+    "source": "https://conwaypubliclibrary.org/",
+    "town": "Conway"
    },
    {
     "who": "Redstone Fire Department",
@@ -630,7 +1260,8 @@
     "platform": "Facebook",
     "url": "https://www.facebook.com/Redstone-Fire-Department-179390482424661/",
     "type": "Official",
-    "source": "https://conwaynh.gov/pages/community-information"
+    "source": "https://conwaynh.gov/pages/community-information",
+    "town": "Conway"
    },
    {
     "who": "East Conway Fire Department",
@@ -639,7 +1270,8 @@
     "platform": "Facebook",
     "url": "https://www.facebook.com/EastConwayFire/",
     "type": "Official",
-    "source": "https://conwaynh.gov/pages/community-information"
+    "source": "https://conwaynh.gov/pages/community-information",
+    "town": "Conway"
    },
    {
     "who": "Mt. Washington Valley Chamber of Commerce",
@@ -648,7 +1280,8 @@
     "platform": "Facebook",
     "url": "https://www.facebook.com/mtwashingtonvalleynh",
     "type": "Official",
-    "source": "https://www.visitmwv.com/insider-blog"
+    "source": "https://www.visitmwv.com/insider-blog",
+    "town": "Conway"
    },
    {
     "who": "Mt. Washington Valley Chamber of Commerce",
@@ -657,7 +1290,8 @@
     "platform": "Instagram",
     "url": "https://www.instagram.com/visitmtwashingtonvalley/",
     "type": "Official",
-    "source": "https://www.visitmwv.com/insider-blog"
+    "source": "https://www.visitmwv.com/insider-blog",
+    "town": "Conway"
    },
    {
     "who": "Mt. Washington Valley Chamber of Commerce",
@@ -666,7 +1300,8 @@
     "platform": "LinkedIn",
     "url": "https://www.linkedin.com/company/mt-washington-valley-chamber-of-commerce/",
     "type": "Official",
-    "source": "https://www.visitmwv.com/insider-blog"
+    "source": "https://www.visitmwv.com/insider-blog",
+    "town": "Conway"
    },
    {
     "who": "The Conway Daily Sun",
@@ -675,7 +1310,8 @@
     "platform": "Facebook",
     "url": "https://www.facebook.com/TheConwayDailySun/",
     "type": "Official",
-    "source": "https://www.conwaydailysun.com/community"
+    "source": "https://www.conwaydailysun.com/community",
+    "town": "Conway"
    },
    {
     "who": "The Conway Daily Sun",
@@ -684,7 +1320,8 @@
     "platform": "X",
     "url": "https://twitter.com/conwaydailysun/",
     "type": "Official",
-    "source": "https://www.conwaydailysun.com/community"
+    "source": "https://www.conwaydailysun.com/community",
+    "town": "Conway"
    },
    {
     "who": "The Conway Daily Sun",
@@ -693,7 +1330,92 @@
     "platform": "YouTube",
     "url": "https://www.youtube.com/user/ConwayDailySun",
     "type": "Official",
-    "source": "https://www.conwaydailysun.com/community"
+    "source": "https://www.conwaydailysun.com/community",
+    "town": "Conway"
+   },
+   {
+    "town": "Bartlett",
+    "who": "Town of Bartlett",
+    "level": "City",
+    "role": "Town government",
+    "platform": "Facebook",
+    "url": "https://www.townofbartlett.nh.gov/facebook",
+    "type": "Official",
+    "source": "https://www.townofbartlett.nh.gov/",
+    "note": "The town's own redirect link; the final Facebook address could not be read."
+   },
+   {
+    "town": "Bartlett",
+    "who": "Town of Bartlett",
+    "level": "City",
+    "role": "Town government",
+    "platform": "X",
+    "url": "https://www.townofbartlett.nh.gov/x",
+    "type": "Official",
+    "source": "https://www.townofbartlett.nh.gov/",
+    "note": "The town's own redirect link; the final X address could not be read."
+   },
+   {
+    "town": "Jackson",
+    "who": "Town of Jackson",
+    "level": "City",
+    "role": "Select Board meeting videos",
+    "platform": "YouTube",
+    "url": "https://www.youtube.com/user/jacksonflicks",
+    "type": "Official",
+    "source": "https://www.jackson-nh.gov/meetings-and-agendas/"
+   },
+   {
+    "town": "Jackson",
+    "who": "Town of Jackson",
+    "level": "City",
+    "role": "Planning Board and ZBA meeting videos",
+    "platform": "YouTube",
+    "url": "https://www.youtube.com/@jacksonflicks",
+    "type": "Official",
+    "source": "https://www.jackson-nh.gov/meetings-and-agendas/",
+    "note": "The town lists both this handle and the /user/jacksonflicks address; they may be the same channel."
+   },
+   {
+    "town": "Madison",
+    "who": "Madison TV (Madison PEG TV)",
+    "level": "City",
+    "role": "Town public access TV, meeting video",
+    "platform": "YouTube",
+    "url": "https://www.youtube.com/@madtv603",
+    "type": "Official",
+    "source": "https://www.madison-nh.org/boards/madison-tv/",
+    "note": "Also on Spectrum channel 3 and a TelVue player linked from the same page."
+   },
+   {
+    "town": "Jackson",
+    "who": "Jackson Area Chamber of Commerce",
+    "level": "City",
+    "role": "Local chamber of commerce",
+    "platform": "Facebook",
+    "url": "https://www.facebook.com/JacksonAreaCC",
+    "type": "Official",
+    "source": "https://jacksonnh.com/services/"
+   },
+   {
+    "town": "Jackson",
+    "who": "Jackson XC (Jackson Ski Touring Foundation)",
+    "level": "City",
+    "role": "Nordic ski trail network (private nonprofit)",
+    "platform": "Facebook",
+    "url": "https://www.facebook.com/people/Jackson-XC/61591988908803/",
+    "type": "Official",
+    "source": "https://www.jacksonxc.org/about/"
+   },
+   {
+    "town": "Jackson",
+    "who": "Jackson XC (Jackson Ski Touring Foundation)",
+    "level": "City",
+    "role": "Nordic ski trail network (private nonprofit)",
+    "platform": "Instagram",
+    "url": "https://www.instagram.com/jacksonxc",
+    "type": "Official",
+    "source": "https://www.jacksonxc.org/about/"
    }
   ],
   "notListed": [
@@ -730,7 +1452,7 @@
  "postsNote": "The live feed fills this in.",
  "safety": {
   "as_of": "2026-10-30",
-  "note": "Compiled from the Conway Police Department and North Conway Water Precinct pages, the Town of Conway's 2025 report and local news. Conway Police cover the whole town, including North Conway. North Conway Fire serves North Conway; Conway Fire (Conway Village, run by the town since Jan 1, 2025), Center Conway, Redstone and East Conway have their own departments. Incidents are described by type, street and date only; no names of people involved.",
+  "note": "Compiled from the Conway Police Department and North Conway Water Precinct pages, the Town of Conway's 2025 report and local news. Conway Police cover the whole town, including North Conway. North Conway Fire serves North Conway; Conway Fire (Conway Village, run by the town since Jan 1, 2025), Center Conway, Redstone and East Conway have their own departments. Incidents are described by type, street and date only; no names of people involved. Main listings are Conway Police and the North Conway Fire Department; Bartlett, Jackson and Madison departments are listed under \"Other departments in the valley\".",
   "alerts": {
    "name": "Conway Broadcast (town text and email notices)",
    "url": "https://conwaynh.gov/pages/broadcast"
@@ -778,6 +1500,18 @@
    ],
    "statsNote": "From the department's 2024 town report figures on its home page. The same box lists 649 arrests but labels them 2025, so arrests are left out.",
    "recent": [
+    {
+     "town": "Jackson",
+     "date": "2026-10-24",
+     "kind": "Program",
+     "title": "Jackson Police held a Drug Take Back Day",
+     "detail": "The town calendar listed a Jackson Police Department Drug Take Back Day, 8 am to noon, in front of Jackson Grammar School.",
+     "area": "Jackson Village",
+     "source": {
+      "label": "Town of Jackson, Calendar of Events",
+      "url": "https://www.jackson-nh.gov/events/month/"
+     }
+    },
     {
      "date": "2026-10-09",
      "kind": "Log",
@@ -887,24 +1621,7 @@
     "url": "https://nhdfl.dncr.nh.gov/forest-protection/fire-permits"
    },
    "liveIncidents": null,
-   "logsUrl": null,
-   "otherDepartments": [
-    {
-     "name": "Conway Fire Department",
-     "detail": "Conway Village. The town took over the Conway Fire and Ambulance Department on Jan 1, 2025, after the Conway Village Fire District was dissolved. Chief: Philip Remington (2025 town report).",
-     "url": "https://conwaynh.gov/uploads/conway-town-report-2025-web.pdf"
-    },
-    {
-     "name": "Center Conway Fire Department",
-     "detail": "Separate department listed by the town.",
-     "url": "https://conwaynh.gov/pages/community-information"
-    },
-    {
-     "name": "Redstone and East Conway Fire Departments",
-     "detail": "Separate departments listed by the town.",
-     "url": "https://conwaynh.gov/pages/community-information"
-    }
-   ]
+   "logsUrl": null
   },
   "benchmarks": {
    "year": "2024",
@@ -959,7 +1676,97 @@
      "url": "https://www.opencrime.us/years/2024"
     }
    ]
-  }
+  },
+  "valleyDepartments": [
+   {
+    "town": "Conway",
+    "name": "Conway Fire Department",
+    "kind": "fire",
+    "detail": "Conway Village. The town took over the Conway Fire and Ambulance Department on Jan 1, 2025, after the Conway Village Fire District was dissolved. Chief: Philip Remington (2025 town report).",
+    "site": "https://conwaynh.gov/uploads/conway-town-report-2025-web.pdf"
+   },
+   {
+    "town": "Conway",
+    "name": "Center Conway Fire Department",
+    "kind": "fire",
+    "detail": "Separate department listed by the town.",
+    "site": "https://conwaynh.gov/pages/community-information"
+   },
+   {
+    "town": "Conway",
+    "name": "Redstone and East Conway Fire Departments",
+    "kind": "fire",
+    "detail": "Separate departments listed by the town.",
+    "site": "https://conwaynh.gov/pages/community-information"
+   },
+   {
+    "town": "Bartlett",
+    "name": "Bartlett Police Department",
+    "kind": "police",
+    "chief": null,
+    "nonEmergency": "800-552-8960 (calls for assistance); office 603-356-5868",
+    "address": "56 Town Hall Road, Intervale, NH 03845",
+    "site": "https://www.townofbartlett.nh.gov/1199/Police-Department",
+    "note": "The department page does not name the chief, and no current source naming one was found."
+   },
+   {
+    "town": "Bartlett",
+    "name": "Bartlett Fire Department",
+    "kind": "fire",
+    "chief": "James Langdon Jr. (sworn in June 2026; Dan Robinson, deputy chief)",
+    "nonEmergency": "603-383-9555 (best Monday to Friday, 9 to 10 am)",
+    "address": "90 U.S. Route 302, Glen, NH 03838",
+    "site": "https://www.townofbartlett.nh.gov/1200/Fire-Department",
+    "note": "Seasonal fire permits are sold online through nh.burnsafeamerica.com, linked from the town site."
+   },
+   {
+    "town": "Jackson",
+    "name": "Jackson Police Department",
+    "kind": "police",
+    "chief": "Chris Perley",
+    "nonEmergency": "603-383-9292 (listed as contact number, not labeled non-emergency)",
+    "address": null,
+    "site": "https://www.jackson-nh.gov/departments/police-department/",
+    "note": "The Highway Department page lists the Carroll County Sheriff's Office, 800-552-8960, for emergencies besides 911. The police page gives no street address."
+   },
+   {
+    "town": "Jackson",
+    "name": "Jackson Fire Department",
+    "kind": "fire",
+    "chief": "Jay Henry",
+    "nonEmergency": "603-383-4090 (Fire Chief)",
+    "address": null,
+    "site": "https://www.jackson-nh.gov/departments/fire-department/",
+    "note": "The page gives only the Town Offices mailing address (54 Main Street, PO Box 268). Fire permits are linked from the department page."
+   },
+   {
+    "town": "Madison",
+    "name": "Town of Madison Police Department",
+    "kind": "police",
+    "chief": "James E. Hayford",
+    "nonEmergency": "603-367-8334",
+    "address": "1923 Village Road (Town Hall, lower level), Madison, NH 03849",
+    "site": "https://www.madison-nh.org/departments/police/",
+    "note": "The page posts monthly calls-for-service logs; the latest listed are August to November 2025."
+   },
+   {
+    "town": "Madison",
+    "name": "Town of Madison Fire/Rescue",
+    "kind": "fire",
+    "chief": "Michael Brooks (Fire Chief and Fire Warden)",
+    "nonEmergency": "603-367-4602",
+    "address": "1917 Village Road (Route 113), Madison, NH",
+    "site": "https://madison-nh.org/departments/firerescue-department",
+    "note": "A volunteer department. Fire permits are required for all outdoor burning; notify Carroll County Dispatch (603-539-2263) before burning."
+   },
+   {
+    "town": "Bartlett and Jackson",
+    "name": "Bartlett/Jackson Ambulance",
+    "kind": "ambulance",
+    "detail": "Linked from the Jackson town site; not opened.",
+    "site": "https://www.bartlett-jacksonambulanceservice.org/"
+   }
+  ]
  },
  "notHere": [
   {
@@ -1029,6 +1836,12 @@
     "title": "Blue skies and wagging tails at dog park opening",
     "url": "https://www.conwaydailysun.com/news/local/blue-skies-and-wagging-tails-at-dog-park-opening/article_7152fe12-ed87-433f-8f81-2e1a0e6e5fc3.html",
     "date": "2026-10-28"
+   },
+   {
+    "title": "Eidelweiss board fires back at county commissioners",
+    "url": "https://www.conwaydailysun.com/news/local/eidelweiss-board-fires-back-at-county-commissioners/article_68566527-58ee-4f03-b765-eaca50ecc217.html",
+    "date": "2026-10-28",
+    "town": "Madison"
    },
    {
     "title": "Kenney says as executive councilor he can ‘work with DOT’",

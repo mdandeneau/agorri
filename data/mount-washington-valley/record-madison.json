@@ -1,0 +1,1372 @@
+{
+ "about": {
+  "town": "Madison, NH",
+  "as_of": "2026-10-31",
+  "records_from": "2025-09-17",
+  "documents_used": 45,
+  "note": "The Town of Madison, Carroll County, including Silver Lake and Eidelweiss. Madison is governed by a five-member Board of Selectmen and a Town Administrator, with an annual town meeting: officers and zoning changes are voted by ballot on the second Tuesday in March (March 10, 2026), and money articles at a business session the following Saturday (March 14, 2026). Eidelweiss is also served by the Village District of Eidelweiss, a separate small local government with its own commissioners, water system, roads and tax rate. The town posts Selectmen minutes through September 29, 2026, but those 2026 PDFs could not be opened for this research (only the January 20, 2026 minutes could), so most meeting entries are built from Conway Daily Sun reports and are marked as news reports. The results of the March 14, 2026 business session (including the final operating budget) and the 2025 tax rate breakdown were not found. Plain-English summaries written by AI; items with needs_review=true are uncertain."
+ },
+ "town": {
+  "name": "Madison",
+  "state": "NH",
+  "body": "Board of Selectmen",
+  "bodyShort": "Selectmen",
+  "members": "selectmen",
+  "registeredVoters": null,
+  "registeredByWard": {},
+  "turnout2025": {
+   "ballots": null,
+   "registered": null,
+   "pct": null
+  },
+  "turnoutNote": "March 10, 2026 town election at Madison Elementary School. The town's posted results sheet lists vote counts without labels and no ballots-cast or registered-voter totals; the Conway Daily Sun reported 'roughly 500-plus voters'. Madison has no wards.",
+  "turnoutLabel": "March 2026 town election",
+  "needs_review": true,
+  "review_note": "Registered voters and ballots cast were not found in any source opened. The NH Secretary of State checklist counts by town were not reachable.",
+  "sources": {
+   "election": "https://www.madison-nh.org/wp-content/uploads/2026/03/2026_TOWN-BALLOT_RESULTS_03_10_2026-2.pdf",
+   "roster": "https://www.madison-nh.org/selectmen/",
+   "wards": "https://www.madison-nh.org/departments/town-clerk/elections-voting/",
+   "voters": "https://www.conwaydailysun.com/news/local/dame-nordlund-team-up-emerge-victorious-in-madison/article_4fcb1472-fc88-439e-856f-ea413432cbdf.html"
+  },
+  "demoAddress": "1923 Village Road",
+  "demoAddressNote": "Madison Town Hall, 1923 Village Road (PO Box 248), Madison, NH 03849. Open Monday to Thursday, 8 AM to 4 PM.",
+  "nextCityElection": "March 2027 (annual town election; date not yet posted). Chair Joy Gray's seat (term 2024-2027) is the one scheduled to be up.",
+  "contactNote": "Each selectman lists an email on the town's Selectmen page. The Selectmen's office is reached through Town Administrator Lucia Roth: 603-367-4332 ext. 300 or ta@madison-nh.org. To get time on an agenda, call ext. 300; agendas close at noon on the Wednesday before a meeting. The town home page says to use (603) 600-7793 while Town Hall phone problems with Consolidated Communications (Fidium) are fixed.",
+  "polls": {
+   "place": "Madison Elementary School, James Noyes Hall (gym), 2069 Village Road (Route 113), Madison",
+   "hours": "8:00 AM to 7:00 PM on Tuesday, November 3, 2026",
+   "source": "https://www.madison-nh.org/departments/town-clerk/elections-voting/"
+  }
+ },
+ "next_council_meeting": null,
+ "issues": [
+  {
+   "id": "equipment-investigation",
+   "title": "Investigation into town employees' personal use of town equipment",
+   "topic": "Government & elections",
+   "status": "Outside investigator hired in early 2026; money for it was put to the March 2026 town meeting as a separate article. Result of that vote and of the investigation not found.",
+   "next": null,
+   "summary": "Residents asked selectmen to stop town employees from using town property and equipment for personal purposes. The board debated whether such use was an accepted perk or against state law, rewrote its personnel policy on town property, and hired an outside firm to investigate. The dispute was part of a contentious spring that saw the board chair change and several staff resign.",
+   "points": [
+    "December 2025: selectmen disagreed over whether employee use of town equipment was a 'perk' (the then-chair and one member) or a violation of state law (Selectman Gray), according to the Daily Sun.",
+    "January 20, 2026: the chair said the board was considering Primex, the town's insurer, as a third-party investigator; Town Counsel proposed policy language barring personal use of town property except incidental use.",
+    "February 3, 2026: selectmen announced Municipal Resources Inc. would investigate, and that Public Works Director Josh Shackford had resigned.",
+    "February 10, 2026 budget hearing: selectmen voted 3-2 (Price, Eldridge and Boewe in favor; Nordlund and Gray against) to move $8,000 for the investigation out of the operating budget into a separate warrant article.",
+    "The Daily Sun reported the $8,000 question as Article 24 at the March 14, 2026 business session. The outcome was not found."
+   ],
+   "keywords": [
+    "investigation",
+    "town equipment",
+    "town property",
+    "personal use",
+    "municipal resources",
+    "primex",
+    "dpw",
+    "personnel policy"
+   ],
+   "sources": [
+    {
+     "label": "Conway Daily Sun, Jan 26, 2026: Madison eyes town employees' use of public property",
+     "url": "https://www.conwaydailysun.com/news/local/madison-eyes-town-employees-use-of-public-property/article_5ae8afc4-dfec-4f9e-b09a-bad66fbb8ffa.html"
+    },
+    {
+     "label": "Selectmen minutes, Jan 20, 2026",
+     "url": "https://www.madison-nh.org/wp-content/uploads/2026/02/2026-01-20-BOS-Mins.pdf"
+    },
+    {
+     "label": "Conway Daily Sun: Madison DPW director resigns; selectmen hire investigator",
+     "url": "https://www.conwaydailysun.com/news/local/madison-dpw-director-resigns-selectmen-hire-investigator/article_2fe4bc63-54be-4ff1-b1db-9bf1edcad11f.html"
+    },
+    {
+     "label": "Conway Daily Sun: Madison voters to decide funding of employee probe",
+     "url": "https://www.conwaydailysun.com/news/local/madison-voters-to-decide-funding-of-employee-probe/article_97b5bd62-f036-4c43-8597-7f44c94a8d0a.html"
+    },
+    {
+     "label": "Conway Daily Sun: Dame, Nordlund team up, emerge victorious in Madison",
+     "url": "https://www.conwaydailysun.com/news/local/dame-nordlund-team-up-emerge-victorious-in-madison/article_4fcb1472-fc88-439e-856f-ea413432cbdf.html"
+    }
+   ],
+   "scope": "Town",
+   "related": [
+    {
+     "date": "2026-02-10",
+     "body": "Board of Selectmen (budget hearing)",
+     "url": "https://www.conwaydailysun.com/news/local/madison-voters-to-decide-funding-of-employee-probe/article_97b5bd62-f036-4c43-8597-7f44c94a8d0a.html",
+     "d": {
+      "title": "Moved $8,000 for the investigation into its own warrant article",
+      "detail": "Price, Eldridge and Boewe in favor; Nordlund and Gray wanted it kept in the operating budget.",
+      "outcome": "3-2"
+     }
+    },
+    {
+     "date": "2026-02-03",
+     "body": "Board of Selectmen",
+     "url": "https://www.conwaydailysun.com/news/local/madison-dpw-director-resigns-selectmen-hire-investigator/article_2fe4bc63-54be-4ff1-b1db-9bf1edcad11f.html",
+     "d": {
+      "title": "Announced Municipal Resources Inc. will investigate",
+      "detail": "Also announced the Public Works Director's resignation.",
+      "outcome": "announcement (vote not reported)"
+     }
+    }
+   ],
+   "needs_review": true,
+   "review_note": "The town meeting vote on the $8,000 article and any investigation findings were not found. The draft warrant from the Feb 10 hearing numbers articles differently (its Article 24 is a redistricting petition), so the final article number comes only from the Daily Sun."
+  },
+  {
+   "id": "silver-lake-dam",
+   "title": "Replacing the Silver Lake dam",
+   "topic": "Environment & resilience",
+   "status": "Seeking about $2.25 million in federal money; the town is saving in a dam trust fund",
+   "next": "If federal money comes through, work could start in fall 2027 (Daily Sun, April 2026)",
+   "summary": "The town owns the roughly 100-year-old dam at the outlet of Silver Lake on East Shore Drive, next to the town boat launch. Selectmen say it is failing and needs replacing; if it failed, the lake could drop 6 to 8 feet. The town has asked U.S. Rep. Chris Pappas for federal funding.",
+   "points": [
+    "Selectmen estimate replacement needs about $2 million. Rep. Pappas's FY2027 Community Project Funding list includes 'Silver Lake Dam Replacement' for the Town of Madison at $2,250,000 (engineering, demolition and a new dam).",
+    "Pappas met selectmen at the boat ramp in early April 2026; a staffer said a spending bill with the money could pass at year's end. Not yet awarded.",
+    "The 2026 draft warrant (Feb 10 hearing) asked $100,000 for the Silver Lake Dam Improvement Trust Fund, which then held $79,400. Final vote not found.",
+    "October 2026: Silver Lake went down to winter level by October 15, then down another 2 feet October 19 to 23 for Public Works repairs to the boat launch (town notice)."
+   ],
+   "keywords": [
+    "silver lake",
+    "dam",
+    "east shore drive",
+    "boat launch",
+    "lake level",
+    "pappas",
+    "trust fund"
+   ],
+   "sources": [
+    {
+     "label": "Conway Daily Sun, Apr 9, 2026: Madison asks for help replacing lake dam",
+     "url": "https://www.conwaydailysun.com/news/local/madison-asks-for-help-replacing-lake-dam/article_0b2c2d0b-0e09-410e-82a1-fd79ff40b2f1.html"
+    },
+    {
+     "label": "Rep. Pappas: Community Project Funding requests (FY2027)",
+     "url": "https://pappas.house.gov/cpf"
+    },
+    {
+     "label": "2026 draft warrant, Feb 10, 2026 budget hearing (Article 18)",
+     "url": "https://www.madison-nh.org/wp-content/uploads/2026/02/049-2026-Warrant-02-10-26-Budget-Hearing.pdf"
+    },
+    {
+     "label": "Town of Madison home page notices (lake level, boat launch repair)",
+     "url": "https://www.madison-nh.org/"
+    }
+   ],
+   "scope": "Town",
+   "related": []
+  },
+  {
+   "id": "eidelweiss-tower",
+   "title": "Eidelweiss and Carroll County dispute over the Oak Ridge emergency radio tower",
+   "topic": "Public safety",
+   "status": "The Village District of Eidelweiss told the county to leave the tower site by December 31, 2026; county commissioners are considering taking the land",
+   "next": "2026-12-31: date in the district's eviction notice",
+   "summary": "Carroll County's emergency communications tower on Oak Ridge in Eidelweiss, used since the 1980s for police, fire and EMS radio across northern Carroll County (including Madison), sits on land owned by the Village District of Eidelweiss. The district says the county has not met its 2017 lease terms, chiefly a $5 million insurance requirement, and sent an eviction notice. This is a district and county matter; the Town of Madison is not a party.",
+   "points": [
+    "August 19, 2026: the district sent the county an eviction notice citing nine years of failing to comply with the 2017 lease. It is not a court order; after December 31 the district may start the formal eviction process.",
+    "The county says the $5 million insurance requirement would cost it $10,000 a year and asked the district to lower it and the $400 monthly rent.",
+    "Village Commissioner Nancy Cole said the district first sought $6,000 at renewal and agreed to $400 after meeting with the sheriff.",
+    "Late October 2026: the Daily Sun reported county commissioners are weighing seizing the land under the tower; Eidelweiss Chair Wooda McNiven called the county's 'stonewalling' claims inaccurate.",
+    "Sheriff Dominic Richard said the tower supports police, fire and EMS radio in Conway, Albany, Bartlett, Jackson, Chatham, Tamworth, Freedom and Madison."
+   ],
+   "keywords": [
+    "eidelweiss",
+    "tower",
+    "radio tower",
+    "oak ridge",
+    "county",
+    "eviction",
+    "lease",
+    "village district"
+   ],
+   "sources": [
+    {
+     "label": "Conway Daily Sun, Oct 28, 2026: Eidelweiss board fires back at county commissioners",
+     "url": "https://www.conwaydailysun.com/news/local/eidelweiss-board-fires-back-at-county-commissioners/article_68566527-58ee-4f03-b765-eaca50ecc217.html"
+    },
+    {
+     "label": "Conway Daily Sun: Eidelweiss chair speaks out on tower issue",
+     "url": "https://www.conwaydailysun.com/news/local/eidelweiss-chair-speaks-out-on-tower-issue/article_0ef2a67c-7bb5-4066-b0dd-0a8548a47130.html"
+    },
+    {
+     "label": "Conway Daily Sun headline: County board mulls seizing Eidelweiss tower",
+     "url": "https://www.conwaydailysun.com/news/local/county-board-mulls-seizing-eidelweiss-tower/article_de2ebcc6-04eb-4dc0-8398-03d3918ce536.html"
+    }
+   ],
+   "scope": "Village District of Eidelweiss",
+   "related": [],
+   "needs_review": true,
+   "review_note": "The 'County board mulls seizing Eidelweiss tower' article could not be opened; only its headline was read. The tower's street address is given as 98 Oak Ridge Road in one article."
+  },
+  {
+   "id": "board-turnover",
+   "title": "New selectboard majority, new chair and new Town Administrator",
+   "topic": "Government & elections",
+   "status": "Joy Gray chairs the board after the March 2026 election; Lucia Roth hired as Town Administrator in April 2026",
+   "next": null,
+   "summary": "In March 2026 voters re-elected Nicole Nordlund and elected Joe Dame, defeating board chair Adam Price. Joy Gray became chair. At an April 14 meeting moved to the elementary school for a crowd of about 75, critics pointed to resignations of an elected official and two employees and to petitions seeking Gray's removal as chair; Selectman Nordlund read a statement defending the board.",
+   "points": [
+    "March 10, 2026: Dame 391 votes, Nordlund 320; challenger Charlie Allen and Chair Adam Price were defeated (their totals were not reported).",
+    "Madison voters expanded the board from three to five members in March 2024.",
+    "April 14, 2026: Gray announced Lucia Roth, former program manager for New Hampshire's Solar for All program, as Town Administrator and Madison McCarthy as part-time administrative assistant. In January the Town Administrator was Linda Shackford.",
+    "Speakers said one elected official and two employees had resigned citing the chair's treatment, and asked why the town treasurer had resigned the week before. The Public Works Director's resignation had been announced in February.",
+    "The Planning Board's land use administrator is now Colleen King (in 2025 the role was held by Katharine Young)."
+   ],
+   "keywords": [
+    "selectmen",
+    "chair",
+    "town administrator",
+    "resignation",
+    "election",
+    "gray",
+    "roth"
+   ],
+   "sources": [
+    {
+     "label": "Conway Daily Sun, Mar 2026: Dame, Nordlund team up, emerge victorious in Madison",
+     "url": "https://www.conwaydailysun.com/news/local/dame-nordlund-team-up-emerge-victorious-in-madison/article_4fcb1472-fc88-439e-856f-ea413432cbdf.html"
+    },
+    {
+     "label": "Conway Daily Sun, Apr 21, 2026: Madison selectmen defend board chair at meeting",
+     "url": "https://www.conwaydailysun.com/news/local/madison-selectmen-defend-board-chair-at-meeting/article_5813eb3b-646f-4ff1-bf82-30158599bf3d.html"
+    },
+    {
+     "label": "Conway Daily Sun, Jan 24, 2025: After expansion, Madison has 3 selectmen openings",
+     "url": "https://www.conwaydailysun.com/news/local/after-expansion-madison-has-3-selectmen-openings/article_35809cd0-d9cb-11ef-84a0-4bcb857c6c7b.html"
+    },
+    {
+     "label": "Town of Madison: Selectmen page",
+     "url": "https://www.madison-nh.org/selectmen/"
+    }
+   ],
+   "scope": "Town",
+   "related": [
+    {
+     "date": "2026-04-14",
+     "body": "Board of Selectmen",
+     "url": "https://www.conwaydailysun.com/news/local/madison-selectmen-defend-board-chair-at-meeting/article_5813eb3b-646f-4ff1-bf82-30158599bf3d.html",
+     "d": {
+      "title": "New Town Administrator announced at a crowded meeting",
+      "detail": "Meeting moved to Madison Elementary School; about 75 attended.",
+      "outcome": "no vote reported"
+     }
+    }
+   ],
+   "needs_review": true,
+   "review_note": "The resignations are as described by public speakers in the Daily Sun report; the town has not published a list. The Daily Sun spells two names 'Norlund' and 'Bowe'; the town roster spells them Nordlund and Boewe."
+  },
+  {
+   "id": "master-plan",
+   "title": "Updating Madison's Master Plan",
+   "topic": "Housing & zoning",
+   "status": "Under way with North Country Council; steering committee meeting November 4, 2026",
+   "next": "2026-11-04: Master Plan Steering Committee, 5:30 PM, Town Hall",
+   "summary": "The Planning Board is updating the town's Master Plan (the long-range guide for land use, housing, roads and conservation) with the regional planning agency North Country Council. A separate Silver Lake watershed management plan is nearing completion.",
+   "points": [
+    "Kickoff with North Country Council was set for January 7, 2026; a community workshop for March 28, 2026 at the school.",
+    "The 2026 draft warrant asked $12,265 for the Master Plan Trust Fund (balance $25,000). Final vote not found.",
+    "The town asked residents to send Madison photos for the plan by November 1, 2026.",
+    "October 7, 2026: a community forum on the Silver Lake watershed management plan drew 37 people (Silver Lake Association)."
+   ],
+   "keywords": [
+    "master plan",
+    "planning board",
+    "north country council",
+    "steering committee",
+    "watershed",
+    "zoning"
+   ],
+   "sources": [
+    {
+     "label": "Planning Board minutes, Dec 3, 2025 (Master Plan update)",
+     "url": "https://www.madison-nh.org/wp-content/uploads/2026/01/PB-Minutes-12-3-2025-APPROVED.pdf"
+    },
+    {
+     "label": "Selectmen minutes, Jan 20, 2026 (workshop date)",
+     "url": "https://www.madison-nh.org/wp-content/uploads/2026/02/2026-01-20-BOS-Mins.pdf"
+    },
+    {
+     "label": "Town of Madison Planning Board page",
+     "url": "https://www.madison-nh.org/boards/planning-board/"
+    },
+    {
+     "label": "Town of Madison home page (photo call, calendar)",
+     "url": "https://www.madison-nh.org/"
+    },
+    {
+     "label": "Silver Lake Association: Lake News",
+     "url": "https://silverlakemadison.com/lake-news/"
+    }
+   ],
+   "scope": "Town",
+   "related": []
+  },
+  {
+   "id": "vertex-cell-tower",
+   "title": "Proposed 100-foot cell tower off Oak Ridge Road",
+   "topic": "Infrastructure & utilities",
+   "status": "Planning Board approved the site plan with conditions on December 3, 2025; variances from the Zoning Board still required. Current status not confirmed.",
+   "next": null,
+   "summary": "Vertex Towers, LLC proposes a wireless communications facility with a 100-foot monopole at 0 Tasker Hill Road (off Oak Ridge Road, in Eidelweiss). It needs a site plan approval from the Planning Board and four variances (permission to break zoning rules for this one property) from the Zoning Board of Adjustment.",
+   "points": [
+    "ZBA Case 25-06: four variances for the tower; hearing continued from October 15 to November 19, 2025. A balloon test was planned for October 6, 2025.",
+    "December 3, 2025: Planning Board Case 25-07 site plan approved 5-0-1 with conditions, including free space for public safety equipment, no tower lighting, a removal bond, weekday 8 AM to 5 PM construction, and protections the Eidelweiss district asked for on its roads and water lines.",
+    "The Planning Board page lists a further public hearing on Case PB 25-07 on April 1, 2026; its outcome was not found.",
+    "In July 2025 the ZBA unanimously refused to rehear its denial of a different 130-foot tower on King Pine Drive (GMR Holdings)."
+   ],
+   "keywords": [
+    "cell tower",
+    "vertex",
+    "wireless",
+    "tower",
+    "tasker hill",
+    "oak ridge",
+    "variance"
+   ],
+   "sources": [
+    {
+     "label": "Planning Board minutes, Dec 3, 2025",
+     "url": "https://www.madison-nh.org/wp-content/uploads/2026/01/PB-Minutes-12-3-2025-APPROVED.pdf"
+    },
+    {
+     "label": "ZBA hearing notice, Case 25-06 Vertex Towers",
+     "url": "https://www.madison-nh.org/wp-content/uploads/2025/10/Public-Hearing-Notice-Case-25-06-Vertex-Towers-and-Case-25-08-Crandell-1.pdf"
+    },
+    {
+     "label": "ZBA minutes, Sept 17, 2025",
+     "url": "https://www.madison-nh.org/wp-content/uploads/2025/10/Minutes-ZBA-9-17-2025-Approved.pdf"
+    },
+    {
+     "label": "Town of Madison Planning Board page (April 1, 2026 hearing)",
+     "url": "https://www.madison-nh.org/boards/planning-board/"
+    },
+    {
+     "label": "Conway Daily Sun, Jul 17, 2025: Madison ZBA denies rehearing to cell tower developer",
+     "url": "https://www.conwaydailysun.com/news/local/madison-zba-denies-rehearing-to-cell-tower-developer/article_fca80812-e715-4632-a4c5-05ed4838ff4d.html"
+    }
+   ],
+   "scope": "Town",
+   "related": [
+    {
+     "date": "2025-12-03",
+     "body": "Planning Board",
+     "url": "https://www.madison-nh.org/wp-content/uploads/2026/01/PB-Minutes-12-3-2025-APPROVED.pdf",
+     "d": {
+      "title": "Site plan for the Vertex tower approved with conditions",
+      "detail": "Case 25-07; the chair recused.",
+      "outcome": "5-0-1, passed"
+     }
+    }
+   ],
+   "needs_review": true,
+   "review_note": "The ZBA variance decision (Case 25-06) and the April 1, 2026 Planning Board hearing outcome were not found; 2026 ZBA and Planning Board minutes are posted but could not be opened."
+  }
+ ],
+ "council_meetings": [
+  {
+   "body": "Board of Selectmen",
+   "date": "2026-04-14",
+   "minutes_url": "https://www.conwaydailysun.com/news/local/madison-selectmen-defend-board-chair-at-meeting/article_5813eb3b-646f-4ff1-bf82-30158599bf3d.html",
+   "minutes_status": "news report",
+   "ocr": false,
+   "source_note": "The town posts official minutes for this meeting (https://www.madison-nh.org/wp-content/uploads/2026/08/BOS-4-14-26.pdf), but the PDF could not be opened for this research. This entry is built from a Conway Daily Sun report published April 21, 2026, so it may be incomplete.",
+   "attendance": {
+    "present": [],
+    "absent": []
+   },
+   "headline": "At a meeting moved to the elementary school for a crowd of about 75, selectmen defended Chair Joy Gray and announced Lucia Roth as the new Town Administrator.",
+   "decisions": [],
+   "discussed": [
+    {
+     "title": "New Town Administrator and assistant",
+     "detail": "Chair Gray announced Lucia Roth, a former program manager for New Hampshire's Solar for All program, as Town Administrator, and Madison McCarthy as part-time administrative assistant.",
+     "topic": "Government & elections"
+    },
+    {
+     "title": "Statements on the board's conduct",
+     "detail": "Selectman Nordlund read a statement praising the board's work and its policy and procedural changes. Selectman Dame said he would not support personal attacks on fellow members and asked the board to focus on town business. Chair Gray read a statement at the end of the public session. Selectmen Boewe and Eldridge did not read statements.",
+     "topic": "Government & elections"
+    },
+    {
+     "title": "Police report",
+     "detail": "Police Chief James Hayford attended to give a report.",
+     "topic": "Public safety"
+    }
+   ],
+   "public_comment": [
+    {
+     "topic": "Resignations and the chair's conduct",
+     "speakers": null,
+     "gist": "Speakers, including a former selectman and a former town employee, said an elected official and two employees had resigned citing treatment by the chair, and asked why the town treasurer had resigned. One said computers were shut down in a way that disrupted staff work; Gray said it was a computer glitch that had been fixed."
+    }
+   ],
+   "coming_up": [],
+   "needs_review": true,
+   "review_note": "No votes were reported. Attendance was not listed; the article mentions all five selectmen but does not say who sat at the table."
+  },
+  {
+   "body": "Board of Selectmen (budget hearing)",
+   "date": "2026-02-10",
+   "minutes_url": "https://www.conwaydailysun.com/news/local/madison-voters-to-decide-funding-of-employee-probe/article_97b5bd62-f036-4c43-8597-7f44c94a8d0a.html",
+   "minutes_status": "news report",
+   "ocr": false,
+   "source_note": "No minutes for the February 10 budget hearing appear in the town's posted list. This entry is built from a Conway Daily Sun report and the town's budget report and draft warrant dated for the hearing, so it may be incomplete. Also used: https://www.madison-nh.org/wp-content/uploads/2026/02/2026-Budget-Report-V-1-02-10-2026-Budget-Hearing.pdf and https://www.madison-nh.org/wp-content/uploads/2026/02/049-2026-Warrant-02-10-26-Budget-Hearing.pdf",
+   "attendance": {
+    "present": [],
+    "absent": []
+   },
+   "headline": "At the public hearing on the 2026 budget, selectmen voted 3-2 to put $8,000 for the equipment-use investigation in its own warrant article instead of the operating budget.",
+   "decisions": [
+    {
+     "title": "Moved $8,000 for the equipment-use investigation into a separate warrant article",
+     "detail": "Voters would decide the investigation money directly at town meeting rather than as part of the operating budget.",
+     "outcome": "3-2",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": {
+      "yes": [
+       "Price",
+       "Eldridge",
+       "Boewe"
+      ],
+      "no": [
+       "Nordlund",
+       "Gray"
+      ]
+     },
+     "dissent": [
+      "Nordlund",
+      "Gray"
+     ],
+     "topic": "Government & elections",
+     "dollars": 8000,
+     "ordinance_reading": null,
+     "needs_review": true,
+     "review_note": "From a news report; the article does not give its publication date or the motion's wording. Adam Price left the board in March 2026."
+    }
+   ],
+   "discussed": [
+    {
+     "title": "Proposed 2026 operating budget",
+     "detail": "The hearing budget report shows $3,705,524 proposed for 2026, up $184,355 (5.2%) from the 2025 approved $3,521,169, split into General Government ($1,968,737), Public Works ($1,044,532) and Public Safety ($692,255) articles.",
+     "topic": "Budget & taxes"
+    }
+   ],
+   "public_comment": [],
+   "coming_up": [
+    {
+     "date": "2026-03-10",
+     "item": "Town election (officers and three zoning amendments), Madison Elementary School"
+    },
+    {
+     "date": "2026-03-14",
+     "item": "Town meeting business session on Articles 5 to 32, 9 AM, Madison Elementary School"
+    }
+   ]
+  },
+  {
+   "body": "Board of Selectmen",
+   "date": "2026-02-03",
+   "minutes_url": "https://www.conwaydailysun.com/news/local/madison-dpw-director-resigns-selectmen-hire-investigator/article_2fe4bc63-54be-4ff1-b1db-9bf1edcad11f.html",
+   "minutes_status": "news report",
+   "ocr": false,
+   "source_note": "The town's minutes list has no regular minutes link for February 3, 2026 (only released non-public minutes). This entry is built from a Conway Daily Sun report, so it may be incomplete.",
+   "attendance": {
+    "present": [],
+    "absent": []
+   },
+   "headline": "Selectmen announced that Public Works Director Josh Shackford had resigned and that Municipal Resources Inc. will investigate reports of employees using town property.",
+   "decisions": [],
+   "discussed": [
+    {
+     "title": "Public Works Director resigns",
+     "detail": "Selectmen announced the resignation of Public Works Director Josh Shackford. In public comment, Chair Adam Price answered a question about recently released non-public minutes that referred to pay for an 'acting' public works director.",
+     "topic": "Infrastructure & utilities"
+    },
+    {
+     "title": "Outside investigator hired",
+     "detail": "Municipal Resources Inc. will investigate reports of employees using town property. No individual investigator or cost was reported.",
+     "topic": "Government & elections"
+    }
+   ],
+   "public_comment": [
+    {
+     "topic": "Released non-public minutes",
+     "speakers": null,
+     "gist": "A resident asked about non-public minutes that mentioned compensation for an acting public works director."
+    }
+   ],
+   "coming_up": [],
+   "needs_review": true,
+   "review_note": "The article gives the meeting as 'Feb. 3' without a year or publication date; 2026 is inferred from the board members named and the town's 2026 meeting schedule. Whether a vote was taken to hire the investigator was not reported."
+  },
+  {
+   "body": "Board of Selectmen",
+   "date": "2026-01-20",
+   "minutes_url": "https://www.madison-nh.org/wp-content/uploads/2026/02/2026-01-20-BOS-Mins.pdf",
+   "minutes_status": "final",
+   "ocr": false,
+   "attendance": {
+    "present": [
+     "Price",
+     "Gray",
+     "Eldridge",
+     "Boewe",
+     "Nordlund"
+    ],
+    "absent": []
+   },
+   "headline": "Selectmen approved a payment in lieu of taxes agreement with Silver Lake Landing, offered PFAS blood tests to employees, backed Albany's Route 16/113 intersection project and kept cutting the draft 2026 budget.",
+   "decisions": [
+    {
+     "title": "Approved a payment in lieu of taxes (PILOT) agreement with Silver Lake Landing",
+     "detail": "A PILOT is a set payment a property makes instead of regular property tax. The rate was changed from 10% to 7.5%. Silver Lake Landing reported a 50-person waiting list and is seeking a $12,000 to $15,000 AARP grant to study adding two units (19 to 21).",
+     "outcome": "Carried 5-0",
+     "moved_by": "Gray",
+     "seconded_by": "Eldridge",
+     "roll_call": null,
+     "dissent": [],
+     "topic": "Housing & zoning",
+     "dollars": null,
+     "ordinance_reading": null,
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Offered PFAS blood testing to town employees",
+     "detail": "Approved sending employees a letter offering PFAS ('forever chemicals') blood tests.",
+     "outcome": "Carried 5-0",
+     "moved_by": "Gray",
+     "seconded_by": "Boewe",
+     "roll_call": null,
+     "dissent": [],
+     "topic": "Health & human services",
+     "dollars": null,
+     "ordinance_reading": null,
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Sent a letter supporting Albany's NH Route 16/113 intersection project",
+     "detail": "With corrections to plural references; a second motion (5-0) let the letter be signed outside the meeting after edits.",
+     "outcome": "Passed 5-0",
+     "moved_by": "Gray",
+     "seconded_by": "Eldridge",
+     "roll_call": null,
+     "dissent": [],
+     "topic": "Parking & transportation",
+     "dollars": null,
+     "ordinance_reading": null,
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Approved the December 31, 2025 bills manifest",
+     "detail": "$80,633.78 in accounts payable.",
+     "outcome": "Passed 4-1",
+     "moved_by": "Eldridge",
+     "seconded_by": "Boewe",
+     "roll_call": null,
+     "dissent": [],
+     "topic": "Budget & taxes",
+     "dollars": 80633.78,
+     "ordinance_reading": null,
+     "needs_review": true,
+     "review_note": "The minutes do not name the member who voted no."
+    },
+    {
+     "title": "Approved the January 20 to 26, 2026 bills manifest",
+     "detail": "$442,535.20.",
+     "outcome": "Passed 4-1",
+     "moved_by": "Boewe",
+     "seconded_by": "Eldridge",
+     "roll_call": null,
+     "dissent": [],
+     "topic": "Budget & taxes",
+     "dollars": 442535.2,
+     "ordinance_reading": null,
+     "needs_review": true,
+     "review_note": "The minutes do not name the member who voted no."
+    },
+    {
+     "title": "Appointed a Recreation Department volunteer, pending a background check",
+     "detail": "Chair Price abstained.",
+     "outcome": "Carried 4-0-1",
+     "moved_by": "Eldridge",
+     "seconded_by": "Nordlund",
+     "roll_call": null,
+     "dissent": [],
+     "topic": "Parks & recreation",
+     "dollars": null,
+     "ordinance_reading": null,
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Made public the minutes of two earlier closed (non-public) sessions",
+     "detail": "Sessions of December 23, 2025 and January 6, 2026; two separate votes.",
+     "outcome": "Passed 5-0 (each)",
+     "moved_by": "Eldridge",
+     "seconded_by": "Boewe",
+     "roll_call": null,
+     "dissent": [],
+     "topic": "Government & elections",
+     "dollars": null,
+     "ordinance_reading": null,
+     "needs_review": false,
+     "review_note": null
+    }
+   ],
+   "discussed": [
+    {
+     "title": "Line-by-line review of the draft 2026 budget",
+     "detail": "Cuts included $20,000 in Transfer Station part-time wages, vehicle repairs held at $50,000 instead of $60,000, a $15,000 Fire Department reduction, building fuel ($80,000 to $76,000), heat ($18,000 to $15,000) and town projects ($25,000 to $20,000). The board agreed on a 3% wage pool for merit raises rather than across-the-board increases. Police software will be paid through the operating budget over five years.",
+     "topic": "Budget & taxes"
+    },
+    {
+     "title": "Policy on personal use of town property",
+     "detail": "Town Counsel proposed language barring personal use of town property except incidental use; Gray proposed that the Board, not department heads, give permission. Vote set for the next meeting. The chair said the board was considering Primex, the town's insurer, as an outside investigator.",
+     "topic": "Government & elections"
+    },
+    {
+     "title": "Roads and Public Works",
+     "detail": "Ditching material to be offered to nearby residents first come, first served starting February 17; Transfer Station attendants may not use machines to help patrons empty trailers.",
+     "topic": "Infrastructure & utilities"
+    },
+    {
+     "title": "Historical Society reimbursement tabled",
+     "detail": "About $6,350 from the Historical Society Building Improvement trust fund (about $15,000 balance) was tabled pending proof of payment.",
+     "topic": "Historic preservation"
+    }
+   ],
+   "public_comment": [
+    {
+     "topic": "Equipment-use investigation",
+     "speakers": 2,
+     "gist": "Two residents asked for an update and asked that the item stay on the agenda until resolved; the chair agreed."
+    },
+    {
+     "topic": "Budget growth",
+     "speakers": 1,
+     "gist": "An Advisory Budget Committee member proposed holding budget increases to 2.8% (the Social Security cost-of-living rate), with a target near 1.9%."
+    },
+    {
+     "topic": "State conflict of interest bill",
+     "speakers": 1,
+     "gist": "A state representative flagged HB 488 on conflicts of interest, which could affect small towns where officials hold several roles."
+    },
+    {
+     "topic": "Road work quality",
+     "speakers": 1,
+     "gist": "A resident raised concerns about declining quality of road work."
+    }
+   ],
+   "coming_up": [
+    {
+     "date": "2026-01-30",
+     "item": "Candidate filing period for town offices ends"
+    },
+    {
+     "date": "2026-02-03",
+     "item": "Next Selectmen's meeting: PILOT follow-up, Historical Society reimbursement, property and purchasing policy votes"
+    },
+    {
+     "date": "2026-03-28",
+     "item": "Master Plan community workshop at the school, 11 AM to 1 PM"
+    }
+   ]
+  }
+ ],
+ "board_meetings": [
+  {
+   "body": "Planning Board",
+   "date": "2026-04-01",
+   "record_url": "https://www.madison-nh.org/boards/planning-board/",
+   "record_type": "hearing notice",
+   "headline": "Public hearing listed on Vertex Towers' cell tower case (PB 25-07); outcome not found.",
+   "items": [
+    {
+     "address": "0 Tasker Hill Road (off Oak Ridge Road)",
+     "applicant": "Vertex Towers, LLC",
+     "request": "Further hearing on the site plan for a 100-foot cell tower, already approved with conditions on December 3, 2025.",
+     "decision": null,
+     "vote": null,
+     "conditions": [],
+     "topic": "Infrastructure & utilities",
+     "needs_review": true,
+     "review_note": "The Planning Board page lists the April 1, 2026 hearing notice and agenda, but no minutes for April 1 are posted and the notice PDF could not be opened, so the purpose of the hearing is not confirmed."
+    }
+   ],
+   "policy_items": []
+  },
+  {
+   "body": "Planning Board",
+   "date": "2025-12-03",
+   "record_url": "https://www.madison-nh.org/wp-content/uploads/2026/01/PB-Minutes-12-3-2025-APPROVED.pdf",
+   "record_type": "minutes",
+   "headline": "The Planning Board approved Vertex Towers' 100-foot cell tower site plan with conditions and began reviewing 2026 zoning changes on accessory apartments and RVs.",
+   "items": [
+    {
+     "address": "0 Tasker Hill Road (off Oak Ridge Road), Tax Map 206, Lot 71",
+     "applicant": "Vertex Towers, LLC",
+     "request": "Site plan approval for a wireless facility: a 100-foot monopole (105 feet to the top of the lightning rod) in a 70 by 40 foot fenced compound.",
+     "decision": "approved with conditions",
+     "vote": "5-0-1",
+     "conditions": [
+      "Performance bond (waiver requested in writing) and a site review agreement before a building permit",
+      "Free space on the tower for public safety equipment",
+      "Tower removal bond approved by the board's lawyer",
+      "Any permits the Village District of Eidelweiss requires; written permission to dig in district roads; on request, a bond to the district for road and water line damage",
+      "Construction 8 AM to 5 PM, Monday to Friday",
+      "No lighting on the tower",
+      "Foundation design stamped by an engineer and accepted by the building inspector",
+      "All needed variances from the Zoning Board",
+      "Tower owner maintains the driveway; galvanized or rust-resistant materials"
+     ],
+     "topic": "Infrastructure & utilities",
+     "needs_review": true,
+     "review_note": "The minutes list 13 conditions but the motion refers to '12 conditions'. The chair recused; the vice chair presided."
+    }
+   ],
+   "policy_items": [
+    {
+     "title": "Draft 2026 zoning amendments",
+     "detail": "Mostly changes required by new state laws. Accessory dwelling units (a small second home on a lot): the current cap is 800 sq ft; state law sets a 750 sq ft minimum cap; one member proposed 950. Recreational vehicles: a draft 30-day yearly limit on living in an RV on a residential lot drew objections; 60 to 90 days was suggested. Decisions were put off to a January 7, 2026 public hearing. The three amendments went on the March 10, 2026 ballot; results not found.",
+     "topic": "Housing & zoning",
+     "needs_review": true,
+     "review_note": "Ballot results for the zoning amendments could not be read from the town's unlabeled results sheet."
+    },
+    {
+     "title": "Master Plan update",
+     "detail": "Kickoff with North Country Council set for January 7, 2026; a spring community visioning forum planned. Members objected to the kickoff being held by Zoom. No vote.",
+     "topic": "Housing & zoning",
+     "needs_review": false,
+     "review_note": null
+    }
+   ]
+  },
+  {
+   "body": "Zoning Board of Adjustment",
+   "date": "2025-09-17",
+   "record_url": "https://www.madison-nh.org/wp-content/uploads/2025/10/Minutes-ZBA-9-17-2025-Approved.pdf",
+   "record_type": "minutes",
+   "headline": "The ZBA refused to rehear its ruling that a Little Shore Drive property cannot be used for short-term rentals, and discussed how to handle the Vertex cell tower case.",
+   "items": [
+    {
+     "address": "Little Shore Drive (Tax Map 104, Lot 096)",
+     "applicant": "Property owners, through their lawyers",
+     "request": "A rehearing of the board's July 16, 2025 decision upholding the Code Enforcement Officer's 2023 ruling that short-term rentals are not allowed there. The owners argued the use should be grandfathered (allowed because it existed before the rule).",
+     "decision": "rehearing denied",
+     "vote": "4-0",
+     "conditions": [],
+     "topic": "Housing & zoning",
+     "needs_review": false,
+     "review_note": null
+    }
+   ],
+   "policy_items": [
+    {
+     "title": "Vertex Towers cell tower application",
+     "detail": "The applicant asked for a joint Planning Board and ZBA meeting on October 15, 2025 and planned a balloon test for October 6. Members disagreed on a joint meeting; the chair asked both boards' lawyers for advice. No vote.",
+     "topic": "Infrastructure & utilities",
+     "needs_review": false,
+     "review_note": null
+    }
+   ]
+  }
+ ],
+ "officials": {
+  "council": [
+   {
+    "name": "Joy Gray",
+    "last": "Gray",
+    "role": "Chairman",
+    "votes2025": null,
+    "term": "2024-2027",
+    "ward": null,
+    "contact": "selectmangray@madison-nh.org",
+    "note": "Also serves on the Capital Improvement Committee."
+   },
+   {
+    "name": "Jacob (Jake) Boewe",
+    "last": "Boewe",
+    "role": "Vice Chairman",
+    "votes2025": null,
+    "term": "2025-2028",
+    "ward": null,
+    "contact": "boewe.selectmen@gmail.com",
+    "note": "Selectmen's representative on the Planning Board and Recreation Department."
+   },
+   {
+    "name": "James (Jim) Eldridge",
+    "last": "Eldridge",
+    "role": "Selectman",
+    "votes2025": null,
+    "term": "2025-2028",
+    "ward": null,
+    "contact": "selectman.jim@gmail.com",
+    "note": "Master Plan Committee; Aging Committee."
+   },
+   {
+    "name": "Nicole Nordlund",
+    "last": "Nordlund",
+    "role": "Selectman",
+    "votes2025": null,
+    "votes2026": 320,
+    "term": "2026-2029",
+    "ward": null,
+    "contact": "nicolesn2025@gmail.com",
+    "note": "Re-elected March 10, 2026. Conservation Commission; Conway Branch Rail Trail."
+   },
+   {
+    "name": "Joseph (Joe) Dame",
+    "last": "Dame",
+    "role": "Selectman",
+    "votes2025": null,
+    "votes2026": 391,
+    "term": "2026-2029",
+    "ward": null,
+    "contact": "joedamemadisonselectman@gmail.com",
+    "note": "Elected March 10, 2026. Joint Loss Management Committee; Advisory Budget Committee."
+   }
+  ],
+  "councilNote": "Madison has a five-member Board of Selectmen elected townwide to staggered three-year terms (voters expanded it from three members in March 2024), with a Town Administrator handling day-to-day work. Selectmen meet every other Tuesday in the Town Hall meeting room (lower level); the page lists 5:00 PM. Remaining 2026 dates: November 10 and 24, December 8 and 22. A Selectmen's work session is on the town calendar for November 3, 9 to 11 AM. No agenda for November 10 had been posted as of October 31.",
+  "railNote": "Chair Gray and four other selectmen, all elected townwide.",
+  "rollCallNote": "Madison's minutes record mover, seconder and tally; members are named only for roll-call votes and abstentions.",
+  "staff": [
+   {
+    "name": "Lucia Roth",
+    "role": "Town Administrator",
+    "since": "2026-04",
+    "note": "Announced April 14, 2026; formerly program manager for New Hampshire's Solar for All program.",
+    "phone": "603-367-4332 ext. 300",
+    "src": "https://www.madison-nh.org/selectmen/"
+   },
+   {
+    "name": "Madison McCarthy",
+    "role": "Office Assistant",
+    "since": "2026-04",
+    "note": "Part-time administrative assistant; office@madison-nh.org.",
+    "phone": "603-367-4332 ext. 303",
+    "src": "https://www.madison-nh.org/selectmen/"
+   },
+   {
+    "name": "Colleen King",
+    "role": "Land Use Administrator",
+    "since": null,
+    "note": "Staff to the Planning Board and Zoning Board; landuse@madison-nh.org.",
+    "phone": "603-367-4332 ext. 302",
+    "src": "https://www.madison-nh.org/boards/planning-board/"
+   },
+   {
+    "name": "Michael Brooks",
+    "role": "Town Clerk / Tax Collector and Fire Chief",
+    "since": null,
+    "note": "Listed with all three titles in the January 20, 2026 minutes. Town Clerk contact: clerk@madison-nh.org.",
+    "phone": null,
+    "src": "https://www.madison-nh.org/wp-content/uploads/2026/02/2026-01-20-BOS-Mins.pdf"
+   },
+   {
+    "name": "James Hayford",
+    "role": "Police Chief",
+    "since": null,
+    "note": "Listed in the January 20, 2026 minutes; gave a report April 14, 2026.",
+    "phone": null,
+    "src": "https://www.madison-nh.org/wp-content/uploads/2026/02/2026-01-20-BOS-Mins.pdf"
+   },
+   {
+    "name": "Avitar Associates of New England",
+    "role": "Assessing contractor",
+    "since": null,
+    "note": "Does the town's assessing and tax maps under contract; did the 2025 revaluation.",
+    "phone": null,
+    "src": "https://www.madison-nh.org/departments/assessing/"
+   }
+  ],
+  "staffNote": "The Public Works Director post was vacated when Josh Shackford resigned in early 2026; a successor was not found in the sources opened.",
+  "schoolBoard": {
+   "note": "The Madison School District (Madison Elementary School) has its own elected School Board and is part of SAU 13 with Freedom and Tamworth. Superintendent: Dr. Kathleen Scholand (SAU 13 office, Tamworth). School board elections are held with the March town election.",
+   "members": [
+    {
+     "name": "James Curran",
+     "role": "Chair",
+     "term": "to 2028"
+    },
+    {
+     "name": "Ed Robinson",
+     "role": "Vice Chair",
+     "term": "to 2027"
+    },
+    {
+     "name": "Jeremy Cox",
+     "term": "to 2029"
+    },
+    {
+     "name": "Cheri Stackpole",
+     "term": "to 2029"
+    },
+    {
+     "name": "Debra Parsons",
+     "term": "to 2028",
+     "needs_review": true,
+     "review_note": "SAU 13 spells the name 'Parson' in the member list and 'Parsons' in committee assignments."
+    }
+   ],
+   "sources": [
+    "https://www.sau13.org/school-board/madison/school-board-members",
+    "https://www.sau13.org/departments/superintendent"
+   ]
+  },
+  "commissions": [
+   {
+    "name": "Village District of Eidelweiss",
+    "members": [
+     "Wooda McNiven (Chair)",
+     "Mark Graffam (commissioner)",
+     "Nancy Cole (commissioner)"
+    ],
+    "note": "A separate local government (village district) inside Madison covering the Eidelweiss community, with its own elected commissioners, annual meeting, water system, public works and roads, and its own property tax rate on top of the town rate ($5.63 per $1,000 in 2024, per the town's tax rate history; the 2025 rate was not found). Commissioners meet most Wednesdays at 9 AM in the Town Hall lower-level meeting room; a taxpayer budget preview is Saturday, November 14, 2026 at 10 AM. Office: 1680 Conway Road, 603-367-9022. Site: https://vdoe-nh.org",
+    "url": "https://vdoe-nh.org/"
+   }
+  ],
+  "boards": [
+   {
+    "name": "Planning Board",
+    "meets": "First Wednesday of the month, 7:00 PM, Town Hall lower level (next: November 4, 2026)",
+    "does": "Reviews site plans and subdivisions, writes the Master Plan and proposes zoning changes for the town ballot.",
+    "url": "https://www.madison-nh.org/boards/planning-board/",
+    "members": [
+     "Marc Ohlson (Chair)",
+     "Paul Marks (Vice Chair)",
+     "Paul Littlefield",
+     "Karl Nordlund",
+     "Todd Milliken",
+     "Jacob Boewe (Selectmen's rep.)",
+     "Alternates: Tia Gagnon, Joseph Viana"
+    ],
+    "note": "Terms are not listed on the town page."
+   },
+   {
+    "name": "Zoning Board of Adjustment",
+    "meets": "Third Wednesday of the month as needed, 6:00 PM, Town Hall lower level",
+    "does": "Decides variances (permission to break a zoning rule for one property), special exceptions and appeals of zoning decisions.",
+    "url": "https://www.madison-nh.org/boards/zoning/",
+    "members": [
+     "Drew Gentile (Chair)",
+     "Sharon Schilling (Vice Chair)",
+     "Doug McAllister",
+     "Richard Ventura",
+     "Alternate: Marc Ohlson"
+    ]
+   },
+   {
+    "name": "Advisory Budget Committee",
+    "meets": "6:00 PM, Town Hall; remaining 2026 dates November 17, December 1 and December 15",
+    "does": "Reviews the proposed town budget and reports to town meeting on each money article.",
+    "url": "https://www.madison-nh.org/boards/advisory-budget-committee/",
+    "members": [
+     "Sharon Schilling",
+     "Charles Allen",
+     "Nan Bartlett",
+     "Jim Curran (School Board rep.)",
+     "Joe Dame (Selectmen's rep.)",
+     "One seat vacant"
+    ]
+   },
+   {
+    "name": "Capital Improvement Committee",
+    "meets": "As scheduled (next: November 2, 2026, 4 PM)",
+    "does": "Plans large purchases and projects (roads, equipment, buildings) over several years.",
+    "url": "https://www.madison-nh.org/capital-improvement-committee-minutes/",
+    "members": [
+     "Tia Gagnon (Chair, Planning Board rep.)",
+     "Sharon Schilling (Advisory Budget Committee rep.)",
+     "Joy Gray (Selectmen's rep.)"
+    ],
+    "note": "Members as recorded in the January 22, 2026 committee minutes."
+   },
+   {
+    "name": "Master Plan Steering Committee",
+    "meets": "As scheduled (next: November 4, 2026, 5:30 PM)",
+    "does": "Guides the Master Plan update with North Country Council.",
+    "url": "https://www.madison-nh.org/boards/planning-board/madison-planning-board-master-plan-steering-committee/"
+   },
+   {
+    "name": "Conservation Commission",
+    "meets": "As scheduled (next: November 5, 2026, 4:30 PM)",
+    "does": "Advises on town conservation land, wetlands and natural resources.",
+    "url": "https://www.madison-nh.org/boards/conservation-commission/",
+    "note": "Selectman Nordlund is the board's liaison."
+   }
+  ],
+  "sources": {
+   "roster": "https://www.madison-nh.org/selectmen/",
+   "election": "https://www.conwaydailysun.com/news/local/dame-nordlund-team-up-emerge-victorious-in-madison/article_4fcb1472-fc88-439e-856f-ea413432cbdf.html",
+   "staffChanges": "https://www.conwaydailysun.com/news/local/madison-selectmen-defend-board-chair-at-meeting/article_5813eb3b-646f-4ff1-bf82-30158599bf3d.html"
+  }
+ },
+ "roll_call_votes": [
+  {
+   "date": "2026-02-10",
+   "title": "Move $8,000 for the equipment-use investigation into a separate warrant article",
+   "outcome": "3-2",
+   "yes": [
+    "Price",
+    "Eldridge",
+    "Boewe"
+   ],
+   "no": [
+    "Nordlund",
+    "Gray"
+   ],
+   "url": "https://www.conwaydailysun.com/news/local/madison-voters-to-decide-funding-of-employee-probe/article_97b5bd62-f036-4c43-8597-7f44c94a8d0a.html",
+   "note": "Names as reported by the Conway Daily Sun. Price left the board in March 2026."
+  }
+ ],
+ "attendance": {},
+ "attendance_from": "2026-03-10",
+ "attendance_note": "No attendance is counted for the current term: the 2026 minutes after the March 10 election could not be opened. The only official attendance record opened (January 20, 2026) shows all five members present, before the current term began.",
+ "topics": [
+  {
+   "topic": "Government & elections",
+   "count": 2
+  },
+  {
+   "topic": "Housing & zoning",
+   "count": 2
+  },
+  {
+   "topic": "Budget & taxes",
+   "count": 2
+  },
+  {
+   "topic": "Infrastructure & utilities",
+   "count": 2
+  },
+  {
+   "topic": "Health & human services",
+   "count": 1
+  },
+  {
+   "topic": "Parking & transportation",
+   "count": 1
+  },
+  {
+   "topic": "Parks & recreation",
+   "count": 1
+  }
+ ],
+ "budget": {
+  "fiscalYear": "2026 (calendar year, January to December 2026)",
+  "fundLabel": "town operating budget (proposed)",
+  "adopted": null,
+  "adoptedVote": "Not confirmed. The operating budget went to the town meeting business session on Saturday, March 14, 2026 as three articles: General Government $1,968,737, Public Works $1,044,532 and Public Safety $692,255. The amounts voted were not found; on February 10 selectmen also voted 3-2 to move $8,000 for the equipment investigation out of the budget into its own article, so the final figure may differ.",
+  "generalFund": 3705524,
+  "priorGeneralFund": 3521169,
+  "changePct": 5.24,
+  "needs_review": true,
+  "review_note": "Both figures come from the town's budget report for the Feb 10, 2026 hearing ('2025 Approved' and '2026 Proposed'), not from town meeting results.",
+  "departments": [
+   {
+    "name": "Personnel Administration (benefits and payroll costs)",
+    "fy26": 571516,
+    "fy27": 594733,
+    "note": null
+   },
+   {
+    "name": "DPW Administration",
+    "fy26": 615740,
+    "fy27": 630580,
+    "note": null
+   },
+   {
+    "name": "Police",
+    "fy26": 372547,
+    "fy27": 380662,
+    "note": "The detail page shows a $379,662 subtotal."
+   },
+   {
+    "name": "DPW Highways",
+    "fy26": 249250,
+    "fy27": 260750,
+    "note": null
+   },
+   {
+    "name": "Executive",
+    "fy26": 190154,
+    "fy27": 189734,
+    "note": null
+   },
+   {
+    "name": "Financial Administration",
+    "fy26": 173108,
+    "fy27": 179143,
+    "note": null
+   },
+   {
+    "name": "Notes Due (debt and lease payments)",
+    "fy26": 142764,
+    "fy27": 178618,
+    "note": null
+   },
+   {
+    "name": "General Government Buildings",
+    "fy26": 183200,
+    "fy27": 169200,
+    "note": null
+   },
+   {
+    "name": "Fire Rescue",
+    "fy26": 165750,
+    "fy27": 165750,
+    "note": null
+   },
+   {
+    "name": "Insurance",
+    "fy26": 146781,
+    "fy27": 148991,
+    "note": null
+   },
+   {
+    "name": "Ambulance",
+    "fy26": 120104,
+    "fy27": 134442,
+    "note": null
+   },
+   {
+    "name": "DPW Solid Waste (Transfer Station)",
+    "fy26": 134001,
+    "fy27": 134001,
+    "note": null
+   },
+   {
+    "name": "Library",
+    "fy26": 117212,
+    "fy27": 119838,
+    "note": null
+   },
+   {
+    "name": "Recreation Department",
+    "fy26": 69390,
+    "fy27": 77190,
+    "note": null
+   },
+   {
+    "name": "Building Inspection",
+    "fy26": 59950,
+    "fy27": 61678,
+    "note": null
+   },
+   {
+    "name": "Madison PEG TV",
+    "fy26": 48800,
+    "fy27": 53800,
+    "note": null
+   },
+   {
+    "name": "Assessing",
+    "fy26": 36200,
+    "fy27": 49926,
+    "note": null
+   },
+   {
+    "name": "Legal",
+    "fy26": 24800,
+    "fy27": 32300,
+    "note": null
+   },
+   {
+    "name": "Zoning Board",
+    "fy26": 6850,
+    "fy27": 27550,
+    "note": null
+   },
+   {
+    "name": "DPW Parks and Recreation",
+    "fy26": 20050,
+    "fy27": 19201,
+    "note": null
+   },
+   {
+    "name": "General Government Equipment",
+    "fy26": 18500,
+    "fy27": 18550,
+    "note": null
+   },
+   {
+    "name": "Direct Assistance (welfare)",
+    "fy26": 9700,
+    "fy27": 17000,
+    "note": null
+   },
+   {
+    "name": "Planning Board",
+    "fy26": 9350,
+    "fy27": 16485,
+    "note": null
+   },
+   {
+    "name": "Election, Registration, Vitals",
+    "fy26": 6700,
+    "fy27": 14600,
+    "note": null
+   },
+   {
+    "name": "Emergency Management",
+    "fy26": 9701,
+    "fy27": 11401,
+    "note": null
+   },
+   {
+    "name": "Patriotic Purposes",
+    "fy26": 8000,
+    "fy27": 8000,
+    "note": null
+   },
+   {
+    "name": "Conservation Commission",
+    "fy26": 4650,
+    "fy27": 5300,
+    "note": null
+   },
+   {
+    "name": "Street Lighting",
+    "fy26": 3900,
+    "fy27": 3600,
+    "note": null
+   },
+   {
+    "name": "Animal and Pest Control",
+    "fy26": 2500,
+    "fy27": 2500,
+    "note": null
+   },
+   {
+    "name": "Interest on Tax Anticipation Notes",
+    "fy26": 1,
+    "fy27": 1,
+    "note": null
+   }
+  ],
+  "departmentsNote": "Madison budgets by calendar year, so 'fy26' here means the 2025 approved budget and 'fy27' means the 2026 budget proposed at the February 10, 2026 hearing. The lines add up to the $3,521,169 and $3,705,524 totals. Separate money articles on the 2026 draft warrant included $363,563 for a plow truck (from fund balance, with $255,044 in expected grant reimbursement), road chip sealing $134,000, paving $260,700, crack filling $25,500, $100,000 for road reclamation savings, $100,000 for the Silver Lake Dam trust fund and $65,000 for groundwater cleanup savings; their final votes were not found.",
+  "drivers": [
+   "Notes due (lease and debt payments) up $35,854 (25.1%).",
+   "Personnel costs up $23,217 (4.1%); selectmen agreed on a 3% merit raise pool in January.",
+   "Zoning Board up $20,700, from $6,850 to $27,550, mostly legal costs.",
+   "Public Works accounts up $25,491 in total (2.5%).",
+   "Ambulance up $14,338 (11.9%) and Assessing up $13,726 (37.9%).",
+   "Partly offset by General Government Buildings down $14,000 (7.6%)."
+  ],
+  "revenue": null,
+  "taxRate": {
+   "fy27Estimate": null,
+   "fy26": 8.98,
+   "rateLabel": "2025 tax year, outside Eidelweiss (after the 2025 revaluation)",
+   "note": "Dollars per $1,000 of assessed value. Avitar Associates revalued all Madison property to market value as of April 1, 2025, so the rate fell sharply from $15.77 in 2024. The $8.98 total (set November 17, 2025) comes from a real estate firm's table, not an official document; the town's 2025 tax rate history and the state's 2025 rate reports could not be opened, so the 2025 split among town, school, state and county is not known. Eidelweiss properties also pay the Village District of Eidelweiss rate ($5.63 in 2024, for a 2024 total of $21.40). The 2026 rate had not been published in the sources opened.",
+   "needs_review": true,
+   "review_note": "Confirm the $8.98 total and its components against the NH Department of Revenue Administration's 2025 municipal tax rate report or the town's 2025 tax rate history (https://www.madison-nh.org/wp-content/uploads/2025/11/2025-TAX-RATE-HISTORY.pdf).",
+   "components": [
+    {
+     "name": "Town",
+     "fy26": null,
+     "fy27": null,
+     "fy25": 3.79
+    },
+    {
+     "name": "Schools (local)",
+     "fy26": null,
+     "fy27": null,
+     "fy25": 8.73
+    },
+    {
+     "name": "State education tax",
+     "fy26": null,
+     "fy27": null,
+     "fy25": 1.97
+    },
+    {
+     "name": "Carroll County",
+     "fy26": null,
+     "fy27": null,
+     "fy25": 1.28
+    },
+    {
+     "name": "Village District of Eidelweiss (Eidelweiss only)",
+     "fy26": null,
+     "fy27": null,
+     "fy25": 5.63
+    }
+   ],
+   "componentsNote": "'fy25' here is the 2024 tax year. The town's history sheet lists the four parts in this order without printing labels on every row; the labels are inferred from the sheet's column order.",
+   "history": [
+    {
+     "fy": "2021 tax year",
+     "rate": 13.77,
+     "note": "Eidelweiss total $18.35"
+    },
+    {
+     "fy": "2022 tax year",
+     "rate": 15.49,
+     "note": "Eidelweiss total $17.87"
+    },
+    {
+     "fy": "2023 tax year",
+     "rate": 16.98,
+     "note": "Eidelweiss total $22.84"
+    },
+    {
+     "fy": "2024 tax year",
+     "rate": 15.77,
+     "note": "Town $3.79, local school $8.73, state education $1.97, county $1.28; Eidelweiss total $21.40"
+    },
+    {
+     "fy": "2025 tax year",
+     "rate": 8.98,
+     "note": "Revaluation year; total from a secondary source, components not found"
+    }
+   ],
+   "medianHome": {
+    "value": null,
+    "note": "No town-published median assessment was found. The state's equalization ratio for Madison fell to 51.0% in 2024 (assessments at about half of market value), which the 2025 revaluation was meant to correct.",
+    "source": "https://www.madison-nh.org/departments/assessing/"
+   }
+  },
+  "taxDollar": {
+   "label": "Where a Madison tax dollar goes (2024 tax rate, outside Eidelweiss; the 2025 split was not found)",
+   "items": [
+    {
+     "name": "Schools (local)",
+     "pct": 55.4
+    },
+    {
+     "name": "Town",
+     "pct": 24.0
+    },
+    {
+     "name": "State education tax",
+     "pct": 12.5
+    },
+    {
+     "name": "Carroll County",
+     "pct": 8.1
+    }
+   ]
+  },
+  "enterprise": [],
+  "waterSewerBill": null,
+  "debtOutstanding": null,
+  "valuation": null,
+  "cip": null,
+  "sources": {
+   "budgetReport": "https://www.madison-nh.org/wp-content/uploads/2026/02/2026-Budget-Report-V-1-02-10-2026-Budget-Hearing.pdf",
+   "warrantDraft": "https://www.madison-nh.org/wp-content/uploads/2026/02/049-2026-Warrant-02-10-26-Budget-Hearing.pdf",
+   "taxRateHistory2024": "https://www.madison-nh.org/wp-content/uploads/2024/11/Tax-Rate-History-2024.pdf",
+   "taxRate2025": "https://www.thedowgroup.com/carroll-tax-rates",
+   "revaluation": "https://www.madison-nh.org/wp-content/uploads/2025/04/Madison-PR-Info-2025-Update.pdf",
+   "assessing": "https://www.madison-nh.org/departments/assessing/",
+   "cipMinutes": "https://www.madison-nh.org/wp-content/uploads/2026/02/CIP-Minutes_Jan_22_2026_FINAL.pdf",
+   "januaryMinutes": "https://www.madison-nh.org/wp-content/uploads/2026/02/2026-01-20-BOS-Mins.pdf"
+  }
+ }
+}

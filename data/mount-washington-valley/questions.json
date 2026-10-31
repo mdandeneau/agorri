@@ -33,6 +33,54 @@
    "source": "https://www.ncwp.nh.gov/AgendaCenter/ViewFile/Minutes/_02252026-35",
    "status": "draft",
    "town": "conway"
+  },
+  {
+   "id": "2026-10-31-bartlett-gravel-pit",
+   "date": "2026-10-31",
+   "town": "bartlett",
+   "issue": "gravel-pit-route-16",
+   "text": "Bartlett should allow the proposed gravel pit off Route 16.",
+   "status": "approved"
+  },
+  {
+   "id": "2026-11-01-bartlett-data-centers",
+   "date": "2026-11-01",
+   "town": "bartlett",
+   "issue": "master-plan-data-centers",
+   "text": "Bartlett's updated Master Plan should allow AI data centers in town, with conditions.",
+   "status": "approved"
+  },
+  {
+   "id": "2026-10-31-jackson-79e",
+   "date": "2026-10-31",
+   "town": "jackson",
+   "issue": "master-plan-2026",
+   "text": "Jackson should offer property tax relief (RSA 79-E) to owners who fix up buildings in the village.",
+   "status": "approved"
+  },
+  {
+   "id": "2026-11-01-jackson-fireworks",
+   "date": "2026-11-01",
+   "town": "jackson",
+   "issue": "fireworks",
+   "text": "Commercial fireworks in Jackson should be allowed only in the Village District.",
+   "status": "approved"
+  },
+  {
+   "id": "2026-10-31-madison-dam",
+   "date": "2026-10-31",
+   "town": "madison",
+   "issue": "silver-lake-dam",
+   "text": "Madison should replace the Silver Lake dam now, even if federal money does not come through.",
+   "status": "approved"
+  },
+  {
+   "id": "2026-11-01-madison-tower",
+   "date": "2026-11-01",
+   "town": "madison",
+   "issue": "eidelweiss-tower",
+   "text": "Carroll County's emergency radio equipment should be allowed to stay on the Eidelweiss tower site.",
+   "status": "approved"
   }
  ]
 }

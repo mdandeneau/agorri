@@ -88,12 +88,29 @@
      "id": "conway",
      "name": "Conway",
      "note": "North Conway, Conway Village, Center Conway, Kearsarge, Intervale and Redstone"
+    },
+    {
+     "id": "bartlett",
+     "name": "Bartlett",
+     "note": "Bartlett village, Glen and part of Intervale"
+    },
+    {
+     "id": "jackson",
+     "name": "Jackson"
+    },
+    {
+     "id": "madison",
+     "name": "Madison",
+     "note": "Including Silver Lake and Eidelweiss"
     }
    ],
    "files": {
     "record": "data/mount-washington-valley/record-conway.json",
     "records": {
-     "conway": "data/mount-washington-valley/record-conway.json"
+     "conway": "data/mount-washington-valley/record-conway.json",
+     "bartlett": "data/mount-washington-valley/record-bartlett.json",
+     "jackson": "data/mount-washington-valley/record-jackson.json",
+     "madison": "data/mount-washington-valley/record-madison.json"
     },
     "local": "data/mount-washington-valley/local.json",
     "beyond": "data/mount-washington-valley/beyond.json",

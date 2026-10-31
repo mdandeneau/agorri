@@ -1,0 +1,1386 @@
+{
+ "about": {
+  "town": "Jackson, NH",
+  "as_of": "2026-10-31",
+  "records_from": "2025-08-12",
+  "documents_used": 30,
+  "note": "This is the Town of Jackson's record (Carroll County): a three-member Board of Selectmen (the town calls it the Select Board), a Town Administrator, and a traditional town meeting, with officers and zoning questions voted by ballot on the second Tuesday in March and the budget and other articles voted at a business meeting two days later. The town posts 2026 Select Board, Planning Board and other minutes as PDFs, but those files could not be opened for this research, so the newest Select Board meetings shown here are from 2025 minutes and news reports, plus one August 2026 decision documented in an official Zoning Board notice. Part of the village is served by the separate Jackson Water Precinct, which has its own tax rate. Plain-English summaries written by AI; items with needs_review=true are uncertain."
+ },
+ "town": {
+  "name": "Jackson",
+  "state": "NH",
+  "body": "Board of Selectmen",
+  "bodyShort": "Selectmen",
+  "members": "selectmen",
+  "registeredVoters": null,
+  "registeredByWard": {},
+  "turnout2025": {
+   "ballots": null,
+   "registered": null,
+   "pct": null
+  },
+  "turnoutNote": "March 10, 2026 town election (ballot voting at the Whitney Community Center). The ballot count and number of registered voters were not found in any source opened; the Daily Sun reports zoning votes such as Article 4 at 162-16, so at least 178 ballots were cast on that question. Jackson has no wards.",
+  "turnoutLabel": "March 2026 town election",
+  "needs_review": true,
+  "review_note": "Registered voters and town election turnout not found; the Town Clerk report pages in the 2025 Town Report could not be read.",
+  "sources": {
+   "election": "https://www.conwaydailysun.com/news/local/jackson-voters-defeat-fireworks-ban-petitioned-article/article_27688a43-5d15-4ad3-971d-ea43d068b772.html",
+   "roster": "https://www.jackson-nh.gov/boards-committees/select-board/",
+   "wards": "https://www.jackson-nh.gov/boards-committees/select-board/town-meeting-process/",
+   "voters": null
+  },
+  "demoAddress": "54 Main Street",
+  "demoAddressNote": "Jackson Town Office, 54 Main Street, PO Box 268, Jackson, NH 03846.",
+  "nextCityElection": "March 2027 (annual town election, held on the second Tuesday in March under the town's town meeting page, which would be March 9, 2027; date not yet posted)",
+  "contactNote": "Selectmen do not list individual emails. Reach them through the Select Board office at the Town Office, 54 Main Street: 603-383-4223 (Town Administrator ext. 101, Administrative Assistant ext. 100). Office hours are 9 AM to 3 PM Monday and Wednesday, 9 AM to noon Tuesday, Thursday and Friday. Regular meetings are the 2nd and 4th Tuesday at 3:30 PM at the Town Office; the next listed meetings are November 10 and November 24, 2026.",
+  "polls": {
+   "date": "2026-11-03",
+   "place": "Whitney Community Center, 16 Black Mountain Road, Jackson",
+   "hours": "8:00 AM to 7:00 PM",
+   "note": "The Town Clerk's office is closed on Election Day.",
+   "source": "https://www.jackson-nh.gov/event/general-election-day/"
+  }
+ },
+ "next_council_meeting": null,
+ "issues": [
+  {
+   "id": "black-mountain-site-disturbance",
+   "title": "Black Mountain ski area: site disturbance enforcement and appeal",
+   "topic": "Environment & resilience",
+   "status": "Zoning Board hearing on Black Mountain's appeal was rescheduled to October 30, 2026; the outcome was not yet posted",
+   "next": null,
+   "summary": "The Selectmen sent Black Mountain Ski Area an enforcement letter in August 2026 saying it broke the town's site disturbance rules (rules about clearing and moving earth) near Great Brook and the Wildcat River. Black Mountain appealed to the Zoning Board of Adjustment. It is the latest in a run of disputes between the town and the ski area over signs, fireworks and noise.",
+   "points": [
+    "The August 12, 2026 letter, authorized at the Selectmen's August 11 meeting, cites three parts of the zoning rules: work started before a Notice of Intent was filed, work from last fall not stabilized by November 15, and no written plan before work began.",
+    "The land is Tax Map R17, Lots 28A and 31B. ZBA case 2026-02 was set for September 30, then postponed to October 30, 2026 at 7 PM.",
+    "The town has posted a timeline of the Whitneys Pond and Great Brook complaint and related Select Board minutes from July 28 and August 11, 2026.",
+    "In 2025 the ZBA upheld a town sign violation order against Black Mountain but reversed the $275 fine because the town had not given written notice first.",
+    "November 25, 2025: after a closed session on claims and litigation, the Selectmen signed a settlement agreement with Black Mountain (terms not described in the minutes)."
+   ],
+   "keywords": [
+    "black mountain",
+    "ski area",
+    "site disturbance",
+    "erosion",
+    "great brook",
+    "whitneys pond",
+    "wildcat river",
+    "appeal",
+    "zba"
+   ],
+   "sources": [
+    {
+     "label": "ZBA public hearing notice (case 2026-02, postponed to Oct 30)",
+     "url": "https://www.jackson-nh.gov/event/zoning-board-of-adjustment-public-hearing/"
+    },
+    {
+     "label": "ZBA submitted applications and public file",
+     "url": "https://www.jackson-nh.gov/boards-committees/zoning-board-of-adjustment/submitted-applications-and-public-file/"
+    },
+    {
+     "label": "ZBA findings and decision, 2025 Black Mountain sign appeal",
+     "url": "https://www.jackson-nh.gov/wp-content/uploads/2026/01/case_2025-01_black_mtn._appeal_-_findings_and_decision.pdf"
+    },
+    {
+     "label": "Select Board minutes, Nov 25, 2025",
+     "url": "https://www.jackson-nh.gov/wp-content/uploads/2026/01/11.25.2025_select_board_minutes-1.pdf"
+    }
+   ],
+   "scope": "Town",
+   "related": [
+    {
+     "date": "2026-08-11",
+     "body": "Board of Selectmen",
+     "url": "https://www.jackson-nh.gov/event/zoning-board-of-adjustment-public-hearing/",
+     "d": {
+      "title": "Authorized an enforcement letter to Black Mountain",
+      "detail": "Letter dated Aug 12, 2026 on site disturbance sections 4.1.6.1 to 4.1.6.3.",
+      "outcome": "authorized (vote not given in the source)"
+     }
+    },
+    {
+     "date": "2026-10-30",
+     "body": "Zoning Board of Adjustment",
+     "url": "https://www.jackson-nh.gov/event/zoning-board-of-adjustment-public-hearing/",
+     "d": {
+      "title": "Hearing on Black Mountain's appeal",
+      "detail": "Appeal of an administrative decision (the Selectmen's enforcement letter).",
+      "outcome": "outcome not yet posted"
+     }
+    }
+   ],
+   "needs_review": true,
+   "review_note": "Whether the October 30 hearing went ahead, and its result, were not found. The July 28 and August 11, 2026 minutes could not be opened."
+  },
+  {
+   "id": "master-plan-2026",
+   "title": "New town Master Plan",
+   "topic": "Housing & zoning",
+   "status": "Planning Board subcommittee drafting the 2026 Master Plan; community survey out and community meeting held October 28",
+   "next": "2026-11-12: Planning Board regular meeting, 7 PM",
+   "summary": "The Planning Board is updating Jackson's Master Plan, the long-range plan that guides zoning. The current plan dates from 2016. A subcommittee has met through 2026, and residents were asked to fill out a survey. A separate Planning Board subcommittee is working on RSA 79-E (a state law letting towns give temporary property tax relief to owners who renovate buildings in a village center).",
+   "points": [
+    "A Master Plan public hearing was held April 9, 2026; subcommittee meetings followed on May 21, August 4, September 3, October 7 and October 26.",
+    "October 1, 2026: the town posted a Master Plan survey flyer.",
+    "A subcommittee community meeting was noticed for October 28, 2026 at 6 PM.",
+    "RSA 79-E work sessions were held July 1, July 30 and October 6, 2026."
+   ],
+   "keywords": [
+    "master plan",
+    "planning board",
+    "survey",
+    "79-e",
+    "zoning",
+    "village"
+   ],
+   "sources": [
+    {
+     "label": "Planning Board Master Plan working session, Oct 7, 2026",
+     "url": "https://www.jackson-nh.gov/event/planning-board-master-plan-public-notice/"
+    },
+    {
+     "label": "Town minutes and agendas page (Planning Board notices list)",
+     "url": "https://www.jackson-nh.gov/meetings-and-agendas/minutes-agendas/"
+    },
+    {
+     "label": "Town News and Alerts (Master Plan survey flyer, Oct 1)",
+     "url": "https://www.jackson-nh.gov/category/news-and-alerts/"
+    }
+   ],
+   "scope": "Town",
+   "related": [
+    {
+     "date": "2026-10-07",
+     "body": "Planning Board (Master Plan subcommittee)",
+     "url": "https://www.jackson-nh.gov/event/planning-board-master-plan-public-notice/",
+     "d": {
+      "title": "Master Plan working session",
+      "detail": "Open to residents and non-residents.",
+      "outcome": "work session, no vote"
+     }
+    }
+   ],
+   "needs_review": true,
+   "review_note": "The survey flyer, notices and Planning Board minutes could not be opened; dates come from the town's list of posted documents."
+  },
+  {
+   "id": "fire-station",
+   "title": "New fire station",
+   "topic": "City buildings & facilities",
+   "status": "Under construction; the 2026 budget includes the first $90,000 in bond interest",
+   "next": null,
+   "summary": "Jackson is building a new fire station. The old station is to be used for town storage. The 2025 Town Report says the project, along with moving the Historical Society building, brought more heavy equipment into town than in many years.",
+   "points": [
+    "August 2025: framing began. September 2025: the building was being closed in.",
+    "November 25, 2025 update: exterior mostly done with top work planned for spring; post and beam trusses and doors installed; most drywall and electrical finished inside.",
+    "2026 budget: $90,000 for new fire station bond interest; fire department utilities budget doubles to $20,000 to cover the old and new buildings."
+   ],
+   "keywords": [
+    "fire station",
+    "fire department",
+    "bond",
+    "construction",
+    "new station"
+   ],
+   "sources": [
+    {
+     "label": "Select Board minutes, Nov 25, 2025",
+     "url": "https://www.jackson-nh.gov/wp-content/uploads/2026/01/11.25.2025_select_board_minutes-1.pdf"
+    },
+    {
+     "label": "Select Board minutes, Sept 22, 2025",
+     "url": "https://www.jackson-nh.gov/wp-content/uploads/2026/01/9.22.2025_select_board_minutes-1.pdf"
+    },
+    {
+     "label": "Select Board minutes, Aug 12, 2025",
+     "url": "https://www.jackson-nh.gov/wp-content/uploads/2026/01/8.12.25-Select-Board-Meeting-Minutes.pdf"
+    },
+    {
+     "label": "2025 Town Report (2026 budget, Select Board report)",
+     "url": "https://scholars.unh.edu/cgi/viewcontent.cgi?article=1131&context=jackson_nh_reports"
+    }
+   ],
+   "scope": "Town",
+   "related": [
+    {
+     "date": "2025-11-25",
+     "body": "Board of Selectmen",
+     "url": "https://www.jackson-nh.gov/wp-content/uploads/2026/01/11.25.2025_select_board_minutes-1.pdf",
+     "d": {
+      "title": "Fire station construction update",
+      "detail": "On schedule.",
+      "outcome": "update, no vote"
+     }
+    }
+   ],
+   "needs_review": true,
+   "review_note": "The bond amount and expected completion date were not found in the sources opened; 2026 status not confirmed."
+  },
+  {
+   "id": "short-term-rentals",
+   "title": "Short-term rental rules and town ordinances",
+   "topic": "Housing & zoning",
+   "status": "Voters approved a short-term rental zoning change 119-50 on March 10, 2026; the Selectmen keep approving and policing rental permits",
+   "next": null,
+   "summary": "Jackson requires a conditional use permit for each short-term rental and limits how many people can stay. Owners get a warning for a first violation, a $275 fine for a second and lose the permit on a third. In 2025 and 2026 the town rewrote its rental, parking, noise and event rules.",
+   "points": [
+    "March 10, 2026: Article 2 (zoning amendment on short-term rentals) passed 119-50; the Planning Board backed it 7-0 and the Selectmen 3-0-0.",
+    "September 22, 2025: Selectmen let the Planning Board consult the town lawyer on revising the short-term rental ordinance.",
+    "October 21, 2025: Selectmen voted 3-0 to record an overcrowding incident (11 guests where 8 were allowed) without counting it as a strike.",
+    "November 25, 2025: four rental permits approved; a public hearing on a new parking ordinance for public property was set for December 9, 2025."
+   ],
+   "keywords": [
+    "short-term rental",
+    "str",
+    "airbnb",
+    "rental permit",
+    "ordinance",
+    "parking ordinance",
+    "noise"
+   ],
+   "sources": [
+    {
+     "label": "Conway Daily Sun: Jackson voters defeat fireworks ban petitioned article (2026 town meeting results)",
+     "url": "https://www.conwaydailysun.com/news/local/jackson-voters-defeat-fireworks-ban-petitioned-article/article_27688a43-5d15-4ad3-971d-ea43d068b772.html"
+    },
+    {
+     "label": "Conway Daily Sun: Jackson selectmen give STR owner a break (Oct 2025)",
+     "url": "https://www.conwaydailysun.com/news/local/jackson-selectmen-give-str-owner-a-break/article_d8820a47-5de0-41f2-adc5-65b46dbc1e54.html"
+    },
+    {
+     "label": "2025 Town Report (2026 warrant)",
+     "url": "https://scholars.unh.edu/cgi/viewcontent.cgi?article=1131&context=jackson_nh_reports"
+    },
+    {
+     "label": "Select Board minutes, Nov 25, 2025",
+     "url": "https://www.jackson-nh.gov/wp-content/uploads/2026/01/11.25.2025_select_board_minutes-1.pdf"
+    }
+   ],
+   "scope": "Town",
+   "related": [
+    {
+     "date": "2026-03-10",
+     "body": "Town election",
+     "url": "https://www.conwaydailysun.com/news/local/jackson-voters-defeat-fireworks-ban-petitioned-article/article_27688a43-5d15-4ad3-971d-ea43d068b772.html",
+     "d": {
+      "title": "Short-term rental zoning amendment",
+      "detail": "Article 2 on the official ballot.",
+      "outcome": "passed 119-50"
+     }
+    }
+   ],
+   "needs_review": true,
+   "review_note": "The text of the March 2026 short-term rental amendment was not read; whether the parking ordinance was adopted is not confirmed."
+  },
+  {
+   "id": "fireworks",
+   "title": "Fireworks rules",
+   "topic": "Public safety",
+   "status": "Petitioned article to limit commercial fireworks to the Village District was defeated 92-49 on March 12, 2026",
+   "next": null,
+   "summary": "Complaints about fireworks displays at Black Mountain, next to a working farm, led to a petitioned warrant article to allow commercially licensed fireworks only in the Village District. Voters rejected it at town meeting; some speakers said the town should treat fireworks as a townwide question instead.",
+   "points": [
+    "Article 15 was defeated 92-49; the Selectmen had voted 0-1-2 on it (none for, one against, two abstaining).",
+    "August 2025: Selectmen tabled Black Mountain's December 31, 2025 fireworks permit until pending investigations were reviewed.",
+    "September 2025: Selectmen discussed complaints about displays on New Year's Eve 2024 and May 3, 2025, and began reviewing the noise, fireworks and short-term rental ordinances and a proposed event permit."
+   ],
+   "keywords": [
+    "fireworks",
+    "black mountain",
+    "village district",
+    "noise",
+    "event permit"
+   ],
+   "sources": [
+    {
+     "label": "Conway Daily Sun: Jackson voters defeat fireworks ban petitioned article",
+     "url": "https://www.conwaydailysun.com/news/local/jackson-voters-defeat-fireworks-ban-petitioned-article/article_27688a43-5d15-4ad3-971d-ea43d068b772.html"
+    },
+    {
+     "label": "2025 Town Report (2026 warrant and recommendations)",
+     "url": "https://scholars.unh.edu/cgi/viewcontent.cgi?article=1131&context=jackson_nh_reports"
+    },
+    {
+     "label": "Select Board minutes, Sept 22, 2025",
+     "url": "https://www.jackson-nh.gov/wp-content/uploads/2026/01/9.22.2025_select_board_minutes-1.pdf"
+    },
+    {
+     "label": "Select Board minutes, Aug 12, 2025",
+     "url": "https://www.jackson-nh.gov/wp-content/uploads/2026/01/8.12.25-Select-Board-Meeting-Minutes.pdf"
+    }
+   ],
+   "scope": "Town",
+   "related": [
+    {
+     "date": "2026-03-12",
+     "body": "Town Meeting",
+     "url": "https://www.conwaydailysun.com/news/local/jackson-voters-defeat-fireworks-ban-petitioned-article/article_27688a43-5d15-4ad3-971d-ea43d068b772.html",
+     "d": {
+      "title": "Article 15: limit commercial fireworks to the Village District",
+      "detail": "Petitioned article.",
+      "outcome": "defeated 92-49"
+     }
+    }
+   ],
+   "needs_review": true,
+   "review_note": "The Daily Sun does not say which number was yes and which was no; since the article failed, 92 were presumably against."
+  },
+  {
+   "id": "school-strategic-plan",
+   "title": "Jackson School District's next strategic plan",
+   "topic": "Schools",
+   "status": "Community workshops under way; the plan is to be launched at the January 19, 2027 School Board meeting",
+   "next": "2026-11-19: Community Planning Workshop #3, 3:30 to 5:30 PM, Whitney Center",
+   "summary": "The Jackson School District's current strategic plan runs until 2027. The district is asking residents what its next priorities should be before it starts writing, and notes that enrollment rose this year.",
+   "points": [
+    "Workshops: October 15 and October 29 (the second may be rescheduled), and November 19, 2026, at the Whitney Center.",
+    "Public launch: January 19, 2027, 6 PM, at the Jackson School Board meeting."
+   ],
+   "keywords": [
+    "school",
+    "strategic plan",
+    "school board",
+    "sau 9",
+    "enrollment",
+    "workshop"
+   ],
+   "sources": [
+    {
+     "label": "Town notice: Community Planning Forum (posted Oct 13, 2026)",
+     "url": "https://www.jackson-nh.gov/news-and-alerts/community-planning-forum/"
+    }
+   ],
+   "scope": "Town",
+   "related": []
+  }
+ ],
+ "council_meetings": [
+  {
+   "body": "Board of Selectmen",
+   "date": "2026-08-11",
+   "minutes_url": "https://www.jackson-nh.gov/event/zoning-board-of-adjustment-public-hearing/",
+   "minutes_status": "official notice",
+   "ocr": false,
+   "source_note": "The town posts 2026 Select Board minutes as PDFs on https://www.jackson-nh.gov/meetings-and-agendas/minutes-agendas/ (latest: October 13, 2026), but those files could not be opened for this research. This entry comes from the Zoning Board's official hearing notice, which describes one action taken at this meeting; other business is not shown.",
+   "attendance": {
+    "present": [],
+    "absent": []
+   },
+   "headline": "Selectmen authorized an enforcement letter to Black Mountain Ski Area over site disturbance near Great Brook and the Wildcat River.",
+   "decisions": [
+    {
+     "title": "Authorized an enforcement letter to Black Mountain Ski Area",
+     "detail": "The letter, dated August 12, 2026, says work on Tax Map R17, Lots 28A and 31B broke three site disturbance rules: work before a Notice of Intent, last fall's work not stabilized by November 15, and no written plan. Black Mountain appealed to the ZBA.",
+     "outcome": "authorized (vote not given in the source)",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": null,
+     "dissent": [],
+     "topic": "Environment & resilience",
+     "dollars": null,
+     "ordinance_reading": null,
+     "needs_review": true,
+     "review_note": "Vote, mover and attendance are in the August 11 minutes, which could not be opened."
+    }
+   ],
+   "discussed": [],
+   "public_comment": [],
+   "coming_up": []
+  },
+  {
+   "body": "Board of Selectmen",
+   "date": "2025-11-25",
+   "minutes_url": "https://www.jackson-nh.gov/wp-content/uploads/2026/01/11.25.2025_select_board_minutes-1.pdf",
+   "minutes_status": "draft",
+   "ocr": false,
+   "attendance": {
+    "present": [
+     "Campbell",
+     "Thompson",
+     "DiFruscio"
+    ],
+    "absent": []
+   },
+   "headline": "Selectmen added $28,090 to the 2026 budget to buy out the town's solar arrays, approved four short-term rental permits, let a grooming machine use town roads, and signed a settlement with Black Mountain.",
+   "decisions": [
+    {
+     "title": "Added $28,090 to the 2026 budget for the solar buyout capital reserve",
+     "detail": "The reserve held $91,000 and buying out the existing power purchase agreement costs $119,090. Owning the arrays ends interest costs and gives the town the full energy credits.",
+     "outcome": "all approved",
+     "moved_by": "Campbell",
+     "seconded_by": "Thompson",
+     "roll_call": null,
+     "dissent": [],
+     "topic": "Infrastructure & utilities",
+     "dollars": 28090,
+     "ordinance_reading": null,
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Let Jackson Ski Touring drive its rubber-tracked groomer on certain town roads",
+     "detail": "To reach Prospect Farm during snow events, from the Mellon Lot to the Valentine Lot, coordinated with the highway and police departments.",
+     "outcome": "all approved",
+     "moved_by": "Campbell",
+     "seconded_by": "Thompson",
+     "roll_call": null,
+     "dissent": [],
+     "topic": "Parks & recreation",
+     "dollars": null,
+     "ordinance_reading": null,
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Approved four short-term rental permits",
+     "detail": "Conditional use permits for four homes (two renewals); limits of 6 to 10 guests.",
+     "outcome": "all approved (four separate motions)",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": null,
+     "dissent": [],
+     "topic": "Housing & zoning",
+     "dollars": null,
+     "ordinance_reading": null,
+     "needs_review": true,
+     "review_note": "Four motions with different movers and seconders, combined here."
+    },
+    {
+     "title": "Signed a settlement agreement with Black Mountain",
+     "detail": "Taken after a closed session on pending claims or litigation; terms not described.",
+     "outcome": "signed (no vote recorded)",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": null,
+     "dissent": [],
+     "topic": "Government & elections",
+     "dollars": null,
+     "ordinance_reading": null,
+     "needs_review": true,
+     "review_note": "The minutes record the signing as the public action from the nonpublic session, with no motion."
+    }
+   ],
+   "discussed": [
+    {
+     "title": "Police promotion",
+     "detail": "Michael Mosher was promoted to Lieutenant and an officer was recognized for finishing probation.",
+     "topic": "Public safety"
+    },
+    {
+     "title": "East Field Road",
+     "detail": "An unfinished subdivision road was never paved as approved. The board agreed to let site work for a new home go ahead before winter while the town engineer and building inspector contact the homeowners association.",
+     "topic": "Infrastructure & utilities"
+    },
+    {
+     "title": "Grover Road",
+     "detail": "Residents want the town to take over this private road. Acceptance needs a public hearing, a warrant article and a town vote, likely not before about a year after March town meeting; residents would pay for improvements.",
+     "topic": "Infrastructure & utilities"
+    },
+    {
+     "title": "Town ordinances",
+     "detail": "Event permit, noise, short-term rental and parking ordinances are being revised. Parking ordinance public hearing set for December 9, 2025 at 3 PM.",
+     "topic": "Government & elections"
+    },
+    {
+     "title": "Erosion complaints",
+     "detail": "Two construction sites without required erosion controls; a first warning issued at one, the other to be monitored through spring melt.",
+     "topic": "Environment & resilience"
+    },
+    {
+     "title": "Fire station",
+     "detail": "On schedule; exterior mostly done, interior drywall and electrical mostly finished.",
+     "topic": "City buildings & facilities"
+    }
+   ],
+   "public_comment": [],
+   "coming_up": [
+    {
+     "date": "2025-12-09",
+     "item": "Parking ordinance public hearing, 3 PM"
+    },
+    {
+     "date": "2026-01-20",
+     "item": "Town ordinance hearing and Budget Hearing #1"
+    },
+    {
+     "date": "2026-02-03",
+     "item": "Budget Hearing #2; petitioned warrant articles due"
+    }
+   ],
+   "needs_review": true,
+   "review_note": "Minutes are marked draft and the header says Monday, though November 25, 2025 was a Tuesday."
+  },
+  {
+   "body": "Board of Selectmen",
+   "date": "2025-10-21",
+   "minutes_url": "https://www.conwaydailysun.com/news/local/jackson-selectmen-give-str-owner-a-break/article_d8820a47-5de0-41f2-adc5-65b46dbc1e54.html",
+   "minutes_status": "news report",
+   "ocr": false,
+   "source_note": "Built from a Conway Daily Sun report (Oct 22, 2025), so it may be incomplete. Official minutes for this date were not found among the documents that could be opened.",
+   "attendance": {
+    "present": [
+     "Campbell",
+     "Thompson",
+     "DiFruscio"
+    ],
+    "absent": []
+   },
+   "headline": "Selectmen recorded an overcrowding violation at a short-term rental over Columbus Day weekend but did not count it as a strike against the owner's permit.",
+   "decisions": [
+    {
+     "title": "Recorded a short-term rental overcrowding incident without counting it as a strike",
+     "detail": "Eleven people stayed where the permit allows eight. Normally a first offense brings a warning, a second a $275 fine and a third loses the permit for six months.",
+     "outcome": "passed 3-0",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": null,
+     "dissent": [],
+     "topic": "Housing & zoning",
+     "dollars": null,
+     "ordinance_reading": null,
+     "needs_review": true,
+     "review_note": "Meeting date taken from the article's 'Tuesday' and the photo file date."
+    }
+   ],
+   "discussed": [],
+   "public_comment": [],
+   "coming_up": []
+  },
+  {
+   "body": "Board of Selectmen",
+   "date": "2025-09-22",
+   "minutes_url": "https://www.jackson-nh.gov/wp-content/uploads/2026/01/9.22.2025_select_board_minutes-1.pdf",
+   "minutes_status": "draft",
+   "ocr": false,
+   "attendance": {
+    "present": [
+     "Campbell",
+     "DiFruscio"
+    ],
+    "absent": [
+     "Thompson"
+    ]
+   },
+   "headline": "With two members present, selectmen adopted new Rules of Procedure, a new site disturbance Notice of Intent form, and let the Planning Board get legal advice on short-term rental zoning.",
+   "decisions": [
+    {
+     "title": "Approved the new site disturbance Notice of Intent form",
+     "detail": "Reviewed by the town engineer and the Planning Board.",
+     "outcome": "approved (all)",
+     "moved_by": "Campbell",
+     "seconded_by": "DiFruscio",
+     "roll_call": null,
+     "dissent": [],
+     "topic": "Environment & resilience",
+     "dollars": null,
+     "ordinance_reading": null,
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Let the Planning Board consult the town lawyer on the short-term rental ordinance",
+     "detail": "For cleaning up, changing and revising the ordinance before the 2026 town warrant.",
+     "outcome": "approved (all)",
+     "moved_by": "Campbell",
+     "seconded_by": "DiFruscio",
+     "roll_call": null,
+     "dissent": [],
+     "topic": "Housing & zoning",
+     "dollars": null,
+     "ordinance_reading": null,
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Adopted revised Select Board Rules of Procedure",
+     "detail": "Public comment limited to about 2 minutes each and town business, with a 15-minute total.",
+     "outcome": "approved (all)",
+     "moved_by": "Campbell",
+     "seconded_by": "DiFruscio",
+     "roll_call": null,
+     "dissent": [],
+     "topic": "Government & elections",
+     "dollars": null,
+     "ordinance_reading": null,
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Approved a short-term rental permit",
+     "detail": "A one-bedroom apartment over a garage.",
+     "outcome": "approved (all)",
+     "moved_by": "Campbell",
+     "seconded_by": "DiFruscio",
+     "roll_call": null,
+     "dissent": [],
+     "topic": "Housing & zoning",
+     "dollars": null,
+     "ordinance_reading": null,
+     "needs_review": false,
+     "review_note": null
+    }
+   ],
+   "discussed": [
+    {
+     "title": "Fireworks at Black Mountain",
+     "detail": "Complaints about displays next to a farm on New Year's Eve 2024 and May 3, 2025. Discussion and the ski area's fireworks permit were tabled until all three members were present.",
+     "topic": "Public safety"
+    },
+    {
+     "title": "Traffic calming pop-up",
+     "detail": "A trial traffic redesign set for September 28 to October 6, 2025.",
+     "topic": "Parking & transportation"
+    },
+    {
+     "title": "Town ordinances",
+     "detail": "Board to review the noise, fireworks and short-term rental ordinances and a proposed event permit, then hold a public hearing.",
+     "topic": "Government & elections"
+    },
+    {
+     "title": "Highway updates",
+     "detail": "Fall roadside mowing; mitigation planning on Town Hall Road with the state and U.S. Forest Service.",
+     "topic": "Infrastructure & utilities"
+    }
+   ],
+   "public_comment": [
+    {
+     "topic": "Burn ban and town business",
+     "speakers": null,
+     "gist": "Comments on the statewide burn ban, a liquor permit, redacted documents and the transfer station not accepting brush."
+    }
+   ],
+   "coming_up": [
+    {
+     "date": "2025-10-14",
+     "item": "Regular Select Board meeting"
+    },
+    {
+     "date": "2025-10-28",
+     "item": "Regular Select Board meeting"
+    }
+   ],
+   "needs_review": true,
+   "review_note": "Minutes are marked draft. This was a Monday meeting starting with a 2:30 PM closed session; the minutes list the return to public session as '3:21am'."
+  },
+  {
+   "body": "Board of Selectmen",
+   "date": "2025-08-12",
+   "minutes_url": "https://www.jackson-nh.gov/wp-content/uploads/2026/01/8.12.25-Select-Board-Meeting-Minutes.pdf",
+   "minutes_status": "draft",
+   "ocr": false,
+   "attendance": {
+    "present": [
+     "Campbell",
+     "Thompson",
+     "DiFruscio"
+    ],
+    "absent": []
+   },
+   "headline": "Selectmen tabled Black Mountain's New Year's Eve fireworks permit, signed a site disturbance violation and sent a short-term rental violation notice.",
+   "decisions": [
+    {
+     "title": "Tabled Black Mountain's December 31, 2025 fireworks permit",
+     "detail": "Until all pending investigations have been reviewed.",
+     "outcome": "all approved",
+     "moved_by": "Thompson",
+     "seconded_by": "Campbell",
+     "roll_call": null,
+     "dissent": [],
+     "topic": "Public safety",
+     "dollars": null,
+     "ordinance_reading": null,
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Signed a site disturbance zoning violation over a drainage complaint",
+     "detail": "Water from a neighboring property on Middle Mountain Road was redirected onto another lot.",
+     "outcome": "all approved",
+     "moved_by": "Campbell",
+     "seconded_by": "DiFruscio",
+     "roll_call": null,
+     "dissent": [],
+     "topic": "Environment & resilience",
+     "dollars": null,
+     "ordinance_reading": null,
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Asked the sheriff's department to serve an order on a collapsed barn",
+     "detail": "An RSA 155 order (state law on hazardous buildings) requires a demolition permit within 30 days and completion within 90.",
+     "outcome": "all approved",
+     "moved_by": "Thompson",
+     "seconded_by": "DiFruscio",
+     "roll_call": null,
+     "dissent": [],
+     "topic": "Public safety",
+     "dollars": null,
+     "ordinance_reading": null,
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Sent a violation notice to a short-term rental owner",
+     "detail": "The home was approved to sleep 8 but advertised for 12.",
+     "outcome": "all approved",
+     "moved_by": "Campbell",
+     "seconded_by": "Thompson",
+     "roll_call": null,
+     "dissent": [],
+     "topic": "Housing & zoning",
+     "dollars": null,
+     "ordinance_reading": null,
+     "needs_review": false,
+     "review_note": null
+    }
+   ],
+   "discussed": [
+    {
+     "title": "Fire station construction",
+     "detail": "Framing began that week.",
+     "topic": "City buildings & facilities"
+    },
+    {
+     "title": "Town Hall building move",
+     "detail": "A sidewalk will connect the building to the parking lot; plowing to be decided later.",
+     "topic": "City buildings & facilities"
+    }
+   ],
+   "public_comment": [
+    {
+     "topic": "Black Mountain and roads",
+     "speakers": null,
+     "gist": "Comments on a Whitneys Pond meeting, an appeal of the sign fine, the tabled fireworks permit, road treatment, and a request for legal review of the fireworks ordinance."
+    }
+   ],
+   "coming_up": [
+    {
+     "date": "2025-08-26",
+     "item": "Regular Select Board meeting"
+    }
+   ],
+   "needs_review": true,
+   "review_note": "Minutes are marked draft."
+  }
+ ],
+ "board_meetings": [
+  {
+   "body": "Zoning Board of Adjustment",
+   "date": "2026-10-30",
+   "record_url": "https://www.jackson-nh.gov/event/zoning-board-of-adjustment-public-hearing/",
+   "record_type": "public notice",
+   "headline": "The ZBA was scheduled to hear Black Mountain Ski Area's appeal of the Selectmen's site disturbance enforcement letter.",
+   "items": [
+    {
+     "address": "Tax Map R17, Lots 28A and 31B (Great Brook and Wildcat River area)",
+     "applicant": "Black Mountain Community Corporation (Black Mountain Ski Area)",
+     "request": "An appeal of an administrative decision (asking the board to overturn a town official's ruling): the Selectmen's August 12, 2026 enforcement letter under the site disturbance rules.",
+     "decision": "pending",
+     "vote": null,
+     "conditions": [],
+     "topic": "Environment & resilience",
+     "needs_review": true,
+     "review_note": "Postponed from September 30; no result posted in the sources opened."
+    }
+   ],
+   "policy_items": []
+  },
+  {
+   "body": "Planning Board",
+   "date": "2026-10-07",
+   "record_url": "https://www.jackson-nh.gov/event/planning-board-master-plan-public-notice/",
+   "record_type": "public notice",
+   "headline": "The Planning Board's Master Plan subcommittee held a working session on the 2026 Master Plan.",
+   "items": [],
+   "policy_items": [
+    {
+     "title": "2026 Master Plan",
+     "detail": "Working session open to residents and non-residents. The Planning Board's regular meetings follow on November 12 and December 10, 2026.",
+     "topic": "Housing & zoning",
+     "needs_review": false,
+     "review_note": null
+    }
+   ]
+  },
+  {
+   "body": "Zoning Board of Adjustment",
+   "date": "2026-06-10",
+   "record_url": "https://www.jackson-nh.gov/boards-committees/zoning-board-of-adjustment/submitted-applications-and-public-file/",
+   "record_type": "public notice and case file",
+   "headline": "The ZBA heard the Wildcat Inn & Tavern's request to build an addition closer to the property line than allowed.",
+   "items": [
+    {
+     "address": "94 Main Street (Tax Map V9, Lot 13)",
+     "applicant": "Pete StuBen LLC, doing business as Wildcat Inn & Tavern",
+     "request": "A variance (permission to break a zoning rule for this one property) for an addition that would extend into the required setback from the property line.",
+     "decision": "decision issued (outcome not confirmed)",
+     "vote": null,
+     "conditions": [],
+     "topic": "Downtown & business",
+     "needs_review": true,
+     "review_note": "The town posted a decision document in June 2026 and a letter from the Fire Chief, but neither could be opened."
+    }
+   ],
+   "policy_items": []
+  }
+ ],
+ "officials": {
+  "council": [
+   {
+    "name": "Bob Thompson",
+    "last": "Thompson",
+    "role": "Chair",
+    "votes2025": null,
+    "term": "to 2029",
+    "ward": null,
+    "note": "Re-elected to a three-year term March 10, 2026; also the Selectmen's representative on the Planning Board (2025 Town Report)."
+   },
+   {
+    "name": "Frank DiFruscio",
+    "last": "DiFruscio",
+    "role": "Selectman",
+    "votes2025": null,
+    "term": "to 2027",
+    "ward": null
+   },
+   {
+    "name": "Barbara Campbell",
+    "last": "Campbell",
+    "role": "Selectman",
+    "votes2025": null,
+    "term": "to 2028",
+    "ward": null,
+    "note": "Chair through 2025."
+   }
+  ],
+  "councilNote": "Jackson is governed by a three-member Board of Selectmen (called the Select Board), elected townwide to three-year terms, with a Town Administrator running the office day to day. Regular meetings are the 2nd and 4th Tuesday at 3:30 PM at the Town Office, 54 Main Street, and are filmed for the town's YouTube channel (jacksonflicks). Voters decide the budget at the March town meeting.",
+  "railNote": "Chair Thompson and two other selectmen, all elected townwide.",
+  "rollCallNote": "Minutes record motions as 'all approved' with mover and seconder; individual votes are rarely listed.",
+  "staff": [
+   {
+    "name": "Julie Hoyt",
+    "role": "Town Administrator",
+    "since": null,
+    "note": "Runs the Select Board office and town administration.",
+    "phone": "603-383-4223 ext. 101",
+    "src": "https://www.jackson-nh.gov/boards-committees/select-board/"
+   },
+   {
+    "name": "Betsy Eaton",
+    "role": "Administrative Assistant",
+    "since": null,
+    "note": "Select Board office; records the minutes.",
+    "phone": "603-383-4223 ext. 100",
+    "src": "https://www.jackson-nh.gov/boards-committees/select-board/"
+   },
+   {
+    "name": "Karen Burton",
+    "role": "Town Clerk / Tax Collector",
+    "since": null,
+    "note": "Elections, voter registration, car registrations and property tax bills. Re-elected March 2026.",
+    "phone": "603-383-4223 ext. 102",
+    "src": "https://www.jackson-nh.gov/wp-content/uploads/2026/01/property_tax_rate_info_2025.pdf"
+   },
+   {
+    "name": "Mike Mosher",
+    "role": "Police Chief",
+    "since": null,
+    "note": "Succeeded longtime Chief Christopher Perley, per the Conway Daily Sun. Promoted to Lieutenant November 25, 2025.",
+    "phone": null,
+    "src": "https://conwaydailysun.com/news/local/after-40-epic-years-perley-to-retire-from-law-enforcement/article_b4d2bdcf-19f4-4a32-9c67-1f30f2e527e0.html",
+    "needs_review": true,
+    "review_note": "The Daily Sun article is undated; the date he became chief was not found."
+   },
+   {
+    "name": "Jay Henry",
+    "role": "Fire Chief",
+    "since": null,
+    "note": "Listed in the 2025 Town Report.",
+    "phone": null,
+    "src": "https://scholars.unh.edu/cgi/viewcontent.cgi?article=1131&context=jackson_nh_reports"
+   },
+   {
+    "name": "Jim Langdon",
+    "role": "Road Agent",
+    "since": null,
+    "note": "Highway department. Listed in the 2025 Town Report.",
+    "phone": null,
+    "src": "https://scholars.unh.edu/cgi/viewcontent.cgi?article=1131&context=jackson_nh_reports"
+   },
+   {
+    "name": "Kevin Bennett",
+    "role": "Building Inspector and Health Officer",
+    "since": null,
+    "note": "Listed in the 2025 Town Report.",
+    "phone": null,
+    "src": "https://scholars.unh.edu/cgi/viewcontent.cgi?article=1131&context=jackson_nh_reports"
+   },
+   {
+    "name": "Burr Phillips",
+    "role": "Town Engineer",
+    "since": null,
+    "note": "Reviews site disturbance and road matters; named in 2025 Select Board minutes.",
+    "phone": null,
+    "src": "https://www.jackson-nh.gov/wp-content/uploads/2026/01/11.25.2025_select_board_minutes-1.pdf"
+   },
+   {
+    "name": "Emily Benson",
+    "role": "Emergency Management Director",
+    "since": null,
+    "note": "Listed in the 2025 Town Report.",
+    "phone": null,
+    "src": "https://scholars.unh.edu/cgi/viewcontent.cgi?article=1131&context=jackson_nh_reports"
+   },
+   {
+    "name": "Emily Porath",
+    "role": "Town Treasurer",
+    "since": null,
+    "note": "Elected by write-in March 2026, per the Conway Daily Sun.",
+    "phone": null,
+    "src": "https://www.conwaydailysun.com/news/local/jackson-voters-defeat-fireworks-ban-petitioned-article/article_27688a43-5d15-4ad3-971d-ea43d068b772.html"
+   },
+   {
+    "name": "Peter McGlynn",
+    "role": "Town Moderator",
+    "since": null,
+    "note": "Elected March 2026, per the Conway Daily Sun; runs town meeting and elections.",
+    "phone": null,
+    "src": "https://www.conwaydailysun.com/news/local/jackson-voters-defeat-fireworks-ban-petitioned-article/article_27688a43-5d15-4ad3-971d-ea43d068b772.html"
+   }
+  ],
+  "schoolBoard": {
+   "note": "The Jackson School District, part of SAU 9, has its own elected School Board and annual meeting. The March 10, 2026 ballot listed Melinda Foley-Marsello and Tom Seidel for up to two 3-year School Board seats; results and the full current board were not found in the sources opened. The district is writing a new strategic plan (current plan runs to 2027).",
+   "members": [],
+   "needs_review": true,
+   "review_note": "School Board roster and SAU 9 superintendent not confirmed; the SAU 9 Jackson page could not be opened.",
+   "sources": [
+    "https://scholars.unh.edu/cgi/viewcontent.cgi?article=1131&context=jackson_nh_reports",
+    "https://www.jackson-nh.gov/news-and-alerts/community-planning-forum/"
+   ]
+  },
+  "commissions": [
+   {
+    "name": "Jackson Water Precinct",
+    "members": [
+     "Karl Meyers (commission chair, re-elected March 2026, 3-year term)",
+     "Kevin Pratt (commissioner, 2028)",
+     "Michele Pratt (commissioner, 2027)",
+     "Kathleen L. Flammia (clerk)",
+     "Robert Flammia (moderator)"
+    ],
+    "note": "A separate local government that supplies water to part of the village, with its own annual meeting and tax rate ($2.09 per $1,000 in 2025, on $137,222,798 of property). On March 9, 2026 its voters approved a $414,563 operating budget (3-2), $50,000 to permit a bedrock well (3-2, needing three-fifths) and $6,300 for hydrant service (5-0).",
+    "url": "https://www.jackson-nh.gov/wp-content/uploads/2026/03/March-9-2026-Annual-Water-Precinct-Minutes.pdf"
+   },
+   {
+    "name": "Housing Commission",
+    "members": [],
+    "note": "Formed recently; the 2025 Town Report says it received a donation of land and hopes to build four to five homes affordable to young families. Minutes and agendas are kept at jacksonhousingcommission.org.",
+    "url": "https://www.jackson-nh.gov/meetings-and-agendas/"
+   }
+  ],
+  "boards": [
+   {
+    "name": "Planning Board",
+    "meets": "Second Thursday of the month, 7 PM, Town Office (next: Nov 12 and Dec 10, 2026), plus Master Plan and RSA 79-E subcommittee sessions",
+    "does": "Reviews subdivisions and site plans, writes the Master Plan and proposes zoning changes for the March ballot.",
+    "url": "https://www.jackson-nh.gov/event/planning-board-meeting/2026-10-08/",
+    "members": [
+     "William Terry (Chair, 2028)",
+     "Scott Badger (Vice Chair, 2026)",
+     "David Campbell (Secretary, 2028)",
+     "Bob Thompson (Selectmen's rep.)",
+     "James Wasco (2028)",
+     "Sarah Kimball (2026)",
+     "Richard Bennett (2027)",
+     "Alternate: Jane Knell (2027)"
+    ],
+    "note": "Members as listed in the 2025 Town Report; seats ending in 2026 may have changed."
+   },
+   {
+    "name": "Zoning Board of Adjustment",
+    "meets": "Third Wednesday of the month as needed; annual meeting the third Wednesday in January",
+    "does": "Decides variances (permission to break a zoning rule for one property), special exceptions and appeals of town zoning decisions.",
+    "url": "https://www.jackson-nh.gov/boards-committees/zoning-board-of-adjustment/",
+    "members": [
+     "Frank Benesh (Chair, 2029)",
+     "Dave Mason (Secretary, 2029)",
+     "James Wasco (2028)",
+     "Huntley Allen (2027)",
+     "Peter McGlynn (2027)"
+    ]
+   },
+   {
+    "name": "Conservation Commission",
+    "meets": "First Monday of the month, 5:30 PM (next: Nov 2, 2026)",
+    "does": "Manages town conservation land such as Prospect Farm and advises on wetlands, rivers and land protection.",
+    "url": "https://www.jackson-nh.gov/meetings-and-agendas/minutes-agendas/",
+    "members": [
+     "Ben Halcyon (Chair, 2026)",
+     "Brian Byrne (Vice Chair, 2027)",
+     "Pam Smillie (Secretary, 2026)",
+     "Mike Dufilho (2026)",
+     "Jeffrey Hayes (2027)",
+     "Richard Bennett (2028)",
+     "Ken Kimball (2028)"
+    ],
+    "note": "Members as listed in the 2025 Town Report."
+   },
+   {
+    "name": "Library Trustees",
+    "meets": null,
+    "does": "Oversee the Jackson Public Library.",
+    "url": "https://scholars.unh.edu/cgi/viewcontent.cgi?article=1131&context=jackson_nh_reports",
+    "members": [
+     "Laurel Smith (Chair, 2028)",
+     "Linda Terry (re-elected March 2026)",
+     "Helen Wasco (Secretary, 2027)",
+     "Jo-Ann Driscoll (2028)",
+     "Bethany Taylor (elected March 2026, 1-year term)"
+    ],
+    "note": "From the 2025 Town Report and the Daily Sun's March 2026 results; one 2026 seat may have changed hands."
+   },
+   {
+    "name": "Trustees of Trust Funds",
+    "meets": null,
+    "does": "Hold and invest the town's capital reserve and trust funds and pay them out when voters or agents authorize.",
+    "url": "https://scholars.unh.edu/cgi/viewcontent.cgi?article=1131&context=jackson_nh_reports",
+    "members": [
+     "Chris McAleer (Chair, 2028)",
+     "Dan Andrews (Treasurer, 2026)",
+     "Lee Phillips (Clerk, 2027)"
+    ]
+   },
+   {
+    "name": "Cemetery Trustees",
+    "meets": null,
+    "does": "Run the Jackson Village and Dundee cemeteries.",
+    "url": "https://scholars.unh.edu/cgi/viewcontent.cgi?article=1131&context=jackson_nh_reports",
+    "members": [
+     "Noah Weeder (Chair, 2027)",
+     "Alicia M. Hawkes (2028)",
+     "Barbara Theriault (re-elected March 2026)"
+    ]
+   }
+  ],
+  "sources": {
+   "roster": "https://www.jackson-nh.gov/boards-committees/select-board/",
+   "staff": "https://scholars.unh.edu/cgi/viewcontent.cgi?article=1131&context=jackson_nh_reports",
+   "election": "https://www.conwaydailysun.com/news/local/jackson-voters-defeat-fireworks-ban-petitioned-article/article_27688a43-5d15-4ad3-971d-ea43d068b772.html"
+  }
+ },
+ "roll_call_votes": [],
+ "attendance": {
+  "Thompson": {
+   "present": 3,
+   "total": 4
+  },
+  "DiFruscio": {
+   "present": 4,
+   "total": 4
+  },
+  "Campbell": {
+   "present": 4,
+   "total": 4
+  }
+ },
+ "attendance_from": "2025-08-12",
+ "attendance_note": "Counts only the four 2025 meetings where a source listed who attended (Aug 12, Sept 22, Oct 21 and Nov 25, 2025). 2026 minutes could not be opened, so these are not current-term totals.",
+ "topics": [
+  {
+   "topic": "Housing & zoning",
+   "count": 5
+  },
+  {
+   "topic": "Environment & resilience",
+   "count": 3
+  },
+  {
+   "topic": "Government & elections",
+   "count": 2
+  },
+  {
+   "topic": "Public safety",
+   "count": 2
+  },
+  {
+   "topic": "Infrastructure & utilities",
+   "count": 1
+  },
+  {
+   "topic": "Parks & recreation",
+   "count": 1
+  }
+ ],
+ "budget": {
+  "fiscalYear": "2026 (calendar year, January to December 2026)",
+  "fundLabel": "town operating budget",
+  "adopted": "2026-03-12",
+  "adoptedVote": "Article 7 at the March 12, 2026 town meeting. Voters amended the Selectmen's recommended $3,488,869 (Selectmen 3-0-0) to $3,490,869, a $2,000 change to the assessing budget; the Daily Sun gives no vote count.",
+  "generalFund": 3490869,
+  "priorGeneralFund": 3187144,
+  "changePct": 9.53,
+  "departments": [
+   {
+    "name": "Selectmen",
+    "fy26": 31258,
+    "fy27": 35316,
+    "note": null
+   },
+   {
+    "name": "Town Clerk",
+    "fy26": 115285,
+    "fy27": 121527,
+    "note": null
+   },
+   {
+    "name": "Financial Administration",
+    "fy26": 250443,
+    "fy27": 294511,
+    "note": "Professional fees rise from $42,000 to $75,000."
+   },
+   {
+    "name": "Assessing",
+    "fy26": 44000,
+    "fy27": 46000,
+    "note": "Proposed at $44,000; town meeting added $2,000, per the Daily Sun."
+   },
+   {
+    "name": "Legal",
+    "fy26": 50000,
+    "fy27": 55000,
+    "note": null
+   },
+   {
+    "name": "Personnel Administration",
+    "fy26": 598686,
+    "fy27": 653347,
+    "note": "Health insurance, state retirement (NHRS), FICA and Medicare."
+   },
+   {
+    "name": "Planning & Zoning Boards",
+    "fy26": 2500,
+    "fy27": 6000,
+    "note": null
+   },
+   {
+    "name": "General Government Parks & Buildings",
+    "fy26": 43000,
+    "fy27": 50500,
+    "note": null
+   },
+   {
+    "name": "Cemeteries",
+    "fy26": 12000,
+    "fy27": 12000,
+    "note": null
+   },
+   {
+    "name": "Insurance (Property & Liability)",
+    "fy26": 99115,
+    "fy27": 98964,
+    "note": null
+   },
+   {
+    "name": "Building Inspection",
+    "fy26": 88996,
+    "fy27": 91056,
+    "note": null
+   },
+   {
+    "name": "Police",
+    "fy26": 416321,
+    "fy27": 483345,
+    "note": "Police wages rise from $369,971 to $432,495."
+   },
+   {
+    "name": "Ambulance",
+    "fy26": 38600,
+    "fy27": 40120,
+    "note": null
+   },
+   {
+    "name": "Fire",
+    "fy26": 223131,
+    "fy27": 245163,
+    "note": "Covers the new station and the old station used for storage."
+   },
+   {
+    "name": "Emergency Management",
+    "fy26": 14095,
+    "fy27": 15892,
+    "note": null
+   },
+   {
+    "name": "Highway Administration",
+    "fy26": 282266,
+    "fy27": 292490,
+    "note": "Highway wages."
+   },
+   {
+    "name": "Highway",
+    "fy26": 455840,
+    "fy27": 466784,
+    "note": null
+   },
+   {
+    "name": "Solid Waste Disposal",
+    "fy26": 157491,
+    "fy27": 154085,
+    "note": null
+   },
+   {
+    "name": "Animal Control",
+    "fy26": 500,
+    "fy27": 500,
+    "note": null
+   },
+   {
+    "name": "Public Welfare",
+    "fy26": 10000,
+    "fy27": 10000,
+    "note": null
+   },
+   {
+    "name": "Library",
+    "fy26": 152345,
+    "fy27": 158071,
+    "note": null
+   },
+   {
+    "name": "Other Conservation",
+    "fy26": 1500,
+    "fy27": 1500,
+    "note": null
+   },
+   {
+    "name": "Housing Commission",
+    "fy26": 0,
+    "fy27": 1500,
+    "note": null
+   },
+   {
+    "name": "Other Culture & Recreation",
+    "fy26": 11000,
+    "fy27": 11000,
+    "note": "Filming meetings and the Valley Vision public access channel."
+   },
+   {
+    "name": "Parks & Recreation",
+    "fy26": 6700,
+    "fy27": 6700,
+    "note": "Paid to the Bartlett Recreation Department."
+   },
+   {
+    "name": "Debt Service",
+    "fy26": 83573,
+    "fy27": 139498,
+    "note": "Includes $90,000 interest on the new fire station bond."
+   }
+  ],
+  "departmentsNote": "Jackson budgets by calendar year, so 'fy26' here means 2025 and 'fy27' means 2026. Figures are the 2025 budget and the 2026 proposed budget from the 2025 Town Report; the 2026 lines add to the proposed $3,488,869, and Assessing shows the $2,000 town meeting amendment. The 2025 lines as read add to $3,188,645, $1,501 more than the printed 2025 total of $3,187,144, so one 2025 line may be misread. Separate warrant articles outside the operating budget: capital reserves $383,190 (Article 8), expendable trust funds $140,000 (Article 9), social services $30,318 (Article 10), a new sidewalk capital reserve (Article 11) and $9,000 for two speed display signs (Article 14).",
+  "needs_review": true,
+  "review_note": "Department lines read from the 2025 Town Report PDF: the 2025 column adds to $1,501 more than the printed total. The adopted $3,490,869 and the assessing amendment come from the Daily Sun, not the official town meeting minutes, which could not be opened. Article 11's sidewalk reserve is $50,000 in the warrant but '$5,000' in the Daily Sun text.",
+  "drivers": [
+   "Police up $67,024 (16.1%), mostly wages.",
+   "Debt service up $55,925, including the first $90,000 of interest on the new fire station bond; the Valley Cross Road bridge loan was paid off in 2025.",
+   "Personnel costs up $54,661: health insurance up $26,889 and state retirement up $23,541.",
+   "Financial administration up $44,068, mostly professional fees ($42,000 to $75,000).",
+   "Fire up $22,032, including utilities for both the old and new stations.",
+   "November 2025: Selectmen added $28,090 to finish buying out the town's solar power agreement."
+  ],
+  "revenue": {
+   "propertyTaxLevy": null,
+   "nonPropertyTax": null,
+   "nonPropertyTaxDetail": [],
+   "note": "2025 tax rate setting (state DRA pages in the 2025 Town Report): town property tax effort $2,784,223; total property tax commitment $7,601,778 including schools, county and the Water Precinct; $600,000 of fund balance used to reduce taxes. The 2026 revenue estimate was not found."
+  },
+  "taxRate": {
+   "fy27Estimate": null,
+   "fy26": 8.61,
+   "rateLabel": "2025 tax year, outside the Jackson Water Precinct",
+   "note": "Dollars per $1,000 of assessed value. The 2025 rate was $8.61 (town, local school, state education and county). Properties in the Jackson Water Precinct also pay the precinct's $2.09, for $10.70. The town says the state usually sets the new rate in late October or November; the 2026 rate had not been published in the sources opened. Total assessed value: $853,951,147 (2025), after the 2024 revaluation.",
+   "components": [
+    {
+     "name": "Town",
+     "fy26": 3.25,
+     "fy27": null,
+     "fy25": 2.89
+    },
+    {
+     "name": "Schools (local)",
+     "fy26": 3.54,
+     "fy27": null,
+     "fy25": 2.08
+    },
+    {
+     "name": "State education tax",
+     "fy26": 1.07,
+     "fy27": null,
+     "fy25": 1.05
+    },
+    {
+     "name": "Carroll County",
+     "fy26": 0.75,
+     "fy27": null,
+     "fy25": 0.73
+    }
+   ],
+   "history": [
+    {
+     "fy": "2024 tax year",
+     "rate": 6.75,
+     "note": "Revaluation year; $8.69 in the Water Precinct ($1.94 precinct rate)"
+    },
+    {
+     "fy": "2025 tax year",
+     "rate": 8.61,
+     "note": "Up $1.86, mostly the local school share (up $1.46); $10.70 in the Water Precinct"
+    }
+   ],
+   "medianHome": {
+    "value": null,
+    "note": "No town-published median assessment was found. The town's tax sheet uses a $500,000 home as its example: $4,305 in 2025 ($5,350 in the Water Precinct).",
+    "source": "https://www.jackson-nh.gov/wp-content/uploads/2026/01/property_tax_rate_info_2025.pdf"
+   }
+  },
+  "taxDollar": {
+   "label": "Where a Jackson tax dollar goes (2025 tax rate, outside the Water Precinct)",
+   "items": [
+    {
+     "name": "Schools (local)",
+     "pct": 41.1
+    },
+    {
+     "name": "Town",
+     "pct": 37.7
+    },
+    {
+     "name": "State education tax",
+     "pct": 12.4
+    },
+    {
+     "name": "Carroll County",
+     "pct": 8.7
+    }
+   ]
+  },
+  "enterprise": [
+   {
+    "name": "Jackson Water Precinct operating budget (2026, voted March 9, 2026)",
+    "amount": 414563
+   }
+  ],
+  "waterSewerBill": null,
+  "debtOutstanding": null,
+  "valuation": null,
+  "cip": null,
+  "sources": {
+   "townReport2025": "https://scholars.unh.edu/cgi/viewcontent.cgi?article=1131&context=jackson_nh_reports",
+   "results": "https://www.conwaydailysun.com/news/local/jackson-voters-defeat-fireworks-ban-petitioned-article/article_27688a43-5d15-4ad3-971d-ea43d068b772.html",
+   "taxRate2025": "https://www.jackson-nh.gov/wp-content/uploads/2026/01/property_tax_rate_info_2025.pdf",
+   "waterPrecinct": "https://www.jackson-nh.gov/wp-content/uploads/2026/03/March-9-2026-Annual-Water-Precinct-Minutes.pdf",
+   "selectBoard": "https://www.jackson-nh.gov/boards-committees/select-board/"
+  }
+ }
+}

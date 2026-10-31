@@ -1,0 +1,1722 @@
+{
+ "about": {
+  "town": "Bartlett, NH",
+  "as_of": "2026-10-31",
+  "records_from": "2026-03-18",
+  "documents_used": 48,
+  "note": "The Town of Bartlett, Carroll County, covers the villages of Bartlett, Glen, part of Intervale and the Attitash area. It is run by a three-member Board of Selectmen with a Town Administrator, and voters decide the budget at the annual Town Meeting in March. Selectmen, Planning Board and ZBA minutes come from the town's Agenda Center; ten sets of Selectmen minutes (March 18 to October 21, 2026) were read for this record. Minutes for the May to July Selectmen meetings were not opened. The 2026 budget and Town Meeting results are posted only as Adobe cloud links that could not be opened, so the budget block is mostly empty. Water service in parts of town comes from separate water precincts with their own tax rates. Plain-English summaries written by AI; items with needs_review=true are uncertain."
+ },
+ "town": {
+  "name": "Bartlett",
+  "state": "NH",
+  "body": "Board of Selectmen",
+  "bodyShort": "Selectmen",
+  "members": "selectmen",
+  "registeredVoters": null,
+  "registeredByWard": {},
+  "turnout2025": {
+   "ballots": null,
+   "registered": null,
+   "pct": null
+  },
+  "turnoutLabel": "March 2026 town election",
+  "turnoutNote": "Bartlett voted on its town ballot on March 10, 2026; Ron Munro ran unopposed for a second three-year term as selectman and no town or school race was contested (Conway Daily Sun). Ballots cast and registered voters for that election were not found in any source opened. Bartlett has no wards.",
+  "turnout_needs_review": true,
+  "sources": {
+   "election": "https://www.conwaydailysun.com/news/local/conway-filing-period-opens-wednesday-roundup-of-other-towns/article_674c0593-a28f-4a4b-bb69-bd1d4eb00bf7.html",
+   "roster": "https://www.townofbartlett.nh.gov/1194/Selectmens-Office",
+   "wards": "https://www.townofbartlett.nh.gov/1194/Selectmens-Office",
+   "voters": null
+  },
+  "demoAddress": "56 Town Hall Road",
+  "demoAddressNote": "Bartlett Town Hall, 56 Town Hall Road (physical address Bartlett, NH 03812; mailing address Intervale, NH 03845).",
+  "nextCityElection": "March 2027 (annual town election and Town Meeting; date not yet posted)",
+  "contactNote": "Selectmen do not list individual emails. Reach them through the Selectmen's Office at Town Hall, 56 Town Hall Road: 603-356-2950 or Selectmen@townofbartlett.nh.gov. Office hours are 8 AM to 1 PM weekdays. To get on a meeting agenda, call or email by 1 PM the Friday before the meeting.",
+  "polls": {
+   "place": "Josiah Bartlett Elementary School, 1313 US Route 302, Bartlett Village (use the doors by the cafeteria at the east end of the building, not the front door or the Community Room)",
+   "hours": "8 AM to 7 PM, Tuesday, November 3, 2026",
+   "note": "Bring a government-issued photo ID; student IDs are not accepted. Absentee ballots are available from the Town Clerk until 5 PM Monday, November 2. Questions: 603-356-2300. The September 8 primary was held at Town Hall instead.",
+   "source": "https://www.townofbartlett.nh.gov/CivicAlerts.aspx?AID=47"
+  }
+ },
+ "next_council_meeting": null,
+ "issues": [
+  {
+   "id": "tax-billing-revaluation",
+   "title": "Property tax bills now come twice a year; a town-wide revaluation is planned for 2027",
+   "topic": "Budget & taxes",
+   "status": "First half-year bill went out in June 2026 (due July 1); the second 2026 bill comes after the state sets the 2026 tax rate",
+   "next": "November or December 2026: second 2026 tax bill, due 30 days after the bill date",
+   "summary": "Bartlett used to send one property tax bill a year. The Selectmen switched to two bills a year because interest on tax anticipation notes (short-term loans the town takes out to pay bills until taxes come in) went up over the past two years. Separately, the board chair said the town will revalue all property in 2027.",
+   "points": [
+    "The June 2026 bill was half of the 2025 tax rate applied to the 2025 assessment, due July 1, 2026.",
+    "The second bill uses the 2026 assessment and the 2026 rate, minus what was paid in June.",
+    "The last single bill (2025 taxes) was mailed December 12, 2025 and was due January 14, 2026.",
+    "Bartlett's 2025 rate was $6.02 per $1,000 before any water precinct tax, up from $5.58 in 2024 (state tax rate tables).",
+    "March 18, 2026: Chair Chandler said the town will do a town-wide revaluation in 2027. Abatement requests (asking the town to lower an assessment) must be filed each year."
+   ],
+   "keywords": [
+    "tax bill",
+    "property tax",
+    "semi-annual",
+    "twice a year",
+    "tax rate",
+    "revaluation",
+    "assessment",
+    "abatement",
+    "tax anticipation notes"
+   ],
+   "sources": [
+    {
+     "label": "Town news flash, Apr 28, 2026: Tax Billing Update",
+     "url": "https://www.townofbartlett.nh.gov/CivicAlerts.asp?AID=16"
+    },
+    {
+     "label": "Town Clerk / Tax Collector page",
+     "url": "https://www.townofbartlett.nh.gov/1193/Town-Clerk-Tax-Collector"
+    },
+    {
+     "label": "Selectmen minutes, Mar 18, 2026 (revaluation, abatements)",
+     "url": "https://www.townofbartlett.nh.gov/AgendaCenter/ViewFile/Minutes/_03182026-172"
+    },
+    {
+     "label": "NH DRA 2025 Municipal Tax Rates (copy hosted by the Town of Acworth)",
+     "url": "https://www.acworthnh.net/_files/ugd/a327e9_a3f47ac2d74a46b7bb7c6b1467f85e8c.pdf"
+    }
+   ],
+   "scope": "Town",
+   "related": [
+    {
+     "date": "2026-03-18",
+     "body": "Board of Selectmen",
+     "url": "https://www.townofbartlett.nh.gov/AgendaCenter/ViewFile/Minutes/_03182026-172",
+     "d": {
+      "title": "Revaluation planned for 2027",
+      "detail": "Chandler told a resident asking about her assessment that the town will revalue all property in 2027.",
+      "outcome": "discussion, no vote"
+     }
+    }
+   ],
+   "needs_review": true,
+   "review_note": "No Selectmen vote adopting twice-a-year billing was found in the minutes opened; the policy comes from the town's April 28 notice."
+  },
+  {
+   "id": "gravel-pit-route-16",
+   "title": "Proposed gravel pit off Route 16",
+   "topic": "Housing & zoning",
+   "status": "Before the Planning Board; listed for its September 10 public hearing (result not yet posted)",
+   "next": null,
+   "summary": "St. Pete LLC wants to dig and sell gravel from about 20 acres off Route 16 over ten years, leaving a flat lot of about 9 acres for future commercial use. Planning Board members disagree on whether Bartlett's zoning allows a new gravel pit at all, and the board asked for legal advice.",
+   "points": [
+    "About 600,000 cubic yards in total, roughly 60,000 a year for 10 years, across two lots (Tax Map 2RT16-1 Lot 057L01 and Tax Map 2RT302-1R Lot 017R00). Crushing about once a year.",
+    "Would need a state commercial driveway permit onto Route 16 and state alteration of terrain (large earth-moving) and shoreline permits; no wetland impacts expected, per the applicant's engineer (Verdantas).",
+    "July 6: several board members said gravel pits were historically not allowed except grandfathered ones. The applicant said the Selectmen view it as allowed under the zoning ordinance's general provisions (Section N); the board said that view does not bind it and asked the NH Municipal Association for an opinion.",
+    "Aug 3: the town attorney had answered one of two questions. If the Planning Board denies it, the applicant can go to the Zoning Board of Adjustment; if the ZBA approves, it returns for an excavation permit.",
+    "Several residents asked about the proposal at the August 3 meeting; the chair said the board would respond publicly as the process moves forward."
+   ],
+   "keywords": [
+    "gravel pit",
+    "gravel",
+    "excavation",
+    "st. pete",
+    "route 16",
+    "verdantas",
+    "special exception"
+   ],
+   "sources": [
+    {
+     "label": "Planning Board minutes, Jul 6, 2026",
+     "url": "https://www.townofbartlett.nh.gov/AgendaCenter/ViewFile/Minutes/_07062026-192"
+    },
+    {
+     "label": "Planning Board minutes, Aug 3, 2026",
+     "url": "https://www.townofbartlett.nh.gov/AgendaCenter/ViewFile/Minutes/_08032026-197"
+    },
+    {
+     "label": "Planning Board hearing agenda, Sep 10, 2026",
+     "url": "https://www.townofbartlett.nh.gov/AgendaCenter/ViewFile/Agenda/_09102026-200"
+    }
+   ],
+   "scope": "Town",
+   "related": [
+    {
+     "date": "2026-08-03",
+     "body": "Planning Board",
+     "url": "https://www.townofbartlett.nh.gov/AgendaCenter/ViewFile/Minutes/_08032026-197",
+     "d": {
+      "title": "Gravel pit discussed; no application yet",
+      "detail": "No application was before the board, so no hearing was held.",
+      "outcome": "no vote"
+     }
+    },
+    {
+     "date": "2026-07-06",
+     "body": "Planning Board",
+     "url": "https://www.townofbartlett.nh.gov/AgendaCenter/ViewFile/Minutes/_07062026-192",
+     "d": {
+      "title": "Informational hearing on the gravel pit",
+      "detail": "Board asked for a legal opinion on whether zoning allows it.",
+      "outcome": "no vote"
+     }
+    }
+   ],
+   "needs_review": true,
+   "review_note": "The September 10 hearing minutes were not posted; the current status is unknown."
+  },
+  {
+   "id": "master-plan-data-centers",
+   "title": "Master Plan update, and whether to plan for AI data centers",
+   "topic": "Housing & zoning",
+   "status": "Planning Board revising the 2016 Master Plan; data centers still under discussion",
+   "next": "2026-11-02: Planning Board public hearing (agenda posted; contents not reviewed)",
+   "summary": "The Planning Board is updating the town's Master Plan (the long-range plan that guides zoning; the current one was finalized April 19, 2016). It is also debating whether the plan should address AI and data centers, including whether to allow them and on what terms.",
+   "points": [
+    "Aug 26: the board needs updated sections from the Road Agent and the Fire Department; Fire and Roads were preparing them (Aug 3).",
+    "July 6: the chair polled members on putting a question on the town ballot to ban data centers; the board said it was too soon.",
+    "Members raised energy and water use, on-site power and small nuclear units, and whether Bartlett would benefit from the jobs.",
+    "June 8: the ZBA noted the update needs technical changes and new sewer service boundaries; public input is welcome after the draft update.",
+    "Aug 3: the board discussed warrant article and public hearing deadlines for the March 2027 Town Meeting."
+   ],
+   "keywords": [
+    "master plan",
+    "data center",
+    "ai",
+    "zoning",
+    "planning board",
+    "warrant article"
+   ],
+   "sources": [
+    {
+     "label": "Planning Board minutes, Jul 6, 2026",
+     "url": "https://www.townofbartlett.nh.gov/AgendaCenter/ViewFile/Minutes/_07062026-192"
+    },
+    {
+     "label": "Planning Board minutes, Aug 3, 2026",
+     "url": "https://www.townofbartlett.nh.gov/AgendaCenter/ViewFile/Minutes/_08032026-197"
+    },
+    {
+     "label": "Selectmen minutes, Aug 26, 2026",
+     "url": "https://www.townofbartlett.nh.gov/AgendaCenter/ViewFile/Minutes/_08262026-201"
+    },
+    {
+     "label": "ZBA minutes, Jun 8, 2026",
+     "url": "https://www.townofbartlett.nh.gov/AgendaCenter/ViewFile/Minutes/_06082026-189"
+    },
+    {
+     "label": "Planning Board page (2016 Master Plan link)",
+     "url": "https://www.townofbartlett.nh.gov/1195/Planning-Board"
+    }
+   ],
+   "scope": "Town",
+   "related": [
+    {
+     "date": "2026-07-06",
+     "body": "Planning Board",
+     "url": "https://www.townofbartlett.nh.gov/AgendaCenter/ViewFile/Minutes/_07062026-192",
+     "d": {
+      "title": "Board polled on a data center ban question",
+      "detail": "Members said it was too soon to put one on the ballot.",
+      "outcome": "no vote"
+     }
+    }
+   ]
+  },
+  {
+   "id": "dugway-flood-mitigation",
+   "title": "Flood protection on the Saco River: the Dugway berm and federal grants",
+   "topic": "Environment & resilience",
+   "status": "Town's Flood Hazard Mitigation Committee seeking a new design and FEMA grant money",
+   "next": null,
+   "summary": "A town committee wants to rebuild flood protection at the Dugway berm on the upper Saco River using FEMA's BRIC program (Building Resilient Infrastructure and Communities, federal money for projects that reduce disaster damage). There is no current design, and the Selectmen want cost estimates before any engineering spending.",
+   "points": [
+    "April 15: BRIC money is available again after the 2025 program was ended; the town must reapply (July deadline). The engineer previously involved declined the project. The town has also applied for BRIC money for a Razor Brook bridge project.",
+    "April 15: the Selectmen adopted the town's Hazard Mitigation Plan, prepared by Mapping and Planning Solutions.",
+    "Sept 24: estimates from HEB Engineering were received; a committee member said a BRIC grant decision was expected by year-end.",
+    "Oct 21: the board agreed the committee may use HEB's grant writer only if there is no charge, with any estimates sent to the Selectmen's office first. Committee members proposed a warrant article for a flood reserve fund.",
+    "Selectman Munro said the last major flood was in December 2023 (April 29 meeting)."
+   ],
+   "keywords": [
+    "flood",
+    "dugway",
+    "berm",
+    "saco river",
+    "bric",
+    "fema",
+    "hazard mitigation",
+    "razor brook"
+   ],
+   "sources": [
+    {
+     "label": "Selectmen minutes, Apr 15, 2026",
+     "url": "https://www.townofbartlett.nh.gov/AgendaCenter/ViewFile/Minutes/_04152026-179"
+    },
+    {
+     "label": "Selectmen minutes, Sep 24, 2026",
+     "url": "https://www.townofbartlett.nh.gov/AgendaCenter/ViewFile/Minutes/_09242026-204"
+    },
+    {
+     "label": "Selectmen minutes, Oct 21, 2026 (draft)",
+     "url": "https://www.townofbartlett.nh.gov/AgendaCenter/ViewFile/Minutes/_10212026-208"
+    }
+   ],
+   "scope": "Town",
+   "related": [
+    {
+     "date": "2026-10-21",
+     "body": "Board of Selectmen",
+     "url": "https://www.townofbartlett.nh.gov/AgendaCenter/ViewFile/Minutes/_10212026-208",
+     "d": {
+      "title": "Grant writer allowed only at no cost",
+      "detail": "Estimates for any HEB Engineering costs go to the Selectmen's office first.",
+      "outcome": "agreed by consensus (no vote recorded)"
+     }
+    },
+    {
+     "date": "2026-04-15",
+     "body": "Board of Selectmen",
+     "url": "https://www.townofbartlett.nh.gov/AgendaCenter/ViewFile/Minutes/_04152026-179",
+     "d": {
+      "title": "Adopted the Hazard Mitigation Plan",
+      "detail": "Plan prepared by Mapping and Planning Solutions.",
+      "outcome": "roll call: GGC yes, VLG yes, RTM absent"
+     }
+    }
+   ]
+  },
+  {
+   "id": "school-bus-parking",
+   "title": "Where the school buses park in winter",
+   "topic": "Schools",
+   "status": "Draft agreement between the town, a private landowner and the Bartlett School District still under negotiation",
+   "next": "2026-11-10: Bartlett School Board meeting (per the Oct 21 Selectmen minutes)",
+   "summary": "The school district's buses have parked at Town Hall, but the Selectmen say there is no room and the buses get in the way of snow removal and highway equipment. The school district and town are working on a memorandum of understanding (MOU, a written agreement) to park them on private land nearby instead.",
+   "points": [
+    "Aug 11: the School Board liaison reported a possible winter spot on private land, if the Highway Department plows it; bus drivers also want steep roads such as Glen Ledge plowed by 6 to 6:30 AM.",
+    "Oct 7: the Selectmen asked to drop the draft's lighting and insurance clauses; the landowner offered the lot at will with a termination clause.",
+    "Oct 21: the school side cited a gravel quote of about $3,000; Chair Chandler said the school would pay only for gravel, with the Highway Department doing the labor and upkeep.",
+    "Two of the district's four buses need to be plugged in during winter.",
+    "The school's Facilities Committee is also looking at parking near the school."
+   ],
+   "keywords": [
+    "school bus",
+    "bus parking",
+    "mou",
+    "school district",
+    "town hall",
+    "plowing",
+    "glen ledge"
+   ],
+   "sources": [
+    {
+     "label": "Selectmen minutes, Aug 11, 2026",
+     "url": "https://www.townofbartlett.nh.gov/AgendaCenter/ViewFile/Minutes/_08112026-199"
+    },
+    {
+     "label": "Selectmen minutes, Oct 7, 2026 (draft)",
+     "url": "https://www.townofbartlett.nh.gov/AgendaCenter/ViewFile/Minutes/_10072026-206"
+    },
+    {
+     "label": "Selectmen minutes, Oct 21, 2026 (draft)",
+     "url": "https://www.townofbartlett.nh.gov/AgendaCenter/ViewFile/Minutes/_10212026-208"
+    }
+   ],
+   "scope": "Town",
+   "related": [
+    {
+     "date": "2026-10-21",
+     "body": "Board of Selectmen",
+     "url": "https://www.townofbartlett.nh.gov/AgendaCenter/ViewFile/Minutes/_10212026-208",
+     "d": {
+      "title": "Bus parking agreement discussed with the School Board",
+      "detail": "Chandler to talk with the Road Agent.",
+      "outcome": "no vote"
+     }
+    }
+   ],
+   "needs_review": true,
+   "review_note": "The Oct 7 minutes say the town will not buy gravel; the Oct 21 minutes say the Highway Department would supply gravel at material cost. The final terms are not settled."
+  },
+  {
+   "id": "stillings-grant-block-g",
+   "title": "Stillings Grant Block G: a new road and stream crossing",
+   "topic": "Infrastructure & utilities",
+   "status": "Planning Board review continued month to month; Selectmen insist the road meet town standards",
+   "next": null,
+   "summary": "AMSCO wants to subdivide Block G (Phase 1) of the Stillings Grant development, extending Cave Mountain Road and creating a lot for a water system pump storage tank. The sticking point is how the new road crosses a stream.",
+   "points": [
+    "July 6: the Selectmen had denied the waivers the developer sought, so the road must be designed to town standards.",
+    "Aug 3: a stream crossing package went to the NH Department of Environmental Services (NHDES), with a review of about 30 days.",
+    "Sept 24: the project team proposed angled, oversized culverts that do not meet town road standards and offered a sizable payment toward future road maintenance; the Selectmen said they would consult the town's engineer.",
+    "Oct 21: the Selectmen kept their position that roads must meet town standards; NHDES reportedly wants a bridge."
+   ],
+   "keywords": [
+    "stillings grant",
+    "block g",
+    "amsco",
+    "cave mountain road",
+    "culvert",
+    "stream crossing",
+    "subdivision",
+    "road standards"
+   ],
+   "sources": [
+    {
+     "label": "Planning Board minutes, Jul 6, 2026",
+     "url": "https://www.townofbartlett.nh.gov/AgendaCenter/ViewFile/Minutes/_07062026-192"
+    },
+    {
+     "label": "Planning Board minutes, Aug 3, 2026",
+     "url": "https://www.townofbartlett.nh.gov/AgendaCenter/ViewFile/Minutes/_08032026-197"
+    },
+    {
+     "label": "Selectmen minutes, Sep 24, 2026",
+     "url": "https://www.townofbartlett.nh.gov/AgendaCenter/ViewFile/Minutes/_09242026-204"
+    },
+    {
+     "label": "Selectmen minutes, Oct 21, 2026 (draft)",
+     "url": "https://www.townofbartlett.nh.gov/AgendaCenter/ViewFile/Minutes/_10212026-208"
+    }
+   ],
+   "scope": "Town",
+   "related": [
+    {
+     "date": "2026-10-21",
+     "body": "Board of Selectmen",
+     "url": "https://www.townofbartlett.nh.gov/AgendaCenter/ViewFile/Minutes/_10212026-208",
+     "d": {
+      "title": "Selectmen kept opposing a non-standard road",
+      "detail": "Roads must meet town standards.",
+      "outcome": "no change in position (no vote recorded)"
+     }
+    }
+   ]
+  }
+ ],
+ "council_meetings": [
+  {
+   "body": "Board of Selectmen",
+   "date": "2026-10-21",
+   "minutes_url": "https://www.townofbartlett.nh.gov/AgendaCenter/ViewFile/Minutes/_10212026-208",
+   "minutes_status": "draft",
+   "ocr": false,
+   "attendance": {
+    "present": [
+     "Chandler",
+     "Garland",
+     "Munro"
+    ],
+    "absent": []
+   },
+   "headline": "Selectmen heard abutters' complaints about the new Glen Cemetery road, pressed the school district on winter bus parking and let the flood committee use a grant writer only at no cost.",
+   "decisions": [
+    {
+     "title": "Flood committee may use HEB Engineering's grant writer only if free",
+     "detail": "For the Dugway berm FEMA grant effort. Estimates for any HEB costs go to the Selectmen's office first.",
+     "outcome": "agreed by consensus (no vote recorded)",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": null,
+     "dissent": [],
+     "topic": "Environment & resilience",
+     "dollars": null,
+     "ordinance_reading": null,
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Approved minutes of October 7",
+     "detail": "Moved by Garland, who was absent on October 7.",
+     "outcome": "roll call: GGC yes, VLG yes, RTM late",
+     "moved_by": "Garland",
+     "seconded_by": "Chandler",
+     "roll_call": null,
+     "dissent": [],
+     "topic": "Government & elections",
+     "dollars": null,
+     "ordinance_reading": null,
+     "needs_review": true,
+     "review_note": "Munro arrived after the roll call; the minutes do not state a result."
+    }
+   ],
+   "discussed": [
+    {
+     "title": "Winter school bus parking",
+     "detail": "A School Board member followed up on the draft agreement. Chandler said Town Hall lacks room; the school would pay only for gravel (a quote of about $3,000 was cited) and the Highway Department would do the work. Chandler will talk with the Road Agent.",
+     "topic": "Schools"
+    },
+    {
+     "title": "Glen Cemetery road and boundary",
+     "detail": "Two abutters said a town survey shrank their lot by about 15 feet, the finished road differs from the plan and no state permit was obtained. The town's surveyor said the old deed descriptions do not close and the survey corrects them. The engineer proposed an easement restoring about 280 feet of driveway area. The abutters said they would take legal action.",
+     "topic": "City buildings & facilities"
+    },
+    {
+     "title": "Flood mitigation",
+     "detail": "Committee members cited a 50 percent rise in Northeast flood intensity since the mid-1990s and proposed a warrant article for a flood reserve fund.",
+     "topic": "Environment & resilience"
+    },
+    {
+     "title": "$100,000 town upgrades fund",
+     "detail": "Asked about money approved at Town Meeting, staff said voters had set up a $100,000 capital reserve fund (savings account for future projects); the warrant did not say what it is for and none has been spent.",
+     "topic": "Budget & taxes"
+    },
+    {
+     "title": "Stillings Grant Block G road",
+     "detail": "The board kept its position that the road must meet town standards.",
+     "topic": "Infrastructure & utilities"
+    },
+    {
+     "title": "Day spa change of use",
+     "detail": "A permit for a day spa at an inn's pool building was returned for a parking analysis and septic calculation; the board said it had not denied it.",
+     "topic": "Downtown & business"
+    },
+    {
+     "title": "Poll worker meals and Transfer Station hiring",
+     "detail": "Staff will look into dinner for election workers; the Transfer Station attendant job will also be advertised in the newspaper.",
+     "topic": "Government & elections"
+    }
+   ],
+   "public_comment": [
+    {
+     "topic": "Glen Cemetery road",
+     "speakers": 2,
+     "gist": "Two abutters objected to the survey, the road's final layout and the lack of a state permit, and asked that their driveway area be restored."
+    },
+    {
+     "topic": "Lot frontage",
+     "speakers": 1,
+     "gist": "A resident disputed the town's position on road frontage for a lot subdivided in 1983; the board will request the documents."
+    }
+   ],
+   "coming_up": [
+    {
+     "date": "2026-11-10",
+     "item": "Bartlett School Board meeting (bus parking)"
+    },
+    {
+     "date": null,
+     "item": "Board to answer emailed questions about the Transfer Station job within two weeks"
+    }
+   ]
+  },
+  {
+   "body": "Board of Selectmen",
+   "date": "2026-10-07",
+   "minutes_url": "https://www.townofbartlett.nh.gov/AgendaCenter/ViewFile/Minutes/_10072026-206",
+   "minutes_status": "draft",
+   "ocr": false,
+   "attendance": {
+    "present": [
+     "Chandler",
+     "Munro"
+    ],
+    "absent": [
+     "Garland"
+    ]
+   },
+   "headline": "Two selectmen approved a July 2027 charity 5K on River Street and Cobb Farm Road and reviewed a first draft of the school bus parking agreement.",
+   "decisions": [
+    {
+     "title": "Approved a special event permit for a charity 5K on July 17, 2027",
+     "detail": "About 200 runners and walkers on River Street and Cobb Farm Road, parking at Josiah Bartlett Elementary School; the race does not cross Route 302 and police will help with crossings. Proceeds go to the Cam Bailey Cancer Foundation.",
+     "outcome": "roll call: GGC yes, VLG absent, RTM yes",
+     "moved_by": "Munro",
+     "seconded_by": "Chandler",
+     "roll_call": {
+      "yes": [
+       "Chandler",
+       "Munro"
+      ],
+      "no": []
+     },
+     "dissent": [],
+     "topic": "Parks & recreation",
+     "dollars": null,
+     "ordinance_reading": null,
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Approved minutes of September 24",
+     "detail": "",
+     "outcome": "roll call: GGC yes, VLG absent, RTM yes",
+     "moved_by": "Munro",
+     "seconded_by": "Chandler",
+     "roll_call": {
+      "yes": [
+       "Chandler",
+       "Munro"
+      ],
+      "no": []
+     },
+     "dissent": [],
+     "topic": "Government & elections",
+     "dollars": null,
+     "ordinance_reading": null,
+     "needs_review": false,
+     "review_note": null
+    }
+   ],
+   "discussed": [
+    {
+     "title": "School bus parking agreement",
+     "detail": "The draft arrived the day before. Chandler wants the lighting and insurance clauses removed; the town will not buy gravel but would grade and plow once the school delivers it. The landowner offered the lot at will with a termination clause.",
+     "topic": "Schools"
+    },
+    {
+     "title": "Home business complaint",
+     "detail": "After an anonymous complaint about noise and traffic, Chandler said the owner lives on the property and the activity fits the home industry rules; he considers it resolved.",
+     "topic": "Housing & zoning"
+    },
+    {
+     "title": "Trail workday",
+     "detail": "The Granite Backcountry Alliance plans a Maple Villa trail workday November 14 and will notify East Branch Road neighbors.",
+     "topic": "Parks & recreation"
+    },
+    {
+     "title": "Water precinct bill",
+     "detail": "Staff asked about a bill from the Bartlett Village Water Precinct for the hotel lot, the first in at least five years; unresolved.",
+     "topic": "Infrastructure & utilities"
+    },
+    {
+     "title": "Nonpublic session",
+     "detail": "A 3-minute closed session on a personnel matter under RSA 91-A:3, II(a); minutes sealed.",
+     "topic": "Government & elections"
+    }
+   ],
+   "public_comment": [
+    {
+     "topic": "Home business complaint",
+     "speakers": 2,
+     "gist": "Two residents questioned how anonymous complaints are handled and called the process unfair."
+    }
+   ],
+   "coming_up": [
+    {
+     "date": "2026-10-21",
+     "item": "School Board liaison returns on bus parking"
+    },
+    {
+     "date": "2026-11-14",
+     "item": "Maple Villa trail workday"
+    }
+   ]
+  },
+  {
+   "body": "Board of Selectmen",
+   "date": "2026-09-24",
+   "minutes_url": "https://www.townofbartlett.nh.gov/AgendaCenter/ViewFile/Minutes/_09242026-204",
+   "minutes_status": "final",
+   "ocr": false,
+   "source_note": "Held on a Thursday. The posted file carries no approval mark; the board approved these minutes on October 7.",
+   "attendance": {
+    "present": [
+     "Chandler",
+     "Garland",
+     "Munro"
+    ],
+    "absent": []
+   },
+   "headline": "Selectmen renewed retiree Medicare coverage, accepted an $8,500 state highway safety grant for extra police patrols and agreed to hire another Transfer Station attendant before winter.",
+   "decisions": [
+    {
+     "title": "Accepted the Medicare Advantage and prescription drug plan renewal",
+     "detail": "Rates and conditions of the MAPD renewal accepted.",
+     "outcome": "roll call: GGC yes, VLG yes, RTM yes",
+     "moved_by": "Garland",
+     "seconded_by": "Munro",
+     "roll_call": {
+      "yes": [
+       "Chandler",
+       "Garland",
+       "Munro"
+      ],
+      "no": []
+     },
+     "dissent": [],
+     "topic": "Health & human services",
+     "dollars": null,
+     "ordinance_reading": null,
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Accepted an $8,500 Highway Safety grant for extra police patrols",
+     "detail": "Chief Keaton was awarded the grant again to cover overtime; he is authorized to sign the grant papers.",
+     "outcome": "accepted by unanimous vote",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": null,
+     "dissent": [],
+     "topic": "Public safety",
+     "dollars": 8500,
+     "ordinance_reading": null,
+     "needs_review": true,
+     "review_note": "No mover or seconder recorded; the minutes call it a grant 'for 2027'."
+    },
+    {
+     "title": "Agreed to hire another Transfer Station attendant before winter",
+     "detail": "Full-time if available; advertised for two weeks.",
+     "outcome": "agreed (no vote recorded)",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": null,
+     "dissent": [],
+     "topic": "Infrastructure & utilities",
+     "dollars": null,
+     "ordinance_reading": null,
+     "needs_review": false,
+     "review_note": null
+    }
+   ],
+   "discussed": [
+    {
+     "title": "Tax deeds",
+     "detail": "The Town Clerk presented properties up for tax deeding (the town taking property for unpaid taxes), including 36 at Grand Summit; the question goes to town counsel.",
+     "topic": "Budget & taxes"
+    },
+    {
+     "title": "Stillings Grant Block G",
+     "detail": "The project team proposed culverts that do not meet town road standards and offered a payment toward future maintenance; the board will consult its engineer.",
+     "topic": "Infrastructure & utilities"
+    },
+    {
+     "title": "Glen Cemetery lots",
+     "detail": "The town's engineer proposed merging three town-owned lots; a draft driveway agreement for neighbors goes to town counsel first.",
+     "topic": "City buildings & facilities"
+    },
+    {
+     "title": "Rolling Ridge paving",
+     "detail": "This year's paving was what the budget allowed at current asphalt prices; more may be budgeted next year.",
+     "topic": "Parking & transportation"
+    },
+    {
+     "title": "Route 16A speeding",
+     "detail": "Route 16A is a state road, so speed limit changes go through the state; Munro suggested police patrols in the meantime.",
+     "topic": "Public safety"
+    },
+    {
+     "title": "Accessory dwelling septic design",
+     "detail": "The board said it will deny a septic design for an ADU on a 1973 nonconforming lot, which lets the owner appeal to the ZBA.",
+     "topic": "Housing & zoning"
+    },
+    {
+     "title": "Nonpublic session",
+     "detail": "Personnel matter under RSA 91-A:3, II(a); minutes sealed.",
+     "topic": "Government & elections"
+    }
+   ],
+   "public_comment": [
+    {
+     "topic": "Route 16A speeding",
+     "speakers": 1,
+     "gist": "A resident said the state told them to wait for a serious incident before acting."
+    }
+   ],
+   "coming_up": [
+    {
+     "date": null,
+     "item": "Bartlett Jackson Ambulance Service meeting (November 10 in Jackson or November 18 in Bartlett; not confirmed)"
+    }
+   ]
+  },
+  {
+   "body": "Board of Selectmen",
+   "date": "2026-09-09",
+   "minutes_url": "https://www.townofbartlett.nh.gov/AgendaCenter/ViewFile/Minutes/_09092026-202",
+   "minutes_status": "final",
+   "ocr": false,
+   "source_note": "The posted file carries no approval mark; the board approved these minutes on September 24.",
+   "attendance": {
+    "present": [
+     "Garland",
+     "Munro"
+    ],
+    "absent": [
+     "Chandler"
+    ]
+   },
+   "headline": "With Chair Chandler absent, two selectmen discussed reorganizing Transfer Station management and put off a complaint about trash dumping at the Morrell Family Community Complex.",
+   "decisions": [
+    {
+     "title": "Approved minutes of August 26",
+     "detail": "",
+     "outcome": "roll call: GGC absent, VLG yes, RTM yes",
+     "moved_by": "Garland",
+     "seconded_by": "Munro",
+     "roll_call": {
+      "yes": [
+       "Garland",
+       "Munro"
+      ],
+      "no": []
+     },
+     "dissent": [],
+     "topic": "Government & elections",
+     "dollars": null,
+     "ordinance_reading": null,
+     "needs_review": false,
+     "review_note": null
+    }
+   ],
+   "discussed": [
+    {
+     "title": "Transfer Station management",
+     "detail": "Chandler proposed in writing that Jeff Bryan be General Manager (day-to-day operations and staff) and Bob Blake Operations Manager (equipment, snow removal, shipping). Both members agreed Bryan stays in charge of staff. No vote recorded.",
+     "topic": "Infrastructure & utilities"
+    },
+    {
+     "title": "Trash dumping at the Morrell Family Community Complex",
+     "detail": "Letter and photos from the recreation director; tabled until she could attend.",
+     "topic": "Parks & recreation"
+    },
+    {
+     "title": "Nonpublic session",
+     "detail": "Personnel matter under RSA 91-A:3, II(a); minutes sealed.",
+     "topic": "Government & elections"
+    }
+   ],
+   "public_comment": [],
+   "coming_up": [
+    {
+     "date": "2026-09-24",
+     "item": "Trash dumping complaint, with the recreation director"
+    }
+   ]
+  },
+  {
+   "body": "Board of Selectmen",
+   "date": "2026-08-26",
+   "minutes_url": "https://www.townofbartlett.nh.gov/AgendaCenter/ViewFile/Minutes/_08262026-201",
+   "minutes_status": "final",
+   "ocr": false,
+   "source_note": "The posted file carries no approval mark; the board approved these minutes on September 9.",
+   "attendance": {
+    "present": [
+     "Chandler",
+     "Garland",
+     "Munro"
+    ],
+    "absent": []
+   },
+   "headline": "Selectmen promoted Jeff Bryan to Transfer Station Manager and set health and dental benefits for part-time workers starting in 2027.",
+   "decisions": [
+    {
+     "title": "Promoted Jeff Bryan to Manager of the Transfer Station",
+     "detail": "Effective immediately.",
+     "outcome": "approved unanimously",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": null,
+     "dissent": [],
+     "topic": "Infrastructure & utilities",
+     "dollars": null,
+     "ordinance_reading": null,
+     "needs_review": true,
+     "review_note": "No mover, seconder or roll call recorded."
+    },
+    {
+     "title": "Offered health and dental benefits to part-time employees starting January 1, 2027",
+     "detail": "For employees working 20 to 39 hours a week; the town pays 50 percent of the premium and the employee pays 50 percent.",
+     "outcome": "decided (no vote recorded)",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": null,
+     "dissent": [],
+     "topic": "Budget & taxes",
+     "dollars": null,
+     "ordinance_reading": null,
+     "needs_review": true,
+     "review_note": "The minutes describe the decision but record no motion or vote."
+    },
+    {
+     "title": "Authorized upgrading eligible police cell phones",
+     "detail": "At no cost and no increase to the monthly bill.",
+     "outcome": "authorized unanimously",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": null,
+     "dissent": [],
+     "topic": "Public safety",
+     "dollars": null,
+     "ordinance_reading": null,
+     "needs_review": true,
+     "review_note": "No mover, seconder or roll call recorded."
+    },
+    {
+     "title": "Approved minutes of August 11",
+     "detail": "",
+     "outcome": "roll call: GGC yes, VLG yes, RTM yes",
+     "moved_by": "Garland",
+     "seconded_by": "Munro",
+     "roll_call": {
+      "yes": [
+       "Chandler",
+       "Garland",
+       "Munro"
+      ],
+      "no": []
+     },
+     "dissent": [],
+     "topic": "Government & elections",
+     "dollars": null,
+     "ordinance_reading": null,
+     "needs_review": false,
+     "review_note": null
+    }
+   ],
+   "discussed": [
+    {
+     "title": "Primary setup at Town Hall",
+     "detail": "Furniture moved to make room for voting booths for the September 8 primary.",
+     "topic": "Government & elections"
+    },
+    {
+     "title": "Master Plan update",
+     "detail": "The Planning Board needs updated sections from the Road Agent and Fire Department.",
+     "topic": "Housing & zoning"
+    },
+    {
+     "title": "Ambulance service letter",
+     "detail": "A serious letter received by a member of the Bartlett Jackson Ambulance Service was tabled until all selectmen have read it.",
+     "topic": "Public safety"
+    },
+    {
+     "title": "Nonpublic session",
+     "detail": "Personnel matter under RSA 91-A:3, II(a), about 50 minutes; minutes sealed.",
+     "topic": "Government & elections"
+    }
+   ],
+   "public_comment": [],
+   "coming_up": [
+    {
+     "date": "2026-09-08",
+     "item": "State primary at Town Hall"
+    },
+    {
+     "date": "2026-09-09",
+     "item": "Next Selectmen's meeting (back to every other Wednesday)"
+    }
+   ]
+  },
+  {
+   "body": "Board of Selectmen",
+   "date": "2026-08-11",
+   "minutes_url": "https://www.townofbartlett.nh.gov/AgendaCenter/ViewFile/Minutes/_08112026-199",
+   "minutes_status": "final",
+   "ocr": false,
+   "source_note": "Held on a Tuesday. The posted file carries no approval mark; the board approved these minutes on August 26.",
+   "attendance": {
+    "present": [
+     "Chandler",
+     "Garland",
+     "Munro"
+    ],
+    "absent": []
+   },
+   "headline": "Selectmen and the U.S. Forest Service agreed Allen Road is not a suitable place for a new Mt. Stanton trailhead; the ranger recommended keeping it on Covered Bridge Lane.",
+   "decisions": [
+    {
+     "title": "Opposed moving the Mt. Stanton trailhead to Allen Road",
+     "detail": "Chandler said the board unanimously agreed Allen Road is not suitable and that this is final. The Forest Service District Ranger agreed after hearing residents and recommended keeping the trailhead on Covered Bridge Lane with permitted parking signs.",
+     "outcome": "board position stated as unanimous (no motion recorded)",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": null,
+     "dissent": [],
+     "topic": "Parks & recreation",
+     "dollars": null,
+     "ordinance_reading": null,
+     "needs_review": true,
+     "review_note": "Stated as the board's position; no formal motion or vote recorded."
+    },
+    {
+     "title": "Approved a driveway permit on West Side Road",
+     "detail": "Road Agent and Fire Chief had already signed.",
+     "outcome": "approved (no motion or vote recorded)",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": null,
+     "dissent": [],
+     "topic": "Parking & transportation",
+     "dollars": null,
+     "ordinance_reading": null,
+     "needs_review": true,
+     "review_note": "No motion or vote recorded."
+    },
+    {
+     "title": "Approved minutes of July 28",
+     "detail": "",
+     "outcome": "roll call: GGC yes, VLG yes, RTM yes",
+     "moved_by": "Garland",
+     "seconded_by": "Munro",
+     "roll_call": {
+      "yes": [
+       "Chandler",
+       "Garland",
+       "Munro"
+      ],
+      "no": []
+     },
+     "dissent": [],
+     "topic": "Government & elections",
+     "dollars": null,
+     "ordinance_reading": null,
+     "needs_review": false,
+     "review_note": null
+    }
+   ],
+   "discussed": [
+    {
+     "title": "Winter school bus parking",
+     "detail": "The School Board liaison reported a possible spot on private land if the Highway Department plows it; drivers want steep roads such as Glen Ledge plowed by 6 to 6:30 AM.",
+     "topic": "Schools"
+    },
+    {
+     "title": "Allen Road ownership",
+     "detail": "The ranger said Allen Road is a Class VI road (an unmaintained town road) up to the Forest Service boundary; residents disputed this, and the board will review their materials.",
+     "topic": "Parking & transportation"
+    },
+    {
+     "title": "Penny policy",
+     "detail": "The Town Clerk asked for a written policy on making change as pennies leave circulation.",
+     "topic": "Government & elections"
+    },
+    {
+     "title": "Nonpublic session",
+     "detail": "Personnel matter under RSA 91-A:3, II(a); minutes sealed.",
+     "topic": "Government & elections"
+    }
+   ],
+   "public_comment": [
+    {
+     "topic": "Mt. Stanton trailhead",
+     "speakers": null,
+     "gist": "Allen Road residents opposed the site, raised traffic and road ownership questions, and one filed a Right-to-Know request for related records."
+    }
+   ],
+   "coming_up": [
+    {
+     "date": "2026-08-26",
+     "item": "Next Selectmen's meeting"
+    }
+   ]
+  }
+ ],
+ "board_meetings": [
+  {
+   "body": "Planning Board",
+   "date": "2026-09-10",
+   "record_url": "https://www.townofbartlett.nh.gov/AgendaCenter/ViewFile/Agenda/_09102026-200",
+   "record_type": "agenda only",
+   "headline": "The Planning Board's public hearing agenda listed the Route 16 gravel pit, a 33-unit Cedarcroft Farm development, Stillings Grant Block G and the Master Plan; results are not yet posted.",
+   "items": [
+    {
+     "address": "Tax Map 2RT16-1 Lot 057L01 and Tax Map 2RT302-1R Lot 017R00 (off Route 16)",
+     "applicant": "St. Pete LLC (Verdantas, engineer)",
+     "request": "A new gravel pit.",
+     "decision": null,
+     "vote": null,
+     "conditions": [],
+     "topic": "Housing & zoning",
+     "needs_review": true,
+     "review_note": "Agenda only; minutes not posted."
+    },
+    {
+     "address": "Tax Map 1THORN, Lots 54L00 and 42L00",
+     "applicant": "Cedarcroft Farm LLC",
+     "request": "A subdivision into a 33-unit planned unit development (PUD, a project where homes are grouped and the rest of the land is shared), continued.",
+     "decision": null,
+     "vote": null,
+     "conditions": [],
+     "topic": "Housing & zoning",
+     "needs_review": true,
+     "review_note": "Agenda only; minutes not posted."
+    },
+    {
+     "address": "Tax Map 5STLNG, Parcel 000G00 (Stillings Grant)",
+     "applicant": "AMSCO",
+     "request": "Subdivision of Block G (Phase 1): extend Cave Mountain Road and create a lot for a water system pump storage tank, continued.",
+     "decision": null,
+     "vote": null,
+     "conditions": [],
+     "topic": "Housing & zoning",
+     "needs_review": true,
+     "review_note": "Agenda only; minutes not posted."
+    },
+    {
+     "address": "Tax Map 6WSTSD 002R00 (West Side Road)",
+     "applicant": "Windrose Homes",
+     "request": "Split one lot into two, continued.",
+     "decision": null,
+     "vote": null,
+     "conditions": [],
+     "topic": "Housing & zoning",
+     "needs_review": true,
+     "review_note": "Agenda only; minutes not posted."
+    }
+   ],
+   "policy_items": [
+    {
+     "title": "Master Plan and AI data centers",
+     "detail": "Continued discussion of Master Plan changes and whether to add AI and data centers.",
+     "topic": "Housing & zoning",
+     "needs_review": false,
+     "review_note": null
+    }
+   ]
+  },
+  {
+   "body": "Planning Board",
+   "date": "2026-08-03",
+   "record_url": "https://www.townofbartlett.nh.gov/AgendaCenter/ViewFile/Minutes/_08032026-197",
+   "record_type": "minutes",
+   "headline": "The Planning Board continued four projects to September, heard an early look at the Route 16 gravel pit with no vote, and let its secretary sign notices of decision.",
+   "items": [
+    {
+     "address": "Tax Map 6WSTSD 002R00 (West Side Road)",
+     "applicant": "Windrose Homes",
+     "request": "Split one lot into two, one keeping the house and garage; the driveway would be shared with one curb cut. The board raised septic setbacks from Cow Brook and the garage sitting inside the new setback.",
+     "decision": "accepted with amendments, then continued to September",
+     "vote": "unanimous (tally not recorded)",
+     "conditions": [],
+     "topic": "Housing & zoning",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "address": "Tax Map 1THORN, Lots 54L00 and 42L00",
+     "applicant": "Cedarcroft Farm LLC",
+     "request": "33-unit PUD; coordinating with NHDOT on the Route 16 widening, which encroaches on the land.",
+     "decision": "continued to September",
+     "vote": "unanimous (tally not recorded)",
+     "conditions": [],
+     "topic": "Housing & zoning",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "address": "Tax Map 5STLNG, Parcel 000G00 (Stillings Grant)",
+     "applicant": "AMSCO",
+     "request": "Block G (Phase 1) subdivision; the stream crossing package went to NHDES for about a 30-day review.",
+     "decision": "continued to September",
+     "vote": "unanimous (tally not recorded)",
+     "conditions": [],
+     "topic": "Housing & zoning",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "address": "Tax Map 2RT302 (three parcels)",
+     "applicant": "a property owner",
+     "request": "Ongoing project update; the first culvert is installed.",
+     "decision": "continued to September",
+     "vote": "unanimous (tally not recorded)",
+     "conditions": [],
+     "topic": "Housing & zoning",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "address": "Tax Map 2RT16-1 Lot 057L01 and Tax Map 2RT302-1R Lot 017R00 (off Route 16)",
+     "applicant": "St. Pete LLC (Verdantas, engineer)",
+     "request": "Gravel pit on about 20 commercial acres, leaving a 9-acre commercial lot. No application was filed yet, so no hearing.",
+     "decision": "no decision",
+     "vote": null,
+     "conditions": [],
+     "topic": "Housing & zoning",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "address": "44 Kearsarge Road",
+     "applicant": "Cellco Partnership (Verizon Wireless)",
+     "request": "Modify and upgrade antennas on an existing smokestack, no ground work.",
+     "decision": "board found no public hearing needed",
+     "vote": null,
+     "conditions": [],
+     "topic": "Infrastructure & utilities",
+     "needs_review": false,
+     "review_note": null
+    }
+   ],
+   "policy_items": [
+    {
+     "title": "Secretary may sign notices of decision",
+     "detail": "Following town attorney and NHMA advice, the secretary may sign written decisions for the chair to meet state law deadlines. Moved by Grant, seconded by Patch; unanimous.",
+     "topic": "Government & elections",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "AI and data centers",
+     "detail": "Discussion only; Garland will share a state public health webinar series on data centers.",
+     "topic": "Housing & zoning",
+     "needs_review": false,
+     "review_note": null
+    }
+   ]
+  },
+  {
+   "body": "Planning Board",
+   "date": "2026-07-06",
+   "record_url": "https://www.townofbartlett.nh.gov/AgendaCenter/ViewFile/Minutes/_07062026-192",
+   "record_type": "minutes (approved)",
+   "headline": "The Planning Board approved a voluntary lot merger, held an informational hearing on the Route 16 gravel pit and agreed to issue written decisions on every application.",
+   "items": [
+    {
+     "address": "Tax Map 2JENKS (two lots of about 5 acres each)",
+     "applicant": "a property owner",
+     "request": "A voluntary lot merger (combining two lots into one of about 10 acres).",
+     "decision": "accepted",
+     "vote": "passed unanimously",
+     "conditions": [],
+     "topic": "Housing & zoning",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "address": "Tax Map 1THORN, Lots 54L00 and 42L00",
+     "applicant": "Cedarcroft Farm LLC",
+     "request": "33-unit PUD; awaiting NHDOT approval of the turn lane design.",
+     "decision": "continued to August 3",
+     "vote": "passed unanimously",
+     "conditions": [],
+     "topic": "Housing & zoning",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "address": "Tax Map 5STLNG, Parcel 000G00 (Stillings Grant)",
+     "applicant": "AMSCO",
+     "request": "Block G (Phase 1) subdivision; the Selectmen denied the waivers sought, so the road must meet town standards.",
+     "decision": "continued to August 3",
+     "vote": "passed unanimously",
+     "conditions": [],
+     "topic": "Housing & zoning",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "address": "Tax Map 2RT16-1 Lot 057L01 and Tax Map 2RT302-1R Lot 017R00 (off Route 16)",
+     "applicant": "St. Pete LLC (Verdantas, engineer)",
+     "request": "New gravel pit: about 600,000 cubic yards over 10 years. Members disagreed on whether zoning allows it.",
+     "decision": "informational hearing; board to seek a legal opinion from the NH Municipal Association",
+     "vote": null,
+     "conditions": [],
+     "topic": "Housing & zoning",
+     "needs_review": false,
+     "review_note": null
+    }
+   ],
+   "policy_items": [
+    {
+     "title": "Written notices of decision",
+     "detail": "Board will issue a written notice of decision for every application going forward (RSA 676:3). Moved by Shedd, seconded by Patch; passed unanimously.",
+     "topic": "Government & elections",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Data center ban question",
+     "detail": "The chair polled members on a town ballot question to ban data centers; the board said it was too soon.",
+     "topic": "Housing & zoning",
+     "needs_review": false,
+     "review_note": null
+    }
+   ]
+  },
+  {
+   "body": "Zoning Board of Adjustment",
+   "date": "2026-06-08",
+   "record_url": "https://www.townofbartlett.nh.gov/AgendaCenter/ViewFile/Minutes/_06082026-189",
+   "record_type": "minutes",
+   "headline": "The ZBA heard no new cases and voted to send the Selectmen a legal opinion on how the ZBA handles residents who ask to discuss its process.",
+   "items": [
+    {
+     "address": "Not stated",
+     "applicant": "a property owner",
+     "request": "Placing a storage container closer than 10 feet to a boundary after the Selectmen denied it; the request type was not stated.",
+     "decision": "no action",
+     "vote": null,
+     "conditions": [],
+     "topic": "Housing & zoning",
+     "needs_review": true,
+     "review_note": "The July 13 agenda lists a storage container case seeking a special exception or a variance (permission to break a zoning rule for one property); it may be the same case."
+    }
+   ],
+   "policy_items": [
+    {
+     "title": "Reply to the Selectmen on ZBA process",
+     "detail": "The board said it does not take instructions from the Select Board and voted to send the NHMA attorney's advice with a cover letter. Passed unanimously.",
+     "topic": "Government & elections",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Members on more than one land use board",
+     "detail": "Chair King said a member who sat on a board that denied a request should step aside when the ZBA hears it.",
+     "topic": "Government & elections",
+     "needs_review": false,
+     "review_note": null
+    }
+   ]
+  }
+ ],
+ "officials": {
+  "council": [
+   {
+    "name": "Gene G. Chandler",
+    "last": "Chandler",
+    "role": "Chair",
+    "votes2025": null,
+    "term": "to 2028",
+    "ward": null,
+    "note": "Chosen chair April 15, 2026 (roll call: Chandler and Garland yes, Munro absent)."
+   },
+   {
+    "name": "Vicki L. Garland",
+    "last": "Garland",
+    "role": "Selectman",
+    "votes2025": null,
+    "term": "to 2027",
+    "ward": null,
+    "note": "Also the Selectmen's representative on the Planning Board."
+   },
+   {
+    "name": "Ronald T. Munro",
+    "last": "Munro",
+    "role": "Selectman",
+    "votes2025": null,
+    "term": "to 2029",
+    "ward": null,
+    "note": "Ran unopposed for a second three-year term at the March 10, 2026 town election (Conway Daily Sun preview; official result not opened)."
+   }
+  ],
+  "councilNote": "Bartlett is governed by a three-member Board of Selectmen elected townwide to staggered three-year terms at the March town election, with Town Administrator Lynn Jones handling day-to-day work. The Selectmen also approve building, driveway, sign and special event permits. Meetings are at 4 PM in the Town Hall meeting room, 56 Town Hall Road. The Selectmen's page lists Wednesdays November 4 and 18 and December 2, 16 and 30, 2026, but an April 1 decision said November meetings would be on Tuesdays and a July 10 notice said the second and fourth Tuesdays, so check the town calendar.",
+  "railNote": "Chair Chandler and two other selectmen, all elected townwide.",
+  "rollCallNote": "Bartlett minutes record most votes as a roll call by initials (GGC Chandler, VLG Garland, RTM Munro).",
+  "staff": [
+   {
+    "name": "Lynn Jones",
+    "role": "Town Administrator",
+    "since": null,
+    "note": "Runs town business day to day and reports to the Selectmen.",
+    "phone": "603-356-2950",
+    "src": "https://www.townofbartlett.nh.gov/m/directory"
+   },
+   {
+    "name": "Amanda R. Gagnon",
+    "role": "Administrative Assistant, Selectmen's Office",
+    "since": null,
+    "note": "Takes the Selectmen's minutes and handles agenda requests.",
+    "phone": "603-356-2950",
+    "src": "https://www.townofbartlett.nh.gov/m/directory"
+   },
+   {
+    "name": "Cheryl Nealley",
+    "role": "Town Clerk / Tax Collector",
+    "since": null,
+    "note": "Elections, voter registration, car registrations, tax collection.",
+    "phone": "603-356-2300",
+    "src": "https://www.townofbartlett.nh.gov/1193/Town-Clerk-Tax-Collector"
+   },
+   {
+    "name": "Taeri Lyn",
+    "role": "Deputy Town Clerk / Tax Collector",
+    "since": null,
+    "note": null,
+    "phone": "603-356-2300",
+    "src": "https://www.townofbartlett.nh.gov/1193/Town-Clerk-Tax-Collector"
+   },
+   {
+    "name": "Christopher Keaton",
+    "role": "Chief of Police",
+    "since": null,
+    "note": "Police Department at Town Hall, 56 Town Hall Road.",
+    "phone": "603-356-5868",
+    "src": "https://www.townofbartlett.nh.gov/m/directory"
+   },
+   {
+    "name": "James Langdon",
+    "role": "Fire Chief",
+    "since": null,
+    "note": "Fire Department at 90 US Route 302, Glen.",
+    "phone": "603-383-9555",
+    "src": "https://www.townofbartlett.nh.gov/m/directory"
+   },
+   {
+    "name": "Dan Robinson",
+    "role": "Deputy Fire Chief",
+    "since": null,
+    "note": "In April 2026 the Selectmen discussed folding the Health Officer duties into this job.",
+    "phone": "603-383-9555",
+    "src": "https://www.townofbartlett.nh.gov/m/directory"
+   },
+   {
+    "name": "Louise B. Burns",
+    "role": "Secretary, Planning Board and ZBA",
+    "since": null,
+    "note": "Staff to both land use boards.",
+    "phone": "603-356-2226",
+    "src": "https://www.townofbartlett.nh.gov/m/directory"
+   },
+   {
+    "name": "Jeff Bryan",
+    "role": "Manager, Bartlett/Jackson Transfer Station",
+    "since": "2026-08-26",
+    "note": "Promoted by the Selectmen August 26, 2026.",
+    "phone": null,
+    "src": "https://www.townofbartlett.nh.gov/AgendaCenter/ViewFile/Minutes/_08262026-201"
+   }
+  ],
+  "schoolBoard": {
+   "note": "The Bartlett School Board governs the Bartlett School District (Josiah Bartlett Elementary School), part of SAU 9. It meets the first Tuesday of the month at 6 PM at the school. Members and terms are from Ballotpedia; officer roles are from April 2025 and may have changed after the March 2026 election, when Scott Fields ran unopposed for the seat Nancy Kelemen left after 18 years.",
+   "members": [
+    {
+     "name": "Emily Calderwood",
+     "role": "Chair (re-elected April 2025)",
+     "term": "to 2027"
+    },
+    {
+     "name": "Andrew Light",
+     "role": "Vice Chair (re-elected April 2025)",
+     "term": "to 2028"
+    },
+    {
+     "name": "Heather Forbes",
+     "term": "to 2027",
+     "note": "School Board liaison to the Selectmen; also a Planning Board alternate."
+    },
+    {
+     "name": "Jay Calabro",
+     "term": "2025 to 2028"
+    },
+    {
+     "name": "Scott Fields",
+     "term": "2026 to 2029"
+    }
+   ],
+   "sources": [
+    "https://ballotpedia.org/Bartlett_School_District,_New_Hampshire,_elections",
+    "https://www.conwaydailysun.com/news/local/calderwood-re-elected-as-bartlett-school-board-chair/article_9f1a77c8-5294-40d8-b6e2-6e900b07c6e9.html",
+    "https://www.conwaydailysun.com/news/local/conway-filing-period-opens-wednesday-roundup-of-other-towns/article_674c0593-a28f-4a4b-bb69-bd1d4eb00bf7.html",
+    "https://sau9.org/school_boards/bartlett"
+   ],
+   "needs_review": true,
+   "review_note": "No 2026 official school board roster was opened; the SAU 9 page still shows 2025 terms."
+  },
+  "commissions": [
+   {
+    "name": "Lower Bartlett Water Precinct",
+    "members": [],
+    "note": "A separate local government with its own commissioners, annual meeting (April 7, 2026) and tax rate ($1.37 per $1,000 in 2025). Office at 367 Route 16/302, Intervale; 603-383-7180.",
+    "url": "https://lbwpnh.specialdistrict.org/annual-meeting-04-07-2026"
+   },
+   {
+    "name": "Bartlett Village Water Precinct",
+    "members": [],
+    "note": "A separate water precinct; it recently billed the town for the hotel lot, the first such bill in years (Selectmen minutes, Sept 24 and Oct 7, 2026).",
+    "url": "https://www.townofbartlett.nh.gov/AgendaCenter/ViewFile/Minutes/_10072026-206"
+   },
+   {
+    "name": "Kearsarge Lighting Precinct",
+    "members": [],
+    "note": "A local association has asked about petitioning to leave this precinct; the Selectmen sent a letter saying they do not support the boundary change (March 18, 2026).",
+    "url": "https://www.townofbartlett.nh.gov/AgendaCenter/ViewFile/Minutes/_03182026-172"
+   }
+  ],
+  "boards": [
+   {
+    "name": "Planning Board",
+    "meets": "First Monday of the month at 6 PM; work session third Tuesday",
+    "does": "Reviews subdivisions and site plans, writes the Master Plan and proposes zoning changes for Town Meeting.",
+    "url": "https://www.townofbartlett.nh.gov/1195/Planning-Board",
+    "members": [
+     "Scott Grant (Chair)",
+     "David Patch (Vice Chair)",
+     "Vicki Garland (Selectmen's rep.)",
+     "Joe Heuston",
+     "Kevin Bennett",
+     "David Shedd",
+     "Michael Galante",
+     "Alternates: Pat Roberts, Heather Forbes"
+    ],
+    "note": "Members as listed in the July 6 and August 3, 2026 minutes."
+   },
+   {
+    "name": "Zoning Board of Adjustment",
+    "meets": "Second Monday of the month at 6 PM",
+    "does": "Decides variances (permission to break a zoning rule for one property), special exceptions and appeals of zoning decisions.",
+    "url": "https://www.townofbartlett.nh.gov/1192/Zoning-Board-of-Adjustment",
+    "members": [
+     "Julia King (Chair)",
+     "Steve Hempel (Vice Chair)",
+     "Peter Gagne",
+     "Scott Grant",
+     "Peter Pelletier",
+     "Alternates: Richard Plusch, Kali Brennick"
+    ],
+    "note": "Members as listed in the June 8, 2026 minutes."
+   },
+   {
+    "name": "Conservation Commission",
+    "meets": null,
+    "does": "Advises on conservation land and natural resources.",
+    "url": "https://www.townofbartlett.nh.gov/1196/Conservation-Commission",
+    "members": [
+     "Chris Fithian (Chair)"
+    ]
+   },
+   {
+    "name": "Flood Hazard Mitigation Committee",
+    "meets": null,
+    "does": "Town committee seeking grants and designs for flood protection, including the Dugway berm.",
+    "url": "https://www.townofbartlett.nh.gov/AgendaCenter/ViewFile/Minutes/_04152026-179"
+   },
+   {
+    "name": "Bartlett Jackson Ambulance Committee",
+    "meets": null,
+    "does": "Oversees the ambulance service Bartlett shares with Jackson.",
+    "url": "https://www.townofbartlett.nh.gov/1202/BartlettJackson-Ambulance"
+   }
+  ],
+  "sources": {
+   "roster": "https://www.townofbartlett.nh.gov/1194/Selectmens-Office",
+   "staff": "https://www.townofbartlett.nh.gov/m/directory",
+   "chair": "https://www.townofbartlett.nh.gov/AgendaCenter/ViewFile/Minutes/_04152026-179",
+   "election": "https://www.conwaydailysun.com/news/local/conway-filing-period-opens-wednesday-roundup-of-other-towns/article_674c0593-a28f-4a4b-bb69-bd1d4eb00bf7.html"
+  }
+ },
+ "roll_call_votes": [
+  {
+   "date": "2026-10-07",
+   "title": "Approved a special event permit for a charity 5K on July 17, 2027",
+   "outcome": "roll call: GGC yes, VLG absent, RTM yes",
+   "yes": [
+    "Chandler",
+    "Munro"
+   ],
+   "no": [],
+   "url": "https://www.townofbartlett.nh.gov/AgendaCenter/ViewFile/Minutes/_10072026-206"
+  },
+  {
+   "date": "2026-09-24",
+   "title": "Accepted the Medicare Advantage and prescription drug plan renewal",
+   "outcome": "roll call: GGC yes, VLG yes, RTM yes",
+   "yes": [
+    "Chandler",
+    "Garland",
+    "Munro"
+   ],
+   "no": [],
+   "url": "https://www.townofbartlett.nh.gov/AgendaCenter/ViewFile/Minutes/_09242026-204"
+  },
+  {
+   "date": "2026-04-15",
+   "title": "Adopted the town's Hazard Mitigation Plan",
+   "outcome": "roll call: GGC yes, VLG yes, RTM absent",
+   "yes": [
+    "Chandler",
+    "Garland"
+   ],
+   "no": [],
+   "url": "https://www.townofbartlett.nh.gov/AgendaCenter/ViewFile/Minutes/_04152026-179"
+  },
+  {
+   "date": "2026-04-15",
+   "title": "Chose Selectman Chandler as chair",
+   "outcome": "roll call: GGC yes, VLG yes, RTM absent",
+   "yes": [
+    "Chandler",
+    "Garland"
+   ],
+   "no": [],
+   "url": "https://www.townofbartlett.nh.gov/AgendaCenter/ViewFile/Minutes/_04152026-179"
+  },
+  {
+   "date": "2026-03-18",
+   "title": "Approved lease terms for a new John Deere 710 backhoe for the Highway Department",
+   "outcome": "roll call: GGC yes, VLG absent, RTM yes",
+   "yes": [
+    "Chandler",
+    "Munro"
+   ],
+   "no": [],
+   "url": "https://www.townofbartlett.nh.gov/AgendaCenter/ViewFile/Minutes/_03182026-172"
+  }
+ ],
+ "attendance": {
+  "Chandler": {
+   "present": 9,
+   "total": 10
+  },
+  "Garland": {
+   "present": 8,
+   "total": 10
+  },
+  "Munro": {
+   "present": 8,
+   "total": 10
+  }
+ },
+ "attendance_from": "2026-03-18",
+ "attendance_note": "Counts the ten sets of Selectmen minutes opened (March 18, April 1, 15 and 29, August 11 and 26, September 9 and 24, October 7 and 21, 2026), all after the March 10 town election. Minutes for the May to July meetings were not opened, so these are not full-term totals. Munro arrived late on October 7 and 21 and is counted present.",
+ "topics": [
+  {
+   "topic": "Parks & recreation",
+   "count": 2
+  },
+  {
+   "topic": "Public safety",
+   "count": 2
+  },
+  {
+   "topic": "Infrastructure & utilities",
+   "count": 2
+  },
+  {
+   "topic": "Environment & resilience",
+   "count": 1
+  },
+  {
+   "topic": "Health & human services",
+   "count": 1
+  },
+  {
+   "topic": "Budget & taxes",
+   "count": 1
+  },
+  {
+   "topic": "Parking & transportation",
+   "count": 1
+  }
+ ],
+ "budget": {
+  "fiscalYear": "2026 (calendar year, January to December 2026)",
+  "fundLabel": "town operating budget",
+  "adopted": null,
+  "adoptedVote": null,
+  "generalFund": null,
+  "priorGeneralFund": null,
+  "changePct": null,
+  "departments": [],
+  "departmentsNote": "Bartlett votes its budget at the annual Town Meeting in March. The 2026 budget, 2026 warrant and 2025 annual report are posted on the Selectmen's page only as Adobe cloud links, which could not be opened for this research, so the operating budget, prior-year figure and department amounts are not shown.",
+  "drivers": [
+   "Interest on tax anticipation notes (short-term borrowing until taxes come in) rose over the past two years, which led to twice-a-year tax bills starting in 2026.",
+   "Town Meeting set up a $100,000 capital reserve fund for town upgrades (year not stated in the minutes); none had been spent as of October 21, 2026.",
+   "From January 1, 2027, the town will pay half of health and dental premiums for part-time employees working 20 to 39 hours a week.",
+   "A replacement John Deere 710 backhoe was leased in March 2026 with no 2026 cost; a 2027 warrant article will ask voters to continue the lease."
+  ],
+  "revenue": {
+   "propertyTaxLevy": null,
+   "nonPropertyTax": null,
+   "nonPropertyTaxDetail": [],
+   "note": "The state's 2025 tax table shows a total 2025 commitment (all property taxes billed for town, schools, state education and county) of $13,007,436 on a valuation of $2,084,269,125. The town's own revenue estimate form was not found."
+  },
+  "taxRate": {
+   "fy27Estimate": null,
+   "fy26": 7.39,
+   "rateLabel": "2025 tax year, Lower Bartlett Water Precinct",
+   "note": "Dollars per $1,000 of assessed value. Every Bartlett property pays the same base rate ($6.02 in 2025: town $1.36, local school $2.61, state education $1.21, county $0.84). Property in the Lower Bartlett Water Precinct also paid the precinct's $1.37, for $7.39. Property outside a precinct paid $6.02; the Bartlett Village Water Precinct rate was not found. The 2026 rate had not been set as of October 31, 2026.",
+   "components": [
+    {
+     "name": "Town",
+     "fy26": 1.36,
+     "fy27": null,
+     "fy25": 1.07
+    },
+    {
+     "name": "Schools (local)",
+     "fy26": 2.61,
+     "fy27": null,
+     "fy25": 2.49
+    },
+    {
+     "name": "State education tax",
+     "fy26": 1.21,
+     "fy27": null,
+     "fy25": 1.19
+    },
+    {
+     "name": "Carroll County",
+     "fy26": 0.84,
+     "fy27": null,
+     "fy25": 0.83
+    },
+    {
+     "name": "Lower Bartlett Water Precinct",
+     "fy26": 1.37,
+     "fy27": null,
+     "fy25": 1.28
+    }
+   ],
+   "history": [
+    {
+     "fy": "2023 tax year",
+     "rate": null,
+     "note": "Base rate not opened; Lower Bartlett Water Precinct added $1.42"
+    },
+    {
+     "fy": "2024 tax year",
+     "rate": 6.86,
+     "note": "Base $5.58 plus precinct $1.28"
+    },
+    {
+     "fy": "2025 tax year",
+     "rate": 7.39,
+     "note": "Base $6.02 plus precinct $1.37; the town portion rose 27.1% and the local school portion 4.8%"
+    }
+   ],
+   "medianHome": {
+    "value": null,
+    "note": "No town-published median assessment was found.",
+    "source": null
+   }
+  },
+  "taxDollar": {
+   "label": "Where a Lower Bartlett Water Precinct tax dollar goes (2025 tax rate)",
+   "items": [
+    {
+     "name": "Schools (local)",
+     "pct": 35.3
+    },
+    {
+     "name": "Lower Bartlett Water Precinct",
+     "pct": 18.5
+    },
+    {
+     "name": "Town",
+     "pct": 18.4
+    },
+    {
+     "name": "State education tax",
+     "pct": 16.4
+    },
+    {
+     "name": "Carroll County",
+     "pct": 11.4
+    }
+   ]
+  },
+  "enterprise": [],
+  "waterSewerBill": null,
+  "debtOutstanding": null,
+  "valuation": {
+   "assessed": 2084269125,
+   "residentialParcels": null,
+   "commercialParcels": null,
+   "note": "2025 local assessed valuation; $2,102,928,725 including utilities."
+  },
+  "cip": null,
+  "sources": {
+   "taxRate2025": "https://www.acworthnh.net/_files/ugd/a327e9_a3f47ac2d74a46b7bb7c6b1467f85e8c.pdf",
+   "taxRate2024": "https://www.acworthnh.net/_files/ugd/a327e9_a74ad501a3d7442fa1701f9980e04757.pdf",
+   "precinctRates": "https://www.lbwpnh.gov/files/382a59f5e/Water+%26+Tax+rate+1995-2025.pdf",
+   "precinctRates2024": "https://www.lbwpnh.gov/files/64fd2a2cc/Historical+Water+Rates+%26+Precinct+Tax+2024.pdf",
+   "taxBilling": "https://www.townofbartlett.nh.gov/CivicAlerts.asp?AID=16",
+   "budgetLinks": "https://www.townofbartlett.nh.gov/1194/Selectmens-Office"
+  },
+  "needs_review": true,
+  "review_note": "The 2026 operating budget and Town Meeting vote were not found. State tax tables were read from a copy of the NH DRA '2025 Municipal Tax Rates' table hosted by the Town of Acworth."
+ }
+}

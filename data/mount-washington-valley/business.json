@@ -56,6 +56,18 @@
     "label": "Rep. Chris Pappas, Contact",
     "url": "https://pappas.house.gov/contact"
    }
+  },
+  {
+   "name": "Jackson Area Chamber of Commerce",
+   "what": "Small chamber for Jackson-area lodging, restaurants, attractions, retail and service businesses, nonprofits and individuals. Promotes the area to visitors (JacksonNH.com listings, visitor guide, newsletters, events such as the Traditionally Yours holiday celebration) and runs committees on marketing, events, lodging and membership. Annual dues run from $158 (individual or associate) to $1,150 (year-round attraction), billed twice a year.",
+   "url": "https://jacksonnh.com/join/",
+   "phone": "978-580-0905",
+   "address": "PO Box 304, Jackson, NH 03846",
+   "kind": "Chamber",
+   "source": {
+    "label": "Jackson Area Chamber of Commerce, Join",
+    "url": "https://jacksonnh.com/join/"
+   }
   }
  ],
  "cityOffices": [
@@ -67,7 +79,8 @@
    "source": {
     "label": "Town of Conway, Planning and Zoning",
     "url": "https://conwaynh.gov/pages/planning-department-planning-board"
-   }
+   },
+   "town": "Conway"
   },
   {
    "name": "Building Inspection and Code Enforcement",
@@ -77,7 +90,8 @@
    "source": {
     "label": "Town of Conway, Building Inspection and Code Enforcement",
     "url": "https://conwaynh.gov/pages/building-inspection-code-enforcement"
-   }
+   },
+   "town": "Conway"
   },
   {
    "name": "Town Clerk and Tax Collector",
@@ -87,7 +101,8 @@
    "source": {
     "label": "Town of Conway, Town Clerk and Tax Collector",
     "url": "https://conwaynh.gov/pages/town-clerk-tax-collector"
-   }
+   },
+   "town": "Conway"
   },
   {
    "name": "Assessing",
@@ -97,7 +112,8 @@
    "source": {
     "label": "Town of Conway, Assessing",
     "url": "https://conwaynh.gov/pages/assessing"
-   }
+   },
+   "town": "Conway"
   },
   {
    "name": "Town Manager's office",
@@ -107,6 +123,85 @@
    "source": {
     "label": "Conway Rec parking program guidelines, 2024 (PDF)",
     "url": "https://conwaynh.myrec.com/forms/5998_parkingprogramguidelines_2024.pdf"
+   },
+   "town": "Conway"
+  },
+  {
+   "town": "Bartlett",
+   "name": "Selectmen's Office (Town Hall, 56 Town Hall Road)",
+   "what": "Building permits, permits to occupy and zoning questions. Commercial projects need a town building permit first, then State Fire Marshal permits and inspections, and a town permit to occupy before opening to the public. Storage containers need a building permit. Permits of assembly and tent inspections also go through this office. Open Monday to Friday, 8 am to 1 pm. Town Administrator Lynn Jones.",
+   "url": "https://www.townofbartlett.nh.gov/1194/Selectmens-Office",
+   "phone": "603-356-2950",
+   "source": {
+    "label": "Town of Bartlett, Selectmen's Office",
+    "url": "https://www.townofbartlett.nh.gov/1194/Selectmens-Office"
+   }
+  },
+  {
+   "town": "Bartlett",
+   "name": "Planning Board and Zoning Board of Adjustment",
+   "what": "Site plan and subdivision review (Planning Board) and variances (ZBA). Agendas and public hearing notices are in the Agenda Center. In October 2026 the town warned of fake invoices that look like they come from these boards; confirm any request by calling Town Hall.",
+   "url": "https://www.townofbartlett.nh.gov/agendacenter",
+   "phone": "603-356-2950",
+   "source": {
+    "label": "Town of Bartlett, Agenda Center and News Flash",
+    "url": "https://www.townofbartlett.nh.gov/CivicAlerts.aspx?CID=1"
+   }
+  },
+  {
+   "town": "Bartlett",
+   "name": "Town Clerk / Tax Collector",
+   "what": "Vehicle registrations, dog licenses, property taxes and transfer station stickers. Town Clerk/Tax Collector Cheryl Nealley.",
+   "url": "https://www.townofbartlett.nh.gov/1193/Town-Clerk-Tax-Collector",
+   "phone": "603-356-2300",
+   "source": {
+    "label": "Town of Bartlett, Town Clerk / Tax Collector",
+    "url": "https://www.townofbartlett.nh.gov/1193/Town-Clerk-Tax-Collector"
+   }
+  },
+  {
+   "town": "Jackson",
+   "name": "Building Department (Town Offices, 54 Main Street)",
+   "what": "Building permits for new structures, renovations and expansions, pools, tents over 400 sq ft, floodplain development and zoning. New and replacement septic systems need town approval and review by the Town Engineer (603-374-1899). Building Inspector Kevin Bennett. Permit applications are on the department's page.",
+   "url": "https://www.jackson-nh.gov/departments/building-department/",
+   "phone": "603-383-4223, ext. 112",
+   "source": {
+    "label": "Town of Jackson, Building Department",
+    "url": "https://www.jackson-nh.gov/departments/building-department/"
+   }
+  },
+  {
+   "town": "Jackson",
+   "name": "Planning Board and Zoning Board of Adjustment",
+   "what": "Site plan, subdivision and zoning relief. The Planning Board is writing a 2026 Master Plan and has an RSA 79-E subcommittee (79-E is the state's community revitalization tax relief program).",
+   "url": "https://www.jackson-nh.gov/boards-committees/planning-board/",
+   "phone": "603-383-4223",
+   "source": {
+    "label": "Town of Jackson, home page and calendar",
+    "url": "https://www.jackson-nh.gov/events/month/"
+   }
+  },
+  {
+   "town": "Madison",
+   "name": "Code Enforcement / Health Officer (Town Hall, 1923 Village Road)",
+   "what": "Building, mechanical, driveway and energy code permits, health inspections and child care inspections. A building permit is needed for work worth more than $8,500 (contractor rate plus materials), even if you do it yourself. Code Enforcement Officer Robert (Bob) Boyd. Monday to Thursday 8 am to 4 pm; Thursdays by appointment.",
+   "url": "https://www.madison-nh.org/departments/code-enforcement/",
+   "phone": "603-367-4332, ext. 309",
+   "email": "code@madison-nh.org",
+   "source": {
+    "label": "Town of Madison, Code Enforcement",
+    "url": "https://www.madison-nh.org/departments/code-enforcement/"
+   }
+  },
+  {
+   "town": "Madison",
+   "name": "Town Clerk (rentals and state permits)",
+   "what": "Owners who rent out homes, short or long term, may need to file a Landlord's Agent Designated Respondent Affidavit with the Town Clerk. The Clerk's pages also cover wetlands, dredge and fill, dock and aquatherm permits.",
+   "url": "https://www.madison-nh.org/departments/tax-collector/landlord-respondent-affidavit-filing/",
+   "phone": "603-367-4332",
+   "source": {
+    "label": "Town of Madison, home page",
+    "url": "https://www.madison-nh.org/"
    }
   }
  ],
@@ -320,62 +415,87 @@
   }
  ],
  "keywords": [
-  "restaurant",
-  "bistro",
-  "cafe",
+  "79-e",
+  "attitash",
   "bakery",
+  "bartlett",
+  "bed and breakfast",
+  "bistro",
+  "black mountain",
   "brewery",
-  "taproom",
-  "opens",
-  "opening",
-  "grand opening",
-  "ribbon cutting",
-  "closing",
-  "closes",
-  "closed",
-  "relocat",
-  "storefront",
-  "retail",
-  "retailer",
-  "outlet",
-  "settlers green",
+  "buys",
+  "cafe",
   "chamber",
-  "mwv chamber",
-  "economic council",
-  "tech village",
-  "main street",
-  "north conway village",
-  "conway village",
-  "hotel",
-  "resort",
-  "lodging",
-  "cranmore",
-  "short-term rental",
-  "rental",
-  "zoning",
+  "change of use",
+  "closed",
+  "closes",
+  "closing",
   "conway forward",
-  "planning board",
-  "site plan",
-  "permit",
-  "license",
+  "conway village",
+  "cookie tour",
+  "cranmore",
   "developer",
   "development",
-  "lease",
-  "tenant",
-  "sold",
-  "buys",
-  "small business",
+  "economic council",
+  "eidelweiss",
   "employer",
+  "foliage",
+  "glen",
+  "grand opening",
   "hiring",
+  "hotel",
+  "inn",
+  "intervale",
+  "jackson",
+  "jackson area chamber",
+  "jackson xc",
+  "king pine",
   "layoffs",
-  "workforce housing",
-  "sbdc",
+  "lease",
+  "license",
   "loan fund",
+  "lodging",
+  "madison",
+  "main street",
+  "master plan",
+  "mwv chamber",
+  "north conway village",
+  "opening",
+  "opens",
+  "outlet",
+  "permit",
+  "permit to occupy",
+  "planning board",
+  "purity spring",
+  "relocat",
+  "rental",
+  "resort",
+  "restaurant",
+  "retail",
+  "retailer",
+  "ribbon cutting",
+  "rooms and meals",
+  "route 113",
+  "route 16b",
+  "route 302",
+  "sbdc",
+  "settlers green",
+  "short-term rental",
+  "silver lake",
+  "site plan",
+  "ski season",
+  "ski touring",
+  "small business",
+  "sold",
+  "storefront",
+  "story land",
+  "taproom",
+  "tech village",
+  "tenant",
   "tourism",
   "visitors",
-  "foliage",
-  "ski season",
-  "rooms and meals"
+  "workforce housing",
+  "zoning"
  ],
  "stats": [
   {
