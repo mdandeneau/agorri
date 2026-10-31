@@ -1,5 +1,6 @@
 {
- "as_of": "2026-10-30",
+ "as_of": "2026-10-31",
+ "note": "Per-town police and fire data for the nine valley towns. Facts trace to the source URL on each item. Several 2025 town reports could not be fully read this session (the PDF reader stops after about the first 100 pages of text or the file would not open), so many 2025 police and fire totals are missing. Incidents are described by type, place and date only; no names of people involved.",
  "towns": {
   "Conway": {
    "police": {
@@ -46,18 +47,6 @@
     "statsNote": "From the department's 2024 town report figures on its home page. The same box lists 649 arrests but labels them 2025, so arrests are left out.",
     "recent": [
      {
-      "town": "Jackson",
-      "date": "2026-10-24",
-      "kind": "Program",
-      "title": "Jackson Police held a Drug Take Back Day",
-      "detail": "The town calendar listed a Jackson Police Department Drug Take Back Day, 8 am to noon, in front of Jackson Grammar School.",
-      "area": "Jackson Village",
-      "source": {
-       "label": "Town of Jackson, Calendar of Events",
-       "url": "https://www.jackson-nh.gov/events/month/"
-      }
-     },
-     {
       "date": "2026-10-09",
       "kind": "Log",
       "title": "Dispatch log for the week of Oct. 3 published",
@@ -66,7 +55,8 @@
       "source": {
        "label": "The Conway Daily Sun, Courts and Cops",
        "url": "https://www.conwaydailysun.com/news/courts_cops/"
-      }
+      },
+      "town": "Conway"
      }
     ],
     "programs": [
@@ -171,171 +161,775 @@
     },
     {
      "name": "Conway Fire Department",
-     "site": "https://conwaynh.gov/uploads/conway-town-report-2025-web.pdf",
-     "nonEmergency": null,
-     "address": null,
-     "oversight": "Conway Village. The town took over the Conway Fire and Ambulance Department on Jan 1, 2025, after the Conway Village Fire District was dissolved. Chief: Philip Remington (2025 town report).",
-     "chief": null,
-     "stats": [],
-     "recent": []
+     "chief": {
+      "name": "Philip Remington",
+      "since": null,
+      "src": "https://albanynh.org/wp-content/2026/02/202612-Albany-Town-Report-2025.pdf"
+     },
+     "emergency": "911",
+     "nonEmergency": "(603) 447-2681",
+     "address": "97 Main Street, Conway, NH 03818 (mail: PO Box 2680)",
+     "site": null,
+     "serves": "Conway Village; its 2025 report also has a column for Albany.",
+     "oversight": "Run by the Town of Conway since Jan 1, 2025, after the Conway Village Fire District was dissolved.",
+     "stats": [
+      {
+       "label": "Calls",
+       "value": 1550,
+       "year": "2025",
+       "src": "https://albanynh.org/wp-content/2026/02/202612-Albany-Town-Report-2025.pdf"
+      },
+      {
+       "label": "Building fires",
+       "value": 20,
+       "year": "2025",
+       "src": "https://albanynh.org/wp-content/2026/02/202612-Albany-Town-Report-2025.pdf",
+       "needs_review": true,
+       "review_note": "Read from the department's call table, which came through garbled; the label and number pairing could not be fully confirmed."
+      },
+      {
+       "label": "Fire and CO alarms",
+       "value": 173,
+       "year": "2025",
+       "src": "https://albanynh.org/wp-content/2026/02/202612-Albany-Town-Report-2025.pdf",
+       "needs_review": true,
+       "review_note": "Read from the department's call table, which came through garbled; the label and number pairing could not be fully confirmed."
+      },
+      {
+       "label": "Motor vehicle crashes",
+       "value": 67,
+       "year": "2025",
+       "src": "https://albanynh.org/wp-content/2026/02/202612-Albany-Town-Report-2025.pdf",
+       "needs_review": true,
+       "review_note": "Read from the department's call table, which came through garbled; the label and number pairing could not be fully confirmed."
+      }
+     ],
+     "statsNote": "The Conway Fire Department's 2025 report is printed in Albany's 2025 town report (page 40), because the department also covers Albany. It says the department 'responded to a total of 1,550 calls,' up 138 from 2024. The Conway town report's own fire pages (from page 63) could not be read this session.",
+     "ambulance": {
+      "provider": "Conway Fire Department (the department's own ambulance)",
+      "src": "https://albanynh.org/wp-content/2026/02/202612-Albany-Town-Report-2025.pdf",
+      "note": "The report says the department 'continued to provide uninterrupted fire, rescue, and ambulance services to the community.' Conway voters also passed a non-binding article (1645-290) supporting a municipal ambulance service for the whole town beginning in 2027 (Conway 2025 town report, Article 26).",
+      "noteSrc": "https://conwaynh.gov/uploads/conway-town-report-2025-web.pdf"
+     },
+     "recent": [],
+     "stations": [
+      {
+       "name": "Conway Fire Station",
+       "address": "97 Main Street, Conway, NH 03818"
+      }
+     ]
     },
     {
      "name": "Center Conway Fire Department",
-     "site": "https://conwaynh.gov/pages/community-information",
+     "chief": {
+      "name": null,
+      "since": null,
+      "src": null
+     },
+     "emergency": "911",
      "nonEmergency": null,
-     "address": null,
-     "oversight": "Separate department listed by the town.",
-     "chief": null,
-     "stats": [],
-     "recent": []
-    },
-    {
-     "name": "Redstone and East Conway Fire Departments",
-     "site": "https://conwaynh.gov/pages/community-information",
-     "nonEmergency": null,
-     "address": null,
-     "oversight": "Separate departments listed by the town.",
-     "chief": null,
-     "stats": [],
-     "recent": []
+     "address": "1593 East Main Street, Center Conway, NH 03813",
+     "site": null,
+     "serves": "Center Conway, Redstone and East Conway, and Eaton under an emergency services contract (Eaton selectmen signed it July 15, 2025).",
+     "note": "Redstone Fire Department became part of Center Conway Fire on Jan 1, 2024 (Conway Daily Sun). A fire-service listing says East Conway Fire Department was also dissolved into Center Conway Fire on Jan 1, 2025. The national NERIS registry lists Center Conway as a combination (career and call) department with three stations. No chief was named in any source opened.",
+     "needs_review": true,
+     "review_note": "The East Conway merger and the station list come from a hobbyist fire-service site (firenews.org), not an official source. The repo's local.json still lists Redstone and East Conway as separate departments; that looks out of date and should be checked against the Conway 2025 town report. Center Conway's 2025 call total was not found; the same hobbyist site lists 482 calls in 2024.",
+     "stats": [
+      {
+       "label": "Calls",
+       "value": 482,
+       "year": "2024",
+       "src": "https://firenews.org/nh/c/conway/conwaynh.html",
+       "needs_review": true,
+       "review_note": "From a hobbyist fire-service listing, not a department or town report."
+      }
+     ],
+     "ambulance": null,
+     "recent": [],
+     "stations": [
+      {
+       "name": "Center Conway headquarters",
+       "address": "1593 East Main Street, Center Conway, NH 03813",
+       "src": "https://neris.fsri.org/departments/FD33003904"
+      },
+      {
+       "name": "East Conway station",
+       "address": "2644 East Conway Road",
+       "src": "https://firenews.org/nh/c/conway/conwaynh.html",
+       "needs_review": true,
+       "review_note": "Hobbyist source."
+      },
+      {
+       "name": "Redstone station",
+       "address": "889 Eastman Road",
+       "src": "https://firenews.org/nh/c/conway/conwaynh.html",
+       "needs_review": true,
+       "review_note": "Hobbyist source."
+      }
+     ],
+     "sources": [
+      {
+       "label": "Conway Daily Sun: Redstone Fire dissolves, four departments left",
+       "url": "https://www.conwaydailysun.com/news/local/redstone-fire-dissolves-four-depts-left/article_91b59310-a8bd-11ee-8133-ab1a1b1aae23.html"
+      },
+      {
+       "label": "Northeast Firenews: defunct New Hampshire departments",
+       "url": "https://firenews.org/nh/n/newhampshiredefunct/newhampshiredefunct.html"
+      },
+      {
+       "label": "NERIS department record: Center Conway Fire Department",
+       "url": "https://neris.fsri.org/departments/FD33003904"
+      }
+     ]
     }
    ],
    "fbi": {
+    "agency": "Conway Police Department",
     "year": "2024",
-    "violent": 21,
-    "property": 224,
-    "population": 10441
+    "reports": true,
+    "population": 10441,
+    "violentCrime": 21,
+    "propertyCrime": 224,
+    "source": {
+     "label": "FBI Table 8 for Conway, 2024 (via OpenCrime)",
+     "url": "https://www.opencrime.us/cities/conway-new-hampshire"
+    },
+    "needs_review": true,
+    "review_note": "Counts are FBI Crime Data Explorer Table 8 figures as republished by OpenCrime; cde.ucr.cjis.gov itself could not be opened this session. Same figures as the site's existing benchmarks."
    }
   },
   "Bartlett": {
    "police": {
     "name": "Bartlett Police Department",
-    "site": "https://www.townofbartlett.nh.gov/1199/Police-Department",
-    "nonEmergency": "800-552-8960 (calls for assistance); office 603-356-5868",
+    "chief": {
+     "name": null,
+     "since": null,
+     "src": null
+    },
+    "emergency": "911",
+    "nonEmergency": "800-552-8960 (the page says all other calls for assistance go to this number); office 603-356-5868",
     "address": "56 Town Hall Road, Intervale, NH 03845",
-    "oversight": null,
-    "chief": null,
+    "site": "https://www.townofbartlett.nh.gov/1199/Police-Department",
+    "note": "The department page names no chief, and no current source naming one was found. No logs or statistics are posted.",
     "stats": [],
+    "statsNote": "Bartlett's 2025 town report is on the UNH archive (https://scholars.unh.edu/bartlett_nh_reports/138), but the PDF could not be opened this session, so no 2025 police figures are shown.",
     "recent": []
    },
    "fire": [
     {
      "name": "Bartlett Fire Department",
-     "site": "https://www.townofbartlett.nh.gov/1200/Fire-Department",
-     "nonEmergency": "603-383-9555 (best Monday to Friday, 9 to 10 am)",
+     "chief": {
+      "name": "James Langdon Jr.",
+      "since": "2026",
+      "src": "https://www.conwaydailysun.com/news/local/langdon-named-bartlett-fire-chief/article_0376de87-c03d-488c-b0e8-c501978b932b.html"
+     },
+     "deputyChief": "Dan Robinson",
+     "emergency": "911",
+     "nonEmergency": "603-383-9555",
      "address": "90 U.S. Route 302, Glen, NH 03838",
-     "oversight": null,
-     "chief": {
-      "name": "James Langdon Jr. (sworn in June 2026; Dan Robinson, deputy chief)"
+     "site": "https://www.townofbartlett.nh.gov/1200/Fire-Department",
+     "note": "The page says the office does not dispatch firefighters; emergencies go to 911. Hart's Location's town page lists a different Bartlett Fire number, 603-374-2786.",
+     "stats": [
+      {
+       "label": "Calls",
+       "value": 336,
+       "year": "2025",
+       "src": "https://www.1strespondernews.com/news/020326173/Bartlett-Firefighters-Association-Wraps-Up-2025-with-336-Calls",
+       "needs_review": true,
+       "review_note": "From a 1st Responder News item about the Bartlett Firefighters Association; the byline is inconsistent and the item does not say 'New Hampshire' outright, though it mentions Jackson Fire and Bartlett-Jackson Ambulance. Not confirmed in the town report."
+      }
+     ],
+     "ambulance": {
+      "provider": "Bartlett-Jackson Ambulance Service",
+      "src": "https://www.townofbartlett.nh.gov/1200/Fire-Department",
+      "note": "The fire page links to Bartlett/Jackson Ambulance; the same service also covers Jackson and Hart's Location."
      },
-     "stats": [],
-     "recent": []
-    },
-    {
-     "name": "Bartlett/Jackson Ambulance",
-     "site": "https://www.bartlett-jacksonambulanceservice.org/",
-     "nonEmergency": null,
-     "address": null,
-     "oversight": "Linked from the Jackson town site; not opened.",
-     "chief": null,
-     "stats": [],
-     "recent": []
+     "recent": [
+      {
+       "town": "Bartlett",
+       "date": "2026-06-03",
+       "kind": "Leadership",
+       "title": "New Bartlett fire chief and deputy chief sworn in",
+       "detail": "Selectmen swore in James Langdon Jr. as fire chief and Dan Robinson as deputy chief.",
+       "area": null,
+       "source": {
+        "label": "The Conway Daily Sun, June 3, 2026",
+        "url": "https://www.conwaydailysun.com/news/local/langdon-named-bartlett-fire-chief/article_0376de87-c03d-488c-b0e8-c501978b932b.html"
+       }
+      }
+     ],
+     "stations": [
+      {
+       "name": "Bartlett Fire Station",
+       "address": "90 U.S. Route 302, Glen, NH 03838"
+      }
+     ]
     }
-   ]
-  },
-  "Jackson": {
-   "police": {
-    "name": "Jackson Police Department",
-    "site": "https://www.jackson-nh.gov/departments/police-department/",
-    "nonEmergency": "603-383-9292 (listed as contact number, not labeled non-emergency)",
-    "address": null,
-    "oversight": null,
-    "chief": {
-     "name": "Chris Perley"
+   ],
+   "fbi": {
+    "agency": "Bartlett Police Department",
+    "year": "2024",
+    "reports": true,
+    "population": 3372,
+    "violentCrime": 3,
+    "propertyCrime": 27,
+    "source": {
+     "label": "FBI Table 8 for Bartlett, 2024 (via OpenCrime)",
+     "url": "https://www.opencrime.us/cities/bartlett-new-hampshire"
     },
-    "stats": [],
-    "recent": []
-   },
-   "fire": [
-    {
-     "name": "Jackson Fire Department",
-     "site": "https://www.jackson-nh.gov/departments/fire-department/",
-     "nonEmergency": "603-383-4090 (Fire Chief)",
-     "address": null,
-     "oversight": null,
-     "chief": {
-      "name": "Jay Henry"
-     },
-     "stats": [],
-     "recent": []
-    },
-    {
-     "name": "Bartlett/Jackson Ambulance",
-     "site": "https://www.bartlett-jacksonambulanceservice.org/",
-     "nonEmergency": null,
-     "address": null,
-     "oversight": "Linked from the Jackson town site; not opened.",
-     "chief": null,
-     "stats": [],
-     "recent": []
-    }
-   ]
-  },
-  "Madison": {
-   "police": {
-    "name": "Town of Madison Police Department",
-    "site": "https://www.madison-nh.org/departments/police/",
-    "nonEmergency": "603-367-8334",
-    "address": "1923 Village Road (Town Hall, lower level), Madison, NH 03849",
-    "oversight": null,
-    "chief": {
-     "name": "James E. Hayford"
-    },
-    "stats": [],
-    "recent": []
-   },
-   "fire": [
-    {
-     "name": "Town of Madison Fire/Rescue",
-     "site": "https://madison-nh.org/departments/firerescue-department",
-     "nonEmergency": "603-367-4602",
-     "address": "1917 Village Road (Route 113), Madison, NH",
-     "oversight": null,
-     "chief": {
-      "name": "Michael Brooks (Fire Chief and Fire Warden)"
-     },
-     "stats": [],
-     "recent": []
-    }
-   ]
+    "needs_review": true,
+    "review_note": "Counts are FBI Crime Data Explorer Table 8 figures as republished by OpenCrime; cde.ucr.cjis.gov itself could not be opened this session."
+   }
   },
   "Tamworth": {
    "police": {
     "name": "Tamworth Police Department",
-    "site": "https://www.tamworthnh.gov/1220/Police-Department",
-    "nonEmergency": "603-323-8581 (department line; the page says to call it to reach an on-duty officer, including Animal Control)",
-    "address": "100 Tamworth Road (Route 113), P.O. Box 69, Tamworth, NH 03886",
-    "oversight": null,
     "chief": {
-     "name": "Dana Littlefield"
+     "name": "Dana Littlefield",
+     "since": null,
+     "src": "https://www.tamworthnh.gov/1220/Police-Department"
     },
-    "stats": [],
+    "emergency": "911",
+    "nonEmergency": "603-323-8581 (department line); dispatch through the Carroll County Sheriff's Office, 603-539-2284",
+    "address": "100 Tamworth Road (Route 113), Tamworth, NH 03886 (mail: PO Box 69)",
+    "site": "https://www.tamworthnh.gov/1220/Police-Department",
+    "stats": [
+     {
+      "label": "Calls for service",
+      "value": 4521,
+      "year": "2025",
+      "src": "https://www.tamworthnh.gov/1226/Police-Stats---2025"
+     },
+     {
+      "label": "Arrests",
+      "value": 26,
+      "year": "2025",
+      "src": "https://www.tamworthnh.gov/1226/Police-Stats---2025"
+     },
+     {
+      "label": "Motor vehicle crashes reported",
+      "value": 35,
+      "year": "2025",
+      "src": "https://www.tamworthnh.gov/1226/Police-Stats---2025"
+     }
+    ],
+    "statsNote": "Agorri added up the twelve monthly reports the department posts for 2025 (monthly call totals from 314 to 449). The reports say community policing, administrative work, report writing and patrol time are not counted. Monthly reports for January to July 2026 are also posted.",
+    "logsUrl": "https://www.tamworthnh.gov/1386/Police-Stats---2026",
     "recent": []
    },
    "fire": [
     {
      "name": "Tamworth Fire Rescue Department",
-     "site": "https://www.tamworthnh.gov/1206/Fire-Rescue-Department",
-     "nonEmergency": "603-323-8874 (business line)",
-     "address": "132 Chinook Trail, Tamworth, NH 03886",
-     "oversight": null,
      "chief": {
-      "name": "Richard Colcord (Fire Chief and Forest Fire Warden; Jim Bowles and Matt Baumann, assistant chiefs)"
+      "name": "Richard Colcord",
+      "since": null,
+      "src": "https://www.tamworthnh.gov/1206/Fire-Rescue-Department"
      },
+     "emergency": "911",
+     "nonEmergency": "603-323-8874; dispatch through the Carroll County Sheriff's Office, 603-539-2284",
+     "address": "132 Chinook Trail, Tamworth, NH 03886",
+     "site": "https://www.tamworthnh.gov/1206/Fire-Rescue-Department",
+     "oversight": "Board of Firewards.",
      "stats": [],
-     "recent": []
+     "statsNote": "No 2025 fire or EMS call totals were found. The 2025 town report was not found online, and the fire report pages of the 2024 report could not be read this session.",
+     "ambulance": {
+      "provider": "Action Ambulance",
+      "src": "https://scholars.unh.edu/cgi/viewcontent.cgi?article=1136&context=tamworth_nh_reports",
+      "needs_review": true,
+      "review_note": "The 2024 town report has an 'Ambulance Service' budget line ($215,947 spent in 2024) and lists $232,124.23 paid to Action Ambulance, but does not state outright that Action Ambulance is the town's provider."
+     },
+     "recent": [
+      {
+       "town": "Tamworth",
+       "date": "2026-03-21",
+       "kind": "Incident",
+       "title": "Floor collapse at a Chocorua event venue",
+       "detail": "A floor gave way at the start of a wedding ceremony at an event venue in Chocorua; about 70 people fell into the basement and six were taken to the hospital, none with life-threatening injuries, according to the State Fire Marshal's office. The Fire Marshal's office and Tamworth Fire/Rescue opened a joint investigation.",
+       "area": "Chocorua",
+       "source": {
+        "label": "NHPR, March 21, 2026",
+        "url": "https://www.nhpr.org/nh-news/2026-03-21/multiple-injuries-reported-after-structural-collapse-at-tamworth-wedding-venue"
+       }
+      }
+     ],
+     "stations": [
+      {
+       "name": "Central Fire Station",
+       "address": "132 Chinook Trail, Tamworth, NH 03886",
+       "needs_review": true,
+       "review_note": "The department page gives 132 Chinook Trail as its address; that this is the Central station is assumed, not stated."
+      },
+      {
+       "name": "Chocorua Fire Station",
+       "address": null
+      },
+      {
+       "name": "South Tamworth Fire Station",
+       "address": null
+      },
+      {
+       "name": "Wonalancet Fire Station",
+       "address": null
+      }
+     ],
+     "stationsSrc": "https://scholars.unh.edu/cgi/viewcontent.cgi?article=1136&context=tamworth_nh_reports"
     }
-   ]
+   ],
+   "fbi": {
+    "agency": "Tamworth Police Department",
+    "year": "2024",
+    "reports": true,
+    "population": 2942,
+    "violentCrime": 1,
+    "propertyCrime": 9,
+    "source": {
+     "label": "FBI Table 8 for Tamworth, 2024 (via OpenCrime)",
+     "url": "https://www.opencrime.us/cities/tamworth-new-hampshire"
+    },
+    "needs_review": true,
+    "review_note": "Counts are FBI Crime Data Explorer Table 8 figures as republished by OpenCrime; cde.ucr.cjis.gov itself could not be opened this session."
+   }
+  },
+  "Madison": {
+   "police": {
+    "name": "Town of Madison Police Department",
+    "chief": {
+     "name": "James E. Hayford",
+     "since": "2024",
+     "src": "https://www.madison-nh.org/departments/police/"
+    },
+    "emergency": "911",
+    "nonEmergency": "603-367-8334 (office)",
+    "address": "1923 Village Road (Town Hall, lower level), Madison, NH 03849",
+    "site": "https://www.madison-nh.org/departments/police/",
+    "note": "The 2024 town report lists Hayford as chief as of Sept 1, 2024.",
+    "noteSrc": "https://madison-nh.org/wp-content/uploads/2025/02/0000-2024-Town-Report.pdf",
+    "stats": [],
+    "statsNote": "The department posts monthly calls-for-service logs (latest listed: November 2025), but they could not be opened this session. Madison's 2025 town report (https://scholars.unh.edu/madison_nh_reports/142) could not be opened either, so no annual figures are shown.",
+    "logsUrl": "https://www.madison-nh.org/departments/police/",
+    "recent": []
+   },
+   "fire": [
+    {
+     "name": "Town of Madison Fire/Rescue",
+     "chief": {
+      "name": "Michael Brooks",
+      "since": null,
+      "src": "https://madison-nh.org/departments/firerescue-department"
+     },
+     "emergency": "911",
+     "nonEmergency": "603-367-4602",
+     "address": "1917 Village Road (Route 113), Madison, NH",
+     "site": "https://madison-nh.org/departments/firerescue-department",
+     "note": "Michael Brooks is also Fire Warden. Notify Carroll County Dispatch (603-539-2263) before a permitted burn.",
+     "stats": [],
+     "statsNote": "No 2025 call totals found; the town report fire pages could not be read this session.",
+     "ambulance": {
+      "provider": "Action Ambulance",
+      "src": "https://madison-nh.org/wp-content/uploads/2025/02/0000-2024-Town-Report.pdf",
+      "needs_review": true,
+      "review_note": "From the 2024 town report: an 'Ambulance' expense line of $115,911.69 and the same amount paid to Action Ambulance. Not confirmed for 2025 or 2026."
+     },
+     "recent": [],
+     "stations": [
+      {
+       "name": "Madison Fire Station",
+       "address": "1917 Village Road (Route 113), Madison, NH"
+      }
+     ]
+    }
+   ],
+   "fbi": {
+    "agency": "Madison Police Department",
+    "year": "2024",
+    "reports": true,
+    "population": 2759,
+    "violentCrime": 1,
+    "propertyCrime": 9,
+    "source": {
+     "label": "FBI Table 8 for Madison, 2024 (via OpenCrime)",
+     "url": "https://www.opencrime.us/cities/madison-new-hampshire"
+    },
+    "needs_review": true,
+    "review_note": "Counts are FBI Crime Data Explorer Table 8 figures as republished by OpenCrime; cde.ucr.cjis.gov itself could not be opened this session."
+   }
+  },
+  "Freedom": {
+   "police": {
+    "name": "Freedom Police Department",
+    "chief": {
+     "name": "Richard Laferriere",
+     "since": "2026",
+     "src": "https://townoffreedomnh.gov/departments/"
+    },
+    "emergency": "911",
+    "nonEmergency": "603-539-8268 (department line, not labeled non-emergency); dispatch 603-539-2284",
+    "address": "218 Village Road, Freedom, NH 03836 (mail: PO Box 227)",
+    "site": "https://townoffreedomnh.gov/departments/",
+    "needs_review": true,
+    "review_note": "The chief's surname is spelled three ways on town pages (Laferriere on the departments page, Laferierre in the swearing-in post, Lafarrier in the December 2025 notice). The departments page spelling is used. The dispatch number is from the fire department page.",
+    "stats": [],
+    "statsNote": "No 2025 police totals found. Freedom's 2025 town report (https://scholars.unh.edu/freedom_nh_reports/135) could not be opened, and selectmen's minutes give only short monthly notes.",
+    "recent": [
+     {
+      "town": "Freedom",
+      "date": "2026-02-25",
+      "kind": "Leadership",
+      "title": "New police chief sworn in",
+      "detail": "Richard Laferriere was sworn in as Freedom's police chief. He had been acting chief since Dec 17, 2025, when the previous chief retired.",
+      "area": null,
+      "source": {
+       "label": "Town of Freedom: New Police Chief",
+       "url": "https://townoffreedomnh.gov/2026/03/02/new-police-chief/"
+      }
+     }
+    ]
+   },
+   "fire": [
+    {
+     "name": "Freedom Fire-Rescue Department",
+     "chief": {
+      "name": "Rob Cunio",
+      "since": null,
+      "src": "https://townoffreedomnh.gov/departments/freedom-fire-rescue-department/"
+     },
+     "emergency": "911",
+     "nonEmergency": "(603) 539-4261 (station); emergency dispatch (603) 539-2284",
+     "address": "218 Village Road, Freedom, NH 03836 (mail: PO Box 129)",
+     "site": "https://townoffreedomnh.gov/departments/freedom-fire-rescue-department/",
+     "serves": "Freedom, and Eaton under an emergency services contract (Eaton selectmen signed it Aug 5, 2025).",
+     "note": "Fire permits through nh.burnsafeamerica.com. The town has a fireworks ordinance.",
+     "stats": [],
+     "statsNote": "No 2025 totals found. The chief gives monthly counts at selectmen's meetings, for example 4 medical calls, 1 crash and 2 CO alarms (Feb 2, 2026 minutes) and 7 medical aid calls (June 15, 2026 minutes).",
+     "ambulance": {
+      "provider": "Action Ambulance",
+      "src": "https://townoffreedomnh.gov/wp-content/uploads/2026/06/5.18.2026-Minutes-1.pdf",
+      "needs_review": true,
+      "review_note": "May 18, 2026 selectmen's minutes say Action Ambulance would run CPR training at Town Hall; no source opened states outright that it is Freedom's ambulance provider."
+     },
+     "recent": [],
+     "stations": [
+      {
+       "name": "Freedom Fire Station",
+       "address": "218 Village Road, Freedom, NH 03836"
+      }
+     ]
+    }
+   ],
+   "fbi": {
+    "agency": "Freedom Police Department",
+    "year": "2024",
+    "reports": false,
+    "population": null,
+    "violentCrime": null,
+    "propertyCrime": null,
+    "note": "No 2024 FBI counts found. OpenCrime's FBI Table 8 page for Freedom has rows only for 2020 to 2022, and US Crime Review says the department's NIBRS data run only through October 2024.",
+    "source": {
+     "label": "FBI Table 8 for Freedom (via OpenCrime)",
+     "url": "https://www.opencrime.us/cities/freedom-new-hampshire"
+    },
+    "needs_review": true,
+    "review_note": "Partial-year reporting is inferred from US Crime Review (https://uscrimereview.com/nh/agency/freedom-pd); check cde.ucr.cjis.gov directly."
+   }
+  },
+  "Jackson": {
+   "police": {
+    "name": "Jackson Police Department",
+    "chief": {
+     "name": "Chris Perley",
+     "since": null,
+     "src": "https://www.jackson-nh.gov/departments/police-department/"
+    },
+    "emergency": "911",
+    "nonEmergency": "603-383-9292 (listed as the chief's contact number, not labeled non-emergency)",
+    "address": "54 Main Street, Jackson, NH (mail: PO Box 187)",
+    "site": "https://www.jackson-nh.gov/departments/police-department/",
+    "note": "The 2025 town report lists the chief as Christopher Perley and gives the 54 Main Street address.",
+    "noteSrc": "https://scholars.unh.edu/cgi/viewcontent.cgi?article=1131&context=jackson_nh_reports",
+    "stats": [],
+    "statsNote": "Jackson's 2025 town report has a police report and a calls-for-service table (pages 88 to 90), but only the first part of the PDF could be read this session, so no figures are shown.",
+    "recent": [
+     {
+      "town": "Jackson",
+      "date": "2026-01-07",
+      "kind": "Recognition",
+      "title": "Selectmen recognize police chief for New Year's Eve rescue",
+      "detail": "Jackson selectmen recognized Police Chief Chris Perley for rescuing a driver after a pickup truck crash on Dundee Road on Dec. 31.",
+      "area": "Dundee Road",
+      "source": {
+       "label": "The Conway Daily Sun, via Ground News",
+       "url": "https://groundnews.lakegeneva.lib.wi.us/article/chief-perley-recognized-by-jackson-for-dec-31-rescue"
+      },
+      "needs_review": true,
+      "review_note": "Read through a news aggregator, not the Conway Daily Sun page itself."
+     },
+     {
+      "town": "Jackson",
+      "date": "2026-10-24",
+      "kind": "Program",
+      "title": "Jackson Police held a Drug Take Back Day",
+      "detail": "The town calendar listed a Jackson Police Department Drug Take Back Day, 8 am to noon, in front of Jackson Grammar School.",
+      "area": "Jackson Village",
+      "source": {
+       "label": "Town of Jackson, Calendar of Events",
+       "url": "https://www.jackson-nh.gov/events/month/"
+      }
+     }
+    ]
+   },
+   "fire": [
+    {
+     "name": "Jackson Fire Department",
+     "chief": {
+      "name": "Jay Henry",
+      "since": null,
+      "src": "https://www.jackson-nh.gov/departments/fire-department/"
+     },
+     "emergency": "911",
+     "nonEmergency": "(603) 383-4090 (Fire Chief)",
+     "address": "58 Main Street, Jackson, NH (mail: PO Box 268)",
+     "site": "https://www.jackson-nh.gov/departments/fire-department/",
+     "note": "Jay Henry is also Forest Fire Warden. The street address is from the 2025 town report.",
+     "noteSrc": "https://scholars.unh.edu/cgi/viewcontent.cgi?article=1131&context=jackson_nh_reports",
+     "stats": [],
+     "statsNote": "The fire report and incident report are on pages 68 and 69 of the 2025 town report, which could not be read this session.",
+     "ambulance": {
+      "provider": "Bartlett-Jackson Ambulance Service",
+      "src": "https://scholars.unh.edu/cgi/viewcontent.cgi?article=1131&context=jackson_nh_reports",
+      "note": "The 2025 town report has an 'Ambulance' budget line of $38,600 for 2025 and lists payments to Bartlett-Jackson Ambulance Service."
+     },
+     "recent": [],
+     "stations": [
+      {
+       "name": "Jackson Fire Station",
+       "address": "58 Main Street, Jackson, NH"
+      }
+     ]
+    }
+   ],
+   "fbi": {
+    "agency": "Jackson Police Department",
+    "year": "2024",
+    "reports": true,
+    "population": 1083,
+    "violentCrime": 0,
+    "propertyCrime": 5,
+    "source": {
+     "label": "FBI Table 8 for Jackson, 2024 (via OpenCrime)",
+     "url": "https://www.opencrime.us/cities/jackson-new-hampshire"
+    },
+    "needs_review": true,
+    "review_note": "Counts are FBI Crime Data Explorer Table 8 figures as republished by OpenCrime; cde.ucr.cjis.gov itself could not be opened this session."
+   }
+  },
+  "Albany": {
+   "police": {
+    "name": "Carroll County Sheriff's Office (covers Albany)",
+    "coverage": "Albany has no police department of its own. The Carroll County Sheriff's Office patrols the town; its 2025 report says directed patrols continue in Albany and it will watch traffic on the Route 16 corridor as NHDOT plans safety upgrades.",
+    "coverageSrc": "https://albanynh.org/wp-content/2026/02/202612-Albany-Town-Report-2025.pdf",
+    "chief": {
+     "name": "Domenic Richardi (Sheriff)",
+     "since": null,
+     "src": "https://albanynh.org/wp-content/2026/02/202612-Albany-Town-Report-2025.pdf"
+    },
+    "emergency": "911",
+    "nonEmergency": null,
+    "address": "95 Water Village Road, Ossipee, NH 03864 (mail: PO Box 190)",
+    "site": null,
+    "note": "The sheriff's 2025 report says 2025 was his final year after 14 years in office. Agorri did not confirm who holds the office now.",
+    "needs_review": true,
+    "review_note": "Current sheriff not confirmed for 2026.",
+    "stats": [
+     {
+      "label": "Accidents",
+      "value": 20,
+      "year": "2025",
+      "src": "https://albanynh.org/wp-content/2026/02/202612-Albany-Town-Report-2025.pdf"
+     },
+     {
+      "label": "Arrests",
+      "value": 31,
+      "year": "2025",
+      "src": "https://albanynh.org/wp-content/2026/02/202612-Albany-Town-Report-2025.pdf"
+     },
+     {
+      "label": "Citations and warnings",
+      "value": 526,
+      "year": "2025",
+      "src": "https://albanynh.org/wp-content/2026/02/202612-Albany-Town-Report-2025.pdf"
+     },
+     {
+      "label": "Alarms",
+      "value": 27,
+      "year": "2025",
+      "src": "https://albanynh.org/wp-content/2026/02/202612-Albany-Town-Report-2025.pdf"
+     },
+     {
+      "label": "Parking tickets",
+      "value": 27,
+      "year": "2025",
+      "src": "https://albanynh.org/wp-content/2026/02/202612-Albany-Town-Report-2025.pdf"
+     }
+    ],
+    "statsNote": "From the Sheriff's Office report in Albany's 2025 town report (page 42), which says the figures were mostly lower than in 2024. The report also lists 10 cases with drugs involved.",
+    "statsNeedsReview": true,
+    "statsReviewNote": "The report is printed in Albany's town report and refers to Albany, but does not say in so many words that every figure is Albany-only.",
+    "recent": []
+   },
+   "fire": [
+    {
+     "name": "Conway Fire Department (covers Albany)",
+     "chief": {
+      "name": "Philip Remington",
+      "since": null,
+      "src": "https://albanynh.org/wp-content/2026/02/202612-Albany-Town-Report-2025.pdf"
+     },
+     "emergency": "911",
+     "nonEmergency": "(603) 447-2681",
+     "address": "97 Main Street, Conway, NH 03818",
+     "site": null,
+     "coverage": "Albany has no fire department of its own; the Conway Fire Department's 2025 report in Albany's town report has an Albany column. Albany's Fire Warden is Jonathan Powers.",
+     "stats": [],
+     "statsNote": "The department-wide total was 1,550 calls in 2025; the Albany-only figures in its table could not be read reliably.",
+     "ambulance": {
+      "provider": "Conway Fire Department",
+      "src": "https://albanynh.org/wp-content/2026/02/202612-Albany-Town-Report-2025.pdf",
+      "needs_review": true,
+      "review_note": "The Conway Fire report says it provides fire, rescue and ambulance services; Albany's 2026 budget has an 'Ambulance & Rescue & Fire' line, but the amount was unreadable and no source names Albany's ambulance provider outright."
+     },
+     "recent": [],
+     "stations": []
+    }
+   ],
+   "fbi": {
+    "agency": null,
+    "year": "2024",
+    "reports": false,
+    "population": null,
+    "violentCrime": null,
+    "propertyCrime": null,
+    "note": "Albany has no police department, so the FBI has no Albany agency. Crimes there are handled by the Carroll County Sheriff's Office, whose FBI figures cover all the towns it serves.",
+    "source": {
+     "label": "Albany 2025 town report",
+     "url": "https://albanynh.org/wp-content/2026/02/202612-Albany-Town-Report-2025.pdf"
+    }
+   }
+  },
+  "Eaton": {
+   "police": {
+    "name": "No town police department",
+    "coverage": "Eaton has no police department of its own (state community profile). 2025 selectmen's minutes refer residents to the Carroll County Sheriff when incidents happen.",
+    "coverageSrc": "https://www.nhes.nh.gov/elmi/products/cp/profiles-htm/eaton.htm",
+    "coverageSrc2": "https://www.eatonnh.gov/wp-content/uploads/2026/01/BOS-Minutes-2025.pdf",
+    "needs_review": true,
+    "review_note": "The 'no police department' line is from a state profile dated 2018. No source opened describes a formal Sheriff's patrol arrangement for Eaton. Eaton's 2025 town report (https://scholars.unh.edu/eaton_nh_reports/145) could not be opened.",
+    "chief": {
+     "name": null,
+     "since": null,
+     "src": null
+    },
+    "emergency": "911",
+    "nonEmergency": null,
+    "address": null,
+    "site": null,
+    "stats": [],
+    "recent": []
+   },
+   "fire": [
+    {
+     "name": "Center Conway Fire Department (contract)",
+     "coverage": "Eaton selectmen signed an emergency services contract with the Center Conway Fire Department on July 15, 2025.",
+     "src": "https://www.eatonnh.gov/wp-content/uploads/2026/01/BOS-Minutes-2025.pdf",
+     "address": "1593 East Main Street, Center Conway, NH 03813",
+     "stats": [],
+     "stations": []
+    },
+    {
+     "name": "Freedom Fire-Rescue Department (contract)",
+     "coverage": "Eaton selectmen signed an emergency services contract with the Freedom Fire Department on Aug 5, 2025.",
+     "src": "https://www.eatonnh.gov/wp-content/uploads/2026/01/BOS-Minutes-2025.pdf",
+     "address": "218 Village Road, Freedom, NH 03836",
+     "stats": [],
+     "stations": [],
+     "ambulance": {
+      "provider": "Action Ambulance Service",
+      "src": "https://www.eatonnh.gov/wp-content/uploads/2026/01/BOS-Minutes-2025.pdf",
+      "note": "Action Ambulance submitted 2024 year-end activity reports to Eaton selectmen (Jan 21, 2025). At the Feb 5, 2025 budget hearing, officials said ambulance cost was lower because Eaton's calls went down. Eaton also takes part in a six-town ambulance group."
+     },
+     "note": "Contract amounts were not stated in the minutes."
+    }
+   ],
+   "fbi": {
+    "agency": null,
+    "year": "2024",
+    "reports": false,
+    "population": null,
+    "violentCrime": null,
+    "propertyCrime": null,
+    "note": "Eaton has no police department, so the FBI has no Eaton agency.",
+    "source": {
+     "label": "NH Employment Security community profile: Eaton",
+     "url": "https://www.nhes.nh.gov/elmi/products/cp/profiles-htm/eaton.htm"
+    }
+   }
+  },
+  "Hart's Location": {
+   "police": {
+    "name": "Carroll County Sheriff's Office (covers Hart's Location)",
+    "coverage": "Hart's Location has no police department. The town says police services are provided by the Carroll County Sheriff's Department; its budget has a Police line of $0.",
+    "coverageSrc": "https://hartslocation.com/town-services",
+    "chief": {
+     "name": null,
+     "since": null,
+     "src": null
+    },
+    "emergency": "911",
+    "nonEmergency": "Carroll County Sheriff, 603-539-2284",
+    "address": null,
+    "site": "https://hartslocation.com/town-services",
+    "stats": [],
+    "recent": []
+   },
+   "fire": [
+    {
+     "name": "Bartlett Fire Department (covers Hart's Location)",
+     "coverage": "The town says Bartlett provides fire and rescue response. Hart's Location budgeted $5,000 for fire in 2025 and 2026. Its Fire Warden is Jon Goodreau.",
+     "coverageSrc": "https://hartslocation.com/town-services",
+     "chief": {
+      "name": "James Langdon Jr.",
+      "since": "2026",
+      "src": "https://www.conwaydailysun.com/news/local/langdon-named-bartlett-fire-chief/article_0376de87-c03d-488c-b0e8-c501978b932b.html"
+     },
+     "emergency": "911",
+     "nonEmergency": "603-374-2786 (as listed by Hart's Location)",
+     "address": "90 U.S. Route 302, Glen, NH 03838",
+     "site": "https://www.townofbartlett.nh.gov/1200/Fire-Department",
+     "stats": [],
+     "ambulance": {
+      "provider": "Bartlett-Jackson Ambulance Service",
+      "src": "https://hartslocation.com/town-services",
+      "note": "Hart's Location spent $2,000 on ambulance in 2025 and proposed $2,500 for 2026; 2025 town meeting approved $10,000 toward a new Bartlett-Jackson ambulance, paid in two $5,000 installments.",
+      "noteSrc": "https://hartslocation.com/wp-content/uploads/2026/03/2025-Annual-Town-School-Reports_Digital-Version.pdf"
+     },
+     "recent": [],
+     "stations": [],
+     "note": "The 2025 town report says the Bemis Fire cost the town over $39,000 and led it to set up an Emergency Response Capital Reserve Fund.",
+     "noteSrc": "https://hartslocation.com/wp-content/uploads/2026/03/2025-Annual-Town-School-Reports_Digital-Version.pdf"
+    }
+   ],
+   "fbi": {
+    "agency": null,
+    "year": "2024",
+    "reports": false,
+    "population": null,
+    "violentCrime": null,
+    "propertyCrime": null,
+    "note": "Hart's Location has no police department, so the FBI has no agency for the town.",
+    "source": {
+     "label": "Hart's Location town services",
+     "url": "https://hartslocation.com/town-services"
+    }
+   }
   }
  }
 }
