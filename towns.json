@@ -85,6 +85,7 @@
    ],
    "status": "live",
    "site": "https://conwaynh.gov/",
+   "allLabel": "All towns",
    "subtowns": [
     {
      "id": "north-conway",
@@ -103,13 +104,13 @@
      "note": "Bartlett village, Glen and part of Intervale"
     },
     {
-     "id": "jackson",
-     "name": "Jackson"
-    },
-    {
      "id": "madison",
      "name": "Madison",
      "note": "Including Silver Lake and Eidelweiss"
+    },
+    {
+     "id": "jackson",
+     "name": "Jackson"
     }
    ],
    "files": {
@@ -118,8 +119,8 @@
      "north-conway": "data/mount-washington-valley/record-conway.json",
      "conway": "data/mount-washington-valley/record-conway.json",
      "bartlett": "data/mount-washington-valley/record-bartlett.json",
-     "jackson": "data/mount-washington-valley/record-jackson.json",
-     "madison": "data/mount-washington-valley/record-madison.json"
+     "madison": "data/mount-washington-valley/record-madison.json",
+     "jackson": "data/mount-washington-valley/record-jackson.json"
     },
     "local": "data/mount-washington-valley/local.json",
     "beyond": "data/mount-washington-valley/beyond.json",
@@ -128,7 +129,8 @@
     "business": "data/mount-washington-valley/business.json",
     "candidates": "data/mount-washington-valley/candidates.json",
     "questions": "data/mount-washington-valley/questions.json",
-    "schools": "data/mount-washington-valley/schools.json"
+    "schools": "data/mount-washington-valley/schools.json",
+    "area": "data/mount-washington-valley/area.json"
    },
    "photo": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Echo_Lake_and_Cathedral_Ledge%2C_North_Conway_%28494301%29_%2811924544465%29.jpg/{w}px-Echo_Lake_and_Cathedral_Ledge%2C_North_Conway_%28494301%29_%2811924544465%29.jpg",

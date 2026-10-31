@@ -1,0 +1,226 @@
+{
+ "as_of": "2026-10-31",
+ "note": "The 18 New Hampshire towns of the Mt Washington Valley Chamber of Commerce. Towns with a full Agorri page have a record-<town>.json; this file adds population for every town and, for the others, the 2026 town operating budget and 2025 tax rate.",
+ "definition": {
+  "label": "Mt Washington Valley Chamber of Commerce, membership towns",
+  "url": "https://www.visitmwv.com/members/mt-washington-valley-chamber-of-commerce/"
+ },
+ "towns": [
+  {
+   "id": "conway",
+   "name": "Conway",
+   "county": "Carroll",
+   "population": {
+    "census2020": 9810,
+    "source": {
+     "label": "U.S. Census 2020, via City Population (Carroll County)",
+     "url": "https://citypopulation.de/en/usa/newhampshire/admin/33003__carroll"
+    }
+   }
+  },
+  {
+   "id": "ossipee",
+   "name": "Ossipee",
+   "county": "Carroll",
+   "population": {
+    "census2020": 4338,
+    "source": {
+     "label": "U.S. Census 2020, via City Population (Carroll County)",
+     "url": "https://citypopulation.de/en/usa/newhampshire/admin/33003__carroll"
+    }
+   }
+  },
+  {
+   "id": "bartlett",
+   "name": "Bartlett",
+   "county": "Carroll",
+   "population": {
+    "census2020": 3192,
+    "source": {
+     "label": "U.S. Census 2020, via City Population (Carroll County)",
+     "url": "https://citypopulation.de/en/usa/newhampshire/admin/33003__carroll"
+    }
+   }
+  },
+  {
+   "id": "tamworth",
+   "name": "Tamworth",
+   "county": "Carroll",
+   "population": {
+    "census2020": 2823,
+    "source": {
+     "label": "U.S. Census 2020, via City Population (Carroll County)",
+     "url": "https://citypopulation.de/en/usa/newhampshire/admin/33003__carroll"
+    }
+   }
+  },
+  {
+   "id": "gorham",
+   "name": "Gorham",
+   "county": "Coos",
+   "population": {
+    "census2020": 2696,
+    "source": {
+     "label": "U.S. Census 2020, via City Population (Coos County)",
+     "url": "https://Citypopulation.de/en/usa/newhampshire/admin/33007__coos/"
+    }
+   }
+  },
+  {
+   "id": "madison",
+   "name": "Madison",
+   "county": "Carroll",
+   "population": {
+    "census2020": 2568,
+    "source": {
+     "label": "U.S. Census 2020, via City Population (Carroll County)",
+     "url": "https://citypopulation.de/en/usa/newhampshire/admin/33003__carroll"
+    }
+   }
+  },
+  {
+   "id": "whitefield",
+   "name": "Whitefield",
+   "county": "Coos",
+   "population": {
+    "census2020": 2493,
+    "source": {
+     "label": "U.S. Census 2020, via City Population (Coos County)",
+     "url": "https://Citypopulation.de/en/usa/newhampshire/admin/33007__coos/"
+    }
+   }
+  },
+  {
+   "id": "effingham",
+   "name": "Effingham",
+   "county": "Carroll",
+   "population": {
+    "census2020": 1697,
+    "source": {
+     "label": "U.S. Census 2020, via City Population (Carroll County)",
+     "url": "https://citypopulation.de/en/usa/newhampshire/admin/33003__carroll"
+    }
+   }
+  },
+  {
+   "id": "freedom",
+   "name": "Freedom",
+   "county": "Carroll",
+   "population": {
+    "census2020": 1686,
+    "source": {
+     "label": "U.S. Census 2020, via City Population (Carroll County)",
+     "url": "https://citypopulation.de/en/usa/newhampshire/admin/33003__carroll"
+    }
+   }
+  },
+  {
+   "id": "sandwich",
+   "name": "Sandwich",
+   "county": "Carroll",
+   "population": {
+    "census2020": 1468,
+    "source": {
+     "label": "U.S. Census 2020, via City Population (Carroll County)",
+     "url": "https://citypopulation.de/en/usa/newhampshire/admin/33003__carroll"
+    }
+   }
+  },
+  {
+   "id": "jefferson",
+   "name": "Jefferson",
+   "county": "Coos",
+   "population": {
+    "census2020": 1046,
+    "source": {
+     "label": "U.S. Census 2020, via City Population (Coos County)",
+     "url": "https://Citypopulation.de/en/usa/newhampshire/admin/33007__coos/"
+    }
+   }
+  },
+  {
+   "id": "jackson",
+   "name": "Jackson",
+   "county": "Carroll",
+   "population": {
+    "census2020": 1030,
+    "source": {
+     "label": "U.S. Census 2020, via City Population (Carroll County)",
+     "url": "https://citypopulation.de/en/usa/newhampshire/admin/33003__carroll"
+    }
+   }
+  },
+  {
+   "id": "carroll",
+   "name": "Carroll",
+   "county": "Coos",
+   "population": {
+    "census2020": 819,
+    "source": {
+     "label": "U.S. Census 2020, via City Population (Coos County)",
+     "url": "https://Citypopulation.de/en/usa/newhampshire/admin/33007__coos/"
+    }
+   }
+  },
+  {
+   "id": "albany",
+   "name": "Albany",
+   "county": "Carroll",
+   "population": {
+    "census2020": 760,
+    "source": {
+     "label": "U.S. Census 2020, via City Population (Carroll County)",
+     "url": "https://citypopulation.de/en/usa/newhampshire/admin/33003__carroll"
+    }
+   }
+  },
+  {
+   "id": "eaton",
+   "name": "Eaton",
+   "county": "Carroll",
+   "population": {
+    "census2020": 404,
+    "source": {
+     "label": "U.S. Census 2020, via City Population (Carroll County)",
+     "url": "https://citypopulation.de/en/usa/newhampshire/admin/33003__carroll"
+    }
+   }
+  },
+  {
+   "id": "shelburne",
+   "name": "Shelburne",
+   "county": "Coos",
+   "population": {
+    "census2020": 356,
+    "source": {
+     "label": "U.S. Census 2020, via City Population (Coos County)",
+     "url": "https://Citypopulation.de/en/usa/newhampshire/admin/33007__coos/"
+    }
+   }
+  },
+  {
+   "id": "chatham",
+   "name": "Chatham",
+   "county": "Carroll",
+   "population": {
+    "census2020": 348,
+    "source": {
+     "label": "U.S. Census 2020, via City Population (Carroll County)",
+     "url": "https://citypopulation.de/en/usa/newhampshire/admin/33003__carroll"
+    }
+   }
+  },
+  {
+   "id": "harts-location",
+   "name": "Hart's Location",
+   "county": "Carroll",
+   "population": {
+    "census2020": 63,
+    "source": {
+     "label": "U.S. Census 2020, via City Population (Carroll County)",
+     "url": "https://citypopulation.de/en/usa/newhampshire/admin/33003__carroll"
+    }
+   }
+  }
+ ]
+}
