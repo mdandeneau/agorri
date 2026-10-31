@@ -99,10 +99,6 @@
      "note": "North Conway, Conway Village, Center Conway, Kearsarge, Intervale and Redstone"
     },
     {
-     "id": "ossipee",
-     "name": "Ossipee"
-    },
-    {
      "id": "bartlett",
      "name": "Bartlett",
      "note": "Bartlett village, Glen and part of Intervale"
@@ -126,7 +122,6 @@
     "records": {
      "north-conway": "data/mount-washington-valley/record-conway.json",
      "conway": "data/mount-washington-valley/record-conway.json",
-     "ossipee": "data/mount-washington-valley/record-ossipee.json",
      "bartlett": "data/mount-washington-valley/record-bartlett.json",
      "tamworth": "data/mount-washington-valley/record-tamworth.json",
      "madison": "data/mount-washington-valley/record-madison.json",

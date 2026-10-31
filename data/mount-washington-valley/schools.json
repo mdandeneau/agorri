@@ -694,58 +694,6 @@
    "news": []
   },
   {
-   "id": "governor-wentworth-regional-school-district",
-   "name": "Governor Wentworth Regional School District",
-   "towns": [
-    "Ossipee"
-   ],
-   "sau": null,
-   "site": null,
-   "superintendent": {
-    "name": null,
-    "since": null,
-    "src": null
-   },
-   "board": {
-    "name": "Governor Wentworth Regional School Board",
-    "meets": null,
-    "agendasUrl": null,
-    "videoUrl": null,
-    "members": [],
-    "source": {
-     "label": "GoodParty.org: Governor Wentworth Regional School Board, Ossipee seat",
-     "url": "https://goodparty.org/elections/nh/carroll-county/ossipee-town/position/local-school-board/candidates"
-    }
-   },
-   "schools": [],
-   "enrollment": null,
-   "budget": {
-    "year": "2026-27",
-    "total": null,
-    "prior": null,
-    "changePct": null,
-    "adopted": null,
-    "adoptedVote": null,
-    "perPupil": null,
-    "perPupilYear": null,
-    "perPupilSource": null,
-    "note": "No district budget document was opened. The local school portion of Ossipee's 2025 tax rate was $7.22 per $1,000, up from $6.38 in 2024 (state tax rate tables).",
-    "source": {
-     "label": "NH DRA 2025 Municipal Tax Rates (copy hosted by the Town of Acworth)",
-     "url": "https://www.acworthnh.net/_files/ugd/a327e9_a3f47ac2d74a46b7bb7c6b1467f85e8c.pdf"
-    }
-   },
-   "results": [],
-   "calendarUrl": null,
-   "closingsUrl": null,
-   "issues": [],
-   "upcoming": [],
-   "news": [],
-   "note": "Ossipee is a member of this regional district (GoodParty.org; the 2015 Ossipee town report also names it). The district's SAU office is at 140 Pine Hill Road, Wolfeboro, NH 03894 (603-569-1658). The other member towns, the SAU number, the superintendent, the board roster and the schools were not confirmed from an opened source, so only Ossipee is listed.",
-   "needs_review": true,
-   "review_note": "Thin entry: the district and SAU websites were not opened. Add member towns, schools and board from the district's own site."
-  },
-  {
    "id": "tamworth-school-district",
    "name": "Tamworth School District",
    "towns": [

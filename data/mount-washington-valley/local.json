@@ -1767,53 +1767,6 @@
     "site": "https://www.bartlett-jacksonambulanceservice.org/"
    },
    {
-    "town": "Ossipee",
-    "name": "Ossipee Police Department",
-    "kind": "police",
-    "chief": "James Sullivan (interim from May 2026; named chief June 5, 2026)",
-    "nonEmergency": null,
-    "address": null,
-    "site": "https://www.conwaydailysun.com/news/local/ossipee-police-detective-elevated-to-interim-chief/article_2316a563-c15e-4c07-a5c5-941c8f309c46.html",
-    "note": "Phone and address were not found in an opened source (the town website could not be read). At the March 2026 Town Meeting voters passed a non-binding article asking the department to end its 287(g) agreement with ICE, 75-56."
-   },
-   {
-    "town": "Ossipee",
-    "name": "Center Ossipee Fire & Rescue Department",
-    "kind": "fire",
-    "chief": "Dana Cullen Jr. (2023 town report; not confirmed for 2026)",
-    "nonEmergency": null,
-    "address": null,
-    "site": "https://www.ossipee.org/sites/g/files/vyhlif3641/f/uploads/2023_ossipee_annual_report.pdf",
-    "note": "Run by the Center Ossipee fire precinct, a separate local district. Reported 506 emergency runs in 2023. In January 2026 the Selectmen approved its agreement with Action Ambulance."
-   },
-   {
-    "town": "Ossipee",
-    "name": "Ossipee Corner Fire Department",
-    "kind": "fire",
-    "chief": "Adam Riley (2023 town report; not confirmed for 2026)",
-    "nonEmergency": null,
-    "address": null,
-    "site": "https://www.ossipee.org/sites/g/files/vyhlif3641/f/uploads/2023_ossipee_annual_report.pdf",
-    "note": "Run by the Ossipee Corner fire precinct. Reported 503 emergency calls in 2023. Riley was also the town's Forest Fire Warden; fire permits come from the fire departments."
-   },
-   {
-    "town": "Ossipee",
-    "name": "West Ossipee Fire Department",
-    "kind": "fire",
-    "chief": "Carl Huddleston (2023 town report; not confirmed for 2026)",
-    "nonEmergency": null,
-    "address": null,
-    "site": "https://www.ossipee.org/sites/g/files/vyhlif3641/f/uploads/2023_ossipee_annual_report.pdf",
-    "note": "Run by the West Ossipee fire precinct, a separate local district."
-   },
-   {
-    "town": "Ossipee",
-    "name": "Action Ambulance (town contract)",
-    "kind": "ambulance",
-    "detail": "Ossipee has a town-wide ambulance contract with Action Ambulance; the 2026 budget review listed an ambulance contract line of $464,423 (AI summary of a December 2025 Budget Committee meeting).",
-    "site": "https://cpo.soar.com/articles/7168208/New-Hampshire/Ossipee-budget-committee-approves-operating-budgets-debates-outside-audits-and-funding-for-new-food-pantry"
-   },
-   {
     "town": "Tamworth",
     "name": "Tamworth Police Department",
     "kind": "police",

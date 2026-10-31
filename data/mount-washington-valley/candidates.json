@@ -2,7 +2,7 @@
  "as_of": "2026-10-31",
  "election": {
   "date": "2026-11-03",
-  "polls": "8am to 7pm. Conway: Town Garage, 1611 East Main St., Center Conway. Bartlett: Josiah Bartlett Elementary School, 1313 US Route 302, Bartlett. Jackson: Whitney Community Center, 16 Black Mountain Rd., Jackson. Madison: Madison Elementary School, James Noyes Hall (gym), 2069 Village Rd. (Route 113), Madison. Ossipee: Ossipee Town Hall, 55 Main St., Center Ossipee. Tamworth: Kenneth A. Brett School gymnasium, 881 Tamworth Rd., Tamworth.",
+  "polls": "8am to 7pm. Conway: Town Garage, 1611 East Main St., Center Conway. Bartlett: Josiah Bartlett Elementary School, 1313 US Route 302, Bartlett. Jackson: Whitney Community Center, 16 Black Mountain Rd., Jackson. Madison: Madison Elementary School, James Noyes Hall (gym), 2069 Village Rd. (Route 113), Madison. Tamworth: Kenneth A. Brett School gymnasium, 881 Tamworth Rd., Tamworth.",
   "pollsSource": {
    "label": "Town of Conway, Elections",
    "url": "https://conwaynh.gov/pages/elections"
@@ -47,17 +47,6 @@
      "label": "Town of Madison, Elections and Voting",
      "url": "https://madison-nh.org/departments/town-clerk/elections-voting"
     }
-   },
-   {
-    "ward": "Ossipee",
-    "place": "Ossipee Town Hall, 55 Main St., Center Ossipee",
-    "hours": "8am to 7pm",
-    "source": {
-     "label": "Citizens Count, Ossipee ballot page",
-     "url": "https://citizenscount.org/nh/carroll/ossipee"
-    },
-    "needs_review": true,
-    "review_note": "Only Citizens Count was opened (it lists 55 Main St, Ossipee, NH 03814; the town clerk's mailing address is Center Ossipee). The town website (ossipee.org) failed to load. Confirm with the Town Clerk, 603-539-2008."
    },
    {
     "ward": "Tamworth",
@@ -2964,12 +2953,11 @@
    "level": "County",
    "wards": [
     "Madison",
-    "Ossipee",
     "Tamworth"
    ],
    "seats": 1,
    "term": "2 years",
-   "what": "One of three commissioners who run county operations such as the nursing home and jail and propose the county budget; District 2 is Madison, Moultonborough, Ossipee, Tamworth and Tuftonboro, so Madison voters see this race and Conway, Bartlett and Jackson voters do not. Ossipee and Tamworth voters see it as well.",
+   "what": "One of three commissioners who run county operations such as the nursing home and jail and propose the county budget; District 2 is Madison, Moultonborough, Ossipee, Tamworth and Tuftonboro, so Madison voters see this race and Conway, Bartlett and Jackson voters do not. Tamworth voters see it as well.",
    "candidates": [
     {
      "id": "chuck-mcgee",
@@ -3021,296 +3009,6 @@
     "url": "https://gc.nh.gov/rsa/html/LXIII/662/662-mrg.htm"
    },
    "source_note": "County candidate lists come from The Ballot Brief (an AI-assisted guide that says it draws on the Secretary of State's candidate list) cross-checked with GoodParty.org; the Secretary of State's list itself was not opened in this session."
-  },
-  {
-   "id": "house-carroll-5",
-   "office": "State Representative",
-   "district": "Carroll 5",
-   "level": "State",
-   "wards": [
-    "Ossipee"
-   ],
-   "seats": 1,
-   "term": "2 years",
-   "what": "One seat in the New Hampshire House for the town of Ossipee alone. Ossipee voters also vote in the Carroll 7 floterial race. Rep. Jonathan Smith (R) lost the Sep 8, 2026 Republican primary, so neither candidate is an incumbent.",
-   "candidates": [
-    {
-     "id": "steven-brown",
-     "name": "Steven Brown",
-     "party": "R",
-     "incumbent": false,
-     "hometown": "Ossipee",
-     "background": "Won the Sep 8, 2026 Republican primary over Rep. Jonathan Smith, 269 votes to 260 (Ballotpedia). No other background on the sources read.",
-     "website": null,
-     "positions": [],
-     "accounts": [],
-     "source": {
-      "label": "Ballotpedia, NH House Carroll 5",
-      "url": "https://ballotpedia.org/New_Hampshire_House_of_Representatives_Carroll_5"
-     },
-     "background_source": {
-      "label": "The Ballot Brief, Carroll District 5",
-      "url": "https://theballotbrief.com/state/new-hampshire/carroll-county/new-hampshire-house-carroll-district-5"
-     },
-     "positions_note": "The Ballot Brief says he has not answered the Citizens Count survey and no campaign website was found as of Sep 11, 2026. His Citizens Count profile could not be opened in this session. The quote is from a post-primary news article.",
-     "needs_review": true,
-     "review_note": "Hometown is from The Ballot Brief citing Citizens Count."
-    },
-    {
-     "id": "morgan-bultman",
-     "name": "Morgan Bultman",
-     "party": "D",
-     "incumbent": false,
-     "hometown": "Ossipee",
-     "background": "Realtor and entrepreneur whose family has lived in Ossipee for six generations; serves on the Ossipee Economic Development Council. Per her campaign site (as summarized by The Ballot Brief), she ran a small business consulting practice, owned a custom cabinetry showroom and managed showrooms for handmade lighting; holds an MBA. Unopposed in the Sep 8, 2026 Democratic primary (283 votes, Ballotpedia).",
-     "website": "https://www.morgan4nh.com",
-     "positions": [
-      {
-       "topic": "Property taxes",
-       "stance": "Lower property taxes by updating the senior homestead exemption and the valuation formula.",
-       "quote": "Lowering property taxes: update the senior homestead exemption and the valuation formula",
-       "source": {
-        "label": "Campaign website, as quoted by The Ballot Brief, 2026",
-        "url": "https://theballotbrief.com/state/new-hampshire/carroll-county/new-hampshire-house-carroll-district-5"
-       }
-      },
-      {
-       "topic": "School funding",
-       "stance": "Wants the state to pay its share of school costs.",
-       "quote": "Fighting for public education: make the state pay its share of school costs",
-       "source": {
-        "label": "Campaign website, as quoted by The Ballot Brief, 2026",
-        "url": "https://theballotbrief.com/state/new-hampshire/carroll-county/new-hampshire-house-carroll-district-5"
-       }
-      },
-      {
-       "topic": "Environment",
-       "stance": "Protect Ossipee's lakes and beaches.",
-       "quote": "Protecting the local environment: Ossipee's lakes and beaches",
-       "source": {
-        "label": "Campaign website, as quoted by The Ballot Brief, 2026",
-        "url": "https://theballotbrief.com/state/new-hampshire/carroll-county/new-hampshire-house-carroll-district-5"
-       }
-      }
-     ],
-     "accounts": [
-      {
-       "platform": "Website",
-       "url": "https://www.morgan4nh.com"
-      }
-     ],
-     "source": {
-      "label": "Ballotpedia, NH House Carroll 5",
-      "url": "https://ballotpedia.org/New_Hampshire_House_of_Representatives_Carroll_5"
-     },
-     "background_source": {
-      "label": "The Ballot Brief, Carroll District 5",
-      "url": "https://theballotbrief.com/state/new-hampshire/carroll-county/new-hampshire-house-carroll-district-5"
-     },
-     "positions_note": "Her Citizens Count profile and campaign site could not be opened in this session. The first three quotes are her campaign site's wording as reproduced by The Ballot Brief (an AI-assisted guide); the last is from a news article.",
-     "needs_review": true,
-     "review_note": "Confirm the three campaign-site lines against morgan4nh."
-    }
-   ],
-   "source": {
-    "label": "Citizens Count, Ossipee ballot page (cross-checked with Ballotpedia's Carroll 5 page)",
-    "url": "https://citizenscount.org/nh/carroll/ossipee"
-   },
-   "district_source": {
-    "label": "NH RSA 662:5, Carroll County representative districts",
-    "url": "https://gc.nh.gov/rsa/html/LXIII/662/662-mrg.htm"
-   }
-  },
-  {
-   "id": "house-carroll-7",
-   "office": "State Representative",
-   "district": "Carroll 7 (floterial)",
-   "level": "State",
-   "wards": [
-    "Ossipee"
-   ],
-   "seats": 1,
-   "term": "2 years",
-   "what": "A floterial district: one extra House seat shared by Ossipee, Tuftonboro and Wolfeboro, elected on top of each town's own district. Ossipee voters see this race in addition to Carroll 5. Rep. Bobbi Boudman (D), who won the seat in a March 10, 2026 special election, is running for State Senate District 3 instead, so neither candidate is an incumbent.",
-   "candidates": [
-    {
-     "id": "dale-fincher",
-     "name": "Dale Fincher",
-     "party": "R",
-     "incumbent": false,
-     "hometown": "Wolfeboro",
-     "background": "Founded the nonprofit education group Soulation, Inc. (2005 to 2018) and co-founded the investment firm i3, Inc. (2010 to present); author. BA and MA in speech communications and an MA in philosophy and ethics (Citizens Count). Moved to Wolfeboro from Exeter (Conway Daily Sun). Lost the March 10, 2026 special election for this seat to Bobbi Boudman, 2,042 votes to 2,207. Won the Sep 8, 2026 Republican primary over Ossipee Selectman Dallas Emery Jr., 1,489 votes to 609 (Ballotpedia).",
-     "website": "https://dalefinchernh.com/",
-     "positions": [
-      {
-       "topic": "Education Freedom Accounts",
-       "stance": "For.",
-       "quote": "Education Freedom is parent-directed education.",
-       "source": {
-        "label": "Citizens Count survey, 2026",
-        "url": "https://www.citizenscount.org/candidate/dale-fincher"
-       }
-      },
-      {
-       "topic": "School funding",
-       "stance": "For keeping most school funding local.",
-       "quote": "Local control allows better transparency, accountability, and relationship to families and taxpayers in school districts.",
-       "source": {
-        "label": "Citizens Count survey, 2026",
-        "url": "https://www.citizenscount.org/candidate/dale-fincher"
-       }
-      },
-      {
-       "topic": "School district tax caps",
-       "stance": "Other.",
-       "quote": "I support giving voters common-sense opportunities to cap and reduce their property taxes.",
-       "source": {
-        "label": "Citizens Count survey, 2026",
-        "url": "https://www.citizenscount.org/candidate/dale-fincher"
-       }
-      },
-      {
-       "topic": "Interest and Dividends tax",
-       "stance": "Against.",
-       "quote": "'Interest and Dividends' Tax is also an income tax--especially on retirees--and should remain cancelled.",
-       "source": {
-        "label": "Citizens Count survey, 2026",
-        "url": "https://www.citizenscount.org/candidate/dale-fincher"
-       }
-      },
-      {
-       "topic": "Energy",
-       "stance": "For nuclear development.",
-       "quote": "Advancing nuclear energy will reduce pollution without sacrificing our strength to grow and innovate.",
-       "source": {
-        "label": "Citizens Count survey, 2026",
-        "url": "https://www.citizenscount.org/candidate/dale-fincher"
-       }
-      },
-      {
-       "topic": "Housing and zoning",
-       "stance": "Other.",
-       "quote": "unreasonable zoning restrictions around the state should be reviewed.",
-       "source": {
-        "label": "Citizens Count survey, 2026",
-        "url": "https://www.citizenscount.org/candidate/dale-fincher"
-       }
-      },
-      {
-       "topic": "Voter registration",
-       "stance": "For requiring ID to register.",
-       "quote": "No registration should be approved without ID.",
-       "source": {
-        "label": "Citizens Count survey, 2026",
-        "url": "https://www.citizenscount.org/candidate/dale-fincher"
-       }
-      },
-      {
-       "topic": "Minimum wage",
-       "stance": "Against an increase.",
-       "quote": "Minimum wage reduces opportunities for those willing to work.",
-       "source": {
-        "label": "Citizens Count survey, 2026",
-        "url": "https://www.citizenscount.org/candidate/dale-fincher"
-       }
-      },
-      {
-       "topic": "Abortion",
-       "stance": "Against guaranteeing a right to abortion before 24 weeks; for a second-trimester ban; undecided on a first-trimester ban.",
-       "quote": "We need to re-build a culture of motherhood in NH",
-       "source": {
-        "label": "Citizens Count survey, 2026",
-        "url": "https://www.citizenscount.org/candidate/dale-fincher"
-       }
-      },
-      {
-       "topic": "Marijuana legalization",
-       "stance": "Against.",
-       "quote": "Without safeguarding and regulating the effects on public health and safety,",
-       "source": {
-        "label": "Citizens Count survey, 2026",
-        "url": "https://www.citizenscount.org/candidate/dale-fincher"
-       }
-      }
-     ],
-     "accounts": [
-      {
-       "platform": "Website",
-       "url": "https://dalefinchernh.com/"
-      },
-      {
-       "platform": "Facebook",
-       "url": "https://www.facebook.com/Dale4NH"
-      },
-      {
-       "platform": "X",
-       "url": "https://x.com/Dale4NH"
-      }
-     ],
-     "source": {
-      "label": "Citizens Count candidate profile",
-      "url": "https://www.citizenscount.org/candidate/dale-fincher"
-     },
-     "background_source": {
-      "label": "Ballotpedia, NH House Carroll 7",
-      "url": "https://ballotpedia.org/New_Hampshire_House_of_Representatives_District_Carroll_7"
-     },
-     "positions_note": "Answered the 2026 Citizens Count survey; Citizens Count cuts comments at 125 characters, so some quotes are the opening words of longer answers. Label-only answers: Against income, sales and capital gains taxes, expanded net metering and stricter gun laws; For proof of citizenship for new voters and required local immigration enforcement."
-    },
-    {
-     "id": "karen-burnett-kurie",
-     "name": "Karen Burnett-Kurie",
-     "party": "D",
-     "incumbent": false,
-     "hometown": "Wolfeboro",
-     "background": "Born in Pensacola, Florida. Bachelor's degree from the University of New Hampshire and a graduate degree from Antioch New England Graduate School; career in education administration (Ballotpedia). Unopposed in the Sep 8, 2026 Democratic primary (1,427 votes, Ballotpedia).",
-     "website": "https://www.karenburnettkurie.com",
-     "positions": [
-      {
-       "topic": "Approach",
-       "stance": "Says officials should listen and serve the common good.",
-       "quote": "A public official needs to listen and be committed to the common good",
-       "source": {
-        "label": "Ballotpedia Candidate Connection survey, 2024",
-        "url": "https://ballotpedia.org/Karen_Burnett-Kurie"
-       }
-      }
-     ],
-     "accounts": [
-      {
-       "platform": "Website",
-       "url": "https://www.karenburnettkurie.com"
-      },
-      {
-       "platform": "Facebook",
-       "url": "https://www.facebook.com/Kburnettkurie"
-      },
-      {
-       "platform": "Instagram",
-       "url": "https://www.instagram.com/burnettkurie/"
-      }
-     ],
-     "source": {
-      "label": "Ballotpedia, Karen Burnett-Kurie",
-      "url": "https://ballotpedia.org/Karen_Burnett-Kurie"
-     },
-     "background_source": {
-      "label": "Ballotpedia, Karen Burnett-Kurie",
-      "url": "https://ballotpedia.org/Karen_Burnett-Kurie"
-     },
-     "positions_note": "Her 2026 Citizens Count profile could not be opened in this session. The Ballot Brief summarizes her Citizens Count answers (against Education Freedom Accounts, for climate action and expanded net metering, against first- and second-trimester abortion bans, for stricter gun laws aimed at suicide prevention) without quoting them, so those are not listed as quotes here. The quote shown is from her 2024 Ballotpedia survey; she has not completed the 2026 one.",
-     "needs_review": true,
-     "review_note": "Hometown is from The Ballot Brief and the Conway Daily Sun ('Wolfeboro Democrat'). The Ballot Brief says no campaign website was found as of Sep 11, 2026, while Ballotpedia lists karenburnettkurie.com; confirm the site is current. The Ballot Brief describes her background as environmental science and nonprofit administration, Ballotpedia as education administration."
-    }
-   ],
-   "source": {
-    "label": "Ballotpedia, NH House Carroll 7 (cross-checked with Citizens Count's Ossipee page)",
-    "url": "https://ballotpedia.org/New_Hampshire_House_of_Representatives_District_Carroll_7"
-   },
-   "district_source": {
-    "label": "NH RSA 662:5, Carroll County representative districts (Carroll 7 overlaps Carroll 5 and 6)",
-    "url": "https://gc.nh.gov/rsa/html/LXIII/662/662-mrg.htm"
-   }
   }
  ],
  "wardRaces": {
@@ -3329,11 +3027,6 @@
   "Madison": [
    "house-carroll-3",
    "house-carroll-8",
-   "county-commissioner-2"
-  ],
-  "Ossipee": [
-   "house-carroll-5",
-   "house-carroll-7",
    "county-commissioner-2"
   ],
   "Tamworth": [

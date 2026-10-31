@@ -1,9 +1,9 @@
 {
  "as_of": "2026-10-31",
- "note": "The New Hampshire towns of the Mt Washington Valley Chamber of Commerce, less Gorham. Towns with a full Agorri page have a record-<town>.json; this file adds population for every town and, for the others, the 2026 town operating budget and 2025 tax rate.",
+ "note": "The towns whose high school students attend Kennett High School in North Conway. Towns with a full Agorri page have a record-<town>.json; this file adds population for every town and, for the others, the 2026 town operating budget and 2025 tax rate.",
  "definition": {
-  "label": "Mt Washington Valley Chamber of Commerce, membership towns",
-  "url": "https://www.visitmwv.com/members/mt-washington-valley-chamber-of-commerce/"
+  "label": "Kennett High School (New Hampshire), Wikipedia: serves Conway, Albany, Bartlett, Eaton, Freedom, Hart's Location, Jackson, Madison and Tamworth",
+  "url": "https://en.wikipedia.org/wiki/Kennett_High_School_(New_Hampshire)"
  },
  "towns": [
   {
@@ -24,30 +24,6 @@
     "localSchool": 7.12,
     "stateSchool": 1.11,
     "county": 0.81,
-    "source": {
-     "label": "NH Department of Revenue Administration, 2025 Municipal Tax Rates (completed as of January 23, 2026), copy posted by the Town of Acworth",
-     "url": "https://www.acworthnh.net/_files/ugd/a327e9_a3f47ac2d74a46b7bb7c6b1467f85e8c.pdf"
-    }
-   }
-  },
-  {
-   "id": "ossipee",
-   "name": "Ossipee",
-   "county": "Carroll",
-   "population": {
-    "census2020": 4338,
-    "source": {
-     "label": "U.S. Census 2020, via City Population (Carroll County)",
-     "url": "https://citypopulation.de/en/usa/newhampshire/admin/33003__carroll"
-    }
-   },
-   "taxRate": {
-    "year": "2025",
-    "total": 12.77,
-    "town": 3.69,
-    "localSchool": 7.22,
-    "stateSchool": 1.12,
-    "county": 0.74,
     "source": {
      "label": "NH Department of Revenue Administration, 2025 Municipal Tax Rates (completed as of January 23, 2026), copy posted by the Town of Acworth",
      "url": "https://www.acworthnh.net/_files/ugd/a327e9_a3f47ac2d74a46b7bb7c6b1467f85e8c.pdf"
@@ -191,48 +167,6 @@
      "url": "https://www.acworthnh.net/_files/ugd/a327e9_a3f47ac2d74a46b7bb7c6b1467f85e8c.pdf"
     }
    }
-  },
-  {
-   "id": "carroll",
-   "name": "Carroll",
-   "county": "Coos",
-   "population": {
-    "census2020": 819,
-    "source": {
-     "label": "U.S. Census 2020, via City Population (Coos County)",
-     "url": "https://Citypopulation.de/en/usa/newhampshire/admin/33007__coos/"
-    }
-   },
-   "site": "https://carrollnh.gov/",
-   "budget": {
-    "fiscalYear": "2026",
-    "generalFund": 3446935,
-    "priorGeneralFund": 3073637,
-    "fundLabel": "town operating budget (warrant amount)",
-    "adopted": null,
-    "adoptedVote": "Article 2 on the official ballot on March 10, 2026; the town posted results as a scanned PDF that could not be read, so the outcome is not confirmed.",
-    "source": {
-     "label": "Town of Carroll, 2025 Annual Report (2026 warrant and MS-636)",
-     "url": "https://carrollnh.gov/wp-content/uploads/2026/03/2025-Annual-Report-DRA-upload.pdf"
-    },
-    "needs_review": true,
-    "review_note": "Warrant amount, not a confirmed result. Election results: https://carrollnh.gov/wp-content/uploads/2026/03/2026-Election-Results.pdf (image only). Article 2 says $3,446,935; the MS-636 total is $3,446,934. The default budget was $3,170,657. The operating figure includes the Water Fund ($340,143 requested for 2026) as well as the General Fund ($3,106,791). The prior-year figure is the MS-636 2025 budget column."
-   },
-   "taxRate": {
-    "year": "2025",
-    "total": 12.08,
-    "town": 2.47,
-    "localSchool": 5.14,
-    "stateSchool": 1.23,
-    "county": 3.24,
-    "other": null,
-    "source": {
-     "label": "NH Department of Revenue Administration, 2025 Municipal Tax Rates (completed as of January 23, 2026), copy posted by the Town of Acworth",
-     "url": "https://www.acworthnh.net/_files/ugd/a327e9_a3f47ac2d74a46b7bb7c6b1467f85e8c.pdf"
-    }
-   },
-   "schoolDistrict": "White Mountains Regional School District, SAU 36",
-   "note": "Carroll (Twin Mountain) uses the official ballot (SB 2) system: deliberative session February 3, 2026, ballot voting March 10, 2026. Separate 2026 articles include a $225,000 forestry truck, road work from grants and bond proceeds, a fifth full-time police officer ($66,560 plus $36,343 benefits) and capital reserve deposits; these are not in the operating figure. The town also posted results of a May 26, 2026 special election (not read). The town website posted a White Mountain Regional School District budget hearing notice (January 2, 2026). School district and SAU from Wikipedia's List of school districts in New Hampshire (https://en.wikipedia.org/wiki/List_of_school_districts_in_New_Hampshire), a secondary source."
   },
   {
    "id": "albany",

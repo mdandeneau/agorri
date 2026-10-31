@@ -22,10 +22,6 @@
    "rbrown",
    "taylor"
   ],
-  "Ossipee": [
-   "jsmith",
-   "boudman"
-  ],
   "Tamworth": [
    "crawford",
    "hamblen",
@@ -847,99 +843,6 @@
     "url": "https://www.citizenscount.org/candidate/brian-r-taylor/serving/nh-house-2024-2026"
    },
    "contact": "Brian.Taylor@gc.nh.gov, 603-986-8316 (House page)"
-  },
-  "jsmith": {
-   "name": "Jonathan H. Smith",
-   "party": "R",
-   "office": "State Representative, Carroll 5 (Ossipee)",
-   "level": "house",
-   "since": "2020",
-   "status": "Carroll 5 is the town of Ossipee alone and elects one representative; Ossipee also votes in the Carroll 7 floterial district. In office since Dec 2, 2020. Also an Ossipee selectman and town building inspector (Conway Daily Sun). Lost the Sep 8, 2026 Republican primary to Steven Brown, 260 votes to 269, so he is not on the Nov 3 ballot.",
-   "statusSrc": {
-    "label": "Ballotpedia, NH House Carroll 5",
-    "url": "https://ballotpedia.org/New_Hampshire_House_of_Representatives_Carroll_5"
-   },
-   "positions": [
-    [
-     "Education Freedom Accounts",
-     "For",
-     "\"This funding method has been upheld by the supreme Court in multiple cases.\"",
-     "Citizens Count survey, 2026"
-    ],
-    [
-     "Housing and zoning",
-     "Local control",
-     "\"Zoning is a local control issue. The voters have the ability to change it yearly\"",
-     "Citizens Count survey, 2026"
-    ],
-    [
-     "Net metering",
-     "Against expanding",
-     "\"This is a subsidy that will be paid for by every other utility user.\"",
-     "Citizens Count survey, 2026"
-    ],
-    [
-     "School funding",
-     "For mostly local funding",
-     "\"If you centralize funding by the state that removes the power of the local vote over school funding\"",
-     "Citizens Count survey, 2026"
-    ],
-    [
-     "Marijuana legalization",
-     "Against sales",
-     "\"Promoting marijuana use by government is a terrible idea.\"",
-     "Citizens Count survey, 2026"
-    ]
-   ],
-   "caveat": "Citizens Count cuts survey comments at 125 characters. Background per Ballotpedia: U.S. Marine Corps veteran, former NYPD officer and FDNY firefighter; served on the House Fish and Game and Marine Resources Committee.",
-   "src": {
-    "label": "Citizens Count profile",
-    "url": "https://www.citizenscount.org/candidate/jonathan-h-smith/serving/nh-house-2024-2026"
-   },
-   "contact": "Jonathan.Smith@gc.nh.gov, 603-651-1137 (Citizens Count)"
-  },
-  "boudman": {
-   "name": "Bobbi Boudman",
-   "party": "D",
-   "office": "State Representative, Carroll 7 floterial (Ossipee)",
-   "level": "house",
-   "since": "2026",
-   "status": "Carroll 7 is a one-seat floterial district: Ossipee, Tuftonboro and Wolfeboro each vote for it on top of their own districts. Of Wolfeboro. Won a March 10, 2026 special election (2,207 votes to Dale Fincher's 2,042) after Rep. Glenn Cordelli (R) resigned on Nov 12, 2025; took office March 25, 2026. Not running for this seat on Nov 3; she is the Democratic candidate for State Senate District 3, which also covers Ossipee.",
-   "statusSrc": {
-    "label": "Ballotpedia, NH House Carroll 7",
-    "url": "https://ballotpedia.org/New_Hampshire_House_of_Representatives_District_Carroll_7"
-   },
-   "positions": [
-    [
-     "Local control",
-     "Local control of schools",
-     "\"We need to get back to local control.\"",
-     "Ballotpedia survey, 2026"
-    ],
-    [
-     "School funding",
-     "Against relying mainly on property taxes",
-     "\"Our current system is not equitable.\"",
-     "Citizens Count survey, 2024"
-    ],
-    [
-     "Minimum wage",
-     "For a state minimum wage increase",
-     "\"New Hampshire's lack of a minimum wage is failing us and we are losing our working class\"",
-     "Citizens Count survey, 2024"
-    ],
-    [
-     "Guns",
-     "Other",
-     "\"Gun control for NYC is not what is needed for rural NH.\"",
-     "Citizens Count survey, 2024"
-    ]
-   ],
-   "caveat": "Positions are copied from her entry in the existing candidates.json State Senate 3 race (Ballotpedia 2026 and Citizens Count 2024 sources); not re-opened here.",
-   "src": {
-    "label": "Ballotpedia, Bobbi Boudman",
-    "url": "https://ballotpedia.org/Bobbi_Boudman"
-   }
   }
  },
  "openQuestions": [
