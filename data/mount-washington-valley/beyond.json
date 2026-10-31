@@ -1,19 +1,33 @@
 {
- "as_of": "2026-10-30",
- "note": "Officeholders and districts as listed by NH RSA 662 (districts), Citizens Count, the NH General Court, the NH Executive Council, Ballotpedia, the Conway Daily Sun, Carroll County and The Ballot Brief, checked Oct 30, 2026. North Conway is a village in the Town of Conway, so every district below is the Town of Conway's. Positions are the officials' own survey answers or quoted statements, with the year. Nothing here is characterized or scored.",
- "ballot_note": "Governor, U.S. Senate, U.S. House (NH-1), Executive Council District 1, State Senate District 3, Conway's three State House seats (Carroll 1), County Commissioner District 1 and the county sheriff, attorney, treasurer, register of deeds and register of probate are all on the Tuesday, Nov 3, 2026 ballot. Conway votes at the Town Garage, 1611 East Main St., Center Conway, 8am to 7pm. Results will replace the names below.",
+ "as_of": "2026-10-31",
+ "note": "Officeholders and districts for the four Mount Washington Valley towns (Conway, Bartlett, Jackson and Madison) as listed by NH RSA 662 (districts), Citizens Count, the NH General Court, the NH Executive Council, Ballotpedia, the Conway Daily Sun, Carroll County and The Ballot Brief, checked Oct 30 to 31, 2026. North Conway is a village in the Town of Conway. All four towns share the same U.S. House, Executive Council and State Senate districts; they differ in State House district and, for Madison, county commissioner district. Positions are the officials' own survey answers or quoted statements, with the year. Nothing here is characterized or scored.",
+ "ballot_note": "Governor, U.S. Senate, U.S. House (NH-1), Executive Council District 1, State Senate District 3 and the county sheriff, attorney, treasurer, register of deeds and register of probate are on every valley ballot on Tuesday, Nov 3, 2026. State House: Conway votes for Carroll 1 (3 seats); Bartlett and Jackson for Carroll 2 (2 seats); Madison for Carroll 3 (2 seats) and the Carroll 8 floterial (2 seats). County commissioner: Conway, Bartlett and Jackson vote in District 1; Madison in District 2. Polls are open 8am to 7pm: Conway at the Town Garage, 1611 East Main St., Center Conway; Bartlett at Josiah Bartlett Elementary School, 1313 US Route 302; Jackson at the Whitney Community Center, 16 Black Mountain Rd.; Madison at Madison Elementary School, 2069 Village Rd. Results will replace the names below.",
  "ward_reps": {
   "Conway": [
    "buco",
    "paige",
    "woodcock"
+  ],
+  "Bartlett": [
+   "burroughs",
+   "mcaleer"
+  ],
+  "Jackson": [
+   "burroughs",
+   "mcaleer"
+  ],
+  "Madison": [
+   "crawford",
+   "hamblen",
+   "rbrown",
+   "taylor"
   ]
  },
  "levels": [
   {
    "id": "federal",
    "title": "Federal",
-   "blurb": "Two senators and one representative. All of Carroll County, including Conway, is in New Hampshire's 1st Congressional District.",
+   "blurb": "Two senators and one representative. All of Carroll County, including Conway, Bartlett, Jackson and Madison, is in New Hampshire's 1st Congressional District (RSA 662:1).",
    "people": [
     "shaheen",
     "hassan",
@@ -23,7 +37,7 @@
   {
    "id": "state",
    "title": "State",
-   "blurb": "The Governor, your Executive Councilor (Conway is in District 1) and your State Senator (Conway is in District 3).",
+   "blurb": "The Governor, your Executive Councilor and your State Senator. All four valley towns are in Executive Council District 1 and State Senate District 3 (RSA 662:2 and 662:3).",
    "people": [
     "ayotte",
     "kenney",
@@ -33,17 +47,23 @@
   {
    "id": "house",
    "title": "State House",
-   "blurb": "Conway is its own three-seat district, Carroll 1, and no floterial district includes Conway (RSA 662:5). All three seats are on the Nov 3 ballot; two of the three current members are not running for them.",
+   "blurb": "Each town's State House seats (RSA 662:5). Conway is its own three-seat district, Carroll 1. Bartlett and Jackson share Carroll 2 (two seats) with Albany, Chatham, Hale's Location, Hart's Location and Sandwich. Madison is in Carroll 3 (two seats, with Moultonborough and Tamworth) and also in the Carroll 8 floterial district (two seats, with Brookfield, Eaton, Effingham, Freedom, Moultonborough, Tamworth and Wakefield), so Madison voters elect four House members. No floterial district includes Conway, Bartlett or Jackson. Every seat is on the Nov 3 ballot.",
    "people": [
     "buco",
     "paige",
-    "woodcock"
+    "woodcock",
+    "burroughs",
+    "mcaleer",
+    "crawford",
+    "hamblen",
+    "rbrown",
+    "taylor"
    ]
   },
   {
    "id": "county",
    "title": "Carroll County",
-   "blurb": "The three county commissioners are the county's executive board, in charge of the county budget, nursing home, jail and staff; the sheriff, county attorney, treasurer and registries also sit under the county. Conway is in Commissioner District 1 with Albany, Bartlett, Chatham, Hart's Location, Jackson, Sandwich and Hale's Location. Every county office is on the Nov 3 ballot.",
+   "blurb": "The three county commissioners are the county's executive board, in charge of the county budget, nursing home, jail and staff; the sheriff, county attorney, treasurer and registries also sit under the county. Conway, Bartlett and Jackson are in Commissioner District 1 (with Albany, Chatham, Hart's Location, Sandwich and Hale's Location); Madison is in District 2 (with Moultonborough, Ossipee, Tamworth and Tuftonboro). No valley town is in District 3. Every county office is on the Nov 3 ballot.",
    "people": [
     "chandler",
     "mcgee",
@@ -174,7 +194,7 @@
    "office": "U.S. Representative, NH District 1",
    "level": "federal",
    "since": "2019",
-   "status": "NH-1 includes all of Carroll County, so all of Conway. Not running for reelection to the House: he won the Sep 8 Democratic primary for U.S. Senate and is on the Nov 3 ballot for that seat. The NH-1 race is Stefany Shaheen (D) and Anthony DiLorenzo (R).",
+   "status": "NH-1 includes all of Carroll County, so all four valley towns. Not running for reelection to the House: he won the Sep 8 Democratic primary for U.S. Senate and is on the Nov 3 ballot for that seat. The NH-1 race is Stefany Shaheen (D) and Anthony DiLorenzo (R).",
    "statusSrc": {
     "label": "Ballotpedia, NH 1st Congressional District 2026",
     "url": "https://ballotpedia.org/New_Hampshire's_1st_Congressional_District_election,_2026"
@@ -300,7 +320,7 @@
    "office": "Executive Council, District 1",
    "level": "state",
    "since": "2021",
-   "status": "The five-member Executive Council approves state contracts, confirms judges and commissioners, and reviews pardon requests. Conway is in District 1. Also served on the Council 2014 to 2019 and in the NH House and Senate before that. Two-year term, on the Nov 3 ballot with Luz Bay (D).",
+   "status": "The five-member Executive Council approves state contracts, confirms judges and commissioners, and reviews pardon requests. Conway, Bartlett, Jackson and Madison are all in District 1. Also served on the Council 2014 to 2019 and in the NH House and Senate before that. Two-year term, on the Nov 3 ballot with Luz Bay (D).",
    "statusSrc": {
     "label": "Ballotpedia, NH Executive Council election 2026",
     "url": "https://ballotpedia.org/New_Hampshire_Executive_Council_election,_2026"
@@ -349,7 +369,7 @@
    "office": "State Senator, District 3",
    "level": "state",
    "since": "2024",
-   "status": "District 3 covers Conway and most of Carroll County plus several Grafton and Strafford towns. Of Freedom. Served in the NH House 2002 to 2018 and 2020 to 2024. Two-year term, on the Nov 3 ballot with Bobbi Boudman (D).",
+   "status": "District 3 covers Conway, Bartlett, Jackson, Madison and most of the rest of Carroll County plus several Grafton and Strafford towns. Of Freedom. Served in the NH House 2002 to 2018 and 2020 to 2024. Two-year term, on the Nov 3 ballot with Bobbi Boudman (D).",
    "statusSrc": {
     "label": "Citizens Count, NH Senate District 3",
     "url": "https://www.citizenscount.org/nh/district/nh-senate-district-03"
@@ -469,7 +489,7 @@
    "office": "Carroll County Commissioner, District 1",
    "level": "county",
    "since": "2025",
-   "status": "Of Bartlett. District 1 is Albany, Bartlett, Chatham, Conway, Hart's Location, Jackson, Sandwich and Hale's Location. A former NH House speaker, appointed by the county delegation in May 2025 after Terry McCarthy (R-Conway) resigned, to serve until the Nov 2026 election. On the Nov 3 ballot with Wharton Sinkler (D).",
+   "status": "Of Bartlett. Commissioner for Conway, Bartlett and Jackson. District 1 is Albany, Bartlett, Chatham, Conway, Hart's Location, Jackson, Sandwich and Hale's Location. A former NH House speaker, appointed by the county delegation in May 2025 after Terry McCarthy (R-Conway) resigned, to serve until the Nov 2026 election. On the Nov 3 ballot with Wharton Sinkler (D).",
    "statusSrc": {
     "label": "The Ballot Brief, Carroll County Commissioner District 1",
     "url": "https://theballotbrief.com/state/new-hampshire/carroll-county/commissioner-district-1"
@@ -493,10 +513,10 @@
    "office": "Carroll County Commissioner, District 2",
    "level": "county",
    "since": "2023",
-   "status": "Of Moultonborough; board chair as of May 2025. Appointed in 2023 to fill a vacancy and won the Nov 2024 election. District 2 (Madison, Moultonborough, Ossipee, Tamworth, Tuftonboro) does not include Conway. On the Nov 3 ballot with Tom Randell (D); Conway voters do not vote in this race.",
+   "status": "Of Moultonborough; board chair as of May 2025. Appointed in 2023 to fill a vacancy and won the Nov 2024 election. District 2 is Madison, Moultonborough, Ossipee, Tamworth and Tuftonboro, so he is Madison's commissioner. On the Nov 3 ballot with Tom Randell (D); Madison voters vote in this race, Conway, Bartlett and Jackson voters do not.",
    "statusSrc": {
-    "label": "The Ballot Brief, Carroll County 2026 (AI-assisted)",
-    "url": "https://theballotbrief.com/state/new-hampshire/carroll-county"
+    "label": "The Ballot Brief, Carroll County Commissioner District 2 (AI-assisted; cross-checked with GoodParty.org)",
+    "url": "https://theballotbrief.com/state/new-hampshire/carroll-county/commissioner-district-2"
    },
    "positions": [],
    "src": {
@@ -510,7 +530,7 @@
    "office": "Carroll County Commissioner, District 3",
    "level": "county",
    "since": "",
-   "status": "Of Wolfeboro. District 3 (Brookfield, Eaton, Effingham, Freedom, Wakefield, Wolfeboro) does not include Conway. On the Nov 3 ballot with Michael Parton (D); Conway voters do not vote in this race.",
+   "status": "Of Wolfeboro. District 3 (Brookfield, Eaton, Effingham, Freedom, Wakefield, Wolfeboro) does not include any of the four valley towns. On the Nov 3 ballot with Michael Parton (D); valley voters do not vote in this race.",
    "statusSrc": {
     "label": "The Ballot Brief, Carroll County 2026 (AI-assisted)",
     "url": "https://theballotbrief.com/state/new-hampshire/carroll-county"
@@ -611,6 +631,212 @@
     "label": "GoodParty.org, Carroll County Register of Probate",
     "url": "https://goodparty.org/elections/nh/carroll-county/position/county-probate-administrator-register-of-probate-public-administrator"
    }
+  },
+  "burroughs": {
+   "name": "Anita Burroughs",
+   "party": "D",
+   "office": "State Representative, Carroll 2 (Bartlett, Jackson)",
+   "level": "house",
+   "since": "2018",
+   "status": "Carroll 2 is Albany, Bartlett, Chatham, Hale's Location, Hart's Location, Jackson and Sandwich and elects two representatives; no floterial district includes Bartlett or Jackson. Of Glen, in Bartlett (House page mailing address). In the House since 2018 and in Carroll 2 since Dec 2022 (Ballotpedia); her House page calls this her fourth term. Member of the Commerce and Consumer Affairs Committee. On the Nov 3 ballot for reelection.",
+   "statusSrc": {
+    "label": "Citizens Count, NH House Carroll County District 02",
+    "url": "https://www.citizenscount.org/nh/district/nh-house-carroll-county-district-02"
+   },
+   "positions": [
+    [
+     "Income tax",
+     "Against",
+     "\"I do not support a broad based income tax.\"",
+     "Citizens Count survey, 2026"
+    ],
+    [
+     "Housing and zoning",
+     "For state encouragement of zoning changes",
+     "\"local communities need to be able to provide incentives for housing development in their own communities.\"",
+     "Citizens Count survey, 2026"
+    ],
+    [
+     "School district tax caps",
+     "Against a state mandate",
+     "\"This should be a locally controlled issue, and the state should not be mandating its school budget.\"",
+     "Citizens Count survey, 2026"
+    ],
+    [
+     "Net metering",
+     "For expanding",
+     "\"Expanding net metering encourages investment in solar and other renewable energy.\"",
+     "Citizens Count survey, 2026"
+    ],
+    [
+     "Education Freedom Accounts",
+     "Other",
+     "\"I do not believe that there should be freedom account vouchers for wealthy individuals.\"",
+     "Citizens Count survey, 2026"
+    ]
+   ],
+   "src": {
+    "label": "Citizens Count profile",
+    "url": "https://www.citizenscount.org/candidate/anita-burroughs/running/2026-general-nh-house"
+   },
+   "contact": "Anita.Burroughs@gc.nh.gov, 603-986-6216 (House page)"
+  },
+  "mcaleer": {
+   "name": "Chris McAleer",
+   "party": "D",
+   "office": "State Representative, Carroll 2 (Bartlett, Jackson)",
+   "level": "house",
+   "since": "2022",
+   "status": "Carroll 2 is Albany, Bartlett, Chatham, Hale's Location, Hart's Location, Jackson and Sandwich and elects two representatives. Jackson mailing address (House page). In office since Dec 7, 2022. Did not file for reelection (Ballotpedia), so not on the Nov 3 ballot; his seat is open.",
+   "statusSrc": {
+    "label": "Ballotpedia, Chris McAleer",
+    "url": "https://ballotpedia.org/Chris_McAleer"
+   },
+   "positions": [
+    [
+     "Stricter gun laws",
+     "For",
+     "\"I am not for banning guns but believe in strict oversight of who can buy or own firearms\"",
+     "Citizens Count survey, 2024"
+    ],
+    [
+     "School funding",
+     "Against relying mainly on property taxes",
+     "\"More funding from the State\"",
+     "Citizens Count survey, 2024"
+    ]
+   ],
+   "caveat": "Citizens Count shows his 2024 survey answers and no 2026 survey response.",
+   "src": {
+    "label": "Citizens Count profile",
+    "url": "https://www.citizenscount.org/candidate/chris-mcaleer/serving/nh-house-2024-2026"
+   },
+   "contact": "Chris.McAleer@gc.nh.gov, 603-383-6767 (House page)"
+  },
+  "crawford": {
+   "name": "Karel A. Crawford",
+   "party": "R",
+   "office": "State Representative, Carroll 3 (Madison)",
+   "level": "house",
+   "since": "2012",
+   "status": "Carroll 3 is Madison, Moultonborough and Tamworth and elects two representatives; Madison also votes in the Carroll 8 floterial district. Of Moultonborough (Conway Daily Sun, 2024). In the House since 2012, representing Carroll 4 until 2022 and Carroll 3 since Dec 2022 (Ballotpedia); her House page lists six terms. Clerk of the Transportation Committee. On the Nov 3 ballot for reelection.",
+   "statusSrc": {
+    "label": "Ballotpedia, Karel Crawford",
+    "url": "https://ballotpedia.org/Karel_Crawford"
+   },
+   "positions": [
+    [
+     "Education Freedom Accounts",
+     "Other",
+     "\"I believe students should have choices, I will be looking very closely on how this program works\"",
+     "Citizens Count survey, 2022"
+    ],
+    [
+     "Income and sales taxes",
+     "Against",
+     "\"never vote for an income or sales tax\"",
+     "Conway Daily Sun candidate profile, Oct 2024"
+    ]
+   ],
+   "caveat": "She has not answered the 2026 Citizens Count survey; most of her Citizens Count answers date from 2022.",
+   "needs_review": true,
+   "review_note": "The Conway Daily Sun 2024 article text was partly garbled when opened; confirm the tax quote against the printed article before showing it.",
+   "src": {
+    "label": "Citizens Count profile",
+    "url": "https://www.citizenscount.org/candidate/karel-crawford/running/2026-general-nh-house"
+   },
+   "contact": "karel.crawford@gc.nh.gov, 603-253-7857 (House page)"
+  },
+  "hamblen": {
+   "name": "Joseph Hamblen",
+   "party": "R",
+   "office": "State Representative, Carroll 3 (Madison)",
+   "level": "house",
+   "since": "2024",
+   "status": "Carroll 3 is Madison, Moultonborough and Tamworth and elects two representatives. Of Moultonborough (House page). First term; took office Dec 4, 2024 (Wikipedia). Member of the Transportation Committee. Not on the Nov 3 ballot: Citizens Count's Carroll 3 page lists the 2026 candidates as Richard R. Brown, Karel A. Crawford, Todd Milliken and Bryan Randolph.",
+   "statusSrc": {
+    "label": "Citizens Count, NH House Carroll County District 03",
+    "url": "https://www.citizenscount.org/nh/district/nh-house-carroll-county-district-03"
+   },
+   "positions": [
+    [
+     "Housing",
+     "Reduce housing shortages",
+     "\"I wish to address the problem of reducing housing shortages so people can afford to move here.\"",
+     "Conway Daily Sun candidate profile, Oct 2024"
+    ]
+   ],
+   "caveat": "His Citizens Count profile was not opened in this session.",
+   "needs_review": true,
+   "review_note": "The Conway Daily Sun 2024 article text was partly garbled when opened; confirm the quote against the printed article before showing it.",
+   "src": {
+    "label": "NH House member page",
+    "url": "https://gc.nh.gov/house/members/member.aspx?pid=11313"
+   },
+   "contact": "Joseph.Hamblen@gc.nh.gov (House page)"
+  },
+  "rbrown": {
+   "name": "Richard R. Brown",
+   "party": "R",
+   "office": "State Representative, Carroll 8 floterial (Madison)",
+   "level": "house",
+   "since": "2024",
+   "status": "Carroll 8 is a two-seat floterial district: Brookfield, Eaton, Effingham, Freedom, Madison, Moultonborough, Tamworth and Wakefield each vote for it on top of their own districts. In Carroll 8 since Dec 4, 2024 (Ballotpedia); Wikipedia says Joseph Hamblen succeeded him in Carroll 3 that year. Member of the Public Works and Highways Committee. Not running for Carroll 8 on Nov 3; he is on the ballot for Carroll 3, which also covers Madison.",
+   "statusSrc": {
+    "label": "Ballotpedia, NH House Carroll 3",
+    "url": "https://ballotpedia.org/New_Hampshire_House_of_Representatives_Carroll_3"
+   },
+   "positions": [],
+   "caveat": "Declined the 2026 Citizens Count survey; Citizens Count shows only voting-record entries for him, which are listed on the Candidates page.",
+   "src": {
+    "label": "NH House member page",
+    "url": "https://gc.nh.gov/house/members/member.aspx?pid=10577"
+   },
+   "contact": "Richard.Brown@gc.nh.gov (House page)"
+  },
+  "taylor": {
+   "name": "Brian R. Taylor",
+   "party": "R",
+   "office": "State Representative, Carroll 8 floterial (Madison)",
+   "level": "house",
+   "since": "2024",
+   "status": "Carroll 8 is a two-seat floterial district: Brookfield, Eaton, Effingham, Freedom, Madison, Moultonborough, Tamworth and Wakefield each vote for it on top of their own districts. Freedom mailing address (House page). In office since Dec 2024 (Ballotpedia). Clerk of the Resources, Recreation and Development Committee. Placed third in the Sep 8, 2026 Republican primary, so he is not on the Nov 3 ballot.",
+   "statusSrc": {
+    "label": "Ballotpedia, NH House Carroll 8",
+    "url": "https://ballotpedia.org/New_Hampshire_House_of_Representatives_Carroll_8"
+   },
+   "positions": [
+    [
+     "Education Freedom Accounts",
+     "Other",
+     "\"Accountability of effectiveness of program is needed to ensure best education.\"",
+     "Citizens Count survey, 2024"
+    ],
+    [
+     "Abortion",
+     "Other",
+     "\"These are medical decisions. One law to fit all situations does not work.\"",
+     "Citizens Count survey, 2024"
+    ],
+    [
+     "Housing and zoning",
+     "Other",
+     "\"Towns must have up to date master plans and natural resource inventories to serve the community.\"",
+     "Citizens Count survey, 2024"
+    ],
+    [
+     "Stricter gun laws",
+     "Other",
+     "\"Red flag regulations need to be reviewed.\"",
+     "Citizens Count survey, 2024"
+    ]
+   ],
+   "caveat": "Survey answers are from 2024.",
+   "src": {
+    "label": "Citizens Count profile",
+    "url": "https://www.citizenscount.org/candidate/brian-r-taylor/serving/nh-house-2024-2026"
+   },
+   "contact": "Brian.Taylor@gc.nh.gov, 603-986-8316 (House page)"
   }
  }
 }

@@ -530,11 +530,23 @@
    "label": "Town of Conway, Elections",
    "url": "https://conwaynh.gov/pages/elections"
   },
-  "hoursNote": "Conway has one polling place for the whole town, including North Conway.",
+  "hoursNote": "Every valley town votes 8 am to 7 pm, each at its own polling place.",
   "polls": [
    {
     "ward": "Conway",
-    "place": "Town Garage, 1611 East Main St., Center Conway, NH 03813"
+    "place": "Town Garage, 1611 East Main St., Center Conway"
+   },
+   {
+    "ward": "Bartlett",
+    "place": "Josiah Bartlett Elementary School, 1313 US Route 302, Bartlett"
+   },
+   {
+    "ward": "Jackson",
+    "place": "Whitney Community Center, 16 Black Mountain Rd., Jackson"
+   },
+   {
+    "ward": "Madison",
+    "place": "Madison Elementary School, James Noyes Hall (gym), 2069 Village Rd. (Route 113), Madison"
    }
   ],
   "absentee": "Absentee voting is for voters who will be out of town on Election Day, have a disability or illness that keeps them from voting in person, or have work or caregiving duties. Request a ballot from the Town Clerk with photo ID; applications are accepted up to the day before the election. Return it in person by 5 PM Monday, Nov 2, or by mail so it arrives by 5 PM on Election Day. The town posts the state request form on its Documents page.",

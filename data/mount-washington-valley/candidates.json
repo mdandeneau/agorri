@@ -1,14 +1,56 @@
 {
- "as_of": "2026-10-30",
+ "as_of": "2026-10-31",
  "election": {
   "date": "2026-11-03",
-  "polls": "Town Garage, 1611 East Main St., Center Conway, 8am to 7pm",
+  "polls": "8am to 7pm. Conway: Town Garage, 1611 East Main St., Center Conway. Bartlett: Josiah Bartlett Elementary School, 1313 US Route 302, Bartlett. Jackson: Whitney Community Center, 16 Black Mountain Rd., Jackson. Madison: Madison Elementary School, James Noyes Hall (gym), 2069 Village Rd. (Route 113), Madison.",
   "pollsSource": {
    "label": "Town of Conway, Elections",
    "url": "https://conwaynh.gov/pages/elections"
-  }
+  },
+  "pollsByTown": [
+   {
+    "ward": "Conway",
+    "place": "Town Garage, 1611 East Main St., Center Conway",
+    "hours": "8am to 7pm",
+    "source": {
+     "label": "Town of Conway, Elections",
+     "url": "https://conwaynh.gov/pages/elections"
+    }
+   },
+   {
+    "ward": "Bartlett",
+    "place": "Josiah Bartlett Elementary School, 1313 US Route 302, Bartlett",
+    "hours": "8am to 7pm",
+    "source": {
+     "label": "Town of Bartlett, General Election Voting Information",
+     "url": "https://www.townofbartlett.nh.gov/CivicAlerts.aspx?AID=47"
+    },
+    "note": "Bartlett's September primary was at Bartlett Town Hall; the general election is at the school (Citizens Count Bartlett page and the town notice agree)."
+   },
+   {
+    "ward": "Jackson",
+    "place": "Whitney Community Center, 16 Black Mountain Rd., Jackson",
+    "hours": "8am to 7pm",
+    "source": {
+     "label": "Town of Jackson, State Primary Election Day (lists the Nov 3 General Election Day, same hours)",
+     "url": "https://www.jackson-nh.gov/event/state-primary-election-day/"
+    },
+    "note": "The town's posted location is from its Sep 8 primary page, which also lists General Election Day on Nov 3; Citizens Count's Jackson page gives the same location.",
+    "needs_review": true,
+    "review_note": "No Jackson notice specific to the Nov 3 polling location was opened; confirm with the Town Clerk (603-383-4223)."
+   },
+   {
+    "ward": "Madison",
+    "place": "Madison Elementary School, James Noyes Hall (gym), 2069 Village Rd. (Route 113), Madison",
+    "hours": "8am to 7pm",
+    "source": {
+     "label": "Town of Madison, Elections and Voting",
+     "url": "https://madison-nh.org/departments/town-clerk/elections-voting"
+    }
+   }
+  ]
  },
- "note": "Candidate lists come from Citizens Count's Conway ballot page and Ballotpedia race pages and, for county offices, The Ballot Brief (drawn from the Secretary of State filing list) cross-checked with GoodParty.org. Positions are each candidate's own survey answers, campaign pages or quoted statements, with a source on every line. Candidates who did not answer surveys show no positions.",
+ "note": "Covers the four Mount Washington Valley towns: Conway (including North Conway), Bartlett, Jackson and Madison. Candidate lists come from Citizens Count's Conway, Bartlett, Jackson and Madison ballot pages and district pages, Ballotpedia race pages and, for county offices, The Ballot Brief (drawn from the Secretary of State filing list) cross-checked with GoodParty.org. Races marked for specific towns appear only on those towns' ballots. Positions are each candidate's own survey answers, campaign pages or quoted statements, or Citizens Count voting-record labels where marked, with a source on every line. Candidates who did not answer surveys show no positions.",
  "races": [
   {
    "id": "governor",
@@ -18,7 +60,7 @@
    "wards": "all",
    "seats": 1,
    "term": "2 years",
-   "what": "The governor signs or vetoes state laws, proposes the state budget and nominates agency heads and judges; state decisions on school funding, Medicaid, roads and energy that reach Conway run through this office.",
+   "what": "The governor signs or vetoes state laws, proposes the state budget and nominates agency heads and judges; state decisions on school funding, Medicaid, roads and energy that reach the valley towns run through this office.",
    "candidates": [
     {
      "id": "kelly-ayotte",
@@ -354,9 +396,9 @@
       "label": "Citizens Count candidate profile",
       "url": "https://www.citizenscount.org/candidate/stephen-villee"
      },
-     "party_note": "Citizens Count's Conway ballot page lists him as Independent/Other; other Agorri towns list him as Libertarian.",
+     "party_note": "Citizens Count's Conway, Bartlett, Jackson and Madison ballot pages list him as Independent/Other; other Agorri towns list him as Libertarian.",
      "needs_review": true,
-     "review_note": "Confirm the party label printed on the Conway ballot."
+     "review_note": "Confirm the party label printed on the valley ballots."
     }
    ],
    "source": {
@@ -672,7 +714,7 @@
       "label": "Citizens Count candidate profile",
       "url": "https://www.citizenscount.org/candidate/edmond-j-laplante-jr"
      },
-     "party_note": "Citizens Count's Conway ballot page lists him as Independent/Other; he is state chairman of the Constitution Party of NH."
+     "party_note": "Citizens Count's Conway, Bartlett, Jackson and Madison ballot pages list him as Independent/Other; he is state chairman of the Constitution Party of NH."
     }
    ],
    "source": {
@@ -688,7 +730,7 @@
    "wards": "all",
    "seats": 1,
    "term": "2 years",
-   "what": "Open seat; Rep. Chris Pappas is running for U.S. Senate. The representative for NH's 1st District, which includes all of Carroll County, votes on federal law and spending and handles federal casework for Conway residents.",
+   "what": "Open seat; Rep. Chris Pappas is running for U.S. Senate. The representative for NH's 1st District, which includes all of Carroll County, votes on federal law and spending and handles federal casework for valley residents.",
    "candidates": [
     {
      "id": "stefany-shaheen",
@@ -884,7 +926,7 @@
    "wards": "all",
    "seats": 1,
    "term": "2 years",
-   "what": "One of five councilors who vote with the governor on state contracts, judicial and agency nominations and pardons; Conway is in District 1, which covers the northern half of the state.",
+   "what": "One of five councilors who vote with the governor on state contracts, judicial and agency nominations and pardons; Conway, Bartlett, Jackson and Madison are all in District 1, which covers the northern half of the state.",
    "candidates": [
     {
      "id": "joseph-kenney",
@@ -1059,7 +1101,7 @@
    "wards": "all",
    "seats": 1,
    "term": "2 years",
-   "what": "One of 24 state senators who write state law and the state budget; District 3 includes Conway and most of Carroll County plus Lincoln, Livermore, Waterville Valley, Middleton and Milton.",
+   "what": "One of 24 state senators who write state law and the state budget; District 3 includes Conway, Bartlett, Jackson, Madison and most of the rest of Carroll County plus Lincoln, Livermore, Waterville Valley, Middleton and Milton.",
    "candidates": [
     {
      "id": "mark-mcconkey",
@@ -1226,7 +1268,9 @@
    "office": "State Representative",
    "district": "Carroll 1",
    "level": "State",
-   "wards": "all",
+   "wards": [
+    "Conway"
+   ],
    "seats": 3,
    "term": "2 years",
    "what": "Conway's three seats in the 400-member New Hampshire House, which writes state law and the state budget; Carroll 1 is the Town of Conway alone (no floterial district includes Conway) and voters pick up to three.",
@@ -1515,6 +1559,1087 @@
    }
   },
   {
+   "id": "house-carroll-2",
+   "office": "State Representative",
+   "district": "Carroll 2",
+   "level": "State",
+   "wards": [
+    "Bartlett",
+    "Jackson"
+   ],
+   "seats": 2,
+   "term": "2 years",
+   "what": "Two seats in the 400-member New Hampshire House, which writes state law and the state budget; Carroll 2 is Albany, Bartlett, Chatham, Hale's Location, Hart's Location, Jackson and Sandwich, no floterial district includes Bartlett or Jackson, and voters pick up to two. Rep. Chris McAleer (D-Jackson) did not file for reelection, so one seat is open.",
+   "candidates": [
+    {
+     "id": "anita-burroughs",
+     "name": "Anita Burroughs",
+     "party": "D",
+     "incumbent": true,
+     "hometown": "Bartlett",
+     "background": "State representative since 2018, for Carroll 2 since Dec 2022 (Ballotpedia); seeking a fourth term. Manages operations for Burroughs Healthcare, previously owned The Everyday Gourmet catering business, and spent 20 years in high-tech marketing at Digital Equipment Corporation. MBA, Boston College. Has served on the Bartlett Zoning Board of Appeals and the boards of the Conway Area Humane Society and Starting Point, per The Ballot Brief. Placed first in the Sep 8, 2026 Democratic primary (1,235 votes, Ballotpedia).",
+     "website": "https://anitafornh.com/",
+     "positions": [
+      {
+       "topic": "Education Freedom Accounts",
+       "stance": "Other. Opposes the program for wealthy families.",
+       "quote": "I do not believe that there should be freedom account vouchers for wealthy individuals.",
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/anita-burroughs/running/2026-general-nh-house"
+       }
+      },
+      {
+       "topic": "Taxes",
+       "stance": "Against a broad-based income tax.",
+       "quote": "I do not support a broad based income tax.",
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/anita-burroughs/running/2026-general-nh-house"
+       }
+      },
+      {
+       "topic": "Housing and zoning",
+       "stance": "For the state encouraging local zoning changes for housing.",
+       "quote": "Yes, local communities need to be able to provide incentives for housing development in their own communities.",
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/anita-burroughs/running/2026-general-nh-house"
+       }
+      },
+      {
+       "topic": "School funding",
+       "stance": "Against relying mainly on local property taxes.",
+       "quote": "Right now, property taxes fund education largely based on where property wealth is concentrated",
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/anita-burroughs/running/2026-general-nh-house"
+       }
+      },
+      {
+       "topic": "School district tax caps",
+       "stance": "Against a state mandate.",
+       "quote": "This should be a locally controlled issue, and the state should not be mandating its school budget.",
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/anita-burroughs/running/2026-general-nh-house"
+       }
+      },
+      {
+       "topic": "Guns",
+       "stance": "For stricter gun laws.",
+       "quote": "I believe that we need to ensure that dangerous people can not get their hands on guns",
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/anita-burroughs/running/2026-general-nh-house"
+       }
+      },
+      {
+       "topic": "Abortion",
+       "stance": "Against a first-trimester ban; undecided on the survey's other abortion questions.",
+       "quote": "I believe that a woman should have the ability to abort after a fatal fetal diagnosis",
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/anita-burroughs/running/2026-general-nh-house"
+       }
+      },
+      {
+       "topic": "Marijuana",
+       "stance": "For legalization with private sales; undecided on home-grow-only and state-run stores.",
+       "quote": "NH citizens are purchasing cannabis in nearby states, and NH loses out on the revenue.",
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/anita-burroughs/running/2026-general-nh-house"
+       }
+      }
+     ],
+     "accounts": [
+      {
+       "platform": "Website",
+       "url": "https://anitafornh.com/"
+      }
+     ],
+     "source": {
+      "label": "Citizens Count candidate profile",
+      "url": "https://www.citizenscount.org/candidate/anita-burroughs/running/2026-general-nh-house"
+     },
+     "background_source": {
+      "label": "The Ballot Brief, Carroll District 2",
+      "url": "https://theballotbrief.com/state/new-hampshire/carroll-county/new-hampshire-house-carroll-district-2"
+     },
+     "positions_note": "Answered the 2026 Citizens Count survey. Some quotes are the opening words of longer answers."
+    },
+    {
+     "id": "adam-heard",
+     "name": "Adam Heard",
+     "party": "D",
+     "incumbent": false,
+     "hometown": null,
+     "background": "Sandwich selectman, per The Ballot Brief citing Citizens Count. Bachelor's degree from Macalester College, MBA from Northeastern University and a computer science certificate from NHTI Concord. Placed second in the Sep 8, 2026 Democratic primary (903 votes, Ballotpedia).",
+     "website": "https://www.adamheard4nh.com/",
+     "positions": [
+      {
+       "topic": "Education Freedom Accounts",
+       "stance": "Against. Survey answer.",
+       "quote": null,
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/adam-heard/running/2026-general-nh-house"
+       }
+      },
+      {
+       "topic": "Taxes",
+       "stance": "Against a broad-based income tax; for reinstating the interest and dividends tax. Survey answers.",
+       "quote": null,
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/adam-heard/running/2026-general-nh-house"
+       }
+      },
+      {
+       "topic": "Housing and zoning",
+       "stance": "For the state encouraging local zoning changes for housing. Survey answer.",
+       "quote": null,
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/adam-heard/running/2026-general-nh-house"
+       }
+      },
+      {
+       "topic": "School funding",
+       "stance": "Other on relying mainly on local property taxes.",
+       "quote": "Would like to see more support coming from other sources in the state",
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/adam-heard/running/2026-general-nh-house"
+       }
+      },
+      {
+       "topic": "School district tax caps",
+       "stance": "Against. Survey answer.",
+       "quote": null,
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/adam-heard/running/2026-general-nh-house"
+       }
+      },
+      {
+       "topic": "Guns",
+       "stance": "For stricter gun laws.",
+       "quote": "I am pro 2nd amendment rights but believe we should do more to implement gun safety.",
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/adam-heard/running/2026-general-nh-house"
+       }
+      },
+      {
+       "topic": "Abortion",
+       "stance": "Against first- and second-trimester bans; for repealing the ban after 24 weeks; undecided on guaranteeing access before 24 weeks.",
+       "quote": "I don't believe in blanket bans without qualification.",
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/adam-heard/running/2026-general-nh-house"
+       }
+      },
+      {
+       "topic": "Marijuana",
+       "stance": "For legalization; undecided between state-run stores and private retail.",
+       "quote": "I am for Marijuana legalization but undecided if sales should be through state run stores or through private retail.",
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/adam-heard/running/2026-general-nh-house"
+       }
+      }
+     ],
+     "accounts": [
+      {
+       "platform": "Website",
+       "url": "https://www.adamheard4nh.com/"
+      }
+     ],
+     "source": {
+      "label": "Citizens Count candidate profile",
+      "url": "https://www.citizenscount.org/candidate/adam-heard/running/2026-general-nh-house"
+     },
+     "background_source": {
+      "label": "The Ballot Brief, Carroll District 2",
+      "url": "https://theballotbrief.com/state/new-hampshire/carroll-county/new-hampshire-house-carroll-district-2"
+     },
+     "positions_note": "Answered the 2026 Citizens Count survey; most answers are a label without a written comment."
+    },
+    {
+     "id": "erlon-jones",
+     "name": "Erlon Jones",
+     "party": "R",
+     "incumbent": false,
+     "hometown": null,
+     "background": "The Ballot Brief lists no occupation or education and says he took part in a Republican candidates forum in Conway in August 2026. Placed second in the Sep 8, 2026 Republican primary (400 votes, Ballotpedia).",
+     "website": "https://erlonjonesnh.com/",
+     "positions": [
+      {
+       "topic": "Education Freedom Accounts",
+       "stance": "For (Citizens Count, from his campaign website).",
+       "quote": "Parents and students should also be provided with options for non-traditional education options such as charter,",
+       "source": {
+        "label": "Campaign website via Citizens Count, 2026",
+        "url": "https://www.citizenscount.org/candidate/erlon-jones/running/2026-general-nh-house"
+       }
+      },
+      {
+       "topic": "Taxes",
+       "stance": "Against an income tax and a sales tax (Citizens Count, from his campaign website).",
+       "quote": "No Income Tax. No Sales Tax.",
+       "source": {
+        "label": "Campaign website via Citizens Count, 2026",
+        "url": "https://www.citizenscount.org/candidate/erlon-jones/running/2026-general-nh-house"
+       }
+      }
+     ],
+     "accounts": [
+      {
+       "platform": "Website",
+       "url": "https://erlonjonesnh.com/"
+      }
+     ],
+     "source": {
+      "label": "Citizens Count candidate profile",
+      "url": "https://www.citizenscount.org/candidate/erlon-jones/running/2026-general-nh-house"
+     },
+     "background_source": {
+      "label": "The Ballot Brief, Carroll District 2",
+      "url": "https://theballotbrief.com/state/new-hampshire/carroll-county/new-hampshire-house-carroll-district-2"
+     },
+     "positions_note": "Declined the 2026 Citizens Count survey; entries are from his campaign website as quoted by Citizens Count. The EFA quote is the opening of a longer statement.",
+     "needs_review": true,
+     "review_note": "The Ballot Brief (AI-assisted) gives his hometown as North Conway, which is in Carroll 1, not Carroll 2; hometown left blank until confirmed."
+    },
+    {
+     "id": "jennifer-lepla",
+     "name": "Jennifer LePla",
+     "party": "R",
+     "incumbent": false,
+     "hometown": "Sandwich",
+     "background": "Describes herself on Citizens Count as \"Domestic Engineer and volunteer extraordinaire.\" The Ballot Brief says she lives in Sandwich and is one year short of a bachelor's degree in business management. Placed first in the Sep 8, 2026 Republican primary (437 votes, Ballotpedia).",
+     "website": "https://justjenniferfornh.com/",
+     "positions": [
+      {
+       "topic": "Education Freedom Accounts",
+       "stance": "For. Survey answer.",
+       "quote": null,
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/jennifer-lepla/running/2026-general-nh-house"
+       }
+      },
+      {
+       "topic": "Taxes",
+       "stance": "Against a broad-based income tax and against reinstating the interest and dividends tax; for lowering business taxes. Survey answers.",
+       "quote": null,
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/jennifer-lepla/running/2026-general-nh-house"
+       }
+      },
+      {
+       "topic": "Housing and zoning",
+       "stance": "Undecided on the state encouraging local zoning changes. Survey answer.",
+       "quote": null,
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/jennifer-lepla/running/2026-general-nh-house"
+       }
+      },
+      {
+       "topic": "School funding",
+       "stance": "Against relying mainly on local property taxes. Survey answer.",
+       "quote": null,
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/jennifer-lepla/running/2026-general-nh-house"
+       }
+      },
+      {
+       "topic": "School district tax caps",
+       "stance": "For. Survey answer.",
+       "quote": null,
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/jennifer-lepla/running/2026-general-nh-house"
+       }
+      },
+      {
+       "topic": "Guns",
+       "stance": "Against stricter gun laws. Survey answer.",
+       "quote": null,
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/jennifer-lepla/running/2026-general-nh-house"
+       }
+      },
+      {
+       "topic": "Abortion",
+       "stance": "For first- and second-trimester bans; against repealing the ban after 24 weeks.",
+       "quote": "Current law stands however I'm for a Heartbeat Bill.",
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/jennifer-lepla/running/2026-general-nh-house"
+       }
+      },
+      {
+       "topic": "Marijuana",
+       "stance": "For legalization with home-growing only; against private sales and state-run stores. Survey answers.",
+       "quote": null,
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/jennifer-lepla/running/2026-general-nh-house"
+       }
+      }
+     ],
+     "accounts": [
+      {
+       "platform": "Website",
+       "url": "https://justjenniferfornh.com/"
+      }
+     ],
+     "source": {
+      "label": "Citizens Count candidate profile",
+      "url": "https://www.citizenscount.org/candidate/jennifer-lepla/running/2026-general-nh-house"
+     },
+     "background_source": {
+      "label": "The Ballot Brief, Carroll District 2",
+      "url": "https://theballotbrief.com/state/new-hampshire/carroll-county/new-hampshire-house-carroll-district-2"
+     },
+     "positions_note": "Answered the 2026 Citizens Count survey; most answers are a label without a written comment."
+    }
+   ],
+   "source": {
+    "label": "Citizens Count, NH House Carroll County District 02 (cross-checked with Citizens Count's Bartlett and Jackson pages and Ballotpedia)",
+    "url": "https://www.citizenscount.org/nh/district/nh-house-carroll-county-district-02"
+   },
+   "district_source": {
+    "label": "NH RSA 662:5, Carroll County representative districts",
+    "url": "https://gc.nh.gov/rsa/html/LXIII/662/662-mrg.htm"
+   }
+  },
+  {
+   "id": "house-carroll-3",
+   "office": "State Representative",
+   "district": "Carroll 3",
+   "level": "State",
+   "wards": [
+    "Madison"
+   ],
+   "seats": 2,
+   "term": "2 years",
+   "what": "Two seats in the New Hampshire House for Madison, Moultonborough and Tamworth; voters pick up to two. Madison voters also vote in the Carroll 8 floterial race. Rep. Joseph Hamblen (R) is not on the ballot; Rep. Richard Brown (R), who now holds a Carroll 8 seat, is running here.",
+   "candidates": [
+    {
+     "id": "karel-crawford",
+     "name": "Karel A. Crawford",
+     "party": "R",
+     "incumbent": true,
+     "hometown": "Moultonborough",
+     "background": "State representative since 2012: Carroll 4 until 2022 and Carroll 3 since Dec 2022 (Ballotpedia); six terms per her House page, where she is clerk of the Transportation Committee. Small business owner; former Moultonborough School Board member and selectman. Placed second in the Sep 8, 2026 Republican primary (796 votes, Ballotpedia).",
+     "website": null,
+     "positions": [
+      {
+       "topic": "Education Freedom Accounts",
+       "stance": "Other.",
+       "quote": "I believe students should have choices, I will be looking very closely on how this program works",
+       "source": {
+        "label": "Citizens Count survey, 2022",
+        "url": "https://www.citizenscount.org/candidate/karel-crawford/running/2026-general-nh-house"
+       }
+      },
+      {
+       "topic": "Taxes",
+       "stance": "Against a broad-based income tax; for lowering business taxes. Survey answers.",
+       "quote": null,
+       "source": {
+        "label": "Citizens Count survey, 2022",
+        "url": "https://www.citizenscount.org/candidate/karel-crawford/running/2026-general-nh-house"
+       }
+      },
+      {
+       "topic": "Housing and zoning",
+       "stance": "For the state encouraging local zoning changes for housing. Survey answer.",
+       "quote": null,
+       "source": {
+        "label": "Citizens Count survey, 2022",
+        "url": "https://www.citizenscount.org/candidate/karel-crawford/running/2026-general-nh-house"
+       }
+      },
+      {
+       "topic": "School funding",
+       "stance": "For relying mainly on local property taxes. Survey answer.",
+       "quote": null,
+       "source": {
+        "label": "Citizens Count survey, 2022",
+        "url": "https://www.citizenscount.org/candidate/karel-crawford/running/2026-general-nh-house"
+       }
+      },
+      {
+       "topic": "School district tax caps",
+       "stance": "Against (Citizens Count voting record: voted against HB 675, a cap on school budget increases, and HB 1300, a required tax cap vote).",
+       "quote": null,
+       "source": {
+        "label": "Citizens Count voting record, 2026",
+        "url": "https://www.citizenscount.org/candidate/karel-crawford/running/2026-general-nh-house"
+       }
+      },
+      {
+       "topic": "Guns",
+       "stance": "Against stricter gun laws. Survey answer.",
+       "quote": null,
+       "source": {
+        "label": "Citizens Count survey, 2022",
+        "url": "https://www.citizenscount.org/candidate/karel-crawford/running/2026-general-nh-house"
+       }
+      },
+      {
+       "topic": "Abortion",
+       "stance": "Against a first-trimester ban; undecided on a second-trimester ban; against repealing the ban after 24 weeks.",
+       "quote": "I think this bill still needs a lot of work!",
+       "source": {
+        "label": "Citizens Count survey, 2022",
+        "url": "https://www.citizenscount.org/candidate/karel-crawford/running/2026-general-nh-house"
+       }
+      },
+      {
+       "topic": "Marijuana",
+       "stance": "Against legalization under all three models surveyed. Survey answers.",
+       "quote": null,
+       "source": {
+        "label": "Citizens Count survey, 2022",
+        "url": "https://www.citizenscount.org/candidate/karel-crawford/running/2026-general-nh-house"
+       }
+      }
+     ],
+     "accounts": [
+      {
+       "platform": "Website",
+       "url": "https://gc.nh.gov/house/members/member.aspx?pid=694"
+      }
+     ],
+     "source": {
+      "label": "Citizens Count candidate profile",
+      "url": "https://www.citizenscount.org/candidate/karel-crawford/running/2026-general-nh-house"
+     },
+     "background_source": {
+      "label": "Ballotpedia, Karel Crawford",
+      "url": "https://ballotpedia.org/Karel_Crawford"
+     },
+     "positions_note": "Has not answered the 2026 Citizens Count survey; most entries are her 2022 survey answers and may not reflect current views. Hometown is from the Conway Daily Sun (Oct 7, 2024); her House page lists a Center Harbor mailing address."
+    },
+    {
+     "id": "richard-brown",
+     "name": "Richard R. Brown",
+     "party": "R",
+     "incumbent": false,
+     "hometown": null,
+     "background": "Sitting state representative for the Carroll 8 floterial district since Dec 2024 (Ballotpedia), running in Carroll 3 this year; Wikipedia says Joseph Hamblen succeeded him in Carroll 3 in 2024. U.S. Army veteran; civil engineering degree from Manhattan College; worked as an engineering technician, construction engineer, project engineer and construction manager. Placed first in the Sep 8, 2026 Republican primary (841 votes, Ballotpedia).",
+     "website": null,
+     "positions": [
+      {
+       "topic": "Education Freedom Accounts",
+       "stance": "For (Citizens Count voting record: voted for bills expanding EFA eligibility).",
+       "quote": null,
+       "source": {
+        "label": "Citizens Count voting record, 2024",
+        "url": "https://www.citizenscount.org/candidate/richard-r-brown/running/2026-general-nh-house"
+       }
+      },
+      {
+       "topic": "Taxes",
+       "stance": "Against a broad-based income tax (signed the Coalition of NH Taxpayers pledge against sales, income or other broad-based taxes).",
+       "quote": null,
+       "source": {
+        "label": "Coalition of NH Taxpayers pledge via Citizens Count, 2024",
+        "url": "https://www.citizenscount.org/candidate/richard-r-brown/running/2026-general-nh-house"
+       }
+      },
+      {
+       "topic": "Housing and zoning",
+       "stance": "Against (Citizens Count voting record: voted against bills easing local zoning rules and to repeal the Housing Champion program).",
+       "quote": null,
+       "source": {
+        "label": "Citizens Count voting record, 2024 and 2026",
+        "url": "https://www.citizenscount.org/candidate/richard-r-brown/running/2026-general-nh-house"
+       }
+      },
+      {
+       "topic": "School district tax caps",
+       "stance": "For (Citizens Count voting record: voted for HB 675, a cap on school budget increases, and HB 1300).",
+       "quote": null,
+       "source": {
+        "label": "Citizens Count voting record, 2026",
+        "url": "https://www.citizenscount.org/candidate/richard-r-brown/running/2026-general-nh-house"
+       }
+      },
+      {
+       "topic": "Guns",
+       "stance": "Against stricter gun laws (Citizens Count voting record: voted against red flag, expanded background check and waiting period bills).",
+       "quote": null,
+       "source": {
+        "label": "Citizens Count voting record, 2026",
+        "url": "https://www.citizenscount.org/candidate/richard-r-brown/running/2026-general-nh-house"
+       }
+      },
+      {
+       "topic": "Abortion",
+       "stance": "Citizens Count voting record: voted against HB 591, a ban after a fetal heartbeat is detected (2023), and to keep the ban after 24 weeks.",
+       "quote": null,
+       "source": {
+        "label": "Citizens Count voting record, 2023",
+        "url": "https://www.citizenscount.org/candidate/richard-r-brown/running/2026-general-nh-house"
+       }
+      },
+      {
+       "topic": "Marijuana",
+       "stance": "For removing penalties for possession and use (Citizens Count voting record, HB 198).",
+       "quote": null,
+       "source": {
+        "label": "Citizens Count voting record, 2025",
+        "url": "https://www.citizenscount.org/candidate/richard-r-brown/running/2026-general-nh-house"
+       }
+      }
+     ],
+     "accounts": [
+      {
+       "platform": "Website",
+       "url": "https://gc.nh.gov/house/members/member.aspx?pid=10577"
+      }
+     ],
+     "source": {
+      "label": "Citizens Count candidate profile",
+      "url": "https://www.citizenscount.org/candidate/richard-r-brown/running/2026-general-nh-house"
+     },
+     "background_source": {
+      "label": "Ballotpedia, Richard Brown (New Hampshire)",
+      "url": "https://ballotpedia.org/Richard_Brown_(New_Hampshire)"
+     },
+     "positions_note": "Declined the 2026 Citizens Count survey. Entries are Citizens Count voting-record labels or the taxpayer pledge he signed, not quotes.",
+     "needs_review": true,
+     "review_note": "Ballotpedia's Carroll 3 page calls him an incumbent and The Ballot Brief does not; he holds a Carroll 8 seat (House page). Marked not incumbent for this district."
+    },
+    {
+     "id": "bryan-randolph",
+     "name": "Bryan Randolph",
+     "party": "D",
+     "incumbent": false,
+     "hometown": "Moultonborough",
+     "background": "Mental health clinician at Growing Roots LLC in Plymouth and clinician and facilitator at Adventurelore in Danville, per The Ballot Brief citing Citizens Count. Master's in social work and master's in outdoor education, both from the University of New Hampshire. Placed first in the Sep 8, 2026 Democratic primary (1,244 votes, Ballotpedia).",
+     "website": "https://www.bryan4nh.com/",
+     "positions": [
+      {
+       "topic": "Education Freedom Accounts",
+       "stance": "Against an unlimited program.",
+       "quote": "I do not support an unlimited EFA program that sends public dollars to private education.",
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/bryan-randolph/running/2026-general-nh-house"
+       }
+      },
+      {
+       "topic": "Taxes",
+       "stance": "Against a broad-based income tax; for restoring a modified interest and dividends tax with higher exemptions.",
+       "quote": "I do not support a broad-based tax on earned income in New Hampshire.",
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/bryan-randolph/running/2026-general-nh-house"
+       }
+      },
+      {
+       "topic": "Housing and zoning",
+       "stance": "For the state helping towns remove barriers to housing.",
+       "quote": "The state should help communities remove unnecessary barriers to housing",
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/bryan-randolph/running/2026-general-nh-house"
+       }
+      },
+      {
+       "topic": "School funding",
+       "stance": "Against relying mainly on local property taxes.",
+       "quote": "New Hampshire relies far too heavily on local property taxes to fund public education.",
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/bryan-randolph/running/2026-general-nh-house"
+       }
+      },
+      {
+       "topic": "School district tax caps",
+       "stance": "Against a state mandate.",
+       "quote": "Local voters already approve school budgets through their local budget process.",
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/bryan-randolph/running/2026-general-nh-house"
+       }
+      },
+      {
+       "topic": "Guns",
+       "stance": "Other on stricter gun laws.",
+       "quote": "I support the Second Amendment and the rights of responsible gun owners.",
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/bryan-randolph/running/2026-general-nh-house"
+       }
+      },
+      {
+       "topic": "Abortion",
+       "stance": "For protecting access before 24 weeks; against earlier bans.",
+       "quote": "I support protecting access to abortion before 24 weeks and oppose earlier abortion bans.",
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/bryan-randolph/running/2026-general-nh-house"
+       }
+      },
+      {
+       "topic": "Marijuana",
+       "stance": "For legalization with state-run stores; against private sales.",
+       "quote": "New Hampshire should legalize and regulate adult recreational cannabis.",
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/bryan-randolph/running/2026-general-nh-house"
+       }
+      }
+     ],
+     "accounts": [
+      {
+       "platform": "Website",
+       "url": "https://www.bryan4nh.com/"
+      }
+     ],
+     "source": {
+      "label": "Citizens Count candidate profile",
+      "url": "https://www.citizenscount.org/candidate/bryan-randolph/running/2026-general-nh-house"
+     },
+     "background_source": {
+      "label": "The Ballot Brief, Carroll District 3",
+      "url": "https://theballotbrief.com/state/new-hampshire/carroll-county/new-hampshire-house-carroll-district-3"
+     },
+     "positions_note": "Answered the 2026 Citizens Count survey. Some quotes are the opening words of longer answers."
+    },
+    {
+     "id": "todd-milliken",
+     "name": "Todd Milliken",
+     "party": "D",
+     "incumbent": false,
+     "hometown": null,
+     "background": "Grew up in Conway and Madison. Founded and ran Milliken Masonry in Madison from 1986 to 1996, then spent more than two decades in industrial packaging before retiring in 2023. Bachelor's in business management, Granite State College (2010). Serves on the Madison Planning Board, per The Ballot Brief. Placed second in the Sep 8, 2026 Democratic primary (1,238 votes, Ballotpedia).",
+     "website": "https://milliken4nh.org/",
+     "positions": [
+      {
+       "topic": "Approach",
+       "stance": "Lists compromise as a priority.",
+       "quote": "Bring politics back to the middle: discuss, negotiate, compromise, move forward",
+       "source": {
+        "label": "Campaign website, as quoted by The Ballot Brief, 2026",
+        "url": "https://theballotbrief.com/state/new-hampshire/carroll-county/new-hampshire-house-carroll-district-3"
+       }
+      },
+      {
+       "topic": "Public schools",
+       "stance": "Lists public money for public schools as a priority.",
+       "quote": "Public money for public schools: fully fund the classrooms that serve every child",
+       "source": {
+        "label": "Campaign website, as quoted by The Ballot Brief, 2026",
+        "url": "https://theballotbrief.com/state/new-hampshire/carroll-county/new-hampshire-house-carroll-district-3"
+       }
+      }
+     ],
+     "accounts": [
+      {
+       "platform": "Website",
+       "url": "https://milliken4nh.org/"
+      }
+     ],
+     "source": {
+      "label": "Citizens Count candidate profile",
+      "url": "https://www.citizenscount.org/candidate/todd-milliken/running/2026-general-nh-house"
+     },
+     "background_source": {
+      "label": "The Ballot Brief, Carroll District 3",
+      "url": "https://theballotbrief.com/state/new-hampshire/carroll-county/new-hampshire-house-carroll-district-3"
+     },
+     "positions_note": "Citizens Count shows him as not yet answering its 2026 survey. His campaign site could not be opened in this session; quotes are as reproduced by The Ballot Brief.",
+     "needs_review": true,
+     "review_note": "Confirm the two quotes against milliken4nh.org."
+    }
+   ],
+   "source": {
+    "label": "Citizens Count, NH House Carroll County District 03 (cross-checked with Citizens Count's Madison page and Ballotpedia)",
+    "url": "https://www.citizenscount.org/nh/district/nh-house-carroll-county-district-03"
+   },
+   "district_source": {
+    "label": "NH RSA 662:5, Carroll County representative districts",
+    "url": "https://gc.nh.gov/rsa/html/LXIII/662/662-mrg.htm"
+   }
+  },
+  {
+   "id": "house-carroll-8",
+   "office": "State Representative",
+   "district": "Carroll 8 (floterial)",
+   "level": "State",
+   "wards": [
+    "Madison"
+   ],
+   "seats": 2,
+   "term": "2 years",
+   "what": "A floterial district: two extra House seats shared by Brookfield, Eaton, Effingham, Freedom, Madison, Moultonborough, Tamworth and Wakefield, elected on top of each town's own district. Madison voters see this race in addition to Carroll 3 and pick up to two. Neither current member is on the ballot: Rep. Brian Taylor (R) lost the Republican primary and Rep. Richard Brown (R) is running in Carroll 3.",
+   "candidates": [
+    {
+     "id": "tammy-simmons-garthwaite",
+     "name": "Tammy Simmons Garthwaite",
+     "party": "R",
+     "incumbent": false,
+     "hometown": null,
+     "background": "Previously served two terms as a state representative and was vice chair of the House Labor, Industrial and Rehabilitation Services Committee; member of the Carroll County and Winnipesaukee Republican committees, per The Ballot Brief. Placed first in the Sep 8, 2026 Republican primary (1,380 votes, Ballotpedia).",
+     "website": "http://tammy4nh.com/",
+     "positions": [
+      {
+       "topic": "Education Freedom Accounts",
+       "stance": "For. Survey answer.",
+       "quote": null,
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/tammy-simmons/running/2026-general-nh-house"
+       }
+      },
+      {
+       "topic": "Taxes",
+       "stance": "Against a broad-based income tax and against reinstating the interest and dividends tax; for lowering business taxes. Survey answers.",
+       "quote": null,
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/tammy-simmons/running/2026-general-nh-house"
+       }
+      },
+      {
+       "topic": "Housing and zoning",
+       "stance": "For the state encouraging local zoning changes for housing. Survey answer.",
+       "quote": null,
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/tammy-simmons/running/2026-general-nh-house"
+       }
+      },
+      {
+       "topic": "School funding",
+       "stance": "For on the property-tax funding question.",
+       "quote": "Funding should follow the child.",
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/tammy-simmons/running/2026-general-nh-house"
+       }
+      },
+      {
+       "topic": "School district tax caps",
+       "stance": "For. Survey answer.",
+       "quote": null,
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/tammy-simmons/running/2026-general-nh-house"
+       }
+      },
+      {
+       "topic": "Guns",
+       "stance": "Against stricter gun laws. Survey answer.",
+       "quote": null,
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/tammy-simmons/running/2026-general-nh-house"
+       }
+      },
+      {
+       "topic": "Abortion",
+       "stance": "Other on first- and second-trimester bans; against guaranteeing access before 24 weeks; against repealing the ban after 24 weeks.",
+       "quote": "I personally do not support abortion. I am okay with the current law banning abortions after 24 weeks.",
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/tammy-simmons/running/2026-general-nh-house"
+       }
+      },
+      {
+       "topic": "Marijuana",
+       "stance": "For legalization with home-growing or private sales; undecided on state-run stores. Survey answers.",
+       "quote": null,
+       "source": {
+        "label": "Citizens Count survey, 2022",
+        "url": "https://www.citizenscount.org/candidate/tammy-simmons/running/2026-general-nh-house"
+       }
+      }
+     ],
+     "accounts": [
+      {
+       "platform": "Website",
+       "url": "http://tammy4nh.com/"
+      }
+     ],
+     "source": {
+      "label": "Citizens Count candidate profile",
+      "url": "https://www.citizenscount.org/candidate/tammy-simmons/running/2026-general-nh-house"
+     },
+     "background_source": {
+      "label": "The Ballot Brief, Carroll District 8",
+      "url": "https://theballotbrief.com/state/new-hampshire/carroll-county/new-hampshire-house-carroll-district-8"
+     },
+     "positions_note": "Answered the 2026 Citizens Count survey; marijuana answers are from 2022. The abortion quote is the first part of a longer answer."
+    },
+    {
+     "id": "colin-mitchell",
+     "name": "Colin Mitchell",
+     "party": "R",
+     "incumbent": false,
+     "hometown": "Wakefield",
+     "background": "Data analyst and business intelligence engineer with a background in applied mathematics, per The Ballot Brief. Placed second in the Sep 8, 2026 Republican primary (1,298 votes, Ballotpedia).",
+     "website": "https://colinmitchell4nh.com/",
+     "positions": [
+      {
+       "topic": "Taxes",
+       "stance": "Against an income or sales tax (Citizens Count, from his campaign website).",
+       "quote": "I am committed to protecting New Hampshire's advantage of having no income or sales tax",
+       "source": {
+        "label": "Campaign website via Citizens Count, 2026",
+        "url": "https://www.citizenscount.org/candidate/colin-mitchell/running/2026-general-nh-house"
+       }
+      },
+      {
+       "topic": "Guns",
+       "stance": "Against stricter gun laws (Citizens Count, from his campaign website).",
+       "quote": "I will introduce legislation to close the effective Red Flag laws in New Hampshire's restraining order system.",
+       "source": {
+        "label": "Campaign website via Citizens Count, 2026",
+        "url": "https://www.citizenscount.org/candidate/colin-mitchell/running/2026-general-nh-house"
+       }
+      }
+     ],
+     "accounts": [
+      {
+       "platform": "Website",
+       "url": "https://colinmitchell4nh.com/"
+      }
+     ],
+     "source": {
+      "label": "Citizens Count candidate profile",
+      "url": "https://www.citizenscount.org/candidate/colin-mitchell/running/2026-general-nh-house"
+     },
+     "background_source": {
+      "label": "The Ballot Brief, Carroll District 8",
+      "url": "https://theballotbrief.com/state/new-hampshire/carroll-county/new-hampshire-house-carroll-district-8"
+     },
+     "positions_note": "Declined the 2026 Citizens Count survey; entries are from his campaign website as quoted by Citizens Count. The tax quote is the opening of a longer statement."
+    },
+    {
+     "id": "jim-pittman",
+     "name": "James \"Jim\" Pittman",
+     "party": "D",
+     "incumbent": false,
+     "hometown": "Effingham",
+     "background": "Effingham town moderator, member of the Governor Wentworth Regional School District board and the Effingham zoning board of adjustment, per The Ballot Brief citing Citizens Count. Placed first in the Sep 8, 2026 Democratic primary (2,126 votes, Ballotpedia).",
+     "website": "https://www.jimpittman4nh.com/",
+     "positions": [
+      {
+       "topic": "Education Freedom Accounts",
+       "stance": "Against.",
+       "quote": "The current EFA has failed dramatically in supporting the legitimate needs of students in modest income households",
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/james-pittman/running/2026-general-nh-house"
+       }
+      },
+      {
+       "topic": "Taxes",
+       "stance": "Against a broad-based income tax; for reinstating the interest and dividends tax.",
+       "quote": "NH residents clearly do not want an income tax",
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/james-pittman/running/2026-general-nh-house"
+       }
+      },
+      {
+       "topic": "Housing and zoning",
+       "stance": "For the state encouraging local zoning changes for housing.",
+       "quote": "Affordable housing is a major issue in most New Hampshire communities.",
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/james-pittman/running/2026-general-nh-house"
+       }
+      },
+      {
+       "topic": "School funding",
+       "stance": "Against relying mainly on local property taxes. Survey answer.",
+       "quote": null,
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/james-pittman/running/2026-general-nh-house"
+       }
+      },
+      {
+       "topic": "School district tax caps",
+       "stance": "Against.",
+       "quote": "Local school districts should not be arbitrarily restrained from generating appropriate budgets.",
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/james-pittman/running/2026-general-nh-house"
+       }
+      },
+      {
+       "topic": "Guns",
+       "stance": "For stricter gun laws.",
+       "quote": "It is unacceptable that the leading cause of death to children is by guns.",
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/james-pittman/running/2026-general-nh-house"
+       }
+      },
+      {
+       "topic": "Abortion",
+       "stance": "Against first- and second-trimester bans; for guaranteeing access before 24 weeks; undecided on repealing the ban after 24 weeks.",
+       "quote": "It seems prudent to allow doctors to advise patients in each individual case",
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/james-pittman/running/2026-general-nh-house"
+       }
+      },
+      {
+       "topic": "Marijuana",
+       "stance": "For legalization under all three models surveyed.",
+       "quote": "New Hampshire is the sole New England state that does not allow recreational use.",
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/james-pittman/running/2026-general-nh-house"
+       }
+      }
+     ],
+     "accounts": [
+      {
+       "platform": "Website",
+       "url": "https://www.jimpittman4nh.com/"
+      }
+     ],
+     "source": {
+      "label": "Citizens Count candidate profile",
+      "url": "https://www.citizenscount.org/candidate/james-pittman/running/2026-general-nh-house"
+     },
+     "background_source": {
+      "label": "The Ballot Brief, Carroll District 8",
+      "url": "https://theballotbrief.com/state/new-hampshire/carroll-county/new-hampshire-house-carroll-district-8"
+     },
+     "positions_note": "Answered the 2026 Citizens Count survey. Some quotes are the opening words of longer answers."
+    },
+    {
+     "id": "george-randell",
+     "name": "George Randell",
+     "party": "D",
+     "incumbent": false,
+     "hometown": "Moultonborough",
+     "background": "Won the Democratic nomination as a write-in in the Sep 8, 2026 primary (240 votes, Ballotpedia). No other background on the sources read; hometown per The Ballot Brief.",
+     "website": "http://www.georgerandell4nh.com/",
+     "positions": [
+      {
+       "topic": "Education Freedom Accounts",
+       "stance": "Against. Survey answer.",
+       "quote": null,
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/george-randell/running/2026-general-nh-house"
+       }
+      },
+      {
+       "topic": "Taxes",
+       "stance": "Against a broad-based income tax and against lowering business taxes; for reinstating the interest and dividends tax. Survey answers.",
+       "quote": null,
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/george-randell/running/2026-general-nh-house"
+       }
+      },
+      {
+       "topic": "Housing and zoning",
+       "stance": "For the state encouraging local zoning changes for housing. Survey answer.",
+       "quote": null,
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/george-randell/running/2026-general-nh-house"
+       }
+      },
+      {
+       "topic": "School funding",
+       "stance": "For the current system relying mainly on local property taxes. Survey answer.",
+       "quote": null,
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/george-randell/running/2026-general-nh-house"
+       }
+      },
+      {
+       "topic": "School district tax caps",
+       "stance": "Against. Survey answer.",
+       "quote": null,
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/george-randell/running/2026-general-nh-house"
+       }
+      },
+      {
+       "topic": "Guns",
+       "stance": "Undecided on stricter gun laws. Survey answer.",
+       "quote": null,
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/george-randell/running/2026-general-nh-house"
+       }
+      },
+      {
+       "topic": "Abortion",
+       "stance": "Against first- and second-trimester bans; against repealing the ban after 24 weeks; undecided on guaranteeing access before 24 weeks. Survey answers.",
+       "quote": null,
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/george-randell/running/2026-general-nh-house"
+       }
+      },
+      {
+       "topic": "Marijuana",
+       "stance": "For legalization with home-growing only; undecided on private sales and state-run stores. Survey answers.",
+       "quote": null,
+       "source": {
+        "label": "Citizens Count survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/george-randell/running/2026-general-nh-house"
+       }
+      }
+     ],
+     "accounts": [
+      {
+       "platform": "Website",
+       "url": "http://www.georgerandell4nh.com/"
+      }
+     ],
+     "source": {
+      "label": "Citizens Count candidate profile",
+      "url": "https://www.citizenscount.org/candidate/george-randell/running/2026-general-nh-house"
+     },
+     "background_source": {
+      "label": "The Ballot Brief, Carroll District 8",
+      "url": "https://theballotbrief.com/state/new-hampshire/carroll-county/new-hampshire-house-carroll-district-8"
+     },
+     "positions_note": "Answered the 2026 Citizens Count survey with labels only, no written comments.",
+     "party_note": "Citizens Count lists him as Independent/Other and says he is running as both an Independent and a Democrat; Ballotpedia shows Independent / D; The Ballot Brief lists both lines. Labeled D here as the Democratic nominee.",
+     "needs_review": true,
+     "review_note": "Confirm which party line(s) appear next to his name on the Madison ballot."
+    }
+   ],
+   "source": {
+    "label": "Citizens Count, NH House Carroll County District 08 (cross-checked with Citizens Count's Madison page and Ballotpedia)",
+    "url": "https://www.citizenscount.org/nh/district/nh-house-carroll-county-district-08"
+   },
+   "district_source": {
+    "label": "NH RSA 662:5, Carroll County representative districts (Carroll 8 overlaps Carroll 3 and 4)",
+    "url": "https://gc.nh.gov/rsa/html/LXIII/662/662-mrg.htm"
+   }
+  },
+  {
    "id": "county-sheriff",
    "office": "Carroll County Sheriff",
    "district": "Carroll County",
@@ -1522,7 +2647,7 @@
    "wards": "all",
    "seats": 1,
    "term": "2 years",
-   "what": "Runs the county sheriff's office, which provides court security, civil process service, prisoner transport and patrol help across the county including Conway.",
+   "what": "Runs the county sheriff's office, which provides court security, civil process service, prisoner transport and patrol help across the county including the valley towns.",
    "candidates": [
     {
      "id": "domenic-richardi",
@@ -1559,7 +2684,7 @@
    "wards": "all",
    "seats": 1,
    "term": "2 years",
-   "what": "The county's chief prosecutor, whose office handles felony cases arising in Conway and the rest of the county.",
+   "what": "The county's chief prosecutor, whose office handles felony cases arising in the valley towns and the rest of the county.",
    "candidates": [
     {
      "id": "keith-blair",
@@ -1631,7 +2756,7 @@
    "wards": "all",
    "seats": 1,
    "term": "2 years",
-   "what": "Records deeds, mortgages and other land records for every property in the county, including Conway.",
+   "what": "Records deeds, mortgages and other land records for every property in the county, including the valley towns.",
    "candidates": [
     {
      "id": "karen-rines",
@@ -1718,10 +2843,14 @@
    "office": "Carroll County Commissioner",
    "district": "District 1",
    "level": "County",
-   "wards": "all",
+   "wards": [
+    "Conway",
+    "Bartlett",
+    "Jackson"
+   ],
    "seats": 1,
    "term": "2 years",
-   "what": "One of three commissioners who run county operations such as the nursing home and jail and propose the county budget; District 1 is Albany, Bartlett, Chatham, Conway, Hart's Location, Jackson, Sandwich and Hale's Location.",
+   "what": "One of three commissioners who run county operations such as the nursing home and jail and propose the county budget; District 1 is Albany, Bartlett, Chatham, Conway, Hart's Location, Jackson, Sandwich and Hale's Location, so Conway, Bartlett and Jackson voters see this race and Madison voters do not.",
    "candidates": [
     {
      "id": "gene-chandler",
@@ -1803,19 +2932,132 @@
     "label": "NH RSA 662:4, county commissioner districts",
     "url": "https://gc.nh.gov/rsa/html/LXIII/662/662-4.htm"
    },
-   "source_note": "County candidate lists come from The Ballot Brief (an AI-assisted guide that says it draws on the Secretary of State's Sep 17, 2026 candidate list) cross-checked with GoodParty.org and the Conway Daily Sun; the Secretary of State's list itself was not opened in this session. Commissioner Districts 2 and 3 are also on the 2026 ballot but Conway voters do not vote in them."
+   "source_note": "County candidate lists come from The Ballot Brief (an AI-assisted guide that says it draws on the Secretary of State's Sep 17, 2026 candidate list) cross-checked with GoodParty.org and the Conway Daily Sun; the Secretary of State's list itself was not opened in this session. Madison votes in Commissioner District 2 (see county-commissioner-2); no valley town is in District 3."
+  },
+  {
+   "id": "county-commissioner-2",
+   "office": "Carroll County Commissioner",
+   "district": "District 2",
+   "level": "County",
+   "wards": [
+    "Madison"
+   ],
+   "seats": 1,
+   "term": "2 years",
+   "what": "One of three commissioners who run county operations such as the nursing home and jail and propose the county budget; District 2 is Madison, Moultonborough, Ossipee, Tamworth and Tuftonboro, so Madison voters see this race and Conway, Bartlett and Jackson voters do not.",
+   "candidates": [
+    {
+     "id": "chuck-mcgee",
+     "name": "Charles \"Chuck\" McGee",
+     "party": "R",
+     "incumbent": true,
+     "hometown": "Moultonborough",
+     "background": "Commissioner since he was appointed by the county legislative delegation in June 2023; won a two-year term in November 2024 and chairs the Board of Commissioners, per The Ballot Brief.",
+     "website": null,
+     "positions": [],
+     "accounts": [],
+     "source": {
+      "label": "GoodParty.org candidate page",
+      "url": "https://goodparty.org/candidate/charles-mcgee/carroll-county-commission-district-2"
+     },
+     "background_source": {
+      "label": "The Ballot Brief, Carroll County Commissioner District 2",
+      "url": "https://theballotbrief.com/state/new-hampshire/carroll-county/commissioner-district-2"
+     },
+     "positions_note": "No issue statements on the sources read. GoodParty.org links a campaign site (mcgeefornh.com) that could not be opened in this session."
+    },
+    {
+     "id": "tom-randell",
+     "name": "Tom Randell",
+     "party": "D",
+     "incumbent": false,
+     "hometown": null,
+     "background": "Vice chair of the Carroll County Democratic Committee for 2025 to 2026, per The Ballot Brief. No other background on the sources read.",
+     "website": null,
+     "positions": [],
+     "accounts": [],
+     "source": {
+      "label": "GoodParty.org candidate page",
+      "url": "https://goodparty.org/candidate/tom-randell/carroll-county-commission-district-2"
+     },
+     "background_source": {
+      "label": "The Ballot Brief, Carroll County Commissioner District 2",
+      "url": "https://theballotbrief.com/state/new-hampshire/carroll-county/commissioner-district-2"
+     },
+     "positions_note": "No issue statements on the sources read."
+    }
+   ],
+   "source": {
+    "label": "The Ballot Brief, Carroll County Commissioner District 2 (AI-assisted; cross-checked with GoodParty.org)",
+    "url": "https://theballotbrief.com/state/new-hampshire/carroll-county/commissioner-district-2"
+   },
+   "district_source": {
+    "label": "NH RSA 662:4, county commissioner districts",
+    "url": "https://gc.nh.gov/rsa/html/LXIII/662/662-mrg.htm"
+   },
+   "source_note": "County candidate lists come from The Ballot Brief (an AI-assisted guide that says it draws on the Secretary of State's candidate list) cross-checked with GoodParty.org; the Secretary of State's list itself was not opened in this session."
   }
  ],
- "wardRaces": {},
- "methodology": "North Conway is a village of the Town of Conway, so the races are the Town of Conway's. Districts: RSA 662 (opened at gc.nh.gov) puts all of Carroll County in U.S. House District 1, Conway in Executive Council District 1, State Senate District 3, County Commissioner District 1 and State House district Carroll 1 (Conway alone, 3 seats); the only Carroll floterial-style districts (Carroll 7 and 8) do not include Conway. Candidate lists: Citizens Count's Conway page (Governor, U.S. Senate, U.S. House 1, Executive Council 1, Senate 3, Carroll 1), Ballotpedia race pages (Executive Council, State Senate, Carroll 1, NH-1), The Ballot Brief and GoodParty.org for county offices, and the Conway Daily Sun for 2025 to 2026 county background. Governor and U.S. Senate candidate entries are carried over from Agorri's statewide candidate research (Oct 29, 2026), as are the U.S. House 1 entries; the candidate names and parties were re-confirmed today against Citizens Count's Conway page, but their position sources were not re-opened in this session. Incomplete: (1) The NH Secretary of State 2026 candidate list and Conway sample ballot were not opened (the sos.nh.gov download was blocked by the proxy and no Conway sample ballot link was found); county rosters rest on The Ballot Brief (AI-assisted) and GoodParty.org. (2) Citizens Count candidate profiles for McConkey (2026), Boudman (2026), Colbath, Leonard, Nelson and Corrigan could not be opened; Boudman's quotes come from her 2024 Citizens Count survey and Ballotpedia, McConkey's from his 2024 campaign announcement. (3) Party labels: Stephen Villee is listed as Libertarian in Agorri's other New Hampshire towns but Independent/Other on Citizens Count's Conway page; Sheriff Richardi and Register of Deeds Rines are reported on both party lines. (4) Whether Register of Probate candidate Steve Woodcock is Rep. Stephen Woodcock is not confirmed. (5) Campaign websites for Paige, Leonard, Umberger, McConkey, Boudman and Sinkler could not be opened directly. (6) The 'what' sentence for each office is a general description written for this file, not a quoted source. A statewide constitutional amendment to eliminate the office of Register of Probate is also on the ballot (see county-register-of-probate.related_ballot_measure).",
+ "wardRaces": {
+  "Conway": [
+   "house-carroll-1",
+   "county-commissioner-1"
+  ],
+  "Bartlett": [
+   "house-carroll-2",
+   "county-commissioner-1"
+  ],
+  "Jackson": [
+   "house-carroll-2",
+   "county-commissioner-1"
+  ],
+  "Madison": [
+   "house-carroll-3",
+   "house-carroll-8",
+   "county-commissioner-2"
+  ]
+ },
+ "methodology": "Covers the four Mount Washington Valley towns: Conway (North Conway is a village of Conway), Bartlett, Jackson and Madison. Districts: RSA 662 (opened at gc.nh.gov) puts all of Carroll County in U.S. House District 1 and all four towns in Executive Council District 1 and State Senate District 3. State House (RSA 662:5): Conway is Carroll 1 (3 seats, no floterial); Bartlett and Jackson are in Carroll 2 (2 seats, with Albany, Chatham, Hale's Location, Hart's Location and Sandwich, no floterial); Madison is in Carroll 3 (2 seats, with Moultonborough and Tamworth) and the Carroll 8 floterial (2 seats, with Brookfield, Eaton, Effingham, Freedom, Moultonborough, Tamworth and Wakefield). County commissioners (RSA 662:4): Conway, Bartlett and Jackson are in District 1; Madison is in District 2. Races with wards \"all\" are on every valley ballot; other races list the towns that see them, and wardRaces lists each town's district-specific races. Candidate lists: Citizens Count's Conway, Bartlett, Jackson and Madison ballot pages and its Carroll 2, 3 and 8 district pages; Ballotpedia race pages (Executive Council, State Senate, Carroll 1, Carroll 3, Carroll 8, NH-1) and candidate pages (Burroughs, McAleer, Crawford, Brown); The Ballot Brief and GoodParty.org for county offices and for background; the Conway Daily Sun for county background. Positions for new House candidates are from their Citizens Count profiles (2026 survey answers, campaign-website excerpts or voting-record labels, as marked). Governor, U.S. Senate and U.S. House 1 entries are carried over from Agorri's statewide candidate research (Oct 29, 2026); names and parties were re-confirmed against Citizens Count's Bartlett and Madison pages on Oct 31. Polling places: Town of Conway elections page; Town of Bartlett general election notice; Town of Madison elections page; Town of Jackson primary-day page plus Citizens Count's Jackson page. Incomplete: (1) The NH Secretary of State 2026 candidate list and the towns' sample ballots were not opened; county rosters rest on The Ballot Brief (AI-assisted) and GoodParty.org. (2) Ballotpedia's Carroll 2 page could not be opened; Carroll 2 primary totals are from Ballotpedia's Anita Burroughs page. (3) Citizens Count's Jackson page lists Jackson's U.S. House race as District 2 (Goodlander); RSA 662:1 puts all of Carroll County in District 1 and Citizens Count's Bartlett and Madison pages show District 1, so Jackson is treated as District 1. Confirm on the Jackson sample ballot. (4) Richard Brown sits in Carroll 8 but is running in Carroll 3; Ballotpedia calls him an incumbent there and Citizens Count lists him among Carroll 3's current members, so he is marked not incumbent with a review note. (5) George Randell is listed as Independent/Other by Citizens Count, Independent / D by Ballotpedia, and on both lines by The Ballot Brief. (6) The Ballot Brief gives Carroll 2 Republican Erlon Jones's hometown as North Conway, which is outside Carroll 2; left blank pending confirmation. (7) Campaign sites for Milliken, McGee, Paige, Leonard, Umberger, McConkey, Boudman and Sinkler were not opened directly; Milliken's and Sinkler's quotes are as reproduced by The Ballot Brief. (8) Citizens Count profiles for McConkey (2026), Boudman (2026), Colbath, Leonard, Nelson and Corrigan could not be opened. (9) Party labels: Stephen Villee is Independent/Other on Citizens Count's valley pages and Libertarian in Agorri's other towns; Sheriff Richardi and Register of Deeds Rines are reported on both party lines. (10) Whether Register of Probate candidate Steve Woodcock is Rep. Stephen Woodcock is not confirmed. (11) The 'what' sentence for each office is a general description written for this file, not a quoted source. A statewide constitutional amendment to eliminate the office of Register of Probate is also on the ballot (see county-register-of-probate.related_ballot_measure).",
  "sources": [
   {
    "label": "Citizens Count, Conway ballot page",
    "url": "https://citizenscount.org/nh/carroll/conway"
   },
   {
+   "label": "Citizens Count, Bartlett ballot page",
+   "url": "https://citizenscount.org/nh/carroll/bartlett"
+  },
+  {
+   "label": "Citizens Count, Jackson ballot page",
+   "url": "https://citizenscount.org/nh/carroll/jackson"
+  },
+  {
+   "label": "Citizens Count, Madison ballot page",
+   "url": "https://citizenscount.org/nh/carroll/madison"
+  },
+  {
+   "label": "Citizens Count, NH House Carroll County District 02",
+   "url": "https://www.citizenscount.org/nh/district/nh-house-carroll-county-district-02"
+  },
+  {
+   "label": "Citizens Count, NH House Carroll County District 03",
+   "url": "https://www.citizenscount.org/nh/district/nh-house-carroll-county-district-03"
+  },
+  {
+   "label": "Citizens Count, NH House Carroll County District 08 (floterial)",
+   "url": "https://www.citizenscount.org/nh/district/nh-house-carroll-county-district-08"
+  },
+  {
    "label": "Ballotpedia",
    "url": "https://ballotpedia.org/New_Hampshire_House_of_Representatives_elections,_2026"
+  },
+  {
+   "label": "Ballotpedia, NH House Carroll 3",
+   "url": "https://ballotpedia.org/New_Hampshire_House_of_Representatives_Carroll_3"
+  },
+  {
+   "label": "Ballotpedia, NH House Carroll 8",
+   "url": "https://ballotpedia.org/New_Hampshire_House_of_Representatives_Carroll_8"
   },
   {
    "label": "NH RSA 662 (districts)",
@@ -1824,6 +3066,18 @@
   {
    "label": "The Ballot Brief, Carroll County",
    "url": "https://theballotbrief.com/state/new-hampshire/carroll-county"
+  },
+  {
+   "label": "Town of Bartlett, General Election Voting Information",
+   "url": "https://www.townofbartlett.nh.gov/CivicAlerts.aspx?AID=47"
+  },
+  {
+   "label": "Town of Jackson, State Primary Election Day (lists the Nov 3 General Election Day, same hours)",
+   "url": "https://www.jackson-nh.gov/event/state-primary-election-day/"
+  },
+  {
+   "label": "Town of Madison, Elections and Voting",
+   "url": "https://madison-nh.org/departments/town-clerk/elections-voting"
   },
   {
    "label": "NH Secretary of State",

@@ -6,21 +6,24 @@
    "date": "2026-10-30",
    "issue": "zoning-rewrite",
    "text": "Conway's zoning rewrite should make room for more housing near the villages and limit big box development.",
-   "status": "approved"
+   "status": "approved",
+   "town": "conway"
   },
   {
    "id": "2026-10-31-school-tax-cap",
    "date": "2026-10-31",
    "issue": "school-tax-cap",
    "text": "Conway should cap how much the school district's property tax can grow for the next two years.",
-   "status": "approved"
+   "status": "approved",
+   "town": "conway"
   },
   {
    "id": "2026-11-01-rec-path",
    "date": "2026-11-01",
    "issue": "rec-path-phase-2",
    "text": "The Rec Path should be extended through Whitaker Woods to Intervale, paid for with grants and donations.",
-   "status": "approved"
+   "status": "approved",
+   "town": "conway"
   },
   {
    "id": "2026-11-02-ncwp-pfas",
@@ -28,7 +31,8 @@
    "issue": "ncwp-pfas",
    "text": "The landfill's users should pay for the North Conway Water Precinct's $8 million treatment of PFAS in landfill leachate.",
    "source": "https://www.ncwp.nh.gov/AgendaCenter/ViewFile/Minutes/_02252026-35",
-   "status": "draft"
+   "status": "draft",
+   "town": "conway"
   }
  ]
 }
