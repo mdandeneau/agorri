@@ -16,6 +16,18 @@
      "label": "U.S. Census 2020, via City Population (Carroll County)",
      "url": "https://citypopulation.de/en/usa/newhampshire/admin/33003__carroll"
     }
+   },
+   "taxRate": {
+    "year": "2025",
+    "total": 11.54,
+    "town": 2.5,
+    "localSchool": 7.12,
+    "stateSchool": 1.11,
+    "county": 0.81,
+    "source": {
+     "label": "NH Department of Revenue Administration, 2025 Municipal Tax Rates (completed as of January 23, 2026), copy posted by the Town of Acworth",
+     "url": "https://www.acworthnh.net/_files/ugd/a327e9_a3f47ac2d74a46b7bb7c6b1467f85e8c.pdf"
+    }
    }
   },
   {
@@ -27,6 +39,18 @@
     "source": {
      "label": "U.S. Census 2020, via City Population (Carroll County)",
      "url": "https://citypopulation.de/en/usa/newhampshire/admin/33003__carroll"
+    }
+   },
+   "taxRate": {
+    "year": "2025",
+    "total": 12.77,
+    "town": 3.69,
+    "localSchool": 7.22,
+    "stateSchool": 1.12,
+    "county": 0.74,
+    "source": {
+     "label": "NH Department of Revenue Administration, 2025 Municipal Tax Rates (completed as of January 23, 2026), copy posted by the Town of Acworth",
+     "url": "https://www.acworthnh.net/_files/ugd/a327e9_a3f47ac2d74a46b7bb7c6b1467f85e8c.pdf"
     }
    }
   },
@@ -40,6 +64,18 @@
      "label": "U.S. Census 2020, via City Population (Carroll County)",
      "url": "https://citypopulation.de/en/usa/newhampshire/admin/33003__carroll"
     }
+   },
+   "taxRate": {
+    "year": "2025",
+    "total": 6.02,
+    "town": 1.36,
+    "localSchool": 2.61,
+    "stateSchool": 1.21,
+    "county": 0.84,
+    "source": {
+     "label": "NH Department of Revenue Administration, 2025 Municipal Tax Rates (completed as of January 23, 2026), copy posted by the Town of Acworth",
+     "url": "https://www.acworthnh.net/_files/ugd/a327e9_a3f47ac2d74a46b7bb7c6b1467f85e8c.pdf"
+    }
    }
   },
   {
@@ -51,6 +87,18 @@
     "source": {
      "label": "U.S. Census 2020, via City Population (Carroll County)",
      "url": "https://citypopulation.de/en/usa/newhampshire/admin/33003__carroll"
+    }
+   },
+   "taxRate": {
+    "year": "2025",
+    "total": 14.78,
+    "town": 3.37,
+    "localSchool": 9.59,
+    "stateSchool": 1.09,
+    "county": 0.73,
+    "source": {
+     "label": "NH Department of Revenue Administration, 2025 Municipal Tax Rates (completed as of January 23, 2026), copy posted by the Town of Acworth",
+     "url": "https://www.acworthnh.net/_files/ugd/a327e9_a3f47ac2d74a46b7bb7c6b1467f85e8c.pdf"
     }
    }
   },
@@ -64,6 +112,18 @@
      "label": "U.S. Census 2020, via City Population (Coos County)",
      "url": "https://Citypopulation.de/en/usa/newhampshire/admin/33007__coos/"
     }
+   },
+   "taxRate": {
+    "year": "2025",
+    "total": 23.45,
+    "town": 9.03,
+    "localSchool": 10.92,
+    "stateSchool": 0.96,
+    "county": 2.54,
+    "source": {
+     "label": "NH Department of Revenue Administration, 2025 Municipal Tax Rates (completed as of January 23, 2026), copy posted by the Town of Acworth",
+     "url": "https://www.acworthnh.net/_files/ugd/a327e9_a3f47ac2d74a46b7bb7c6b1467f85e8c.pdf"
+    }
    }
   },
   {
@@ -75,6 +135,18 @@
     "source": {
      "label": "U.S. Census 2020, via City Population (Carroll County)",
      "url": "https://citypopulation.de/en/usa/newhampshire/admin/33003__carroll"
+    }
+   },
+   "taxRate": {
+    "year": "2025",
+    "total": 8.98,
+    "town": 2.39,
+    "localSchool": 4.89,
+    "stateSchool": 0.98,
+    "county": 0.72,
+    "source": {
+     "label": "NH Department of Revenue Administration, 2025 Municipal Tax Rates (completed as of January 23, 2026), copy posted by the Town of Acworth",
+     "url": "https://www.acworthnh.net/_files/ugd/a327e9_a3f47ac2d74a46b7bb7c6b1467f85e8c.pdf"
     }
    }
   },
@@ -88,7 +160,37 @@
      "label": "U.S. Census 2020, via City Population (Coos County)",
      "url": "https://Citypopulation.de/en/usa/newhampshire/admin/33007__coos/"
     }
-   }
+   },
+   "site": "https://www.whitefieldnh.gov/",
+   "budget": {
+    "fiscalYear": "2026",
+    "generalFund": null,
+    "priorGeneralFund": null,
+    "fundLabel": "town operating budget",
+    "adopted": null,
+    "adoptedVote": "Voted at the Town Meeting on March 10, 2026 (business meeting 7:30 p.m.); the article and result were not found.",
+    "source": {
+     "label": "Town of Whitefield, 2025 Annual Report (UNH Scholars Repository, online February 27, 2026)",
+     "url": "https://scholars.unh.edu/cgi/viewcontent.cgi?article=1144&context=whitefield_nh_reports"
+    },
+    "needs_review": true,
+    "review_note": "The 2026 warrant and budget are printed in a center insert of the 2025 annual report that has no readable text. The town website's Documents page has no 2026 warrant, budget or minutes. No news report of the result was found. The budget hearing was February 9, 2026."
+   },
+   "taxRate": {
+    "year": "2025",
+    "total": 16.21,
+    "town": 5.31,
+    "localSchool": 7.33,
+    "stateSchool": 1.07,
+    "county": 2.5,
+    "other": null,
+    "source": {
+     "label": "NH Department of Revenue Administration, 2025 Municipal Tax Rates (completed as of January 23, 2026), copy posted by the Town of Acworth",
+     "url": "https://www.acworthnh.net/_files/ugd/a327e9_a3f47ac2d74a46b7bb7c6b1467f85e8c.pdf"
+    }
+   },
+   "schoolDistrict": "White Mountains Regional School District, SAU 36",
+   "note": "Town Meeting was Tuesday, March 10, 2026 (polls 8 a.m. to 6 p.m., business meeting 7:30 p.m. at the C.D. McIntyre Building), per the town website and annual report. School district and SAU from Wikipedia's List of school districts in New Hampshire (https://en.wikipedia.org/wiki/List_of_school_districts_in_New_Hampshire), a secondary source. Note: lcnme.com stories about a Whitefield town meeting are about Whitefield, Maine, not this town."
   },
   {
    "id": "effingham",
@@ -100,7 +202,37 @@
      "label": "U.S. Census 2020, via City Population (Carroll County)",
      "url": "https://citypopulation.de/en/usa/newhampshire/admin/33003__carroll"
     }
-   }
+   },
+   "site": "https://www.effingham.nh.gov/",
+   "budget": {
+    "fiscalYear": "2026",
+    "generalFund": null,
+    "priorGeneralFund": null,
+    "fundLabel": "town operating budget",
+    "adopted": null,
+    "adoptedVote": "Voted at the Town Meeting on Saturday, March 14, 2026; the amount and result were not found.",
+    "source": {
+     "label": "Effingham Board of Selectmen minutes, March 3, 2026",
+     "url": "https://www.effingham.nh.gov/AgendaCenter/ViewFile/Minutes/_03032026-133"
+    },
+    "needs_review": true,
+    "review_note": "The town's Documents page lists a 2026 Warrant (https://www.effingham.nh.gov/DocumentCenter/View/331/2026-Warrant-PDF) but it could not be opened in this task. The March 17 and 31, 2026 Selectmen minutes mention the MS-232 (appropriations as voted) but give no amounts. The January 6, 2026 minutes record budget revisions of $595,001 for Highways and Streets and $893,402 for Other Warrants, with no operating total."
+   },
+   "taxRate": {
+    "year": "2025",
+    "total": 15.38,
+    "town": 5.45,
+    "localSchool": 8.3,
+    "stateSchool": 0.97,
+    "county": 0.66,
+    "other": null,
+    "source": {
+     "label": "NH Department of Revenue Administration, 2025 Municipal Tax Rates (completed as of January 23, 2026), copy posted by the Town of Acworth",
+     "url": "https://www.acworthnh.net/_files/ugd/a327e9_a3f47ac2d74a46b7bb7c6b1467f85e8c.pdf"
+    }
+   },
+   "schoolDistrict": "Governor Wentworth Regional School District, SAU 49",
+   "note": "Town Meeting was Saturday, March 14, 2026, 9 a.m., at Effingham Elementary School (Selectmen minutes, March 3, 2026). Effingham has a Budget Committee. Selectmen minutes show school payments to GWRSD. School district and SAU from Wikipedia's List of school districts in New Hampshire (https://en.wikipedia.org/wiki/List_of_school_districts_in_New_Hampshire), a secondary source."
   },
   {
    "id": "freedom",
@@ -112,7 +244,37 @@
      "label": "U.S. Census 2020, via City Population (Carroll County)",
      "url": "https://citypopulation.de/en/usa/newhampshire/admin/33003__carroll"
     }
-   }
+   },
+   "site": "https://townoffreedomnh.gov/",
+   "budget": {
+    "fiscalYear": "2026",
+    "generalFund": 3998916,
+    "priorGeneralFund": null,
+    "fundLabel": "town operating budget (warrant amount)",
+    "adopted": null,
+    "adoptedVote": "Article 8 of the 2026 warrant; the Selectmen voted 3-0-0 to recommend it on February 2, 2026; the Town Meeting result was not found.",
+    "source": {
+     "label": "Freedom Board of Selectmen minutes, February 2, 2026",
+     "url": "https://townoffreedomnh.gov/wp-content/uploads/2026/02/2.2.2026-BOS-Minutes-1-1.pdf"
+    },
+    "needs_review": true,
+    "review_note": "Warrant figure from Selectmen minutes, not the adopted amount. The March 16, 2026 Selectmen minutes include a Town Meeting recap with no budget result. The 2025 annual report (https://scholars.unh.edu/cgi/viewcontent.cgi?article=1134&context=freedom_nh_reports), which should hold the warrant and MS-636, could not be opened. The 2026 Town Meeting date and the 2025 budget were not found."
+   },
+   "taxRate": {
+    "year": "2025",
+    "total": 7.39,
+    "town": 2.96,
+    "localSchool": 2.63,
+    "stateSchool": 1.09,
+    "county": 0.71,
+    "other": null,
+    "source": {
+     "label": "NH Department of Revenue Administration, 2025 Municipal Tax Rates (completed as of January 23, 2026), copy posted by the Town of Acworth",
+     "url": "https://www.acworthnh.net/_files/ugd/a327e9_a3f47ac2d74a46b7bb7c6b1467f85e8c.pdf"
+    }
+   },
+   "schoolDistrict": "Freedom School District, SAU 13",
+   "note": "Per the Wikipedia list, the Freedom district covers Pre-K to grade 6. The Fire Department's 2026 bottom line was $261,903 (Selectmen budget workshop minutes, January 19, 2026). School district and SAU from Wikipedia's List of school districts in New Hampshire (https://en.wikipedia.org/wiki/List_of_school_districts_in_New_Hampshire), a secondary source."
   },
   {
    "id": "sandwich",
@@ -124,7 +286,37 @@
      "label": "U.S. Census 2020, via City Population (Carroll County)",
      "url": "https://citypopulation.de/en/usa/newhampshire/admin/33003__carroll"
     }
-   }
+   },
+   "site": "https://sandwichnh.org/",
+   "budget": {
+    "fiscalYear": "2026",
+    "generalFund": null,
+    "priorGeneralFund": null,
+    "fundLabel": "town operating budget",
+    "adopted": null,
+    "adoptedVote": "Articles 3 through 43 were taken up at the Town Meeting on Wednesday, March 11, 2026; the budget amounts and results were not found.",
+    "source": {
+     "label": "Laconia Daily Sun, \"Sandwich Town Warrant includes new police station\" (March 4, 2026)",
+     "url": "https://www.laconiadailysun.com/news/elections/sandwich-town-warrant-includes-new-police-station/article_755dfe9d-a2a2-4c1e-9919-06d1802dce86.html"
+    },
+    "needs_review": true,
+    "review_note": "No 2026 warrant, MS-636 or minutes were found online; the newest town report in the UNH repository covers 2024. The Laconia Daily Sun reported 2025 total town expenditures of $2.7 million and 2026 estimated revenues of $2.4 million but gave no operating budget figure."
+   },
+   "taxRate": {
+    "year": "2025",
+    "total": 9.25,
+    "town": 2.83,
+    "localSchool": 4.57,
+    "stateSchool": 1.13,
+    "county": 0.72,
+    "other": null,
+    "source": {
+     "label": "NH Department of Revenue Administration, 2025 Municipal Tax Rates (completed as of January 23, 2026), copy posted by the Town of Acworth",
+     "url": "https://www.acworthnh.net/_files/ugd/a327e9_a3f47ac2d74a46b7bb7c6b1467f85e8c.pdf"
+    }
+   },
+   "schoolDistrict": "Inter-Lakes Cooperative School District, SAU 2",
+   "note": "Sandwich holds a traditional Town Meeting with many separate articles. Voters approved Article 3, a new police station ($1.175 million: up to $475,000 in bonds and $700,000 from the Police Building Capital Reserve Fund), 116 to 25, above the required two thirds, and banned Keno, 121 to 15 (Laconia Daily Sun, \"Town Meeting in Sandwich carries on an old, old Granite State tradition\": https://www.laconiadailysun.com/news/elections/town-meeting-in-sandwich-carries-on-an-old-old-granite-state-tradition/article_e39bb462-3460-461c-b811-22a38a3ca6c9.html). Town website from Wikipedia's Sandwich article. School district and SAU from Wikipedia's List of school districts in New Hampshire (https://en.wikipedia.org/wiki/List_of_school_districts_in_New_Hampshire), a secondary source."
   },
   {
    "id": "jefferson",
@@ -136,7 +328,37 @@
      "label": "U.S. Census 2020, via City Population (Coos County)",
      "url": "https://Citypopulation.de/en/usa/newhampshire/admin/33007__coos/"
     }
-   }
+   },
+   "site": "https://jeffersonnh.org/",
+   "budget": {
+    "fiscalYear": "2026",
+    "generalFund": 1334352,
+    "priorGeneralFund": null,
+    "fundLabel": "town operating budget (warrant amount)",
+    "adopted": null,
+    "adoptedVote": "Article 4 at the Town Meeting on March 10, 2026, recommended by the Select Board; the result was not found.",
+    "source": {
+     "label": "Town of Jefferson, 2025 Town Report (2026 warrant and MS-636)",
+     "url": "https://jeffersonnh.org/wp-content/uploads/2026/03/JEFFERSON-TOWN-REPORT-2025-TO-PRINT.pdf"
+    },
+    "needs_review": true,
+    "review_note": "Warrant amount, not a confirmed result. The report prints no 2025 operating total, so the prior-year figure is left empty."
+   },
+   "taxRate": {
+    "year": "2025",
+    "total": 21.66,
+    "town": 3.34,
+    "localSchool": 12.7,
+    "stateSchool": 1.66,
+    "county": 3.96,
+    "other": null,
+    "source": {
+     "label": "NH Department of Revenue Administration, 2025 Municipal Tax Rates (completed as of January 23, 2026), copy posted by the Town of Acworth",
+     "url": "https://www.acworthnh.net/_files/ugd/a327e9_a3f47ac2d74a46b7bb7c6b1467f85e8c.pdf"
+    }
+   },
+   "schoolDistrict": "White Mountains Regional School District, SAU 36",
+   "note": "Town Meeting: Tuesday, March 10, 2026, 7:30 p.m., Jefferson Community Center/Town Office (polls noon to 8 p.m.). Separately voted 2026 articles: special warrant articles totaling $271,000 (mostly capital reserve deposits) and individual articles totaling $2,009 (officer pay), not in the operating figure. School district and SAU from Wikipedia's List of school districts in New Hampshire (https://en.wikipedia.org/wiki/List_of_school_districts_in_New_Hampshire), a secondary source. Note: lcnme.com stories about Jefferson are about Jefferson, Maine."
   },
   {
    "id": "jackson",
@@ -147,6 +369,18 @@
     "source": {
      "label": "U.S. Census 2020, via City Population (Carroll County)",
      "url": "https://citypopulation.de/en/usa/newhampshire/admin/33003__carroll"
+    }
+   },
+   "taxRate": {
+    "year": "2025",
+    "total": 8.61,
+    "town": 3.25,
+    "localSchool": 3.54,
+    "stateSchool": 1.07,
+    "county": 0.75,
+    "source": {
+     "label": "NH Department of Revenue Administration, 2025 Municipal Tax Rates (completed as of January 23, 2026), copy posted by the Town of Acworth",
+     "url": "https://www.acworthnh.net/_files/ugd/a327e9_a3f47ac2d74a46b7bb7c6b1467f85e8c.pdf"
     }
    }
   },
@@ -160,7 +394,37 @@
      "label": "U.S. Census 2020, via City Population (Coos County)",
      "url": "https://Citypopulation.de/en/usa/newhampshire/admin/33007__coos/"
     }
-   }
+   },
+   "site": "https://carrollnh.gov/",
+   "budget": {
+    "fiscalYear": "2026",
+    "generalFund": 3446935,
+    "priorGeneralFund": 3073637,
+    "fundLabel": "town operating budget (warrant amount)",
+    "adopted": null,
+    "adoptedVote": "Article 2 on the official ballot on March 10, 2026; the town posted results as a scanned PDF that could not be read, so the outcome is not confirmed.",
+    "source": {
+     "label": "Town of Carroll, 2025 Annual Report (2026 warrant and MS-636)",
+     "url": "https://carrollnh.gov/wp-content/uploads/2026/03/2025-Annual-Report-DRA-upload.pdf"
+    },
+    "needs_review": true,
+    "review_note": "Warrant amount, not a confirmed result. Election results: https://carrollnh.gov/wp-content/uploads/2026/03/2026-Election-Results.pdf (image only). Article 2 says $3,446,935; the MS-636 total is $3,446,934. The default budget was $3,170,657. The operating figure includes the Water Fund ($340,143 requested for 2026) as well as the General Fund ($3,106,791). The prior-year figure is the MS-636 2025 budget column."
+   },
+   "taxRate": {
+    "year": "2025",
+    "total": 12.08,
+    "town": 2.47,
+    "localSchool": 5.14,
+    "stateSchool": 1.23,
+    "county": 3.24,
+    "other": null,
+    "source": {
+     "label": "NH Department of Revenue Administration, 2025 Municipal Tax Rates (completed as of January 23, 2026), copy posted by the Town of Acworth",
+     "url": "https://www.acworthnh.net/_files/ugd/a327e9_a3f47ac2d74a46b7bb7c6b1467f85e8c.pdf"
+    }
+   },
+   "schoolDistrict": "White Mountains Regional School District, SAU 36",
+   "note": "Carroll (Twin Mountain) uses the official ballot (SB 2) system: deliberative session February 3, 2026, ballot voting March 10, 2026. Separate 2026 articles include a $225,000 forestry truck, road work from grants and bond proceeds, a fifth full-time police officer ($66,560 plus $36,343 benefits) and capital reserve deposits; these are not in the operating figure. The town also posted results of a May 26, 2026 special election (not read). The town website posted a White Mountain Regional School District budget hearing notice (January 2, 2026). School district and SAU from Wikipedia's List of school districts in New Hampshire (https://en.wikipedia.org/wiki/List_of_school_districts_in_New_Hampshire), a secondary source."
   },
   {
    "id": "albany",
@@ -172,7 +436,37 @@
      "label": "U.S. Census 2020, via City Population (Carroll County)",
      "url": "https://citypopulation.de/en/usa/newhampshire/admin/33003__carroll"
     }
-   }
+   },
+   "site": "https://albanynh.org/",
+   "budget": {
+    "fiscalYear": "2026",
+    "generalFund": 982163,
+    "priorGeneralFund": 964847,
+    "fundLabel": "town operating budget (warrant amount)",
+    "adopted": null,
+    "adoptedVote": "Article 2 at the Town Meeting on March 10, 2026, recommended by the Selectmen 3-0-0; the result was not found.",
+    "source": {
+     "label": "Town of Albany, 2025 Town Report (2026 warrant and budget)",
+     "url": "https://albanynh.org/wp-content/2026/02/202612-Albany-Town-Report-2025.pdf"
+    },
+    "needs_review": true,
+    "review_note": "Warrant amount, not a confirmed result. The prior-year figure is the 2025 warrant Article 2 amount as given in the report ($85,000 of it from fund balance); the budget sheet's 2025 column totals $964,848."
+   },
+   "taxRate": {
+    "year": "2025",
+    "total": 6.99,
+    "town": 0.29,
+    "localSchool": 4.95,
+    "stateSchool": 1.06,
+    "county": 0.69,
+    "other": null,
+    "source": {
+     "label": "NH Department of Revenue Administration, 2025 Municipal Tax Rates (completed as of January 23, 2026), copy posted by the Town of Acworth",
+     "url": "https://www.acworthnh.net/_files/ugd/a327e9_a3f47ac2d74a46b7bb7c6b1467f85e8c.pdf"
+    }
+   },
+   "schoolDistrict": "Albany School District, SAU 9",
+   "note": "Very small town. Town Meeting: Tuesday, March 10, 2026, 10 a.m., Town Hall. Separate 2026 articles (not in the operating figure) include $50,000 for road paving, $50,000 to the Highway trust fund and $10,000 to the Bridge and Culvert trust fund (both from fund balance), smaller reserve deposits, and $11,000 for a Town Hall conference room. The Conway School District has approved tuition contracts with Albany for Kennett Middle and High School starting in 2027-28 (project schools.json, from SAU 9). SAU from School district and SAU from Wikipedia's List of school districts in New Hampshire (https://en.wikipedia.org/wiki/List_of_school_districts_in_New_Hampshire), a secondary source."
   },
   {
    "id": "eaton",
@@ -184,7 +478,37 @@
      "label": "U.S. Census 2020, via City Population (Carroll County)",
      "url": "https://citypopulation.de/en/usa/newhampshire/admin/33003__carroll"
     }
-   }
+   },
+   "site": "https://www.eatonnh.gov/",
+   "budget": {
+    "fiscalYear": "2026",
+    "generalFund": null,
+    "priorGeneralFund": null,
+    "fundLabel": "town operating budget",
+    "adopted": null,
+    "adoptedVote": "Not found.",
+    "source": {
+     "label": "Annual report of the officers of the town of Eaton, New Hampshire 2025 (UNH Scholars Repository)",
+     "url": "https://scholars.unh.edu/eaton_nh_reports/145"
+    },
+    "needs_review": true,
+    "review_note": "The 2025 annual report PDF (https://scholars.unh.edu/cgi/viewcontent.cgi?article=1144&context=eaton_nh_reports) could not be opened in this task, and no 2026 warrant, minutes or news report was found."
+   },
+   "taxRate": {
+    "year": "2025",
+    "total": 14.74,
+    "town": 6.85,
+    "localSchool": 5.39,
+    "stateSchool": 1.43,
+    "county": 1.07,
+    "other": null,
+    "source": {
+     "label": "NH Department of Revenue Administration, 2025 Municipal Tax Rates (completed as of January 23, 2026), copy posted by the Town of Acworth",
+     "url": "https://www.acworthnh.net/_files/ugd/a327e9_a3f47ac2d74a46b7bb7c6b1467f85e8c.pdf"
+    }
+   },
+   "schoolDistrict": "Eaton School District, SAU 9",
+   "note": "Very small town. The Conway School District has approved tuition contracts with Eaton for Kennett Middle and High School starting in 2027-28 (project schools.json, from SAU 9). School district and SAU from Wikipedia's List of school districts in New Hampshire (https://en.wikipedia.org/wiki/List_of_school_districts_in_New_Hampshire), a secondary source."
   },
   {
    "id": "shelburne",
@@ -196,7 +520,37 @@
      "label": "U.S. Census 2020, via City Population (Coos County)",
      "url": "https://Citypopulation.de/en/usa/newhampshire/admin/33007__coos/"
     }
-   }
+   },
+   "site": "https://www.townofshelburnenh.gov/",
+   "budget": {
+    "fiscalYear": "2026",
+    "generalFund": null,
+    "priorGeneralFund": 627444,
+    "fundLabel": "town operating budget",
+    "adopted": null,
+    "adoptedVote": "Not found for 2026. In 2025 the warrant asked $627,444 \"for General Operation\" (Article 4).",
+    "source": {
+     "label": "Town of Shelburne, 2024 Annual Report (2025 warrant and budget)",
+     "url": "https://www.townofshelburnenh.gov/_files/ugd/0e126e_43fbbb0fdc194597a6d438a281e268ce.pdf"
+    },
+    "needs_review": true,
+    "review_note": "The 2025 annual report (https://www.townofshelburnenh.gov/_files/ugd/0e126e_9daf1842e287472a8c2e541fe0e146f6.pdf and the UNH copy) has unreadable text, so the 2026 warrant could not be read. The prior-year figure is the 2025 warrant amount, recommended by the Selectmen and Budget Committee; its result was not found. The 2024 Town Meeting appropriated $624,279 for General Operation."
+   },
+   "taxRate": {
+    "year": "2025",
+    "total": 20.21,
+    "town": 6.36,
+    "localSchool": 8.52,
+    "stateSchool": 1.57,
+    "county": 3.76,
+    "other": null,
+    "source": {
+     "label": "NH Department of Revenue Administration, 2025 Municipal Tax Rates (completed as of January 23, 2026), copy posted by the Town of Acworth",
+     "url": "https://www.acworthnh.net/_files/ugd/a327e9_a3f47ac2d74a46b7bb7c6b1467f85e8c.pdf"
+    }
+   },
+   "schoolDistrict": "Gorham Randolph Shelburne Cooperative School District, SAU 20",
+   "note": "Very small town that votes one General Operation article plus many small capital reserve and trust fund articles. School district and SAU from Wikipedia's List of school districts in New Hampshire (https://en.wikipedia.org/wiki/List_of_school_districts_in_New_Hampshire), a secondary source."
   },
   {
    "id": "chatham",
@@ -208,7 +562,37 @@
      "label": "U.S. Census 2020, via City Population (Carroll County)",
      "url": "https://citypopulation.de/en/usa/newhampshire/admin/33003__carroll"
     }
-   }
+   },
+   "site": "https://chathamnh.org/",
+   "budget": {
+    "fiscalYear": "2026",
+    "generalFund": null,
+    "priorGeneralFund": null,
+    "fundLabel": "town operating budget",
+    "adopted": null,
+    "adoptedVote": "Not found.",
+    "source": {
+     "label": "Chatham, NH reports (UNH Scholars Repository; newest covers 2020)",
+     "url": "https://scholars.unh.edu/chatham_nh_reports/141"
+    },
+    "needs_review": true,
+    "review_note": "Chatham publishes little online. No 2026 warrant, budget, town report or minutes were found; the newest annual report in the UNH repository covers 2020."
+   },
+   "taxRate": {
+    "year": "2025",
+    "total": 8.47,
+    "town": 0.42,
+    "localSchool": 6.37,
+    "stateSchool": 0.94,
+    "county": 0.74,
+    "other": null,
+    "source": {
+     "label": "NH Department of Revenue Administration, 2025 Municipal Tax Rates (completed as of January 23, 2026), copy posted by the Town of Acworth",
+     "url": "https://www.acworthnh.net/_files/ugd/a327e9_a3f47ac2d74a46b7bb7c6b1467f85e8c.pdf"
+    }
+   },
+   "schoolDistrict": "Chatham School District, SAU 9",
+   "note": "Very small town. Town website inferred from town documents posted at chathamnh.org. School district and SAU from Wikipedia's List of school districts in New Hampshire (https://en.wikipedia.org/wiki/List_of_school_districts_in_New_Hampshire), a secondary source."
   },
   {
    "id": "harts-location",
@@ -220,7 +604,37 @@
      "label": "U.S. Census 2020, via City Population (Carroll County)",
      "url": "https://citypopulation.de/en/usa/newhampshire/admin/33003__carroll"
     }
-   }
+   },
+   "site": "https://hartslocation.com/",
+   "budget": {
+    "fiscalYear": "2026",
+    "generalFund": null,
+    "priorGeneralFund": null,
+    "fundLabel": "town operating budget",
+    "adopted": null,
+    "adoptedVote": "Not found.",
+    "source": {
+     "label": "Hart's Location annual reports (UNH Scholars Repository; newest covers 2024)",
+     "url": "https://scholars.unh.edu/harts_location_nh_reports/107"
+    },
+    "needs_review": true,
+    "review_note": "No 2026 warrant or budget was found. The newest annual report (2024, https://scholars.unh.edu/cgi/viewcontent.cgi?article=1106&context=harts_location_nh_reports) could not be opened."
+   },
+   "taxRate": {
+    "year": "2025",
+    "total": 2.62,
+    "town": 0.92,
+    "localSchool": 0.48,
+    "stateSchool": 0.73,
+    "county": 0.49,
+    "other": null,
+    "source": {
+     "label": "NH Department of Revenue Administration, 2025 Municipal Tax Rates (completed as of January 23, 2026), copy posted by the Town of Acworth",
+     "url": "https://www.acworthnh.net/_files/ugd/a327e9_a3f47ac2d74a46b7bb7c6b1467f85e8c.pdf"
+    }
+   },
+   "schoolDistrict": "Hart's Location School District, SAU 9",
+   "note": "One of New Hampshire's smallest towns; the whole 2025 property tax commitment was $96,408 on a valuation of $37,099,696 (state tax table). Town website inferred from annual reports posted at hartslocation.com. School district and SAU from Wikipedia's List of school districts in New Hampshire (https://en.wikipedia.org/wiki/List_of_school_districts_in_New_Hampshire), a secondary source."
   }
  ]
 }
