@@ -1593,14 +1593,14 @@
  ],
  "budget": {
   "fiscalYear": "2026 (calendar year, January to December 2026)",
-  "fundLabel": "town operating budget",
+  "fundLabel": "town operating budget (warrant amount)",
   "adopted": null,
-  "adoptedVote": null,
-  "generalFund": null,
+  "adoptedVote": "Warrant Article 3 at the March 12, 2026 Town Meeting, favored by the Selectmen; the result was not found",
+  "generalFund": 3430950,
   "priorGeneralFund": null,
   "changePct": null,
   "departments": [],
-  "departmentsNote": "Bartlett votes its budget at the annual Town Meeting in March. The 2026 budget, 2026 warrant and 2025 annual report are posted on the Selectmen's page only as Adobe cloud links, which could not be opened for this research, so the operating budget, prior-year figure and department amounts are not shown.",
+  "departmentsNote": "Bartlett votes its budget at the annual Town Meeting in March. The figure shown is Article 3 of the 2026 warrant. The town's 2026 MS-636 proposed budget form (posted with the warrant on February 23, 2026) lists operating budget appropriations of $3,629,280, special warrant articles of $60,475 and individual warrant articles of $777,100, for total appropriations of $4,466,855; less $2,096,500 in estimated revenues and credits, it estimates $2,370,355 to be raised by taxes. The MS-636 operating figure is $198,330 higher than Article 3, so some operating lines are voted in other articles. Article 4 asks $550,000 for road construction. The prior-year operating budget and department lines were not read from the scanned form.",
   "drivers": [
    "Interest on tax anticipation notes (short-term borrowing until taxes come in) rose over the past two years, which led to twice-a-year tax bills starting in 2026.",
    "Town Meeting set up a $100,000 capital reserve fund for town upgrades (year not stated in the minutes); none had been spent as of October 21, 2026.",
@@ -1714,9 +1714,11 @@
    "precinctRates": "https://www.lbwpnh.gov/files/382a59f5e/Water+%26+Tax+rate+1995-2025.pdf",
    "precinctRates2024": "https://www.lbwpnh.gov/files/64fd2a2cc/Historical+Water+Rates+%26+Precinct+Tax+2024.pdf",
    "taxBilling": "https://www.townofbartlett.nh.gov/CivicAlerts.asp?AID=16",
-   "budgetLinks": "https://www.townofbartlett.nh.gov/1194/Selectmens-Office"
+   "budgetLinks": "https://www.townofbartlett.nh.gov/1194/Selectmens-Office",
+   "warrant2026": "https://acrobat.adobe.com/id/urn:aaid:sc:VA6C2:95417b6a-3bbb-4e33-9a31-d86f317555c0",
+   "budget2026": "https://acrobat.adobe.com/id/urn:aaid:sc:VA6C2:d1876c17-85f6-40e8-9f33-08d5517e1e09"
   },
   "needs_review": true,
-  "review_note": "The 2026 operating budget and Town Meeting vote were not found. State tax tables were read from a copy of the NH DRA '2025 Municipal Tax Rates' table hosted by the Town of Acworth."
+  "review_note": "The $3,430,950 is the warrant amount, not a confirmed Town Meeting result; the warrant and MS-636 are scanned Adobe cloud documents read by eye. State tax tables were read from a copy of the NH DRA '2025 Municipal Tax Rates' table hosted by the Town of Acworth."
  }
 }
