@@ -2515,7 +2515,7 @@ function newCounts(){const p=sincePrev();if(!p||!D)return {issues:0,talk:0,local
  return {issues:D.issues.filter(i=>isNewDate(issueLast(i))).length,talk:(window.TALK&&TALK.ready?tkTop().filter(x=>!x.mine&&x.at>p).length:0),local:((LX&&LX.notices)||[]).filter(n=>isNewDate(n.date)&&n.date<=TODAY).length};}
 const NEWDOT='<span class="newdot" title="New since your last visit">New</span>';
 function applyNavBadges(){const n=newCounts();[['issues',n.issues],['talk',n.talk],['local',n.local]].forEach(([k,c])=>{document.querySelectorAll(`#nav a[href="#${k}"],#tabbar a[href="#${k}"]`).forEach(a=>{let b=a.querySelector('.navnew');if(!c){if(b)b.remove();return;}if(!b){b=document.createElement('span');b.className='navnew';a.appendChild(b);}b.textContent=c;b.title=c+' new since your last visit';});});}
-var SEEN_ONCE={};const _route39=route;route=function(){if(TOWN&&!SEEN_ONCE[TOWN.id]){SEEN_ONCE[TOWN.id]=1;try{seenInit();}catch(e){}}if(TOWN&&TOWN.subtowns){const st=subTown();if(st&&S.ward!==st.name){S.ward=st.name;}}_route39();try{applyNavBadges();hcSync();navChrome();subInject();}catch(e){}};
+var SEEN_ONCE={};const _route39=route;route=function(){if(TOWN&&!SEEN_ONCE[TOWN.id]){SEEN_ONCE[TOWN.id]=1;try{seenInit();}catch(e){}}if(TOWN&&TOWN.subtowns){const st=subTown();if(st&&S.ward!==st.name){S.ward=st.name;}}_route39();try{applyNavBadges();hcSync();navChrome();subInject();valleyDeptInject();}catch(e){}};
 /* ---- weather alerts from the National Weather Service ---- */
 async function loadWX(){if(!TOWN||!TOWN_PT[TOWN.id])return;if(WX.town===TOWN.id&&Date.now()-WX.at<15*60e3)return;WX.town=TOWN.id;WX.at=Date.now();
  try{const [la,lo]=TOWN_PT[TOWN.id];const r=await fetch(`https://api.weather.gov/alerts/active?point=${la},${lo}`,{headers:{accept:'application/geo+json'}});if(!r.ok)throw 0;const j=await r.json();
@@ -2720,6 +2720,11 @@ function pageSchools(){const ds=districtsHere();const sh=schoolShare();const sb=
  ${iss.length?`<section class="blk"><div class="sec"><h2>On the ${esc(GB())}'s agenda</h2><a href="#issues">All issues ›</a></div><div class="ols">${iss.map(issueRow).join('')}</div></section>`:''}
  ${ds.length?ds.map(districtBlock).join(''):sb?`<section class="blk"><div class="sec"><h2>School Board</h2></div><div class="card" style="padding:14px 16px">${sb.note?`<p style="font-size:14px">${esc(sb.note)}</p>`:''}<div class="sch-board" style="margin-top:8px">${(sb.members||[]).map(m=>`<span class="tag">${esc(typeof m==='string'?m:m.name)}${m.role?' · '+esc(m.role):''}</span>`).join('')}</div></div><p class="muted" style="margin-top:8px">More school information for ${esc(TN())} is on the way.</p></section>`:`<p class="muted">School information for ${esc(TN())} is on the way.</p>`}
  ${foot()}`;}
+/* ---- Safety: other police, fire and ambulance departments in a region ---- */
+function valleyDeptInject(){const h=(location.hash||'#home').slice(1);if(!/^safety/.test(h))return;const V=LX&&LX.safety&&LX.safety.valleyDepartments;if(!V||!V.length)return;const app=$('app');if(!app||app.querySelector('.vdept'))return;
+ const sec=document.createElement('section');sec.className='blk vdept';
+ sec.innerHTML=`<div class="sec"><h2>Other departments in the valley</h2></div><div class="sch-grid">${V.map(x=>`<div class="card sch"><span class="sch-l">${esc(x.town||'')} · ${esc(x.kind||'')}</span><b>${esc(x.name||'')}</b>${x.chief?`<span class="muted">Chief: ${esc(x.chief)}</span>`:''}${x.nonEmergency?`<span class="muted">Non-emergency: ${esc(x.nonEmergency)}</span>`:''}${x.address?`<span class="muted">${esc(x.address)}</span>`:''}${x.detail?`<span class="muted">${esc(x.detail)}</span>`:''}${x.site?`<a href="${esc(x.site)}" target="_blank" rel="noopener">Website ↗</a>`:''}</div>`).join('')}</div><p class="muted" style="margin-top:8px">In an emergency, call 911 anywhere in the valley.</p>`;
+ const f=app.querySelector('.pfoot');(f?f.closest('footer')||f:null)?app.insertBefore(sec,f.closest('footer')||f):app.appendChild(sec);}
 
 /* ================= Live feed (Cloudflare function /api/feed, Bluesky fallback) ================= */
 const LIVE={on:false,updated:null,timer:null};
