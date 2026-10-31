@@ -87,6 +87,12 @@
    "site": "https://conwaynh.gov/",
    "subtowns": [
     {
+     "id": "north-conway",
+     "name": "North Conway",
+     "note": "A village in the Town of Conway: you see Conway's Selectmen, budget, tax rate and ballot",
+     "of": "conway"
+    },
+    {
      "id": "conway",
      "name": "Conway",
      "note": "North Conway, Conway Village, Center Conway, Kearsarge, Intervale and Redstone"
@@ -109,6 +115,7 @@
    "files": {
     "record": "data/mount-washington-valley/record-conway.json",
     "records": {
+     "north-conway": "data/mount-washington-valley/record-conway.json",
      "conway": "data/mount-washington-valley/record-conway.json",
      "bartlett": "data/mount-washington-valley/record-bartlett.json",
      "jackson": "data/mount-washington-valley/record-jackson.json",
