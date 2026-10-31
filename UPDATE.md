@@ -68,7 +68,8 @@ All towns share one page (`index.html`). Only edit data in `data/<town>/`. Never
 - Housing: https://www.redfin.com/city/12918/NH/Nashua/housing-market ; NH Association of Realtors via Nashua Ink Link.
 - Known gaps: department-level adopted budget (ClearGov book is not readable as text), FY25 debt outstanding, police daily logs, police and fire RSS feeds.
 
-## North Conway sources
+## Mount Washington Valley sources
+The Mount Washington Valley (data/mount-washington-valley/) is one place with several towns: Conway (which includes North Conway), Bartlett, Jackson and Madison. local, parks, business, feeds, beyond, candidates and questions are shared by the valley; each town has its own government record, `record-<town>.json` (towns.json `subtowns` and `files.records`). Refresh every record-<town>.json like a record.json. In beyond.json and candidates.json the "wards" are town names. Questions may carry a `town` field when they are about one town's government.
 North Conway is a village of the Town of Conway, so its record is the Town of Conway's (Board of Selectmen, official-ballot Town Meeting in April). The North Conway Water Precinct is its own small government: water, sewer and the North Conway Fire Department.
 - Town site: https://conwaynh.gov (news RSS: https://conwaynh.gov/rss/news.xml). Select Board agendas (posted as images): https://conwaynh.gov/pages/conway-select-board. Minutes: the Google Drive folder linked from https://conwaynh.gov/documents. Selectmen meet Tuesdays and stream on the town's Facebook page; Valley Vision (valleyvision.com) posts the videos.
 - Until official minutes can be read, meetings are built from Conway Daily Sun reporting and marked `minutes_status: "news report"` with a `source_note`. Replace them with the minutes when the Drive folder is reachable.
