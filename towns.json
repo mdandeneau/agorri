@@ -135,7 +135,8 @@
     "candidates": "data/mount-washington-valley/candidates.json",
     "questions": "data/mount-washington-valley/questions.json",
     "schools": "data/mount-washington-valley/schools.json",
-    "area": "data/mount-washington-valley/area.json"
+    "area": "data/mount-washington-valley/area.json",
+    "safety": "data/mount-washington-valley/safety.json"
    },
    "photo": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Echo_Lake_and_Cathedral_Ledge%2C_North_Conway_%28494301%29_%2811924544465%29.jpg/{w}px-Echo_Lake_and_Cathedral_Ledge%2C_North_Conway_%28494301%29_%2811924544465%29.jpg",

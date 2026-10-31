@@ -1,0 +1,341 @@
+{
+ "as_of": "2026-10-30",
+ "towns": {
+  "Conway": {
+   "police": {
+    "name": "Conway Police Department",
+    "chief": {
+     "name": "Christopher J. Mattei",
+     "since": null,
+     "src": "https://www.conwaypdnh.gov/divisions/department-roster"
+    },
+    "emergency": "911",
+    "nonEmergency": "(603) 356-5715",
+    "address": "35 East Conway Road, Center Conway, NH 03813",
+    "site": "https://www.conwaypdnh.gov/",
+    "oversight": "Elected three-member Police Commission under the town charter; under state law (RSA 105-C) it appoints police personnel and sets their pay. Commissioners: Andre Pepin (chair), Rodney King and Bruce Ela.",
+    "logsUrl": "https://www.conwaypdnh.gov/logs",
+    "logsNote": "The department's Logs page links to a public Google Drive folder of daily dispatch logs. Agorri could not open the folder this session, so no digest is shown. The Conway Daily Sun also prints the log from time to time (latest seen: week of Oct. 3, posted Oct 9). Agorri does not republish names.",
+    "logDigest": [],
+    "stats": [
+     {
+      "label": "Calls for service",
+      "value": 50961,
+      "year": "2024",
+      "src": "https://www.conwaypdnh.gov/home"
+     },
+     {
+      "label": "Vehicle stops",
+      "value": 6720,
+      "year": "2024",
+      "src": "https://www.conwaypdnh.gov/home"
+     },
+     {
+      "label": "Incident reports",
+      "value": 928,
+      "year": "2024",
+      "src": "https://www.conwaypdnh.gov/home"
+     },
+     {
+      "label": "Motor vehicle crashes reported",
+      "value": 565,
+      "year": "2024",
+      "src": "https://www.conwaypdnh.gov/home"
+     }
+    ],
+    "statsNote": "From the department's 2024 town report figures on its home page. The same box lists 649 arrests but labels them 2025, so arrests are left out.",
+    "recent": [
+     {
+      "town": "Jackson",
+      "date": "2026-10-24",
+      "kind": "Program",
+      "title": "Jackson Police held a Drug Take Back Day",
+      "detail": "The town calendar listed a Jackson Police Department Drug Take Back Day, 8 am to noon, in front of Jackson Grammar School.",
+      "area": "Jackson Village",
+      "source": {
+       "label": "Town of Jackson, Calendar of Events",
+       "url": "https://www.jackson-nh.gov/events/month/"
+      }
+     },
+     {
+      "date": "2026-10-09",
+      "kind": "Log",
+      "title": "Dispatch log for the week of Oct. 3 published",
+      "detail": "The Conway Daily Sun published the department's dispatch log for the week of Oct. 3. No Conway police press releases or news stories from the last 60 days could be found.",
+      "area": null,
+      "source": {
+       "label": "The Conway Daily Sun, Courts and Cops",
+       "url": "https://www.conwaydailysun.com/news/courts_cops/"
+      }
+     }
+    ],
+    "programs": [
+     {
+      "name": "Project Good Morning",
+      "detail": "Listed among the department's services.",
+      "url": "https://www.conwaypdnh.gov/services/project-good-morning"
+     },
+     {
+      "name": "School Resource Officer",
+      "detail": "Listed among the department's services.",
+      "url": "https://www.conwaypdnh.gov/services/school-resource-officer"
+     },
+     {
+      "name": "Victim Witness Advocate",
+      "detail": "Listed among the department's services.",
+      "url": "https://www.conwaypdnh.gov/services/victim-witness-advocate"
+     },
+     {
+      "name": "K9",
+      "detail": "Listed among the department's services.",
+      "url": "https://www.conwaypdnh.gov/services/k9-summit"
+     },
+     {
+      "name": "Animal Control",
+      "detail": "Listed among the department's services.",
+      "url": "https://www.conwaypdnh.gov/services/animal-control"
+     },
+     {
+      "name": "Alarm registration",
+      "detail": "Information for alarm owners.",
+      "url": "https://www.conwaypdnh.gov/information/alarm-registration"
+     },
+     {
+      "name": "Parking tickets",
+      "detail": "How to pay or appeal.",
+      "url": "https://www.conwaypdnh.gov/information/parking-tickets"
+     },
+     {
+      "name": "Now hiring",
+      "detail": "The department says it is currently hiring.",
+      "url": "https://www.conwaypdnh.gov/information/employment"
+     }
+    ],
+    "social": []
+   },
+   "fire": [
+    {
+     "name": "North Conway Fire Department",
+     "chief": {
+      "name": "Chad McCarthy",
+      "since": "2022",
+      "src": "https://www.conwaydailysun.com/news/local/north-conway-has-new-fire-chief-chad-mccarthy/article_27119b72-1290-11ed-967d-b7ba99c13ca0.html"
+     },
+     "emergency": "911",
+     "nonEmergency": "(603) 356-5327",
+     "address": "70 Norcross Circle, North Conway, NH 03860 (mail: PO Box 218)",
+     "site": "https://ncwp.nh.gov/departments",
+     "oversight": "Run by the North Conway Water Precinct, a separate local district with a three-member Board of Commissioners. Precinct voters approve spending at the annual precinct meeting.",
+     "note": "McCarthy became chief in 2022; Agorri found no 2026 source confirming he is still chief. A national fire department registry lists the department as a combination (career and call) department with three stations; only the Norcross Circle station address was found.",
+     "stats": [
+      {
+       "label": "Calls",
+       "value": 1586,
+       "year": "2023",
+       "src": "https://www.ncwp.nh.gov/sites/g/files/vyhlif3586/f/pages/2023_annual_report.pdf"
+      },
+      {
+       "label": "Rescue calls",
+       "value": 926,
+       "year": "2023",
+       "src": "https://www.ncwp.nh.gov/sites/g/files/vyhlif3586/f/pages/2023_annual_report.pdf"
+      },
+      {
+       "label": "Outdoor burning permits issued",
+       "value": 209,
+       "year": "2023",
+       "src": "https://www.ncwp.nh.gov/sites/g/files/vyhlif3586/f/pages/2023_annual_report.pdf"
+      }
+     ],
+     "recent": [],
+     "programs": [
+      {
+       "name": "Outdoor burning permits",
+       "detail": "Required for any outdoor fire unless the ground is snow-covered.",
+       "url": "https://nhdfl.dncr.nh.gov/forest-protection/fire-permits"
+      }
+     ],
+     "social": [],
+     "stations": [
+      {
+       "name": "North Conway Fire Station",
+       "address": "70 Norcross Circle, North Conway, NH 03860"
+      }
+     ],
+     "burnPermits": {
+      "text": "New Hampshire requires a written permit for outdoor burning unless the ground is covered with snow. Get one from the local Forest Fire Warden or fire department, or online at NHFirePermit.com if the town takes part. You must be 18 or older.",
+      "url": "https://nhdfl.dncr.nh.gov/forest-protection/fire-permits"
+     },
+     "liveIncidents": null,
+     "logsUrl": null
+    },
+    {
+     "name": "Conway Fire Department",
+     "site": "https://conwaynh.gov/uploads/conway-town-report-2025-web.pdf",
+     "nonEmergency": null,
+     "address": null,
+     "oversight": "Conway Village. The town took over the Conway Fire and Ambulance Department on Jan 1, 2025, after the Conway Village Fire District was dissolved. Chief: Philip Remington (2025 town report).",
+     "chief": null,
+     "stats": [],
+     "recent": []
+    },
+    {
+     "name": "Center Conway Fire Department",
+     "site": "https://conwaynh.gov/pages/community-information",
+     "nonEmergency": null,
+     "address": null,
+     "oversight": "Separate department listed by the town.",
+     "chief": null,
+     "stats": [],
+     "recent": []
+    },
+    {
+     "name": "Redstone and East Conway Fire Departments",
+     "site": "https://conwaynh.gov/pages/community-information",
+     "nonEmergency": null,
+     "address": null,
+     "oversight": "Separate departments listed by the town.",
+     "chief": null,
+     "stats": [],
+     "recent": []
+    }
+   ],
+   "fbi": {
+    "year": "2024",
+    "violent": 21,
+    "property": 224,
+    "population": 10441
+   }
+  },
+  "Bartlett": {
+   "police": {
+    "name": "Bartlett Police Department",
+    "site": "https://www.townofbartlett.nh.gov/1199/Police-Department",
+    "nonEmergency": "800-552-8960 (calls for assistance); office 603-356-5868",
+    "address": "56 Town Hall Road, Intervale, NH 03845",
+    "oversight": null,
+    "chief": null,
+    "stats": [],
+    "recent": []
+   },
+   "fire": [
+    {
+     "name": "Bartlett Fire Department",
+     "site": "https://www.townofbartlett.nh.gov/1200/Fire-Department",
+     "nonEmergency": "603-383-9555 (best Monday to Friday, 9 to 10 am)",
+     "address": "90 U.S. Route 302, Glen, NH 03838",
+     "oversight": null,
+     "chief": {
+      "name": "James Langdon Jr. (sworn in June 2026; Dan Robinson, deputy chief)"
+     },
+     "stats": [],
+     "recent": []
+    },
+    {
+     "name": "Bartlett/Jackson Ambulance",
+     "site": "https://www.bartlett-jacksonambulanceservice.org/",
+     "nonEmergency": null,
+     "address": null,
+     "oversight": "Linked from the Jackson town site; not opened.",
+     "chief": null,
+     "stats": [],
+     "recent": []
+    }
+   ]
+  },
+  "Jackson": {
+   "police": {
+    "name": "Jackson Police Department",
+    "site": "https://www.jackson-nh.gov/departments/police-department/",
+    "nonEmergency": "603-383-9292 (listed as contact number, not labeled non-emergency)",
+    "address": null,
+    "oversight": null,
+    "chief": {
+     "name": "Chris Perley"
+    },
+    "stats": [],
+    "recent": []
+   },
+   "fire": [
+    {
+     "name": "Jackson Fire Department",
+     "site": "https://www.jackson-nh.gov/departments/fire-department/",
+     "nonEmergency": "603-383-4090 (Fire Chief)",
+     "address": null,
+     "oversight": null,
+     "chief": {
+      "name": "Jay Henry"
+     },
+     "stats": [],
+     "recent": []
+    },
+    {
+     "name": "Bartlett/Jackson Ambulance",
+     "site": "https://www.bartlett-jacksonambulanceservice.org/",
+     "nonEmergency": null,
+     "address": null,
+     "oversight": "Linked from the Jackson town site; not opened.",
+     "chief": null,
+     "stats": [],
+     "recent": []
+    }
+   ]
+  },
+  "Madison": {
+   "police": {
+    "name": "Town of Madison Police Department",
+    "site": "https://www.madison-nh.org/departments/police/",
+    "nonEmergency": "603-367-8334",
+    "address": "1923 Village Road (Town Hall, lower level), Madison, NH 03849",
+    "oversight": null,
+    "chief": {
+     "name": "James E. Hayford"
+    },
+    "stats": [],
+    "recent": []
+   },
+   "fire": [
+    {
+     "name": "Town of Madison Fire/Rescue",
+     "site": "https://madison-nh.org/departments/firerescue-department",
+     "nonEmergency": "603-367-4602",
+     "address": "1917 Village Road (Route 113), Madison, NH",
+     "oversight": null,
+     "chief": {
+      "name": "Michael Brooks (Fire Chief and Fire Warden)"
+     },
+     "stats": [],
+     "recent": []
+    }
+   ]
+  },
+  "Tamworth": {
+   "police": {
+    "name": "Tamworth Police Department",
+    "site": "https://www.tamworthnh.gov/1220/Police-Department",
+    "nonEmergency": "603-323-8581 (department line; the page says to call it to reach an on-duty officer, including Animal Control)",
+    "address": "100 Tamworth Road (Route 113), P.O. Box 69, Tamworth, NH 03886",
+    "oversight": null,
+    "chief": {
+     "name": "Dana Littlefield"
+    },
+    "stats": [],
+    "recent": []
+   },
+   "fire": [
+    {
+     "name": "Tamworth Fire Rescue Department",
+     "site": "https://www.tamworthnh.gov/1206/Fire-Rescue-Department",
+     "nonEmergency": "603-323-8874 (business line)",
+     "address": "132 Chinook Trail, Tamworth, NH 03886",
+     "oversight": null,
+     "chief": {
+      "name": "Richard Colcord (Fire Chief and Forest Fire Warden; Jim Bowles and Matt Baumann, assistant chiefs)"
+     },
+     "stats": [],
+     "recent": []
+    }
+   ]
+  }
+ }
+}
