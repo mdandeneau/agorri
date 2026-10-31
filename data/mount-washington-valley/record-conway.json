@@ -861,7 +861,7 @@
    }
   ],
   "schoolBoard": {
-   "note": "The Conway School Board governs the Conway School District, part of SAU 9 (Superintendent Nicole Bell). Joe Mosca was re-elected chair April 27, 2026 by a 4-2 vote. Members below are as named in Daily Sun reports; first names are given only where reported.",
+   "note": "The Conway School Board governs the Conway School District, part of SAU 9 (Superintendent Aimee Frechette since August 2024; Nicole Bell is assistant superintendent). Joe Mosca was re-elected chair April 27, 2026 by a 4-2 vote. Members below are as named in Daily Sun reports; first names are given only where reported. The SAU 9 site now lists Megan Beckwith as chair and no longer lists Joe Mosca; see the Schools tab for the current roster.",
    "members": [
     {
      "name": "Joe Mosca",
@@ -899,7 +899,9 @@
    "sources": [
     "https://www.conwaydailysun.com/news/local/police-bond-most-articles-pass-in-conway/article_8836980a-16f7-4906-8faa-fcc91580d750.html",
     "https://www.conwaydailysun.com/news/local/third-time-is-the-charm-mosca-named-chair/article_7a66a2f3-a338-4c9b-b949-a61e710c72b0.html"
-   ]
+   ],
+   "needs_review": true,
+   "review_note": "The SAU 9 board page (October 2026) lists Megan Beckwith as chair and Mary Carey Seavey in an appointed seat, and no longer lists Joe Mosca; no report explaining the change was found."
   },
   "commissions": [
    {

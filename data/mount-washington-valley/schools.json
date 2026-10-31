@@ -1,0 +1,698 @@
+{
+ "as_of": "2026-10-31",
+ "note": "Conway, Bartlett and Jackson are separate school districts in SAU 9; Madison is in SAU 13 with Freedom and Tamworth. Older students from all three small towns attend Kennett Middle or Kennett High in Conway under tuition contracts, and every town votes on a school tax cap question on November 3.",
+ "districts": [
+  {
+   "id": "conway-school-district",
+   "name": "Conway School District",
+   "towns": [
+    "Conway"
+   ],
+   "sau": "SAU 9",
+   "site": "https://sau9.org/home",
+   "superintendent": {
+    "name": "Aimee Frechette",
+    "since": "2024",
+    "src": {
+     "label": "Conway Daily Sun: SAU 9 board names Frechette superintendent (Aug. 8 vote, three-year contract)",
+     "url": "https://www.conwaydailysun.com/news/local/board-offers-frechette-175-000-3-year-contract/article_975e9ec0-5686-11ef-b234-a35da5b15138.html"
+    }
+   },
+   "board": {
+    "name": "Conway School Board",
+    "meets": "Second and fourth Mondays of each month at 6:30 pm, Conway Professional Development Center at Kennett Middle School",
+    "agendasUrl": "https://drive.google.com/drive/folders/1bJT2ihWnGhI1EpJagtLa3U_wT4qSre6V?usp=sharing",
+    "videoUrl": "https://www.youtube.com/@NH_SAU9",
+    "members": [
+     {
+      "name": "Megan Beckwith",
+      "role": "Chair",
+      "term": "2028",
+      "ward": null
+     },
+     {
+      "name": "Sarah Burke",
+      "role": "Member",
+      "term": "2029",
+      "ward": null
+     },
+     {
+      "name": "Randy Davison",
+      "role": "Member",
+      "term": "2027",
+      "ward": null
+     },
+     {
+      "name": "Brittany Hodge",
+      "role": "Member",
+      "term": "2028",
+      "ward": null
+     },
+     {
+      "name": "Melanie Lebel",
+      "role": "Member",
+      "term": "2029",
+      "ward": null
+     },
+     {
+      "name": "Mary Carey Seavey",
+      "role": "Member",
+      "term": "2027",
+      "ward": null
+     },
+     {
+      "name": "Nicole Stanley",
+      "role": "Member",
+      "term": "2027",
+      "ward": null
+     }
+    ],
+    "source": {
+     "label": "SAU 9: Conway School Board page",
+     "url": "https://sau9.org/conway-home"
+    }
+   },
+   "schools": [
+    {
+     "name": "Pine Tree Primary School",
+     "level": "Elementary",
+     "grades": "K-2",
+     "address": "183 Mill Street, Center Conway, NH",
+     "enrollment": 209,
+     "enrollmentYear": "2024-25",
+     "principal": "Bethany Rocheleau",
+     "url": "https://ptps.sau9.org"
+    },
+    {
+     "name": "Conway Intermediate School",
+     "level": "Elementary",
+     "grades": "3-5",
+     "address": "160 Main Street, Conway, NH",
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": "Danielle Nutting",
+     "url": "https://cis.sau9.org"
+    },
+    {
+     "name": "A. Crosby Kennett Middle School",
+     "level": "Middle",
+     "grades": "6-8",
+     "address": "176 Main Street, Conway, NH",
+     "enrollment": 300,
+     "enrollmentYear": "2024-25",
+     "principal": "Katy Bedley",
+     "url": "https://kms.sau9.org"
+    },
+    {
+     "name": "Kennett High School",
+     "level": "High",
+     "grades": "9-12",
+     "address": "409 Eagles Way, North Conway, NH",
+     "enrollment": 614,
+     "enrollmentYear": "2024-25",
+     "principal": "Kevin Carpenter",
+     "url": "https://khs.sau9.org"
+    },
+    {
+     "name": "Mount Washington Valley Career and Technical Center",
+     "level": "Other",
+     "grades": null,
+     "address": null,
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": "https://mwvctc.sau9.org"
+    }
+   ],
+   "enrollment": null,
+   "budget": {
+    "year": "2026-27",
+    "total": 42555376,
+    "prior": 40986456,
+    "changePct": 3.8,
+    "adopted": "2026-04-14",
+    "adoptedVote": "Article 6 passed at the April 14, 2026 school election, 1,226 yes to 390 no",
+    "perPupil": 23169,
+    "perPupilYear": "2023-24",
+    "perPupilSource": {
+     "label": "NH Department of Education, Cost Per Pupil by District, 2023-2024 (copy of the state report posted by the Rye Civic League)",
+     "url": "https://ryecivicleague.org/wp-content/uploads/2025/11/NH-2024-Cost-per-Pupil.pdf"
+    },
+    "note": "Operating budget only; $1,590,000 of it is covered by grants. It does not include separate warrant articles voters also passed, such as the first year of the teachers' contract ($736,640) and $1,000,000 for a building maintenance fund. The prior figure is the 2025-26 default budget, which took effect after voters rejected the board's $41,637,542 proposal in 2025. This year the default budget ($42,565,234) was slightly higher than the board's proposal. The School Board recommended the budget 5-0 and the Municipal Budget Committee 12-1.",
+    "source": {
+     "label": "Conway School District 2026 sample ballot (April 14, 2026)",
+     "url": "https://conwaynh.gov/uploads/2026-school-sample-ballot-4.14.26.pdf"
+    }
+   },
+   "results": [],
+   "calendarUrl": "https://files.smartsites.parentsquare.com/10271/2026-27_school_calendar_-_amended_july_2026_adopted_by_sau_9_board_on_july_9_2026_-_2026-27_1.pdf",
+   "closingsUrl": "https://sau9.org/school-cancellation-early-release-p",
+   "issues": [
+    {
+     "title": "School tax cap question on the November 3 ballot",
+     "status": "Question 2 on the November 3, 2026 ballot",
+     "summary": "Conway voters will decide whether to limit the Conway School District's local property tax for two years under RSA 32:5-i. The levy could grow only by inflation plus new construction, and SAU central office spending could not exceed 6 percent of district spending; bonded building costs are excluded. SAU 9 says central office spending is now 4.37 percent. The Municipal Budget Committee voted 0 in favor, 9 against, with 3 abstaining. A state law (HB 1300) requires three fifths of voters to approve a cap. Only three residents who do not regularly attend school meetings came to the board's information session.",
+     "date": "2026-11-03",
+     "source": {
+      "label": "Conway Daily Sun, Oct. 28, 2026: School tax cap info session attracts few takers",
+      "url": "https://www.conwaydailysun.com/news/local/school-tax-cap-info-session-attracts-few-takers/article_946e128f-d893-40a5-a4d5-b16f6d6d1a71.html"
+     }
+    },
+    {
+     "title": "New tuition contracts with towns that send students to Kennett",
+     "status": "Contracts approved for 2027-28 with Albany, Bartlett, Eaton and Jackson; no new Madison contract listed yet",
+     "summary": "Several nearby towns pay Conway to send students to Kennett Middle and Kennett High. New contracts that start in the 2027-28 school year have been approved with Bartlett and Jackson (high school) and with Albany and Eaton (middle and high school). Jackson students will also be able to choose Fryeburg Academy in Maine. Madison's current middle and high school contracts are listed, but no Madison contract appears in the 2027-28 list.",
+     "date": "2026-10-31",
+     "source": {
+      "label": "SAU 9: Tuition Agreement Overview",
+      "url": "https://sau9.org/tuitions"
+     }
+    },
+    {
+     "title": "Future of the closed John H. Fuller School building",
+     "status": "Board voted to keep the property",
+     "summary": "The district closed John H. Fuller Elementary in North Conway in 2024 after the budget failed. In January 2026 the School Board voted 5-1 to keep the property for the foreseeable future rather than sell it, following its ad hoc committee's advice. It may be used, leased or made available for educational or administrative purposes.",
+     "date": "2026-01-30",
+     "source": {
+      "label": "Conway Daily Sun, Jan. 30, 2026: Board votes 5-1 not to sell John Fuller property",
+      "url": "https://www.conwaydailysun.com/news/local/board-votes-5-1-not-to-sell-john-fuller-property/article_d66042b7-a5ee-4e45-8f22-19c593a2283a.html"
+     }
+    },
+    {
+     "title": "Kennett High leadership restructuring",
+     "status": "Proposed with the 2026-27 budget",
+     "summary": "The 2026-27 budget cuts one administrative position at Kennett High. The superintendent proposed replacing the separate deans for younger and older students with a dean of instruction, a dean of student programming and career and technical education, and a student safety coordinator.",
+     "date": "2026-01-12",
+     "source": {
+      "label": "Conway Daily Sun: Leadership positions to be restructured at KHS",
+      "url": "https://www.conwaydailysun.com/news/local/leadership-positions-to-be-restructured-at-khs/article_a8348c21-9c37-4a84-8b0d-bf96e61eb9a2.html"
+     }
+    },
+    {
+     "title": "Open enrollment for students from other towns",
+     "status": "Approved by voters April 14, 2026",
+     "summary": "Voters approved Article 13, 1,107 to 485, letting the district admit up to 20 students from outside the district in each of grades K-2, 3-5 and 6-8, and up to 50 in grades 9-12.",
+     "date": "2026-04-14",
+     "source": {
+      "label": "Conway School District 2026 sample ballot (April 14, 2026)",
+      "url": "https://conwaynh.gov/uploads/2026-school-sample-ballot-4.14.26.pdf"
+     }
+    },
+    {
+     "title": "Board leadership and an appointed member",
+     "status": "Current roster on the SAU 9 site",
+     "summary": "Joe Mosca was re-elected chair on April 27, 2026, with Megan Beckwith as vice chair. The SAU 9 roster now lists Beckwith as chair, no longer lists Mosca, and shows Mary Carey Seavey in a seat appointed in October 2026 that runs to April 2027.",
+     "date": "2026-10-31",
+     "source": {
+      "label": "SAU 9: Conway School Board page",
+      "url": "https://sau9.org/conway-home"
+     }
+    }
+   ],
+   "upcoming": [
+    {
+     "date": "2026-11-03",
+     "time": null,
+     "title": "Election Day: school tax cap question on the ballot",
+     "venue": null,
+     "url": "https://www.conwaydailysun.com/news/local/school-tax-cap-info-session-attracts-few-takers/article_946e128f-d893-40a5-a4d5-b16f6d6d1a71.html"
+    },
+    {
+     "date": "2026-11-09",
+     "time": "6:30 pm",
+     "title": "Conway School Board meeting (regular schedule)",
+     "venue": "Conway Professional Development Center, Kennett Middle School",
+     "url": "https://sau9.org/conway-home"
+    },
+    {
+     "date": "2026-11-23",
+     "time": "6:30 pm",
+     "title": "Conway School Board meeting (regular schedule)",
+     "venue": "Conway Professional Development Center, Kennett Middle School",
+     "url": "https://sau9.org/conway-home"
+    },
+    {
+     "date": "2026-12-14",
+     "time": "6:30 pm",
+     "title": "Conway School Board meeting (regular schedule)",
+     "venue": "Conway Professional Development Center, Kennett Middle School",
+     "url": "https://sau9.org/conway-home"
+    }
+   ],
+   "news": [
+    {
+     "title": "School tax cap info session attracts few takers",
+     "url": "https://www.conwaydailysun.com/news/local/school-tax-cap-info-session-attracts-few-takers/article_946e128f-d893-40a5-a4d5-b16f6d6d1a71.html",
+     "date": "2026-10-28"
+    },
+    {
+     "title": "Mosca re-elected school board chair after several attempts",
+     "url": "https://www.conwaydailysun.com/news/local/third-time-is-the-charm-mosca-named-chair/article_7a66a2f3-a338-4c9b-b949-a61e710c72b0.html",
+     "date": "2026-04-29"
+    },
+    {
+     "title": "New faces join the Conway School Board",
+     "url": "https://www.conwaydailysun.com/news/local/new-faces-join-the-conway-school-board/article_3b7530e9-058d-4af0-8e50-52ef9de9b99f.html",
+     "date": "2026-04-15"
+    },
+    {
+     "title": "Board votes 5-1 not to sell John Fuller property",
+     "url": "https://www.conwaydailysun.com/news/local/board-votes-5-1-not-to-sell-john-fuller-property/article_d66042b7-a5ee-4e45-8f22-19c593a2283a.html",
+     "date": "2026-01-30"
+    }
+   ]
+  },
+  {
+   "id": "bartlett-school-district",
+   "name": "Bartlett School District",
+   "towns": [
+    "Bartlett"
+   ],
+   "sau": "SAU 9",
+   "site": "https://jbes.sau9.org",
+   "superintendent": {
+    "name": "Aimee Frechette",
+    "since": "2024",
+    "src": {
+     "label": "Conway Daily Sun: SAU 9 board names Frechette superintendent (Aug. 8 vote, three-year contract)",
+     "url": "https://www.conwaydailysun.com/news/local/board-offers-frechette-175-000-3-year-contract/article_975e9ec0-5686-11ef-b234-a35da5b15138.html"
+    }
+   },
+   "board": {
+    "name": "Bartlett School Board",
+    "meets": "First Tuesday of each month at 6:00 pm at Josiah Bartlett Elementary School (check the SAU 9 calendar; the November meeting is November 10)",
+    "agendasUrl": "https://sau9.org/school_boards/bartlett",
+    "videoUrl": null,
+    "members": [
+     {
+      "name": "Emily Calderwood",
+      "role": "Chair",
+      "term": "2027",
+      "ward": null
+     },
+     {
+      "name": "Andrew Light",
+      "role": "Vice Chair",
+      "term": "2028",
+      "ward": null
+     },
+     {
+      "name": "Heather Forbes",
+      "role": "Member",
+      "term": "2027",
+      "ward": null
+     },
+     {
+      "name": "Jay Calabro",
+      "role": "Member",
+      "term": "2028",
+      "ward": null
+     },
+     {
+      "name": "Scott Fields",
+      "role": "Member",
+      "term": "2029",
+      "ward": null
+     }
+    ],
+    "source": {
+     "label": "Ballotpedia: Bartlett School District elections (members and terms); officer roles from the board's April 2025 reorganization",
+     "url": "https://ballotpedia.org/Bartlett_School_District,_New_Hampshire,_elections"
+    }
+   },
+   "schools": [
+    {
+     "name": "Josiah Bartlett Elementary School",
+     "level": "Elementary",
+     "grades": "K-8",
+     "address": "1313 Route 302, Bartlett, NH",
+     "enrollment": 158,
+     "enrollmentYear": "2024-25",
+     "principal": "Phyllis Bellemare",
+     "url": "https://jbes.sau9.org"
+    }
+   ],
+   "enrollment": null,
+   "budget": {
+    "year": "2026-27",
+    "total": null,
+    "prior": null,
+    "changePct": null,
+    "adopted": null,
+    "adoptedVote": null,
+    "perPupil": 32484,
+    "perPupilYear": "2023-24",
+    "perPupilSource": {
+     "label": "NH Department of Education, Cost Per Pupil by District, 2023-2024 (copy of the state report posted by the Rye Civic League)",
+     "url": "https://ryecivicleague.org/wp-content/uploads/2025/11/NH-2024-Cost-per-Pupil.pdf"
+    },
+    "note": "The 2026-27 budget voted at the March 2026 school meeting was not found in any source opened. For reference, the board proposed $9,138,749 for 2025-26, up 3.72 percent, including about $2.09 million in Kennett High tuition. The state cost per pupil counts only the K-8 school the district runs.",
+    "source": {
+     "label": "Conway Daily Sun, Jan. 14, 2025: Bartlett school budget tops $9 million for first time",
+     "url": "https://www.conwaydailysun.com/news/local/bartlett-school-budget-tops-9-million-for-first-time/article_6df92550-cec7-11ef-9bd2-2bccdb6f6280.html"
+    }
+   },
+   "results": [],
+   "calendarUrl": "https://files.smartsites.parentsquare.com/10271/2026-27_school_calendar_-_amended_july_2026_adopted_by_sau_9_board_on_july_9_2026_-_2026-27_1.pdf",
+   "closingsUrl": "https://sau9.org/school-cancellation-early-release-p",
+   "issues": [
+    {
+     "title": "Where Bartlett students go after grade 8",
+     "status": "New five-year Kennett High contract approved for July 2027 to June 2032",
+     "summary": "Josiah Bartlett Elementary teaches kindergarten through grade 8 (Jackson's grades 7 and 8 also attend under a tuition agreement). Bartlett high school students attend Kennett High School in Conway under a tuition contract. At the March 2026 annual school meeting, voters approved a new five-year contract that commits at least 75 percent of Bartlett's high school students to Kennett. Bartlett was the first sending town to approve it.",
+     "date": "2026-03-03",
+     "source": {
+      "label": "Conway Daily Sun: Bartlett approves five-year high school tuition deal with Conway",
+      "url": "https://www.conwaydailysun.com/news/local/bartlett-approves-five-year-high-school-tuition-deal-with-conway/article_c9c5fa8a-d842-4c81-bb89-5b1398db5b78.html"
+     }
+    },
+    {
+     "title": "Where the school buses park in winter",
+     "status": "Draft agreement with the town still under discussion",
+     "summary": "The buses can no longer park at Town Hall because there is not enough room and they get in the way of snow removal. On October 21 a School Board member told the Selectmen gravel for a spot near the school would cost about $3,000; the town's highway crew would do the site work. The district has one small and three large buses, and two need to plug in during winter.",
+     "date": "2026-10-21",
+     "source": {
+      "label": "Bartlett Selectmen minutes, Oct. 21, 2026",
+      "url": "https://www.townofbartlett.nh.gov/AgendaCenter/ViewFile/Minutes/_10212026-208"
+     }
+    },
+    {
+     "title": "School tax cap question on the November 3 ballot",
+     "status": "Voters decide November 3, 2026",
+     "summary": "A new state law (HB 1300) puts a local school tax cap question on every ballot this November and again in 2028. A cap takes effect only if three fifths (60 percent) of voters approve it. SAU 9's finance director told the Conway School Board that Bartlett's school budget would not be affected unless other revenue fell.",
+     "date": "2026-11-03",
+     "source": {
+      "label": "Conway Daily Sun, Oct. 28, 2026: School tax cap info session attracts few takers",
+      "url": "https://www.conwaydailysun.com/news/local/school-tax-cap-info-session-attracts-few-takers/article_946e128f-d893-40a5-a4d5-b16f6d6d1a71.html"
+     }
+    }
+   ],
+   "upcoming": [
+    {
+     "date": "2026-11-03",
+     "time": null,
+     "title": "Election Day: school tax cap question on the ballot",
+     "venue": null,
+     "url": "https://www.nhpr.org/politics/2026-07-15/ayotte-signs-bill-local-school-tax-cap-question-november-ballot"
+    },
+    {
+     "date": "2026-11-10",
+     "time": "6:00 pm",
+     "title": "Bartlett School Board meeting",
+     "venue": "Josiah Bartlett Elementary School",
+     "url": "https://www.townofbartlett.nh.gov/AgendaCenter/ViewFile/Minutes/_10212026-208"
+    },
+    {
+     "date": "2026-12-01",
+     "time": "6:00 pm",
+     "title": "Bartlett School Board meeting (regular schedule)",
+     "venue": "Josiah Bartlett Elementary School",
+     "url": "https://sau9.org/school_boards/bartlett"
+    }
+   ],
+   "news": [
+    {
+     "title": "Bartlett approves five-year high school tuition deal with Conway",
+     "url": "https://www.conwaydailysun.com/news/local/bartlett-approves-five-year-high-school-tuition-deal-with-conway/article_c9c5fa8a-d842-4c81-bb89-5b1398db5b78.html",
+     "date": null
+    }
+   ]
+  },
+  {
+   "id": "jackson-school-district",
+   "name": "Jackson School District",
+   "towns": [
+    "Jackson"
+   ],
+   "sau": "SAU 9",
+   "site": "https://jgs.sau9.org",
+   "superintendent": {
+    "name": "Aimee Frechette",
+    "since": "2024",
+    "src": {
+     "label": "Conway Daily Sun: SAU 9 board names Frechette superintendent (Aug. 8 vote, three-year contract)",
+     "url": "https://www.conwaydailysun.com/news/local/board-offers-frechette-175-000-3-year-contract/article_975e9ec0-5686-11ef-b234-a35da5b15138.html"
+    }
+   },
+   "board": {
+    "name": "Jackson School Board",
+    "meets": "Third Monday of each month at 6:00 pm, Whitney Center",
+    "agendasUrl": "https://www.sau9.org/school-boards-home",
+    "videoUrl": "https://jacksonflicks.com/",
+    "members": [
+     {
+      "name": "Jessica DellaValla",
+      "role": "Chair",
+      "term": null,
+      "ward": null
+     }
+    ],
+    "source": {
+     "label": "Jackson Grammar School: School Board page",
+     "url": "https://jgs.sau9.org/324684_2"
+    }
+   },
+   "schools": [
+    {
+     "name": "Jackson Grammar School",
+     "level": "Elementary",
+     "grades": "K-6",
+     "address": "10 Black Mountain Road, Jackson, NH 03846",
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": "Erin Messer",
+     "url": "https://jgs.sau9.org"
+    }
+   ],
+   "enrollment": null,
+   "budget": {
+    "year": "2026-27",
+    "total": null,
+    "prior": null,
+    "changePct": null,
+    "adopted": null,
+    "adoptedVote": null,
+    "perPupil": 42514,
+    "perPupilYear": "2023-24",
+    "perPupilSource": {
+     "label": "NH Department of Education, Cost Per Pupil by District, 2023-2024 (copy of the state report posted by the Rye Civic League)",
+     "url": "https://ryecivicleague.org/wp-content/uploads/2025/11/NH-2024-Cost-per-Pupil.pdf"
+    },
+    "note": "The operating budget voted at the March 5, 2026 school meeting was not found in any source opened. The state cost per pupil counts only the K-6 school the district runs; tuition for older students is not in that figure.",
+    "source": {
+     "label": "NH Department of Education, Cost Per Pupil by District, 2023-2024 (copy of the state report posted by the Rye Civic League)",
+     "url": "https://ryecivicleague.org/wp-content/uploads/2025/11/NH-2024-Cost-per-Pupil.pdf"
+    }
+   },
+   "results": [],
+   "calendarUrl": "https://files.smartsites.parentsquare.com/10271/2026-27_school_calendar_-_amended_july_2026_adopted_by_sau_9_board_on_july_9_2026_-_2026-27_1.pdf",
+   "closingsUrl": "https://sau9.org/school-cancellation-early-release-p",
+   "issues": [
+    {
+     "title": "High school choice: Kennett or Fryeburg Academy",
+     "status": "Approved by voters March 5, 2026; starts with the 2027-28 school year",
+     "summary": "Jackson Grammar School teaches kindergarten through grade 6. Grades 7 and 8 attend Josiah Bartlett Elementary under a tuition agreement, and high school students attend Kennett High under a contract with Conway that ends in June 2027. With record turnout of more than 170 voters, the school meeting approved a 10-year Fryeburg Academy agreement (139 to 30) and a new Kennett agreement, so families can choose either school. Estimated 2027-28 tuition is $26,790 at Fryeburg and $28,200 at Kennett.",
+     "date": "2026-03-05",
+     "source": {
+      "label": "Jackson Grammar School: High School Options",
+      "url": "https://jgs.sau9.org/324669_2"
+     }
+    },
+    {
+     "title": "New strategic plan for the district",
+     "status": "Community workshops under way; plan to be presented January 19, 2027",
+     "summary": "The current plan runs until 2027. The board ran a community survey through September 30 and is holding workshops at the Whitney Center; the third is November 19. The board chair's letter says enrollment is increasing this year.",
+     "date": "2026-11-19",
+     "source": {
+      "label": "Jackson Grammar School: Strategic Planning 2027",
+      "url": "https://jgs.sau9.org/strategicplanning"
+     }
+    },
+    {
+     "title": "School tax cap question on the November 3 ballot",
+     "status": "Voters decide November 3, 2026",
+     "summary": "A new state law (HB 1300) puts a local school tax cap question on every ballot this November and again in 2028. A cap takes effect only if three fifths (60 percent) of voters approve it. SAU 9's finance director told the Conway School Board that Jackson's school budget would not be affected unless other revenue fell.",
+     "date": "2026-11-03",
+     "source": {
+      "label": "Conway Daily Sun, Oct. 28, 2026: School tax cap info session attracts few takers",
+      "url": "https://www.conwaydailysun.com/news/local/school-tax-cap-info-session-attracts-few-takers/article_946e128f-d893-40a5-a4d5-b16f6d6d1a71.html"
+     }
+    }
+   ],
+   "upcoming": [
+    {
+     "date": "2026-11-03",
+     "time": null,
+     "title": "Election Day: school tax cap question on the ballot",
+     "venue": null,
+     "url": "https://www.nhpr.org/politics/2026-07-15/ayotte-signs-bill-local-school-tax-cap-question-november-ballot"
+    },
+    {
+     "date": "2026-11-16",
+     "time": "6:00 pm",
+     "title": "Jackson School Board meeting (regular schedule)",
+     "venue": "Whitney Center",
+     "url": "https://jgs.sau9.org/324684_2"
+    },
+    {
+     "date": "2026-11-19",
+     "time": "3:30 pm",
+     "title": "Strategic plan community workshop 3",
+     "venue": "Whitney Center",
+     "url": "https://jgs.sau9.org/strategicplanning"
+    }
+   ],
+   "news": [
+    {
+     "title": "Jackson passes FA, KHS tuition contracts",
+     "url": "https://www.conwaydailysun.com/news/local/jackson-passes-fa-khs-tuition-contracts/article_0827bc15-41a0-4799-bf72-26739e0c7dc5.html",
+     "date": null
+    }
+   ]
+  },
+  {
+   "id": "madison-school-district",
+   "name": "Madison School District",
+   "towns": [
+    "Madison"
+   ],
+   "sau": "SAU 13",
+   "site": "https://sites.google.com/a/mes-nh.com/madison-elementary-school/home",
+   "superintendent": {
+    "name": "Kathleen Scholand",
+    "since": null,
+    "src": {
+     "label": "SAU 13: Superintendent page",
+     "url": "https://www.sau13.org/departments/superintendent"
+    }
+   },
+   "board": {
+    "name": "Madison School Board",
+    "meets": "Schedule not posted online; the November 2, 2026 meeting is at 6:30 pm in the school's Ruth Chick Library",
+    "agendasUrl": "https://www.sau13.org/school-board/madison/agendas-packets-minutes",
+    "videoUrl": null,
+    "members": [
+     {
+      "name": "James Curran",
+      "role": "Chair",
+      "term": "2028",
+      "ward": null
+     },
+     {
+      "name": "Ed Robinson",
+      "role": "Vice Chair",
+      "term": "2027",
+      "ward": null
+     },
+     {
+      "name": "Jeremy Cox",
+      "role": "Member",
+      "term": "2029",
+      "ward": null
+     },
+     {
+      "name": "Cheri Stackpole",
+      "role": "Member",
+      "term": "2029",
+      "ward": null
+     },
+     {
+      "name": "Debra Parson",
+      "role": "Member",
+      "term": "2028",
+      "ward": null
+     }
+    ],
+    "source": {
+     "label": "SAU 13: Madison School Board members",
+     "url": "https://www.sau13.org/school-board/madison/school-board-members"
+    }
+   },
+   "schools": [
+    {
+     "name": "Madison Elementary School",
+     "level": "Elementary",
+     "grades": "K-6",
+     "address": "2069 Village Road, Madison, NH 03849",
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": "https://sites.google.com/a/mes-nh.com/madison-elementary-school/home"
+    }
+   ],
+   "enrollment": null,
+   "budget": {
+    "year": "2026-27",
+    "total": null,
+    "prior": null,
+    "changePct": null,
+    "adopted": null,
+    "adoptedVote": null,
+    "perPupil": 33750,
+    "perPupilYear": "2023-24",
+    "perPupilSource": {
+     "label": "NH Department of Education, Cost Per Pupil by District, 2023-2024 (copy of the state report posted by the Rye Civic League)",
+     "url": "https://ryecivicleague.org/wp-content/uploads/2025/11/NH-2024-Cost-per-Pupil.pdf"
+    },
+    "note": "SAU 13 posts Madison's 2026 warrant, budget form (MS-26) and default budget, but those files could not be opened, so the 2026-27 total is not shown. The town paid the school district $6,528,510 in 2024. The state cost per pupil counts only the K-6 school the district runs.",
+    "source": {
+     "label": "SAU 13: Financial Reports",
+     "url": "https://www.sau13.org/school-board/financial-reports"
+    }
+   },
+   "results": [],
+   "calendarUrl": "https://sites.google.com/a/mes-nh.com/madison-elementary-school/home/calendar",
+   "closingsUrl": null,
+   "issues": [
+    {
+     "title": "Where Madison students go after grade 6",
+     "status": "Current tuition contracts with Conway; no 2027-28 contract listed yet",
+     "summary": "Madison Elementary teaches kindergarten through grade 6. Madison students in grades 7 and 8 attend Kennett Middle School and grades 9 to 12 attend Kennett High School in Conway under tuition contracts with the Conway School District. SAU 9 lists new contracts starting in 2027-28 with several towns, but none yet for Madison.",
+     "date": "2026-10-31",
+     "source": {
+      "label": "SAU 9: Tuition Agreement Overview",
+      "url": "https://sau9.org/tuitions"
+     }
+    },
+    {
+     "title": "School tax cap question on the November 3 ballot",
+     "status": "Voters decide November 3, 2026",
+     "summary": "A new state law (HB 1300, Chapter 324) puts a local school tax cap question on municipal ballots in November 2026 and 2028. It also caps school central office administrative costs. SAU 13 has posted explainers on the law and on what is in the budget. A cap takes effect only if three fifths of voters approve it.",
+     "date": "2026-11-03",
+     "source": {
+      "label": "SAU 13: Tax Cap Information",
+      "url": "https://www.sau13.org/home/tax-cap-information"
+     }
+    },
+    {
+     "title": "Using the building maintenance reserve",
+     "status": "Public hearing November 2, 2026",
+     "summary": "The School Board will hold a public hearing on spending from the Building Maintenance Capital Reserve Fund for services from Alpha Facilities Solutions.",
+     "date": "2026-11-02",
+     "source": {
+      "label": "Madison Elementary School home page",
+      "url": "https://sites.google.com/a/mes-nh.com/madison-elementary-school/home"
+     }
+    }
+   ],
+   "upcoming": [
+    {
+     "date": "2026-11-02",
+     "time": "6:30 pm",
+     "title": "Madison School Board meeting with public hearing on the building maintenance reserve",
+     "venue": "Ruth Chick Library, Madison Elementary School",
+     "url": "https://sites.google.com/a/mes-nh.com/madison-elementary-school/home"
+    },
+    {
+     "date": "2026-11-03",
+     "time": null,
+     "title": "Election Day: school tax cap question on the ballot",
+     "venue": null,
+     "url": "https://www.sau13.org/home/tax-cap-information"
+    }
+   ],
+   "news": []
+  }
+ ],
+ "methodology": "Built October 31, 2026 from SAU 9 and SAU 13 web pages, Jackson Grammar and Madison Elementary sites, the Conway 2025 and 2026 school sample ballots, Bartlett Selectmen minutes, NHPR, Ballotpedia and Conway Daily Sun articles. Conway's schools changed since 2024: John H. Fuller Elementary closed, Pine Tree became the K-2 school and the former Conway Elementary building is now Conway Intermediate (grades 3-5). Cost per pupil is the NH Department of Education 2023-24 report; the copy opened is posted by the Rye Civic League because the state-hosted 2023-24 file was not found (the state-hosted 2022-23 report lists Conway $22,086, Bartlett $27,602, Jackson $35,688, Madison $31,696). Enrollment figures are rounded numbers the Conway Daily Sun reported in June 2025 for 2024-25 (Pine Tree, then named Lakeside, about 209; Bartlett about 158; Kennett High about 614; Kennett Middle about 300), not state counts; the NH DOE profile site returned errors. Gaps: no official test score or graduation results were found, so results are empty; 2026-27 budgets for Bartlett, Jackson and Madison were not found (Madison's are in SAU 13 Google Drive files that could not be opened); Jackson board members other than the chair, the Conway vice chair after the roster change, the Madison principal and the Career and Technical Center's details were not found; Bartlett officer roles date from April 2025. Conway, Bartlett and Jackson meeting dates after November come from each board's regular schedule and should be checked against the SAU 9 calendar. The Bartlett and Jackson news headlines are taken from the article web addresses because the page text did not show a headline or date; the Bartlett tuition vote date (March 3, 2026) is inferred from the article's reference to Jackson voting that Thursday, March 5."
+}

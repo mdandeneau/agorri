@@ -120,7 +120,8 @@
     "parks": "data/mount-washington-valley/parks.json",
     "business": "data/mount-washington-valley/business.json",
     "candidates": "data/mount-washington-valley/candidates.json",
-    "questions": "data/mount-washington-valley/questions.json"
+    "questions": "data/mount-washington-valley/questions.json",
+    "schools": "data/mount-washington-valley/schools.json"
    },
    "photo": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Echo_Lake_and_Cathedral_Ledge%2C_North_Conway_%28494301%29_%2811924544465%29.jpg/{w}px-Echo_Lake_and_Cathedral_Ledge%2C_North_Conway_%28494301%29_%2811924544465%29.jpg",
