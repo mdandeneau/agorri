@@ -64,6 +64,20 @@
      "label": "NH Department of Revenue Administration, 2025 Municipal Tax Rates (completed as of January 23, 2026), copy posted by the Town of Acworth",
      "url": "https://www.acworthnh.net/_files/ugd/a327e9_a3f47ac2d74a46b7bb7c6b1467f85e8c.pdf"
     }
+   },
+   "schoolBudget": {
+    "name": "Bartlett School District",
+    "year": "2026-27",
+    "total": 9313444,
+    "prior": null,
+    "adopted": null,
+    "adoptedVote": "Article 1 at the school district meeting on March 3, 2026 at the Josiah Bartlett Elementary School gym: $9,313,444 for the support of schools, with $202,000 offset by grants; recommended by the School Board 5-0-0. The result was not found.",
+    "source": {
+     "label": "Bartlett School District, 2026 warrant (SAU 9)",
+     "url": "https://drive.google.com/drive/folders/1zekoA3GBsaAGfY5vq_PVdJvMz4C3VdeP"
+    },
+    "needs_review": true,
+    "review_note": "Warrant amount; the March 3, 2026 meeting result was not found. The 2025-26 budget the board proposed ($9,138,749) included $2,094,675 in Kennett tuition (Conway Daily Sun)."
    }
   },
   {
@@ -218,6 +232,20 @@
      "label": "NH Department of Revenue Administration, 2025 Municipal Tax Rates (completed as of January 23, 2026), copy posted by the Town of Acworth",
      "url": "https://www.acworthnh.net/_files/ugd/a327e9_a3f47ac2d74a46b7bb7c6b1467f85e8c.pdf"
     }
+   },
+   "schoolBudget": {
+    "name": "Jackson School District",
+    "year": "2026-27",
+    "total": 4066810,
+    "prior": null,
+    "adopted": null,
+    "adoptedVote": "Article 1 at the school district meeting on March 5, 2026 at the Whitney Center: $4,066,810 for the support of schools, with $21,000 offset by grants; recommended by the School Board 5-0-0. The result was not found.",
+    "source": {
+     "label": "Jackson School District, 2026 warrant (SAU 9)",
+     "url": "https://drive.google.com/drive/folders/1786M9I5PiGX7neOc2aLDgeZi5kbJKvGm"
+    },
+    "needs_review": true,
+    "review_note": "Warrant amount; the March 5, 2026 meeting result was not found."
    }
   },
   {
@@ -260,7 +288,19 @@
     }
    },
    "schoolDistrict": "Albany School District, SAU 9",
-   "note": "Very small town. Town Meeting: Tuesday, March 10, 2026, 10 a.m., Town Hall. Separate 2026 articles (not in the operating figure) include $50,000 for road paving, $50,000 to the Highway trust fund and $10,000 to the Bridge and Culvert trust fund (both from fund balance), smaller reserve deposits, and $11,000 for a Town Hall conference room. The Conway School District has approved tuition contracts with Albany for Kennett Middle and High School starting in 2027-28 (project schools.json, from SAU 9). SAU from School district and SAU from Wikipedia's List of school districts in New Hampshire (https://en.wikipedia.org/wiki/List_of_school_districts_in_New_Hampshire), a secondary source."
+   "note": "Very small town. Town Meeting: Tuesday, March 10, 2026, 10 a.m., Town Hall. Separate 2026 articles (not in the operating figure) include $50,000 for road paving, $50,000 to the Highway trust fund and $10,000 to the Bridge and Culvert trust fund (both from fund balance), smaller reserve deposits, and $11,000 for a Town Hall conference room. The Conway School District has approved tuition contracts with Albany for Kennett Middle and High School starting in 2027-28 (project schools.json, from SAU 9). SAU from School district and SAU from Wikipedia's List of school districts in New Hampshire (https://en.wikipedia.org/wiki/List_of_school_districts_in_New_Hampshire), a secondary source.",
+   "schoolBudget": {
+    "name": "Albany School District",
+    "year": "2026-27",
+    "total": 2041186,
+    "adoptedVote": "Article 5 at the school district meeting on March 10, 2026 at the Albany Town Hall: $2,041,186 for the support of schools, with $31,000 offset by grants; recommended by the School Board 3-0-0. The result was not found.",
+    "source": {
+     "label": "Albany School District, 2026 warrant (SAU 9)",
+     "url": "https://drive.google.com/drive/folders/1CdpQapCokBI2mDQinVxGu6lUPKuTh1vw"
+    },
+    "needs_review": true,
+    "review_note": "Warrant amount; the result was not found."
+   }
   },
   {
    "id": "eaton",
@@ -302,7 +342,19 @@
     }
    },
    "schoolDistrict": "Eaton School District, SAU 9",
-   "note": "Very small town. The Conway School District has approved tuition contracts with Eaton for Kennett Middle and High School starting in 2027-28 (project schools.json, from SAU 9). School district and SAU from Wikipedia's List of school districts in New Hampshire (https://en.wikipedia.org/wiki/List_of_school_districts_in_New_Hampshire), a secondary source."
+   "note": "Very small town. The Conway School District has approved tuition contracts with Eaton for Kennett Middle and High School starting in 2027-28 (project schools.json, from SAU 9). School district and SAU from Wikipedia's List of school districts in New Hampshire (https://en.wikipedia.org/wiki/List_of_school_districts_in_New_Hampshire), a secondary source.",
+   "schoolBudget": {
+    "name": "Eaton School District",
+    "year": "2026-27",
+    "total": 1231961,
+    "adoptedVote": "Article 5 at the 2026 school district meeting: $1,231,961 for the support of schools, with $9,500 offset by grants; recommended by the School Board 3-0-0. The result was not found.",
+    "source": {
+     "label": "Eaton School District, 2026 warrant (SAU 9)",
+     "url": "https://drive.google.com/drive/folders/17A8oSK-zt8loec58BAKHzD1XEezHfTRR"
+    },
+    "needs_review": true,
+    "review_note": "Warrant amount; the meeting date shown on the warrant page that was read is not stated, and the result was not found."
+   }
   },
   {
    "id": "harts-location",
@@ -344,7 +396,29 @@
     }
    },
    "schoolDistrict": "Hart's Location School District, SAU 9",
-   "note": "One of New Hampshire's smallest towns; the whole 2025 property tax commitment was $96,408 on a valuation of $37,099,696 (state tax table). Town website inferred from annual reports posted at hartslocation.com. School district and SAU from Wikipedia's List of school districts in New Hampshire (https://en.wikipedia.org/wiki/List_of_school_districts_in_New_Hampshire), a secondary source."
+   "note": "One of New Hampshire's smallest towns; the whole 2025 property tax commitment was $96,408 on a valuation of $37,099,696 (state tax table). Town website inferred from annual reports posted at hartslocation.com. School district and SAU from Wikipedia's List of school districts in New Hampshire (https://en.wikipedia.org/wiki/List_of_school_districts_in_New_Hampshire), a secondary source.",
+   "schoolBudget": {
+    "name": "Hart's Location School District",
+    "year": "2026-27",
+    "total": 36650,
+    "adoptedVote": "Article 4 at the school district meeting on March 10, 2026 at the Hart's Location Town Hall: $36,650 for the support of schools; recommended by the School Board 2-0-0. The district runs no school; it pays tuition (K-6 to Bartlett under contract). The result was not found.",
+    "source": {
+     "label": "Hart's Location School District, 2026 warrant (SAU 9)",
+     "url": "https://drive.google.com/drive/folders/1bX8dgQ8uzHJVAeFgricv-FjGSryOuRu4"
+    },
+    "needs_review": true,
+    "review_note": "Warrant amount; the result was not found."
+   }
   }
- ]
+ ],
+ "tuition": {
+  "year": "2026-27",
+  "total": null,
+  "byDistrict": {},
+  "note": "Albany, Bartlett, Eaton, Freedom, Jackson, Madison and Tamworth pay the Conway School District tuition for Kennett (and some for grades K-8), and Hart's Location pays Bartlett for grades K-6 (SAU 9 tuition contracts). Those payments sit in both the paying district's budget and the receiving district's budget. The 2026-27 tuition amounts are in each district's detailed budget (MS-26) or Conway's revenue estimate (MS-24), which SAU 9 and SAU 13 do not post online, so they are not subtracted yet.",
+  "source": {
+   "label": "SAU 9, Tuition Agreement Overview",
+   "url": "https://www.sau9.org/tuitions"
+  }
+ }
 }

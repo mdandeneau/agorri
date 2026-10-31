@@ -335,11 +335,11 @@
    "enrollment": null,
    "budget": {
     "year": "2026-27",
-    "total": null,
+    "total": 9313444,
     "prior": null,
     "changePct": null,
     "adopted": null,
-    "adoptedVote": null,
+    "adoptedVote": "Article 1 at the school district meeting on March 3, 2026 at the Josiah Bartlett Elementary School gym: $9,313,444 for the support of schools, with $202,000 offset by grants; recommended by the School Board 5-0-0. The result was not found.",
     "perPupil": 32484,
     "perPupilYear": "2023-24",
     "perPupilSource": {
@@ -348,9 +348,11 @@
     },
     "note": "The 2026-27 budget voted at the March 2026 school meeting was not found in any source opened. For reference, the board proposed $9,138,749 for 2025-26, up 3.72 percent, including about $2.09 million in Kennett High tuition. The state cost per pupil counts only the K-8 school the district runs.",
     "source": {
-     "label": "Conway Daily Sun, Jan. 14, 2025: Bartlett school budget tops $9 million for first time",
-     "url": "https://www.conwaydailysun.com/news/local/bartlett-school-budget-tops-9-million-for-first-time/article_6df92550-cec7-11ef-9bd2-2bccdb6f6280.html"
-    }
+     "label": "Bartlett School District, 2026 warrant (SAU 9)",
+     "url": "https://drive.google.com/drive/folders/1zekoA3GBsaAGfY5vq_PVdJvMz4C3VdeP"
+    },
+    "needs_review": true,
+    "review_note": "Warrant amount; the March 3, 2026 meeting result was not found. The 2025-26 budget the board proposed ($9,138,749) included $2,094,675 in Kennett tuition (Conway Daily Sun)."
    },
    "results": [],
    "calendarUrl": "https://files.smartsites.parentsquare.com/10271/2026-27_school_calendar_-_amended_july_2026_adopted_by_sau_9_board_on_july_9_2026_-_2026-27_1.pdf",
@@ -467,11 +469,11 @@
    "enrollment": null,
    "budget": {
     "year": "2026-27",
-    "total": null,
+    "total": 4066810,
     "prior": null,
     "changePct": null,
     "adopted": null,
-    "adoptedVote": null,
+    "adoptedVote": "Article 1 at the school district meeting on March 5, 2026 at the Whitney Center: $4,066,810 for the support of schools, with $21,000 offset by grants; recommended by the School Board 5-0-0. The result was not found.",
     "perPupil": 42514,
     "perPupilYear": "2023-24",
     "perPupilSource": {
@@ -480,9 +482,11 @@
     },
     "note": "The operating budget voted at the March 5, 2026 school meeting was not found in any source opened. The state cost per pupil counts only the K-6 school the district runs; tuition for older students is not in that figure.",
     "source": {
-     "label": "NH Department of Education, Cost Per Pupil by District, 2023-2024 (copy of the state report posted by the Rye Civic League)",
-     "url": "https://ryecivicleague.org/wp-content/uploads/2025/11/NH-2024-Cost-per-Pupil.pdf"
-    }
+     "label": "Jackson School District, 2026 warrant (SAU 9)",
+     "url": "https://drive.google.com/drive/folders/1786M9I5PiGX7neOc2aLDgeZi5kbJKvGm"
+    },
+    "needs_review": true,
+    "review_note": "Warrant amount; the March 5, 2026 meeting result was not found."
    },
    "results": [],
    "calendarUrl": "https://files.smartsites.parentsquare.com/10271/2026-27_school_calendar_-_amended_july_2026_adopted_by_sau_9_board_on_july_9_2026_-_2026-27_1.pdf",
