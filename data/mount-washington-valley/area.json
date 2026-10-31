@@ -28,6 +28,18 @@
      "label": "NH Department of Revenue Administration, 2025 Municipal Tax Rates (completed as of January 23, 2026), copy posted by the Town of Acworth",
      "url": "https://www.acworthnh.net/_files/ugd/a327e9_a3f47ac2d74a46b7bb7c6b1467f85e8c.pdf"
     }
+   },
+   "schoolBudget": {
+    "name": "Conway School District",
+    "year": "2026-27",
+    "total": 42555376,
+    "prior": 40986456,
+    "adopted": "2026-04-14",
+    "adoptedVote": "Article 6 passed at the April 14, 2026 school election, 1,226 yes to 390 no",
+    "source": {
+     "label": "Conway School District 2026 sample ballot (April 14, 2026)",
+     "url": "https://conwaynh.gov/uploads/2026-school-sample-ballot-4.14.26.pdf"
+    }
    }
   },
   {
@@ -76,6 +88,20 @@
      "label": "NH Department of Revenue Administration, 2025 Municipal Tax Rates (completed as of January 23, 2026), copy posted by the Town of Acworth",
      "url": "https://www.acworthnh.net/_files/ugd/a327e9_a3f47ac2d74a46b7bb7c6b1467f85e8c.pdf"
     }
+   },
+   "schoolBudget": {
+    "name": "Tamworth School District",
+    "year": "2026-27",
+    "total": 9125578,
+    "prior": null,
+    "adopted": null,
+    "adoptedVote": "Article 1 at the school district meeting on March 4, 2026 at the K.A. Brett School gym: $9,125,578 for the support of schools, recommended by the School Board 3-0-0. The result was not found.",
+    "source": {
+     "label": "Tamworth School District, 2026 warrant (SAU 13)",
+     "url": "https://drive.google.com/file/d/1errSVsknSjF7Tc2thdyD5hIGHLgEPozX/view"
+    },
+    "needs_review": true,
+    "review_note": "Warrant amount; the March 4, 2026 meeting result was not found. Separate articles include the teachers' contract ($106,820 in 2026-27)."
    }
   },
   {
@@ -100,6 +126,20 @@
      "label": "NH Department of Revenue Administration, 2025 Municipal Tax Rates (completed as of January 23, 2026), copy posted by the Town of Acworth",
      "url": "https://www.acworthnh.net/_files/ugd/a327e9_a3f47ac2d74a46b7bb7c6b1467f85e8c.pdf"
     }
+   },
+   "schoolBudget": {
+    "name": "Madison School District",
+    "year": "2026-27",
+    "total": 7343153,
+    "prior": null,
+    "adopted": null,
+    "adoptedVote": "Article 2 on the March 10, 2026 official ballot (SB2): $7,343,153, of which $400,000 is grant spending with offsetting revenue. The School Board recommended it 4-1-0; the Advisory Budget Committee did not (5-0-0). The default budget, if it failed, was $7,114,497. The result was not found.",
+    "source": {
+     "label": "Madison School District, 2026 warrant articles (SAU 13)",
+     "url": "https://drive.google.com/file/d/1tZA3upmwnQvVkXsUM4jWpWg4pDp9aGbM/view"
+    },
+    "needs_review": true,
+    "review_note": "Warrant amount; the March 10, 2026 ballot result was not found. If voters rejected it, the $7,114,497 default budget applies."
    }
   },
   {
@@ -142,7 +182,19 @@
     }
    },
    "schoolDistrict": "Freedom School District, SAU 13",
-   "note": "Per the Wikipedia list, the Freedom district covers Pre-K to grade 6. The Fire Department's 2026 bottom line was $261,903 (Selectmen budget workshop minutes, January 19, 2026). School district and SAU from Wikipedia's List of school districts in New Hampshire (https://en.wikipedia.org/wiki/List_of_school_districts_in_New_Hampshire), a secondary source."
+   "note": "Per the Wikipedia list, the Freedom district covers Pre-K to grade 6. The Fire Department's 2026 bottom line was $261,903 (Selectmen budget workshop minutes, January 19, 2026). School district and SAU from Wikipedia's List of school districts in New Hampshire (https://en.wikipedia.org/wiki/List_of_school_districts_in_New_Hampshire), a secondary source.",
+   "schoolBudget": {
+    "name": "Freedom School District",
+    "year": "2026-27",
+    "total": 4080728,
+    "adoptedVote": "Article 2 at the school district meeting on March 9, 2026 at Freedom Elementary School: $4,080,728 for the support of schools, recommended by the School Board 4-0-0. The result was not found.",
+    "source": {
+     "label": "Freedom School District, 2026 warrant articles (SAU 13)",
+     "url": "https://drive.google.com/file/d/1kq41YFzDYJxLCMPHgJApy9HjdE0gsZxA/view"
+    },
+    "needs_review": true,
+    "review_note": "Warrant amount; the March 9, 2026 meeting result was not found."
+   }
   },
   {
    "id": "jackson",

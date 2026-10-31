@@ -623,11 +623,11 @@
    "enrollment": null,
    "budget": {
     "year": "2026-27",
-    "total": null,
+    "total": 7343153,
     "prior": null,
     "changePct": null,
     "adopted": null,
-    "adoptedVote": null,
+    "adoptedVote": "Article 2 on the March 10, 2026 official ballot (SB2): $7,343,153, of which $400,000 is grant spending with offsetting revenue. The School Board recommended it 4-1-0; the Advisory Budget Committee did not (5-0-0). The default budget, if it failed, was $7,114,497. The result was not found.",
     "perPupil": 33750,
     "perPupilYear": "2023-24",
     "perPupilSource": {
@@ -636,9 +636,11 @@
     },
     "note": "SAU 13 posts Madison's 2026 warrant, budget form (MS-26) and default budget, but those files could not be opened, so the 2026-27 total is not shown. The town paid the school district $6,528,510 in 2024. The state cost per pupil counts only the K-6 school the district runs.",
     "source": {
-     "label": "SAU 13: Financial Reports",
-     "url": "https://www.sau13.org/school-board/financial-reports"
-    }
+     "label": "Madison School District, 2026 warrant articles (SAU 13)",
+     "url": "https://drive.google.com/file/d/1tZA3upmwnQvVkXsUM4jWpWg4pDp9aGbM/view"
+    },
+    "needs_review": true,
+    "review_note": "Warrant amount; the March 10, 2026 ballot result was not found. If voters rejected it, the $7,114,497 default budget applies."
    },
    "results": [],
    "calendarUrl": "https://sites.google.com/a/mes-nh.com/madison-elementary-school/home/calendar",
@@ -766,19 +768,21 @@
    "enrollment": null,
    "budget": {
     "year": "2026-27",
-    "total": null,
+    "total": 9125578,
     "prior": null,
     "changePct": null,
     "adopted": null,
-    "adoptedVote": null,
+    "adoptedVote": "Article 1 at the school district meeting on March 4, 2026 at the K.A. Brett School gym: $9,125,578 for the support of schools, recommended by the School Board 3-0-0. The result was not found.",
     "perPupil": null,
     "perPupilYear": null,
     "perPupilSource": null,
     "note": "SAU 13 posts Tamworth's warrant, MS-26 budget form, revenue estimate and financial reports as Google Drive files, which could not be opened, so the 2026-27 total is not shown. The local school portion of Tamworth's 2025 property tax rate was $9.59 per $1,000, up from $9.01 in 2024 (NH DRA). The school's grade span, principal and enrollment, and where Tamworth students attend high school (including whether they go to Kennett High School under a contract) were not confirmed in any source opened; the K.A. Brett School website link on the SAU 13 page could not be opened. The school address is from the town's 2024 annual report.",
     "source": {
-     "label": "SAU 13: Financial Reports",
-     "url": "https://www.sau13.org/school-board/financial-reports"
-    }
+     "label": "Tamworth School District, 2026 warrant (SAU 13)",
+     "url": "https://drive.google.com/file/d/1errSVsknSjF7Tc2thdyD5hIGHLgEPozX/view"
+    },
+    "needs_review": true,
+    "review_note": "Warrant amount; the March 4, 2026 meeting result was not found. Separate articles include the teachers' contract ($106,820 in 2026-27)."
    },
    "results": [],
    "calendarUrl": "https://www.sau13.org/home/calendars",
