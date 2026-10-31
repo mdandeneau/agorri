@@ -82,11 +82,12 @@ export async function onRequest(context) {
   
   let t = null;
   try { const reg = await (await env.ASSETS.fetch(new URL('/towns.json', request.url))).json(); t = (reg.towns || []).find(x => x.id === town && x.status === 'live'); } catch (e) {}
+  if (t && t.subtowns) { const sub = String(url.searchParams.get('sub') || '').toLowerCase(); const st = t.subtowns.find(x => x.id === sub) || null; t = st ? { ...t, name: st.name, assessor: st.assessor || null } : { ...t, assessor: null }; }
   if (!t || !t.assessor || !t.assessor.base) return json({ error: 'Assessor lookup is not available for this town yet.' }, 404);
   const a = normStreet(url.searchParams.get('address'), t.name);
   if (!a) return json({ error: 'Enter a street address with the house number.' }, 400);
   const cache = typeof caches !== 'undefined' ? caches.default : null;
-  const key = new Request(`https://agorri.cache/assessment/${town}/${encodeURIComponent(a.num + ' ' + a.core)}`);
+  const key = new Request(`https://agorri.cache/assessment/${town}/${encodeURIComponent(t.name)}/${encodeURIComponent(a.num + ' ' + a.core)}`);
   if (cache) { const hit = await cache.match(key); if (hit) return json(await hit.json()); }
   let results;
   try { results = t.assessor.type === 'vgsi' ? await vgsi(t.assessor.base, a) : t.assessor.type === 'patriot' ? await patriot(t.assessor.base, a) : t.assessor.type === 'univers' ? await univers(t.assessor.base, a) : null; }

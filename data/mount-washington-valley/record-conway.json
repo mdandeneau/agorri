@@ -4,17 +4,17 @@
   "as_of": "2026-10-30",
   "records_from": "2026-04-07",
   "documents_used": 66,
-  "note": "North Conway is a village inside the Town of Conway, Carroll County, not a separate town, so this is the Town of Conway's record: its Board of Selectmen, Town Manager and annual Town Meeting. Conway uses the official ballot (SB2) form: a deliberative session in early March, then all articles voted by ballot at the April town election. North Conway's water, sewer and fire department are run by the separate North Conway Water Precinct. The town's Selectmen minutes sit in a Google Drive folder that could not be opened for this research, so meeting entries are built from the Conway Daily Sun, a meeting summary and town documents, and are marked as news reports. Plain-English summaries written by AI; items with needs_review=true are uncertain."
+  "note": "North Conway is a village inside the Town of Conway, Carroll County, not a separate town, so this is the Town of Conway's record: its Board of Selectmen, Town Manager and annual Town Meeting. Conway uses the official ballot (SB2) form: a deliberative session in early March, then all articles voted by ballot at the April town election. North Conway's water, sewer and fire department are run by the separate North Conway Water Precinct. The town's Selectmen minutes sit in a Google Drive folder that could not be opened for this research, so meeting entries are built from the Conway Daily Sun, a meeting summary and town documents, and are marked as news reports. Plain-English summaries written by AI; items with needs_review=true are uncertain. On Agorri this is the Town of Conway inside the Mount Washington Valley page; North Conway, Conway Village, Center Conway, Kearsarge, Intervale and Redstone are all part of Conway."
  },
  "town": {
-  "name": "North Conway",
+  "name": "Conway",
   "state": "NH",
   "body": "Board of Selectmen",
   "bodyShort": "Selectmen",
   "members": "selectmen",
   "registeredVoters": 7447,
   "registeredByWard": {
-   "All": 7447
+   "Conway": 7447
   },
   "turnout2025": {
    "ballots": 1702,

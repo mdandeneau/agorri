@@ -2,5 +2,7 @@
 /portsmouth/ /portsmouth 301
 /nashua / 200
 /nashua/ /nashua 301
-/north-conway / 200
-/north-conway/ /north-conway 301
+/mount-washington-valley / 200
+/mount-washington-valley/ /mount-washington-valley 301
+/north-conway /mount-washington-valley 301
+/north-conway/ /mount-washington-valley 301

@@ -2,7 +2,16 @@
  "as_of": "2026-10-30",
  "note": "North Conway is a village inside the Town of Conway. Police, roads, the transfer station and elections are run by the Town of Conway; fire protection, water and sewer in North Conway come from the North Conway Water Precinct. Checked Oct 30, 2026 from town, precinct and department pages and local news. Every item links to its source.",
  "housing": {
-  "north-conway": {
+  "region": {
+   "source": "Redfin, Carroll County NH housing market",
+   "url": "https://www.redfin.com/county/1882/NH/Carroll-County/housing-market",
+   "reported": "2026-10-30",
+   "period": "Three months ending July 2026",
+   "towns": "Carroll County, NH (all towns)",
+   "summary": "Carroll County, three months ending July 2026 (Redfin): median sale price $498,538, up 6.1% from a year earlier. 116 homes sold in July, up from 110. Homes sold after 52 days on the market, compared with 51 a year earlier. For single-family homes only, North Conway Realty counted 156 county sales in the first quarter of 2026 (155 a year earlier), with an average price of $659,578 and 87 days on market, up from 62."
+  },
+  "records": [],
+  "mount-washington-valley": {
    "source": "Redfin, Conway NH housing market",
    "url": "https://www.redfin.com/city/22027/NH/Conway/housing-market",
    "period": "Three months ending August 2026",
@@ -15,16 +24,7 @@
    "domLastYear": 88,
    "overList": 13.4,
    "note": "Redfin's Conway page, the only local page with full market figures; Redfin does not say whether it covers the whole town or just Conway Village. Homes sold is August only. Redfin rates the market somewhat competitive (47 of 100) with a 97.6% sale-to-list ratio. Redfin's separate North Conway page shows only a one-month median of $646,000, up 39.0% from a year earlier, with no sales count."
-  },
-  "region": {
-   "source": "Redfin, Carroll County NH housing market",
-   "url": "https://www.redfin.com/county/1882/NH/Carroll-County/housing-market",
-   "reported": "2026-10-30",
-   "period": "Three months ending July 2026",
-   "towns": "Carroll County, NH (all towns)",
-   "summary": "Carroll County, three months ending July 2026 (Redfin): median sale price $498,538, up 6.1% from a year earlier. 116 homes sold in July, up from 110. Homes sold after 52 days on the market, compared with 51 a year earlier. For single-family homes only, North Conway Realty counted 156 county sales in the first quarter of 2026 (155 a year earlier), with an average price of $659,578 and 87 days on market, up from 62."
-  },
-  "records": []
+  }
  },
  "business": {
   "note": "From the Mt. Washington Valley Chamber of Commerce member news, Settlers Green and The Conway Daily Sun. Chamber member posts carry no dates; the years for Wrap City and 27 North are from the order of the Chamber's numbered posts, which come after a post dated March 27, 2026. The Sun's Rise and Dine story shows no date; its opening dates (Wednesday, June 10 and Saturday, June 20) match the 2026 calendar.",
@@ -533,7 +533,7 @@
   "hoursNote": "Conway has one polling place for the whole town, including North Conway.",
   "polls": [
    {
-    "ward": "All",
+    "ward": "Conway",
     "place": "Town Garage, 1611 East Main St., Center Conway, NH 03813"
    }
   ],

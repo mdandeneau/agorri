@@ -3,7 +3,7 @@
  "note": "Officeholders and districts as listed by NH RSA 662 (districts), Citizens Count, the NH General Court, the NH Executive Council, Ballotpedia, the Conway Daily Sun, Carroll County and The Ballot Brief, checked Oct 30, 2026. North Conway is a village in the Town of Conway, so every district below is the Town of Conway's. Positions are the officials' own survey answers or quoted statements, with the year. Nothing here is characterized or scored.",
  "ballot_note": "Governor, U.S. Senate, U.S. House (NH-1), Executive Council District 1, State Senate District 3, Conway's three State House seats (Carroll 1), County Commissioner District 1 and the county sheriff, attorney, treasurer, register of deeds and register of probate are all on the Tuesday, Nov 3, 2026 ballot. Conway votes at the Town Garage, 1611 East Main St., Center Conway, 8am to 7pm. Results will replace the names below.",
  "ward_reps": {
-  "All": [
+  "Conway": [
    "buco",
    "paige",
    "woodcock"

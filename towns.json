@@ -71,23 +71,37 @@
    }
   },
   {
-   "id": "north-conway",
-   "name": "North Conway",
+   "id": "mount-washington-valley",
+   "name": "Mount Washington Valley",
    "state": "NH",
    "stateName": "New Hampshire",
    "kind": "Town",
-   "govName": "Town of Conway",
+   "aliases": [
+    "north-conway",
+    "mwv",
+    "conway"
+   ],
    "status": "live",
    "site": "https://conwaynh.gov/",
+   "subtowns": [
+    {
+     "id": "conway",
+     "name": "Conway",
+     "note": "North Conway, Conway Village, Center Conway, Kearsarge, Intervale and Redstone"
+    }
+   ],
    "files": {
-    "record": "data/north-conway/record.json",
-    "local": "data/north-conway/local.json",
-    "beyond": "data/north-conway/beyond.json",
-    "feeds": "data/north-conway/feeds.json",
-    "parks": "data/north-conway/parks.json",
-    "business": "data/north-conway/business.json",
-    "candidates": "data/north-conway/candidates.json",
-    "questions": "data/north-conway/questions.json"
+    "record": "data/mount-washington-valley/record-conway.json",
+    "records": {
+     "conway": "data/mount-washington-valley/record-conway.json"
+    },
+    "local": "data/mount-washington-valley/local.json",
+    "beyond": "data/mount-washington-valley/beyond.json",
+    "feeds": "data/mount-washington-valley/feeds.json",
+    "parks": "data/mount-washington-valley/parks.json",
+    "business": "data/mount-washington-valley/business.json",
+    "candidates": "data/mount-washington-valley/candidates.json",
+    "questions": "data/mount-washington-valley/questions.json"
    },
    "photo": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Echo_Lake_and_Cathedral_Ledge%2C_North_Conway_%28494301%29_%2811924544465%29.jpg/{w}px-Echo_Lake_and_Cathedral_Ledge%2C_North_Conway_%28494301%29_%2811924544465%29.jpg",

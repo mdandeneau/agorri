@@ -14,7 +14,9 @@ const live = ((T && T.towns) || []).filter(t => t.status === 'live');
 if (T && !live.length) errs.push('towns.json has no live town');
 if (T && !live.some(t => t.id === T.default)) errs.push('towns.json default is not a live town');
 
-for (const t of live) {
+// A region (towns.json "subtowns") has one record per town: check each one with the shared files.
+const units = live.flatMap(t => t.files && t.files.records ? Object.entries(t.files.records).map(([k, r]) => ({ ...t, id: t.id + ':' + k, files: { ...t.files, record: r } })) : [t]);
+for (const t of units) {
   const id = t.id, f = t.files || {};
   for (const k of ['record', 'local', 'beyond', 'feeds']) if (!f[k]) errs.push(`${id}: towns.json files.${k} missing`); else if (!exists(f[k])) errs.push(`${id}: towns.json points to missing ${f[k]}`);
   const load = k => { if (!f[k] || !exists(f[k])) return null; try { return read(f[k]); } catch (e) { errs.push(`${id}: ${f[k]} does not parse: ${e.message}`); return null; } };
