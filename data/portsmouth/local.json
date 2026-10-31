@@ -179,6 +179,30 @@
    },
    "strip": "Election Day",
    "stripLine": "Tuesday, 8 am to 7 pm"
+  },
+  {
+   "date": "2026-11-11",
+   "kind": "Event",
+   "title": "Veterans Day wreath-laying at Goodwin Park, Wednesday, Nov 11, 11 am",
+   "detail": "Ceremony at the Soldiers & Sailors Monument in Goodwin Park, followed by a light meal at the American Legion Post, 96 Islington Street. If it rains, the event moves indoors to the Legion.",
+   "source": {
+    "label": "City of Portsmouth, Oct 30",
+    "url": "https://www.portsmouthnh.gov/city/press-releases/city-portsmouth-nh-announces-veterans-day-observances"
+   },
+   "strip": "Veterans Day",
+   "stripLine": "Wreath-laying, Goodwin Park, 11 am"
+  },
+  {
+   "date": "2026-11-09",
+   "kind": "Water",
+   "title": "Mechanic Street Pump Station: second public information meeting, Monday, Nov 9, 6:30 pm",
+   "detail": "Public Works hosts the meeting in Council Chambers at City Hall, 1 Junkins Avenue. Residents can review the latest plans and ask questions of City staff and project consultants.",
+   "source": {
+    "label": "City of Portsmouth DPW, Oct 30",
+    "url": "https://www.portsmouthnh.gov/city/press-releases/city-portsmouth-nh-public-works-hosts-second-mechanic-street-pump-station"
+   },
+   "strip": "Pump station",
+   "stripLine": "Info meeting Monday, 6:30 pm"
   }
  ],
  "election": {
@@ -825,61 +849,8 @@
    "status": "not yet connected"
   }
  ],
- "events_as_of": "2026-10-30",
+ "events_as_of": "2026-10-31",
  "events": [
-  {
-   "date": "2026-10-30",
-   "time": "5 to 8 pm",
-   "title": "Trick-or-treat hours",
-   "venue": "Citywide",
-   "town": "Portsmouth",
-   "kind": "Halloween",
-   "url": "https://www.portsmouthnh.gov/city/press-releases/city-announces-trick-or-treat-hours-and-fall-events",
-   "source": "City of Portsmouth"
-  },
-  {
-   "date": "2026-10-30",
-   "time": "8:00 pm",
-   "title": "The Breakers: A Tribute to Tom Petty",
-   "venue": "The Music Hall",
-   "town": "Portsmouth",
-   "kind": "Music",
-   "url": "https://www.themusichall.org/events/thebreakers-tompetty/",
-   "source": "The Music Hall"
-  },
-  {
-   "date": "2026-10-30",
-   "time": "8:00 pm",
-   "title": "Clifford Cameron's Vinyl Quartet",
-   "venue": "The Music Hall",
-   "town": "Portsmouth",
-   "kind": "Music",
-   "url": "https://www.themusichall.org/events/cliffordcameron/",
-   "source": "The Music Hall"
-  },
-  {
-   "date": "2026-10-30",
-   "time": "8 pm to midnight",
-   "title": "Portsmouth Rave Project: Freaky Friday",
-   "venue": "3S Artspace, 319 Vaughan St",
-   "town": "Portsmouth",
-   "kind": "Halloween",
-   "url": "https://www.3sarts.org/events/587336231780",
-   "source": "3S Artspace",
-   "price": "$25 to $35",
-   "note": "21+"
-  },
-  {
-   "date": "2026-10-30",
-   "time": "5:00 pm",
-   "title": "Free Halloween Bash at the Exeter Y",
-   "venue": "56 Linden St",
-   "town": "Exeter",
-   "kind": "Halloween",
-   "url": "https://patch.com/new-hampshire/portsmouth-nh/calendar/event/20261030/ba0891b1-17f9-4613-a408-57c9b868a251/free-halloween-bash-at-the-exeter-y",
-   "source": "Patch calendar",
-   "price": "Free"
-  },
   {
    "date": "2026-10-31",
    "time": "4:00 pm",
@@ -1003,6 +974,17 @@
    "url": "https://www.portsmouthnh.gov/city/press-releases/city-announces-trick-or-treat-hours-and-fall-events",
    "source": "City of Portsmouth",
    "note": "Veterans and spouses. RSVP 603-610-4433."
+  },
+  {
+   "date": "2026-11-11",
+   "time": "11:00 am",
+   "title": "Veterans Day wreath-laying",
+   "venue": "Soldiers & Sailors Monument, Goodwin Park",
+   "town": "Portsmouth",
+   "kind": "Veterans",
+   "url": "https://www.portsmouthnh.gov/city/press-releases/city-portsmouth-nh-announces-veterans-day-observances",
+   "source": "City of Portsmouth",
+   "note": "Light meal afterward at the American Legion Post, 96 Islington St. Moves indoors to the Legion if it rains."
   },
   {
    "date": "2026-11-12",
@@ -1292,7 +1274,7 @@
   }
  ],
  "safety": {
-  "as_of": "2026-10-30",
+  "as_of": "2026-10-31",
   "note": "Compiled from City of Portsmouth police and fire pages, daily police logs, Police and Fire Commission minutes and local news. Incidents are described by type, street and date only; no names of people involved.",
   "alerts": {
    "name": "Smart911 Community Alert System",
@@ -1973,7 +1955,7 @@
  "paper": {
   "name": "Portsmouth Patch",
   "url": "https://patch.com/new-hampshire/portsmouth-nh",
-  "asOf": "2026-10-30",
+  "asOf": "2026-10-31",
   "note": "The Portsmouth Herald is paywalled with no public feed, so these come from Patch.",
   "headlines": [
    {

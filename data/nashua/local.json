@@ -946,7 +946,7 @@
    "source": "Nashua Center for the Arts"
   }
  ],
- "events_as_of": "2026-10-30",
+ "events_as_of": "2026-10-31",
  "eventsNote": "Events from the Nashua Center for the Arts, Nashua Public Library, City of Nashua calendar, Downtown Nashua Association, VFW Post 483, Rivier Athletics and the Patch community calendar, as of Oct 28. Confirm with the organizer.",
  "election": {
   "date": "2026-11-03",
@@ -1481,7 +1481,7 @@
  "postsAsOf": "2026-10-28T12:00:00Z",
  "postsNote": "The live feed fills this in.",
  "safety": {
-  "as_of": "2026-10-30",
+  "as_of": "2026-10-31",
   "note": "Compiled from Nashua Police and Nashua Fire Rescue pages, the 2025 police annual report, Fire Commission minutes and local news. Incidents are described by type, street and date only; no names of people involved.",
   "alerts": {
    "name": "Nashua Emergency Alerts",
@@ -1978,9 +1978,39 @@
  "paper": {
   "name": "The Telegraph",
   "url": "https://www.nashuatelegraph.com/",
-  "asOf": "2026-10-30",
+  "asOf": "2026-10-31",
   "note": "Stories open on the paper’s site.",
   "headlines": [
+   {
+    "title": "Nashua High drama students to present ‘Harry Potter and the Cursed Child’ High School Edition",
+    "url": "https://www.nashuatelegraph.com/news/2026/10/30/nashua-high-drama-students-to-present-harry-potter-and-the-cursed-child-high-school-edition/",
+    "date": "2026-10-30"
+   },
+   {
+    "title": "Harbor Care to host 23rd annual Thanksgiving Community Dinner on Nov. 24",
+    "url": "https://www.nashuatelegraph.com/news/2026/10/30/harbor-care-to-host-23rd-annual-thanksgiving-community-dinner-on-nov-24/",
+    "date": "2026-10-30"
+   },
+   {
+    "title": "Creative Fashion Collective presents third annual New Hampshire Fashion Week",
+    "url": "https://www.nashuatelegraph.com/news/2026/10/30/creative-fashion-collective-presents-third-annual-new-hampshire-fashion-week/",
+    "date": "2026-10-30"
+   },
+   {
+    "title": "Master gardeners share secrets to harvesting",
+    "url": "https://www.nashuatelegraph.com/news/2026/10/30/master-gardeners-share-secrets-to-harvesting/",
+    "date": "2026-10-30"
+   },
+   {
+    "title": "Performing Arts Center to host comedian Juston McKinney on New Year’s Eve",
+    "url": "https://www.nashuatelegraph.com/news/2026/10/30/performing-arts-center-to-host-comedian-juston-mckinney-on-new-years-eve-2/",
+    "date": "2026-10-30"
+   },
+   {
+    "title": "Nashua Garden Club to host begonias presentation",
+    "url": "https://www.nashuatelegraph.com/news/2026/10/30/nashua-garden-club-to-host-begonias-presentation/",
+    "date": "2026-10-30"
+   },
    {
     "title": "Parents defend Mt. Pleasant and New Searles",
     "url": "https://www.nashuatelegraph.com/news/2026/10/29/parents-defend-mt-pleasant-and-new-searles/",
@@ -1990,36 +2020,6 @@
     "title": "Pappas and Shaheen warn against privatizing Social Security",
     "url": "https://www.nashuatelegraph.com/news/2026/10/29/pappas-and-shaheen-warn-against-privatizing-social-security/",
     "date": "2026-10-29"
-   },
-   {
-    "title": "The Nash presents $2.3m to local nonprofits",
-    "url": "https://www.nashuatelegraph.com/news/2026/10/29/the-nash-presents-2-3m-to-local-nonprofits/",
-    "date": "2026-10-29"
-   },
-   {
-    "title": "Warmington frantically trying to catch Ayotte in governor’s race",
-    "url": "https://www.nashuatelegraph.com/news/2026/10/28/warmington-frantically-trying-to-catch-ayotte-in-governors-race/",
-    "date": "2026-10-28"
-   },
-   {
-    "title": "St. Patrick Church Fair slated for Nov. 21",
-    "url": "https://www.nashuatelegraph.com/news/2026/10/28/st-patrick-church-fair-slated-for-nov-21/",
-    "date": "2026-10-28"
-   },
-   {
-    "title": "FDA offers Halloween safety tips",
-    "url": "https://www.nashuatelegraph.com/news/2026/10/27/fda-offers-halloween-safety-tips-4/",
-    "date": "2026-10-27"
-   },
-   {
-    "title": "GOP candidates spar with Dems at Manchester forum",
-    "url": "https://www.nashuatelegraph.com/news/2026/10/27/gop-candidates-spar-with-dems-at-manchester-forum/",
-    "date": "2026-10-27"
-   },
-   {
-    "title": "Strategist Bank receives conditional approval from state and FDIC",
-    "url": "https://www.nashuatelegraph.com/news/2026/10/27/strategist-bank-receives-conditional-approval-from-state-and-fdic/",
-    "date": "2026-10-27"
    }
   ]
  }

@@ -360,26 +360,6 @@
  ],
  "events": [
   {
-   "date": "2026-10-30",
-   "time": "4:00 pm",
-   "title": "Trunk or Treat: decorated vehicles from local businesses and first responders, music and games (4 to 7 pm)",
-   "venue": "Cranmore Mountain Resort, base area",
-   "town": "North Conway",
-   "kind": "Family",
-   "url": "https://cranmore.com/events/trunk-or-treat-bash",
-   "source": "Cranmore Mountain Resort"
-  },
-  {
-   "date": "2026-10-30",
-   "time": "7:00 pm",
-   "title": "\"Rocky Horror Picture Show\" Halloween screening",
-   "venue": "Majestic Theatre",
-   "town": "Conway",
-   "kind": "Film",
-   "url": "https://www.conwaydailysun.com/things_to_do/movies/rocky-horror-picture-show-at-the-majestic-tonight-friday/article_66cd214a-f4b7-4040-8ce1-11de78b4587b.html",
-   "source": "The Conway Daily Sun"
-  },
-  {
    "date": "2026-11-02",
    "time": "6:00 pm",
    "title": "Adult Basic Literacy Classes (ESL)",
@@ -541,7 +521,7 @@
    "source": "Visit NH events calendar"
   }
  ],
- "events_as_of": "2026-10-30",
+ "events_as_of": "2026-10-31",
  "eventsNote": "Events from the Conway Public Library, Cranmore, Conway Scenic Railroad, the Town of Conway, Settlers Green (via the Visit NH calendar) and The Conway Daily Sun, as of Oct 30. The Mt. Washington Valley Chamber calendar loads by script and the North Conway Community Center schedule could not be opened, so their events are missing. Conway Scenic's Santa's Holiday Special page says it begins Nov 27 but gives no year, so it is not listed. Confirm with the organizer.",
  "election": {
   "date": "2026-11-03",

@@ -28,6 +28,14 @@
    "issue": "downtown",
    "text": "Nashua should keep using tax increment financing (TIF) to pay for downtown and Millyard redevelopment.",
    "status": "approved"
+  },
+  {
+   "id": "2026-11-03-homelessness",
+   "date": "2026-11-03",
+   "issue": "homelessness",
+   "text": "Nashua should open a homeless resource center.",
+   "source": "https://nashuanh.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=12554,plainText=false)",
+   "status": "draft"
   }
  ]
 }

@@ -28,6 +28,14 @@
    "issue": "municipal",
    "text": "The city should go ahead with the phased $58.6 million renovation of City Hall and the police station.",
    "status": "approved"
+  },
+  {
+   "id": "2026-11-03-parking",
+   "date": "2026-11-03",
+   "issue": "parking",
+   "text": "Portsmouth should keep the resident parking pilot, where residents with registered plates park free in zones near downtown and nonresidents pay, after its first year.",
+   "source": "https://www.portsmouthnh.gov/publicworks/parkportsmouth/rapp",
+   "status": "draft"
   }
  ]
 }
