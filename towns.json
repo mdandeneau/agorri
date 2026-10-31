@@ -108,10 +108,6 @@
      "note": "Bartlett village, Glen and part of Intervale"
     },
     {
-     "id": "gorham",
-     "name": "Gorham"
-    },
-    {
      "id": "madison",
      "name": "Madison",
      "note": "Including Silver Lake and Eidelweiss"
@@ -128,7 +124,6 @@
      "conway": "data/mount-washington-valley/record-conway.json",
      "ossipee": "data/mount-washington-valley/record-ossipee.json",
      "bartlett": "data/mount-washington-valley/record-bartlett.json",
-     "gorham": "data/mount-washington-valley/record-gorham.json",
      "madison": "data/mount-washington-valley/record-madison.json",
      "jackson": "data/mount-washington-valley/record-jackson.json"
     },

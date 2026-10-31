@@ -1812,28 +1812,6 @@
     "kind": "ambulance",
     "detail": "Ossipee has a town-wide ambulance contract with Action Ambulance; the 2026 budget review listed an ambulance contract line of $464,423 (AI summary of a December 2025 Budget Committee meeting).",
     "site": "https://cpo.soar.com/articles/7168208/New-Hampshire/Ossipee-budget-committee-approves-operating-budgets-debates-outside-audits-and-funding-for-new-food-pantry"
-   },
-   {
-    "town": "Gorham",
-    "name": "Gorham Police Department",
-    "kind": "police",
-    "chief": "Jimmy Willhoite",
-    "nonEmergency": "603-466-2334 (business line); dispatch 603-466-3336",
-    "address": "20 Park Street, Gorham, NH 03581",
-    "site": "https://www.gorhamnh.gov/pages/police-department",
-    "note": "Seven full-time officers including the chief (Berlin Sun, Feb 2026); Lieutenant Eoin Stapleton is second in command. The chief announced his retirement in February 2026, and the Berlin Sun reported in September that he is on administrative leave and that candidates for a new chief have been interviewed. The department has a 287(g) agreement with ICE. It lists a zero tolerance policy for OHRV violations and posts police logs in a Google Drive folder.",
-    "needs_review": true,
-    "review_note": "Leadership is in transition; check the town page for a new chief."
-   },
-   {
-    "town": "Gorham",
-    "name": "Gorham Fire Department and EMS",
-    "kind": "fire",
-    "chief": "Philip Cloutier (Captain Mathew Dustin)",
-    "nonEmergency": "603-466-3336 (dispatch); chief 603-466-2549; station 603-466-5611",
-    "address": "347 Main Street, Gorham, NH 03581",
-    "site": "https://www.gorhamnh.gov/pages/emergency-services",
-    "note": "Gorham EMS is the primary 911 ambulance for Gorham, Randolph and Shelburne, with two advanced life support ambulances; non-emergency transfers are booked through dispatch. Open burn permits are free at the station or $5.50 online through nh.burnsafeamerica.com."
    }
   ]
  },

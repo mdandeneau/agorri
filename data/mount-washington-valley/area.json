@@ -1,6 +1,6 @@
 {
  "as_of": "2026-10-31",
- "note": "The 18 New Hampshire towns of the Mt Washington Valley Chamber of Commerce. Towns with a full Agorri page have a record-<town>.json; this file adds population for every town and, for the others, the 2026 town operating budget and 2025 tax rate.",
+ "note": "The New Hampshire towns of the Mt Washington Valley Chamber of Commerce, less Gorham. Towns with a full Agorri page have a record-<town>.json; this file adds population for every town and, for the others, the 2026 town operating budget and 2025 tax rate.",
  "definition": {
   "label": "Mt Washington Valley Chamber of Commerce, membership towns",
   "url": "https://www.visitmwv.com/members/mt-washington-valley-chamber-of-commerce/"
@@ -96,30 +96,6 @@
     "localSchool": 9.59,
     "stateSchool": 1.09,
     "county": 0.73,
-    "source": {
-     "label": "NH Department of Revenue Administration, 2025 Municipal Tax Rates (completed as of January 23, 2026), copy posted by the Town of Acworth",
-     "url": "https://www.acworthnh.net/_files/ugd/a327e9_a3f47ac2d74a46b7bb7c6b1467f85e8c.pdf"
-    }
-   }
-  },
-  {
-   "id": "gorham",
-   "name": "Gorham",
-   "county": "Coos",
-   "population": {
-    "census2020": 2696,
-    "source": {
-     "label": "U.S. Census 2020, via City Population (Coos County)",
-     "url": "https://Citypopulation.de/en/usa/newhampshire/admin/33007__coos/"
-    }
-   },
-   "taxRate": {
-    "year": "2025",
-    "total": 23.45,
-    "town": 9.03,
-    "localSchool": 10.92,
-    "stateSchool": 0.96,
-    "county": 2.54,
     "source": {
      "label": "NH Department of Revenue Administration, 2025 Municipal Tax Rates (completed as of January 23, 2026), copy posted by the Town of Acworth",
      "url": "https://www.acworthnh.net/_files/ugd/a327e9_a3f47ac2d74a46b7bb7c6b1467f85e8c.pdf"

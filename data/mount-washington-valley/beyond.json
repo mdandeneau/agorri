@@ -31,8 +31,7 @@
    "hamblen",
    "rbrown",
    "taylor"
-  ],
-  "Gorham": []
+  ]
  },
  "levels": [
   {
@@ -849,113 +848,6 @@
    },
    "contact": "Brian.Taylor@gc.nh.gov, 603-986-8316 (House page)"
   },
-  "goodlander": {
-   "name": "Maggie Goodlander",
-   "party": "D",
-   "office": "U.S. Representative, NH District 2",
-   "level": "federal",
-   "since": "2025",
-   "status": "NH-2 includes all of Coos County (RSA 662:1), so Gorham; the Carroll County valley towns are in NH-1. Two-year term, on the Nov 3 ballot with Lily Tang Williams (R) and Robbie Mahrou (Independent/Other).",
-   "statusSrc": {
-    "label": "Citizens Count, Gorham ballot page",
-    "url": "https://citizenscount.org/nh/coos/gorham"
-   },
-   "positions": [
-    [
-     "Campaign finance",
-     "For an amendment limiting outside funding",
-     "\"For 15 years, the Supreme Court's dead-wrong decision in Citizens United has unleashed chaos and corruption across America.\"",
-     "Campaign website, 2026"
-    ],
-    [
-     "Proof of citizenship to vote",
-     "Against",
-     "\"The right to vote is the fundamental right from which all of our rights flow.\"",
-     "Campaign website, 2026"
-    ],
-    [
-     "Housing",
-     "For limiting private equity home purchases",
-     "\"Our bipartisan bill takes practical steps to build more homes, reduce needless delays, expand financing options\"",
-     "Campaign website, 2026"
-    ],
-    [
-     "Social Security",
-     "For raising the income cap",
-     "\"the wealthy should pay their fair share into Social Security so we can ensure it's solvency into the future.\"",
-     "Debate at New England College, 2024"
-    ]
-   ],
-   "caveat": "Citizens Count shows \"No Response\" for her 2024 and 2026 Citizens Count survey questions; these quotes come from her website and a debate, as compiled by Citizens Count, and the For/Against labels are Citizens Count's.",
-   "src": {
-    "label": "Citizens Count profile",
-    "url": "https://www.citizenscount.org/candidate/maggie-goodlander/serving/us-house-2024-2026"
-   }
-  },
-  "rochefort": {
-   "name": "David Rochefort",
-   "party": "R",
-   "office": "State Senator, District 1",
-   "level": "state",
-   "since": "2024",
-   "status": "District 1 covers Gorham, Berlin, Shelburne and most of Coos County plus northern Grafton County towns; it is Gorham's Senate district (the Carroll County valley towns are in District 3). Of Littleton. Took office Dec 4, 2024; chairs the Health and Human Services Committee. NH House 2022 to 2024. Two-year term, on the Nov 3 ballot with Cathleen A. Fountain (D).",
-   "statusSrc": {
-    "label": "Ballotpedia, NH State Senate District 1",
-    "url": "https://ballotpedia.org/New_Hampshire_State_Senate_District_1"
-   },
-   "positions": [
-    [
-     "Abortion",
-     "Keep current NH law",
-     "\"I support the current NH law on abortion that prohibits elective late term abortion.\"",
-     "Citizens Count survey, 2026"
-    ],
-    [
-     "Business taxes",
-     "For decreasing",
-     "\"As NH has lowered business taxes over the last several years we've seen businesses flourish and tax revenues increase.\"",
-     "Citizens Count survey, 2026"
-    ],
-    [
-     "Open enrollment",
-     "For, with limits",
-     "\"NH students should be able to go to the best school district that meets their individual education needs.\"",
-     "Citizens Count survey, 2026"
-    ],
-    [
-     "Housing and zoning",
-     "Other",
-     "\"I support pro-housing reforms reducing regulations and red tape while also balancing those reforms with protecting\"",
-     "Citizens Count survey, 2026"
-    ]
-   ],
-   "caveat": "Citizens Count cuts survey comments at 125 characters; the zoning quote stops mid-sentence.",
-   "src": {
-    "label": "Citizens Count profile",
-    "url": "https://citizenscount.org/candidate/david-rochefort"
-   },
-   "contact": "David.Rochefort@gc.nh.gov, 603-271-8631, State House Room 107, Concord (Senate page)"
-  },
-  "gorman": {
-   "name": "Ray Gorman",
-   "party": "R",
-   "office": "Coos County Commissioner, District 3",
-   "level": "county",
-   "since": "",
-   "status": "Of Colebrook; Colebrook selectman and vice chair of the Coos County Board of Commissioners. District 3 includes Gorham, Shelburne, the town of Carroll and the northern Coos towns (RSA 662:4), so he is Gorham's commissioner. On the Nov 3 ballot.",
-   "statusSrc": {
-    "label": "The Ballot Brief, Coos County Commissioner District 3 (AI-assisted)",
-    "url": "https://theballotbrief.com/state/new-hampshire/coos-county/commissioner-district-3"
-   },
-   "positions": [],
-   "caveat": "First year in office not confirmed from an opened source; the NH Elections Database shows him winning this seat in the 2020 general election and the 2024 primaries.",
-   "needs_review": true,
-   "review_note": "Whether he or Michael Cote (of Gorham) is the Republican nominee on Nov 3 is reported differently by The Ballot Brief and The Berlin Sun; confirm before saying he is on the ballot.",
-   "src": {
-    "label": "The Berlin Sun, Sep 2, 2026",
-    "url": "https://www.conwaydailysun.com/berlin_sun/news/primary-elections-sept-8-plus-a-look-at-the-races/article_2b24c1a9-ca24-4e5c-9bca-53b4ef52aeea.html"
-   }
-  },
   "jsmith": {
    "name": "Jonathan H. Smith",
    "party": "R",
@@ -1065,43 +957,5 @@
     }
    ]
   }
- ],
- "levelsByTown": {
-  "Gorham": [
-   {
-    "id": "federal",
-    "title": "Federal",
-    "blurb": "Two senators and one representative. Gorham, like all of Coos County, is in New Hampshire's 2nd Congressional District (RSA 662:1); the Carroll County valley towns are in the 1st.",
-    "people": [
-     "shaheen",
-     "hassan",
-     "goodlander"
-    ]
-   },
-   {
-    "id": "state",
-    "title": "State",
-    "blurb": "The Governor, your Executive Councilor and your State Senator. Gorham is in Executive Council District 1 and State Senate District 1 (RSA 662:2 and 662:3).",
-    "people": [
-     "ayotte",
-     "kenney",
-     "rochefort"
-    ]
-   },
-   {
-    "id": "house",
-    "title": "State House",
-    "blurb": "Gorham is in Coos 6 (one seat, with Randolph and Shelburne). The seat has been vacant since Rep. Michael Murphy (R) resigned on May 22, 2026; it is on the Nov 3 ballot.",
-    "people": []
-   },
-   {
-    "id": "county",
-    "title": "Coos County",
-    "blurb": "Gorham is in Coos County, not Carroll. Its commissioner is elected from District 3 (RSA 662:4). Coos County's sheriff, attorney, treasurer and registers now serve four-year terms and are not on the 2026 ballot.",
-    "people": [
-     "gorman"
-    ]
-   }
-  ]
- }
+ ]
 }
