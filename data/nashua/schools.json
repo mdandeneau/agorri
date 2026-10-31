@@ -1,0 +1,382 @@
+{
+ "as_of": "2026-10-31",
+ "note": "Nashua's public schools are run by the Nashua School District (SAU 42) and a nine-member Board of Education elected citywide. The big decision this fall is whether to close one or more elementary schools; the board plans to vote Nov. 16.",
+ "districts": [
+  {
+   "id": "nashua-school-district",
+   "name": "Nashua School District",
+   "towns": [
+    "Nashua"
+   ],
+   "sau": "SAU 42",
+   "site": "https://www.nashua.edu/",
+   "superintendent": {
+    "name": "Dr. Mario Andrade",
+    "since": "2022",
+    "src": {
+     "label": "Nashua School District, Superintendent Andrade",
+     "url": "https://www.nashua.edu/Page/1837"
+    }
+   },
+   "board": {
+    "name": "Board of Education",
+    "meets": "Regular meetings are generally the second and last Monday of each month at 6 pm in the Nashua High School North board room, 8 Titan Way. Dates can shift (fall 2026 meetings also fell on a Tuesday and on Wednesdays), so check the district schedule. Meetings air live on Nashua ETV, Comcast channel 22.",
+    "agendasUrl": "https://www.nashua.edu/our-district/board-of-education/boe-meeting-agendas-and-minutes",
+    "videoUrl": "https://www.nashua.edu/families-community/nashua-etv",
+    "members": [
+     {
+      "name": "Jennifer Bishop",
+      "role": "Chair",
+      "term": "2027",
+      "ward": null
+     },
+     {
+      "name": "Sharon Giglio",
+      "role": "Member",
+      "term": "2027",
+      "ward": null
+     },
+     {
+      "name": "Rob Johnson",
+      "role": "Member",
+      "term": "2027",
+      "ward": null
+     },
+     {
+      "name": "Regan Lamphier",
+      "role": "Member",
+      "term": "2029",
+      "ward": null
+     },
+     {
+      "name": "Jaimeika Lewis",
+      "role": "Member",
+      "term": "2029",
+      "ward": null
+     },
+     {
+      "name": "Shewanda Lopez",
+      "role": "Member",
+      "term": "2027",
+      "ward": null
+     },
+     {
+      "name": "Kirsten Prinn",
+      "role": "Member",
+      "term": "2027",
+      "ward": null
+     },
+     {
+      "name": "Heather Raymond",
+      "role": "Member",
+      "term": "2029",
+      "ward": null
+     },
+     {
+      "name": "Santosh Salvi",
+      "role": "Member",
+      "term": "2029",
+      "ward": null
+     }
+    ],
+    "source": {
+     "label": "Nashua School District, Board of Education",
+     "url": "https://www.nashua.edu/our-district/board-of-education"
+    }
+   },
+   "schools": [
+    {
+     "name": "Amherst Street Elementary School",
+     "level": "Elementary",
+     "grades": "K-5",
+     "address": "71 Amherst Street, Nashua, NH 03064",
+     "enrollment": 288,
+     "enrollmentYear": "2024-25",
+     "principal": null,
+     "url": "https://amherst.nashua.edu"
+    },
+    {
+     "name": "Bicentennial Elementary School",
+     "level": "Elementary",
+     "grades": "K-5",
+     "address": "296 East Dunstable Road, Nashua, NH 03062",
+     "enrollment": 471,
+     "enrollmentYear": "2024-25",
+     "principal": null,
+     "url": "https://bicentennial.nashua.edu"
+    },
+    {
+     "name": "Birch Hill Elementary School",
+     "level": "Elementary",
+     "grades": "K-5",
+     "address": "17 Birch Hill Drive, Nashua, NH 03063",
+     "enrollment": 331,
+     "enrollmentYear": "2024-25",
+     "principal": null,
+     "url": "https://birchhill.nashua.edu"
+    },
+    {
+     "name": "Broad Street Elementary School",
+     "level": "Elementary",
+     "grades": "K-5",
+     "address": "390 Broad Street, Nashua, NH 03063",
+     "enrollment": 253,
+     "enrollmentYear": "2024-25",
+     "principal": null,
+     "url": "https://broad.nashua.edu"
+    },
+    {
+     "name": "Charlotte Avenue Elementary School",
+     "level": "Elementary",
+     "grades": "K-5",
+     "address": "48 Charlotte Avenue, Nashua, NH 03064",
+     "enrollment": 370,
+     "enrollmentYear": "2024-25",
+     "principal": null,
+     "url": "https://charlotte.nashua.edu"
+    },
+    {
+     "name": "Dr. Norman W. Crisp Elementary School",
+     "level": "Elementary",
+     "grades": "K-5",
+     "address": "50 Arlington Street, Nashua, NH 03060",
+     "enrollment": 356,
+     "enrollmentYear": "2024-25",
+     "principal": null,
+     "url": "https://crisp.nashua.edu"
+    },
+    {
+     "name": "Fairgrounds Elementary School",
+     "level": "Elementary",
+     "grades": "K-5",
+     "address": "37 Blanchard Street, Nashua, NH 03060",
+     "enrollment": 456,
+     "enrollmentYear": "2024-25",
+     "principal": null,
+     "url": "https://fes.nashua.edu"
+    },
+    {
+     "name": "Ledge Street Elementary School",
+     "level": "Elementary",
+     "grades": "K-5",
+     "address": "139 Ledge Street, Nashua, NH 03060",
+     "enrollment": 452,
+     "enrollmentYear": "2024-25",
+     "principal": null,
+     "url": "https://ledge.nashua.edu"
+    },
+    {
+     "name": "Main Dunstable Elementary School",
+     "level": "Elementary",
+     "grades": "K-5",
+     "address": "20 Whitford Road, Nashua, NH 03062",
+     "enrollment": 370,
+     "enrollmentYear": "2024-25",
+     "principal": null,
+     "url": "https://maindunstable.nashua.edu"
+    },
+    {
+     "name": "Mount Pleasant Elementary School",
+     "level": "Elementary",
+     "grades": "K-5",
+     "address": "10 Manchester Street, Nashua, NH 03064",
+     "enrollment": 267,
+     "enrollmentYear": "2024-25",
+     "principal": null,
+     "url": "https://mountpleasant.nashua.edu"
+    },
+    {
+     "name": "New Searles Elementary School",
+     "level": "Elementary",
+     "grades": "K-5",
+     "address": "39 Shady Lane, Nashua, NH 03062",
+     "enrollment": 253,
+     "enrollmentYear": "2024-25",
+     "principal": null,
+     "url": "https://newsearles.nashua.edu"
+    },
+    {
+     "name": "Sunset Heights Elementary School",
+     "level": "Elementary",
+     "grades": "K-5",
+     "address": "15 Osgood Road, Nashua, NH 03060",
+     "enrollment": 357,
+     "enrollmentYear": "2024-25",
+     "principal": null,
+     "url": "https://sunsetheights.nashua.edu"
+    },
+    {
+     "name": "Brian S. McCarthy Middle School",
+     "level": "Middle",
+     "grades": "6-8",
+     "address": "41 DiAntonio Drive, Nashua, NH 03062",
+     "enrollment": 653,
+     "enrollmentYear": "2024-25",
+     "principal": null,
+     "url": "https://mccarthy.nashua.edu"
+    },
+    {
+     "name": "Fairgrounds Middle School",
+     "level": "Middle",
+     "grades": "6-8",
+     "address": "27 Cleveland Street, Nashua, NH 03060",
+     "enrollment": 589,
+     "enrollmentYear": "2024-25",
+     "principal": null,
+     "url": "https://fms.nashua.edu"
+    },
+    {
+     "name": "Pennichuck Middle School",
+     "level": "Middle",
+     "grades": "6-8",
+     "address": "207 Manchester Street, Nashua, NH 03064",
+     "enrollment": 764,
+     "enrollmentYear": "2024-25",
+     "principal": null,
+     "url": "https://pennichuck.nashua.edu"
+    },
+    {
+     "name": "Nashua High School North",
+     "level": "High",
+     "grades": "9-12",
+     "address": "8 Titan Way, Nashua, NH 03063",
+     "enrollment": 1559,
+     "enrollmentYear": "2024-25",
+     "principal": "Nathan Burns",
+     "url": "https://north.nashua.edu"
+    },
+    {
+     "name": "Nashua High School South",
+     "level": "High",
+     "grades": "9-12",
+     "address": "36 Riverside Street, Nashua, NH 03062",
+     "enrollment": 1709,
+     "enrollmentYear": "2024-25",
+     "principal": "Keith Richard",
+     "url": "https://south.nashua.edu"
+    },
+    {
+     "name": "Franklin Street School (Brentwood and NEEP)",
+     "level": "Other",
+     "grades": "Pre-K (Nashua Early Education Program) and the Brentwood program",
+     "address": "55 Franklin Street, Nashua, NH 03064",
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": "https://franklin.nashua.edu"
+    }
+   ],
+   "enrollment": {
+    "total": 9526,
+    "year": "2024-25",
+    "source": {
+     "label": "Nashua School District, Facilities Master Plan Community Forum #3 (May 20, 2026)",
+     "url": "https://resources.finalsite.net/images/v1779381796/nashuaedu/wpqddcx6uzwhvgqyq8x2/2026-05-20_NashuaCommunityForum3_V3-lds.pdf"
+    }
+   },
+   "budget": {
+    "year": "FY2027 (2026-27)",
+    "total": 206035858,
+    "prior": 191262559,
+    "changePct": 7.7,
+    "adopted": "2026-06-23",
+    "adoptedVote": "Board of Aldermen passed the full city budget, which funds the schools, 9-4 on June 23, 2026",
+    "perPupil": 18270,
+    "perPupilYear": "2023-24",
+    "perPupilSource": {
+     "label": "NH Department of Education, cost per pupil 2023-24",
+     "url": "https://www.education.nh.gov/news-and-media/new-hampshires-cost-pupil-continues-upward-trend"
+    },
+    "note": "Figures include employee benefits, which the City estimates. Without benefits the request was $144.5 million, up 6.0%. The Mayor had asked for no more than a 3% increase, then trimmed $668,000 from the school request before the aldermen adopted the city budget; the exact final school figure was not published in sources we could read. The budget cuts 56 positions. The state average cost per pupil in 2023-24 was $21,545.",
+    "source": {
+     "label": "Nashua School District, FY2027 Superintendent's Recommendation (Feb. 18, 2026)",
+     "url": "https://resources.finalsite.net/images/v1771518346/nashuaedu/rtsjm4hv4mgssdzetxrc/NashuaSchoolDistrictBudgetFY27BOE-SuperintendentsRecommendation2-18-2026.pdf"
+    },
+    "needs_review": true,
+    "review_note": "The FY2027 figure is the Superintendent's request ($206.0M with benefits); the Mayor cut $668,000 before the aldermen adopted the city budget, and no final school figure was published."
+   },
+   "results": [],
+   "calendarUrl": "https://resources.finalsite.net/images/v1770838354/nashuaedu/mcac7yauydwliusi5gmv/Approved2026-2027Calendar.pdf",
+   "closingsUrl": null,
+   "issues": [
+    {
+     "title": "Possible elementary school closures",
+     "status": "Board of Education vote set for Nov. 16, 2026",
+     "summary": "The Board of Education is deciding the future of the district's 19 school buildings, which average 57 years old, as part of a Facilities Master Plan begun in spring 2025. A presentation was held Oct. 21, a public hearing Oct. 28, and the full board is set to vote Nov. 16. Enrollment fell from 11,162 in 2018-19 to 9,699 in 2024-25 and is projected at 8,703 by 2034-35. Mount Pleasant Elementary, opened in 1925, is again a candidate for closure; in 2023 the board voted 6-2 to put off that decision for two years. The newest building, Brian S. McCarthy Middle School, opened in August 2024 at a cost of about $93 million.",
+     "date": "2026-10-14",
+     "source": {
+      "label": "Nashua Telegraph, Oct. 14, 2026",
+      "url": "https://www.nashuatelegraph.com/news/2026/10/14/boe-tightens-focus-on-possible-school-closures/"
+     }
+    },
+    {
+     "title": "Facilities plan options: keep, close or build",
+     "status": "Options narrowed; updated plan shown to the board Oct. 21, 2026",
+     "summary": "Consultant Harriman offered five elementary options. Option A keeps all 12 elementary schools open (about $176 million to $257 million in total). Option B closes Mount Pleasant and New Searles (about $175 million to $218 million). Options C, D and E close two to five older schools and build one or two new ones (about $211 million to $324 million). Every option includes about $62 million for middle and high school repairs. Each school closed saves about $1.6 million to $1.8 million a year in operating costs. Any closure means redistricting and bus route changes. Elementary schools are about 78% full, middle schools about 80% and high schools about 99%.",
+     "date": "2026-05-20",
+     "source": {
+      "label": "Nashua School District, Facilities Master Plan Community Forum #3 (May 20, 2026)",
+      "url": "https://resources.finalsite.net/images/v1779381796/nashuaedu/wpqddcx6uzwhvgqyq8x2/2026-05-20_NashuaCommunityForum3_V3-lds.pdf"
+     }
+    },
+    {
+     "title": "FY2027 school budget and 56 job cuts",
+     "status": "In effect for 2026-27; city budget adopted June 23, 2026",
+     "summary": "The Superintendent recommended $206.0 million including benefits, up 7.7% from $191.3 million in FY2026 (up 6.0% without benefits), twice the Mayor's 3% guideline. To get there the district cut 56 positions worth about $2.4 million in wages: 21 teachers, 18 paraeducators and behavior specialists, 6 clerical, 5 coaches, 4 administrators and 2 TIA positions.",
+     "date": "2026-02-18",
+     "source": {
+      "label": "Nashua School District, FY2027 Superintendent's Recommendation",
+      "url": "https://resources.finalsite.net/images/v1771518346/nashuaedu/rtsjm4hv4mgssdzetxrc/NashuaSchoolDistrictBudgetFY27BOE-SuperintendentsRecommendation2-18-2026.pdf"
+     }
+    },
+    {
+     "title": "Elementary special education classrooms reorganized",
+     "status": "Revised plan for 2026-27; oversight committee requested",
+     "summary": "The district planned to move elementary special education classrooms for students with intensive and moderate needs among several schools starting in 2026-27. After parent pushback, the Superintendent presented a revised plan on May 11, 2026, and said every school with an intensive needs program would keep it next year. A motion to cancel the reorganization failed, and the board asked its Policy Committee to create a special education oversight committee.",
+     "date": "2026-05-11",
+     "source": {
+      "label": "Nashua Ink Link on the May 11, 2026 meeting",
+      "url": "https://nashua.inklink.news/?p=254866"
+     }
+    }
+   ],
+   "upcoming": [
+    {
+     "date": "2026-11-16",
+     "time": null,
+     "title": "Board of Education vote on the Facilities Master Plan (possible school closures)",
+     "venue": "Nashua High School North board room, 8 Titan Way (the board's usual meeting room)",
+     "url": "https://www.nashuatelegraph.com/news/2026/10/14/boe-tightens-focus-on-possible-school-closures/"
+    }
+   ],
+   "news": [
+    {
+     "title": "Parents defend Mt. Pleasant and New Searles",
+     "url": "https://www.nashuatelegraph.com/news/2026/10/29/parents-defend-mt-pleasant-and-new-searles/",
+     "date": "2026-10-29"
+    },
+    {
+     "title": "Goodlander restores federal TRIO funding",
+     "url": "https://www.nashuatelegraph.com/news/2026/10/22/goodlander-restores-federal-trio-funding/",
+     "date": "2026-10-22"
+    },
+    {
+     "title": "BOE tightens focus on possible school closures",
+     "url": "https://www.nashuatelegraph.com/news/2026/10/14/boe-tightens-focus-on-possible-school-closures/",
+     "date": "2026-10-14"
+    },
+    {
+     "title": "South junior wins Barron Prize with HALO-Vox",
+     "url": "https://www.nashuatelegraph.com/news/2026/09/16/south-junior-wins-barron-prize-with-halo-vox/",
+     "date": "2026-09-16"
+    },
+    {
+     "title": "New Searles in group of elementary schools at risk of closing",
+     "url": "https://www.nashuatelegraph.com/news/2026/04/16/new-searles-in-group-of-elementary-schools-at-risk-of-closing/",
+     "date": "2026-04-16"
+    }
+   ]
+  }
+ ],
+ "methodology": "Built Oct. 31, 2026 from pages opened on nashua.edu and the district's Finalsite documents (Board of Education page and schedule, FY2027 Superintendent's Recommendation, Facilities Master Plan forum deck, 2026-27 calendar, 2024-25 schools and principals list for addresses), the NH Department of Education cost per pupil release, and Nashua Telegraph and Nashua Ink Link reporting. Board officers come from Ink Link's Jan. 5, 2026 report (Jennifer Bishop re-elected chair; Heather Raymond elected clerk, shown as Member because the schema has no clerk role; no vice chair was reported). Term end years follow from the four seats filled in November 2025 (four-year terms, through 2029) and the other five seats elected in 2023 (through 2027). School enrollment is the district count dated May 14, 2025; the 9,526 total is the district K-12 figure from the same date (the 17 school counts shown add to 9,498; Franklin Street has no published count). Grade spans are inferred from district planning slides that discuss moving grade 5 to middle schools and grade 8 to high schools. Principals are listed only for the two high schools, confirmed in an Oct. 22, 2026 Telegraph photo caption; the district's latest principal list is from 2024-25 and several posts have changed, so other principals are left blank. Gaps: no official graduation rate or test results could be read (NH DOE iReport blocks automated access and DOE PDFs failed to load), so results is empty; the FY2025 (2024-25) cost per pupil report exists but could not be opened, so the 2023-24 figure is shown; no closings or delays page was found on the district site; the board's posted schedule ends Oct. 31, so regular November and December meeting dates are not listed. The $206.0 million budget is the Superintendent's request including City-estimated benefits; the exact final school appropriation was not found."
+}

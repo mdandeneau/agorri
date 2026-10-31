@@ -53,7 +53,8 @@
     "parks": "data/nashua/parks.json",
     "business": "data/nashua/business.json",
     "candidates": "data/nashua/candidates.json",
-    "questions": "data/nashua/questions.json"
+    "questions": "data/nashua/questions.json",
+    "schools": "data/nashua/schools.json"
    },
    "photo": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Nashua_NH_Main_Street_52.JPG/{w}px-Nashua_NH_Main_Street_52.JPG",
