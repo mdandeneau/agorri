@@ -692,6 +692,223 @@
     }
    ],
    "news": []
+  },
+  {
+   "id": "governor-wentworth-regional-school-district",
+   "name": "Governor Wentworth Regional School District",
+   "towns": [
+    "Ossipee"
+   ],
+   "sau": null,
+   "site": null,
+   "superintendent": {
+    "name": null,
+    "since": null,
+    "src": null
+   },
+   "board": {
+    "name": "Governor Wentworth Regional School Board",
+    "meets": null,
+    "agendasUrl": null,
+    "videoUrl": null,
+    "members": [],
+    "source": {
+     "label": "GoodParty.org: Governor Wentworth Regional School Board, Ossipee seat",
+     "url": "https://goodparty.org/elections/nh/carroll-county/ossipee-town/position/local-school-board/candidates"
+    }
+   },
+   "schools": [],
+   "enrollment": null,
+   "budget": {
+    "year": "2026-27",
+    "total": null,
+    "prior": null,
+    "changePct": null,
+    "adopted": null,
+    "adoptedVote": null,
+    "perPupil": null,
+    "perPupilYear": null,
+    "perPupilSource": null,
+    "note": "No district budget document was opened. The local school portion of Ossipee's 2025 tax rate was $7.22 per $1,000, up from $6.38 in 2024 (state tax rate tables).",
+    "source": {
+     "label": "NH DRA 2025 Municipal Tax Rates (copy hosted by the Town of Acworth)",
+     "url": "https://www.acworthnh.net/_files/ugd/a327e9_a3f47ac2d74a46b7bb7c6b1467f85e8c.pdf"
+    }
+   },
+   "results": [],
+   "calendarUrl": null,
+   "closingsUrl": null,
+   "issues": [],
+   "upcoming": [],
+   "news": [],
+   "note": "Ossipee is a member of this regional district (GoodParty.org; the 2015 Ossipee town report also names it). The district's SAU office is at 140 Pine Hill Road, Wolfeboro, NH 03894 (603-569-1658). The other member towns, the SAU number, the superintendent, the board roster and the schools were not confirmed from an opened source, so only Ossipee is listed.",
+   "needs_review": true,
+   "review_note": "Thin entry: the district and SAU websites were not opened. Add member towns, schools and board from the district's own site."
+  },
+  {
+   "id": "grs-cooperative-school-district",
+   "name": "Gorham Randolph Shelburne Cooperative School District",
+   "towns": [
+    "Gorham",
+    "Randolph",
+    "Shelburne"
+   ],
+   "sau": "SAU 20",
+   "site": "https://sites.google.com/sau20.org/grsschoolboard/home",
+   "superintendent": {
+    "name": null,
+    "since": null,
+    "src": null
+   },
+   "board": {
+    "name": "GRS Cooperative School Board",
+    "meets": "About monthly on Tuesdays; 2026-27 dates include Nov 17 and Dec 15, 2026 and Jan 12, Jan 28, Feb 16, Mar 4, Mar 16, Apr 20, May 18 and Jun 8, 2027. Time and place not listed; meetings are live-streamed.",
+    "agendasUrl": "https://sites.google.com/sau20.org/grsschoolboard/home",
+    "videoUrl": "https://www.youtube.com/@SAU20BoardMeetings",
+    "members": [
+     {
+      "name": "Gina Saladino",
+      "role": "Chair",
+      "term": "2029",
+      "ward": "Gorham"
+     },
+     {
+      "name": "Jo Carpenter",
+      "role": "Vice Chair",
+      "term": "2028",
+      "ward": "Shelburne"
+     },
+     {
+      "name": "Benjamin Mayerson",
+      "role": "Secretary",
+      "term": "2027",
+      "ward": "Gorham"
+     },
+     {
+      "name": "Dennis Wade",
+      "role": "Member",
+      "term": "2028",
+      "ward": "Gorham"
+     },
+     {
+      "name": "Victoria Hill",
+      "role": "Member",
+      "term": "2028",
+      "ward": "Gorham"
+     },
+     {
+      "name": "Barney Valliere",
+      "role": "Member",
+      "term": "2029",
+      "ward": "Gorham"
+     },
+     {
+      "name": "Richard Umiker",
+      "role": "Member",
+      "term": "2028",
+      "ward": "Randolph"
+     },
+     {
+      "name": "Bob Gargano",
+      "role": "Member",
+      "term": "2027",
+      "ward": "At large"
+     },
+     {
+      "name": "Keith Moon",
+      "role": "Member",
+      "term": "2027",
+      "ward": "At large (Randolph)"
+     },
+     {
+      "name": "Tim Buxton",
+      "role": "Member",
+      "term": "2029",
+      "ward": "At large (Shelburne)"
+     }
+    ],
+    "source": {
+     "label": "GRS Cooperative School Board site (SAU 20)",
+     "url": "https://sites.google.com/sau20.org/grsschoolboard/home"
+    }
+   },
+   "schools": [
+    {
+     "name": "Edward Fenn School",
+     "level": "Elementary",
+     "grades": "K-5",
+     "address": null,
+     "enrollment": 143,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": null
+    },
+    {
+     "name": "Gorham Middle School",
+     "level": "Middle",
+     "grades": "6-8",
+     "address": null,
+     "enrollment": 80,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": null
+    },
+    {
+     "name": "Gorham High School",
+     "level": "High",
+     "grades": "9-12",
+     "address": "120 Main Street, Gorham, NH",
+     "enrollment": 149,
+     "enrollmentYear": "2024-25",
+     "principal": "David Morrissette",
+     "url": null
+    }
+   ],
+   "enrollment": 374,
+   "budget": {
+    "year": "2026-27",
+    "total": null,
+    "prior": null,
+    "changePct": null,
+    "adopted": null,
+    "adoptedVote": null,
+    "perPupil": null,
+    "perPupilYear": null,
+    "perPupilSource": null,
+    "note": "The district's 2026-27 budget was not found in any source opened. GRS results were posted by the town after the March 10, 2026 vote, but the result sheet could not be opened.",
+    "source": null
+   },
+   "results": [],
+   "calendarUrl": null,
+   "closingsUrl": null,
+   "issues": [],
+   "upcoming": [
+    {
+     "date": "2026-11-17",
+     "time": null,
+     "title": "GRS School Board meeting",
+     "venue": null,
+     "url": "https://sites.google.com/sau20.org/grsschoolboard/home"
+    },
+    {
+     "date": "2026-12-15",
+     "time": null,
+     "title": "GRS School Board meeting",
+     "venue": null,
+     "url": "https://sites.google.com/sau20.org/grsschoolboard/home"
+    }
+   ],
+   "news": [],
+   "office": "SAU 20, 123 Main Street, Gorham, NH 03581; (603) 466-3632",
+   "elected2026": "March 10, 2026: Gina Saladino (402) and Barney Valliere (325) won the two Gorham seats over Robert Gargano (186); Timothy Buxton (430) won the Shelburne seat; Paul Robitaille (418) was elected GRSD moderator (Berlin Sun).",
+   "sources": [
+    "https://sites.google.com/sau20.org/grsschoolboard/home",
+    "https://www.greatschools.org/new-hampshire/gorham/gorham-randolph-shelburne-coop-school-district/?lang=es",
+    "https://en.wikipedia.org/wiki/Gorham_High_School_(New_Hampshire)",
+    "https://www.conwaydailysun.com/berlin_sun/news/local/gorham-annual-town-election-results-in-votes-received/article_becedfd8-a8ed-46ca-a26a-7b5300d9ead0.html"
+   ],
+   "needs_review": true,
+   "review_note": "School list and enrollments are from GreatSchools (year not stated; total 374) and Wikipedia (high school, 2024-25), not state or SAU sources. The superintendent was not named on the board site."
   }
  ],
  "methodology": "Built October 31, 2026 from SAU 9 and SAU 13 web pages, Jackson Grammar and Madison Elementary sites, the Conway 2025 and 2026 school sample ballots, Bartlett Selectmen minutes, NHPR, Ballotpedia and Conway Daily Sun articles. Conway's schools changed since 2024: John H. Fuller Elementary closed, Pine Tree became the K-2 school and the former Conway Elementary building is now Conway Intermediate (grades 3-5). Cost per pupil is the NH Department of Education 2023-24 report; the copy opened is posted by the Rye Civic League because the state-hosted 2023-24 file was not found (the state-hosted 2022-23 report lists Conway $22,086, Bartlett $27,602, Jackson $35,688, Madison $31,696). Enrollment figures are rounded numbers the Conway Daily Sun reported in June 2025 for 2024-25 (Pine Tree, then named Lakeside, about 209; Bartlett about 158; Kennett High about 614; Kennett Middle about 300), not state counts; the NH DOE profile site returned errors. Gaps: no official test score or graduation results were found, so results are empty; 2026-27 budgets for Bartlett, Jackson and Madison were not found (Madison's are in SAU 13 Google Drive files that could not be opened); Jackson board members other than the chair, the Conway vice chair after the roster change, the Madison principal and the Career and Technical Center's details were not found; Bartlett officer roles date from April 2025. Conway, Bartlett and Jackson meeting dates after November come from each board's regular schedule and should be checked against the SAU 9 calendar. The Bartlett and Jackson news headlines are taken from the article web addresses because the page text did not show a headline or date; the Bartlett tuition vote date (March 3, 2026) is inferred from the article's reference to Jackson voting that Thursday, March 5."

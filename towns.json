@@ -99,9 +99,17 @@
      "note": "North Conway, Conway Village, Center Conway, Kearsarge, Intervale and Redstone"
     },
     {
+     "id": "ossipee",
+     "name": "Ossipee"
+    },
+    {
      "id": "bartlett",
      "name": "Bartlett",
      "note": "Bartlett village, Glen and part of Intervale"
+    },
+    {
+     "id": "gorham",
+     "name": "Gorham"
     },
     {
      "id": "madison",
@@ -118,7 +126,9 @@
     "records": {
      "north-conway": "data/mount-washington-valley/record-conway.json",
      "conway": "data/mount-washington-valley/record-conway.json",
+     "ossipee": "data/mount-washington-valley/record-ossipee.json",
      "bartlett": "data/mount-washington-valley/record-bartlett.json",
+     "gorham": "data/mount-washington-valley/record-gorham.json",
      "madison": "data/mount-washington-valley/record-madison.json",
      "jackson": "data/mount-washington-valley/record-jackson.json"
     },
