@@ -744,6 +744,129 @@
    "note": "Ossipee is a member of this regional district (GoodParty.org; the 2015 Ossipee town report also names it). The district's SAU office is at 140 Pine Hill Road, Wolfeboro, NH 03894 (603-569-1658). The other member towns, the SAU number, the superintendent, the board roster and the schools were not confirmed from an opened source, so only Ossipee is listed.",
    "needs_review": true,
    "review_note": "Thin entry: the district and SAU websites were not opened. Add member towns, schools and board from the district's own site."
+  },
+  {
+   "id": "tamworth-school-district",
+   "name": "Tamworth School District",
+   "towns": [
+    "Tamworth"
+   ],
+   "sau": "SAU 13",
+   "site": "https://www.sau13.org/home",
+   "superintendent": {
+    "name": "Kathleen Scholand",
+    "since": null,
+    "src": {
+     "label": "SAU 13: Superintendent page",
+     "url": "https://www.sau13.org/departments/superintendent"
+    }
+   },
+   "board": {
+    "name": "Tamworth School Board",
+    "meets": "Schedule not posted on the SAU 13 page; agendas and minutes are kept in Google Drive folders linked from it",
+    "agendasUrl": "https://www.sau13.org/school-board/tamworth/agendas-packets-minutes",
+    "videoUrl": null,
+    "members": [
+     {
+      "name": "Shauna Peterson",
+      "role": "Chair",
+      "term": "2028",
+      "ward": null
+     },
+     {
+      "name": "Siena Kaplan-Thompson",
+      "role": "Vice Chair",
+      "term": "2027",
+      "ward": null
+     },
+     {
+      "name": "Devon Ames",
+      "role": "Member",
+      "term": "2029",
+      "ward": null
+     },
+     {
+      "name": "Hillary Behr",
+      "role": "Member",
+      "term": "2027",
+      "ward": null
+     },
+     {
+      "name": "Melanie Streeter",
+      "role": "Member",
+      "term": "2029",
+      "ward": null
+     }
+    ],
+    "source": {
+     "label": "SAU 13: Tamworth School Board members",
+     "url": "https://www.sau13.org/school-board/tamworth/school-board-members"
+    }
+   },
+   "schools": [
+    {
+     "name": "Kenneth A. Brett School",
+     "level": "Elementary",
+     "grades": null,
+     "address": "881 Tamworth Road, Tamworth, NH 03886",
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": null
+    }
+   ],
+   "enrollment": null,
+   "budget": {
+    "year": "2026-27",
+    "total": null,
+    "prior": null,
+    "changePct": null,
+    "adopted": null,
+    "adoptedVote": null,
+    "perPupil": null,
+    "perPupilYear": null,
+    "perPupilSource": null,
+    "note": "SAU 13 posts Tamworth's warrant, MS-26 budget form, revenue estimate and financial reports as Google Drive files, which could not be opened, so the 2026-27 total is not shown. The local school portion of Tamworth's 2025 property tax rate was $9.59 per $1,000, up from $9.01 in 2024 (NH DRA). The school's grade span, principal and enrollment, and where Tamworth students attend high school (including whether they go to Kennett High School under a contract) were not confirmed in any source opened; the K.A. Brett School website link on the SAU 13 page could not be opened. The school address is from the town's 2024 annual report.",
+    "source": {
+     "label": "SAU 13: Financial Reports",
+     "url": "https://www.sau13.org/school-board/financial-reports"
+    }
+   },
+   "results": [],
+   "calendarUrl": "https://www.sau13.org/home/calendars",
+   "closingsUrl": null,
+   "issues": [
+    {
+     "title": "School tax cap question on the November 3 ballot",
+     "status": "Voters decide November 3, 2026",
+     "summary": "A new state law (HB 1300, Chapter 324) puts a local school tax cap question on municipal ballots in November 2026 and November 2028, bypassing local warrant articles and town meeting votes. It also caps school central office administrative costs. SAU 13 has posted four explainers, including what is in the budget.",
+     "date": "2026-11-03",
+     "source": {
+      "label": "SAU 13: Tax Cap Information",
+      "url": "https://www.sau13.org/home/tax-cap-information"
+     }
+    },
+    {
+     "title": "LED lighting at the school",
+     "status": "In the town's capital plan; could come sooner",
+     "summary": "The town's Capital Improvement Plan Committee noted that LED lighting at the school may be installed sooner if the school receives a rebate.",
+     "date": "2026-09-16",
+     "source": {
+      "label": "Tamworth CIP Committee minutes, Sep 16, 2026 (draft)",
+      "url": "https://www.tamworthnh.gov/AgendaCenter/ViewFile/Minutes/_09162026-301"
+     }
+    }
+   ],
+   "upcoming": [
+    {
+     "date": "2026-11-03",
+     "time": "8 am to 7 pm",
+     "title": "Election Day: school tax cap question on the ballot; Tamworth votes in the K.A. Brett School gymnasium",
+     "venue": "K.A. Brett School gymnasium",
+     "url": "https://www.tamworthnh.gov/CivicAlerts.aspx?AID=74"
+    }
+   ],
+   "news": []
   }
  ],
  "methodology": "Built October 31, 2026 from SAU 9 and SAU 13 web pages, Jackson Grammar and Madison Elementary sites, the Conway 2025 and 2026 school sample ballots, Bartlett Selectmen minutes, NHPR, Ballotpedia and Conway Daily Sun articles. Conway's schools changed since 2024: John H. Fuller Elementary closed, Pine Tree became the K-2 school and the former Conway Elementary building is now Conway Intermediate (grades 3-5). Cost per pupil is the NH Department of Education 2023-24 report; the copy opened is posted by the Rye Civic League because the state-hosted 2023-24 file was not found (the state-hosted 2022-23 report lists Conway $22,086, Bartlett $27,602, Jackson $35,688, Madison $31,696). Enrollment figures are rounded numbers the Conway Daily Sun reported in June 2025 for 2024-25 (Pine Tree, then named Lakeside, about 209; Bartlett about 158; Kennett High about 614; Kennett Middle about 300), not state counts; the NH DOE profile site returned errors. Gaps: no official test score or graduation results were found, so results are empty; 2026-27 budgets for Bartlett, Jackson and Madison were not found (Madison's are in SAU 13 Google Drive files that could not be opened); Jackson board members other than the chair, the Conway vice chair after the roster change, the Madison principal and the Career and Technical Center's details were not found; Bartlett officer roles date from April 2025. Conway, Bartlett and Jackson meeting dates after November come from each board's regular schedule and should be checked against the SAU 9 calendar. The Bartlett and Jackson news headlines are taken from the article web addresses because the page text did not show a headline or date; the Bartlett tuition vote date (March 3, 2026) is inferred from the article's reference to Jackson voting that Thursday, March 5."

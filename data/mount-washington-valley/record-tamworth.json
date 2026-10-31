@@ -1,0 +1,1664 @@
+{
+ "about": {
+  "town": "Tamworth, NH",
+  "as_of": "2026-10-31",
+  "records_from": "2026-03-25",
+  "documents_used": 35,
+  "note": "The Town of Tamworth, Carroll County, includes Tamworth Village, Chocorua, South Tamworth and Wonalancet. It is run by a five-member Select Board (Board of Selectmen) with a Town Administrator; officers and ordinances are voted by ballot at the annual Town Meeting in March (March 10, 2026). The town posts minutes in its online Agenda Center, but for this research only the April 14, 2026 Select Board minutes, the June 23, 2026 nonpublic session minutes, one Planning Board set (March 25) and one Capital Improvement Plan Committee set (September 16) could be opened. Other Select Board minutes posted through October 13, 2026 could not be opened, so meeting coverage is thin and some entries come from town notices and the Conway Daily Sun. The 2026 town warrant and MS-636 budget form are scanned files that could not be read; budget figures come from the town's 2026 draft budget. Plain-English summaries written by AI; items with needs_review=true are uncertain."
+ },
+ "town": {
+  "name": "Tamworth",
+  "state": "NH",
+  "body": "Board of Selectmen",
+  "bodyShort": "Selectmen",
+  "members": "selectmen",
+  "registeredVoters": null,
+  "registeredByWard": {},
+  "turnout2025": {
+   "ballots": null,
+   "registered": null,
+   "pct": null
+  },
+  "turnoutLabel": "March 2026 town election",
+  "turnoutNote": "Tamworth held its annual Town Meeting election on March 10, 2026 (town notice on the Regulatory Compliance Ordinance). Ballots cast, registered voters and the March 2026 election results were not found in any source opened; the town's September 2026 primary results are posted as scanned files that could not be read. Tamworth has no wards.",
+  "turnout_needs_review": true,
+  "sources": {
+   "election": "https://www.tamworthnh.gov/CivicAlerts.aspx?AID=56",
+   "roster": "https://www.tamworthnh.gov/1291/Select-Board",
+   "wards": "https://www.tamworthnh.gov/1291/Select-Board",
+   "voters": null
+  },
+  "demoAddress": "84 Main Street",
+  "demoAddressNote": "Tamworth Town Office, 84 Main Street, Tamworth, NH 03886.",
+  "nextCityElection": "March 2027 (annual town election and Town Meeting; date not yet posted)",
+  "contactNote": "Each select board member has a town email listed on the Select Board page (for example kbehr@tamworthnh.gov for Chair Karl Behr). The Town Office is at 84 Main Street, 603-323-7525. Town notices direct questions for the Town Administrator to 603-323-7515 x14.",
+  "polls": {
+   "place": "K.A. Brett School gymnasium (Kenneth A. Brett School, 881 Tamworth Road)",
+   "hours": "8 AM to 7 PM, Tuesday, November 3, 2026",
+   "note": "Completed absentee ballots can be handed in at the Town Clerk's Office on Monday, November 2, from 3 to 5 PM. The Town Clerk/Tax Collector's office is closed on Election Day and reopens Wednesday, November 4 at 9 AM. The school's street address comes from the town's 2024 annual report, which lists the Kenneth A. Brett School, 881 Tamworth Road, as the Town Meeting polling place.",
+   "source": "https://www.tamworthnh.gov/CivicAlerts.aspx?AID=74"
+  }
+ },
+ "next_council_meeting": {
+  "date": "2026-11-10",
+  "items": []
+ },
+ "issues": [
+  {
+   "id": "chocorua-four-way-stop",
+   "title": "Four-way stops in Chocorua (Routes 16 and 113) and Tamworth Village",
+   "topic": "Parking & transportation",
+   "status": "On hold: the state Department of Transportation (NHDOT) paused the Chocorua four-way stop in June 2026 to review a corridor study first",
+   "next": null,
+   "summary": "NHDOT offered to add four-way stops at several intersections on Route 113. In April the Select Board asked for one at Routes 16 and 113 in Chocorua and for turning the Tamworth Village three-way stop into a four-way stop. In June NHDOT said it had decided not to do the Chocorua project for now.",
+   "points": [
+    "March 2026: NHDOT engineers proposed four-way stops at Routes 113 and 16, Route 113 and Page Hill Road, and Route 113 at 113A and Main Street (Conway Daily Sun).",
+    "NHDOT counted 23 crashes at the Chocorua intersection over about ten years, 18 involving more than one vehicle (Conway Daily Sun).",
+    "April 14: the board voted 4-1 (Schaeffer no) to send NHDOT a letter supporting the Chocorua stop, on condition that NHDOT reviews it within a year of construction and the town keeps working on better speed limit signs.",
+    "April 14: the board voted 4-1 (Prentice no) to ask NHDOT to make the Village three-way stop a four-way stop, leaving the slip lane as is. The Tamworth Village Safety Committee had recommended waiting for a larger engineering project.",
+    "The Chocorua Village Association supported the Route 16/113 stop but not one at Page Hill Road; the board did not request Page Hill.",
+    "June 23: at a listening session with about 60 people, the board was told NHDOT had \"decided not to do the project.\" The NHDOT commissioner said the state wants to review the corridor study and all options first; Executive Councilor Kenney said the study could take a couple of years.",
+    "Town Administrator Nolan said the board could pay for the study from budget funds without a special town meeting (Conway Daily Sun)."
+   ],
+   "keywords": [
+    "four-way stop",
+    "stop sign",
+    "route 16",
+    "route 113",
+    "chocorua",
+    "tamworth village",
+    "page hill",
+    "nhdot",
+    "corridor study",
+    "crosswalk",
+    "traffic"
+   ],
+   "sources": [
+    {
+     "label": "Select Board minutes, Apr 14, 2026",
+     "url": "https://www.tamworthnh.gov/AgendaCenter/ViewFile/Minutes/_04142026-212"
+    },
+    {
+     "label": "Conway Daily Sun, Apr 17, 2026: Tamworth selectmen back 4-way stops on Routes 16, 113",
+     "url": "https://www.conwaydailysun.com/news/local/tamworth-selectmen-back-4-way-stops-on-routes-16-113/article_dbb707d5-b765-49f6-a543-483f67a6a5b2.html"
+    },
+    {
+     "label": "Conway Daily Sun, Jun 24, 2026: NHDOT puts Tamworth four-way stop on hold",
+     "url": "https://www.conwaydailysun.com/news/local/nhdot-puts-tamworth-four-way-stop-on-hold/article_1e2255a9-ea70-47a2-a376-bf5cd664a0a5.html"
+    }
+   ],
+   "scope": "Town",
+   "related": [
+    {
+     "date": "2026-06-23",
+     "body": "Board of Selectmen",
+     "url": "https://www.conwaydailysun.com/news/local/nhdot-puts-tamworth-four-way-stop-on-hold/article_1e2255a9-ea70-47a2-a376-bf5cd664a0a5.html",
+     "d": {
+      "title": "NHDOT pauses the Chocorua four-way stop",
+      "detail": "Listening session of about 60 people; the state will review its corridor study first.",
+      "outcome": "no vote reported"
+     }
+    },
+    {
+     "date": "2026-04-14",
+     "body": "Board of Selectmen",
+     "url": "https://www.tamworthnh.gov/AgendaCenter/ViewFile/Minutes/_04142026-212",
+     "d": {
+      "title": "Asked NHDOT for four-way stops in Chocorua and Tamworth Village",
+      "detail": "Two letters, each approved by roll call.",
+      "outcome": "passed 4-1 (Schaeffer no); passed 4-1 (Prentice no)"
+     }
+    }
+   ],
+   "needs_review": true,
+   "review_note": "The June 23 session comes from the Conway Daily Sun; those Select Board minutes were not opened. The Daily Sun calls Schaeffer the board chair, while the April 14 minutes and the town's Select Board page name Karl Behr chair. What NHDOT decided about the Tamworth Village stop was not reported."
+  },
+  {
+   "id": "building-notification-ordinance",
+   "title": "Required building notification (Regulatory Compliance Ordinance)",
+   "topic": "Housing & zoning",
+   "status": "In effect since June 25, 2026",
+   "next": null,
+   "summary": "Voters adopted a Regulatory Compliance Ordinance at the March 10, 2026 Town Meeting. It makes building notification required again and sets up an application for a certificate of regulatory compliance, so town officials learn when a project needs Planning Board or Select Board review under rules the town already has.",
+   "points": [
+    "Supporters said it adds no new land use rules; it is a way to tell officials when work, such as a driveway permit, earth excavation or a subdivision, triggers existing rules (Citizen Portal summary of the January hearing).",
+    "Voters approved a building notification form in 2004, but it was later made voluntary because it had been adopted under the wrong state law; the town gets about 80 voluntary notifications a year (same summary).",
+    "The draft carried over a $5,000 project threshold from the old form; presenters said it could be clarified as the form and fee schedule are written.",
+    "After the public hearing, the Select Board voted by voice to put the ordinance on the March ballot, with no recorded opposition.",
+    "April 14: a job description for a Regulatory Compliance Officer was due to come to the Select Board in May.",
+    "The ordinance and the 2026 Building Notification Form are posted on the town website; questions go to the Town Administrator, 603-323-7515 x14."
+   ],
+   "keywords": [
+    "building notification",
+    "regulatory compliance",
+    "ordinance",
+    "certificate of regulatory compliance",
+    "crc",
+    "permit",
+    "compliance officer",
+    "code enforcement"
+   ],
+   "sources": [
+    {
+     "label": "Town news, Jun 26, 2026: Now in Effect: Required Building Notification",
+     "url": "https://www.tamworthnh.gov/CivicAlerts.aspx?AID=56"
+    },
+    {
+     "label": "Citizen Portal, Jan 29, 2026: hearing forwards ordinance to ballot (AI summary of meeting video)",
+     "url": "https://cpo.soar.com/articles/7340383/New-Hampshire/Tamworth-hearing-forwards-regulatory-compliance-ordinance-to-ballot-after-public-questions-on-scope-and-fees"
+    },
+    {
+     "label": "Select Board minutes, Apr 14, 2026",
+     "url": "https://www.tamworthnh.gov/AgendaCenter/ViewFile/Minutes/_04142026-212"
+    }
+   ],
+   "scope": "Town",
+   "related": [],
+   "needs_review": true,
+   "review_note": "The hearing details come from a Citizen Portal AI summary of the meeting video, which gives no meeting date. The Town Meeting vote count and the final fee schedule were not found."
+  },
+  {
+   "id": "transfer-station-recycling",
+   "title": "Transfer Station rebuild and the new recycling center",
+   "topic": "Infrastructure & utilities",
+   "status": "Recycling center fully open (September 2026); ribbon cutting was set for September 29",
+   "next": null,
+   "summary": "A 2022 Town Meeting vote approved major improvements to recycling at the Transfer Station, 550 White Mountain Highway (Route 25). The station now has new equipment and a dedicated recycling building, which opened in September 2026. Part of the cost was planned to be covered by a federal U.S. Department of Agriculture (USDA) grant.",
+   "points": [
+    "Dec 22, 2025: the board approved buying a backhoe, a new compactor and four 45-yard containers, with delivery contingent on USDA reimbursement from a grant of up to about $493,000 (Citizen Portal summary).",
+    "At a meeting summarized March 7, 2026, the board let the Transfer Station Improvement Committee keep helping with bids and project delivery through the end of the year (Citizen Portal summary).",
+    "April 14: construction of the recycling building had started; a high water table might require raising it slightly.",
+    "April 14: the board voted, all yes, to send about a dozen food and beverage businesses a letter asking them to separate glass and aluminum, because trash tonnage costs the town double.",
+    "September 15: the town announced the recycling center was fully open after a soft opening, with aluminum and cardboard already being baled.",
+    "The 2026 draft budget lists $352,656 for the Transfer Station, up from $330,961 in 2025."
+   ],
+   "keywords": [
+    "transfer station",
+    "recycling",
+    "recycling center",
+    "dump",
+    "compactor",
+    "usda",
+    "grant",
+    "glass",
+    "aluminum",
+    "route 25",
+    "tsic"
+   ],
+   "sources": [
+    {
+     "label": "Town news, Sep 15, 2026: Recycling Center Now Open",
+     "url": "https://www.tamworthnh.gov/CivicAlerts.aspx?AID=70"
+    },
+    {
+     "label": "Select Board minutes, Apr 14, 2026",
+     "url": "https://www.tamworthnh.gov/AgendaCenter/ViewFile/Minutes/_04142026-212"
+    },
+    {
+     "label": "Citizen Portal, Dec 24, 2025: USDA-funded equipment purchases (AI summary of meeting video)",
+     "url": "https://cpo.soar.com/articles/7234154/New-Hampshire/Tamworth-board-approves-USDA-funded-equipment-purchases-for-transfer-station-after-grant-offer"
+    },
+    {
+     "label": "Citizen Portal, Mar 7, 2026: transfer station committee to continue (AI summary of meeting video)",
+     "url": "https://cpo.soar.com/articles/7625280/New-Hampshire/Select-Board-authorizes-transfer-station-committee-to-continue-staff-prepare-bids-for-compactor-and-bathroom-work"
+    },
+    {
+     "label": "Town of Tamworth 2026 draft budget",
+     "url": "https://www.tamworthnh.gov/DocumentCenter/View/4108/2026-Draft-Budget---Print-Ready"
+    }
+   ],
+   "scope": "Town",
+   "related": [
+    {
+     "date": "2026-04-14",
+     "body": "Board of Selectmen",
+     "url": "https://www.tamworthnh.gov/AgendaCenter/ViewFile/Minutes/_04142026-212",
+     "d": {
+      "title": "Letter asking businesses to separate glass and aluminum",
+      "detail": "Sent to about a dozen food and beverage businesses.",
+      "outcome": "roll call: all yes"
+     }
+    }
+   ],
+   "needs_review": true,
+   "review_note": "Grant and equipment details come from Citizen Portal AI summaries, not minutes. Final project costs and whether the USDA reimbursement was received were not found."
+  },
+  {
+   "id": "ev-charger-town-office",
+   "title": "Public electric vehicle charger at the Town Office",
+   "topic": "Infrastructure & utilities",
+   "status": "Approved for construction September 9, 2026; ribbon cutting expected mid to late October",
+   "next": null,
+   "summary": "Voters approved an electric vehicle (EV) charger project at the March 2026 Town Meeting. The Energy Committee raised the money from private donations, and the Select Board approved moving it into construction on September 9.",
+   "points": [
+    "One dual-port Blink Level 2 pedestal charger at the back of the expanded parking lot paved as part of the Tamworth Community Nurses Association (TCNA) building project.",
+    "Paid for with 50 private donations totaling $22,651 from seven businesses and organizations, 43 households and two in-kind donors; TCNA also paid about $5,000 for trenching and conduit.",
+    "Local and donated labor cut costs by about $4,000. Power use will be managed through the Town Office electrical panel.",
+    "Next steps listed in September: order equipment, pour a concrete pad, install and test, set up payment, then a public ribbon cutting.",
+    "Questions: TamworthEnergy@TamworthNH.gov."
+   ],
+   "keywords": [
+    "ev charger",
+    "electric vehicle",
+    "charging station",
+    "energy committee",
+    "blink",
+    "town office",
+    "donations"
+   ],
+   "sources": [
+    {
+     "label": "Town news, Sep 17, 2026: EV Chargers Coming Soon (Energy Committee)",
+     "url": "https://www.tamworthnh.gov/CivicAlerts.aspx?AID=71"
+    }
+   ],
+   "scope": "Town",
+   "related": [
+    {
+     "date": "2026-09-09",
+     "body": "Board of Selectmen",
+     "url": "https://www.tamworthnh.gov/CivicAlerts.aspx?AID=71",
+     "d": {
+      "title": "EV charger project approved for construction",
+      "detail": "Funded by private donations.",
+      "outcome": "approved (vote not given in the source)"
+     }
+    }
+   ],
+   "needs_review": true,
+   "review_note": "The September 9 vote comes from the Energy Committee's town notice; those minutes were not opened. Whether the charger opened in October was not confirmed."
+  },
+  {
+   "id": "master-plan-update",
+   "title": "Updating the 2008 Master Plan, starting with housing",
+   "topic": "Housing & zoning",
+   "status": "Planning Board work under way; the board is seeking an interim member and an alternate",
+   "next": null,
+   "summary": "Tamworth's Master Plan (the long-range plan that guides zoning) dates from 2008. The Planning Board began updating it in 2026, starting with the housing chapter, with help from the Lakes Region Planning Commission (LRPC). It is also revising its subdivision rules.",
+   "points": [
+    "March 25: the board discussed forming a Master Plan committee with substantial public participation; most of the work was expected in the fall. Members were asked to read the housing chapter before May 13.",
+    "April 14: the Select Board heard that the Planning Board's May 13 work session would start the Master Plan with housing, with an LRPC team attending.",
+    "A Master Plan survey flyer is posted on the Planning Board page.",
+    "Subdivision regulation changes under discussion include the definition of a \"site\" (which needs a legal opinion) and new major and minor subdivision categories.",
+    "October 14: the board is seeking an interim member (term to March 2027) and an alternate; contact Chair Elsa Weintraub at pbchair@tamworthnh.gov.",
+    "The Planning Board meets the fourth Wednesday of the month at 5:30 PM."
+   ],
+   "keywords": [
+    "master plan",
+    "housing",
+    "planning board",
+    "subdivision regulations",
+    "lrpc",
+    "lakes region planning commission",
+    "survey"
+   ],
+   "sources": [
+    {
+     "label": "Planning Board page",
+     "url": "https://www.tamworthnh.gov/1280/Planning-Board"
+    },
+    {
+     "label": "Planning Board minutes, Mar 25, 2026",
+     "url": "https://www.tamworthnh.gov/AgendaCenter/ViewFile/Minutes/_03252026-203"
+    },
+    {
+     "label": "Select Board minutes, Apr 14, 2026",
+     "url": "https://www.tamworthnh.gov/AgendaCenter/ViewFile/Minutes/_04142026-212"
+    },
+    {
+     "label": "Town news, Oct 14, 2026: Planning Board seeking members",
+     "url": "https://www.tamworthnh.gov/CivicAlerts.aspx?AID=75"
+    }
+   ],
+   "scope": "Town",
+   "related": [
+    {
+     "date": "2026-03-25",
+     "body": "Planning Board",
+     "url": "https://www.tamworthnh.gov/AgendaCenter/ViewFile/Minutes/_03252026-203",
+     "d": {
+      "title": "Master Plan committee discussed",
+      "detail": "Housing chapter first; most work in the fall.",
+      "outcome": "discussion, no vote"
+     }
+    }
+   ],
+   "needs_review": true,
+   "review_note": "Planning Board minutes after March 25 could not be opened, so progress since May is unknown."
+  },
+  {
+   "id": "capital-plan-2027-budget",
+   "title": "Capital Improvement Program and the 2027 budget",
+   "topic": "Budget & taxes",
+   "status": "Capital Improvement Plan Committee approved its plan September 16; it went to the Planning Board September 23 and the Select Board October 13",
+   "next": null,
+   "summary": "Each year a town committee updates the Capital Improvement Program (CIP, a schedule of big purchases and savings for them) ahead of the next Town Meeting. The 2026 draft budget cut capital spending sharply from 2025 and used no surplus to lower taxes.",
+   "points": [
+    "Sept 16: the CIP Committee approved the plan unanimously after a public hearing; Nick Grant was to present it to the Planning Board on September 23 and Chair Kathi Padgett to the Select Board on October 13.",
+    "The 2026 draft budget lists $347,320 for capital improvements, down from $1,308,976 in 2025.",
+    "The draft lists $157,000 for the fire truck capital reserve (warrant article 5) and $150,000 for the bridge capital reserve (warrant article 6).",
+    "The draft used $0 from fund balance (town savings) in 2026, compared with $611,514 in 2025, and estimates $3,243,606 to be raised by taxes, up from $2,535,752.",
+    "Tamworth's 2025 total tax rate was $14.78 per $1,000: town $3.37, local school $9.59, state education $1.09, county $0.73 (NH DRA)."
+   ],
+   "keywords": [
+    "capital improvement",
+    "cip",
+    "budget",
+    "capital reserve",
+    "fire truck",
+    "bridge",
+    "fund balance",
+    "tax rate",
+    "warrant"
+   ],
+   "sources": [
+    {
+     "label": "CIP Committee minutes, Sep 16, 2026 (draft)",
+     "url": "https://www.tamworthnh.gov/AgendaCenter/ViewFile/Minutes/_09162026-301"
+    },
+    {
+     "label": "Town of Tamworth 2026 draft budget",
+     "url": "https://www.tamworthnh.gov/DocumentCenter/View/4108/2026-Draft-Budget---Print-Ready"
+    },
+    {
+     "label": "NH DRA 2025 Municipal Tax Rates (copy hosted by the Town of Acworth)",
+     "url": "https://www.acworthnh.net/_files/ugd/a327e9_a3f47ac2d74a46b7bb7c6b1467f85e8c.pdf"
+    }
+   ],
+   "scope": "Town",
+   "related": [
+    {
+     "date": "2026-09-16",
+     "body": "Capital Improvement Plan Committee",
+     "url": "https://www.tamworthnh.gov/AgendaCenter/ViewFile/Minutes/_09162026-301",
+     "d": {
+      "title": "CIP approved and sent to the Planning Board",
+      "detail": "Public hearing held the same night.",
+      "outcome": "approved unanimously"
+     }
+    }
+   ],
+   "needs_review": true,
+   "review_note": "Budget figures are from the draft budget, not the amounts voted at Town Meeting. A Citizen Portal summary of a budget review cites $152,000 for the fire truck reserve and a $350,000 Depot Road bridge repair article, which differ from the draft; the warrant itself could not be read. The September 23 and October 13 meetings were not opened."
+  },
+  {
+   "id": "school-tax-cap-question",
+   "title": "School tax cap question on the November 3 ballot",
+   "topic": "Schools",
+   "status": "Voters decide November 3, 2026",
+   "next": "2026-11-03: State general election, K.A. Brett School gymnasium, 8 AM to 7 PM",
+   "summary": "A new state law (HB 1300, Chapter 324) puts a question on the November 2026 and November 2028 ballots asking whether to cap the local school tax. It also caps school central office administrative costs. SAU 13, which serves Tamworth, Madison and Freedom, has posted explainers.",
+   "points": [
+    "SAU 13 says the question goes on the ballot automatically, bypassing local warrant articles and town meeting votes.",
+    "SAU 13 posted four explainers: what the tax cap law is, what is in the budget, local control and costs, and unintended consequences.",
+    "The local school share was $9.59 of Tamworth's $14.78 tax rate in 2025, about 65 percent (NH DRA)."
+   ],
+   "keywords": [
+    "tax cap",
+    "school tax",
+    "hb 1300",
+    "ballot question",
+    "sau 13",
+    "school budget",
+    "k.a. brett"
+   ],
+   "sources": [
+    {
+     "label": "SAU 13: Tax Cap Information",
+     "url": "https://www.sau13.org/home/tax-cap-information"
+    },
+    {
+     "label": "Town of Tamworth home page (tax cap notice)",
+     "url": "https://www.tamworthnh.gov/"
+    },
+    {
+     "label": "NH DRA 2025 Municipal Tax Rates (copy hosted by the Town of Acworth)",
+     "url": "https://www.acworthnh.net/_files/ugd/a327e9_a3f47ac2d74a46b7bb7c6b1467f85e8c.pdf"
+    }
+   ],
+   "scope": "Town",
+   "related": [],
+   "needs_review": true,
+   "review_note": "The exact ballot wording was not read: Tamworth's sample ballot is a scanned file that could not be opened."
+  }
+ ],
+ "council_meetings": [
+  {
+   "body": "Board of Selectmen",
+   "date": "2026-09-09",
+   "minutes_url": "https://www.tamworthnh.gov/CivicAlerts.aspx?AID=71",
+   "minutes_status": "official notice",
+   "ocr": false,
+   "source_note": "The town's Agenda Center lists approved minutes for this meeting (https://www.tamworthnh.gov/AgendaCenter/ViewFile/Minutes/_09092026-293), but they could not be opened for this research. This entry comes from the Energy Committee's September 17 town news notice, which describes one action; other business is not shown.",
+   "attendance": {
+    "present": [],
+    "absent": []
+   },
+   "headline": "Selectmen approved moving the donor-funded electric vehicle charger at the Town Office into construction.",
+   "decisions": [
+    {
+     "title": "Approved moving the Tamworth EV Charger Project into construction",
+     "detail": "One dual-port Level 2 charger behind the Town Office, paid for by $22,651 in private donations; voters approved the project at the March Town Meeting.",
+     "outcome": "approved (vote not given in the source)",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": null,
+     "dissent": [],
+     "topic": "Infrastructure & utilities",
+     "dollars": null,
+     "ordinance_reading": null,
+     "needs_review": true,
+     "review_note": "Vote, mover and attendance are in the September 9 minutes, which could not be opened."
+    }
+   ],
+   "discussed": [],
+   "public_comment": [],
+   "coming_up": []
+  },
+  {
+   "body": "Board of Selectmen",
+   "date": "2026-06-23",
+   "minutes_url": "https://www.tamworthnh.gov/AgendaCenter/ViewFile/Minutes/_06232026-246",
+   "minutes_status": "final",
+   "ocr": false,
+   "source_note": "Only the nonpublic session minutes (listed as approved) could be opened; the public session minutes were not. The listening session is from a Conway Daily Sun report (June 24, 2026). The nonpublic sessions were held 5 to 6 PM at the Town House, 27 Cleveland Hill Road, and their attendance list names Roberts, Schaeffer and Behr only.",
+   "attendance": {
+    "present": [
+     "Behr",
+     "Roberts",
+     "Schaeffer"
+    ],
+    "absent": [
+     "Doucette",
+     "Prentice"
+    ]
+   },
+   "headline": "Selectmen learned the state has paused the Chocorua four-way stop to review a corridor study, at a listening session of about 60 people.",
+   "decisions": [
+    {
+     "title": "Approved a pay change for an employee after an annual evaluation",
+     "detail": "Decided in nonpublic session under RSA 91-A:3, II(a) (personnel); amounts not shown here. The minutes were not sealed.",
+     "outcome": "carried (roll call: Schaeffer yes, Behr yes, Roberts yes)",
+     "moved_by": "Schaeffer",
+     "seconded_by": "Roberts",
+     "roll_call": {
+      "yes": [
+       "Schaeffer",
+       "Behr",
+       "Roberts"
+      ],
+      "no": []
+     },
+     "dissent": [],
+     "topic": "Government & elections",
+     "dollars": null,
+     "ordinance_reading": null,
+     "needs_review": false,
+     "review_note": null
+    }
+   ],
+   "discussed": [
+    {
+     "title": "Chocorua four-way stop paused",
+     "detail": "Schaeffer opened the listening session and said an email from the state said NHDOT had \"decided not to do the project.\" NHDOT Commissioner David Rodrigue said the state wants to review the corridor study and all options first; project manager Corey Spetelunas said the pause followed talks with state Sen. Mark McConkey, who opposed stop signs on that stretch. Executive Councilor Joe Kenney said the study could take a couple of years.",
+     "topic": "Parking & transportation"
+    },
+    {
+     "title": "Paying for the corridor study",
+     "detail": "Town Administrator Emily Nolan said the board could use budget funds, so no special town meeting would be needed.",
+     "topic": "Budget & taxes"
+    },
+    {
+     "title": "Nonpublic session on tax-deeded property",
+     "detail": "A second closed session under RSA 91-A:3, II(c) covered upcoming tax-deeded properties (property the town takes for unpaid taxes); no motions were recorded.",
+     "topic": "Budget & taxes"
+    }
+   ],
+   "public_comment": [
+    {
+     "topic": "Chocorua four-way stop",
+     "speakers": null,
+     "gist": "Attendees were invited to speak; a resident living near the intersection raised noise, smog and traffic concerns and said drivers do not know how to use a four-way stop."
+    }
+   ],
+   "coming_up": []
+  },
+  {
+   "body": "Board of Selectmen",
+   "date": "2026-04-14",
+   "minutes_url": "https://www.tamworthnh.gov/AgendaCenter/ViewFile/Minutes/_04142026-212",
+   "minutes_status": "final",
+   "ocr": false,
+   "source_note": "Held at Cook Memorial Library, 93 Main Street, 4:30 to 6:47 PM. The file is headed \"Meeting Minutes, Amended 5/22/26\" and the Agenda Center lists it as approved; the signature lines are blank.",
+   "attendance": {
+    "present": [
+     "Behr",
+     "Doucette",
+     "Prentice",
+     "Roberts",
+     "Schaeffer"
+    ],
+    "absent": []
+   },
+   "headline": "Selectmen asked the state for four-way stops in Chocorua and Tamworth Village (each 4-1), approved a Town Forest timber harvest and chose Karl Behr as chair.",
+   "decisions": [
+    {
+     "title": "Supported a four-way stop at Routes 16 and 113 in Chocorua",
+     "detail": "Letter to NHDOT with two conditions: a state review within one year of construction, and work on better speed limit signs.",
+     "outcome": "passed 4-1 (roll call: Doucette yes, Prentice yes, Roberts yes, Schaeffer no, Behr yes)",
+     "moved_by": "Doucette",
+     "seconded_by": "Schaeffer",
+     "roll_call": {
+      "yes": [
+       "Doucette",
+       "Prentice",
+       "Roberts",
+       "Behr"
+      ],
+      "no": [
+       "Schaeffer"
+      ]
+     },
+     "dissent": [
+      "Schaeffer"
+     ],
+     "topic": "Parking & transportation",
+     "dollars": null,
+     "ordinance_reading": null,
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Asked NHDOT to make the Tamworth Village three-way stop a four-way stop",
+     "detail": "The slip lane stays as is. The Tamworth Village Safety Committee had recommended waiting for a larger engineering project.",
+     "outcome": "passed 4-1 (roll call: Doucette yes, Prentice no, Roberts yes, Schaeffer yes, Behr yes)",
+     "moved_by": "Doucette",
+     "seconded_by": "Schaeffer",
+     "roll_call": {
+      "yes": [
+       "Doucette",
+       "Roberts",
+       "Schaeffer",
+       "Behr"
+      ],
+      "no": [
+       "Prentice"
+      ]
+     },
+     "dissent": [
+      "Prentice"
+     ],
+     "topic": "Parking & transportation",
+     "dollars": null,
+     "ordinance_reading": null,
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Approved a timber harvest on the Town Forest lot",
+     "detail": "Intent to cut on Map 414, Lot 43, hiring the logger recommended by Tim Nolin; the Conservation Commission recommended going ahead.",
+     "outcome": "roll call: all yes",
+     "moved_by": "Roberts",
+     "seconded_by": "Schaeffer",
+     "roll_call": {
+      "yes": [
+       "Doucette",
+       "Prentice",
+       "Roberts",
+       "Schaeffer",
+       "Behr"
+      ],
+      "no": []
+     },
+     "dissent": [],
+     "topic": "Environment & resilience",
+     "dollars": null,
+     "ordinance_reading": null,
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Made appointments, including Karl Behr as Select Board chair",
+     "detail": "Behr as chair for one year; Andrew Moore as a Trustee of the Trust Funds for one year; Grant Prillaman as Sewer Commissioner for three years.",
+     "outcome": "roll call: all yes",
+     "moved_by": "Roberts",
+     "seconded_by": "Schaeffer",
+     "roll_call": {
+      "yes": [
+       "Doucette",
+       "Prentice",
+       "Roberts",
+       "Schaeffer",
+       "Behr"
+      ],
+      "no": []
+     },
+     "dissent": [],
+     "topic": "Government & elections",
+     "dollars": null,
+     "ordinance_reading": null,
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Asked food and beverage businesses to separate glass and aluminum",
+     "detail": "Letter to about a dozen businesses, because trash tonnage costs the town double.",
+     "outcome": "roll call: all yes",
+     "moved_by": "Doucette",
+     "seconded_by": "Schaeffer",
+     "roll_call": {
+      "yes": [
+       "Doucette",
+       "Prentice",
+       "Roberts",
+       "Schaeffer",
+       "Behr"
+      ],
+      "no": []
+     },
+     "dissent": [],
+     "topic": "Infrastructure & utilities",
+     "dollars": null,
+     "ordinance_reading": null,
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Approved accounts payable of $406,506.45",
+     "detail": "",
+     "outcome": "roll call: all yes",
+     "moved_by": "Roberts",
+     "seconded_by": "Schaeffer",
+     "roll_call": {
+      "yes": [
+       "Doucette",
+       "Prentice",
+       "Roberts",
+       "Schaeffer",
+       "Behr"
+      ],
+      "no": []
+     },
+     "dissent": [],
+     "topic": "Budget & taxes",
+     "dollars": 406506.45,
+     "ordinance_reading": null,
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Signed routine tax and land items",
+     "detail": "Minutes of March 24 (public and nonpublic), elderly and solar exemptions, a veterans tax credit, intents to cut and excavate, and excavation reports.",
+     "outcome": "roll call: all yes",
+     "moved_by": "Roberts",
+     "seconded_by": "Schaeffer",
+     "roll_call": {
+      "yes": [
+       "Doucette",
+       "Prentice",
+       "Roberts",
+       "Schaeffer",
+       "Behr"
+      ],
+      "no": []
+     },
+     "dissent": [],
+     "topic": "Budget & taxes",
+     "dollars": null,
+     "ordinance_reading": null,
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Denied one veterans tax credit and one elderly exemption application",
+     "detail": "",
+     "outcome": "roll call: all yes",
+     "moved_by": "Roberts",
+     "seconded_by": "Schaeffer",
+     "roll_call": {
+      "yes": [
+       "Doucette",
+       "Prentice",
+       "Roberts",
+       "Schaeffer",
+       "Behr"
+      ],
+      "no": []
+     },
+     "dissent": [],
+     "topic": "Budget & taxes",
+     "dollars": null,
+     "ordinance_reading": null,
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Approved a raffle permit for the Bearcamp Valley Sportsman Club",
+     "detail": "",
+     "outcome": "roll call: all yes",
+     "moved_by": "Roberts",
+     "seconded_by": "Schaeffer",
+     "roll_call": {
+      "yes": [
+       "Doucette",
+       "Prentice",
+       "Roberts",
+       "Schaeffer",
+       "Behr"
+      ],
+      "no": []
+     },
+     "dissent": [],
+     "topic": "Other",
+     "dollars": null,
+     "ordinance_reading": null,
+     "needs_review": false,
+     "review_note": null
+    }
+   ],
+   "discussed": [
+    {
+     "title": "Public listening session on intersection safety",
+     "detail": "Prentice recapped NHDOT's four-way stop presentation. Residents raised a one-way road used as two-way, GPS routing trucks through the village, and the cost of signs, rumble strips and speed signs. Roundabouts were ruled out at Routes 16 and 113, and traffic lights were judged likely to worsen backups. Annual paint upkeep was cited at about $1,500.",
+     "topic": "Parking & transportation"
+    },
+    {
+     "title": "Buildings and grounds",
+     "detail": "Director Rick Moreau reported the switch from plowing to mowing, Transfer Station projects, a library elevator lift being installed, and the tennis courts open.",
+     "topic": "City buildings & facilities"
+    },
+    {
+     "title": "Recycling building",
+     "detail": "Construction has started; a high water table may require raising the building slightly. Doucette also attended the Tamworth Village Commons groundbreaking.",
+     "topic": "Infrastructure & utilities"
+    },
+    {
+     "title": "Planning and LRPC",
+     "detail": "Prentice said a Regulatory Compliance Officer job description goes to the board in May and the Planning Board's May 13 work session starts the Master Plan with housing.",
+     "topic": "Housing & zoning"
+    },
+    {
+     "title": "Administrator's report",
+     "detail": "Town account balance of $2,848,357. The first May meeting moves to 6 PM.",
+     "topic": "Budget & taxes"
+    },
+    {
+     "title": "Nonpublic session",
+     "detail": "Under RSA 91-A:3, II(c); the minutes say the public minutes are not sealed.",
+     "topic": "Government & elections"
+    }
+   ],
+   "public_comment": [
+    {
+     "topic": "Intersection safety and four-way stops",
+     "speakers": null,
+     "gist": "Many residents attended in person and on Zoom; some backed the stops and others raised business impacts, truck traffic and cost."
+    }
+   ],
+   "coming_up": [
+    {
+     "date": "2026-04-28",
+     "item": "Select Board meeting with a light agenda (Doucette, Behr and Roberts expected)"
+    },
+    {
+     "date": "2026-05-13",
+     "item": "Planning Board work session starting the Master Plan with housing"
+    },
+    {
+     "date": null,
+     "item": "Regulatory Compliance Officer job description to the Select Board in May"
+    }
+   ]
+  }
+ ],
+ "board_meetings": [
+  {
+   "body": "Capital Improvement Plan Committee",
+   "date": "2026-09-16",
+   "record_url": "https://www.tamworthnh.gov/AgendaCenter/ViewFile/Minutes/_09162026-301",
+   "record_type": "minutes (draft)",
+   "headline": "After a public hearing, the CIP Committee unanimously approved its capital plan and sent it to the Planning Board and the Select Board.",
+   "items": [],
+   "policy_items": [
+    {
+     "title": "Capital Improvement Program approved",
+     "detail": "Approved unanimously to send to the Planning Board; Nick Grant to present it September 23 and Chair Kathi Padgett to the Select Board October 13. The plan's figures are in a separate spreadsheet not included in the minutes.",
+     "topic": "Budget & taxes",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "School LED lighting",
+     "detail": "LED lighting at the school may happen sooner if the school gets a rebate; the committee said the report would not change.",
+     "topic": "Schools",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Public hearing",
+     "detail": "One resident asked how meetings run and about budget projections.",
+     "topic": "Budget & taxes",
+     "needs_review": false,
+     "review_note": null
+    }
+   ]
+  },
+  {
+   "body": "Planning Board",
+   "date": "2026-03-25",
+   "record_url": "https://www.tamworthnh.gov/AgendaCenter/ViewFile/Minutes/_03252026-203",
+   "record_type": "minutes",
+   "headline": "The Planning Board elected Elsa Weintraub chair, reviewed revised plans for a multi-unit housing project on Tamworth Road and began organizing the Master Plan update.",
+   "items": [
+    {
+     "address": "43 Tamworth Road (Map 202, Lot 16)",
+     "applicant": "Betty C. Ketchum Foundation",
+     "request": "Multi-unit housing development approved June 25, 2025 with conditions; revised plans reviewed.",
+     "decision": "fixes required: correct a spelling, add lot loading calculations and submit a new mylar (final signed plan) for signature",
+     "vote": null,
+     "conditions": [],
+     "topic": "Housing & zoning",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "address": "Map 216, Lots 37 and 38 (East Chocorua River Drive)",
+     "applicant": "property owners",
+     "request": "Merge two lots into one.",
+     "decision": "struck from the agenda; to be resubmitted when ready",
+     "vote": null,
+     "conditions": [],
+     "topic": "Housing & zoning",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "address": "85 Main Street (Map 202, Lot 56)",
+     "applicant": "a property trust",
+     "request": "Condominium conversion approved August 8, 2025 with conditions (final plan, a Sewer Commission capacity letter, and a state subdivision approval or exemption letter).",
+     "decision": "not discussed at this meeting",
+     "vote": null,
+     "conditions": [],
+     "topic": "Housing & zoning",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "address": "Maple Road",
+     "applicant": "property owner",
+     "request": "Follow-up on well monitoring at a previously approved site.",
+     "decision": "the town's engineer (HEB) found the well monitoring acceptable; the owner will get site reports",
+     "vote": null,
+     "conditions": [],
+     "topic": "Environment & resilience",
+     "needs_review": false,
+     "review_note": null
+    }
+   ],
+   "policy_items": [
+    {
+     "title": "Officers elected",
+     "detail": "Elsa Weintraub chair, Ann Pollard vice chair, Andy Fisher secretary, Larry Nickerson treasurer; approved unanimously.",
+     "topic": "Government & elections",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Master Plan update",
+     "detail": "Discussed forming a committee with substantial public participation; most work in the fall; members to read the housing chapter before May 13.",
+     "topic": "Housing & zoning",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Subdivision regulations",
+     "detail": "Debated how to define a \"site\" (any change needs a legal opinion); Prentice and Fisher to draft major and minor subdivision categories.",
+     "topic": "Housing & zoning",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Lot merger form",
+     "detail": "Second reading done; a checkbox for mortgages or liens will be added and the reading process restarts in April.",
+     "topic": "Housing & zoning",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "NHDOT all-way stops",
+     "detail": "Chocorua was expected to get two all-way stops (Routes 16 and 113, and the bottom of Page Hill), with public hearings to come.",
+     "topic": "Parking & transportation",
+     "needs_review": false,
+     "review_note": null
+    }
+   ]
+  }
+ ],
+ "officials": {
+  "council": [
+   {
+    "name": "Karl Behr",
+    "last": "Behr",
+    "role": "Chair",
+    "votes2025": null,
+    "term": null,
+    "ward": null,
+    "note": "Chosen chair for one year on April 14, 2026 (roll call, all yes). His seat was on the March 2025 ballot (Conway Daily Sun); the result and term end were not found. Email kbehr@tamworthnh.gov."
+   },
+   {
+    "name": "Lianne Prentice",
+    "last": "Prentice",
+    "role": "Select Board member",
+    "votes2025": null,
+    "term": null,
+    "ward": null,
+    "note": "Select Board representative on the Planning Board and the town's Lakes Region Planning Commission liaison. Her seat was on the March 2025 ballot; the result and term end were not found. Email lprentice@tamworthnh.gov."
+   },
+   {
+    "name": "Emery Roberts",
+    "last": "Roberts",
+    "role": "Select Board member",
+    "votes2025": null,
+    "term": "to 2027",
+    "ward": null,
+    "note": "Listed as chair in the 2024 annual report and presided on April 14, 2026 until Behr was chosen; took over as Cemetery liaison that day. Term from the 2024 annual report. Email eroberts@tamworthnh.gov."
+   },
+   {
+    "name": "Steven Schaeffer",
+    "last": "Schaeffer",
+    "role": "Select Board member",
+    "votes2025": null,
+    "term": "to 2027",
+    "ward": null,
+    "note": "Term from the 2024 annual report. Email sschaeffer@tamworthnh.gov."
+   },
+   {
+    "name": "Richard Doucette",
+    "last": "Doucette",
+    "role": "Select Board member",
+    "votes2025": null,
+    "term": null,
+    "ward": null,
+    "note": "The 2024 annual report lists his term as ending in 2026; he was still on the board in April 2026, but the March 2026 election result was not found. Email rdoucette@tamworthnh.gov."
+   }
+  ],
+  "councilNote": "Tamworth is governed by a five-member Select Board elected townwide, with Town Administrator Emily Nolan handling day-to-day work. The board meets Tuesdays at 5 PM at the Town Office, 84 Main Street, unless otherwise posted, with a Zoom option; the Select Board page lists upcoming meetings on November 10 and 24 and December 8.",
+  "railNote": "Chair Behr and four other select board members, all elected townwide.",
+  "rollCallNote": "Tamworth minutes record roll calls by last name; when the minutes say \"all yes,\" every member present is counted yes.",
+  "staff": [
+   {
+    "name": "Emily Nolan",
+    "role": "Town Administrator",
+    "since": null,
+    "note": "Runs town business day to day, takes the Select Board minutes and reports to the board.",
+    "phone": "603-323-7515 x14",
+    "src": "https://www.tamworthnh.gov/CivicAlerts.aspx?AID=56"
+   },
+   {
+    "name": "Kim Trammell",
+    "role": "Town Clerk / Tax Collector",
+    "since": null,
+    "note": "Elections, voter registration, car registrations, tax collection.",
+    "phone": null,
+    "src": "https://www.tamworthnh.gov/AgendaCenter/ViewFile/Minutes/_06232026-246"
+   },
+   {
+    "name": "Dana Littlefield",
+    "role": "Chief of Police",
+    "since": null,
+    "note": "Police Department at 100 Tamworth Road (Route 113).",
+    "phone": "603-323-8581",
+    "src": "https://www.tamworthnh.gov/1220/Police-Department"
+   },
+   {
+    "name": "Richard Colcord",
+    "role": "Fire Chief and Forest Fire Warden",
+    "since": null,
+    "note": "Fire Rescue Department at 132 Chinook Trail.",
+    "phone": "603-323-8874",
+    "src": "https://www.tamworthnh.gov/1206/Fire-Rescue-Department"
+   },
+   {
+    "name": "Rick Moreau",
+    "role": "Buildings and Grounds Director",
+    "since": null,
+    "note": null,
+    "phone": null,
+    "src": "https://www.tamworthnh.gov/AgendaCenter/ViewFile/Minutes/_04142026-212"
+   },
+   {
+    "name": "Melissa Donaldson",
+    "role": "Planning Board Clerk",
+    "since": null,
+    "note": "Also takes minutes for the Capital Improvement Plan Committee.",
+    "phone": null,
+    "src": "https://www.tamworthnh.gov/1280/Planning-Board"
+   }
+  ],
+  "schoolBoard": {
+   "note": "The Tamworth School Board governs the Tamworth School District (Kenneth A. Brett School), part of SAU 13 with Madison and Freedom. The SAU 13 office is at 881A Tamworth Road (603-323-5088). Members and terms are from the SAU 13 web page; meeting dates are posted in Google Drive folders that were not opened.",
+   "members": [
+    {
+     "name": "Shauna Peterson",
+     "role": "Chair",
+     "term": "to 2028"
+    },
+    {
+     "name": "Siena Kaplan-Thompson",
+     "role": "Vice Chair",
+     "term": "to 2027"
+    },
+    {
+     "name": "Melanie Streeter",
+     "term": "to 2029"
+    },
+    {
+     "name": "Devon Ames",
+     "term": "to 2029"
+    },
+    {
+     "name": "Hillary Behr",
+     "term": "to 2027",
+     "note": "Also a member of the town's Capital Improvement Plan Committee."
+    }
+   ],
+   "sources": [
+    "https://www.sau13.org/school-board/tamworth/school-board-members",
+    "https://www.sau13.org/school-board/tamworth/agendas-packets-minutes"
+   ],
+   "needs_review": false,
+   "review_note": null
+  },
+  "commissions": [],
+  "boards": [
+   {
+    "name": "Planning Board",
+    "meets": "Fourth Wednesday of the month at 5:30 PM; work sessions on other Wednesdays",
+    "does": "Reviews subdivisions and site plans, writes the Master Plan and proposes zoning changes for Town Meeting.",
+    "url": "https://www.tamworthnh.gov/1280/Planning-Board",
+    "members": [
+     "Elsa Weintraub (Chair)",
+     "Ann Pollard (Vice Chair)",
+     "Andy Fisher (Secretary)",
+     "Larry Nickerson (Treasurer)",
+     "Lianne Prentice (Select Board rep.)",
+     "Matt Dunn",
+     "Anna Paddock",
+     "Alternate: Nick Grant"
+    ],
+    "note": "Members as listed on the Planning Board page and in the March 25, 2026 minutes. As of October 14, 2026 the board is seeking an interim member (term to March 2027) and an alternate."
+   },
+   {
+    "name": "Zoning Board of Adjustment",
+    "meets": null,
+    "does": "Decides variances (permission to break a zoning rule for one property), special exceptions and appeals of zoning decisions.",
+    "url": "https://www.tamworthnh.gov/1331/Zoning-Board-of-Adjustment",
+    "members": [],
+    "note": "The 2026 roster and minutes could not be opened."
+   },
+   {
+    "name": "Capital Improvement Plan Committee",
+    "meets": null,
+    "does": "Updates the multi-year schedule of major purchases and reserve savings ahead of each Town Meeting.",
+    "url": "https://www.tamworthnh.gov/1253/Capital-Improvement-Plan-Committee",
+    "members": [
+     "Kathi Padgett (Chair)",
+     "Kyle Ball",
+     "Nick Grant",
+     "Hillary Behr",
+     "Ann Pollard",
+     "Emily Nolan"
+    ],
+    "note": "Members as listed in the September 16, 2026 minutes; Padgett will not continue after this year."
+   },
+   {
+    "name": "Sewer Commission",
+    "meets": null,
+    "does": "Oversees the town sewer system and confirms capacity for new projects.",
+    "url": "https://www.tamworthnh.gov/1302/Sewer-Commission",
+    "members": [
+     "Grant Prillaman (appointed April 14, 2026 for three years)"
+    ]
+   },
+   {
+    "name": "Board of Firewards",
+    "meets": null,
+    "does": "Oversees the Tamworth Fire Rescue Department.",
+    "url": "https://www.tamworthnh.gov/1206/Fire-Rescue-Department",
+    "members": [
+     "Jim Bowles (Chair, Fireward North)",
+     "John Hartley (Fireward East)",
+     "Andrew Brown (Fireward South)",
+     "Jeff Tavares (Fireward Tamworth)",
+     "Matt Baumann (Fireward at Large)"
+    ]
+   },
+   {
+    "name": "Conservation Commission",
+    "meets": null,
+    "does": "Advises on conservation land, natural resources and the Town Forest.",
+    "url": "https://www.tamworthnh.gov/1259/Conservation-Commission"
+   },
+   {
+    "name": "Transfer Station Improvement Committee",
+    "meets": null,
+    "does": "Helps with bids and project delivery for the Transfer Station and recycling center.",
+    "url": "https://www.tamworthnh.gov/1313/Transfer-Station-Improvement-Committee-T"
+   },
+   {
+    "name": "Energy Committee",
+    "meets": null,
+    "does": "Town energy projects, including the Town Office EV charger.",
+    "url": "https://www.tamworthnh.gov/1263/Energy-Committee"
+   },
+   {
+    "name": "Road Study Committee",
+    "meets": null,
+    "does": "Studies town roads.",
+    "url": "https://www.tamworthnh.gov/1289/Road-Study-Committee"
+   },
+   {
+    "name": "Tamworth Village Traffic Committee",
+    "meets": null,
+    "does": "Advises on traffic safety in Tamworth Village.",
+    "url": "https://www.tamworthnh.gov/1311/Tamworth-Village-Traffic-Committee"
+   }
+  ],
+  "sources": {
+   "roster": "https://www.tamworthnh.gov/1291/Select-Board",
+   "staff": "https://www.tamworthnh.gov/1291/Select-Board",
+   "chair": "https://www.tamworthnh.gov/AgendaCenter/ViewFile/Minutes/_04142026-212",
+   "election": "https://www.conwaydailysun.com/news/local/four-seek-two-selectman-seats-in-tamworth/article_c5118310-f9f5-11ef-b12b-93e9ab1a6c34.html"
+  }
+ },
+ "roll_call_votes": [
+  {
+   "date": "2026-06-23",
+   "title": "Approved a pay change for an employee after an annual evaluation (nonpublic session)",
+   "outcome": "carried (roll call: Schaeffer yes, Behr yes, Roberts yes)",
+   "yes": [
+    "Schaeffer",
+    "Behr",
+    "Roberts"
+   ],
+   "no": [],
+   "url": "https://www.tamworthnh.gov/AgendaCenter/ViewFile/Minutes/_06232026-246"
+  },
+  {
+   "date": "2026-04-14",
+   "title": "Approved accounts payable of $406,506.45",
+   "outcome": "roll call: all yes",
+   "yes": [
+    "Doucette",
+    "Prentice",
+    "Roberts",
+    "Schaeffer",
+    "Behr"
+   ],
+   "no": [],
+   "url": "https://www.tamworthnh.gov/AgendaCenter/ViewFile/Minutes/_04142026-212"
+  },
+  {
+   "date": "2026-04-14",
+   "title": "Asked food and beverage businesses to separate glass and aluminum",
+   "outcome": "roll call: all yes",
+   "yes": [
+    "Doucette",
+    "Prentice",
+    "Roberts",
+    "Schaeffer",
+    "Behr"
+   ],
+   "no": [],
+   "url": "https://www.tamworthnh.gov/AgendaCenter/ViewFile/Minutes/_04142026-212"
+  },
+  {
+   "date": "2026-04-14",
+   "title": "Appointed Karl Behr Select Board chair and made two other appointments",
+   "outcome": "roll call: all yes",
+   "yes": [
+    "Doucette",
+    "Prentice",
+    "Roberts",
+    "Schaeffer",
+    "Behr"
+   ],
+   "no": [],
+   "url": "https://www.tamworthnh.gov/AgendaCenter/ViewFile/Minutes/_04142026-212"
+  },
+  {
+   "date": "2026-04-14",
+   "title": "Approved a timber harvest on the Town Forest lot",
+   "outcome": "roll call: all yes",
+   "yes": [
+    "Doucette",
+    "Prentice",
+    "Roberts",
+    "Schaeffer",
+    "Behr"
+   ],
+   "no": [],
+   "url": "https://www.tamworthnh.gov/AgendaCenter/ViewFile/Minutes/_04142026-212"
+  },
+  {
+   "date": "2026-04-14",
+   "title": "Asked NHDOT to make the Tamworth Village three-way stop a four-way stop",
+   "outcome": "passed 4-1",
+   "yes": [
+    "Doucette",
+    "Roberts",
+    "Schaeffer",
+    "Behr"
+   ],
+   "no": [
+    "Prentice"
+   ],
+   "url": "https://www.tamworthnh.gov/AgendaCenter/ViewFile/Minutes/_04142026-212"
+  },
+  {
+   "date": "2026-04-14",
+   "title": "Supported a four-way stop at Routes 16 and 113 in Chocorua",
+   "outcome": "passed 4-1",
+   "yes": [
+    "Doucette",
+    "Prentice",
+    "Roberts",
+    "Behr"
+   ],
+   "no": [
+    "Schaeffer"
+   ],
+   "url": "https://www.tamworthnh.gov/AgendaCenter/ViewFile/Minutes/_04142026-212"
+  }
+ ],
+ "attendance": {
+  "Behr": {
+   "present": 2,
+   "total": 2
+  },
+  "Doucette": {
+   "present": 1,
+   "total": 2
+  },
+  "Prentice": {
+   "present": 1,
+   "total": 2
+  },
+  "Roberts": {
+   "present": 2,
+   "total": 2
+  },
+  "Schaeffer": {
+   "present": 2,
+   "total": 2
+  }
+ },
+ "attendance_from": "2026-04-14",
+ "attendance_note": "Counts only the two sets of Select Board minutes opened: April 14, 2026 (all five present) and the June 23, 2026 nonpublic session minutes, which list Roberts, Schaeffer and Behr. Doucette and Prentice may have attended the public part of the June 23 meeting, whose minutes were not opened. Minutes for 2026 meetings through October 13 are posted but could not be opened, so these are not full-term totals.",
+ "topics": [
+  {
+   "topic": "Budget & taxes",
+   "count": 3
+  },
+  {
+   "topic": "Parking & transportation",
+   "count": 2
+  },
+  {
+   "topic": "Infrastructure & utilities",
+   "count": 2
+  },
+  {
+   "topic": "Environment & resilience",
+   "count": 1
+  },
+  {
+   "topic": "Other",
+   "count": 1
+  }
+ ],
+ "budget": {
+  "fiscalYear": "2026 (calendar year, January to December 2026)",
+  "fundLabel": "town operating budget (2026 draft, without capital and transfers)",
+  "adopted": null,
+  "adoptedVote": "Voted in several articles at the March 2026 annual Town Meeting; the results were not found",
+  "generalFund": 4378282,
+  "priorGeneralFund": 4097268,
+  "changePct": 6.9,
+  "departments": [
+   {
+    "name": "Select Board",
+    "fy26": 24798,
+    "fy27": 25580,
+    "note": null
+   },
+   {
+    "name": "Town Administration",
+    "fy26": 268248,
+    "fy27": 197327,
+    "note": null
+   },
+   {
+    "name": "Town Clerk / Tax Collector",
+    "fy26": 208871,
+    "fy27": 178726,
+    "note": null
+   },
+   {
+    "name": "Supervisors of the Checklist",
+    "fy26": 5139,
+    "fy27": 8460,
+    "note": null
+   },
+   {
+    "name": "Treasurer",
+    "fy26": 7929,
+    "fy27": 8334,
+    "note": null
+   },
+   {
+    "name": "Data Processing",
+    "fy26": 71735,
+    "fy27": 70250,
+    "note": null
+   },
+   {
+    "name": "Assessing",
+    "fy26": 39508,
+    "fy27": 40728,
+    "note": null
+   },
+   {
+    "name": "Legal",
+    "fy26": 35000,
+    "fy27": 35000,
+    "note": null
+   },
+   {
+    "name": "Personnel",
+    "fy26": 1122,
+    "fy27": 302225,
+    "note": "The 2026 line includes a $300,000 health, dental and life insurance line with no 2025 figure; several department health insurance lines show no 2026 amount."
+   },
+   {
+    "name": "Planning Board",
+    "fy26": 18837,
+    "fy27": 14099,
+    "note": null
+   },
+   {
+    "name": "Code Enforcement",
+    "fy26": 14185,
+    "fy27": 14185,
+    "note": null
+   },
+   {
+    "name": "Zoning Board",
+    "fy26": 2065,
+    "fy27": 2065,
+    "note": null
+   },
+   {
+    "name": "Buildings and Grounds",
+    "fy26": 155587,
+    "fy27": 140921,
+    "note": null
+   },
+   {
+    "name": "Energy Committee",
+    "fy26": 1025,
+    "fy27": 1075,
+    "note": null
+   },
+   {
+    "name": "Cemeteries",
+    "fy26": 33485,
+    "fy27": 37755,
+    "note": null
+   },
+   {
+    "name": "Insurance",
+    "fy26": 71619,
+    "fy27": 74224,
+    "note": null
+   },
+   {
+    "name": "Police Department",
+    "fy26": 389037,
+    "fy27": 413813,
+    "note": null
+   },
+   {
+    "name": "Ambulance",
+    "fy26": 229916,
+    "fy27": 236814,
+    "note": null
+   },
+   {
+    "name": "Fire Department",
+    "fy26": 368370,
+    "fy27": 397121,
+    "note": null
+   },
+   {
+    "name": "Forest Fire Supplies",
+    "fy26": 5000,
+    "fy27": 5000,
+    "note": null
+   },
+   {
+    "name": "Animal Control",
+    "fy26": 3539,
+    "fy27": 3439,
+    "note": null
+   },
+   {
+    "name": "Emergency Management",
+    "fy26": 4430,
+    "fy27": 4968,
+    "note": null
+   },
+   {
+    "name": "Highway Department",
+    "fy26": 1064655,
+    "fy27": 1085424,
+    "note": null
+   },
+   {
+    "name": "Street Lights",
+    "fy26": 5000,
+    "fy27": 6000,
+    "note": null
+   },
+   {
+    "name": "Solid Waste Disposal",
+    "fy26": 15000,
+    "fy27": 15000,
+    "note": null
+   },
+   {
+    "name": "Transfer Station",
+    "fy26": 330961,
+    "fy27": 352656,
+    "note": null
+   },
+   {
+    "name": "Health Officer",
+    "fy26": 986,
+    "fy27": 896,
+    "note": null
+   },
+   {
+    "name": "General Assistance",
+    "fy26": 30740,
+    "fy27": 41460,
+    "note": null
+   },
+   {
+    "name": "Outside Agencies",
+    "fy26": 179306,
+    "fy27": 170399,
+    "note": "Funding for local nonprofits that ask the town for support."
+   },
+   {
+    "name": "Parks and Recreation",
+    "fy26": 149811,
+    "fy27": 133463,
+    "note": null
+   },
+   {
+    "name": "Swim Program",
+    "fy26": 17733,
+    "fy27": 19026,
+    "note": null
+   },
+   {
+    "name": "Patriotic Purposes",
+    "fy26": 18300,
+    "fy27": 22300,
+    "note": null
+   },
+   {
+    "name": "Cook Memorial Library",
+    "fy26": 312943,
+    "fy27": 312161,
+    "note": null
+   },
+   {
+    "name": "Conservation Commission",
+    "fy26": 12388,
+    "fy27": 7388,
+    "note": null
+   }
+  ],
+  "departmentsNote": "Tamworth budgets by calendar year, so 'fy26' here means the 2025 budget and 'fy27' the 2026 proposed budget. Figures are department totals from the town's 2026 draft budget (\"2026 Draft Budget, Print Ready\"), which has no date; the amounts voted at the March 2026 Town Meeting may differ. Tamworth votes its operating budget in several articles (in 2024, separate articles for General Government, Public Safety and Public Works), so there is no single operating budget article. The total shown adds the department lines above and leaves out Capital Improvements ($1,308,976 in 2025; $347,320 in 2026) and Operating Transfers Out ($461,572; $443,080). The draft's printed grand total is $5,867,813 for 2025 and $5,168,684 for 2026 (down 11.9%), and it lists the fire truck capital reserve ($157,000, article 5) and bridge capital reserve ($150,000, article 6). The 2026 warrant and MS-636 budget form are posted as scanned files that could not be read.",
+  "drivers": [
+   "The Personnel line rises from $1,122 to $302,225 because of a new $300,000 health, dental and life insurance line; several department health insurance lines show no 2026 amount.",
+   "Capital improvements fall from $1,308,976 in 2025 to $347,320 in the 2026 draft.",
+   "The draft uses no fund balance (town savings) to reduce taxes in 2026, after $611,514 in 2025, and estimates $3,243,606 to be raised by taxes, up from $2,535,752.",
+   "Estimated non-tax revenue falls from $3,332,062 to $1,925,078, mostly because of less capital reserve revenue ($594,100 to $26,000) and state and federal revenue ($921,922 to $693,935)."
+  ],
+  "revenue": {
+   "propertyTaxLevy": 3243606,
+   "nonPropertyTax": 1925078,
+   "nonPropertyTaxDetail": [
+    {
+     "name": "Motor vehicle permits and title fees",
+     "amount": 715040
+    },
+    {
+     "name": "State and federal revenue",
+     "amount": 693935
+    },
+    {
+     "name": "Land use change taxes",
+     "amount": 112500
+    },
+    {
+     "name": "Interest on investments",
+     "amount": 100000
+    },
+    {
+     "name": "Offsets (including Cook Memorial Library and sewer)",
+     "amount": 92532
+    },
+    {
+     "name": "Interest on taxes",
+     "amount": 55400
+    }
+   ],
+   "note": "From the 2026 draft budget's estimated revenues ($1,925,078 in all, no fund balance used). The draft estimates $3,243,606 to be raised by town property taxes. The state's 2025 tax table shows a total 2025 commitment (all property taxes billed for town, schools, state education and county) of $10,765,396 on a valuation of $713,704,312."
+  },
+  "taxRate": {
+   "fy27Estimate": null,
+   "fy26": 14.78,
+   "rateLabel": "2025 tax year",
+   "note": "Dollars per $1,000 of assessed value, set October 29, 2025. No village precinct rate for Tamworth appears in the state table. The 2026 rate had not been set as of October 31, 2026.",
+   "components": [
+    {
+     "name": "Town",
+     "fy26": 3.37,
+     "fy27": null,
+     "fy25": 3.57
+    },
+    {
+     "name": "Schools (local)",
+     "fy26": 9.59,
+     "fy27": null,
+     "fy25": 9.01
+    },
+    {
+     "name": "State education tax",
+     "fy26": 1.09,
+     "fy27": null,
+     "fy25": 1.11
+    },
+    {
+     "name": "Carroll County",
+     "fy26": 0.73,
+     "fy27": null,
+     "fy25": 0.74
+    }
+   ],
+   "history": [
+    {
+     "fy": "2024 tax year",
+     "rate": 14.43,
+     "note": "Town $3.57, local school $9.01, state education $1.11, county $0.74"
+    },
+    {
+     "fy": "2025 tax year",
+     "rate": 14.78,
+     "note": "The town portion fell 5.6% and the local school portion rose 6.4%"
+    }
+   ],
+   "medianHome": {
+    "value": null,
+    "note": "No town-published median assessment was found.",
+    "source": null
+   }
+  },
+  "taxDollar": {
+   "label": "Where a Tamworth tax dollar goes (2025 tax rate)",
+   "items": [
+    {
+     "name": "Schools (local)",
+     "pct": 64.9
+    },
+    {
+     "name": "Town",
+     "pct": 22.8
+    },
+    {
+     "name": "State education tax",
+     "pct": 7.4
+    },
+    {
+     "name": "Carroll County",
+     "pct": 4.9
+    }
+   ]
+  },
+  "enterprise": [],
+  "waterSewerBill": null,
+  "debtOutstanding": null,
+  "valuation": {
+   "assessed": 713704312,
+   "residentialParcels": null,
+   "commercialParcels": null,
+   "note": "2025 local assessed valuation; $735,906,312 including utilities."
+  },
+  "cip": null,
+  "sources": {
+   "taxRate2025": "https://www.acworthnh.net/_files/ugd/a327e9_a3f47ac2d74a46b7bb7c6b1467f85e8c.pdf",
+   "taxRate2024": "https://www.acworthnh.net/_files/ugd/a327e9_a74ad501a3d7442fa1701f9980e04757.pdf",
+   "draftBudget2026": "https://www.tamworthnh.gov/DocumentCenter/View/4108/2026-Draft-Budget---Print-Ready",
+   "ms636_2026": "https://www.tamworthnh.gov/DocumentCenter/View/4115/2026-Town-Budget-MS-636",
+   "warrant2026": "https://www.tamworthnh.gov/DocumentCenter/View/4114/2026-Town-Warrant-",
+   "budgetPage": "https://www.tamworthnh.gov/1296/2026-Budget-Town-Warrant",
+   "annualReport2024": "https://scholars.unh.edu/cgi/viewcontent.cgi?article=1136&context=tamworth_nh_reports"
+  },
+  "needs_review": true,
+  "review_note": "The operating total is computed from the department lines of the town's undated 2026 draft budget, leaving out capital and transfers; it is not a Town Meeting result. The draft was read through a text extraction, and its printed 2026 total ($5,168,684) differs by $2 from the sum of its lines. The warrant, MS-636 and Town Meeting results could not be read."
+ }
+}

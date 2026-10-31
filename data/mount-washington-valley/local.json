@@ -1812,6 +1812,26 @@
     "kind": "ambulance",
     "detail": "Ossipee has a town-wide ambulance contract with Action Ambulance; the 2026 budget review listed an ambulance contract line of $464,423 (AI summary of a December 2025 Budget Committee meeting).",
     "site": "https://cpo.soar.com/articles/7168208/New-Hampshire/Ossipee-budget-committee-approves-operating-budgets-debates-outside-audits-and-funding-for-new-food-pantry"
+   },
+   {
+    "town": "Tamworth",
+    "name": "Tamworth Police Department",
+    "kind": "police",
+    "chief": "Dana Littlefield",
+    "nonEmergency": "603-323-8581 (department line; the page says to call it to reach an on-duty officer, including Animal Control)",
+    "address": "100 Tamworth Road (Route 113), P.O. Box 69, Tamworth, NH 03886",
+    "site": "https://www.tamworthnh.gov/1220/Police-Department",
+    "note": "Dispatch is through the Carroll County Sheriff's Office, 603-539-2284. The page links yearly police statistics pages for 2021 to 2026; no daily logs are posted."
+   },
+   {
+    "town": "Tamworth",
+    "name": "Tamworth Fire Rescue Department",
+    "kind": "fire",
+    "chief": "Richard Colcord (Fire Chief and Forest Fire Warden; Jim Bowles and Matt Baumann, assistant chiefs)",
+    "nonEmergency": "603-323-8874 (business line)",
+    "address": "132 Chinook Trail, Tamworth, NH 03886",
+    "site": "https://www.tamworthnh.gov/1206/Fire-Rescue-Department",
+    "note": "Overseen by a five-member Board of Firewards. The department provides fire protection and emergency medical services; its page does not say who provides ambulance transport, though the town budget has a separate Ambulance line ($236,814 in the 2026 draft). The 2024 annual report also refers to Chocorua, Wonalancet and South Tamworth fire stations. Fire permits through nh.burnsafeamerica.com. Dispatch: Carroll County Sheriff's Office, 603-539-2284."
    }
   ]
  },
