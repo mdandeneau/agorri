@@ -1,14 +1,14 @@
 {
  "note": "Written by ingest/fetch.mjs. Each item: where it came from (source, url), the date in the document when known, firstSeen (the day the fetcher first saw it; new since the last refresh = firstSeen on or after that day) and text (the saved agenda or minutes text, when there is one). Facts for the site still come from reading the linked document.",
  "town": "jackson",
- "updated": "2026-11-01T16:08:06.173Z",
+ "updated": "2026-11-01T16:12:58.861Z",
  "sources": {
   "feed": {
    "ok": true,
    "found": 10,
-   "new": 8,
-   "checked": "2026-11-01T16:08:06.173Z",
-   "ms": 879
+   "new": 0,
+   "checked": "2026-11-01T16:12:58.861Z",
+   "ms": 982
   }
  },
  "notes": [],

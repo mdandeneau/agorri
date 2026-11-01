@@ -1,25 +1,47 @@
 {
  "note": "Written by ingest/fetch.mjs. Each item: where it came from (source, url), the date in the document when known, firstSeen (the day the fetcher first saw it; new since the last refresh = firstSeen on or after that day) and text (the saved agenda or minutes text, when there is one). Facts for the site still come from reading the linked document.",
  "town": "amherst",
- "updated": "2026-11-01T16:08:06.173Z",
+ "updated": "2026-11-01T16:12:58.861Z",
  "sources": {
   "civicclerk": {
    "ok": true,
    "found": 3,
-   "new": 3,
-   "checked": "2026-11-01T16:08:06.173Z",
-   "ms": 703
+   "new": 0,
+   "checked": "2026-11-01T16:12:58.861Z",
+   "ms": 633
   },
   "town-feeds": {
    "ok": true,
    "found": 13,
-   "new": 12,
-   "checked": "2026-11-01T16:08:06.173Z",
-   "ms": 6484
+   "new": 0,
+   "checked": "2026-11-01T16:12:58.861Z",
+   "ms": 6363
+  },
+  "agenda-center": {
+   "ok": true,
+   "found": 150,
+   "new": 57,
+   "checked": "2026-11-01T16:12:58.861Z",
+   "ms": 51211
   }
  },
- "notes": [],
+ "notes": [
+  "could not save https://www.amherstnh.gov/AgendaCenter/ViewFile/Agenda/_10192026-466: https://www.amherstnh.gov/AgendaCenter/ViewFile/Agenda/_10192026-466: too large",
+  "could not save https://www.amherstnh.gov/AgendaCenter/ViewFile/Agenda/_09142026-444: https://www.amherstnh.gov/AgendaCenter/ViewFile/Agenda/_09142026-444: too large"
+ ],
  "items": [
+  {
+   "key": "agenda-center:530fced833a1",
+   "source": "agenda-center",
+   "kind": "meeting-doc",
+   "title": "Agenda: Amherst Conservation Commission Regular Meeting Agenda CANCELLED",
+   "url": "https://www.amherstnh.gov/AgendaCenter/ViewFile/Agenda/_11112026-471",
+   "date": "2026-11-11",
+   "doc": "agenda",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01",
+   "text": "inbox/amherst/docs/530fced833a1.txt"
+  },
   {
    "key": "civicclerk:cd9f112e7a6e",
    "source": "civicclerk",
@@ -32,6 +54,18 @@
    "files": 0,
    "firstSeen": "2026-11-01",
    "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "agenda-center:d926d0677e06",
+   "source": "agenda-center",
+   "kind": "meeting-doc",
+   "title": "Agenda: Public Hearing Notice",
+   "url": "https://www.amherstnh.gov/AgendaCenter/ViewFile/Agenda/_11092026-479",
+   "date": "2026-11-09",
+   "doc": "agenda",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01",
+   "text": "inbox/amherst/docs/d926d0677e06.txt"
   },
   {
    "key": "town-feeds:2b7def15a6f3",
@@ -82,6 +116,18 @@
    "lastSeen": "2026-11-01"
   },
   {
+   "key": "agenda-center:93cd5129158e",
+   "source": "agenda-center",
+   "kind": "meeting-doc",
+   "title": "Agenda: Amherst Conservation Commission Regular Meeting Agenda",
+   "url": "https://www.amherstnh.gov/AgendaCenter/ViewFile/Agenda/_10282026-475",
+   "date": "2026-10-28",
+   "doc": "agenda",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01",
+   "text": "inbox/amherst/docs/93cd5129158e.txt"
+  },
+  {
    "key": "civicclerk:489edc642110",
    "source": "civicclerk",
    "kind": "meeting-doc",
@@ -107,6 +153,18 @@
    "lastSeen": "2026-11-01"
   },
   {
+   "key": "agenda-center:f40298ef4b72",
+   "source": "agenda-center",
+   "kind": "meeting-doc",
+   "title": "Agenda: BOS Meeting Agenda and Packet",
+   "url": "https://www.amherstnh.gov/AgendaCenter/ViewFile/Agenda/_10262026-474",
+   "date": "2026-10-26",
+   "doc": "agenda",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01",
+   "text": "inbox/amherst/docs/f40298ef4b72.txt"
+  },
+  {
    "key": "town-feeds:8f5b2a9db50f",
    "source": "town-feeds",
    "kind": "notice",
@@ -129,6 +187,18 @@
    "detail": "Amherst Conservation Commission Regular Meeting Agenda",
    "firstSeen": "2026-11-01",
    "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "agenda-center:430c8742ea1f",
+   "source": "agenda-center",
+   "kind": "meeting-doc",
+   "title": "Agenda: HDC Regular Meeting Agenda",
+   "url": "https://www.amherstnh.gov/AgendaCenter/ViewFile/Agenda/_10222026-461",
+   "date": "2026-10-22",
+   "doc": "agenda",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01",
+   "text": "inbox/amherst/docs/430c8742ea1f.txt"
   },
   {
    "key": "town-feeds:724e56baed9b",
@@ -167,6 +237,18 @@
    "lastSeen": "2026-11-01"
   },
   {
+   "key": "agenda-center:fbc399a1ba15",
+   "source": "agenda-center",
+   "kind": "meeting-doc",
+   "title": "Agenda: Cemetery Trustee Special Meeting Agenda",
+   "url": "https://www.amherstnh.gov/AgendaCenter/ViewFile/Agenda/_10212026-473",
+   "date": "2026-10-21",
+   "doc": "agenda",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01",
+   "text": "inbox/amherst/docs/fbc399a1ba15.txt"
+  },
+  {
    "key": "civicclerk:b7b75cacf561",
    "source": "civicclerk",
    "kind": "meeting-doc",
@@ -192,6 +274,125 @@
    "lastSeen": "2026-11-01"
   },
   {
+   "key": "agenda-center:b0ae948b8752",
+   "source": "agenda-center",
+   "kind": "meeting-doc",
+   "title": "Agenda: BOS Meeting Agenda and Packet",
+   "url": "https://www.amherstnh.gov/AgendaCenter/ViewFile/Agenda/_10192026-466",
+   "date": "2026-10-19",
+   "doc": "agenda",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "agenda-center:b223b34a4d47",
+   "source": "agenda-center",
+   "kind": "meeting-doc",
+   "title": "Minutes: BOS Meeting Agenda and Packet",
+   "url": "https://www.amherstnh.gov/AgendaCenter/ViewFile/Minutes/_10192026-466",
+   "date": "2026-10-19",
+   "doc": "minutes",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01",
+   "text": "inbox/amherst/docs/b223b34a4d47.txt"
+  },
+  {
+   "key": "agenda-center:6d924c59b9c2",
+   "source": "agenda-center",
+   "kind": "meeting-doc",
+   "title": "Agenda: Cemetery Trustee Special Meeting Agenda",
+   "url": "https://www.amherstnh.gov/AgendaCenter/ViewFile/Agenda/_10152026-458",
+   "date": "2026-10-15",
+   "doc": "agenda",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01",
+   "text": "inbox/amherst/docs/6d924c59b9c2.txt"
+  },
+  {
+   "key": "agenda-center:20757a5b32de",
+   "source": "agenda-center",
+   "kind": "meeting-doc",
+   "title": "Agenda: Amherst Conservation Commission Regular Meeting Agenda",
+   "url": "https://www.amherstnh.gov/AgendaCenter/ViewFile/Agenda/_10142026-462",
+   "date": "2026-10-14",
+   "doc": "agenda",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01",
+   "text": "inbox/amherst/docs/20757a5b32de.txt"
+  },
+  {
+   "key": "agenda-center:3720f4482275",
+   "source": "agenda-center",
+   "kind": "meeting-doc",
+   "title": "Minutes: Amherst Conservation Commission Regular Meeting Agenda",
+   "url": "https://www.amherstnh.gov/AgendaCenter/ViewFile/Minutes/_10142026-462",
+   "date": "2026-10-14",
+   "doc": "minutes",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01",
+   "text": "inbox/amherst/docs/3720f4482275.txt"
+  },
+  {
+   "key": "agenda-center:4779b714365f",
+   "source": "agenda-center",
+   "kind": "meeting-doc",
+   "title": "Agenda: Heritage Commission Regular Meeting CANCELLED",
+   "url": "https://www.amherstnh.gov/AgendaCenter/ViewFile/Agenda/_10082026-457",
+   "date": "2026-10-08",
+   "doc": "agenda",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01",
+   "text": "inbox/amherst/docs/4779b714365f.txt"
+  },
+  {
+   "key": "agenda-center:11ad493ab393",
+   "source": "agenda-center",
+   "kind": "meeting-doc",
+   "title": "Agenda: Agenda: _10062026-453",
+   "url": "https://www.amherstnh.gov/AgendaCenter/ViewFile/Agenda/_10062026-453",
+   "date": "2026-10-06",
+   "doc": "agenda",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01",
+   "text": "inbox/amherst/docs/11ad493ab393.txt"
+  },
+  {
+   "key": "agenda-center:0ce2a439da6c",
+   "source": "agenda-center",
+   "kind": "meeting-doc",
+   "title": "Agenda: BOS Meeting Agenda and Packet",
+   "url": "https://www.amherstnh.gov/AgendaCenter/ViewFile/Agenda/_10052026-454",
+   "date": "2026-10-05",
+   "doc": "agenda",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01",
+   "text": "inbox/amherst/docs/0ce2a439da6c.txt"
+  },
+  {
+   "key": "agenda-center:ac98cfc1d4a5",
+   "source": "agenda-center",
+   "kind": "meeting-doc",
+   "title": "Minutes: BOS Meeting Agenda and Packet",
+   "url": "https://www.amherstnh.gov/AgendaCenter/ViewFile/Minutes/_10052026-454",
+   "date": "2026-10-05",
+   "doc": "minutes",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01",
+   "text": "inbox/amherst/docs/ac98cfc1d4a5.txt"
+  },
+  {
+   "key": "agenda-center:3c845bcc323a",
+   "source": "agenda-center",
+   "kind": "meeting-doc",
+   "title": "Agenda: Capital Improvements Plan Meeting Agenda",
+   "url": "https://www.amherstnh.gov/AgendaCenter/ViewFile/Agenda/_09302026-446",
+   "date": "2026-09-30",
+   "doc": "agenda",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01",
+   "text": "inbox/amherst/docs/3c845bcc323a.txt"
+  },
+  {
    "key": "town-feeds:1efba1fc35f8",
    "source": "town-feeds",
    "kind": "notice",
@@ -200,6 +401,472 @@
    "url": "https://www.amherstnh.gov/Calendar.aspx?EID=905",
    "date": "2026-09-29",
    "detail": "Event date: November 11, 2026 Event Time: 12:00 AM - 11:59 PM Location: Amherst, NH 03031",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "agenda-center:e730b6c6a7b1",
+   "source": "agenda-center",
+   "kind": "meeting-doc",
+   "title": "Agenda: BOS Meeting Agenda and Packet",
+   "url": "https://www.amherstnh.gov/AgendaCenter/ViewFile/Agenda/_09282026-450",
+   "date": "2026-09-28",
+   "doc": "agenda",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01",
+   "text": "inbox/amherst/docs/e730b6c6a7b1.txt"
+  },
+  {
+   "key": "agenda-center:539454a9e50d",
+   "source": "agenda-center",
+   "kind": "meeting-doc",
+   "title": "Minutes: BOS Meeting Agenda and Packet",
+   "url": "https://www.amherstnh.gov/AgendaCenter/ViewFile/Minutes/_09282026-450",
+   "date": "2026-09-28",
+   "doc": "minutes",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01",
+   "text": "inbox/amherst/docs/539454a9e50d.txt"
+  },
+  {
+   "key": "agenda-center:fde4d0ed0c46",
+   "source": "agenda-center",
+   "kind": "meeting-doc",
+   "title": "Agenda: HDC Regular Meeting Agenda",
+   "url": "https://www.amherstnh.gov/AgendaCenter/ViewFile/Agenda/_09242026-439",
+   "date": "2026-09-24",
+   "doc": "agenda",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "agenda-center:160a9a1a09e5",
+   "source": "agenda-center",
+   "kind": "meeting-doc",
+   "title": "Minutes: HDC Regular Meeting Agenda",
+   "url": "https://www.amherstnh.gov/AgendaCenter/ViewFile/Minutes/_09242026-439",
+   "date": "2026-09-24",
+   "doc": "minutes",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "agenda-center:d3d49f074301",
+   "source": "agenda-center",
+   "kind": "meeting-doc",
+   "title": "Agenda: Capital Improvements Plan Meeting Agenda",
+   "url": "https://www.amherstnh.gov/AgendaCenter/ViewFile/Agenda/_09232026-447",
+   "date": "2026-09-23",
+   "doc": "agenda",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01",
+   "text": "inbox/amherst/docs/d3d49f074301.txt"
+  },
+  {
+   "key": "agenda-center:7b3584e0a50e",
+   "source": "agenda-center",
+   "kind": "meeting-doc",
+   "title": "Minutes: Capital Improvements Plan Meeting Agenda",
+   "url": "https://www.amherstnh.gov/AgendaCenter/ViewFile/Minutes/_09232026-447",
+   "date": "2026-09-23",
+   "doc": "minutes",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01",
+   "text": "inbox/amherst/docs/7b3584e0a50e.txt"
+  },
+  {
+   "key": "agenda-center:1a65453ac50f",
+   "source": "agenda-center",
+   "kind": "meeting-doc",
+   "title": "Agenda: Amherst Conservation Commission Regular Meeting Agenda",
+   "url": "https://www.amherstnh.gov/AgendaCenter/ViewFile/Agenda/_09232026-441",
+   "date": "2026-09-23",
+   "doc": "agenda",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01",
+   "text": "inbox/amherst/docs/1a65453ac50f.txt"
+  },
+  {
+   "key": "agenda-center:8d72e85ae4dc",
+   "source": "agenda-center",
+   "kind": "meeting-doc",
+   "title": "Minutes: Amherst Conservation Commission Regular Meeting Agenda",
+   "url": "https://www.amherstnh.gov/AgendaCenter/ViewFile/Minutes/_09232026-441",
+   "date": "2026-09-23",
+   "doc": "minutes",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01",
+   "text": "inbox/amherst/docs/8d72e85ae4dc.txt"
+  },
+  {
+   "key": "agenda-center:c079c63a6e3e",
+   "source": "agenda-center",
+   "kind": "meeting-doc",
+   "title": "Agenda: Amherst Conservation Commission Site Walk",
+   "url": "https://www.amherstnh.gov/AgendaCenter/ViewFile/Agenda/_09222026-442",
+   "date": "2026-09-22",
+   "doc": "agenda",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01",
+   "text": "inbox/amherst/docs/c079c63a6e3e.txt"
+  },
+  {
+   "key": "agenda-center:38f143ba127f",
+   "source": "agenda-center",
+   "kind": "meeting-doc",
+   "title": "Agenda: Cemetery Trustee Regular Meeting Agenda",
+   "url": "https://www.amherstnh.gov/AgendaCenter/ViewFile/Agenda/_09152026-440",
+   "date": "2026-09-15",
+   "doc": "agenda",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01",
+   "text": "inbox/amherst/docs/38f143ba127f.txt"
+  },
+  {
+   "key": "agenda-center:b62e6123a03d",
+   "source": "agenda-center",
+   "kind": "meeting-doc",
+   "title": "Agenda: BOS Meeting Agenda Packet",
+   "url": "https://www.amherstnh.gov/AgendaCenter/ViewFile/Agenda/_09142026-444",
+   "date": "2026-09-14",
+   "doc": "agenda",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "agenda-center:4e5de212cc0d",
+   "source": "agenda-center",
+   "kind": "meeting-doc",
+   "title": "Minutes: BOS Meeting Agenda Packet",
+   "url": "https://www.amherstnh.gov/AgendaCenter/ViewFile/Minutes/_09142026-444",
+   "date": "2026-09-14",
+   "doc": "minutes",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01",
+   "text": "inbox/amherst/docs/4e5de212cc0d.txt"
+  },
+  {
+   "key": "agenda-center:62a28f4877c2",
+   "source": "agenda-center",
+   "kind": "meeting-doc",
+   "title": "Agenda: Heritage Commission Regular Meeting",
+   "url": "https://www.amherstnh.gov/AgendaCenter/ViewFile/Agenda/_09102026-438",
+   "date": "2026-09-10",
+   "doc": "agenda",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01",
+   "text": "inbox/amherst/docs/62a28f4877c2.txt"
+  },
+  {
+   "key": "agenda-center:1ea30de13342",
+   "source": "agenda-center",
+   "kind": "meeting-doc",
+   "title": "Minutes: Heritage Commission Regular Meeting",
+   "url": "https://www.amherstnh.gov/AgendaCenter/ViewFile/Minutes/_09102026-438",
+   "date": "2026-09-10",
+   "doc": "minutes",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01",
+   "text": "inbox/amherst/docs/1ea30de13342.txt"
+  },
+  {
+   "key": "agenda-center:0131c2ead319",
+   "source": "agenda-center",
+   "kind": "meeting-doc",
+   "title": "Agenda: Capital Improvements Plan Meeting Agenda",
+   "url": "https://www.amherstnh.gov/AgendaCenter/ViewFile/Agenda/_09092026-451",
+   "date": "2026-09-09",
+   "doc": "agenda",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01",
+   "text": "inbox/amherst/docs/0131c2ead319.txt"
+  },
+  {
+   "key": "agenda-center:c4cf1b9da54d",
+   "source": "agenda-center",
+   "kind": "meeting-doc",
+   "title": "Minutes: Capital Improvements Plan Meeting Agenda",
+   "url": "https://www.amherstnh.gov/AgendaCenter/ViewFile/Minutes/_09092026-451",
+   "date": "2026-09-09",
+   "doc": "minutes",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01",
+   "text": "inbox/amherst/docs/c4cf1b9da54d.txt"
+  },
+  {
+   "key": "agenda-center:ed812b30527b",
+   "source": "agenda-center",
+   "kind": "meeting-doc",
+   "title": "Agenda: Amherst Conservation Commission Regular Meeting Agenda",
+   "url": "https://www.amherstnh.gov/AgendaCenter/ViewFile/Agenda/_09092026-436",
+   "date": "2026-09-09",
+   "doc": "agenda",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01",
+   "text": "inbox/amherst/docs/ed812b30527b.txt"
+  },
+  {
+   "key": "agenda-center:45a266156d91",
+   "source": "agenda-center",
+   "kind": "meeting-doc",
+   "title": "Minutes: Amherst Conservation Commission Regular Meeting Agenda",
+   "url": "https://www.amherstnh.gov/AgendaCenter/ViewFile/Minutes/_09092026-436",
+   "date": "2026-09-09",
+   "doc": "minutes",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01",
+   "text": "inbox/amherst/docs/45a266156d91.txt"
+  },
+  {
+   "key": "agenda-center:9154f7bef200",
+   "source": "agenda-center",
+   "kind": "meeting-doc",
+   "title": "Agenda: HDC Regular Meeting Agenda",
+   "url": "https://www.amherstnh.gov/AgendaCenter/ViewFile/Agenda/_08272026-425",
+   "date": "2026-08-27",
+   "doc": "agenda",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "agenda-center:dece3284d42f",
+   "source": "agenda-center",
+   "kind": "meeting-doc",
+   "title": "Minutes: HDC Regular Meeting Agenda",
+   "url": "https://www.amherstnh.gov/AgendaCenter/ViewFile/Minutes/_08272026-425",
+   "date": "2026-08-27",
+   "doc": "minutes",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "agenda-center:a51a8aa2300d",
+   "source": "agenda-center",
+   "kind": "meeting-doc",
+   "title": "Agenda: Amherst Conservation Commission Regular Meeting Agenda",
+   "url": "https://www.amherstnh.gov/AgendaCenter/ViewFile/Agenda/_08262026-429",
+   "date": "2026-08-26",
+   "doc": "agenda",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "agenda-center:1f2319e47699",
+   "source": "agenda-center",
+   "kind": "meeting-doc",
+   "title": "Minutes: Amherst Conservation Commission Regular Meeting Agenda",
+   "url": "https://www.amherstnh.gov/AgendaCenter/ViewFile/Minutes/_08262026-429",
+   "date": "2026-08-26",
+   "doc": "minutes",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "agenda-center:9268ff3ce298",
+   "source": "agenda-center",
+   "kind": "meeting-doc",
+   "title": "Agenda: BOS Meeting Agenda and Packet",
+   "url": "https://www.amherstnh.gov/AgendaCenter/ViewFile/Agenda/_08242026-428",
+   "date": "2026-08-24",
+   "doc": "agenda",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "agenda-center:deea46b7e071",
+   "source": "agenda-center",
+   "kind": "meeting-doc",
+   "title": "Minutes: BOS Meeting Agenda and Packet",
+   "url": "https://www.amherstnh.gov/AgendaCenter/ViewFile/Minutes/_08242026-428",
+   "date": "2026-08-24",
+   "doc": "minutes",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "agenda-center:526c7751a5e6",
+   "source": "agenda-center",
+   "kind": "meeting-doc",
+   "title": "Agenda: Cemetery Trustee Regular Meeting Agenda",
+   "url": "https://www.amherstnh.gov/AgendaCenter/ViewFile/Agenda/_08202026-433",
+   "date": "2026-08-20",
+   "doc": "agenda",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "agenda-center:72fe50c45e24",
+   "source": "agenda-center",
+   "kind": "meeting-doc",
+   "title": "Minutes: Cemetery Trustee Regular Meeting Agenda",
+   "url": "https://www.amherstnh.gov/AgendaCenter/ViewFile/Minutes/_08202026-433",
+   "date": "2026-08-20",
+   "doc": "minutes",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "agenda-center:33b3ee60f9d9",
+   "source": "agenda-center",
+   "kind": "meeting-doc",
+   "title": "Agenda: Heritage Commission Regular Meeting CANCELLED",
+   "url": "https://www.amherstnh.gov/AgendaCenter/ViewFile/Agenda/_08132026-422",
+   "date": "2026-08-13",
+   "doc": "agenda",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "agenda-center:339df668ed54",
+   "source": "agenda-center",
+   "kind": "meeting-doc",
+   "title": "Agenda: Amherst Conservation Commission Regular Meeting Agenda",
+   "url": "https://www.amherstnh.gov/AgendaCenter/ViewFile/Agenda/_08122026-423",
+   "date": "2026-08-12",
+   "doc": "agenda",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "agenda-center:499fa96aa98f",
+   "source": "agenda-center",
+   "kind": "meeting-doc",
+   "title": "Minutes: Amherst Conservation Commission Regular Meeting Agenda",
+   "url": "https://www.amherstnh.gov/AgendaCenter/ViewFile/Minutes/_08122026-423",
+   "date": "2026-08-12",
+   "doc": "minutes",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "agenda-center:9e29ceeb3310",
+   "source": "agenda-center",
+   "kind": "meeting-doc",
+   "title": "Agenda: BOS Meeeting Agenda and Packet",
+   "url": "https://www.amherstnh.gov/AgendaCenter/ViewFile/Agenda/_08102026-421",
+   "date": "2026-08-10",
+   "doc": "agenda",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "agenda-center:db4399912261",
+   "source": "agenda-center",
+   "kind": "meeting-doc",
+   "title": "Minutes: BOS Meeeting Agenda and Packet",
+   "url": "https://www.amherstnh.gov/AgendaCenter/ViewFile/Minutes/_08102026-421",
+   "date": "2026-08-10",
+   "doc": "minutes",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "agenda-center:86d0309fc038",
+   "source": "agenda-center",
+   "kind": "meeting-doc",
+   "title": "Agenda: Agenda: _07302026-443",
+   "url": "https://www.amherstnh.gov/AgendaCenter/ViewFile/Agenda/_07302026-443",
+   "date": "2026-07-30",
+   "doc": "agenda",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "agenda-center:1891073e50d5",
+   "source": "agenda-center",
+   "kind": "meeting-doc",
+   "title": "Minutes: Agenda: _07302026-443",
+   "url": "https://www.amherstnh.gov/AgendaCenter/ViewFile/Minutes/_07302026-443",
+   "date": "2026-07-30",
+   "doc": "minutes",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "agenda-center:96886111bc77",
+   "source": "agenda-center",
+   "kind": "meeting-doc",
+   "title": "Agenda: Conservation Commission Meeting Agenda",
+   "url": "https://www.amherstnh.gov/AgendaCenter/ViewFile/Agenda/_07222026-410",
+   "date": "2026-07-22",
+   "doc": "agenda",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "agenda-center:573287f294e8",
+   "source": "agenda-center",
+   "kind": "meeting-doc",
+   "title": "Minutes: Conservation Commission Meeting Agenda",
+   "url": "https://www.amherstnh.gov/AgendaCenter/ViewFile/Minutes/_07222026-410",
+   "date": "2026-07-22",
+   "doc": "minutes",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "agenda-center:1ac3f470c178",
+   "source": "agenda-center",
+   "kind": "meeting-doc",
+   "title": "Agenda: Historic District Commission Regular Meeting Agenda",
+   "url": "https://www.amherstnh.gov/AgendaCenter/ViewFile/Agenda/_07162026-399",
+   "date": "2026-07-16",
+   "doc": "agenda",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "agenda-center:dcaca859f09e",
+   "source": "agenda-center",
+   "kind": "meeting-doc",
+   "title": "Minutes: Historic District Commission Regular Meeting Agenda",
+   "url": "https://www.amherstnh.gov/AgendaCenter/ViewFile/Minutes/_07162026-399",
+   "date": "2026-07-16",
+   "doc": "minutes",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "agenda-center:ff576b719ce9",
+   "source": "agenda-center",
+   "kind": "meeting-doc",
+   "title": "Agenda: BOS Meeting Agenda Packet",
+   "url": "https://www.amherstnh.gov/AgendaCenter/ViewFile/Agenda/_07132026-409",
+   "date": "2026-07-13",
+   "doc": "agenda",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "agenda-center:c73b2c7806eb",
+   "source": "agenda-center",
+   "kind": "meeting-doc",
+   "title": "Minutes: BOS Meeting Agenda Packet",
+   "url": "https://www.amherstnh.gov/AgendaCenter/ViewFile/Minutes/_07132026-409",
+   "date": "2026-07-13",
+   "doc": "minutes",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "agenda-center:a775e53a2644",
+   "source": "agenda-center",
+   "kind": "meeting-doc",
+   "title": "Agenda: Heritage Commission Regular Meeting CANCELLED",
+   "url": "https://www.amherstnh.gov/AgendaCenter/ViewFile/Agenda/_07092026-407",
+   "date": "2026-07-09",
+   "doc": "agenda",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "agenda-center:c0cf4083d0f1",
+   "source": "agenda-center",
+   "kind": "meeting-doc",
+   "title": "Agenda: Conservation Commission Regular Meeting CANCELLED",
+   "url": "https://www.amherstnh.gov/AgendaCenter/ViewFile/Agenda/_07082026-404",
+   "date": "2026-07-08",
+   "doc": "agenda",
    "firstSeen": "2026-11-01",
    "lastSeen": "2026-11-01"
   }

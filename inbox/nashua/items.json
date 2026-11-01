@@ -1,35 +1,35 @@
 {
  "note": "Written by ingest/fetch.mjs. Each item: where it came from (source, url), the date in the document when known, firstSeen (the day the fetcher first saw it; new since the last refresh = firstSeen on or after that day) and text (the saved agenda or minutes text, when there is one). Facts for the site still come from reading the linked document.",
  "town": "nashua",
- "updated": "2026-11-01T16:08:06.173Z",
+ "updated": "2026-11-01T16:12:58.861Z",
  "sources": {
   "civicclerk": {
    "ok": true,
    "found": 185,
    "new": 0,
-   "checked": "2026-11-01T16:08:06.173Z",
-   "ms": 9153
+   "checked": "2026-11-01T16:12:58.861Z",
+   "ms": 9152
   },
   "city-feeds": {
    "ok": true,
    "found": 21,
    "new": 0,
-   "checked": "2026-11-01T16:08:06.173Z",
-   "ms": 8441
+   "checked": "2026-11-01T16:12:58.861Z",
+   "ms": 7819
   },
   "police-releases": {
    "ok": true,
    "found": 15,
    "new": 0,
-   "checked": "2026-11-01T16:08:06.173Z",
-   "ms": 455
+   "checked": "2026-11-01T16:12:58.861Z",
+   "ms": 563
   },
   "police-arrest-logs": {
    "ok": true,
    "found": 10,
    "new": 0,
-   "checked": "2026-11-01T16:08:06.173Z",
-   "ms": 1141
+   "checked": "2026-11-01T16:12:58.861Z",
+   "ms": 1039
   }
  },
  "notes": [

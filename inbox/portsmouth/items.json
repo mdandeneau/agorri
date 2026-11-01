@@ -1,56 +1,56 @@
 {
  "note": "Written by ingest/fetch.mjs. Each item: where it came from (source, url), the date in the document when known, firstSeen (the day the fetcher first saw it; new since the last refresh = firstSeen on or after that day) and text (the saved agenda or minutes text, when there is one). Facts for the site still come from reading the linked document.",
  "town": "portsmouth",
- "updated": "2026-11-01T16:08:06.173Z",
+ "updated": "2026-11-01T16:12:58.861Z",
  "sources": {
   "city-news": {
    "ok": true,
    "found": 10,
    "new": 0,
-   "checked": "2026-11-01T16:08:06.173Z",
-   "ms": 154
+   "checked": "2026-11-01T16:12:58.861Z",
+   "ms": 378
   },
   "police-news": {
    "ok": true,
    "found": 10,
    "new": 0,
-   "checked": "2026-11-01T16:08:06.173Z",
-   "ms": 1442
+   "checked": "2026-11-01T16:12:58.861Z",
+   "ms": 1192
   },
   "fire-news": {
    "ok": true,
    "found": 10,
    "new": 0,
-   "checked": "2026-11-01T16:08:06.173Z",
-   "ms": 1471
+   "checked": "2026-11-01T16:12:58.861Z",
+   "ms": 1496
   },
   "police-logs": {
    "ok": true,
    "found": 14,
    "new": 0,
-   "checked": "2026-11-01T16:08:06.173Z",
-   "ms": 1465
+   "checked": "2026-11-01T16:12:58.861Z",
+   "ms": 1499
   },
   "meetings": {
    "ok": true,
    "found": 26,
    "new": 0,
-   "checked": "2026-11-01T16:08:06.173Z",
-   "ms": 4533
+   "checked": "2026-11-01T16:12:58.861Z",
+   "ms": 4498
   },
   "meetings-archive": {
    "ok": true,
    "found": 56,
    "new": 0,
-   "checked": "2026-11-01T16:08:06.173Z",
-   "ms": 3370
+   "checked": "2026-11-01T16:12:58.861Z",
+   "ms": 3230
   },
   "council": {
    "ok": true,
    "found": 32,
    "new": 0,
-   "checked": "2026-11-01T16:08:06.173Z",
-   "ms": 4732
+   "checked": "2026-11-01T16:12:58.861Z",
+   "ms": 1571
   }
  },
  "notes": [
