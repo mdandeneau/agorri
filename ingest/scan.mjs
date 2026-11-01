@@ -74,7 +74,10 @@ async function scanTown(t) {
   for (const host of candidates(t)) {
     const r = await get('https://' + host + '/', 15000);
     tried.push(host + ' ' + (r.status || r.error));
-    if (r.ok && /html/i.test(r.type) && nameRe.test(r.text) && /New Hampshire|\bNH\b|N\.H\./.test(r.text)) { res.site = new URL(r.url).origin + '/'; res.home = r; break; }
+    const finalHost = r.url ? new URL(r.url).host : '';
+    const hostOk = slugs(t).some(s => finalHost.replace(/-/g, '').includes(s.replace(/-/g, '').slice(0, 6))) || (t.sites || []).some(h => finalHost.endsWith(h.replace(/^www\./, '')));
+    const parked = /namesilo|godaddy|domain (is )?for sale|buy this domain|beangroup|sedo\.com|parked/i.test(r.text || '');
+    if (r.ok && hostOk && !parked && /html/i.test(r.type) && nameRe.test(r.text) && /New Hampshire|\bNH\b|N\.H\./.test(r.text)) { res.site = new URL(r.url).origin + '/'; res.home = r; break; }
   }
   if (!res.site) { res.error = 'no website found'; res.tried = tried; return res; }
   const html = res.home.text; delete res.home;
@@ -85,11 +88,16 @@ async function scanTown(t) {
   res.meetingPages = pick(/agenda|minutes|meetings?\b|boards?(-|\s|%20)?(and|&|&amp;)?(-|\s)?committees?|selectmen|select(-|\s)?board|council|aldermen/i).map(l => ({ text: l.text, url: l.url }));
   res.external = [...new Set(L.map(l => l.url).filter(u => /civicclerk|granicus|legistar|boarddocs|municode|primegov|novusagenda|drive\.google|facebook\.com|youtube\.com/i.test(u)).map(u => u.replace(/(\?|#).*$/, '')))].slice(0, 15);
   // 2. Platform probes.
+  // CivicPlus sometimes serves its agenda center from a second host (nh-town.civicplus.com).
+  const cpHost = (L.find(l => /^https?:\/\/[a-z0-9-]+\.civicplus\.com\//i.test(l.url)) || {}).url;
+  if (cpHost) res.civicplusHost = new URL(cpHost).origin + '/';
   if (res.platforms.includes('civicplus')) {
     const r = await get(res.site + 'rss.aspx');
     if (r.ok) { res.civicplusFeeds = [...new Set([...r.text.matchAll(/href=["']([^"']*RSSFeed\.aspx\?[^"']+)["']/gi)].map(m => abs(m[1], res.site)))].filter(u => /CID=All/i.test(u)); }
-    const a = await get(res.site + 'AgendaCenter');
-    res.agendaCenter = a.ok && /AgendaCenter/i.test(a.text) ? res.site + 'AgendaCenter' : null;
+    for (const base of [res.site, res.civicplusHost].filter(Boolean)) {
+      const a = await get(base + 'AgendaCenter');
+      if (a.ok && /AgendaCenter\/ViewFile/i.test(a.text)) { res.agendaCenter = base + 'AgendaCenter'; break; }
+    }
   }
   const ccFromLinks = [...new Set(L.map(l => (l.url.match(/https?:\/\/([a-z0-9-]+)\.portal\.civicclerk\.com/i) || [])[1]).filter(Boolean))];
   for (const tenant of [...ccFromLinks, ...slugs(t).map(s => s.replace(/-/g, '') + 'nh'), ...slugs(t).map(s => s.replace(/-/g, ''))]) {
@@ -108,7 +116,7 @@ async function scanTown(t) {
     res.meetingDocs.push({ page: mp.url, docLinks: pdfs.length, sample: pdfs.slice(0, 3).map(l => l.url), drive: ml.some(l => /drive\.google/i.test(l.url)), platforms: fingerprint(r.text, mp.url) });
   }
   // 4. A one-line verdict for the fetcher.
-  res.fetch = res.civicclerk ? 'civicclerk api' : res.legistarApi ? 'legistar api' : res.civicplusFeeds?.length ? 'civicplus feeds' + (res.agendaCenter ? ' + agenda center' : '') :
+  res.fetch = res.civicclerk ? 'civicclerk api' : res.legistarApi ? 'legistar api' : res.civicplusFeeds?.length ? 'civicplus feeds' + (res.agendaCenter ? ' + agenda center' : '') : res.agendaCenter ? 'agenda center' :
     res.meetingDocs.some(m => m.docLinks > 0) ? 'meeting page links' : res.feeds.length ? 'rss only' : res.meetingDocs.some(m => m.drive) ? 'google drive (hard)' : 'manual';
   return res;
 }

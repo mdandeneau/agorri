@@ -28,7 +28,9 @@
      "name": "Exeter",
      "population2020": 16049,
      "sites": [
-      "www.exeternh.gov"
+      "www.exeternh.gov",
+      "exeternh.gov",
+      "www.town.exeter.nh.us"
      ]
     },
     {
@@ -198,7 +200,10 @@
      "name": "Goffstown",
      "population2020": 18577,
      "sites": [
-      "www.goffstownnh.gov"
+      "www.goffstownnh.gov",
+      "goffstownnh.gov",
+      "www.goffstown.nh.us",
+      "www.goffstown.com"
      ]
     },
     {
@@ -250,7 +255,10 @@
      "name": "Weare",
      "population2020": 9092,
      "sites": [
-      "www.weare.nh.gov"
+      "www.weare.nh.gov",
+      "weare.nh.gov",
+      "www.wearenh.gov",
+      "www.wearenh.org"
      ]
     }
    ],
