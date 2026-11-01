@@ -10,4 +10,4 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-      - run: node ingest/probe.mjs "https://publicrecords.dover.nh.gov/Cabinet/Read?AccessCode=1&DeptNumber=0&CabName=Public_Meetings&index=public_body&autosearch=City%20Council&Grid-sort=date-desc"
+      - run: node ingest/probe.mjs "https://publicrecords.dover.nh.gov/public/1/deptnum/0/cab/Public_Meetings?index=public_body&autosearch=City%20Council"
