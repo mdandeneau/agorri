@@ -1,35 +1,35 @@
 {
  "note": "Written by ingest/fetch.mjs. Each item: where it came from (source, url), the date in the document when known, firstSeen (the day the fetcher first saw it; new since the last refresh = firstSeen on or after that day) and text (the saved agenda or minutes text, when there is one). Facts for the site still come from reading the linked document.",
  "town": "nashua",
- "updated": "2026-11-01T15:45:21.210Z",
+ "updated": "2026-11-01T15:48:41.611Z",
  "sources": {
   "civicclerk": {
    "ok": true,
    "found": 185,
    "new": 0,
-   "checked": "2026-11-01T15:45:21.210Z",
-   "ms": 46587
+   "checked": "2026-11-01T15:48:41.611Z",
+   "ms": 9127
   },
   "city-feeds": {
    "ok": true,
    "found": 21,
    "new": 0,
-   "checked": "2026-11-01T15:45:21.210Z",
-   "ms": 7845
+   "checked": "2026-11-01T15:48:41.611Z",
+   "ms": 7814
   },
   "police-releases": {
    "ok": true,
    "found": 15,
-   "new": 15,
-   "checked": "2026-11-01T15:45:21.210Z",
-   "ms": 605
+   "new": 0,
+   "checked": "2026-11-01T15:48:41.611Z",
+   "ms": 625
   },
   "police-arrest-logs": {
    "ok": true,
    "found": 10,
-   "new": 10,
-   "checked": "2026-11-01T15:45:21.210Z",
-   "ms": 1045
+   "new": 0,
+   "checked": "2026-11-01T15:48:41.611Z",
+   "ms": 976
   }
  },
  "notes": [
@@ -692,6 +692,36 @@
    "lastSeen": "2026-11-01"
   },
   {
+   "key": "police-releases:4f44a3219238",
+   "source": "police-releases",
+   "kind": "safety",
+   "title": "Press release (title withheld: may name people): theft",
+   "url": "https://www.nashuanhpd.gov/DocumentCenter/View/1368",
+   "date": "2026-10-30",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "police-releases:fb97de799c66",
+   "source": "police-releases",
+   "kind": "safety",
+   "title": "Press release (title withheld: may name people)",
+   "url": "https://www.nashuanhpd.gov/DocumentCenter/View/1367",
+   "date": "2026-10-30",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "police-releases:f623e05d39b5",
+   "source": "police-releases",
+   "kind": "safety",
+   "title": "Press release (title withheld: may name people): domestic violence",
+   "url": "https://www.nashuanhpd.gov/DocumentCenter/View/1366",
+   "date": "2026-10-30",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
    "key": "civicclerk:6da3280ebdb0",
    "source": "civicclerk",
    "kind": "meeting-doc",
@@ -746,6 +776,16 @@
    "feed": "news",
    "title": "Ongoing Utility Work with Occasional Street Closure - Mulberry Street",
    "url": "https://www.nashuanh.gov/CivicAlerts.aspx?aid=2683",
+   "date": "2026-10-29",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "police-arrest-logs:016a68166e84",
+   "source": "police-arrest-logs",
+   "kind": "police-log",
+   "title": "Arrest Log 10.29.2026",
+   "url": "https://www.nashuanhpd.gov/DocumentCenter/View/1365",
    "date": "2026-10-29",
    "firstSeen": "2026-11-01",
    "lastSeen": "2026-11-01"
@@ -976,6 +1016,16 @@
    "lastSeen": "2026-11-01"
   },
   {
+   "key": "police-arrest-logs:97220f5cd47f",
+   "source": "police-arrest-logs",
+   "kind": "police-log",
+   "title": "Arrest Log 10.28.2026",
+   "url": "https://www.nashuanhpd.gov/DocumentCenter/View/1364",
+   "date": "2026-10-28",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
    "key": "civicclerk:583e9c0a8a13",
    "source": "civicclerk",
    "kind": "meeting-doc",
@@ -1163,6 +1213,16 @@
    "lastSeen": "2026-11-01"
   },
   {
+   "key": "police-arrest-logs:348b3424d3bb",
+   "source": "police-arrest-logs",
+   "kind": "police-log",
+   "title": "Arrest Log 10.27.2026",
+   "url": "https://www.nashuanhpd.gov/DocumentCenter/View/1363",
+   "date": "2026-10-27",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
    "key": "civicclerk:20957fedf17e",
    "source": "civicclerk",
    "kind": "meeting-doc",
@@ -1340,6 +1400,16 @@
    "lastSeen": "2026-11-01"
   },
   {
+   "key": "police-arrest-logs:94589a2a9208",
+   "source": "police-arrest-logs",
+   "kind": "police-log",
+   "title": "Arrest Log 10.26.2026",
+   "url": "https://www.nashuanhpd.gov/DocumentCenter/View/1362",
+   "date": "2026-10-26",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
    "key": "civicclerk:93bbf3b35c91",
    "source": "civicclerk",
    "kind": "meeting-doc",
@@ -1360,6 +1430,16 @@
    "url": "https://nashuanh.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=14803,plainText=false)",
    "date": "2026-10-23",
    "body": "Boards & Committees",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "police-arrest-logs:9217b1633cc6",
+   "source": "police-arrest-logs",
+   "kind": "police-log",
+   "title": "Arrest Log 10.23-25.2026",
+   "url": "https://www.nashuanhpd.gov/DocumentCenter/View/1361",
+   "date": "2026-10-23",
    "firstSeen": "2026-11-01",
    "lastSeen": "2026-11-01"
   },
@@ -1489,6 +1569,16 @@
    "lastSeen": "2026-11-01"
   },
   {
+   "key": "police-arrest-logs:7549dadf96ff",
+   "source": "police-arrest-logs",
+   "kind": "police-log",
+   "title": "Arrest Log 10.22.2026",
+   "url": "https://www.nashuanhpd.gov/DocumentCenter/View/1360",
+   "date": "2026-10-22",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
    "key": "civicclerk:04778b294a7f",
    "source": "civicclerk",
    "kind": "meeting-doc",
@@ -1589,6 +1679,16 @@
    "lastSeen": "2026-11-01"
   },
   {
+   "key": "police-arrest-logs:32bff9bc6867",
+   "source": "police-arrest-logs",
+   "kind": "police-log",
+   "title": "Arrest Log 10.21.2026",
+   "url": "https://www.nashuanhpd.gov/DocumentCenter/View/1359",
+   "date": "2026-10-21",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
    "key": "civicclerk:8695f0b6ea92",
    "source": "civicclerk",
    "kind": "meeting-doc",
@@ -1685,6 +1785,16 @@
    "url": "https://nashuanh.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=14819,plainText=false)",
    "date": "2026-10-20",
    "body": "Mayor's Opioid Taskforce",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "police-arrest-logs:24d8d9c58429",
+   "source": "police-arrest-logs",
+   "kind": "police-log",
+   "title": "Arrest Log 10.20.2026",
+   "url": "https://www.nashuanhpd.gov/DocumentCenter/View/1358",
+   "date": "2026-10-20",
    "firstSeen": "2026-11-01",
    "lastSeen": "2026-11-01"
   },
@@ -1802,6 +1912,26 @@
    "lastSeen": "2026-11-01"
   },
   {
+   "key": "police-releases:3267d59ccb50",
+   "source": "police-releases",
+   "kind": "safety",
+   "title": "Press release (title withheld: may name people): burglary",
+   "url": "https://www.nashuanhpd.gov/DocumentCenter/View/1350",
+   "date": "2026-10-19",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "police-arrest-logs:aceba326d3e1",
+   "source": "police-arrest-logs",
+   "kind": "police-log",
+   "title": "Arrest Log 10.19.2026",
+   "url": "https://www.nashuanhpd.gov/DocumentCenter/View/1352",
+   "date": "2026-10-19",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
    "key": "civicclerk:a6efb5eeb7ac",
    "source": "civicclerk",
    "kind": "meeting-doc",
@@ -1822,6 +1952,16 @@
    "url": "https://nashuanh.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=14703,plainText=false)",
    "date": "2026-10-16",
    "body": "Nashua Housing and Redevelopment Authority",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "police-arrest-logs:4c34e41162c2",
+   "source": "police-arrest-logs",
+   "kind": "police-log",
+   "title": "Arrest Log 10.16-18.2026",
+   "url": "https://www.nashuanhpd.gov/DocumentCenter/View/1351",
+   "date": "2026-10-16",
    "firstSeen": "2026-11-01",
    "lastSeen": "2026-11-01"
   },
@@ -2440,6 +2580,36 @@
    "lastSeen": "2026-11-01"
   },
   {
+   "key": "police-releases:505a83108446",
+   "source": "police-releases",
+   "kind": "safety",
+   "title": "Press release (title withheld: may name people): domestic violence",
+   "url": "https://www.nashuanhpd.gov/DocumentCenter/View/1346",
+   "date": "2026-10-13",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "police-releases:7f0d51b80ed6",
+   "source": "police-releases",
+   "kind": "safety",
+   "title": "Press release (title withheld: may name people)",
+   "url": "https://www.nashuanhpd.gov/DocumentCenter/View/1344",
+   "date": "2026-10-13",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "police-releases:578824a264a7",
+   "source": "police-releases",
+   "kind": "safety",
+   "title": "Press release (title withheld: may name people): assault",
+   "url": "https://www.nashuanhpd.gov/DocumentCenter/View/1343",
+   "date": "2026-10-13",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
    "key": "civicclerk:86d280d7276f",
    "source": "civicclerk",
    "kind": "meeting-doc",
@@ -2475,6 +2645,36 @@
    "lastSeen": "2026-11-01"
   },
   {
+   "key": "police-releases:93a17d31b97f",
+   "source": "police-releases",
+   "kind": "safety",
+   "title": "Press release (title withheld: may name people)",
+   "url": "https://www.nashuanhpd.gov/DocumentCenter/View/1340",
+   "date": "2026-10-08",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "police-releases:de0e71a2c91b",
+   "source": "police-releases",
+   "kind": "safety",
+   "title": "Press release (title withheld: may name people)",
+   "url": "https://www.nashuanhpd.gov/DocumentCenter/View/1339",
+   "date": "2026-10-08",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "police-releases:3a425069dc14",
+   "source": "police-releases",
+   "kind": "safety",
+   "title": "Press release (title withheld: may name people): missing",
+   "url": "https://www.nashuanhpd.gov/DocumentCenter/View/1335",
+   "date": "2026-10-05",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
    "key": "city-feeds:ebde4afe1129",
    "source": "city-feeds",
    "kind": "notice",
@@ -2483,6 +2683,56 @@
    "url": "https://www.nashuanh.gov/Calendar.aspx?EID=14153",
    "date": "2026-09-30",
    "detail": "Event date: November 10, 2026 Event Time: 05:00 PM - 11:59 PM Location: DPW Administrative Building, 848 West Hollis Stree Mines Fall Conference Room Nashua, NH 03062",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "police-releases:d75ddac64719",
+   "source": "police-releases",
+   "kind": "safety",
+   "title": "Press release (title withheld: may name people): missing",
+   "url": "https://www.nashuanhpd.gov/DocumentCenter/View/1331",
+   "date": "2026-09-30",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "police-releases:85341ea67149",
+   "source": "police-releases",
+   "kind": "safety",
+   "title": "Press release (title withheld: may name people)",
+   "url": "https://www.nashuanhpd.gov/DocumentCenter/View/1330",
+   "date": "2026-09-29",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "police-releases:fb89b3a2e6aa",
+   "source": "police-releases",
+   "kind": "safety",
+   "title": "Press release (title withheld: may name people)",
+   "url": "https://www.nashuanhpd.gov/DocumentCenter/View/1322",
+   "date": "2026-09-28",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "police-releases:64b2808f2ac3",
+   "source": "police-releases",
+   "kind": "safety",
+   "title": "Press release (title withheld: may name people): theft",
+   "url": "https://www.nashuanhpd.gov/DocumentCenter/View/1321",
+   "date": "2026-09-28",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "police-releases:1e1de120475c",
+   "source": "police-releases",
+   "kind": "safety",
+   "title": "Press release (title withheld: may name people)",
+   "url": "https://www.nashuanhpd.gov/DocumentCenter/View/1317",
+   "date": "2026-09-23",
    "firstSeen": "2026-11-01",
    "lastSeen": "2026-11-01"
   },
@@ -2852,256 +3102,6 @@
    "kind": "police-log",
    "title": "Arrest Log 8.6-8.2024",
    "url": "https://www.nashuanhpd.gov/DocumentCenter/View/330",
-   "date": null,
-   "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-01"
-  },
-  {
-   "key": "police-releases:4f44a3219238",
-   "source": "police-releases",
-   "kind": "safety",
-   "title": "Press release (title withheld: may name people): theft",
-   "url": "https://www.nashuanhpd.gov/DocumentCenter/View/1368",
-   "date": null,
-   "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-01"
-  },
-  {
-   "key": "police-releases:fb97de799c66",
-   "source": "police-releases",
-   "kind": "safety",
-   "title": "Press release (title withheld: may name people)",
-   "url": "https://www.nashuanhpd.gov/DocumentCenter/View/1367",
-   "date": null,
-   "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-01"
-  },
-  {
-   "key": "police-releases:f623e05d39b5",
-   "source": "police-releases",
-   "kind": "safety",
-   "title": "Press release (title withheld: may name people): domestic violence",
-   "url": "https://www.nashuanhpd.gov/DocumentCenter/View/1366",
-   "date": null,
-   "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-01"
-  },
-  {
-   "key": "police-releases:3267d59ccb50",
-   "source": "police-releases",
-   "kind": "safety",
-   "title": "Press release (title withheld: may name people): burglary",
-   "url": "https://www.nashuanhpd.gov/DocumentCenter/View/1350",
-   "date": null,
-   "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-01"
-  },
-  {
-   "key": "police-releases:505a83108446",
-   "source": "police-releases",
-   "kind": "safety",
-   "title": "Press release (title withheld: may name people): domestic violence",
-   "url": "https://www.nashuanhpd.gov/DocumentCenter/View/1346",
-   "date": null,
-   "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-01"
-  },
-  {
-   "key": "police-releases:7f0d51b80ed6",
-   "source": "police-releases",
-   "kind": "safety",
-   "title": "Press release (title withheld: may name people)",
-   "url": "https://www.nashuanhpd.gov/DocumentCenter/View/1344",
-   "date": null,
-   "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-01"
-  },
-  {
-   "key": "police-releases:578824a264a7",
-   "source": "police-releases",
-   "kind": "safety",
-   "title": "Press release (title withheld: may name people): assault",
-   "url": "https://www.nashuanhpd.gov/DocumentCenter/View/1343",
-   "date": null,
-   "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-01"
-  },
-  {
-   "key": "police-releases:93a17d31b97f",
-   "source": "police-releases",
-   "kind": "safety",
-   "title": "Press release (title withheld: may name people)",
-   "url": "https://www.nashuanhpd.gov/DocumentCenter/View/1340",
-   "date": null,
-   "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-01"
-  },
-  {
-   "key": "police-releases:de0e71a2c91b",
-   "source": "police-releases",
-   "kind": "safety",
-   "title": "Press release (title withheld: may name people)",
-   "url": "https://www.nashuanhpd.gov/DocumentCenter/View/1339",
-   "date": null,
-   "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-01"
-  },
-  {
-   "key": "police-releases:3a425069dc14",
-   "source": "police-releases",
-   "kind": "safety",
-   "title": "Press release (title withheld: may name people): missing",
-   "url": "https://www.nashuanhpd.gov/DocumentCenter/View/1335",
-   "date": null,
-   "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-01"
-  },
-  {
-   "key": "police-releases:d75ddac64719",
-   "source": "police-releases",
-   "kind": "safety",
-   "title": "Press release (title withheld: may name people): missing",
-   "url": "https://www.nashuanhpd.gov/DocumentCenter/View/1331",
-   "date": null,
-   "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-01"
-  },
-  {
-   "key": "police-releases:85341ea67149",
-   "source": "police-releases",
-   "kind": "safety",
-   "title": "Press release (title withheld: may name people)",
-   "url": "https://www.nashuanhpd.gov/DocumentCenter/View/1330",
-   "date": null,
-   "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-01"
-  },
-  {
-   "key": "police-releases:fb89b3a2e6aa",
-   "source": "police-releases",
-   "kind": "safety",
-   "title": "Press release (title withheld: may name people)",
-   "url": "https://www.nashuanhpd.gov/DocumentCenter/View/1322",
-   "date": null,
-   "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-01"
-  },
-  {
-   "key": "police-releases:64b2808f2ac3",
-   "source": "police-releases",
-   "kind": "safety",
-   "title": "Press release (title withheld: may name people): theft",
-   "url": "https://www.nashuanhpd.gov/DocumentCenter/View/1321",
-   "date": null,
-   "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-01"
-  },
-  {
-   "key": "police-releases:1e1de120475c",
-   "source": "police-releases",
-   "kind": "safety",
-   "title": "Press release (title withheld: may name people)",
-   "url": "https://www.nashuanhpd.gov/DocumentCenter/View/1317",
-   "date": null,
-   "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-01"
-  },
-  {
-   "key": "police-arrest-logs:016a68166e84",
-   "source": "police-arrest-logs",
-   "kind": "police-log",
-   "title": "Arrest Log 10.29.2026",
-   "url": "https://www.nashuanhpd.gov/DocumentCenter/View/1365",
-   "date": null,
-   "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-01"
-  },
-  {
-   "key": "police-arrest-logs:97220f5cd47f",
-   "source": "police-arrest-logs",
-   "kind": "police-log",
-   "title": "Arrest Log 10.28.2026",
-   "url": "https://www.nashuanhpd.gov/DocumentCenter/View/1364",
-   "date": null,
-   "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-01"
-  },
-  {
-   "key": "police-arrest-logs:348b3424d3bb",
-   "source": "police-arrest-logs",
-   "kind": "police-log",
-   "title": "Arrest Log 10.27.2026",
-   "url": "https://www.nashuanhpd.gov/DocumentCenter/View/1363",
-   "date": null,
-   "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-01"
-  },
-  {
-   "key": "police-arrest-logs:94589a2a9208",
-   "source": "police-arrest-logs",
-   "kind": "police-log",
-   "title": "Arrest Log 10.26.2026",
-   "url": "https://www.nashuanhpd.gov/DocumentCenter/View/1362",
-   "date": null,
-   "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-01"
-  },
-  {
-   "key": "police-arrest-logs:9217b1633cc6",
-   "source": "police-arrest-logs",
-   "kind": "police-log",
-   "title": "Arrest Log 10.23-25.2026",
-   "url": "https://www.nashuanhpd.gov/DocumentCenter/View/1361",
-   "date": null,
-   "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-01"
-  },
-  {
-   "key": "police-arrest-logs:7549dadf96ff",
-   "source": "police-arrest-logs",
-   "kind": "police-log",
-   "title": "Arrest Log 10.22.2026",
-   "url": "https://www.nashuanhpd.gov/DocumentCenter/View/1360",
-   "date": null,
-   "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-01"
-  },
-  {
-   "key": "police-arrest-logs:32bff9bc6867",
-   "source": "police-arrest-logs",
-   "kind": "police-log",
-   "title": "Arrest Log 10.21.2026",
-   "url": "https://www.nashuanhpd.gov/DocumentCenter/View/1359",
-   "date": null,
-   "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-01"
-  },
-  {
-   "key": "police-arrest-logs:24d8d9c58429",
-   "source": "police-arrest-logs",
-   "kind": "police-log",
-   "title": "Arrest Log 10.20.2026",
-   "url": "https://www.nashuanhpd.gov/DocumentCenter/View/1358",
-   "date": null,
-   "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-01"
-  },
-  {
-   "key": "police-arrest-logs:aceba326d3e1",
-   "source": "police-arrest-logs",
-   "kind": "police-log",
-   "title": "Arrest Log 10.19.2026",
-   "url": "https://www.nashuanhpd.gov/DocumentCenter/View/1352",
-   "date": null,
-   "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-01"
-  },
-  {
-   "key": "police-arrest-logs:4c34e41162c2",
-   "source": "police-arrest-logs",
-   "kind": "police-log",
-   "title": "Arrest Log 10.16-18.2026",
-   "url": "https://www.nashuanhpd.gov/DocumentCenter/View/1351",
    "date": null,
    "firstSeen": "2026-11-01",
    "lastSeen": "2026-11-01"
