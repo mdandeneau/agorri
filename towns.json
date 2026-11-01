@@ -1,5 +1,5 @@
 {
- "note": "Agorri town registry. Every live town runs on the same page (index.html), so a layout change applies to all of them. To add a town: put its files in data/<id>/ (record, local, beyond and feeds are required; parks, business and candidates are optional and turn on those tabs), add an entry here with status \"live\", and add \"/<id> / 200\" to _redirects.",
+ "note": "Agorri town registry. Every live town runs on the same page (index.html), so a layout change applies to all of them. To add a town: put its files in data/<id>/ (record, local, beyond and feeds are required; parks, business and candidates are optional and turn on those tabs), add an entry here with status \"live\", and add \"/<id> / 200\" to _redirects. A live town can carry \"paused\": {\"since\", \"note\"}: the page stays up with a banner saying updates are paused and the last update date, and the daily refresh skips it.",
  "default": "portsmouth",
  "towns": [
   {
@@ -74,6 +74,10 @@
     "base": "https://assessing.nashuanh.gov/",
     "site": "https://assessing.nashuanh.gov/",
     "label": "City of Nashua Assessing (Patriot Properties)"
+   },
+   "paused": {
+    "since": "2026-11-01",
+    "note": "Agorri is focusing on the Seacoast and the Mount Washington Valley for now, so this page is not being updated. Dates, meetings and events may be out of date."
    }
   },
   {

@@ -1,0 +1,237 @@
+{
+ "note": "Fetcher sources switched off Nov 1, 2026 (Agorri is focusing on the Seacoast and Mount Washington Valley). Move a town into ingest/sources.json to fetch it again.",
+ "towns": {
+  "nashua": [
+   {
+    "id": "civicclerk",
+    "type": "civicclerk",
+    "kind": "meeting-doc",
+    "tenant": "nashuanh",
+    "back": 21,
+    "ahead": 21,
+    "docs": true
+   },
+   {
+    "id": "city-feeds",
+    "type": "civicplus",
+    "kind": "notice",
+    "base": "https://www.nashuanh.gov/"
+   },
+   {
+    "id": "police-releases",
+    "type": "civicplus-docs",
+    "kind": "safety",
+    "base": "https://www.nashuanhpd.gov/",
+    "folder": 46,
+    "max": 15
+   },
+   {
+    "id": "police-arrest-logs",
+    "type": "civicplus-docs",
+    "kind": "police-log",
+    "text": false,
+    "base": "https://www.nashuanhpd.gov/",
+    "folder": 45,
+    "max": 10
+   }
+  ],
+  "hudson": [
+   {
+    "id": "agenda-center",
+    "type": "links",
+    "kind": "meeting-doc",
+    "docs": true,
+    "url": "https://www.hudsonnh.gov/AgendaCenter",
+    "match": "AgendaCenter/ViewFile/(Agenda|Minutes)/",
+    "max": 150
+   }
+  ],
+  "amherst": [
+   {
+    "id": "civicclerk",
+    "type": "civicclerk",
+    "kind": "meeting-doc",
+    "tenant": "amherstnh",
+    "back": 21,
+    "ahead": 21,
+    "docs": true
+   },
+   {
+    "id": "town-feeds",
+    "type": "civicplus",
+    "kind": "notice",
+    "base": "https://www.amherstnh.gov/"
+   },
+   {
+    "id": "agenda-center",
+    "type": "links",
+    "kind": "meeting-doc",
+    "docs": true,
+    "url": "https://www.amherstnh.gov/AgendaCenter",
+    "match": "AgendaCenter/ViewFile/(Agenda|Minutes)/",
+    "max": 150
+   }
+  ],
+  "merrimack": [
+   {
+    "id": "agenda-center",
+    "type": "links",
+    "kind": "meeting-doc",
+    "docs": true,
+    "url": "https://www.merrimacknh.gov/AgendaCenter",
+    "match": "AgendaCenter/ViewFile/(Agenda|Minutes)/",
+    "max": 150
+   }
+  ],
+  "litchfield": [
+   {
+    "id": "town-feeds",
+    "type": "civicplus",
+    "kind": "notice",
+    "base": "https://www.litchfieldnh.gov/"
+   },
+   {
+    "id": "agenda-center",
+    "type": "links",
+    "kind": "meeting-doc",
+    "docs": true,
+    "url": "https://www.litchfieldnh.gov/AgendaCenter",
+    "match": "AgendaCenter/ViewFile/(Agenda|Minutes)/",
+    "max": 150
+   }
+  ],
+  "pelham": [
+   {
+    "id": "civicclerk",
+    "type": "civicclerk",
+    "kind": "meeting-doc",
+    "tenant": "pelhamnh",
+    "back": 21,
+    "ahead": 21,
+    "docs": true
+   },
+   {
+    "id": "town-feeds",
+    "type": "civicplus",
+    "kind": "notice",
+    "base": "https://www.pelhamweb.com/"
+   }
+  ],
+  "hooksett": [
+   {
+    "id": "meeting-docs",
+    "type": "links",
+    "kind": "meeting-doc",
+    "docs": true,
+    "pages": [
+     "https://www.hooksett.gov/government/town_council/agendas_and_minutes.php",
+     "https://www.hooksett.gov/government/town_council/index.php"
+    ],
+    "match": "\\.pdf(\\?|$)|DocumentCenter/View|AgendaCenter/ViewFile|/files/|/uploads/|/media/|download",
+    "require": "agenda|minute",
+    "max": 150
+   }
+  ],
+  "manchester": [
+   {
+    "id": "civicclerk",
+    "type": "civicclerk",
+    "kind": "meeting-doc",
+    "tenant": "manchesternh",
+    "back": 21,
+    "ahead": 21,
+    "docs": true
+   }
+  ],
+  "bedford": [
+   {
+    "id": "town-feeds",
+    "type": "civicplus",
+    "kind": "notice",
+    "base": "https://www.bedfordnh.gov/"
+   },
+   {
+    "id": "agenda-center",
+    "type": "links",
+    "kind": "meeting-doc",
+    "docs": true,
+    "url": "https://www.bedfordnh.gov/AgendaCenter",
+    "match": "AgendaCenter/ViewFile/(Agenda|Minutes)/",
+    "max": 150
+   }
+  ],
+  "hollis": [
+   {
+    "id": "agenda-center",
+    "type": "links",
+    "kind": "meeting-doc",
+    "docs": true,
+    "url": "https://www.hollisnh.gov/AgendaCenter",
+    "match": "AgendaCenter/ViewFile/(Agenda|Minutes)/",
+    "max": 150
+   }
+  ],
+  "auburn": [
+   {
+    "id": "agenda-center",
+    "type": "links",
+    "kind": "meeting-doc",
+    "docs": true,
+    "url": "https://www.auburnnh.gov/AgendaCenter",
+    "match": "AgendaCenter/ViewFile/(Agenda|Minutes)/",
+    "max": 150
+   }
+  ],
+  "derry": [
+   {
+    "id": "town-feeds",
+    "type": "civicplus",
+    "kind": "notice",
+    "base": "https://www.derrynh.gov/"
+   },
+   {
+    "id": "agenda-center",
+    "type": "links",
+    "kind": "meeting-doc",
+    "docs": true,
+    "url": "https://www.derrynh.gov/AgendaCenter",
+    "match": "AgendaCenter/ViewFile/(Agenda|Minutes)/",
+    "max": 150
+   }
+  ],
+  "londonderry": [
+   {
+    "id": "town-feeds",
+    "type": "civicplus",
+    "kind": "notice",
+    "base": "https://www.londonderrynh.gov/"
+   },
+   {
+    "id": "agenda-center",
+    "type": "links",
+    "kind": "meeting-doc",
+    "docs": true,
+    "url": "https://www.londonderrynh.gov/AgendaCenter",
+    "match": "AgendaCenter/ViewFile/(Agenda|Minutes)/",
+    "max": 150
+   }
+  ],
+  "goffstown": [
+   {
+    "id": "town-feeds",
+    "type": "civicplus",
+    "kind": "notice",
+    "base": "https://www.goffstownnh.gov/"
+   },
+   {
+    "id": "agenda-center",
+    "type": "links",
+    "kind": "meeting-doc",
+    "docs": true,
+    "url": "https://www.goffstownnh.gov/AgendaCenter",
+    "match": "AgendaCenter/ViewFile/(Agenda|Minutes)/",
+    "max": 150
+   }
+  ]
+ }
+}

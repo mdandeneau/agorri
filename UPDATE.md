@@ -1,6 +1,6 @@
 # Daily refresh runbook
 
-This is what the scheduled Agorri refresh does every morning, for every town with `"status": "live"` in `towns.json`. A person can follow it too.
+This is what the scheduled Agorri refresh does every morning, for every town with `"status": "live"` in `towns.json` except towns marked `"paused"` (Nashua, since Nov 1, 2026: its page stays up with a banner and is not refreshed). Today that means Portsmouth and the Mount Washington Valley. A person can follow it too.
 
 All towns share one page (`index.html`). Only edit data in `data/<town>/`. Never edit `index.html` or `functions/` during a refresh.
 
@@ -20,7 +20,7 @@ A GitHub Action (`.github/workflows/fetch-sources.yml`, 07:17 UTC daily) checks 
 - Agendas and minutes have `text`: the path of the saved text in `inbox/<town>/docs/`. Read the minutes there instead of fetching them. Cite the item's `url` (the official document), never the inbox path.
 - Police and fire items carry no names: titles that may name people are withheld, and police logs are links only. Open the `url` if you need more, and write the item without names as always.
 - `inbox/` is the fetcher's file. Never edit it during a refresh. To add or fix a source, edit `ingest/sources.json`.
-The fetcher also covers launch-region towns that do not have a page yet (`ingest/regions.json`: Greater Portsmouth, Greater Nashua, Greater Manchester, Mount Washington Valley). Their inboxes are there for building those pages later; a daily refresh only works on live towns. For the valley, read every valley town's inbox (conway, bartlett, tamworth, madison, jackson and the summary towns).
+The fetcher covers the Seacoast (Greater Portsmouth) and Mount Washington Valley towns in `ingest/sources.json`, including towns that do not have a page yet (Dover, Hampton, Durham, Rye and the rest). Their inboxes are there for building those pages later; a daily refresh only works on live, unpaused towns. For the valley, read every valley town's inbox (conway, bartlett, tamworth, madison, jackson, freedom, albany, eaton, harts-location). Greater Nashua and Greater Manchester sources are switched off (`ingest/sources-paused.json`).
 Use the source lists further down for anything the inbox does not cover (events, the paper, housing, candidates), or when a source shows as failed.
 
 ## Every day, for each live town

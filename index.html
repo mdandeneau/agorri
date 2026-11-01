@@ -1633,6 +1633,7 @@ function route(){if(!TOWN)return;if(TLIVE()&&!D)return;let h=(location.hash||'#h
  else if(h==='home-classic')html=pageHome();
  else html=pageHome2();
  currentArea={home:'Home',ideas:'Ideas',local:'Local',social:'Lookup',safety:'Lookup',friends:'Neighbors',issues:'Issues',lookup:'Lookup',neighbors:'Neighbors',talk:'Talk',business:'Business',parks:'Parks & public works',schools:'Schools',sports:'Sports',election:'Vote'}[active]||'Home';
+ if(TLIVE()&&TOWN.paused)html=pausedBanner(TOWN)+html;
  $('app').innerHTML=html;
  const L=[['home','Home'],['local','Local'],['issues','Issues'],['talk','Talk'],['lookup','More']];
  const SL=[['home','Home'],['local','Local'],['business','Business'],['parks','Parks & public works'],['schools','Schools'],['sports','Sports'],['issues','Issues'],['talk','Talk'],['safety','Safety'],['election','Vote']];
@@ -2969,6 +2970,8 @@ async function switchTown(id,quiet){const t=(TOWNS||[]).find(x=>x.id===id);if(!t
 async function requestTown(id,name){S.townReq[id||name]=true;save();const label=name||((TOWNS||[]).find(t=>t.id===id)||{}).name||id;let saved=false;
  if(FB.db&&FB.uid&&FB.canSave){try{const ref=FB.db.doc('feedback/'+FB.uid);const cur=await ref.get();const data=cur.exists?cur.data():{};const item={id:'f'+Date.now().toString(36),kind:'Add something',area:'Town request',text:'Bring Agorri to '+label,at:new Date().toISOString()};await ref.set({items:(data.items||[]).concat([item]),plus:data.plus||[]});saved=true;}catch(e){}}
  toast(saved?'Request sent for '+label+'.':'Request noted for '+label+' on this device.');rerender();const l=$('townlist');if(l)l.innerHTML=townList($('townq')?$('townq').value:'');}
+/* A live town whose daily updates are paused (towns.json "paused": {since, note}): say so at the top of every page. */
+function pausedBanner(t){const p=t.paused||{};return `<div class="card stack" role="note" style="gap:4px;border-left:4px solid var(--amber);margin-bottom:12px"><b>Updates for ${esc(t.name)} are paused</b><span class="muted" style="font-size:14px">${esc(p.note||'This page is not being updated right now. Dates, meetings and events may be out of date. Check the official site for the latest.')} Last updated ${esc(fmtD(p.since)||p.since||'')}.${t.site?` <a href="${esc(t.site)}" target="_blank" rel="noopener">${esc(t.name)}'s official site ↗</a>`:''}</span></div>`;}
 function pageSoon(){const t=TOWN;const live=(TOWNS||[]).filter(x=>x.status==='live');const req=S.townReq[t.id];
  return `<section class="stack" style="gap:6px"><span class="muted">${esc(t.kind)} · ${esc(t.stateName)}</span><h1>${esc(t.name)}</h1></section>
  <div class="soon stack" style="gap:12px"><h2>Agorri isn't live in ${esc(t.name)} yet</h2><p class="muted" style="font-size:14px">Each town is built from its own public record: meeting minutes, the budget, board decisions, elected officials and local news. ${esc(t.name)} is on the list.</p>
