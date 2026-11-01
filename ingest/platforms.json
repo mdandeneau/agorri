@@ -1,6 +1,6 @@
 {
  "note": "Written by ingest/scan.mjs. One entry per town in ingest/regions.json: its website, detected platforms, feeds, meeting pages, and `fetch` (how the daily fetcher can read it). Re-run when a town changes websites.",
- "scanned": "2026-11-01T16:04:37.594Z",
+ "scanned": "2026-11-01T16:06:31.260Z",
  "towns": {
   "dover": {
    "id": "dover",
