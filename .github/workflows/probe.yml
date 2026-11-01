@@ -1,0 +1,13 @@
+name: Probe (temporary)
+on:
+  push:
+    branches: [dover-probe]
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node ingest/probe.mjs https://publicrecords.dover.nh.gov/ https://publicrecords.dover.nh.gov/Browse/Public_Meetings https://www.dover.nh.gov/government/open-government/public-meetings/ https://www.dover.nh.gov/government/boards-and-commissions/city-council/index.html https://myhamlet.com/
