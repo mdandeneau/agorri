@@ -143,6 +143,29 @@
      "next": [],
      "needs_review": true,
      "review_note": "Scores from MaxPreps, an aggregator."
+    },
+    {
+     "sport": "Girls Volleyball",
+     "season": "Fall 2026",
+     "level": "Varsity",
+     "record": null,
+     "recordAsOf": null,
+     "coach": null,
+     "postseason": "No. 6 seed in Division I; lost 3-0 to No. 11 Dover in the preliminary round on Oct 28.",
+     "recent": [
+      {
+       "date": "2026-10-28",
+       "opponent": "Dover",
+       "home": true,
+       "result": "L 0-3",
+       "note": "Division I preliminary round",
+       "source": {
+        "label": "NHIAA 2026 Division I Girls Volleyball tournament",
+        "url": "https://www.nhiaa.org/nhiaa-2026-27-division-i-girls-volleyball-tournament/"
+       }
+      }
+     ],
+     "next": []
     }
    ]
   },
@@ -171,18 +194,18 @@
      "recordAsOf": "2026-09-30",
      "recordNote": "Last record MaxPreps posted; the team entered the tournament as the Division I top seed.",
      "coach": null,
-     "postseason": "Top seed in Division I; beat Winnacunnet 6-0 in the Oct 31 quarterfinal at Stellos Stadium and plays No. 4 Exeter in the semifinals.",
+     "postseason": "No. 1 seed in Division I; semifinal Wed Nov 4, 6:15 pm, vs No. 4 Exeter at Manchester Memorial.",
      "recent": [
       {
        "date": "2026-10-31",
-       "opponent": "Winnacunnet (NHIAA Division I quarterfinal)",
+       "opponent": "Winnacunnet",
        "home": true,
        "result": "W 6-0",
        "source": {
-        "label": "Yahoo Sports, Top-seed Nashua South ousts Winnacunnet (Nov 1)",
-        "url": "https://sports.yahoo.com/articles/n-h-boys-soccer-top-042638080.html"
+        "label": "NHIAA 2026 Division I Boys Soccer tournament",
+        "url": "https://www.nhiaa.org/nhiaa-2026-27-division-i-boys-soccer-tournament/"
        },
-       "note": "Played at Stellos Stadium."
+       "note": "Division I quarterfinal, Stellos Stadium"
       },
       {
        "date": "2026-09-29",
@@ -240,14 +263,14 @@
      "next": [
       {
        "date": "2026-11-04",
-       "time": null,
-       "opponent": "Exeter (No. 4 seed)",
+       "time": "6:15 pm",
+       "opponent": "Exeter",
        "home": false,
        "venue": "Manchester Memorial High School",
-       "note": "NHIAA Division I semifinal. Final is Saturday, Nov 7, also at Manchester Memorial.",
+       "note": "Division I semifinal",
        "source": {
-        "label": "Yahoo Sports, Top-seed Nashua South ousts Winnacunnet (Nov 1)",
-        "url": "https://sports.yahoo.com/articles/n-h-boys-soccer-top-042638080.html"
+        "label": "NHIAA 2026 Division I Boys Soccer tournament",
+        "url": "https://www.nhiaa.org/nhiaa-2026-27-division-i-boys-soccer-tournament/"
        },
        "alsoSource": {
         "label": "NHIAA Fall 2026 tournament calendar (PDF)",
@@ -345,17 +368,18 @@
      "record": "5-8",
      "recordAsOf": "2026-10-12",
      "coach": null,
-     "postseason": "Lost 3-0 to Bishop Guertin in an Oct 28 Division I tournament game.",
+     "postseason": "No. 13 seed in Division I; lost 3-0 at No. 4 Bishop Guertin in the preliminary round on Oct 28.",
      "recent": [
       {
        "date": "2026-10-28",
-       "opponent": "Bishop Guertin (NHIAA Division I tournament)",
-       "home": null,
+       "opponent": "Bishop Guertin",
+       "home": false,
        "result": "L 0-3",
        "source": {
-        "label": "MaxPreps, Bishop Guertin volleyball (updated Oct 30)",
-        "url": "https://www.maxpreps.com/nh/nashua/bishop-guertin-cardinals/volleyball/"
-       }
+        "label": "NHIAA 2026 Division I Girls Volleyball tournament",
+        "url": "https://www.nhiaa.org/nhiaa-2026-27-division-i-girls-volleyball-tournament/"
+       },
+       "note": "Division I preliminary round"
       },
       {
        "date": "2026-10-23",
@@ -446,12 +470,12 @@
        "date": "2026-10-31",
        "opponent": "Keene",
        "home": true,
-       "result": null,
+       "result": "W 56-8",
        "source": {
-        "label": "NH-HighSchoolSports.com, Playoff Picture: Football (Oct. 31)",
-        "url": "https://www.nh-highschoolsports.com/playoff-picture-football-oct-31-3/"
+        "label": "NHIAA football scoreboard",
+        "url": "https://www.nhiaa.org/sports/fall/football/"
        },
-       "note": "Regular-season finale, 6 pm; result not found."
+       "note": "Stellos Stadium"
       },
       {
        "date": "2026-10-09",
@@ -543,28 +567,29 @@
      "record": "16-4",
      "recordAsOf": "2026-10-30",
      "coach": null,
-     "postseason": "No. 4 seed in Division I; beat No. 5 Exeter 3-2 in the Oct 30 quarterfinal to reach the semifinals.",
+     "postseason": "No. 4 seed in Division I; semifinal Thu Nov 5, 6:00 pm, vs No. 1 Salem at Pinkerton Academy.",
      "recent": [
       {
        "date": "2026-10-30",
-       "opponent": "Exeter (NHIAA Division I quarterfinal)",
-       "home": null,
+       "opponent": "Exeter",
+       "home": true,
        "result": "W 3-2",
        "source": {
-        "label": "Yahoo Sports, Friday Tourney Roundup (Oct 31)",
-        "url": "https://sports.yahoo.com/articles/friday-tourney-roundup-winnacunnet-somersworth-061411533.html"
+        "label": "NHIAA 2026 Division I Girls Volleyball tournament",
+        "url": "https://www.nhiaa.org/nhiaa-2026-27-division-i-girls-volleyball-tournament/"
        },
-       "note": "Yahoo dateline is Nashua; MaxPreps lists it as at Exeter."
+       "note": "Division I quarterfinal"
       },
       {
        "date": "2026-10-28",
-       "opponent": "Nashua South (NHIAA Division I tournament)",
-       "home": null,
+       "opponent": "Nashua South",
+       "home": true,
        "result": "W 3-0",
        "source": {
-        "label": "MaxPreps, Bishop Guertin volleyball (updated Oct 30)",
-        "url": "https://www.maxpreps.com/nh/nashua/bishop-guertin-cardinals/volleyball/"
-       }
+        "label": "NHIAA 2026 Division I Girls Volleyball tournament",
+        "url": "https://www.nhiaa.org/nhiaa-2026-27-division-i-girls-volleyball-tournament/"
+       },
+       "note": "Division I preliminary round"
       },
       {
        "date": "2026-10-23",
@@ -609,15 +634,15 @@
      ],
      "next": [
       {
-       "date": "2026-11-04",
-       "time": null,
-       "opponent": "TBD",
-       "home": null,
-       "venue": null,
-       "note": "NHIAA Division I semifinal. Final is Saturday, Nov 7 at Pinkerton Academy.",
+       "date": "2026-11-05",
+       "time": "6:00 pm",
+       "opponent": "Salem",
+       "home": false,
+       "venue": "Pinkerton Academy",
+       "note": "Division I semifinal",
        "source": {
-        "label": "NHIAA Fall 2026 tournament calendar (PDF)",
-        "url": "https://www.nhiaa.org/ckfinder/userfiles/files/Fall%202026-27(1).pdf"
+        "label": "NHIAA 2026 Division I Girls Volleyball tournament",
+        "url": "https://www.nhiaa.org/nhiaa-2026-27-division-i-girls-volleyball-tournament/"
        }
       }
      ],
@@ -635,19 +660,87 @@
      "recent": [
       {
        "date": "2026-10-30",
-       "opponent": "Pinkerton (NHIAA Division I quarterfinal)",
-       "home": null,
+       "opponent": "Pinkerton",
+       "home": false,
        "result": "L 0-2",
        "source": {
-        "label": "Nashua Telegraph, Cardinals' run ends vs. Pinkerton in quarters (Oct 31)",
-        "url": "https://www.nashuatelegraph.com/sports/high-schools/2026/10/31/cardinals-impressive-run-ends-vs-pinkerton-in-quarters-2-0/"
+        "label": "NHIAA 2026 Division I Girls Soccer tournament",
+        "url": "https://www.nhiaa.org/nhiaa-2026-27-division-i-girls-soccer-tournament/"
        },
-       "note": "Date inferred from the NHIAA calendar (Division I girls quarterfinals Fri Oct 30); Telegraph story is paywalled."
+       "note": "Division I quarterfinal"
+      },
+      {
+       "date": "2026-10-27",
+       "opponent": "Hanover",
+       "home": true,
+       "result": "W 2-1",
+       "note": "Division I preliminary round",
+       "source": {
+        "label": "NHIAA 2026 Division I Girls Soccer tournament",
+        "url": "https://www.nhiaa.org/nhiaa-2026-27-division-i-girls-soccer-tournament/"
+       }
       }
      ],
      "next": [],
      "needs_review": true,
      "review_note": "Sport identified from a Nashua Ink Link headline ('Pinkerton girls soccer blank Bishop Guertin...') that matches the Telegraph's Oct 31 headline; record not found."
+    },
+    {
+     "sport": "Boys Soccer",
+     "season": "Fall 2026",
+     "level": "Varsity",
+     "record": null,
+     "recordAsOf": null,
+     "coach": null,
+     "postseason": "No. 13 seed in Division I; lost 5-1 at No. 4 Exeter in the preliminary round on Oct 28.",
+     "recent": [
+      {
+       "date": "2026-10-28",
+       "opponent": "Exeter",
+       "home": false,
+       "result": "L 1-5",
+       "note": "Division I preliminary round",
+       "source": {
+        "label": "NHIAA 2026 Division I Boys Soccer tournament",
+        "url": "https://www.nhiaa.org/nhiaa-2026-27-division-i-boys-soccer-tournament/"
+       }
+      }
+     ],
+     "next": []
+    },
+    {
+     "sport": "Field Hockey",
+     "season": "Fall 2026",
+     "level": "Varsity",
+     "record": null,
+     "recordAsOf": null,
+     "coach": null,
+     "postseason": "No. 10 seed in Division I; won 5-3 at Exeter, then lost 6-2 at No. 2 Pinkerton in the quarterfinal on Oct 24.",
+     "recent": [
+      {
+       "date": "2026-10-24",
+       "opponent": "Pinkerton",
+       "home": false,
+       "result": "L 2-6",
+       "note": "Division I quarterfinal",
+       "source": {
+        "label": "NHIAA 2026 Division I Field Hockey tournament",
+        "url": "https://www.nhiaa.org/26-27-di-field-hockey-tournament"
+       }
+      },
+      {
+       "date": "2026-10-21",
+       "opponent": "Exeter",
+       "home": false,
+       "result": "W 5-3",
+       "note": "Division I preliminary round",
+       "source": {
+        "label": "NHIAA 2026 Division I Field Hockey tournament",
+        "url": "https://www.nhiaa.org/26-27-di-field-hockey-tournament"
+       }
+      }
+     ],
+     "next": []
     }
    ]
   }

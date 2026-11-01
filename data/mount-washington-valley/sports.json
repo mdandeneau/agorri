@@ -128,20 +128,18 @@
      "record": "6-9-4",
      "recordAsOf": "2026-10-29",
      "coach": null,
-     "postseason": "MaxPreps lists a 3-1 loss at Pembroke Academy on Tuesday, Oct. 27, labeled a tournament game, which lines up with a Conway Daily Sun headline, 'Eagles secure final playoff spot; visit Pembroke on Tuesday.' The Sun article could not be opened, so the playoff details are unconfirmed.",
+     "postseason": "No. 11 seed in Division II; lost 3-1 at No. 6 Pembroke in the preliminary round on Oct 27.",
      "recent": [
       {
        "date": "2026-10-27",
        "opponent": "Pembroke Academy",
        "home": false,
        "result": "L 1-3",
-       "note": "Labeled a tournament game by MaxPreps",
+       "note": "Division II preliminary round",
        "source": {
-        "label": "MaxPreps, Kennett boys soccer (aggregator, updated Oct 29, 2026)",
-        "url": "https://www.maxpreps.com/nh/conway/kennett-eagles/soccer/"
-       },
-       "needs_review": true,
-       "review_note": "Aggregator score."
+        "label": "NHIAA 2026 Division II Boys Soccer tournament",
+        "url": "https://www.nhiaa.org/nhiaa-2026-27-division-ii-boys-soccer-tournament/"
+       }
       },
       {
        "date": "2026-10-22",
@@ -204,8 +202,31 @@
      "record": "7-6-4",
      "recordAsOf": "2026-10-31",
      "coach": null,
-     "postseason": "The Conway Daily Sun reported the team would host its first-ever playoff match (headline Oct. 27) and posted a 'Kennett Girls Soccer Playoff Win' photo gallery on Oct. 30. Opponent, score and next round were not confirmed.",
-     "recent": [],
+     "postseason": "No. 7 seed in Division II; beat Souhegan 3-0, then lost 1-0 at No. 2 Bow in the quarterfinal on Oct 31.",
+     "recent": [
+      {
+       "date": "2026-10-31",
+       "opponent": "Bow",
+       "home": false,
+       "result": "L 0-1",
+       "note": "Division II quarterfinal",
+       "source": {
+        "label": "NHIAA 2026 Division II Girls Soccer tournament",
+        "url": "https://www.nhiaa.org/nhiaa-2026-27-division-ii-girls-soccer-tournament/"
+       }
+      },
+      {
+       "date": "2026-10-28",
+       "opponent": "Souhegan",
+       "home": true,
+       "result": "W 3-0",
+       "note": "Division II preliminary round",
+       "source": {
+        "label": "NHIAA 2026 Division II Girls Soccer tournament",
+        "url": "https://www.nhiaa.org/nhiaa-2026-27-division-ii-girls-soccer-tournament/"
+       }
+      }
+     ],
      "next": [],
      "note": "Record from MaxPreps standings (updated Oct. 31). Individual results were not listed there. Head coach not found.",
      "sources": [
@@ -270,7 +291,29 @@
      },
      "postseason": null,
      "recent": [],
-     "next": [],
+     "next": [
+      {
+       "date": "2026-11-07",
+       "time": "2:30 pm (girls), 3:10 pm (boys)",
+       "opponent": "Hopkinton High School meet",
+       "home": false,
+       "venue": "Hopkinton High School",
+       "source": {
+        "label": "Kennett High School athletics calendar (Arbiter)",
+        "url": "https://arbiterlive.com/School/Calendar/55775"
+       }
+      },
+      {
+       "date": "2026-11-14",
+       "time": "11:30 am (boys), 12:15 pm (girls)",
+       "opponent": "away meet (site not listed)",
+       "home": false,
+       "source": {
+        "label": "Kennett High School athletics calendar (Arbiter)",
+        "url": "https://arbiterlive.com/School/Calendar/55775"
+       }
+      }
+     ],
      "note": "The Conway Daily Sun's Oct. 28 headline: 'Kennett harriers compete in largest meet of the season; win at White Mountains.' State meet results and dates were not found.",
      "needs_review": true,
      "review_note": "Results known only from a headline."
@@ -318,7 +361,20 @@
      },
      "postseason": null,
      "recent": [],
-     "next": [],
+     "next": [
+      {
+       "date": "2026-12-05",
+       "time": "time TBA",
+       "opponent": "Moultonborough Academy",
+       "home": true,
+       "venue": "Kennett High School",
+       "note": "Season opener on the school calendar",
+       "source": {
+        "label": "Kennett High School athletics calendar (Arbiter)",
+        "url": "https://arbiterlive.com/School/Calendar/55775"
+       }
+      }
+     ],
      "note": "The team page lists varsity tryouts and JV practice start as TBD."
     },
     {

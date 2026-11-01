@@ -196,12 +196,24 @@
      "recent": [
       {
        "date": "2026-10-30",
-       "opponent": "Bedford (Division I quarterfinal)",
-       "home": null,
+       "opponent": "Bedford",
+       "home": false,
        "result": "L 0-4",
        "source": {
-        "label": "Portsmouth Herald via Yahoo Sports, Friday Tourney Roundup (Oct 31, 2026)",
-        "url": "https://sports.yahoo.com/articles/friday-tourney-roundup-winnacunnet-somersworth-061411533.html"
+        "label": "NHIAA 2026 Division I Girls Soccer tournament",
+        "url": "https://www.nhiaa.org/nhiaa-2026-27-division-i-girls-soccer-tournament/"
+       },
+       "note": "Division I quarterfinal"
+      },
+      {
+       "date": "2026-10-27",
+       "opponent": "Windham",
+       "home": true,
+       "result": "W 2-1",
+       "note": "Division I preliminary round",
+       "source": {
+        "label": "NHIAA 2026 Division I Girls Soccer tournament",
+        "url": "https://www.nhiaa.org/nhiaa-2026-27-division-i-girls-soccer-tournament/"
        }
       },
       {
@@ -254,13 +266,14 @@
      "recent": [
       {
        "date": "2026-10-21",
-       "opponent": "Londonderry (Division I preliminary round)",
+       "opponent": "Londonderry",
        "home": false,
        "result": "L 0-2",
        "source": {
-        "label": "NH-HighSchoolSports.com, Playoff Pairings: Field Hockey",
-        "url": "https://www.nh-highschoolsports.com/playoff-pairings-field-hockey-7/"
-       }
+        "label": "NHIAA 2026 Division I Field Hockey tournament",
+        "url": "https://www.nhiaa.org/26-27-di-field-hockey-tournament"
+       },
+       "note": "Division I preliminary round"
       }
      ],
      "next": [],
@@ -429,30 +442,31 @@
      "record": "17-1",
      "recordAsOf": "2026-10-31",
      "coach": null,
-     "postseason": "No. 1 seed in NHIAA Division III; won the quarterfinal 3-2 over No. 8 Inter-Lakes and plays St. Thomas Aquinas in the semifinal.",
+     "postseason": "No. 1 seed in Division III; semifinal Thu Nov 5, 6:00 pm, vs No. 4 St. Thomas Aquinas at Oyster River High School.",
      "recent": [
       {
        "date": "2026-10-31",
-       "opponent": "Inter-Lakes (Division III quarterfinal)",
+       "opponent": "Inter-Lakes",
        "home": true,
-       "result": "W 3-2 (25-23, 25-8, 18-25, 13-25, 15-11)",
+       "result": "W 3-2",
        "source": {
-        "label": "Portsmouth Herald via AOL, Saturday Tourney Roundup (Nov 1, 2026)",
-        "url": "https://www.aol.com/articles/saturday-tourney-roundup-st-thomas-002636312.html"
-       }
+        "label": "NHIAA 2026 Division III Girls Volleyball tournament",
+        "url": "https://www.nhiaa.org/nhiaa-2026-27-division-iii-girls-volleyball-tournament/"
+       },
+       "note": "Division III quarterfinal"
       }
      ],
      "next": [
       {
        "date": "2026-11-05",
-       "time": null,
+       "time": "6:00 pm",
        "opponent": "St. Thomas Aquinas",
        "home": false,
-       "venue": "Oyster River High School, Durham",
-       "note": "NHIAA Division III semifinal",
+       "venue": "Oyster River High School",
+       "note": "Division III semifinal",
        "source": {
-        "label": "Portsmouth Herald via AOL, Saturday Tourney Roundup (Nov 1, 2026)",
-        "url": "https://www.aol.com/articles/saturday-tourney-roundup-st-thomas-002636312.html"
+        "label": "NHIAA 2026 Division III Girls Volleyball tournament",
+        "url": "https://www.nhiaa.org/nhiaa-2026-27-division-iii-girls-volleyball-tournament/"
        }
       }
      ],
@@ -466,8 +480,19 @@
      "record": "11-3-2",
      "recordAsOf": "2026-10-20",
      "coach": null,
-     "postseason": null,
+     "postseason": "No. 7 seed in Division IV; lost 2-1 to No. 10 Profile in the preliminary round on Oct 27.",
      "recent": [
+      {
+       "date": "2026-10-27",
+       "opponent": "Profile School",
+       "home": true,
+       "result": "L 1-2",
+       "note": "Division IV preliminary round",
+       "source": {
+        "label": "NHIAA 2026 Division IV Boys Soccer tournament",
+        "url": "https://www.nhiaa.org/nhiaa-2026-27-division-iv-boys-soccer-tournament"
+       }
+      },
       {
        "date": "2026-10-20",
        "opponent": "Pittsfield",
@@ -491,8 +516,19 @@
      "record": null,
      "recordAsOf": null,
      "coach": null,
-     "postseason": null,
+     "postseason": "No. 1 seed in Division IV; beat Mount Royal 5-1 in the quarterfinal; semifinal Tue Nov 3, 6:15 pm, vs No. 5 Profile at Laconia High School.",
      "recent": [
+      {
+       "date": "2026-10-31",
+       "opponent": "Mount Royal Academy",
+       "home": true,
+       "result": "W 5-1",
+       "note": "Division IV quarterfinal",
+       "source": {
+        "label": "NHIAA 2026 Division IV Girls Soccer tournament",
+        "url": "https://www.nhiaa.org/nhiaa-2026-27-division-iv-girls-soccer-tournament/"
+       }
+      },
       {
        "date": "2026-10-21",
        "opponent": "Epping",
@@ -505,7 +541,20 @@
        "note": "NHIAA Division IV."
       }
      ],
-     "next": [],
+     "next": [
+      {
+       "date": "2026-11-03",
+       "time": "6:15 pm",
+       "opponent": "Profile School",
+       "home": false,
+       "venue": "Laconia High School",
+       "note": "Division IV semifinal",
+       "source": {
+        "label": "NHIAA 2026 Division IV Girls Soccer tournament",
+        "url": "https://www.nhiaa.org/nhiaa-2026-27-division-iv-girls-soccer-tournament/"
+       }
+      }
+     ],
      "needs_review": true,
      "review_note": "Record and tournament result not found. Home flag is from the Dover dateline."
     }
