@@ -4,6 +4,7 @@
 // Run: node ingest/scan.mjs [town-id ...]
 import fs from 'node:fs';
 import path from 'node:path';
+import { execFileSync } from 'node:child_process';
 
 const ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..');
 const REG = JSON.parse(fs.readFileSync(path.join(ROOT, 'ingest/regions.json'), 'utf8'));
@@ -16,7 +17,14 @@ async function get(url, ms = 20000) {
     const type = r.headers.get('content-type') || '';
     const text = /html|xml|json|text/i.test(type) ? (await r.text()).slice(0, 2e6) : '';
     return { ok: r.ok, status: r.status, url: r.url, type, text };
-  } catch (e) { return { ok: false, status: 0, error: String(e.cause?.code || e.message).slice(0, 120) }; }
+  } catch (e) {
+    // Some town servers reset Node's connections but answer curl; try once with curl before giving up.
+    try {
+      const out = execFileSync('curl', ['-sSL', '--max-time', String(Math.round(ms / 1000)), '-A', UA, '-w', '\n%{http_code} %{url_effective} %{content_type}', url], { maxBuffer: 8e6 }).toString('utf8');
+      const nl = out.lastIndexOf('\n'); const [code, eff, ...ct] = out.slice(nl + 1).split(' ');
+      return { ok: +code >= 200 && +code < 300, status: +code, url: eff, type: ct.join(' '), text: out.slice(0, nl), via: 'curl' };
+    } catch { return { ok: false, status: 0, error: String(e.cause?.code || e.message).slice(0, 120) }; }
+  }
 }
 
 const slugs = t => {

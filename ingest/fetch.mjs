@@ -37,7 +37,22 @@ async function get(url, { as = 'text', method = 'GET', body, headers = {} } = {}
       if (as === 'json') return await r.json();
       if (as === 'buffer') { const b = Buffer.from(await r.arrayBuffer()); if (b.length > MAX_DOC_BYTES) throw new Error('too large'); return { buf: b, type: r.headers.get('content-type') || '' }; }
       return await r.text();
-    } catch (e) { err = e; await sleep(3000); }
+    } catch (e) { err = e; if (/HTTP \d/.test(e.message)) break; await sleep(3000); }
+  }
+  // Some town servers reset Node's connections but answer curl. One curl try for plain GETs.
+  if (method === 'GET' && !/HTTP \d/.test(err.message)) {
+    try {
+      const tmp = path.join(process.env.RUNNER_TEMP || '/tmp', 'agorri-' + crypto.randomUUID());
+      const code = execFileSync('curl', ['-sSL', '--max-time', '60', '-A', UA, '-o', tmp, '-w', '%{http_code} %{content_type}', url]).toString().trim();
+      const buf = fs.readFileSync(tmp); fs.rmSync(tmp, { force: true });
+      const [status, ...ct] = code.split(' ');
+      if (+status >= 200 && +status < 300) {
+        if (as === 'json') return JSON.parse(buf.toString('utf8'));
+        if (as === 'buffer') { if (buf.length > MAX_DOC_BYTES) throw new Error('too large'); return { buf, type: ct.join(' ') }; }
+        return buf.toString('utf8');
+      }
+      err = new Error(`HTTP ${status} (curl)`);
+    } catch (e) { err = new Error(err.message + '; curl: ' + e.message.split('\n')[0]); }
   }
   throw new Error(`${url}: ${err.message}`);
 }
