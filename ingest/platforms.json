@@ -13,7 +13,7 @@
    ],
    "meetingPages": [
     {
-     "text": "City Council »",
+     "text": "City Council \u00bb",
      "url": "https://www.dover.nh.gov/government/boards-and-commissions/city-council/index.html"
     },
     {
@@ -29,11 +29,11 @@
      "url": "https://videoplayer.telvue.com/player/qApKJJVzUoBgvQ1NP9H9TJF8dI9OzVxt/media/1065926"
     },
     {
-     "text": "Full Calendar »",
+     "text": "Full Calendar \u00bb",
      "url": "https://www.dover.nh.gov/government/open-government/public-meetings/"
     },
     {
-     "text": "Full Meeting Calendar »",
+     "text": "Full Meeting Calendar \u00bb",
      "url": "http://www.dover.nh.gov/government/open-government/public-meetings/"
     }
    ],
@@ -587,58 +587,6 @@
    "fetch": "civicclerk api",
    "region": "greater-portsmouth"
   },
-  "milford": {
-   "id": "milford",
-   "name": "Milford",
-   "population2020": 16131,
-   "site": "https://www.milford.nh.gov/",
-   "platforms": [],
-   "feeds": [],
-   "meetingPages": [
-    {
-     "text": "Economic Development Advisory Council",
-     "url": "https://www.milford.nh.gov/econdevadvisory"
-    },
-    {
-     "text": "Select Board",
-     "url": "https://www.milford.nh.gov/selectboard"
-    },
-    {
-     "text": "Agendas & Minutes",
-     "url": "https://www.milford.nh.gov/minutesandagendas"
-    },
-    {
-     "text": "Meeting Videos & Podcasts",
-     "url": "https://www.milford.nh.gov/meetingsandpodcasts"
-    }
-   ],
-   "external": [],
-   "meetingDocs": [
-    {
-     "page": "https://www.milford.nh.gov/econdevadvisory",
-     "docLinks": 0,
-     "sample": [],
-     "drive": false,
-     "platforms": []
-    },
-    {
-     "page": "https://www.milford.nh.gov/selectboard",
-     "docLinks": 0,
-     "sample": [],
-     "drive": false,
-     "platforms": []
-    },
-    {
-     "page": "https://www.milford.nh.gov/minutesandagendas",
-     "docLinks": 0,
-     "sample": [],
-     "drive": false,
-     "platforms": []
-    }
-   ],
-   "fetch": "manual",
-   "region": "greater-nashua"
-  },
   "north-hampton": {
    "id": "north-hampton",
    "name": "North Hampton",
@@ -926,23 +874,6 @@
     }
    ],
    "fetch": "civicclerk api",
-   "region": "greater-nashua"
-  },
-  "brookline": {
-   "id": "brookline",
-   "name": "Brookline",
-   "population2020": 5639,
-   "site": "https://www.brooklinenh.org/",
-   "platforms": [
-    "squarespace"
-   ],
-   "feeds": [],
-   "meetingPages": [],
-   "external": [
-    "https://www.facebook.com/thenhrealtor"
-   ],
-   "meetingDocs": [],
-   "fetch": "manual",
    "region": "greater-nashua"
   },
   "merrimack": {
@@ -1548,21 +1479,6 @@
    "fetch": "agenda center",
    "region": "greater-nashua"
   },
-  "new-boston": {
-   "id": "new-boston",
-   "name": "New Boston",
-   "population2020": 6108,
-   "site": "https://www.newbostonnh.gov/",
-   "platforms": [],
-   "feeds": [],
-   "meetingPages": [],
-   "external": [
-    "https://www.facebook.com/TownofNewBoston/"
-   ],
-   "meetingDocs": [],
-   "fetch": "manual",
-   "region": "greater-manchester"
-  },
   "auburn": {
    "id": "auburn",
    "name": "Auburn",
@@ -1787,19 +1703,6 @@
    "fetch": "agenda center",
    "region": "greater-portsmouth"
   },
-  "weare": {
-   "id": "weare",
-   "name": "Weare",
-   "population2020": 9092,
-   "site": "https://www.wearenh.org/",
-   "platforms": [],
-   "feeds": [],
-   "meetingPages": [],
-   "external": [],
-   "meetingDocs": [],
-   "fetch": "manual",
-   "region": "greater-manchester"
-  },
   "tamworth": {
    "id": "tamworth",
    "name": "Tamworth",
@@ -1891,7 +1794,7 @@
      "url": "https://www.madison-nh.org/selectmen/selectmen-minutes/"
     },
     {
-     "text": "Meeting Minutes – ABC",
+     "text": "Meeting Minutes \u2013 ABC",
      "url": "https://www.madison-nh.org/boards/advisory-budget-committee/meeting-minutes/"
     },
     {
@@ -1907,7 +1810,7 @@
      "url": "https://www.madison-nh.org/boards/madison-tv/minutes/"
     },
     {
-     "text": "Meeting Minutes – Planning Board",
+     "text": "Meeting Minutes \u2013 Planning Board",
      "url": "https://www.madison-nh.org/boards/planning-board/meeting-minutes-planning/"
     },
     {
@@ -1915,11 +1818,11 @@
      "url": "https://www.madison-nh.org/rec-committee-minutes/"
     },
     {
-     "text": "Meeting Minutes – Vet Support Committee",
+     "text": "Meeting Minutes \u2013 Vet Support Committee",
      "url": "https://www.madison-nh.org/boards/veterans-support-committee/meeting-minutes/"
     },
     {
-     "text": "Meeting Minutes – ZBA",
+     "text": "Meeting Minutes \u2013 ZBA",
      "url": "https://www.madison-nh.org/boards/zoning/meeting-minutes-zoning/"
     },
     {
@@ -2311,11 +2214,11 @@
    "feeds": [],
    "meetingPages": [
     {
-     "text": "Bartlett Selectmen’s Office",
+     "text": "Bartlett Selectmen\u2019s Office",
      "url": "https://www.townofbartlett.nh.gov/town-offices/bartlett-selectmens-office/"
     },
     {
-     "text": "Bartlett Selectmen’s Meeting Minutes",
+     "text": "Bartlett Selectmen\u2019s Meeting Minutes",
      "url": "https://www.townofbartlettnh.org/town-offices/bartlett-selectmens-office/bartlett-selectmens-meeting-minutes/"
     },
     {
@@ -2323,7 +2226,7 @@
      "url": "https://www.townofbartlett.nh.gov/town-offices/bartlett-planning-board-meeting-minutes/"
     },
     {
-     "text": "Agenda for Selectmen’s Meetings",
+     "text": "Agenda for Selectmen\u2019s Meetings",
      "url": "https://www.townofbartlett.nh.gov/agenda-for-selectmens-meetings/"
     }
    ],
