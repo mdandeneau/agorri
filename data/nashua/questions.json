@@ -36,6 +36,14 @@
    "text": "Nashua should open a homeless resource center.",
    "source": "https://nashuanh.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=12554,plainText=false)",
    "status": "draft"
+  },
+  {
+   "id": "2026-11-04-wastewater",
+   "date": "2026-11-04",
+   "issue": "wastewater",
+   "text": "Nashua should keep raising sewer fees to pay for upgrading the wastewater treatment plant.",
+   "source": "https://nashuanh.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=14814,plainText=false)",
+   "status": "draft"
   }
  ]
 }

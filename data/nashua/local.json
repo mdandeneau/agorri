@@ -405,16 +405,6 @@
  ],
  "events": [
   {
-   "date": "2026-10-31",
-   "time": "6:00 pm",
-   "title": "Trick-or-treat across Nashua, 6 to 8 pm",
-   "venue": "Neighborhoods citywide",
-   "town": "Nashua",
-   "kind": "Holiday",
-   "url": "https://www.nashuanh.gov/CivicAlerts.aspx?AID=2681",
-   "source": "City of Nashua"
-  },
-  {
    "date": "2026-11-01",
    "time": "12:00 pm",
    "title": "June Caron Senior Outing: lunch, raffles and entertainment (free for Nashua residents 60+, reserve in person at the DPW office)",
@@ -946,7 +936,7 @@
    "source": "Nashua Center for the Arts"
   }
  ],
- "events_as_of": "2026-10-31",
+ "events_as_of": "2026-11-01",
  "eventsNote": "Events from the Nashua Center for the Arts, Nashua Public Library, City of Nashua calendar, Downtown Nashua Association, VFW Post 483, Rivier Athletics and the Patch community calendar, as of Oct 28. Confirm with the organizer.",
  "election": {
   "date": "2026-11-03",
@@ -1978,7 +1968,7 @@
  "paper": {
   "name": "The Telegraph",
   "url": "https://www.nashuatelegraph.com/",
-  "asOf": "2026-10-31",
+  "asOf": "2026-11-01",
   "note": "Stories open on the paper’s site.",
   "headlines": [
    {

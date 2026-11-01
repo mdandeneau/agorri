@@ -849,39 +849,8 @@
    "status": "not yet connected"
   }
  ],
- "events_as_of": "2026-10-31",
+ "events_as_of": "2026-11-01",
  "events": [
-  {
-   "date": "2026-10-31",
-   "time": "4:00 pm",
-   "title": "Hocus Pocus Taste-A-Long Experience",
-   "venue": "The Music Hall",
-   "town": "Portsmouth",
-   "kind": "Halloween",
-   "url": "https://www.themusichall.org/events/hocuspocus-tastealong/",
-   "source": "The Music Hall"
-  },
-  {
-   "date": "2026-10-31",
-   "time": "7:00 pm",
-   "title": "Portsmouth Halloween Parade",
-   "venue": "Steps off from Peirce Island",
-   "town": "Portsmouth",
-   "kind": "Halloween",
-   "url": "https://www.portsmouthnh.gov/city/press-releases/parking-restrictions-and-road-closures-2026-portsmouth-halloween-parade",
-   "source": "City of Portsmouth",
-   "note": "31st year, independently organized. Downtown streets closed 6 to 10 pm."
-  },
-  {
-   "date": "2026-10-31",
-   "time": "9:00 pm",
-   "title": "'The Graveyard Shift'",
-   "venue": "Players Ring, 105 Marcy St",
-   "town": "Portsmouth",
-   "kind": "Theater",
-   "url": "https://patch.com/new-hampshire/portsmouth-nh/calendar/event/20261031/80ac8b8a-ff01-47b9-9f1f-ce7c5826130e/the-graveyard-shift",
-   "source": "Patch calendar"
-  },
   {
    "date": "2026-11-01",
    "time": "12:00 pm",
@@ -1039,6 +1008,16 @@
    "price": "$28 advance, $30 day of show"
   },
   {
+   "date": "2026-11-26",
+   "time": "8:30 am",
+   "title": "Seacoast Rotary Turkey Trot",
+   "venue": "Portsmouth (start location not listed on the city calendar)",
+   "town": "Portsmouth",
+   "kind": "Holiday",
+   "url": "https://www.portsmouthnh.gov/city/events/seacoast-rotary-turkey-trot-2",
+   "source": "City of Portsmouth"
+  },
+  {
    "date": "2026-12-02",
    "time": "",
    "title": "Mary Poppins opens (runs through Dec 21)",
@@ -1057,6 +1036,16 @@
    "kind": "Holiday",
    "url": "https://www.strawberybanke.org/events/",
    "source": "Strawbery Banke"
+  },
+  {
+   "date": "2026-12-05",
+   "time": "5:00 pm to 7:00 pm",
+   "title": "2026 Illuminated Holiday Parade",
+   "venue": "Downtown Portsmouth",
+   "town": "Portsmouth",
+   "kind": "Holiday",
+   "url": "https://www.portsmouthnh.gov/city/events/2026-illuminated-holiday-parade",
+   "source": "City of Portsmouth"
   }
  ],
  "eventsNote": "Events from The Music Hall, 3S Artspace, Strawbery Banke, the Library, the City and the Patch community calendar, as of Oct 27. Confirm with the organizer. Not yet connected: Eventbrite, the Chamber calendar, the Seacoast Rep, Jimmy's, Prescott Park.",
@@ -1955,7 +1944,7 @@
  "paper": {
   "name": "Portsmouth Patch",
   "url": "https://patch.com/new-hampshire/portsmouth-nh",
-  "asOf": "2026-10-31",
+  "asOf": "2026-11-01",
   "note": "The Portsmouth Herald is paywalled with no public feed, so these come from Patch.",
   "headlines": [
    {
