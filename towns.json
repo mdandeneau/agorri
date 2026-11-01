@@ -19,7 +19,9 @@
     "business": "data/portsmouth/business.json",
     "candidates": "data/portsmouth/candidates.json",
     "questions": "data/portsmouth/questions.json",
-    "schools": "data/portsmouth/schools.json"
+    "schools": "data/portsmouth/schools.json",
+    "sports": "data/portsmouth/sports.json",
+    "faith": "data/portsmouth/faith.json"
    },
    "assessor": {
     "type": "vgsi",

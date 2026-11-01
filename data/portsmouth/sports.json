@@ -1,0 +1,1024 @@
+{
+ "as_of": "2026-11-01",
+ "note": "Fall 2026 high school results, local leagues, nearby teams and venues. Scores come from MaxPreps, NH-HighSchoolSports.com, TFRRS and Portsmouth Herald roundups, since the Portsmouth athletics calendar (ArbiterLive) could not be opened. Coaches are from the school's own athletics page. No students are named. Each item links to its source.",
+ "schools": [
+  {
+   "name": "Portsmouth High School",
+   "town": "Portsmouth",
+   "mascot": "Clippers",
+   "division": "NHIAA Division I (most sports)",
+   "address": "50 Andrew Jarvis Dr., Portsmouth, NH 03801",
+   "site": "https://www.portsmouthnh.gov/school/phs-0",
+   "athleticsUrl": "https://www.portsmouthathletics.com/",
+   "scheduleUrl": "https://arbiterlive.com/School/Calendar/18455",
+   "livestream": "https://fan.hudl.com/usa/nh/portsmouth/organization/1959/portsmouth-high-school",
+   "registration": "https://portsmouth-nh.finalforms.com/",
+   "athleticDirector": "Tom Kozikowski",
+   "note": "Football is a co-op with Oyster River (Portsmouth-Oyster River). Winter sports: boys and girls basketball, boys and girls ice hockey, alpine skiing, swimming, indoor track, unified basketball, cheer and wrestling. Winter start dates were not found in sources that could be opened.",
+   "source": {
+    "label": "NHIAA school page, Portsmouth",
+    "url": "https://www.nhiaa.org/about-nhiaa/schools/portsmouth"
+   },
+   "teams": [
+    {
+     "sport": "Football",
+     "season": "Fall 2026",
+     "level": "Varsity",
+     "teamName": "Portsmouth-Oyster River (co-op team)",
+     "record": "6-3",
+     "recordAsOf": "2026-10-31",
+     "coach": "Brian Pafford",
+     "coachSource": {
+      "label": "Portsmouth High School Athletics (City of Portsmouth)",
+      "url": "https://www.portsmouthnh.gov/school/phs-0"
+     },
+     "postseason": "No. 6 seed in NHIAA Division I; hosts No. 11 Exeter in the first round (pairings reported Oct 31, not yet official).",
+     "recent": [
+      {
+       "date": "2026-10-30",
+       "opponent": "Timberlane",
+       "home": true,
+       "result": "W 35-6",
+       "source": {
+        "label": "MaxPreps, Portsmouth/Oyster River football schedule",
+        "url": "https://www.maxpreps.com/nh/portsmouth/portsmouth-oyster-river/football/schedule/"
+       }
+      },
+      {
+       "date": "2026-10-23",
+       "opponent": "Concord",
+       "home": true,
+       "result": "L 26-29",
+       "source": {
+        "label": "MaxPreps, Portsmouth/Oyster River football schedule",
+        "url": "https://www.maxpreps.com/nh/portsmouth/portsmouth-oyster-river/football/schedule/"
+       }
+      },
+      {
+       "date": "2026-10-16",
+       "opponent": "Dover",
+       "home": false,
+       "result": "W 49-0",
+       "source": {
+        "label": "MaxPreps, Portsmouth/Oyster River football schedule",
+        "url": "https://www.maxpreps.com/nh/portsmouth/portsmouth-oyster-river/football/schedule/"
+       }
+      },
+      {
+       "date": "2026-10-09",
+       "opponent": "Nashua North",
+       "home": true,
+       "result": "W 28-21",
+       "source": {
+        "label": "Nashua Telegraph, Oct 10, 2026",
+        "url": "https://www.nashuatelegraph.com/sports/high-schools/2026/10/10/clipped-portsmouth-or-rallies-for-28-21-win-over-north/"
+       },
+       "note": "Played at Tom Daubney Field, Portsmouth."
+      },
+      {
+       "date": "2026-10-02",
+       "opponent": "Exeter",
+       "home": false,
+       "result": "W 19-14",
+       "source": {
+        "label": "MaxPreps, Portsmouth/Oyster River football schedule",
+        "url": "https://www.maxpreps.com/nh/portsmouth/portsmouth-oyster-river/football/schedule/"
+       }
+      }
+     ],
+     "next": [
+      {
+       "date": null,
+       "time": null,
+       "opponent": "Exeter",
+       "home": true,
+       "venue": null,
+       "note": "NHIAA Division I first round, No. 11 Exeter at No. 6 Portsmouth-Oyster River. Date and time not posted in the sources checked.",
+       "source": {
+        "label": "NH-HighSchoolSports.com, Playoff Picture: Football (Oct. 31)",
+        "url": "https://www.nh-highschoolsports.com/playoff-picture-football-oct-31-3/"
+       }
+      }
+     ],
+     "needs_review": true,
+     "review_note": "Overall record 6-3 is MaxPreps (updated Oct 31). NH-HighSchoolSports lists a 6-2 Division I record. Playoff pairing is from an unofficial Oct 31 projection; confirm date, time and site with NHIAA. MaxPreps shows the Sept 4 opener at Winnacunnet as L 6-27 while an NHSportsPage recap reports Winnacunnet 26, Portsmouth-Oyster River 7."
+    },
+    {
+     "sport": "Boys Soccer",
+     "season": "Fall 2026",
+     "level": "Varsity",
+     "record": "5-8-3",
+     "recordAsOf": "2026-10-20",
+     "coach": "Eric Martens",
+     "coachSource": {
+      "label": "Portsmouth High School Athletics (City of Portsmouth)",
+      "url": "https://www.portsmouthnh.gov/school/phs-0"
+     },
+     "postseason": null,
+     "recent": [
+      {
+       "date": "2026-10-20",
+       "opponent": "Exeter",
+       "home": false,
+       "result": "L 0-3",
+       "source": {
+        "label": "MaxPreps, Portsmouth boys soccer",
+        "url": "https://www.maxpreps.com/nh/portsmouth/portsmouth-clippers/soccer"
+       }
+      },
+      {
+       "date": "2026-10-17",
+       "opponent": "Alvirne",
+       "home": false,
+       "result": "T 2-2",
+       "source": {
+        "label": "MaxPreps, Portsmouth boys soccer",
+        "url": "https://www.maxpreps.com/nh/portsmouth/portsmouth-clippers/soccer"
+       }
+      },
+      {
+       "date": "2026-10-14",
+       "opponent": "Nashua North",
+       "home": false,
+       "result": "L 1-2",
+       "source": {
+        "label": "MaxPreps, Portsmouth boys soccer",
+        "url": "https://www.maxpreps.com/nh/portsmouth/portsmouth-clippers/soccer"
+       }
+      },
+      {
+       "date": "2026-10-13",
+       "opponent": "Dover",
+       "home": true,
+       "result": "W 3-1",
+       "source": {
+        "label": "MaxPreps, Portsmouth boys soccer",
+        "url": "https://www.maxpreps.com/nh/portsmouth/portsmouth-clippers/soccer"
+       }
+      },
+      {
+       "date": "2026-10-08",
+       "opponent": "Manchester Memorial",
+       "home": false,
+       "result": "L 0-2",
+       "source": {
+        "label": "MaxPreps, Portsmouth boys soccer schedule",
+        "url": "https://www.maxpreps.com/nh/portsmouth/portsmouth-clippers/soccer/schedule/"
+       }
+      },
+      {
+       "date": "2026-10-06",
+       "opponent": "Windham",
+       "home": true,
+       "result": "L 2-3",
+       "source": {
+        "label": "MaxPreps, Portsmouth boys soccer schedule",
+        "url": "https://www.maxpreps.com/nh/portsmouth/portsmouth-clippers/soccer/schedule/"
+       }
+      }
+     ],
+     "next": [],
+     "needs_review": true,
+     "review_note": "Scores from MaxPreps (aggregator). MaxPreps ranks the team 15th to 16th in Division I; no source checked says whether it made the tournament, so postseason is left blank."
+    },
+    {
+     "sport": "Girls Soccer",
+     "season": "Fall 2026",
+     "level": "Varsity",
+     "record": null,
+     "recordAsOf": null,
+     "coach": "Rick Hugener",
+     "coachSource": {
+      "label": "Portsmouth High School Athletics (City of Portsmouth)",
+      "url": "https://www.portsmouthnh.gov/school/phs-0"
+     },
+     "postseason": "No. 7 seed in NHIAA Division I; season ended with a 4-0 quarterfinal loss to No. 2 Bedford on Oct 30.",
+     "recent": [
+      {
+       "date": "2026-10-30",
+       "opponent": "Bedford (Division I quarterfinal)",
+       "home": null,
+       "result": "L 0-4",
+       "source": {
+        "label": "Portsmouth Herald via Yahoo Sports, Friday Tourney Roundup (Oct 31, 2026)",
+        "url": "https://sports.yahoo.com/articles/friday-tourney-roundup-winnacunnet-somersworth-061411533.html"
+       }
+      },
+      {
+       "date": "2026-10-22",
+       "opponent": "Alvirne",
+       "home": true,
+       "result": "W 1-0",
+       "source": {
+        "label": "Portsmouth Herald via Yahoo Sports, Thursday Seacoast Roundup (Oct 23, 2026)",
+        "url": "https://sports.yahoo.com/articles/thursday-seacoast-roundup-winnacunnet-boys-020627455.html"
+       }
+      },
+      {
+       "date": "2026-10-20",
+       "opponent": "Exeter",
+       "home": true,
+       "result": "L 0-1",
+       "source": {
+        "label": "Portsmouth Herald via Yahoo Sports, Tuesday Seacoast Roundup (Oct 21, 2026)",
+        "url": "https://sports.yahoo.com/articles/tuesday-seacoast-roundup-oyster-river-005443416.html"
+       }
+      },
+      {
+       "date": "2026-09-22",
+       "opponent": "Concord",
+       "home": null,
+       "result": "W 2-1",
+       "source": {
+        "label": "Portsmouth Herald via Yahoo Sports, Seacoast Standout (Sep 23, 2026)",
+        "url": "https://sports.yahoo.com/articles/tuesday-seacoast-standout-portsmouth-girls-001929391.html"
+       }
+      }
+     ],
+     "next": [],
+     "needs_review": true,
+     "review_note": "Overall record not found (MaxPreps 2026 page empty). The roundups say only 'Portsmouth'; Portsmouth High is assumed because the opponents are Division I. Quarterfinal date is the Friday before the Oct 31 article."
+    },
+    {
+     "sport": "Field Hockey",
+     "season": "Fall 2026",
+     "level": "Varsity",
+     "record": "8-8-1",
+     "recordAsOf": "2026-10-21",
+     "coach": "Allison St. Jean",
+     "coachSource": {
+      "label": "Portsmouth High School Athletics (City of Portsmouth)",
+      "url": "https://www.portsmouthnh.gov/school/phs-0"
+     },
+     "postseason": "No. 9 seed in NHIAA Division I; lost 2-0 at No. 8 Londonderry in the preliminary round on Oct 21.",
+     "recent": [
+      {
+       "date": "2026-10-21",
+       "opponent": "Londonderry (Division I preliminary round)",
+       "home": false,
+       "result": "L 0-2",
+       "source": {
+        "label": "NH-HighSchoolSports.com, Playoff Pairings: Field Hockey",
+        "url": "https://www.nh-highschoolsports.com/playoff-pairings-field-hockey-7/"
+       }
+      }
+     ],
+     "next": [],
+     "needs_review": false
+    },
+    {
+     "sport": "Girls Volleyball",
+     "season": "Fall 2026",
+     "level": "Varsity",
+     "record": "2-12",
+     "recordAsOf": "2026-10-09",
+     "coach": "Wayne Siejkowski",
+     "coachSource": {
+      "label": "Portsmouth High School Athletics (City of Portsmouth)",
+      "url": "https://www.portsmouthnh.gov/school/phs-0"
+     },
+     "postseason": null,
+     "recent": [
+      {
+       "date": "2026-10-09",
+       "opponent": "Nashua North",
+       "home": true,
+       "result": "L 2-3",
+       "source": {
+        "label": "MaxPreps, Portsmouth girls volleyball",
+        "url": "https://www.maxpreps.com/nh/portsmouth/portsmouth-clippers/volleyball"
+       }
+      },
+      {
+       "date": "2026-10-07",
+       "opponent": "Nashua South",
+       "home": null,
+       "result": "L 0-3",
+       "source": {
+        "label": "MaxPreps, Portsmouth girls volleyball",
+        "url": "https://www.maxpreps.com/nh/portsmouth/portsmouth-clippers/volleyball"
+       }
+      },
+      {
+       "date": "2026-10-05",
+       "opponent": "Spaulding",
+       "home": true,
+       "result": "L 1-3",
+       "source": {
+        "label": "MaxPreps, Portsmouth girls volleyball",
+        "url": "https://www.maxpreps.com/nh/portsmouth/portsmouth-clippers/volleyball"
+       }
+      },
+      {
+       "date": "2026-10-01",
+       "opponent": "Londonderry",
+       "home": null,
+       "result": "L 0-3",
+       "source": {
+        "label": "MaxPreps, Portsmouth girls volleyball",
+        "url": "https://www.maxpreps.com/nh/portsmouth/portsmouth-clippers/volleyball"
+       }
+      },
+      {
+       "date": "2026-09-29",
+       "opponent": "Concord",
+       "home": true,
+       "result": "L 0-3",
+       "source": {
+        "label": "MaxPreps, Portsmouth girls volleyball",
+        "url": "https://www.maxpreps.com/nh/portsmouth/portsmouth-clippers/volleyball"
+       }
+      }
+     ],
+     "next": [],
+     "needs_review": true,
+     "review_note": "MaxPreps results stop at Oct 9 (games vs Dover Oct 13 and Pinkerton Oct 15 were listed as upcoming with no result). Final record and playoff status not found."
+    },
+    {
+     "sport": "Boys Cross Country",
+     "season": "Fall 2026",
+     "level": "Varsity",
+     "record": null,
+     "recordAsOf": null,
+     "coach": "Mike Lyford",
+     "coachSource": {
+      "label": "Portsmouth High School Athletics (City of Portsmouth)",
+      "url": "https://www.portsmouthnh.gov/school/phs-0"
+     },
+     "postseason": "Placed 6th of the Division I boys teams (219 points) at the NHIAA Division championships on Oct 31.",
+     "recent": [
+      {
+       "date": "2026-10-31",
+       "opponent": "NHIAA Division I Championship, Derryfield Park, Manchester",
+       "home": false,
+       "result": "6th place, 219 points",
+       "source": {
+        "label": "TFRRS, 2026 NHIAA Division State X-C Championships",
+        "url": "https://nh.tfrrs.org/results/xc/28890/2026_NHIAA_Division_State_X-C_Championships"
+       }
+      }
+     ],
+     "next": [],
+     "needs_review": false
+    },
+    {
+     "sport": "Girls Cross Country",
+     "season": "Fall 2026",
+     "level": "Varsity",
+     "record": null,
+     "recordAsOf": null,
+     "coach": "Beth Polizzotto",
+     "coachSource": {
+      "label": "Portsmouth High School Athletics (City of Portsmouth)",
+      "url": "https://www.portsmouthnh.gov/school/phs-0"
+     },
+     "postseason": "Placed 13th of the Division I girls teams (317 points) at the NHIAA Division championships on Oct 31.",
+     "recent": [
+      {
+       "date": "2026-10-31",
+       "opponent": "NHIAA Division I Championship, Derryfield Park, Manchester",
+       "home": false,
+       "result": "13th place, 317 points",
+       "source": {
+        "label": "TFRRS, 2026 NHIAA Division State X-C Championships",
+        "url": "https://nh.tfrrs.org/results/xc/28890/2026_NHIAA_Division_State_X-C_Championships"
+       }
+      }
+     ],
+     "next": [],
+     "needs_review": false
+    },
+    {
+     "sport": "Golf",
+     "season": "Fall 2026",
+     "level": "Varsity",
+     "record": "27-0",
+     "recordAsOf": "2026-09-30",
+     "coach": "Kyle Harrison",
+     "coachSource": {
+      "label": "Portsmouth High School Athletics (City of Portsmouth)",
+      "url": "https://www.portsmouthnh.gov/school/phs-0"
+     },
+     "postseason": null,
+     "recent": [],
+     "next": [],
+     "needs_review": true,
+     "review_note": "27-0 is the match record reported after Sept 30. Final record and state tournament result not found."
+    }
+   ]
+  },
+  {
+   "name": "Portsmouth Christian Academy",
+   "town": "Dover",
+   "mascot": "Eagles",
+   "division": "NHIAA Division III and IV (varies by sport)",
+   "address": "20 Seaborne Drive, Dover, NH 03820",
+   "site": "https://www.nhiaa.org/about-nhiaa/schools/portsmouth-christian",
+   "athleticsUrl": "https://pcaathletics.org",
+   "scheduleUrl": null,
+   "note": "Despite the name, the school is in Dover. Included because Portsmouth families follow it and local roundups list it with Portsmouth teams.",
+   "source": {
+    "label": "NHIAA school page, Portsmouth Christian Academy",
+    "url": "https://www.nhiaa.org/about-nhiaa/schools/portsmouth-christian"
+   },
+   "teams": [
+    {
+     "sport": "Girls Volleyball",
+     "season": "Fall 2026",
+     "level": "Varsity",
+     "record": "17-1",
+     "recordAsOf": "2026-10-31",
+     "coach": null,
+     "postseason": "No. 1 seed in NHIAA Division III; won the quarterfinal 3-2 over No. 8 Inter-Lakes and plays St. Thomas Aquinas in the semifinal.",
+     "recent": [
+      {
+       "date": "2026-10-31",
+       "opponent": "Inter-Lakes (Division III quarterfinal)",
+       "home": true,
+       "result": "W 3-2 (25-23, 25-8, 18-25, 13-25, 15-11)",
+       "source": {
+        "label": "Portsmouth Herald via AOL, Saturday Tourney Roundup (Nov 1, 2026)",
+        "url": "https://www.aol.com/articles/saturday-tourney-roundup-st-thomas-002636312.html"
+       }
+      }
+     ],
+     "next": [
+      {
+       "date": "2026-11-05",
+       "time": null,
+       "opponent": "St. Thomas Aquinas",
+       "home": false,
+       "venue": "Oyster River High School, Durham",
+       "note": "NHIAA Division III semifinal",
+       "source": {
+        "label": "Portsmouth Herald via AOL, Saturday Tourney Roundup (Nov 1, 2026)",
+        "url": "https://www.aol.com/articles/saturday-tourney-roundup-st-thomas-002636312.html"
+       }
+      }
+     ],
+     "needs_review": true,
+     "review_note": "Record computed from the article (16-1 going in, plus the quarterfinal win). Home flag assumes the No. 1 seed hosted. Semifinal date is the Thursday after the Nov 1 article; time not given."
+    },
+    {
+     "sport": "Boys Soccer",
+     "season": "Fall 2026",
+     "level": "Varsity",
+     "record": "11-3-2",
+     "recordAsOf": "2026-10-20",
+     "coach": null,
+     "postseason": null,
+     "recent": [
+      {
+       "date": "2026-10-20",
+       "opponent": "Pittsfield",
+       "home": null,
+       "result": "W 4-0",
+       "source": {
+        "label": "Portsmouth Herald via Yahoo Sports, Tuesday Seacoast Roundup (Oct 21, 2026)",
+        "url": "https://sports.yahoo.com/articles/tuesday-seacoast-roundup-oyster-river-005443416.html"
+       },
+       "note": "Regular-season finale, NHIAA Division IV."
+      }
+     ],
+     "next": [],
+     "needs_review": true,
+     "review_note": "Tournament result not found."
+    },
+    {
+     "sport": "Girls Soccer",
+     "season": "Fall 2026",
+     "level": "Varsity",
+     "record": null,
+     "recordAsOf": null,
+     "coach": null,
+     "postseason": null,
+     "recent": [
+      {
+       "date": "2026-10-21",
+       "opponent": "Epping",
+       "home": true,
+       "result": "W 6-1",
+       "source": {
+        "label": "Portsmouth Herald via Yahoo Sports, Wednesday Seacoast Roundup (Oct 22, 2026)",
+        "url": "https://sports.yahoo.com/articles/wednesday-seacoast-roundup-portsmouth-field-005322097.html"
+       },
+       "note": "NHIAA Division IV."
+      }
+     ],
+     "next": [],
+     "needs_review": true,
+     "review_note": "Record and tournament result not found. Home flag is from the Dover dateline."
+    }
+   ],
+   "needs_review": true,
+   "review_note": "Division by sport inferred from the roundups (volleyball D-III, soccer D-IV). Confirm whether Agorri should list a Dover school on the Portsmouth page."
+  }
+ ],
+ "youth": [
+  {
+   "name": "Portsmouth Rec Basketball, Pre-K and K",
+   "sport": "Basketball",
+   "ages": "Pre-K and kindergarten, co-ed",
+   "season": "Saturdays, Dec 12, 2026 to Jan 30, 2027",
+   "site": "https://www.portsmouthnh.gov/recreation/youth-programs",
+   "note": "Games at Connie Bean Center. $45 resident, $65 nonresident. Register on MyRec.",
+   "town": "Portsmouth",
+   "source": {
+    "label": "Portsmouth Recreation, Youth Programs",
+    "url": "https://www.portsmouthnh.gov/recreation/youth-programs"
+   }
+  },
+  {
+   "name": "Portsmouth Rec Basketball, Youth",
+   "sport": "Basketball",
+   "ages": "Girls and boys, grades 1 to 4",
+   "season": "Dec 12, 2026 to Feb 13, 2027",
+   "site": "https://www.portsmouthnh.gov/recreation/youth-programs",
+   "note": "Practices Monday to Thursday at Community Campus by division, Saturday games at Connie Bean Center. Grades 5 and 6 play through their schools. $55 resident, $75 nonresident. No basketball during winter break.",
+   "town": "Portsmouth",
+   "source": {
+    "label": "Portsmouth Recreation, Youth Programs",
+    "url": "https://www.portsmouthnh.gov/recreation/youth-programs"
+   }
+  },
+  {
+   "name": "Portsmouth Rec Basketball, Teen Boys",
+   "sport": "Basketball",
+   "ages": "Boys, grades 7 to 12",
+   "season": "Dec 8, 2026 to Feb 10, 2027, playoffs after",
+   "site": "https://www.portsmouthnh.gov/recreation/youth-programs",
+   "note": "Placement tryouts: grades 9 to 12 Tuesday Dec 1, grades 7 and 8 Wednesday Dec 2, 5:30 to 7:00 pm. Games Tuesdays (9 to 12) and Wednesdays (7 and 8) at Connie Bean Center. $70 resident, $90 nonresident.",
+   "town": "Portsmouth",
+   "source": {
+    "label": "Portsmouth Recreation, Youth Programs",
+    "url": "https://www.portsmouthnh.gov/recreation/youth-programs"
+   }
+  },
+  {
+   "name": "Making the Team: Co-Ed Pre-Season Basketball Clinic",
+   "sport": "Basketball",
+   "ages": "Grades 7 to 12",
+   "season": "Thursday, Nov 5, 2026, 5:00 to 6:30 pm",
+   "site": "https://www.portsmouthnh.gov/recreation/youth-programs",
+   "note": "Connie Bean Center gym. $10 resident, $20 nonresident.",
+   "town": "Portsmouth",
+   "source": {
+    "label": "Portsmouth Recreation, Youth Programs",
+    "url": "https://www.portsmouthnh.gov/recreation/youth-programs"
+   }
+  },
+  {
+   "name": "Co-Ed Winter Basketball Clinic",
+   "sport": "Basketball",
+   "ages": "Grades 1 to 4",
+   "season": "Dec 28 and 29, 2026",
+   "site": "https://www.portsmouthnh.gov/recreation/youth-programs",
+   "note": "Grades 1 and 2 at 9:00 to 10:15 am, grades 3 and 4 at 10:30 to 11:45 am, Connie Bean Center gym. $25 resident, $35 nonresident.",
+   "town": "Portsmouth",
+   "source": {
+    "label": "Portsmouth Recreation, Youth Programs",
+    "url": "https://www.portsmouthnh.gov/recreation/youth-programs"
+   }
+  },
+  {
+   "name": "Piscataqua Pre-Team Swim Skills",
+   "sport": "Swimming",
+   "ages": "6 to 14",
+   "season": "Mondays, Nov 2 to Dec 14, 2026 (no class Nov 23); winter Jan 4 to Feb 8, 2027",
+   "site": "https://www.portsmouthnh.gov/recreation/youth-programs",
+   "note": "Portsmouth Indoor Pool. Fall $200 resident, $250 nonresident; winter $170 and $210.",
+   "town": "Portsmouth",
+   "source": {
+    "label": "Portsmouth Recreation, Youth Programs",
+    "url": "https://www.portsmouthnh.gov/recreation/youth-programs"
+   }
+  },
+  {
+   "name": "Portsmouth Middle School Ice Skating Club",
+   "sport": "Ice skating",
+   "ages": "Portsmouth Middle School students",
+   "season": "Two 5-week Tuesday sessions starting early December and mid-January; 2026-27 dates TBD",
+   "site": "https://portsmouthnh.gov/node/233273",
+   "note": "Puddle Dock Pond at Strawbery Banke, 4:00 to 5:30 pm. $105 per session, scholarships available, first 20 skaters.",
+   "town": "Portsmouth",
+   "source": {
+    "label": "Portsmouth School District, Ice Skating",
+    "url": "https://portsmouthnh.gov/node/233273"
+   }
+  },
+  {
+   "name": "Portsmouth Little League",
+   "sport": "Baseball",
+   "ages": "4 to 18",
+   "season": "Spring",
+   "site": "https://www.portsmouthlittleleague.com/",
+   "note": "Listed in Patch's April 2026 sign-up roundup. 2027 registration dates not found.",
+   "town": "Portsmouth",
+   "source": {
+    "label": "Patch, spring sports sign-ups in Portsmouth (Apr 8, 2026)",
+    "url": "https://new.patch.com/new-hampshire/portsmouth-nh/spring-sports-where-sign-play-portsmouth"
+   }
+  },
+  {
+   "name": "Portsmouth City Soccer",
+   "sport": "Soccer",
+   "ages": null,
+   "season": "Fall and spring, with off-season training",
+   "site": "https://www.portsmouthcitysoccer.com/",
+   "note": "Club uses Dondero, Clough, Little Harbor and the Andrew Jarvis Drive fields per the city's field matrix.",
+   "town": "Portsmouth",
+   "source": {
+    "label": "Patch, spring sports sign-ups in Portsmouth (Apr 8, 2026)",
+    "url": "https://new.patch.com/new-hampshire/portsmouth-nh/spring-sports-where-sign-play-portsmouth"
+   }
+  },
+  {
+   "name": "Portsmouth Youth Football and Cheerleading",
+   "sport": "Tackle football and cheer",
+   "ages": null,
+   "season": "2026 season began Aug 10; registration ran Mar 1 to Aug 1",
+   "site": "https://portsmouthyouthfootball.com/",
+   "note": "Based at 50 Andrew Jarvis Drive.",
+   "town": "Portsmouth",
+   "source": {
+    "label": "USA Football League Finder",
+    "url": "https://leaguefinder.usafootball.com/leagues/portsmouth-youth-football-1"
+   }
+  },
+  {
+   "name": "Spring Portsmouth Flag Football (Future Gen Sports)",
+   "sport": "Flag football",
+   "ages": null,
+   "season": "Spring",
+   "site": "https://www.fgsflag.com/Default.aspx?tabid=1103095",
+   "note": "Coed, with a girls division by grade.",
+   "town": "Portsmouth",
+   "source": {
+    "label": "Patch, spring sports sign-ups in Portsmouth (Apr 8, 2026)",
+    "url": "https://new.patch.com/new-hampshire/portsmouth-nh/spring-sports-where-sign-play-portsmouth"
+   }
+  },
+  {
+   "name": "Seacoast United",
+   "sport": "Soccer (club)",
+   "ages": null,
+   "season": "Year-round",
+   "site": "https://seacoastunited.com/",
+   "note": "Regional club with facilities in Hampton, Epping and Bedford; none listed in Portsmouth.",
+   "town": "Hampton",
+   "source": {
+    "label": "Seacoast United, Facility Overview",
+    "url": "https://seacoastunited.com/?p=430"
+   },
+   "needs_review": true,
+   "review_note": "Ages and Portsmouth programs not confirmed; club About page could not be opened."
+  },
+  {
+   "name": "Seacoast Spartans",
+   "sport": "Ice hockey (club)",
+   "ages": "8U to 20U",
+   "season": "Winter",
+   "site": "https://www.seacoastspartans.com/facilities",
+   "note": "Home ice is The Rinks at Exeter.",
+   "town": "Exeter",
+   "source": {
+    "label": "Seacoast Spartans, Facilities",
+    "url": "https://www.seacoastspartans.com/facilities"
+   }
+  }
+ ],
+ "adult": [
+  {
+   "name": "Men's City Basketball League",
+   "sport": "Basketball",
+   "season": "October 2026 to January 2027, then playoffs",
+   "site": "https://www.portsmouthnh.gov/recreation/adult-sports-programs",
+   "note": "Men 18 and over, out of high school. Monday and Thursday nights at Spinnaker Point. $150 resident, $175 nonresident.",
+   "town": "Portsmouth",
+   "source": {
+    "label": "Portsmouth Recreation, Adult Sports Programs",
+    "url": "https://www.portsmouthnh.gov/recreation/adult-sports-programs"
+   }
+  },
+  {
+   "name": "Great Bay Masters",
+   "sport": "Swimming",
+   "season": "Winter session",
+   "site": "https://www.portsmouthnh.gov/recreation/adult-sports-programs",
+   "note": "Adult masters swim team at the Portsmouth Indoor Pool. Pre-registration required; it sells out.",
+   "town": "Portsmouth",
+   "source": {
+    "label": "Portsmouth Recreation, Adult Sports Programs",
+    "url": "https://www.portsmouthnh.gov/recreation/adult-sports-programs"
+   }
+  },
+  {
+   "name": "Table Tennis",
+   "sport": "Table tennis",
+   "season": "Year-round, Thursdays 5:30 to 8:00 pm",
+   "site": "https://www.portsmouthnh.gov/recreation/adult-sports-programs",
+   "note": "Community Campus gym. $5 per night, under 18 free. Drop in.",
+   "town": "Portsmouth",
+   "source": {
+    "label": "Portsmouth Recreation, Adult Sports Programs",
+    "url": "https://www.portsmouthnh.gov/recreation/adult-sports-programs"
+   }
+  },
+  {
+   "name": "Pickleball, volleyball and basketball drop-in",
+   "sport": "Pickleball, volleyball, basketball",
+   "season": "Year-round",
+   "site": "https://www.portsmouthnh.gov/recreation/adult-sports-programs",
+   "note": "Pickleball at Spinnaker Point Mon, Wed, Fri 10:30 am to 12:30 pm and Tue, Thu 9 am to noon; Community Campus gym from Oct 5. Pick-up volleyball and full-court basketball at Spinnaker Point on the monthly schedule. $5 resident, $10 nonresident, free for members.",
+   "town": "Portsmouth",
+   "source": {
+    "label": "Portsmouth Recreation, Adult Sports Programs",
+    "url": "https://www.portsmouthnh.gov/recreation/adult-sports-programs"
+   }
+  },
+  {
+   "name": "USTA Adult Tennis Social League",
+   "sport": "Tennis",
+   "season": "Spring",
+   "site": "https://www.portsmouthnh.gov/recreation/adult-sports-programs",
+   "note": "Ages 21 and over. Returns in spring.",
+   "town": "Portsmouth",
+   "source": {
+    "label": "Portsmouth Recreation, Adult Sports Programs",
+    "url": "https://www.portsmouthnh.gov/recreation/adult-sports-programs"
+   }
+  },
+  {
+   "name": "New Hampshire Sports and Social Club, Seacoast Division",
+   "sport": "Adult rec leagues",
+   "season": null,
+   "site": null,
+   "note": "Listed as a user group at Clough Field in the city's 2023 field matrix.",
+   "town": "Portsmouth",
+   "source": {
+    "label": "City of Portsmouth Field Matrix (2023)",
+    "url": "https://portsmouthnh.gov/sites/default/files/2023-12/Field%20Matrix.pdf"
+   },
+   "needs_review": true,
+   "review_note": "Only source is a 2023 city document; current leagues not confirmed."
+  },
+  {
+   "name": "My Social Sports",
+   "sport": "Adult social leagues (about a dozen sports)",
+   "season": null,
+   "site": "https://mysocialsports.leagueapps.com/",
+   "note": "Listed in Patch's April 2026 roundup of Portsmouth leagues.",
+   "town": "Portsmouth",
+   "source": {
+    "label": "Patch, spring sports sign-ups in Portsmouth (Apr 8, 2026)",
+    "url": "https://new.patch.com/new-hampshire/portsmouth-nh/spring-sports-where-sign-play-portsmouth"
+   }
+  }
+ ],
+ "teams": [
+  {
+   "name": "UNH Wildcats football",
+   "league": null,
+   "sport": "Football",
+   "venue": "Wildcat Stadium, Durham",
+   "site": "https://unhwildcats.com/sports/football/schedule",
+   "note": "Remaining 2026 home games: Rhode Island, Saturday Nov 7, 1 pm; Stony Brook, Saturday Nov 14, 1 pm. Listed as the nearest college program; whether residents follow it is an editorial judgment.",
+   "source": {
+    "label": "UNH Athletics, 2026 football game times",
+    "url": "https://unhwildcats.com/news/2026/3/25/game-times-announced-for-2026-football-season"
+   },
+   "needs_review": true,
+   "review_note": "Including UNH is an editorial call: Durham is a neighboring town, but no source measures how many Portsmouth residents follow UNH."
+  },
+  {
+   "name": "UNH Wildcats men's hockey",
+   "league": "NCAA Division I",
+   "sport": "Ice hockey",
+   "venue": "Whittemore Center at Key Auto Group Complex, Durham",
+   "site": "https://unhwildcats.com/sports/mens-ice-hockey/schedule",
+   "note": "November home games: UMass Lowell Nov 7, 7 pm; RPI Nov 13, 7 pm; Union Nov 14, 7 pm; UConn Nov 21, 5 pm; Brown Nov 28, 4 pm. Maine home series Dec 4 and 5 (times not listed).",
+   "source": {
+    "label": "UNH Athletics, men's hockey 2026-27 schedule release",
+    "url": "https://unhwildcats.com/news/2026/6/5/mens-hockey-unveils-2026-27-schedule"
+   },
+   "needs_review": true,
+   "review_note": "Times are from the June 2026 schedule release; check for changes. Listing UNH is an editorial call."
+  },
+  {
+   "name": "UNH Wildcats women's hockey",
+   "league": "NCAA Division I",
+   "sport": "Ice hockey",
+   "venue": "Whittemore Center at Key Auto Group Complex, Durham",
+   "site": "https://unhwildcats.com/news/2026/6/11/womens-ice-hockey-womens-hockey-reveals-2026-27-schedule",
+   "note": "17 home games in 2026-27. November and December dates not listed in the release.",
+   "source": {
+    "label": "UNH Athletics, women's hockey 2026-27 schedule release",
+    "url": "https://unhwildcats.com/news/2026/6/11/womens-ice-hockey-womens-hockey-reveals-2026-27-schedule"
+   }
+  },
+  {
+   "name": "Seacoast Spartans",
+   "league": "Club hockey (USPHL / FED Hockey memberships shown)",
+   "sport": "Ice hockey",
+   "venue": "The Rinks at Exeter, 40 Industrial Drive, Exeter",
+   "site": "https://www.seacoastspartans.com/facilities",
+   "note": "Teams from 8U to 20U, including a 20U NCDC team.",
+   "source": {
+    "label": "Seacoast Spartans, Facilities",
+    "url": "https://www.seacoastspartans.com/facilities"
+   },
+   "needs_review": true,
+   "review_note": "League shown only as membership logos; which league each home game belongs to is not stated."
+  }
+ ],
+ "venues": [
+  {
+   "name": "Portsmouth High School and Athletic Field Complex",
+   "address": "50 Andrew Jarvis Drive, Portsmouth, NH 03801",
+   "town": "Portsmouth",
+   "uses": "PHS soccer, field hockey, lacrosse, softball and baseball; Portsmouth City Soccer Club; Portsmouth Youth Football practice",
+   "site": "https://www.portsmouthathletics.com/",
+   "source": {
+    "label": "City of Portsmouth Field Matrix (2023)",
+    "url": "https://portsmouthnh.gov/sites/default/files/2023-12/Field%20Matrix.pdf"
+   }
+  },
+  {
+   "name": "Tom Daubney Field",
+   "address": null,
+   "town": "Portsmouth",
+   "uses": "Portsmouth-Oyster River home football games",
+   "site": null,
+   "source": {
+    "label": "Nashua Telegraph, Oct 10, 2026",
+    "url": "https://www.nashuatelegraph.com/sports/high-schools/2026/10/10/clipped-portsmouth-or-rallies-for-28-21-win-over-north/"
+   },
+   "needs_review": true,
+   "review_note": "Address not found; presumed at Portsmouth High School."
+  },
+  {
+   "name": "Recreation Athletic Field Complex (Campus Drive)",
+   "address": "Campus Drive, Portsmouth (Recreation office at 100 Campus Drive)",
+   "town": "Portsmouth",
+   "uses": "Two lighted synthetic turf fields: Field 1 softball and soccer; Field 2 soccer, lacrosse and football",
+   "site": "https://www.portsmouthnh.gov/recreation/athletic-field-0",
+   "source": {
+    "label": "Portsmouth Recreation, Athletic Field",
+    "url": "https://www.portsmouthnh.gov/recreation/athletic-field-0"
+   }
+  },
+  {
+   "name": "Clough Field",
+   "address": "198 Clough Drive, Portsmouth",
+   "town": "Portsmouth",
+   "uses": "60-foot softball diamonds, U12 soccer, multiuse field; used by Portsmouth City Soccer Club, co-ed softball and soccer, Seacoast Lacrosse",
+   "site": null,
+   "source": {
+    "label": "City of Portsmouth Field Matrix (2023)",
+    "url": "https://portsmouthnh.gov/sites/default/files/2023-12/Field%20Matrix.pdf"
+   }
+  },
+  {
+   "name": "Dondero Field",
+   "address": "32 Van Buren Ave, Portsmouth",
+   "town": "Portsmouth",
+   "uses": "Three multiuse fields; Portsmouth City Soccer Club, Seacoast Lacrosse, summer rec",
+   "site": null,
+   "source": {
+    "label": "City of Portsmouth Field Matrix (2023)",
+    "url": "https://portsmouthnh.gov/sites/default/files/2023-12/Field%20Matrix.pdf"
+   }
+  },
+  {
+   "name": "Leary Field",
+   "address": "Rockland Street, Portsmouth",
+   "town": "Portsmouth",
+   "uses": "American Legion baseball; city fireworks on July 3",
+   "site": null,
+   "source": {
+    "label": "Wikipedia, Leary Field",
+    "url": "https://en.wikipedia.org/wiki/Leary_Field"
+   },
+   "needs_review": true,
+   "review_note": "Only source is Wikipedia."
+  },
+  {
+   "name": "Portsmouth Indoor Pool",
+   "address": "48 Andrew Jarvis Drive, Portsmouth, NH 03801",
+   "town": "Portsmouth",
+   "uses": "25-meter, 6-lane pool: lessons, lap swim, masters swim, swim meets. Closed Nov 6 3:30 to 5 pm, Nov 11 (Veterans Day) and Nov 15 (swim meet).",
+   "site": "https://www.portsmouthnh.gov/recreation/indoor",
+   "phone": "603-427-1546",
+   "source": {
+    "label": "Portsmouth Recreation, Indoor Pool",
+    "url": "https://www.portsmouthnh.gov/recreation/indoor"
+   }
+  },
+  {
+   "name": "Connie Bean Center",
+   "address": "155 Parrott Ave., Portsmouth, NH 03801",
+   "town": "Portsmouth",
+   "uses": "Youth center gym (18 and under): open gym and rec basketball games",
+   "site": "https://www.portsmouthnh.gov/recreation/connie-bean",
+   "phone": "603-427-1548",
+   "source": {
+    "label": "Portsmouth Recreation, Connie Bean Center",
+    "url": "https://www.portsmouthnh.gov/recreation/connie-bean"
+   }
+  },
+  {
+   "name": "Spinnaker Point Recreation Center",
+   "address": "30 Spinnaker Way, Portsmouth",
+   "town": "Portsmouth",
+   "uses": "Adults only: full-court gym (men's league, pick-up), indoor track, 4-lane pool, fitness rooms",
+   "site": "https://www.portsmouthnh.gov/recreation/spinnaker-point",
+   "source": {
+    "label": "Portsmouth Recreation, Spinnaker Point",
+    "url": "https://www.portsmouthnh.gov/recreation/spinnaker-point"
+   }
+  },
+  {
+   "name": "Labrie Family Skate at Puddle Dock Pond",
+   "address": "Strawbery Banke Museum, 14 Hancock Street, Portsmouth",
+   "town": "Portsmouth",
+   "uses": "Outdoor public skating, lessons, pick-up pond hockey, rentals. 2026-27 opening date not yet posted.",
+   "site": "https://www.strawberybanke.org/labrie-family-skate",
+   "source": {
+    "label": "Strawbery Banke, Labrie Family Skate",
+    "url": "https://www.strawberybanke.org/labrie-family-skate"
+   }
+  },
+  {
+   "name": "The Rinks at Exeter",
+   "address": "40 Industrial Drive, Exeter, NH 03833",
+   "town": "Exeter",
+   "uses": "Two indoor rinks; home ice of the Seacoast Spartans",
+   "site": "https://www.seacoastspartans.com/facilities",
+   "source": {
+    "label": "Seacoast Spartans, Facilities",
+    "url": "https://www.seacoastspartans.com/facilities"
+   }
+  },
+  {
+   "name": "Whittemore Center at Key Auto Group Complex",
+   "address": "Durham",
+   "town": "Durham",
+   "uses": "UNH men's and women's hockey",
+   "site": "https://unhwildcats.com/sports/mens-ice-hockey/schedule",
+   "source": {
+    "label": "UNH Athletics, men's hockey 2026-27 schedule release",
+    "url": "https://unhwildcats.com/news/2026/6/5/mens-hockey-unveils-2026-27-schedule"
+   }
+  }
+ ],
+ "news": [
+  {
+   "date": "2026-11-01",
+   "title": "Saturday Tourney Roundup: St. Thomas boys advance, all Seacoast results here",
+   "url": "https://www.aol.com/articles/saturday-tourney-roundup-st-thomas-002636312.html",
+   "source": "Portsmouth Herald (via AOL)"
+  },
+  {
+   "date": "2026-10-31",
+   "title": "Friday Tourney Roundup: Winnacunnet, Somersworth volleyball, Newmarket boys soccer advance",
+   "url": "https://sports.yahoo.com/articles/friday-tourney-roundup-winnacunnet-somersworth-061411533.html",
+   "source": "Portsmouth Herald (via Yahoo Sports)"
+  },
+  {
+   "date": "2026-10-31",
+   "title": "Playoff Picture: Football (Oct. 31)",
+   "url": "https://www.nh-highschoolsports.com/playoff-picture-football-oct-31-3/",
+   "source": "NH-HighSchoolSports.com"
+  },
+  {
+   "date": "2026-10-23",
+   "title": "Thursday Seacoast Roundup: Winnacunnet boys blank BG in regular-season finale, more results",
+   "url": "https://sports.yahoo.com/articles/thursday-seacoast-roundup-winnacunnet-boys-020627455.html",
+   "source": "Portsmouth Herald (via Yahoo Sports)"
+  },
+  {
+   "date": "2026-10-22",
+   "title": "Wednesday Seacoast Roundup: Portsmouth field hockey season ends in DI prelim, more results",
+   "url": "https://sports.yahoo.com/articles/wednesday-seacoast-roundup-portsmouth-field-005322097.html",
+   "source": "Portsmouth Herald (via Yahoo Sports)"
+  },
+  {
+   "date": "2026-10-21",
+   "title": "Tuesday Seacoast Roundup: Oyster River field hockey gets upset tourney win, more results",
+   "url": "https://sports.yahoo.com/articles/tuesday-seacoast-roundup-oyster-river-005443416.html",
+   "source": "Portsmouth Herald (via Yahoo Sports)"
+  },
+  {
+   "date": "2026-10-19",
+   "title": "Playoff Pairings: Field Hockey",
+   "url": "https://www.nh-highschoolsports.com/playoff-pairings-field-hockey-7/",
+   "source": "NH-HighSchoolSports.com"
+  },
+  {
+   "date": "2026-10-10",
+   "title": "CLIPPED: Portsmouth-OR rallies for 28-21 win over North",
+   "url": "https://www.nashuatelegraph.com/sports/high-schools/2026/10/10/clipped-portsmouth-or-rallies-for-28-21-win-over-north/",
+   "source": "Nashua Telegraph"
+  }
+ ]
+}

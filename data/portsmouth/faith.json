@@ -1,0 +1,564 @@
+{
+ "as_of": "2026-11-01",
+ "note": "Congregations of every tradition found in or listed under Portsmouth, in no particular order of importance. Many entries come only from church directories and are marked for review; service times should be confirmed with each congregation. Two congregations in Newington with a Portsmouth ZIP or Portsmouth listing are included and marked. Few November and December public events were posted yet.",
+ "congregations": [
+  {
+   "name": "Immaculate Conception Church (Corpus Christi Parish)",
+   "tradition": "Roman Catholic (Diocese of Manchester)",
+   "town": "Portsmouth",
+   "address": "98 Summer Street, Portsmouth, NH 03801",
+   "services": "Saturday 4 pm; Sunday 8:30 am, 10:30 am and 4:30 pm; weekdays 8 am",
+   "servicesSource": {
+    "label": "DiscoverMass, Immaculate Conception",
+    "url": "https://discovermass.com/?p=36556"
+   },
+   "site": "http://corpuschristinh.org",
+   "phone": "603-436-4555",
+   "note": "Parish center and offices at 845 Woodbury Ave. Confession Saturdays 3:00 to 3:40 pm.",
+   "needs_review": true,
+   "review_note": "Mass times from third-party directories (DiscoverMass and CatholicMassTime agree on weekend times); the parish site could not be opened."
+  },
+  {
+   "name": "St. Catherine of Siena Church (Corpus Christi Parish)",
+   "tradition": "Roman Catholic (Diocese of Manchester)",
+   "town": "Portsmouth",
+   "address": "845 Woodbury Ave., Portsmouth, NH 03801",
+   "services": null,
+   "servicesSource": null,
+   "site": "http://corpuschristinh.org",
+   "phone": "603-436-4555",
+   "note": "Also the parish center and offices.",
+   "needs_review": true,
+   "review_note": "Listed by GCatholic; current Mass schedule at this church not found."
+  },
+  {
+   "name": "St. James Church (Corpus Christi Parish)",
+   "tradition": "Roman Catholic (Diocese of Manchester)",
+   "town": "Portsmouth",
+   "address": "2075 Lafayette Rd., Portsmouth, NH 03801",
+   "services": null,
+   "servicesSource": null,
+   "site": "http://corpuschristinh.org",
+   "phone": "603-436-4555",
+   "note": null,
+   "needs_review": true,
+   "review_note": "Listed by GCatholic and DisciplePair; current Mass schedule at this church not found."
+  },
+  {
+   "name": "St. John's Episcopal Church",
+   "tradition": "Episcopal",
+   "town": "Portsmouth",
+   "address": "100 Chapel Street, Portsmouth, NH 03801",
+   "services": "Sunday 8 am (Rite I) and 10 am (Rite II with music, livestreamed); Thursday 9:30 am Eucharist",
+   "servicesSource": {
+    "label": "Episcopal Asset Map, St. John's",
+    "url": "https://www.episcopalassetmap.org/node/1228"
+   },
+   "site": "https://www.stjohnsnh.org/",
+   "phone": "603-436-8283",
+   "note": "Hosts the Breakfast Club and Common Table free meals.",
+   "needs_review": true,
+   "review_note": "Service times from the Episcopal Asset Map, not the parish site."
+  },
+  {
+   "name": "Christ Church",
+   "tradition": "Episcopal",
+   "town": "Portsmouth",
+   "address": "1035 Lafayette Rd, Portsmouth, NH 03801",
+   "services": "Sunday 9:30 am, worshiping at Holy Trinity Lutheran Church, 22 Fox Run Road, Newington, while its building is under construction",
+   "servicesSource": {
+    "label": "Christ Church Portsmouth",
+    "url": "https://christchurchportsmouth.net/"
+   },
+   "site": "https://christchurchportsmouth.net/",
+   "phone": "603-812-3674",
+   "note": "Mailing address PO Box 118, Greenland. Not holding services at the Lafayette Road building for now."
+  },
+  {
+   "name": "South Church, A Unitarian Universalist Congregation",
+   "tradition": "Unitarian Universalist",
+   "town": "Portsmouth",
+   "address": "292 State Street, Portsmouth, NH 03801",
+   "services": "Sunday 10 am, in person and livestreamed",
+   "servicesSource": {
+    "label": "South Church",
+    "url": "https://southchurch-uu.org"
+   },
+   "site": "https://southchurch-uu.org",
+   "phone": "603-436-4762",
+   "note": "Offices at 73 Court Street. Runs a Thursday Shower Program."
+  },
+  {
+   "name": "North Church of Portsmouth",
+   "tradition": "United Church of Christ (Open and Affirming)",
+   "town": "Portsmouth",
+   "address": "2 Congress Street, Portsmouth, NH 03801",
+   "services": "Sunday 10 am",
+   "servicesSource": {
+    "label": "North Church of Portsmouth",
+    "url": "https://www.northchurchportsmouth.org"
+   },
+   "site": "https://www.northchurchportsmouth.org",
+   "phone": "603-436-9109",
+   "note": null
+  },
+  {
+   "name": "Middle Street Baptist Church",
+   "tradition": "Baptist",
+   "town": "Portsmouth",
+   "address": "18 Court Street, Portsmouth, NH 03801",
+   "services": "Sunday 10 am",
+   "servicesSource": {
+    "label": "Middle Street Baptist Church, Portsmouth Food Resources",
+    "url": "https://www.middle.st/portsmouth-food-resources"
+   },
+   "site": "https://www.middle.st",
+   "phone": "603-436-2337",
+   "note": "Hosts Seacoast Community Lunch on Wednesdays.",
+   "needs_review": true,
+   "review_note": "Affiliation listed only as Baptist (BibleTimes says American Baptist Churches USA)."
+  },
+  {
+   "name": "First United Methodist Church of Portsmouth",
+   "tradition": "United Methodist",
+   "town": "Portsmouth",
+   "address": "129 Miller Ave, Portsmouth, NH 03801",
+   "services": null,
+   "servicesSource": null,
+   "site": null,
+   "phone": null,
+   "note": "Hosts Recovery Church's Wednesday meal and, per the Salvation Army, its 1 pm Sunday worship.",
+   "needs_review": true,
+   "review_note": "Name and address from BibleTimes and the city food page; worship times and website not found."
+  },
+  {
+   "name": "Recovery Church Portsmouth",
+   "tradition": "Christian (Recovery Church)",
+   "town": "Portsmouth",
+   "address": "129 Miller Ave, Portsmouth, NH 03801 (at First United Methodist Church)",
+   "services": "Wednesday 6 pm community meal, then 7 pm worship music",
+   "servicesSource": {
+    "label": "Middle Street Baptist Church, Portsmouth Food Resources",
+    "url": "https://www.middle.st/portsmouth-food-resources"
+   },
+   "site": null,
+   "phone": "844-463-7752",
+   "note": null,
+   "needs_review": true,
+   "review_note": "Times from the Middle Street Baptist and City of Portsmouth food lists, not Recovery Church's own site."
+  },
+  {
+   "name": "The Salvation Army, Greater Seacoast Corps",
+   "tradition": "The Salvation Army",
+   "town": "Portsmouth",
+   "address": "272 Rockland Street, Portsmouth, NH",
+   "services": "Sunday 1 pm, held at the United Methodist Church",
+   "servicesSource": {
+    "label": "The Salvation Army, Portsmouth",
+    "url": "https://www.salvationarmyusa.org/nh/portsmouth/"
+   },
+   "site": "https://www.salvationarmyusa.org/nh/portsmouth/",
+   "phone": "603-436-2606",
+   "note": "Office open Monday to Thursday 9 am to 3 pm. Family Store at 2458 Lafayette Road."
+  },
+  {
+   "name": "St. Nicholas Greek Orthodox Church",
+   "tradition": "Greek Orthodox",
+   "town": "Portsmouth",
+   "address": "40 Andrew Jarvis Drive, Portsmouth, NH 03801",
+   "services": null,
+   "servicesSource": null,
+   "site": null,
+   "phone": "603-436-2733",
+   "note": null,
+   "needs_review": true,
+   "review_note": "Directory listings only (ChurchesList, Devout); own website and service times not found."
+  },
+  {
+   "name": "Temple Israel",
+   "tradition": "Jewish (Conservative, egalitarian)",
+   "town": "Portsmouth",
+   "address": "200 State Street, Portsmouth, NH 03801",
+   "services": "Friday and Saturday services (times not listed)",
+   "servicesSource": {
+    "label": "Jewish Federation of NH directory, Temple Israel",
+    "url": "https://jewishnh.org/community-directory/temple-israel-portsmouth"
+   },
+   "site": "http://www.templeisraelnh.org",
+   "phone": "603-436-5301",
+   "note": null,
+   "needs_review": true,
+   "review_note": "Service times not found; temple site could not be opened."
+  },
+  {
+   "name": "Seacoast Chabad Jewish Center",
+   "tradition": "Jewish (Chabad)",
+   "town": "Newington",
+   "address": "2299 Woodbury Avenue, Suite 5, Newington, NH 03801",
+   "services": null,
+   "servicesSource": null,
+   "site": "https://www.jewishseacoast.com/",
+   "phone": "603-584-4111",
+   "note": "Newington address with a Portsmouth ZIP code.",
+   "needs_review": true,
+   "review_note": "Located in Newington; included because it uses the 03801 Portsmouth ZIP. Service times not found."
+  },
+  {
+   "name": "Islamic Society of the Seacoast Area (ISSA), Portsmouth mosque",
+   "tradition": "Muslim",
+   "town": "Portsmouth",
+   "address": "355 Spinney Road, Portsmouth, NH 03801",
+   "services": null,
+   "servicesSource": {
+    "label": "PraySalat, ISSA Portsmouth",
+    "url": "https://praysalat.com/mosque/portsmouth/68773-portsmouth-mosque-islamic-society-of-the-seacoast-area-issa"
+   },
+   "site": "http://www.issa-nh.org/",
+   "phone": "603-559-1000",
+   "note": "ISSA also has a facility in Dover.",
+   "needs_review": true,
+   "review_note": "Address and phone from third-party mosque directories; Jummah time not found."
+  },
+  {
+   "name": "Portsmouth Buddhist Center",
+   "tradition": "Buddhist (listed with the Triratna Buddhist Community)",
+   "town": "Portsmouth",
+   "address": "Classes at Gateway Taiji, 875 Islington Street, Portsmouth, NH 03801",
+   "services": "Sunday 10 to 11:30 am meditation, Dharma talk and discussion",
+   "servicesSource": {
+    "label": "Portsmouth Buddhist Center",
+    "url": "https://thebuddhistcentre.com/portsmouth/religion-without-god-radical-community-values"
+   },
+   "site": "https://thebuddhistcentre.com/portsmouth",
+   "phone": null,
+   "note": "Mailing address PO Box 201, Portsmouth.",
+   "needs_review": true,
+   "review_note": "Page also says all programs are currently online; unclear how current the in-person location is."
+  },
+  {
+   "name": "State Street Church",
+   "tradition": "Advent Christian",
+   "town": "Portsmouth",
+   "address": "634 State Street, Portsmouth, NH 03801",
+   "services": "Sunday 10:30 am",
+   "servicesSource": {
+    "label": "USA Churches, State Street Church",
+    "url": "https://www.usachurches.org/church/portsmouth-advent-christian-church.htm"
+   },
+   "site": "http://statestreetchurch.com",
+   "phone": "603-436-7554",
+   "note": null,
+   "needs_review": true,
+   "review_note": "Third-party directory. Directories also list Redemption Hill Church at the same address; may be the same congregation or a shared building."
+  },
+  {
+   "name": "Redemption Hill Church",
+   "tradition": "Evangelical",
+   "town": "Portsmouth",
+   "address": "634 State Street, Portsmouth, NH",
+   "services": null,
+   "servicesSource": null,
+   "site": null,
+   "phone": null,
+   "note": null,
+   "needs_review": true,
+   "review_note": "Directory listings only (PewSearch, Devout). Same address as State Street Church."
+  },
+  {
+   "name": "New Hope Baptist Church",
+   "tradition": "Baptist",
+   "town": "Portsmouth",
+   "address": "263 Peverly Hill Road, Portsmouth, NH 03801",
+   "services": null,
+   "servicesSource": null,
+   "site": "http://www.newhopenh.com",
+   "phone": "603-431-7310",
+   "note": "Runs a food pantry; call for hours.",
+   "needs_review": true,
+   "review_note": "Directory listings only; service times not found."
+  },
+  {
+   "name": "Seacoast Community Church",
+   "tradition": "Baptist",
+   "town": "Portsmouth",
+   "address": "397 Lafayette Road, Portsmouth, NH 03801",
+   "services": null,
+   "servicesSource": null,
+   "site": null,
+   "phone": "603-436-8623",
+   "note": "Listed in the Baptist Churches of New England prayer directory.",
+   "needs_review": true,
+   "review_note": "Directory listings only; BibleTimes says Southern Baptist Convention. Shares an address with Church Alive."
+  },
+  {
+   "name": "Church Alive",
+   "tradition": "Charismatic (Christian International Apostolic Network)",
+   "town": "Portsmouth",
+   "address": "397 Lafayette Road, Portsmouth, NH 03801",
+   "services": null,
+   "servicesSource": null,
+   "site": null,
+   "phone": null,
+   "note": null,
+   "needs_review": true,
+   "review_note": "ChurchesList only."
+  },
+  {
+   "name": "Hope Presbyterian Church",
+   "tradition": "Presbyterian",
+   "town": "Portsmouth",
+   "address": "861 Middle Road, Portsmouth, NH 03801",
+   "services": null,
+   "servicesSource": null,
+   "site": null,
+   "phone": null,
+   "note": null,
+   "needs_review": true,
+   "review_note": "Directory listings only; shares an address with the Seventh-day Adventist church."
+  },
+  {
+   "name": "Portsmouth Seventh-day Adventist Church",
+   "tradition": "Seventh-day Adventist",
+   "town": "Portsmouth",
+   "address": "861 Middle Road, Portsmouth, NH 03801",
+   "services": null,
+   "servicesSource": null,
+   "site": null,
+   "phone": "603-436-1488",
+   "note": null,
+   "needs_review": true,
+   "review_note": "Directory listings only."
+  },
+  {
+   "name": "Holy Trinity Evangelical Lutheran Church",
+   "tradition": "Lutheran",
+   "town": "Newington",
+   "address": "22 Fox Run Road, Newington, NH",
+   "services": "Sunday 9:30 am (shared worship with Christ Church Episcopal)",
+   "servicesSource": {
+    "label": "Christ Church Portsmouth",
+    "url": "https://christchurchportsmouth.net/"
+   },
+   "site": "http://www.htelc.com",
+   "phone": null,
+   "note": "Directories list it under Portsmouth.",
+   "needs_review": true,
+   "review_note": "In Newington. Service time is from Christ Church's site, which worships there."
+  },
+  {
+   "name": "North Star AME Zion Church",
+   "tradition": "AME Zion",
+   "town": "Newington",
+   "address": "316 Nimble Hill Rd, Newington",
+   "services": null,
+   "servicesSource": null,
+   "site": null,
+   "phone": null,
+   "note": "Listed under Portsmouth in the BibleTimes directory.",
+   "needs_review": true,
+   "review_note": "BibleTimes only; in Newington; not confirmed on the congregation's own site."
+  },
+  {
+   "name": "Seacoast Bible Fellowship",
+   "tradition": "Nondenominational",
+   "town": "Portsmouth",
+   "address": "311 Aldrich Road, Portsmouth, NH 03801",
+   "services": null,
+   "servicesSource": null,
+   "site": null,
+   "phone": null,
+   "note": null,
+   "needs_review": true,
+   "review_note": "Directory listings only."
+  },
+  {
+   "name": "New Frontiers Church",
+   "tradition": "Nondenominational",
+   "town": "Portsmouth",
+   "address": "1 Gosling Road, Portsmouth",
+   "services": null,
+   "servicesSource": null,
+   "site": null,
+   "phone": null,
+   "note": "Formed in 2012 from Christ the King and Harbor Church.",
+   "needs_review": true,
+   "review_note": "Address from a 2014 Patch article; BibleTimes lists 40 Pleasant St. Current location and times not confirmed."
+  },
+  {
+   "name": "Connect Community Church",
+   "tradition": "Community church",
+   "town": "Portsmouth",
+   "address": "200 Chase Drive, Portsmouth, NH 03801",
+   "services": null,
+   "servicesSource": null,
+   "site": null,
+   "phone": "603-436-8815",
+   "note": null,
+   "needs_review": true,
+   "review_note": "Directory listings only."
+  },
+  {
+   "name": "Portsmouth Believers Church",
+   "tradition": "Nondenominational",
+   "town": "Portsmouth",
+   "address": "235 Heritage Ave, Portsmouth, NH 03801",
+   "services": "Sunday 10 am; Wednesday 7 pm",
+   "servicesSource": {
+    "label": "ChurchesList, Portsmouth Believers Church",
+    "url": "https://churcheslist.com/portsmouth-believers-church"
+   },
+   "site": null,
+   "phone": "603-722-0766",
+   "note": null,
+   "needs_review": true,
+   "review_note": "Listing also shows 4 Greenleaf Woods Drive #101; confirm address. Times from a directory."
+  },
+  {
+   "name": "Apostolic Church of Jesus Christ",
+   "tradition": "Apostolic Pentecostal",
+   "town": "Portsmouth",
+   "address": "500 Banfield Road, Portsmouth, NH 03801",
+   "services": "Sunday 10 am worship and 4 pm evangelistic service; Wednesday 7 pm Bible study",
+   "servicesSource": {
+    "label": "ChurchesList, Apostolic Church of Jesus Christ",
+    "url": "https://churcheslist.com/apostolic-church-of-jesus-christ"
+   },
+   "site": null,
+   "phone": null,
+   "note": null,
+   "needs_review": true,
+   "review_note": "Times from a third-party directory."
+  },
+  {
+   "name": "The Church of Jesus Christ of Latter-day Saints",
+   "tradition": "Latter-day Saints",
+   "town": "Portsmouth",
+   "address": "Andrew Jarvis Dr, Portsmouth, NH",
+   "services": null,
+   "servicesSource": null,
+   "site": null,
+   "phone": null,
+   "note": null,
+   "needs_review": true,
+   "review_note": "ChurchesList only; street number and meeting times not found."
+  },
+  {
+   "name": "Little Harbor Chapel",
+   "tradition": "Nondenominational (historic chapel, est. 1902)",
+   "town": "Portsmouth",
+   "address": "335 Little Harbor Rd., Portsmouth, NH 03801",
+   "services": "Sundays at 11 am in July and August, led by visiting ministers",
+   "servicesSource": {
+    "label": "Greater Portsmouth Chamber, Little Harbor Chapel",
+    "url": "https://business.goportsmouthnh.com/list/member/little-harbor-chapel-12472"
+   },
+   "site": "http://littleharborchapel.com",
+   "phone": "603-436-4902",
+   "note": "Summer services only; rented for weddings and memorials year-round."
+  }
+ ],
+ "events": [
+  {
+   "date": "2026-11-15",
+   "time": "5:00 pm",
+   "title": "Evening Eucharist followed by supper (Christ Church stewardship)",
+   "venue": "Holy Trinity Lutheran Church sanctuary, 22 Fox Run Road",
+   "town": "Newington",
+   "kind": "Faith",
+   "url": "https://christchurchportsmouth.net/",
+   "source": "Christ Church Portsmouth"
+  },
+  {
+   "date": "2026-11-29",
+   "time": "9:30 am",
+   "title": "Advent 1 worship, Christ Church with Holy Trinity",
+   "venue": "Holy Trinity Lutheran Church, 22 Fox Run Road",
+   "town": "Newington",
+   "kind": "Faith",
+   "url": "https://christchurchportsmouth.net/",
+   "source": "Christ Church Portsmouth"
+  }
+ ],
+ "services": [
+  {
+   "name": "Breakfast Club",
+   "what": "Free hot breakfast, coffee or tea",
+   "town": "Portsmouth",
+   "when": "Mondays 6:30 to 8:30 am",
+   "where": "St. John's Episcopal Church, Thaxter Hall, 100 Chapel Street",
+   "url": "https://www.stjohnsnh.org/community-support",
+   "note": "Run by St. John's Episcopal Church."
+  },
+  {
+   "name": "Common Table",
+   "what": "Free sit-down lunch; to-go lunches in the lower parking lot from 1 pm",
+   "town": "Portsmouth",
+   "when": "Thursdays 12 to 1 pm",
+   "where": "St. John's Episcopal Church, Thaxter Hall, 100 Chapel Street",
+   "url": "https://www.stjohnsnh.org/community-support",
+   "note": "Run by St. John's Episcopal Church."
+  },
+  {
+   "name": "Polar Packs",
+   "what": "Sleeping bags, socks, hats and gloves for Seacoast homeless shelters",
+   "town": "Portsmouth",
+   "when": "No set schedule",
+   "where": "St. John's Episcopal Church",
+   "url": "https://www.stjohnsnh.org/community-support",
+   "note": "Donations by check to St. John's, marked for the Polar Pack Fund."
+  },
+  {
+   "name": "Seacoast Community Lunch",
+   "what": "Free hot lunch and take-out lunches, open to anyone",
+   "town": "Portsmouth",
+   "when": "Wednesdays 12 to 1 pm",
+   "where": "Middle Street Baptist Church, lower level, 18 Court Street",
+   "url": "https://www.seacoastcommunitylunch.org/",
+   "note": "Hosted at Middle Street Baptist Church."
+  },
+  {
+   "name": "Recovery Church community dinner",
+   "what": "Free community meal followed by worship music",
+   "town": "Portsmouth",
+   "when": "Wednesdays 6 to 7 pm",
+   "where": "First United Methodist Church, 129 Miller Ave",
+   "url": "https://www.portsmouthnh.gov/city/food-resources",
+   "note": "Listed on the city's food resources page.",
+   "needs_review": true,
+   "review_note": "City page appears to date from November 2025."
+  },
+  {
+   "name": "Salvation Army Food Pantry and Soup Kitchen",
+   "what": "Food pantry (by appointment) and hot take-out dinners",
+   "town": "Portsmouth",
+   "when": "Take-out dinners Mondays, Tuesdays, Thursdays and Fridays 5 to 6 pm; pantry by appointment",
+   "where": "272 Rockland Street",
+   "url": "https://www.portsmouthnh.gov/city/food-resources",
+   "note": "Call 603-436-2606.",
+   "needs_review": true,
+   "review_note": "Dinner days and times from the Middle Street Baptist list, which gives 18 Court St; the city page gives 272 Rockland St. Confirm."
+  },
+  {
+   "name": "New Hope Baptist Church Food Pantry",
+   "what": "Food pantry",
+   "town": "Portsmouth",
+   "when": "Call for hours",
+   "where": "263 Peverly Hill Road",
+   "url": "https://foodpantries.org/li/new_hope_baptist_church_3801",
+   "note": "Phone 603-431-7310.",
+   "needs_review": true,
+   "review_note": "Third-party listing only."
+  },
+  {
+   "name": "Thursday Shower Program",
+   "what": "Shower program",
+   "town": "Portsmouth",
+   "when": "Thursdays (hours not listed)",
+   "where": "South Church",
+   "url": "https://southchurch-uu.org",
+   "note": "Contact the church office, 603-436-4762, for details.",
+   "needs_review": true,
+   "review_note": "Named on South Church's site without details."
+  }
+ ]
+}
