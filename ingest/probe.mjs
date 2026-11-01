@@ -7,8 +7,8 @@ for (const url of process.argv.slice(2)) {
     console.log('\n=== ' + url + ' -> ' + r.status + ' ' + r.url + ' ' + (r.headers.get('content-type') || '') + ' ' + t.length + ' bytes');
     console.log('title:', (t.match(/<title>([\s\S]*?)<\/title>/i) || [])[1]?.trim());
     const links = [...t.matchAll(/<a\s[^>]*href=["']([^"']+)["'][^>]*>([\s\S]*?)<\/a>/gi)].map(m => [m[1], m[2].replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim().slice(0, 70)]);
-    const want = links.filter(([h, x]) => /publicrecords|FileDownload|Browse|Folder|agenda|minute|\.pdf|telvue/i.test(h + ' ' + x));
-    for (const [h, x] of want.slice(0, 60)) console.log('  ', x, '|', h);
+    const want = links.filter(([h, x]) => /FileDownload|agenda|minute|desc=|index=|page=/i.test(h + ' ' + x));
+    for (const [h, x] of want.slice(0, 80)) console.log('  ', x, '|', h);
     const scripts = [...t.matchAll(/(?:fetch|ajax|url)\s*[:(]\s*["']([^"']+)["']/gi)].map(m => m[1]).slice(0, 15);
     if (scripts.length) console.log('  script urls:', scripts);
     if (!want.length) console.log('  first 1500 chars:', t.replace(/\s+/g, ' ').slice(0, 1500));

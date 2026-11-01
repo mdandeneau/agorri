@@ -10,4 +10,4 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-      - run: node ingest/probe.mjs https://publicrecords.dover.nh.gov/ https://www.dover.nh.gov/government/boards-and-commissions/city-council/index.html https://www.dover.nh.gov/government/boards-and-commissions/planning-board/ https://www.dover.nh.gov/government/open-government/public-meetings/
+      - run: node ingest/probe.mjs "https://publicrecords.dover.nh.gov/public/1/deptnum/0/cab/Public_Meetings?index=public_body&autosearch=City%20Council" "https://publicrecords.dover.nh.gov/public/1/deptnum/0/cab/Public_Meetings?index=Meeting_Date&desc=1"
