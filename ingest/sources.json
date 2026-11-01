@@ -231,6 +231,15 @@
     "type": "civicplus",
     "kind": "notice",
     "base": "https://www.amherstnh.gov/"
+   },
+   {
+    "id": "agenda-center",
+    "type": "links",
+    "kind": "meeting-doc",
+    "docs": true,
+    "url": "https://www.amherstnh.gov/AgendaCenter",
+    "match": "AgendaCenter/ViewFile/(Agenda|Minutes)/",
+    "max": 150
    }
   ],
   "merrimack": [
@@ -540,12 +549,6 @@
    }
   ],
   "bartlett": [
-   {
-    "id": "feed",
-    "type": "rss",
-    "kind": "notice",
-    "url": "https://www.townofbartlettnh.org/feed/"
-   },
    {
     "id": "meeting-docs",
     "type": "links",

@@ -124,7 +124,19 @@ const readers = {
     if (DEBUG) console.log(`  [debug] ${src.id}: ${all.size} matching links`);
     if (DEBUG && !all.size) { const html = await get(pages[0]); console.log(`  [debug] ${src.id}: page ${html.length} bytes, sample links:`, [...html.matchAll(/href=["']([^"']+)["']/gi)].map(m => m[1]).filter(h => /minute|agenda|document|files\.|\.pdf/i.test(h)).slice(0, 25)); }
     const need = src.require ? new RegExp(src.require, 'i') : null;
-    return [...all.values()].filter(l => !need || need.test(l.url + ' ' + l.title)).slice(0, src.max || 40).map(l => ({ title: l.title, url: l.url, date: dateIn(l.url) || dateIn(l.title), doc: docKind(fileName(l.url) + ' ' + l.title), packet: isPacket(fileName(l.url) + ' ' + l.title) }));
+    // CivicPlus Agenda Center: the kind is in the path (/ViewFile/Agenda/ or /ViewFile/Minutes/), the minutes link has no
+    // title of its own, and ?html=true repeats the agenda. Name both after the meeting, matched by the shared id.
+    const ac = u => (u.match(/AgendaCenter\/ViewFile\/(Agenda|Minutes)\/(_\d{8}-\d+)/i) || []);
+    const meetingName = new Map();
+    for (const l of all.values()) { const [, , id] = ac(l.url); if (id && !/^(_|pdf$|packet|html)/i.test(l.title) && l.title.length > (meetingName.get(id) || '').length) meetingName.set(id, l.title.replace(/\s*\(PDF\)$/i, '')); }
+    return [...all.values()].filter(l => !need || need.test(l.url + ' ' + l.title)).filter(l => !/[?&]html=true/i.test(l.url)).slice(0, src.max || 40).map(l => {
+      const [, acKind, acId] = ac(l.url);
+      if (acKind) {
+        const kind = acKind.toLowerCase() === 'minutes' ? 'minutes' : 'agenda', packet = /packet=true/i.test(l.url);
+        return { title: `${packet ? 'Packet' : kind === 'minutes' ? 'Minutes' : 'Agenda'}: ${meetingName.get(acId) || l.title}`, url: l.url, date: dateIn(acId), doc: kind, packet };
+      }
+      return { title: l.title, url: l.url, date: dateIn(l.url) || dateIn(l.title), doc: docKind(fileName(l.url) + ' ' + l.title), packet: isPacket(fileName(l.url) + ' ' + l.title) };
+    });
   },
 
   // CivicPlus: /rss.aspx lists every feed on the site (news, calendar, alerts, agendas, bids...). Read each "All" feed.
