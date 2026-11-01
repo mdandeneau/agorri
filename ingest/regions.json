@@ -1,5 +1,5 @@
 {
- "note": "Agorri's launch regions (decided Nov 1, 2026): four areas, 37 towns, about 45% of New Hampshire (2020 Census). Population is the 2020 Census. `sites` are candidate town website hosts the platform scanner (ingest/scan.mjs) tries first; it also tries common patterns.",
+ "note": "Agorri's launch regions (decided Nov 1, 2026): four areas, 33 towns, about 42% of New Hampshire (2020 Census). Population is the 2020 Census. `sites` are candidate town website hosts the platform scanner (ingest/scan.mjs) tries first; it also tries common patterns. Milford, New Boston, Weare and Brookline were dropped Nov 1, 2026.",
  "state": "NH",
  "statePopulation2020": 1377529,
  "regions": [
@@ -123,14 +123,6 @@
      ]
     },
     {
-     "id": "milford",
-     "name": "Milford",
-     "population2020": 16131,
-     "sites": [
-      "www.milford.nh.gov"
-     ]
-    },
-    {
      "id": "amherst",
      "name": "Amherst",
      "population2020": 11753,
@@ -162,19 +154,9 @@
       "www.pelham-nh.gov",
       "www.pelhamweb.com"
      ]
-    },
-    {
-     "id": "brookline",
-     "name": "Brookline",
-     "population2020": 5639,
-     "sites": [
-      "www.brooklinenh.gov",
-      "brooklinenh.gov",
-      "www.brooklinenh.us"
-     ]
     }
    ],
-   "population2020": 207913
+   "population2020": 186143
   },
   {
    "id": "greater-manchester",
@@ -242,28 +224,9 @@
       "www.auburnnh.us",
       "www.auburnnh.gov"
      ]
-    },
-    {
-     "id": "new-boston",
-     "name": "New Boston",
-     "population2020": 6108,
-     "sites": [
-      "www.newbostonnh.gov"
-     ]
-    },
-    {
-     "id": "weare",
-     "name": "Weare",
-     "population2020": 9092,
-     "sites": [
-      "www.weare.nh.gov",
-      "weare.nh.gov",
-      "www.wearenh.gov",
-      "www.wearenh.org"
-     ]
     }
    ],
-   "population2020": 253703
+   "population2020": 238503
   },
   {
    "id": "mount-washington-valley",
