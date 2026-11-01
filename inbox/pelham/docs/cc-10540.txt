@@ -1,0 +1,242 @@
+Source: https://pelhamnh.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=10540,plainText=false)
+Title: Board of Selectmen 2026-10-27: BOS Unofficial Minutes 10.27.26
+Fetched: 2026-11-01
+
+1                             PELHAM       BOARD      OF   SELECTMEN
+ 2                     UNOFFICIAL     MINUTES    —  TUESDAY,    OCTOBER     27, 2026
+ 3    The Pelham Board of Selectmen met on Tuesday, October 27, 2026, at 6:30 P.M. Members Present:
+ 4    Chair Jason Croteau, Vice Chair Charlene Takesian, Selectmen Jaie Bergeron, Selectmen Danielle
+ 5    Masse Quinn, Selectmen Brett Gagnon. Chair Jason Croteau called the meeting to order.
+
+ 6    Call to order
+ 7    Scheduled Start Time: 6:30 PM
+
+ 8    Pledge of Allegiance
+
+ 9    Attendance
+
+10    Meeting Minutes Review
+
+11    1. Minutes  Draft 9/29/26 (Version 2) and 10/13/26
+12           Chair Jason Croteau confirmed that Selectmen Danielle Masse Quinn's corrections to the
+13           September  29 meeting minutes had been addressed and incorporated as requested. Chair
+14           Croteau then moved to the October 13 minutes, asking if there were any additions or corrections;
+15           hearing none, he opened the floor for a motion on that item as well.
+
+
+16       Motion  by Selectmen  Danielle Masse Quinn  to approve the September  29,2026 minutes
+17       version 2 as written. Seconded by Selectmen  Brett Gagnon.  Carried (5–0–0).
+
+18       Motion  by Selectmen  Danielle Masse Quinn  to Approve the 10/13/2026 Board  of Selectmen
+19       meeting  minutes. Seconded  by Selectmen  Brett Gagnon.  Carried (5–0–0).
+
+20    Non-Public Meeting  Minutes Approval
+
+21    Open Forum
+22    No members  of the public spoke during open forum.
+
+23    Appointments
+
+24    1. Pelham  Council on  Aging: Donation Reconsideration  —  Pelham  Council on Aging
+25           Chair Jason Croteau invited the Pelham Council of Aging to present for reconsideration of a prior
+26           vote. Chairman of the Pelham Council of Aging Ed Gleason presented a proposed donation of
+27           fifteen thousand dollars to support the Town's Forestry Committee trail maintenance project as
+28           defined in an October first proposal. Gleason explained that the Council of Aging Board voted to
+29           approve the donation, which would be set up as a budget item rather than presented as a check.
+30           He stipulated that all invoices for the project must be validated by a Forest Committee member
+31           signature and indicate the task performed as defined in the original proposal. Gleason noted that
+32           the donation would improve quality of life in Pelham and provide the senior community expanded
+33           opportunities to experience the town's natural resources. Selectmen Danielle Masse Quinn
+34           clarified the procedural next steps needed to move forward with accepting the donation under the
+35           stated conditions.
+
+36       Motion  by Selectmen  Danielle Masse Quinn  to Rescind Selectmen  Gagnon's  motion  from the
+
+      PELHAM BOARD OF SELECTMEN  — REGULAR MEETING                                            Page 1 of 5
+      — TUESDAY,OCTOBER  27, 202637       10/13/2026 vote restricting the Pelham Council on Aging's contribution of up to $15,000 to the
+38       proposed  trail project across from the Pelham Community  Center. Seconded   by Selectmen
+39       Brett Gagnon.  Carried (5–0–0).
+
+40       Motion  by Selectmen  Danielle Masse Quinn  to Accept with gratitude the Pelham Council on
+41       Aging's commitment   to reimburse  the town up to $15,000 for eligible trail maintenance
+42       expenses  consistent with the purposes  and conditions clarified by Council on Aging
+43       Chairman  Ed  Gleason at this meeting, with reimbursement  subject to submission and
+44       approval  of qualifying invoices. Seconded by Selectmen Brett Gagnon.  Carried (5–0–0).
+
+45       Motion  by Selectmen  Danielle Masse Quinn  to Authorize Town  Administrator Roark to work
+46       with the Pelham  Trail Subcommittee  for trail maintenance items pertaining to Class roads and
+47       private property matters under the Board's authority. Seconded  by Chair Jason Croteau.
+48       Failed (2–3–0).
+49           Voting Yea: Chair Jason Croteau, Selectmen Danielle Masse Quinn
+50           Voting Nay: Vice Chair Charlene Takesian, Selectmen Jaie Bergeron, Selectmen Brett Gagnon
+
+51    2. Public Re-Hearing  – Board of Health- Request for Waiver of Well Ordinance —  Board of Health
+52           The Board of Health reconvened to reconsider Andrew McNiff's request for a waiver of the well
+53           ordinance to allow a shared well between two nonconforming lots. Mr. McNiff explained that he
+54           had obtained a yield test showing the existing well produces ten gallons per minute, exceeding
+55           the town's threshold of eight gallons per minute. He stated that while he could legally place a
+56           new well on his property using a well reduction form from the state, doing so would position it
+57           only twenty feet from his neighbor's septic system, whereas the shared well would be sixty feet
+58           away. The board engaged  in lengthy discussion about the nature of hardship, the public health
+59           implications of shared versus separate wells, and the procedural questions surrounding approval
+60           of a nonconforming lot. Selectmen Danielle Masse Quinn raised several concerns, including that
+61           the board lacked authority to create a use for a property that is not currently an approved
+62           buildable lot, and that approving a waiver would not adequately protect future homeowners or
+63           comply with the New Hampshire Safe Drinking Water Act. She also noted that once the waiver
+64           was granted and the house built, the well ordinance would no longer apply to subsequent
+65           owners, leaving them unprotected. Health and Environmental Officer Dena Hoffman
+66           acknowledged  the difficulty of the situation as a "catch 22," explaining that while shallow septic
+67           systems posed theoretical contamination risks, well water from hundreds of feet below typically
+68           benefited from soil filtration. Chair Croteau expressed support for one well over two, but
+69           acknowledged  the board's concerns. The board ultimately proceeded to a recorded vote on
+70           whether to deny the waiver request.
+
+71       Motion  by Selectmen  Danielle Masse Quinn  to Adjourn the Board of Selectmen  meeting in
+72       order to convene  as the Board of Health. Seconded  by Selectmen  Brett Gagnon. Carried (5–0–0).
+73
+
+74       Motion  by Selectmen  Danielle Masse Quinn  to Convene  as the Board of Health. Seconded by
+75       Vice Chair Charlene  Takesian. Carried (5–0–0).
+
+76       Motion  by Selectmen  Danielle Masse Quinn  to Deny the request by Andrew  McNiff for
+77       reconsideration of a waiver of Section 2.3 of the Town of Pelham Well Ordinance, finding that
+78       the applicant has not demonstrated  sufficient hardship to justify the waiver and has not
+79       demonstrated   that the proposed shared well arrangement  will adequately protect public
+80       health and consumer   safety. Seconded by Selectmen  Jaie Bergeron.  Carried (3–2–0).
+81           Voting Yea: Selectmen Jaie Bergeron, Selectmen Danielle Masse Quinn, Selectmen Brett
+
+      PELHAM BOARD OF SELECTMEN  — REGULAR MEETING                                            Page 2 of 5
+      — TUESDAY,OCTOBER  27, 2026 82           Gagnon
+ 83           Voting Nay: Chair Jason Croteau, Vice Chair Charlene Takesian
+
+ 84       Motion  by Selectmen  Brett Gagnon  to Reconvene  as the Board of Selectmen. Seconded   by
+ 85       Selectmen  Danielle Masse  Quinn. Carried (5–0–0).
+
+ 86    3. Right to Know  Policy Revision and Approval
+ 87           Town  Administrator Joseph Roark presented a revised Right to Know policy that had been
+ 88           developed in collaboration with the town's legal counsel and Selectmen Brett Gagnon, who
+ 89           brought expertise and concerns to multiple conference calls with the attorney. The most
+ 90           significant change from the existing policy involves how requests are submitted and fulfilled.
+ 91           Previously, requesters were required to submit requests in person at town offices, a requirement
+ 92           intended to limit requests from out-of-state and international data miners. The new policy allows
+ 93           requests to be made remotely via email or telephone, but requires that all records be collected in
+ 94           person at the Selectmen's office, paid for in advance, and provided either as hard copies or on
+ 95           factory-sealed USB drives rather than via email or cloud-based services. Roark emphasized that
+ 96           the town has experienced a substantial increase in Right to Know requests, receiving nine in the
+ 97           past five days alone, two of which required more than thirty days to complete. Several additional
+ 98           provisions were incorporated into the policy based on Selectmen Gagnon's input. These include
+ 99           allowing verbal requests when requesters decline to put requests in writing, enabling the town to
+100           suggest reasonable modifications to broad requests to reduce costs and effort, changing the
+101           daily receipt cutoff from four o'clock to five o'clock, requiring prompt notification of changes to
+102           estimated production dates, establishing itemized estimates for electronic communications
+103           exceeding two hundred fifty records, and clarifying that town officials and employees must
+104           search personal devices and accounts used for town business. Selectmen Gagnon noted the
+105           policy allows requesters to photograph records rather than purchase copies, and Roark
+106           explained the prohibition on mailing records helps ensure advance payment and serves as a
+107           guardrail against out-of-state data mining operations. Selectmen Danielle Masse Quinn sought
+108           assurance that the revised policy remained legally defensible, and Roark confirmed that all
+109           language was written by town legal counsel and represented a customized version of the
+110           attorney's boilerplate policy addressing specific town concerns. Vice Chair Charlene Takesian
+111           confirmed the policy could be revised in the future if unanticipated issues arose.
+
+112       Motion  by Selectmen  Brett Gagnon  to Approve the latest Right to Know policy for the Town of
+113       Pelham  as recommended    by town legal. Seconded  by Vice Chair Charlene Takesian. Carried
+114       (5–0–0).
+
+115    4. Police Animal Kennel  Septic Installation Bid —
+116           Town  Administrator Joseph Roark presented the septic installation bids for the police animal
+117           kennel, explaining that the original septic system installed at the animal control shelter behind the
+118           police department had malfunctioned over the winter and required replacement with a separately
+119           designed system. The town received five bids ranging from $18,750 to $29,148.15. Roark
+120           requested approval to award the bid to the lowest bidder, pending verification of insurance and
+121           credentials, and authorization to withdraw $18,750 from the buildings and grounds maintenance
+122           capital reserve fund established by the town in 2026 for exactly this type of unexpected repair
+123           expense. Chair Jason Croteau disclosed that BKC Enterprises, the second-lowest bidder at
+124           $20,750, was a relative of his and announced he would abstain from voting on the award
+125           decision. Vice Chair Charlene Takesian and Selectmen Jaie Bergeron discussed whether to
+126           prioritize the lowest bid or consider other factors such as bid presentation quality and local
+127           preference. Bergeron noted the cost difference between the lowest and second-lowest was
+
+       PELHAM BOARD OF SELECTMEN  — REGULAR MEETING                                            Page 3 of 5
+       — TUESDAY,OCTOBER  27, 2026128           minimal and cautioned against characterizing out-of-town contractors as unreliable. Selectmen
+129           Brett Gagnon confirmed with Roark that all bids met the specified design requirements and were
+130           for substantially the same work. Roark clarified that all bidders had been provided with a detailed
+131           plan and that the project, while important, was relatively straightforward—a 150-gallon-per-day
+132           system consisting of a tank and leaching field suitable for the site conditions.
+
+133       Motion  by Vice Chair Charlene Takesian to Award  the bid for the septic system installation at
+134       the animal control shelter to the lowest bidder, Greg Luongo of Milford, New Hampshire.
+135       Seconded   by Selectmen  Brett Gagnon. Carried (4–0–1).
+136           Voting Yea: Vice Chair Charlene Takesian, Selectmen Jaie Bergeron, Selectmen Danielle Masse
+137           Quinn, Selectmen Brett Gagnon
+138           Abstaining: Chair Jason Croteau
+
+139       Motion  by Selectmen  Danielle Masse Quinn  to Award the bid for the standalone septic system
+140       installation at the Pelham animal control shelter to Greg Luongo (Luongo Development)   of
+141       Milford, New Hampshire   for $18,750, and authorize expenditure of that amount from the
+142       Buildings and  Grounds  Maintenance  Capital Reserve Fund  established under Article 10 of the
+143       2026 Town  Meeting,  with the Board of Selectmen acting as agents to expend. Seconded   by
+144       Vice Chair Charlene  Takesian. Carried (5–0–0).
+
+145    Discussion
+146    Town Administrator Joseph Roark reported that the state legislature recently mandated that the budget
+147    committee draft a default budget for the town, a complicated process with limited legislative guidance.
+148    Roark explained that he, Tammy Penny, Mike Carter, and Ken Woonton have begun developing a plan
+149    to implement this requirement. The budget committee chairman Mike Carter researched training options
+150    and found that the New Hampshire Municipal Association (NHMA) is willing to conduct a training session
+151    on default budgets, including what should and should not be included in them. Roark recommended that
+152    the Board of Selectmen approve a $700 transfer from the emergency management budget to the budget
+153    committee's budget line to cover the training cost, noting that the budget committee currently has only $1
+154    budgeted. He confirmed that Fire Chief Dan Newman approved the transfer as the Emergencey
+155    Management  Coordinator. Selectmen Brett Gagnon and Danielle Masse Quinn asked clarifying
+156    questions about the training format and the budget committee members' receptiveness to the training.
+157    Roark clarified that the instruction would be delivered via Teams or Zoom with a live instructor, and that
+158    the session would be recorded for members unable to attend live. Selectmen Masse Quinn expressed
+159    hope that committee members would actively embrace the training given the $700 cost. Gagnon noted
+160    that while the budget committee members are passionate and well-intentioned, they would likely still rely
+161    on Tammy  Penny's guidance given the complexity and time constraints involved. Vice Chair Charlene
+162    Takesian asked whether the default budget mandate could be fulfilled in the town office; Roark confirmed
+163    the mandate is binding but indicated that Penny would continue to assist by preparing preliminary
+164    frameworks for the committee to review and modify.
+
+165    Motion by Selectmen  Danielle Masse Quinn  to Approve  a $700 line item transfer from the
+166    Emergency  Management    budget to the Budget Committee  budget  line item for the purpose of
+167    NHMA  default budget training. Seconded  by Selectmen  Brett Gagnon. Carried (5–0–0).
+
+168    Selectmen &  Town  Administrator Reports
+169    Chair Jason Croteau opened the Selectmen and Town Administrator reports by noting that the fire
+170    department's local parade on Saturday was well attended and that the department continues to do
+171    excellent work. He mentioned preliminary discussion about potentially incorporating a hunt through the
+172    woods next year if a proposed trail project moves forward, which could work in conjunction with the
+173    existing hayride. Croteau reminded residents that voting would take place on November 3, with polls
+
+       PELHAM BOARD OF SELECTMEN  — REGULAR MEETING                                            Page 4 of 5
+       — TUESDAY,OCTOBER  27, 2026174    open from 7 AM to 8 PM at Pelham High School. Selectmen Danielle Masse Quinn reported nothing at
+175    that time. Vice Chair Charlene Takesian highlighted several initiatives at the Pelham Historical Society
+176    and Museum.  She described a successful graveyard search event following the horribles parade that
+177    attracted over 100 attendees, including children who learned about local history and gravestones at the
+178    Central Center Cemetery. The museum  is pursuing a window restoration grant to address dry rot
+179    damage  and is collecting vintage ornaments for a Christmas display. Takesian noted increased
+180    community use of the museum, with Cub Scouts, the Golden Girls, a caregiver's group, and a grief
+181    counseling group all meeting there, and emphasized that tours are available through guides Andrea and
+182    Dave. She praised recent improvements, including protective window coverings and the discovery of
+183    Boston Post Canes, one of which was presented to Helen Rogers, a 110-year-old resident. Selectmen
+184    Brett Gagnon reported that Lynn Hildreth, the pickleball coordinator, received a New Hampshire
+185    volunteer award at the state level. He also described attending a governor's visit the previous week,
+186    during which Police Chief Anne Perriello was recognized for twenty-five years of service and Pelham
+187    Pathways received recognition for their work on the All Persons Trail. Town Administrator Joseph Roark
+188    had nothing to report.
+
+189    Non-Public Session  RSA  91-A: 3, II (As Needed)
+190    If requested, non-public session per RSA 91-A: 3, II (a) Personnel (b) Hiring of any person as an
+191    employee (c) Matters which, if discussed publicly, would affect adversely the reputation of any person (d)
+192    Consideration of acquisition, sale, or lease of property (e) Consideration or negotiation of pending claims
+193    or litigation.
+194    Chair Jason Croteau announced that no non-public session was necessary.
+
+195    Motion by Selectmen  Brett Gagnon  to Adjourn the meeting. Seconded  by Selectmen  Jaie
+196    Bergeron. Carried (5–0–0). The meeting adjourned  at 8:20 P.M..
+
+
+       PELHAM BOARD OF SELECTMEN  — REGULAR MEETING                                            Page 5 of 5
+       — TUESDAY,OCTOBER  27, 2026

@@ -1,0 +1,207 @@
+{
+ "note": "Written by ingest/fetch.mjs. Each item: where it came from (source, url), the date in the document when known, firstSeen (the day the fetcher first saw it; new since the last refresh = firstSeen on or after that day) and text (the saved agenda or minutes text, when there is one). Facts for the site still come from reading the linked document.",
+ "town": "amherst",
+ "updated": "2026-11-01T16:08:06.173Z",
+ "sources": {
+  "civicclerk": {
+   "ok": true,
+   "found": 3,
+   "new": 3,
+   "checked": "2026-11-01T16:08:06.173Z",
+   "ms": 703
+  },
+  "town-feeds": {
+   "ok": true,
+   "found": 13,
+   "new": 12,
+   "checked": "2026-11-01T16:08:06.173Z",
+   "ms": 6484
+  }
+ },
+ "notes": [],
+ "items": [
+  {
+   "key": "civicclerk:cd9f112e7a6e",
+   "source": "civicclerk",
+   "kind": "meeting-doc",
+   "title": "Board of Selectmen: One Time Event",
+   "url": "https://amherstnh.portal.civicclerk.com/event/673/overview",
+   "date": "2026-11-09",
+   "body": "Board of Selectmen",
+   "meeting": true,
+   "files": 0,
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "town-feeds:2b7def15a6f3",
+   "source": "town-feeds",
+   "kind": "notice",
+   "feed": "agenda",
+   "title": "Thursday November 5, 2026 @ Hollis DPW 10 Muzzey Rd. Hollis NH",
+   "url": "https://www.amherstnh.gov/AgendaCenter/PreviousVersions/478",
+   "date": "2026-10-30",
+   "detail": "Thursday November 5, 2026 @ Hollis DPW 10 Muzzey Rd. Hollis NH",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "town-feeds:c63e73991447",
+   "source": "town-feeds",
+   "kind": "notice",
+   "feed": "agenda",
+   "title": "Planning Board meeting agenda November 4, 2026",
+   "url": "https://www.amherstnh.gov/AgendaCenter/PreviousVersions/476",
+   "date": "2026-10-29",
+   "detail": "Planning Board meeting agenda November 4, 2026",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "town-feeds:169c7f4ebf3f",
+   "source": "town-feeds",
+   "kind": "notice",
+   "feed": "agenda",
+   "title": "Planning Board meeting agenda October 21, 2026",
+   "url": "https://www.amherstnh.gov/AgendaCenter/PreviousVersions/460",
+   "date": "2026-10-29",
+   "detail": "Planning Board meeting agenda October 21, 2026 Update: Minutes added or updated",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "town-feeds:a8864b7dc961",
+   "source": "town-feeds",
+   "kind": "notice",
+   "feed": "agenda",
+   "title": "Zoning Board Regular Meeting",
+   "url": "https://www.amherstnh.gov/AgendaCenter/PreviousVersions/456",
+   "date": "2026-10-28",
+   "detail": "Zoning Board Regular Meeting Update: Minutes added or updated",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "civicclerk:489edc642110",
+   "source": "civicclerk",
+   "kind": "meeting-doc",
+   "title": "Board of Selectmen: One Time Event",
+   "url": "https://amherstnh.portal.civicclerk.com/event/672/overview",
+   "date": "2026-10-26",
+   "body": "Board of Selectmen",
+   "meeting": true,
+   "files": 0,
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "town-feeds:8b5393cb66b2",
+   "source": "town-feeds",
+   "kind": "notice",
+   "feed": "agenda",
+   "title": "Recreation Commission Regular Meeting Agenda",
+   "url": "https://www.amherstnh.gov/AgendaCenter/PreviousVersions/477",
+   "date": "2026-10-26",
+   "detail": "Recreation Commission Regular Meeting Agenda",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "town-feeds:8f5b2a9db50f",
+   "source": "town-feeds",
+   "kind": "notice",
+   "feed": "agenda",
+   "title": "BOS Meeting Agenda and Packet",
+   "url": "https://www.amherstnh.gov/AgendaCenter/PreviousVersions/474",
+   "date": "2026-10-23",
+   "detail": "BOS Meeting Agenda and Packet",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "town-feeds:1a4e3b883150",
+   "source": "town-feeds",
+   "kind": "notice",
+   "feed": "agenda",
+   "title": "Amherst Conservation Commission Regular Meeting Agenda",
+   "url": "https://www.amherstnh.gov/AgendaCenter/PreviousVersions/475",
+   "date": "2026-10-23",
+   "detail": "Amherst Conservation Commission Regular Meeting Agenda",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "town-feeds:724e56baed9b",
+   "source": "town-feeds",
+   "kind": "notice",
+   "feed": "agenda",
+   "title": "Cemetery Trustee Special Meeting Agenda",
+   "url": "https://www.amherstnh.gov/AgendaCenter/PreviousVersions/473",
+   "date": "2026-10-21",
+   "detail": "Cemetery Trustee Special Meeting Agenda",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "town-feeds:e5b8f1e1fdec",
+   "source": "town-feeds",
+   "kind": "notice",
+   "feed": "agenda",
+   "title": "Amherst Conservation Commission Regular Meeting Agenda",
+   "url": "https://www.amherstnh.gov/AgendaCenter/PreviousVersions/462",
+   "date": "2026-10-21",
+   "detail": "Amherst Conservation Commission Regular Meeting Agenda Update: Minutes added or updated",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "town-feeds:355833b107c6",
+   "source": "town-feeds",
+   "kind": "notice",
+   "feed": "agenda",
+   "title": "Ways & Means Meeting Agenda",
+   "url": "https://www.amherstnh.gov/AgendaCenter/PreviousVersions/472",
+   "date": "2026-10-21",
+   "detail": "Ways & Means Meeting Agenda",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "civicclerk:b7b75cacf561",
+   "source": "civicclerk",
+   "kind": "meeting-doc",
+   "title": "Board of Selectmen: One Time Event",
+   "url": "https://amherstnh.portal.civicclerk.com/event/671/overview",
+   "date": "2026-10-19",
+   "body": "Board of Selectmen",
+   "meeting": true,
+   "files": 0,
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "town-feeds:a985d0ef5858",
+   "source": "town-feeds",
+   "kind": "notice",
+   "feed": "agenda",
+   "title": "Amherst Conservation Commission Regular Meeting Agenda CANCELLED",
+   "url": "https://www.amherstnh.gov/AgendaCenter/PreviousVersions/471",
+   "date": "2026-10-19",
+   "detail": "Amherst Conservation Commission Regular Meeting Agenda CANCELLED",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "town-feeds:1efba1fc35f8",
+   "source": "town-feeds",
+   "kind": "notice",
+   "feed": "calendar",
+   "title": "Veterans Day - Town buildings are closed",
+   "url": "https://www.amherstnh.gov/Calendar.aspx?EID=905",
+   "date": "2026-09-29",
+   "detail": "Event date: November 11, 2026 Event Time: 12:00 AM - 11:59 PM Location: Amherst, NH 03031",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  }
+ ]
+}

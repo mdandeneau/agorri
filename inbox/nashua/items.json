@@ -1,35 +1,35 @@
 {
  "note": "Written by ingest/fetch.mjs. Each item: where it came from (source, url), the date in the document when known, firstSeen (the day the fetcher first saw it; new since the last refresh = firstSeen on or after that day) and text (the saved agenda or minutes text, when there is one). Facts for the site still come from reading the linked document.",
  "town": "nashua",
- "updated": "2026-11-01T15:48:41.611Z",
+ "updated": "2026-11-01T16:08:06.173Z",
  "sources": {
   "civicclerk": {
    "ok": true,
    "found": 185,
    "new": 0,
-   "checked": "2026-11-01T15:48:41.611Z",
-   "ms": 9127
+   "checked": "2026-11-01T16:08:06.173Z",
+   "ms": 9153
   },
   "city-feeds": {
    "ok": true,
    "found": 21,
    "new": 0,
-   "checked": "2026-11-01T15:48:41.611Z",
-   "ms": 7814
+   "checked": "2026-11-01T16:08:06.173Z",
+   "ms": 8441
   },
   "police-releases": {
    "ok": true,
    "found": 15,
    "new": 0,
-   "checked": "2026-11-01T15:48:41.611Z",
-   "ms": 625
+   "checked": "2026-11-01T16:08:06.173Z",
+   "ms": 455
   },
   "police-arrest-logs": {
    "ok": true,
    "found": 10,
    "new": 0,
-   "checked": "2026-11-01T15:48:41.611Z",
-   "ms": 976
+   "checked": "2026-11-01T16:08:06.173Z",
+   "ms": 1141
   }
  },
  "notes": [
@@ -129,10 +129,10 @@
    "key": "civicclerk:4de20c63d29e",
    "source": "civicclerk",
    "kind": "meeting-doc",
-   "title": "Joint Meeting \u2013 Committee on Infrastructure and Library Board of Trustees: Joint Meeting - Committee on Infrastructure and Library Board of Trustees  - 11/18/26",
+   "title": "Joint Meeting – Committee on Infrastructure and Library Board of Trustees: Joint Meeting - Committee on Infrastructure and Library Board of Trustees  - 11/18/26",
    "url": "https://nashuanh.portal.civicclerk.com/event/7414/overview",
    "date": "2026-11-18",
-   "body": "Joint Meeting \u2013 Committee on Infrastructure and Library Board of Trustees",
+   "body": "Joint Meeting – Committee on Infrastructure and Library Board of Trustees",
    "meeting": true,
    "files": 0,
    "firstSeen": "2026-11-01",
@@ -894,10 +894,10 @@
    "key": "civicclerk:4b871c12ddff",
    "source": "civicclerk",
    "kind": "meeting-doc",
-   "title": "Joint Meeting \u2013 Committee on Infrastructure and Library Board of Trustees: Joint Meeting - Committee on Infrastructure and Nashua Library Board of Trustees - 10/28/26",
+   "title": "Joint Meeting – Committee on Infrastructure and Library Board of Trustees: Joint Meeting - Committee on Infrastructure and Nashua Library Board of Trustees - 10/28/26",
    "url": "https://nashuanh.portal.civicclerk.com/event/7403/overview",
    "date": "2026-10-28",
-   "body": "Joint Meeting \u2013 Committee on Infrastructure and Library Board of Trustees",
+   "body": "Joint Meeting – Committee on Infrastructure and Library Board of Trustees",
    "meeting": true,
    "files": 4,
    "firstSeen": "2026-11-01",
@@ -907,10 +907,10 @@
    "key": "civicclerk:60ca84bc15dc",
    "source": "civicclerk",
    "kind": "meeting-doc",
-   "title": "Joint Meeting \u2013 Committee on Infrastructure and Library Board of Trustees 2026-10-28: Joint Meeting - Committee on Infrastructure and Board of Library Trustees",
+   "title": "Joint Meeting – Committee on Infrastructure and Library Board of Trustees 2026-10-28: Joint Meeting - Committee on Infrastructure and Board of Library Trustees",
    "url": "https://nashuanh.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=14854,plainText=false)",
    "date": "2026-10-28",
-   "body": "Joint Meeting \u2013 Committee on Infrastructure and Library Board of Trustees",
+   "body": "Joint Meeting – Committee on Infrastructure and Library Board of Trustees",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
    "lastSeen": "2026-11-01",
@@ -920,10 +920,10 @@
    "key": "civicclerk:1c3f030e906c",
    "source": "civicclerk",
    "kind": "meeting-doc",
-   "title": "Joint Meeting \u2013 Committee on Infrastructure and Library Board of Trustees 2026-10-28: Joint Meeting - Committee on Infrastructure and Board of Library Trustees 10-28-26",
+   "title": "Joint Meeting – Committee on Infrastructure and Library Board of Trustees 2026-10-28: Joint Meeting - Committee on Infrastructure and Board of Library Trustees 10-28-26",
    "url": "https://nashuanh.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=14855,plainText=false)",
    "date": "2026-10-28",
-   "body": "Joint Meeting \u2013 Committee on Infrastructure and Library Board of Trustees",
+   "body": "Joint Meeting – Committee on Infrastructure and Library Board of Trustees",
    "doc": "agenda",
    "packet": true,
    "firstSeen": "2026-11-01",
@@ -933,10 +933,10 @@
    "key": "civicclerk:11887d1984d8",
    "source": "civicclerk",
    "kind": "meeting-doc",
-   "title": "Joint Meeting \u2013 Committee on Infrastructure and Library Board of Trustees 2026-10-28: Joint Meeting - Committee on Infrastructure and Board of Library Trustees - 10/28/26 brief minutes",
+   "title": "Joint Meeting – Committee on Infrastructure and Library Board of Trustees 2026-10-28: Joint Meeting - Committee on Infrastructure and Board of Library Trustees - 10/28/26 brief minutes",
    "url": "https://nashuanh.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=14918,plainText=false)",
    "date": "2026-10-28",
-   "body": "Joint Meeting \u2013 Committee on Infrastructure and Library Board of Trustees",
+   "body": "Joint Meeting – Committee on Infrastructure and Library Board of Trustees",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
    "lastSeen": "2026-11-01",
@@ -946,10 +946,10 @@
    "key": "civicclerk:c2baa748a702",
    "source": "civicclerk",
    "kind": "meeting-doc",
-   "title": "Joint Meeting \u2013 Committee on Infrastructure and Library Board of Trustees 2026-10-28: Joint Meeting - Committee on Infrastructure and Nashua Library Board of Trustees - 10/28/26  Notice",
+   "title": "Joint Meeting – Committee on Infrastructure and Library Board of Trustees 2026-10-28: Joint Meeting - Committee on Infrastructure and Nashua Library Board of Trustees - 10/28/26  Notice",
    "url": "https://nashuanh.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=14873,plainText=false)",
    "date": "2026-10-28",
-   "body": "Joint Meeting \u2013 Committee on Infrastructure and Library Board of Trustees",
+   "body": "Joint Meeting – Committee on Infrastructure and Library Board of Trustees",
    "firstSeen": "2026-11-01",
    "lastSeen": "2026-11-01"
   },

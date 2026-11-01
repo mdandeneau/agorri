@@ -1,0 +1,51 @@
+Source: https://pelhamnh.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=10542,plainText=false)
+Title: Zoning Board of Adjustment 2026-11-09: ZBA Agenda 11/9/26
+Fetched: 2026-11-01
+
+AGENDA
+                                      ZONING BOARD OF ADJUSTMENT
+                                                    11/9/2026
+                                     TOWN HALL – HAL LYNDE MEETING ROOM
+                                       6 VILLAGE GREEN, PELHAM, NH 03076
+
+
+Call to order
+Scheduled Start Time: 7:00 PM
+
+Pledge of Allegiance
+
+Meeting Minutes Review
+
+   1)    Minutes of October 15, 2026
+Non-Public Meeting Minutes Approval
+
+   1)    Minutes from the Non-Public Meeting of October 15, 2026
+New Cases
+
+   1)    ZO2026-00018 - Map 30 Lot 11-366-1 - McNiff, Andrew & Coreen (owners/applicants) — 79 Webster
+         Avenue - Seeking a VARIANCE concerning Article III, Section 307-12, Table 1 of the Zoning Ordinance to
+         permit the development of a nonconforming corner lot with a 22’ x 40’ single-family, two-bedroom home. The
+         applicants are seeking relief from the following dimensional requirements: lot area of 4,787 square feet where
+         43,560 square feet is required; frontage of 50 feet on Webster Avenue where 200 feet is required; frontage of
+         102 feet on Azalea Lane where 200 feet is required; side setback of 8 feet where 15 feet is required; and rear
+         setback of 9 feet where 15 feet is required.
+
+   2)    ZO2026-00019 - Map 41 Lot 6-137 — Beggan, Sarah (owner/applicant) — 8 Pulpit Rock Road - Seeking a
+         VARIANCE concerning Article III, Section 307-12 Table 1 of the Zoning Ordinance to permit a firewood kiln to be
+         installed with a 10’ side setback on the south-west side of an industrial property where 35’.2” would be required
+         based on the kiln’s total height of 17’.6”, including the roof.
+
+Non-Public Session RSA 91-A: 3, II (As Needed)
+
+Adjournment
+
+
+  If requested, non-public session per RSA 91-A: 3, II (a) Personnel (b) Hiring of any person as an employee (c)  Matters which, if discussed
+  publicly, would affect adversely the reputation of any person (d) Consideration of acquisition, sale, or lease of property (e) Consideration or
+                                        negotiation of pending claims or litigation.
+
+  Most meetings are video-taped. The Town of Pelham makes every effort to accommodate those who have special requirements to access
+                                  public meetings. Please call 635-8233 with your request.
+
+
+                                                   Page 1 of 1

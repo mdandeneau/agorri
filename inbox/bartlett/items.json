@@ -1,0 +1,155 @@
+{
+ "note": "Written by ingest/fetch.mjs. Each item: where it came from (source, url), the date in the document when known, firstSeen (the day the fetcher first saw it; new since the last refresh = firstSeen on or after that day) and text (the saved agenda or minutes text, when there is one). Facts for the site still come from reading the linked document.",
+ "town": "bartlett",
+ "updated": "2026-11-01T16:08:06.173Z",
+ "sources": {
+  "feed": {
+   "ok": false,
+   "error": "https://www.townofbartlettnh.org/feed/: HTTP 404",
+   "checked": "2026-11-01T16:08:06.173Z",
+   "lastOk": null
+  },
+  "meeting-docs": {
+   "ok": true,
+   "found": 11,
+   "new": 11,
+   "checked": "2026-11-01T16:08:06.173Z",
+   "ms": 17843
+  }
+ },
+ "notes": [],
+ "items": [
+  {
+   "key": "meeting-docs:2c021196b205",
+   "source": "meeting-docs",
+   "kind": "meeting-doc",
+   "title": "Selectmen Meeting Minutes 2025",
+   "url": "https://www.townofbartlettnh.org/download/selectmen-meeting-minutes-2025/",
+   "date": null,
+   "doc": "minutes",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01",
+   "text": "inbox/bartlett/docs/2c021196b205.txt"
+  },
+  {
+   "key": "meeting-docs:949ec89f8118",
+   "source": "meeting-docs",
+   "kind": "meeting-doc",
+   "title": "Selectmen Meeting Minutes 2024",
+   "url": "https://www.townofbartlettnh.org/download/selectmen-meeting-minutes-2024/",
+   "date": null,
+   "doc": "minutes",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01",
+   "text": "inbox/bartlett/docs/949ec89f8118.txt"
+  },
+  {
+   "key": "meeting-docs:b627996ce8fd",
+   "source": "meeting-docs",
+   "kind": "meeting-doc",
+   "title": "Selectmen Meeting Minutes 2023",
+   "url": "https://www.townofbartlettnh.org/download/selectmen-meeting-minutes-2023/",
+   "date": null,
+   "doc": "minutes",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01",
+   "text": "inbox/bartlett/docs/b627996ce8fd.txt"
+  },
+  {
+   "key": "meeting-docs:ac13daf08b89",
+   "source": "meeting-docs",
+   "kind": "meeting-doc",
+   "title": "Selectmen Meeting Minutes 2022",
+   "url": "https://www.townofbartlettnh.org/download/selectmen-meeting-minutes-2022/",
+   "date": null,
+   "doc": "minutes",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01",
+   "text": "inbox/bartlett/docs/ac13daf08b89.txt"
+  },
+  {
+   "key": "meeting-docs:ea919357d83c",
+   "source": "meeting-docs",
+   "kind": "meeting-doc",
+   "title": "Selectmen Meeting Minutes 2021",
+   "url": "https://www.townofbartlettnh.org/download/selectmen-meeting-minutes-2021/",
+   "date": null,
+   "doc": "minutes",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01",
+   "text": "inbox/bartlett/docs/ea919357d83c.txt"
+  },
+  {
+   "key": "meeting-docs:23847bec484f",
+   "source": "meeting-docs",
+   "kind": "meeting-doc",
+   "title": "Selectmen Meeting Minutes 2020",
+   "url": "https://www.townofbartlettnh.org/download/selectmen-meeting-minutes-2020/",
+   "date": null,
+   "doc": "minutes",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01",
+   "text": "inbox/bartlett/docs/23847bec484f.txt"
+  },
+  {
+   "key": "meeting-docs:3647abf86b62",
+   "source": "meeting-docs",
+   "kind": "meeting-doc",
+   "title": "Selectmen Meeting Minutes 2019",
+   "url": "https://www.townofbartlettnh.org/download/selectmen-meeting-minutes-2019/",
+   "date": null,
+   "doc": "minutes",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01",
+   "text": "inbox/bartlett/docs/3647abf86b62.txt"
+  },
+  {
+   "key": "meeting-docs:fd740156f629",
+   "source": "meeting-docs",
+   "kind": "meeting-doc",
+   "title": "Selectmen Meeting Minutes 2018",
+   "url": "https://www.townofbartlettnh.org/download/selectmen-meeting-minutes-2018/",
+   "date": null,
+   "doc": "minutes",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01",
+   "text": "inbox/bartlett/docs/fd740156f629.txt"
+  },
+  {
+   "key": "meeting-docs:dc726d1dfad4",
+   "source": "meeting-docs",
+   "kind": "meeting-doc",
+   "title": "Selectmen Meeting Minutes 2017",
+   "url": "https://www.townofbartlettnh.org/download/selectmen-meeting-minutes-2017/",
+   "date": null,
+   "doc": "minutes",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01",
+   "text": "inbox/bartlett/docs/dc726d1dfad4.txt"
+  },
+  {
+   "key": "meeting-docs:95bd5b99055c",
+   "source": "meeting-docs",
+   "kind": "meeting-doc",
+   "title": "Selectmen Meeting Minutes 2016",
+   "url": "https://www.townofbartlettnh.org/download/selectmen-meeting-minutes-2016/",
+   "date": null,
+   "doc": "minutes",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01",
+   "text": "inbox/bartlett/docs/95bd5b99055c.txt"
+  },
+  {
+   "key": "meeting-docs:e29448916be1",
+   "source": "meeting-docs",
+   "kind": "meeting-doc",
+   "title": "Selectmen Meeting Minutes 2015",
+   "url": "https://www.townofbartlettnh.org/download/selectmen-meeting-minutes-2015/",
+   "date": null,
+   "doc": "minutes",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01",
+   "text": "inbox/bartlett/docs/e29448916be1.txt"
+  }
+ ]
+}

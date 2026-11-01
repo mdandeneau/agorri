@@ -1,0 +1,35 @@
+Source: https://manchesternh.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=5329,plainText=false)
+Title: Board of Mayor and Aldermen 2026-10-20: 10-20-26 Admin
+Fetched: 2026-11-01
+
+COMMITTEE ON ADMINISTRATION/INFORMATION SYSTEMS
+                         October 20, 2026 at 6:30 PM
+                  Aldermanic Chambers, City Hall (3rd Floor)
+
+               Members: Fajardo, Kantor, Bonilla, Kaw-uh, Sapienza
+
+                                 AGENDA
+
+
+The Chairman calls the meeting to order.
+
+
+The Clerk calls the roll.
+
+1.    Communication from Jodie Nazaka, Economic Development Director,
+      requesting approval of the amended bylaws for the Manchester Arts
+      Commission.
+      Ladies and Gentlemen, what is your pleasure?
+
+2.    Communication from Amy Chhom, Chair of the Manchester Development
+      Corporation, requesting approval of a $200,000 Custom MHT Loan to White
+      Birch Living, LLC.
+      Ladies and Gentlemen, what is your pleasure?
+
+3.    Communication from Charles Kurfehs, Chairman of the Board of Assessors,
+      recommending that the City's elderly, disabled, and blind exemption benefit
+      amounts be increased to align with the City-wide revaluation.
+      Ladies and Gentlemen, what is your pleasure?
+
+
+If there is no further business, a motion is in order to adjourn.

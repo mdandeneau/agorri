@@ -1,56 +1,56 @@
 {
  "note": "Written by ingest/fetch.mjs. Each item: where it came from (source, url), the date in the document when known, firstSeen (the day the fetcher first saw it; new since the last refresh = firstSeen on or after that day) and text (the saved agenda or minutes text, when there is one). Facts for the site still come from reading the linked document.",
  "town": "portsmouth",
- "updated": "2026-11-01T15:48:41.611Z",
+ "updated": "2026-11-01T16:08:06.173Z",
  "sources": {
   "city-news": {
    "ok": true,
    "found": 10,
    "new": 0,
-   "checked": "2026-11-01T15:48:41.611Z",
-   "ms": 164
+   "checked": "2026-11-01T16:08:06.173Z",
+   "ms": 154
   },
   "police-news": {
    "ok": true,
    "found": 10,
    "new": 0,
-   "checked": "2026-11-01T15:48:41.611Z",
-   "ms": 1366
+   "checked": "2026-11-01T16:08:06.173Z",
+   "ms": 1442
   },
   "fire-news": {
    "ok": true,
    "found": 10,
    "new": 0,
-   "checked": "2026-11-01T15:48:41.611Z",
-   "ms": 1498
+   "checked": "2026-11-01T16:08:06.173Z",
+   "ms": 1471
   },
   "police-logs": {
    "ok": true,
    "found": 14,
    "new": 0,
-   "checked": "2026-11-01T15:48:41.611Z",
-   "ms": 1520
+   "checked": "2026-11-01T16:08:06.173Z",
+   "ms": 1465
   },
   "meetings": {
    "ok": true,
    "found": 26,
    "new": 0,
-   "checked": "2026-11-01T15:48:41.611Z",
-   "ms": 4481
+   "checked": "2026-11-01T16:08:06.173Z",
+   "ms": 4533
   },
   "meetings-archive": {
    "ok": true,
    "found": 56,
-   "new": 56,
-   "checked": "2026-11-01T15:48:41.611Z",
-   "ms": 30201
+   "new": 0,
+   "checked": "2026-11-01T16:08:06.173Z",
+   "ms": 3370
   },
   "council": {
    "ok": true,
    "found": 32,
-   "new": 32,
-   "checked": "2026-11-01T15:48:41.611Z",
-   "ms": 18541
+   "new": 0,
+   "checked": "2026-11-01T16:08:06.173Z",
+   "ms": 4732
   }
  },
  "notes": [
@@ -944,7 +944,8 @@
    "date": "2026-10-13",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-01"
+   "lastSeen": "2026-11-01",
+   "text": "inbox/portsmouth/docs/bba8d9f47cea.txt"
   },
   {
    "key": "police-logs:96c0b70ace5c",
@@ -1099,7 +1100,8 @@
    "date": "2026-09-28",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-01"
+   "lastSeen": "2026-11-01",
+   "text": "inbox/portsmouth/docs/21c82464a34f.txt"
   },
   {
    "key": "police-news:65ed23eb44a5",
@@ -1166,7 +1168,8 @@
    "date": "2026-09-14",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-01"
+   "lastSeen": "2026-11-01",
+   "text": "inbox/portsmouth/docs/c12736192fa2.txt"
   },
   {
    "key": "council:6962937fd13c",

@@ -1,0 +1,25 @@
+Source: https://manchesternh.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=5312,plainText=false)
+Title: Board of Mayor and Aldermen 2026-10-20: 10-20-26 Airport
+Fetched: 2026-11-01
+
+SPECIAL COMMITTEE ON AIRPORT ACTIVITIES
+                         October 20, 2026 at 4:45 PM
+                  Aldermanic Chambers, City Hall (3rd Floor)
+
+           Members: Aldermen Burkush, Sapienza, Barry, Dexter, Terrio
+
+                                 AGENDA
+
+
+The Chairman calls the meeting to order.
+
+
+The Clerk calls the roll.
+
+1.    Communication from Tom Malafronte, Airport Director, regarding Manchester-
+      Boston Regional Airport's financial, operational, capital improvement, and
+      planning initiatives.
+      (Note: Provided for informational purposes only; no action is required.)
+
+
+If there is no further business, a motion is in order to adjourn.

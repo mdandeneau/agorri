@@ -1,0 +1,763 @@
+{
+ "note": "Written by ingest/fetch.mjs. Each item: where it came from (source, url), the date in the document when known, firstSeen (the day the fetcher first saw it; new since the last refresh = firstSeen on or after that day) and text (the saved agenda or minutes text, when there is one). Facts for the site still come from reading the linked document.",
+ "town": "durham",
+ "updated": "2026-11-01T16:08:06.173Z",
+ "sources": {
+  "town-feeds": {
+   "ok": true,
+   "found": 16,
+   "new": 16,
+   "checked": "2026-11-01T16:08:06.173Z",
+   "ms": 9366
+  },
+  "agenda-center": {
+   "ok": true,
+   "found": 150,
+   "new": 54,
+   "checked": "2026-11-01T16:08:06.173Z",
+   "ms": 8978
+  }
+ },
+ "notes": [],
+ "items": [
+  {
+   "key": "agenda-center:138192fb355c",
+   "source": "agenda-center",
+   "kind": "meeting-doc",
+   "title": "Historic District/Heritage Commission Meeting",
+   "url": "https://www.durhamnh.gov/AgendaCenter/ViewFile/Agenda/_11052026-430?html=true",
+   "date": "2026-11-05",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "agenda-center:5f93c53326bf",
+   "source": "agenda-center",
+   "kind": "meeting-doc",
+   "title": "PDF",
+   "url": "https://www.durhamnh.gov/AgendaCenter/ViewFile/Agenda/_11052026-430",
+   "date": "2026-11-05",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "agenda-center:7927b2e4d948",
+   "source": "agenda-center",
+   "kind": "meeting-doc",
+   "title": "Packet: _11052026-430?packet=true",
+   "url": "https://www.durhamnh.gov/AgendaCenter/ViewFile/Agenda/_11052026-430?packet=true",
+   "date": "2026-11-05",
+   "packet": true,
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "agenda-center:5516824fe5da",
+   "source": "agenda-center",
+   "kind": "meeting-doc",
+   "title": "Human Rights Commission Meeting",
+   "url": "https://www.durhamnh.gov/AgendaCenter/ViewFile/Agenda/_11052026-422",
+   "date": "2026-11-05",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "agenda-center:73a5cf9cd788",
+   "source": "agenda-center",
+   "kind": "meeting-doc",
+   "title": "Energy Committee Agenda",
+   "url": "https://www.durhamnh.gov/AgendaCenter/ViewFile/Agenda/_11032026-424",
+   "date": "2026-11-03",
+   "doc": "agenda",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01",
+   "text": "inbox/durham/docs/73a5cf9cd788.txt"
+  },
+  {
+   "key": "town-feeds:0a12fb574550",
+   "source": "town-feeds",
+   "kind": "notice",
+   "feed": "news",
+   "title": "Friday Update October 30, 2026",
+   "url": "https://www.durhamnh.gov/CivicAlerts.aspx?aid=923",
+   "date": "2026-10-31",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "town-feeds:31794b9fa78b",
+   "source": "town-feeds",
+   "kind": "notice",
+   "feed": "news",
+   "title": "ADMINISTRATOR’S FY 2027 BUDGET",
+   "url": "https://www.durhamnh.gov/CivicAlerts.aspx?aid=922",
+   "date": "2026-10-31",
+   "detail": "ADMINISTRATOR’S FY 2027 BUDGET HOLDS THE TOWN TAX RATE FLAT AND COMES WITH SERVICE TRADE-OFFS",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "town-feeds:dce0b75ab6ad",
+   "source": "town-feeds",
+   "kind": "notice",
+   "feed": "agenda",
+   "title": "Zoning Board Meeting",
+   "url": "https://www.durhamnh.gov/AgendaCenter/PreviousVersions/429",
+   "date": "2026-10-29",
+   "detail": "Zoning Board Meeting",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "town-feeds:09592cd51db9",
+   "source": "town-feeds",
+   "kind": "notice",
+   "feed": "bid",
+   "title": "Durham Public Works - Deputy Director",
+   "url": "https://www.durhamnh.gov/Jobs.aspx?UniqueId=100&CommunityJobs=False&JobID=Durham-Public-Works-Deputy-Director-8",
+   "date": "2026-10-28",
+   "detail": "TOWN OF DURHAM | NEW HAMPSHIRE DEPUTY DIRECTOR - DURHAM PUBLIC WORKS A leadership opportunity in New Hampshire's Seacoast region $92,235 - $117,390 | 2026 salary range, depending on qualifications Help lead a progressive, fully integrated Public Works Team in Durham, New Hampshire, home to the University of New Hampshire's flagship campus. We are seeking a collaborative, hands-on leader who enjoys developing people, solving practical challenges, and helping shape the infrastructure and services that make a community thrive. THE OPPORTUNITY Working closely with the Director of Public Works and ",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "town-feeds:36a1a6524c09",
+   "source": "town-feeds",
+   "kind": "notice",
+   "feed": "news",
+   "title": "Durham Public Works Traffic/Construction Advisory – Paving + Line Striping – Madbury Road",
+   "url": "https://www.durhamnh.gov/CivicAlerts.aspx?aid=921",
+   "date": "2026-10-28",
+   "detail": "Posted: 10/28/2026 -- Durham Public Works and its contractors will complete final paving and line striping on Madbury Road between Edgewood Road and Hampshire Avenue over the next week.",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "town-feeds:75daa51b54d6",
+   "source": "town-feeds",
+   "kind": "notice",
+   "feed": "news",
+   "title": "Election Information",
+   "url": "https://www.durhamnh.gov/CivicAlerts.aspx?aid=893",
+   "date": "2026-10-28",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "town-feeds:75ec1144841d",
+   "source": "town-feeds",
+   "kind": "notice",
+   "feed": "news",
+   "title": "Depot Road Lot Parking Permits are Still Available for Purchase",
+   "url": "https://www.durhamnh.gov/CivicAlerts.aspx?aid=920",
+   "date": "2026-10-27",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "agenda-center:f845e616a6a6",
+   "source": "agenda-center",
+   "kind": "meeting-doc",
+   "title": "Conservation Commission Meeting",
+   "url": "https://www.durhamnh.gov/AgendaCenter/ViewFile/Agenda/_10262026-427?html=true",
+   "date": "2026-10-26",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "agenda-center:515eb495b750",
+   "source": "agenda-center",
+   "kind": "meeting-doc",
+   "title": "PDF",
+   "url": "https://www.durhamnh.gov/AgendaCenter/ViewFile/Agenda/_10262026-427",
+   "date": "2026-10-26",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "agenda-center:7a433034565a",
+   "source": "agenda-center",
+   "kind": "meeting-doc",
+   "title": "Packet: _10262026-427?packet=true",
+   "url": "https://www.durhamnh.gov/AgendaCenter/ViewFile/Agenda/_10262026-427?packet=true",
+   "date": "2026-10-26",
+   "packet": true,
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "agenda-center:405662f84080",
+   "source": "agenda-center",
+   "kind": "meeting-doc",
+   "title": "Agenda: _10212026-423",
+   "url": "https://www.durhamnh.gov/AgendaCenter/ViewFile/Agenda/_10212026-423",
+   "date": "2026-10-21",
+   "doc": "agenda",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01",
+   "text": "inbox/durham/docs/405662f84080.txt"
+  },
+  {
+   "key": "agenda-center:e08fd1334fa8",
+   "source": "agenda-center",
+   "kind": "meeting-doc",
+   "title": "_10212026-423",
+   "url": "https://www.durhamnh.gov/AgendaCenter/ViewFile/Minutes/_10212026-423",
+   "date": "2026-10-21",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "town-feeds:fa023a647487",
+   "source": "town-feeds",
+   "kind": "notice",
+   "feed": "news",
+   "title": "Friday Updates October 16th, 2026",
+   "url": "https://www.durhamnh.gov/CivicAlerts.aspx?aid=919",
+   "date": "2026-10-19",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "town-feeds:325792822524",
+   "source": "town-feeds",
+   "kind": "notice",
+   "feed": "news",
+   "title": "Friday Update October 9, 2026",
+   "url": "https://www.durhamnh.gov/CivicAlerts.aspx?aid=918",
+   "date": "2026-10-09",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "town-feeds:ccde2a28e977",
+   "source": "town-feeds",
+   "kind": "notice",
+   "feed": "news",
+   "title": "Business Parking Permit Public Sale Begins on 11/16/2026",
+   "url": "https://www.durhamnh.gov/CivicAlerts.aspx?aid=916",
+   "date": "2026-10-08",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "agenda-center:80a13f506924",
+   "source": "agenda-center",
+   "kind": "meeting-doc",
+   "title": "Agenda: _10072026-418",
+   "url": "https://www.durhamnh.gov/AgendaCenter/ViewFile/Agenda/_10072026-418",
+   "date": "2026-10-07",
+   "doc": "agenda",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01",
+   "text": "inbox/durham/docs/80a13f506924.txt"
+  },
+  {
+   "key": "agenda-center:78850cc644b5",
+   "source": "agenda-center",
+   "kind": "meeting-doc",
+   "title": "_10072026-418",
+   "url": "https://www.durhamnh.gov/AgendaCenter/ViewFile/Minutes/_10072026-418",
+   "date": "2026-10-07",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "town-feeds:e6f5b860220b",
+   "source": "town-feeds",
+   "kind": "notice",
+   "feed": "news",
+   "title": "Friday Updates October 2nd, 2026",
+   "url": "https://www.durhamnh.gov/CivicAlerts.aspx?aid=915",
+   "date": "2026-10-06",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "town-feeds:9eee922f9b44",
+   "source": "town-feeds",
+   "kind": "notice",
+   "feed": "news",
+   "title": "Friday Update September 25,2026",
+   "url": "https://www.durhamnh.gov/CivicAlerts.aspx?aid=913",
+   "date": "2026-10-02",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "town-feeds:6a6020b74679",
+   "source": "town-feeds",
+   "kind": "notice",
+   "feed": "news",
+   "title": "Friday Update September 18,2026",
+   "url": "https://www.durhamnh.gov/CivicAlerts.aspx?aid=912",
+   "date": "2026-10-02",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "town-feeds:262b562880ff",
+   "source": "town-feeds",
+   "kind": "notice",
+   "feed": "news",
+   "title": "Friday Update September 11,2026",
+   "url": "https://www.durhamnh.gov/CivicAlerts.aspx?aid=911",
+   "date": "2026-10-02",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "agenda-center:ff63abd5f12d",
+   "source": "agenda-center",
+   "kind": "meeting-doc",
+   "title": "Historic District/Heritage Commission Meeting",
+   "url": "https://www.durhamnh.gov/AgendaCenter/ViewFile/Agenda/_10012026-415",
+   "date": "2026-10-01",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "agenda-center:1484715310bc",
+   "source": "agenda-center",
+   "kind": "meeting-doc",
+   "title": "_10012026-415",
+   "url": "https://www.durhamnh.gov/AgendaCenter/ViewFile/Minutes/_10012026-415",
+   "date": "2026-10-01",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "agenda-center:fc9d1ad7c6ba",
+   "source": "agenda-center",
+   "kind": "meeting-doc",
+   "title": "Conservation Commission Meeting",
+   "url": "https://www.durhamnh.gov/AgendaCenter/ViewFile/Agenda/_09292026-414",
+   "date": "2026-09-29",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "agenda-center:3fc7fa1de372",
+   "source": "agenda-center",
+   "kind": "meeting-doc",
+   "title": "_09292026-414",
+   "url": "https://www.durhamnh.gov/AgendaCenter/ViewFile/Minutes/_09292026-414",
+   "date": "2026-09-29",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "town-feeds:9fe6cc54da32",
+   "source": "town-feeds",
+   "kind": "notice",
+   "feed": "calendar",
+   "title": "Technology Drive Parking Permit Sale Begins",
+   "url": "https://www.durhamnh.gov/Calendar.aspx?EID=822",
+   "date": "2026-09-28",
+   "detail": "Event date: November 5, 2026 Event Time: 12:00 AM - 11:59 PM Description: Permit Valid: 01/01/27 Permit Expires: 06/30/27",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "agenda-center:a799c5d8f04c",
+   "source": "agenda-center",
+   "kind": "meeting-doc",
+   "title": "Human Rights Commission Meeting",
+   "url": "https://www.durhamnh.gov/AgendaCenter/ViewFile/Agenda/_09282026-412",
+   "date": "2026-09-28",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "agenda-center:004d197651b1",
+   "source": "agenda-center",
+   "kind": "meeting-doc",
+   "title": "Agenda: _09162026-407",
+   "url": "https://www.durhamnh.gov/AgendaCenter/ViewFile/Agenda/_09162026-407",
+   "date": "2026-09-16",
+   "doc": "agenda",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01",
+   "text": "inbox/durham/docs/004d197651b1.txt"
+  },
+  {
+   "key": "agenda-center:231bbc6e3273",
+   "source": "agenda-center",
+   "kind": "meeting-doc",
+   "title": "_09162026-407",
+   "url": "https://www.durhamnh.gov/AgendaCenter/ViewFile/Minutes/_09162026-407",
+   "date": "2026-09-16",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "agenda-center:ed1195606bce",
+   "source": "agenda-center",
+   "kind": "meeting-doc",
+   "title": "Agricultural Commission Meeting",
+   "url": "https://www.durhamnh.gov/AgendaCenter/ViewFile/Agenda/_09142026-406",
+   "date": "2026-09-14",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "agenda-center:5b3e7f9e5809",
+   "source": "agenda-center",
+   "kind": "meeting-doc",
+   "title": "Historic District/Heritage Commission Meeting",
+   "url": "https://www.durhamnh.gov/AgendaCenter/ViewFile/Agenda/_09032026-400?html=true",
+   "date": "2026-09-03",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "agenda-center:725dc9db90d8",
+   "source": "agenda-center",
+   "kind": "meeting-doc",
+   "title": "_09032026-400",
+   "url": "https://www.durhamnh.gov/AgendaCenter/ViewFile/Minutes/_09032026-400",
+   "date": "2026-09-03",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "agenda-center:04effc6a4ba7",
+   "source": "agenda-center",
+   "kind": "meeting-doc",
+   "title": "PDF",
+   "url": "https://www.durhamnh.gov/AgendaCenter/ViewFile/Agenda/_09032026-400",
+   "date": "2026-09-03",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "agenda-center:c7d20263367e",
+   "source": "agenda-center",
+   "kind": "meeting-doc",
+   "title": "Packet: _09032026-400?packet=true",
+   "url": "https://www.durhamnh.gov/AgendaCenter/ViewFile/Agenda/_09032026-400?packet=true",
+   "date": "2026-09-03",
+   "packet": true,
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "agenda-center:9ed5d0c79bb7",
+   "source": "agenda-center",
+   "kind": "meeting-doc",
+   "title": "Agenda: _09022026-401",
+   "url": "https://www.durhamnh.gov/AgendaCenter/ViewFile/Agenda/_09022026-401",
+   "date": "2026-09-02",
+   "doc": "agenda",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01",
+   "text": "inbox/durham/docs/9ed5d0c79bb7.txt"
+  },
+  {
+   "key": "agenda-center:ac2ea0699623",
+   "source": "agenda-center",
+   "kind": "meeting-doc",
+   "title": "_09022026-401",
+   "url": "https://www.durhamnh.gov/AgendaCenter/ViewFile/Minutes/_09022026-401",
+   "date": "2026-09-02",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "agenda-center:a05b6e7ae5a4",
+   "source": "agenda-center",
+   "kind": "meeting-doc",
+   "title": "Energy Committee Meeting",
+   "url": "https://www.durhamnh.gov/AgendaCenter/ViewFile/Agenda/_09012026-399",
+   "date": "2026-09-01",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "agenda-center:1e4da465bb45",
+   "source": "agenda-center",
+   "kind": "meeting-doc",
+   "title": "_09012026-399",
+   "url": "https://www.durhamnh.gov/AgendaCenter/ViewFile/Minutes/_09012026-399",
+   "date": "2026-09-01",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "agenda-center:7cd5be03255d",
+   "source": "agenda-center",
+   "kind": "meeting-doc",
+   "title": "Conservation Commission Subcommittee - Wetland & Shoreland Overlay District",
+   "url": "https://www.durhamnh.gov/AgendaCenter/ViewFile/Agenda/_08262026-395",
+   "date": "2026-08-26",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "agenda-center:333f1872fb6e",
+   "source": "agenda-center",
+   "kind": "meeting-doc",
+   "title": "Conservation Commission Meeting",
+   "url": "https://www.durhamnh.gov/AgendaCenter/ViewFile/Agenda/_08242026-396",
+   "date": "2026-08-24",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "agenda-center:7c8042bdae5c",
+   "source": "agenda-center",
+   "kind": "meeting-doc",
+   "title": "_08242026-396",
+   "url": "https://www.durhamnh.gov/AgendaCenter/ViewFile/Minutes/_08242026-396",
+   "date": "2026-08-24",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "agenda-center:34f2dc2dc5e4",
+   "source": "agenda-center",
+   "kind": "meeting-doc",
+   "title": "IWMAC Meeting - Cancelled",
+   "url": "https://www.durhamnh.gov/AgendaCenter/ViewFile/Agenda/_08192026-387?html=true",
+   "date": "2026-08-19",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "agenda-center:2a9ad2402071",
+   "source": "agenda-center",
+   "kind": "meeting-doc",
+   "title": "PDF",
+   "url": "https://www.durhamnh.gov/AgendaCenter/ViewFile/Agenda/_08192026-387",
+   "date": "2026-08-19",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "agenda-center:2f592bf34e48",
+   "source": "agenda-center",
+   "kind": "meeting-doc",
+   "title": "Packet: _08192026-387?packet=true",
+   "url": "https://www.durhamnh.gov/AgendaCenter/ViewFile/Agenda/_08192026-387?packet=true",
+   "date": "2026-08-19",
+   "packet": true,
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "town-feeds:d7d1f427110d",
+   "source": "town-feeds",
+   "kind": "notice",
+   "feed": "calendar",
+   "title": "Agricultural Commission Meeting",
+   "url": "https://www.durhamnh.gov/Calendar.aspx?EID=667",
+   "date": "2026-08-13",
+   "detail": "Event date: November 9, 2026 Event Time: 07:00 PM - 10:00 PM Location: 8 Newmarket Road Durham, NH 03824",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "agenda-center:9070ef30a17f",
+   "source": "agenda-center",
+   "kind": "meeting-doc",
+   "title": "Historic District/Heritage Commission Meeting",
+   "url": "https://www.durhamnh.gov/AgendaCenter/ViewFile/Agenda/_08132026-379?html=true",
+   "date": "2026-08-13",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "agenda-center:186595b6a05c",
+   "source": "agenda-center",
+   "kind": "meeting-doc",
+   "title": "_08132026-379",
+   "url": "https://www.durhamnh.gov/AgendaCenter/ViewFile/Minutes/_08132026-379",
+   "date": "2026-08-13",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "agenda-center:5a31615f3e2d",
+   "source": "agenda-center",
+   "kind": "meeting-doc",
+   "title": "PDF",
+   "url": "https://www.durhamnh.gov/AgendaCenter/ViewFile/Agenda/_08132026-379",
+   "date": "2026-08-13",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "agenda-center:d407be23beff",
+   "source": "agenda-center",
+   "kind": "meeting-doc",
+   "title": "Packet: _08132026-379?packet=true",
+   "url": "https://www.durhamnh.gov/AgendaCenter/ViewFile/Agenda/_08132026-379?packet=true",
+   "date": "2026-08-13",
+   "packet": true,
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "agenda-center:fff383832cf9",
+   "source": "agenda-center",
+   "kind": "meeting-doc",
+   "title": "Human Rights Commission Meeting - CANCELLED",
+   "url": "https://www.durhamnh.gov/AgendaCenter/ViewFile/Agenda/_08132026-391",
+   "date": "2026-08-13",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "agenda-center:a747cfa42cba",
+   "source": "agenda-center",
+   "kind": "meeting-doc",
+   "title": "Agricultural Commission Meeting",
+   "url": "https://www.durhamnh.gov/AgendaCenter/ViewFile/Agenda/_08102026-390",
+   "date": "2026-08-10",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "agenda-center:37f405f1a942",
+   "source": "agenda-center",
+   "kind": "meeting-doc",
+   "title": "_08102026-390",
+   "url": "https://www.durhamnh.gov/AgendaCenter/ViewFile/Minutes/_08102026-390",
+   "date": "2026-08-10",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "agenda-center:e9a81c07ae6a",
+   "source": "agenda-center",
+   "kind": "meeting-doc",
+   "title": "Conservation Commission Subcommittee - Wetland & Shoreland Overlay District",
+   "url": "https://www.durhamnh.gov/AgendaCenter/ViewFile/Agenda/_08052026-389",
+   "date": "2026-08-05",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "agenda-center:25e525b84113",
+   "source": "agenda-center",
+   "kind": "meeting-doc",
+   "title": "Agenda: _08052026-386",
+   "url": "https://www.durhamnh.gov/AgendaCenter/ViewFile/Agenda/_08052026-386",
+   "date": "2026-08-05",
+   "doc": "agenda",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "agenda-center:4a64cc2987ae",
+   "source": "agenda-center",
+   "kind": "meeting-doc",
+   "title": "_08052026-386",
+   "url": "https://www.durhamnh.gov/AgendaCenter/ViewFile/Minutes/_08052026-386",
+   "date": "2026-08-05",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "agenda-center:eff4f8d5963c",
+   "source": "agenda-center",
+   "kind": "meeting-doc",
+   "title": "Energy Committee Meeting",
+   "url": "https://www.durhamnh.gov/AgendaCenter/ViewFile/Agenda/_08042026-385",
+   "date": "2026-08-04",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "agenda-center:1894f1adfca3",
+   "source": "agenda-center",
+   "kind": "meeting-doc",
+   "title": "_08042026-385",
+   "url": "https://www.durhamnh.gov/AgendaCenter/ViewFile/Minutes/_08042026-385",
+   "date": "2026-08-04",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "agenda-center:26f006116610",
+   "source": "agenda-center",
+   "kind": "meeting-doc",
+   "title": "Conservation Commission Meeting",
+   "url": "https://www.durhamnh.gov/AgendaCenter/ViewFile/Agenda/_07272026-380",
+   "date": "2026-07-27",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "agenda-center:9b296d0b8e5e",
+   "source": "agenda-center",
+   "kind": "meeting-doc",
+   "title": "_07272026-380",
+   "url": "https://www.durhamnh.gov/AgendaCenter/ViewFile/Minutes/_07272026-380",
+   "date": "2026-07-27",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "agenda-center:7c8004011e73",
+   "source": "agenda-center",
+   "kind": "meeting-doc",
+   "title": "Agenda: _07152026-374",
+   "url": "https://www.durhamnh.gov/AgendaCenter/ViewFile/Agenda/_07152026-374",
+   "date": "2026-07-15",
+   "doc": "agenda",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "agenda-center:9c129a2a2712",
+   "source": "agenda-center",
+   "kind": "meeting-doc",
+   "title": "_07152026-374",
+   "url": "https://www.durhamnh.gov/AgendaCenter/ViewFile/Minutes/_07152026-374",
+   "date": "2026-07-15",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "agenda-center:e23c3142ffec",
+   "source": "agenda-center",
+   "kind": "meeting-doc",
+   "title": "Agricultural Commission Meeting",
+   "url": "https://www.durhamnh.gov/AgendaCenter/ViewFile/Agenda/_07132026-373",
+   "date": "2026-07-13",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "agenda-center:e83be82a2a4b",
+   "source": "agenda-center",
+   "kind": "meeting-doc",
+   "title": "_07132026-373",
+   "url": "https://www.durhamnh.gov/AgendaCenter/ViewFile/Minutes/_07132026-373",
+   "date": "2026-07-13",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "agenda-center:0c02f7a89adf",
+   "source": "agenda-center",
+   "kind": "meeting-doc",
+   "title": "Energy Committee Meeting",
+   "url": "https://www.durhamnh.gov/AgendaCenter/ViewFile/Agenda/_07072026-371",
+   "date": "2026-07-07",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "agenda-center:7d576c5ac4de",
+   "source": "agenda-center",
+   "kind": "meeting-doc",
+   "title": "_07072026-371",
+   "url": "https://www.durhamnh.gov/AgendaCenter/ViewFile/Minutes/_07072026-371",
+   "date": "2026-07-07",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  }
+ ]
+}
