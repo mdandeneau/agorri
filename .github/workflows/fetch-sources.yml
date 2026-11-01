@@ -11,8 +11,6 @@ on:
         description: 'Print response shapes (for fixing a source)'
         type: boolean
         default: false
-  push:
-    branches: [ingest-setup]
 
 permissions:
   contents: write
@@ -34,7 +32,7 @@ jobs:
         run: sudo apt-get update -qq && sudo apt-get install -y -qq poppler-utils
       - name: Fetch sources
         env:
-          INGEST_DEBUG: ${{ inputs.debug && '1' || (github.event_name == 'push' && '1' || '') }}
+          INGEST_DEBUG: ${{ inputs.debug && '1' || '' }}
         run: node ingest/fetch.mjs
       - name: Commit results
         run: |
