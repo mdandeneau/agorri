@@ -77,6 +77,7 @@ const MONTHS = 'january february march april may june july august september octo
 function dateIn(s) {
   s = decodeURIComponent(String(s)).replace(/\+/g, ' ');
   let m = s.match(/(20\d\d)[.\-_](\d{1,2})[.\-_](\d{1,2})/); if (m) return iso3(m[1], m[2], m[3]);
+  m = s.match(/(?<!\d)(\d{1,2})\.(\d{1,2})(?:-\d{1,2}(?:\.\d{1,2})?)?\.(20\d\d)(?!\d)/); if (m) return iso3(m[3], m[1], m[2]); // 4.3-6.2025, 7.31-8.5.2024
   m = s.match(/(?<!\d)(\d{1,2})[.\-_](\d{1,2})[.\-_](20\d\d|\d\d)(?!\d)/); if (m) return iso3(m[3].length === 2 ? '20' + m[3] : m[3], m[1], m[2]);
   m = s.match(new RegExp('\\b(' + MONTHS.join('|') + ')\\s+(\\d{1,2}),?\\s+(20\\d\\d)', 'i')); if (m) return iso3(m[3], MONTHS.indexOf(m[1].toLowerCase()) + 1, m[2]);
   m = s.match(/\b(\d{2})(\d{2})(20\d\d)\b/); if (m) return iso3(m[3], m[1], m[2]);
@@ -143,7 +144,8 @@ const readers = {
       const u = id ? `DocumentCenter/View/${id}` : (r.URL || '');
       const when = r.FileUploadedDate || r.CreatedDate || r.LastModifiedDate || r.LastModifiedDateString || r.StartDate || '';
       const ms = String(when).match(/\/Date\((\d+)/);
-      return { title: strip(r.DisplayName || r.Name || r.FileName || ''), url: abs(u, src.base), date: ms ? day(+ms[1]) : day(when) };
+      const title = strip(r.DisplayName || r.Name || r.FileName || '');
+      return { title, url: abs(u, src.base), date: dateIn(title) || (ms ? day(+ms[1]) : day(when)) };
     }).filter(x => x.title && x.url);
   },
 
