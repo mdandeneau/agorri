@@ -1,0 +1,203 @@
+{
+ "note": "Written by ingest/fetch.mjs. Each item: where it came from (source, url), the date in the document when known, firstSeen (the day the fetcher first saw it; new since the last refresh = firstSeen on or after that day) and text (the saved agenda or minutes text, when there is one). Facts for the site still come from reading the linked document.",
+ "town": "newmarket",
+ "updated": "2026-11-01T16:12:58.861Z",
+ "sources": {
+  "civicclerk": {
+   "ok": true,
+   "found": 11,
+   "new": 0,
+   "checked": "2026-11-01T16:12:58.861Z",
+   "ms": 789
+  },
+  "town-feeds": {
+   "ok": true,
+   "found": 9,
+   "new": 0,
+   "checked": "2026-11-01T16:12:58.861Z",
+   "ms": 7735
+  }
+ },
+ "notes": [],
+ "items": [
+  {
+   "key": "civicclerk:8c357dd51be6",
+   "source": "civicclerk",
+   "kind": "meeting-doc",
+   "title": "Town Council: Town Council Meeting 3rd Wednesday",
+   "url": "https://newmarketnh.portal.civicclerk.com/event/3450/overview",
+   "date": "2026-11-18",
+   "body": "Town Council",
+   "meeting": true,
+   "files": 0,
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "civicclerk:9fc6f6680afa",
+   "source": "civicclerk",
+   "kind": "meeting-doc",
+   "title": "Planning Board: Planning Board Meeting",
+   "url": "https://newmarketnh.portal.civicclerk.com/event/3469/overview",
+   "date": "2026-11-10",
+   "body": "Planning Board",
+   "meeting": true,
+   "files": 0,
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "civicclerk:2fdf4b5c96c8",
+   "source": "civicclerk",
+   "kind": "meeting-doc",
+   "title": "Town Council: Town Council Meeting 1st Wednesday",
+   "url": "https://newmarketnh.portal.civicclerk.com/event/2399/overview",
+   "date": "2026-11-04",
+   "body": "Town Council",
+   "meeting": true,
+   "files": 2,
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "civicclerk:3b56b27d73e0",
+   "source": "civicclerk",
+   "kind": "meeting-doc",
+   "title": "Town Council 2026-11-04: November 4, 2026",
+   "url": "https://newmarketnh.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=7868,plainText=false)",
+   "date": "2026-11-04",
+   "body": "Town Council",
+   "doc": "agenda",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01",
+   "text": "inbox/newmarket/docs/cc-7868.txt"
+  },
+  {
+   "key": "civicclerk:54535f709064",
+   "source": "civicclerk",
+   "kind": "meeting-doc",
+   "title": "Town Council 2026-11-04: November 4, 2026",
+   "url": "https://newmarketnh.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=7869,plainText=false)",
+   "date": "2026-11-04",
+   "body": "Town Council",
+   "doc": "agenda",
+   "packet": true,
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "civicclerk:90672eee93d8",
+   "source": "civicclerk",
+   "kind": "meeting-doc",
+   "title": "Town Council: Town Council FY2028 Budget Work Session",
+   "url": "https://newmarketnh.portal.civicclerk.com/event/3488/overview",
+   "date": "2026-10-31",
+   "body": "Town Council",
+   "meeting": true,
+   "files": 1,
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "civicclerk:95bc72339736",
+   "source": "civicclerk",
+   "kind": "meeting-doc",
+   "title": "Town Council 2026-10-31: Town Council FY2028 Budget Work Session 10/31/2026",
+   "url": "https://newmarketnh.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=7865,plainText=false)",
+   "date": "2026-10-31",
+   "body": "Town Council",
+   "doc": "agenda",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01",
+   "text": "inbox/newmarket/docs/cc-7865.txt"
+  },
+  {
+   "key": "civicclerk:3ac9c788dac4",
+   "source": "civicclerk",
+   "kind": "meeting-doc",
+   "title": "Town Council: Town Council Meeting 3rd Wednesday",
+   "url": "https://newmarketnh.portal.civicclerk.com/event/3449/overview",
+   "date": "2026-10-21",
+   "body": "Town Council",
+   "meeting": true,
+   "files": 2,
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "civicclerk:f01262eeb86f",
+   "source": "civicclerk",
+   "kind": "meeting-doc",
+   "title": "Town Council 2026-10-21: October 21, 2026",
+   "url": "https://newmarketnh.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=7859,plainText=false)",
+   "date": "2026-10-21",
+   "body": "Town Council",
+   "doc": "agenda",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01",
+   "text": "inbox/newmarket/docs/cc-7859.txt"
+  },
+  {
+   "key": "civicclerk:951ccefcfc22",
+   "source": "civicclerk",
+   "kind": "meeting-doc",
+   "title": "Town Council 2026-10-21: October 21, 2026",
+   "url": "https://newmarketnh.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=7862,plainText=false)",
+   "date": "2026-10-21",
+   "body": "Town Council",
+   "doc": "agenda",
+   "packet": true,
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "town-feeds:102c0e451814",
+   "source": "town-feeds",
+   "kind": "notice",
+   "feed": "calendar",
+   "title": "Arts, Culture & Tourism Commission",
+   "url": "https://www.newmarketnh.gov/Calendar.aspx?EID=847",
+   "date": "2026-10-21",
+   "detail": "Event date: November 2, 2026 Event Time: 06:00 PM - 11:59 PM Location: Newmarket, NH 03857",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "town-feeds:0308e9703925",
+   "source": "town-feeds",
+   "kind": "notice",
+   "feed": "news",
+   "title": "Squamscott Road in Stratham to Close Oct.12 for Culvert Replacement; Newmarket Commuters Face Detour",
+   "url": "https://www.newmarketnh.gov/CivicAlerts.aspx?aid=1137",
+   "date": "2026-10-15",
+   "detail": "Newmarket drivers headed toward Portsmouth and Pease International Tradeport will need to plan for longer commutes starting Monday, Oct. 12, when Squamscott Road in Stratham closes for a state culvert replacement project.",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "civicclerk:8c4d7e6faae2",
+   "source": "civicclerk",
+   "kind": "meeting-doc",
+   "title": "Planning Board: Planning Board Meeting",
+   "url": "https://newmarketnh.portal.civicclerk.com/event/3468/overview",
+   "date": "2026-10-13",
+   "body": "Planning Board",
+   "meeting": true,
+   "files": 0,
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "town-feeds:0d5283cce29f",
+   "source": "town-feeds",
+   "kind": "notice",
+   "feed": "calendar",
+   "title": "Sunrise Sunset Center's Annual Craft Fair",
+   "url": "https://www.newmarketnh.gov/Calendar.aspx?EID=1524",
+   "date": "2026-10-13",
+   "detail": "Event date: November 7, 2026 Event Time: 08:00 AM - 01:00 PM Location: 2 Terrace Drive Newmarket, NH 03857 Description: The Sunrise Sunset Center's Craft Fair is the perfect time to find unique gifts for your loved ones this holiday season. You'll find items from local crafters, hot breakfast & lunch, silent auctions & raffles, and more. So stop by the SSC on Saturday, November 7th from 8 AM - 1 PM!",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  }
+ ]
+}

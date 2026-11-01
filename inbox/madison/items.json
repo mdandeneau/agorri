@@ -1,0 +1,140 @@
+{
+ "note": "Written by ingest/fetch.mjs. Each item: where it came from (source, url), the date in the document when known, firstSeen (the day the fetcher first saw it; new since the last refresh = firstSeen on or after that day) and text (the saved agenda or minutes text, when there is one). Facts for the site still come from reading the linked document.",
+ "town": "madison",
+ "updated": "2026-11-01T16:12:58.861Z",
+ "sources": {
+  "feed": {
+   "ok": true,
+   "found": 2,
+   "new": 0,
+   "checked": "2026-11-01T16:12:58.861Z",
+   "ms": 1001
+  },
+  "meeting-docs": {
+   "ok": true,
+   "found": 73,
+   "new": 0,
+   "checked": "2026-11-01T16:12:58.861Z",
+   "ms": 3722
+  }
+ },
+ "notes": [
+  "no text in https://www.madison-nh.org/wp-content/uploads/2026/01/1a-Selectmens-Meeting-Procedure-2.pdf (scanned image?)"
+ ],
+ "items": [
+  {
+   "key": "meeting-docs:c05d7ce23859",
+   "source": "meeting-docs",
+   "kind": "meeting-doc",
+   "title": "October 27, 2026",
+   "url": "https://www.madison-nh.org/wp-content/uploads/2026/10/2026-10-27-Agenda.pdf",
+   "date": "2026-10-27",
+   "doc": "agenda",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01",
+   "text": "inbox/madison/docs/c05d7ce23859.txt"
+  },
+  {
+   "key": "meeting-docs:9d6280e115c7",
+   "source": "meeting-docs",
+   "kind": "meeting-doc",
+   "title": "October 13, 2026",
+   "url": "https://www.madison-nh.org/wp-content/uploads/2026/10/2026-10-13-Agenda.pdf",
+   "date": "2026-10-13",
+   "doc": "agenda",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01",
+   "text": "inbox/madison/docs/9d6280e115c7.txt"
+  },
+  {
+   "key": "meeting-docs:3463ac8a41ee",
+   "source": "meeting-docs",
+   "kind": "meeting-doc",
+   "title": "September 29, 2026",
+   "url": "https://www.madison-nh.org/wp-content/uploads/2026/09/2026-09-29-Agenda.pdf",
+   "date": "2026-09-29",
+   "doc": "agenda",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01",
+   "text": "inbox/madison/docs/3463ac8a41ee.txt"
+  },
+  {
+   "key": "meeting-docs:b8bc2713f79f",
+   "source": "meeting-docs",
+   "kind": "meeting-doc",
+   "title": "September 15, 2026",
+   "url": "https://www.madison-nh.org/wp-content/uploads/2026/09/2026-09-15-Agenda.pdf",
+   "date": "2026-09-15",
+   "doc": "agenda",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01",
+   "text": "inbox/madison/docs/b8bc2713f79f.txt"
+  },
+  {
+   "key": "meeting-docs:3e494e0fb495",
+   "source": "meeting-docs",
+   "kind": "meeting-doc",
+   "title": "September 1, 2026",
+   "url": "https://www.madison-nh.org/wp-content/uploads/2026/08/2026-09-01-Agenda-1.pdf",
+   "date": "2026-09-01",
+   "doc": "agenda",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "meeting-docs:bcd22555ac48",
+   "source": "meeting-docs",
+   "kind": "meeting-doc",
+   "title": "August 18, 2026",
+   "url": "https://www.madison-nh.org/wp-content/uploads/2026/08/2026-08-18-Agenda.pdf",
+   "date": "2026-08-18",
+   "doc": "agenda",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "meeting-docs:16123b3150e8",
+   "source": "meeting-docs",
+   "kind": "meeting-doc",
+   "title": "August 4, 2026",
+   "url": "https://www.madison-nh.org/wp-content/uploads/2026/08/2026-08-04-Agenda.pdf",
+   "date": "2026-08-04",
+   "doc": "agenda",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "meeting-docs:3c79ec2f31e5",
+   "source": "meeting-docs",
+   "kind": "meeting-doc",
+   "title": "July 21, 2026",
+   "url": "https://www.madison-nh.org/wp-content/uploads/2026/07/2026-07-21-Agenda.pdf",
+   "date": "2026-07-21",
+   "doc": "agenda",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "meeting-docs:17c38fd41815",
+   "source": "meeting-docs",
+   "kind": "meeting-doc",
+   "title": "July 7, 2026",
+   "url": "https://www.madison-nh.org/wp-content/uploads/2026/07/2026-07-07-Agenda.doc",
+   "date": "2026-07-07",
+   "doc": "agenda",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "meeting-docs:fa53b5f0c453",
+   "source": "meeting-docs",
+   "kind": "meeting-doc",
+   "title": "How to Request Time on the Selectmen’s Agenda",
+   "url": "https://www.madison-nh.org/wp-content/uploads/2026/01/1a-Selectmens-Meeting-Procedure-2.pdf",
+   "date": null,
+   "doc": "agenda",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  }
+ ]
+}

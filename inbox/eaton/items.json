@@ -1,0 +1,96 @@
+{
+ "note": "Written by ingest/fetch.mjs. Each item: where it came from (source, url), the date in the document when known, firstSeen (the day the fetcher first saw it; new since the last refresh = firstSeen on or after that day) and text (the saved agenda or minutes text, when there is one). Facts for the site still come from reading the linked document.",
+ "town": "eaton",
+ "updated": "2026-11-01T16:12:58.861Z",
+ "sources": {
+  "feed": {
+   "ok": true,
+   "found": 0,
+   "new": 0,
+   "checked": "2026-11-01T16:12:58.861Z",
+   "ms": 533
+  },
+  "meeting-docs": {
+   "ok": true,
+   "found": 6,
+   "new": 0,
+   "checked": "2026-11-01T16:12:58.861Z",
+   "ms": 1417
+  }
+ },
+ "notes": [],
+ "items": [
+  {
+   "key": "meeting-docs:4d0ce67c4f51",
+   "source": "meeting-docs",
+   "kind": "meeting-doc",
+   "title": "BOS-Minutes-2025.pdf",
+   "url": "https://www.eatonnh.gov/wp-content/uploads/2026/01/BOS-Minutes-2025.pdf",
+   "date": null,
+   "doc": "minutes",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01",
+   "text": "inbox/eaton/docs/4d0ce67c4f51.txt"
+  },
+  {
+   "key": "meeting-docs:368830d066b1",
+   "source": "meeting-docs",
+   "kind": "meeting-doc",
+   "title": "2024",
+   "url": "https://www.eatonnh.gov/wp-content/uploads/2025/01/Minutes-2024.pdf",
+   "date": null,
+   "doc": "minutes",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01",
+   "text": "inbox/eaton/docs/368830d066b1.txt"
+  },
+  {
+   "key": "meeting-docs:8b1c7655d5e6",
+   "source": "meeting-docs",
+   "kind": "meeting-doc",
+   "title": "BOS-Minutes-2023.pdf",
+   "url": "https://www.eatonnh.gov/wp-content/uploads/2024/01/BOS-Minutes-2023.pdf",
+   "date": null,
+   "doc": "minutes",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01",
+   "text": "inbox/eaton/docs/8b1c7655d5e6.txt"
+  },
+  {
+   "key": "meeting-docs:01f9026ad9cf",
+   "source": "meeting-docs",
+   "kind": "meeting-doc",
+   "title": "BOS-Minutes-2022.pdf",
+   "url": "https://www.eatonnh.gov/wp-content/uploads/2023/01/BOS-Minutes-2022.pdf",
+   "date": null,
+   "doc": "minutes",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01",
+   "text": "inbox/eaton/docs/01f9026ad9cf.txt"
+  },
+  {
+   "key": "meeting-docs:e1385e880b9d",
+   "source": "meeting-docs",
+   "kind": "meeting-doc",
+   "title": "BOS-Minutes-2020.pdf",
+   "url": "https://www.eatonnh.gov/wp-content/uploads/2021/02/BOS-Minutes-2020.pdf",
+   "date": null,
+   "doc": "minutes",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01",
+   "text": "inbox/eaton/docs/e1385e880b9d.txt"
+  },
+  {
+   "key": "meeting-docs:a245d2fbf765",
+   "source": "meeting-docs",
+   "kind": "meeting-doc",
+   "title": "BOS-Minutes-2019.pdf",
+   "url": "https://www.eatonnh.gov/wp-content/uploads/2020/03/BOS-Minutes-2019.pdf",
+   "date": null,
+   "doc": "minutes",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01",
+   "text": "inbox/eaton/docs/a245d2fbf765.txt"
+  }
+ ]
+}

@@ -1,0 +1,103 @@
+{
+ "note": "Written by ingest/fetch.mjs. Each item: where it came from (source, url), the date in the document when known, firstSeen (the day the fetcher first saw it; new since the last refresh = firstSeen on or after that day) and text (the saved agenda or minutes text, when there is one). Facts for the site still come from reading the linked document.",
+ "town": "jackson",
+ "updated": "2026-11-01T16:12:58.861Z",
+ "sources": {
+  "feed": {
+   "ok": true,
+   "found": 10,
+   "new": 0,
+   "checked": "2026-11-01T16:12:58.861Z",
+   "ms": 982
+  }
+ },
+ "notes": [],
+ "items": [
+  {
+   "key": "feed:4d21d3b41ee6",
+   "source": "feed",
+   "kind": "notice",
+   "title": "Community Planning Forum – Jackson School District Strategic Plan",
+   "url": "https://www.jackson-nh.gov/news-and-alerts/community-planning-forum/",
+   "date": "2026-10-13",
+   "detail": "Coming right up! Community Planning Forum for the Jackson School District Strategic Plan! The Jackson School District’s current strategic plan will guide us until 2027, and we are now working […]",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "feed:cb72a5971c7e",
+   "source": "feed",
+   "kind": "notice",
+   "title": "OCTOBER Town Clerk Closures",
+   "url": "https://www.jackson-nh.gov/town-clerk/october-town-clerk-closures/",
+   "date": "2026-10-05",
+   "detail": "October 5th October 7, 8 , & 9 – Town Clerk Conference October 12th– Holiday October 16th The Clerk’s Office encourages residents to renew their vehicle registrations and allow […]",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "feed:6aab2f2d8b86",
+   "source": "feed",
+   "kind": "notice",
+   "title": "Planning Board – Master Plan Survey Flyer",
+   "url": "https://www.jackson-nh.gov/news-and-alerts/planning-board-master-plan-survey-flyer/",
+   "date": "2026-10-01",
+   "detail": "Town of Jackson 54 Main Street Jackson, NH 03846 Jackson Planning Board The Jackson Planning Board is developing the 2026 Master Plan. This plan will guide the Town’s future over […]",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "feed:ab32280edd9f",
+   "source": "feed",
+   "kind": "notice",
+   "title": "Town Clerk’s Office Closed Monday, September 7th",
+   "url": "https://www.jackson-nh.gov/town-clerk/town-clerks-office-closed-monday-september-7th/",
+   "date": "2026-08-31",
+   "detail": "Please note – Town Clerk’s Office will be open 3:00pm – 5:00pm for Absentee Ballot needs ONLY on Monday September 7th",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "feed:a8cca67a4fdd",
+   "source": "feed",
+   "kind": "notice",
+   "title": "Town Clerk’s Office Closed – Monday September 7th – Labor Day",
+   "url": "https://www.jackson-nh.gov/news-and-alerts/town-clerks-office-closed-monday-september-7th-labor-day/",
+   "date": "2026-08-31",
+   "detail": "Town Clerk’s Office Closed – Monday September 7th – Labor Day Please note – Town Clerk’s Office will be open 3:00pm – 5:00pm for Absentee Ballot needs ONLY on Monday […]",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "feed:81c3cd973152",
+   "source": "feed",
+   "kind": "notice",
+   "title": "Jackson Voter Registration August 31st 6-6:30pm",
+   "url": "https://www.jackson-nh.gov/news-and-alerts/jackson-voter-registration-8-31-6-630pm/",
+   "date": "2026-08-12",
+   "detail": "The Supervisors of the Checklist for the Town of Jackson will hold a session to: process applications for new voter registration process corrections of the checklist Date: August 31st, 2026 […]",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "feed:fd7d0e7ef76a",
+   "source": "feed",
+   "kind": "notice",
+   "title": "Selectmen’s Office will be closed August 13th & 14th",
+   "url": "https://www.jackson-nh.gov/news-and-alerts/selectmens-office-will-be-closed-august-13th-14th/",
+   "date": "2026-08-12",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "feed:ea80f96fa3d4",
+   "source": "feed",
+   "kind": "notice",
+   "title": "Town Clerk’s Office will be Closed Fridays in July and August",
+   "url": "https://www.jackson-nh.gov/town-clerk/3044/",
+   "date": "2026-07-14",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  }
+ ]
+}

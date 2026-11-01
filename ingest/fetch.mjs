@@ -14,6 +14,9 @@ const UA = 'AgorriBot/1.0 (+https://agorri.com; nonpartisan civic information; c
 const NOW = new Date();
 const TODAY = NOW.toISOString().slice(0, 10);
 const KEEP_DAYS = 45;          // drop items not seen for this long
+const MAX_AGE_DAYS = 120;      // ignore documents dated older than this (archives list years of them)
+const DOC_DAYS = 60;           // save text only for agendas and minutes dated within this many days (or undated)
+const daysOld = d => d ? (Date.parse(TODAY) - Date.parse(d)) / 864e5 : 0;
 const MAX_NEW_DOCS = 30;       // per town per run
 const MAX_DOC_BYTES = 20e6;
 const DEBUG = !!process.env.INGEST_DEBUG;
@@ -34,7 +37,22 @@ async function get(url, { as = 'text', method = 'GET', body, headers = {} } = {}
       if (as === 'json') return await r.json();
       if (as === 'buffer') { const b = Buffer.from(await r.arrayBuffer()); if (b.length > MAX_DOC_BYTES) throw new Error('too large'); return { buf: b, type: r.headers.get('content-type') || '' }; }
       return await r.text();
-    } catch (e) { err = e; await sleep(3000); }
+    } catch (e) { err = e; if (/HTTP \d|too large/.test(e.message)) break; await sleep(3000); }
+  }
+  // Some town servers reset Node's connections but answer curl. One curl try for plain GETs.
+  if (method === 'GET' && !/HTTP \d|too large/.test(err.message)) {
+    try {
+      const tmp = path.join(process.env.RUNNER_TEMP || '/tmp', 'agorri-' + crypto.randomUUID());
+      const code = execFileSync('curl', ['-sSL', '--max-time', '60', '-A', UA, '-o', tmp, '-w', '%{http_code} %{content_type}', url]).toString().trim();
+      const buf = fs.readFileSync(tmp); fs.rmSync(tmp, { force: true });
+      const [status, ...ct] = code.split(' ');
+      if (+status >= 200 && +status < 300) {
+        if (as === 'json') return JSON.parse(buf.toString('utf8'));
+        if (as === 'buffer') { if (buf.length > MAX_DOC_BYTES) throw new Error('too large'); return { buf, type: ct.join(' ') }; }
+        return buf.toString('utf8');
+      }
+      err = new Error(`HTTP ${status} (curl)`);
+    } catch (e) { err = new Error(err.message + '; curl: ' + e.message.split('\n')[0]); }
   }
   throw new Error(`${url}: ${err.message}`);
 }
@@ -80,7 +98,7 @@ function dateIn(s) {
   m = s.match(/(?<!\d)(\d{1,2})\.(\d{1,2})(?:-\d{1,2}(?:\.\d{1,2})?)?\.(20\d\d)(?!\d)/); if (m) return iso3(m[3], m[1], m[2]); // 4.3-6.2025, 7.31-8.5.2024
   m = s.match(/(?<!\d)(\d{1,2})[.\-_](\d{1,2})[.\-_](20\d\d|\d\d)(?!\d)/); if (m) return iso3(m[3].length === 2 ? '20' + m[3] : m[3], m[1], m[2]);
   m = s.match(new RegExp('\\b(' + MONTHS.join('|') + ')\\s+(\\d{1,2}),?\\s+(20\\d\\d)', 'i')); if (m) return iso3(m[3], MONTHS.indexOf(m[1].toLowerCase()) + 1, m[2]);
-  m = s.match(/\b(\d{2})(\d{2})(20\d\d)\b/); if (m) return iso3(m[3], m[1], m[2]);
+  m = s.match(/(?<!\d)(\d{2})(\d{2})(20\d\d)(?!\d)/); if (m) return iso3(m[3], m[1], m[2]); // CivicPlus _MMDDYYYY
   // "October 28-29" in a file stored under /files/2026-10/: the year comes from the folder.
   m = s.match(new RegExp('\\b(' + MONTHS.join('|') + ')\\s+(\\d{1,2})\\b', 'i')); const y = s.match(/\/(20\d\d)-\d\d\//);
   if (m && y) return iso3(y[1], MONTHS.indexOf(m[1].toLowerCase()) + 1, m[2]);
@@ -105,7 +123,20 @@ const readers = {
     }
     if (DEBUG) console.log(`  [debug] ${src.id}: ${all.size} matching links`);
     if (DEBUG && !all.size) { const html = await get(pages[0]); console.log(`  [debug] ${src.id}: page ${html.length} bytes, sample links:`, [...html.matchAll(/href=["']([^"']+)["']/gi)].map(m => m[1]).filter(h => /minute|agenda|document|files\.|\.pdf/i.test(h)).slice(0, 25)); }
-    return [...all.values()].slice(0, src.max || 40).map(l => ({ title: l.title, url: l.url, date: dateIn(l.url) || dateIn(l.title), doc: docKind(fileName(l.url) + ' ' + l.title), packet: isPacket(fileName(l.url) + ' ' + l.title) }));
+    const need = src.require ? new RegExp(src.require, 'i') : null;
+    // CivicPlus Agenda Center: the kind is in the path (/ViewFile/Agenda/ or /ViewFile/Minutes/), the minutes link has no
+    // title of its own, and ?html=true repeats the agenda. Name both after the meeting, matched by the shared id.
+    const ac = u => (u.match(/AgendaCenter\/ViewFile\/(Agenda|Minutes)\/(_\d{8}-\d+)/i) || []);
+    const meetingName = new Map();
+    for (const l of all.values()) { const [, , id] = ac(l.url); if (id && !/^(_|pdf$|packet|html)/i.test(l.title) && l.title.length > (meetingName.get(id) || '').length) meetingName.set(id, l.title.replace(/\s*\(PDF\)$/i, '')); }
+    return [...all.values()].filter(l => !need || need.test(l.url + ' ' + l.title)).filter(l => !/[?&]html=true/i.test(l.url)).slice(0, src.max || 40).map(l => {
+      const [, acKind, acId] = ac(l.url);
+      if (acKind) {
+        const kind = acKind.toLowerCase() === 'minutes' ? 'minutes' : 'agenda', packet = /packet=true/i.test(l.url);
+        return { title: `${packet ? 'Packet' : kind === 'minutes' ? 'Minutes' : 'Agenda'}: ${meetingName.get(acId) || l.title}`, url: l.url, date: dateIn(acId), doc: kind, packet };
+      }
+      return { title: l.title, url: l.url, date: dateIn(l.url) || dateIn(l.title), doc: docKind(fileName(l.url) + ' ' + l.title), packet: isPacket(fileName(l.url) + ' ' + l.title) };
+    });
   },
 
   // CivicPlus: /rss.aspx lists every feed on the site (news, calendar, alerts, agendas, bids...). Read each "All" feed.
@@ -241,15 +272,18 @@ async function runTown(town, sources) {
       const found = await readers[src.type](src, ctx);
       let fresh = 0;
       for (const it of found) {
+        if (it.date && daysOld(it.date) > MAX_AGE_DAYS) continue;
         const key = src.id + ':' + hash(it.url);
         const old = byKey.get(key);
         const safety = src.kind === 'safety' || src.kind === 'police-log';
-        const title = safety && !(src.kind === 'police-log' && /^(arrest log|police log|media log)?\s*((jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)[a-z]*\.?)?[\s\d.,\-\/]*$/i.test(it.title)) ? safeTitle(it.title, src) : it.title;
+        // Town news can report an arrest too: treat those titles like police items.
+        const crimeNews = !safety && /\b(arrest(ed)?|charged|indicted|suspect)\b/i.test(it.title + ' ' + (it.detail || ''));
+        const title = crimeNews ? safeTitle(it.title, { id: 'news' }) : safety && !(src.kind === 'police-log' && /^(arrest log|police log|media log)?\s*((jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)[a-z]*\.?)?[\s\d.,\-\/]*$/i.test(it.title)) ? safeTitle(it.title, src) : it.title;
         const rec = { key, source: src.id, kind: src.kind, ...(it.feed ? { feed: it.feed } : {}), title, url: it.url, date: it.date || null,
-          ...(it.detail && !safety ? { detail: it.detail } : {}), ...(it.body ? { body: it.body } : {}), ...(it.doc ? { doc: it.doc } : {}), ...(it.packet ? { packet: true } : {}),
+          ...(it.detail && !safety && !crimeNews ? { detail: it.detail } : {}), ...(it.body ? { body: it.body } : {}), ...(it.doc ? { doc: it.doc } : {}), ...(it.packet ? { packet: true } : {}),
           ...(it.meeting ? { meeting: true, files: it.files } : {}),
           firstSeen: old ? old.firstSeen : TODAY, lastSeen: TODAY, ...(old && old.text ? { text: old.text } : {}) };
-        if (src.docs && it.doc && !it.packet && src.text !== false && !rec.text) {
+        if (src.docs && it.doc && !it.packet && src.text !== false && !rec.text && daysOld(it.date) <= DOC_DAYS) {
           try { const t = await saveDoc(town, { ...it, title: it.title }, ctx); if (t) rec.text = t; }
           catch (e) { ctx.notes.push(`could not save ${it.url}: ${e.message}`); }
         }
@@ -272,13 +306,22 @@ async function runTown(town, sources) {
     town, updated: NOW.toISOString(), sources: status, notes: ctx.notes, items };
   fs.mkdirSync(path.dirname(file), { recursive: true });
   fs.writeFileSync(file, JSON.stringify(out, null, 1) + '\n');
+  // Delete saved document text that no item points to any more (keeps inbox/ from growing without end).
+  const docDir = path.join(ROOT, 'inbox', town, 'docs');
+  if (fs.existsSync(docDir)) {
+    const keep = new Set(items.map(i => i.text).filter(Boolean).map(t => path.basename(t)));
+    for (const f of fs.readdirSync(docDir)) if (!keep.has(f)) fs.rmSync(path.join(docDir, f));
+  }
   console.log(`${town}: ${added} new items, ${ctx.newDocs} new documents saved${ctx.notes.length ? '; notes: ' + ctx.notes.length : ''}`);
   return { town, added, docs: ctx.newDocs, failed: Object.entries(status).filter(([, s]) => !s.ok).map(([k]) => k) };
 }
 
 const want = process.argv.slice(2);
 const results = [];
-for (const [town, sources] of Object.entries(CFG.towns)) if (!want.length || want.includes(town)) results.push(await runTown(town, sources));
+// Towns run six at a time (each town's sites are separate hosts; the per-host wait still applies).
+const queue = Object.entries(CFG.towns).filter(([town]) => !want.length || want.includes(town));
+await Promise.all(Array.from({ length: 6 }, async () => { while (queue.length) { const [town, sources] = queue.shift(); results.push(await runTown(town, sources)); } }));
+results.sort((a, b) => a.town.localeCompare(b.town));
 const summary = results.map(r => `${r.town} ${r.added} new${r.docs ? ', ' + r.docs + ' docs' : ''}${r.failed.length ? ', failed: ' + r.failed.join(' ') : ''}`).join('; ');
 fs.writeFileSync(path.join(ROOT, 'inbox', 'last-run.txt'), summary + '\n');
 console.log('SUMMARY ' + summary);

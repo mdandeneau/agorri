@@ -1,0 +1,115 @@
+Source: https://www.tamworthnh.gov/AgendaCenter/ViewFile/Minutes/_10132026-312
+Title: Minutes: Conservation Land Review Committee Meeting - Minutes Draft
+Fetched: 2026-11-01
+
+Conservation Land Review Committee
+A subcommittee of Tamworth & Sandwich Conservation Commissions
+
+MINUTES
+Meeting of October 13, 2026 • Tamworth Town Office & Online
+DRAFT to be approved at a subsequent meeting.
+
+Present: Teresa Fournier, Dylan Allen, David Li;le, Ned Beecher, Nancy Walser - with Karoline
+Jacobs - GIS expert brought in by Dylan to provide advice. Not present: Ron Albert, Anne Glavin
+
+Ned called the meeLng to order at 5:05 pm.
+
+GIS & Data Layers
+    • Karoline shared the map layers that she had researched and pulled into an ArcGIS Pro
+       account, showing what’s available for the layers and data we are interested in.
+          o She has focused the mapping on just Sandwich and Tamworth
+          o Much of the data comes from NH GRANIT (much is also available within
+              ESRI/ArcGIS)
+          o For our water interests, she has imported layers for waterbodies, streams,
+              wetlands, wellhead protecLon areas (now available online; they used to be
+              hidden by request of NH DES), aquifer transmissivity map (which we had called
+              “straLﬁed dri[ aquifer”). Karoline also showed that buﬀer zones (e.g. the 250-
+              foot shoreland protecLon zones) can be shown on a layer as well. All of these
+              available layers cover pre;y much all we had hoped for for water resources.
+          o The mapping looks superb and all were enthusiasLc to see what can be done.
+
+Data acquisi;on & storage
+   • David wanted to be sure we discussed this topic: Who will be able to access the data?
+       How will it be stored? Where will it be stored? What will our process be, given that we
+       don’t have much GIS experLse on our ConservaLon Commissions?
+   • We agreed on the following approach:
+          o The 2 towns will see if we can purchase & share a subscripLon to ArcGIS Pro
+              (perhaps one town being the oﬃcial non-proﬁt owner and the other town
+              reimbursing ½ the cost annually; Ned noted that this can be considered a cost
+              related to Natural Resource Inventories, which are a primary responsibility of CCs
+              and thus can be supported by funds from town ConservaLon Funds).
+          o We would then contract with a GIS expert (e.g. Karoline; she will consider
+              whether or not she is interested) to create the online ArcGIS layered system we
+              are looking for. This would include pufng layers together and applying our
+              scoring system to the whole.
+          o The completed work – each individual layer and some combined layers - would
+             then be uploaded to each town’s Cartographic system so each town website
+             would have the maps for viewing. They would be staLc.
+          o The ArcGIS project for this mapping would remain available online, and CC
+             members could use it to the best of their abiliLes for educaLonal presentaLons…
+          o Every few years, there might be an update made as new data becomes available.
+             For that, a GIS expert would be contracted again and new maps created to
+             replace the older ones on the town websites.
+   •   AcLons:
+          o Dylan will research what level of ArcGIS Pro we will want to buy, and check with
+             Karoline to make sure we get the right level (e.g. “Advanced”).
+          o Ned will write a 1-page proposal for each town CC to consider and vote for the
+             funding needed…. Votes to be done by the 1st week of December when the SCC
+             meets, so we can contract and start this work by someLme in January.
+
+Other data layers we’re interested in (other than waters)
+   • Karoline has explored many of the other layers we’re interested in, and we’ll get into
+       those more as the actual work with her or another GIS contractor happens in early 2027.
+
+Great thanks to Karoline for taking the Lme to research our needs, a;end this meeLng, and
+show us so much about what is possible.
+
+Addi;onal concept for our decision-making at next meeLng(s): For each resource, what % in
+each town is already protected? If, say, 70% of a resource is already protected, then that may
+mean we don’t need to include that layer/resource in our strategy, in our prioriLzaLon.
+
+Approving past minutes – Nancy made a moLon, David seconded, to approve the minutes of
+the meeLngs of March 17, April 21, May 19, and the July 21 non-oﬃcial meeLng; (minutes
+always available here: https://www.tamworthnh.gov/AgendaCenter). All voted to approve.
+
+Next mee;ng: Nov. 10, 5:00 pm, Sandwich Town Hall tentaLvely. Ned will be away, but will join
+by Zoom. Nancy will check on Sandwich oﬃce availability and will be local zoom host there.
+
+Adjourned at 6:32 pm. Dylan made the moLon, Teresa seconded, and all approved
+
+Membership of the CLRC:
+  • Sandwich: Nancy reports that Ron is involved a lot with LRCT and a good liaison there,
+     but he does not have much Lme for CLRC. Anne is involved in other things too. Nancy
+     expects that, in the new year, Nancy and Dwight will be the Sandwich CLRC conLngent.
+  • Tamworth: Dexter is away for the year, so is no longer on the Commi;ee. TCC will also
+     open up opportunity to join or leave the Commi;ee at year’s end.
+Plans for upcoming work & meetings:
+– Continue work on co-occurrence mapping & scoring to help set priorities for conservation in the two towns.
+    We had discussed taking the final categories & beginning to…
+        1) Determine which categories & sub-categories we want to definitely include; try to make it as simple as
+             possible, with fewer layers.
+        2) Then, with GIS expert contracted help, we will determine what layers have mapping data / layers online
+        3) Then figure out weighting and scoring amongst the categories & subcategories
+        4) Finish building data layers
+        5) Try applying our developing new system to 2 potential conservation properties in Tamworth & 1 in
+             Sandwich that landowners have discussed easements on.
+    Items identified for discussion:
+        • David notes that USVLT does not cover Tamworth & Sandwich, so their co-occurrence mapping does
+             not have layers for our towns, so we’ll have to build the layers ourselves. And he is not sure about what
+             data layers we may be able to find for climate resiliency, etc. LRCT may be able to share some layers
+             for our towns.
+        • Consider having an overall top focus be on preserving the mosaic of habitat types; doing that protects
+             wildlife inherently, meaning that we may not need specific data layers for particular animals or plants –
+             they come with the habitat
+        • Consider using a flowchart matrix in the assessment process…. For example, if there are top
+             overarching priorities that outweigh all others, such as shoreland protection, then the flow chart will ask
+             the question “Does this easement/purchase protect significant water frontage/shoreland? If yes,
+             proceed with the project and only cursorily document other values.”
+         •    For each resource, what % in each town is already protected? If, say, 70% of a resource is already
+              protected, then that may mean we don’t need to include that layer/resource in our strategy, in our
+              priori>za>on.
+
+--Are organizations with land conservation in S & T willing to take on more in these towns? We could check with
+them, perhaps when we share the results of our prioritization work with LRCT, TNC, SPNHF, etc. David provided a
+list of all conservation organizations in S & T. Ned will talk to Black Bear. Ned will provide recent federal easement in
+Tamworth, just FYI.

@@ -1,0 +1,2513 @@
+{
+ "note": "Written by ingest/scan.mjs. One entry per town in ingest/regions.json: its website, detected platforms, feeds, meeting pages, and `fetch` (how the daily fetcher can read it). Re-run when a town changes websites.",
+ "scanned": "2026-11-01T16:06:31.260Z",
+ "towns": {
+  "dover": {
+   "id": "dover",
+   "name": "Dover",
+   "population2020": 32741,
+   "site": "https://www.dover.nh.gov/",
+   "platforms": [],
+   "feeds": [
+    "https://www.dover.nh.gov/feeds/rss/www.dover.nh.gov/city-of-dover-latest-news/"
+   ],
+   "meetingPages": [
+    {
+     "text": "City Council »",
+     "url": "https://www.dover.nh.gov/government/boards-and-commissions/city-council/index.html"
+    },
+    {
+     "text": "City Council workshop, 10/28/2026",
+     "url": "https://videoplayer.telvue.com/player/qApKJJVzUoBgvQ1NP9H9TJF8dI9OzVxt/media/1066141"
+    },
+    {
+     "text": "City Council meeting, 10/28/2026",
+     "url": "https://videoplayer.telvue.com/player/qApKJJVzUoBgvQ1NP9H9TJF8dI9OzVxt/media/1066142"
+    },
+    {
+     "text": "Planning Board meeting, 10/27/2026",
+     "url": "https://videoplayer.telvue.com/player/qApKJJVzUoBgvQ1NP9H9TJF8dI9OzVxt/media/1065926"
+    },
+    {
+     "text": "Full Calendar »",
+     "url": "https://www.dover.nh.gov/government/open-government/public-meetings/"
+    },
+    {
+     "text": "Full Meeting Calendar »",
+     "url": "http://www.dover.nh.gov/government/open-government/public-meetings/"
+    }
+   ],
+   "external": [
+    "https://www.facebook.com/pages/City-of-Dover-NH/394844970529075"
+   ],
+   "meetingDocs": [
+    {
+     "page": "https://www.dover.nh.gov/government/boards-and-commissions/city-council/index.html",
+     "docLinks": 0,
+     "sample": [],
+     "drive": false,
+     "platforms": []
+    },
+    {
+     "page": "https://www.dover.nh.gov/government/open-government/public-meetings/",
+     "docLinks": 0,
+     "sample": [],
+     "drive": false,
+     "platforms": []
+    }
+   ],
+   "fetch": "rss only",
+   "region": "greater-portsmouth"
+  },
+  "portsmouth": {
+   "id": "portsmouth",
+   "name": "Portsmouth",
+   "population2020": 21956,
+   "site": "https://www.portsmouthnh.gov/",
+   "platforms": [
+    "drupal"
+   ],
+   "feeds": [],
+   "meetingPages": [
+    {
+     "text": "City Council",
+     "url": "https://www.portsmouthnh.gov/citycouncil"
+    },
+    {
+     "text": "Boards and Commissions",
+     "url": "https://www.portsmouthnh.gov/cityclerk/boards-committees-and-commissions"
+    },
+    {
+     "text": "Live/Rebroadcast of Municipal Meetings (Ch22+YouTube)",
+     "url": "https://www.portsmouthnh.gov/city/portsmouths-government-tv-channel-22"
+    },
+    {
+     "text": "Master Calendar",
+     "url": "https://www.portsmouthnh.gov/city-municipal-meetings-calendar"
+    },
+    {
+     "text": "Reserving City Rooms for Meetings",
+     "url": "https://www.portsmouthnh.gov/cityclerk/reserving-city-rooms-meetings"
+    },
+    {
+     "text": "Calendar &amp; Meeting Material",
+     "url": "https://www.portsmouthnh.gov/city/city-meetings-and-events-calendar"
+    },
+    {
+     "text": "School Board- Community Engagement Committee Meeting",
+     "url": "https://www.portsmouthnh.gov/school/events/school-board-community-engagement-committee-meeting-2"
+    },
+    {
+     "text": "10.26.2026 City Council",
+     "url": "http://www.youtube.com/watch?v=rA3x6TgmShU"
+    },
+    {
+     "text": "10.26.2026 City Council Work Session",
+     "url": "http://www.youtube.com/watch?v=B89X0-ut2xc"
+    },
+    {
+     "text": "10.13.2026 City Council",
+     "url": "http://www.youtube.com/watch?v=1pdRGMaFmzE"
+    },
+    {
+     "text": "9.28.2026 City Council",
+     "url": "http://www.youtube.com/watch?v=P_uIeuPEE3s"
+    },
+    {
+     "text": "9.14.2026 City Council",
+     "url": "http://www.youtube.com/watch?v=r5NGpvPbt5k"
+    }
+   ],
+   "external": [
+    "https://www.facebook.com/CityHallPortsmouthNH",
+    "https://youtube.com/user/CityofPortsmouth",
+    "http://www.youtube.com/watch",
+    "https://www.youtube.com/user/CityofPortsmouth"
+   ],
+   "meetingDocs": [
+    {
+     "page": "https://www.portsmouthnh.gov/citycouncil",
+     "docLinks": 0,
+     "sample": [],
+     "drive": false,
+     "platforms": [
+      "drupal"
+     ]
+    },
+    {
+     "page": "https://www.portsmouthnh.gov/cityclerk/boards-committees-and-commissions",
+     "docLinks": 0,
+     "sample": [],
+     "drive": false,
+     "platforms": [
+      "drupal"
+     ]
+    },
+    {
+     "page": "https://www.portsmouthnh.gov/city/portsmouths-government-tv-channel-22",
+     "docLinks": 0,
+     "sample": [],
+     "drive": false,
+     "platforms": [
+      "drupal"
+     ]
+    }
+   ],
+   "fetch": "manual",
+   "region": "greater-portsmouth"
+  },
+  "stratham": {
+   "id": "stratham",
+   "name": "Stratham",
+   "population2020": 7669,
+   "site": "https://www.strathamnh.gov/",
+   "platforms": [
+    "revize"
+   ],
+   "feeds": [],
+   "meetingPages": [
+    {
+     "text": "Select Board",
+     "url": "https://www.strathamnh.gov/boards/select_board/index.php"
+    },
+    {
+     "text": "Boards & Committees",
+     "url": "https://www.strathamnh.gov/boards/index.php"
+    },
+    {
+     "text": "Agendas & Minutes",
+     "url": "https://www.strathamnh.gov/boards/select_board/agendas_minutes.php"
+    },
+    {
+     "text": "Town Meeting",
+     "url": "https://www.strathamnh.gov/boards/select_board/town_meeting.php"
+    },
+    {
+     "text": "Agendas & Minutes",
+     "url": "https://www.strathamnh.gov/boards/budget_advisory_committee/agendas_minutes.php"
+    },
+    {
+     "text": "Agendas & Minutes",
+     "url": "https://www.strathamnh.gov/boards/cemetery_trustees/agendas_minutes.php"
+    },
+    {
+     "text": "Agendas & Minutes",
+     "url": "https://www.strathamnh.gov/boards/community_garden/agendas_minutes.php"
+    },
+    {
+     "text": "Agendas & Minutes",
+     "url": "https://www.strathamnh.gov/boards/conservation_commission/agendas_minutes.php"
+    },
+    {
+     "text": "Agendas & Minutes",
+     "url": "https://www.strathamnh.gov/boards/energy_commission/agendas_minutes.php"
+    },
+    {
+     "text": "Agendas & Minutes",
+     "url": "https://www.strathamnh.gov/boards/heritage_commission/agendas_minutes.php"
+    },
+    {
+     "text": "Agendas & Minutes",
+     "url": "https://www.strathamnh.gov/boards/communications___community_engagement_committee/agendas___minutes.php"
+    },
+    {
+     "text": "Agendas & Minutes",
+     "url": "https://www.strathamnh.gov/boards/library_trustees/agendas_minutes.php"
+    }
+   ],
+   "external": [
+    "https://www.facebook.com/sharer/sharer.php"
+   ],
+   "meetingDocs": [
+    {
+     "page": "https://www.strathamnh.gov/boards/select_board/index.php",
+     "docLinks": 0,
+     "sample": [],
+     "drive": false,
+     "platforms": [
+      "revize"
+     ]
+    },
+    {
+     "page": "https://www.strathamnh.gov/boards/index.php",
+     "docLinks": 0,
+     "sample": [],
+     "drive": false,
+     "platforms": [
+      "revize"
+     ]
+    },
+    {
+     "page": "https://www.strathamnh.gov/boards/select_board/agendas_minutes.php",
+     "docLinks": 161,
+     "sample": [
+      "https://www.strathamnh.gov/Documents/Boards%20and%20Committees/Select%20Board/Agendas%20and%20Minutes/2026/Agendas/special%20meetings/Meeting%20Notice%20November%2013%202026.pdf?t=202610270749190",
+      "https://www.strathamnh.gov/Documents/Boards%20and%20Committees/Select%20Board/Agendas%20and%20Minutes/2026/Agendas/SB%20Agenda%2011%202%202026.pdf?t=202610301304210",
+      "https://www.strathamnh.gov/Documents/Boards%20and%20Committees/Select%20Board/Agendas%20and%20Minutes/2026/Packets/SB%20Packet%2011%202%202026.pdf?t=202610301458130"
+     ],
+     "drive": false,
+     "platforms": [
+      "revize"
+     ]
+    }
+   ],
+   "fetch": "meeting page links",
+   "region": "greater-portsmouth"
+  },
+  "rye": {
+   "id": "rye",
+   "name": "Rye",
+   "population2020": 5543,
+   "site": "https://www.ryenh.gov/",
+   "platforms": [
+    "civicplus"
+   ],
+   "feeds": [],
+   "meetingPages": [
+    {
+     "text": "Agendas &amp; Minutes",
+     "url": "https://www.ryenh.gov/agendacenter"
+    }
+   ],
+   "external": [
+    "https://www.facebook.com/TownofRyeNH/"
+   ],
+   "civicplusHost": "https://connect.civicplus.com/",
+   "civicplusFeeds": [
+    "https://www.ryenh.gov/RSSFeed.aspx?ModID=76&CID=All-0",
+    "https://www.ryenh.gov/RSSFeed.aspx?ModID=65&CID=All-0",
+    "https://www.ryenh.gov/RSSFeed.aspx?ModID=63&CID=All-0",
+    "https://www.ryenh.gov/RSSFeed.aspx?ModID=58&CID=All-calendar.xml",
+    "https://www.ryenh.gov/RSSFeed.aspx?ModID=1&CID=All-newsflash.xml"
+   ],
+   "agendaCenter": "https://www.ryenh.gov/AgendaCenter",
+   "meetingDocs": [
+    {
+     "page": "https://www.ryenh.gov/agendacenter",
+     "docLinks": 623,
+     "sample": [
+      "https://www.ryenh.gov/AgendaCenter/ViewFile/Agenda/_11022026-875",
+      "https://www.ryenh.gov/AgendaCenter/ViewFile/Agenda/_11022026-875",
+      "https://www.ryenh.gov/AgendaCenter/ViewFile/Agenda/_10052026-772"
+     ],
+     "drive": false,
+     "platforms": [
+      "civicplus"
+     ]
+    }
+   ],
+   "fetch": "civicplus feeds + agenda center",
+   "region": "greater-portsmouth"
+  },
+  "hampton": {
+   "id": "hampton",
+   "name": "Hampton",
+   "population2020": 16214,
+   "site": "https://www.hamptonnh.gov/",
+   "platforms": [
+    "civicplus"
+   ],
+   "feeds": [],
+   "meetingPages": [
+    {
+     "text": "Boards &amp; Committees",
+     "url": "https://www.hamptonnh.gov/676/Boards-Committees"
+    },
+    {
+     "text": "Agendas &amp; Minutes",
+     "url": "https://www.hamptonnh.gov/agendacenter"
+    },
+    {
+     "text": "Town Meeting & March Election Information",
+     "url": "https://www.hamptonnh.gov/736/Town-Meeting-March-Election-Information"
+    },
+    {
+     "text": "Meetings",
+     "url": "https://www.hamptonnh.gov/#taba4116ba2-f9b3-4afb-8f89-868faac6b184_1"
+    },
+    {
+     "text": "Select Board",
+     "url": "https://www.hamptonnh.gov/Calendar.aspx?EID=2732"
+    },
+    {
+     "text": "Select Board",
+     "url": "https://www.hamptonnh.gov/Calendar.aspx?EID=1821"
+    }
+   ],
+   "external": [],
+   "civicplusHost": "https://connect.civicplus.com/",
+   "civicplusFeeds": [
+    "https://www.hamptonnh.gov/RSSFeed.aspx?ModID=76&CID=All-0",
+    "https://www.hamptonnh.gov/RSSFeed.aspx?ModID=65&CID=All-0",
+    "https://www.hamptonnh.gov/RSSFeed.aspx?ModID=63&CID=All-0",
+    "https://www.hamptonnh.gov/RSSFeed.aspx?ModID=51&CID=All-blog.xml",
+    "https://www.hamptonnh.gov/RSSFeed.aspx?ModID=92&CID=All-civicmedia.xml",
+    "https://www.hamptonnh.gov/RSSFeed.aspx?ModID=58&CID=All-calendar.xml",
+    "https://www.hamptonnh.gov/RSSFeed.aspx?CommunityJobs=False&ModID=66&CID=All-0",
+    "https://www.hamptonnh.gov/RSSFeed.aspx?ModID=1&CID=All-newsflash.xml",
+    "https://www.hamptonnh.gov/RSSFeed.aspx?ModID=64&CID=All-0",
+    "https://www.hamptonnh.gov/RSSFeed.aspx?ModID=53&CID=All-0"
+   ],
+   "agendaCenter": "https://www.hamptonnh.gov/AgendaCenter",
+   "meetingDocs": [
+    {
+     "page": "https://www.hamptonnh.gov/676/Boards-Committees",
+     "docLinks": 0,
+     "sample": [],
+     "drive": false,
+     "platforms": [
+      "civicplus"
+     ]
+    },
+    {
+     "page": "https://www.hamptonnh.gov/agendacenter",
+     "docLinks": 464,
+     "sample": [
+      "https://www.hamptonnh.gov/AgendaCenter/ViewFile/Agenda/_09162026-2073",
+      "https://www.hamptonnh.gov/AgendaCenter/ViewFile/Minutes/_09162026-2073",
+      "https://www.hamptonnh.gov/AgendaCenter/ViewFile/Agenda/_09162026-2073"
+     ],
+     "drive": false,
+     "platforms": [
+      "civicplus"
+     ]
+    },
+    {
+     "page": "https://www.hamptonnh.gov/736/Town-Meeting-March-Election-Information",
+     "docLinks": 0,
+     "sample": [],
+     "drive": false,
+     "platforms": [
+      "civicplus"
+     ]
+    }
+   ],
+   "fetch": "civicplus feeds + agenda center",
+   "region": "greater-portsmouth"
+  },
+  "exeter": {
+   "id": "exeter",
+   "name": "Exeter",
+   "population2020": 16049,
+   "error": "no website found",
+   "tried": [
+    "www.exeternh.gov UND_ERR_SOCKET",
+    "exeternh.gov UND_ERR_SOCKET",
+    "www.town.exeter.nh.us EAI_AGAIN",
+    "www.exeternh.org EAI_AGAIN",
+    "www.exeter-nh.gov ENOTFOUND",
+    "www.exeter-nh.org ENOTFOUND",
+    "www.exeternh.us ENOTFOUND",
+    "www.exeter.nh.gov ENOTFOUND",
+    "www.ci.exeter.nh.us ENOTFOUND",
+    "www.townofexeternh.gov ENOTFOUND",
+    "www.townofexeternh.org ENOTFOUND",
+    "www.exeternh.com 200"
+   ],
+   "region": "greater-portsmouth"
+  },
+  "durham": {
+   "id": "durham",
+   "name": "Durham",
+   "population2020": 15490,
+   "site": "https://www.durhamnh.gov/",
+   "platforms": [
+    "civicplus"
+   ],
+   "feeds": [],
+   "meetingPages": [
+    {
+     "text": "Agendas &amp; Minutes",
+     "url": "https://www.durhamnh.gov/agendacenter"
+    },
+    {
+     "text": "Zoom Video Meeting Schedule",
+     "url": "https://www.durhamnh.gov/1916/Zoom-Video-Meeting-Schedule"
+    },
+    {
+     "text": "Meetings",
+     "url": "https://www.durhamnh.gov/#tab19220407-a428-48c6-9253-adf77743a89e_0"
+    },
+    {
+     "text": "Town Council Meeting",
+     "url": "https://www.durhamnh.gov/Calendar.aspx?EID=726"
+    },
+    {
+     "text": "Energy Committee Meeting",
+     "url": "https://www.durhamnh.gov/Calendar.aspx?EID=679"
+    },
+    {
+     "text": "IWMAC Meeting",
+     "url": "https://www.durhamnh.gov/Calendar.aspx?EID=686"
+    },
+    {
+     "text": "Human Rights Commission Meeting",
+     "url": "https://www.durhamnh.gov/Calendar.aspx?EID=827"
+    }
+   ],
+   "external": [],
+   "civicplusHost": "https://connect.civicplus.com/",
+   "civicplusFeeds": [
+    "https://www.durhamnh.gov/RSSFeed.aspx?ModID=76&CID=All-0",
+    "https://www.durhamnh.gov/RSSFeed.aspx?ModID=65&CID=All-0",
+    "https://www.durhamnh.gov/RSSFeed.aspx?ModID=63&CID=All-0",
+    "https://www.durhamnh.gov/RSSFeed.aspx?ModID=51&CID=All-blog.xml",
+    "https://www.durhamnh.gov/RSSFeed.aspx?ModID=58&CID=All-calendar.xml",
+    "https://www.durhamnh.gov/RSSFeed.aspx?CommunityJobs=False&ModID=66&CID=All-0",
+    "https://www.durhamnh.gov/RSSFeed.aspx?ModID=1&CID=All-newsflash.xml",
+    "https://www.durhamnh.gov/RSSFeed.aspx?ModID=53&CID=All-0"
+   ],
+   "agendaCenter": "https://www.durhamnh.gov/AgendaCenter",
+   "meetingDocs": [
+    {
+     "page": "https://www.durhamnh.gov/agendacenter",
+     "docLinks": 606,
+     "sample": [
+      "https://www.durhamnh.gov/AgendaCenter/ViewFile/Agenda/_09142026-406",
+      "https://www.durhamnh.gov/AgendaCenter/ViewFile/Agenda/_09142026-406",
+      "https://www.durhamnh.gov/AgendaCenter/ViewFile/Agenda/_08102026-390"
+     ],
+     "drive": false,
+     "platforms": [
+      "civicplus"
+     ]
+    },
+    {
+     "page": "https://www.durhamnh.gov/1916/Zoom-Video-Meeting-Schedule",
+     "docLinks": 0,
+     "sample": [],
+     "drive": false,
+     "platforms": [
+      "civicplus"
+     ]
+    },
+    {
+     "page": "https://www.durhamnh.gov/#tab19220407-a428-48c6-9253-adf77743a89e_0",
+     "docLinks": 0,
+     "sample": [],
+     "drive": false,
+     "platforms": [
+      "civicplus"
+     ]
+    }
+   ],
+   "fetch": "civicplus feeds + agenda center",
+   "region": "greater-portsmouth"
+  },
+  "newmarket": {
+   "id": "newmarket",
+   "name": "Newmarket",
+   "population2020": 9430,
+   "site": "https://www.newmarketnh.gov/",
+   "platforms": [
+    "civicplus",
+    "civicclerk"
+   ],
+   "feeds": [],
+   "meetingPages": [
+    {
+     "text": "Minutes &amp; Agendas",
+     "url": "https://newmarketnh.portal.civicclerk.com/"
+    },
+    {
+     "text": "Meetings",
+     "url": "https://www.newmarketnh.gov/#taba98d5184-fbc4-4270-a17f-3feacf64f24c_0"
+    },
+    {
+     "text": "Town Council Meeting",
+     "url": "https://www.newmarketnh.gov/Calendar.aspx?EID=692"
+    },
+    {
+     "text": "Planning Board Meeting",
+     "url": "https://www.newmarketnh.gov/Calendar.aspx?EID=1057"
+    },
+    {
+     "text": "Public Transportation Advisory Committee Meeting",
+     "url": "https://www.newmarketnh.gov/Calendar.aspx?EID=1109"
+    },
+    {
+     "text": "Conservation Commission Meeting",
+     "url": "https://www.newmarketnh.gov/Calendar.aspx?EID=1161"
+    },
+    {
+     "text": "Budget Committee Meeting",
+     "url": "https://www.newmarketnh.gov/Calendar.aspx?EID=1523"
+    },
+    {
+     "text": "View All Meetings",
+     "url": "https://www.newmarketnh.gov/calendar.aspx?CID=14,22"
+    }
+   ],
+   "external": [
+    "https://newmarketnh.portal.civicclerk.com/"
+   ],
+   "civicplusHost": "https://connect.civicplus.com/",
+   "civicplusFeeds": [
+    "https://www.newmarketnh.gov/RSSFeed.aspx?ModID=76&CID=All-0",
+    "https://www.newmarketnh.gov/RSSFeed.aspx?ModID=63&CID=All-0",
+    "https://www.newmarketnh.gov/RSSFeed.aspx?ModID=51&CID=All-blog.xml",
+    "https://www.newmarketnh.gov/RSSFeed.aspx?ModID=58&CID=All-calendar.xml",
+    "https://www.newmarketnh.gov/RSSFeed.aspx?CommunityJobs=False&ModID=66&CID=All-0",
+    "https://www.newmarketnh.gov/RSSFeed.aspx?ModID=1&CID=All-newsflash.xml",
+    "https://www.newmarketnh.gov/RSSFeed.aspx?ModID=53&CID=All-0"
+   ],
+   "civicclerk": "newmarketnh",
+   "meetingDocs": [
+    {
+     "page": "https://www.newmarketnh.gov/#taba98d5184-fbc4-4270-a17f-3feacf64f24c_0",
+     "docLinks": 0,
+     "sample": [],
+     "drive": false,
+     "platforms": [
+      "civicplus",
+      "civicclerk"
+     ]
+    },
+    {
+     "page": "https://www.newmarketnh.gov/Calendar.aspx?EID=692",
+     "docLinks": 0,
+     "sample": [],
+     "drive": false,
+     "platforms": [
+      "civicplus",
+      "civicclerk"
+     ]
+    },
+    {
+     "page": "https://www.newmarketnh.gov/Calendar.aspx?EID=1057",
+     "docLinks": 0,
+     "sample": [],
+     "drive": false,
+     "platforms": [
+      "civicplus",
+      "civicclerk"
+     ]
+    }
+   ],
+   "fetch": "civicclerk api",
+   "region": "greater-portsmouth"
+  },
+  "milford": {
+   "id": "milford",
+   "name": "Milford",
+   "population2020": 16131,
+   "site": "https://www.milford.nh.gov/",
+   "platforms": [],
+   "feeds": [],
+   "meetingPages": [
+    {
+     "text": "Economic Development Advisory Council",
+     "url": "https://www.milford.nh.gov/econdevadvisory"
+    },
+    {
+     "text": "Select Board",
+     "url": "https://www.milford.nh.gov/selectboard"
+    },
+    {
+     "text": "Agendas & Minutes",
+     "url": "https://www.milford.nh.gov/minutesandagendas"
+    },
+    {
+     "text": "Meeting Videos & Podcasts",
+     "url": "https://www.milford.nh.gov/meetingsandpodcasts"
+    }
+   ],
+   "external": [],
+   "meetingDocs": [
+    {
+     "page": "https://www.milford.nh.gov/econdevadvisory",
+     "docLinks": 0,
+     "sample": [],
+     "drive": false,
+     "platforms": []
+    },
+    {
+     "page": "https://www.milford.nh.gov/selectboard",
+     "docLinks": 0,
+     "sample": [],
+     "drive": false,
+     "platforms": []
+    },
+    {
+     "page": "https://www.milford.nh.gov/minutesandagendas",
+     "docLinks": 0,
+     "sample": [],
+     "drive": false,
+     "platforms": []
+    }
+   ],
+   "fetch": "manual",
+   "region": "greater-nashua"
+  },
+  "north-hampton": {
+   "id": "north-hampton",
+   "name": "North Hampton",
+   "population2020": 4538,
+   "site": "https://www.northhampton-nh.gov/",
+   "platforms": [
+    "civicplus"
+   ],
+   "feeds": [],
+   "meetingPages": [
+    {
+     "text": "Boards &amp; Committees",
+     "url": "https://www.northhampton-nh.gov/340/Boards-Committees"
+    },
+    {
+     "text": "Agendas &amp; Minutes",
+     "url": "https://www.northhampton-nh.gov/agendacenter"
+    },
+    {
+     "text": "Meeting Videos",
+     "url": "https://townhallstreams.com/towns/north_hampton_nh"
+    },
+    {
+     "text": "Little Boar&#39;s Head Heritage Commission Meeting",
+     "url": "https://www.northhampton-nh.gov/Calendar.aspx?EID=847"
+    },
+    {
+     "text": "Select Board Workshop",
+     "url": "https://www.northhampton-nh.gov/Calendar.aspx?EID=892"
+    },
+    {
+     "text": "Planning Board Meeting",
+     "url": "https://www.northhampton-nh.gov/Calendar.aspx?EID=585"
+    },
+    {
+     "text": "North Hampton School Board Meeting",
+     "url": "https://www.northhampton-nh.gov/Calendar.aspx?EID=778"
+    },
+    {
+     "text": "Select Board",
+     "url": "https://www.northhampton-nh.gov/462/Select-Board"
+    }
+   ],
+   "external": [],
+   "civicplusHost": "https://nh-northhampton.civicplus.com/",
+   "civicplusFeeds": [
+    "https://www.northhampton-nh.gov/RSSFeed.aspx?ModID=76&CID=All-0",
+    "https://www.northhampton-nh.gov/RSSFeed.aspx?ModID=65&CID=All-0",
+    "https://www.northhampton-nh.gov/RSSFeed.aspx?ModID=63&CID=All-0",
+    "https://www.northhampton-nh.gov/RSSFeed.aspx?ModID=58&CID=All-calendar.xml",
+    "https://www.northhampton-nh.gov/RSSFeed.aspx?ModID=1&CID=All-newsflash.xml"
+   ],
+   "agendaCenter": "https://www.northhampton-nh.gov/AgendaCenter",
+   "meetingDocs": [
+    {
+     "page": "https://www.northhampton-nh.gov/340/Boards-Committees",
+     "docLinks": 0,
+     "sample": [],
+     "drive": false,
+     "platforms": [
+      "civicplus"
+     ]
+    },
+    {
+     "page": "https://www.northhampton-nh.gov/agendacenter",
+     "docLinks": 476,
+     "sample": [
+      "https://www.northhampton-nh.gov/AgendaCenter/ViewFile/Agenda/_06012026-463",
+      "https://www.northhampton-nh.gov/AgendaCenter/ViewFile/Agenda/_06012026-463",
+      "https://www.northhampton-nh.gov/AgendaCenter/ViewFile/Agenda/_05182026-446"
+     ],
+     "drive": false,
+     "platforms": [
+      "civicplus"
+     ]
+    },
+    {
+     "page": "https://www.northhampton-nh.gov/Calendar.aspx?EID=847",
+     "docLinks": 0,
+     "sample": [],
+     "drive": false,
+     "platforms": [
+      "civicplus"
+     ]
+    }
+   ],
+   "fetch": "civicplus feeds + agenda center",
+   "region": "greater-portsmouth"
+  },
+  "hudson": {
+   "id": "hudson",
+   "name": "Hudson",
+   "population2020": 25394,
+   "site": "https://www.hudsonnh.gov/",
+   "platforms": [
+    "civicplus"
+   ],
+   "feeds": [],
+   "meetingPages": [
+    {
+     "text": "Boards and Committees",
+     "url": "https://www.hudsonnh.gov/1198/Boards-and-Committees"
+    },
+    {
+     "text": "Agendas &amp; Minutes",
+     "url": "https://nh-hudson.civicplus.com/agendacenter"
+    }
+   ],
+   "external": [],
+   "civicplusHost": "https://nh-hudson.civicplus.com/",
+   "agendaCenter": "https://www.hudsonnh.gov/AgendaCenter",
+   "meetingDocs": [
+    {
+     "page": "https://www.hudsonnh.gov/1198/Boards-and-Committees",
+     "docLinks": 0,
+     "sample": [],
+     "drive": false,
+     "platforms": [
+      "civicplus"
+     ]
+    }
+   ],
+   "fetch": "agenda center",
+   "region": "greater-nashua"
+  },
+  "nashua": {
+   "id": "nashua",
+   "name": "Nashua",
+   "population2020": 91322,
+   "site": "https://www.nashuanh.gov/",
+   "platforms": [
+    "civicplus",
+    "civicclerk"
+   ],
+   "feeds": [],
+   "meetingPages": [
+    {
+     "text": "Agendas &amp; Minutes Portal",
+     "url": "https://nashuanh.portal.civicclerk.com/"
+    },
+    {
+     "text": "BIDA Regular Meeting",
+     "url": "https://www.nashuanh.gov/Calendar.aspx?EID=14549"
+    },
+    {
+     "text": "Board of Fire Commission Meeting",
+     "url": "https://www.nashuanh.gov/Calendar.aspx?EID=13766"
+    },
+    {
+     "text": "Conservation Commission Meeting",
+     "url": "https://www.nashuanh.gov/Calendar.aspx?EID=13860"
+    },
+    {
+     "text": "Board of Aldermen - Non-meeting/Workshop",
+     "url": "https://www.nashuanh.gov/Calendar.aspx?EID=14486"
+    }
+   ],
+   "external": [
+    "https://nashuanh.portal.civicclerk.com/",
+    "https://www.facebook.com/GateCityGovernment"
+   ],
+   "civicplusHost": "https://connect.civicplus.com/",
+   "civicplusFeeds": [
+    "https://www.nashuanh.gov/RSSFeed.aspx?ModID=76&CID=All-0",
+    "https://www.nashuanh.gov/RSSFeed.aspx?ModID=65&CID=All-0",
+    "https://www.nashuanh.gov/RSSFeed.aspx?ModID=63&CID=All-0",
+    "https://www.nashuanh.gov/RSSFeed.aspx?ModID=51&CID=All-blog.xml",
+    "https://www.nashuanh.gov/RSSFeed.aspx?ModID=58&CID=All-calendar.xml",
+    "https://www.nashuanh.gov/RSSFeed.aspx?ModID=1&CID=All-newsflash.xml",
+    "https://www.nashuanh.gov/RSSFeed.aspx?ModID=53&CID=All-0"
+   ],
+   "agendaCenter": "https://www.nashuanh.gov/AgendaCenter",
+   "civicclerk": "nashuanh",
+   "meetingDocs": [
+    {
+     "page": "https://www.nashuanh.gov/Calendar.aspx?EID=14549",
+     "docLinks": 0,
+     "sample": [],
+     "drive": false,
+     "platforms": [
+      "civicplus",
+      "civicclerk"
+     ]
+    },
+    {
+     "page": "https://www.nashuanh.gov/Calendar.aspx?EID=13766",
+     "docLinks": 0,
+     "sample": [],
+     "drive": false,
+     "platforms": [
+      "civicplus",
+      "civicclerk"
+     ]
+    },
+    {
+     "page": "https://www.nashuanh.gov/Calendar.aspx?EID=13860",
+     "docLinks": 0,
+     "sample": [],
+     "drive": false,
+     "platforms": [
+      "civicplus",
+      "civicclerk"
+     ]
+    }
+   ],
+   "fetch": "civicclerk api",
+   "region": "greater-nashua"
+  },
+  "amherst": {
+   "id": "amherst",
+   "name": "Amherst",
+   "population2020": 11753,
+   "site": "https://www.amherstnh.gov/",
+   "platforms": [
+    "civicplus",
+    "civicclerk"
+   ],
+   "feeds": [],
+   "meetingPages": [
+    {
+     "text": "Boards &amp; Committees",
+     "url": "https://www.amherstnh.gov/1401/Boards-Committees"
+    },
+    {
+     "text": "Agendas &amp; Minutes",
+     "url": "https://www.amherstnh.gov/agendacenter"
+    },
+    {
+     "text": "Planning Board Meeting",
+     "url": "https://www.amherstnh.gov/Calendar.aspx?EID=374"
+    },
+    {
+     "text": "Board of Selectmen Meeting",
+     "url": "https://www.amherstnh.gov/Calendar.aspx?EID=414"
+    },
+    {
+     "text": "Ways &amp; Means Meeting",
+     "url": "https://www.amherstnh.gov/Calendar.aspx?EID=919"
+    }
+   ],
+   "external": [
+    "https://www.facebook.com/TownOfAmherstNH/"
+   ],
+   "civicplusHost": "https://nh-amherst.civicplus.com/",
+   "civicplusFeeds": [
+    "https://www.amherstnh.gov/RSSFeed.aspx?ModID=76&CID=All-0",
+    "https://www.amherstnh.gov/RSSFeed.aspx?ModID=65&CID=All-0",
+    "https://www.amherstnh.gov/RSSFeed.aspx?ModID=63&CID=All-0",
+    "https://www.amherstnh.gov/RSSFeed.aspx?ModID=58&CID=All-calendar.xml",
+    "https://www.amherstnh.gov/RSSFeed.aspx?ModID=1&CID=All-newsflash.xml"
+   ],
+   "agendaCenter": "https://www.amherstnh.gov/AgendaCenter",
+   "civicclerk": "amherstnh",
+   "meetingDocs": [
+    {
+     "page": "https://www.amherstnh.gov/1401/Boards-Committees",
+     "docLinks": 0,
+     "sample": [],
+     "drive": false,
+     "platforms": [
+      "civicplus"
+     ]
+    },
+    {
+     "page": "https://www.amherstnh.gov/agendacenter",
+     "docLinks": 423,
+     "sample": [
+      "https://www.amherstnh.gov/AgendaCenter/ViewFile/Agenda/_04152026-4",
+      "https://www.amherstnh.gov/AgendaCenter/ViewFile/Agenda/_04152026-4",
+      "https://www.amherstnh.gov/AgendaCenter/ViewFile/Agenda/_03292026-3"
+     ],
+     "drive": false,
+     "platforms": [
+      "civicplus"
+     ]
+    },
+    {
+     "page": "https://www.amherstnh.gov/Calendar.aspx?EID=374",
+     "docLinks": 0,
+     "sample": [],
+     "drive": false,
+     "platforms": [
+      "civicplus"
+     ]
+    }
+   ],
+   "fetch": "civicclerk api",
+   "region": "greater-nashua"
+  },
+  "brookline": {
+   "id": "brookline",
+   "name": "Brookline",
+   "population2020": 5639,
+   "site": "https://www.brooklinenh.org/",
+   "platforms": [
+    "squarespace"
+   ],
+   "feeds": [],
+   "meetingPages": [],
+   "external": [
+    "https://www.facebook.com/thenhrealtor"
+   ],
+   "meetingDocs": [],
+   "fetch": "manual",
+   "region": "greater-nashua"
+  },
+  "merrimack": {
+   "id": "merrimack",
+   "name": "Merrimack",
+   "population2020": 26632,
+   "site": "https://www.merrimacknh.gov/",
+   "platforms": [
+    "civicplus"
+   ],
+   "feeds": [],
+   "meetingPages": [
+    {
+     "text": "Agendas &amp; Meetings",
+     "url": "https://www.merrimacknh.gov/agendacenter"
+    },
+    {
+     "text": "11/16 at 6:00 PM - Update on Regional PFAS Contamination Public Meeting",
+     "url": "https://www.merrimacknh.gov/CivicAlerts.aspx?AID=37"
+    },
+    {
+     "text": "Meetings",
+     "url": "https://www.merrimacknh.gov/#tab3cd59ab8-5a5c-4a90-a01f-2cf8133c3adc_0"
+    },
+    {
+     "text": "Sklar Subcommittee Meeting",
+     "url": "https://www.merrimacknh.gov/Calendar.aspx?EID=679"
+    },
+    {
+     "text": "Planning Board Meeting - Cancelled",
+     "url": "https://www.merrimacknh.gov/Calendar.aspx?EID=657"
+    },
+    {
+     "text": "Town Council Meeting",
+     "url": "https://www.merrimacknh.gov/Calendar.aspx?EID=701"
+    },
+    {
+     "text": "Update on Regional PFAS Contamination Public Meeting",
+     "url": "https://www.merrimacknh.gov/Calendar.aspx?EID=984"
+    },
+    {
+     "text": "Minutes & Agendas",
+     "url": "https://www.merrimacknh.gov/AgendaCenter"
+    }
+   ],
+   "external": [
+    "https://www.facebook.com/townofmerrimack/"
+   ],
+   "civicplusHost": "https://connect.civicplus.com/",
+   "agendaCenter": "https://www.merrimacknh.gov/AgendaCenter",
+   "meetingDocs": [
+    {
+     "page": "https://www.merrimacknh.gov/agendacenter",
+     "docLinks": 450,
+     "sample": [
+      "https://www.merrimacknh.gov/AgendaCenter/ViewFile/Agenda/_11052026-389",
+      "https://www.merrimacknh.gov/AgendaCenter/ViewFile/Agenda/_11052026-389",
+      "https://www.merrimacknh.gov/AgendaCenter/ViewFile/Agenda/_10292026-388"
+     ],
+     "drive": false,
+     "platforms": [
+      "civicplus"
+     ]
+    },
+    {
+     "page": "https://www.merrimacknh.gov/CivicAlerts.aspx?AID=37",
+     "docLinks": 0,
+     "sample": [],
+     "drive": false,
+     "platforms": [
+      "civicplus"
+     ]
+    },
+    {
+     "page": "https://www.merrimacknh.gov/#tab3cd59ab8-5a5c-4a90-a01f-2cf8133c3adc_0",
+     "docLinks": 0,
+     "sample": [],
+     "drive": false,
+     "platforms": [
+      "civicplus"
+     ]
+    }
+   ],
+   "fetch": "agenda center",
+   "region": "greater-nashua"
+  },
+  "litchfield": {
+   "id": "litchfield",
+   "name": "Litchfield",
+   "population2020": 8478,
+   "site": "https://www.litchfieldnh.gov/",
+   "platforms": [
+    "civicplus"
+   ],
+   "feeds": [],
+   "meetingPages": [
+    {
+     "text": "Agendas &amp; Minutes",
+     "url": "https://www.litchfieldnh.gov/agendacenter"
+    },
+    {
+     "text": "Meetings Online",
+     "url": "https://www.youtube.com/channel/UCghq7fALfNAB53QKWlOyScw"
+    },
+    {
+     "text": "CANCELLED/Planning Board Meeting",
+     "url": "https://www.litchfieldnh.gov/Calendar.aspx?EID=1428"
+    },
+    {
+     "text": "School Board Meeting",
+     "url": "https://www.litchfieldnh.gov/Calendar.aspx?EID=1334"
+    },
+    {
+     "text": "Joint Budget Committee and School Board Meeting",
+     "url": "https://www.litchfieldnh.gov/Calendar.aspx?EID=1365"
+    },
+    {
+     "text": "Board of Selectmen",
+     "url": "https://www.litchfieldnh.gov/Calendar.aspx?EID=1246"
+    },
+    {
+     "text": "Joint Budget Committee and School Board Meeting",
+     "url": "https://www.litchfieldnh.gov/Calendar.aspx?EID=1366"
+    },
+    {
+     "text": "Agendas & Minutes",
+     "url": "https://www.litchfieldnh.gov/AgendaCenter"
+    }
+   ],
+   "external": [
+    "https://www.facebook.com/litchfieldnh/",
+    "https://www.youtube.com/channel/UCghq7fALfNAB53QKWlOyScw"
+   ],
+   "civicplusHost": "https://connect.civicplus.com/",
+   "civicplusFeeds": [
+    "https://www.litchfieldnh.gov/RSSFeed.aspx?ModID=76&CID=All-0",
+    "https://www.litchfieldnh.gov/RSSFeed.aspx?ModID=65&CID=All-0",
+    "https://www.litchfieldnh.gov/RSSFeed.aspx?ModID=63&CID=All-0",
+    "https://www.litchfieldnh.gov/RSSFeed.aspx?ModID=51&CID=All-blog.xml",
+    "https://www.litchfieldnh.gov/RSSFeed.aspx?ModID=58&CID=All-calendar.xml",
+    "https://www.litchfieldnh.gov/RSSFeed.aspx?CommunityJobs=False&ModID=66&CID=All-0",
+    "https://www.litchfieldnh.gov/RSSFeed.aspx?ModID=1&CID=All-newsflash.xml",
+    "https://www.litchfieldnh.gov/RSSFeed.aspx?ModID=53&CID=All-0"
+   ],
+   "agendaCenter": "https://www.litchfieldnh.gov/AgendaCenter",
+   "meetingDocs": [
+    {
+     "page": "https://www.litchfieldnh.gov/agendacenter",
+     "docLinks": 408,
+     "sample": [
+      "https://www.litchfieldnh.gov/AgendaCenter/ViewFile/Agenda/_10262026-974",
+      "https://www.litchfieldnh.gov/AgendaCenter/ViewFile/Minutes/_10262026-974",
+      "https://www.litchfieldnh.gov/AgendaCenter/ViewFile/Agenda/_10262026-974"
+     ],
+     "drive": false,
+     "platforms": [
+      "civicplus"
+     ]
+    },
+    {
+     "page": "https://www.litchfieldnh.gov/Calendar.aspx?EID=1428",
+     "docLinks": 0,
+     "sample": [],
+     "drive": false,
+     "platforms": [
+      "civicplus"
+     ]
+    },
+    {
+     "page": "https://www.litchfieldnh.gov/Calendar.aspx?EID=1334",
+     "docLinks": 0,
+     "sample": [],
+     "drive": false,
+     "platforms": [
+      "civicplus"
+     ]
+    }
+   ],
+   "fetch": "civicplus feeds + agenda center",
+   "region": "greater-nashua"
+  },
+  "pelham": {
+   "id": "pelham",
+   "name": "Pelham",
+   "population2020": 14222,
+   "site": "https://www.pelhamweb.com/",
+   "platforms": [
+    "civicplus",
+    "civicclerk"
+   ],
+   "feeds": [],
+   "meetingPages": [
+    {
+     "text": "Agendas &amp; Minutes Learn More",
+     "url": "https://www.pelhamweb.com/129"
+    },
+    {
+     "text": "Meetings & Events",
+     "url": "https://www.pelhamweb.com/#tabeb0e8cca-b269-4846-a43e-801585f15dd3_0"
+    }
+   ],
+   "external": [
+    "https://www.youtube.com/embed/EKfWwHa-Ft0",
+    "https://www.youtube.com/embed/Lm9xqv0qGE8",
+    "https://www.youtube.com/embed/u0w1ENTTZLI"
+   ],
+   "civicplusHost": "https://connect.civicplus.com/",
+   "civicplusFeeds": [
+    "https://www.pelhamweb.com/RSSFeed.aspx?ModID=76&CID=All-0",
+    "https://www.pelhamweb.com/RSSFeed.aspx?ModID=65&CID=All-0",
+    "https://www.pelhamweb.com/RSSFeed.aspx?ModID=63&CID=All-0",
+    "https://www.pelhamweb.com/RSSFeed.aspx?ModID=51&CID=All-blog.xml",
+    "https://www.pelhamweb.com/RSSFeed.aspx?ModID=58&CID=All-calendar.xml",
+    "https://www.pelhamweb.com/RSSFeed.aspx?CommunityJobs=False&ModID=66&CID=All-0",
+    "https://www.pelhamweb.com/RSSFeed.aspx?ModID=1&CID=All-newsflash.xml",
+    "https://www.pelhamweb.com/RSSFeed.aspx?ModID=53&CID=All-0"
+   ],
+   "civicclerk": "pelhamnh",
+   "meetingDocs": [
+    {
+     "page": "https://www.pelhamweb.com/129",
+     "docLinks": 0,
+     "sample": [],
+     "drive": false,
+     "platforms": [
+      "civicplus"
+     ]
+    },
+    {
+     "page": "https://www.pelhamweb.com/#tabeb0e8cca-b269-4846-a43e-801585f15dd3_0",
+     "docLinks": 0,
+     "sample": [],
+     "drive": false,
+     "platforms": [
+      "civicplus"
+     ]
+    }
+   ],
+   "fetch": "civicclerk api",
+   "region": "greater-nashua"
+  },
+  "hooksett": {
+   "id": "hooksett",
+   "name": "Hooksett",
+   "population2020": 14871,
+   "site": "https://www.hooksett.gov/",
+   "platforms": [
+    "granicus",
+    "revize"
+   ],
+   "feeds": [],
+   "meetingPages": [
+    {
+     "text": "Town Council",
+     "url": "https://www.hooksett.gov/government/town_council/index.php"
+    },
+    {
+     "text": "Agendas and Minutes",
+     "url": "https://www.hooksett.gov/government/town_council/agendas_and_minutes.php"
+    },
+    {
+     "text": "Town Council Meeting Recaps",
+     "url": "https://www.hooksett.gov/news_detail_T10_R275.php"
+    },
+    {
+     "text": "Town Council Meeting Schedule",
+     "url": "https://www.hooksett.gov/26-27%20TOWN%20COUNCIL%20MEETING%20SCHEDULE.pdf"
+    },
+    {
+     "text": "Town Council Rules of Procedures",
+     "url": "https://www.hooksett.gov/Documents/Government/Town%20Council/TC%20Rules%20of%20Procedure%2010232024.pdf"
+    },
+    {
+     "text": "Town Charter",
+     "url": "https://www.hooksett.gov/Documents/Government/Town%20Council/2024%20Complete%20Town%20Charter.pdf"
+    },
+    {
+     "text": "Town Council Adopted Resolutions",
+     "url": "https://www.hooksett.gov/government/town_council/town_council_adopted_resolutions.php"
+    },
+    {
+     "text": "2026 Charter Sub Committee",
+     "url": "https://www.hooksett.gov/government/town_council/2026_charter_sub_committee.php"
+    },
+    {
+     "text": "Boards & Committees",
+     "url": "https://www.hooksett.gov/government/boards_committees/index.php"
+    },
+    {
+     "text": "Agendas & Minutes",
+     "url": "https://www.hooksett.gov/government/agendas___minutes.php"
+    },
+    {
+     "text": "View Meeting Recordings",
+     "url": "https://hooksett.granicus.com/ViewPublisher.php?view_id=2"
+    },
+    {
+     "text": "2023 DRA Statistics",
+     "url": "https://www.hooksett.gov/Documents/Government/Town%20Council/Agendas%20&%20Minutes/2024/TC%20presentation%203-13-24.pdf"
+    }
+   ],
+   "external": [
+    "https://hooksett.granicus.com/ViewPublisher.php",
+    "https://www.facebook.com/HooksettTransferRecycling",
+    "http://hooksett.granicus.com/ViewPublisher.php",
+    "https://www.facebook.com/profile.php",
+    "https://www.facebook.com/sharer/sharer.php"
+   ],
+   "granicus": "https://hooksett.granicus.com/ViewPublisher.php?view_id=2",
+   "meetingDocs": [
+    {
+     "page": "https://www.hooksett.gov/government/town_council/index.php",
+     "docLinks": 1,
+     "sample": [
+      "https://www.hooksett.gov/Documents/Government/Town%20Council/Agendas%20&%20Minutes/2024/TC%20presentation%203-13-24.pdf"
+     ],
+     "drive": false,
+     "platforms": [
+      "granicus",
+      "revize"
+     ]
+    },
+    {
+     "page": "https://www.hooksett.gov/government/town_council/agendas_and_minutes.php",
+     "docLinks": 488,
+     "sample": [
+      "https://www.hooksett.gov/Documents/Government/Town%20Council/Agendas%20&%20Minutes/2024/TC%20presentation%203-13-24.pdf",
+      "https://www.hooksett.gov/Town%20Council%20-%2004%20Nov%202026%20-%20Agenda%20-%20Pdf.pdf?t=202610280803080",
+      "https://www.hooksett.gov/Town%20Council%20-%2028%20Oct%202026%20-%20Agenda%20-%20Pdf.pdf?t=202610211648520"
+     ],
+     "drive": false,
+     "platforms": [
+      "granicus",
+      "revize"
+     ]
+    },
+    {
+     "page": "https://www.hooksett.gov/news_detail_T10_R275.php",
+     "docLinks": 1,
+     "sample": [
+      "https://www.hooksett.gov/Documents/Government/Town%20Council/Agendas%20&%20Minutes/2024/TC%20presentation%203-13-24.pdf"
+     ],
+     "drive": false,
+     "platforms": [
+      "granicus",
+      "revize"
+     ]
+    }
+   ],
+   "fetch": "meeting page links",
+   "region": "greater-manchester"
+  },
+  "manchester": {
+   "id": "manchester",
+   "name": "Manchester",
+   "population2020": 115644,
+   "site": "https://www.manchesternh.gov/",
+   "platforms": [
+    "civicclerk"
+   ],
+   "feeds": [],
+   "meetingPages": [
+    {
+     "text": "Senior Services Commission",
+     "url": "https://www.manchesternh.gov/Departments/Cashin-Senior-Center/Senior-Services-Commission-Minutes-and-Agendas"
+    },
+    {
+     "text": "Agenda & Minutes",
+     "url": "https://www.manchesternh.gov/Departments/City-Clerk/Meeting-Minutes-and-Agendas"
+    },
+    {
+     "text": "Board of Mayor and Aldermen",
+     "url": "https://www.manchesternh.gov/Departments/City-Clerk/Municipal-Archives-and-Records/Collection-Guides/Board-of-Mayor-and-Aldermen"
+    },
+    {
+     "text": "Minutes Archive",
+     "url": "https://www.manchesternh.gov/Departments/Economic-Development/Arts-Commission/Minutes-Archive"
+    },
+    {
+     "text": "CBSD Minutes and Agendas",
+     "url": "https://www.manchesternh.gov/Departments/Economic-Development/Central-Business-Service-District/CBSD-Minutes-and-Agendas"
+    },
+    {
+     "text": "Quality Council",
+     "url": "https://www.manchesternh.gov/Departments/Human-Resources/Employee-Committees/Quality-Council"
+    },
+    {
+     "text": "Bright Ideas Program",
+     "url": "https://www.manchesternh.gov/Departments/Human-Resources/Employee-Committees/Quality-Council/Bright-Ideas-Program"
+    },
+    {
+     "text": "Employee Appreciation Events",
+     "url": "https://www.manchesternh.gov/Departments/Human-Resources/Employee-Committees/Quality-Council/Employee-Appreciation-Events"
+    },
+    {
+     "text": "Memorial Pantry",
+     "url": "https://www.manchesternh.gov/Departments/Human-Resources/Employee-Committees/Quality-Council/Memorial-Pantry"
+    },
+    {
+     "text": "Meeting Minutes and Agendas",
+     "url": "https://www.manchesternh.gov/Departments/Planning-and-Comm-Dev/Commissions/Conservation-Commission/Meeting-Minutes-and-Agendas"
+    },
+    {
+     "text": "Agendas",
+     "url": "https://www.manchesternh.gov/Departments/Planning-and-Comm-Dev/Commissions/Heritage-Commission/Agendas"
+    },
+    {
+     "text": "Meetings and Milestones",
+     "url": "https://www.manchesternh.gov/Departments/Planning-and-Comm-Dev/ConPlan-Update/Meetings-and-Milestones"
+    }
+   ],
+   "external": [
+    "https://www.facebook.com/cityofmanchesternh/",
+    "https://www.youtube.com/playlist"
+   ],
+   "civicclerk": "manchesternh",
+   "meetingDocs": [
+    {
+     "page": "https://www.manchesternh.gov/Departments/Cashin-Senior-Center/Senior-Services-Commission-Minutes-and-Agendas",
+     "docLinks": 4,
+     "sample": [
+      "https://www.manchesternh.gov/Portals/2/Departments/senior_services/Minutes/2026-08-20_SENIOR_SERVICES_COMMISSION_MEETING_MINUTES_AUGUST_2026.PDF",
+      "https://www.manchesternh.gov/Portals/2/Departments/senior_services/Minutes/2026-03-24_SENIOR_SERVICES_COMMISSION_MEETING_MINUTES_DRAFT_MARCH_2026.PDF",
+      "https://www.manchesternh.gov/Portals/2/Departments/senior_services/Minutes/2026-03-24_SENIOR_SERVICES_COMMISSION_MEETING_AGENDA_MARCH_2026.PDF"
+     ],
+     "drive": false,
+     "platforms": []
+    },
+    {
+     "page": "https://www.manchesternh.gov/Departments/City-Clerk/Meeting-Minutes-and-Agendas",
+     "docLinks": 0,
+     "sample": [],
+     "drive": false,
+     "platforms": []
+    },
+    {
+     "page": "https://www.manchesternh.gov/Departments/City-Clerk/Municipal-Archives-and-Records/Collection-Guides/Board-of-Mayor-and-Aldermen",
+     "docLinks": 0,
+     "sample": [],
+     "drive": false,
+     "platforms": []
+    }
+   ],
+   "fetch": "civicclerk api",
+   "region": "greater-manchester"
+  },
+  "bedford": {
+   "id": "bedford",
+   "name": "Bedford",
+   "population2020": 23322,
+   "site": "https://www.bedfordnh.gov/",
+   "platforms": [
+    "civicplus"
+   ],
+   "feeds": [],
+   "meetingPages": [
+    {
+     "text": "Agendas &amp; Meetings",
+     "url": "https://www.bedfordnh.gov/agendacenter"
+    },
+    {
+     "text": "Additional Info...",
+     "url": "https://www.bedfordnh.gov/DocumentCenter/View/9630/PFAS-Nov-16-Public-Meeting-Flyer"
+    },
+    {
+     "text": "Public Meetings",
+     "url": "https://www.bedfordnh.gov/#tab2acf949c-4c74-415d-82b0-d782f25ee727_0"
+    },
+    {
+     "text": "Planning Board Meeting",
+     "url": "https://www.bedfordnh.gov/Calendar.aspx?EID=2114"
+    },
+    {
+     "text": "Town Council Budget Workshop",
+     "url": "https://www.bedfordnh.gov/Calendar.aspx?EID=2317"
+    },
+    {
+     "text": "Town Council Budget Workshop",
+     "url": "https://www.bedfordnh.gov/Calendar.aspx?EID=2318"
+    },
+    {
+     "text": "View All Meetings",
+     "url": "https://www.bedfordnh.gov/calendar.aspx?CID=14,25"
+    }
+   ],
+   "external": [
+    "https://www.facebook.com/people/Town-of-Bedford-NH/100068201269905/",
+    "https://www.facebook.com/Town-of-Bedford-NH-513340032128890/"
+   ],
+   "civicplusHost": "https://connect.civicplus.com/",
+   "civicplusFeeds": [
+    "https://www.bedfordnh.gov/RSSFeed.aspx?ModID=76&CID=All-0",
+    "https://www.bedfordnh.gov/RSSFeed.aspx?ModID=65&CID=All-0",
+    "https://www.bedfordnh.gov/RSSFeed.aspx?ModID=63&CID=All-0",
+    "https://www.bedfordnh.gov/RSSFeed.aspx?ModID=51&CID=All-blog.xml",
+    "https://www.bedfordnh.gov/RSSFeed.aspx?ModID=58&CID=All-calendar.xml",
+    "https://www.bedfordnh.gov/RSSFeed.aspx?CommunityJobs=False&ModID=66&CID=All-0",
+    "https://www.bedfordnh.gov/RSSFeed.aspx?ModID=1&CID=All-newsflash.xml",
+    "https://www.bedfordnh.gov/RSSFeed.aspx?ModID=64&CID=All-0",
+    "https://www.bedfordnh.gov/RSSFeed.aspx?ModID=53&CID=All-0"
+   ],
+   "agendaCenter": "https://www.bedfordnh.gov/AgendaCenter",
+   "meetingDocs": [
+    {
+     "page": "https://www.bedfordnh.gov/agendacenter",
+     "docLinks": 498,
+     "sample": [
+      "https://www.bedfordnh.gov/AgendaCenter/ViewFile/Agenda/_10292026-3025",
+      "https://www.bedfordnh.gov/AgendaCenter/ViewFile/Agenda/_10292026-3025",
+      "https://www.bedfordnh.gov/AgendaCenter/ViewFile/Agenda/_05072026-2948"
+     ],
+     "drive": false,
+     "platforms": [
+      "civicplus"
+     ]
+    },
+    {
+     "page": "https://www.bedfordnh.gov/DocumentCenter/View/9630/PFAS-Nov-16-Public-Meeting-Flyer",
+     "docLinks": 0,
+     "sample": [],
+     "drive": false,
+     "platforms": []
+    },
+    {
+     "page": "https://www.bedfordnh.gov/#tab2acf949c-4c74-415d-82b0-d782f25ee727_0",
+     "docLinks": 0,
+     "sample": [],
+     "drive": false,
+     "platforms": [
+      "civicplus"
+     ]
+    }
+   ],
+   "fetch": "civicplus feeds + agenda center",
+   "region": "greater-manchester"
+  },
+  "hollis": {
+   "id": "hollis",
+   "name": "Hollis",
+   "population2020": 8342,
+   "site": "https://www.hollisnh.gov/",
+   "platforms": [
+    "civicplus"
+   ],
+   "feeds": [],
+   "meetingPages": [
+    {
+     "text": "Boards &amp; Committees",
+     "url": "https://www.hollisnh.gov/1253/Boards-Committees"
+    },
+    {
+     "text": "Minutes &amp; Agenda",
+     "url": "https://www.hollisnh.gov/agendacenter"
+    },
+    {
+     "text": "Meeting Videos",
+     "url": "https://townhallstreams.com/towns/hollis_nh"
+    },
+    {
+     "text": "Budget / Town Meeting",
+     "url": "https://www.hollisnh.gov/1533/Budget-Town-Meeting"
+    }
+   ],
+   "external": [],
+   "civicplusHost": "https://nh-hollis.civicplus.com/",
+   "agendaCenter": "https://www.hollisnh.gov/AgendaCenter",
+   "meetingDocs": [
+    {
+     "page": "https://www.hollisnh.gov/1253/Boards-Committees",
+     "docLinks": 1,
+     "sample": [
+      "https://www.hollisnh.gov/DocumentCenter/View/3590/2026-Meeting-Agenda-Deadlines-PDF"
+     ],
+     "drive": true,
+     "platforms": [
+      "civicplus",
+      "google-drive-links"
+     ]
+    },
+    {
+     "page": "https://www.hollisnh.gov/agendacenter",
+     "docLinks": 628,
+     "sample": [
+      "https://www.hollisnh.gov/AgendaCenter/ViewFile/Agenda/_07092026-359?html=true",
+      "https://www.hollisnh.gov/AgendaCenter/ViewFile/Minutes/_07092026-359",
+      "https://www.hollisnh.gov/AgendaCenter/ViewFile/Agenda/_07092026-359?html=true"
+     ],
+     "drive": false,
+     "platforms": [
+      "civicplus"
+     ]
+    },
+    {
+     "page": "https://www.hollisnh.gov/1533/Budget-Town-Meeting",
+     "docLinks": 0,
+     "sample": [],
+     "drive": false,
+     "platforms": [
+      "civicplus"
+     ]
+    }
+   ],
+   "fetch": "agenda center",
+   "region": "greater-nashua"
+  },
+  "new-boston": {
+   "id": "new-boston",
+   "name": "New Boston",
+   "population2020": 6108,
+   "site": "https://www.newbostonnh.gov/",
+   "platforms": [],
+   "feeds": [],
+   "meetingPages": [],
+   "external": [
+    "https://www.facebook.com/TownofNewBoston/"
+   ],
+   "meetingDocs": [],
+   "fetch": "manual",
+   "region": "greater-manchester"
+  },
+  "auburn": {
+   "id": "auburn",
+   "name": "Auburn",
+   "population2020": 5946,
+   "site": "https://www.auburnnh.gov/",
+   "platforms": [
+    "civicplus"
+   ],
+   "feeds": [],
+   "meetingPages": [
+    {
+     "text": "Boards &amp; Committees",
+     "url": "https://www.auburnnh.gov/196/Boards-Committees"
+    },
+    {
+     "text": "Agendas &amp; Minutes",
+     "url": "https://www.auburnnh.gov/agendacenter"
+    },
+    {
+     "text": "Conservation Commission Meeting Read on...",
+     "url": "https://www.auburnnh.gov/Calendar.aspx?EID=449"
+    }
+   ],
+   "external": [],
+   "civicplusHost": "https://connect.civicplus.com/",
+   "agendaCenter": "https://www.auburnnh.gov/AgendaCenter",
+   "meetingDocs": [
+    {
+     "page": "https://www.auburnnh.gov/196/Boards-Committees",
+     "docLinks": 0,
+     "sample": [],
+     "drive": false,
+     "platforms": [
+      "civicplus"
+     ]
+    },
+    {
+     "page": "https://www.auburnnh.gov/agendacenter",
+     "docLinks": 273,
+     "sample": [
+      "https://www.auburnnh.gov/AgendaCenter/ViewFile/Agenda/_10262026-193",
+      "https://www.auburnnh.gov/AgendaCenter/ViewFile/Agenda/_10262026-193",
+      "https://www.auburnnh.gov/AgendaCenter/ViewFile/Agenda/_10192026-189"
+     ],
+     "drive": false,
+     "platforms": [
+      "civicplus"
+     ]
+    },
+    {
+     "page": "https://www.auburnnh.gov/Calendar.aspx?EID=449",
+     "docLinks": 0,
+     "sample": [],
+     "drive": false,
+     "platforms": [
+      "civicplus"
+     ]
+    }
+   ],
+   "fetch": "agenda center",
+   "region": "greater-manchester"
+  },
+  "conway": {
+   "id": "conway",
+   "name": "Conway",
+   "population2020": 9810,
+   "site": "https://conwaynh.gov/",
+   "platforms": [],
+   "feeds": [],
+   "meetingPages": [],
+   "external": [
+    "https://www.facebook.com/p/Town-of-Conway-NH-100071314939577/"
+   ],
+   "meetingDocs": [],
+   "fetch": "manual",
+   "region": "mount-washington-valley"
+  },
+  "derry": {
+   "id": "derry",
+   "name": "Derry",
+   "population2020": 34317,
+   "site": "https://www.derrynh.gov/",
+   "platforms": [
+    "civicplus"
+   ],
+   "feeds": [],
+   "meetingPages": [
+    {
+     "text": "Agendas &amp; Minutes",
+     "url": "https://www.derrynh.gov/agendacenter"
+    },
+    {
+     "text": "Meetings",
+     "url": "https://www.derrynh.gov/#tabc68bf49a-7ed2-4af6-b5c1-eef2e2a5dac4_0"
+    },
+    {
+     "text": "Town Council - No Meeting Read On",
+     "url": "https://www.derrynh.gov/Calendar.aspx?EID=671"
+    },
+    {
+     "text": "View All Meetings",
+     "url": "https://www.derrynh.gov/calendar.aspx?CID=14"
+    }
+   ],
+   "external": [
+    "https://www.facebook.com/TownofDerryNH/"
+   ],
+   "civicplusHost": "https://nh-derry.civicplus.com/",
+   "civicplusFeeds": [
+    "https://www.derrynh.gov/RSSFeed.aspx?ModID=76&CID=All-0",
+    "https://www.derrynh.gov/RSSFeed.aspx?ModID=65&CID=All-0",
+    "https://www.derrynh.gov/RSSFeed.aspx?ModID=63&CID=All-0",
+    "https://www.derrynh.gov/RSSFeed.aspx?ModID=51&CID=All-blog.xml",
+    "https://www.derrynh.gov/RSSFeed.aspx?ModID=58&CID=All-calendar.xml",
+    "https://www.derrynh.gov/RSSFeed.aspx?CommunityJobs=False&ModID=66&CID=All-0",
+    "https://www.derrynh.gov/RSSFeed.aspx?ModID=1&CID=All-newsflash.xml",
+    "https://www.derrynh.gov/RSSFeed.aspx?ModID=53&CID=All-0"
+   ],
+   "agendaCenter": "https://www.derrynh.gov/AgendaCenter",
+   "meetingDocs": [
+    {
+     "page": "https://www.derrynh.gov/agendacenter",
+     "docLinks": 386,
+     "sample": [
+      "https://www.derrynh.gov/AgendaCenter/ViewFile/Agenda/_01212025-197",
+      "https://www.derrynh.gov/AgendaCenter/ViewFile/Minutes/_01212025-197",
+      "https://www.derrynh.gov/AgendaCenter/ViewFile/Agenda/_01212025-197"
+     ],
+     "drive": false,
+     "platforms": [
+      "civicplus"
+     ]
+    },
+    {
+     "page": "https://www.derrynh.gov/#tabc68bf49a-7ed2-4af6-b5c1-eef2e2a5dac4_0",
+     "docLinks": 0,
+     "sample": [],
+     "drive": false,
+     "platforms": [
+      "civicplus"
+     ]
+    },
+    {
+     "page": "https://www.derrynh.gov/Calendar.aspx?EID=671",
+     "docLinks": 0,
+     "sample": [],
+     "drive": false,
+     "platforms": [
+      "civicplus"
+     ]
+    }
+   ],
+   "fetch": "civicplus feeds + agenda center",
+   "region": "greater-manchester"
+  },
+  "greenland": {
+   "id": "greenland",
+   "name": "Greenland",
+   "population2020": 4067,
+   "site": "https://www.greenland.nh.gov/",
+   "platforms": [
+    "civicplus"
+   ],
+   "feeds": [],
+   "meetingPages": [
+    {
+     "text": "Boards &amp; Committees",
+     "url": "https://www.greenland.nh.gov/1382/Boards-Committees-Commissions"
+    },
+    {
+     "text": "Stream Meetings",
+     "url": "https://www.greenland.nh.gov/1582/Stream-Meetings"
+    },
+    {
+     "text": "Agendas &amp; Minutes",
+     "url": "https://www.greenland.nh.gov/AgendaCenter"
+    },
+    {
+     "text": "Board of Selectmen",
+     "url": "https://www.greenland.nh.gov/Calendar.aspx?EID=396"
+    }
+   ],
+   "external": [
+    "https://www.facebook.com/greenlandnh",
+    "https://www.facebook.com/greenlandnh/"
+   ],
+   "civicplusHost": "https://connect.civicplus.com/",
+   "agendaCenter": "https://www.greenland.nh.gov/AgendaCenter",
+   "meetingDocs": [
+    {
+     "page": "https://www.greenland.nh.gov/1382/Boards-Committees-Commissions",
+     "docLinks": 0,
+     "sample": [],
+     "drive": false,
+     "platforms": [
+      "civicplus"
+     ]
+    },
+    {
+     "page": "https://www.greenland.nh.gov/1582/Stream-Meetings",
+     "docLinks": 0,
+     "sample": [],
+     "drive": false,
+     "platforms": [
+      "civicplus"
+     ]
+    },
+    {
+     "page": "https://www.greenland.nh.gov/AgendaCenter",
+     "docLinks": 179,
+     "sample": [
+      "https://www.greenland.nh.gov/AgendaCenter/ViewFile/Agenda/_11022026-143",
+      "https://www.greenland.nh.gov/AgendaCenter/ViewFile/Agenda/_11022026-143",
+      "https://www.greenland.nh.gov/AgendaCenter/ViewFile/Agenda/_10192026-141"
+     ],
+     "drive": false,
+     "platforms": [
+      "civicplus"
+     ]
+    }
+   ],
+   "fetch": "agenda center",
+   "region": "greater-portsmouth"
+  },
+  "weare": {
+   "id": "weare",
+   "name": "Weare",
+   "population2020": 9092,
+   "site": "https://www.wearenh.org/",
+   "platforms": [],
+   "feeds": [],
+   "meetingPages": [],
+   "external": [],
+   "meetingDocs": [],
+   "fetch": "manual",
+   "region": "greater-manchester"
+  },
+  "tamworth": {
+   "id": "tamworth",
+   "name": "Tamworth",
+   "population2020": 2823,
+   "site": "https://www.tamworthnh.gov/",
+   "platforms": [
+    "civicplus"
+   ],
+   "feeds": [],
+   "meetingPages": [
+    {
+     "text": "Boards &amp; Committees",
+     "url": "https://www.tamworthnh.gov/1248/Boards-Committees"
+    },
+    {
+     "text": "Minutes &amp; Agendas",
+     "url": "https://www.tamworthnh.gov/agendacenter"
+    },
+    {
+     "text": "Library Trustees Meeting",
+     "url": "https://www.tamworthnh.gov/Calendar.aspx?EID=474"
+    },
+    {
+     "text": "Conservation Commission Meeting",
+     "url": "https://www.tamworthnh.gov/Calendar.aspx?EID=486"
+    }
+   ],
+   "external": [],
+   "civicplusHost": "https://connect.civicplus.com/",
+   "agendaCenter": "https://www.tamworthnh.gov/AgendaCenter",
+   "meetingDocs": [
+    {
+     "page": "https://www.tamworthnh.gov/1248/Boards-Committees",
+     "docLinks": 0,
+     "sample": [],
+     "drive": false,
+     "platforms": [
+      "civicplus"
+     ]
+    },
+    {
+     "page": "https://www.tamworthnh.gov/agendacenter",
+     "docLinks": 585,
+     "sample": [
+      "https://www.tamworthnh.gov/AgendaCenter/ViewFile/Agenda/_09162026-301?html=true",
+      "https://www.tamworthnh.gov/AgendaCenter/ViewFile/Minutes/_09162026-301",
+      "https://www.tamworthnh.gov/AgendaCenter/ViewFile/Agenda/_09162026-301?html=true"
+     ],
+     "drive": false,
+     "platforms": [
+      "civicplus"
+     ]
+    },
+    {
+     "page": "https://www.tamworthnh.gov/Calendar.aspx?EID=474",
+     "docLinks": 0,
+     "sample": [],
+     "drive": false,
+     "platforms": [
+      "civicplus"
+     ]
+    }
+   ],
+   "fetch": "agenda center",
+   "region": "mount-washington-valley"
+  },
+  "madison": {
+   "id": "madison",
+   "name": "Madison",
+   "population2020": 2568,
+   "site": "https://www.madison-nh.org/",
+   "platforms": [
+    "wordpress"
+   ],
+   "feeds": [
+    "https://www.madison-nh.org/feed/"
+   ],
+   "meetingPages": [
+    {
+     "text": "Selectmen",
+     "url": "https://www.madison-nh.org/selectmen/"
+    },
+    {
+     "text": "Meeting Agendas",
+     "url": "https://www.madison-nh.org/selectmen/meeting-agendas/"
+    },
+    {
+     "text": "Selectmen Minutes",
+     "url": "https://www.madison-nh.org/selectmen/selectmen-minutes/"
+    },
+    {
+     "text": "Meeting Minutes – ABC",
+     "url": "https://www.madison-nh.org/boards/advisory-budget-committee/meeting-minutes/"
+    },
+    {
+     "text": "Capital Improvement Committee Minutes",
+     "url": "https://www.madison-nh.org/capital-improvement-committee-minutes/"
+    },
+    {
+     "text": "Conservation Commission Minutes",
+     "url": "https://www.madison-nh.org/boards/conservation-commission/meeting-minutes-conservation/"
+    },
+    {
+     "text": "Madison P.E.G. TV Minutes",
+     "url": "https://www.madison-nh.org/boards/madison-tv/minutes/"
+    },
+    {
+     "text": "Meeting Minutes – Planning Board",
+     "url": "https://www.madison-nh.org/boards/planning-board/meeting-minutes-planning/"
+    },
+    {
+     "text": "Rec Committee Minutes",
+     "url": "https://www.madison-nh.org/rec-committee-minutes/"
+    },
+    {
+     "text": "Meeting Minutes – Vet Support Committee",
+     "url": "https://www.madison-nh.org/boards/veterans-support-committee/meeting-minutes/"
+    },
+    {
+     "text": "Meeting Minutes – ZBA",
+     "url": "https://www.madison-nh.org/boards/zoning/meeting-minutes-zoning/"
+    },
+    {
+     "text": "troy@nccouncil.org",
+     "url": "mailto:troy@nccouncil.org"
+    }
+   ],
+   "external": [],
+   "meetingDocs": [
+    {
+     "page": "https://www.madison-nh.org/selectmen/",
+     "docLinks": 1,
+     "sample": [
+      "https://www.madison-nh.org/wp-content/uploads/2026/01/1a-Selectmens-Meeting-Procedure-2.pdf"
+     ],
+     "drive": false,
+     "platforms": [
+      "wordpress"
+     ]
+    },
+    {
+     "page": "https://www.madison-nh.org/selectmen/meeting-agendas/",
+     "docLinks": 70,
+     "sample": [
+      "https://www.madison-nh.org/wp-content/uploads/2026/10/2026-10-27-Agenda.pdf",
+      "https://www.madison-nh.org/wp-content/uploads/2026/10/2026-10-13-Agenda.pdf",
+      "https://www.madison-nh.org/wp-content/uploads/2026/09/2026-09-29-Agenda.pdf"
+     ],
+     "drive": false,
+     "platforms": [
+      "wordpress"
+     ]
+    },
+    {
+     "page": "https://www.madison-nh.org/selectmen/selectmen-minutes/",
+     "docLinks": 1,
+     "sample": [
+      "https://www.madison-nh.org/wp-content/uploads/2025/01/April-01.pdf"
+     ],
+     "drive": false,
+     "platforms": [
+      "wordpress"
+     ]
+    }
+   ],
+   "fetch": "meeting page links",
+   "region": "mount-washington-valley"
+  },
+  "jackson": {
+   "id": "jackson",
+   "name": "Jackson",
+   "population2020": 1030,
+   "site": "https://www.jackson-nh.gov/",
+   "platforms": [
+    "wordpress"
+   ],
+   "feeds": [
+    "https://www.jackson-nh.gov/feed/"
+   ],
+   "meetingPages": [
+    {
+     "text": "Boards &#038; Committees",
+     "url": "https://www.jackson-nh.gov/boards-committees/"
+    },
+    {
+     "text": "Conservation Commission",
+     "url": "https://www.jackson-nh.gov/boards-committees/conservation-commission/"
+    },
+    {
+     "text": "Conservation Links",
+     "url": "https://www.jackson-nh.gov/boards-committees/conservation-commission/conservation-links/"
+    },
+    {
+     "text": "Conservation Easements",
+     "url": "https://www.jackson-nh.gov/boards-committees/conservation-commission/conservation-easements/"
+    },
+    {
+     "text": "Invasive Plant Species",
+     "url": "https://www.jackson-nh.gov/boards-committees/conservation-commission/invasive-plant-species/"
+    },
+    {
+     "text": "Prospect Farm History",
+     "url": "https://www.jackson-nh.gov/boards-committees/conservation-commission/prospect-farm-history/"
+    },
+    {
+     "text": "Scenic Roads in Jackson",
+     "url": "https://www.jackson-nh.gov/boards-committees/conservation-commission/scenic-roads-in-jackson/"
+    },
+    {
+     "text": "Cemetery Trustees",
+     "url": "https://www.jackson-nh.gov/boards-committees/cemetery-trustees/"
+    },
+    {
+     "text": "Jackson Village and Dundee Cemetery Records",
+     "url": "https://www.jackson-nh.gov/boards-committees/cemetery-trustees/jackson-village-and-dundee-cemetery-records/"
+    },
+    {
+     "text": "Planning Board",
+     "url": "https://www.jackson-nh.gov/boards-committees/planning-board/"
+    },
+    {
+     "text": "Appeals of Planning Board Decisions",
+     "url": "https://www.jackson-nh.gov/boards-committees/planning-board/appeals-of-planning-board-decisions/"
+    },
+    {
+     "text": "Applications, Checklists &#038; Fee Schedule",
+     "url": "https://www.jackson-nh.gov/boards-committees/planning-board/applications-checklists-fee-schedule/"
+    }
+   ],
+   "external": [
+    "https://www.youtube.com/@jacksonflicks",
+    "https://www.youtube.com/user/jacksonflicks"
+   ],
+   "meetingDocs": [
+    {
+     "page": "https://www.jackson-nh.gov/boards-committees/",
+     "docLinks": 0,
+     "sample": [],
+     "drive": false,
+     "platforms": [
+      "wordpress"
+     ]
+    },
+    {
+     "page": "https://www.jackson-nh.gov/boards-committees/conservation-commission/",
+     "docLinks": 0,
+     "sample": [],
+     "drive": false,
+     "platforms": [
+      "wordpress"
+     ]
+    },
+    {
+     "page": "https://www.jackson-nh.gov/boards-committees/conservation-commission/conservation-links/",
+     "docLinks": 0,
+     "sample": [],
+     "drive": false,
+     "platforms": [
+      "wordpress"
+     ]
+    }
+   ],
+   "fetch": "rss only",
+   "region": "mount-washington-valley"
+  },
+  "londonderry": {
+   "id": "londonderry",
+   "name": "Londonderry",
+   "population2020": 25826,
+   "site": "https://www.londonderrynh.gov/",
+   "platforms": [
+    "civicplus"
+   ],
+   "feeds": [],
+   "meetingPages": [
+    {
+     "text": "Agendas &amp; Minutes",
+     "url": "https://www.londonderrynh.gov/AgendaCenter"
+    },
+    {
+     "text": "Town Meetings",
+     "url": "https://www.londonderrynh.gov/#tabf0829660-8fec-4b76-8189-520b12628501_1"
+    },
+    {
+     "text": "Housing &amp; Redevelopment Authority Meeting Read on...",
+     "url": "https://www.londonderrynh.gov/Calendar.aspx?EID=1217"
+    },
+    {
+     "text": "Town Council Meeting Read on...",
+     "url": "https://www.londonderrynh.gov/Calendar.aspx?EID=1559"
+    },
+    {
+     "text": "Leach Library Trustees Meeting Read on...",
+     "url": "https://www.londonderrynh.gov/Calendar.aspx?EID=1230"
+    },
+    {
+     "text": "Planning Board Meeting Read on...",
+     "url": "https://www.londonderrynh.gov/Calendar.aspx?EID=1243"
+    },
+    {
+     "text": "View All Meetings",
+     "url": "https://www.londonderrynh.gov/calendar.aspx?CID=14,47"
+    }
+   ],
+   "external": [
+    "https://www.facebook.com/LondonderryUSA/",
+    "https://www.youtube.com/@londonderrynhgovernmentacc4988"
+   ],
+   "civicplusHost": "https://connect.civicplus.com/",
+   "civicplusFeeds": [
+    "https://www.londonderrynh.gov/RSSFeed.aspx?ModID=76&CID=All-0",
+    "https://www.londonderrynh.gov/RSSFeed.aspx?ModID=65&CID=All-0",
+    "https://www.londonderrynh.gov/RSSFeed.aspx?ModID=63&CID=All-0",
+    "https://www.londonderrynh.gov/RSSFeed.aspx?ModID=51&CID=All-blog.xml",
+    "https://www.londonderrynh.gov/RSSFeed.aspx?ModID=58&CID=All-calendar.xml",
+    "https://www.londonderrynh.gov/RSSFeed.aspx?CommunityJobs=False&ModID=66&CID=All-0",
+    "https://www.londonderrynh.gov/RSSFeed.aspx?ModID=1&CID=All-newsflash.xml",
+    "https://www.londonderrynh.gov/RSSFeed.aspx?ModID=53&CID=All-0"
+   ],
+   "agendaCenter": "https://www.londonderrynh.gov/AgendaCenter",
+   "meetingDocs": [
+    {
+     "page": "https://www.londonderrynh.gov/AgendaCenter",
+     "docLinks": 868,
+     "sample": [
+      "https://www.londonderrynh.gov/AgendaCenter/ViewFile/Agenda/_11022026-1327?html=true",
+      "https://www.londonderrynh.gov/AgendaCenter/ViewFile/Agenda/_11022026-1327?html=true",
+      "https://www.londonderrynh.gov/AgendaCenter/ViewFile/Agenda/_11022026-1327"
+     ],
+     "drive": false,
+     "platforms": [
+      "civicplus"
+     ]
+    },
+    {
+     "page": "https://www.londonderrynh.gov/#tabf0829660-8fec-4b76-8189-520b12628501_1",
+     "docLinks": 0,
+     "sample": [],
+     "drive": false,
+     "platforms": [
+      "civicplus"
+     ]
+    },
+    {
+     "page": "https://www.londonderrynh.gov/Calendar.aspx?EID=1217",
+     "docLinks": 0,
+     "sample": [],
+     "drive": false,
+     "platforms": [
+      "civicplus"
+     ]
+    }
+   ],
+   "fetch": "civicplus feeds + agenda center",
+   "region": "greater-manchester"
+  },
+  "albany": {
+   "id": "albany",
+   "name": "Albany",
+   "population2020": 760,
+   "site": "https://albanynh.org/",
+   "platforms": [
+    "wordpress"
+   ],
+   "feeds": [
+    "https://albanynh.org/feed/",
+    "https://albanynh.org/comments/feed/"
+   ],
+   "meetingPages": [
+    {
+     "text": "Selectmen",
+     "url": "https://albanynh.org/selectmen-2/"
+    },
+    {
+     "text": "Meeting Agendas",
+     "url": "https://albanynh.org/selectmen-2/meeting-agendas/"
+    },
+    {
+     "text": "Meeting Minutes",
+     "url": "https://albanynh.org/minutes/"
+    },
+    {
+     "text": "Minutes Archive",
+     "url": "https://albanynh.org/minutes-archives/"
+    },
+    {
+     "text": "20261109 Agenda",
+     "url": "https://albanynh.org/wp-content/2026/10/20261109-Agenda.pdf"
+    }
+   ],
+   "external": [
+    "https://www.youtube.com/playlist",
+    "https://www.youtube.com/channel/UCWTUwTLWsTlivkVVcQPGU1g"
+   ],
+   "meetingDocs": [
+    {
+     "page": "https://albanynh.org/selectmen-2/",
+     "docLinks": 0,
+     "sample": [],
+     "drive": false,
+     "platforms": [
+      "wordpress"
+     ]
+    },
+    {
+     "page": "https://albanynh.org/selectmen-2/meeting-agendas/",
+     "docLinks": 0,
+     "sample": [],
+     "drive": false,
+     "platforms": [
+      "wordpress"
+     ]
+    },
+    {
+     "page": "https://albanynh.org/minutes/",
+     "docLinks": 29,
+     "sample": [
+      "https://albanynh.org/wp-content/2025/06/05282025-Minutes.pdf",
+      "https://albanynh.org/wp-content/2024/10/ABS_Minutes_10082024.pdf",
+      "https://albanynh.org/wp-content/2024/10/ABS_Minutes_09242024.pdf"
+     ],
+     "drive": false,
+     "platforms": [
+      "wordpress"
+     ]
+    }
+   ],
+   "fetch": "meeting page links",
+   "region": "mount-washington-valley"
+  },
+  "eaton": {
+   "id": "eaton",
+   "name": "Eaton",
+   "population2020": 404,
+   "site": "https://www.eatonnh.gov/",
+   "platforms": [
+    "wordpress"
+   ],
+   "feeds": [
+    "https://www.eatonnh.gov/feed/"
+   ],
+   "meetingPages": [
+    {
+     "text": "Selectmen",
+     "url": "https://www.eatonnh.gov/selectmen/"
+    },
+    {
+     "text": "Minutes",
+     "url": "https://www.eatonnh.gov/selectmen/minutes/"
+    },
+    {
+     "text": "Archive Minutes",
+     "url": "https://www.eatonnh.gov/selectmen/archive-minutes/"
+    },
+    {
+     "text": "Board of Selectmen",
+     "url": "https://www.eatonnh.gov/calendar/board-of-selectmen-11/"
+    },
+    {
+     "text": "Conservation Commission Meeting",
+     "url": "https://www.eatonnh.gov/calendar/conservation-commission-meeting/2026-11-09/"
+    }
+   ],
+   "external": [],
+   "meetingDocs": [
+    {
+     "page": "https://www.eatonnh.gov/selectmen/",
+     "docLinks": 0,
+     "sample": [],
+     "drive": false,
+     "platforms": [
+      "wordpress"
+     ]
+    },
+    {
+     "page": "https://www.eatonnh.gov/selectmen/minutes/",
+     "docLinks": 0,
+     "sample": [],
+     "drive": false,
+     "platforms": [
+      "wordpress"
+     ]
+    },
+    {
+     "page": "https://www.eatonnh.gov/selectmen/archive-minutes/",
+     "docLinks": 8,
+     "sample": [
+      "https://www.eatonnh.gov/wp-content/uploads/2026/01/BOS-Minutes-2025.pdf",
+      "https://www.eatonnh.gov/wp-content/uploads/2025/01/Minutes-2024.pdf",
+      "https://www.eatonnh.gov/wp-content/uploads/2024/01/BOS-Minutes-2023.pdf"
+     ],
+     "drive": false,
+     "platforms": [
+      "wordpress"
+     ]
+    }
+   ],
+   "fetch": "meeting page links",
+   "region": "mount-washington-valley"
+  },
+  "bartlett": {
+   "id": "bartlett",
+   "name": "Bartlett",
+   "population2020": 3192,
+   "site": "https://www.townofbartlettnh.org/",
+   "platforms": [
+    "wordpress"
+   ],
+   "feeds": [],
+   "meetingPages": [
+    {
+     "text": "Bartlett Selectmen’s Office",
+     "url": "https://www.townofbartlett.nh.gov/town-offices/bartlett-selectmens-office/"
+    },
+    {
+     "text": "Bartlett Selectmen’s Meeting Minutes",
+     "url": "https://www.townofbartlettnh.org/town-offices/bartlett-selectmens-office/bartlett-selectmens-meeting-minutes/"
+    },
+    {
+     "text": "Bartlett Planning Board Meeting Minutes",
+     "url": "https://www.townofbartlett.nh.gov/town-offices/bartlett-planning-board-meeting-minutes/"
+    },
+    {
+     "text": "Agenda for Selectmen’s Meetings",
+     "url": "https://www.townofbartlett.nh.gov/agenda-for-selectmens-meetings/"
+    }
+   ],
+   "external": [
+    "https://www.facebook.com/BartlettNH"
+   ],
+   "meetingDocs": [
+    {
+     "page": "https://www.townofbartlettnh.org/town-offices/bartlett-selectmens-office/bartlett-selectmens-meeting-minutes/",
+     "docLinks": 0,
+     "sample": [],
+     "drive": false,
+     "platforms": [
+      "wordpress"
+     ]
+    }
+   ],
+   "fetch": "manual",
+   "region": "mount-washington-valley"
+  },
+  "harts-location": {
+   "id": "harts-location",
+   "name": "Hart's Location",
+   "population2020": 63,
+   "site": "https://hartslocation.com/",
+   "platforms": [
+    "wordpress"
+   ],
+   "feeds": [
+    "https://hartslocation.com/feed/",
+    "https://hartslocation.com/comments/feed/"
+   ],
+   "meetingPages": [],
+   "external": [],
+   "meetingDocs": [],
+   "fetch": "rss only",
+   "region": "mount-washington-valley"
+  },
+  "freedom": {
+   "id": "freedom",
+   "name": "Freedom",
+   "population2020": 1686,
+   "site": "https://townoffreedomnh.gov/",
+   "platforms": [
+    "wordpress"
+   ],
+   "feeds": [
+    "https://townoffreedomnh.gov/feed/",
+    "https://townoffreedomnh.gov/comments/feed/"
+   ],
+   "meetingPages": [
+    {
+     "text": "Boards/Committees",
+     "url": "https://townoffreedomnh.gov/boards-committees/"
+    },
+    {
+     "text": "Board of Selectmen",
+     "url": "https://townoffreedomnh.gov/freedom-board-of-selectmens-office/"
+    },
+    {
+     "text": "Hazard Mitigation Meeting &#8211; Meeting 3",
+     "url": "https://townoffreedomnh.gov/2026/10/16/21456/"
+    }
+   ],
+   "external": [],
+   "meetingDocs": [
+    {
+     "page": "https://townoffreedomnh.gov/boards-committees/",
+     "docLinks": 0,
+     "sample": [],
+     "drive": false,
+     "platforms": [
+      "wordpress"
+     ]
+    },
+    {
+     "page": "https://townoffreedomnh.gov/freedom-board-of-selectmens-office/",
+     "docLinks": 175,
+     "sample": [
+      "https://townoffreedomnh.gov/wp-content/uploads/2026/02/1.5.2026-BOS-Minutes-1-.pdf",
+      "https://townoffreedomnh.gov/wp-content/uploads/2026/02/1.12.2026-BOS-Minutes-1-1.pdf",
+      "https://townoffreedomnh.gov/wp-content/uploads/2026/02/1.19.2026-BOS-Minutes-Budget-Workshop.pdf"
+     ],
+     "drive": false,
+     "platforms": [
+      "wordpress"
+     ]
+    },
+    {
+     "page": "https://townoffreedomnh.gov/2026/10/16/21456/",
+     "docLinks": 0,
+     "sample": [],
+     "drive": false,
+     "platforms": [
+      "wordpress"
+     ]
+    }
+   ],
+   "fetch": "meeting page links",
+   "region": "mount-washington-valley"
+  },
+  "goffstown": {
+   "id": "goffstown",
+   "name": "Goffstown",
+   "population2020": 18577,
+   "site": "https://www.goffstownnh.gov/",
+   "platforms": [
+    "civicplus"
+   ],
+   "feeds": [],
+   "meetingPages": [
+    {
+     "text": "Agendas & Minutes",
+     "url": "https://www.goffstownnh.gov/AgendaCenter"
+    },
+    {
+     "text": "Meetings",
+     "url": "https://www.goffstownnh.gov/#tab2478f743-4c92-4f64-b233-79d89d610a75_0"
+    },
+    {
+     "text": "Select Board - Special Meeting Read On",
+     "url": "https://www.goffstownnh.gov/Calendar.aspx?EID=1701"
+    },
+    {
+     "text": "Economic Development Council Meeting Read On",
+     "url": "https://www.goffstownnh.gov/Calendar.aspx?EID=1413"
+    },
+    {
+     "text": "Library Board of Trustees (Working Meeting) Read On",
+     "url": "https://www.goffstownnh.gov/Calendar.aspx?EID=1545"
+    }
+   ],
+   "external": [
+    "https://www.facebook.com/GoffstownTownHall/",
+    "https://www.facebook.com/goffstowntv/",
+    "https://www.youtube.com/user/GoffstownTelevision"
+   ],
+   "civicplusHost": "https://nh-goffstown.civicplus.com/",
+   "civicplusFeeds": [
+    "https://www.goffstownnh.gov/RSSFeed.aspx?ModID=76&CID=All-0",
+    "https://www.goffstownnh.gov/RSSFeed.aspx?ModID=65&CID=All-0",
+    "https://www.goffstownnh.gov/RSSFeed.aspx?ModID=63&CID=All-0",
+    "https://www.goffstownnh.gov/RSSFeed.aspx?ModID=51&CID=All-blog.xml",
+    "https://www.goffstownnh.gov/RSSFeed.aspx?ModID=58&CID=All-calendar.xml",
+    "https://www.goffstownnh.gov/RSSFeed.aspx?CommunityJobs=False&ModID=66&CID=All-0",
+    "https://www.goffstownnh.gov/RSSFeed.aspx?ModID=1&CID=All-newsflash.xml",
+    "https://www.goffstownnh.gov/RSSFeed.aspx?ModID=53&CID=All-0"
+   ],
+   "agendaCenter": "https://www.goffstownnh.gov/AgendaCenter",
+   "meetingDocs": [
+    {
+     "page": "https://www.goffstownnh.gov/AgendaCenter",
+     "docLinks": 599,
+     "sample": [
+      "https://www.goffstownnh.gov/AgendaCenter/ViewFile/Agenda/_11022026-1604",
+      "https://www.goffstownnh.gov/AgendaCenter/ViewFile/Agenda/_11022026-1604",
+      "https://www.goffstownnh.gov/AgendaCenter/ViewFile/Agenda/_10262026-1599?html=true"
+     ],
+     "drive": false,
+     "platforms": [
+      "civicplus"
+     ]
+    },
+    {
+     "page": "https://www.goffstownnh.gov/#tab2478f743-4c92-4f64-b233-79d89d610a75_0",
+     "docLinks": 0,
+     "sample": [],
+     "drive": false,
+     "platforms": [
+      "civicplus"
+     ]
+    },
+    {
+     "page": "https://www.goffstownnh.gov/Calendar.aspx?EID=1701",
+     "docLinks": 0,
+     "sample": [],
+     "drive": false,
+     "platforms": [
+      "civicplus"
+     ]
+    }
+   ],
+   "fetch": "civicplus feeds + agenda center",
+   "region": "greater-manchester"
+  }
+ }
+}

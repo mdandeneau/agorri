@@ -1,0 +1,155 @@
+Source: https://pelhamnh.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=10544,plainText=false)
+Title: Highway Safety Committee 2026-10-29: HSC Minutes 10/29/26 NON-APPROVED
+Fetched: 2026-11-01
+
+HIGHWAY SAFETY COMMITTEE MINUTES                                                     MEETING DATE: 10/29/2026
+
+
+                                         NON-APPROVED MEETING MINUTES
+                                         HIGHWAY SAFETY COMMITTEE
+                                                     10/29/2026
+                                     PELHAM POLICE DEPT. - COMMUNITY ROOM
+                                        14 VILLAGE GREEN, PELHAM, NH 03076
+
+
+Call to order
+Scheduled Start Time: 1:00 PM
+
+         Chief Perriello chaired the meeting and called it to order at 1:03 PM.
+
+Attendance
+
+         PRESENT:
+         Police Chief Anne Perriello
+         Fire Chief Dan Newman
+         Highway Director James Hoffman
+         Planning Director Jennifer Beauregard
+         Planning Assistant Heidi Zagorski, taking minutes
+
+Meeting Minutes Review
+
+
+   1)    Minutes of September 24, 2026
+
+            Motion:  To approve the September 24, 2026, meeting minutes as written.
+            Motion By: Jennifer Beauregard / Second By: Daniel Newman Vote: (4-0-0) The motion passed.
+            In Favor: 4 — Anne Perriello, Daniel Newman, Jennifer Beauregard, James Hoffman
+
+New Business
+
+
+   2)    PL2026-00025 - Map 15 & 22 - Lots 8-86, 8-88, and 8-89 - Edward N Herbert Associates, Inc. (applicant) / Brookwood
+         Realty Group, LLC. (owner) - Tina Avenue (off) - The applicant is seeking to consolidate and subdivide the referenced lots
+         into 22 residential lots.
+
+            The Committee reviewed the proposed 22-lot residential subdivision submitted by Edward N. Herbert
+            Associates, Inc., on behalf of Brookwood Realty Group, LLC. Shayne Gendron of Edward N. Herbert
+            Associates, Inc., presented the proposal, and Roger Ploof was identified as the property owner. Mr. Gendron
+            explained that a subdivision had previously been approved in 2006 but was never recorded. The applicant
+            subsequently completed a lot line adjustment and returned with a revised 22-lot subdivision plan. The
+            Planning Board requested input from the Highway Safety Committee regarding whether the proposed
+            development should include a public connection to Balcom Road, an emergency-access-only connection, or
+            no connection.
+
+            Mr. Gendron explained that the original proposal included a connection between Tina Avenue and Balcom
+            Road, with approximately 900 feet of roadway terminating in a cul-de-sac. He noted that some abutters had
+            expressed opposition to a connection to Balcom Road and that concerns regarding water quantity had also
+            been raised. The Planning Board had been leaning toward not connecting the two roads. Mr. Gendron
+            presented a revised plan that would avoid crossing the wetlands, thereby reducing construction costs and
+            avoiding wetland impacts and associated mitigation requirements. The revised proposal would extend Tina
+            Avenue approximately 800 feet and terminate in a cul-de-sac, with no connection through to Balcom Road.
+            He explained that avoiding the wetland crossing would provide significant cost savings to the applicant and
+            reduce environmental impacts. The revised plan would retain a connection to Balcom Road serving eight
+                                                   Page 1 of 3
+ HIGHWAY SAFETY COMMITTEE MINUTES                                                     MEETING DATE: 10/29/2026
+
+            lots, rather than allowing all 22 lots to use the connection. Mr. Gendron stated that the revised roadway
+            would be a straightforward 900-foot road ending in a cul-de-sac and would not require waivers.
+
+            Ms. Susan Hayes introduced herself as an abutter to the proposed subdivision and expressed concern
+            regarding the safety of vehicles entering and exiting Balcom Road. She stated that it was difficult to imagine
+            the additional traffic attempting to exit Balcom Road and that the increased traffic would be detrimental to the
+            neighborhood. She indicated that she was not opposed to a development but felt that allowing eight homes
+            to access Balcom Road, rather than 22 homes using it as a cut-through, would be preferable.
+
+            Chief Perriello noted that the 65-unit apartment complex under construction nearby had raised traffic
+            concerns and that she had been working with the State to obtain a new traffic study once the complex was
+            occupied. She stated that the goal would be to determine whether the speed limit in the area could be
+            reduced. Ms. Hayes thanked Chief Perriello for the update and added that traffic on Route 38 also increases
+            when the Girl Scout camp is in session.
+
+            Ms. Beauregard asked whether proposed Lot 13 met the required buildable lot size, and Mr. Gendron
+            confirmed that it did. Chief Perriello asked where 15 Tina Avenue was located in relation to the proposed
+            plan. Mr. Gendron identified its location on the plan and explained that the existing home at 15 Tina Avenue
+            would be demolished and a new home constructed as part of the development.
+
+            Fire Chief Newman asked about the existing length of Tina Avenue, and Mr. Gendron confirmed that it was
+            approximately 1,250 feet.
+
+            Mr. Gendron noted that the property is located in the B-5 zoning district, where a more concentrated
+            development could be pursued. However, he felt that a conventional 22-lot subdivision would be appropriate
+            for the property. He also explained that the Planning Board had previously discussed using the power line
+            easement for the roadway, but the utility company had indicated that this would not be permitted.
+
+            Fire Chief Newman discussed the anticipated change in State law effective April 1, 2027, regarding municipal
+            authority to limit the length of cul-de-sacs. He stated that, under the anticipated change, there would be no
+            basis to prevent the proposed roadway from being constructed if it met the applicable requirements. Mr.
+            Hoffman stated that he preferred the revised plan because, if a culvert issue occurred, residents would still
+            be able to enter and exit the neighborhood. Fire Chief Newman acknowledged that the length of the cul-de-
+            sac raised a public safety concern but stated that there would be nothing to prevent the applicant from
+            constructing the road at the proposed length. Ms. Beauregard noted that a waiver would be required under
+            the current requirements for a roadway of this length.
+
+            Mr. Gendron stated that stormwater management would be addressed through appropriate engineering and
+            that the system would be designed to handle the proposed development. He added that, from an
+            environmental standpoint, avoiding the wetland impacts would be preferable. The revised plan would not
+            include an island within the cul-de-sac. Mr. Hoffman stated that he generally preferred islands because they
+            assist with winter maintenance and reduce the need for vehicle backup alarms during late-night operations.
+            Mr. Gendron agreed that they could design the cul-de-sacs with an island. Chief Perriello stated that she
+            preferred a through connection for emergency response purposes but was not opposed to the revised plan,
+            noting that the proposed roadway would not extend substantially farther than 15 Tina Avenue. Mr. Hoffman
+            also expressed a preference for the revised plan, stating that avoiding the wetland crossing was beneficial.
+            Ms. Beauregard agreed that the revised plan was preferable, particularly because it would avoid wetland
+            impacts and limit the number of lots accessing Balcom Road.
+
+            The Committee discussed its recommendation to the Planning Board. Fire Chief Newman stated that the
+            primary disadvantage of the revised plan was the lack of full roadway connectivity, which could limit access
+            in the event of an emergency. However, he noted that the proposed roadway would meet the applicable
+            minimum Fire Code requirements and that, although connectivity would be safer from a public safety
+            standpoint, the proposed modifications were acceptable. He stated that the Fire Department could support
+            the revised plan, although it would not be the preferred option, and that the required approvals would be
+            provided if the proposal met all applicable requirements. Fire Chief Newman indicated that he would prepare
+            a letter on behalf of the Highway Safety Committee to the Planning Board. Ms. Beauregard stated that the
+            Committee generally agreed that roadway connectivity was preferable but that the revised plan was
+                                                   Page 2 of 3
+ HIGHWAY SAFETY COMMITTEE MINUTES                                                     MEETING DATE: 10/29/2026
+
+            acceptable.
+
+Previous Business
+
+
+   3)    PL2026-00023 & PL2026-00024 – Map 35, Lot 351-65 – R.J. McCarthy Development (Owner/Applicant) – 56 Bridge
+         Street – Previously reviewed by the Highway Safety Committee on September 24, 2026, for Subdivision and Site Plan
+         review. The applicant/owner has requested continued discussion regarding the proposed street names.
+
+            Ms. Beauregard explained that Mr. McCarthy requested a change to the previously approved street name,
+            Founder’s Lane, and would prefer Paddock Lane instead. Paddock Lane is the proposed name for the Town
+            roadway that extends from Bridge Street and ends in a cul-de-sac. Workshop Way would remain the
+            proposed name for the private roadway leading into the northern parcel for the commercial development.
+
+            Motion:  To accept the proposed name Paddock Lane for the proposed Town road ending in a cul-de-sac.
+            Motion By: Anne Perriello / Second By: Daniel Newman Vote: (4-0-0) The motion passed.
+            In Favor: 4 — Anne Perriello, Daniel Newman, Jennifer Beauregard, James Hoffman
+
+Adjournment
+
+         Motion:  To adjourn the meeting at 1:29 pm.
+         Motion By: Daniel Newman / Second By: Jennifer Beauregard Vote: (4-0-0) The motion passed.
+         In Favor: 4 — Anne Perriello, Daniel Newman, Jennifer Beauregard, James Hoffman
+
+         Respectively Submitted,
+         Heidi Zagorski, Planning Assistant
+
+
+                                                   Page 3 of 3

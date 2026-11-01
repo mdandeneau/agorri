@@ -1,0 +1,356 @@
+{
+ "note": "Agorri's launch regions (decided Nov 1, 2026): four areas, 37 towns, about 45% of New Hampshire (2020 Census). Population is the 2020 Census. `sites` are candidate town website hosts the platform scanner (ingest/scan.mjs) tries first; it also tries common patterns.",
+ "state": "NH",
+ "statePopulation2020": 1377529,
+ "regions": [
+  {
+   "id": "greater-portsmouth",
+   "name": "Greater Portsmouth",
+   "towns": [
+    {
+     "id": "portsmouth",
+     "name": "Portsmouth",
+     "population2020": 21956,
+     "sites": [
+      "www.portsmouthnh.gov"
+     ]
+    },
+    {
+     "id": "dover",
+     "name": "Dover",
+     "population2020": 32741,
+     "sites": [
+      "www.dover.nh.gov"
+     ]
+    },
+    {
+     "id": "exeter",
+     "name": "Exeter",
+     "population2020": 16049,
+     "sites": [
+      "www.exeternh.gov",
+      "exeternh.gov",
+      "www.town.exeter.nh.us"
+     ]
+    },
+    {
+     "id": "hampton",
+     "name": "Hampton",
+     "population2020": 16214,
+     "sites": [
+      "www.hamptonnh.gov"
+     ]
+    },
+    {
+     "id": "durham",
+     "name": "Durham",
+     "population2020": 15490,
+     "sites": [
+      "www.ci.durham.nh.us"
+     ]
+    },
+    {
+     "id": "rye",
+     "name": "Rye",
+     "population2020": 5543,
+     "sites": [
+      "www.town.rye.nh.us",
+      "www.ryenh.gov"
+     ]
+    },
+    {
+     "id": "stratham",
+     "name": "Stratham",
+     "population2020": 7669,
+     "sites": [
+      "www.strathamnh.gov"
+     ]
+    },
+    {
+     "id": "greenland",
+     "name": "Greenland",
+     "population2020": 4067,
+     "sites": [
+      "www.greenland-nh.com",
+      "www.greenlandnh.gov"
+     ]
+    },
+    {
+     "id": "north-hampton",
+     "name": "North Hampton",
+     "population2020": 4538,
+     "sites": [
+      "www.northhamptonnh.gov"
+     ]
+    },
+    {
+     "id": "newmarket",
+     "name": "Newmarket",
+     "population2020": 9430,
+     "sites": [
+      "www.newmarketnh.gov"
+     ]
+    }
+   ],
+   "population2020": 133697
+  },
+  {
+   "id": "greater-nashua",
+   "name": "Greater Nashua",
+   "towns": [
+    {
+     "id": "nashua",
+     "name": "Nashua",
+     "population2020": 91322,
+     "sites": [
+      "www.nashuanh.gov"
+     ]
+    },
+    {
+     "id": "hudson",
+     "name": "Hudson",
+     "population2020": 25394,
+     "sites": [
+      "www.hudsonnh.gov"
+     ]
+    },
+    {
+     "id": "merrimack",
+     "name": "Merrimack",
+     "population2020": 26632,
+     "sites": [
+      "www.merrimacknh.gov"
+     ]
+    },
+    {
+     "id": "milford",
+     "name": "Milford",
+     "population2020": 16131,
+     "sites": [
+      "www.milford.nh.gov"
+     ]
+    },
+    {
+     "id": "amherst",
+     "name": "Amherst",
+     "population2020": 11753,
+     "sites": [
+      "www.amherstnh.gov"
+     ]
+    },
+    {
+     "id": "hollis",
+     "name": "Hollis",
+     "population2020": 8342,
+     "sites": [
+      "www.hollisnh.org"
+     ]
+    },
+    {
+     "id": "litchfield",
+     "name": "Litchfield",
+     "population2020": 8478,
+     "sites": [
+      "www.litchfieldnh.gov"
+     ]
+    },
+    {
+     "id": "pelham",
+     "name": "Pelham",
+     "population2020": 14222,
+     "sites": [
+      "www.pelham-nh.gov",
+      "www.pelhamweb.com"
+     ]
+    },
+    {
+     "id": "brookline",
+     "name": "Brookline",
+     "population2020": 5639,
+     "sites": [
+      "www.brooklinenh.gov",
+      "brooklinenh.gov",
+      "www.brooklinenh.us"
+     ]
+    }
+   ],
+   "population2020": 207913
+  },
+  {
+   "id": "greater-manchester",
+   "name": "Greater Manchester",
+   "towns": [
+    {
+     "id": "manchester",
+     "name": "Manchester",
+     "population2020": 115644,
+     "sites": [
+      "www.manchesternh.gov"
+     ]
+    },
+    {
+     "id": "bedford",
+     "name": "Bedford",
+     "population2020": 23322,
+     "sites": [
+      "www.bedfordnh.org"
+     ]
+    },
+    {
+     "id": "goffstown",
+     "name": "Goffstown",
+     "population2020": 18577,
+     "sites": [
+      "www.goffstownnh.gov",
+      "goffstownnh.gov",
+      "www.goffstown.nh.us",
+      "www.goffstown.com"
+     ]
+    },
+    {
+     "id": "hooksett",
+     "name": "Hooksett",
+     "population2020": 14871,
+     "sites": [
+      "www.hooksett.org",
+      "www.hooksettnh.gov"
+     ]
+    },
+    {
+     "id": "londonderry",
+     "name": "Londonderry",
+     "population2020": 25826,
+     "sites": [
+      "www.londonderrynh.gov",
+      "www.londonderrynh.org"
+     ]
+    },
+    {
+     "id": "derry",
+     "name": "Derry",
+     "population2020": 34317,
+     "sites": [
+      "www.derrynh.gov",
+      "www.derrynh.org"
+     ]
+    },
+    {
+     "id": "auburn",
+     "name": "Auburn",
+     "population2020": 5946,
+     "sites": [
+      "www.auburnnh.us",
+      "www.auburnnh.gov"
+     ]
+    },
+    {
+     "id": "new-boston",
+     "name": "New Boston",
+     "population2020": 6108,
+     "sites": [
+      "www.newbostonnh.gov"
+     ]
+    },
+    {
+     "id": "weare",
+     "name": "Weare",
+     "population2020": 9092,
+     "sites": [
+      "www.weare.nh.gov",
+      "weare.nh.gov",
+      "www.wearenh.gov",
+      "www.wearenh.org"
+     ]
+    }
+   ],
+   "population2020": 253703
+  },
+  {
+   "id": "mount-washington-valley",
+   "name": "Mount Washington Valley",
+   "towns": [
+    {
+     "id": "conway",
+     "name": "Conway",
+     "population2020": 9810,
+     "sites": [
+      "conwaynh.gov"
+     ]
+    },
+    {
+     "id": "bartlett",
+     "name": "Bartlett",
+     "population2020": 3192,
+     "sites": [
+      "www.bartlettnh.gov",
+      "www.bartlettnh.org"
+     ]
+    },
+    {
+     "id": "tamworth",
+     "name": "Tamworth",
+     "population2020": 2823,
+     "sites": [
+      "www.tamworthnh.org",
+      "www.tamworthnh.gov"
+     ]
+    },
+    {
+     "id": "madison",
+     "name": "Madison",
+     "population2020": 2568,
+     "sites": [
+      "www.madison-nh.org",
+      "www.madisonnh.gov"
+     ]
+    },
+    {
+     "id": "jackson",
+     "name": "Jackson",
+     "population2020": 1030,
+     "sites": [
+      "www.jacksonnh.gov",
+      "www.jacksonvillage.net"
+     ]
+    },
+    {
+     "id": "freedom",
+     "name": "Freedom",
+     "population2020": 1686,
+     "sites": [
+      "www.freedomnh.gov",
+      "www.freedomnh.org"
+     ]
+    },
+    {
+     "id": "albany",
+     "name": "Albany",
+     "population2020": 760,
+     "sites": [
+      "www.albanynh.org",
+      "www.albanynh.gov"
+     ]
+    },
+    {
+     "id": "eaton",
+     "name": "Eaton",
+     "population2020": 404,
+     "sites": [
+      "www.eatonnh.org",
+      "www.eatonnh.gov"
+     ]
+    },
+    {
+     "id": "harts-location",
+     "name": "Hart's Location",
+     "population2020": 63,
+     "sites": [
+      "www.hartslocation.com",
+      "www.hartslocationnh.gov"
+     ]
+    }
+   ],
+   "population2020": 22336
+  }
+ ]
+}

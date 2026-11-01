@@ -1,0 +1,187 @@
+{
+ "note": "Written by ingest/fetch.mjs. Each item: where it came from (source, url), the date in the document when known, firstSeen (the day the fetcher first saw it; new since the last refresh = firstSeen on or after that day) and text (the saved agenda or minutes text, when there is one). Facts for the site still come from reading the linked document.",
+ "town": "freedom",
+ "updated": "2026-11-01T16:12:58.861Z",
+ "sources": {
+  "feed": {
+   "ok": true,
+   "found": 10,
+   "new": 0,
+   "checked": "2026-11-01T16:12:58.861Z",
+   "ms": 236
+  },
+  "feed2": {
+   "ok": true,
+   "found": 0,
+   "new": 0,
+   "checked": "2026-11-01T16:12:58.861Z",
+   "ms": 1301
+  },
+  "meeting-docs": {
+   "ok": true,
+   "found": 150,
+   "new": 0,
+   "checked": "2026-11-01T16:12:58.861Z",
+   "ms": 1496
+  }
+ },
+ "notes": [],
+ "items": [
+  {
+   "key": "feed:1775bdbd9426",
+   "source": "feed",
+   "kind": "notice",
+   "title": "Halloween Trick-or-Treat Notice",
+   "url": "https://townoffreedomnh.gov/2026/10/28/halloween-trick-or-treat-notice/",
+   "date": "2026-10-28",
+   "detail": "🎃👻 Halloween Trick-or-Treat Notice 👻🎃 Calling all ghosts, goblins, superheroes, and creatures of the night! Get your costumes ready and grab your candy bags – Town Trick-or-Treating will take place: Halloween Night 🎃 5:00 PM – 8:00 PM Look for porch lights on to find homes welcoming trick-or-treaters. Please remember to stay safe, travel with […]",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "feed:171b6f6ee4a7",
+   "source": "feed",
+   "kind": "notice",
+   "title": "We Need Your Help",
+   "url": "https://townoffreedomnh.gov/2026/10/21/we-need-your-help/",
+   "date": "2026-10-21",
+   "detail": "It was discovered Monday morning, October 19th, that the bench pictured in this post went missing from Trout Pond in the Freedom Forest. The theft has been reported to the police If you have any information about the bench or its whereabouts, please contact the Freedom Police at 603-539-8268. Thank you for helping us protect […]",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "feed:8307be03fdb0",
+   "source": "feed",
+   "kind": "notice",
+   "title": "Hazard Mitigation Meeting – Meeting 3",
+   "url": "https://townoffreedomnh.gov/2026/10/16/21456/",
+   "date": "2026-10-16",
+   "detail": "PUBLIC NOTICE FREEDOM HAZARD MITIGATION FINAL MEETING November 10, 2026 @ 3:30pm At the Freedom Elementary School at 40 Loon Lake Rd The Town of Freedom, with the Hazard Mitigation Planning Committee, is currently working to update Freedom’s Hazard Mitigation Plan. The Plan identifies potential natural, and human caused hazards throughout the town and various […]",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "feed:1465060d76e9",
+   "source": "feed",
+   "kind": "notice",
+   "title": "Election Day is Tuesday November 3, 2026",
+   "url": "https://townoffreedomnh.gov/2026/10/02/election-day-is-tuesday-november-3-2026/",
+   "date": "2026-10-02",
+   "detail": "Voting will take place at the Freedom Elementary School – 40 Loon Lake Rd Poll are open from 8:00am to 7:00pm Sample Ballots can be seen below:",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "feed:a5ad4f804c58",
+   "source": "feed",
+   "kind": "notice",
+   "title": "Request for Proposal",
+   "url": "https://townoffreedomnh.gov/2026/10/02/request-for-proposal/",
+   "date": "2026-10-02",
+   "detail": "TOWN OF FREEDOM, NEW HAMPSHIRE FREEDOM PLANNING BOARD REQUEST FOR PROPOSALS (RFP) Third-Party Technical Review Services for Land Use Applications RFP No. 01-2026 Issue Date September 30, 2026 Proposals Due: October 29, 2026 at 1:00 p.m. EST/EDT Submit to: Freedom Planning Board, 33 Old Portland Road, PO Box 227, Freedom, NH 03836 Complete Proposal Application: […]",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "meeting-docs:0655accab729",
+   "source": "meeting-docs",
+   "kind": "meeting-doc",
+   "title": "9-21.26",
+   "url": "https://townoffreedomnh.gov/wp-content/uploads/2026/10/09.21.2026-BOS-Minutes.pdf",
+   "date": "2026-09-21",
+   "doc": "minutes",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01",
+   "text": "inbox/freedom/docs/0655accab729.txt"
+  },
+  {
+   "key": "meeting-docs:030a3bf44a6f",
+   "source": "meeting-docs",
+   "kind": "meeting-doc",
+   "title": "9.14-26",
+   "url": "https://townoffreedomnh.gov/wp-content/uploads/2026/09/09.14.2026-BOS-Minutes.pdf",
+   "date": "2026-09-14",
+   "doc": "minutes",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01",
+   "text": "inbox/freedom/docs/030a3bf44a6f.txt"
+  },
+  {
+   "key": "feed:600fc82489ec",
+   "source": "feed",
+   "kind": "notice",
+   "title": "VOTER REGISTRATION SESSION",
+   "url": "https://townoffreedomnh.gov/2026/09/10/voter-registration-session/",
+   "date": "2026-09-10",
+   "detail": "PUBLIC NOTICE TOWN OF FREEDOM VOTER REGISTRATION SESSION The Supervisors of the Checklist for the Town of Freedom will be in session on: Tuesday, October 27th, 2026, from 7:00 to 8:00 PM at the Freedom Town Hall This session will be for additions and corrections to the Voter Checklist. New Voters: Applicants for registration must […]",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "meeting-docs:ea55cd1b5890",
+   "source": "meeting-docs",
+   "kind": "meeting-doc",
+   "title": "8.31.26",
+   "url": "https://townoffreedomnh.gov/wp-content/uploads/2026/09/08.31.2026-BOS-Minutes.pdf",
+   "date": "2026-08-31",
+   "doc": "minutes",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "meeting-docs:79e862cf0c9f",
+   "source": "meeting-docs",
+   "kind": "meeting-doc",
+   "title": "8.17.2026",
+   "url": "https://townoffreedomnh.gov/wp-content/uploads/2026/09/08.17.2026-BOS-Minutes.pdf",
+   "date": "2026-08-17",
+   "doc": "minutes",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "meeting-docs:abe08fd0cef4",
+   "source": "meeting-docs",
+   "kind": "meeting-doc",
+   "title": "8.10.2026",
+   "url": "https://townoffreedomnh.gov/wp-content/uploads/2026/08/8.10.2026-Minutes.pdf",
+   "date": "2026-08-10",
+   "doc": "minutes",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "meeting-docs:92d757580a0c",
+   "source": "meeting-docs",
+   "kind": "meeting-doc",
+   "title": "8.3.2026",
+   "url": "https://townoffreedomnh.gov/wp-content/uploads/2026/08/8.3.2026-BOS-Minutes.pdf",
+   "date": "2026-08-03",
+   "doc": "minutes",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "meeting-docs:5ad5de54b6d6",
+   "source": "meeting-docs",
+   "kind": "meeting-doc",
+   "title": "07.06.2026",
+   "url": "https://townoffreedomnh.gov/wp-content/uploads/2026/07/7.26.26-Minutes-.pdf",
+   "date": "2026-07-26",
+   "doc": "minutes",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "meeting-docs:ec33ade1fe58",
+   "source": "meeting-docs",
+   "kind": "meeting-doc",
+   "title": "07-20-2026",
+   "url": "https://townoffreedomnh.gov/wp-content/uploads/2026/08/7.20.2026-Minutes.pdf",
+   "date": "2026-07-20",
+   "doc": "minutes",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  }
+ ]
+}

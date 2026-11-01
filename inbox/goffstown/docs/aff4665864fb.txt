@@ -1,0 +1,341 @@
+Source: https://www.goffstownnh.gov/AgendaCenter/ViewFile/Minutes/_09222026-1573
+Title: Minutes: Budget Committee Meeting Agenda 09/22/26
+Fetched: 2026-11-01
+
+TOWN OF GOFFSTOWN
+                                 BUDGET COMMITTEE
+                                  MEETING MINUTES
+                              SEPTEMBER 22, 2026, 6:00 PM
+Present: Rich Jerrell, Olivia Welch-Erdahl, Laura Stevens, James Piercy, Allison DeCesere
+(Select Board Representative), Elizabeth Dubrulle (Chair), Jack Carbonneau (School Board
+Representative), Joe Spoerl, Brian Mazur, Mark Renaud, Jessica Peutin, Israel Carey, Peter
+Georgantas
+
+Absent Members: Samantha Kearns (Vice Chair), Joe Alexander
+
+Others: Assistant Town Administrator/HR Director Danielle Basora, Fire Chief Benjamin
+Selleck
+
+Pledge of Allegiance
+
+Chair Dubrulle led the Pledge of Allegiance.
+
+Roll Call
+
+Present: Rich Jerrell, Olivia Welch-Erdahl, Laura Stevens, James Piercy, Allison DeCesere
+(Select Board Representative), Elizabeth Dubrulle (Chair), Jack Carbonneau (School Board
+Representative), Joe Spoerl, Brian Mazur, Mark Renaud, Jessica Peutin, Israel Carey,
+
+Absent: Samantha Kearns (Vice Chair), Joe Alexander
+
+Informational Session with Goffstown Fire Department
+
+Chair Dubrulle introduced the session, noting that the informational meeting format had been
+used previously with DPW Director Adam Jacobs for a discussion on the road plan, and
+encouraged members to revisit that session on their own time to avoid re-covering that
+material. She then turned the floor over to Fire Chief Selleck.
+
+Retention and the Staffing Crisis
+
+Fire Chief Selleck opened by providing historical context for the Goffstown Fire Department.
+He explained that when the department was largely volunteer based, drawing from three
+merged departments, the town had a roster of approximately 80 call personnel. Today, only
+two call personnel have made more than three calls year-to-date, both hired prior to 1991.
+Since 1991, the department has hired 23 call members, of whom only five remain on the
+roster. Chief Selleck was clear that this is not a Goffstown-specific problem, but a national
+decline in volunteerism driven by changing family and economic dynamics.
+
+The department transitioned to full-time staffing on weekdays beginning in 1987, added part-
+time and per diem coverage for nights, and moved entirely to 24-hour shifts in 2020 due to
+the difficulty of retaining part-time and per diem personnel.
+
+Chief Selleck identified retention as the single largest challenge and the root cause
+underlying its cost and operational difficulties. Since 2020, the department has lost 31 full-
+time personnel against a total of 24 full-time positions, with a median service length of 1.1
+years. Of those who departed, 24 left for larger departments, three left the fire service
+               These minutes are subject to approval by the Budget Committee.
+                                                                                         Page 1 of 7
+                               TOWN OF GOFFSTOWN
+                                BUDGET COMMITTEE
+                                 MEETING MINUTES
+                             SEPTEMBER 22, 2026, 6:00 PM
+entirely, two did not complete probation, and two moved to similarly sized departments. Exit
+interviews consistently identified workload as the primary reason for departure.
+
+Chief Selleck elaborated on what "workload" encompasses:
+
+      Crew size: The department does not meet the NFPA 1710 standard of four-person
+       engine companies. At the Pinardville station, the same personnel staff both the fire
+       engine and ambulance. At the downtown station, those same individuals are also
+       responsible for the tower, tanker, forestry unit, boat, and UTV, requiring extensive
+       cross-training.
+      Supervision: With only one officer on duty at any given time, one station is
+       frequently left without a certified officer-in-charge when the officer responds to a call
+       at the other station. This results in probationary or junior firefighters being placed in
+       command roles they are neither qualified nor willing to assume, which has been cited
+       specifically in exit interviews.
+      Upward mobility: The department has only four officer positions on the floor.
+       Personnel can anticipate no path to promotion for 10 to 20 years, which drives
+       younger firefighters to seek positions at larger departments where annual promotions
+       are common.
+
+Direct Costs of Turnover
+
+Chief Selleck presented a breakdown of the direct costs associated with each new hire,
+including tuition for required certifications, PFAS-free protective gear (noting that all
+operational personnel are on track to receive one set by year's end), uniforms, physicals,
+criminal background checks, mandatory overtime, and wages and benefits, which vary
+significantly depending on age and family status. He noted that most losses occur within the
+first three years of employment, which often coincides with when employees are starting
+families, driving benefit costs higher just before they depart.
+
+He noted that training costs are compounded by federal law, which requires the department to
+compensate personnel for time spent in mandatory classes. When a firefighter is sent to
+training, their shift position either goes vacant or must be backfilled with overtime.
+
+Overtime Analysis
+
+Chief Selleck walked the committee through the department's overtime data, emphasizing
+that some level of overtime is unavoidable, driven by vacation, bereavement, injury, and
+mandatory department physicals. However, he stressed that the education-related overtime
+component is dramatically inflated compared to peer departments, precisely because
+Goffstown hires new entrants who require extensive training from the ground up. He
+estimated that education-related overtime should be approximately one-fifth of what it
+currently is, if the department were able to consistently hire fully certified personnel.
+
+He also clarified that overtime and leave hours will not arithmetically reconcile in budget
+documents for two reasons: not every vacancy is filled, and personnel have the option to
+
+
+              These minutes are subject to approval by the Budget Committee.
+                                                                                        Page 2 of 7
+                                TOWN OF GOFFSTOWN
+                                 BUDGET COMMITTEE
+                                  MEETING MINUTES
+                              SEPTEMBER 22, 2026, 6:00 PM
+convert overtime into compensatory time, particularly useful for newer employees who have
+not yet accrued vacation benefits.
+
+When asked by Jessica Peutin whether the 2026 leave projection figures were totals or
+additive, Chief Selleck confirmed they are totals, calculated using a three-year rolling average
+with an inflation adjustment.
+
+Brian Mazur sought clarification that the department is currently fully staffed at 24 positions,
+which Chief Selleck confirmed. Mazur noted that the high education-related overtime figures
+stem from the fact that approximately one-third of the department is still in a probationary or
+training period at any given time, and that when those personnel are reassigned to the fire
+academy, their vacant shifts generate overtime charges.
+
+Chair Dubrulle sought to clarify the nature of the problem: it is not the total number of
+positions that is the issue, but rather the inability to retain personnel in those positions long
+enough to make a return on the investment in their training. Chief Selleck confirmed this,
+stating: "Everything relates to that retention. Our costs and our experience, both operational
+problems that we're having, as well as cost problems that we're having, all come back to that
+retention piece."
+
+Budget Impact and the Default Budget
+
+Chair Dubrulle asked Chief Selleck to explain the impact of the default budget on his
+department. Chief Selleck explained that the overtime line has historically been under-
+budgeted, with actual expenditures consistently exceeding appropriations. He provided
+specific figures:
+
+      FY2024: Budgeted $341,935 in overtime; actual expenditure was $377,307.
+      FY2025: Budgeted $348,811; actual expenditure was $454,515.
+      FY2026: Following the reversion to the default budget, the overtime appropriation
+       dropped back to approximately the FY2024 level, creating a significant funding gap.
+
+Because wages and benefits represent approximately $3.5 million, or roughly 80% of the
+department's total budget, there is very little capacity in the remaining operational lines to
+absorb overtime overruns. Chief Selleck described having to zero out lines such as fire
+prevention materials and defer preventative maintenance on apparatus simply to preserve
+staffing levels. He noted that in FY2026, this constraint limited the department to hiring only
+four personnel rather than the six needed to maintain full shift coverage.
+
+Jessica Peutin asked why the overtime line had not been increased in prior budgets given the
+historical overspend. The Finance Director confirmed that while requests had been made,
+reductions were applied by the appropriations committee, and that when budgets did not pass,
+proposed adjustments could not take effect.
+
+
+               These minutes are subject to approval by the Budget Committee.
+                                                                                          Page 3 of 7
+                                  TOWN OF GOFFSTOWN
+                                   BUDGET COMMITTEE
+                                    MEETING MINUTES
+                                SEPTEMBER 22, 2026, 6:00 PM
+
+
+Engine Company Size and Operational Impact
+
+Chief Selleck distributed a handout on NFPA 1710 engine company standards and explained
+the operational significance of crew size. The national standard calls for four-person engine
+companies operating on a two-in, two-out protocol: two personnel engaged in fire attack or
+search and rescue, and two personnel outside managing water supply, ground ladders, and
+serving as a rapid intervention team. The standard also requires 17 firefighters on scene.
+Chief Selleck noted that Goffstown relies on mutual aid from Manchester and Bedford to
+approach this number, but that surrounding volunteer departments are increasingly unable to
+respond or arrive with only a single unstaffed operator.
+
+He presented data from a NIST study showing that smaller crew sizes result in longer time-
+to-water, greater spread of fire, and significantly elevated cardiovascular stress on
+firefighters. Statistically, firefighter injuries and fatalities are most likely to occur in the first
+10 minutes of a structural fire. He stated: "We die of heart attacks… our heart rates are
+operating for so long at the maximum."
+
+Chief Selleck illustrated the real-world consequences by recounting the department's
+response to a nighttime structure fire on Sunny Street. The first-arriving crew, operating
+below standard strength, had to sequentially perform a ladder rescue of one trapped victim,
+make entry to search for a second victim, perform CPR, and re-enter to extinguish the fire
+after the attack hose was burned through. He noted that in a fully staffed department, each of
+those tasks would have been performed simultaneously by separate four-person companies.
+
+He further illustrated experience gaps using fire helmets labeled with years of service
+representing each of the department's four shifts. He demonstrated how quickly on-duty
+experience drops when a single officer or senior firefighter is absent, leaving stations with as
+little as two combined years of fire experience, or no certified officer, to handle emergency
+calls independently.
+
+Per Diem Staffing and Recruitment Efforts
+
+In response to a question, Chief Selleck explained that the department no longer employs per
+diem firefighters due to a poor return on investment. Per diem EMS personnel are used, but
+managing a 24-hour position through per diem staffing requires a pool of 30 to 40
+individuals, and engagement tends to be inconsistent. The department is participating in a
+regional EMS study grant examining alternative staffing models.
+
+Chief Selleck highlighted the Department of Defense SkillBridge internship program as the
+department's most effective recruitment tool, noting it had generated 30 applicants per
+position and produced several current full-time hires. He expressed concern that no new
+interns have been approved through the program since September of the prior year, which he
+attributed to current military operational demands.
+
+
+                These minutes are subject to approval by the Budget Committee.
+                                                                                               Page 4 of 7
+                                TOWN OF GOFFSTOWN
+                                 BUDGET COMMITTEE
+                                  MEETING MINUTES
+                              SEPTEMBER 22, 2026, 6:00 PM
+Jessica Peutin asked about high school and trade school outreach. Chief Selleck confirmed
+the department is exploring participation in the Mike Rowe Works Foundation program and
+continues to attend job fairs and partner with a local college for student volunteers. He noted
+that the Department of Labor no longer permits under-18 interns to ride on apparatus when
+responding to emergency calls, which limits the effectiveness of high school programs.
+
+Regionalization
+
+Chief Selleck noted that he has convened discussions with representatives from three
+neighboring communities about regionalization of fire and EMS services, an uncommon
+development in New Hampshire, where town-by-town control is deeply ingrained. He
+acknowledged that the primary obstacle to regionalization is governance and oversight:
+aligning multiple elected boards on a shared operational model is extremely difficult. He
+stated that the department is "beyond the fat… beyond the muscle, and we're hitting bone
+now," and that all communities involved must consider models they would not otherwise
+entertain.
+
+Jack Carbonneau asked about mutual aid billing practices. Chief Selleck explained that
+mutual aid is not formally billed between communities. He noted that Goffstown frequently
+responds to Manchester on ambulance mutual aid calls, and that Manchester reciprocates
+with fully staffed engine and ladder companies at structure fires, a ratio he finds roughly
+balanced. He has recently implemented a policy to limit the frequency of ambulance mutual
+aid responses to Manchester, consistent with practices in neighboring communities.
+
+EMS Revenue
+
+Jessica Peutin asked whether the town's ambulance service constitutes a revenue stream.
+Chair Dubrulle and Chief Selleck confirmed that ambulance billing generates approximately
+$1 million per year, held in a revolving fund that covers EMS equipment, ambulance
+replacements (currently approximately $300,000 each), and a portion of personnel costs,
+without drawing on property tax revenue. Chief Selleck noted that the department receives
+approximately 30 cents on the dollar for a Medicare transport, which represents the largest
+payer category given the town's aging demographics, and that costs are partially shifted to
+private insurers to compensate.
+
+Proposed Solution: Shift Captain Positions
+
+Chief Selleck presented his proposal to address the retention crisis through the creation of
+four Shift Captain positions, one per shift. He framed the proposal as a single intervention
+designed to simultaneously address the top three reasons cited in exit interviews: workload,
+lack of supervision, and lack of upward mobility.
+
+Adding a Shift Captain at the downtown station would bring that station to four personnel per
+shift, always provide a qualified supervisor at each station, and create a meaningful
+promotion pathway for current firefighters. The positions would be non-union, outside the
+existing bargaining unit that covers lieutenants and firefighters.
+
+
+               These minutes are subject to approval by the Budget Committee.
+                                                                                        Page 5 of 7
+                               TOWN OF GOFFSTOWN
+                                BUDGET COMMITTEE
+                                 MEETING MINUTES
+                             SEPTEMBER 22, 2026, 6:00 PM
+Chief Selleck emphasized his intention to promote from within rather than hire externally,
+preserving institutional knowledge, including familiarity with local geography, apparatus, and
+station layouts, and minimizing the morale impact of outside hires. He noted that promoting
+internal candidates would create a cascade effect, with lieutenants moving up and new
+firefighter positions becoming available at the entry level, where the department now has an
+eligibility list for the first time in its history.
+
+He acknowledged that this proposal would not produce immediate cost savings, and that the
+transition period, during which newly promoted officers are still building competency and
+new entry-level firefighters are being trained, will involve some overlap of costs. However,
+he expressed confidence that if annual attrition could be reduced from the current average of
+four to five departures per year to two or fewer, the financial impact would be substantial.
+
+When Brian Mazur asked whether Shift Captains would serve as active participants in calls
+rather than purely supervisory roles, Chief Selleck confirmed they would, functioning as a
+member of the four-person crew while also managing incident command. He noted that this
+dual role is operationally demanding, particularly in structure fires where an officer may
+simultaneously be on a hose line, directing crew movements, and coordinating mutual aid on
+the radio.
+
+Chair Dubrulle asked whether the four new Shift Captain positions would require additional
+command vehicles. Chief Selleck confirmed they would not, captains would ride on existing
+apparatus.
+
+Chief Selleck confirmed that cost estimates have been submitted to the Finance Director and
+are still being refined as part of the FY2027 budget process. He committed to providing the
+committee with a clear over/under comparison of the cost of the new positions versus current
+overtime expenditures at the next budget presentation. He also noted that this proposal has
+not yet been presented to the Select Board, and that the mechanism, whether a standard
+budget line or a warrant article, has not yet been determined.
+
+Next Meetings:
+
+Chair Dubrulle announced that the next regular meeting on September 29, 2026, will include
+a deep dive into default budget mechanics, an overview of the budget season approach, and a
+presentation on the proposed state school tax cap formula. She noted that with the school
+budget season beginning shortly after any November vote, the committee must understand
+the tax cap formula in advance. The Finance Director added that an NHMA webinar on
+default budgets is available and encouraged members to attend, noting that several had
+already registered.
+
+Upcoming Schedule
+
+   i.      09/29/2026 – Regular Meeting, 7:00 PM
+   ii.     10/05/2026 – Joint with School Board, 6:00 PM (Monday)
+   iii.    10/07/2026 – Joint with School Board, 6:00 PM (Wednesday)
+   iv.     11/10/2026 – Regular Meeting, 7:00 PM
+
+              These minutes are subject to approval by the Budget Committee.
+                                                                                      Page 6 of 7
+                              TOWN OF GOFFSTOWN
+                               BUDGET COMMITTEE
+                                MEETING MINUTES
+                            SEPTEMBER 22, 2026, 6:00 PM
+   v.      11/12/2026 – Regular Meeting, 7:00 PM
+   vi.     11/17/2026 – Regular Meeting, 7:00 PM
+   vii.    11/19/2026 – Regular Meeting, 7:00 PM
+   viii.   11/24/2026 – Regular Meeting, 7:00 PM
+
+Brian Mazur moved to adjourn the meeting, and Jessica Peutin seconded. All those in favor
+signified by saying aye. The meeting adjourned at 8:50 PM.
+
+Respectfully submitted,
+Cynthia Lundberg, Executive Secretary (prepared with assistance of AI, ClerkMinutes.com)
+
+
+              These minutes are subject to approval by the Budget Committee.
+                                                                                   Page 7 of 7

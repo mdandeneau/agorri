@@ -1,0 +1,38 @@
+Source: https://manchesternh.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=5336,plainText=false)
+Title: Board of Mayor and Aldermen 2026-10-20: 10-20-26 CIP
+Fetched: 2026-11-01
+
+SPECIAL MEETING
+         COMMITTEE ON COMMUNITY IMPROVEMENT
+                         October 20, 2026 at 5:30 PM
+                  Aldermanic Chambers, City Hall (3rd Floor)
+
+           Members: Aldermen Burkush, Vincent, Barry, Goonan, Terrio
+
+                                 AGENDA
+
+
+The Chairman calls the meeting to order.
+
+
+The Clerk calls the roll.
+
+1.    Amending Resolution and Budget Authorizations providing for the transfer and
+      expenditure of funds in the amount of $63,753.12 for CIP 712622 ARPA -
+      Revenue Replacement - Roads and Sidewalks and CIP 810724 Part Time
+      Planner.
+      Gentlemen, what is your pleasure?
+
+2.    Amending Resolution and Budget Authorization providing for the acceptance
+      and expenditure of funds in the amount of $30,000 for CIP C070040127
+      Domestic Violence Prosecutor.
+      Gentlemen, what is your pleasure?
+
+3.    Communication from Ryan Cashin, Fire Chief, requesting funding to secure
+      replacement public safety portable radio equipment before December 2026.
+      (Note: Should the Committee approve of this request, a funding source needs
+      to be identified.)
+      Gentlemen, what is your pleasure?
+
+
+If there is no further business, a motion is in order to adjourn.

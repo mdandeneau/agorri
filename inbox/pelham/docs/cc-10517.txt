@@ -1,0 +1,1182 @@
+Source: https://pelhamnh.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=10517,plainText=false)
+Title: Zoning Board of Adjustment 2026-10-15: ZBA_10.15.2026_DRAFT
+Fetched: 2026-11-01
+
+ZONING BOARD OF ADJUSTMENT MINUTES                                                   MEETING DATE: 10/15/2026
+
+
+                                              DRAFT MEETING MINUTES
+                                        ZONING BOARD OF ADJUSTMENT
+                                                     10/15/2026
+                                          TOWN HALL – SHERBURNE HALL
+                                        6 VILLAGE GREEN, PELHAM, NH 03076
+
+
+Call to order
+Scheduled Start Time: 7:00 PM
+
+         Actual Start Time: 07:00 PM
+
+Pledge of Allegiance
+
+         The meeting began with the recitation of the Pledge of Allegiance.
+
+Roll Call
+
+         Present:
+         Chairman David Wing
+         Vice Chairman Ken Stanvick
+         Secretary Andrea Dube
+         Member Matthew Welch
+         Member Shaun Hamilton
+         Alternate Nicole Pigeon
+         Alternate Michelle Cooke
+
+         Absent:
+         Planning Director/Zoning Administrator Jennifer Beauregard
+         Recording Secretary Cassidy Pollard
+
+Meeting Minutes Review
+
+         Ms. Dube provided the public with housekeeping instructions. She explained that handouts containing the
+         evening’s agenda were made available outside the meeting room. She stated that cases would be heard in the
+         order listed on the agenda unless the Board determined that taking a case out of order was appropriate. She
+         added that tonight 40 Woekel Circle would be heard first as that was decided at last month's meeting. She also
+         announced that no new cases would be heard after 10:00 p.m. She explained that state law and local
+         ordinances establish the criteria the Board must apply when granting or denying requests. She continued that
+         testimony would be taken first from the applicant, then from those in favor, and then from those neutral or
+         opposed. She stated that, if necessary, a second round of testimony could be heard to respond to opposition.
+         Speakers were instructed to direct comments to the Board, approach the microphone, and state and spell their
+         names and addresses for the record. Those in attendance were instructed to refrain from side conversations or
+         phone calls as they cause distractions to the cases being heard. Ms. Dube stated that new documentation could
+         be accepted for consideration but could result in a continuance. She added that after public testimony, the Chair
+         would close the public portion, open deliberations to the Board, and the Board would vote to approve, deny, or
+         defer before moving to the next case. She stated that alternates could participate in discussion but could not
+         vote unless appointed by the Chair. She added that only one party at a time should be seated at the table in the
+         front of the room, and that upon concluding their remarks, speakers were asked to leave the table so that the
+         next party would have an opportunity to speak. She finished by stating that those speaking were also asked to
+         limit their comments to matters related only to Zoning.
+
+         Mr. Wing announced that fraudulent emails have targeted Pelham residents and individuals involved in Planning
+
+                                                   Page 1 of 20
+ ZONING BOARD OF ADJUSTMENT MINUTES                                                   MEETING DATE: 10/15/2026
+
+         and Zoning applications. He stated that these emails may appear to come from Town officials or Board
+         members and may request application-related fees, financial information, wire transfers, or other funds. She
+         emphasized that these messages are scams and are not authorized by the Town. She added that the Town
+         does not request financial information or wire transfers by email. He stated that recipients should not respond,
+         click on links, or send money. He continued that questions regarding legitimate Town fees should be directed to
+         the Planning Department using contact information published on the Town’s official website. He finished by
+         stating that suspicious emails claiming to be from the Town should be reported to the Planning Department and
+         the Pelham Police Department and urged residents to remain vigilant and help inform others to prevent
+         additional victims.
+
+   1)    Minutes of September 14, 2026
+
+            Motion: To approve the minutes as written.
+            Motion By: Ken Stanvick / Second By: Shaun Hamilton Vote: (5-0-0) The motion passed.
+            In Favor: 5 — David Wing, Ken Stanvick, Andrea Dube, Matthew Welch, Shaun Hamilton
+
+   2)    Site Walk Minutes of October 4, 2026
+
+            Mr. Wing appointed Ms. Cooke to vote on the Site Walk minutes.
+
+            Motion: To approve the minutes as written.
+            Motion By: Matthew Welch / Second By: Michelle Cooke Vote: (5-0-1) The motion passed.
+            In Favor: 6 — David Wing, Ken Stanvick, Andrea Dube, Matthew Welch, Shaun Hamilton, Michelle Cooke
+
+Non-Public Meeting Minutes Approval
+
+
+   3)    Non-Public Minutes of September 14, 2026
+
+            Motion: To seal the minutes of the non-public session indefinitely.
+            Motion By: Andrea Dube / Second By: Matthew Welch Vote: (5-0-0) The motion passed.
+            In Favor: 5 — David Wing, Ken Stanvick, Andrea Dube, Matthew Welch, Shaun Hamilton
+
+Continued Hearings (Part 1 of 2)
+
+
+   4)    ZO2026-000016 —  Map 31 Lots 11-277 — Cooley, Kenneth & Kerrie (owners/applicants) – 40 Woekel Circle - Seeking
+         a VARIANCE concerning: Article VII, Section 307-39 of the Zoning Ordinance to permit an 8’ x 12’ shed within the 50’ WCD
+         (Wetland Conservation District) buffer. The applicant applied for and was approved for a Shoreline permit from NHDES,
+         permit #2026-01862.
+
+            Ms. Dube read the list of abutters aloud. There was no one whose name was not called that is an abutter or
+            has a statutory interest in the case.
+
+            Mr. Ken Cooley of 40 Woekel Circle approached the Board. Mr. Cooley stated that he and his wife were
+            seeking a variance to install an 8-foot-by-12-foot shed within the Wetlands Conservation District. He
+            explained that they had met with the Conservation Commission the previous evening to consider alternative
+            locations on the lot. He explained that the Commission supported the proposed location on the condition that
+            they plant 15 shrubs. Mr. Cooley requested that the Board grant the variance to allow the shed in the
+            proposed location.
+
+            Mr. Cooley read the five criteria of a variance into the record.
+
+            Mr. Wing noted that the approved Shoreland Plan included proposed decks and steps and confirmed that
+            those improvements were outside the Wetlands Conservation District and therefore were not part of the
+            variance request. He also asked whether the previously proposed underground propane tank remained part
+            of the plan. Mr. Cooley explained that the proposal had changed, and that three aboveground propane
+            cylinders would instead be placed beside the shed. He stated that the originally approved 500-gallon
+                                                   Page 2 of 20
+ ZONING BOARD OF ADJUSTMENT MINUTES                                                   MEETING DATE: 10/15/2026
+
+            underground tank would not fit appropriately in the planned location. Mr. Wing then asked why the new shed
+            could not be placed in the location of the existing shed. Mr. Cooley explained that the proposed shed would
+            be two feet larger and, together with the proposed deck, would leave only approximately three to three-and-
+            one-half feet of clearance, making access between the structures too narrow. Mr. Wing acknowledged the
+            explanation and thanked Mr. Cooley.
+
+            Mr. Stanvick asked if the letter of recommendation from the Conservation Commission could be read into the
+            record.
+
+            Mr. Wing read the following letter from the Conservation Commission into the record:
+
+            “The Conservation Commission reviewed this case on October 14, 2026, at your request. The applicant is
+            seeking a variance for a shed within the 50-foot Wetland Conservation District buffer. This parcel is along the
+            shore of Little Island Pond. The lot is small, with limited locations to construct a shed. The applicant has
+            stated that they intend to remove a 6 by 12 foot shed and replace it with an 8 by 12-foot shed. The shed is
+            proposed to store lawn mowers, yard tools, and various items to be used for outdoor enjoyment of their
+            property. The shed is also proposed to have a pad toward the roadside that will contain 3 propane tanks.
+
+            As presented, the shed is located approximately 25 feet into the WCD. Members encouraged the applicant to
+            locate the shed in the same location as the shed that will be removed, which is outside the WCD. The
+            applicant was reluctant to do that because he said that location was narrow already with the smaller shed.
+            He also stated he was adding a deck to the house that would tighten the space further.
+
+            Additionally, he wants to be able to remove his dock from the lake and pull it up into the driveway to the
+            south side of the house. The proposed shed location would allow the deck to be stored in the driveway. The
+            applicant also said he wanted to add the shed in the proposed location because it would give some privacy
+            to them as their neighbors have a patio on the other side of the fence and the shed would provide some
+            buffer.
+
+            Commission Members tried to think of an alternate location for the shed and ran through several possibilities.
+            Members suggested moving the shed to the location of the shed that is to be removed. Members suggested
+            the shed be placed on the opposite side of the house outside the WCD. The roadside of the house was
+            suggested. The applicant owns the adjacent lot, so Members suggested the shed could be placed along the
+            far property line of the adjacent lot. None of these options were acceptable to the applicant.
+
+            Commission Members voted 7 in favor, 0 opposed to the location of the shed within the WCD. Additionally,
+            the applicant shall plant 15 shrubs on their lot within one year.
+
+            Thank you for your consideration of our comments.
+
+            Sincerely, Karen MacKay, Conservation Commission Secretary”.
+
+            Mr. Cooley presented a photograph to the Board showing the existing tan shed and identified the proposed
+            location for the new shed. He explained that the proposed location would provide additional privacy from the
+            neighboring patio located on the opposite side of the fence and stated that he considered it the best location.
+
+            Ms. Pigeon asked whether the shed’s proximity to the side lot line would require an additional setback
+            variance. Mr. Cooley stated that he understood structures under 100 square feet could be placed at the
+            property line without a variance. The Board confirmed that the proposed 8-foot-by-12-foot shed would
+            contain 96 square feet. Mr. Cooley added that he intended to leave sufficient space between the shed and
+            fence for maintenance.
+
+            Mr. Hamilton asked whether electricity would be installed in the shed and whether trenching would be
+            required. Mr. Cooley stated that electrical service would eventually be extended to the new shed, as it had
+            been to the existing shed.
+
+            Mr. Wing opened the floor to anyone who was in favor of this application.
+
+                                                   Page 3 of 20
+ ZONING BOARD OF ADJUSTMENT MINUTES                                                   MEETING DATE: 10/15/2026
+
+            Mr. Robert Habeeb of 36 Woekel Circle, and part owner of 37 Woekel Circle, spoke in favor of the
+            application. Mr. Habeeb stated that he had no objection to the proposed shed because it would provide
+            enclosed storage for lawn mowers, chairs, and other items that might otherwise remain visible on the
+            property.
+
+            Mr. Cooley then submitted a document containing signatures from immediate neighbors who indicated that
+            they had no objection to the proposed shed.
+
+            Mr. Wing read the following letter into the record:
+            “Dear Members of the Pelham Zoning Board,
+            I am unable to attend the ZBA meeting scheduled for 9-14-26. This was subsequently moved to the 10-15
+            date.
+
+            I do not have any opposition to the Cooley's building an 8 by 12 shed on their property within the 50-foot
+            buffer of Little Island Pond, as shown on the plans shown to me from Fieldstone Land Services drawn on 8-
+            24-26.
+
+            Edward Mitchell, 26 Woekel Circle & 3 Spaulding Hill Road.
+            Melinda O'Hearn, 42 Woekel Circle.
+            Ethel Walker, 81 South Shore Drive.
+            Ron Campbell, 80 South Shore Drive.
+            Robert Habeeb, 36 Woekel Circle.
+            Andrew Brienze, 39 Woekel Circle.
+            Abby Morris, 39 Woekel Circle.
+            Stephen McKallagat 34 Woekel Circle.
+            Pamela McKallagat, 34 Woekel Circle.
+            Judith Smith-Habeeb, 36 Woekel Circle”.
+
+            Mr. Wing asked whether anyone else wished to speak in favor of the application. Hearing none, he asked
+            whether anyone wished to speak in opposition or had questions regarding the application.
+
+            Mr. Bruce Bilapka and Ms. Andrea Page of 35 and 49 Woekel Circle approached the Board. Mr. Bilapka
+            stated that he did not oppose the proposed shed but wished to raise concerns about other activity occurring
+            on the two lots, including the deeded beach lot. He reported that excavators and skid-steer loaders had been
+            entering and leaving the property since June and questioned whether a business was being operated from
+            the site without the required home-occupation approval or other permits. He stated that he had reported the
+            matter to Code Enforcement but had not received a response.
+
+            Mr. Bilapka also reported that approximately 1,200 square feet at the front of the property had recently been
+            paved. He questioned whether the additional impervious surface complied with applicable requirements for
+            the small waterfront lots. He further expressed concern about installed piping, an open gully, and the
+            possibility that drainage could flow into the lake. He stated that he had contacted the Shoreland Program to
+            request verification of the impervious-surface calculations because the Shoreland permit reportedly identified
+            only 103 square feet of disturbance.
+
+            Mr. Bilapka reiterated that he did not object to the shed but objected to the possible operation of a business
+            and the storage of construction equipment and a trailer without proper authorization. At the Board’s request,
+            he displayed photographs showing the recent paving and equipment located near the waterfront and offered
+            the photographs for the record. Mr. Wing explained that the Board had no enforcement authority, and that
+            Code Enforcement was the appropriate office to address those concerns. Mr. Bilapka stated that he raised
+            the issues so that the Board and Conservation Commission would be aware of the conditions on the property
+            and requested that the matters be addressed.
+
+            Mr. Wing asked if there was anyone else who would like to speak in opposition to this application. Hearing
+            none, he asked Mr. Cooley whether he wished to make a closing statement or rebuttal before the public
+            hearing was closed for deliberation.
+
+                                                   Page 4 of 20
+ ZONING BOARD OF ADJUSTMENT MINUTES                                                   MEETING DATE: 10/15/2026
+
+            Mr. Cooley responded that a court order prohibited Ms. Page and Mr. Bilapka from photographing his
+            property without authorization. He stated that the dispute stemmed from work performed at 37 Woekel Circle,
+            which was the subject of a separate appeal. Mr. Cooley acknowledged that equipment was present on the
+            property but explained that it was necessary to complete work authorized by his Shoreland Permit. He
+            denied operating a business from the property and stated that the residence was not yet habitable. Mr.
+            Cooley concluded that these matters were unrelated to the shed application.
+
+            Mr. Wing asked whether Board Members had any final questions for Mr. Cooley. Hearing none, he thanked
+            Mr. Cooley, then closed the public hearing and opened the matter for Board deliberation.
+            DISCUSSION
+
+            Mr. Wing began the Board’s review of the five variance criteria and combined the public-interest and spirit-of-
+            the-ordinance criteria. He explained that the proposal should not adversely affect public health, safety, or
+            welfare and should remain consistent with the character of the neighborhood. Ms. Dube found that
+            constructing a replacement shed was a customary residential use and noted that the Conservation
+            Commission supported the proposed location. Mr. Hamilton agreed that the Commission’s review and
+            favorable recommendation supported a finding that the proposal was consistent with the public interest and
+            the spirit of the ordinance. Mr. Wing further noted that the proposed shed represented only a modest
+            increase over the existing shed and that the proposed deck had been designed to remain outside the
+            Wetlands Conservation District.
+
+            In considering substantial justice, Mr. Wing stated that denying the variance would provide no identifiable
+            public benefit while preventing the applicants from replacing a shed that had reached the end of its useful
+            life. Ms. Dube also observed that retaining the existing shed in its current location would continue to restrict
+            the narrow passage between the house and the fence. Mr. Wing and Mr. Welch agreed with Ms. Dube. The
+            Board therefore concluded that the applicants’ loss from denial would not be outweighed by any
+            corresponding gain to the public.
+
+            Regarding surrounding property values, Mr. Wing found no reason to conclude that replacing the existing
+            shed with a newer shed would diminish neighboring property values. Mr. Welch agreed with this finding.
+            For the hardship criteria, Ms. Dube found that nearly half of the property was located within the Wetlands
+            Conservation District and that the remaining area was already occupied or constrained by the house,
+            proposed deck, driveway, fence, and access to the lake. She determined that alternative shed locations
+            would either obstruct lake access or occupy the limited passage between the house and fence. The Board
+            concluded that the lot’s small size, limited available area, and existing improvements created special
+            conditions that made strict compliance with the ordinance impractical.
+
+            Motion: To stipulate the following conditions of approval:
+
+                  • The approval shall be limited to a proposed 8’ x 12’ shed in the location shown on the plan submitted
+                    with the application.
+                  • The existing smaller sheds/storage structures being replaced by the proposed shed shall be
+                    removed.
+                  • Prior to commencement of any site disturbance, erosion and sediment control measures shall be
+                    installed in accordance with NHDES Shoreland Permit-by-Notification #2026-01862 and verified by
+                    inspection of the Code Enforcement Officer. Such measures shall be maintained throughout the
+                    construction, and all disturbed areas shall be stabilized upon completion of the project.
+                  • The applicant shall plant 15 shrubs on their lot within one year, as recommended by the
+                    Conservation Commission.
+
+            Motion By: Ken Stanvick / Second By: Matthew Welch
+            Roll Call Vote:
+            Mr. Hamilton — "YES"
+            Mr. Stanvick — "YES"
+            Mr. Welch — "YES"
+            Ms. Dube — "YES"
+            Mr. Wing — "YES"
+                                                   Page 5 of 20
+ ZONING BOARD OF ADJUSTMENT MINUTES                                                   MEETING DATE: 10/15/2026
+
+
+            Vote: (5-0-0) The motion passed.
+
+            CASE# ZO2026-00016
+            ROLL CALL VOTE
+            Mr. Hamilton — 5 yeses, final vote "YES"
+            Mr. Stanvick — 5 yeses, final vote "YES" with conditions.
+            Mr. Welch — 5 yeses, final vote "YES"
+            Ms. Dube — 5 yeses, final vote "YES"
+            Mr. Wing — 5 yeses, final vote "YES" with stipulations.
+
+            Vote: (5-0-0) The motion passed.
+
+            Motion: To approve the request of Kenneth and Kerrie Cooley, Case ZO2026-00016, Map 31 lot 11-277, 40
+            Woekel Circle, for the variance requested from Article VII, Section 307-39 as presented and advertised,
+            subject to the conditions that we placed on.
+            Motion By: Andrea Dube / Second By: Ken Stanvick
+            Mr. Hamilton — "YES"
+            Mr. Stanvick — "YES"
+            Mr. Welch — "YES"
+            Ms. Dube — "YES"
+            Mr. Wing — "YES"
+
+            (5-0-0) The motion passed.
+
+            The variance was GRANTED.
+
+            Mr. Wing informed the applicants that there was a 30-day right to appeal.
+
+Request for Rehearing
+
+
+   5)    ZO2026-00013 — Map 31 Lot 11-20 — Smith, Charles, Jr. & Habeeb, Robert (owners/applicants) — 37 Woekel Circle
+         – Request for Rehearing submitted by Laura Gandia of Devine, Millimet & Branch, P.A., on behalf of Andrea Page and Bruce
+         Bilapka, concerning the variances granted on September 14, 2026, under Article III, Section 307-12, Table 1 of the Zoning
+         Ordinance.
+
+            Mr. Wing asked whether the Board Members had reviewed the brief submitted by Attorney Gandia and the
+            counter-brief submitted by Attorney Mueller. Ms. Dube noted that an email from Town counsel concerning
+            the case had been received during the meeting and wasn’t aware if all Members had reviewed it. Mr.
+            Stanvick stated that, based on the information presented, he believed the request for rehearing should be
+            granted because the matter warranted further review in a public session.
+
+            Mr. Wing explained that the Board could grant a rehearing if new information might alter its decision or if it
+            believed an error had been made in the original decision. He further explained that, if granted, the rehearing
+            would be scheduled for the following month, and notices would be sent to abutters.
+
+            Ms. Dube stated that each Member should have an opportunity to read the legal advice before deciding the
+            request and suggested that the Board enter into a non-public session.
+
+            Non-Public Session
+
+            Motion To enter a non-public session under RSA 91-A:3, II for consideration of legal advice provided by
+            legal counsel through email.
+            Motion By: Andrea Dube / Second By: Matthew Welch
+            Roll Call Vote:
+            Mr. Welch — "YES"
+            Ms. Dube — "AYE"
+                                                   Page 6 of 20
+ ZONING BOARD OF ADJUSTMENT MINUTES                                                   MEETING DATE: 10/15/2026
+
+            Mr. Stanvick — "AYE"
+            Mr. Hamilton — "AYE"
+            Mr. Wing — "YES"
+
+            (5-0-0) The motion passed.
+
+            The Board entered non-public session at 7:42 PM and returned at 7:58 PM.
+
+            Motion: To seal the minutes of the non-public session indefinitely.
+            Motion By: Matthew Welch / Second By: Andrea Dube
+            Roll Call Vote:
+            Mr. Welch — "YES"
+            Ms. Dube — "YES"
+            Mr. Stanvick — "YES"
+            Mr. Hamilton — "YES"
+            Mr. Wing — "YES"
+
+            (5-0-0) The motion passed.
+
+            The Board resumed consideration of the request for rehearing. Mr. Stanvick supported rehearing the case
+            based on clarification of information presented. Mr. Hamilton stated that he found no valid basis for
+            rehearing. Mr. Welch stated that the application contained no new information that would change his opinion
+            or demonstrate that the Board had erred in its prior decision. Ms. Dube agreed that no new information had
+            been presented that would cause her to support rehearing. Mr. Wing stated that Attorney Gandia’s brief
+            largely repeated arguments raised during the original hearing and contained nothing that would change his
+            opinion.
+
+            Roll Call Vote:
+            Mr. Stanvick — “YES”
+            Mr. Hamilton — “NO”
+            Mr. Welch — “NO”
+            Ms. Dube — “NO”
+            Mr. Wing — “NO”
+
+            (1-4-0) The request for rehearing was denied.
+
+Continued Hearings (Part 2 of 2)
+
+
+   6)    ZO2026-000014 — Map 30 Lots 11-188 & 11-189 — Chisholm, Ian (owner/applicant) – 19 & 21 Grace Road - Seeking a
+         VARIANCE concerning: Article III, Sections 307-8, 307-12 Table 1, 307-14 & Article VII, Section 307-39 of the Zoning
+         Ordinance to permit: the construction of a single-family dwelling on a proposed combined lot consisting of two existing
+         nonconforming lots proposed to be merged, with a resulting lot area of approximately 10,484 square feet where one acre is
+         required; approximately 110.3 feet of frontage where 200 feet is required; side setbacks of no less than 5 feet and 12 feet
+         where 15 feet is required; a front setback of no less than 20 feet where 30 feet is required; and construction within the
+         Wetlands Conservation District, with a setback of no less than 20 feet from the waterfront/WCD where 50 feet is required.
+         The proposed merger will require separate Planning Board approval.
+
+            Attorney David Groff approached the Board with his client Mr. Ian Chisholm, the property owner of 19 and 21
+
+            Grace Road.
+
+            Mr. Wing noted that the abutters and the five variance criteria had previously been read into the record. He
+            stated that the Board had also conducted a Site Walk, and the minutes of that Site Walk had been approved.
+
+            Mr. Wing read the following email from the Conservation Commission:
+
+            “There is no letter regarding 19 & 21 Grace Road. The Commission did not vote on the case last night. As we
+            did not vote, we cannot write a letter. Some Members felt the plan was not as complete as it could be in
+                                                   Page 7 of 20
+ ZONING BOARD OF ADJUSTMENT MINUTES                                                   MEETING DATE: 10/15/2026
+
+            order for us to make a decision. We gave the applicant several items to address and asked them to return to
+            us when the plan was more concrete.
+
+            The applicant will bring forward our comments to the Zoning Meeting tonight. Commission Members asked of
+            the possibility of Zoning conditioning the variance on the applicant working with the Commission to minimize
+            environmental impacts and add planting to that end.
+
+            I’m sorry no letter could be sent to Zoning, but we did the best we could at our meeting last night. Feel free to
+            forward this email to Zoning, and I will send it to the applicant and Commission Members also”.
+
+            Attorney David Groff recapped the application on behalf of Mr. Ian Chisholm. Attorney Groff stated that the
+            applicant proposes to demolish the two existing structures at 19 and 21 Grace Road and construct one
+            dwelling after combining the adjoining lots. He explained that both lots are undersized, nonconforming, and
+            lack the required 200 feet of frontage. He stated that the application therefore seeks variance relief for
+            frontage, lot size, setbacks, and the Wetland Conservation District requirements. The properties are located
+            near the end of Grace Road, along a portion described as a private way.
+
+            Attorney Groff stated that, at the prior hearing, the Board requested a Site Walk and a presentation to the
+            Conservation Commission. Board members had since viewed the existing conditions during the Site Walk,
+            and the applicant appeared before the Conservation Commission the previous evening.
+
+            Attorney Groff explained that the applicant was seeking conditional variance approval before undertaking the
+            expense of complete engineering plans. The Conservation Commission, however, believed that additional
+            plan detail was necessary before it could vote or provide recommendations. Mr. Groff stated that the
+            applicant proposed to return to the Commission with a detailed plan if the Board first granted conditional
+            approval.
+            Attorney Groff then summarized the Commission’s concerns, and the revisions incorporated into the updated
+            concept plan. He explained that the revised plan moved the proposed dwelling farther from Little Island Pond
+            so that it would be no closer to the pond than the existing structures. Mr. Groff explained that the earlier
+            proposal extended slightly closer to the pond, while the updated footprint had been shifted toward the
+            roadway as far as practicable. The plan also identified possible locations for additional shoreline plantings.
+
+            Attorney Groff proposed reducing impervious surfaces by removing the existing paved driveway, boat-ramp
+            area, concrete features, and certain pavers. He explained that those areas would be replaced, where
+            feasible, with grass or a combination of grass and permeable pavers. He noted that a Conservation
+            Commission member preferred grass to pavers, particularly on the downslope area, but that the final
+            treatment would be refined through further review.
+
+            Attorney Groff stated that the revised concept included a stormwater infiltration chamber beneath the
+            driveway. He explained that the roof of the proposed dwelling would slope toward the roadway rather than
+            the pond, and roof runoff would be directed to the infiltration system. He added that a second, smaller
+            drainage feature could be added to capture runoff from the opposite side of the property.
+
+            Attorney Groff further explained that the properties currently contain two septic systems and two wells. He
+            stated that the proposal would retire both existing septic systems and install one new septic system for the
+            combined property. He explained that one existing well would remain in service, and the other would be
+            abandoned.
+
+            Attorney Groff reiterated that the applicant did not wish to incur the full cost of engineering until there was
+            reasonable assurance that the project could proceed. He requested conditional approval for the setback,
+            frontage, private-roadway, and Wetland Conservation District relief shown on the revised plan. He stated that
+            if approved, the applicant would prepare a more detailed plan and would return to the Conservation
+            Commission for its review and final recommendation.
+
+            Mr. Wing explained that the proposal would not require Planning Board review. Attorney Groff clarified that
+            the two lots would need to be consolidated through an administrative process through the Planning Board,
+            but the proposal would not require a Planning Board hearing. Mr. Wing explained that this Board would be
+            the only Board able to impose conditions and stated that any approval should include clear stipulations
+                                                   Page 8 of 20
+ ZONING BOARD OF ADJUSTMENT MINUTES                                                   MEETING DATE: 10/15/2026
+
+            governing the proposal.
+
+            Ms. Dube requested a comparison of the existing and proposed square footage. Mr. Chisholm explained that
+            some figures on this plan that they presented to the Conservation Commission were no longer accurate
+            because the design had since been revised. He stated that the shaded areas on the plan represented
+            existing impervious surfaces, including roofs, patios, driveways, concrete areas, and the boat-ramp area. Mr.
+            Chisholm explained that the existing roof area at 19 Grace Road was identified as 1,800 square feet, and the
+            existing roof area at 21 Grace Road was identified as 900 square feet, for a combined roof area of 2,700
+            square feet. He stated that the existing patios and driveways totaled 1,721 square feet at 19 Grace Road and
+            1,071 square feet at 21 Grace Road, for a combined total of 2,792 square feet.
+
+            Mr. Chisholm clarified that the revised proposed roof area was approximately 3,500 square feet rather than
+            the previously stated 4,000 square feet. He stated that the proposed patio and paved areas consisted of
+            approximately 1,095 square feet in one area and approximately 900 square feet in another, for a total just
+            under 2,000 square feet. He stated that this represented approximately 700 square feet less paved area than
+            the existing 2,792 square feet and that the effective impervious area could be further reduced by using grass
+            between pavers.
+
+            Ms. Dube discussed the existing artificial turf and if it was an impervious or previous surface. Mr. Chisholm
+            explained that the turf was installed over four inches of compacted three-eighths-inch crushed stone and a
+            drainage mat with perforations. On that basis, he treated the turf as pervious and did not include it in the
+            impervious-surface calculation. Ms. Dube confirmed its understanding of that treatment for purposes of the
+            figures presented.
+
+            Mr. Stanvick asked for the total of the existing and proposed impervious surfaces. Mr. Chisholm calculated
+            that the existing 2,792 square feet of patios and driveways, combined with 2,700 square feet of roof area,
+            resulted in approximately 5,492 square feet of impervious surface. Mr. Stanvick asked what the total
+            percentage of the lot that would be. Mr. Chisholm explained that the combined lot contained slightly more
+            than 10,000 square feet, the existing impervious coverage was described as slightly greater than 50 percent.
+
+            Mr. Stanvick noted that Shoreland Protection Requirements apply when impervious coverage exceeds 30
+            percent and may require plantings extending toward the pond. Mr. Chisholm confirmed that all required
+            permits would be sought from the New Hampshire Department of Environmental Services.
+
+            Mr. Stanvick expressed concern that the proposal was a major development supported primarily by a
+            conceptual sketch rather than a complete engineered plan. He compared the proposal with a prior Wetland
+            Conservation District matter involving a storage shed for which full engineering plans had been provided. He
+            stated that many of the applicant’s drainage and site-improvement representations were prospective, and
+            that the Board did not yet have a definitive plan of record.
+
+            Mr. Chisholm responded that he had retained a septic designer and had already invested time and money in
+            the project. He explained that the revised house location reflected the Conservation Commission’s request to
+            move the structure farther from the pond. He stated that the change provided approximately 22 feet of
+            clearance near the proposed leach field, which he represented as the minimum necessary clearance. He
+            stated that the site constraints prevented installation of an exterior perimeter drain in that area and prevented
+            the structure from being moved farther toward the street.
+
+            Mr. Stanvick reiterated that the submission remained a sketch rather than an engineering plan and that the
+            lack of a final plan was a significant concern. Mr. Chisholm stated that the Planning Director had advised him
+            that the submitted plan was acceptable for the variance stage and that similar applications had proceeded in
+            that manner. He clarified that this guidance came from the Planning Director rather than from a formal action
+            of the Planning Board.
+
+            Ms. Cooke asked for clarification regarding the proposed catch basin or infiltration feature near the former
+            boat-launch area. The parties reviewed the plan and discussed whether a second drainage feature had been
+            depicted near the water. Attorney Groff clarified that the plan showed the principal infiltration system near the
+            driveway and that a second feature near the downslope area had been discussed but was not yet shown as
+            a finalized component.
+                                                   Page 9 of 20
+ ZONING BOARD OF ADJUSTMENT MINUTES                                                   MEETING DATE: 10/15/2026
+
+
+            Ms. Cooke expressed concern about runoff traveling down the steep slope beside the proposed dwelling and
+            toward Little Island Pond, particularly along the area currently used as a boat ramp. Mr. Chisholm described
+            the principal system as four infiltration chambers occupying an area of approximately 16 feet by 8 feet. He
+            stated that the system was intended to provide capacity approximately 25 percent greater than the previously
+            referenced 4,000-square-foot roof load and would also capture runoff from the driveway. He explained that
+            the final treatment of the lower area would depend on the Conservation Commission and State permitting
+            requirements. He stated that if an impervious patio or paved surface were permitted, he would provide
+            drainage controls for that area and if the area were required to remain pervious, roof runoff would still be
+            directed to the principal infiltration system.
+
+            The parties discussed proposed grading near the driveway and a small retaining wall. Ms. Cooke stated that
+            runoff from Grace Road could pass the retaining wall, travel alongside the house, and discharge toward the
+            pond unless an interception measure were provided. Mr. Chisholm responded that the existing asphalt would
+            be removed and that the replacement would likely consist of grass or pavers with grass between them,
+            consistent with the Conservation Commission’s recommendation.
+
+            Ms. Cooke emphasized that the slope remained substantial and that reducing impervious surface alone
+            might not adequately control concentrated runoff. Mr. Chisholm acknowledged the concern and stated that
+            he was willing to add a drain or infiltration measure if recommended by the Conservation Commission. He
+            noted that the existing asphalt currently directs runoff toward the pond and stated that the proposed condition
+            was intended to improve upon the existing drainage pattern.
+
+            The parties discussed whether a catch basin had been addressed during the Site Walk. Ms. Cooke recalled
+            specifically asking about a catch basin near the driveway and how water would be conveyed. Mr. Chisholm
+            recalled discussing an infiltration feature near the patio area at 19 Grace Road but did not recall discussing
+            one at the asphalt driveway on the opposite side. He nevertheless agreed to address the concern during
+            further Conservation Commission review. He stated that he might forgo tire strips or continued boat-ramp
+            access if those features created drainage or permitting concerns. He questioned how a catch basin would
+            function in an area composed of dirt and grass without substantial filtration and stated that the Conservation
+            Commission was best positioned to advise on the final design.
+
+            Mr. Hamilton asked whether the proposed stormwater system would capture at least 95 percent of the water
+            from the dwelling. Mr. Chisholm responded that the system was designed with capacity equal to
+            approximately 125 percent of the referenced runoff. He identified the proposed system as a StormTech DC-
+            780 Chamber system and displayed product details for the Board. He stated that the system would
+            accommodate runoff from the roof and the paver driveway area. He explained that any patio or other
+            impervious area near the pond remained subject to Conservation Commission and state review. He stated
+            that if such an area were permitted, it would be graded to direct runoff to an infiltration feature. He explained
+            that the system would operate by gravity and would not require a pump. Ms. Cooke reiterated that her
+            principal concern was ensuring that runoff would be intercepted before reaching the pond.
+
+            Mr. Welch asked whether the depicted house outline included decks, covered outdoor-living areas, or similar
+            projections. Mr. Chisholm explained that part of the design might include a roof overhang, an exterior living
+            area, or a glass railing overlooking the water. He stated that the covered area had been included in the
+            square-footage calculation and was contained within the outline shown on the plan. Mr. Welch emphasized
+            that all potential encroachments needed to be shown so that a later deck or projection would not create
+            additional setback relief.
+
+            Mr. Welch discussed additional regulatory review of the project. It was noted that the applicant would require
+            state septic approval and a Shoreland permit. Shoreland review would include impervious-surface
+            calculations and any drainage and infiltration measures required by the final percentages. He stated that this
+            state review provided an additional safeguard beyond the variance proceeding.
+
+            Mr. Stanvick asked if Shoreland would require an official plan or just a sketch. Mr. Welch clarified that
+            Shoreland would require an official plan, including the identification of permanent impacts and temporary
+            construction impacts within the protected area. He stated that the variance proceeding, however, was
+            focused primarily on the dimensional relief within the Board’s Zoning authority, including the front, side, and
+                                                  Page 10 of 20
+ ZONING BOARD OF ADJUSTMENT MINUTES                                                   MEETING DATE: 10/15/2026
+
+            Wetland Conservation District setbacks. He noted that drainage design was not the central issue before the
+            Board at this stage.
+
+            Mr. Stanvick continued to express concern that the Board was relying on a sketch and verbal representations
+            rather than a completed engineering plan. Other members acknowledged the concern but stated that the
+            Board could condition any approval on the setbacks and footprint presented that evening.
+
+            Mr. Wing discussed the importance of conditions because the proposal would not return for a Planning Board
+            hearing. He noted that the applicant would still require administrative lot merger, State Approved Septic
+            Design, and Shoreland Permit Approval. He also discussed conditioning the variance on the plan presented
+            to the Board and requiring the applicant to return for further zoning approval if the final survey or Site Plan
+            required greater dimensional relief.
+
+            Attorney Groff stated that the Conservation Commission served in an advisory capacity and suggested that
+            the variance could require a favorable or positive recommendation from the Commission after review of the
+            more detailed plan. He reiterated that the applicant did not wish to fund complete engineering if the
+            requested Zoning relief would not be granted. Mr. Welch agreed that it could bind the project to the
+            represented setbacks while allowing detailed drainage and landscape design to proceed through the
+            applicable State and Conservation Commission reviews.
+
+            Ms. Pigeon further observed that the proposed side setbacks of five feet and 12 feet reflected existing
+            conditions and would not place the new dwelling closer to the adjoining properties than the current
+            structures. She stated that the most significant changes involved the front setback and the setback from the
+            Wetland Conservation District.
+
+            Mr. Wing stated that his independent calculations were consistent with the applicant’s figures. Based on the
+            initial drawing, he calculated approximately 2,800 square feet of existing paved or patio area and
+            approximately 3,500 square feet under the proposal, representing an increase of slightly less than 25 percent
+            of impervious surfaces. He noted that his calculation accounted for removal of the existing driveway.
+
+            Mr. Wing opened the floor to anyone who was in favor of this application. Hearing none, he asked whether
+            anyone wished to speak in opposition or had questions regarding the application.
+
+            Mr. Mike McClain approached the Board with his father-in-law, Mr. Frank Elliott, owner of 23 Grace Road.
+            Mr. McClain stated that they supported reasonable redevelopment of 19 and 21 Grace Road but wished to
+            raise concerns regarding the proposed building’s size, height, setbacks, shoreline impacts, and effects on the
+            abutting property. He explained that the plan presented to the Conservation Commission had placed the
+            proposed dwelling closer to the water, creating concern about the additional building mass within the wetland
+            area and near the common side setback. He noted that the existing cottage was one story while the
+            proposed dwelling was described as two stories. He stated that the applicant’s decision to move the dwelling
+            farther from the water addressed one of their principal concerns.
+
+            Mr. McClain noted that the project had initially been described as an approximately 8,000-square-foot, two-
+            story dwelling with a 4,000-square-foot footprint, while the discussion that evening clarified that the total area
+            would be approximately 7,000 square feet. He questioned whether the physical constraints of the property
+            necessitated the requested variances or whether the extent of the relief resulted from the desired size of the
+            dwelling. He also requested clarification regarding the proposed height because the application did not
+            clearly identify it. Mr. Wing explained that the Town did not have a general height restriction, but that the
+            Board had previously imposed maximum heights for safety and fire-protection purposes. He recalled that the
+            applicant had represented during the Site Walk that the proposed dwelling would be no higher than the
+            existing home and stated that a comparable restriction could be imposed as a condition of approval.
+
+            Mr. McClain then asked whether the final setbacks would be established from the updated drawings. He
+            referenced an earlier waterfront setback of 20 feet and noted that an original plan appeared to show a 30-
+            foot front setback while the variance request sought 20 feet. Mr. Wing stated that, if the variance were
+            approved, the dimensions shown on the updated plan could be incorporated as conditions of approval. He
+            then asked whether patios or other outdoor-living improvements could extend beyond the approximately 32-
+            foot Wetland Conservation District setback shown for the dwelling. Mr. Welch explained that permanent
+                                                  Page 11 of 20
+ ZONING BOARD OF ADJUSTMENT MINUTES                                                   MEETING DATE: 10/15/2026
+
+            improvements and temporary construction impacts within the protected area would have to be disclosed and
+            evaluated through the Shoreland Permit process. He stated that this review would include equipment access,
+            material storage, foundation excavation, and any permanent encroachments. Mr. McClain reiterated that the
+            proposed dwelling appeared substantial in comparison with existing development and stated that their overall
+            concern was minimizing impacts on neighboring properties.
+
+            Mr. Elliott then asked for clarification regarding the area described as the boat ramp. He recalled that the Site
+            Walk discussion contemplated replacing the paved surface with grass and possibly narrow paver strips for
+            vehicle or boat access, and he questioned whether the revised proposal eliminated the ramp entirely. Mr.
+            Wing responded that the Conservation Commission had requested removal of the existing hard surface in
+            favor of grass. He understood that the hardtop would be removed and that any possible tire-width paver
+            strips remained subject to further review. He noted that worn or compacted grass would not necessarily be
+            treated as an impervious surface and confirmed that the applicant’s intent, as represented to the Board, was
+            to remove the existing pavement. Mr. McClain and Mr. Elliott thanked the Board.
+            Mr. Wing asked whether anyone else wished to speak in opposition or ask questions.
+
+            Mr. Eric Teichert of 29 Grace Road addressed the Board and expressed concern regarding the proposed
+            setbacks. Mr. Teichert stated that, given the proposed dwelling’s approximately 4,000-square-foot footprint,
+            the applicant should make a greater effort to reduce its impact by moving the structure farther from the
+            shoreline and side property lines. He suggested that the septic system could potentially be located farther
+            back on the property to allow the dwelling to be shifted away from the water and neighboring properties. He
+            also commented on the existing artificial turf. He stated that in his understanding that the New Hampshire
+            Department of Environmental Services treats surfaces within the protected shoreline zone as impervious and
+            expressed concern that drainage through the artificial-turf area would be limited. He asked the Board to
+            consider whether the turf should be included in the impervious-surface calculation. Mr. Wing thanked Mr.
+            Teichert for his comments.
+
+            Mr. Wing asked if there was anyone else who would like to speak in opposition to this application. Hearing
+            none, he asked Attorney Groff and Mr. Chisholm whether they wished to make a closing statement or
+            rebuttal before the public hearing was closed for deliberation.
+
+            The Board requested that the applicant leave a copy of the revised drawings for inclusion in the application
+            file. Mr. Chisholm stated that he had only one copy available, and the Board accepted it. Mr. Wing noted that,
+            if the variance were granted, the revised drawing would likely serve as the plan of record.
+
+            Mr. Chisholm responded to concerns regarding the proposed building height. He explained that, from the
+            street, approximately three-quarters of the dwelling would remain below the height of the existing homes,
+            while the portion near the existing 21 Grace Road structure would include a second story. He explained that
+            at the water, the dwelling would generally appear to be two stories, with a limited section appearing as three
+            stories because of the grade. He stated that a small upper level would provide access to a rooftop
+            observation or deck area while maintaining the general H-shaped design. Mr. Chisholm represented that the
+            dwelling would remain below 30 feet in height. He also addressed the possible grass or paver strips in the
+            former boat-ramp area. He stated that maintaining boat access would be convenient and that he would
+            consider tire-width pavers if permitted. However, he agreed that the feature would not be installed if the
+            Conservation Commission or the New Hampshire Department of Environmental Services objected.
+
+            Mr. Welch and Mr. Chisholm discussed whether the existing artificial turf would be removed and replaced
+            after construction. Mr. Chisholm stated that the existing turf would be disturbed or removed during
+            construction but that he would prefer to reinstall turf if permitted. He acknowledged that the final treatment
+            would depend on Shoreland review, landscape design, and State requirements governing pervious and
+            impervious surfaces.
+
+            Mr. Chisholm reiterated that the variance request primarily concerned setbacks. He stated that the project
+            would provide environmental and infrastructure benefits by removing two older septic systems, installing one
+            newly designed and permitted septic system, retaining one well instead of two, and improving management
+            of roof and surface runoff. He also confirmed that the revised dwelling had been moved farther from the
+            water in response to comments from the Conservation Commission and stated that he was willing to commit
+            to the layout shown on the revised drawing.
+                                                  Page 12 of 20
+ ZONING BOARD OF ADJUSTMENT MINUTES                                                   MEETING DATE: 10/15/2026
+
+
+            Mr. Stanvick asked how the proposed dwelling’s size compared with other homes in the neighborhood. Mr.
+            Chisholm stated that he had not researched the dimensions of nearby homes and could not provide a
+            numerical comparison. He noted, however, that other new homes around the pond had received similar
+            setback relief and that some were taller and affected views from properties behind them. He stated that the
+            proposed dwelling would remain comparatively low and that he owned the property on the opposite side.
+
+            Mr. Wing added that most lots around the pond were approximately 10,000 square feet and did not provide
+            an opportunity to combine adjoining parcels. He stated that property owners who had been able to combine
+            two or three lots had generally used the additional area to construct larger homes. Mr. Welch referenced
+            other substantial dwellings around the pond, including one visible across the water and another located on
+            an island, and observed that larger homes existed where lot area permitted, although they were not typical of
+            every parcel.
+
+            Mr. Frank Elliott of 23 Grace Road returned to the microphone and raised two additional concerns. First, Mr.
+            Elliott stated that the proposed dwelling would be substantially larger than his home and the other nearby
+            residences and could visually dominate that portion of the neighborhood. He questioned the applicant’s
+            assertion that the project would increase neighboring property values and stated that, in his view, it might
+            instead reduce them. Second, Mr. Elliott expressed concern regarding possible continued use of the boat-
+            ramp area. He explained that the applicant’s and his properties included approximately 88 feet extending
+            toward the water, with a 22-foot paper road known as Jones Road between portions of the properties. He
+            stated that his property was located near the turn from Grace Road and in front of the existing boat-ramp
+            access. He questioned whether a boat could be moved into or out of the area without crossing his property,
+            even if the applicant had rights to use Jones Road. Mr. Wing acknowledged that the configuration could
+            present access and safety concerns, particularly when maneuvering a boat near the proposed septic-system
+            location, and agreed to consider the issue. Mr. Elliott clarified that the sequence in that area was his
+            property, the paper road, and then the proposed septic system. Mr. Wing thanked him for his comments.
+
+            Mr. Wing invited Mr. Chisholm to make one final statement.
+
+            Mr. Chisholm presented a printed street or parcel map and shaded the subject lot for the Board. He identified
+            the boat-ramp area on the right side of the lot and explained that Mr. Elliott’s concern was whether a boat
+            could be moved along that access if it continued to function as a boat ramp. The Board reviewed the map
+            and thanked Mr. Chisholm.
+
+            Mr. Wing then closed the public hearing and opened the matter for Board deliberation.
+
+            DISCUSSION
+
+            Mr. Wing asked whether the Board believed that the record contained sufficient information to make a
+            decision, noting Mr. Stanvick’s previously stated concerns. Mr. Welch stated that they had enough
+            information to evaluate the matters within the Board’s authority. Ms. Dube noted that a copy of the revised
+            drawing would have provided a better visual reference but stated that the proposed limits could still be
+            understood because the dwelling would not extend beyond the identified existing structure.
+
+            Mr. Wing agreed and stated that any approval could include conditions defining the authorized boundaries
+            and requiring the applicant to return to the Zoning Board if the final plan exceeded those limits or required
+            additional relief. He noted that similar conditions had been imposed on other variance approvals.
+
+            The Board then proceeded to discuss the specific conditions that would apply if the application were
+            approved.
+
+                     • Prior to commencement of construction, the applicant shall obtain a State Approved Septic
+                       Design
+                     • Prior to commencement of construction, the applicant shall obtain all required NHDES Shoreland
+                       Protection approvals and comply with any conditions of those approvals.
+                     • The height of the new proposed single-family structure shall not exceed the existing height of the
+                       dwelling at 19 Grace Road with the exception of the 25-foot-by-20-foot portion, as shown on the
+                                                  Page 13 of 20
+ ZONING BOARD OF ADJUSTMENT MINUTES                                                   MEETING DATE: 10/15/2026
+
+                       plan of record, which shall be limited to no more than 30 feet in height, as defined by the
+                       International Residential Code.
+                     • The applicant shall receive a positive recommendation from the Conservation Commission after
+                       its review of the project.
+                     • The two existing lots, Map 30 Lots 11-188 and 11-189, shall be legally merged into one lot
+                       through the applicable Planning Board process and recorded at the Hillsborough County
+                       Registry of Deeds prior to issuance of a building permit for the proposed dwelling.
+                     • The variance approval shall authorize a front setback of no less than 20 feet, side setbacks of no
+                       less than 5 feet and 12 feet, respectively, and a setback of no less than 33 feet from the
+                       waterfront/Wetlands Conservation District reference line. Any modification to the final survey or
+                       Site Plan requiring greater dimensional relief than authorized by this decision shall require
+                       additional Zoning Board approval, as applicable.
+                     • Prior to commencement of any site disturbance, appropriate erosion and sediment control
+                       measures shall be installed and verified by inspection of the Code Enforcement Officer. Such
+                       measures shall be maintained throughout construction to prevent sedimentation and runoff into
+                       Little Island Pond and the Wetlands Conservation District. All disturbed areas shall be stabilized
+                       upon completion of construction.
+                     • Prior to construction of the infiltration system, the applicant shall submit a finalized drainage and
+                       infiltration system design prepared by a New Hampshire licensed professional engineer. The
+                       system shall be installed in accordance with that design with written certification from a New
+                       Hampshire licensed professional engineer, verifying installation, including inspection of
+                       underground components before backfilling. Certification shall be submitted to the Planning
+                       Department prior to final building inspection or issuance of a certificate of occupancy.
+
+            Motion: To condition the approval based on the stipulations as discussed, should the Board grant the
+            variance request.
+            Motion By: Matthew Welch / Second By: Andrea Dube
+            Roll Call Vote:
+            Mr. Welch — "YES"
+            Mr. Stanvick — "YES"
+            Mr. Hamilton — "YES"
+            Ms. Dube — "YES"
+            Mr. Wing — "YES"
+
+            Vote: (5-0-0) The motion passed.
+
+            With the approved conditions in mind, the Board reviewed the five variance criteria. Regarding public interest
+            and the spirit of the ordinance, Mr. Wing stated that the proposal would not substantially increase
+            encroachment on neighboring properties. He explained that the proposed dwelling would bridge the area
+            between the two existing structures without materially extending beyond the present developed area. He
+            continued that except for the limited upper-level portion previously identified, the dwelling’s height would not
+            exceed the existing height. Mr. Welch also noted that the project would improve most of the setbacks as well
+            as the existing septic, drainage, and stormwater-infiltration conditions and would provide greater protection
+            for Little Island Pond. The Board therefore found that the proposal would remain consistent with the
+            neighborhood’s residential character and would not adversely affect public health, safety, or welfare.
+
+            Regarding substantial justice, Mr. Wing stated that denial would prevent the applicant from replacing and
+            improving the two existing homes, and could identify no corresponding public benefit from denial. The Board
+            concluded that the private loss to the applicant would not be outweighed by any gain to the public.
+
+            The Board then considered whether surrounding property values would be diminished. Mr. Stanvick
+            acknowledged the abutter’s concern that a substantially larger dwelling might visually dominate the smaller
+            neighboring homes and could potentially affect their value. Mr. Stanvick emphasized that the Board did not
+            have real-estate valuation expertise and that any conclusion on property value would be an opinion rather
+            than an expert finding. Mr. Wing also noted that the imposed height restriction limited most of the proposed
+            dwelling to the existing height at 19 Grace Road, except for the defined 25-foot-by-20-foot area. Mr. Stanvick
+            asked whether the abutter could be invited to further explain his concern regarding property values. Mr.
+            Welch explained that doing so would require reopening the public hearing and ensuring that all interested
+                                                  Page 14 of 20
+ ZONING BOARD OF ADJUSTMENT MINUTES                                                   MEETING DATE: 10/15/2026
+
+            persons who had been present remained available. He stated that because they could not confirm that no
+            one had left the larger meeting room, the Board declined to reopen the hearing. He summarized his
+            understanding that the neighboring homes were substantially smaller, and that construction of a very large
+            new dwelling might make those homes appear less significant and potentially diminish their value. Mr. Welch
+            and Mr. Stanvick also discussed the opposing view that nearby higher-value homes can increase
+            surrounding values through comparable sales.
+
+            Mr. Welch considered the property-value criteria within the scope of the variance request and observed that
+            the use would remain residential in a residential neighborhood. He distinguished the proposal from a
+            variance that would introduce a commercial, industrial, home-occupation, or other materially different use
+            that might more clearly affect neighboring property values. He stated that replacing the existing structures
+            with a higher-value residential dwelling could support neighborhood values, while acknowledging the
+            abutter’s concern that the project’s scale could visually diminish nearby smaller homes. Mr. Wing referenced
+            other large dwellings around the pond but stated that he did not have evidence showing whether nearby
+            properties had been adversely affected.
+
+            Mr. Hamilton also questioned whether the proposed dwelling needed to have an approximately 4,000-
+            square-foot footprint and expressed concern that variance applicants may continue to propose increasingly
+            large structures. He observed that reducing the dwelling’s size could lessen the requested relief. However,
+            he noted that the Board was required to decide on the application as submitted and that it had approved
+            comparable requests in the past.
+
+            Turning to hardship, Mr. Wing found that the property shared constraints common to other pre-existing non-
+            conforming lots around Little Island Pond, particularly the difficulty of satisfying all required setbacks. He
+            identified the Wetland Conservation District setback as the principal concern. He noted from the applicant’s
+            plans that the dwelling had been moved as far from the waterfront as practicable without encroaching upon
+            the proposed septic area near the road. Mr. Welch found that the combined property consisted of pre-
+            existing non-conforming lots with limited depth between Grace Road and Little Island Pond. He explained
+            that even if the dwelling were shortened to meet the side setbacks, relief would still be required because of
+            the constrained distance between the roadway, the proposed septic area, and the Wetland Conservation
+            District. He noted that the applicant had moved the dwelling as far from the water as practicable without
+            conflicting with the proposed septic system and that the plan also modestly improved the side setbacks
+            relative to the existing structures. He further found that the ability to combine the two adjoining lots
+            distinguished the property from many other parcels around the pond. He stated that the combination
+            permitted improvement of the existing conditions while addressing the unusual frontage, depth, and Wetland
+            Conservation District constraints. He concluded that the physical configuration of the property contributed to
+            the property’s unique hardship and that the proposed plan improved upon the existing condition.
+
+            CASE# ZO2026-00014
+            ROLL CALL VOTE
+            Mr. Hamilton — 5 yeses, final vote "YES"
+            Ms. Dube — 5 yeses, final vote "YES" with conditions
+            Mr. Welch — 5 yeses, final vote "YES" with stipulations
+            Mr. Stanvick — 4 yeses,1 noes, final vote "NO"
+            Mr. Wing — 5 yeses, final vote "YES" with stipulations
+
+            Vote: (4-1-0) The motion passed.
+
+            Motion: To approve the request of Ian Chisholm, Case ZO2026-00014, Map 30, Lots 11-188 and 11-189, 19
+            and 21 Grace Road, for the variances requested from Article III, Sections 307-8, 307-12, Table 1, and 307-
+            14, and Article VII, Section 307-39, as presented and advertised subject to the conditions set forth.
+            Motion By: Andrea Dube / Second By: Matthew Welch
+            Roll Call Vote:
+            Ms. Dube — "YES"
+            Mr. Welch — "YES"
+            Mr. Stanvick — "NO"
+            Mr. Hamilton — "YES"
+
+                                                  Page 15 of 20
+ ZONING BOARD OF ADJUSTMENT MINUTES                                                   MEETING DATE: 10/15/2026
+
+            Mr. Wing — "YES"
+
+            Vote: (4-1-0) The motion passed.
+
+            The variance was GRANTED.
+
+            Mr. Wing informed the applicant that there was a 30-day right to appeal.
+
+New Cases
+
+
+   7)    ZO2026-00017 - Map 15 Lot 8-199 — DeRosa Development Co. LLC. (Applicant) – John D. Leahy, Jr. (Owner) – 164-
+         168 Windham Road – Seeking a VARIANCE concerning: Article III, Section 307-12, Table 1 of the Zoning Ordinance to
+         permit: a lot with 100’ of frontage where 200’ of frontage is required. The applicant has amended the proposed use from a
+         single-family home, as presented and approved in prior case #ZO2026-00009 on 06/08/2026, to a duplex.
+
+
+            Mr. Wing noted that this was a new application. He stated that although the matter appeared familiar
+            because the Board had discussed a related proposal in June, the current application was materially different
+            and therefore required consideration as a new case.
+
+            Ms. Dube read the list of abutters aloud. There was no one whose name was not called that is an abutter or
+            has a statutory interest in the case.
+
+            Attorney Brett Allard of Shaughnessy Allard, PLLC approached the Board representing the  DeRosa
+            Development Company, LLC. Attorney Allard provided background on the application. He explained that the
+            applicant had appeared before the Board in June regarding the same frontage variance in connection with a
+            proposed two-lot subdivision. He stated that the applicant sought approval for 100 feet of frontage where 200
+            feet is required, and the Board granted the variance. He stated that his client has returned with the same
+            dimensional request so that the proposed use of the southerly lot could be clarified.
+
+            Attorney Allard described the property at 164–168 Windham Road as a 3.7-acre parcel in the residential
+            district with approximately 300 feet of frontage on Windham Road. He stated that the parcel contains two
+            established residential areas. He explained that the northerly area contains a single-family dwelling that has
+            existed since approximately 1930, while the southerly area contains a park model trailer that has existed
+            since approximately 1985, according to the Town’s tax records. He stated that the residential areas have
+            separate wells, separate septic systems and driveway access, and each dwelling has its own municipal
+            mailing address. He explained that three existing curb cuts form a connected horseshoe driveway
+            configuration and provide internal circulation. He stated that the site has functioned as two distinct residential
+            areas for approximately 41 years.
+
+            Attorney Allard explained that his client proposed dividing the parcel into two independent lots of record. He
+            stated that the northerly lot would contain approximately 1.7 acres and 200 feet of frontage and would retain
+            the existing single-family dwelling and related infrastructure. He stated that this lot would comply with the
+            Zoning Ordinance and would not require relief. He explained that the southerly lot would contain
+            approximately 2 acres and 100 feet of frontage. He continued that the existing park model trailer, shed, and
+            septic system would be removed and replaced with a two-family dwelling, a new septic system, and a new
+            well.
+
+            Attorney Allard stated that the Zoning Ordinance requires a two-family lot to contain 2 acres, 200 feet of
+            frontage, a 30-foot front setback, and 15-foot side and rear setbacks. He explained that the proposed
+            southerly lot would meet all applicable dimensional requirements except the 200-foot frontage requirement.
+            He stated that the requested relief therefore remained a variance permitting 100 feet of frontage where 200
+            feet is required, which was the same frontage relief approved in June.
+            Attorney Allard explained that the prior application had identified the proposed use of the southerly lot as a
+            single-family dwelling because of a miscommunication among counsel, his client, and the surveyor. He
+                                                  Page 16 of 20
+ ZONING BOARD OF ADJUSTMENT MINUTES                                                   MEETING DATE: 10/15/2026
+
+            stated that his client had always intended to construct a duplex. He explained that after the June variance
+            was granted, the applicant and surveyor proceeded to the Planning Board for subdivision approval and
+            disclosed the intended duplex use. He stated that the Planning Board identified the discrepancy between the
+            duplex proposal and the single-family use presented to the Zoning Board. He explained that his client then
+            withdrew the subdivision application without prejudice to determine how to proceed.
+            Attorney Allard stated that he subsequently discussed with Town staff and the Town Attorney whether a new
+            variance was legally required because both single-family and two-family dwellings are permitted uses and
+            require the same 200 feet of frontage. He explained that although he believed the previously granted
+            frontage variance remained applicable, the Town Attorney disagreed. He continued that rather than pursue
+            an administrative appeal or litigate the issue, his client elected to return to the Board with a new variance
+            application that expressly identifies the proposed use of the southerly lot as a duplex.
+
+            Mr. Wing asked whether the southerly lot contained sufficient land to accommodate a septic system for a
+            duplex. Attorney Allard responded that the revised plan showed adequate space. He explained that a single-
+            family lot requires 1 acre, while a two-family lot requires 2 acres. He stated that the southerly lot shown in the
+            June proposal had contained approximately 1.7 to 1.8 acres and therefore would not have satisfied the
+            minimum lot-area requirement for a duplex. He explained that the revised plan increased the southerly lot to
+            2 acres, bringing it into compliance with the applicable lot-area requirement. He reviewed the conceptual
+            layout shown on the plan. He identified a 75-by-100-foot contiguous buildable area for the proposed duplex.
+            He stated that the plan also showed sufficient area for a septic system in front of the buildable area and a
+            proposed well behind it, while maintaining the required 100-foot radius. He stated that the proposed dwelling,
+            septic system, and well could be accommodated within the building envelope.
+
+            Attorney Allard stated that, other than the adjustment to provide 2 acres for the southerly lot, the
+            circumstances supporting the variance had not changed. He explained that both single-family and two-family
+            dwellings are permitted uses in the residential district. He stated that a single-family lot requires 1 acre, while
+            a two-family lot requires 2 acres, but both uses are subject to the same minimum frontage requirement of
+            200 feet. He stated that the change from a single-family dwelling to a duplex did not alter the dimensional
+            frontage relief requested.
+
+            Attorney Allard clarified that his client was not requesting relief to permit an otherwise prohibited duplex or to
+            add a dwelling unit beyond what the Zoning District allows. He stated that a duplex is a permitted use and
+            that his client continued to request approval for 100 feet of frontage on the southerly lot where 200 feet is
+            required, which was the same frontage variance previously granted in June.
+
+            Attorney Allard further reported that the New Hampshire Department of Environmental Services had granted
+            State Subdivision Approval on September 27th. He stated that the factual circumstances relevant to the five
+            variance criteria remained substantially the same as those considered with the prior application. He
+            explained that the property, existing development pattern, roadway frontage and access, proposed two-lot
+            subdivision, proposed frontage, and requested dimensional relief were unchanged; only the permitted
+            residential use proposed for the southerly lot had changed. He noted that the Board had previously
+            determined that the requested 100-foot frontage variance satisfied all five variance criteria.
+            Attorney Allard read the five criteria of a variance into the record.
+
+            Mr. Wing asked whether the proposed driveway and parking for the duplex would fit within the 75-by-100-foot
+            contiguous buildable area shown on the southerly lot. Attorney Allard stated that the project design team
+            considered that area the most logical location and intended to place the duplex and associated parking there.
+            He clarified that the final placement could be adjusted during the building-permit process, provided all
+            improvements remained within the building envelope and complied with applicable setbacks.
+
+            Mr. Wing confirmed that the applicant would need to return to the Planning Board if the variance were
+            granted. Attorney Allard agreed and explained that the prior subdivision application had been partially
+            reviewed before the discrepancy regarding the duplex use was identified and the application was withdrawn.
+            He stated that the applicant would resubmit the application and resume the subdivision proceedings before
+            the Planning Board if the variance application was approved.
+            Hearing no additional questions or comments from the Board, Mr. Wing opened the floor to anyone who was
+            in favor of this application. Hearing none, Mr. Wing opened the floor to anyone who was in opposition of this
+            application or had questions.
+                                                  Page 17 of 20
+ ZONING BOARD OF ADJUSTMENT MINUTES                                                   MEETING DATE: 10/15/2026
+
+            Ms. Gloria Loureiro of 178 Windham Road spoke in opposition to the application. Ms. Loureiro stated that the
+            surrounding homes were single-family residences and expressed concern that constructing a duplex would
+            negatively affect neighboring property values. She also described Windham Road as heavily traveled and
+            stated that the additional dwelling unit would increase traffic entering and leaving the property. She further
+            expressed concern that the duplex would effectively provide only 50 feet of frontage per unit and asked the
+            Board not to approve the request.
+
+            Mr. Wing thanked Ms. Loureiro and asked whether anyone else wished to speak in opposition or ask
+            questions.
+
+            Mr. Robert Little of 158 Windham Road identified himself as a direct abutter and spoke in opposition to the
+            application. Mr. Little stated that he believed the duplex would diminish the value of his property. He also
+            reported an existing fence encroachment that he had attempted to have removed for several years. Mr. Little
+            disputed the representation that the two existing residential areas each had a separate well, stating that both
+            were served by one well that he had helped install many years earlier. He also stated that a vernal pool was
+            located at the rear of the property and raised concerns about parking for school buses associated with
+            occupants of the site. Mr. Wing clarified that the plan proposed a new well for the southerly lot. Mr. Little
+            acknowledged that a second well was proposed but reiterated that only one well currently existed. Mr. Wing
+            thanked Mr. Little for his comments.
+
+            Mr. Wing asked if there was anyone else who would like to speak in opposition to this application. Hearing
+            none, he asked Attorney Allard whether he wished to make a closing statement or rebuttal before the public
+            hearing was closed for deliberation.
+
+            Attorney Allard briefly responded to the concerns raised during public comment. He stated that a two-family
+            dwelling is permitted by right in the residential district and that the Zoning Ordinance reflects a legislative
+            decision to allow that use. He clarified that the plan showed one driveway curb cut serving the southerly lot’s
+            100 feet of frontage, rather than separate driveways and 50 feet of frontage for each unit. He further stated
+            that a permitted and legally reasonable use should not, by itself, be considered grounds for finding that
+            surrounding property values would be diminished.
+
+            Mr. Wing thanked Attorney Allard for his response.
+
+            Hearing no further questions from the Board, Mr. Wing then closed the public hearing and opened the matter
+            for Board deliberation.
+
+            DISCUSSION
+            During deliberation, Mr. Wing stated that the variance request was limited to the frontage requirement. He
+            agreed with Attorney Allard that a duplex is a permitted use in the residential district and stated that the
+            permitted use itself should not serve as a basis for denying the requested frontage relief. The Board
+            therefore focused its review on the request to allow the southerly lot to have 100 feet of frontage where 200
+            feet is required.
+            Mr. Wing stated that, if the application were approved, the conditions imposed with the June 8, 2026 variance
+            approval should be added to this new approval. Ms. Dube stated that there were suggested conditions
+            included with the current application and read them as follows.
+
+                     • This approval shall apply to the proposed duplex development on the southerly lot substantially
+                       as depicted on the revised subdivision plan submitted with this application.
+                     • The conditions imposed under the June 8, 2026, variance approval, Case ZO2026-00009, shall
+                       remain in effect, including the removal of the existing park model trailer and associated
+                       improvements in accordance with the Planning Board approved phasing plan.
+                     • The applicant shall obtain Planning Board Subdivision Approval prior to recording any
+                       subdivision plan or creating any new lot.
+
+            The Board reviewed the five variance criteria. Regarding the public interest and the spirit of the ordinance,
+            the Board found that the proposal would remain consistent with the residential character of the area and
+
+                                                  Page 18 of 20
+ ZONING BOARD OF ADJUSTMENT MINUTES                                                   MEETING DATE: 10/15/2026
+
+            would not adversely affect public health, safety, or welfare. Ms. Dube noted that other multifamily dwellings
+            existed nearby, including properties to the north and near the transfer station, and therefore concluded that
+            the proposed duplex would not introduce an unfamiliar use into the area. Mr. Wing discussed roadway safety
+            and the purpose of the minimum frontage requirement. He stated that the 200-foot frontage standard helps
+            provide adequate sight distance for vehicles entering and leaving a property. He observed that the relevant
+            section of Windham Road was relatively flat and provided good sight lines in both directions. Ms. Dube also
+            noted that three driveways currently served the parcel and that the proposal would reduce and reorganize
+            the access points, including one driveway serving the southerly lot’s 100 feet of frontage. The Board
+            therefore found that the requested frontage relief would not create an unreasonable safety concern.
+
+            Regarding substantial justice, the Board found no identifiable public benefit from denying the application. Mr.
+            Wing noted that the property already contained two residential uses, with separate mailing addresses and
+            septic systems, although the existing dwellings currently shared one well. He concluded that denying the
+            opportunity to replace the park model trailer with a permitted duplex would impose a loss on the applicant
+            without a corresponding public gain and would therefore be unjust. Mr. Welch agreed with Mr. Wing.
+
+            Regarding surrounding property values, Mr. Wing acknowledged the concerns expressed by abutters but
+            noted that a duplex is a permitted use in the district. Mr. Welch stated that replacing the existing park model
+            trailer with a new two-family dwelling located farther from the road and partially screened by vegetation could
+            improve the property and potentially benefit surrounding property values. Ms. Dube agreed with Mr.
+            Welch. Mr. Wing also noted that the proposal would remain subject to Planning Board review, which could
+            address site-design issues. The Board found that surrounding property values would not be diminished.
+
+            Regarding hardship, Mr. Wing noted that the southerly lot met the applicable requirements for lot area and
+            setbacks and required relief only from the frontage standard. He stated that obtaining additional frontage
+            would require affecting neighboring or northerly property and that no practical opportunity existed to gain
+            frontage to the south. Mr. Welch identified the property’s long-standing treatment as two separate residential
+            areas, including separate mailing addresses and multiple driveways, as a distinguishing condition. Members
+            concluded that the proposal would not materially change or intensify the established residential use of the
+            property and that the existing lot configuration supported the hardship criteria.
+
+            CASE# ZO2026-00017
+            ROLL CALL VOTE
+            Mr. Hamilton — 5 yeses, final vote "YES"
+            Mr. Stanvick — 5 yeses, final vote "YES"
+            Mr. Welch — 5 yeses, final vote "YES" with stipulations
+            Ms. Dube — 5 yeses, final vote "YES" with stipulations
+            Mr. Wing — 5 yeses, final vote "YES" with stipulations
+
+            Vote: (5-0-0) The motion passed.
+
+            Motion: To approve Case ZO2026-00017, Map 15, Lot 8-199, DeRosa Development Co., LLC, 164-168,
+            Windham Road, requesting a new variance from Article III, Section 307-12, Table 1, to permit the
+            proposed southerly lot to be developed with a duplex to have 100 feet of frontage where 200 feet is
+            required, as presented, subject to the following conditions:
+
+                     • This approval shall apply to the proposed duplex development on the southerly lot substantially
+                       as depicted on the revised subdivision plan submitted with this application.
+                     • The conditions imposed under the June 8, 2026, variance approval, Case ZO2026-00009, shall
+                       remain in effect, including the removal of the existing park model trailer and associated
+                       improvements in accordance with the Planning Board approved phasing plan.
+                     • The applicant shall obtain Planning Board Subdivision Approval prior to recording any
+                       subdivision plan or creating any new lot.
+
+            Motion By: Andrea Dube / Second By: Matthew Welch
+            Roll Call Vote:
+            Ms. Dube — "YES"
+            Mr. Welch — "YES"
+                                                  Page 19 of 20
+ ZONING BOARD OF ADJUSTMENT MINUTES                                                   MEETING DATE: 10/15/2026
+
+            Mr. Stanvick — "NO"
+            Mr. Hamilton — "YES"
+            Mr. Wing — "YES"
+
+            Vote: (5-0-0) The motion passed.
+
+            The variance was GRANTED.
+
+            Mr. Wing informed the applicant that there was a 30-day right to appeal.
+
+
+Adjournment
+
+         Motion:  To adjourn the meeting.
+         Motion By: Andrea Dube / Second By: Matthew Welch Vote: (5-0-0) The motion passed.
+         In Favor: 5 — David Wing, Ken Stanvick, Andrea Dube, Matthew Welch, Shaun Hamilton
+
+         Meeting Adjourn Time: 10:04 PM
+
+         Respectfully submitted,
+         Cassidy Pollard, Recording Secretary
+
+
+                                                  Page 20 of 20

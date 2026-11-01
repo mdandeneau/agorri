@@ -1,0 +1,50 @@
+{
+ "note": "Written by ingest/fetch.mjs. Each item: where it came from (source, url), the date in the document when known, firstSeen (the day the fetcher first saw it; new since the last refresh = firstSeen on or after that day) and text (the saved agenda or minutes text, when there is one). Facts for the site still come from reading the linked document.",
+ "town": "conway",
+ "updated": "2026-11-01T16:12:58.861Z",
+ "sources": {
+  "town-news": {
+   "ok": true,
+   "found": 25,
+   "new": 0,
+   "checked": "2026-11-01T16:12:58.861Z",
+   "ms": 458
+  }
+ },
+ "notes": [],
+ "items": [
+  {
+   "key": "town-news:81f8faf78542",
+   "source": "town-news",
+   "kind": "notice",
+   "title": "State General Election",
+   "url": "https://conwaynh.org/news/state-general-election",
+   "date": "2026-11-03",
+   "detail": "Sample Ballot",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "town-news:a244dc7b1435",
+   "source": "town-news",
+   "kind": "notice",
+   "title": "Governmental records request",
+   "url": "https://conwaynh.org/news/governmental-records-request",
+   "date": "2026-09-17",
+   "detail": "Complaint investigation report",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "town-news:fa4ff3e89bcc",
+   "source": "town-news",
+   "kind": "notice",
+   "title": "State Primary Results",
+   "url": "https://conwaynh.org/news/state-primary-results",
+   "date": "2026-09-09",
+   "detail": "Election Results",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  }
+ ]
+}

@@ -97,6 +97,472 @@
     "folder": 45,
     "max": 10
    }
+  ],
+  "dover": [
+   {
+    "id": "feed",
+    "type": "rss",
+    "kind": "notice",
+    "url": "https://www.dover.nh.gov/feeds/rss/www.dover.nh.gov/city-of-dover-latest-news/"
+   }
+  ],
+  "stratham": [
+   {
+    "id": "meeting-docs",
+    "type": "links",
+    "kind": "meeting-doc",
+    "docs": true,
+    "pages": [
+     "https://www.strathamnh.gov/boards/select_board/agendas_minutes.php"
+    ],
+    "match": "\\.pdf(\\?|$)|DocumentCenter/View|AgendaCenter/ViewFile|/files/|/uploads/|/media/|download",
+    "require": "agenda|minute",
+    "max": 150
+   }
+  ],
+  "rye": [
+   {
+    "id": "town-feeds",
+    "type": "civicplus",
+    "kind": "notice",
+    "base": "https://www.ryenh.gov/"
+   },
+   {
+    "id": "agenda-center",
+    "type": "links",
+    "kind": "meeting-doc",
+    "docs": true,
+    "url": "https://www.ryenh.gov/AgendaCenter",
+    "match": "AgendaCenter/ViewFile/(Agenda|Minutes)/",
+    "max": 150
+   }
+  ],
+  "hampton": [
+   {
+    "id": "town-feeds",
+    "type": "civicplus",
+    "kind": "notice",
+    "base": "https://www.hamptonnh.gov/"
+   },
+   {
+    "id": "agenda-center",
+    "type": "links",
+    "kind": "meeting-doc",
+    "docs": true,
+    "url": "https://www.hamptonnh.gov/AgendaCenter",
+    "match": "AgendaCenter/ViewFile/(Agenda|Minutes)/",
+    "max": 150
+   }
+  ],
+  "durham": [
+   {
+    "id": "town-feeds",
+    "type": "civicplus",
+    "kind": "notice",
+    "base": "https://www.durhamnh.gov/"
+   },
+   {
+    "id": "agenda-center",
+    "type": "links",
+    "kind": "meeting-doc",
+    "docs": true,
+    "url": "https://www.durhamnh.gov/AgendaCenter",
+    "match": "AgendaCenter/ViewFile/(Agenda|Minutes)/",
+    "max": 150
+   }
+  ],
+  "newmarket": [
+   {
+    "id": "civicclerk",
+    "type": "civicclerk",
+    "kind": "meeting-doc",
+    "tenant": "newmarketnh",
+    "back": 21,
+    "ahead": 21,
+    "docs": true
+   },
+   {
+    "id": "town-feeds",
+    "type": "civicplus",
+    "kind": "notice",
+    "base": "https://www.newmarketnh.gov/"
+   }
+  ],
+  "north-hampton": [
+   {
+    "id": "town-feeds",
+    "type": "civicplus",
+    "kind": "notice",
+    "base": "https://www.northhampton-nh.gov/"
+   },
+   {
+    "id": "agenda-center",
+    "type": "links",
+    "kind": "meeting-doc",
+    "docs": true,
+    "url": "https://www.northhampton-nh.gov/AgendaCenter",
+    "match": "AgendaCenter/ViewFile/(Agenda|Minutes)/",
+    "max": 150
+   }
+  ],
+  "hudson": [
+   {
+    "id": "agenda-center",
+    "type": "links",
+    "kind": "meeting-doc",
+    "docs": true,
+    "url": "https://www.hudsonnh.gov/AgendaCenter",
+    "match": "AgendaCenter/ViewFile/(Agenda|Minutes)/",
+    "max": 150
+   }
+  ],
+  "amherst": [
+   {
+    "id": "civicclerk",
+    "type": "civicclerk",
+    "kind": "meeting-doc",
+    "tenant": "amherstnh",
+    "back": 21,
+    "ahead": 21,
+    "docs": true
+   },
+   {
+    "id": "town-feeds",
+    "type": "civicplus",
+    "kind": "notice",
+    "base": "https://www.amherstnh.gov/"
+   },
+   {
+    "id": "agenda-center",
+    "type": "links",
+    "kind": "meeting-doc",
+    "docs": true,
+    "url": "https://www.amherstnh.gov/AgendaCenter",
+    "match": "AgendaCenter/ViewFile/(Agenda|Minutes)/",
+    "max": 150
+   }
+  ],
+  "merrimack": [
+   {
+    "id": "agenda-center",
+    "type": "links",
+    "kind": "meeting-doc",
+    "docs": true,
+    "url": "https://www.merrimacknh.gov/AgendaCenter",
+    "match": "AgendaCenter/ViewFile/(Agenda|Minutes)/",
+    "max": 150
+   }
+  ],
+  "litchfield": [
+   {
+    "id": "town-feeds",
+    "type": "civicplus",
+    "kind": "notice",
+    "base": "https://www.litchfieldnh.gov/"
+   },
+   {
+    "id": "agenda-center",
+    "type": "links",
+    "kind": "meeting-doc",
+    "docs": true,
+    "url": "https://www.litchfieldnh.gov/AgendaCenter",
+    "match": "AgendaCenter/ViewFile/(Agenda|Minutes)/",
+    "max": 150
+   }
+  ],
+  "pelham": [
+   {
+    "id": "civicclerk",
+    "type": "civicclerk",
+    "kind": "meeting-doc",
+    "tenant": "pelhamnh",
+    "back": 21,
+    "ahead": 21,
+    "docs": true
+   },
+   {
+    "id": "town-feeds",
+    "type": "civicplus",
+    "kind": "notice",
+    "base": "https://www.pelhamweb.com/"
+   }
+  ],
+  "hooksett": [
+   {
+    "id": "meeting-docs",
+    "type": "links",
+    "kind": "meeting-doc",
+    "docs": true,
+    "pages": [
+     "https://www.hooksett.gov/government/town_council/agendas_and_minutes.php",
+     "https://www.hooksett.gov/government/town_council/index.php"
+    ],
+    "match": "\\.pdf(\\?|$)|DocumentCenter/View|AgendaCenter/ViewFile|/files/|/uploads/|/media/|download",
+    "require": "agenda|minute",
+    "max": 150
+   }
+  ],
+  "manchester": [
+   {
+    "id": "civicclerk",
+    "type": "civicclerk",
+    "kind": "meeting-doc",
+    "tenant": "manchesternh",
+    "back": 21,
+    "ahead": 21,
+    "docs": true
+   }
+  ],
+  "bedford": [
+   {
+    "id": "town-feeds",
+    "type": "civicplus",
+    "kind": "notice",
+    "base": "https://www.bedfordnh.gov/"
+   },
+   {
+    "id": "agenda-center",
+    "type": "links",
+    "kind": "meeting-doc",
+    "docs": true,
+    "url": "https://www.bedfordnh.gov/AgendaCenter",
+    "match": "AgendaCenter/ViewFile/(Agenda|Minutes)/",
+    "max": 150
+   }
+  ],
+  "hollis": [
+   {
+    "id": "agenda-center",
+    "type": "links",
+    "kind": "meeting-doc",
+    "docs": true,
+    "url": "https://www.hollisnh.gov/AgendaCenter",
+    "match": "AgendaCenter/ViewFile/(Agenda|Minutes)/",
+    "max": 150
+   }
+  ],
+  "auburn": [
+   {
+    "id": "agenda-center",
+    "type": "links",
+    "kind": "meeting-doc",
+    "docs": true,
+    "url": "https://www.auburnnh.gov/AgendaCenter",
+    "match": "AgendaCenter/ViewFile/(Agenda|Minutes)/",
+    "max": 150
+   }
+  ],
+  "derry": [
+   {
+    "id": "town-feeds",
+    "type": "civicplus",
+    "kind": "notice",
+    "base": "https://www.derrynh.gov/"
+   },
+   {
+    "id": "agenda-center",
+    "type": "links",
+    "kind": "meeting-doc",
+    "docs": true,
+    "url": "https://www.derrynh.gov/AgendaCenter",
+    "match": "AgendaCenter/ViewFile/(Agenda|Minutes)/",
+    "max": 150
+   }
+  ],
+  "greenland": [
+   {
+    "id": "agenda-center",
+    "type": "links",
+    "kind": "meeting-doc",
+    "docs": true,
+    "url": "https://www.greenland.nh.gov/AgendaCenter",
+    "match": "AgendaCenter/ViewFile/(Agenda|Minutes)/",
+    "max": 150
+   }
+  ],
+  "tamworth": [
+   {
+    "id": "agenda-center",
+    "type": "links",
+    "kind": "meeting-doc",
+    "docs": true,
+    "url": "https://www.tamworthnh.gov/AgendaCenter",
+    "match": "AgendaCenter/ViewFile/(Agenda|Minutes)/",
+    "max": 150
+   }
+  ],
+  "madison": [
+   {
+    "id": "feed",
+    "type": "rss",
+    "kind": "notice",
+    "url": "https://www.madison-nh.org/feed/"
+   },
+   {
+    "id": "meeting-docs",
+    "type": "links",
+    "kind": "meeting-doc",
+    "docs": true,
+    "pages": [
+     "https://www.madison-nh.org/selectmen/meeting-agendas/",
+     "https://www.madison-nh.org/selectmen/"
+    ],
+    "match": "\\.pdf(\\?|$)|DocumentCenter/View|AgendaCenter/ViewFile|/files/|/uploads/|/media/|download",
+    "require": "agenda|minute",
+    "max": 150
+   }
+  ],
+  "jackson": [
+   {
+    "id": "feed",
+    "type": "rss",
+    "kind": "notice",
+    "url": "https://www.jackson-nh.gov/feed/"
+   }
+  ],
+  "londonderry": [
+   {
+    "id": "town-feeds",
+    "type": "civicplus",
+    "kind": "notice",
+    "base": "https://www.londonderrynh.gov/"
+   },
+   {
+    "id": "agenda-center",
+    "type": "links",
+    "kind": "meeting-doc",
+    "docs": true,
+    "url": "https://www.londonderrynh.gov/AgendaCenter",
+    "match": "AgendaCenter/ViewFile/(Agenda|Minutes)/",
+    "max": 150
+   }
+  ],
+  "albany": [
+   {
+    "id": "feed",
+    "type": "rss",
+    "kind": "notice",
+    "url": "https://albanynh.org/feed/"
+   },
+   {
+    "id": "feed2",
+    "type": "rss",
+    "kind": "notice",
+    "url": "https://albanynh.org/comments/feed/"
+   },
+   {
+    "id": "meeting-docs",
+    "type": "links",
+    "kind": "meeting-doc",
+    "docs": true,
+    "pages": [
+     "https://albanynh.org/minutes/"
+    ],
+    "match": "\\.pdf(\\?|$)|DocumentCenter/View|AgendaCenter/ViewFile|/files/|/uploads/|/media/|download",
+    "require": "agenda|minute",
+    "max": 150
+   }
+  ],
+  "eaton": [
+   {
+    "id": "feed",
+    "type": "rss",
+    "kind": "notice",
+    "url": "https://www.eatonnh.gov/feed/"
+   },
+   {
+    "id": "meeting-docs",
+    "type": "links",
+    "kind": "meeting-doc",
+    "docs": true,
+    "pages": [
+     "https://www.eatonnh.gov/selectmen/archive-minutes/"
+    ],
+    "match": "\\.pdf(\\?|$)|DocumentCenter/View|AgendaCenter/ViewFile|/files/|/uploads/|/media/|download",
+    "require": "agenda|minute",
+    "max": 150
+   }
+  ],
+  "harts-location": [
+   {
+    "id": "feed",
+    "type": "rss",
+    "kind": "notice",
+    "url": "https://hartslocation.com/feed/"
+   },
+   {
+    "id": "feed2",
+    "type": "rss",
+    "kind": "notice",
+    "url": "https://hartslocation.com/comments/feed/"
+   }
+  ],
+  "freedom": [
+   {
+    "id": "feed",
+    "type": "rss",
+    "kind": "notice",
+    "url": "https://townoffreedomnh.gov/feed/"
+   },
+   {
+    "id": "feed2",
+    "type": "rss",
+    "kind": "notice",
+    "url": "https://townoffreedomnh.gov/comments/feed/"
+   },
+   {
+    "id": "meeting-docs",
+    "type": "links",
+    "kind": "meeting-doc",
+    "docs": true,
+    "pages": [
+     "https://townoffreedomnh.gov/freedom-board-of-selectmens-office/"
+    ],
+    "match": "\\.pdf(\\?|$)|DocumentCenter/View|AgendaCenter/ViewFile|/files/|/uploads/|/media/|download",
+    "require": "agenda|minute",
+    "max": 150
+   }
+  ],
+  "goffstown": [
+   {
+    "id": "town-feeds",
+    "type": "civicplus",
+    "kind": "notice",
+    "base": "https://www.goffstownnh.gov/"
+   },
+   {
+    "id": "agenda-center",
+    "type": "links",
+    "kind": "meeting-doc",
+    "docs": true,
+    "url": "https://www.goffstownnh.gov/AgendaCenter",
+    "match": "AgendaCenter/ViewFile/(Agenda|Minutes)/",
+    "max": 150
+   }
+  ],
+  "conway": [
+   {
+    "id": "town-news",
+    "type": "rss",
+    "kind": "notice",
+    "url": "https://conwaynh.gov/rss/news.xml"
+   }
+  ],
+  "bartlett": [
+   {
+    "id": "meeting-docs",
+    "type": "links",
+    "kind": "meeting-doc",
+    "docs": true,
+    "pages": [
+     "https://www.townofbartlettnh.org/town-offices/bartlett-selectmens-office/bartlett-selectmens-meeting-minutes/",
+     "https://www.townofbartlett.nh.gov/agenda-for-selectmens-meetings/",
+     "https://www.townofbartlett.nh.gov/town-offices/bartlett-planning-board-meeting-minutes/"
+    ],
+    "match": "\\.pdf(\\?|$)|DocumentCenter/View|AgendaCenter/ViewFile|/files/|/uploads/|/media/|download",
+    "require": "agenda|minute",
+    "max": 80
+   }
   ]
  }
 }
