@@ -36,6 +36,8 @@ const html = (body, status) => new Response(body, { status, headers: { 'content-
 
 export async function onRequest(context) {
   const { request, env, next } = context;
+  // inbox/ and ingest/ are the source fetcher's working files (see ingest/fetch.mjs), not part of the site.
+  if (/^\/(inbox|ingest|\.github)(\/|$)/.test(new URL(request.url).pathname)) return new Response('Not found', { status: 404 });
   const pw = env.SITE_PASSWORD;
   if (!pw) return next();
   const url = new URL(request.url);

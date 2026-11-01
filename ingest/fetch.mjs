@@ -85,7 +85,8 @@ function dateIn(s) {
 function iso3(y, mo, d) { mo = +mo; d = +d; if (mo < 1 || mo > 12 || d < 1 || d > 31) return null; return `${y}-${String(mo).padStart(2, '0')}-${String(d).padStart(2, '0')}`; }
 
 // Agendas and minutes are worth saving as text; packets, staff reports and attachments are too big and too noisy.
-const isPacket = s => /packet|pkt|staff\s*report|attachment|backup|\.lnk$|presentation|plans?\b/i.test(decodeURIComponent(s));
+const fileName = u => { try { return decodeURIComponent(new URL(u).pathname.split('/').pop()).replace(/\+/g, ' '); } catch { return String(u); } };
+const isPacket = s => /packet|pkt|staff\s*report|attachment|backup|\.lnk$|presentation|plans?\b|affidavit/i.test(decodeURIComponent(s));
 const docKind = s => /minute/i.test(decodeURIComponent(s)) ? 'minutes' : /agenda|_ag[_.]|\bag\b/i.test(decodeURIComponent(s)) ? 'agenda' : /legal\s*notice|_ln[_.]/i.test(decodeURIComponent(s)) ? 'legal notice' : null;
 
 // ---------- source readers ----------
@@ -99,7 +100,8 @@ const readers = {
       for (const l of parseLinks(html, p, src.match)) if (!all.has(l.url)) all.set(l.url, { ...l, page: p });
     }
     if (DEBUG) console.log(`  [debug] ${src.id}: ${all.size} matching links`);
-    return [...all.values()].slice(0, src.max || 40).map(l => ({ title: l.title, url: l.url, date: dateIn(l.url) || dateIn(l.title), doc: docKind(l.url + ' ' + l.title), packet: isPacket(l.url + ' ' + l.title) }));
+    if (DEBUG && !all.size) { const html = await get(pages[0]); console.log(`  [debug] ${src.id}: page ${html.length} bytes, sample links:`, [...html.matchAll(/href=["']([^"']+)["']/gi)].map(m => m[1]).filter(h => /minute|agenda|document|files\.|\.pdf/i.test(h)).slice(0, 25)); }
+    return [...all.values()].slice(0, src.max || 40).map(l => ({ title: l.title, url: l.url, date: dateIn(l.url) || dateIn(l.title), doc: docKind(fileName(l.url) + ' ' + l.title), packet: isPacket(fileName(l.url) + ' ' + l.title) }));
   },
 
   // CivicPlus: /rss.aspx lists every feed on the site (news, calendar, alerts, agendas, bids...). Read each "All" feed.
@@ -126,14 +128,15 @@ const readers = {
   // CivicPlus Document Center folders load by script; this is the request the page itself makes.
   async 'civicplus-docs'(src) {
     const url = new URL('Admin/DocumentCenter/Home/Document_AjaxBinding?renderMode=0&loadSource=7', src.base).toString();
-    const body = new URLSearchParams({ folderId: String(src.folder), getDocuments: '1', imageRepo: 'false', renderMode: '0', loadSource: '7', requestingModuleID: '75', searchString: '', pageNumber: '1', rowsPerPage: String(src.max || 15), sortColumn: 'DateUploaded', sortOrder: '1' });
+    const body = new URLSearchParams({ folderId: String(src.folder), getDocuments: '1', imageRepo: 'false', renderMode: '0', loadSource: '7', requestingModuleID: '75', searchString: '', pageNumber: '1', rowsPerPage: String(src.max || 15), sortColumn: 'CreatedDate', sortOrder: '1' });
     const j = await get(url, { as: 'json', method: 'POST', body, headers: { 'content-type': 'application/x-www-form-urlencoded; charset=UTF-8', 'x-requested-with': 'XMLHttpRequest' } });
     const rows = j.Data || j.data || (j.Documents) || [];
     if (DEBUG) console.log(`  [debug] ${src.id}: keys`, Object.keys(j), rows[0] ? Object.keys(rows[0]) : 'no rows');
     return rows.map(r => {
       const id = r.ID || r.DocumentID || r.Id;
-      const u = r.URL || r.Url || (id ? `DocumentCenter/View/${id}` : '');
-      const when = r.DateUploaded || r.UploadedDate || r.CreatedOn || r.DateCreated || '';
+      // Link by id only: the readable part of a Document Center URL repeats the title, which can name people.
+      const u = id ? `DocumentCenter/View/${id}` : (r.URL || '');
+      const when = r.FileUploadedDate || r.CreatedDate || r.LastModifiedDate || '';
       const ms = String(when).match(/\/Date\((\d+)/);
       return { title: strip(r.DisplayName || r.Name || r.FileName || ''), url: abs(u, src.base), date: ms ? day(+ms[1]) : day(when) };
     }).filter(x => x.title && x.url);
@@ -145,8 +148,13 @@ const readers = {
     const from = new Date(NOW - (src.back || 21) * 864e5).toISOString().slice(0, 10);
     const to = new Date(+NOW + (src.ahead || 21) * 864e5).toISOString().slice(0, 10);
     const q = `Events?$filter=startDateTime ge ${from}T00:00:00Z and startDateTime le ${to}T23:59:59Z&$orderby=startDateTime desc&$top=200`;
-    const j = await get(api + q.replace(/ /g, '%20'), { as: 'json' });
-    const events = j.value || j.Value || (Array.isArray(j) ? j : []);
+    let next = api + q.replace(/ /g, '%20'), events = [], pages = 0;
+    while (next && pages++ < 10) {
+      const j = await get(next, { as: 'json' });
+      if (DEBUG && pages === 1) console.log(`  [debug] ${src.id}: response keys`, Object.keys(j));
+      events.push(...(j.value || j.Value || (Array.isArray(j) ? j : [])));
+      next = j['@odata.nextLink'] || j['odata.nextLink'] || null;
+    }
     if (DEBUG && events[0]) console.log(`  [debug] ${src.id}: event keys`, Object.keys(events[0]), 'file keys', (events.find(e => (e.publishedFiles || []).length) || {}).publishedFiles?.[0]);
     const out = [];
     for (const e of events) {
@@ -164,6 +172,20 @@ const readers = {
     return out;
   },
 };
+
+// ---------- police and fire: no names ----------
+// Police and fire titles often name the person arrested or involved, and inbox/ is public. So a safety title is kept
+// only when it is clearly about a program, meeting or event; otherwise it becomes a generic label plus the offense words
+// it mentions (theft, assault...). The detail text is never kept. Open the source link to write the item, without names.
+const SAFE_TITLE = /^(?!.*\b(arrest|charged|suspect|wanted|missing|death|died|killed|victim|injur|accused|indict)).*\b(coffee with a cop|night out|commission|remembrance|ceremony|exercise|survey|accreditation|program|meeting|regulations|task force|open house|recruit|hiring|safety tips?|burn permits?|drill|training|awards?|code cycle|fire prevention|road closure|parking|parade|event|seminar|academy|drug take ?back|take back)\b/i;
+const OFFENSES = ['criminal threatening', 'reckless conduct', 'robbery', 'burglary', 'theft', 'shoplifting', 'assault', 'domestic violence', 'stalking', 'arson', 'fraud', 'forgery', 'drug', 'fentanyl', 'dui', 'dwi', 'impaired driving', 'crash', 'accident', 'hit and run', 'shooting', 'stabbing', 'homicide', 'trespass', 'vandalism', 'criminal mischief', 'weapons', 'firearm', 'fire', 'missing'];
+function safeTitle(title, src) {
+  if (SAFE_TITLE.test(title)) return title;
+  const low = ' ' + title.toLowerCase().replace(/[_-]+/g, ' ').replace(/\bdv\b/g, 'domestic violence') + ' ';
+  const hits = OFFENSES.filter(o => low.includes(' ' + o)).filter((o, i, a) => !a.some(b => b !== o && b.includes(o)));
+  const what = /log/i.test(src.id) ? 'Log' : /release/i.test(src.id) ? 'Press release' : 'News item';
+  return `${what} (title withheld: may name people)${hits.length ? ': ' + hits.join(', ') : ''}`;
+}
 
 // ---------- documents ----------
 function pdfToText(buf) {
@@ -213,8 +235,10 @@ async function runTown(town, sources) {
       for (const it of found) {
         const key = src.id + ':' + hash(it.url);
         const old = byKey.get(key);
-        const rec = { key, source: src.id, kind: src.kind, ...(it.feed ? { feed: it.feed } : {}), title: it.title, url: it.url, date: it.date || null,
-          ...(it.detail ? { detail: it.detail } : {}), ...(it.body ? { body: it.body } : {}), ...(it.doc ? { doc: it.doc } : {}), ...(it.packet ? { packet: true } : {}),
+        const safety = src.kind === 'safety' || src.kind === 'police-log';
+        const title = safety && !(src.kind === 'police-log' && /^(arrest log|police log|media log)?\s*((jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)[a-z]*\.?)?[\s\d.,\-\/]*$/i.test(it.title)) ? safeTitle(it.title, src) : it.title;
+        const rec = { key, source: src.id, kind: src.kind, ...(it.feed ? { feed: it.feed } : {}), title, url: it.url, date: it.date || null,
+          ...(it.detail && !safety ? { detail: it.detail } : {}), ...(it.body ? { body: it.body } : {}), ...(it.doc ? { doc: it.doc } : {}), ...(it.packet ? { packet: true } : {}),
           ...(it.meeting ? { meeting: true, files: it.files } : {}),
           firstSeen: old ? old.firstSeen : TODAY, lastSeen: TODAY, ...(old && old.text ? { text: old.text } : {}) };
         if (src.docs && it.doc && !it.packet && src.text !== false && !rec.text) {
