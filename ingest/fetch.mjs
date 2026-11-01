@@ -276,9 +276,11 @@ async function runTown(town, sources) {
         const key = src.id + ':' + hash(it.url);
         const old = byKey.get(key);
         const safety = src.kind === 'safety' || src.kind === 'police-log';
-        const title = safety && !(src.kind === 'police-log' && /^(arrest log|police log|media log)?\s*((jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)[a-z]*\.?)?[\s\d.,\-\/]*$/i.test(it.title)) ? safeTitle(it.title, src) : it.title;
+        // Town news can report an arrest too: treat those titles like police items.
+        const crimeNews = !safety && /\b(arrest(ed)?|charged|indicted|suspect)\b/i.test(it.title + ' ' + (it.detail || ''));
+        const title = crimeNews ? safeTitle(it.title, { id: 'news' }) : safety && !(src.kind === 'police-log' && /^(arrest log|police log|media log)?\s*((jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)[a-z]*\.?)?[\s\d.,\-\/]*$/i.test(it.title)) ? safeTitle(it.title, src) : it.title;
         const rec = { key, source: src.id, kind: src.kind, ...(it.feed ? { feed: it.feed } : {}), title, url: it.url, date: it.date || null,
-          ...(it.detail && !safety ? { detail: it.detail } : {}), ...(it.body ? { body: it.body } : {}), ...(it.doc ? { doc: it.doc } : {}), ...(it.packet ? { packet: true } : {}),
+          ...(it.detail && !safety && !crimeNews ? { detail: it.detail } : {}), ...(it.body ? { body: it.body } : {}), ...(it.doc ? { doc: it.doc } : {}), ...(it.packet ? { packet: true } : {}),
           ...(it.meeting ? { meeting: true, files: it.files } : {}),
           firstSeen: old ? old.firstSeen : TODAY, lastSeen: TODAY, ...(old && old.text ? { text: old.text } : {}) };
         if (src.docs && it.doc && !it.packet && src.text !== false && !rec.text && daysOld(it.date) <= DOC_DAYS) {
@@ -304,6 +306,12 @@ async function runTown(town, sources) {
     town, updated: NOW.toISOString(), sources: status, notes: ctx.notes, items };
   fs.mkdirSync(path.dirname(file), { recursive: true });
   fs.writeFileSync(file, JSON.stringify(out, null, 1) + '\n');
+  // Delete saved document text that no item points to any more (keeps inbox/ from growing without end).
+  const docDir = path.join(ROOT, 'inbox', town, 'docs');
+  if (fs.existsSync(docDir)) {
+    const keep = new Set(items.map(i => i.text).filter(Boolean).map(t => path.basename(t)));
+    for (const f of fs.readdirSync(docDir)) if (!keep.has(f)) fs.rmSync(path.join(docDir, f));
+  }
   console.log(`${town}: ${added} new items, ${ctx.newDocs} new documents saved${ctx.notes.length ? '; notes: ' + ctx.notes.length : ''}`);
   return { town, added, docs: ctx.newDocs, failed: Object.entries(status).filter(([, s]) => !s.ok).map(([k]) => k) };
 }

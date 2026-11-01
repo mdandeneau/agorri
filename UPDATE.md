@@ -20,6 +20,7 @@ A GitHub Action (`.github/workflows/fetch-sources.yml`, 07:17 UTC daily) checks 
 - Agendas and minutes have `text`: the path of the saved text in `inbox/<town>/docs/`. Read the minutes there instead of fetching them. Cite the item's `url` (the official document), never the inbox path.
 - Police and fire items carry no names: titles that may name people are withheld, and police logs are links only. Open the `url` if you need more, and write the item without names as always.
 - `inbox/` is the fetcher's file. Never edit it during a refresh. To add or fix a source, edit `ingest/sources.json`.
+The fetcher also covers launch-region towns that do not have a page yet (`ingest/regions.json`: Greater Portsmouth, Greater Nashua, Greater Manchester, Mount Washington Valley). Their inboxes are there for building those pages later; a daily refresh only works on live towns. For the valley, read every valley town's inbox (conway, bartlett, tamworth, madison, jackson and the summary towns).
 Use the source lists further down for anything the inbox does not cover (events, the paper, housing, candidates), or when a source shows as failed.
 
 ## Every day, for each live town

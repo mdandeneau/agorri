@@ -4,9 +4,6 @@ name: Scan town platforms
 # Run by hand from the Actions tab when adding towns or when a town changes websites.
 on:
   workflow_dispatch:
-  push:
-    branches: [platform-scan]
-    paths: [ingest/scan.mjs, ingest/regions.json, .github/workflows/scan-platforms.yml]
 
 permissions:
   contents: write

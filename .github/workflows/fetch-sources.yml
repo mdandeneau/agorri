@@ -5,9 +5,6 @@ name: Fetch town sources
 on:
   schedule:
     - cron: '17 7 * * *'
-  push:
-    branches: [platform-scan]
-    paths: [ingest/sources.json, ingest/fetch.mjs]
   workflow_dispatch:
     inputs:
       debug:
