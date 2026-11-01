@@ -142,7 +142,8 @@ const readers = {
       const id = r.ID || r.DocumentID || r.Id;
       // Link by id only: the readable part of a Document Center URL repeats the title, which can name people.
       const u = id ? `DocumentCenter/View/${id}` : (r.URL || '');
-      const when = r.FileUploadedDate || r.CreatedDate || r.LastModifiedDate || r.LastModifiedDateString || r.StartDate || '';
+      // The /Date(...)/ fields are often empty (year 1); the display string is reliable.
+      const when = r.LastModifiedDateString || r.FileUploadedDate || r.CreatedDate || '';
       const ms = String(when).match(/\/Date\((\d+)/);
       const title = strip(r.DisplayName || r.Name || r.FileName || '');
       return { title, url: abs(u, src.base), date: dateIn(title) || (ms ? day(+ms[1]) : day(when)) };

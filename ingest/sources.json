@@ -48,17 +48,20 @@
     "kind": "meeting-doc",
     "docs": true,
     "url": "https://www.portsmouthnh.gov/city/meetings-archive",
-    "match": "files\\.portsmouthnh\\.gov/minutes/",
-    "max": 40
+    "match": "files\\.portsmouthnh\\.gov/(agendas|minutes)/",
+    "max": 60
    },
    {
     "id": "council",
     "type": "links",
     "kind": "meeting-doc",
     "docs": true,
-    "url": "https://www.portsmouthnh.gov/citycouncil",
     "match": "files\\.portsmouthnh\\.gov/(agendas|minutes)/",
-    "max": 40
+    "max": 40,
+    "pages": [
+     "https://www.portsmouthnh.gov/citycouncil/city-council-agendas",
+     "https://www.portsmouthnh.gov/citycouncil/city-council-minutes"
+    ]
    }
   ],
   "nashua": [
