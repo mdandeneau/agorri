@@ -1,0 +1,21 @@
+{
+ "note": "Official sources the daily fetcher (ingest/fetch.mjs, run by .github/workflows/fetch-sources.yml) checks for each town. Results go to inbox/<town>/items.json, and meeting document text to inbox/<town>/docs/. Types: rss, links (a page; keeps <a> links whose URL matches `match`), civicplus (a CivicPlus site: reads every feed listed on /rss.aspx), civicplus-docs (a CivicPlus Document Center folder), civicclerk (the CivicClerk meetings API). `docs: true` saves the text of linked agendas and minutes (never packets). `text: false` means links only; police logs are never saved as text because they name people.",
+ "towns": {
+  "portsmouth": [
+   { "id": "city-news", "type": "rss", "kind": "notice", "url": "https://www.portsmouthnh.gov/rss.xml" },
+   { "id": "police-news", "type": "rss", "kind": "safety", "url": "https://www.portsmouthnh.gov/taxonomy/term/20/feed" },
+   { "id": "fire-news", "type": "rss", "kind": "safety", "url": "https://www.portsmouthnh.gov/taxonomy/term/13/feed" },
+   { "id": "police-logs", "type": "links", "kind": "police-log", "text": false, "url": "https://www.portsmouthnh.gov/police/police-logs", "match": "/sites/default/files/[^\"]*\\.pdf$", "max": 14 },
+   { "id": "meetings", "type": "links", "kind": "meeting-doc", "docs": true, "pages": ["https://www.portsmouthnh.gov/city-municipal-meetings-calendar", "https://www.portsmouthnh.gov/city-municipal-meetings-calendar?page=1", "https://www.portsmouthnh.gov/city-municipal-meetings-calendar?page=2"], "match": "files\\.portsmouthnh\\.gov/(agendas|minutes)/", "max": 80 },
+   { "id": "meetings-archive", "type": "links", "kind": "meeting-doc", "docs": true, "url": "https://www.portsmouthnh.gov/city/meetings-archive", "match": "files\\.portsmouthnh\\.gov/minutes/", "max": 40 },
+   { "id": "council", "type": "links", "kind": "meeting-doc", "docs": true, "url": "https://www.portsmouthnh.gov/citycouncil", "match": "files\\.portsmouthnh\\.gov/(agendas|minutes)/", "max": 40 }
+  ],
+  "nashua": [
+   { "id": "civicclerk", "type": "civicclerk", "kind": "meeting-doc", "tenant": "nashuanh", "back": 21, "ahead": 21, "docs": true },
+   { "id": "city-feeds", "type": "civicplus", "kind": "notice", "base": "https://www.nashuanh.gov/" },
+   { "id": "legal-notices", "type": "links", "kind": "notice", "url": "https://www.nashuanh.gov/199/Legal-Notices", "match": "/DocumentCenter/View/", "max": 30 },
+   { "id": "police-releases", "type": "civicplus-docs", "kind": "safety", "base": "https://www.nashuanhpd.gov/", "folder": 46, "max": 15 },
+   { "id": "police-arrest-logs", "type": "civicplus-docs", "kind": "police-log", "text": false, "base": "https://www.nashuanhpd.gov/", "folder": 45, "max": 10 }
+  ]
+ }
+}

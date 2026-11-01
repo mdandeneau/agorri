@@ -1,0 +1,47 @@
+name: Fetch town sources
+
+# Checks each town's official sources (ingest/sources.json) and commits what it finds to inbox/.
+# Runs at 07:17 UTC (about 2 or 3 am in New Hampshire), ahead of the daily refresh, and can be run by hand from the Actions tab.
+on:
+  schedule:
+    - cron: '17 7 * * *'
+  workflow_dispatch:
+    inputs:
+      debug:
+        description: 'Print response shapes (for fixing a source)'
+        type: boolean
+        default: false
+  push:
+    branches: [ingest-setup]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: fetch-sources
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Install pdftotext
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq poppler-utils
+      - name: Fetch sources
+        env:
+          INGEST_DEBUG: ${{ inputs.debug && '1' || (github.event_name == 'push' && '1' || '') }}
+        run: node ingest/fetch.mjs
+      - name: Commit results
+        run: |
+          git config user.name "agorri-fetcher"
+          git config user.email "actions@users.noreply.github.com"
+          git add inbox
+          if git diff --cached --quiet; then echo "Nothing new"; exit 0; fi
+          git commit -q -m "Source fetch $(date -u +%F): $(cat inbox/last-run.txt)"
+          for i in 1 2 3; do git pull -q --rebase && git push -q && exit 0; sleep 5; done
+          exit 1
