@@ -1,0 +1,1040 @@
+{
+ "as_of": "2026-11-01",
+ "note": "Congregations come from several directories (Devout, PewSearch, ChurchFinder, Christianity.com), the Wikipedia list of Diocese of Manchester parishes and a 2021 Rivier University worship list. Service times are shown only where an opened page gave them; most come from the congregation's own site, and Catholic Sunday times come from a third-party Mass directory. The Nashua Area Interfaith Council (founded as the Nashua Council of Churches in the 1940s) links many of these congregations. No Quaker meeting or Sikh gurdwara in Nashua was found. No public faith events for November or December 2026 were found on pages that could be opened.",
+ "congregations": [
+  {
+   "name": "St. Patrick Parish",
+   "tradition": "Roman Catholic",
+   "town": "Nashua",
+   "address": "29 Spring St, Nashua, NH 03060",
+   "services": "Sunday 7 and 9:30 am",
+   "servicesSource": {
+    "label": "Catholic Church Times, Sunday Mass in Nashua",
+    "url": "https://www.catholicchurchtimes.com/mass/sunday/united-states/new-hampshire/nashua"
+   },
+   "site": "https://www.stpatricksnashua.org/",
+   "phone": null,
+   "note": null,
+   "source": {
+    "label": "Wikipedia, List of parishes in the Diocese of Manchester",
+    "url": "https://en.wikipedia.org/wiki/List_of_parishes_in_the_Diocese_of_Manchester"
+   },
+   "needs_review": true,
+   "review_note": "Sunday times from a third-party Mass-times directory, not the parish site; Saturday vigil times not found."
+  },
+  {
+   "name": "Immaculate Conception Parish",
+   "tradition": "Roman Catholic",
+   "town": "Nashua",
+   "address": "216 E. Dunstable Rd, Nashua, NH 03062",
+   "services": "Sunday 7:30, 9 and 11 am",
+   "servicesSource": {
+    "label": "Catholic Church Times, Sunday Mass in Nashua",
+    "url": "https://www.catholicchurchtimes.com/mass/sunday/united-states/new-hampshire/nashua"
+   },
+   "site": "https://www.iccnashuanh.org/",
+   "phone": null,
+   "note": "Parish founded 1968; current church dedicated 2002.",
+   "source": {
+    "label": "Wikipedia, List of parishes in the Diocese of Manchester",
+    "url": "https://en.wikipedia.org/wiki/List_of_parishes_in_the_Diocese_of_Manchester"
+   },
+   "needs_review": true,
+   "review_note": "Sunday times from a third-party Mass-times directory, not the parish site; Saturday vigil times not found."
+  },
+  {
+   "name": "Parish of the Resurrection",
+   "tradition": "Roman Catholic",
+   "town": "Nashua",
+   "address": "449 Broad St, Nashua, NH 03063",
+   "services": "Sunday 8:30 and 10:30 am, 5 pm",
+   "servicesSource": {
+    "label": "Catholic Church Times, Sunday Mass in Nashua",
+    "url": "https://www.catholicchurchtimes.com/mass/sunday/united-states/new-hampshire/nashua"
+   },
+   "site": "https://parishoftheresurrection.org",
+   "phone": null,
+   "note": null,
+   "source": {
+    "label": "Wikipedia, List of parishes in the Diocese of Manchester",
+    "url": "https://en.wikipedia.org/wiki/List_of_parishes_in_the_Diocese_of_Manchester"
+   },
+   "needs_review": true,
+   "review_note": "Sunday times from a third-party Mass-times directory, not the parish site; Saturday vigil times not found."
+  },
+  {
+   "name": "St. Aloysius of Gonzaga Parish",
+   "tradition": "Roman Catholic",
+   "town": "Nashua",
+   "address": "48 W. Hollis St, Nashua, NH 03060",
+   "services": "Sunday 9 and 11 am",
+   "servicesSource": {
+    "label": "Catholic Church Times, Sunday Mass in Nashua",
+    "url": "https://www.catholicchurchtimes.com/mass/sunday/united-states/new-hampshire/nashua"
+   },
+   "site": "https://stlouisnashua.org",
+   "phone": null,
+   "note": "Founded 1872 for French-Canadian families.",
+   "source": {
+    "label": "Wikipedia, List of parishes in the Diocese of Manchester",
+    "url": "https://en.wikipedia.org/wiki/List_of_parishes_in_the_Diocese_of_Manchester"
+   },
+   "needs_review": true,
+   "review_note": "Sunday times from a third-party Mass-times directory, not the parish site; Saturday vigil times not found."
+  },
+  {
+   "name": "St. Christopher Parish",
+   "tradition": "Roman Catholic",
+   "town": "Nashua",
+   "address": "62 Manchester St, Nashua, NH 03064",
+   "services": "Sunday 8 and 10 am, 3 pm",
+   "servicesSource": {
+    "label": "Catholic Church Times, Sunday Mass in Nashua",
+    "url": "https://www.catholicchurchtimes.com/mass/sunday/united-states/new-hampshire/nashua"
+   },
+   "site": "https://stchrisparishnh.org/",
+   "phone": null,
+   "note": null,
+   "source": {
+    "label": "Wikipedia, List of parishes in the Diocese of Manchester",
+    "url": "https://en.wikipedia.org/wiki/List_of_parishes_in_the_Diocese_of_Manchester"
+   },
+   "needs_review": true,
+   "review_note": "Sunday times from a third-party Mass-times directory, not the parish site; Saturday vigil times not found."
+  },
+  {
+   "name": "St. John XXIII Parish (Infant Jesus Church)",
+   "tradition": "Roman Catholic",
+   "town": "Nashua",
+   "address": "121 Allds St, Nashua, NH 03060",
+   "services": null,
+   "servicesSource": {
+    "label": "Catholic Church Times, Sunday Mass in Nashua",
+    "url": "https://www.catholicchurchtimes.com/mass/sunday/united-states/new-hampshire/nashua"
+   },
+   "site": "http://www.stjohnxxiiinh.org/",
+   "phone": null,
+   "note": "Formed in 2007 from the merger of St. John the Evangelist and Infant Jesus parishes.",
+   "source": {
+    "label": "Wikipedia, List of parishes in the Diocese of Manchester",
+    "url": "https://en.wikipedia.org/wiki/List_of_parishes_in_the_Diocese_of_Manchester"
+   },
+   "needs_review": true,
+   "review_note": "The Mass-times directory lists this church twice with different Sunday times (8:30 and 10:30 am; 8 and 10:30 am); confirm with the parish."
+  },
+  {
+   "name": "St. Joseph the Worker Parish",
+   "tradition": "Roman Catholic",
+   "town": "Nashua",
+   "address": "777 W. Hollis St, Nashua, NH 03062",
+   "services": "Sunday 8 and 10 am",
+   "servicesSource": {
+    "label": "Catholic Church Times, Sunday Mass in Nashua",
+    "url": "https://www.catholicchurchtimes.com/mass/sunday/united-states/new-hampshire/nashua"
+   },
+   "site": "https://www.stjoenash.org/",
+   "phone": null,
+   "note": null,
+   "source": {
+    "label": "Wikipedia, List of parishes in the Diocese of Manchester",
+    "url": "https://en.wikipedia.org/wiki/List_of_parishes_in_the_Diocese_of_Manchester"
+   },
+   "needs_review": true,
+   "review_note": "Sunday times from a third-party Mass-times directory, not the parish site; Saturday vigil times not found."
+  },
+  {
+   "name": "St. Stanislaus Catholic Church",
+   "tradition": "Roman Catholic (personal parish entrusted to the Priestly Fraternity of St. Peter)",
+   "town": "Nashua",
+   "address": "43 Franklin St, Nashua, NH 03064 (mail: 5 Green St)",
+   "services": "Sunday 7 am Low Mass, 9 and 11 am High Mass; weekday Masses daily",
+   "servicesSource": {
+    "label": "St. Stanislaus Catholic Church, home page",
+    "url": "https://latinmassnashua.org/home"
+   },
+   "site": "https://latinmassnashua.org/home",
+   "phone": "(603) 598-0400",
+   "note": "Confession before each Mass. Roof and bell tower work under way; parish says the daily Mass schedule may change.",
+   "source": {
+    "label": "St. Stanislaus Catholic Church, home page",
+    "url": "https://latinmassnashua.org/home"
+   }
+  },
+  {
+   "name": "Resurrection Chapel",
+   "tradition": "Roman Catholic",
+   "town": "Nashua",
+   "address": "427 South Main St, Nashua, NH 03060",
+   "services": null,
+   "servicesSource": null,
+   "site": null,
+   "phone": null,
+   "note": null,
+   "source": {
+    "label": "Devout.org, Churches in Nashua",
+    "url": "https://www.devout.org/churches/nh/nashua"
+   },
+   "needs_review": true,
+   "review_note": "Only one directory lists this; may be a chapel rather than a parish. Confirm it is active."
+  },
+  {
+   "name": "Saint Philip the Apostle Greek Orthodox Christian Church",
+   "tradition": "Greek Orthodox",
+   "town": "Nashua",
+   "address": "500 W. Hollis St, Nashua, NH 03062",
+   "services": null,
+   "servicesSource": null,
+   "site": "http://www.stphilipnh.org/",
+   "phone": null,
+   "note": null,
+   "source": {
+    "label": "Rivier University, Worship in the Local Community (2021, PDF)",
+    "url": "https://www.rivier.edu/student-life/wp-content/uploads/sites/15/2021/08/Worship-in-the-Local-Community-REV0821.pdf"
+   },
+   "needs_review": true,
+   "review_note": "Listed in third-party directories only; service times not confirmed from the congregation's own site."
+  },
+  {
+   "name": "St. Mary and Archangel Michael Coptic Orthodox Church",
+   "tradition": "Coptic Orthodox",
+   "town": "Nashua",
+   "address": "39 Chandler St, Nashua, NH 03064",
+   "services": null,
+   "servicesSource": null,
+   "site": "https://stmarycoptsnh.org",
+   "phone": null,
+   "note": null,
+   "source": {
+    "label": "Devout.org, Eastern Orthodox churches in Nashua",
+    "url": "https://www.devout.org/churches/nh/nashua/eastern-orthodox"
+   },
+   "needs_review": true,
+   "review_note": "Listed in third-party directories only; service times not confirmed from the congregation's own site."
+  },
+  {
+   "name": "The First Church, Congregational (UCC)",
+   "tradition": "United Church of Christ",
+   "town": "Nashua",
+   "address": "1 Concord St, Nashua, NH 03064",
+   "services": null,
+   "servicesSource": null,
+   "site": "https://tfcucc.org/",
+   "phone": null,
+   "note": null,
+   "source": {
+    "label": "Rivier University, Worship in the Local Community (2021, PDF)",
+    "url": "https://www.rivier.edu/student-life/wp-content/uploads/sites/15/2021/08/Worship-in-the-Local-Community-REV0821.pdf"
+   },
+   "needs_review": true,
+   "review_note": "Listed in third-party directories only; service times not confirmed from the congregation's own site."
+  },
+  {
+   "name": "Pilgrim Congregational Church, UCC",
+   "tradition": "United Church of Christ",
+   "town": "Nashua",
+   "address": "4 Watson St, Nashua, NH 03064",
+   "services": null,
+   "servicesSource": null,
+   "site": "https://pilgrimchurchnashua.org",
+   "phone": null,
+   "note": null,
+   "source": {
+    "label": "PewSearch, Nashua directory",
+    "url": "https://pewsearch.com/directory/new-hampshire/nashua"
+   },
+   "needs_review": true,
+   "review_note": "Listed in third-party directories only; service times not confirmed from the congregation's own site."
+  },
+  {
+   "name": "Church of the Good Shepherd",
+   "tradition": "Episcopal",
+   "town": "Nashua",
+   "address": "214 Main St, Nashua, NH 03060",
+   "services": null,
+   "servicesSource": null,
+   "site": "http://www.cgsnashua.org/",
+   "phone": null,
+   "note": "One directory lists it as Anglican; others list it as Episcopal.",
+   "source": {
+    "label": "Rivier University, Worship in the Local Community (2021, PDF)",
+    "url": "https://www.rivier.edu/student-life/wp-content/uploads/sites/15/2021/08/Worship-in-the-Local-Community-REV0821.pdf"
+   },
+   "needs_review": true,
+   "review_note": "Listed in third-party directories only; service times not confirmed from the congregation's own site."
+  },
+  {
+   "name": "Main Street United Methodist Church",
+   "tradition": "United Methodist",
+   "town": "Nashua",
+   "address": "154 Main St, Nashua, NH 03060",
+   "services": null,
+   "servicesSource": null,
+   "site": "https://www.mainstreet-umc.org/",
+   "phone": null,
+   "note": null,
+   "source": {
+    "label": "Rivier University, Worship in the Local Community (2021, PDF)",
+    "url": "https://www.rivier.edu/student-life/wp-content/uploads/sites/15/2021/08/Worship-in-the-Local-Community-REV0821.pdf"
+   },
+   "needs_review": true,
+   "review_note": "Listed in third-party directories only; service times not confirmed from the congregation's own site."
+  },
+  {
+   "name": "Arlington Street United Methodist Church",
+   "tradition": "United Methodist",
+   "town": "Nashua",
+   "address": "63 Arlington St, Nashua, NH 03060",
+   "services": null,
+   "servicesSource": null,
+   "site": null,
+   "phone": null,
+   "note": null,
+   "source": {
+    "label": "Devout.org, Churches in Nashua",
+    "url": "https://www.devout.org/churches/nh/nashua"
+   },
+   "needs_review": true,
+   "review_note": "Listed in third-party directories only; service times not confirmed from the congregation's own site."
+  },
+  {
+   "name": "Christ the King Lutheran Church",
+   "tradition": "Lutheran (ELCA)",
+   "town": "Nashua",
+   "address": "3 Lutheran Dr, Nashua, NH 03063",
+   "services": null,
+   "servicesSource": null,
+   "site": "https://www.ctknashua.org/",
+   "phone": null,
+   "note": null,
+   "source": {
+    "label": "PewSearch, Nashua directory",
+    "url": "https://pewsearch.com/directory/new-hampshire/nashua"
+   },
+   "needs_review": true,
+   "review_note": "Listed in third-party directories only; service times not confirmed from the congregation's own site."
+  },
+  {
+   "name": "Grace Lutheran Church",
+   "tradition": "Lutheran (LCMS)",
+   "town": "Nashua",
+   "address": "130 Spit Brook Rd, Nashua, NH 03062",
+   "services": null,
+   "servicesSource": null,
+   "site": "https://gracelutherannashua.org",
+   "phone": null,
+   "note": null,
+   "source": {
+    "label": "PewSearch, Nashua directory",
+    "url": "https://pewsearch.com/directory/new-hampshire/nashua"
+   },
+   "needs_review": true,
+   "review_note": "Listed in third-party directories only; service times not confirmed from the congregation's own site."
+  },
+  {
+   "name": "Nashua Presbyterian Church",
+   "tradition": "Presbyterian (PCUSA)",
+   "town": "Nashua",
+   "address": "1010 W. Hollis St, Nashua, NH 03062",
+   "services": null,
+   "servicesSource": null,
+   "site": null,
+   "phone": null,
+   "note": null,
+   "source": {
+    "label": "Devout.org, Churches in Nashua",
+    "url": "https://www.devout.org/churches/nh/nashua"
+   },
+   "needs_review": true,
+   "review_note": "Listed in third-party directories only; service times not confirmed from the congregation's own site."
+  },
+  {
+   "name": "Christ Presbyterian Church",
+   "tradition": "Presbyterian (PCA)",
+   "town": "Nashua",
+   "address": null,
+   "services": null,
+   "servicesSource": null,
+   "site": "https://nashuapca.org/",
+   "phone": null,
+   "note": "One directory gives 20 Robinson Rd, the same address as the Seventh-day Adventist church; another gives only a PO box.",
+   "source": {
+    "label": "PewSearch, Nashua directory",
+    "url": "https://pewsearch.com/directory/new-hampshire/nashua"
+   },
+   "needs_review": true,
+   "review_note": "Address unclear across directories; confirm meeting place and times."
+  },
+  {
+   "name": "Nashua Seventh-day Adventist Church",
+   "tradition": "Seventh-day Adventist",
+   "town": "Nashua",
+   "address": "20 Robinson Rd, Nashua, NH 03060",
+   "services": null,
+   "servicesSource": null,
+   "site": "https://nashuanh.adventistchurch.org/",
+   "phone": null,
+   "note": null,
+   "source": {
+    "label": "Rivier University, Worship in the Local Community (2021, PDF)",
+    "url": "https://www.rivier.edu/student-life/wp-content/uploads/sites/15/2021/08/Worship-in-the-Local-Community-REV0821.pdf"
+   },
+   "needs_review": true,
+   "review_note": "Listed in third-party directories only; service times not confirmed from the congregation's own site."
+  },
+  {
+   "name": "Emmanuel Covenant Church",
+   "tradition": "Evangelical Covenant",
+   "town": "Nashua",
+   "address": "24 Echo Ave, Nashua, NH 03062",
+   "services": null,
+   "servicesSource": null,
+   "site": null,
+   "phone": null,
+   "note": null,
+   "source": {
+    "label": "Devout.org, Churches in Nashua",
+    "url": "https://www.devout.org/churches/nh/nashua"
+   },
+   "needs_review": true,
+   "review_note": "Listed in third-party directories only; service times not confirmed from the congregation's own site."
+  },
+  {
+   "name": "Community Chapel Church of the Nazarene",
+   "tradition": "Church of the Nazarene",
+   "town": "Nashua",
+   "address": "5 St. Laurent St, Nashua, NH 03064",
+   "services": null,
+   "servicesSource": null,
+   "site": "https://community-chapel.org",
+   "phone": null,
+   "note": null,
+   "source": {
+    "label": "PewSearch, Nashua directory",
+    "url": "https://pewsearch.com/directory/new-hampshire/nashua"
+   },
+   "needs_review": true,
+   "review_note": "Listed in third-party directories only; service times not confirmed from the congregation's own site."
+  },
+  {
+   "name": "New Apostolic Church",
+   "tradition": "New Apostolic",
+   "town": "Nashua",
+   "address": "32 Concord St, Nashua, NH 03064",
+   "services": null,
+   "servicesSource": null,
+   "site": null,
+   "phone": null,
+   "note": null,
+   "source": {
+    "label": "Devout.org, Churches in Nashua",
+    "url": "https://www.devout.org/churches/nh/nashua"
+   },
+   "needs_review": true,
+   "review_note": "Listed in third-party directories only; service times not confirmed from the congregation's own site."
+  },
+  {
+   "name": "The Salvation Army, Nashua",
+   "tradition": "The Salvation Army",
+   "town": "Nashua",
+   "address": "1 Montgomery Ave, Nashua, NH 03060",
+   "services": null,
+   "servicesSource": null,
+   "site": null,
+   "phone": null,
+   "note": null,
+   "source": {
+    "label": "Devout.org, Churches in Nashua",
+    "url": "https://www.devout.org/churches/nh/nashua"
+   },
+   "needs_review": true,
+   "review_note": "Listed in third-party directories only; service times not confirmed from the congregation's own site."
+  },
+  {
+   "name": "First Baptist Church of Nashua",
+   "tradition": "Baptist (American Baptist)",
+   "town": "Nashua",
+   "address": "121 Manchester St, Nashua, NH 03064",
+   "services": null,
+   "servicesSource": null,
+   "site": "http://www.fbcnashua.org/",
+   "phone": null,
+   "note": null,
+   "source": {
+    "label": "Rivier University, Worship in the Local Community (2021, PDF)",
+    "url": "https://www.rivier.edu/student-life/wp-content/uploads/sites/15/2021/08/Worship-in-the-Local-Community-REV0821.pdf"
+   },
+   "needs_review": true,
+   "review_note": "Listed in third-party directories only; service times not confirmed from the congregation's own site."
+  },
+  {
+   "name": "Nashua Baptist Church",
+   "tradition": "Baptist (Southern Baptist)",
+   "town": "Nashua",
+   "address": "555 Broad St, Nashua, NH 03063",
+   "services": null,
+   "servicesSource": null,
+   "site": "http://www.nashuabaptistchurch.org/",
+   "phone": null,
+   "note": null,
+   "source": {
+    "label": "Rivier University, Worship in the Local Community (2021, PDF)",
+    "url": "https://www.rivier.edu/student-life/wp-content/uploads/sites/15/2021/08/Worship-in-the-Local-Community-REV0821.pdf"
+   },
+   "needs_review": true,
+   "review_note": "Listed in third-party directories only; service times not confirmed from the congregation's own site."
+  },
+  {
+   "name": "Nashua Hanmaum Korean Church",
+   "tradition": "Korean-language Christian church",
+   "town": "Nashua",
+   "address": "555 Broad St, Nashua, NH 03063",
+   "services": null,
+   "servicesSource": null,
+   "site": "https://nashuahanmaum.com",
+   "phone": null,
+   "note": "Shares an address with Nashua Baptist Church in the directory.",
+   "source": {
+    "label": "PewSearch, Nashua directory",
+    "url": "https://pewsearch.com/directory/new-hampshire/nashua"
+   },
+   "needs_review": true,
+   "review_note": "Listed in third-party directories only; service times not confirmed from the congregation's own site."
+  },
+  {
+   "name": "Bible Baptist Church",
+   "tradition": "Baptist",
+   "town": "Nashua",
+   "address": "62 Caldwell Rd, Nashua, NH 03060",
+   "services": null,
+   "servicesSource": null,
+   "site": "http://www.bbcn.org/",
+   "phone": null,
+   "note": null,
+   "source": {
+    "label": "Rivier University, Worship in the Local Community (2021, PDF)",
+    "url": "https://www.rivier.edu/student-life/wp-content/uploads/sites/15/2021/08/Worship-in-the-Local-Community-REV0821.pdf"
+   },
+   "needs_review": true,
+   "review_note": "Listed in third-party directories only; service times not confirmed from the congregation's own site."
+  },
+  {
+   "name": "Trinity Baptist Church",
+   "tradition": "Baptist",
+   "town": "Nashua",
+   "address": "33 Lund Rd, Nashua, NH 03060",
+   "services": null,
+   "servicesSource": null,
+   "site": "https://www.trinitynh.org/",
+   "phone": null,
+   "note": "One directory lists 3 Lund Rd.",
+   "source": {
+    "label": "Rivier University, Worship in the Local Community (2021, PDF)",
+    "url": "https://www.rivier.edu/student-life/wp-content/uploads/sites/15/2021/08/Worship-in-the-Local-Community-REV0821.pdf"
+   },
+   "needs_review": true,
+   "review_note": "Listed in third-party directories only; service times not confirmed from the congregation's own site."
+  },
+  {
+   "name": "Heritage Baptist Church",
+   "tradition": "Baptist",
+   "town": "Nashua",
+   "address": "105 Lock St, Nashua, NH 03064",
+   "services": null,
+   "servicesSource": null,
+   "site": "https://heritagebaptistnashua.com",
+   "phone": null,
+   "note": null,
+   "source": {
+    "label": "PewSearch, Nashua directory",
+    "url": "https://pewsearch.com/directory/new-hampshire/nashua"
+   },
+   "needs_review": true,
+   "review_note": "Listed in third-party directories only; service times not confirmed from the congregation's own site."
+  },
+  {
+   "name": "New Fellowship Baptist Church",
+   "tradition": "Baptist",
+   "town": "Nashua",
+   "address": "50 Ash St, Nashua, NH 03060",
+   "services": null,
+   "servicesSource": null,
+   "site": "https://nfbconline.org",
+   "phone": null,
+   "note": null,
+   "source": {
+    "label": "PewSearch, Nashua directory",
+    "url": "https://pewsearch.com/directory/new-hampshire/nashua"
+   },
+   "needs_review": true,
+   "review_note": "Listed in third-party directories only; service times not confirmed from the congregation's own site."
+  },
+  {
+   "name": "Gateway Baptist Church",
+   "tradition": "Baptist",
+   "town": "Nashua",
+   "address": "115 Main St, Nashua, NH 03060",
+   "services": null,
+   "servicesSource": null,
+   "site": "https://gatewaybaptistchurchnh.com",
+   "phone": null,
+   "note": null,
+   "source": {
+    "label": "PewSearch, Nashua directory",
+    "url": "https://pewsearch.com/directory/new-hampshire/nashua"
+   },
+   "needs_review": true,
+   "review_note": "Listed in third-party directories only; service times not confirmed from the congregation's own site."
+  },
+  {
+   "name": "First Hispanic American Baptist Church",
+   "tradition": "Baptist (Spanish-language)",
+   "town": "Nashua",
+   "address": "1 Progress Ave, Nashua, NH 03062",
+   "services": null,
+   "servicesSource": null,
+   "site": null,
+   "phone": null,
+   "note": null,
+   "source": {
+    "label": "Devout.org, Churches in Nashua",
+    "url": "https://www.devout.org/churches/nh/nashua"
+   },
+   "needs_review": true,
+   "review_note": "Listed in third-party directories only; service times not confirmed from the congregation's own site."
+  },
+  {
+   "name": "Comunidade Batista dos Milagres",
+   "tradition": "Baptist (Portuguese-language)",
+   "town": "Nashua",
+   "address": "48 Palm St, Nashua, NH 03060",
+   "services": null,
+   "servicesSource": null,
+   "site": null,
+   "phone": null,
+   "note": null,
+   "source": {
+    "label": "Devout.org, Churches in Nashua",
+    "url": "https://www.devout.org/churches/nh/nashua"
+   },
+   "needs_review": true,
+   "review_note": "Listed in third-party directories only; service times not confirmed from the congregation's own site."
+  },
+  {
+   "name": "Christian Bible Church",
+   "tradition": "Assemblies of God",
+   "town": "Nashua",
+   "address": "205 Manchester St, Nashua, NH 03064",
+   "services": null,
+   "servicesSource": null,
+   "site": null,
+   "phone": null,
+   "note": null,
+   "source": {
+    "label": "Devout.org, Churches in Nashua",
+    "url": "https://www.devout.org/churches/nh/nashua"
+   },
+   "needs_review": true,
+   "review_note": "Listed in third-party directories only; service times not confirmed from the congregation's own site."
+  },
+  {
+   "name": "Bethel Assembly of God",
+   "tradition": "Assemblies of God",
+   "town": "Nashua",
+   "address": "16 Airport Rd, Nashua, NH 03063",
+   "services": null,
+   "servicesSource": null,
+   "site": null,
+   "phone": null,
+   "note": null,
+   "source": {
+    "label": "Devout.org, Churches in Nashua",
+    "url": "https://www.devout.org/churches/nh/nashua"
+   },
+   "needs_review": true,
+   "review_note": "Listed in third-party directories only; service times not confirmed from the congregation's own site."
+  },
+  {
+   "name": "New Beginning Fellowship",
+   "tradition": "Christian (listed as Assemblies of God in one directory)",
+   "town": "Nashua",
+   "address": "6 Spruce St, Nashua, NH 03060",
+   "services": null,
+   "servicesSource": null,
+   "site": null,
+   "phone": null,
+   "note": null,
+   "source": {
+    "label": "Devout.org, Churches in Nashua",
+    "url": "https://www.devout.org/churches/nh/nashua"
+   },
+   "needs_review": true,
+   "review_note": "Listed in third-party directories only; service times not confirmed from the congregation's own site."
+  },
+  {
+   "name": "Iglesia Pentecostal y Misionera",
+   "tradition": "Pentecostal (Spanish-language)",
+   "town": "Nashua",
+   "address": "58 Elm St, Nashua, NH 03060",
+   "services": null,
+   "servicesSource": null,
+   "site": null,
+   "phone": null,
+   "note": null,
+   "source": {
+    "label": "Devout.org, Churches in Nashua",
+    "url": "https://www.devout.org/churches/nh/nashua"
+   },
+   "needs_review": true,
+   "review_note": "Listed in third-party directories only; service times not confirmed from the congregation's own site."
+  },
+  {
+   "name": "Iglesia Pentecostal El Sonar de la Trompeta",
+   "tradition": "Pentecostal (Spanish-language)",
+   "town": "Nashua",
+   "address": "Kinsley St, Nashua, NH 03060",
+   "services": null,
+   "servicesSource": null,
+   "site": null,
+   "phone": null,
+   "note": null,
+   "source": {
+    "label": "Devout.org, Churches in Nashua",
+    "url": "https://www.devout.org/churches/nh/nashua"
+   },
+   "needs_review": true,
+   "review_note": "Directory gives no street number; confirm location."
+  },
+  {
+   "name": "Iglesia Cristiana Santuario del Altísimo",
+   "tradition": "Christian (Spanish-language)",
+   "town": "Nashua",
+   "address": null,
+   "services": null,
+   "servicesSource": null,
+   "site": null,
+   "phone": null,
+   "note": null,
+   "source": {
+    "label": "Devout.org, Churches in Nashua",
+    "url": "https://www.devout.org/churches/nh/nashua"
+   },
+   "needs_review": true,
+   "review_note": "Directory gives no street address; confirm it is active."
+  },
+  {
+   "name": "Calvary Chapel of Nashua",
+   "tradition": "Calvary Chapel",
+   "town": "Nashua",
+   "address": "48 Bridge St, Nashua, NH 03060",
+   "services": null,
+   "servicesSource": null,
+   "site": null,
+   "phone": null,
+   "note": null,
+   "source": {
+    "label": "Devout.org, Churches in Nashua",
+    "url": "https://www.devout.org/churches/nh/nashua"
+   },
+   "needs_review": true,
+   "review_note": "Listed in third-party directories only; service times not confirmed from the congregation's own site."
+  },
+  {
+   "name": "Gate City Church",
+   "tradition": "Nondenominational Christian",
+   "town": "Nashua",
+   "address": "43 Main St, Nashua, NH 03064",
+   "services": null,
+   "servicesSource": null,
+   "site": "https://www.gatecitychurch.org/",
+   "phone": null,
+   "note": null,
+   "source": {
+    "label": "Rivier University, Worship in the Local Community (2021, PDF)",
+    "url": "https://www.rivier.edu/student-life/wp-content/uploads/sites/15/2021/08/Worship-in-the-Local-Community-REV0821.pdf"
+   },
+   "needs_review": true,
+   "review_note": "Listed in third-party directories only; service times not confirmed from the congregation's own site."
+  },
+  {
+   "name": "Crossway Christian Church",
+   "tradition": "Nondenominational Christian",
+   "town": "Nashua",
+   "address": "501 Main Dunstable Rd, Nashua, NH 03062",
+   "services": null,
+   "servicesSource": null,
+   "site": "https://crosswaycc.org",
+   "phone": null,
+   "note": "Also lists a downtown campus at 33 Pine St.",
+   "source": {
+    "label": "Devout.org, Churches in Nashua",
+    "url": "https://www.devout.org/churches/nh/nashua"
+   },
+   "needs_review": true,
+   "review_note": "Listed in third-party directories only; service times not confirmed from the congregation's own site."
+  },
+  {
+   "name": "Go!Church",
+   "tradition": "Nondenominational Christian",
+   "town": "Nashua",
+   "address": "5 Pine St Ext, Nashua, NH 03060",
+   "services": null,
+   "servicesSource": null,
+   "site": "https://gochurchinfo.com",
+   "phone": null,
+   "note": null,
+   "source": {
+    "label": "PewSearch, Nashua directory",
+    "url": "https://pewsearch.com/directory/new-hampshire/nashua"
+   },
+   "needs_review": true,
+   "review_note": "Listed in third-party directories only; service times not confirmed from the congregation's own site."
+  },
+  {
+   "name": "Grace Fellowship of Nashua",
+   "tradition": "Nondenominational Christian",
+   "town": "Nashua",
+   "address": null,
+   "services": null,
+   "servicesSource": null,
+   "site": null,
+   "phone": null,
+   "note": null,
+   "source": {
+    "label": "ChurchesList, Nashua",
+    "url": "https://churcheslist.com/city/nh/nashua"
+   },
+   "needs_review": true,
+   "review_note": "Directory gives no address."
+  },
+  {
+   "name": "Chinese Bible Church",
+   "tradition": "Christian (Chinese-language)",
+   "town": "Nashua",
+   "address": "45 Pine Hill Rd, Nashua, NH 03063",
+   "services": null,
+   "servicesSource": null,
+   "site": null,
+   "phone": null,
+   "note": null,
+   "source": {
+    "label": "Devout.org, Churches in Nashua",
+    "url": "https://www.devout.org/churches/nh/nashua"
+   },
+   "needs_review": true,
+   "review_note": "Listed in third-party directories only; service times not confirmed from the congregation's own site."
+  },
+  {
+   "name": "Christian Congregation in the United States",
+   "tradition": "Christian",
+   "town": "Nashua",
+   "address": "14B Broad St, Nashua, NH 03064",
+   "services": null,
+   "servicesSource": null,
+   "site": "https://ccnamerica.org",
+   "phone": null,
+   "note": null,
+   "source": {
+    "label": "PewSearch, Nashua directory",
+    "url": "https://pewsearch.com/directory/new-hampshire/nashua"
+   },
+   "needs_review": true,
+   "review_note": "Listed in third-party directories only; service times not confirmed from the congregation's own site."
+  },
+  {
+   "name": "Tolles Street Mission",
+   "tradition": "Evangelical, nondenominational",
+   "town": "Nashua",
+   "address": "52 Whitney St, Nashua, NH 03064",
+   "services": null,
+   "servicesSource": null,
+   "site": null,
+   "phone": null,
+   "note": null,
+   "source": {
+    "label": "Devout.org, Churches in Nashua",
+    "url": "https://www.devout.org/churches/nh/nashua"
+   },
+   "needs_review": true,
+   "review_note": "Listed in third-party directories only; service times not confirmed from the congregation's own site."
+  },
+  {
+   "name": "Nashua Church of Christ",
+   "tradition": "Church of Christ",
+   "town": "Nashua",
+   "address": "97 Farley Rd, Nashua, NH 03063",
+   "services": "Sunday 10 am Bible classes, 11 am worship (Google Meet link on request)",
+   "servicesSource": {
+    "label": "Nashua Church of Christ, home page",
+    "url": "https://nashuachurch.squarespace.com"
+   },
+   "site": "https://nashuachurch.squarespace.com",
+   "phone": "(603) 889-0979",
+   "note": null,
+   "source": {
+    "label": "Nashua Church of Christ, home page",
+    "url": "https://nashuachurch.squarespace.com"
+   }
+  },
+  {
+   "name": "First Church of Christ, Scientist",
+   "tradition": "Christian Science",
+   "town": "Nashua",
+   "address": "28 Broad St, Nashua, NH",
+   "services": null,
+   "servicesSource": null,
+   "site": "http://www.christiansciencenashua.com",
+   "phone": null,
+   "note": "Another directory lists 115 Concord St.",
+   "source": {
+    "label": "Rivier University, Worship in the Local Community (2021, PDF)",
+    "url": "https://www.rivier.edu/student-life/wp-content/uploads/sites/15/2021/08/Worship-in-the-Local-Community-REV0821.pdf"
+   },
+   "needs_review": true,
+   "review_note": "Address differs between directories; service times not confirmed."
+  },
+  {
+   "name": "The Church of Jesus Christ of Latter-day Saints, Nashua",
+   "tradition": "The Church of Jesus Christ of Latter-day Saints",
+   "town": "Nashua",
+   "address": "110 Concord St, Nashua, NH",
+   "services": null,
+   "servicesSource": null,
+   "site": null,
+   "phone": null,
+   "note": null,
+   "source": {
+    "label": "Rivier University, Worship in the Local Community (2021, PDF)",
+    "url": "https://www.rivier.edu/student-life/wp-content/uploads/sites/15/2021/08/Worship-in-the-Local-Community-REV0821.pdf"
+   },
+   "needs_review": true,
+   "review_note": "From a 2021 list; meeting times not confirmed."
+  },
+  {
+   "name": "Temple Beth Abraham",
+   "tradition": "Jewish (Conservative)",
+   "town": "Nashua",
+   "address": "4 Raymond St, Nashua, NH 03064",
+   "services": null,
+   "servicesSource": null,
+   "site": "http://www.tbanashua.org",
+   "phone": "603-883-8184",
+   "note": null,
+   "source": {
+    "label": "Jewish Federation of NH community directory, Temple Beth Abraham",
+    "url": "https://jewishnh.org/community-directory/temple-beth-abraham"
+   },
+   "needs_review": true,
+   "review_note": "Service times not found on an opened page."
+  },
+  {
+   "name": "Islamic Society of Greater Nashua",
+   "tradition": "Muslim (Sunni)",
+   "town": "Nashua",
+   "address": "5 Pine St Ext, Nashua, NH 03060",
+   "services": "Friday prayer (Jumu'ah) starts 1 pm; five daily prayers",
+   "servicesSource": {
+    "label": "Zabihah, Islamic Society of Greater Nashua",
+    "url": "https://www.zabihah.com/mosques/1377ca51-776a-11ef-95ae-6045bdeb9f57/islamic-society-of-greater-nashua-nashua-nh"
+   },
+   "site": "https://www.isgn.org/",
+   "phone": null,
+   "note": "Sunday Quran classes for children; Ramadan taraweeh and Eid prayers. A 2015 Pluralism Project page gives the site as isgn-nh.org and phone 603-786-7586.",
+   "source": {
+    "label": "Zabihah, Islamic Society of Greater Nashua",
+    "url": "https://www.zabihah.com/mosques/1377ca51-776a-11ef-95ae-6045bdeb9f57/islamic-society-of-greater-nashua-nashua-nh"
+   },
+   "needs_review": true,
+   "review_note": "Prayer times from a third-party mosque directory; confirm on the society's site."
+  },
+  {
+   "name": "Hindu Temple of New Hampshire",
+   "tradition": "Hindu",
+   "town": "Nashua",
+   "address": "525 Broad St, Nashua, NH",
+   "services": null,
+   "servicesSource": null,
+   "site": "https://www.hindutemplenh.org/",
+   "phone": "603-598-4864",
+   "note": null,
+   "source": {
+    "label": "Rivier University, Worship in the Local Community (2021, PDF)",
+    "url": "https://www.rivier.edu/student-life/wp-content/uploads/sites/15/2021/08/Worship-in-the-Local-Community-REV0821.pdf"
+   },
+   "needs_review": true,
+   "review_note": "Address from a 2021 list and phone from a 2015 Pluralism Project page; schedule not found."
+  },
+  {
+   "name": "Unitarian Universalist Congregation of Nashua",
+   "tradition": "Unitarian Universalist",
+   "town": "Nashua",
+   "address": "58 Lowell St, Nashua, NH 03064",
+   "services": "Sunday 10 am",
+   "servicesSource": {
+    "label": "UU Nashua, What to Expect in Worship",
+    "url": "https://uunashua.org/worship/what-to-expect-in-worship-2/"
+   },
+   "site": "https://uunashua.org",
+   "phone": null,
+   "note": "Its media page says Sunday services are live-streamed at 10 am, with repeats at 3 and 7 pm (mm.uunashua.org).",
+   "source": {
+    "label": "UU Nashua, What to Expect in Worship",
+    "url": "https://uunashua.org/worship/what-to-expect-in-worship-2/"
+   },
+   "needs_review": true,
+   "review_note": "Street address from a 2015 Pluralism Project page; the congregation's pages opened did not show it."
+  },
+  {
+   "name": "Nashua Buddhist Meditation Group",
+   "tradition": "Buddhist",
+   "town": "Nashua",
+   "address": "Meets at the Unitarian Universalist church, 58 Lowell St, Nashua, NH 03064",
+   "services": null,
+   "servicesSource": null,
+   "site": null,
+   "phone": null,
+   "note": null,
+   "source": {
+    "label": "Pluralism Project Archive, Nashua Buddhist Meditation Group (2015)",
+    "url": "https://pluralismarchive.hsites.harvard.edu/nashua-buddhist-meditation-group"
+   },
+   "needs_review": true,
+   "review_note": "Source last updated 2015; confirm the group still meets."
+  },
+  {
+   "name": "Spiritual Assembly of the Bahá'ís of Nashua",
+   "tradition": "Bahá'í",
+   "town": "Nashua",
+   "address": null,
+   "services": null,
+   "servicesSource": null,
+   "site": null,
+   "phone": null,
+   "note": "Member of the Nashua Area Interfaith Council.",
+   "source": {
+    "label": "Pluralism Project, Nashua Area Interfaith Council",
+    "url": "https://pluralism.org/Nashua%20Area%20Interfaith%20Council"
+   },
+   "needs_review": true,
+   "review_note": "Named only on a 2020 interfaith council page; no address or schedule found."
+  }
+ ],
+ "events": [],
+ "eventsNote": "No November or December 2026 faith events (suppers, fairs, concerts, holiday services) were found in opened sources.",
+ "services": [
+  {
+   "name": "Corpus Christi Food Pantry",
+   "what": "Food pantry, listed with Corpus Christi Chapel",
+   "town": "Nashua",
+   "when": null,
+   "url": "https://www.devout.org/churches/nh/nashua",
+   "address": "43 Franklin St, Nashua, NH 03064",
+   "note": "Listed in a church directory as 'Chorpus Christi Chapel & Food Pantry'. Hours and eligibility not found.",
+   "source": {
+    "label": "Devout.org, Churches in Nashua",
+    "url": "https://www.devout.org/churches/nh/nashua"
+   },
+   "needs_review": true,
+   "review_note": "Directory listing only; confirm hours and that it is open."
+  }
+ ]
+}

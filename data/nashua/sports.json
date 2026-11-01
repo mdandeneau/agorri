@@ -1,0 +1,852 @@
+{
+ "as_of": "2026-11-01",
+ "note": "Nashua high school results come mostly from MaxPreps (an aggregator, often days or weeks behind), Yahoo Sports and paywalled Nashua Telegraph headlines, so scores are flagged for review. Coaches are left blank because no school coaches page could be opened. NHIAA dates are from the NHIAA Fall 2026 tournament calendar: cross country divisional meets were Oct 31 at Derryfield Park and the Meet of Champions is Sat Nov 7 at Hopkinton Fairgrounds; Division I football final Sat Nov 28 at Stellos Stadium. Winter season start dates, field hockey and cross country team results, adult leagues and Nashua Community College athletics were not found. No students are named.",
+ "schools": [
+  {
+   "name": "Nashua High School North",
+   "town": "Nashua",
+   "mascot": "Titans",
+   "division": "NHIAA Division I",
+   "address": "8 Titan Way, Nashua, NH 03063",
+   "colors": "Navy blue, white and Columbia blue",
+   "athleticDirector": "Lisa Gingras (Nashua School District Athletic Director), 603-966-1491",
+   "site": "https://www.nashuanorthathletics.com/",
+   "athleticsUrl": "https://www.nashuanorthathletics.com/",
+   "scheduleUrl": "https://arbiterlive.com/School/Calendar/15604",
+   "registrationUrl": "http://nashua-nh.finalforms.com",
+   "source": {
+    "label": "NHIAA school profile, Nashua High School North",
+    "url": "https://www.nhiaa.org/about-nhiaa/schools/nashua-north"
+   },
+   "teams": [
+    {
+     "sport": "Football",
+     "season": "Fall 2026",
+     "level": "Varsity",
+     "record": "3-5",
+     "recordAsOf": "2026-10-31",
+     "recordNote": "Division I record used for NHIAA playoff ratings (NH-HighSchoolSports.com, Oct 31). Overall record including the Oct 30 win at Dracut (Mass.) not found.",
+     "coach": null,
+     "postseason": "Did not qualify for the NHIAA Division I playoffs; the Telegraph says a consolation game may still be possible.",
+     "recent": [
+      {
+       "date": "2026-10-30",
+       "opponent": "Dracut (Mass.)",
+       "home": false,
+       "result": "W (score not found)",
+       "source": {
+        "label": "Nashua Telegraph, HS Football Roundup (Oct 31)",
+        "url": "https://www.nashuatelegraph.com/sports/high-schools/2026/10/31/hs-football-roundup-north-wins-milford-alvirne-bow/"
+       },
+       "note": "Telegraph story is paywalled; only the result was visible."
+      },
+      {
+       "date": "2026-09-25",
+       "opponent": "Nashua South",
+       "home": false,
+       "result": "L 34-39",
+       "source": {
+        "label": "MaxPreps, Nashua South football (updated Oct 10)",
+        "url": "https://www.maxpreps.com/nh/nashua/nashua-south-purple-panthers/football/"
+       },
+       "note": "Played at Stellos Stadium; listed as a Nashua South home game."
+      },
+      {
+       "date": "2026-09-04",
+       "opponent": "Bishop Guertin",
+       "home": null,
+       "result": "L 7-42",
+       "source": {
+        "label": "MaxPreps, Bishop Guertin football schedule (updated Oct 10)",
+        "url": "https://www.maxpreps.com/nh/nashua/bishop-guertin-cardinals/football/schedule/"
+       },
+       "note": "MaxPreps pages disagree on which team was home."
+      }
+     ],
+     "next": [],
+     "needs_review": true,
+     "review_note": "Results come from MaxPreps and paywalled Telegraph headlines; no full 2026 schedule was readable (MaxPreps Nashua North football page could not be opened)."
+    },
+    {
+     "sport": "Boys Soccer",
+     "season": "Fall 2026",
+     "level": "Varsity",
+     "record": "5-10-3",
+     "recordAsOf": "2026-10-27",
+     "coach": null,
+     "postseason": null,
+     "postseasonNote": "No tournament games listed on MaxPreps; MaxPreps ranks the team 16th in Division I.",
+     "recent": [
+      {
+       "date": "2026-10-23",
+       "opponent": "Manchester Central",
+       "home": false,
+       "result": "W 2-1",
+       "source": {
+        "label": "MaxPreps, Nashua North boys soccer (updated Oct 27)",
+        "url": "https://www.maxpreps.com/nh/nashua/nashua-north-titans/soccer/"
+       }
+      },
+      {
+       "date": "2026-10-20",
+       "opponent": "Goffstown",
+       "home": false,
+       "result": "L 1-2",
+       "source": {
+        "label": "MaxPreps, Nashua North boys soccer (updated Oct 27)",
+        "url": "https://www.maxpreps.com/nh/nashua/nashua-north-titans/soccer/"
+       },
+       "note": "MaxPreps also lists this game as Oct 22."
+      },
+      {
+       "date": "2026-10-14",
+       "opponent": "Portsmouth",
+       "home": true,
+       "result": "W 2-1",
+       "source": {
+        "label": "MaxPreps, Nashua North boys soccer (updated Oct 27)",
+        "url": "https://www.maxpreps.com/nh/nashua/nashua-north-titans/soccer/"
+       }
+      },
+      {
+       "date": "2026-10-12",
+       "opponent": "Merrimack",
+       "home": true,
+       "result": "L 0-3",
+       "source": {
+        "label": "MaxPreps, Nashua North boys soccer (updated Oct 27)",
+        "url": "https://www.maxpreps.com/nh/nashua/nashua-north-titans/soccer/"
+       }
+      },
+      {
+       "date": "2026-10-08",
+       "opponent": "Alvirne",
+       "home": true,
+       "result": "W 3-0",
+       "source": {
+        "label": "MaxPreps, Nashua North boys soccer (updated Oct 27)",
+        "url": "https://www.maxpreps.com/nh/nashua/nashua-north-titans/soccer/"
+       }
+      },
+      {
+       "date": "2026-09-22",
+       "opponent": "Nashua South",
+       "home": null,
+       "result": "L 0-6",
+       "source": {
+        "label": "MaxPreps, Nashua South boys soccer (updated Sep 30)",
+        "url": "https://www.maxpreps.com/nh/nashua/nashua-south-purple-panthers/soccer/"
+       },
+       "note": "Played at Stellos Stadium."
+      }
+     ],
+     "next": [],
+     "needs_review": true,
+     "review_note": "Scores from MaxPreps, an aggregator."
+    }
+   ]
+  },
+  {
+   "name": "Nashua High School South",
+   "town": "Nashua",
+   "mascot": "Purple Panthers",
+   "division": "NHIAA Division I",
+   "address": "36 Riverside Dr., Nashua, NH 03062",
+   "colors": "Purple and white",
+   "athleticDirector": "Lisa Gingras, 603-966-1491",
+   "site": "https://www.nashuasouthathletics.com/",
+   "athleticsUrl": "https://www.nashuasouthathletics.com/",
+   "scheduleUrl": null,
+   "registrationUrl": "https://www.nashuasouthathletics.com/registration/",
+   "source": {
+    "label": "NHIAA school profile, Nashua High School South",
+    "url": "https://www.nhiaa.org/about-nhiaa/schools/nashua-south"
+   },
+   "teams": [
+    {
+     "sport": "Boys Soccer",
+     "season": "Fall 2026",
+     "level": "Varsity",
+     "record": "9-0",
+     "recordAsOf": "2026-09-30",
+     "recordNote": "Last record MaxPreps posted; the team entered the tournament as the Division I top seed.",
+     "coach": null,
+     "postseason": "Top seed in Division I; beat Winnacunnet 6-0 in the Oct 31 quarterfinal at Stellos Stadium and plays No. 4 Exeter in the semifinals.",
+     "recent": [
+      {
+       "date": "2026-10-31",
+       "opponent": "Winnacunnet (NHIAA Division I quarterfinal)",
+       "home": true,
+       "result": "W 6-0",
+       "source": {
+        "label": "Yahoo Sports, Top-seed Nashua South ousts Winnacunnet (Nov 1)",
+        "url": "https://sports.yahoo.com/articles/n-h-boys-soccer-top-042638080.html"
+       },
+       "note": "Played at Stellos Stadium."
+      },
+      {
+       "date": "2026-09-29",
+       "opponent": "Concord",
+       "home": false,
+       "result": "W 3-0",
+       "source": {
+        "label": "MaxPreps, Nashua South boys soccer (updated Sep 30)",
+        "url": "https://www.maxpreps.com/nh/nashua/nashua-south-purple-panthers/soccer/"
+       }
+      },
+      {
+       "date": "2026-09-24",
+       "opponent": "Alvirne",
+       "home": null,
+       "result": "W 3-1",
+       "source": {
+        "label": "MaxPreps, Nashua South boys soccer (updated Sep 30)",
+        "url": "https://www.maxpreps.com/nh/nashua/nashua-south-purple-panthers/soccer/"
+       }
+      },
+      {
+       "date": "2026-09-22",
+       "opponent": "Nashua North",
+       "home": null,
+       "result": "W 6-0",
+       "source": {
+        "label": "MaxPreps, Nashua South boys soccer (updated Sep 30)",
+        "url": "https://www.maxpreps.com/nh/nashua/nashua-south-purple-panthers/soccer/"
+       },
+       "note": "Played at Stellos Stadium."
+      },
+      {
+       "date": "2026-09-17",
+       "opponent": "Bedford",
+       "home": null,
+       "result": "W 1-0",
+       "source": {
+        "label": "MaxPreps, Nashua South boys soccer (updated Sep 30)",
+        "url": "https://www.maxpreps.com/nh/nashua/nashua-south-purple-panthers/soccer/"
+       },
+       "note": "Played at Stellos Stadium."
+      },
+      {
+       "date": "2026-09-15",
+       "opponent": "Salem",
+       "home": null,
+       "result": "W 5-1",
+       "source": {
+        "label": "MaxPreps, Nashua South boys soccer (updated Sep 30)",
+        "url": "https://www.maxpreps.com/nh/nashua/nashua-south-purple-panthers/soccer/"
+       }
+      }
+     ],
+     "next": [
+      {
+       "date": "2026-11-04",
+       "time": null,
+       "opponent": "Exeter (No. 4 seed)",
+       "home": false,
+       "venue": "Manchester Memorial High School",
+       "note": "NHIAA Division I semifinal. Final is Saturday, Nov 7, also at Manchester Memorial.",
+       "source": {
+        "label": "Yahoo Sports, Top-seed Nashua South ousts Winnacunnet (Nov 1)",
+        "url": "https://sports.yahoo.com/articles/n-h-boys-soccer-top-042638080.html"
+       },
+       "alsoSource": {
+        "label": "NHIAA Fall 2026 tournament calendar (PDF)",
+        "url": "https://www.nhiaa.org/ckfinder/userfiles/files/Fall%202026-27(1).pdf"
+       }
+      }
+     ],
+     "needs_review": true,
+     "review_note": "Regular-season scores from MaxPreps (not updated after Sep 30); semifinal start time not found."
+    },
+    {
+     "sport": "Football",
+     "season": "Fall 2026",
+     "level": "Varsity",
+     "record": "3-5",
+     "recordAsOf": "2026-10-31",
+     "recordNote": "Division I record from NH-HighSchoolSports.com playoff ratings; MaxPreps showed 2-4 overall on Oct 10.",
+     "coach": null,
+     "postseason": "Eliminated from Division I playoff contention after the Oct 30 loss at Winnacunnet.",
+     "recent": [
+      {
+       "date": "2026-10-30",
+       "opponent": "Winnacunnet",
+       "home": false,
+       "result": "L (score not found)",
+       "source": {
+        "label": "Nashua Telegraph, No Purple Postseason (Oct 31)",
+        "url": "https://www.nashuatelegraph.com/sports/high-schools/2026/10/31/no-purple-postseason-south-hopes-doused-by-winnacunnet/"
+       },
+       "note": "Game was in Hampton; Telegraph story is paywalled."
+      },
+      {
+       "date": "2026-10-09",
+       "opponent": "Goffstown",
+       "home": false,
+       "result": "W 46-12",
+       "source": {
+        "label": "MaxPreps, Nashua South football (updated Oct 10)",
+        "url": "https://www.maxpreps.com/nh/nashua/nashua-south-purple-panthers/football/"
+       }
+      },
+      {
+       "date": "2026-10-02",
+       "opponent": "Malden Catholic (Mass.)",
+       "home": true,
+       "result": "L 21-49",
+       "source": {
+        "label": "MaxPreps, Nashua South football (updated Oct 10)",
+        "url": "https://www.maxpreps.com/nh/nashua/nashua-south-purple-panthers/football/"
+       },
+       "note": "Stellos Stadium."
+      },
+      {
+       "date": "2026-09-25",
+       "opponent": "Nashua North",
+       "home": true,
+       "result": "W 39-34",
+       "source": {
+        "label": "MaxPreps, Nashua South football (updated Oct 10)",
+        "url": "https://www.maxpreps.com/nh/nashua/nashua-south-purple-panthers/football/"
+       },
+       "note": "Stellos Stadium."
+      },
+      {
+       "date": "2026-09-19",
+       "opponent": "Bishop Guertin",
+       "home": null,
+       "result": "L 17-58",
+       "source": {
+        "label": "MaxPreps, Nashua South football (updated Oct 10)",
+        "url": "https://www.maxpreps.com/nh/nashua/nashua-south-purple-panthers/football/"
+       },
+       "note": "Both MaxPreps team pages list this as a home game; both schools use Stellos Stadium."
+      },
+      {
+       "date": "2026-09-11",
+       "opponent": "Merrimack",
+       "home": true,
+       "result": "L 35-42",
+       "source": {
+        "label": "MaxPreps, Nashua South football (updated Oct 10)",
+        "url": "https://www.maxpreps.com/nh/nashua/nashua-south-purple-panthers/football/"
+       },
+       "note": "Stellos Stadium."
+      }
+     ],
+     "next": [],
+     "needs_review": true,
+     "review_note": "Mid-October games (Windham Oct 17, Keene Oct 23) appear on MaxPreps only as previews; results not found."
+    },
+    {
+     "sport": "Girls Volleyball",
+     "season": "Fall 2026",
+     "level": "Varsity",
+     "record": "5-8",
+     "recordAsOf": "2026-10-12",
+     "coach": null,
+     "postseason": "Lost 3-0 to Bishop Guertin in an Oct 28 Division I tournament game.",
+     "recent": [
+      {
+       "date": "2026-10-28",
+       "opponent": "Bishop Guertin (NHIAA Division I tournament)",
+       "home": null,
+       "result": "L 0-3",
+       "source": {
+        "label": "MaxPreps, Bishop Guertin volleyball (updated Oct 30)",
+        "url": "https://www.maxpreps.com/nh/nashua/bishop-guertin-cardinals/volleyball/"
+       }
+      },
+      {
+       "date": "2026-10-23",
+       "opponent": "Bishop Guertin",
+       "home": false,
+       "result": "L 0-3",
+       "source": {
+        "label": "MaxPreps, Bishop Guertin volleyball (updated Oct 30)",
+        "url": "https://www.maxpreps.com/nh/nashua/bishop-guertin-cardinals/volleyball/"
+       },
+       "note": "Listed as a Bishop Guertin home match."
+      },
+      {
+       "date": "2026-10-07",
+       "opponent": "Portsmouth",
+       "home": null,
+       "result": "W 3-0",
+       "source": {
+        "label": "MaxPreps, Nashua South volleyball (updated Oct 12)",
+        "url": "https://www.maxpreps.com/nh/nashua/nashua-south-purple-panthers/volleyball/"
+       }
+      },
+      {
+       "date": "2026-10-05",
+       "opponent": "Alvirne",
+       "home": null,
+       "result": "L 1-3",
+       "source": {
+        "label": "MaxPreps, Nashua South volleyball (updated Oct 12)",
+        "url": "https://www.maxpreps.com/nh/nashua/nashua-south-purple-panthers/volleyball/"
+       }
+      },
+      {
+       "date": "2026-10-01",
+       "opponent": "Pinkerton",
+       "home": null,
+       "result": "L 1-3",
+       "source": {
+        "label": "MaxPreps, Nashua South volleyball (updated Oct 12)",
+        "url": "https://www.maxpreps.com/nh/nashua/nashua-south-purple-panthers/volleyball/"
+       }
+      },
+      {
+       "date": "2026-09-23",
+       "opponent": "Nashua North",
+       "home": null,
+       "result": "L 0-3",
+       "source": {
+        "label": "MaxPreps, Nashua South volleyball (updated Oct 12)",
+        "url": "https://www.maxpreps.com/nh/nashua/nashua-south-purple-panthers/volleyball/"
+       }
+      }
+     ],
+     "next": [],
+     "needs_review": true,
+     "review_note": "Scores from MaxPreps; Nashua South page not updated after Oct 12."
+    }
+   ]
+  },
+  {
+   "name": "Bishop Guertin High School",
+   "town": "Nashua",
+   "mascot": "Cardinals",
+   "division": "NHIAA Division I",
+   "address": "194 Lund Rd, Nashua, NH 03060",
+   "colors": "Green and gold",
+   "athleticDirector": "Ryan Brown, 603-889-4107 x4347",
+   "site": "https://www.bghs.org/",
+   "athleticsUrl": "https://www.bghs.org/page/athletics",
+   "scheduleUrl": null,
+   "registrationUrl": null,
+   "source": {
+    "label": "NHIAA school profile, Bishop Guertin",
+    "url": "https://nhiaa.org/about-nhiaa/schools/bishop-guertin"
+   },
+   "teams": [
+    {
+     "sport": "Football",
+     "season": "Fall 2026",
+     "level": "Varsity",
+     "record": "7-0",
+     "recordAsOf": "2026-10-31",
+     "recordNote": "Division I record from NH-HighSchoolSports.com before the Oct 31 home game with Keene; MaxPreps showed 6-0 overall on Oct 10 and also lists a game with Westerly (R.I.).",
+     "coach": null,
+     "postseason": "Clinched a Division I playoff spot; projected No. 1 or No. 2 seed with a first-round bye (seeds not official as of Oct 31).",
+     "recent": [
+      {
+       "date": "2026-10-31",
+       "opponent": "Keene",
+       "home": true,
+       "result": null,
+       "source": {
+        "label": "NH-HighSchoolSports.com, Playoff Picture: Football (Oct. 31)",
+        "url": "https://www.nh-highschoolsports.com/playoff-picture-football-oct-31-3/"
+       },
+       "note": "Regular-season finale, 6 pm; result not found."
+      },
+      {
+       "date": "2026-10-09",
+       "opponent": "Salem",
+       "home": false,
+       "result": "W 41-27",
+       "source": {
+        "label": "MaxPreps, Bishop Guertin football schedule (updated Oct 10)",
+        "url": "https://www.maxpreps.com/nh/nashua/bishop-guertin-cardinals/football/schedule/"
+       }
+      },
+      {
+       "date": "2026-10-03",
+       "opponent": "Bedford",
+       "home": true,
+       "result": "W 33-7",
+       "source": {
+        "label": "MaxPreps, Bishop Guertin football schedule (updated Oct 10)",
+        "url": "https://www.maxpreps.com/nh/nashua/bishop-guertin-cardinals/football/schedule/"
+       }
+      },
+      {
+       "date": "2026-09-25",
+       "opponent": "Merrimack",
+       "home": false,
+       "result": "W 53-8",
+       "source": {
+        "label": "MaxPreps, Bishop Guertin football schedule (updated Oct 10)",
+        "url": "https://www.maxpreps.com/nh/nashua/bishop-guertin-cardinals/football/schedule/"
+       }
+      },
+      {
+       "date": "2026-09-19",
+       "opponent": "Nashua South",
+       "home": true,
+       "result": "W 58-17",
+       "source": {
+        "label": "MaxPreps, Bishop Guertin football schedule (updated Oct 10)",
+        "url": "https://www.maxpreps.com/nh/nashua/bishop-guertin-cardinals/football/schedule/"
+       }
+      },
+      {
+       "date": "2026-09-10",
+       "opponent": "Exeter",
+       "home": true,
+       "result": "W 43-14",
+       "source": {
+        "label": "MaxPreps, Bishop Guertin football schedule (updated Oct 10)",
+        "url": "https://www.maxpreps.com/nh/nashua/bishop-guertin-cardinals/football/schedule/"
+       }
+      },
+      {
+       "date": "2026-09-04",
+       "opponent": "Nashua North",
+       "home": null,
+       "result": "W 42-7",
+       "source": {
+        "label": "MaxPreps, Bishop Guertin football schedule (updated Oct 10)",
+        "url": "https://www.maxpreps.com/nh/nashua/bishop-guertin-cardinals/football/schedule/"
+       },
+       "note": "MaxPreps and SI pages disagree on home team; played at Stellos Stadium per one MaxPreps page."
+      }
+     ],
+     "next": [
+      {
+       "date": "2026-11-13",
+       "time": "7:00 pm",
+       "opponent": "TBD (first-round winner)",
+       "home": null,
+       "venue": null,
+       "note": "NHIAA Division I quarterfinal, played at the higher seed. Top-three seeds get byes through the Nov 6 first round. Semifinal Nov 20; final Sat Nov 28 at Stellos Stadium, 1 pm.",
+       "source": {
+        "label": "NHIAA Fall 2026 tournament calendar (PDF)",
+        "url": "https://www.nhiaa.org/ckfinder/userfiles/files/Fall%202026-27(1).pdf"
+       },
+       "alsoSource": {
+        "label": "NH-HighSchoolSports.com, Playoff Picture: Football (Oct. 31)",
+        "url": "https://www.nh-highschoolsports.com/playoff-picture-football-oct-31-3/"
+       }
+      }
+     ],
+     "needs_review": true,
+     "review_note": "Seeds, the Keene result and Oct 16 (Goffstown) and Oct 24 (Westerly) results not found; check NHIAA bracket."
+    },
+    {
+     "sport": "Girls Volleyball",
+     "season": "Fall 2026",
+     "level": "Varsity",
+     "record": "16-4",
+     "recordAsOf": "2026-10-30",
+     "coach": null,
+     "postseason": "No. 4 seed in Division I; beat No. 5 Exeter 3-2 in the Oct 30 quarterfinal to reach the semifinals.",
+     "recent": [
+      {
+       "date": "2026-10-30",
+       "opponent": "Exeter (NHIAA Division I quarterfinal)",
+       "home": null,
+       "result": "W 3-2",
+       "source": {
+        "label": "Yahoo Sports, Friday Tourney Roundup (Oct 31)",
+        "url": "https://sports.yahoo.com/articles/friday-tourney-roundup-winnacunnet-somersworth-061411533.html"
+       },
+       "note": "Yahoo dateline is Nashua; MaxPreps lists it as at Exeter."
+      },
+      {
+       "date": "2026-10-28",
+       "opponent": "Nashua South (NHIAA Division I tournament)",
+       "home": null,
+       "result": "W 3-0",
+       "source": {
+        "label": "MaxPreps, Bishop Guertin volleyball (updated Oct 30)",
+        "url": "https://www.maxpreps.com/nh/nashua/bishop-guertin-cardinals/volleyball/"
+       }
+      },
+      {
+       "date": "2026-10-23",
+       "opponent": "Nashua South",
+       "home": true,
+       "result": "W 3-0",
+       "source": {
+        "label": "MaxPreps, Bishop Guertin volleyball (updated Oct 30)",
+        "url": "https://www.maxpreps.com/nh/nashua/bishop-guertin-cardinals/volleyball/"
+       }
+      },
+      {
+       "date": "2026-10-21",
+       "opponent": "Spaulding",
+       "home": false,
+       "result": "W 3-1",
+       "source": {
+        "label": "MaxPreps, Bishop Guertin volleyball (updated Oct 30)",
+        "url": "https://www.maxpreps.com/nh/nashua/bishop-guertin-cardinals/volleyball/"
+       }
+      },
+      {
+       "date": "2026-10-19",
+       "opponent": "Londonderry",
+       "home": true,
+       "result": "W 3-1",
+       "source": {
+        "label": "MaxPreps, Bishop Guertin volleyball (updated Oct 30)",
+        "url": "https://www.maxpreps.com/nh/nashua/bishop-guertin-cardinals/volleyball/"
+       }
+      },
+      {
+       "date": "2026-10-16",
+       "opponent": "Concord",
+       "home": false,
+       "result": "W 3-1",
+       "source": {
+        "label": "MaxPreps, Bishop Guertin volleyball (updated Oct 30)",
+        "url": "https://www.maxpreps.com/nh/nashua/bishop-guertin-cardinals/volleyball/"
+       }
+      }
+     ],
+     "next": [
+      {
+       "date": "2026-11-04",
+       "time": null,
+       "opponent": "TBD",
+       "home": null,
+       "venue": null,
+       "note": "NHIAA Division I semifinal. Final is Saturday, Nov 7 at Pinkerton Academy.",
+       "source": {
+        "label": "NHIAA Fall 2026 tournament calendar (PDF)",
+        "url": "https://www.nhiaa.org/ckfinder/userfiles/files/Fall%202026-27(1).pdf"
+       }
+      }
+     ],
+     "needs_review": true,
+     "review_note": "Semifinal opponent and site not found; scores from MaxPreps (an aggregator) and Yahoo."
+    },
+    {
+     "sport": "Girls Soccer",
+     "season": "Fall 2026",
+     "level": "Varsity",
+     "record": null,
+     "recordAsOf": null,
+     "coach": null,
+     "postseason": "Season ended with a 2-0 loss to Pinkerton in the Division I quarterfinals.",
+     "recent": [
+      {
+       "date": "2026-10-30",
+       "opponent": "Pinkerton (NHIAA Division I quarterfinal)",
+       "home": null,
+       "result": "L 0-2",
+       "source": {
+        "label": "Nashua Telegraph, Cardinals' run ends vs. Pinkerton in quarters (Oct 31)",
+        "url": "https://www.nashuatelegraph.com/sports/high-schools/2026/10/31/cardinals-impressive-run-ends-vs-pinkerton-in-quarters-2-0/"
+       },
+       "note": "Date inferred from the NHIAA calendar (Division I girls quarterfinals Fri Oct 30); Telegraph story is paywalled."
+      }
+     ],
+     "next": [],
+     "needs_review": true,
+     "review_note": "Sport identified from a Nashua Ink Link headline ('Pinkerton girls soccer blank Bishop Guertin...') that matches the Telegraph's Oct 31 headline; record not found."
+    }
+   ]
+  }
+ ],
+ "youth": [
+  {
+   "name": "Biddy Basketball (Junior Biddy, Biddy, Bantam)",
+   "sport": "Basketball",
+   "ages": "Junior Biddy 7-9, Biddy 10-12, Bantam 13-15 (no high school varsity players)",
+   "season": "November or December to March",
+   "site": "https://nashua.recdesk.com",
+   "town": "Nashua",
+   "note": "City of Nashua Parks and Recreation league, sponsored by the Jeff Morin Foundation. 2023-24 fee was $20; registration online or at 848 W. Hollis St. New players and players moving up attend evaluations.",
+   "source": {
+    "label": "Nashua Parks and Recreation, 2023-2024 Biddy Registration Form (PDF)",
+    "url": "https://nashua.recdesk.com/RecDeskPortal/Portals/283/2023-2024 Biddy Registration Form.pdf"
+   },
+   "needs_review": true,
+   "review_note": "Only the 2023-24 form could be opened; 2026-27 dates and deadlines not confirmed."
+  },
+  {
+   "name": "Babe Ruth Baseball and Softball",
+   "sport": "Baseball, softball",
+   "ages": "Girls softball 7-14; boys baseball 13-15",
+   "season": "Spring (practices April, games May)",
+   "site": "https://nashua.recdesk.com",
+   "town": "Nashua",
+   "note": "Run by Nashua Parks and Recreation. New players attend skill evaluations.",
+   "source": {
+    "label": "Patch, City of Nashua Babe Ruth sign-ups (Feb 2023)",
+    "url": "https://patch.com/new-hampshire/nashua/city-nashua-babe-ruth-baseball-softball-sign-open"
+   },
+   "needs_review": true,
+   "review_note": "Source is from 2023; 2027 sign-up dates not found."
+  },
+  {
+   "name": "Nashua PAL",
+   "sport": "Boxing, football, cheer, running, street hockey",
+   "ages": null,
+   "season": "Year-round youth center, open weekdays",
+   "site": "https://nashuapal.com",
+   "town": "Nashua",
+   "note": "Nonprofit youth center at 52 Ash St, (603) 594-3733, with after-school activities, meals and mentoring as well as sports. Separate from the Nashua Police Department.",
+   "source": {
+    "label": "Greater Nashua Chamber member listing, Nashua PAL",
+    "url": "https://members.nashuachamber.com/list/member/nashua-pal-21544"
+   },
+   "needs_review": true,
+   "review_note": "From a chamber directory, not Nashua PAL's own site; ages and current sign-ups not found."
+  }
+ ],
+ "adult": [],
+ "adultNote": "No Nashua adult league with a current, openable source was found.",
+ "teams": [
+  {
+   "name": "Nashua Silver Knights",
+   "league": "Futures Collegiate Baseball League (FCBL)",
+   "sport": "Summer collegiate baseball (wood bat)",
+   "venue": "Holman Stadium",
+   "site": "https://nashuasilverknights.com/",
+   "note": "Finished the 2026 season 23-35, closing with a 14-5 loss at Vermont on Aug 10. On Oct 28 the team named Riley Palmer field manager for 2027. The 2026 season opened May 27.",
+   "source": {
+    "label": "Nashua Silver Knights, Palmer Named New Manager",
+    "url": "https://nashuasilverknights.com/palmer-named-new-manager/"
+   },
+   "alsoSource": {
+    "label": "Nashua Silver Knights, Silver Knights Close Season in Vermont",
+    "url": "https://nashuasilverknights.com/silver-knights-close-season-in-vermont/"
+   }
+  },
+  {
+   "name": "Rivier University Raiders men's ice hockey",
+   "league": "NCAA Division III, MASCAC",
+   "sport": "Ice hockey",
+   "venue": "Conway Arena",
+   "site": "https://rivierathletics.com/sports/mens-ice-hockey/schedule",
+   "note": "0-2 after two losses to Franklin Pierce (Oct 30 at home, 2-8; Oct 31 away, 2-5). Home games at Conway Arena: Sat Nov 7, 7 pm vs Albertus Magnus; Tue Nov 17, 7 pm vs Salem State; Wed Dec 2, 7 pm vs MCLA; Sat Dec 5, 7 pm vs Westfield State.",
+   "source": {
+    "label": "Rivier Athletics, men's ice hockey schedule",
+    "url": "https://rivierathletics.com/sports/mens-ice-hockey/schedule"
+   }
+  },
+  {
+   "name": "Rivier University Raiders women's ice hockey",
+   "league": "NCAA Division III, MASCAC",
+   "sport": "Ice hockey",
+   "venue": "Conway Arena",
+   "site": "https://rivierathletics.com/sports/womens-ice-hockey/schedule",
+   "note": "0-1-1: tied Roger Williams 1-1 at home Oct 30, lost 6-1 at Western New England Oct 31. Home games at Conway Arena: Fri Nov 13, 7 pm vs MCLA; Sat Nov 14, 7 pm vs Worcester State; Sat Nov 21, 7 pm vs Saint Joseph (Conn.); Sat Dec 5, 3 pm vs Suffolk.",
+   "source": {
+    "label": "Rivier Athletics, women's ice hockey schedule",
+    "url": "https://rivierathletics.com/sports/womens-ice-hockey/schedule"
+   }
+  },
+  {
+   "name": "Rivier University Raiders men's basketball",
+   "league": "NCAA Division III, GNAC",
+   "sport": "Basketball",
+   "venue": "Muldoon Center",
+   "site": "https://rivierathletics.com/sports/mens-basketball/schedule",
+   "note": "Season opens at home Fri Nov 6, 7 pm vs Wheaton (Mass.). Other home games: Nov 18 vs Salve Regina (7 pm), Nov 21 vs MIT (noon, YMCA Day), Nov 24 vs Nichols (5 pm), Dec 2 vs New England College (7 pm, first GNAC game), Dec 12 vs University of New England (2 pm, Family Day).",
+   "source": {
+    "label": "Rivier Athletics, men's basketball schedule",
+    "url": "https://rivierathletics.com/sports/mens-basketball/schedule"
+   }
+  }
+ ],
+ "venues": [
+  {
+   "name": "Holman Stadium",
+   "address": "67 Amherst Street, Nashua, NH 03064",
+   "town": "Nashua",
+   "uses": "City-owned ballpark, opened 1937, about 2,800 seats. Home of the Nashua Silver Knights since 2011; spring home field for Rivier University and Bishop Guertin baseball. Site of the 1946 Nashua Dodgers, an early integrated pro team.",
+   "site": "https://en.wikipedia.org/wiki/Holman_Stadium_(Nashua)",
+   "source": {
+    "label": "Wikipedia, Holman Stadium (Nashua)",
+    "url": "https://en.wikipedia.org/wiki/Holman_Stadium_(Nashua)"
+   },
+   "needs_review": true,
+   "review_note": "From Wikipedia; the city's own Holman page could not be opened in this task."
+  },
+  {
+   "name": "Stellos Stadium",
+   "address": null,
+   "town": "Nashua",
+   "uses": "Turf stadium used by Nashua North, Nashua South and Bishop Guertin for football, soccer and other sports. Hosts the NHIAA Division I football final on Sat Nov 28, 2026 at 1 pm, and NHIAA Division II boys soccer semifinals on Mon Nov 2.",
+   "site": null,
+   "source": {
+    "label": "NHIAA Fall 2026 tournament calendar (PDF)",
+    "url": "https://www.nhiaa.org/ckfinder/userfiles/files/Fall%202026-27(1).pdf"
+   },
+   "needs_review": true,
+   "review_note": "Street address not found in an opened source."
+  },
+  {
+   "name": "Conway Arena",
+   "address": "5 Stadium Drive, Nashua, NH 03062",
+   "town": "Nashua",
+   "uses": "Ice arena; home of Rivier University men's and women's hockey. Public skating details are on the arena's own site (conwayarena.com, not opened here).",
+   "site": "https://rivierathletics.com/facilities/conway-arena/5",
+   "source": {
+    "label": "Rivier Athletics, Conway Arena",
+    "url": "https://rivierathletics.com/facilities/conway-arena/5"
+   }
+  },
+  {
+   "name": "Muldoon Center (Rivier University)",
+   "address": null,
+   "town": "Nashua",
+   "uses": "Home court for Rivier University basketball.",
+   "site": "https://rivierathletics.com/sports/mens-basketball/schedule",
+   "source": {
+    "label": "Rivier Athletics, men's basketball schedule",
+    "url": "https://rivierathletics.com/sports/mens-basketball/schedule"
+   }
+  }
+ ],
+ "news": [
+  {
+   "date": "2026-11-01",
+   "title": "N.H. boys soccer: Top-seed Nashua South ousts Winnacunnet in quarterfinals",
+   "url": "https://sports.yahoo.com/articles/n-h-boys-soccer-top-042638080.html",
+   "source": "Yahoo Sports"
+  },
+  {
+   "date": "2026-10-31",
+   "title": "Cardinals' impressive run ends vs. Pinkerton in quarters, 2-0",
+   "url": "https://www.nashuatelegraph.com/sports/high-schools/2026/10/31/cardinals-impressive-run-ends-vs-pinkerton-in-quarters-2-0/",
+   "source": "Nashua Telegraph"
+  },
+  {
+   "date": "2026-10-31",
+   "title": "NO PURPLE POSTSEASON: South hopes doused by Winnacunnet",
+   "url": "https://www.nashuatelegraph.com/sports/high-schools/2026/10/31/no-purple-postseason-south-hopes-doused-by-winnacunnet/",
+   "source": "Nashua Telegraph"
+  },
+  {
+   "date": "2026-10-31",
+   "title": "HS Football Roundup: North wins; Milford, Alvirne bow",
+   "url": "https://www.nashuatelegraph.com/sports/high-schools/2026/10/31/hs-football-roundup-north-wins-milford-alvirne-bow/",
+   "source": "Nashua Telegraph"
+  },
+  {
+   "date": "2026-10-31",
+   "title": "Friday Tourney Roundup: Winnacunnet, Somersworth volleyball, Newmarket boys soccer advance",
+   "url": "https://sports.yahoo.com/articles/friday-tourney-roundup-winnacunnet-somersworth-061411533.html",
+   "source": "Yahoo Sports"
+  },
+  {
+   "date": "2026-10-31",
+   "title": "Playoff Picture: Football (Oct. 31)",
+   "url": "https://www.nh-highschoolsports.com/playoff-picture-football-oct-31-3/",
+   "source": "NH-HighSchoolSports.com"
+  },
+  {
+   "date": "2026-10-28",
+   "title": "Palmer Named New Manager",
+   "url": "https://nashuasilverknights.com/palmer-named-new-manager/",
+   "source": "Nashua Silver Knights"
+  }
+ ]
+}
