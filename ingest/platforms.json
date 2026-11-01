@@ -1,6 +1,6 @@
 {
  "note": "Written by ingest/scan.mjs. One entry per town in ingest/regions.json: its website, detected platforms, feeds, meeting pages, and `fetch` (how the daily fetcher can read it). Re-run when a town changes websites.",
- "scanned": "2026-11-01T15:59:33.821Z",
+ "scanned": "2026-11-01T16:04:37.594Z",
  "towns": {
   "dover": {
    "id": "dover",
@@ -272,6 +272,7 @@
    "external": [
     "https://www.facebook.com/TownofRyeNH/"
    ],
+   "civicplusHost": "https://connect.civicplus.com/",
    "civicplusFeeds": [
     "https://www.ryenh.gov/RSSFeed.aspx?ModID=76&CID=All-0",
     "https://www.ryenh.gov/RSSFeed.aspx?ModID=65&CID=All-0",
@@ -334,6 +335,7 @@
     }
    ],
    "external": [],
+   "civicplusHost": "https://connect.civicplus.com/",
    "civicplusFeeds": [
     "https://www.hamptonnh.gov/RSSFeed.aspx?ModID=76&CID=All-0",
     "https://www.hamptonnh.gov/RSSFeed.aspx?ModID=65&CID=All-0",
@@ -387,16 +389,21 @@
    "id": "exeter",
    "name": "Exeter",
    "population2020": 16049,
-   "site": "https://www.exeternh.com/",
-   "platforms": [],
-   "feeds": [],
-   "meetingPages": [],
-   "external": [
-    "https://www.facebook.com/namesilo",
-    "https://www.youtube.com/namesilo"
+   "error": "no website found",
+   "tried": [
+    "www.exeternh.gov UND_ERR_SOCKET",
+    "exeternh.gov UND_ERR_SOCKET",
+    "www.town.exeter.nh.us EAI_AGAIN",
+    "www.exeternh.org EAI_AGAIN",
+    "www.exeter-nh.gov ENOTFOUND",
+    "www.exeter-nh.org ENOTFOUND",
+    "www.exeternh.us ENOTFOUND",
+    "www.exeter.nh.gov ENOTFOUND",
+    "www.ci.exeter.nh.us ENOTFOUND",
+    "www.townofexeternh.gov ENOTFOUND",
+    "www.townofexeternh.org ENOTFOUND",
+    "www.exeternh.com 200"
    ],
-   "meetingDocs": [],
-   "fetch": "manual",
    "region": "greater-portsmouth"
   },
   "durham": {
@@ -439,6 +446,7 @@
     }
    ],
    "external": [],
+   "civicplusHost": "https://connect.civicplus.com/",
    "civicplusFeeds": [
     "https://www.durhamnh.gov/RSSFeed.aspx?ModID=76&CID=All-0",
     "https://www.durhamnh.gov/RSSFeed.aspx?ModID=65&CID=All-0",
@@ -533,6 +541,7 @@
    "external": [
     "https://newmarketnh.portal.civicclerk.com/"
    ],
+   "civicplusHost": "https://connect.civicplus.com/",
    "civicplusFeeds": [
     "https://www.newmarketnh.gov/RSSFeed.aspx?ModID=76&CID=All-0",
     "https://www.newmarketnh.gov/RSSFeed.aspx?ModID=63&CID=All-0",
@@ -542,7 +551,6 @@
     "https://www.newmarketnh.gov/RSSFeed.aspx?ModID=1&CID=All-newsflash.xml",
     "https://www.newmarketnh.gov/RSSFeed.aspx?ModID=53&CID=All-0"
    ],
-   "agendaCenter": null,
    "civicclerk": "newmarketnh",
    "meetingDocs": [
     {
@@ -675,6 +683,7 @@
     }
    ],
    "external": [],
+   "civicplusHost": "https://nh-northhampton.civicplus.com/",
    "civicplusFeeds": [
     "https://www.northhampton-nh.gov/RSSFeed.aspx?ModID=76&CID=All-0",
     "https://www.northhampton-nh.gov/RSSFeed.aspx?ModID=65&CID=All-0",
@@ -739,6 +748,7 @@
     }
    ],
    "external": [],
+   "civicplusHost": "https://nh-hudson.civicplus.com/",
    "agendaCenter": "https://www.hudsonnh.gov/AgendaCenter",
    "meetingDocs": [
     {
@@ -751,7 +761,7 @@
      ]
     }
    ],
-   "fetch": "manual",
+   "fetch": "agenda center",
    "region": "greater-nashua"
   },
   "nashua": {
@@ -790,6 +800,7 @@
     "https://nashuanh.portal.civicclerk.com/",
     "https://www.facebook.com/GateCityGovernment"
    ],
+   "civicplusHost": "https://connect.civicplus.com/",
    "civicplusFeeds": [
     "https://www.nashuanh.gov/RSSFeed.aspx?ModID=76&CID=All-0",
     "https://www.nashuanh.gov/RSSFeed.aspx?ModID=65&CID=All-0",
@@ -871,6 +882,7 @@
    "external": [
     "https://www.facebook.com/TownOfAmherstNH/"
    ],
+   "civicplusHost": "https://nh-amherst.civicplus.com/",
    "civicplusFeeds": [
     "https://www.amherstnh.gov/RSSFeed.aspx?ModID=76&CID=All-0",
     "https://www.amherstnh.gov/RSSFeed.aspx?ModID=65&CID=All-0",
@@ -920,103 +932,17 @@
    "id": "brookline",
    "name": "Brookline",
    "population2020": 5639,
-   "site": "https://www.brooklinenh.gov/",
+   "site": "https://www.brooklinenh.org/",
    "platforms": [
-    "revize"
+    "squarespace"
    ],
    "feeds": [],
-   "meetingPages": [
-    {
-     "text": "Selectboard",
-     "url": "https://www.brooklinenh.gov/government/selectboard/index.php"
-    },
-    {
-     "text": "Town Hall Staff",
-     "url": "https://www.brooklinenh.gov/government/selectboard/staff_members/index.php"
-    },
-    {
-     "text": "Agendas & Minutes",
-     "url": "https://www.brooklinenh.gov/government/selectboard/agendas_minutes.php"
-    },
-    {
-     "text": "Documents",
-     "url": "https://www.brooklinenh.gov/government/selectboard/documents.php"
-    },
-    {
-     "text": "Selectboard Calendar 2026",
-     "url": "https://www.brooklinenh.gov/Documents/Government/Selectboard/2026%20Selectboard%20Meeting%20Calendar.pdf"
-    },
-    {
-     "text": "Rules of the Selectboard 2025",
-     "url": "https://www.brooklinenh.gov/Documents/Government/Selectboard/Rules%20of%20the%20SB%202025%20signed.pdf"
-    },
-    {
-     "text": "Town Reports",
-     "url": "https://www.brooklinenh.gov/government/selectboard/town_reports.php"
-    },
-    {
-     "text": "Town Meeting 2026",
-     "url": "https://www.brooklinenh.gov/government/selectboard/town_meeting_2026.php"
-    },
-    {
-     "text": "Ground Rules for Selectboard Meetings",
-     "url": "https://www.brooklinenh.gov/Documents/Government/Selectboard/Other%20Docs/Updated%20Ground%20Rules%20for%20Meetings%20-%20Approved%2010-12-26.pdf"
-    },
-    {
-     "text": "Boards & Committees",
-     "url": "https://www.brooklinenh.gov/government/boards_committees/index.php"
-    },
-    {
-     "text": "Agendas & Minutes",
-     "url": "https://www.brooklinenh.gov/community_residents/recreation_commission/agendas_minutes.php"
-    },
-    {
-     "text": "July 30, 2026 ACCESSIBLE MEETING ACCOMMODATIONS AVAILABLE Read More",
-     "url": "https://www.brooklinenh.gov/news_detail_T8_R218.php"
-    }
-   ],
+   "meetingPages": [],
    "external": [
-    "https://www.facebook.com/AmericanLegionPost74BrooklineNH",
-    "https://www.facebook.com/BrooklinesFinest/",
-    "https://www.facebook.com/SundaeDriveNH/",
-    "https://www.facebook.com/sharer/sharer.php",
-    "https://www.facebook.com/facebook",
-    "https://www.youtube.com/youtube"
+    "https://www.facebook.com/thenhrealtor"
    ],
-   "meetingDocs": [
-    {
-     "page": "https://www.brooklinenh.gov/government/selectboard/index.php",
-     "docLinks": 0,
-     "sample": [],
-     "drive": false,
-     "platforms": [
-      "revize"
-     ]
-    },
-    {
-     "page": "https://www.brooklinenh.gov/government/selectboard/staff_members/index.php",
-     "docLinks": 0,
-     "sample": [],
-     "drive": false,
-     "platforms": [
-      "revize"
-     ]
-    },
-    {
-     "page": "https://www.brooklinenh.gov/government/selectboard/agendas_minutes.php",
-     "docLinks": 346,
-     "sample": [
-      "https://www.brooklinenh.gov/Documents/Government/Selectboard/Agenda%20and%20Minutes/2026/2026.10.26%20SB%20Agenda.pdf?t=202610220817570",
-      "https://www.brooklinenh.gov/Documents/Government/Selectboard/Agenda%20and%20Minutes/2026/2026.10.12%20SB%20Agenda.pdf?t=202610081551140",
-      "https://www.brooklinenh.gov/Documents/Government/Selectboard/Agenda%20and%20Minutes/2026/2026.10.12%20SB%20Public%20Mins.pdf?t=202610281359540"
-     ],
-     "drive": false,
-     "platforms": [
-      "revize"
-     ]
-    }
-   ],
-   "fetch": "meeting page links",
+   "meetingDocs": [],
+   "fetch": "manual",
    "region": "greater-nashua"
   },
   "merrimack": {
@@ -1065,6 +991,7 @@
    "external": [
     "https://www.facebook.com/townofmerrimack/"
    ],
+   "civicplusHost": "https://connect.civicplus.com/",
    "agendaCenter": "https://www.merrimacknh.gov/AgendaCenter",
    "meetingDocs": [
     {
@@ -1099,7 +1026,7 @@
      ]
     }
    ],
-   "fetch": "meeting page links",
+   "fetch": "agenda center",
    "region": "greater-nashua"
   },
   "litchfield": {
@@ -1149,6 +1076,7 @@
     "https://www.facebook.com/litchfieldnh/",
     "https://www.youtube.com/channel/UCghq7fALfNAB53QKWlOyScw"
    ],
+   "civicplusHost": "https://connect.civicplus.com/",
    "civicplusFeeds": [
     "https://www.litchfieldnh.gov/RSSFeed.aspx?ModID=76&CID=All-0",
     "https://www.litchfieldnh.gov/RSSFeed.aspx?ModID=65&CID=All-0",
@@ -1221,6 +1149,7 @@
     "https://www.youtube.com/embed/Lm9xqv0qGE8",
     "https://www.youtube.com/embed/u0w1ENTTZLI"
    ],
+   "civicplusHost": "https://connect.civicplus.com/",
    "civicplusFeeds": [
     "https://www.pelhamweb.com/RSSFeed.aspx?ModID=76&CID=All-0",
     "https://www.pelhamweb.com/RSSFeed.aspx?ModID=65&CID=All-0",
@@ -1231,7 +1160,6 @@
     "https://www.pelhamweb.com/RSSFeed.aspx?ModID=1&CID=All-newsflash.xml",
     "https://www.pelhamweb.com/RSSFeed.aspx?ModID=53&CID=All-0"
    ],
-   "agendaCenter": "https://www.pelhamweb.com/AgendaCenter",
    "civicclerk": "pelhamnh",
    "meetingDocs": [
     {
@@ -1504,6 +1432,7 @@
     "https://www.facebook.com/people/Town-of-Bedford-NH/100068201269905/",
     "https://www.facebook.com/Town-of-Bedford-NH-513340032128890/"
    ],
+   "civicplusHost": "https://connect.civicplus.com/",
    "civicplusFeeds": [
     "https://www.bedfordnh.gov/RSSFeed.aspx?ModID=76&CID=All-0",
     "https://www.bedfordnh.gov/RSSFeed.aspx?ModID=65&CID=All-0",
@@ -1578,6 +1507,7 @@
     }
    ],
    "external": [],
+   "civicplusHost": "https://nh-hollis.civicplus.com/",
    "agendaCenter": "https://www.hollisnh.gov/AgendaCenter",
    "meetingDocs": [
     {
@@ -1615,7 +1545,7 @@
      ]
     }
    ],
-   "fetch": "meeting page links",
+   "fetch": "agenda center",
    "region": "greater-nashua"
   },
   "new-boston": {
@@ -1657,6 +1587,7 @@
     }
    ],
    "external": [],
+   "civicplusHost": "https://connect.civicplus.com/",
    "agendaCenter": "https://www.auburnnh.gov/AgendaCenter",
    "meetingDocs": [
     {
@@ -1691,7 +1622,7 @@
      ]
     }
    ],
-   "fetch": "meeting page links",
+   "fetch": "agenda center",
    "region": "greater-manchester"
   },
   "conway": {
@@ -1739,6 +1670,7 @@
    "external": [
     "https://www.facebook.com/TownofDerryNH/"
    ],
+   "civicplusHost": "https://nh-derry.civicplus.com/",
    "civicplusFeeds": [
     "https://www.derrynh.gov/RSSFeed.aspx?ModID=76&CID=All-0",
     "https://www.derrynh.gov/RSSFeed.aspx?ModID=65&CID=All-0",
@@ -1817,6 +1749,7 @@
     "https://www.facebook.com/greenlandnh",
     "https://www.facebook.com/greenlandnh/"
    ],
+   "civicplusHost": "https://connect.civicplus.com/",
    "agendaCenter": "https://www.greenland.nh.gov/AgendaCenter",
    "meetingDocs": [
     {
@@ -1851,7 +1784,7 @@
      ]
     }
    ],
-   "fetch": "meeting page links",
+   "fetch": "agenda center",
    "region": "greater-portsmouth"
   },
   "weare": {
@@ -1895,6 +1828,7 @@
     }
    ],
    "external": [],
+   "civicplusHost": "https://connect.civicplus.com/",
    "agendaCenter": "https://www.tamworthnh.gov/AgendaCenter",
    "meetingDocs": [
     {
@@ -1929,7 +1863,7 @@
      ]
     }
    ],
-   "fetch": "meeting page links",
+   "fetch": "agenda center",
    "region": "mount-washington-valley"
   },
   "madison": {
@@ -2174,6 +2108,7 @@
     "https://www.facebook.com/LondonderryUSA/",
     "https://www.youtube.com/@londonderrynhgovernmentacc4988"
    ],
+   "civicplusHost": "https://connect.civicplus.com/",
    "civicplusFeeds": [
     "https://www.londonderrynh.gov/RSSFeed.aspx?ModID=76&CID=All-0",
     "https://www.londonderrynh.gov/RSSFeed.aspx?ModID=65&CID=All-0",
@@ -2494,17 +2429,84 @@
    "id": "goffstown",
    "name": "Goffstown",
    "population2020": 18577,
-   "site": "https://beangroup.com/",
-   "platforms": [],
-   "feeds": [
-    "https://beangroup.com/rss.xml"
+   "site": "https://www.goffstownnh.gov/",
+   "platforms": [
+    "civicplus"
    ],
-   "meetingPages": [],
+   "feeds": [],
+   "meetingPages": [
+    {
+     "text": "Agendas & Minutes",
+     "url": "https://www.goffstownnh.gov/AgendaCenter"
+    },
+    {
+     "text": "Meetings",
+     "url": "https://www.goffstownnh.gov/#tab2478f743-4c92-4f64-b233-79d89d610a75_0"
+    },
+    {
+     "text": "Select Board - Special Meeting Read On",
+     "url": "https://www.goffstownnh.gov/Calendar.aspx?EID=1701"
+    },
+    {
+     "text": "Economic Development Council Meeting Read On",
+     "url": "https://www.goffstownnh.gov/Calendar.aspx?EID=1413"
+    },
+    {
+     "text": "Library Board of Trustees (Working Meeting) Read On",
+     "url": "https://www.goffstownnh.gov/Calendar.aspx?EID=1545"
+    }
+   ],
    "external": [
-    "https://www.facebook.com/beangroup"
+    "https://www.facebook.com/GoffstownTownHall/",
+    "https://www.facebook.com/goffstowntv/",
+    "https://www.youtube.com/user/GoffstownTelevision"
    ],
-   "meetingDocs": [],
-   "fetch": "rss only",
+   "civicplusHost": "https://nh-goffstown.civicplus.com/",
+   "civicplusFeeds": [
+    "https://www.goffstownnh.gov/RSSFeed.aspx?ModID=76&CID=All-0",
+    "https://www.goffstownnh.gov/RSSFeed.aspx?ModID=65&CID=All-0",
+    "https://www.goffstownnh.gov/RSSFeed.aspx?ModID=63&CID=All-0",
+    "https://www.goffstownnh.gov/RSSFeed.aspx?ModID=51&CID=All-blog.xml",
+    "https://www.goffstownnh.gov/RSSFeed.aspx?ModID=58&CID=All-calendar.xml",
+    "https://www.goffstownnh.gov/RSSFeed.aspx?CommunityJobs=False&ModID=66&CID=All-0",
+    "https://www.goffstownnh.gov/RSSFeed.aspx?ModID=1&CID=All-newsflash.xml",
+    "https://www.goffstownnh.gov/RSSFeed.aspx?ModID=53&CID=All-0"
+   ],
+   "agendaCenter": "https://www.goffstownnh.gov/AgendaCenter",
+   "meetingDocs": [
+    {
+     "page": "https://www.goffstownnh.gov/AgendaCenter",
+     "docLinks": 599,
+     "sample": [
+      "https://www.goffstownnh.gov/AgendaCenter/ViewFile/Agenda/_11022026-1604",
+      "https://www.goffstownnh.gov/AgendaCenter/ViewFile/Agenda/_11022026-1604",
+      "https://www.goffstownnh.gov/AgendaCenter/ViewFile/Agenda/_10262026-1599?html=true"
+     ],
+     "drive": false,
+     "platforms": [
+      "civicplus"
+     ]
+    },
+    {
+     "page": "https://www.goffstownnh.gov/#tab2478f743-4c92-4f64-b233-79d89d610a75_0",
+     "docLinks": 0,
+     "sample": [],
+     "drive": false,
+     "platforms": [
+      "civicplus"
+     ]
+    },
+    {
+     "page": "https://www.goffstownnh.gov/Calendar.aspx?EID=1701",
+     "docLinks": 0,
+     "sample": [],
+     "drive": false,
+     "platforms": [
+      "civicplus"
+     ]
+    }
+   ],
+   "fetch": "civicplus feeds + agenda center",
    "region": "greater-manchester"
   }
  }
