@@ -1,1 +1,1 @@
-portsmouth 70 new, 9 docs; nashua 231 new, 30 docs
+portsmouth 0 new; nashua 25 new, 25 docs

@@ -1,42 +1,35 @@
 {
  "note": "Written by ingest/fetch.mjs. Each item: where it came from (source, url), the date in the document when known, firstSeen (the day the fetcher first saw it; new since the last refresh = firstSeen on or after that day) and text (the saved agenda or minutes text, when there is one). Facts for the site still come from reading the linked document.",
  "town": "nashua",
- "updated": "2026-11-01T15:40:55.363Z",
+ "updated": "2026-11-01T15:45:21.210Z",
  "sources": {
   "civicclerk": {
    "ok": true,
    "found": 185,
-   "new": 185,
-   "checked": "2026-11-01T15:40:55.363Z",
-   "ms": 54179
+   "new": 0,
+   "checked": "2026-11-01T15:45:21.210Z",
+   "ms": 46587
   },
   "city-feeds": {
    "ok": true,
    "found": 21,
-   "new": 21,
-   "checked": "2026-11-01T15:40:55.363Z",
-   "ms": 7818
-  },
-  "legal-notices": {
-   "ok": true,
-   "found": 0,
    "new": 0,
-   "checked": "2026-11-01T15:40:55.363Z",
-   "ms": 2971
+   "checked": "2026-11-01T15:45:21.210Z",
+   "ms": 7845
   },
   "police-releases": {
    "ok": true,
    "found": 15,
    "new": 15,
-   "checked": "2026-11-01T15:40:55.363Z",
-   "ms": 208
+   "checked": "2026-11-01T15:45:21.210Z",
+   "ms": 605
   },
   "police-arrest-logs": {
    "ok": true,
    "found": 10,
    "new": 10,
-   "checked": "2026-11-01T15:40:55.363Z",
-   "ms": 1347
+   "checked": "2026-11-01T15:45:21.210Z",
+   "ms": 1045
   }
  },
  "notes": [
@@ -1618,7 +1611,8 @@
    "body": "Planning & Economic Development Committee",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-01"
+   "lastSeen": "2026-11-01",
+   "text": "inbox/nashua/docs/cc-14811.txt"
   },
   {
    "key": "civicclerk:e10ddbe08287",
@@ -1643,7 +1637,8 @@
    "body": "Planning & Economic Development Committee",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-01"
+   "lastSeen": "2026-11-01",
+   "text": "inbox/nashua/docs/cc-14841.txt"
   },
   {
    "key": "civicclerk:54fe857af6bc",
@@ -1679,7 +1674,8 @@
    "body": "Mayor's Opioid Taskforce",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-01"
+   "lastSeen": "2026-11-01",
+   "text": "inbox/nashua/docs/cc-14901.txt"
   },
   {
    "key": "civicclerk:4b5f025c4981",
@@ -1715,7 +1711,8 @@
    "body": "Human Affairs Committee",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-01"
+   "lastSeen": "2026-11-01",
+   "text": "inbox/nashua/docs/cc-14809.txt"
   },
   {
    "key": "civicclerk:dcf2d22bab67",
@@ -1740,7 +1737,8 @@
    "body": "Human Affairs Committee",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-01"
+   "lastSeen": "2026-11-01",
+   "text": "inbox/nashua/docs/cc-14838.txt"
   },
   {
    "key": "civicclerk:9a87a03768cc",
@@ -1776,7 +1774,8 @@
    "body": "Economic Development",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-01"
+   "lastSeen": "2026-11-01",
+   "text": "inbox/nashua/docs/cc-14806.txt"
   },
   {
    "key": "civicclerk:da6b9b0e68b1",
@@ -1788,7 +1787,8 @@
    "body": "Economic Development",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-01"
+   "lastSeen": "2026-11-01",
+   "text": "inbox/nashua/docs/cc-14834.txt"
   },
   {
    "key": "civicclerk:efe47bfad3ed",
@@ -1848,7 +1848,8 @@
    "body": "Planning Board",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-01"
+   "lastSeen": "2026-11-01",
+   "text": "inbox/nashua/docs/cc-14742.txt"
   },
   {
    "key": "civicclerk:bf40b9bb96a2",
@@ -1873,7 +1874,8 @@
    "body": "Planning Board",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-01"
+   "lastSeen": "2026-11-01",
+   "text": "inbox/nashua/docs/cc-14840.txt"
   },
   {
    "key": "civicclerk:23d12049d718",
@@ -1910,7 +1912,8 @@
    "body": "Environment and Energy Committee",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-01"
+   "lastSeen": "2026-11-01",
+   "text": "inbox/nashua/docs/cc-14793.txt"
   },
   {
    "key": "civicclerk:136e609f4e44",
@@ -1946,7 +1949,8 @@
    "body": "Ambulance Advisory Committee",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-01"
+   "lastSeen": "2026-11-01",
+   "text": "inbox/nashua/docs/cc-14494.txt"
   },
   {
    "key": "civicclerk:d06a5b263574",
@@ -1958,7 +1962,8 @@
    "body": "Ambulance Advisory Committee",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-01"
+   "lastSeen": "2026-11-01",
+   "text": "inbox/nashua/docs/cc-14839.txt"
   },
   {
    "key": "civicclerk:2c056804e121",
@@ -1994,7 +1999,8 @@
    "body": "Committee on Infrastructure",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-01"
+   "lastSeen": "2026-11-01",
+   "text": "inbox/nashua/docs/cc-14774.txt"
   },
   {
    "key": "civicclerk:36d60ff80254",
@@ -2019,7 +2025,8 @@
    "body": "Committee on Infrastructure",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-01"
+   "lastSeen": "2026-11-01",
+   "text": "inbox/nashua/docs/cc-14832.txt"
   },
   {
    "key": "civicclerk:cf96d0cfeae8",
@@ -2068,7 +2075,8 @@
    "body": "Greeley Park Advisory Committee",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-01"
+   "lastSeen": "2026-11-01",
+   "text": "inbox/nashua/docs/cc-14799.txt"
   },
   {
    "key": "civicclerk:2251b3bcf676",
@@ -2080,7 +2088,8 @@
    "body": "Greeley Park Advisory Committee",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-01"
+   "lastSeen": "2026-11-01",
+   "text": "inbox/nashua/docs/cc-14842.txt"
   },
   {
    "key": "civicclerk:57ee6a17208c",
@@ -2116,7 +2125,8 @@
    "body": "Trustees of Trust Funds and Capital Reserve Funds",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-01"
+   "lastSeen": "2026-11-01",
+   "text": "inbox/nashua/docs/cc-14682.txt"
   },
   {
    "key": "civicclerk:e4bb24618fb1",
@@ -2165,7 +2175,8 @@
    "body": "Board of Public Works",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-01"
+   "lastSeen": "2026-11-01",
+   "text": "inbox/nashua/docs/cc-14878.txt"
   },
   {
    "key": "civicclerk:a6a8d7caa71e",
@@ -2201,7 +2212,8 @@
    "body": "Board of Health",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-01"
+   "lastSeen": "2026-11-01",
+   "text": "inbox/nashua/docs/cc-14843.txt"
   },
   {
    "key": "civicclerk:e2767b056138",
@@ -2261,7 +2273,8 @@
    "body": "Board of Aldermen",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-01"
+   "lastSeen": "2026-11-01",
+   "text": "inbox/nashua/docs/cc-14781.txt"
   },
   {
    "key": "civicclerk:5b89ebd05e99",
@@ -2286,7 +2299,8 @@
    "body": "Board of Aldermen",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-01"
+   "lastSeen": "2026-11-01",
+   "text": "inbox/nashua/docs/cc-14814.txt"
   },
   {
    "key": "civicclerk:8dced28013af",
@@ -2322,7 +2336,8 @@
    "body": "Zoning Board of Adjustment",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-01"
+   "lastSeen": "2026-11-01",
+   "text": "inbox/nashua/docs/cc-14692.txt"
   },
   {
    "key": "civicclerk:467437ba7105",
@@ -2347,7 +2362,8 @@
    "body": "Zoning Board of Adjustment",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-01"
+   "lastSeen": "2026-11-01",
+   "text": "inbox/nashua/docs/cc-14911.txt"
   },
   {
    "key": "civicclerk:a1e7dbb44252",
@@ -2384,7 +2400,8 @@
    "body": "Arts Commission",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-01"
+   "lastSeen": "2026-11-01",
+   "text": "inbox/nashua/docs/cc-14789.txt"
   },
   {
    "key": "civicclerk:dc3dc7c927fb",
@@ -2396,7 +2413,8 @@
    "body": "Arts Commission",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-01"
+   "lastSeen": "2026-11-01",
+   "text": "inbox/nashua/docs/cc-14805.txt"
   },
   {
    "key": "civicclerk:9616d6e1371e",
@@ -2834,6 +2852,256 @@
    "kind": "police-log",
    "title": "Arrest Log 8.6-8.2024",
    "url": "https://www.nashuanhpd.gov/DocumentCenter/View/330",
+   "date": null,
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "police-releases:4f44a3219238",
+   "source": "police-releases",
+   "kind": "safety",
+   "title": "Press release (title withheld: may name people): theft",
+   "url": "https://www.nashuanhpd.gov/DocumentCenter/View/1368",
+   "date": null,
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "police-releases:fb97de799c66",
+   "source": "police-releases",
+   "kind": "safety",
+   "title": "Press release (title withheld: may name people)",
+   "url": "https://www.nashuanhpd.gov/DocumentCenter/View/1367",
+   "date": null,
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "police-releases:f623e05d39b5",
+   "source": "police-releases",
+   "kind": "safety",
+   "title": "Press release (title withheld: may name people): domestic violence",
+   "url": "https://www.nashuanhpd.gov/DocumentCenter/View/1366",
+   "date": null,
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "police-releases:3267d59ccb50",
+   "source": "police-releases",
+   "kind": "safety",
+   "title": "Press release (title withheld: may name people): burglary",
+   "url": "https://www.nashuanhpd.gov/DocumentCenter/View/1350",
+   "date": null,
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "police-releases:505a83108446",
+   "source": "police-releases",
+   "kind": "safety",
+   "title": "Press release (title withheld: may name people): domestic violence",
+   "url": "https://www.nashuanhpd.gov/DocumentCenter/View/1346",
+   "date": null,
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "police-releases:7f0d51b80ed6",
+   "source": "police-releases",
+   "kind": "safety",
+   "title": "Press release (title withheld: may name people)",
+   "url": "https://www.nashuanhpd.gov/DocumentCenter/View/1344",
+   "date": null,
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "police-releases:578824a264a7",
+   "source": "police-releases",
+   "kind": "safety",
+   "title": "Press release (title withheld: may name people): assault",
+   "url": "https://www.nashuanhpd.gov/DocumentCenter/View/1343",
+   "date": null,
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "police-releases:93a17d31b97f",
+   "source": "police-releases",
+   "kind": "safety",
+   "title": "Press release (title withheld: may name people)",
+   "url": "https://www.nashuanhpd.gov/DocumentCenter/View/1340",
+   "date": null,
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "police-releases:de0e71a2c91b",
+   "source": "police-releases",
+   "kind": "safety",
+   "title": "Press release (title withheld: may name people)",
+   "url": "https://www.nashuanhpd.gov/DocumentCenter/View/1339",
+   "date": null,
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "police-releases:3a425069dc14",
+   "source": "police-releases",
+   "kind": "safety",
+   "title": "Press release (title withheld: may name people): missing",
+   "url": "https://www.nashuanhpd.gov/DocumentCenter/View/1335",
+   "date": null,
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "police-releases:d75ddac64719",
+   "source": "police-releases",
+   "kind": "safety",
+   "title": "Press release (title withheld: may name people): missing",
+   "url": "https://www.nashuanhpd.gov/DocumentCenter/View/1331",
+   "date": null,
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "police-releases:85341ea67149",
+   "source": "police-releases",
+   "kind": "safety",
+   "title": "Press release (title withheld: may name people)",
+   "url": "https://www.nashuanhpd.gov/DocumentCenter/View/1330",
+   "date": null,
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "police-releases:fb89b3a2e6aa",
+   "source": "police-releases",
+   "kind": "safety",
+   "title": "Press release (title withheld: may name people)",
+   "url": "https://www.nashuanhpd.gov/DocumentCenter/View/1322",
+   "date": null,
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "police-releases:64b2808f2ac3",
+   "source": "police-releases",
+   "kind": "safety",
+   "title": "Press release (title withheld: may name people): theft",
+   "url": "https://www.nashuanhpd.gov/DocumentCenter/View/1321",
+   "date": null,
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "police-releases:1e1de120475c",
+   "source": "police-releases",
+   "kind": "safety",
+   "title": "Press release (title withheld: may name people)",
+   "url": "https://www.nashuanhpd.gov/DocumentCenter/View/1317",
+   "date": null,
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "police-arrest-logs:016a68166e84",
+   "source": "police-arrest-logs",
+   "kind": "police-log",
+   "title": "Arrest Log 10.29.2026",
+   "url": "https://www.nashuanhpd.gov/DocumentCenter/View/1365",
+   "date": null,
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "police-arrest-logs:97220f5cd47f",
+   "source": "police-arrest-logs",
+   "kind": "police-log",
+   "title": "Arrest Log 10.28.2026",
+   "url": "https://www.nashuanhpd.gov/DocumentCenter/View/1364",
+   "date": null,
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "police-arrest-logs:348b3424d3bb",
+   "source": "police-arrest-logs",
+   "kind": "police-log",
+   "title": "Arrest Log 10.27.2026",
+   "url": "https://www.nashuanhpd.gov/DocumentCenter/View/1363",
+   "date": null,
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "police-arrest-logs:94589a2a9208",
+   "source": "police-arrest-logs",
+   "kind": "police-log",
+   "title": "Arrest Log 10.26.2026",
+   "url": "https://www.nashuanhpd.gov/DocumentCenter/View/1362",
+   "date": null,
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "police-arrest-logs:9217b1633cc6",
+   "source": "police-arrest-logs",
+   "kind": "police-log",
+   "title": "Arrest Log 10.23-25.2026",
+   "url": "https://www.nashuanhpd.gov/DocumentCenter/View/1361",
+   "date": null,
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "police-arrest-logs:7549dadf96ff",
+   "source": "police-arrest-logs",
+   "kind": "police-log",
+   "title": "Arrest Log 10.22.2026",
+   "url": "https://www.nashuanhpd.gov/DocumentCenter/View/1360",
+   "date": null,
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "police-arrest-logs:32bff9bc6867",
+   "source": "police-arrest-logs",
+   "kind": "police-log",
+   "title": "Arrest Log 10.21.2026",
+   "url": "https://www.nashuanhpd.gov/DocumentCenter/View/1359",
+   "date": null,
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "police-arrest-logs:24d8d9c58429",
+   "source": "police-arrest-logs",
+   "kind": "police-log",
+   "title": "Arrest Log 10.20.2026",
+   "url": "https://www.nashuanhpd.gov/DocumentCenter/View/1358",
+   "date": null,
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "police-arrest-logs:aceba326d3e1",
+   "source": "police-arrest-logs",
+   "kind": "police-log",
+   "title": "Arrest Log 10.19.2026",
+   "url": "https://www.nashuanhpd.gov/DocumentCenter/View/1352",
+   "date": null,
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "police-arrest-logs:4c34e41162c2",
+   "source": "police-arrest-logs",
+   "kind": "police-log",
+   "title": "Arrest Log 10.16-18.2026",
+   "url": "https://www.nashuanhpd.gov/DocumentCenter/View/1351",
    "date": null,
    "firstSeen": "2026-11-01",
    "lastSeen": "2026-11-01"

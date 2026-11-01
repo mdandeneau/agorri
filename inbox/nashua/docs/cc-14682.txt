@@ -1,0 +1,48 @@
+Source: https://nashuanh.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=14682,plainText=false)
+Title: Trustees of Trust Funds and Capital Reserve Funds 2026-10-14: totf20261014
+Fetched: 2026-11-01
+
+Digitally signed by City Clerk's Office
+                                                                                DN: cn=City Clerk's Office gn=City
+                                                                                Clerk's Office c=US United States
+                                                                  City Clerk's  l=US United States o=City of Nashua
+                                                                                e=cityclerk@nashuanh.gov
+                                                                                Reason: I am the author of this
+                                                                  Office        document
+                                                                                Location:
+                                                                                Date: 2026-09-28 13:19-04:00
+
+
+             NOTICE OF MEETING
+               In accordance with the requirements of NH RSA 91-A:2, II
+
+                                         THE
+                            Trustee of Trust Funds
+
+                                WILL MEET ON
+                                    10/14/2026
+
+                                          AT
+                                      4:00PM
+
+                                   LOCATION
+                     City Hall, Room 208, 2nd Floor
+                 229 Main Street, Nashua NH 03061
+
+              The meeting may include a nonpublic session
+
+                   THE LOCATION OF THIS NOTICE IS POSTED:         Date of Posting:
+
+             City Hall Bulletin Board (Elm Street/Rear Entry)    9/28/2026
+             Nashua Public Library Bulletin Board                9/28/2026
+             OTHER:_________________________
+           ■ Website: https://nashuanh.portal.civicclerk.com/    9/28/2026
+
+                                 AFFIDAVIT OF POSTING
+  Diane M. Mulholland              Treasurer/ Tax Collector  Financial Services
+I, ____________________________ , the __________________, of the  ______________________________
+hereby certify that on this month number 9  , day 28     , 2026  , the attached Notice of Meeting was posted
+in the two places indicated on the notice, including an internet website, in accordance with the
+requirements of NH RSA 91-A2, II.
+
+                                               Send to Clerk's Office Version 031825

@@ -1,56 +1,56 @@
 {
  "note": "Written by ingest/fetch.mjs. Each item: where it came from (source, url), the date in the document when known, firstSeen (the day the fetcher first saw it; new since the last refresh = firstSeen on or after that day) and text (the saved agenda or minutes text, when there is one). Facts for the site still come from reading the linked document.",
  "town": "portsmouth",
- "updated": "2026-11-01T15:40:55.363Z",
+ "updated": "2026-11-01T15:45:21.210Z",
  "sources": {
   "city-news": {
    "ok": true,
    "found": 10,
-   "new": 10,
-   "checked": "2026-11-01T15:40:55.363Z",
-   "ms": 139
+   "new": 0,
+   "checked": "2026-11-01T15:45:21.210Z",
+   "ms": 335
   },
   "police-news": {
    "ok": true,
    "found": 10,
-   "new": 10,
-   "checked": "2026-11-01T15:40:55.363Z",
-   "ms": 1383
+   "new": 0,
+   "checked": "2026-11-01T15:45:21.210Z",
+   "ms": 1269
   },
   "fire-news": {
    "ok": true,
    "found": 10,
-   "new": 10,
-   "checked": "2026-11-01T15:40:55.363Z",
-   "ms": 1508
+   "new": 0,
+   "checked": "2026-11-01T15:45:21.210Z",
+   "ms": 1457
   },
   "police-logs": {
    "ok": true,
    "found": 14,
-   "new": 14,
-   "checked": "2026-11-01T15:40:55.363Z",
-   "ms": 1511
+   "new": 0,
+   "checked": "2026-11-01T15:45:21.210Z",
+   "ms": 1525
   },
   "meetings": {
    "ok": true,
    "found": 26,
-   "new": 26,
-   "checked": "2026-11-01T15:40:55.363Z",
-   "ms": 16589
+   "new": 0,
+   "checked": "2026-11-01T15:45:21.210Z",
+   "ms": 4497
   },
   "meetings-archive": {
    "ok": true,
    "found": 0,
    "new": 0,
-   "checked": "2026-11-01T15:40:55.363Z",
-   "ms": 1527
+   "checked": "2026-11-01T15:45:21.210Z",
+   "ms": 2979
   },
   "council": {
    "ok": true,
    "found": 0,
    "new": 0,
-   "checked": "2026-11-01T15:40:55.363Z",
-   "ms": 2992
+   "checked": "2026-11-01T15:45:21.210Z",
+   "ms": 2965
   }
  },
  "notes": [],
@@ -416,6 +416,136 @@
    "lastSeen": "2026-11-01"
   },
   {
+   "key": "police-logs:be05bb0117c9",
+   "source": "police-logs",
+   "kind": "police-log",
+   "title": "October 14-15",
+   "url": "https://www.portsmouthnh.gov/sites/default/files/2026-10/October%2014-15.pdf",
+   "date": "2026-10-14",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "police-logs:8c7bc555c5c2",
+   "source": "police-logs",
+   "kind": "police-log",
+   "title": "October 13-14",
+   "url": "https://www.portsmouthnh.gov/sites/default/files/2026-10/October%2013-14.pdf",
+   "date": "2026-10-13",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "police-logs:96c0b70ace5c",
+   "source": "police-logs",
+   "kind": "police-log",
+   "title": "October 12-13",
+   "url": "https://www.portsmouthnh.gov/sites/default/files/2026-10/October%2012-13.pdf",
+   "date": "2026-10-12",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "police-logs:0478ad7320a4",
+   "source": "police-logs",
+   "kind": "police-log",
+   "title": "October 11-12",
+   "url": "https://www.portsmouthnh.gov/sites/default/files/2026-10/October%2011-12.pdf",
+   "date": "2026-10-11",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "police-logs:80111af68705",
+   "source": "police-logs",
+   "kind": "police-log",
+   "title": "October 10-11",
+   "url": "https://www.portsmouthnh.gov/sites/default/files/2026-10/October%2010-11.pdf",
+   "date": "2026-10-10",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "police-logs:f9292ce35757",
+   "source": "police-logs",
+   "kind": "police-log",
+   "title": "October 9-10",
+   "url": "https://www.portsmouthnh.gov/sites/default/files/2026-10/October%209-10.pdf",
+   "date": "2026-10-09",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "police-logs:f632767b3018",
+   "source": "police-logs",
+   "kind": "police-log",
+   "title": "October 8-9",
+   "url": "https://www.portsmouthnh.gov/sites/default/files/2026-10/October%208-9.pdf",
+   "date": "2026-10-08",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "police-logs:4b21114b4f31",
+   "source": "police-logs",
+   "kind": "police-log",
+   "title": "October 7-8",
+   "url": "https://www.portsmouthnh.gov/sites/default/files/2026-10/October%207-8.pdf",
+   "date": "2026-10-07",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "police-logs:64701cf8b3f5",
+   "source": "police-logs",
+   "kind": "police-log",
+   "title": "October 6-7",
+   "url": "https://www.portsmouthnh.gov/sites/default/files/2026-10/October%206-7.pdf",
+   "date": "2026-10-06",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "police-logs:cb6007c0ccfd",
+   "source": "police-logs",
+   "kind": "police-log",
+   "title": "October 5-6",
+   "url": "https://www.portsmouthnh.gov/sites/default/files/2026-10/October%205-6.pdf",
+   "date": "2026-10-05",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "police-logs:0d2c243f720b",
+   "source": "police-logs",
+   "kind": "police-log",
+   "title": "October 4-5",
+   "url": "https://www.portsmouthnh.gov/sites/default/files/2026-10/October%204-5.pdf",
+   "date": "2026-10-04",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "police-logs:ae893bad2120",
+   "source": "police-logs",
+   "kind": "police-log",
+   "title": "October 3-4",
+   "url": "https://www.portsmouthnh.gov/sites/default/files/2026-10/October%203-4.pdf",
+   "date": "2026-10-03",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "police-logs:7e80d09c695b",
+   "source": "police-logs",
+   "kind": "police-log",
+   "title": "October 2-3",
+   "url": "https://www.portsmouthnh.gov/sites/default/files/2026-10/October%202-3.pdf",
+   "date": "2026-10-02",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
    "key": "meetings:a00746fa7863",
    "source": "meetings",
    "kind": "meeting-doc",
@@ -424,6 +554,16 @@
    "date": "2026-10-01",
    "doc": "minutes",
    "packet": true,
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-01"
+  },
+  {
+   "key": "police-logs:e1ec36d4b9d2",
+   "source": "police-logs",
+   "kind": "police-log",
+   "title": "October 1-2",
+   "url": "https://www.portsmouthnh.gov/sites/default/files/2026-10/October%201-2.pdf",
+   "date": "2026-10-01",
    "firstSeen": "2026-11-01",
    "lastSeen": "2026-11-01"
   },
@@ -635,146 +775,6 @@
    "title": "ACTIVE SHOOTER EXERCISE - PEASE TRADEPORT",
    "url": "https://www.portsmouthnh.gov/police/press-releases/active-shooter-exercise-pease-tradeport",
    "date": "2019-09-17",
-   "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-01"
-  },
-  {
-   "key": "police-logs:e1ec36d4b9d2",
-   "source": "police-logs",
-   "kind": "police-log",
-   "title": "October 1-2",
-   "url": "https://www.portsmouthnh.gov/sites/default/files/2026-10/October%201-2.pdf",
-   "date": null,
-   "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-01"
-  },
-  {
-   "key": "police-logs:7e80d09c695b",
-   "source": "police-logs",
-   "kind": "police-log",
-   "title": "October 2-3",
-   "url": "https://www.portsmouthnh.gov/sites/default/files/2026-10/October%202-3.pdf",
-   "date": null,
-   "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-01"
-  },
-  {
-   "key": "police-logs:ae893bad2120",
-   "source": "police-logs",
-   "kind": "police-log",
-   "title": "October 3-4",
-   "url": "https://www.portsmouthnh.gov/sites/default/files/2026-10/October%203-4.pdf",
-   "date": null,
-   "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-01"
-  },
-  {
-   "key": "police-logs:0d2c243f720b",
-   "source": "police-logs",
-   "kind": "police-log",
-   "title": "October 4-5",
-   "url": "https://www.portsmouthnh.gov/sites/default/files/2026-10/October%204-5.pdf",
-   "date": null,
-   "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-01"
-  },
-  {
-   "key": "police-logs:cb6007c0ccfd",
-   "source": "police-logs",
-   "kind": "police-log",
-   "title": "October 5-6",
-   "url": "https://www.portsmouthnh.gov/sites/default/files/2026-10/October%205-6.pdf",
-   "date": null,
-   "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-01"
-  },
-  {
-   "key": "police-logs:64701cf8b3f5",
-   "source": "police-logs",
-   "kind": "police-log",
-   "title": "October 6-7",
-   "url": "https://www.portsmouthnh.gov/sites/default/files/2026-10/October%206-7.pdf",
-   "date": null,
-   "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-01"
-  },
-  {
-   "key": "police-logs:4b21114b4f31",
-   "source": "police-logs",
-   "kind": "police-log",
-   "title": "October 7-8",
-   "url": "https://www.portsmouthnh.gov/sites/default/files/2026-10/October%207-8.pdf",
-   "date": null,
-   "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-01"
-  },
-  {
-   "key": "police-logs:f632767b3018",
-   "source": "police-logs",
-   "kind": "police-log",
-   "title": "October 8-9",
-   "url": "https://www.portsmouthnh.gov/sites/default/files/2026-10/October%208-9.pdf",
-   "date": null,
-   "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-01"
-  },
-  {
-   "key": "police-logs:f9292ce35757",
-   "source": "police-logs",
-   "kind": "police-log",
-   "title": "October 9-10",
-   "url": "https://www.portsmouthnh.gov/sites/default/files/2026-10/October%209-10.pdf",
-   "date": null,
-   "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-01"
-  },
-  {
-   "key": "police-logs:80111af68705",
-   "source": "police-logs",
-   "kind": "police-log",
-   "title": "October 10-11",
-   "url": "https://www.portsmouthnh.gov/sites/default/files/2026-10/October%2010-11.pdf",
-   "date": null,
-   "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-01"
-  },
-  {
-   "key": "police-logs:0478ad7320a4",
-   "source": "police-logs",
-   "kind": "police-log",
-   "title": "October 11-12",
-   "url": "https://www.portsmouthnh.gov/sites/default/files/2026-10/October%2011-12.pdf",
-   "date": null,
-   "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-01"
-  },
-  {
-   "key": "police-logs:96c0b70ace5c",
-   "source": "police-logs",
-   "kind": "police-log",
-   "title": "October 12-13",
-   "url": "https://www.portsmouthnh.gov/sites/default/files/2026-10/October%2012-13.pdf",
-   "date": null,
-   "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-01"
-  },
-  {
-   "key": "police-logs:8c7bc555c5c2",
-   "source": "police-logs",
-   "kind": "police-log",
-   "title": "October 13-14",
-   "url": "https://www.portsmouthnh.gov/sites/default/files/2026-10/October%2013-14.pdf",
-   "date": null,
-   "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-01"
-  },
-  {
-   "key": "police-logs:be05bb0117c9",
-   "source": "police-logs",
-   "kind": "police-log",
-   "title": "October 14-15",
-   "url": "https://www.portsmouthnh.gov/sites/default/files/2026-10/October%2014-15.pdf",
-   "date": null,
    "firstSeen": "2026-11-01",
    "lastSeen": "2026-11-01"
   },
