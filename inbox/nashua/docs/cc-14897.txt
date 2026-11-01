@@ -1,0 +1,318 @@
+Source: https://nashuanh.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=14897,plainText=false)
+Title: Board of Aldermen 2026-10-27: Board of Aldermen - 10/27/26 amended agenda
+Fetched: 2026-11-01
+
+Amended Agenda                                BOARD OF ALDERMEN                                 October 27, 2026
+
+7:30 PM                                                                                      Aldermanic Chamber
+
+
+ 1.   PRESIDENT LORI WILSHIRE CALLS ASSEMBLY TO ORDER
+
+
+ 2.   PRAYER OFFERED BY CITY CLERK DAN HEALEY
+
+
+ 3.   PLEDGE TO THE FLAG LED BY ALDERMAN DEREK THIBEAULT
+
+
+ 4.   ROLL CALL
+
+
+ 5.   REMARKS BY THE MAYOR
+
+
+ 6.   RESPONSE TO REMARKS OF THE MAYOR
+
+
+ 7.   RECOGNITIONS
+
+
+ 8.   READING OF MINUTES OF PREVIOUS MEETINGS
+
+
+       Board of Aldermen - 03/24/2026
+
+
+ 9.   COMMUNICATIONS REQUIRING ONLY PROCEDURAL ACTIONS AND WRITTEN REPORTS FROM LIAISONS
+
+
+       From:     Owen Flynn, General Counsel, John Flatley Company
+       Re:       Request to Purchase City-owned Parcels
+
+
+       From:     Mayor Jim Donchess
+       Re:       Veto of O-26-002 - so that it can be amended and passed
+
+
+       From:     Lisa Fauteux, Director of Public Works
+       Re:       Referral from Board of Aldermen (R-26-062)
+
+
+ 9(a). PERIOD FOR PUBLIC COMMENT RELATIVE TO ITEMS EXPECTED TO BE ACTED UPON THIS EVENING
+
+
+ 9(b). COMMUNICATIONS REQUIRING FINAL APPROVAL
+
+
+ 10.  PETITIONS
+
+
+       Petition for Street Acceptance:  Juliana Avenue
+       - Committee on Infrastructure with recommendation to grant
+
+
+ 11.  NOMINATIONS, APPOINTMENTS AND ELECTIONS
+
+
+       Appointment by the Board of Aldermen
+
+
+       Appointments by the Mayor
+
+
+       Reports of Committee
+
+
+ 12.  CONFIRMATION OF MAYOR’S APPOINTMENTS
+
+
+ 13.  UNFINISHED BUSINESS – RESOLUTIONS
+
+
+       R-26-064, Amended
+            Endorsers: Mayor Jim Donchess
+                       Alderman-at-Large Michael B. O’Brien, Sr.
+                       Alderman Richard A. Dowd AUTHORIZING THE MAYOR AND CITY TREASURER TO ISSUE BONDS NOT TO EXCEED FIVE MILLION
+ONE HUNDRED SEVENTY-THREE THOUSAND FOUR HUNDRED AND TWENTY-EIGHT DOLLARS
+($5,173,428) FOR THE PURCHASE OF CAPITAL EQUIPMENT
+- Budget Review Committee with anticipated recommendation for final passage
+
+
+R-26-067
+     Endorsers: Mayor Jim Donchess
+                Alderman James Ravan
+                Alderwoman Vengerflutta Smith
+                Alderman Derek Thibeault
+                Alderman-at-Large Michael B. O’Brien, Sr.
+                Alderman Thomas Lopez
+AUTHORIZING THE MAYOR AND CITY TREASURER TO ISSUE BONDS NOT TO EXCEED THREE MILLION
+DOLLARS ($3,000,000) FOR THE DESIGN AND OTHER ANCILLARY COSTS TO RENOVATE THE NASHUA
+PUBLIC LIBRARY
+- Budget Review Committee with anticipated recommendation for final passage
+- Library Board of Trustees with recommendation to approve
+
+
+R-26-068
+     Endorsers: Mayor Jim Donchess
+                Alderman-at-Large Michael B. O'Brien, Sr.
+                Alderman Patricia Klee
+                Alderman James Ravan
+                Alderwoman Vengerflutta Smith
+                Alderman Derek Thibeault
+                Alderman Richard A. Dowd
+                Alderman-at-Large Amber Morgan
+                Alderman Thomas Lopez
+                Alderman-at-Large Ben Clemons
+AUTHORIZING THE MAYOR AND CITY TREASURER TO ISSUE BONDS NOT TO EXCEED ONE MILLION
+FIVE HUNDRED THOUSAND DOLLARS ($1,500,000) FOR THE DESIGN, CONSTRUCTION AND EQUIPPING
+OF A FIRE TRAINING FACILITY
+- Budget Review Committee with anticipated recommendation for final passage
+- Board of Fire Commissioners voted to support
+
+
+R-26-069
+     Endorsers: Mayor Jim Donchess
+                Alderman-at-Large Michael B. O’Brien, Sr.
+                Alderman Patricia Klee
+                Alderman James Ravan
+                Alderwoman Vengerflutta Smith
+                Alderman Derek Thibeault
+                Alderman Richard A. Dowd
+                Alderman John Sullivan
+                Alderman-at-Large Amber Morgan
+                Alderman Thomas Lopez
+                Alderman-at-Large Ben Clemons
+AUTHORIZING THE MAYOR AND CITY TREASURER TO ISSUE BONDS NOT TO EXCEED ONE MILLION
+DOLLARS ($1,000,000) FOR THE DESIGN AND OTHER ANCILLARY COSTS TO REPLACE THE PINE HILL
+FIRE STATION
+- Budget Review Committee with anticipated recommendation for final passage
+- Board of Fire Commissioners voted to support
+
+
+R-26-070
+     Endorsers: Mayor Jim Donchess
+                Alderman-at-Large Michael B. O'Brien, Sr.
+                Alderman Patricia Klee
+                Alderman James Ravan
+                Alderwoman Vengerflutta Smith
+                Alderman Derek Thibeault                       Alderman Richard A. Dowd
+                      Alderman John Sullivan
+                      Alderman-at-Large Amber Morgan
+                      Alderman Thomas Lopez
+                      Alderman-at-Large Ben Clemons
+      AUTHORIZING THE MAYOR AND CITY TREASURER TO ISSUE BONDS NOT TO EXCEED ONE MILLION
+      DOLLARS ($1,000,000) FOR DEFERRED CAPITAL MAINTENANCE OF FIRE STATIONS
+      - Budget Review Committee with anticipated recommendation for final passage
+      - Board of Fire Commissioners voted to support
+
+
+      R-26-071
+           Endorsers: Mayor Jim Donchess
+                      Alderman-at-Large Michael B. O’Brien, Sr.
+      AUTHORIZING THE MAYOR AND CITY TREASURER TO ISSUE BONDS NOT TO EXCEED NINE MILLION
+      DOLLARS ($9,000,000) FOR THE REPLACEMENT AND MODERNIZATION OF THE CITY-WIDE
+      ENTERPRISE RESOURCE PLANNING (ERP) SYSTEM
+      - Budget Review Committee with anticipated recommendation for final passage
+
+
+      R-26-075
+           Endorsers: Mayor Jim Donchess
+                      Alderman-at-Large Ben Clemons
+                      Alderman Patricia Klee
+                      Alderman James Ravan
+                      Alderman-at-Large Michael B. O'Brien, Sr.
+                      Alderman-at-Large Alicia Gregg
+                      Alderman Richard A. Dowd
+      AUTHORIZING THE MAYOR TO ENTER INTO A SECOND AMENDED FEDERAL AID PROJECT
+      AGREEMENT WITH THE STATE OF NEW HAMPSHIRE AND THE TOWN OF HUDSON FOR THE PURPOSE
+      OF REHABILITATING THE TAYLOR FALLS AND VETERANS BRIDGES AND TO ACCEPT AN ADDITIONAL
+      $231,941.29 FOR THE PROJECT
+      - Finance Committee with recommendation for final passage
+
+
+      R-26-076
+           Endorsers: Mayor Jim Donchess
+                      Alderman-at-Large Lori Wilshire
+                      Alderman Patricia Klee
+                      Alderwoman Vengerflutta Smith
+                      Alderman-at-Large Michael B. O'Brien, Sr.
+                      Alderman Richard A. Dowd
+                      Alderman John Sullivan
+                      Alderman Tim Sennott
+                      Alderman-at-Large Amber Morgan
+      RELATIVE TO THE ACCEPTANCE OF $45,180 FROM THE UNITED STATES DEPARTMENT OF JUSTICE
+      INTO POLICE GRANT ACTIVITY “2025 JUSTICE ASSISTANCE GRANT (MULTI-JURISDICTIONAL)”
+      - Human Affairs Committee with recommendation for final passage
+
+
+14.  UNFINISHED BUSINESS – ORDINANCES
+
+
+      O-26-024
+           Endorsers: Alderman Patricia Klee
+                      Alderman-at-Large Alicia Gregg
+                      Alderman Richard A. Dowd
+                      Alderman Tim Sennott
+                      Alderman Thomas Lopez
+                      Alderwoman Vengerflutta Smith
+      AUTHORIZING ADDITIONAL STOP SIGNS TO MAKE AN ALL WAY STOP AT THE INTERSECTION OF
+      FRENCH STREET AND ABBOTT STREET
+      - Committee on Infrastructure with recommendation for final passage
+      - Division of Public Works supports the legislation
+
+
+      O-26-002
+           Endorsers: Alderman Paula Johnson
+                      Alderman-at-Large Ben Clemons
+                      Alderman Tim Sennott
+      ALLOWING ELECTRONIC PUBLIC COMMENT FOR PEOPLE WITH WALKING DISABILITIES
+      - Mayor vetoed on 10/20/26
+
+
+15.  BUSINESS UNFINISHED AT THE PREVIOUS MEETING
+
+
+      R-26-015
+           Endorsers: Mayor Jim Donchess
+                      Alderman-at-Large Ben Clemons
+                      Alderman Patricia Klee
+                      Alderman Derek Thibeault
+                      Alderman-at-Large Michael B. O'Brien, Sr.
+                      Alderman-at-Large Alicia Gregg
+                      Alderman Richard A. Dowd
+                      Alderman-at-Large Amber Morgan
+                      Alderman-at-Large Lori Wilshire
+      SUPPORTING THE TOWN OF MERRIMACK IN ITS OPPOSITION TO AN ICE DETENTION CENTER
+      - tabled at Board of Aldermen meeting on 2/24/26
+
+
+      R-26-020
+           Endorsers: Mayor Jim Donchess
+                      Alderwoman Vengerflutta Smith
+                      Alderman Derek Thibeault
+                      Alderman-at-Large Michael B. O'Brien, Sr.
+                      Alderman Richard A. Dowd
+                      Alderman-at-Large Alicia Gregg
+                      Alderwoman-at-Large Shoshanna Kelly
+                      Alderman-at-Large Ben Clemons
+                      Alderman Patricia Klee
+                      Alderman-at-Large Lori Wilshire
+      AUTHORIZING THE MAYOR AND CITY TREASURER TO ISSUE BONDS NOT TO EXCEED THE AMOUNT
+      OF NINE HUNDRED THOUSAND DOLLARS ($900,000) TO FUND THE PURCHASE, DESIGN, PRE-
+      RENOVATION WORK AND RENOVATIONS FOR A RESOURCE CENTER AT 14 MULBERRY STREET
+      - tabled at Special Board of Aldermen meeting on 4/22/26
+
+
+      R-26-062
+           Endorsers: Mayor Jim Donchess
+                      Alderman James Ravan
+                      Alderwoman Vengerflutta Smith
+                      Alderman-at-Large Michael B. O’Brien, Sr.
+                      Alderman Richard A. Dowd
+                      Alderman Thomas Lopez
+        AUTHORIZING THE MAYOR AND CITY TREASURER TO ISSUE BONDS NOT TO EXCEED TWO MILLION
+        DOLLARS ($2,000,000) FOR VARIOUS IMPROVEMENTS AT THE SOLID WASTE DEPARTMENT FOUR
+        HILLS LANDFILL
+      - tabled at Board of Aldermen meeting on 10/13/26
+      - Budget Review Committee with recommendation for final passage
+      - Board of Public Works – with recommendation to approve
+
+
+16.  NEW BUSINESS – RESOLUTIONS
+
+
+       R-26-077
+           Endorser:  Mayor Jim Donchess
+      RELATIVE TO THE SUPPLEMENTAL APPROPRIATION OF $146,617.94 OF FY2027 UNANTICIPATED
+      REVENUE INTO FUND #7024 “OPIOID ABATEMENT EXPENDABLE TRUST FUND”
+
+
+      R-26-078
+           Endorser:  Mayor Jim Donchess
+      AUTHORIZING THE MAYOR TO ENTER INTO FIRST AMENDMENT TO HIGH STREET GARAGE LEASE
+      WITH NASHUA APARTMENT VENTURES, LLC
+
+
+      R-26-079
+           Endorser:  Mayor Jim Donchess
+      AUTHORIZING THE MAYOR TO ENTER INTO SCHOOL STREET PARKING GARAGE LEASE WITH NASHUA
+      APARTMENT VENTURES, LLC
+
+
+17.  NEW BUSINESS – ORDINANCES
+
+
+      O-26-027
+           Endorser:  Mayor Jim Donchess
+      AMENDMENT TO PARKING PERMITS- HIGH STREET GARAGE
+
+
+      O-26-028
+           Endorser:  Mayor Jim Donchess
+      AMENDMENT TO PARKING PERMITS - SCHOOL STREET PARKING GARAGE
+
+
+18.  PERIOD FOR GENERAL PUBLIC COMMENT
+
+
+19.  REMARKS BY THE MEMBERS OF THE BOARD OF ALDERMEN
+
+
+20.  COMMITTEE ANNOUNCEMENTS
+
+
+21.  NON-PUBLIC SESSION
+
+
+22.  ADJOURNMENT

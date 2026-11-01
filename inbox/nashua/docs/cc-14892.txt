@@ -1,0 +1,23 @@
+Source: https://nashuanh.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=14892,plainText=false)
+Title: Planning Board 2026-11-05: 20261105 NCPB Agenda - cancelled
+Fetched: 2026-11-01
+
+City of Nashua
+                      Planning Department         Planning & Zoning 589-3090
+                                                  Fax        589-3119
+                         229 Main Street          WEB  www.nashuanh.com
+                  Nashua, New Hampshire 03061-2019
+
+
+          CANCELLATION
+                    NOTICE
+
+
+The Regular Meeting of the Nashua City Planning Board for November 5,
+2026 has been cancelled.
+
+The next regular meeting of the Nashua City Planning Board will be held on
+Thursday, November 19, 2026 at 7:00 PM. in the City Hall Auditorium, 3rd
+floor, 229 Main Street.
+
+If you have any questions, contact the Planning Department at 589-3090.

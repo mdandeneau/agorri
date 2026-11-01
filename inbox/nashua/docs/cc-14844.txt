@@ -1,0 +1,136 @@
+Source: https://nashuanh.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=14844,plainText=false)
+Title: Finance Committee 2026-10-21: Finance Committee - 10/21/26 minutes
+Fetched: 2026-11-01
+
+REPORT OF THE FINANCE COMMITTEE
+
+                                               OCTOBER 21, 2026
+
+A meeting of the Finance Committee was held on Wednesday, October 21, 2026, 7:00 p.m. in the Aldermanic Chamber
+and duly noticed in two places, including the City’s website, in accordance with the requirements of RSA 91-A:2 II.
+
+Mayor Jim Donchess, Chairman, presided.
+
+Members of the Committee present:     Alderwoman Vengerflutta Smith (arrived at 7:05 p.m.)
+                                      Alderman-at-Large Ben Clemons
+                                      Alderman-at-Large Lori Wilshire
+                                      Alderman Patricia Klee, Vice Chair
+                                      Mayor Jim Donchess, Chairman
+
+Members not in Attendance:            Alderman John Sullivan
+                                      Alderman-at-Large Alicia Gregg
+
+Also in Attendance:                   Tim Cummings, Administrative Services Director
+                                      Amy Girard, Purchasing Manager
+                                      Dawn Enwright, CFO
+                                      Nick Miseirvitch, CIO, Information Technology
+_________________________________________________________________________________
+
+ROLL CALL
+
+PUBLIC COMMENT - None
+
+COMMUNICATIONS
+
+From:      Amy Girard, Purchasing Manager
+Re:        Subscription:  Veeam Data Platform Foundation Universal License in the amount not to exceed $36,630.78
+           funded from General Fund/54- Property Services
+
+MOTION BY ALDERMAN KLEE TO ACCEPT, PLACE ON FILE, AND APPROVE A RENEWAL CONTRACT WITH SHI
+INTERNATIONAL CORP FOR VEEAM BACKUP SOFTWARE UTILIZED BY THE INFORMATION TECHNOLOGY
+DEPARTMENT IN THE AMOUNT NOT TO EXCEED $36,630.78.  FUNDING WILL BE THROUGH DEPARTMENT:  120
+TECHNOLOGY MAINTENANCE; FUND:  GENERAL FUND/54-PROPERTY SERVICES
+MOTION CARRIED
+
+NEW BUSINESS – RESOLUTIONS
+
+   R-26-075
+        Endorsers: Mayor Jim Donchess
+                  Alderman-at-Large Ben Clemons
+                  Alderman Patricia Klee
+                  Alderman James Ravan
+                  Alderman-at-Large Michael B. O'Brien, Sr.
+                  Alderman-at-Large Alicia Gregg
+                   Alderman Richard A. Dowd
+   AUTHORIZING THE MAYOR TO ENTER INTO A SECOND AMENDED FEDERAL AID PROJECT
+   AGREEMENT WITH THE STATE OF NEW HAMPSHIRE AND THE TOWN OF HUDSON FOR THE
+   PURPOSE OF REHABILITATING THE TAYLOR FALLS AND VETERANS BRIDGES AND TO ACCEPT AN
+   ADDITIONAL $231,941.29 FOR THE PROJECT
+
+   MOTION BY ALDERMAN KLEE TO RECOMMEND FINAL PASSAGE
+   MOTION CARRIED
+
+
+NEW BUSINESS – ORDINANCES – None
+ Finance Committee – 10/21/2026                                                            Page 2
+
+TABLED IN COMMITTEE - None
+
+RECORD OF EXPENDITURES
+
+MOTION BY ALDERMAN KLEE THAT THE FINANCE COMMITTEE HAS COMPLIED WITH THE CITY CHARTER
+AND ORDINANCES PERTAINING TO THE RECORD OF EXPENDITURES FOR THE PERIOD FROM OCTOBER 2,
+2026 THROUGH OCTOBER 15, 2026
+MOTION CARRIED
+
+GENERAL DISCUSSION - None
+
+PUBLIC COMMENT
+
+Laurie Ortolano, Nashua
+
+REMARKS BY THE ALDERMEN
+
+Alderman Klee
+
+NON-PUBLIC SESSION
+
+MOTION BY ALDERMAN KLEE THAT THE FINANCE COMMITTEE GO INTO NON-PUBLIC SESSION BY ROLL
+CALL PURSUANT TO RSA 91-A:3 II (E), CONSIDERATION OR NEGOTIATION OF PENDING CLAIMS OR
+LITIGATION WHICH HAS BEEN THREATENED IN WRITING OR FILED BY OR AGAINST THE PUBLIC BODY OR
+ANY SUBDIVISION THEREOF, OR BY OR AGAINST ANY MEMBER THEREOF BECAUSE OF HIS OR HER
+MEMBERSHIP IN SUCH PUBLIC BODY, UNTIL THE CLAIM OR LITIGATION HAS BEEN FULLY ADJUDICATED OR
+OTHERWISE SETTLED. ANY APPLICATION FILED FOR TAX ABATEMENT, PURSUANT TO LAW, WITH ANY BODY
+OR BOARD SHALL NOT CONSTITUTE A THREATENED OR FILED LITIGATION AGAINST ANY PUBLIC BODY FOR
+THE PURPOSES OF THIS SUBPARAGRAPH.
+
+SECONDED BY ALDERMAN WILSHIRE
+
+A Viva Voce Roll Call was taken, which resulted as follows:
+
+Yea:    Alderwoman Smith, Alderman Clemons, Alderman Wilshire,
+           Alderman Klee, Chairman Donchess                                               5
+
+Nay:                                                                                                                                                    0
+
+MOTION CARRIED
+
+The Finance Committee went into non-public session at 7:05 p.m.
+
+The Finance Committee came out of non-public session at 7:24 p.m.
+
+MOTION BY ALDERMAN KLEE THAT THE FINANCE COMMITTEE KEEP THE MINUTES OF THE NON-PUBLIC
+SESSION CONFIDENTIAL BECAUSE THE DIVULGENCE OF THE CONFIDENTIAL INFORMATION LIKELY WOULD
+RENDER THE PROPOSED ACTION INEFFECTIVE UNTIL SUCH TIME AS THE BOARD OF ALDERMEN
+DETERMINES THAT THE PURPOSE OF THE CONFIDENTIALITY WOULD NO LONGER BE SERVED, BY ROLL
+CALL
+
+ A Viva Voce Roll Call was taken, which resulted as follows:
+
+Yea:    Alderwoman Smith, Alderman Clemons, Alderman Wilshire,
+           Alderman Klee, Chairman Donchess                                               5
+
+Nay:                                                                                                                                                    0
+
+MOTION CARRIED
+ Finance Committee – 10/21/2026                                                            Page 3
+
+ADJOURNMENT
+
+MOTION BY ALDERMAN WILSHIRE TO ADJOURN
+MOTION CARRIED
+
+The Finance Committee meeting was adjourned at 7:25 p.m.
+
+                                                                    Alderman Patricia Klee
+                                                                    Committee Clerk Pro Tem

@@ -1,0 +1,145 @@
+Source: https://nashuanh.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=14916,plainText=false)
+Title: Finance Committee 2026-11-04: Finance Committee - 11/4/26 agenda
+Fetched: 2026-11-01
+
+Agenda                                        FINANCE COMMITTEE                                 November 4, 2026
+
+7:00 PM                                                                                      Aldermanic Chamber
+
+
+1.    ROLL CALL
+
+2.    PUBLIC COMMENT
+
+3.    COMMUNICATIONS
+
+       From:     Amy Girard, Purchasing Manager
+       Re:       2027 Ford Expedition SSV Armored Vehicle in the amount not to exceed $198,900 funded from CERF/
+                 81- Capital Outlay/Improvements
+
+       From:     Amy Girard, Purchasing Manager
+       Re:       NPD Ford Police Interceptor Utility Marked in the amount not to exceed $70,275.50 funded from CERF/
+                 81- Capital Outlay/Improvements
+
+       From:     Amy Girard, Purchasing Manager
+       Re:       Six (6) NPD Ford Police Interceptor Utility  in the amount not to exceed $467,999 funded from CERF/
+                 81- Capital Outlay/Improvements
+
+       From:     Amy Girard, Purchasing Manager
+       Re:       One (1) NPD Ford Police Interceptor Utility Vehicle Marked in the amount not to exceed $71,316.50
+                 funded from CERF/ 81- Capital Outlay/Improvements
+
+       From:     Amy Girard, Purchasing Manager
+       Re:       NPD Ford F550 4x4 2-Door Chassis in the amount not to exceed $522,584.00 funded from CERF
+                 Bond/ 81- Capital Outlay/Improvements
+
+       From:     Amy Girard, Purchasing Manager
+       Re:       NPD Ford Super Duty F-350  in the amount not to exceed $103,595.70 funded from CERF/ 81- Capital
+                 Outlay/Improvements
+
+       From:     Amy Girard, Purchasing Manager
+       Re:       NPD Ford Super Duty F-350 in the amount not to exceed $74,040.70 funded from CERF/81- Capital
+                 Outlay/Improvements
+
+       From:     Amy Girard, Purchasing Manager
+       Re:       2027 Ford Transit Van in the amount not to exceed $101,574.00 funded from CERF Bond/81- Capital
+                 Outlay/Improvements
+
+       From:     Amy Girard, Purchasing Manager
+       Re:       NPD Ford Police Interceptor Utility Unmarked vehicles in the amount not to exceed $119,435.00
+                 funded from CERF/ 81- Capital Outlay/Improvements
+
+       From:     Amy Girard, Purchasing Manager
+       Re:       2027 Ford Expedition XL in the amount not to exceed $87,131.50 funded from CERF/ 81-Capital
+                 Outlay/Improvements
+
+       From:     Amy Girard, Purchasing Manager
+       Re:       Ford F350 Dump Truck in the amount not to exceed $92,735 funded from CERF/ 81-Capital
+                 Outlay/Improvements
+
+       From:     Amy Girard, Purchasing Manager
+       Re:       Ford F250 Truck in the amount not to exceed $77,127.00 funded from CERF/ 81- Capital                  Outlay/Improvements
+
+       From:     Amy Girard, Purchasing Manager
+       Re:       Ford Maverick Hybrid Pickup Truck in the amount not to exceed $37,605.00 funded from CERF/ 81-
+                 Capital Outlay/Improvements
+
+       From:     Amy Girard, Purchasing Manager
+       Re:       Kubota Field Tractor in the amount not to exceed $65,143.07 funded from CERF/ 81-Capital
+                 Outlay/Improvements
+
+       From:     Amy Girard, Purchasing Manager
+       Re:       TIE/TRE sampling and reporting assistance in the amount not to exceed $108,871.66 funded from
+                 Wastewater Fund/ 53- Professional & Technical Services
+
+       From:     Amy Girard, Purchasing Manager
+       Re:       Local Limits Study  in the amount not to exceed $145,778.31 funded from Wastewater Fund/ 53-
+                 Professional & Technical Services
+
+       From:     Amy Girard, Purchasing Manager
+       Re:       Wastewater Treatment Capacity Analysis in the amount not to exceed $270,626.25 funded from
+                 Wastewater Fund/ 53- Professional & Technical Services
+
+       From:     Amy Girard, Purchasing Manager
+       Re:       Winter Road Salt in the amount not to exceed $575,000 funded from General Fund/ 61-Supplies &
+                 Materials
+
+       From:     Amy Girard, Purchasing Manager
+       Re:       Change Order #2 Landfill Water Line Materials in the amount not to exceed $10,000 funded from Bond/
+                 54- Property Services
+
+       From:     Amy Girard, Purchasing Manager
+       Re:       PFAS Site Investigation and Evaluation Services in the amount not to exceed $57,500 funded from
+                 Bond/ 53- Professional & Technical Services
+
+       From:     Amy Girard, Purchasing Manager
+       Re:       Amendment #1 for the Flare Remote Connectivity & Telemetry Service Agreement in the amount not to
+                 exceed $20,160 funded from Bond/ 55- Other Services
+
+       From:     Amy Girard, Purchasing Manager
+       Re:       2026 Sewer and Drainage Improvement Project, Change Order #2 in the amount not to exceed
+                 $172,350 funded from Bond/ 54- Property Services
+
+       From:     Amy Girard, Purchasing Manager
+       Re:       Walnut Street Oval Project Parcel Appraisals in the amount not to exceed $54,000 funded from Bond
+                 and Grant/ 54- Property Services
+
+       From:     Amy Girard, Purchasing Manager
+       Re:       Sewer and Drain Flow Monitoring System  in the amount not to exceed $25,000 funded rom Bond/ 54-
+                 Property Services
+
+       From:     Amy Girard, Purchasing Manager
+       Re:       Replacement of Hybrid Police Vehicles
+
+4.    NEW BUSINESS – RESOLUTIONS
+
+      R-26-078
+            Endorsers: Mayor Jim Donchess
+                       Alderman-at-Large Michael B. O’Brien, Sr.                        Alderman-at-Large Alicia Gregg
+                       Alderman Richard A. Dowd
+                       Alderman-at-Large Amber Morgan
+       AUTHORIZING THE MAYOR TO ENTER INTO FIRST AMENDMENT TO HIGH STREET GARAGE LEASE
+       WITH NASHUA APARTMENT VENTURES, LLC
+
+      R-26-079
+            Endorsers: Mayor Jim Donchess
+                       Alderman-at-Large Michael B. O’Brien, Sr.
+                       Alderman-at-Large Alicia Gregg
+                       Alderman Richard A. Dowd
+                       Alderman-at-Large Amber Morgan
+       AUTHORIZING THE MAYOR TO ENTER INTO SCHOOL STREET PARKING GARAGE LEASE WITH NASHUA
+       APARTMENT VENTURES, LLC
+
+5.    NEW BUSINESS – ORDINANCES
+
+6.    TABLED IN COMMITTEE
+
+7.    RECORD OF EXPENDITURES
+
+8.    GENERAL DISCUSSION
+
+9.    PUBLIC COMMENT
+
+10.   REMARKS BY THE ALDERMEN
+
+11.   ADJOURNMENT
