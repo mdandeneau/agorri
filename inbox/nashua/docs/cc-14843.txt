@@ -1,0 +1,172 @@
+Source: https://nashuanh.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=14843,plainText=false)
+Title: Board of Health 2026-10-14: Board of Health October 2026
+Fetched: 2026-11-01
+
+Board of Health
+                                      October 14, 2026
+                                      18 Mulberry Street
+                                      Nashua, NH 03060
+                                          12:30 PM
+
+ Our mission is to promote, protect, and preserve the health and well-being of the Greater Nashua Region
+ through leadership and community collaboration. Our vision is to have an informed, safe, healthy, and
+ resilient community where all people can thrive and prosper. We subscribe to the following values: integrity,
+ leadership, adaptability, and respect.
+
+Facilitator: Board Chair, Dr Charles
+
+Cappetta
+
+                                           Minutes
+
+                  Board of Health (BOH):  Dr. Charles Cappetta, Stephanie Ballentine, Christian Jimenez;
+                  Henry Och
+                  Board of Alderman:
+    Attendees
+                  City Employees: Bobbie D Bagley, Director DPHCS; (Via Zoom) Mike McGuiness, Deputy
+                  Health Officer; Flavia Martin, Deputy Chief Public Health Nurse, Bob Mack, Welfare
+                  Officer; Foqia Ijaz, CS Administrative Assistant; Sakshi Gurung, Epidemiologist
+
+                                  Updates and Announcements
+
+ Meeting Called
+ to Order          Board Chair, Dr. Cappetta called the meeting to order at 12: 30 P.M referencing NH RSA
+                   91-A:2, II.
+
+ Approval of         •  Approved
+ Minutes
+ September,
+ 2026
+
+ Epidemiologist      •  The United States is experiencing an increase in measles cases, with approximately
+ Report                 4080 confirmed and suspected cases reported across 47 states as of October 8,
+ Presented by           2026, the highest total in 35 years. The increase is attributed to both interstate and
+ Sakshi Gurung          local transmission, declining MMR vaccination rates, and an increase in travel-
+                        related cases.
+
+                                                                                 Page 1 of 4
+
+
+                    •  Five deaths were reported among unvaccinated individuals. One additional death
+                       was reported by the media but had not been reflected on the New Hampshire
+                       Department of Health and Human Services (DHHS) dashboard. The CDC reported
+                       two deaths and continued to review the cases. A discrepancy in the reported
+                       numbers was noted. New York declared a statewide disaster emergency related to
+                       measles.
+                    •  Updates on measles cases in Mexico and Canada were also given.
+                    •  Respiratory Illnesses: CDC data showed low levels of respiratory illness in New
+                       Hampshire. COVID-19 activity was also low.
+                    •  Wastewater Surveillance: Nashua showed elevated and increasing levels, while
+                       Merrimack remained low and stable.
+                    •  Updates were provided on completed activities, meetings, and other epidemiology
+                       initiatives.
+                 Questions and Discussion
+                    •  What is the status of wastewater surveillance in Nashua? The recent DHHS
+                       dashboard provides data for several major cities. A link will be shared so members
+                       can review the trends. It was noted that wastewater surveillance is now being
+                       conducted in Nashua by the Wastewater Department.
+
+Director’s Report   •  DPHCS vision and mission were read.
+Presented by        •  Update from the National Association of Local Boards of Health (NALBOH)
+Bobbie Bagley,         conference was given. Conference materials and resources will be shared.
+Director DPHCS      •  Received a $10,000 award from the Endowment for Health to support intentional
+                       conversations called IZI’s that help to provide information on various initiatives.
+                    •  Proof of Concept: Legislation passed by Aldermen to approve lease agreement with
+                       Harbor Care for implementing Resource Center. A press release was sent out, and
+                       the Director thanked Harbor Care for their support.
+                    •  The feasibility study report for the Resource Center was presented at City Hall. The
+                       study will help secure the $1.2 million in federal funding for the project.
+                    •  Updates were provided on participation in the Homelessness Gap Committee.
+                    •  The director was nominated for an advocacy award in recognition of the
+                       department’s work by the New Futures Policy Committee.
+                 Community Services Department Highlights
+                    •  Community Health Workers (CHWs): Reported 831 client interactions during the
+                       reporting period, involving various types of services, including job application
+                       assistance. In one case, a family lost a member who had been paying the
+                       household bills, resulting in utility expenses exceeding $22,000. Staff worked with
+                       utility companies, enrolled the family in assistance programs, and connected them
+                       with a church payee to help manage payments.
+                    •  Housing Services Officer (HSO): Increased the number of clients receiving Tenant-
+                       Based Rental Assistance (TBRA) due to housing instability.
+                    •  Public Health Emergency Preparedness (PHEP): Staff completed CPR instructor
+                       training and will provide training to other staff members.
+                    •  Resource Center staff have been hired, and planning for the warming station
+                       continues.
+
+                                                                                Page 2 of 4
+
+
+                 Questions and Discussion
+                    •  The Board Chair congratulated the director on receiving the advocacy award.
+                    •  What is HMIS? A: The Homeless Management Information System (HMIS) is a
+                       coordinated data system that allows participating agencies to share information
+                       and coordinate services for individuals experiencing homelessness.
+                    •  Will a mobile clinic be available at St. Joseph Hospital for the Resource Center?
+                       Partners have not yet been contacted about visiting the Resource Center. This may
+                       be explored as the center becomes busier. Information on the opening of the
+                       Resource Center has been provided to the partner organizations so that they can
+                       refer clients.
+
+CH Department
+Report provided      •  Supporting nursing students during their six-week rotations.
+by Deputy Chief      •  Staff attended the Wheels on Wings event.
+PH Nurse Flavia      •  Flu clinics were held at various agencies.
+Martin               •  The pharmacy inspection was completed successfully.
+
+
+                    •  September was a busy month. Staff absences affected the number of inspections
+                       completed.
+                    •  Some inspections and investigations required additional time, particularly when
+                       sites were close to receiving a ticket or required further compliance work.
+                    •  Temporary events continued to generate a high volume of work, including
+Environmental          weekend activities. Staff will assess whether weekend coverage is feasible.
+Health (EH)         •  Complaints included mice, rats, and mold.
+Department          •  Pools and spas were quieter, and indoor pool sampling is beginning.
+report provided     •  One cat tested negative for rabies. Two dog bites were reported.
+by Deputy Health    •  Coordination continued with Code Enforcement, Building, and Fire departments on
+Officer –Mike          environmental health concerns. Issues involving owner-occupied properties remain
+McGuiness              challenging because of legal limitations on available interventions.
+                    •  A food service establishment voluntarily closed following a sewage backup. The
+                       issue was resolved.
+                    •  An educational presentation was planned at Nashua High School South.
+                    •  Staff are preparing for the fall Environmental Health conference.
+
+                    •  Spending remained relatively stable. Shelter assistance continued to be the largest
+                       expense, primarily to prevent homelessness.
+                    •  Welfare provides rental assistance and refers clients to other agencies for
+Welfare
+                       additional support.
+Department
+                    •  HMIS primarily tracks services for individuals experiencing homelessness;
+report provided
+                       therefore, Welfare has relatively few cases recorded in the system.
+by Bob Mack,
+                    •  A comparison of FY26 and FY27 was given, including client numbers, inquiries, and
+Welfare Officer
+                       voucher totals. Spending remained within budget expectations.
+                    •  Staff continue to work closely with CHWs to connect clients with resources,
+                       including TBRA program.
+
+                                                                                Page 3 of 4
+
+
+                    •  Staff attends wraparound meetings to address complex client needs and identify
+                       service gaps.
+                    •  Staff training and committee participation updates were provided.
+
+                    •  The November 11, 2026 meeting was moved to Wednesday, November 18 as
+Other Updates
+                       November 11th is a holiday.
+
+Public Comment
+
+                    •  No public Comments
+
+
+The meeting adjourned at 1:15 PM following a motion and vote.
+
+                              Please join us for our Next Meeting:
+                               November 18, 2026 at 12:30 PM
+
+
+                                                                                Page 4 of 4

@@ -1,0 +1,36 @@
+Source: https://nashuanh.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=14907,plainText=false)
+Title: Nashua Public Library Board of Trustees 2026-11-04: Nashua Library Board of Trustees 11042026
+Fetched: 2026-11-01
+
+CITY OF NASHUA
+
+
+       Nashua Public Library                         Board of Trustees
+                                Wednesday, November 4, 2026
+                                            7:00 PM
+                                     Nashua Public Library
+                                         2 Court Street
+                                Nashua, New Hampshire 03060
+
+                           LIBRARY BOARD OF TRUSTEES MEETING
+
+
+                                          AGENDA
+1.   Call to Order
+
+2.   Attendance
+
+3.   Correspondence
+     Vote to accept and place on file
+
+4.   Public Comment
+
+5.   Approval of bills and trust fund requests
+
+6.   Approval of minutes from previous meetings
+
+7.   Presentation by Design Lab
+
+8.   Updates by members
+
+9.   Adjourn
