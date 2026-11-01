@@ -1,146 +1,142 @@
 {
  "as_of": "2026-11-01",
- "note": "Congregations come from several directories (Devout, PewSearch, ChurchFinder, Christianity.com), the Wikipedia list of Diocese of Manchester parishes and a 2021 Rivier University worship list. Service times are shown only where an opened page gave them; most come from the congregation's own site, and Catholic Sunday times come from a third-party Mass directory. The Nashua Area Interfaith Council (founded as the Nashua Council of Churches in the 1940s) links many of these congregations. No Quaker meeting or Sikh gurdwara in Nashua was found. No public faith events for November or December 2026 were found on pages that could be opened.",
+ "note": "Congregations come from several directories (Devout, PewSearch, ChurchFinder, Christianity.com), the Wikipedia list of Diocese of Manchester parishes and a 2021 Rivier University worship list. Service times are shown only where an opened page gave them. St. Christopher, St. Joseph the Worker, St. Stanislaus, First Church UCC, Main Street UMC, Crossway, Gate City, the Salvation Army, Church of Christ and the UU congregation times come from their own sites; other Catholic times come from third-party Mass directories (Saturday vigils included) and are marked for review. The Nashua Area Interfaith Council (founded as the Nashua Council of Churches in the 1940s) links many of these congregations. No Quaker meeting or Sikh gurdwara in Nashua was found.",
  "congregations": [
   {
    "name": "St. Patrick Parish",
    "tradition": "Roman Catholic",
    "town": "Nashua",
    "address": "29 Spring St, Nashua, NH 03060",
-   "services": "Sunday 7 and 9:30 am",
+   "services": "Saturday 4 pm (vigil); Sunday 7 and 9:30 am",
    "servicesSource": {
-    "label": "Catholic Church Times, Sunday Mass in Nashua",
-    "url": "https://www.catholicchurchtimes.com/mass/sunday/united-states/new-hampshire/nashua"
+    "label": "Catholic Mass Times, St. Patrick, Nashua",
+    "url": "https://catholicmasstime.org/church/st-patrick/12785"
    },
    "site": "https://www.stpatricksnashua.org/",
-   "phone": null,
-   "note": null,
+   "phone": "(603) 882-2262",
+   "note": "Directories also list a Saturday 8 am Latin Mass and weekday Masses at 12:05 pm. Discover Mass gives the phone number.",
    "source": {
     "label": "Wikipedia, List of parishes in the Diocese of Manchester",
     "url": "https://en.wikipedia.org/wiki/List_of_parishes_in_the_Diocese_of_Manchester"
    },
    "needs_review": true,
-   "review_note": "Sunday times from a third-party Mass-times directory, not the parish site; Saturday vigil times not found."
+   "review_note": "Times from third-party Mass directories (Catholic Mass Times, Discover Mass and Catholic Church Times agree); the parish site could not be opened."
   },
   {
    "name": "Immaculate Conception Parish",
    "tradition": "Roman Catholic",
    "town": "Nashua",
    "address": "216 E. Dunstable Rd, Nashua, NH 03062",
-   "services": "Sunday 7:30, 9 and 11 am",
+   "services": "Saturday 5 pm (vigil); Sunday 7:30, 9 and 11 am",
    "servicesSource": {
-    "label": "Catholic Church Times, Sunday Mass in Nashua",
-    "url": "https://www.catholicchurchtimes.com/mass/sunday/united-states/new-hampshire/nashua"
+    "label": "Catholic Mass Times, Immaculate Conception, Nashua",
+    "url": "https://catholicmasstime.org/church/immaculate-conception/12720/"
    },
    "site": "https://www.iccnashuanh.org/",
-   "phone": null,
-   "note": "Parish founded 1968; current church dedicated 2002.",
+   "phone": "(603) 888-0321",
+   "note": "Parish founded 1968; current church dedicated 2002. Weekday Mass Monday to Thursday 8:30 am; confession Saturday 4 to 4:30 pm (directory listings).",
    "source": {
     "label": "Wikipedia, List of parishes in the Diocese of Manchester",
     "url": "https://en.wikipedia.org/wiki/List_of_parishes_in_the_Diocese_of_Manchester"
    },
    "needs_review": true,
-   "review_note": "Sunday times from a third-party Mass-times directory, not the parish site; Saturday vigil times not found."
+   "review_note": "Times from third-party Mass directories (Catholic Mass Times and Discover Mass agree); the parish site could not be opened."
   },
   {
    "name": "Parish of the Resurrection",
    "tradition": "Roman Catholic",
    "town": "Nashua",
    "address": "449 Broad St, Nashua, NH 03063",
-   "services": "Sunday 8:30 and 10:30 am, 5 pm",
+   "services": "Saturday 4 pm (vigil); Sunday 8:30 and 10:30 am",
    "servicesSource": {
-    "label": "Catholic Church Times, Sunday Mass in Nashua",
-    "url": "https://www.catholicchurchtimes.com/mass/sunday/united-states/new-hampshire/nashua"
+    "label": "Catholic Mass Times, Resurrection, Nashua",
+    "url": "https://catholicmasstime.org/church/resurrection/12709/"
    },
    "site": "https://parishoftheresurrection.org",
-   "phone": null,
-   "note": null,
+   "phone": "(603) 882-0925",
+   "note": "Weekday Mass 8 am (directory listing).",
    "source": {
     "label": "Wikipedia, List of parishes in the Diocese of Manchester",
     "url": "https://en.wikipedia.org/wiki/List_of_parishes_in_the_Diocese_of_Manchester"
    },
    "needs_review": true,
-   "review_note": "Sunday times from a third-party Mass-times directory, not the parish site; Saturday vigil times not found."
+   "review_note": "Directories disagree: Catholic Church Times and Discover Mass also list a Sunday 5 pm Mass, and Discover Mass shows the Saturday 4 pm Mass on first Saturdays only. Parish site could not be opened."
   },
   {
    "name": "St. Aloysius of Gonzaga Parish",
    "tradition": "Roman Catholic",
    "town": "Nashua",
    "address": "48 W. Hollis St, Nashua, NH 03060",
-   "services": "Sunday 9 and 11 am",
+   "services": "Saturday 4 pm (English); Sunday 9 am (English) and 10:30 am (Spanish)",
    "servicesSource": {
-    "label": "Catholic Church Times, Sunday Mass in Nashua",
-    "url": "https://www.catholicchurchtimes.com/mass/sunday/united-states/new-hampshire/nashua"
+    "label": "Catholic Mass Times, St. Aloysius of Gonzaga, Nashua",
+    "url": "https://catholicmasstime.org/church/st-aloysius-of-gonzaga/12783"
    },
    "site": "https://stlouisnashua.org",
-   "phone": null,
-   "note": "Founded 1872 for French-Canadian families.",
+   "phone": "(603) 882-4362",
+   "note": "Founded 1872 for French-Canadian families. Also Tuesday and Thursday noon (English) and Wednesday 6 pm (Spanish), per the directory.",
    "source": {
     "label": "Wikipedia, List of parishes in the Diocese of Manchester",
     "url": "https://en.wikipedia.org/wiki/List_of_parishes_in_the_Diocese_of_Manchester"
    },
    "needs_review": true,
-   "review_note": "Sunday times from a third-party Mass-times directory, not the parish site; Saturday vigil times not found."
+   "review_note": "Third-party directory; Catholic Church Times lists Sunday 9 and 11 am instead. Parish site could not be opened."
   },
   {
    "name": "St. Christopher Parish",
    "tradition": "Roman Catholic",
    "town": "Nashua",
    "address": "62 Manchester St, Nashua, NH 03064",
-   "services": "Sunday 8 and 10 am, 3 pm",
+   "services": "Saturday 4 pm (vigil); Sunday 8 and 10 am, 3 pm (Vietnamese)",
    "servicesSource": {
-    "label": "Catholic Church Times, Sunday Mass in Nashua",
-    "url": "https://www.catholicchurchtimes.com/mass/sunday/united-states/new-hampshire/nashua"
+    "label": "St. Christopher Parish, home page",
+    "url": "https://www.stchrisparishnh.org"
    },
-   "site": "https://stchrisparishnh.org/",
-   "phone": null,
-   "note": null,
+   "site": "https://www.stchrisparishnh.org",
+   "phone": "(603) 882-0632",
+   "note": "Daily Mass Monday to Thursday 7:30 am; confessions Monday to Thursday 8 am and Saturday 2:30 to 3:30 pm; holy days 7:30 am and 7 pm. Parish outreach includes the Corpus Christi Food Pantry, St. Vincent de Paul Society and Thanksgiving food baskets.",
    "source": {
     "label": "Wikipedia, List of parishes in the Diocese of Manchester",
     "url": "https://en.wikipedia.org/wiki/List_of_parishes_in_the_Diocese_of_Manchester"
-   },
-   "needs_review": true,
-   "review_note": "Sunday times from a third-party Mass-times directory, not the parish site; Saturday vigil times not found."
+   }
   },
   {
    "name": "St. John XXIII Parish (Infant Jesus Church)",
    "tradition": "Roman Catholic",
    "town": "Nashua",
    "address": "121 Allds St, Nashua, NH 03060",
-   "services": null,
+   "services": "Saturday 6 pm; Sunday 8 am (Portuguese) and 10:30 am",
    "servicesSource": {
-    "label": "Catholic Church Times, Sunday Mass in Nashua",
-    "url": "https://www.catholicchurchtimes.com/mass/sunday/united-states/new-hampshire/nashua"
+    "label": "Catholic Mass Times, St. John XXIII Parish",
+    "url": "https://www.catholicmasstime.org/church/st-john-evangelist-churchsaint-john-xxiii-parish/19346/"
    },
    "site": "http://www.stjohnxxiiinh.org/",
-   "phone": null,
-   "note": "Formed in 2007 from the merger of St. John the Evangelist and Infant Jesus parishes.",
+   "phone": "(603) 882-2462",
+   "note": "Formed in 2007 from the merger of St. John the Evangelist and Infant Jesus parishes. Second church is St. John the Evangelist, 25 Library St, Hudson (Saturday 4 pm, Sunday 8 am). Weekday Mass at Infant Jesus Tuesday and Thursday 8:30 am.",
    "source": {
     "label": "Wikipedia, List of parishes in the Diocese of Manchester",
     "url": "https://en.wikipedia.org/wiki/List_of_parishes_in_the_Diocese_of_Manchester"
    },
    "needs_review": true,
-   "review_note": "The Mass-times directory lists this church twice with different Sunday times (8:30 and 10:30 am; 8 and 10:30 am); confirm with the parish."
+   "review_note": "Third-party directory listing; Discover Mass instead lists Saturday 6 and 7:30 pm (Portuguese) and Sunday 10:30 am. Parish site could not be opened."
   },
   {
    "name": "St. Joseph the Worker Parish",
    "tradition": "Roman Catholic",
    "town": "Nashua",
    "address": "777 W. Hollis St, Nashua, NH 03062",
-   "services": "Sunday 8 and 10 am",
+   "services": "Saturday 4 pm (vigil); Sunday 8 and 10 am",
    "servicesSource": {
-    "label": "Catholic Church Times, Sunday Mass in Nashua",
-    "url": "https://www.catholicchurchtimes.com/mass/sunday/united-states/new-hampshire/nashua"
+    "label": "St. Joseph the Worker Parish, directions and Mass times",
+    "url": "https://www.stjoenash.org/directions"
    },
    "site": "https://www.stjoenash.org/",
-   "phone": null,
-   "note": null,
+   "phone": "603-883-0757",
+   "note": "Weekday Mass Tuesday and Thursday 8 am; confession Saturday 3 to 3:45 pm.",
    "source": {
     "label": "Wikipedia, List of parishes in the Diocese of Manchester",
     "url": "https://en.wikipedia.org/wiki/List_of_parishes_in_the_Diocese_of_Manchester"
-   },
-   "needs_review": true,
-   "review_note": "Sunday times from a third-party Mass-times directory, not the parish site; Saturday vigil times not found."
+   }
   },
   {
    "name": "St. Stanislaus Catholic Church",
@@ -185,14 +181,14 @@
    "services": null,
    "servicesSource": null,
    "site": "http://www.stphilipnh.org/",
-   "phone": null,
-   "note": null,
+   "phone": "(603) 889-4000",
+   "note": "GreekBoston gives the site as stphilipnashua.com; a 2021 list gave stphilipnh.org.",
    "source": {
     "label": "Rivier University, Worship in the Local Community (2021, PDF)",
     "url": "https://www.rivier.edu/student-life/wp-content/uploads/sites/15/2021/08/Worship-in-the-Local-Community-REV0821.pdf"
    },
    "needs_review": true,
-   "review_note": "Listed in third-party directories only; service times not confirmed from the congregation's own site."
+   "review_note": "Service times not found; the church's own site could not be opened."
   },
   {
    "name": "St. Mary and Archangel Michael Coptic Orthodox Church",
@@ -216,17 +212,18 @@
    "tradition": "United Church of Christ",
    "town": "Nashua",
    "address": "1 Concord St, Nashua, NH 03064",
-   "services": null,
-   "servicesSource": null,
+   "services": "Sunday 8:15 and 10 am",
+   "servicesSource": {
+    "label": "First Church Nashua, home page",
+    "url": "https://tfcucc.org/"
+   },
    "site": "https://tfcucc.org/",
-   "phone": null,
+   "phone": "603-882-4861",
    "note": null,
    "source": {
     "label": "Rivier University, Worship in the Local Community (2021, PDF)",
     "url": "https://www.rivier.edu/student-life/wp-content/uploads/sites/15/2021/08/Worship-in-the-Local-Community-REV0821.pdf"
-   },
-   "needs_review": true,
-   "review_note": "Listed in third-party directories only; service times not confirmed from the congregation's own site."
+   }
   },
   {
    "name": "Pilgrim Congregational Church, UCC",
@@ -250,34 +247,38 @@
    "tradition": "Episcopal",
    "town": "Nashua",
    "address": "214 Main St, Nashua, NH 03060",
-   "services": null,
-   "servicesSource": null,
+   "services": "Sunday 8 and 10 am Holy Eucharist",
+   "servicesSource": {
+    "label": "Episcopal Asset Map, Church of the Good Shepherd, Nashua",
+    "url": "https://www.episcopalassetmap.org/node/1219"
+   },
    "site": "http://www.cgsnashua.org/",
-   "phone": null,
+   "phone": "603-882-5352",
    "note": "One directory lists it as Anglican; others list it as Episcopal.",
    "source": {
     "label": "Rivier University, Worship in the Local Community (2021, PDF)",
     "url": "https://www.rivier.edu/student-life/wp-content/uploads/sites/15/2021/08/Worship-in-the-Local-Community-REV0821.pdf"
    },
    "needs_review": true,
-   "review_note": "Listed in third-party directories only; service times not confirmed from the congregation's own site."
+   "review_note": "Times from the Episcopal Church's asset map, not the parish site."
   },
   {
    "name": "Main Street United Methodist Church",
    "tradition": "United Methodist",
    "town": "Nashua",
    "address": "154 Main St, Nashua, NH 03060",
-   "services": null,
-   "servicesSource": null,
+   "services": "Sunday 10:30 am (in person and live-streamed)",
+   "servicesSource": {
+    "label": "Main Street UMC, home page",
+    "url": "https://sites.google.com/a/mainstreet-umc.org/www/home"
+   },
    "site": "https://www.mainstreet-umc.org/",
-   "phone": null,
-   "note": null,
+   "phone": "(603) 882-3361",
+   "note": "Hosts the Nashua Soup Kitchen & Shelter pantry on third Sundays and opens its sanctuary during the Downtown Holiday Stroll.",
    "source": {
     "label": "Rivier University, Worship in the Local Community (2021, PDF)",
     "url": "https://www.rivier.edu/student-life/wp-content/uploads/sites/15/2021/08/Worship-in-the-Local-Community-REV0821.pdf"
-   },
-   "needs_review": true,
-   "review_note": "Listed in third-party directories only; service times not confirmed from the congregation's own site."
+   }
   },
   {
    "name": "Arlington Street United Methodist Church",
@@ -437,17 +438,20 @@
    "tradition": "The Salvation Army",
    "town": "Nashua",
    "address": "1 Montgomery Ave, Nashua, NH 03060",
-   "services": null,
-   "servicesSource": null,
-   "site": null,
-   "phone": null,
-   "note": null,
+   "services": "Sunday 10 am worship and children's church (also streamed)",
+   "servicesSource": {
+    "label": "The Salvation Army, Nashua",
+    "url": "https://nne.salvationarmy.org/nashua/welcome-to-the-salvation-army"
+   },
+   "site": "https://nne.salvationarmy.org/nashua/welcome-to-the-salvation-army",
+   "phone": "603-889-5151",
+   "note": "Runs a weekday food pantry and a Monday senior luncheon (see services).",
    "source": {
     "label": "Devout.org, Churches in Nashua",
     "url": "https://www.devout.org/churches/nh/nashua"
    },
    "needs_review": true,
-   "review_note": "Listed in third-party directories only; service times not confirmed from the congregation's own site."
+   "review_note": "Street address from a directory; the Salvation Army page opened did not show it."
   },
   {
    "name": "First Baptist Church of Nashua",
@@ -743,34 +747,36 @@
    "tradition": "Nondenominational Christian",
    "town": "Nashua",
    "address": "43 Main St, Nashua, NH 03064",
-   "services": null,
-   "servicesSource": null,
+   "services": "Sunday 8:30 and 10:30 am (English); 10:30 am (Portuguese and English); 1 pm (Russian and English)",
+   "servicesSource": {
+    "label": "Gate City Church, home page",
+    "url": "https://gatecitychurch.org/"
+   },
    "site": "https://www.gatecitychurch.org/",
-   "phone": null,
+   "phone": "(603) 883-8273",
    "note": null,
    "source": {
     "label": "Rivier University, Worship in the Local Community (2021, PDF)",
     "url": "https://www.rivier.edu/student-life/wp-content/uploads/sites/15/2021/08/Worship-in-the-Local-Community-REV0821.pdf"
-   },
-   "needs_review": true,
-   "review_note": "Listed in third-party directories only; service times not confirmed from the congregation's own site."
+   }
   },
   {
    "name": "Crossway Christian Church",
    "tradition": "Nondenominational Christian",
    "town": "Nashua",
-   "address": "501 Main Dunstable Rd, Nashua, NH 03062",
-   "services": null,
-   "servicesSource": null,
+   "address": "503 Main Dunstable Rd, Nashua, NH 03062 (Pond Campus)",
+   "services": "Pond Campus: Sunday 8, 9:30 and 11 am. Downtown Campus: Sunday 9 and 10:30 am",
+   "servicesSource": {
+    "label": "Crossway Christian Church, The Pond Campus",
+    "url": "https://crosswaychristianchurchnh.snappages.site/the-pond"
+   },
    "site": "https://crosswaycc.org",
-   "phone": null,
-   "note": "Also lists a downtown campus at 33 Pine St.",
+   "phone": "(603) 594-0123",
+   "note": "A directory listed 501 Main Dunstable Rd and a downtown campus at 33 Pine St; the church's page gives 503 Main Dunstable Rd and does not show the downtown address.",
    "source": {
     "label": "Devout.org, Churches in Nashua",
     "url": "https://www.devout.org/churches/nh/nashua"
-   },
-   "needs_review": true,
-   "review_note": "Listed in third-party directories only; service times not confirmed from the congregation's own site."
+   }
   },
   {
    "name": "Go!Church",
@@ -845,17 +851,20 @@
    "tradition": "Evangelical, nondenominational",
    "town": "Nashua",
    "address": "52 Whitney St, Nashua, NH 03064",
-   "services": null,
-   "servicesSource": null,
+   "services": "Sunday 11 am",
+   "servicesSource": {
+    "label": "Ink Link, Humans of Nashua: The Tolles Street Mission volunteers",
+    "url": "https://nashua.inklink.news/humans-of-nashua-the-tolles-street-mission-volunteers-bringing-gods-heart-into-the-heart-of-the-city/"
+   },
    "site": null,
    "phone": null,
-   "note": null,
+   "note": "Runs a food pantry, sidewalk meals and a clothing closet (see services).",
    "source": {
     "label": "Devout.org, Churches in Nashua",
     "url": "https://www.devout.org/churches/nh/nashua"
    },
    "needs_review": true,
-   "review_note": "Listed in third-party directories only; service times not confirmed from the congregation's own site."
+   "review_note": "Service time from an undated local news feature, not the mission's own site."
   },
   {
    "name": "Nashua Church of Christ",
@@ -918,13 +927,13 @@
    "servicesSource": null,
    "site": "http://www.tbanashua.org",
    "phone": "603-883-8184",
-   "note": null,
+   "note": "Rabbi Jonathan Spira-Savett (Jewish Federation of NH directory). Has held Soul Shabbat, a one-hour musical service, on some Saturday mornings (9:45 am in a November 2025 listing).",
    "source": {
     "label": "Jewish Federation of NH community directory, Temple Beth Abraham",
     "url": "https://jewishnh.org/community-directory/temple-beth-abraham"
    },
    "needs_review": true,
-   "review_note": "Service times not found on an opened page."
+   "review_note": "Regular service times not found; the temple's site and calendar could not be opened."
   },
   {
    "name": "Islamic Society of Greater Nashua",
@@ -944,7 +953,7 @@
     "url": "https://www.zabihah.com/mosques/1377ca51-776a-11ef-95ae-6045bdeb9f57/islamic-society-of-greater-nashua-nashua-nh"
    },
    "needs_review": true,
-   "review_note": "Prayer times from a third-party mosque directory; confirm on the society's site."
+   "review_note": "Prayer times from a third-party mosque directory (rechecked Nov 2026); the society's own site could not be opened."
   },
   {
    "name": "Hindu Temple of New Hampshire",
@@ -1018,23 +1027,215 @@
    "review_note": "Named only on a 2020 interfaith council page; no address or schedule found."
   }
  ],
- "events": [],
- "eventsNote": "No November or December 2026 faith events (suppers, fairs, concerts, holiday services) were found in opened sources.",
+ "events": [
+  {
+   "date": "2026-11-05",
+   "time": "10:00 am",
+   "title": "Thrift shop sale",
+   "venue": "First Church Nashua Congregational U.C.C., 1 Concord St",
+   "town": "Nashua",
+   "kind": "Faith",
+   "url": "https://localnh.com/events/thrift-shop-2026-11-05",
+   "source": "LocalNH events listing",
+   "needs_review": true,
+   "review_note": "Event aggregator listing; not confirmed on the church's site. End time not listed."
+  },
+  {
+   "date": "2026-11-07",
+   "time": "9:00 am",
+   "title": "Holiday Fair",
+   "venue": "First Church Nashua Congregational U.C.C., 1 Concord St",
+   "town": "Nashua",
+   "kind": "Faith",
+   "url": "https://localnh.com/events/holiday-fair-2026-11-07",
+   "source": "LocalNH events listing",
+   "needs_review": true,
+   "review_note": "Event aggregator listing; not confirmed on the church's site. End time not listed."
+  },
+  {
+   "date": "2026-11-14",
+   "time": "9 am to 3 pm (kitchen until 2 pm)",
+   "title": "Fall Fair",
+   "venue": "Main Street United Methodist Church, 154 Main St",
+   "town": "Nashua",
+   "kind": "Faith",
+   "url": "https://www.thecraftmap.com/fairs/new-hampshire/nashua/holiday-craft-fairs",
+   "source": "The Craft Map, Nashua holiday craft fairs (also listed on LocalNH)",
+   "needs_review": true,
+   "review_note": "Craft-fair aggregator listing; not confirmed on the church's site."
+  },
+  {
+   "date": "2026-11-18",
+   "time": "1:00 pm",
+   "title": "Surviving the Holidays (GriefShare seminar for people grieving a loss)",
+   "venue": "Community Chapel Church of the Nazarene, 5 St. Laurent St",
+   "town": "Nashua",
+   "kind": "Faith",
+   "url": "https://find.griefshare.org/groups/294608",
+   "source": "GriefShare group finder",
+   "note": "$7, includes a survival guide."
+  },
+  {
+   "date": "2026-11-21",
+   "time": "8 am to 2 pm",
+   "title": "St. Joseph the Worker Holiday Fair",
+   "venue": "St. Joseph the Worker Parish, 777 W. Hollis St",
+   "town": "Nashua",
+   "kind": "Faith",
+   "url": "https://www.stjoenash.org/post/saint-joseph-the-worker-holiday-fair-2026",
+   "source": "St. Joseph the Worker Parish (parish website)",
+   "note": "Crafters, bake sale, raffles, theme baskets and a book room; Knights of Columbus kitchen serves breakfast and lunch."
+  },
+  {
+   "date": "2026-11-28",
+   "time": "4 to 9 pm",
+   "title": "Open church during the Downtown Holiday Stroll",
+   "venue": "Main Street United Methodist Church, 154 Main St",
+   "town": "Nashua",
+   "kind": "Faith",
+   "url": "https://sites.google.com/a/mainstreet-umc.org/www/serve/fellowship/downtown-holiday-stroll",
+   "source": "Main Street United Methodist Church (church website)",
+   "note": "Music in the sanctuary including the church choir, plus a kids' spot with free cocoa, coloring and crafts."
+  },
+  {
+   "date": "2026-12-06",
+   "time": "3:00 pm",
+   "title": "Nashua Choral Society holiday concert: The Work of Christmas, Where Peace and Joy Begin",
+   "venue": "Immaculate Conception Church, 216 E. Dunstable Rd",
+   "town": "Nashua",
+   "kind": "Faith",
+   "url": "https://www.choralarts-newengland.org/Calendar/dc/503nashuachoralsociety",
+   "source": "Choral Arts New England concert calendar",
+   "note": "Presented by the Nashua Choral Society (a community chorus), held at the church. Tickets not listed.",
+   "needs_review": true,
+   "review_note": "Concert calendar listing; ticket details not confirmed."
+  }
+ ],
+ "eventsNote": "Events come from opened church pages and event listings. No Christmas Eve, Christmas, Advent or Hanukkah (Dec 4 to 11, 2026) service times for Nashua congregations were posted on pages that could be opened as of Nov 1, 2026.",
  "services": [
   {
    "name": "Corpus Christi Food Pantry",
-   "what": "Food pantry, listed with Corpus Christi Chapel",
+   "what": "Food pantry and financial assistance for Nashua residents",
    "town": "Nashua",
-   "when": null,
-   "url": "https://www.devout.org/churches/nh/nashua",
-   "address": "43 Franklin St, Nashua, NH 03064",
-   "note": "Listed in a church directory as 'Chorpus Christi Chapel & Food Pantry'. Hours and eligibility not found.",
+   "when": "Mon and Wed 10 am to noon; Tue and Thu 2 to 4 pm",
+   "address": "3 Crown St, Nashua, NH 03060",
+   "phone": "603-882-6372",
+   "url": "https://www.stchrisparishnh.org/corpus-christi-food-pantry",
+   "note": "St. Christopher Parish describes it as an outreach arm of the Roman Catholic parishes in Nashua, open four days a week. Visits limited to once every 21 days. An older church directory listed it with Corpus Christi Chapel at 43 Franklin St.",
    "source": {
-    "label": "Devout.org, Churches in Nashua",
-    "url": "https://www.devout.org/churches/nh/nashua"
+    "label": "Macaroni Kid Nashua directory, Corpus Christi Food Pantry",
+    "url": "https://nashua.macaronikid.com/directory/668ff0b70de2576aae06976e/corpus-christi-food-pantry-and-assistance"
    },
    "needs_review": true,
-   "review_note": "Directory listing only; confirm hours and that it is open."
+   "review_note": "Address and hours from Macaroni Kid and FoodPantries.org (they agree on hours); the parish page gives no hours."
+  },
+  {
+   "name": "Nashua Soup Kitchen & Shelter",
+   "what": "Free breakfast and dinner, food pantry, emergency shelter, showers and laundry",
+   "town": "Nashua",
+   "when": "Breakfast Mon to Fri 7:30 to 8:30 am; dinner Mon to Sat 4 to 6 pm, Sun noon to 1:30 pm; pantry Mon, Wed, Thu, Fri 11 am to 2:45 pm, Tue 5:30 to 7:30 pm, third Sunday 2 to 4 pm",
+   "address": "2 Quincy St, Nashua, NH 03060",
+   "url": "https://nashua.macaronikid.com/directory/668feeb27c453775294f7c4f/nashua-soup-kitchen-and-shelter",
+   "note": "Founded 1981. Not described as faith-affiliated on any page opened. Main Street United Methodist Church volunteers host the third-Sunday pantry (2:30 to 4 pm per the church).",
+   "source": {
+    "label": "Macaroni Kid Nashua directory, Nashua Soup Kitchen and Shelter",
+    "url": "https://nashua.macaronikid.com/directory/668feeb27c453775294f7c4f/nashua-soup-kitchen-and-shelter"
+   },
+   "needs_review": true,
+   "review_note": "Hours from a directory; an undated Ink Link article gives slightly different pantry hours (Mon, Wed to Fri 11 am to 2:25 pm; Tue 6 to 7 pm). Confirm at nsks.org."
+  },
+  {
+   "name": "The Salvation Army food pantry and senior luncheon",
+   "what": "Bags of non-perishable food plus bread and pastries for anyone in need; senior luncheon",
+   "town": "Nashua",
+   "when": "Pantry Mon to Fri 9 am to noon; Senior's Luncheon Mondays at noon",
+   "address": "1 Montgomery Ave, Nashua, NH 03060",
+   "phone": "603-889-5151",
+   "url": "https://nne.salvationarmy.org/nashua/welcome-to-the-salvation-army",
+   "note": "Run by The Salvation Army, Nashua corps.",
+   "source": {
+    "label": "The Salvation Army, Nashua",
+    "url": "https://nne.salvationarmy.org/nashua/welcome-to-the-salvation-army"
+   }
+  },
+  {
+   "name": "Tolles Street Mission meals, food pantry and clothing closet",
+   "what": "Free meals, food pantry, clothing closet; Easter, Thanksgiving and Christmas meals",
+   "town": "Nashua",
+   "when": "Meals Mon and Thu noon to 2 pm",
+   "address": "52 Whitney St, Nashua, NH",
+   "phone": "(603) 880-4984",
+   "url": "https://nashua.inklink.news/humans-of-nashua-the-tolles-street-mission-volunteers-bringing-gods-heart-into-the-heart-of-the-city/",
+   "note": "Christian mission. FoodPantries.org lists pantry hours Mon and Thu noon to 2 pm and Tue and Wed 10:30 to 12:30.",
+   "source": {
+    "label": "Ink Link, Humans of Nashua: The Tolles Street Mission volunteers",
+    "url": "https://nashua.inklink.news/humans-of-nashua-the-tolles-street-mission-volunteers-bringing-gods-heart-into-the-heart-of-the-city/"
+   },
+   "needs_review": true,
+   "review_note": "From an undated news feature and a pantry directory; not confirmed on the mission's own site."
+  },
+  {
+   "name": "Southern New Hampshire Rescue Mission",
+   "what": "Meals, men's emergency shelter, clothing and a transitional employment program",
+   "town": "Nashua",
+   "when": null,
+   "address": "40 Chestnut St, Nashua, NH 03060",
+   "phone": "603-889-3421",
+   "url": "https://new.graceslist.org/?p=4642",
+   "note": "Christian ministry whose stated mission is to share the hope of the Gospel of Jesus Christ. Crossway Christian Church lists it as a partner.",
+   "source": {
+    "label": "Grace's List, Southern New Hampshire Rescue Mission",
+    "url": "https://new.graceslist.org/?p=4642"
+   },
+   "needs_review": true,
+   "review_note": "Meal times and hours not found."
+  },
+  {
+   "name": "Crossway Saturday Morning Ministry",
+   "what": "Warm breakfast with conversation and Bible study",
+   "town": "Nashua",
+   "when": "Saturday mornings (time not listed)",
+   "where": "Crossway Christian Church Downtown Campus",
+   "url": "https://crosswaychristianchurchnh.snappages.site/local-outreach",
+   "note": "Run by Crossway Christian Church.",
+   "source": {
+    "label": "Crossway Christian Church, Local Outreach",
+    "url": "https://crosswaychristianchurchnh.snappages.site/local-outreach"
+   },
+   "needs_review": true,
+   "review_note": "Start time and downtown address not given on the church's page."
+  },
+  {
+   "name": "Grace Lutheran Church food pantry",
+   "what": "Emergency food for neighbors in need",
+   "town": "Nashua",
+   "when": "Second Thursday of each month, 6 to 7:30 pm",
+   "address": "130 Spit Brook Rd, Nashua, NH 03062",
+   "phone": "(603) 888-7579",
+   "url": "https://www.foodpantries.org/li/grace_lutheran_church_3062",
+   "note": "Run by Grace Lutheran Church. Directory asks for proof of residency.",
+   "source": {
+    "label": "FoodPantries.org, Grace Lutheran Church",
+    "url": "https://www.foodpantries.org/li/grace_lutheran_church_3062"
+   },
+   "needs_review": true,
+   "review_note": "Directory listing; confirm with the church."
+  },
+  {
+   "name": "St. Christopher Parish St. Vincent de Paul Society and holiday food baskets",
+   "what": "Parish charity outreach and Thanksgiving and Easter food baskets",
+   "town": "Nashua",
+   "when": null,
+   "address": "62 Manchester St, Nashua, NH 03064",
+   "phone": "(603) 882-0632",
+   "url": "https://www.stchrisparishnh.org/service-and-community-outreach",
+   "note": "Listed on the parish outreach page without schedules.",
+   "source": {
+    "label": "St. Christopher Parish, Service and Community Outreach",
+    "url": "https://www.stchrisparishnh.org/service-and-community-outreach"
+   },
+   "needs_review": true,
+   "review_note": "No dates or sign-up details shown; call the parish."
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "as_of": "2026-11-01",
- "note": "Congregations in the Mount Washington Valley towns. Service times are given only where a source was opened; most come from third-party directories and are marked for review. Several congregations' own websites could not be opened in this update (search limits), so many entries have no service times. No congregations were found for Albany, Eaton, Freedom, Hart's Location or Tamworth (other than a Chocorua listing) in the sources opened; that is a gap in this list, not proof there are none. Listing is in no particular order and implies no endorsement.",
+ "note": "Congregations, community help and events run by congregations in the Mount Washington Valley towns. Service times are given only where a source was opened; many come from third-party directories and are marked for review. Several congregations' own websites could not be opened in this update, so many entries have no service times. No congregation was found in Albany or Hart's Location in the sources opened; that is a gap in this list, not proof there are none. No Muslim, Quaker, Buddhist, Latter-day Saints, Jehovah's Witnesses, Baha'i, Christian Science or Orthodox congregation was found meeting in the nine towns; the nearest found were outside the valley (for example a Latter-day Saints branch in Wolfeboro and Kingdom Halls in Campton and Bath). Listing is in no particular order and implies no endorsement.",
  "congregations": [
   {
    "name": "Our Lady of the Mountains",
@@ -91,13 +91,19 @@
    "servicesSource": null,
    "site": "https://www.thebrownchurch.org/",
    "phone": "603-447-3851",
-   "note": "Describes itself as Bible-based and service-oriented, with free community dinners, a food pantry and meeting space for recovery groups.",
+   "note": "Describes itself as Bible-based and service-oriented, with free community dinners, a food pantry and meeting space for recovery groups. Holds an annual Christmas Fair and tree lighting in early December (in 2025: Dec. 6, fair 10 am to 4 pm, tree lighting and caroling 4:30 pm, per The Laker); the 2026 date was not found.",
    "source": {
     "label": "GuideStar profile",
     "url": "https://www.guidestar.org/profile/02-0236859"
    },
    "needs_review": true,
-   "review_note": "Service times not found; the church website could not be opened."
+   "review_note": "Service times not found; the church website could not be opened.",
+   "moreSources": [
+    {
+     "label": "The Laker, White Mountains events (Winter/Spring 2025/2026)",
+     "url": "https://thelaker.com/white-mountains-events"
+    }
+   ]
   },
   {
    "name": "St. Margaret of Scotland Anglican Church",
@@ -140,7 +146,7 @@
    "servicesSource": null,
    "site": "https://www.conwaychurchofchrist.net",
    "phone": "603-447-8855",
-   "note": null,
+   "note": "ChurchesList lists a 'Church Of Christ' on Highway 113 in Conway with no street number; likely the same congregation.",
    "source": {
     "label": "NH Living, White Mountains NH Churches & Synagogues (third-party directory)",
     "url": "https://nhliving.com/?p=496"
@@ -157,13 +163,13 @@
    "servicesSource": null,
    "site": null,
    "phone": "603-447-5068",
-   "note": null,
+   "note": "Plentiful's food pantry directory lists a 'Journey Church Food Pantry' at 15 Hutchins Dr., Conway, with the same phone number (603-447-5068); the congregation may now use the name Journey Church or a new address. Not confirmed.",
    "source": {
     "label": "NH Living, White Mountains NH Churches & Synagogues (third-party directory)",
     "url": "https://nhliving.com/?p=496"
    },
    "needs_review": true,
-   "review_note": "From a third-party directory; service times and website not found."
+   "review_note": "From a third-party directory; current name, address, service times and website not confirmed."
   },
   {
    "name": "Seventh-day Adventist Church (Conway)",
@@ -191,7 +197,7 @@
    "servicesSource": null,
    "site": null,
    "phone": "603-447-2085",
-   "note": "A separate directory lists a 'Conway United Methodist Church' at 121 Main St (603-447-5303), the building Next Level Church now uses; that listing appears outdated and is not included.",
+   "note": "A separate directory lists a 'Conway United Methodist Church' at 121 Main St (603-447-5303), the building Next Level Church now uses; that listing appears outdated and is not included. Address and phone confirmed by the Christianity.com church directory.",
    "source": {
     "label": "YellowPages, North Conway churches (third-party directory)",
     "url": "https://www.yellowpages.com/north-conway-nh/churches"
@@ -242,16 +248,16 @@
    "servicesSource": null,
    "site": "https://www.glencommunitybaptist.com",
    "phone": "603-383-9223",
-   "note": "Glen is a village in the town of Bartlett.",
+   "note": "Glen is a village in the town of Bartlett. FoodPantries.org lists the address as 38 Rte 302, Glen, which differs from YellowPages.",
    "source": {
     "label": "YellowPages, North Conway churches (third-party directory)",
     "url": "https://www.yellowpages.com/north-conway-nh/churches"
    },
    "needs_review": true,
-   "review_note": "From YellowPages; service times not found."
+   "review_note": "From third-party directories with conflicting street numbers; service times not found."
   },
   {
-   "name": "Union Congregational Church",
+   "name": "Bartlett Union Congregational Church",
    "tradition": "Congregational",
    "town": "Bartlett",
    "address": "14 Albany Ave, Bartlett, NH 03812",
@@ -259,7 +265,7 @@
    "servicesSource": null,
    "site": "https://www.bartlettchurch.net",
    "phone": "603-374-1868",
-   "note": null,
+   "note": "At the corner of Bear Notch Road and Route 302 in Bartlett village.",
    "source": {
     "label": "YellowPages, North Conway churches (third-party directory)",
     "url": "https://www.yellowpages.com/north-conway-nh/churches"
@@ -269,54 +275,212 @@
   },
   {
    "name": "Jackson Community Church",
-   "tradition": "Christian (denomination not stated in source)",
+   "tradition": "United Church of Christ",
    "town": "Jackson",
    "address": "127 Main St, Jackson, NH 03846",
    "services": null,
    "servicesSource": null,
    "site": "http://www.jacksoncommunitychurch.org",
    "phone": "603-383-6187",
-   "note": null,
+   "note": "ChurchesList describes the church as part of the United Church of Christ tradition (it gives a Glen mailing address).",
    "source": {
     "label": "YellowPages, North Conway churches (third-party directory)",
     "url": "https://www.yellowpages.com/north-conway-nh/churches"
    },
    "needs_review": true,
-   "review_note": "From YellowPages; tradition and service times not found."
+   "review_note": "Tradition from a third-party directory; service times not found.",
+   "moreSources": [
+    {
+     "label": "ChurchesList, Jackson Community Church (third-party directory)",
+     "url": "https://churcheslist.com/jackson-jackson-community-church/"
+    }
+   ]
   },
   {
-   "name": "Madison Baptist Church",
-   "tradition": "Baptist",
+   "name": "The Madison Church",
+   "tradition": "Baptist (American Baptist Churches of Vermont and New Hampshire; Cooperative Baptist Fellowship)",
    "town": "Madison",
    "address": "53 Conway Rd, Madison, NH 03849",
-   "services": null,
-   "servicesSource": null,
-   "site": "https://www.themadisonchurch.org",
+   "services": "Sunday 10 am",
+   "servicesSource": {
+    "label": "Madison Church website, About page",
+    "url": "https://madisonchurch.squarespace.com/about"
+   },
+   "site": "https://madisonchurch.squarespace.com",
    "phone": "603-367-4705",
-   "note": null,
+   "note": "Describes itself as 'a community church in the Baptist tradition.' Listed as Madison Baptist Church by YellowPages and as The Madison Church, 53 Conway Road, by Devout. YellowPages lists themadisonchurch.org as its website.",
    "source": {
     "label": "YellowPages, North Conway churches (third-party directory)",
     "url": "https://www.yellowpages.com/north-conway-nh/churches"
    },
    "needs_review": true,
-   "review_note": "From YellowPages; service times not found."
+   "review_note": "The church's About page does not state its town; matched to Madison, NH by its New Hampshire Baptist affiliation and directory listings.",
+   "moreSources": [
+    {
+     "label": "Devout, The Madison Church (third-party directory)",
+     "url": "https://www.devout.org/churches/nh/madison/the-madison-church"
+    }
+   ]
   },
   {
    "name": "Chocorua Community Church",
-   "tradition": "Christian (denomination not stated in source)",
-   "town": "Madison",
-   "address": "40 Drew Hill Rd, Madison, NH 03849 (YellowPages also lists 40 Deer Hill Rd, Chocorua)",
+   "tradition": "Community church (founded 1781 as the First Free Will Baptist Church of Tamworth; renamed Chocorua Baptist Church in 1921)",
+   "town": "Tamworth",
+   "address": "Route 113, Chocorua, NH 03817 (YellowPages also lists 40 Deer Hill Rd, Chocorua, and 40 Drew Hill Rd, Madison)",
    "services": null,
    "servicesSource": null,
    "site": null,
    "phone": "603-323-7186",
-   "note": "Chocorua is a village mostly in Tamworth; the directory gives both a Madison and a Chocorua address, so the town may be Tamworth.",
+   "note": "Chocorua is a village of Tamworth. Buildings of New England calls the 1835 building 'a community center of the Chocorua Village of Tamworth.' Moved from Madison to Tamworth in this update.",
    "source": {
-    "label": "YellowPages, North Conway churches (third-party directory)",
-    "url": "https://www.yellowpages.com/north-conway-nh/churches"
+    "label": "ChurchesList, Chocorua Community Church (third-party directory)",
+    "url": "https://churcheslist.com/chocorua-community-church"
    },
    "needs_review": true,
-   "review_note": "Conflicting addresses and town; tradition and service times not found."
+   "review_note": "Street address and current activity not confirmed; service times and website not found.",
+   "moreSources": [
+    {
+     "label": "Buildings of New England, 'Chocorua Community Church // 1835' (2026)",
+     "url": "https://buildingsofnewengland.com/2026/07/29/chocorua-community-church-1835/"
+    },
+    {
+     "label": "YellowPages, North Conway churches (third-party directory)",
+     "url": "https://www.yellowpages.com/north-conway-nh/churches"
+    }
+   ]
+  },
+  {
+   "name": "St. Andrew's-in-the-Valley",
+   "tradition": "Episcopal",
+   "town": "Tamworth",
+   "address": "678 Whittier Road, Tamworth, NH 03886",
+   "services": "Sunday 8 and 10 am",
+   "servicesSource": {
+    "label": "Episcopal Asset Map",
+    "url": "https://www.episcopalassetmap.org/node/1231"
+   },
+   "site": "https://standrewsinthevalley.org/",
+   "phone": "603-323-8515",
+   "note": "Stone church built in 1927 in the Whittier area of Tamworth. The Community Food Center of Tamworth food pantry uses the same address. The Asset Map also lists Christmas Eve services at 5:30 pm and 9:30 pm, without a year.",
+   "needs_review": true,
+   "review_note": "Service times from the Episcopal Asset Map, not the church's own site; Christmas Eve times may not be for 2026."
+  },
+  {
+   "name": "Unitarian Universalist Fellowship of the Eastern Slopes (UUFES)",
+   "tradition": "Unitarian Universalist",
+   "town": "Tamworth",
+   "address": "30 Tamworth Road, Tamworth, NH 03886 (mail: PO Box 474)",
+   "services": null,
+   "servicesSource": null,
+   "site": "http://www.uufesnh.org",
+   "phone": "603-323-8585",
+   "note": "A member congregation of the Unitarian Universalist Association. 'UUFES' on the Tamworth community calendar refers to this fellowship. Phone from eBibleStories, which gives uufes.org as the website instead.",
+   "source": {
+    "label": "Unitarian Universalist Association congregation directory",
+    "url": "https://www.uua.org/node/2259"
+   },
+   "moreSources": [
+    {
+     "label": "eBibleStories listing (third-party directory)",
+     "url": "https://ebiblestories.com/church/listing_250514.shtml"
+    }
+   ],
+   "needs_review": true,
+   "review_note": "Service times not found; phone from a third-party directory; two different website addresses listed."
+  },
+  {
+   "name": "Tamworth Congregational Church",
+   "tradition": "Independent Reformed church",
+   "town": "Tamworth",
+   "address": "28 Cleveland Hill Rd., Tamworth, NH 03886 (mail: PO Box 381)",
+   "services": "Sunday 10:30 am and 6 pm",
+   "servicesSource": {
+    "label": "Tamworth Congregational Church profile on SermonAudio",
+    "url": "https://www.sermonaudio.com/broadcasters/fbcnh"
+   },
+   "site": null,
+   "phone": null,
+   "note": "Describes itself as 'an independent Reformed church.' Services are also webcast on SermonAudio.",
+   "needs_review": true,
+   "review_note": "Service times from the church's SermonAudio profile; no standalone church website found."
+  },
+  {
+   "name": "Wonalancet Union Chapel",
+   "tradition": "Non-denominational",
+   "town": "Tamworth",
+   "address": "Center of Wonalancet village, Tamworth, NH (no street address found)",
+   "services": "Summer only (schedule not found)",
+   "servicesSource": {
+    "label": "Clio, Wonalancet Union Chapel",
+    "url": "https://theclio.com/entry/174045"
+   },
+   "site": null,
+   "phone": null,
+   "note": "Clio says the chapel 'continues to hold regular non-denominational services each summer.' Wonalancet is a village in Tamworth (Wikipedia).",
+   "moreSources": [
+    {
+     "label": "Wikipedia, Wonalancet, New Hampshire",
+     "url": "https://en.wikipedia.org/wiki/Wonalancet,_New_Hampshire"
+    }
+   ],
+   "needs_review": true,
+   "review_note": "Seasonal; summer schedule, address and contact not found. Not open for worship in November and December as far as sources show."
+  },
+  {
+   "name": "The First Christian Church of Freedom",
+   "tradition": "Christian (denomination not stated in source)",
+   "town": "Freedom",
+   "address": "12 Elm St, Freedom, NH 03836",
+   "services": null,
+   "servicesSource": null,
+   "site": null,
+   "phone": null,
+   "note": "Also listed as First Christian Church, Freedom, by Devout.",
+   "source": {
+    "label": "NAICSList company profile (third-party directory)",
+    "url": "https://naicslist.com/company-profile/the-first-christian-church-of-freedom-freedom-nh-03836"
+   },
+   "moreSources": [
+    {
+     "label": "Devout, First Christian Church (third-party directory)",
+     "url": "https://www.devout.org/churches/nh/freedom/first-christian-church"
+    }
+   ],
+   "needs_review": true,
+   "review_note": "From third-party directories only; tradition, service times, phone and website not found."
+  },
+  {
+   "name": "Community Church of Eaton (The Little White Church)",
+   "tradition": "Community church (the building was the Eaton Center Free Will Baptist Church)",
+   "town": "Eaton",
+   "address": "Eaton Center, Eaton, NH (no street address in source)",
+   "services": null,
+   "servicesSource": null,
+   "site": null,
+   "phone": null,
+   "note": "The Community Church of Eaton has owned the building since 1949. It hosts weddings, concerts, memorials and 'an annual Christmas Eve pageant.' Added to the National Register of Historic Places in 2026.",
+   "source": {
+    "label": "NHPR, Little White Church in Eaton added to National Register of Historic Places (Oct. 12, 2026)",
+    "url": "https://www.nhpr.org/nh-news/2026-10-12/little-white-church-eaton-national-register-historic-places"
+   },
+   "needs_review": true,
+   "review_note": "Whether regular worship is held, and when, was not found; 2026 Christmas Eve pageant time not found."
+  },
+  {
+   "name": "Mount Washington Valley Jewish Community Center (Chavurah HeHarim)",
+   "tradition": "Jewish",
+   "town": "Conway",
+   "address": null,
+   "services": "Monthly Friday night Shabbat gatherings, in person or on Zoom (dates not listed)",
+   "servicesSource": {
+    "label": "Jewish Federation of New Hampshire community directory",
+    "url": "https://www.jewishnh.org/community-directory/mount-washington-valley-jewish-community-chavurah-heharim"
+   },
+   "site": "https://www.mwvjcc.org",
+   "phone": "603-694-3058",
+   "note": "Chavurah HeHarim means 'Fellowship in the Mountains.' Formed in 1998 by Jewish residents of the valley.",
+   "needs_review": true,
+   "review_note": "Meeting place not stated (listed only as Mount Washington Valley); town set to Conway as a placeholder. Monthly dates not found."
   }
  ],
  "events": [
@@ -334,18 +498,18 @@
  ],
  "services": [
   {
-   "name": "Conway Village Congregational Church community dinners and food pantry",
-   "what": "Free community dinners and a food pantry",
+   "name": "Brown Church Food Pantry (Conway Village Congregational Church)",
+   "what": "Food pantry",
    "town": "Conway",
-   "when": null,
-   "url": "https://www.thebrownchurch.org/",
-   "note": "Run by Conway Village Congregational Church, UCC, 132 Main St, Conway. Schedule not found.",
+   "when": "Tuesday 8:30 am to noon (may be open other days; call 603-447-3851)",
+   "url": "https://feedam.org/resource/7073",
+   "note": "132 Main St, Conway. Feed America lists eligibility as 'appointment' but says requirements are unconfirmed.",
    "source": {
-    "label": "GuideStar profile",
-    "url": "https://www.guidestar.org/profile/02-0236859"
+    "label": "Feed America pantry listing (from FoodPantries.org)",
+    "url": "https://feedam.org/resource/7073"
    },
    "needs_review": true,
-   "review_note": "Schedule and current status not confirmed from the church's own site."
+   "review_note": "Hours from a third-party directory that says its schedule may be incomplete."
   },
   {
    "name": "Christ Episcopal Church Thrift Shop",
@@ -362,18 +526,76 @@
    "review_note": "Hours from the Episcopal Asset Map, not the church's own site."
   },
   {
-   "name": "Breadbasket Food Pantry",
+   "name": "The River Church Food Pantry and Bread Basket Dinner",
+   "what": "Food pantry and a community dinner",
+   "town": "Conway",
+   "when": null,
+   "url": null,
+   "note": "2600 East Main St, Center Conway (603-447-6686), the address of The River Church of Conway. YellowPages lists 'Breadbasket Food Pantry' at the same address (603-447-6633).",
+   "source": {
+    "label": "Plentiful food pantry directory, Conway",
+    "url": "https://directory.plentiful.org/new-hampshire/conway"
+   },
+   "needs_review": true,
+   "review_note": "From third-party directories; days and hours not found.",
+   "moreSources": [
+    {
+     "label": "Feed America, The River Church Food Pantry",
+     "url": "https://feedam.org/resource/7072"
+    },
+    {
+     "label": "YellowPages, North Conway churches (third-party directory)",
+     "url": "https://www.yellowpages.com/north-conway-nh/churches"
+    }
+   ]
+  },
+  {
+   "name": "Journey Church Food Pantry",
    "what": "Food pantry",
    "town": "Conway",
    "when": null,
    "url": null,
-   "note": "Listed at 2600 E Main St, Center Conway (603-447-6633), the same address as The River Church of Conway.",
+   "note": "15 Hutchins Dr., Conway (603-447-5068). Same phone as White Mountain Chapel.",
    "source": {
-    "label": "YellowPages, North Conway churches (third-party directory)",
-    "url": "https://www.yellowpages.com/north-conway-nh/churches"
+    "label": "Plentiful food pantry directory, Conway",
+    "url": "https://directory.plentiful.org/new-hampshire/conway"
    },
    "needs_review": true,
-   "review_note": "From a third-party directory; whether a congregation runs it and its hours were not confirmed."
+   "review_note": "From a third-party directory; hours and operator not confirmed."
+  },
+  {
+   "name": "Glen Community Baptist Church food pantry",
+   "what": "Food pantry",
+   "town": "Bartlett",
+   "when": "Saturday 10 am to noon (call first; hours may change)",
+   "url": "https://www.foodpantries.org/li/glen_community_baptist_church_3838",
+   "note": "Listed at 38 Rte 302, Glen (603-383-9223).",
+   "source": {
+    "label": "FoodPantries.org listing",
+    "url": "https://www.foodpantries.org/li/glen_community_baptist_church_3838"
+   },
+   "needs_review": true,
+   "review_note": "Hours from a third-party directory."
+  },
+  {
+   "name": "Community Food Center of Tamworth",
+   "what": "Food pantry (English and Spanish spoken)",
+   "town": "Tamworth",
+   "when": "Wednesdays (times not listed)",
+   "url": "https://directory.plentiful.org/new-hampshire/tamworth/community-food-center-of-tamworth-aff1a846",
+   "note": "678 Whittier Rd., Tamworth, the address of St. Andrew's-in-the-Valley, whose Episcopal Asset Map listing names the 'Community Food Center Food Pantry' and 'Meal Programs' among its ministries.",
+   "source": {
+    "label": "Plentiful food pantry directory, Tamworth",
+    "url": "https://directory.plentiful.org/new-hampshire/tamworth/community-food-center-of-tamworth-aff1a846"
+   },
+   "moreSources": [
+    {
+     "label": "Episcopal Asset Map, St. Andrew's-in-the-Valley",
+     "url": "https://www.episcopalassetmap.org/node/1231"
+    }
+   ],
+   "needs_review": true,
+   "review_note": "Hours and operator from third-party listings; meal program details not found."
   }
  ]
 }
