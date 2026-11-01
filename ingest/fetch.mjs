@@ -77,9 +77,12 @@ const MONTHS = 'january february march april may june july august september octo
 function dateIn(s) {
   s = decodeURIComponent(String(s)).replace(/\+/g, ' ');
   let m = s.match(/(20\d\d)[.\-_](\d{1,2})[.\-_](\d{1,2})/); if (m) return iso3(m[1], m[2], m[3]);
-  m = s.match(/\b(\d{1,2})[.\-_](\d{1,2})[.\-_](20\d\d|\d\d)\b/); if (m) return iso3(m[3].length === 2 ? '20' + m[3] : m[3], m[1], m[2]);
+  m = s.match(/(?<!\d)(\d{1,2})[.\-_](\d{1,2})[.\-_](20\d\d|\d\d)(?!\d)/); if (m) return iso3(m[3].length === 2 ? '20' + m[3] : m[3], m[1], m[2]);
   m = s.match(new RegExp('\\b(' + MONTHS.join('|') + ')\\s+(\\d{1,2}),?\\s+(20\\d\\d)', 'i')); if (m) return iso3(m[3], MONTHS.indexOf(m[1].toLowerCase()) + 1, m[2]);
   m = s.match(/\b(\d{2})(\d{2})(20\d\d)\b/); if (m) return iso3(m[3], m[1], m[2]);
+  // "October 28-29" in a file stored under /files/2026-10/: the year comes from the folder.
+  m = s.match(new RegExp('\\b(' + MONTHS.join('|') + ')\\s+(\\d{1,2})\\b', 'i')); const y = s.match(/\/(20\d\d)-\d\d\//);
+  if (m && y) return iso3(y[1], MONTHS.indexOf(m[1].toLowerCase()) + 1, m[2]);
   return null;
 }
 function iso3(y, mo, d) { mo = +mo; d = +d; if (mo < 1 || mo > 12 || d < 1 || d > 31) return null; return `${y}-${String(mo).padStart(2, '0')}-${String(d).padStart(2, '0')}`; }
@@ -128,15 +131,17 @@ const readers = {
   // CivicPlus Document Center folders load by script; this is the request the page itself makes.
   async 'civicplus-docs'(src) {
     const url = new URL('Admin/DocumentCenter/Home/Document_AjaxBinding?renderMode=0&loadSource=7', src.base).toString();
-    const body = new URLSearchParams({ folderId: String(src.folder), getDocuments: '1', imageRepo: 'false', renderMode: '0', loadSource: '7', requestingModuleID: '75', searchString: '', pageNumber: '1', rowsPerPage: String(src.max || 15), sortColumn: 'CreatedDate', sortOrder: '1' });
+    const body = new URLSearchParams({ folderId: String(src.folder), getDocuments: '1', imageRepo: 'false', renderMode: '0', loadSource: '7', requestingModuleID: '75', searchString: '', pageNumber: '1', rowsPerPage: '500', sortColumn: 'DisplayName', sortOrder: '0' });
     const j = await get(url, { as: 'json', method: 'POST', body, headers: { 'content-type': 'application/x-www-form-urlencoded; charset=UTF-8', 'x-requested-with': 'XMLHttpRequest' } });
     const rows = j.Data || j.data || (j.Documents) || [];
-    if (DEBUG) console.log(`  [debug] ${src.id}: keys`, Object.keys(j), rows[0] ? Object.keys(rows[0]) : 'no rows');
-    return rows.map(r => {
+    if (DEBUG && rows[0]) { const r = rows[0]; console.log(`  [debug] ${src.id}: ${rows.length} rows; date fields`, { CreatedDate: r.CreatedDate, FileUploadedDate: r.FileUploadedDate, LastModifiedDate: r.LastModifiedDate, LastModifiedDateString: r.LastModifiedDateString, StartDate: r.StartDate }); }
+    // Newest first by document id (ids only grow), then keep the newest few.
+    rows.sort((a, b) => (b.ID || 0) - (a.ID || 0));
+    return rows.slice(0, src.max || 15).map(r => {
       const id = r.ID || r.DocumentID || r.Id;
       // Link by id only: the readable part of a Document Center URL repeats the title, which can name people.
       const u = id ? `DocumentCenter/View/${id}` : (r.URL || '');
-      const when = r.FileUploadedDate || r.CreatedDate || r.LastModifiedDate || '';
+      const when = r.FileUploadedDate || r.CreatedDate || r.LastModifiedDate || r.LastModifiedDateString || r.StartDate || '';
       const ms = String(when).match(/\/Date\((\d+)/);
       return { title: strip(r.DisplayName || r.Name || r.FileName || ''), url: abs(u, src.base), date: ms ? day(+ms[1]) : day(when) };
     }).filter(x => x.title && x.url);

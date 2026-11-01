@@ -13,6 +13,15 @@ All towns share one page (`index.html`). Only edit data in `data/<town>/`. Never
 - Read `docs/DATA_GUIDE.md` first; it defines every field.
 - Never edit, delete or summarize residents' Talk posts during a refresh. They live in the D1 database, not in this repo.
 
+## Start here: the fetcher's inbox
+A GitHub Action (`.github/workflows/fetch-sources.yml`, 07:17 UTC daily) checks each town's official sources listed in `ingest/sources.json` and commits what it finds to `inbox/<town>/items.json`. Read that file first, after `git pull`:
+- `sources` says which sources were reached today and which failed (`ok: false`, with the error). A failed source keeps its earlier items.
+- `items` are newest first by `firstSeen`. Items with `firstSeen` after the last daily refresh are the new ones to work through.
+- Agendas and minutes have `text`: the path of the saved text in `inbox/<town>/docs/`. Read the minutes there instead of fetching them. Cite the item's `url` (the official document), never the inbox path.
+- Police and fire items carry no names: titles that may name people are withheld, and police logs are links only. Open the `url` if you need more, and write the item without names as always.
+- `inbox/` is the fetcher's file. Never edit it during a refresh. To add or fix a source, edit `ingest/sources.json`.
+Use the source lists further down for anything the inbox does not cover (events, the paper, housing, candidates), or when a source shows as failed.
+
 ## Every day, for each live town
 1. **Notices** (`local.json` notices). Add new resident-relevant items from the last 14 days (closures, road work, water, trash, events, elections, grants, hearings). Give dated happenings residents should plan around a `strip` and `stripLine`. Drop notices more than 30 days past.
 2. **Events** (`local.json` events). Refresh the next 45 days from the town's sources below. Delete past events. De-duplicate. Set `events_as_of` to today.
