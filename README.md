@@ -48,6 +48,10 @@ Any `towns.json` entry with `subtowns` is a place made of several towns (the Mou
 
 Talk is one tab with two views: **Residents** (ideas, debates and comments, `#talk`) and **Officials' posts** (the official-account feed, `#social`). Parks and public works (`#parks`) puts roads, parking, transit, trash and water next to parks: current and upcoming `local.json` notices of those kinds (or whose title is about them), issues on infrastructure, transportation, utilities or parks, and recent official posts about that work, then the parks content from `parks.json`.
 
+## Sports and Faith communities
+
+`data/<town>/sports.json` turns on the Sports tab: each high school's teams with records, recent results and upcoming games, teams to follow, youth and adult leagues, venues and sports news. Student athletes are never named. `data/<town>/faith.json` turns on Faith communities (a section on Local and its own page, `#faith`): every place of worship found, by tradition and not ranked, with service times, community meals and pantries, and public events. Faith events and upcoming games are added to the Events page and the Home carousel. In a region, every item carries a `town` so the town picker filters it.
+
 ## Business, Parks and Vote
 
 Three optional data files per town turn on three tabs: `data/<town>/business.json` (organizations, City Hall offices, how-to guides, business notices, programs, keywords that pick business stories out of the paper's headlines), `data/<town>/parks.json` (department, facilities, programs, projects, seasonal notes) and `data/<town>/candidates.json` (every race and candidate on the next ballot, with positions in the candidate's own words and a source for each). A town without a file simply has no tab. Live sources tagged `business` or `parks` in `feeds.json` show on those tabs instead of the social scroll; feed sources carry `level` (City, County, State, Federal) and `kind` (official or candidate) so the social scroll can show local officials first and candidates on their own.

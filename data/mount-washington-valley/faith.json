@@ -1,0 +1,379 @@
+{
+ "as_of": "2026-11-01",
+ "note": "Congregations in the Mount Washington Valley towns. Service times are given only where a source was opened; most come from third-party directories and are marked for review. Several congregations' own websites could not be opened in this update (search limits), so many entries have no service times. No congregations were found for Albany, Eaton, Freedom, Hart's Location or Tamworth (other than a Chocorua listing) in the sources opened; that is a gap in this list, not proof there are none. Listing is in no particular order and implies no endorsement.",
+ "congregations": [
+  {
+   "name": "Our Lady of the Mountains",
+   "tradition": "Catholic (Diocese of Manchester)",
+   "town": "Conway",
+   "address": "2905 White Mountain Hwy, North Conway, NH 03860",
+   "services": "Saturday 4:30 pm; Sunday 8:30 and 10:30 am",
+   "servicesSource": {
+    "label": "MassTime.us listing (third-party)",
+    "url": "https://masstime.us/our-lady-of-the-mountains-church-north-conway-new-hampshire/"
+   },
+   "site": "https://www.ourladyofthemountainsnh.org",
+   "phone": "603-356-2535",
+   "note": "Weekday Mass Monday, Thursday and Friday 8:30 am and Wednesday 5:30 pm; confession Friday 9 am and Saturday 3 pm (same listing). The parish is the only valley church in the Diocese of Manchester directory search results.",
+   "needs_review": true,
+   "review_note": "Mass times from a third-party listing; the parish site's forms page did not show times."
+  },
+  {
+   "name": "First Church of Christ, Congregational",
+   "tradition": "United Church of Christ",
+   "town": "Conway",
+   "address": "2521 White Mountain Highway, North Conway, NH 03860",
+   "services": "Sunday 10 am",
+   "servicesSource": {
+    "label": "First Church of Christ, Congregational (church website)",
+    "url": "https://firstchurchnc.com/"
+   },
+   "site": "https://firstchurchnc.com/",
+   "phone": "603-356-2324",
+   "note": "Established 1778. Started Vaughan Community Services in 1965, which is now a separate nonprofit with no religious affiliation."
+  },
+  {
+   "name": "Christ Episcopal Church",
+   "tradition": "Episcopal",
+   "town": "Conway",
+   "address": "16 Pine St, North Conway, NH 03860",
+   "services": "Sunday 10 am Holy Eucharist; Wednesday 5:30 pm Holy Eucharist",
+   "servicesSource": {
+    "label": "Episcopal Asset Map",
+    "url": "https://www.episcopalassetmap.org/node/1222"
+   },
+   "site": "https://christchurchnorthconway.com",
+   "phone": "603-356-2062",
+   "note": "Runs a thrift shop in the church basement.",
+   "needs_review": true,
+   "review_note": "Service times from the Episcopal Asset Map, not the church's own site."
+  },
+  {
+   "name": "Lutheran Church of the Nativity",
+   "tradition": "Evangelical Lutheran Church in America (ELCA)",
+   "town": "Conway",
+   "address": "15 Grove St, North Conway, NH 03860",
+   "services": null,
+   "servicesSource": null,
+   "site": null,
+   "phone": "603-356-7827",
+   "note": "Denomination from ChurchFinder; YellowPages lists nativitylutheranchurch.org as its website.",
+   "source": {
+    "label": "ChurchFinder listing",
+    "url": "https://churchfinder.com/churches/nh/north-conway/lutheran-church-nativity"
+   },
+   "needs_review": true,
+   "review_note": "Service times not found; details from third-party directories."
+  },
+  {
+   "name": "First Baptist Church",
+   "tradition": "Baptist",
+   "town": "Conway",
+   "address": "2665 White Mountain Hwy, North Conway, NH 03860",
+   "services": null,
+   "servicesSource": null,
+   "site": null,
+   "phone": "603-356-6066",
+   "note": "Directories disagree on the address (ChurchAdvise lists 75 Kearsarge Rd, North Conway).",
+   "source": {
+    "label": "YellowPages, North Conway churches (third-party directory)",
+    "url": "https://www.yellowpages.com/north-conway-nh/churches"
+   },
+   "needs_review": true,
+   "review_note": "Address and phone from YellowPages; conflicting addresses; website and service times not found."
+  },
+  {
+   "name": "Conway Village Congregational Church, UCC (The Brown Church)",
+   "tradition": "United Church of Christ",
+   "town": "Conway",
+   "address": "132 Main St, Conway, NH 03818",
+   "services": null,
+   "servicesSource": null,
+   "site": "https://www.thebrownchurch.org/",
+   "phone": "603-447-3851",
+   "note": "Describes itself as Bible-based and service-oriented, with free community dinners, a food pantry and meeting space for recovery groups.",
+   "source": {
+    "label": "GuideStar profile",
+    "url": "https://www.guidestar.org/profile/02-0236859"
+   },
+   "needs_review": true,
+   "review_note": "Service times not found; the church website could not be opened."
+  },
+  {
+   "name": "St. Margaret of Scotland Anglican Church",
+   "tradition": "Anglican Church in America",
+   "town": "Conway",
+   "address": "85 Pleasant Street (Route 153), Conway, NH 03818",
+   "services": "Sunday 10 am; Thursday noon",
+   "servicesSource": {
+    "label": "USA Churches listing (third-party)",
+    "url": "https://www.usachurches.org/church/saint-margaret-of-scotland-anglican-church.htm"
+   },
+   "site": "http://conwayanglicans.org",
+   "phone": "603-447-2404",
+   "note": "YellowPages lists stmargaretconway.org as its website instead.",
+   "needs_review": true,
+   "review_note": "Service times and website from third-party directories that disagree on the web address."
+  },
+  {
+   "name": "Next Level Church (Conway)",
+   "tradition": "Christian (denomination not stated in source)",
+   "town": "Conway",
+   "address": "121 Main St, Conway, NH (former Main Street Baptist building, Conway Village)",
+   "services": "Sunday 10 am",
+   "servicesSource": {
+    "label": "Conway Daily Sun, 'Next Level Church holding services at former Main St. Conway Baptist' (undated)",
+    "url": "https://www.conwaydailysun.com/business/next-level-church-holding-services-at-former-main-st-conway-baptist/article_0ddf197f-024b-5a79-8787-4322346f4713.html"
+   },
+   "site": "http://ncl.tv/locations/conway-nh",
+   "phone": null,
+   "note": "Merged with the former Main Street Baptist congregation and moved into its 1826 building; children's programs offered. Street number from YellowPages, which also lists an older North Conway address.",
+   "needs_review": true,
+   "review_note": "Service time from an undated news article; street number from YellowPages."
+  },
+  {
+   "name": "Conway Church of Christ",
+   "tradition": "Church of Christ",
+   "town": "Conway",
+   "address": "348 E. Main St., Conway, NH",
+   "services": null,
+   "servicesSource": null,
+   "site": "https://www.conwaychurchofchrist.net",
+   "phone": "603-447-8855",
+   "note": null,
+   "source": {
+    "label": "NH Living, White Mountains NH Churches & Synagogues (third-party directory)",
+    "url": "https://nhliving.com/?p=496"
+   },
+   "needs_review": true,
+   "review_note": "From third-party directories; service times not found."
+  },
+  {
+   "name": "White Mountain Chapel",
+   "tradition": "Christian and Missionary Alliance",
+   "town": "Conway",
+   "address": "296 E Main St, Conway, NH 03818",
+   "services": null,
+   "servicesSource": null,
+   "site": null,
+   "phone": "603-447-5068",
+   "note": null,
+   "source": {
+    "label": "NH Living, White Mountains NH Churches & Synagogues (third-party directory)",
+    "url": "https://nhliving.com/?p=496"
+   },
+   "needs_review": true,
+   "review_note": "From a third-party directory; service times and website not found."
+  },
+  {
+   "name": "Seventh-day Adventist Church (Conway)",
+   "tradition": "Seventh-day Adventist",
+   "town": "Conway",
+   "address": "Route 302, Conway, NH 03818",
+   "services": null,
+   "servicesSource": null,
+   "site": null,
+   "phone": "603-447-6298",
+   "note": null,
+   "source": {
+    "label": "NH Living, White Mountains NH Churches & Synagogues (third-party directory)",
+    "url": "https://nhliving.com/?p=496"
+   },
+   "needs_review": true,
+   "review_note": "From a third-party directory; exact name, address, service times and website not confirmed."
+  },
+  {
+   "name": "Center Conway United Methodist Church",
+   "tradition": "United Methodist",
+   "town": "Conway",
+   "address": "1626 E Main St, Center Conway, NH",
+   "services": null,
+   "servicesSource": null,
+   "site": null,
+   "phone": "603-447-2085",
+   "note": "A separate directory lists a 'Conway United Methodist Church' at 121 Main St (603-447-5303), the building Next Level Church now uses; that listing appears outdated and is not included.",
+   "source": {
+    "label": "YellowPages, North Conway churches (third-party directory)",
+    "url": "https://www.yellowpages.com/north-conway-nh/churches"
+   },
+   "needs_review": true,
+   "review_note": "From YellowPages; service times and website not found."
+  },
+  {
+   "name": "Center Conway Baptist Church",
+   "tradition": "Baptist",
+   "town": "Conway",
+   "address": "3071 E Main St, Center Conway, NH 03813",
+   "services": null,
+   "servicesSource": null,
+   "site": "https://www.centerconwaybaptist.org",
+   "phone": "603-447-2878",
+   "note": null,
+   "source": {
+    "label": "YellowPages, North Conway churches (third-party directory)",
+    "url": "https://www.yellowpages.com/north-conway-nh/churches"
+   },
+   "needs_review": true,
+   "review_note": "From YellowPages; service times not found."
+  },
+  {
+   "name": "The River Church of Conway",
+   "tradition": "Christian (denomination not stated in source)",
+   "town": "Conway",
+   "address": "2600 E Main St, Center Conway, NH 03813",
+   "services": null,
+   "servicesSource": null,
+   "site": null,
+   "phone": "603-447-6686",
+   "note": null,
+   "source": {
+    "label": "YellowPages, North Conway churches (third-party directory)",
+    "url": "https://www.yellowpages.com/north-conway-nh/churches"
+   },
+   "needs_review": true,
+   "review_note": "From YellowPages; tradition, service times and website not found."
+  },
+  {
+   "name": "Glen Community Baptist Church",
+   "tradition": "Baptist",
+   "town": "Bartlett",
+   "address": "538 US Route 302, Glen, NH 03838",
+   "services": null,
+   "servicesSource": null,
+   "site": "https://www.glencommunitybaptist.com",
+   "phone": "603-383-9223",
+   "note": "Glen is a village in the town of Bartlett.",
+   "source": {
+    "label": "YellowPages, North Conway churches (third-party directory)",
+    "url": "https://www.yellowpages.com/north-conway-nh/churches"
+   },
+   "needs_review": true,
+   "review_note": "From YellowPages; service times not found."
+  },
+  {
+   "name": "Union Congregational Church",
+   "tradition": "Congregational",
+   "town": "Bartlett",
+   "address": "14 Albany Ave, Bartlett, NH 03812",
+   "services": null,
+   "servicesSource": null,
+   "site": "https://www.bartlettchurch.net",
+   "phone": "603-374-1868",
+   "note": null,
+   "source": {
+    "label": "YellowPages, North Conway churches (third-party directory)",
+    "url": "https://www.yellowpages.com/north-conway-nh/churches"
+   },
+   "needs_review": true,
+   "review_note": "From YellowPages; denomination affiliation and service times not confirmed."
+  },
+  {
+   "name": "Jackson Community Church",
+   "tradition": "Christian (denomination not stated in source)",
+   "town": "Jackson",
+   "address": "127 Main St, Jackson, NH 03846",
+   "services": null,
+   "servicesSource": null,
+   "site": "http://www.jacksoncommunitychurch.org",
+   "phone": "603-383-6187",
+   "note": null,
+   "source": {
+    "label": "YellowPages, North Conway churches (third-party directory)",
+    "url": "https://www.yellowpages.com/north-conway-nh/churches"
+   },
+   "needs_review": true,
+   "review_note": "From YellowPages; tradition and service times not found."
+  },
+  {
+   "name": "Madison Baptist Church",
+   "tradition": "Baptist",
+   "town": "Madison",
+   "address": "53 Conway Rd, Madison, NH 03849",
+   "services": null,
+   "servicesSource": null,
+   "site": "https://www.themadisonchurch.org",
+   "phone": "603-367-4705",
+   "note": null,
+   "source": {
+    "label": "YellowPages, North Conway churches (third-party directory)",
+    "url": "https://www.yellowpages.com/north-conway-nh/churches"
+   },
+   "needs_review": true,
+   "review_note": "From YellowPages; service times not found."
+  },
+  {
+   "name": "Chocorua Community Church",
+   "tradition": "Christian (denomination not stated in source)",
+   "town": "Madison",
+   "address": "40 Drew Hill Rd, Madison, NH 03849 (YellowPages also lists 40 Deer Hill Rd, Chocorua)",
+   "services": null,
+   "servicesSource": null,
+   "site": null,
+   "phone": "603-323-7186",
+   "note": "Chocorua is a village mostly in Tamworth; the directory gives both a Madison and a Chocorua address, so the town may be Tamworth.",
+   "source": {
+    "label": "YellowPages, North Conway churches (third-party directory)",
+    "url": "https://www.yellowpages.com/north-conway-nh/churches"
+   },
+   "needs_review": true,
+   "review_note": "Conflicting addresses and town; tradition and service times not found."
+  }
+ ],
+ "events": [
+  {
+   "date": "2026-11-18",
+   "time": "6 am to 6 pm",
+   "title": "25th Annual Food Drive",
+   "venue": "Vaughan Community Services parking lot (drive-through)",
+   "town": "Conway",
+   "kind": "Faith",
+   "url": "https://firstchurchnc.com/",
+   "source": "First Church of Christ, Congregational (church website)",
+   "note": "Drive through and donate food from your car."
+  }
+ ],
+ "services": [
+  {
+   "name": "Conway Village Congregational Church community dinners and food pantry",
+   "what": "Free community dinners and a food pantry",
+   "town": "Conway",
+   "when": null,
+   "url": "https://www.thebrownchurch.org/",
+   "note": "Run by Conway Village Congregational Church, UCC, 132 Main St, Conway. Schedule not found.",
+   "source": {
+    "label": "GuideStar profile",
+    "url": "https://www.guidestar.org/profile/02-0236859"
+   },
+   "needs_review": true,
+   "review_note": "Schedule and current status not confirmed from the church's own site."
+  },
+  {
+   "name": "Christ Episcopal Church Thrift Shop",
+   "what": "Low-cost clothing and small household items; accepts donations of clean, usable clothing (no TVs or electronics)",
+   "town": "Conway",
+   "when": "Wednesday and Friday 10 am to 2 pm; Saturday 10 am to 12:30 pm; closed on Conway school snow days",
+   "url": "https://christchurchnorthconway.com",
+   "note": "In the church basement, 16 Pine St, North Conway.",
+   "source": {
+    "label": "Episcopal Asset Map",
+    "url": "https://www.episcopalassetmap.org/node/1222"
+   },
+   "needs_review": true,
+   "review_note": "Hours from the Episcopal Asset Map, not the church's own site."
+  },
+  {
+   "name": "Breadbasket Food Pantry",
+   "what": "Food pantry",
+   "town": "Conway",
+   "when": null,
+   "url": null,
+   "note": "Listed at 2600 E Main St, Center Conway (603-447-6633), the same address as The River Church of Conway.",
+   "source": {
+    "label": "YellowPages, North Conway churches (third-party directory)",
+    "url": "https://www.yellowpages.com/north-conway-nh/churches"
+   },
+   "needs_review": true,
+   "review_note": "From a third-party directory; whether a congregation runs it and its hours were not confirmed."
+  }
+ ]
+}

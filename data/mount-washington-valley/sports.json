@@ -1,0 +1,843 @@
+{
+ "as_of": "2026-11-01",
+ "note": "Sports in the Mount Washington Valley (Conway including North Conway, Bartlett, Tamworth, Madison, Freedom, Jackson, Albany, Eaton and Hart's Location). Kennett High School in North Conway is the valley's public high school. Coaches come from Kennett's own team pages; game results come from MaxPreps and SI High School (aggregators, so every result is marked for review) because Kennett's official schedule site (kennettathletics.bigteams.com, which now redirects to an Arbiter site) and NHIAA brackets could not be opened. Conway Daily Sun headlines were read from the Sun's sports page; the articles themselves could not be opened. No student athletes are named. Kennett Middle School sports schedules were not found.",
+ "schools": [
+  {
+   "name": "Kennett High School",
+   "town": "Conway",
+   "mascot": "Eagles",
+   "division": "NHIAA (division varies by sport; football plays in Division II per MaxPreps)",
+   "site": "https://khs.sau9.org",
+   "athleticsUrl": "https://khs.sau9.org/athletics",
+   "scheduleUrl": "https://kennettathletics.bigteams.com/",
+   "address": "409 Eagles Way, North Conway, NH 03860",
+   "athleticDirector": "Neal Weaver, 603-356-4335",
+   "source": {
+    "label": "NHIAA school page, Kennett High School",
+    "url": "https://www.nhiaa.org/about-nhiaa/schools/kennett"
+   },
+   "note": "Colors black and white (NHIAA). Each team page on khs.sau9.org links to varsity, JV and freshman schedules on kennettathletics.bigteams.com, which redirects to kennettathletics.arbiterwebsites.com; that site could not be opened for this update.",
+   "teams": [
+    {
+     "sport": "Football",
+     "season": "Fall 2026",
+     "level": "Varsity",
+     "record": "4-5",
+     "recordAsOf": "2026-10-31",
+     "coach": "Scott Stearns",
+     "coachSource": {
+      "label": "Kennett High School, Football page",
+      "url": "https://khs.sau9.org/football"
+     },
+     "postseason": "No playoff game was listed on MaxPreps or SI High School as of Oct. 31; the Conway Daily Sun's Oct. 29 headline said the Eagles were still in the playoff chase after beating Trinity.",
+     "recent": [
+      {
+       "date": "2026-10-30",
+       "opponent": "Kingswood",
+       "home": true,
+       "result": "L 12-13",
+       "source": {
+        "label": "MaxPreps, Kennett football (aggregator, updated Oct 31, 2026)",
+        "url": "https://www.maxpreps.com/nh/conway/kennett-eagles/football"
+       },
+       "needs_review": true,
+       "review_note": "Aggregator score. MaxPreps' schedule summary lists this game as Sat., Oct. 31; its results list says Oct. 30."
+      },
+      {
+       "date": "2026-10-23",
+       "opponent": "Trinity",
+       "home": false,
+       "result": "W 27-15",
+       "source": {
+        "label": "MaxPreps, Kennett football (aggregator, updated Oct 31, 2026)",
+        "url": "https://www.maxpreps.com/nh/conway/kennett-eagles/football"
+       },
+       "needs_review": true,
+       "review_note": "Aggregator score; matches SI High School and the Sun headline 'Eagles run over Trinity; stay in the playoff chase.'"
+      },
+      {
+       "date": "2026-10-17",
+       "opponent": "Stark",
+       "home": true,
+       "result": "L 6-27",
+       "source": {
+        "label": "MaxPreps, Kennett football (aggregator, updated Oct 31, 2026)",
+        "url": "https://www.maxpreps.com/nh/conway/kennett-eagles/football"
+       },
+       "needs_review": true,
+       "review_note": "Aggregator score; matches SI High School and the Sun headline 'Generals declaw the Eagles 27-6.'"
+      },
+      {
+       "date": "2026-10-09",
+       "opponent": "Bow",
+       "home": false,
+       "result": "W 34-6",
+       "source": {
+        "label": "MaxPreps, Kennett football (aggregator, updated Oct 31, 2026)",
+        "url": "https://www.maxpreps.com/nh/conway/kennett-eagles/football"
+       },
+       "needs_review": true,
+       "review_note": "Aggregator score; matches SI High School."
+      },
+      {
+       "date": "2026-10-02",
+       "opponent": "St. Thomas Aquinas",
+       "home": true,
+       "result": "W 31-0",
+       "source": {
+        "label": "MaxPreps, Kennett football (aggregator, updated Oct 31, 2026)",
+        "url": "https://www.maxpreps.com/nh/conway/kennett-eagles/football"
+       },
+       "needs_review": true,
+       "review_note": "Aggregator score; matches SI High School."
+      },
+      {
+       "date": "2026-09-26",
+       "opponent": "Merrimack Valley",
+       "home": false,
+       "result": "L 14-15",
+       "source": {
+        "label": "MaxPreps, Kennett football (aggregator, updated Oct 31, 2026)",
+        "url": "https://www.maxpreps.com/nh/conway/kennett-eagles/football"
+       },
+       "needs_review": true,
+       "review_note": "Aggregator score; matches SI High School."
+      },
+      {
+       "date": "2026-09-18",
+       "opponent": "Pembroke",
+       "home": true,
+       "result": "W 7-0",
+       "source": {
+        "label": "MaxPreps, Kennett football (aggregator, updated Oct 31, 2026)",
+        "url": "https://www.maxpreps.com/nh/conway/kennett-eagles/football"
+       },
+       "needs_review": true,
+       "review_note": "Aggregator score; matches SI High School."
+      }
+     ],
+     "next": [],
+     "note": "Earlier games: lost 9-6 at Manchester West (Sept. 4) and 35-0 at Plymouth (Sept. 12), per MaxPreps' schedule page and SI High School. MaxPreps lists the head coach as K. Brady; the school's own page lists Scott Stearns, used here.",
+     "needs_review": true,
+     "review_note": "Record and results from aggregators (MaxPreps, SI High School), not the school or NHIAA."
+    },
+    {
+     "sport": "Boys Soccer",
+     "season": "Fall 2026",
+     "level": "Varsity",
+     "record": "6-9-4",
+     "recordAsOf": "2026-10-29",
+     "coach": null,
+     "postseason": "MaxPreps lists a 3-1 loss at Pembroke Academy on Tuesday, Oct. 27, labeled a tournament game, which lines up with a Conway Daily Sun headline, 'Eagles secure final playoff spot; visit Pembroke on Tuesday.' The Sun article could not be opened, so the playoff details are unconfirmed.",
+     "recent": [
+      {
+       "date": "2026-10-27",
+       "opponent": "Pembroke Academy",
+       "home": false,
+       "result": "L 1-3",
+       "note": "Labeled a tournament game by MaxPreps",
+       "source": {
+        "label": "MaxPreps, Kennett boys soccer (aggregator, updated Oct 29, 2026)",
+        "url": "https://www.maxpreps.com/nh/conway/kennett-eagles/soccer/"
+       },
+       "needs_review": true,
+       "review_note": "Aggregator score."
+      },
+      {
+       "date": "2026-10-22",
+       "opponent": "Manchester West",
+       "home": true,
+       "result": "W 4-0",
+       "source": {
+        "label": "MaxPreps, Kennett boys soccer (aggregator, updated Oct 29, 2026)",
+        "url": "https://www.maxpreps.com/nh/conway/kennett-eagles/soccer/"
+       },
+       "needs_review": true,
+       "review_note": "Aggregator score."
+      },
+      {
+       "date": "2026-10-20",
+       "opponent": "ConVal",
+       "home": true,
+       "result": "L 0-6",
+       "source": {
+        "label": "MaxPreps, Kennett boys soccer (aggregator, updated Oct 29, 2026)",
+        "url": "https://www.maxpreps.com/nh/conway/kennett-eagles/soccer/"
+       },
+       "needs_review": true,
+       "review_note": "Aggregator score."
+      },
+      {
+       "date": "2026-10-15",
+       "opponent": "Plymouth",
+       "home": null,
+       "result": "T 2-2",
+       "source": {
+        "label": "MaxPreps, Kennett boys soccer (aggregator, updated Oct 29, 2026)",
+        "url": "https://www.maxpreps.com/nh/conway/kennett-eagles/soccer/"
+       },
+       "needs_review": true,
+       "review_note": "Aggregator score; home or away not shown."
+      },
+      {
+       "date": "2026-10-14",
+       "opponent": "Pembroke Academy",
+       "home": true,
+       "result": "L 0-5",
+       "source": {
+        "label": "MaxPreps, Kennett boys soccer (aggregator, updated Oct 29, 2026)",
+        "url": "https://www.maxpreps.com/nh/conway/kennett-eagles/soccer/"
+       },
+       "needs_review": true,
+       "review_note": "Aggregator score."
+      }
+     ],
+     "next": [],
+     "note": "Head coach not found; the khs.sau9.org boys soccer page could not be opened. MaxPreps shows only 9 of the 19 games behind its 6-9-4 record.",
+     "needs_review": true,
+     "review_note": "Record and results from MaxPreps (aggregator); playoff status inferred from a headline."
+    },
+    {
+     "sport": "Girls Soccer",
+     "season": "Fall 2026",
+     "level": "Varsity",
+     "record": "7-6-4",
+     "recordAsOf": "2026-10-31",
+     "coach": null,
+     "postseason": "The Conway Daily Sun reported the team would host its first-ever playoff match (headline Oct. 27) and posted a 'Kennett Girls Soccer Playoff Win' photo gallery on Oct. 30. Opponent, score and next round were not confirmed.",
+     "recent": [],
+     "next": [],
+     "note": "Record from MaxPreps standings (updated Oct. 31). Individual results were not listed there. Head coach not found.",
+     "sources": [
+      {
+       "label": "MaxPreps, Kennett girls soccer standings (aggregator)",
+       "url": "https://www.maxpreps.com/nh/conway/kennett-eagles/soccer/girls/standings"
+      },
+      {
+       "label": "Conway Daily Sun sports page (headlines)",
+       "url": "https://www.conwaydailysun.com/sports/"
+      }
+     ],
+     "needs_review": true,
+     "review_note": "Record from an aggregator; playoff win known only from a Sun photo gallery headline."
+    },
+    {
+     "sport": "Field Hockey",
+     "season": "Fall 2026",
+     "level": "Varsity",
+     "record": null,
+     "recordAsOf": null,
+     "coach": "Ella Chandler",
+     "coachSource": {
+      "label": "Kennett High School, Field Hockey page",
+      "url": "https://khs.sau9.org/field-hockey"
+     },
+     "postseason": null,
+     "recent": [],
+     "next": [],
+     "note": "No 2026 results found; MaxPreps showed only 2025 games and the official schedule site could not be opened.",
+     "needs_review": true,
+     "review_note": "Season record and playoff status unknown."
+    },
+    {
+     "sport": "Volleyball",
+     "season": "Fall 2026",
+     "level": "Varsity",
+     "record": null,
+     "recordAsOf": null,
+     "coach": "Craig Bartolomei",
+     "coachSource": {
+      "label": "Kennett High School, Volleyball page",
+      "url": "https://khs.sau9.org/volleyball"
+     },
+     "postseason": null,
+     "recent": [],
+     "next": [],
+     "note": "No 2026 results found; MaxPreps had not been updated since 2025.",
+     "needs_review": true,
+     "review_note": "Season record and playoff status unknown."
+    },
+    {
+     "sport": "Cross Country",
+     "season": "Fall 2026",
+     "level": "Varsity (coed)",
+     "record": null,
+     "recordAsOf": null,
+     "coach": "Bernie Livingston",
+     "coachSource": {
+      "label": "Kennett High School, Cross Country page",
+      "url": "https://khs.sau9.org/cross-country"
+     },
+     "postseason": null,
+     "recent": [],
+     "next": [],
+     "note": "The Conway Daily Sun's Oct. 28 headline: 'Kennett harriers compete in largest meet of the season; win at White Mountains.' State meet results and dates were not found.",
+     "needs_review": true,
+     "review_note": "Results known only from a headline."
+    },
+    {
+     "sport": "Mountain Biking",
+     "season": "Fall 2026",
+     "level": "Varsity",
+     "record": null,
+     "recordAsOf": null,
+     "coach": null,
+     "postseason": null,
+     "recent": [],
+     "next": [],
+     "note": "Kennett hosted its Mountain Bike Invitational (Sun photo gallery, Oct. 26) and a home meet with Fryeburg Academy riders (Sun headline, Oct. 31).",
+     "needs_review": true,
+     "review_note": "Known only from Sun headlines; coach not found."
+    },
+    {
+     "sport": "Boys Basketball",
+     "season": "Winter 2026-27",
+     "level": "Varsity",
+     "record": null,
+     "recordAsOf": null,
+     "coach": "Boramey Noung",
+     "coachSource": {
+      "label": "Kennett High School, Boys Basketball page",
+      "url": "https://khs.sau9.org/boys-basketball"
+     },
+     "postseason": null,
+     "recent": [],
+     "next": [],
+     "note": "The team page lists varsity tryouts and JV/reserve practice start as TBD."
+    },
+    {
+     "sport": "Girls Basketball",
+     "season": "Winter 2026-27",
+     "level": "Varsity",
+     "record": null,
+     "recordAsOf": null,
+     "coach": "Julia Quinn",
+     "coachSource": {
+      "label": "Kennett High School, Girls Basketball page",
+      "url": "https://khs.sau9.org/girls-basketball"
+     },
+     "postseason": null,
+     "recent": [],
+     "next": [],
+     "note": "The team page lists varsity tryouts and JV practice start as TBD."
+    },
+    {
+     "sport": "Indoor Track",
+     "season": "Winter 2026-27",
+     "level": "Varsity",
+     "record": null,
+     "recordAsOf": null,
+     "coach": "Bernie Livingston",
+     "coachSource": {
+      "label": "Kennett High School, Indoor Track page",
+      "url": "https://khs.sau9.org/indoor-track"
+     },
+     "postseason": null,
+     "recent": [],
+     "next": [],
+     "note": "The team page says practices begin TBD. Kennett also lists ice hockey, skiing, unified basketball and winter cheerleading for winter; those pages were not opened."
+    }
+   ]
+  }
+ ],
+ "youth": [
+  {
+   "name": "Mount Washington Valley Youth Hockey Association",
+   "sport": "Ice hockey",
+   "ages": null,
+   "season": "Fall through winter",
+   "site": null,
+   "town": "Conway",
+   "note": "Holds its season kick-off practice at Ham Arena in Conway (Conway Daily Sun, Aug. 2025). A Sun headline on Aug. 28, 2026 said players were preparing for the upcoming season. Age groups and registration were not found.",
+   "source": {
+    "label": "Conway Daily Sun, 'Despite delays, Ham Arena reopens for 27th season' (Aug. 2025)",
+    "url": "https://www.conwaydailysun.com/news/local/despite-delays-ham-arena-reopens-for-27th-season/article_1eb4ffdd-55d2-4439-b108-f9ed31ca5f20.html"
+   },
+   "needs_review": true,
+   "review_note": "No current program page found; website unknown."
+  },
+  {
+   "name": "Eastern Slope Ski Club Junior Ski Program",
+   "sport": "Alpine skiing, cross-country skiing and snowboarding",
+   "ages": "Grades 1-6",
+   "season": "Winter",
+   "site": "https://easternslopeskiclub.org",
+   "town": "Conway",
+   "note": "Valley-wide nonprofit founded in 1935 that runs weekly on-snow days for elementary school children, with more than 900 children and 350 volunteers, and lends equipment. Sites named include Cranmore, King Pine, Attitash, Whitaker Woods and Bear Notch Ski Touring. Jackson Grammar School says its grades 1-6 go with ESSC on Fridays at Black Mountain.",
+   "source": {
+    "label": "Meredith Village Savings Bank, 'Eastern Slope Ski Club' (Feb. 20, 2025)",
+    "url": "https://www.mvsb.com/2025/02/20/eastern-slope-ski-club/"
+   },
+   "needs_review": true,
+   "review_note": "Based on 2025 sources; 2026-27 dates not posted in anything opened."
+  },
+  {
+   "name": "Mount Washington Valley Ski Team (MWVST)",
+   "sport": "Alpine ski racing",
+   "ages": null,
+   "season": "Winter",
+   "site": "https://www.mwvskiteam.com",
+   "town": "Conway",
+   "note": "Nonprofit race program running for more than 30 years; trains at several valley ski areas, with options from a bridge program for younger racers to weekend training for high school racers and daily training. Holds an annual Ski Ball fundraiser at Cranmore in North Conway.",
+   "source": {
+    "label": "Mt Washington Valley Vibe, 'Setting a New Course... the MWV Ski Team' (Jan. 2018)",
+    "url": "https://mwvvibe.com/mt-washington-valley-ski-team/"
+   },
+   "needs_review": true,
+   "review_note": "Program description is from 2018; ages and current offerings not confirmed. Town set to Conway because its Ski Ball is held at Cranmore."
+  },
+  {
+   "name": "Jackson Ski Touring Foundation youth Nordic programs (Jackson XC)",
+   "sport": "Cross-country skiing",
+   "ages": null,
+   "season": "Winter",
+   "site": "https://www.jacksonxc.org/youth-instruction-programs/",
+   "town": "Jackson",
+   "note": "Jackson XC is a Bill Koch League youth ski club and hosted the 2026 New England Bill Koch League Festival (Feb. 28 to March 1). It supplies low-cost or free rentals and instructors for Jackson Grammar School's Nordic program and a Thursday after-school program.",
+   "source": {
+    "label": "Jackson Grammar School, Skiing at JGS",
+    "url": "https://sites.google.com/sau9.org/jackson-grammar/community-link-page/sports-at-jgs/skiing-at-jgs"
+   }
+  },
+  {
+   "name": "Conway Parks and Recreation Intramural Basketball",
+   "sport": "Basketball",
+   "ages": "Grades 2-6",
+   "season": "Winter",
+   "site": "https://conwaynh.myrec.com/info/activities/program_details.aspx?ProgramID=30006",
+   "town": "Conway",
+   "note": "Listed by the department's MyRec site under this title; dates, times and fees were not shown on the page opened. Register through conwaynh.myrec.com or call 603-901-1139.",
+   "source": {
+    "label": "Conway Parks & Recreation (MyRec)",
+    "url": "https://conwaynh.myrec.com/info/activities/program_details.aspx?ProgramID=30006"
+   },
+   "needs_review": true,
+   "review_note": "Grade range is from the page title only; 2026-27 details not posted."
+  },
+  {
+   "name": "Bartlett Recreation basketball",
+   "sport": "Basketball",
+   "ages": "Grades K-3 (skills and drills); grades 4-6 (travel teams)",
+   "season": null,
+   "site": "https://bartlettrec.org/",
+   "town": "Bartlett",
+   "note": "Listed on Jackson Grammar School's activity links page. Bartlett Recreation is at 1313 U.S. Route 302, Bartlett (603-374-2331, bartlettrec@gmail.com). The same page notes Bartlett Rec was gauging interest in a floorball club for grades 5-8.",
+   "source": {
+    "label": "Jackson Grammar School, Fun Link Page",
+    "url": "https://sites.google.com/sau9.org/jackson-grammar/fun-link-page"
+   },
+   "needs_review": true,
+   "review_note": "The source page is a retired school site; season dates not given."
+  },
+  {
+   "name": "Tamworth Recreation Youth Soccer",
+   "sport": "Soccer",
+   "ages": "Grades K-1, 2-3 and 4-6",
+   "season": "Fall 2026 (underway)",
+   "site": "https://sites.google.com/view/tamworthrecreation/home",
+   "town": "Tamworth",
+   "note": "Ten games plus a tournament. The grades 4-6 team was short of players and the department was working with K.A. Brett School athletics. Tamworth Rec also ran youth basketball in winter 2025-26; winter 2026-27 programs were not yet posted. Register at tamworthrec.recdesk.com; director Jeremy Phillips, 603-704-0856.",
+   "source": {
+    "label": "Tamworth Recreation Department",
+    "url": "https://sites.google.com/view/tamworthrecreation/home"
+   }
+  },
+  {
+   "name": "Mount Washington Valley Cal Ripken / Babe Ruth Baseball",
+   "sport": "Baseball",
+   "ages": "6-12",
+   "season": "Spring and summer",
+   "site": "http://www.mwv.sportssignup.com/site/",
+   "town": "Conway",
+   "note": "Affiliated program listed by Conway Parks and Recreation; registration and cancellation updates are posted on its Facebook page.",
+   "source": {
+    "label": "Conway Parks & Recreation, Affiliated Organizations",
+    "url": "https://conwaynh.myrec.com/info/affiliated/default.aspx"
+   }
+  },
+  {
+   "name": "Mount Washington Valley Lacrosse Club",
+   "sport": "Lacrosse",
+   "ages": null,
+   "season": "Spring",
+   "site": "https://www.leagueathletics.com/Default.asp?org=mwvlax.com",
+   "town": "Conway",
+   "note": "Youth and club lacrosse; affiliated with Conway Parks and Recreation.",
+   "source": {
+    "label": "Conway Parks & Recreation, Affiliated Organizations",
+    "url": "https://conwaynh.myrec.com/info/affiliated/default.aspx"
+   }
+  },
+  {
+   "name": "Mount Washington Valley Skating Club",
+   "sport": "Figure skating",
+   "ages": null,
+   "season": null,
+   "site": null,
+   "town": "Conway",
+   "note": "Offers figure skating lessons at Ham Arena in Conway.",
+   "source": {
+    "label": "NorthConwayNH.com, Ice Skating",
+    "url": "https://northconwaynh.com/ice-skating/"
+   },
+   "needs_review": true,
+   "review_note": "Ages, season and website not found."
+  }
+ ],
+ "adult": [
+  {
+   "name": "Mt. Washington Valley Women's Hockey Association",
+   "sport": "Ice hockey",
+   "season": "September through April",
+   "site": "https://sportsplus.app/public/6163/aboutus",
+   "town": "Conway",
+   "note": "Nonprofit league for women of all skill levels at Ham Arena; league games Monday evenings; loaner gear available; hosts the Dave Dore Winter Classic each January.",
+   "source": {
+    "label": "MWV Women's Hockey Association, About Us",
+    "url": "https://sportsplus.app/public/6163/aboutus"
+   }
+  },
+  {
+   "name": "Ham Arena men's hockey league",
+   "sport": "Ice hockey",
+   "season": null,
+   "site": "http://hamarena.com",
+   "town": "Conway",
+   "note": "Tuesday night men's league at Ham Arena (Conway Daily Sun, Aug. 2025). The arena also hosts the Mount Washington Valley Curling Club and public stick-and-puck sessions.",
+   "source": {
+    "label": "Conway Daily Sun, 'Despite delays, Ham Arena reopens for 27th season' (Aug. 2025)",
+    "url": "https://www.conwaydailysun.com/news/local/despite-delays-ham-arena-reopens-for-27th-season/article_1eb4ffdd-55d2-4439-b108-f9ed31ca5f20.html"
+   },
+   "needs_review": true,
+   "review_note": "From a 2025 article; 2026-27 league details not confirmed."
+  },
+  {
+   "name": "Conway Parks and Recreation adult programs",
+   "sport": "Pickleball and coed kickball",
+   "season": null,
+   "site": "https://conwaynh.myrec.com",
+   "town": "Conway",
+   "note": "MyRec lists Adult Pickleball (Session 1) and Adult Coed Kickball. The town also has public pickleball courts at Johnny Eastman Park. Details on the MyRec program pages or 603-901-1139.",
+   "source": {
+    "label": "Conway Parks & Recreation (MyRec)",
+    "url": "https://conwaynh.myrec.com/info/activities/program_details.aspx?ProgramID=30006"
+   },
+   "needs_review": true,
+   "review_note": "Days, times and fees not shown on the page opened."
+  },
+  {
+   "name": "Tamworth Recreation pickleball",
+   "sport": "Pickleball",
+   "season": "Year-round",
+   "site": "https://sites.google.com/view/tamworthrecreation/home",
+   "town": "Tamworth",
+   "note": "Regular play Tuesdays, Thursdays and Saturdays for all levels with no sign-up needed (indoors since late 2025). Beginner instruction ran Saturdays in fall 2026.",
+   "source": {
+    "label": "Tamworth Recreation Department",
+    "url": "https://sites.google.com/view/tamworthrecreation/home"
+   }
+  },
+  {
+   "name": "White Mountain Milers",
+   "sport": "Running",
+   "season": null,
+   "site": null,
+   "town": "Conway",
+   "note": "Running club behind the North Conway Half Marathon and 5K; the Sun reported the 39th edition drew record participants (Oct. 2, 2026 headline).",
+   "source": {
+    "label": "Conway Daily Sun, Sports Events page (headlines)",
+    "url": "https://www.conwaydailysun.com/sports/events"
+   },
+   "needs_review": true,
+   "review_note": "Known from headlines only; website not found."
+  }
+ ],
+ "teams": [],
+ "venues": [
+  {
+   "name": "Kennett High School, Gary Millen Stadium and Livingston Oval",
+   "address": "409 Eagles Way, North Conway, NH 03860",
+   "town": "Conway",
+   "uses": "Kennett home football (Friday nights) at Gary Millen Stadium; the Livingston Oval is used for track and sometimes fall soccer.",
+   "site": "https://khs.sau9.org",
+   "source": {
+    "label": "Wikipedia, Kennett High School (New Hampshire)",
+    "url": "https://en.wikipedia.org/wiki/Kennett_High_School_(New_Hampshire)"
+   },
+   "needs_review": true,
+   "review_note": "Facility names from Wikipedia; address from the NHIAA school page."
+  },
+  {
+   "name": "Ham Arena",
+   "address": "87 West Main St, Conway, NH 03818",
+   "town": "Conway",
+   "uses": "Year-round nonprofit ice arena seating 450: youth and adult hockey, public skating, stick-and-puck, figure skating and curling. Phone 603-447-5886.",
+   "site": "http://hamarena.com",
+   "source": {
+    "label": "Conway Parks & Recreation, Affiliated Organizations",
+    "url": "https://conwaynh.myrec.com/info/affiliated/default.aspx"
+   }
+  },
+  {
+   "name": "Whitaker Woods",
+   "address": "Off Route 16, Kearsarge Road and the John Fuller School, North Conway",
+   "town": "Conway",
+   "uses": "About 45 km of town conservation trails for walking, running, cross-country skiing, snowshoeing and riding, plus a ball field at the Whitaker Homesite and a warming hut. Eastern Slope Ski Club uses it for its junior program.",
+   "site": "https://conwaynh.gov/boards/conservation/conservationlands/whitakerwoods.pdf",
+   "source": {
+    "label": "Town of Conway, Whitaker Woods (Conservation Commission)",
+    "url": "https://conwaynh.gov/boards/conservation/conservationlands/whitakerwoods.pdf"
+   }
+  },
+  {
+   "name": "Mount Washington Valley Ski Touring trails",
+   "address": "279 NH Route 16-302, Intervale, NH 03845",
+   "town": "Conway",
+   "uses": "About 40 km of groomed classic and skate trails linking Intervale, Kearsarge and North Conway. Trail pass required; Conway residents and non-resident taxpayers ski free with a resident pass. Passes sold at the Touring Center at Ragged Mountain Equipment.",
+   "site": "https://www.mwvskitouring.org/index.html",
+   "source": {
+    "label": "Conway Parks & Recreation, Affiliated Organizations",
+    "url": "https://conwaynh.myrec.com/info/affiliated/default.aspx"
+   }
+  },
+  {
+   "name": "Marshall Gymnasium (Conway Recreation)",
+   "address": null,
+   "town": "Conway",
+   "uses": "Town gym used for Conway Parks and Recreation programs.",
+   "site": "https://conwaynh.myrec.com/info/calendar/list.aspx",
+   "source": {
+    "label": "Conway Parks & Recreation, calendar",
+    "url": "https://conwaynh.myrec.com/info/calendar/list.aspx"
+   },
+   "needs_review": true,
+   "review_note": "Address not shown on the page opened."
+  },
+  {
+   "name": "Johnny Eastman Park public pickleball courts",
+   "address": null,
+   "town": "Conway",
+   "uses": "Public pickleball courts listed as a Conway Recreation location.",
+   "site": "https://conwaynh.myrec.com/info/calendar/list.aspx",
+   "source": {
+    "label": "Conway Parks & Recreation, calendar",
+    "url": "https://conwaynh.myrec.com/info/calendar/list.aspx"
+   },
+   "needs_review": true,
+   "review_note": "Address not shown on the page opened."
+  },
+  {
+   "name": "Schouler Park rink",
+   "address": "White Mountain Hwy, North Conway Village, NH 03860",
+   "town": "Conway",
+   "uses": "Outdoor skating rink; NorthConwayNH.com listed it as temporarily closed for the 2025-26 season.",
+   "site": null,
+   "source": {
+    "label": "NorthConwayNH.com, Ice Skating",
+    "url": "https://northconwaynh.com/ice-skating/"
+   },
+   "needs_review": true,
+   "review_note": "2026-27 status unknown."
+  },
+  {
+   "name": "Cranmore Mountain Resort",
+   "address": null,
+   "town": "Conway",
+   "uses": "Ski area in North Conway; a site for Eastern Slope Ski Club's junior program and the MWV Ski Team's events.",
+   "site": "https://cranmore.com",
+   "source": {
+    "label": "MVSB, 'Eastern Slope Ski Club' (Feb. 2025)",
+    "url": "https://www.mvsb.com/2025/02/20/eastern-slope-ski-club/"
+   }
+  },
+  {
+   "name": "Attitash Mountain Resort",
+   "address": null,
+   "town": "Bartlett",
+   "uses": "Ski area; a site for Eastern Slope Ski Club's junior program; the MWV Ski Team has held championship racing at Bear Peak, Attitash.",
+   "site": "https://www.attitash.com",
+   "source": {
+    "label": "MVSB, 'Eastern Slope Ski Club' (Feb. 2025)",
+    "url": "https://www.mvsb.com/2025/02/20/eastern-slope-ski-club/"
+   }
+  },
+  {
+   "name": "King Pine Ski Area and Purity Spring Resort",
+   "address": "1251 Eaton Road, East Madison, NH 03849",
+   "town": "Madison",
+   "uses": "Ski area used by Eastern Slope Ski Club's junior program; covered skating under the Tohko Dome. Phone 603-367-8896.",
+   "site": "https://www.kingpine.com/activities/other-winter-activities",
+   "source": {
+    "label": "NorthConwayNH.com, Ice Skating",
+    "url": "https://northconwaynh.com/ice-skating/"
+   }
+  },
+  {
+   "name": "Black Mountain Ski Area",
+   "address": null,
+   "town": "Jackson",
+   "uses": "Ski area where Jackson Grammar School's grades 1-6 ski with Eastern Slope Ski Club on Fridays.",
+   "site": null,
+   "source": {
+    "label": "Jackson Grammar School, Skiing at JGS",
+    "url": "https://sites.google.com/sau9.org/jackson-grammar/community-link-page/sports-at-jgs/skiing-at-jgs"
+   },
+   "needs_review": true,
+   "review_note": "The source does not give the ski area's town or address."
+  },
+  {
+   "name": "Jackson Ski Touring (Jackson XC)",
+   "address": null,
+   "town": "Jackson",
+   "uses": "Nordic center; home of the Jackson XC youth club and host of the 2026 New England Bill Koch League Festival.",
+   "site": "https://www.jacksonxc.org",
+   "source": {
+    "label": "Conway Daily Sun, 'Nordic Tracks: Jackson XC hosts 2026 Bill Koch League Festival' (Feb. 2026)",
+    "url": "https://www.conwaydailysun.com/outdoors/skiing/crosscountry/nordic-tracks-jackson-xc-hosts-2026-bill-koch-league-festival-this-weekend/article_3e5068a8-bbcd-46dc-a95a-8e684c6187d9.html"
+   }
+  },
+  {
+   "name": "Nestlenook Farm",
+   "address": "66 Dinsmore Rd, Jackson, NH 03846",
+   "town": "Jackson",
+   "uses": "Listed as an area skating option. Phone 603-383-7101.",
+   "site": null,
+   "source": {
+    "label": "NorthConwayNH.com, Ice Skating",
+    "url": "https://northconwaynh.com/ice-skating/"
+   },
+   "needs_review": true,
+   "review_note": "Offerings not described."
+  },
+  {
+   "name": "Tamworth Recreation Park",
+   "address": "104 Durrell Rd, Tamworth, NH 03886",
+   "town": "Tamworth",
+   "uses": "Town recreation field and park used for Tamworth Recreation programs and events.",
+   "site": "https://sites.google.com/view/tamworthrecreation/home",
+   "source": {
+    "label": "Tamworth Recreation Department",
+    "url": "https://sites.google.com/view/tamworthrecreation/home"
+   }
+  }
+ ],
+ "news": [
+  {
+   "date": "2026-10-31",
+   "title": "KHS and FA mountain bikers shine in home meet",
+   "url": "https://www.conwaydailysun.com/sports/high_school/khs-and-fa-mountain-bikers-shine-in-home-meet/article_2dae9900-0811-4ac0-8a9c-6e0d1142c11c.html",
+   "source": "The Conway Daily Sun",
+   "town": "Conway",
+   "note": "Date from the Sun's '16 hrs ago' label on Nov. 1.",
+   "needs_review": true,
+   "review_note": "Headline and date read from the Sun's sports index pages; the article itself could not be opened."
+  },
+  {
+   "date": "2026-10-31",
+   "title": "Eagles secure final playoff spot; visit Pembroke on Tuesday",
+   "url": "https://www.conwaydailysun.com/sports/high_school/eagles-secure-final-playoff-spot-visit-pembroke-on-tuesday/article_1dea9b65-633e-4b30-8054-161132afcad9.html",
+   "source": "The Conway Daily Sun",
+   "town": "Conway",
+   "note": "Date is when the Sun's sports page showed it as posted or updated; the article likely previews the Oct. 27 game.",
+   "needs_review": true,
+   "review_note": "Headline and date read from the Sun's sports index pages; the article itself could not be opened."
+  },
+  {
+   "date": "2026-10-30",
+   "title": "Kennett Girls Soccer Playoff Win (photo gallery)",
+   "url": "https://www.conwaydailysun.com/multimedia/kennett-girls-soccer-playoff-win/collection_14c2dc6b-5ff4-4a52-863b-6beb2b2585c8.html",
+   "source": "The Conway Daily Sun",
+   "town": "Conway",
+   "needs_review": true,
+   "review_note": "Headline and date read from the Sun's sports index pages; the article itself could not be opened."
+  },
+  {
+   "date": "2026-10-30",
+   "title": "KHS girls soccer sets a milestone on Senior Day",
+   "url": "https://www.conwaydailysun.com/sports/high_school/khs-girls-soccer-sets-a-milestone-on-senior-day/article_eb87b007-43ec-4858-874e-1c61b56c73c5.html",
+   "source": "The Conway Daily Sun",
+   "town": "Conway",
+   "note": "Updated date.",
+   "needs_review": true,
+   "review_note": "Headline and date read from the Sun's sports index pages; the article itself could not be opened."
+  },
+  {
+   "date": "2026-10-30",
+   "title": "Kennett shuts out Kingswood, but misses the playoffs",
+   "url": "https://www.conwaydailysun.com/sports/high_school/kennett-shuts-out-kingswood-but-misses-the-playoffs/article_ca1aa816-0f64-4f1d-9533-b4b75fa77abe.html",
+   "source": "The Conway Daily Sun",
+   "town": "Conway",
+   "note": "Updated date. Which Kennett team is not stated in the headline.",
+   "needs_review": true,
+   "review_note": "Headline and date read from the Sun's sports index pages; the article itself could not be opened."
+  },
+  {
+   "date": "2026-10-29",
+   "title": "Eagles run over Trinity; stay in the playoff chase",
+   "url": "https://www.conwaydailysun.com/sports/high_school/eagles-run-over-trinity-stay-in-the-playoff-chase/article_c89b1d79-7c61-408c-b51f-5e999640cfe0.html",
+   "source": "The Conway Daily Sun",
+   "town": "Conway",
+   "note": "Updated date.",
+   "needs_review": true,
+   "review_note": "Headline and date read from the Sun's sports index pages; the article itself could not be opened."
+  },
+  {
+   "date": "2026-10-28",
+   "title": "Kennett harriers compete in largest meet of the season; win at White Mountains",
+   "url": "https://www.conwaydailysun.com/sports/high_school/kennett-harriers-compete-in-largest-meet-of-the-season-win-at-white-mountains/article_2761c2d3-7a93-4588-a84d-6e2b7ae03db6.html",
+   "source": "The Conway Daily Sun",
+   "town": "Conway",
+   "needs_review": true,
+   "review_note": "Headline and date read from the Sun's sports index pages; the article itself could not be opened."
+  },
+  {
+   "date": "2026-10-27",
+   "title": "Kennett girls to host first ever playoff soccer match",
+   "url": "https://www.conwaydailysun.com/sports/high_school/kennett-girls-to-host-first-ever-playoff-soccer-match/article_e70f4955-3fe7-40fa-8bac-d810912071f8.html",
+   "source": "The Conway Daily Sun",
+   "town": "Conway",
+   "note": "Updated date.",
+   "needs_review": true,
+   "review_note": "Headline and date read from the Sun's sports index pages; the article itself could not be opened."
+  },
+  {
+   "date": "2026-10-26",
+   "title": "Kennett Mountain Bike Invitational (photo gallery)",
+   "url": "https://www.conwaydailysun.com/multimedia/kennett-mountain-bike-invitational/collection_c3f8c4e9-6f63-4029-b874-ca107e5802fe.html",
+   "source": "The Conway Daily Sun",
+   "town": "Conway",
+   "needs_review": true,
+   "review_note": "Headline and date read from the Sun's sports index pages; the article itself could not be opened."
+  },
+  {
+   "date": "2026-10-26",
+   "title": "Kennett Fall Sports Senior Recognition Games (photo gallery)",
+   "url": "https://www.conwaydailysun.com/multimedia/kennett-fall-sports-senior-recognition-games/collection_89affe6e-ebb3-4e91-8c12-a190a992092c.html",
+   "source": "The Conway Daily Sun",
+   "town": "Conway",
+   "note": "Updated date.",
+   "needs_review": true,
+   "review_note": "Headline and date read from the Sun's sports index pages; the article itself could not be opened."
+  },
+  {
+   "date": "2026-10-23",
+   "title": "Generals declaw the Eagles 27-6",
+   "url": "https://www.conwaydailysun.com/sports/high_school/generals-declaw-the-eagles-27-6/article_2f25ef48-0de9-4c48-9e10-2f0d53ae8ba6.html",
+   "source": "The Conway Daily Sun",
+   "town": "Conway",
+   "note": "Updated date.",
+   "needs_review": true,
+   "review_note": "Headline and date read from the Sun's sports index pages; the article itself could not be opened."
+  },
+  {
+   "date": "2026-10-16",
+   "title": "Battle of the Badges Flag Football (photo gallery)",
+   "url": "https://www.conwaydailysun.com/multimedia/battle-of-the-badges-flag-football/collection_a5b2c507-e18d-4490-bdbd-adff14b4a196.html",
+   "source": "The Conway Daily Sun",
+   "town": "Conway",
+   "note": "Updated date.",
+   "needs_review": true,
+   "review_note": "Headline and date read from the Sun's sports index pages; the article itself could not be opened."
+  }
+ ]
+}
