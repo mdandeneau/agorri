@@ -1,7 +1,7 @@
 {
  "about": {
   "town": "Portsmouth, NH",
-  "as_of": "2026-10-23",
+  "as_of": "2026-11-02",
   "records_from": "2025-10-28",
   "documents_used": 592,
   "note": "Plain-English summaries written by AI from official city PDFs; every meeting carries its source URL. Items with needs_review=true are where the official record is ambiguous or self-contradictory."
@@ -12,6 +12,10 @@
    {
     "item": "Joint Capital Improvement Plan (CIP) work session with the Planning Board comes first, Thursday, Nov 12 at 6 pm",
     "from": "2026-10-30"
+   },
+   {
+    "item": "Proposed on the Oct 26 agenda (outcome not yet in minutes): first reading of a new Sewer Use Ordinance, and a public hearing on giving up part of Cornwall Street",
+    "from": "2026-11-02"
    }
   ]
  },
@@ -21,7 +25,7 @@
    "title": "Downtown parking and the resident parking pilot",
    "topic": "Parking & transportation",
    "status": "One-year pilot since July 1, 2026",
-   "next": "Oct 26: first quarterly report",
+   "next": "RAPP first-quarter report was on the Oct 26 agenda; minutes not yet posted",
    "summary": "Since July 1, residents with registered plates park free in pilot zones near downtown while nonresidents pay. The council has spent much of 2026 adjusting rates and parking for downtown workers, and gets its first data on the pilot on Oct 26.",
    "points": [
     "Aug 17: raising downtown on-street rates to $3 an hour for 3 hours, then $6, failed 3-5. Yes: Moreau, Hopkins, Bagley. No: Kelley, Cook, Flynn, Blalock, McEachern.",
@@ -1089,11 +1093,12 @@
    "title": "McIntyre Federal Building, 62 Daniel Street",
    "topic": "Historic preservation",
    "status": "Informal Historic District review",
-   "next": "Not yet scheduled",
+   "next": "Dec 2: the owner asked to postpone the Historic District Commission work session to this date",
    "summary": "Plans to redevelop the former federal building downtown are in work sessions (informal reviews with no vote) at the Historic District Commission. No approval has been voted on.",
    "points": [
     "Work sessions were continued or postponed on June 3, July 8 and Aug 5.",
-    "Oct 14: a joint Planning Board and Historic District Commission work session on the project."
+    "Oct 14: a joint Planning Board and Historic District Commission work session on the project.",
+    "Nov 4 HDC agenda: the owner asked to postpone the work session to the Dec 2, 2026 meeting."
    ],
    "keywords": [
     "McIntyre",
@@ -1103,6 +1108,10 @@
     {
      "label": "Oct 14 work session materials",
      "url": "https://files.portsmouthnh.gov/agendas/2026/HDC/OCtober+14%2C+2026/DanielSt_62_HDC_WS_101426.pdf"
+    },
+    {
+     "label": "Nov 4 HDC agenda",
+     "url": "https://files.portsmouthnh.gov/agendas/2026/HDC/November+04%2C+2026/11-04-26_HDC_ag_2.pdf"
     }
    ],
    "scope": "all",
@@ -1440,6 +1449,77 @@
   }
  ],
  "council_meetings": [
+  {
+   "body": "City Council",
+   "date": "2026-10-26",
+   "minutes_url": "https://files.portsmouthnh.gov/agendas/2026/City%20Council/City%20Council%20Agenda%2010.26.2026.pdf",
+   "minutes_status": "agenda only",
+   "ocr": false,
+   "attendance": {
+    "present": [],
+    "absent": []
+   },
+   "headline": "Agenda only: the Council was scheduled to hold the third and final reading on moving most parking rules out of the Zoning Ordinance, vote on borrowing up to $600,000 for fire apparatus, and hear the first-quarter report on resident parking. Minutes are not posted yet, so outcomes are not known.",
+   "decisions": [],
+   "discussed": [
+    {
+     "title": "Rolling stock work session (6 pm)",
+     "detail": "Deputy City Manager Nathan Lunney was scheduled to review the City's vehicles and equipment (rolling stock), followed by Council questions and public comment.",
+     "topic": "Budget & taxes"
+    },
+    {
+     "title": "Parking rules out of zoning: third and final reading",
+     "detail": "Public hearing and vote on amending the Zoning Ordinance (Chapter 10) to move most parking regulations into the Site Plan Review Regulations, except for one- and two-family homes.",
+     "topic": "Parking & transportation"
+    },
+    {
+     "title": "Bond for fire apparatus",
+     "detail": "Resolution #15-2026 would authorize bonds or notes of up to $600,000 for buying fire apparatus.",
+     "topic": "Public safety"
+    },
+    {
+     "title": "Solid waste and sewer ordinances",
+     "detail": "The City Manager asked the Council to schedule a Solid Waste Ordinance work session on December 7, 2026 at 6 pm, and a first reading on November 16 of a new Sewer Use Ordinance that would replace the existing one.",
+     "topic": "Infrastructure & utilities"
+    },
+    {
+     "title": "Payments in lieu of taxes (PILOT)",
+     "detail": "FY2027 PILOT agreements with Friends of Lafayette House ($3,500) and Betty's Dream Foundation ($3,000).",
+     "topic": "Budget & taxes"
+    },
+    {
+     "title": "Planning Board recommendations",
+     "detail": "361 Hanover Street sidewalk easement and licenses; a public hearing on November 16 on giving up part of Cornwall Street; giving up part of Taft Road; whether to allow a building permit for 0 Elm Street, a lot with no street frontage; and a sidewalk easement at 48-50 Langdon Street.",
+     "topic": "Housing & zoning"
+    },
+    {
+     "title": "Fire officers agreement",
+     "detail": "A Memorandum of Agreement with the Portsmouth Professional Fire Officers Association, Local #4039.",
+     "topic": "Public safety"
+    },
+    {
+     "title": "Police grants",
+     "detail": "Accepting a $1,000,000 FY26 Byrne Discretionary Community Projects grant for the NH Internet Crimes Against Children Task Force and a $1,031,000 FY26 COPS Technology and Equipment grant for the Police Department.",
+     "topic": "Public safety"
+    },
+    {
+     "title": "Reports from the City Manager",
+     "detail": "Resident Access Parking Program (RAPP) first-quarter report, off-peak workweek parking for downtown businesses, a general fund revenue update, a Pease Development Authority update, water and sewer work on Borthwick Avenue and the Sherburne property, and the November 9 Mechanic Street Pump Station meeting.",
+     "topic": "Parking & transportation"
+    }
+   ],
+   "public_comment": [],
+   "coming_up": [
+    {
+     "date": "2026-11-16",
+     "item": "Proposed on the Oct 26 agenda: first reading of a new Sewer Use Ordinance and a public hearing on giving up part of Cornwall Street"
+    },
+    {
+     "date": "2026-12-07",
+     "item": "Proposed on the Oct 26 agenda: Solid Waste Ordinance work session, 6 pm"
+    }
+   ]
+  },
   {
    "body": "City Council",
    "date": "2026-10-13",
@@ -8105,6 +8185,212 @@
   }
  ],
  "board_meetings": [
+  {
+   "body": "Historic District Commission",
+   "date": "2026-11-04",
+   "record_url": "https://files.portsmouthnh.gov/agendas/2026/HDC/November+04%2C+2026/11-04-26_HDC_ag_2.pdf",
+   "record_type": "agenda only",
+   "headline": "Agenda for Nov 4: public hearings on 413 Islington Street, 134 Pleasant Street, a second one-year extension for One Market Square at 1 and 21 Congress Street, 50 Whidden Street and 357 Maplewood Avenue; the McIntyre Federal Building work session is set to be postponed to Dec 2.",
+   "items": [
+    {
+     "address": "413 Islington St",
+     "applicant": "Todd Hudson (owner)",
+     "request": "Public hearing on exterior renovations including new roof dormers, removing the rear additions and rear chimney, and building a new rear addition and two single-car garages.",
+     "decision": null,
+     "vote": null,
+     "conditions": [],
+     "topic": "Historic preservation",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "address": "134 Pleasant St",
+     "applicant": "Double MC LLC (owner)",
+     "request": "Work session and public hearing on taking the existing building down to the first-floor slab and building the previously approved new structure with minor changes.",
+     "decision": null,
+     "vote": null,
+     "conditions": [],
+     "topic": "Historic preservation",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "address": "1 and 21 Congress St",
+     "applicant": "One Market Square LLC (owner)",
+     "request": "Public hearing on a second one-year extension of the approval first granted November 6, 2024 for renovations and new construction on both buildings.",
+     "decision": null,
+     "vote": null,
+     "conditions": [],
+     "topic": "Downtown & business",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "address": "50 Whidden St",
+     "applicant": "Christopher H. Daniell (owner)",
+     "request": "Public hearing on a rear addition with a roof and side decks.",
+     "decision": null,
+     "vote": null,
+     "conditions": [],
+     "topic": "Historic preservation",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "address": "357 Maplewood Ave",
+     "applicant": "ADJ Holdings LLC (owner)",
+     "request": "Public hearing on new front stairs, repairing or replacing all decking, and new fencing.",
+     "decision": null,
+     "vote": null,
+     "conditions": [],
+     "topic": "Historic preservation",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "address": "129 State St",
+     "applicant": "129 State Street, LLC (owner)",
+     "request": "The owner asked to postpone the public hearing on removing shutters and trim, adding dormers and skylights and a rear garage addition to December 2, 2026. A separate work session on the rear garage addition is also on the agenda.",
+     "decision": null,
+     "vote": null,
+     "conditions": [],
+     "topic": "Historic preservation",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "address": "62 Daniel St",
+     "applicant": "80 D Street LLC (owner)",
+     "request": "McIntyre Federal Building: the owner asked to postpone the work session (an informal review with no vote) on renovating the building and adding three new multi-story buildings to December 2, 2026.",
+     "decision": null,
+     "vote": null,
+     "conditions": [],
+     "topic": "Historic preservation",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "address": "163 Deer St",
+     "applicant": "Eightkph LLC (owner)",
+     "request": "Work session (an informal review with no vote) on demolishing the existing building and building a new multi-story, multi-unit building.",
+     "decision": null,
+     "vote": null,
+     "conditions": [],
+     "topic": "Housing & zoning",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "address": "48 Manning St",
+     "applicant": "Fernald Trust (owner)",
+     "request": "Work session on an attached garage and mud room, new egress windows, fencing and landscaping.",
+     "decision": null,
+     "vote": null,
+     "conditions": [],
+     "topic": "Historic preservation",
+     "needs_review": false,
+     "review_note": null
+    }
+   ],
+   "policy_items": []
+  },
+  {
+   "body": "Zoning Board of Adjustment",
+   "date": "2026-10-27",
+   "record_url": "https://files.portsmouthnh.gov/agendas/2026/Zoning%20Board%20of%20Adjustment/10-27-2026%20Meeting/10-27-2026%20BOA%20AG.pdf",
+   "record_type": "agenda only",
+   "headline": "Agenda only: the board was scheduled to hear a rehearing request for 28 Blossom Street and seven new cases, including a new house on a small vacant lot at 0 Woodworth Avenue and larger signs at 325 Corporate Drive at Pease.",
+   "items": [
+    {
+     "address": "28 Blossom St",
+     "applicant": null,
+     "request": "Request for a rehearing (asking the board to reconsider an earlier decision). The agenda gives no further detail.",
+     "decision": null,
+     "vote": null,
+     "conditions": [],
+     "topic": "Housing & zoning",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "address": "1490 Islington St",
+     "applicant": "Emilyn Anne and Eben Kennedy (owners)",
+     "request": "Wants an addition and renovation that would turn a single-family home with an accessory dwelling unit into a two-family home. Needs a variance (permission to break a zoning rule for this one property) to allow a two-family home in the Single Residence B district.",
+     "decision": null,
+     "vote": null,
+     "conditions": [],
+     "topic": "Housing & zoning",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "address": "104 Thornton St",
+     "applicant": "Nathan Alger (owner)",
+     "request": "Wants to remove a carport and deck and build an addition, and keep a fence already installed. Needs variances (permission to break specific zoning rules for this one property): enlarging a nonconforming building, a 4-foot rear yard where 20 feet is required, a 6-foot secondary front yard where 15 feet is required, 44.5% building coverage where 25% is allowed, and a fence over 4 feet tall at the front lot line where a 15-foot setback is required.",
+     "decision": null,
+     "vote": null,
+     "conditions": [],
+     "topic": "Housing & zoning",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "address": "0 Woodworth Ave",
+     "applicant": "Schofield-Kanner Revocable Trust (owners); Cain Investments, LLC (applicant)",
+     "request": "Wants to build a new single-family home on a vacant lot. Needs variances (permission to break specific zoning rules for this one property): 3,440 square feet of lot area where 15,000 is required, 40 feet of street frontage where 100 is required, an 86-foot lot depth where 100 is required, a 17-foot front yard where 30 is required, a 10-foot rear yard where 30 is required, and 35% building coverage where 20% is allowed.",
+     "decision": null,
+     "vote": null,
+     "conditions": [],
+     "topic": "Housing & zoning",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "address": "54 Lincoln Ave",
+     "applicant": "Peters Family Trust (owner)",
+     "request": "Wants an accessory dwelling unit on a second floor over an existing detached garage. Needs variances (permission to break specific zoning rules for this one property): a 10-foot rear yard where 20 feet is required and 29% building coverage where 25% is allowed.",
+     "decision": null,
+     "vote": null,
+     "conditions": [],
+     "topic": "Housing & zoning",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "address": "9 Sheafe St",
+     "applicant": "Michael and Stephanie Febonio (owners)",
+     "request": "Wants an 8-foot fence in the secondary front yard, which needs a variance (permission to break a zoning rule for this one property). The property is in the Historic District.",
+     "decision": null,
+     "vote": null,
+     "conditions": [],
+     "topic": "Housing & zoning",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "address": "325 Corporate Dr",
+     "applicant": "325 Corporate Drive II LLC, c/o The Kane Company (owners)",
+     "request": "Wants two wall signs and monument signs larger in total than the Pease Development Ordinance allows (2 square feet per foot of street frontage, up to 200 square feet).",
+     "decision": null,
+     "vote": null,
+     "conditions": [],
+     "topic": "Downtown & business",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "address": "10 Merrimac St",
+     "applicant": "Rocket Too Trust (owner)",
+     "request": "Wants to rebuild a porte-cochere (a covered drive-through entrance). Needs variances (permission to break specific zoning rules for this one property): a 10-foot rear yard where 20 feet is required and 26% building coverage where 25% is allowed.",
+     "decision": null,
+     "vote": null,
+     "conditions": [],
+     "topic": "Housing & zoning",
+     "needs_review": false,
+     "review_note": null
+    }
+   ]
+  },
   {
    "body": "Zoning Board of Adjustment",
    "date": "2026-10-20",

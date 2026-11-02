@@ -203,6 +203,28 @@
    },
    "strip": "Pump station",
    "stripLine": "Info meeting Monday, 6:30 pm"
+  },
+  {
+   "date": "2026-11-11",
+   "kind": "Library",
+   "title": "Portsmouth Public Library closed Wednesday, Nov 11",
+   "detail": "The Library resumes normal hours on Thursday, Nov 12.",
+   "source": {
+    "label": "Portsmouth Public Library, Oct 26",
+    "url": "https://www.portsmouthnh.gov/library/news/library-closed-november-11"
+   },
+   "strip": "Library closed",
+   "stripLine": "Public Library closed Wednesday, Nov 11"
+  },
+  {
+   "date": "2026-11-01",
+   "kind": "Water",
+   "title": "Got a letter about a galvanized or unknown water service line? The city posted FAQs",
+   "detail": "Under the EPA's Lead and Copper Rule Improvements, every water supplier must inventory the material of each service line (the pipe from the water main to a home or business). Customers whose line is galvanized or of unknown material are receiving notices.",
+   "source": {
+    "label": "City of Portsmouth DPW, Nov 1",
+    "url": "https://www.portsmouthnh.gov/publicworks/water/news/faqs-service-line-notices"
+   }
   }
  ],
  "election": {
@@ -849,29 +871,8 @@
    "status": "not yet connected"
   }
  ],
- "events_as_of": "2026-11-01",
+ "events_as_of": "2026-11-02",
  "events": [
-  {
-   "date": "2026-11-01",
-   "time": "12:00 pm",
-   "title": "Girl Scout Fall Fest",
-   "venue": "Camp Seawood, 350 Banfield Rd",
-   "town": "Portsmouth",
-   "kind": "Family",
-   "url": "https://patch.com/new-hampshire/portsmouth-nh/calendar/event/20261101/bbe8e0a3-0bd4-4c59-b7d0-a896ec8c3bd0/girl-scout-fall-fest",
-   "source": "Patch calendar"
-  },
-  {
-   "date": "2026-11-01",
-   "time": "3:00 pm",
-   "title": "Portsmouth Symphony Orchestra Fall Concert: The Universe",
-   "venue": "The Music Hall Historic Theater, 28 Chestnut St",
-   "town": "Portsmouth",
-   "kind": "Music",
-   "url": "https://www.themusichall.org/events/pso26fallconcert/",
-   "source": "The Music Hall",
-   "note": "Pre-concert talk at 1:45 pm."
-  },
   {
    "date": "2026-11-02",
    "time": "6:30 pm",
@@ -965,6 +966,16 @@
    "url": "https://www.strawberybanke.org/events/",
    "source": "Strawbery Banke",
    "price": "$15 members, $20 nonmembers"
+  },
+  {
+   "date": "2026-11-12",
+   "time": "6:00 pm",
+   "title": "Understanding Artificial Intelligence",
+   "venue": "Portsmouth Public Library, 175 Parrott Ave",
+   "town": "Portsmouth",
+   "kind": "Library",
+   "url": "https://portsmouthpl.librarycalendar.com/event/understand-ai",
+   "source": "Library calendar"
   },
   {
    "date": "2026-11-13",

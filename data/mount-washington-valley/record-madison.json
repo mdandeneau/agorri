@@ -1,7 +1,7 @@
 {
  "about": {
   "town": "Madison, NH",
-  "as_of": "2026-10-31",
+  "as_of": "2026-11-02",
   "records_from": "2025-09-17",
   "documents_used": 45,
   "note": "The Town of Madison, Carroll County, including Silver Lake and Eidelweiss. Madison is governed by a five-member Board of Selectmen and a Town Administrator, with an annual town meeting: officers and zoning changes are voted by ballot on the second Tuesday in March (March 10, 2026), and money articles at a business session the following Saturday (March 14, 2026). Eidelweiss is also served by the Village District of Eidelweiss, a separate small local government with its own commissioners, water system, roads and tax rate. The town posts Selectmen minutes through September 29, 2026, but those 2026 PDFs could not be opened for this research (only the January 20, 2026 minutes could), so most meeting entries are built from Conway Daily Sun reports and are marked as news reports. The results of the March 14, 2026 business session (including the final operating budget) and the 2025 tax rate breakdown were not found. Plain-English summaries written by AI; items with needs_review=true are uncertain."
@@ -124,7 +124,8 @@
     "Selectmen estimate replacement needs about $2 million. Rep. Pappas's FY2027 Community Project Funding list includes 'Silver Lake Dam Replacement' for the Town of Madison at $2,250,000 (engineering, demolition and a new dam).",
     "Pappas met selectmen at the boat ramp in early April 2026; a staffer said a spending bill with the money could pass at year's end. Not yet awarded.",
     "The 2026 draft warrant (Feb 10 hearing) asked $100,000 for the Silver Lake Dam Improvement Trust Fund, which then held $79,400. Final vote not found.",
-    "October 2026: Silver Lake went down to winter level by October 15, then down another 2 feet October 19 to 23 for Public Works repairs to the boat launch (town notice)."
+    "October 2026: Silver Lake went down to winter level by October 15, then down another 2 feet October 19 to 23 for Public Works repairs to the boat launch (town notice).",
+    "Oct 13: the selectmen's agenda listed a public hearing on a snowmobile crossing at the dam (outcome not yet in minutes)."
    ],
    "keywords": [
     "silver lake",
@@ -154,7 +155,21 @@
     }
    ],
    "scope": "Town",
-   "related": []
+   "related": [
+    {
+     "date": "2026-10-13",
+     "body": "Board of Selectmen",
+     "url": "https://www.madison-nh.org/wp-content/uploads/2026/10/2026-10-13-Agenda.pdf",
+     "d": {
+      "title": "Public hearing: Silver Lake Dam snowmobile crossing",
+      "detail": null,
+      "outcome": null,
+      "topic": "Infrastructure & utilities",
+      "needs_review": false,
+      "review_note": null
+     }
+    }
+   ]
   },
   {
    "id": "eidelweiss-tower",
@@ -364,6 +379,92 @@
   }
  ],
  "council_meetings": [
+  {
+   "body": "Board of Selectmen",
+   "date": "2026-10-27",
+   "minutes_url": "https://www.madison-nh.org/wp-content/uploads/2026/10/2026-10-27-Agenda.pdf",
+   "minutes_status": "agenda only",
+   "ocr": false,
+   "source_note": "Built from the posted agenda only; the town has not posted minutes for this meeting, so what was decided is not known.",
+   "attendance": {
+    "present": [],
+    "absent": []
+   },
+   "headline": "Agenda only: selectmen were scheduled to take up department head budgets, a resident's request about a zoning change warrant article, DPW requests for proposals and an emergency over-expenditure filing with the state.",
+   "decisions": [],
+   "discussed": [
+    {
+     "title": "Department head budgets",
+     "detail": "On the selectmen's list for the 2027 budget.",
+     "topic": "Budget & taxes"
+    },
+    {
+     "title": "Zoning change warrant article request",
+     "detail": "Options for a warrant article requested by Bryant Guerin about a zoning ordinance change.",
+     "topic": "Housing & zoning"
+    },
+    {
+     "title": "DPW requests for proposals",
+     "detail": "Public Works requests for proposals (RFPs).",
+     "topic": "Infrastructure & utilities"
+    },
+    {
+     "title": "Administrator's list",
+     "detail": "A DRA (NH Department of Revenue Administration) emergency over-expenditure, trust fund reimbursements, an earned time policy, an updated personnel policy handbook, an updated accounting policy, and a possible December 5 SLAM presentation meeting.",
+     "topic": "Budget & taxes"
+    },
+    {
+     "title": "Signature items",
+     "detail": "A transfer station grant (CVA) and the MS-434 (the town's revenue estimate form for the state).",
+     "topic": "Budget & taxes"
+    },
+    {
+     "title": "Non-public sessions",
+     "detail": "Three non-public sessions were listed under RSA 91-A:3 II(b), (c) and (l).",
+     "topic": "Government & elections"
+    }
+   ],
+   "public_comment": [],
+   "coming_up": []
+  },
+  {
+   "body": "Board of Selectmen",
+   "date": "2026-10-13",
+   "minutes_url": "https://www.madison-nh.org/wp-content/uploads/2026/10/2026-10-13-Agenda.pdf",
+   "minutes_status": "agenda only",
+   "ocr": false,
+   "source_note": "Built from the posted agenda only; the town has not posted minutes for this meeting, so what was decided is not known.",
+   "attendance": {
+    "present": [],
+    "absent": []
+   },
+   "headline": "Agenda only: department heads were scheduled to present budgets from 4:05 to 6 pm, followed by a public hearing on a snowmobile crossing at the Silver Lake Dam.",
+   "decisions": [],
+   "discussed": [
+    {
+     "title": "Department head budget presentations",
+     "detail": "Scheduled from 4:05 to 6:00 pm.",
+     "topic": "Budget & taxes"
+    },
+    {
+     "title": "Public hearing: Silver Lake Dam snowmobile crossing",
+     "detail": "A public hearing on a snowmobile crossing at the Silver Lake Dam. The Dam Committee was also on the selectmen's list.",
+     "topic": "Infrastructure & utilities"
+    },
+    {
+     "title": "Other items",
+     "detail": "A resident's question about a property he bought and town documents; an amendment to the selectmen's meeting policy about cell phones; general government building budget items; a lead tackle collection box and sign at the transfer station; and a Conservation Commission update.",
+     "topic": "Government & elections"
+    },
+    {
+     "title": "Tax-deeded property auction",
+     "detail": "The administrator's list included an update on the auction of tax-deeded properties set for November 14.",
+     "topic": "Budget & taxes"
+    }
+   ],
+   "public_comment": [],
+   "coming_up": []
+  },
   {
    "body": "Board of Selectmen",
    "date": "2026-04-14",

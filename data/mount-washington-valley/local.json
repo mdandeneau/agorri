@@ -1145,7 +1145,7 @@
    "note": "The page gives Saturday, Dec 12 and Sunday, Dec 13 but no year; those weekdays match 2026 and the 2025 tour (28th) was Dec 13 and 14, 2025. Tickets are sold through the tour; the inn's page lists only its package."
   }
  ],
- "events_as_of": "2026-10-31",
+ "events_as_of": "2026-11-02",
  "eventsNote": "Events from the Conway Public Library, Cranmore, Conway Scenic Railroad, the Town of Conway, Settlers Green (via the Visit NH calendar) and The Conway Daily Sun, as of Oct 30. The Mt. Washington Valley Chamber calendar loads by script and the North Conway Community Center schedule could not be opened, so their events are missing. Conway Scenic's Santa's Holiday Special page says it begins Nov 27 but gives no year, so it is not listed. Confirm with the organizer. Valley-wide: Conway, Bartlett, Jackson and Madison. From the Town of Bartlett, Town of Jackson and Town of Madison calendars and notices, Jackson XC, the Jackson Area Chamber, White Mountain Ski Co., the Inn at Ellis River and OnTheSnow, as of Oct 31. Ski opening dates are OnTheSnow projections, not resort announcements. Story Land's 2026 season ended Oct 25 with Happy Hauntings (visitwhitemountains.com), so it has no events in this window. Not covered: the Jackson Area Chamber November and December calendar pages, the Attitash events calendar, the Bartlett, Jackson and Madison library sites and the Bartlett and Madison recreation sites could not be opened. Weekly programs at the Old Jackson Library (yoga, mahjong, canasta) are listed in parks-add.json, not here.",
  "election": {
   "date": "2026-11-03",
@@ -1829,12 +1829,37 @@
  "paper": {
   "name": "The Conway Daily Sun",
   "url": "https://www.conwaydailysun.com/",
-  "asOf": "2026-10-30",
+  "asOf": "2026-11-02",
   "note": "Stories open on the paper's site. Dates are the paper's last-updated dates. Picked from the Local news section for Conway relevance.",
   "headlines": [
    {
-    "title": "NH Lottery films holiday TV ad in valley",
-    "url": "https://www.conwaydailysun.com/news/local/nh-lottery-films-holiday-tv-ad-in-valley/article_27933b36-9319-43b9-9835-a2baffebb678.html",
+    "title": "General Election polling places and times",
+    "url": "https://www.conwaydailysun.com/news/local/general-election-polling-places-and-times/article_4d3eade7-7a5f-4c3f-8be6-98d6ef244b5c.html",
+    "date": "2026-11-01"
+   },
+   {
+    "title": "Next Tuesday's general election ballot a consequential one",
+    "url": "https://www.conwaydailysun.com/news/local/next-tuesdays-general-election-ballot-a-consequential-one/article_88070ab3-f6f8-434d-818d-668d996d56a3.html",
+    "date": "2026-10-30"
+   },
+   {
+    "title": "Candidates share personal stories at 5-Minute Forum",
+    "url": "https://www.conwaydailysun.com/politics/candidates-share-personal-stories-at-5-minute-forum/article_21cdb720-ef9b-4fce-ba3e-7aa6c5f2f8b8.html",
+    "date": "2026-10-30"
+   },
+   {
+    "title": "Heard, Jones discuss property taxes, education and local control",
+    "url": "https://www.conwaydailysun.com/news/local/heard-jones-discuss-property-taxes-education-and-local-control/article_ca5d3828-b472-4e8d-b51a-34e660ed92c2.html",
+    "date": "2026-10-30"
+   },
+   {
+    "title": "Randell challenges McGee for Carroll County commissiioner",
+    "url": "https://www.conwaydailysun.com/news/local/randell-challenges-mcgee-for-carroll-county-commissiioner/article_ba7c794c-4ea6-4d41-9348-97dc2a28122d.html",
+    "date": "2026-10-30"
+   },
+   {
+    "title": "Beckwith named school board chair; no vice chair yet",
+    "url": "https://www.conwaydailysun.com/news/local/beckwith-named-school-board-chair-no-vice-chair-yet/article_577cef40-c1f1-45d7-a79e-46c398070dea.html",
     "date": "2026-10-30"
    },
    {
@@ -1843,40 +1868,9 @@
     "date": "2026-10-30"
    },
    {
-    "title": "Public invited to attend Schneider arrival re-enactment Nov. 4, 5",
-    "url": "https://www.conwaydailysun.com/news/local/public-invited-to-attend-schneider-arrival-re-enactment-nov-4-5/article_ccb2776f-0339-4064-8be3-f0954e0efe63.html",
+    "title": "NH Lottery films holiday TV ad in valley",
+    "url": "https://www.conwaydailysun.com/news/local/nh-lottery-films-holiday-tv-ad-in-valley/article_27933b36-9319-43b9-9835-a2baffebb678.html",
     "date": "2026-10-30"
-   },
-   {
-    "title": "Town welfare officer shares 2026 kettling plans",
-    "url": "https://www.conwaydailysun.com/news/local/town-welfare-officer-shares-2026-kettling-plans/article_7449c0dc-c813-47d5-ab5b-00d91c98cadd.html",
-    "date": "2026-10-28"
-   },
-   {
-    "title": "Blue skies and wagging tails at dog park opening",
-    "url": "https://www.conwaydailysun.com/news/local/blue-skies-and-wagging-tails-at-dog-park-opening/article_7152fe12-ed87-433f-8f81-2e1a0e6e5fc3.html",
-    "date": "2026-10-28"
-   },
-   {
-    "title": "Eidelweiss board fires back at county commissioners",
-    "url": "https://www.conwaydailysun.com/news/local/eidelweiss-board-fires-back-at-county-commissioners/article_68566527-58ee-4f03-b765-eaca50ecc217.html",
-    "date": "2026-10-28",
-    "town": "Madison"
-   },
-   {
-    "title": "Kenney says as executive councilor he can ‘work with DOT’",
-    "url": "https://www.conwaydailysun.com/news/local/kenney-says-as-executive-councilor-he-can-work-with-dot/article_02b9cfd3-6996-4928-b9d7-d027d648284f.html",
-    "date": "2026-10-27"
-   },
-   {
-    "title": "Main Street Project shutting down for winter next month",
-    "url": "https://www.conwaydailysun.com/news/local/main-street-project-shutting-down-for-winter-next-month/article_59e2f5c8-549a-438f-87e2-b73fa9a6f1ca.html",
-    "date": "2026-10-26"
-   },
-   {
-    "title": "North-South Road to be shut down this week",
-    "url": "https://www.conwaydailysun.com/news/local/north-south-road-to-be-shut-down-this-week/article_2a251d06-dedc-4f38-943a-8638a28f21b4.html",
-    "date": "2026-10-26"
    }
   ]
  }

@@ -81,6 +81,24 @@
    "issue": "eidelweiss-tower",
    "text": "Carroll County's emergency radio equipment should be allowed to stay on the Eidelweiss tower site.",
    "status": "approved"
+  },
+  {
+   "id": "2026-11-03-tamworth-four-way-stop",
+   "date": "2026-11-03",
+   "town": "tamworth",
+   "issue": "chocorua-four-way-stop",
+   "text": "Tamworth should keep asking the state for a four-way stop at Routes 16 and 113 in Chocorua.",
+   "source": "https://www.tamworthnh.gov/AgendaCenter/ViewFile/Minutes/_04142026-212",
+   "status": "draft"
+  },
+  {
+   "id": "2026-11-04-madison-snowmobile-crossing",
+   "date": "2026-11-04",
+   "town": "madison",
+   "issue": "silver-lake-dam",
+   "text": "Madison should allow a snowmobile crossing at the Silver Lake Dam.",
+   "source": "https://www.madison-nh.org/wp-content/uploads/2026/10/2026-10-13-Agenda.pdf",
+   "status": "draft"
   }
  ]
 }
