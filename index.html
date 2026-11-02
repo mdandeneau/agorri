@@ -506,6 +506,16 @@ h1,h2,h3,.big,.brand b,.fact .v,.date b,.mo-d b,.up,.cost b,.icard .title,.kind,
 .date small{letter-spacing:.04em}
 .tag,.out,.fbcount{font-size:12px;text-transform:none;letter-spacing:0}
 .blk{display:flex;flex-direction:column;gap:4px}
+.exgrid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
+@media (max-width:760px){.exgrid{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}}
+.ex{display:flex;align-items:flex-start;gap:12px;padding:14px 16px;text-decoration:none;color:var(--ink);min-width:0}
+.ex:hover{box-shadow:var(--shadow),0 0 0 1px var(--line)}
+.ex-ic{flex:none;width:36px;height:36px;border-radius:10px;display:grid;place-items:center;background:var(--soft);color:var(--accent)}
+.ex-tx{display:flex;flex-direction:column;gap:1px;min-width:0}
+.ex-l{font-size:12.5px;font-weight:600;color:var(--muted);line-height:1.3}
+.ex-v{font-size:17px;font-weight:800;letter-spacing:-.01em;line-height:1.25}
+.ex-s{font-size:12px;color:var(--muted);line-height:1.3;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+@media (max-width:760px){.ex{padding:12px;gap:10px}.ex-ic{width:32px;height:32px}.ex-v{font-size:15.5px}.ex-s{white-space:normal;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}}
 .ols{padding:0;display:flex;flex-direction:column}
 .ol{padding:13px 0;border-top:1px solid var(--line)}
 .ol:first-child{border-top:1px solid var(--line)}
@@ -1090,13 +1100,13 @@ a.agm-line:hover .agm-t b{color:var(--accent)}
 .hl-ch{display:flex;flex-direction:column;gap:6px;max-height:260px;overflow:auto}
 .hl-pick{display:flex;justify-content:space-between;align-items:center;gap:10px;padding:8px 12px;border-radius:10px;border:1px solid var(--line);background:var(--surface);color:var(--ink);font:inherit;font-size:13.5px;text-align:left;cursor:pointer}
 .hl-pick:hover{border-color:var(--accent)}
-.hero2{position:relative;height:250px;border-radius:20px;overflow:hidden;background:var(--soft);box-shadow:var(--shadow)}
+.hero2{position:relative;height:190px;border-radius:20px;overflow:hidden;background:var(--soft);box-shadow:var(--shadow)}
 .hero2 img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
 .hero2::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,0) 35%,rgba(0,0,0,.55) 100%)}
 .hero2-txt{position:absolute;left:24px;bottom:20px;z-index:1;color:#fff;display:flex;flex-direction:column;gap:2px;text-shadow:0 1px 8px rgba(0,0,0,.35)}
 .hero2-txt h1{color:#fff;font-size:30px;letter-spacing:-.01em}.hero2-txt span{font-size:14px;opacity:.92}
 .hero2-cr{position:absolute;right:12px;bottom:10px;z-index:1;font-size:10.5px;color:rgba(255,255,255,.85);text-decoration:none}.hero2-cr:hover{text-decoration:underline}
-@media (max-width:640px){.hero2{height:190px;border-radius:16px;margin:0 -4px}.hero2-txt{left:16px;bottom:16px}.hero2-txt h1{font-size:23px}.hero2-cr{bottom:auto;top:8px;right:10px}}
+@media (max-width:640px){.hero2{height:150px;border-radius:16px;margin:0 -4px}.hero2-txt{left:16px;bottom:16px}.hero2-txt h1{font-size:23px}.hero2-cr{bottom:auto;top:8px;right:10px}}
 .subpick{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
 .subpick-l{font-size:13px;font-weight:700;color:var(--ink2)}
 .subpick .seg button{font-weight:600}
@@ -1385,7 +1395,8 @@ function kpiTiles(){const B=D.budget||{};const fy=(B.fiscalYear||'').split(' ')[
  if(BT){}else if(lead){const v=bmVerdict(lead);t.push({l:lead.label,v:bmFmt(lead.town),s:esc(lead.unit),d:v.short?`<span class="${v.tone?'t-'+v.tone:''}">${esc(v.short)}</span>`:'',h:'#safety',tip:lead.label+' '+lead.unit+(lead.year?', '+lead.year:'')+'. Compared with New Hampshire and the U.S.'});}
  else{const P=LX&&LX.safety&&LX.safety.police;const st=P&&(P.stats||[]).find(s=>typeof s.value==='number'&&/calls/i.test(s.label));if(st)t.push({l:'Police calls',v:st.value.toLocaleString(),s:esc(lc1(st.label))+(st.year?' · '+esc(st.year):''),h:'#safety',tip:'Police calls for service'});}
  const P=HTOWN();if(P&&P.median)t.push({l:'Median home sale',v:money(P.median),s:esc((P.period||'').replace(/^Three months ending (\w{3})\w* (\d{4})$/,'3 months to $1 $2')),d:P.yoy!=null?`<span class="${P.yoy<0?'t-dn':'t-up'}">${P.yoy>0?'+':''}${P.yoy}%</span> vs last year`:'',h:'#housing',tip:'Home sales in '+TN()+': prices, pace, notable sales and what is before the boards'});
- const ST=socialTile();const row=t.slice(0,ST?3:4);if(ST)row.push(ST);return row.length?`<div class="kpis">${row.map(kpiCard).join('')}</div>`:'';}
+ if(KPI_LIST)return t;const ST=socialTile();const row=t.slice(0,ST?3:4);if(ST)row.push(ST);return row.length?`<div class="kpis">${row.map(kpiCard).join('')}</div>`:'';}
+var KPI_LIST=false;function kpiList(){KPI_LIST=true;try{return kpiTiles()||[];}finally{KPI_LIST=false;}}
 function newsBlock(){const ph=paperHeads();const around=talk().filter(t=>t.tag!=='Housing'&&t.tag!=='Record sale').slice(0,4);if(!(ph&&ph.hs.length)&&!around.length)return '';
  return `<section class="blk"><div class="sec"><h2>Local news</h2><a href="#local">Local ›</a></div><div class="ncols">
   ${ph&&ph.hs.length?`<div class="stack" style="gap:2px"><div class="between ncap"><span>${esc(ph.N.name)}</span><a href="${esc(ph.N.url)}" target="_blank" rel="noopener">Read ›</a></div><div class="nh-rows">${ph.hs.map(h=>`<div class="nhw"><a class="nh" href="${esc(h.url)}" target="_blank" rel="noopener"><span class="nh-t">${esc(h.title)}${typeof isNewDate==='function'&&isNewDate(h.at||h.date)?' '+NEWDOT:''}</span><small class="num">${dayLbl(h.date)}</small></a>${itemBar({t:'news',id:h.url,label:h.title,url:h.url},{sm:true})}</div>`).join('')}</div><span class="srcline">${esc(ph.N.note||'')}${ph.useLive?' Live.':''}</span></div>`:''}
@@ -2616,14 +2627,14 @@ function hcSync(){document.querySelectorAll('.hcar').forEach(c=>{const t=c.query
 document.addEventListener('click',e=>{const b=e.target.closest('[data-hcar]');if(!b)return;const t=b.parentElement.querySelector('.hcar-track');if(t)t.scrollBy({left:(+b.dataset.hcar)*Math.max(240,t.clientWidth*.85),behavior:'smooth'});});
 /* ---- the ask card: the day's statement plus the idea box ---- */
 function askCard(){const q=todaysQ();
- if(!q)return tkComposer({id:'home',kinds:['idea'],kind:'idea',compact:true,showRef:false,head:`<b>Share an idea for the ${ISTOWN()?'town':'city'}.</b> <span class="muted">To comment on something, tap ${BUBBLE} on it.</span>`});
+ if(!q)return '';
  const iss=D.issues.find(i=>i.id===q.issue);const mine=qMine(q.id);if(OWNHOST&&QX.id!==q.id)qLoad(q);const res=QX.id===q.id?QX.res:null;
  const box=tkComposer({id:'home',kinds:['idea'],kind:'idea',compact:true,showRef:false}).replace(/placeholder="[^"]*"/,'placeholder="Or share your own idea for the '+(ISTOWN()?'town':'city')+'"');
  return `<section class="card askcard" aria-label="Weigh in">
  <p class="qtext">${esc(q.text)}</p>
  <div class="qrow"><div class="row qbtns" role="group" aria-label="Your answer">${[['agree','Agree'],['disagree','Disagree'],['pass','Pass']].map(([k,l])=>`<button type="button" class="btn sm${mine===k?' on primary':''}" data-qans="${k}" data-qid="${esc(q.id)}" title="Answer to see what others said. Address-checked answers are counted separately for the city.">${l}</button>`).join('')}</div>${iss?`<a class="muted qiss" href="#issue-${iss.id}">${esc(iss.title)} ›</a>`:''}</div>
  ${mine?(res&&res.total?qResults(res):`<p class="muted qhint">${OWNHOST?'Thanks. Results load in a moment.':'Thanks. Results are counted on agorri.com.'}</p>`):''}
- ${box}</section>`;}
+ </section>`;}
 /* ---- Home previews: news, decisions, residents ---- */
 function newsPreview(){const ph=paperHeads();const hs=ph&&ph.hs?ph.hs.slice(0,3):[];if(!hs.length)return '';
  return `<section class="blk"><div class="sec"><h2>Local news</h2><a href="#local">More ›</a></div><div class="card pv-list">${hs.map(h=>`<a class="pv-row" href="${esc(h.url)}" target="_blank" rel="noopener"><span class="pv-t">${esc(h.title)}${isNewDate(h.at||h.date)?' '+NEWDOT:''}</span><small class="muted num">${dayLbl(h.date)}</small></a>`).join('')}<div class="pv-foot muted">${esc(ph.N.name)}${ph.useLive?' · live':''}</div></div></section>`;}
@@ -2639,6 +2650,18 @@ function heroHead(hi){const d=ld(TODAY).toLocaleDateString('en-US',{weekday:'lon
  return `<section class="hero2"><img src="${esc(u(960))}" srcset="${esc(u(960))} 960w, ${esc(u(1920))} 1920w" sizes="(max-width:900px) 100vw, 900px" alt="${esc(P.alt||'')}" style="object-position:${esc(P.pos||'50% 50%')}" decoding="async" fetchpriority="high"><div class="hero2-txt"><h1>${hi}, ${PN}</h1><span>${d}</span></div><a class="hero2-cr" href="${esc(P.page)}" target="_blank" rel="noopener">Photo: ${esc(P.author)}, ${esc(P.license)}</a></section>`;}
 const ISTOWN=()=>!!(TOWN&&TOWN.kind==='Town');
 const ELEC=()=>(D&&D.town&&D.town.turnoutLabel)||'November 2025 city election';
+/* ---- Explore: one compact grid of doors into the rest of the site (replaces the number tiles, the decisions preview, the residents preview and Your stuff on Home) ---- */
+const EX_IC={issues:'<path d="M9 11l3 3 8-8"/><path d="M20 12v7a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h9"/>',talk:'<path d="M21 12a8 8 0 0 1-11.6 7.1L4 20l1.1-4.4A8 8 0 1 1 21 12z"/><path d="M8.5 11h7M8.5 14h4"/>',mine:'<path d="M12 3l2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1-4.4-4.3 6.1-.9z"/>',budget:'<rect x="3" y="6" width="18" height="13" rx="2"/><path d="M3 10h18"/><path d="M7 15h3"/>',safety:'<path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>',housing:'<path d="M3 11l9-8 9 8v10a1 1 0 0 1-1 1h-5v-7h-6v7H4a1 1 0 0 1-1-1z"/>',cal:'<rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/>',people:'<circle cx="9" cy="8" r="3.5"/><path d="M2.5 20v-.5a5.5 5.5 0 0 1 11 0v.5"/><circle cx="17" cy="9" r="2.5"/><path d="M15.5 14.2A4.5 4.5 0 0 1 21.5 18.5v.5"/>'};
+function exploreGrid(){const t=[];const nm=D.next_council_meeting;const nd=nm&&nm.date&&nm.date>=TODAY?nm.date:null;
+ const fresh=D.issues.filter(i=>isNewDate(issueLast(i))).length;
+ t.push({ic:'issues',l:'What '+(ISTOWN()?'the town':'the city')+' is deciding',v:D.issues.length+' issue'+(D.issues.length===1?'':'s'),s:fresh?fresh+' updated':nd?GB()+' meets '+fmtD(nd):'',h:'#issues',dot:!!fresh});
+ const tk=(window.TALK&&TALK.ready)?tkTop():[];t.push({ic:'talk',l:'What residents are saying',v:tk.length?tk.length+' post'+(tk.length===1?'':'s'):'Start the conversation',s:tk.length?'Latest '+ago(tkSort(tk,'New')[0].at):'Ideas, questions, comments',h:'#talk'});
+ const ys=yourStuff();if(ys){const n=myIdeas().length+repliesToMe().length+intRows().filter(x=>x.fresh>0).length;t.push({ic:'mine',l:'Your stuff',v:n?n+' update'+(n===1?'':'s'):'Your ideas and follows',s:'Replies, follows, your ideas',h:'#talk',dot:n>0});}
+ const icFor=h=>/budget/.test(h)?'budget':/safety|police|fire/.test(h)?'safety':/housing/.test(h)?'housing':'issues';
+ kpiList().forEach(k=>{if(k&&!k.soc)t.push({ic:icFor(k.h),l:k.l,v:k.v,s:String(k.s||'').replace(/<[^>]+>/g,'').replace(/&quot;/g,'"').replace(/&#39;|&#x27;/g,"'").replace(/&lt;/g,'<').replace(/&gt;/g,'>').replace(/&amp;/g,'&'),h:k.h});});
+ const C=(D.officials&&D.officials.council)||[];if(C.length&&!ALLMODE())t.push({ic:'people',l:'Who represents you',v:C.length+' '+((D.town&&D.town.members)||'members'),s:'Votes, attendance, contact',h:'#officials'});
+ const nev=upcomingEvents().length;if(t.length<6&&nev)t.push({ic:'cal',l:'Events and calendar',v:nev+' coming up',s:'Meetings, shows, family events',h:'#events'});
+ return `<section class="blk"><div class="sec"><h2>Explore ${esc(TN())}</h2></div><div class="exgrid">${t.slice(0,6).map(x=>`<a class="card ex" href="${x.h}"><span class="ex-ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${EX_IC[x.ic]}</svg></span><span class="ex-tx"><span class="ex-l">${esc(x.l)}${x.dot?' '+NEWDOT:''}</span><span class="ex-v">${esc(x.v)}</span>${x.s?`<span class="ex-s">${esc(x.s)}</span>`:''}</span></a>`).join('')}</div></section>`;}
 /* ---- the new Home ---- */
 function pageHome2(){const m=D.council_meetings[0];const yes=m?m.decisions.filter(d=>/^pass|^approved/i.test(d.outcome||'')).length:0;const nev=upcomingEvents().length;const hr=new Date().getHours();const hi=hr<12?'Good morning':hr<17?'Good afternoon':'Good evening';const yday=m&&m.date===addDays(TODAY,-1);
  if(!WX.ok||WX.town!==TOWN.id)loadWX();
@@ -2646,12 +2669,9 @@ function pageHome2(){const m=D.council_meetings[0];const yes=m?m.decisions.filte
  ${heroHead(hi)}
  ${subPicker()}
  ${askCard()}
- ${kpiTiles()}
  ${hcBlock()}
- ${yourStuff()}
+ ${exploreGrid()}
  ${newsPreview()}
- ${decidingPreview()}
- ${sayingPreview()}
  ${becauseResidents()}
  ${foot()}`;}
 /* ---- Tax estimate from the city assessor's value for your address (functions/api/assessment.js) ---- */
