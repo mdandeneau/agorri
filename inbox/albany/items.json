@@ -1,28 +1,28 @@
 {
  "note": "Written by ingest/fetch.mjs. Each item: where it came from (source, url), the date in the document when known, firstSeen (the day the fetcher first saw it; new since the last refresh = firstSeen on or after that day) and text (the saved agenda or minutes text, when there is one). Facts for the site still come from reading the linked document.",
  "town": "albany",
- "updated": "2026-11-01T16:12:58.861Z",
+ "updated": "2026-11-02T17:05:50.952Z",
  "sources": {
   "feed": {
    "ok": true,
    "found": 10,
    "new": 0,
-   "checked": "2026-11-01T16:12:58.861Z",
-   "ms": 883
+   "checked": "2026-11-02T17:05:50.952Z",
+   "ms": 951
   },
   "feed2": {
    "ok": true,
    "found": 0,
    "new": 0,
-   "checked": "2026-11-01T16:12:58.861Z",
-   "ms": 1044
+   "checked": "2026-11-02T17:05:50.952Z",
+   "ms": 990
   },
   "meeting-docs": {
    "ok": true,
    "found": 29,
    "new": 0,
-   "checked": "2026-11-01T16:12:58.861Z",
-   "ms": 6064
+   "checked": "2026-11-02T17:05:50.952Z",
+   "ms": 1543
   }
  },
  "notes": [],

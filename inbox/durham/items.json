@@ -1,27 +1,51 @@
 {
  "note": "Written by ingest/fetch.mjs. Each item: where it came from (source, url), the date in the document when known, firstSeen (the day the fetcher first saw it; new since the last refresh = firstSeen on or after that day) and text (the saved agenda or minutes text, when there is one). Facts for the site still come from reading the linked document.",
  "town": "durham",
- "updated": "2026-11-01T16:12:58.861Z",
+ "updated": "2026-11-02T17:05:50.952Z",
  "sources": {
   "town-feeds": {
    "ok": true,
-   "found": 16,
-   "new": 0,
-   "checked": "2026-11-01T16:12:58.861Z",
-   "ms": 9346
+   "found": 3,
+   "new": 1,
+   "checked": "2026-11-02T17:05:50.952Z",
+   "ms": 9013
   },
   "agenda-center": {
    "ok": true,
    "found": 150,
-   "new": 0,
-   "checked": "2026-11-01T16:12:58.861Z",
-   "ms": 23982
+   "new": 1,
+   "checked": "2026-11-02T17:05:50.952Z",
+   "ms": 5119
   }
  },
  "notes": [
   "no text in https://www.durhamnh.gov/AgendaCenter/ViewFile/Minutes/_10072026-418 (scanned image?)"
  ],
  "items": [
+  {
+   "key": "agenda-center:1b92e2ccba53",
+   "source": "agenda-center",
+   "kind": "meeting-doc",
+   "title": "Agenda: Agenda: _11042026-431",
+   "url": "https://www.durhamnh.gov/AgendaCenter/ViewFile/Agenda/_11042026-431",
+   "date": "2026-11-04",
+   "doc": "agenda",
+   "firstSeen": "2026-11-02",
+   "lastSeen": "2026-11-02",
+   "text": "inbox/durham/docs/1b92e2ccba53.txt"
+  },
+  {
+   "key": "town-feeds:58edd076f841",
+   "source": "town-feeds",
+   "kind": "notice",
+   "feed": "calendar",
+   "title": "Business Parking Permit Public Sale Begins",
+   "url": "https://www.durhamnh.gov/Calendar.aspx?EID=831",
+   "date": "2026-10-20",
+   "detail": "Event date: November 16, 2026 Event Time: 12:00 AM - 11:59 PM Description: Permit Valid: 01/01/27 Permit Expires: 12/31/27",
+   "firstSeen": "2026-11-02",
+   "lastSeen": "2026-11-02"
+  },
   {
    "key": "agenda-center:138192fb355c",
    "source": "agenda-center",
@@ -41,7 +65,7 @@
    "date": "2026-11-05",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-01",
+   "lastSeen": "2026-11-02",
    "text": "inbox/durham/docs/5f93c53326bf.txt"
   },
   {
@@ -54,7 +78,7 @@
    "doc": "agenda",
    "packet": true,
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-01"
+   "lastSeen": "2026-11-02"
   },
   {
    "key": "agenda-center:5516824fe5da",
@@ -65,7 +89,7 @@
    "date": "2026-11-05",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-01",
+   "lastSeen": "2026-11-02",
    "text": "inbox/durham/docs/5516824fe5da.txt"
   },
   {
@@ -77,7 +101,7 @@
    "date": "2026-11-03",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-01",
+   "lastSeen": "2026-11-02",
    "text": "inbox/durham/docs/73a5cf9cd788.txt"
   },
   {
@@ -180,7 +204,7 @@
    "date": "2026-10-26",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-01",
+   "lastSeen": "2026-11-02",
    "text": "inbox/durham/docs/515eb495b750.txt"
   },
   {
@@ -193,7 +217,7 @@
    "doc": "agenda",
    "packet": true,
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-01"
+   "lastSeen": "2026-11-02"
   },
   {
    "key": "agenda-center:405662f84080",
@@ -204,7 +228,7 @@
    "date": "2026-10-21",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-01",
+   "lastSeen": "2026-11-02",
    "text": "inbox/durham/docs/405662f84080.txt"
   },
   {
@@ -216,7 +240,7 @@
    "date": "2026-10-21",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-01",
+   "lastSeen": "2026-11-02",
    "text": "inbox/durham/docs/e08fd1334fa8.txt"
   },
   {
@@ -261,7 +285,7 @@
    "date": "2026-10-07",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-01",
+   "lastSeen": "2026-11-02",
    "text": "inbox/durham/docs/80a13f506924.txt"
   },
   {
@@ -273,7 +297,7 @@
    "date": "2026-10-07",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-01"
+   "lastSeen": "2026-11-02"
   },
   {
    "key": "town-feeds:e6f5b860220b",
@@ -328,7 +352,7 @@
    "date": "2026-10-01",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-01",
+   "lastSeen": "2026-11-02",
    "text": "inbox/durham/docs/ff63abd5f12d.txt"
   },
   {
@@ -340,7 +364,7 @@
    "date": "2026-10-01",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-01",
+   "lastSeen": "2026-11-02",
    "text": "inbox/durham/docs/1484715310bc.txt"
   },
   {
@@ -352,7 +376,7 @@
    "date": "2026-09-29",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-01",
+   "lastSeen": "2026-11-02",
    "text": "inbox/durham/docs/fc9d1ad7c6ba.txt"
   },
   {
@@ -364,7 +388,7 @@
    "date": "2026-09-29",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-01",
+   "lastSeen": "2026-11-02",
    "text": "inbox/durham/docs/3fc7fa1de372.txt"
   },
   {
@@ -377,7 +401,7 @@
    "date": "2026-09-28",
    "detail": "Event date: November 5, 2026 Event Time: 12:00 AM - 11:59 PM Description: Permit Valid: 01/01/27 Permit Expires: 06/30/27",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-01"
+   "lastSeen": "2026-11-02"
   },
   {
    "key": "agenda-center:a799c5d8f04c",
@@ -388,7 +412,7 @@
    "date": "2026-09-28",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-01",
+   "lastSeen": "2026-11-02",
    "text": "inbox/durham/docs/a799c5d8f04c.txt"
   },
   {
@@ -400,7 +424,7 @@
    "date": "2026-09-16",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-01",
+   "lastSeen": "2026-11-02",
    "text": "inbox/durham/docs/004d197651b1.txt"
   },
   {
@@ -412,7 +436,7 @@
    "date": "2026-09-16",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-01",
+   "lastSeen": "2026-11-02",
    "text": "inbox/durham/docs/231bbc6e3273.txt"
   },
   {
@@ -424,7 +448,7 @@
    "date": "2026-09-14",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-01",
+   "lastSeen": "2026-11-02",
    "text": "inbox/durham/docs/ed1195606bce.txt"
   },
   {
@@ -446,7 +470,7 @@
    "date": "2026-09-03",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-01",
+   "lastSeen": "2026-11-02",
    "text": "inbox/durham/docs/725dc9db90d8.txt"
   },
   {
@@ -458,7 +482,7 @@
    "date": "2026-09-03",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-01",
+   "lastSeen": "2026-11-02",
    "text": "inbox/durham/docs/04effc6a4ba7.txt"
   },
   {
@@ -471,7 +495,7 @@
    "doc": "agenda",
    "packet": true,
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-01"
+   "lastSeen": "2026-11-02"
   },
   {
    "key": "agenda-center:9ed5d0c79bb7",
@@ -482,7 +506,7 @@
    "date": "2026-09-02",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-01",
+   "lastSeen": "2026-11-02",
    "text": "inbox/durham/docs/9ed5d0c79bb7.txt"
   },
   {
@@ -494,7 +518,7 @@
    "date": "2026-09-02",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-01",
+   "lastSeen": "2026-11-02",
    "text": "inbox/durham/docs/ac2ea0699623.txt"
   },
   {
@@ -506,7 +530,7 @@
    "date": "2026-09-01",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-01"
+   "lastSeen": "2026-11-02"
   },
   {
    "key": "agenda-center:1e4da465bb45",
@@ -517,7 +541,7 @@
    "date": "2026-09-01",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-01"
+   "lastSeen": "2026-11-02"
   },
   {
    "key": "agenda-center:7cd5be03255d",
@@ -528,7 +552,7 @@
    "date": "2026-08-26",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-01"
+   "lastSeen": "2026-11-02"
   },
   {
    "key": "agenda-center:333f1872fb6e",
@@ -539,7 +563,7 @@
    "date": "2026-08-24",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-01"
+   "lastSeen": "2026-11-02"
   },
   {
    "key": "agenda-center:7c8042bdae5c",
@@ -550,7 +574,7 @@
    "date": "2026-08-24",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-01"
+   "lastSeen": "2026-11-02"
   },
   {
    "key": "agenda-center:34f2dc2dc5e4",
@@ -571,7 +595,7 @@
    "date": "2026-08-19",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-01"
+   "lastSeen": "2026-11-02"
   },
   {
    "key": "agenda-center:2f592bf34e48",
@@ -583,7 +607,7 @@
    "doc": "agenda",
    "packet": true,
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-01"
+   "lastSeen": "2026-11-02"
   },
   {
    "key": "town-feeds:d7d1f427110d",
@@ -595,7 +619,7 @@
    "date": "2026-08-13",
    "detail": "Event date: November 9, 2026 Event Time: 07:00 PM - 10:00 PM Location: 8 Newmarket Road Durham, NH 03824",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-01"
+   "lastSeen": "2026-11-02"
   },
   {
    "key": "agenda-center:9070ef30a17f",
@@ -616,7 +640,7 @@
    "date": "2026-08-13",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-01"
+   "lastSeen": "2026-11-02"
   },
   {
    "key": "agenda-center:5a31615f3e2d",
@@ -627,7 +651,7 @@
    "date": "2026-08-13",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-01"
+   "lastSeen": "2026-11-02"
   },
   {
    "key": "agenda-center:d407be23beff",
@@ -639,7 +663,7 @@
    "doc": "agenda",
    "packet": true,
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-01"
+   "lastSeen": "2026-11-02"
   },
   {
    "key": "agenda-center:fff383832cf9",
@@ -650,7 +674,7 @@
    "date": "2026-08-13",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-01"
+   "lastSeen": "2026-11-02"
   },
   {
    "key": "agenda-center:a747cfa42cba",
@@ -661,7 +685,7 @@
    "date": "2026-08-10",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-01"
+   "lastSeen": "2026-11-02"
   },
   {
    "key": "agenda-center:37f405f1a942",
@@ -672,7 +696,7 @@
    "date": "2026-08-10",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-01"
+   "lastSeen": "2026-11-02"
   },
   {
    "key": "agenda-center:e9a81c07ae6a",
@@ -683,7 +707,7 @@
    "date": "2026-08-05",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-01"
+   "lastSeen": "2026-11-02"
   },
   {
    "key": "agenda-center:25e525b84113",
@@ -694,7 +718,7 @@
    "date": "2026-08-05",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-01"
+   "lastSeen": "2026-11-02"
   },
   {
    "key": "agenda-center:4a64cc2987ae",
@@ -705,7 +729,7 @@
    "date": "2026-08-05",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-01"
+   "lastSeen": "2026-11-02"
   },
   {
    "key": "agenda-center:eff4f8d5963c",
@@ -716,7 +740,7 @@
    "date": "2026-08-04",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-01"
+   "lastSeen": "2026-11-02"
   },
   {
    "key": "agenda-center:1894f1adfca3",
@@ -727,7 +751,7 @@
    "date": "2026-08-04",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-01"
+   "lastSeen": "2026-11-02"
   },
   {
    "key": "agenda-center:26f006116610",
@@ -738,7 +762,7 @@
    "date": "2026-07-27",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-01"
+   "lastSeen": "2026-11-02"
   },
   {
    "key": "agenda-center:9b296d0b8e5e",
@@ -749,7 +773,7 @@
    "date": "2026-07-27",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-01"
+   "lastSeen": "2026-11-02"
   },
   {
    "key": "agenda-center:7c8004011e73",
@@ -760,7 +784,7 @@
    "date": "2026-07-15",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-01"
+   "lastSeen": "2026-11-02"
   },
   {
    "key": "agenda-center:9c129a2a2712",
@@ -771,7 +795,7 @@
    "date": "2026-07-15",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-01"
+   "lastSeen": "2026-11-02"
   },
   {
    "key": "agenda-center:e23c3142ffec",
@@ -782,7 +806,7 @@
    "date": "2026-07-13",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-01"
+   "lastSeen": "2026-11-02"
   },
   {
    "key": "agenda-center:e83be82a2a4b",
@@ -793,7 +817,7 @@
    "date": "2026-07-13",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-01"
+   "lastSeen": "2026-11-02"
   },
   {
    "key": "agenda-center:0c02f7a89adf",
@@ -804,7 +828,7 @@
    "date": "2026-07-07",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-01"
+   "lastSeen": "2026-11-02"
   },
   {
    "key": "agenda-center:7d576c5ac4de",
@@ -815,7 +839,7 @@
    "date": "2026-07-07",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-01"
+   "lastSeen": "2026-11-02"
   }
  ]
 }

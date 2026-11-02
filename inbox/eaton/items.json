@@ -1,21 +1,21 @@
 {
  "note": "Written by ingest/fetch.mjs. Each item: where it came from (source, url), the date in the document when known, firstSeen (the day the fetcher first saw it; new since the last refresh = firstSeen on or after that day) and text (the saved agenda or minutes text, when there is one). Facts for the site still come from reading the linked document.",
  "town": "eaton",
- "updated": "2026-11-01T16:12:58.861Z",
+ "updated": "2026-11-02T17:05:50.952Z",
  "sources": {
   "feed": {
    "ok": true,
    "found": 0,
    "new": 0,
-   "checked": "2026-11-01T16:12:58.861Z",
-   "ms": 533
+   "checked": "2026-11-02T17:05:50.952Z",
+   "ms": 833
   },
   "meeting-docs": {
    "ok": true,
    "found": 6,
    "new": 0,
-   "checked": "2026-11-01T16:12:58.861Z",
-   "ms": 1417
+   "checked": "2026-11-02T17:05:50.952Z",
+   "ms": 1447
   }
  },
  "notes": [],
@@ -29,7 +29,7 @@
    "date": null,
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-01",
+   "lastSeen": "2026-11-02",
    "text": "inbox/eaton/docs/4d0ce67c4f51.txt"
   },
   {
@@ -41,7 +41,7 @@
    "date": null,
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-01",
+   "lastSeen": "2026-11-02",
    "text": "inbox/eaton/docs/368830d066b1.txt"
   },
   {
@@ -53,7 +53,7 @@
    "date": null,
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-01",
+   "lastSeen": "2026-11-02",
    "text": "inbox/eaton/docs/8b1c7655d5e6.txt"
   },
   {
@@ -65,7 +65,7 @@
    "date": null,
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-01",
+   "lastSeen": "2026-11-02",
    "text": "inbox/eaton/docs/01f9026ad9cf.txt"
   },
   {
@@ -77,7 +77,7 @@
    "date": null,
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-01",
+   "lastSeen": "2026-11-02",
    "text": "inbox/eaton/docs/e1385e880b9d.txt"
   },
   {
@@ -89,7 +89,7 @@
    "date": null,
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-01",
+   "lastSeen": "2026-11-02",
    "text": "inbox/eaton/docs/a245d2fbf765.txt"
   }
  ]
