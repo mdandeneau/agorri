@@ -2627,14 +2627,14 @@ function hcSync(){document.querySelectorAll('.hcar').forEach(c=>{const t=c.query
 document.addEventListener('click',e=>{const b=e.target.closest('[data-hcar]');if(!b)return;const t=b.parentElement.querySelector('.hcar-track');if(t)t.scrollBy({left:(+b.dataset.hcar)*Math.max(240,t.clientWidth*.85),behavior:'smooth'});});
 /* ---- the ask card: the day's statement plus the idea box ---- */
 function askCard(){const q=todaysQ();
- if(!q)return '';
+ if(!q)return tkComposer({id:'home',kinds:['idea'],kind:'idea',compact:true,showRef:false,head:`<b>Share an idea for the ${ISTOWN()?'town':'city'}.</b> <span class="muted">To comment on something, tap ${BUBBLE} on it.</span>`});
  const iss=D.issues.find(i=>i.id===q.issue);const mine=qMine(q.id);if(OWNHOST&&QX.id!==q.id)qLoad(q);const res=QX.id===q.id?QX.res:null;
  const box=tkComposer({id:'home',kinds:['idea'],kind:'idea',compact:true,showRef:false}).replace(/placeholder="[^"]*"/,'placeholder="Or share your own idea for the '+(ISTOWN()?'town':'city')+'"');
  return `<section class="card askcard" aria-label="Weigh in">
  <p class="qtext">${esc(q.text)}</p>
  <div class="qrow"><div class="row qbtns" role="group" aria-label="Your answer">${[['agree','Agree'],['disagree','Disagree'],['pass','Pass']].map(([k,l])=>`<button type="button" class="btn sm${mine===k?' on primary':''}" data-qans="${k}" data-qid="${esc(q.id)}" title="Answer to see what others said. Address-checked answers are counted separately for the city.">${l}</button>`).join('')}</div>${iss?`<a class="muted qiss" href="#issue-${iss.id}">${esc(iss.title)} ›</a>`:''}</div>
  ${mine?(res&&res.total?qResults(res):`<p class="muted qhint">${OWNHOST?'Thanks. Results load in a moment.':'Thanks. Results are counted on agorri.com.'}</p>`):''}
- </section>`;}
+ ${box}</section>`;}
 /* ---- Home previews: news, decisions, residents ---- */
 function newsPreview(){const ph=paperHeads();const hs=ph&&ph.hs?ph.hs.slice(0,3):[];if(!hs.length)return '';
  return `<section class="blk"><div class="sec"><h2>Local news</h2><a href="#local">More ›</a></div><div class="card pv-list">${hs.map(h=>`<a class="pv-row" href="${esc(h.url)}" target="_blank" rel="noopener"><span class="pv-t">${esc(h.title)}${isNewDate(h.at||h.date)?' '+NEWDOT:''}</span><small class="muted num">${dayLbl(h.date)}</small></a>`).join('')}<div class="pv-foot muted">${esc(ph.N.name)}${ph.useLive?' · live':''}</div></div></section>`;}
