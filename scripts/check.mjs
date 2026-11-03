@@ -80,8 +80,9 @@ for (const t of units) {
     if (FT) fresh('featured', FT.as_of, 3);
   }
   if (SP) {
-    const dates = []; (SP.schools || []).forEach(sc => (sc.teams || []).forEach(tm => { if (tm.record && !tm.recordAsOf) errs.push(`${id}: ${sc.name} ${tm.sport} has a record but no recordAsOf`); if (tm.recordAsOf) dates.push(tm.recordAsOf); }));
-    if (dates.length) { const lo = dates.slice().sort()[0], hi = dates.slice().sort().pop(); if (daysAgo(lo) - daysAgo(hi) > 3) stale(`${id}: sports records span ${lo} to ${hi}; refresh every team together`); if (daysAgo(hi) > 7) stale(`${id}: newest sports record is ${daysAgo(hi)} days old`); }
+    // a team whose source stopped updating is left honest: recordAsOf stays old, needs_review says why, and it is exempt from the same-date rule
+    const dates = []; (SP.schools || []).forEach(sc => (sc.teams || []).forEach(tm => { if (tm.record && !tm.recordAsOf) errs.push(`${id}: ${sc.name} ${tm.sport} has a record but no recordAsOf`); if (tm.recordAsOf && !tm.needs_review) dates.push(tm.recordAsOf); }));
+    if (dates.length && !t.paused) { const lo = dates.slice().sort()[0], hi = dates.slice().sort().pop(); if (daysAgo(lo) - daysAgo(hi) > 3) stale(`${id}: sports records span ${lo} to ${hi}; refresh every team together`); if (daysAgo(hi) > 7) stale(`${id}: newest sports record is ${daysAgo(hi)} days old`); }
     (SP.schools || []).forEach(sc => (sc.teams || []).forEach(tm => [...(tm.next || []), ...(tm.recent || [])].forEach(g => { if (!/^\d{4}-\d{2}-\d{2}$/.test(g.date || '')) errs.push(`${id}: ${sc.name} ${tm.sport} game without a date`); })));
   }
   if (MK) {

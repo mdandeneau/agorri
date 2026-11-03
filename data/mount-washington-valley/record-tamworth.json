@@ -1,10 +1,10 @@
 {
  "about": {
   "town": "Tamworth, NH",
-  "as_of": "2026-10-31",
+  "as_of": "2026-11-03",
   "records_from": "2026-03-25",
-  "documents_used": 35,
-  "note": "The Town of Tamworth, Carroll County, includes Tamworth Village, Chocorua, South Tamworth and Wonalancet. It is run by a five-member Select Board (Board of Selectmen) with a Town Administrator; officers and ordinances are voted by ballot at the annual Town Meeting in March (March 10, 2026). The town posts minutes in its online Agenda Center, but for this research only the April 14, 2026 Select Board minutes, the June 23, 2026 nonpublic session minutes, one Planning Board set (March 25) and one Capital Improvement Plan Committee set (September 16) could be opened. Other Select Board minutes posted through October 13, 2026 could not be opened, so meeting coverage is thin and some entries come from town notices and the Conway Daily Sun. The 2026 town warrant and MS-636 budget form are scanned files that could not be read; budget figures come from the town's 2026 draft budget. Plain-English summaries written by AI; items with needs_review=true are uncertain."
+  "documents_used": 42,
+  "note": "The Town of Tamworth, Carroll County, includes Tamworth Village, Chocorua, South Tamworth and Wonalancet. It is run by a five-member Select Board (Board of Selectmen) with a Town Administrator; officers and ordinances are voted by ballot at the annual Town Meeting in March (March 10, 2026). The town posts minutes in its online Agenda Center, but for this research only the April 14, 2026 Select Board minutes, the June 23, 2026 nonpublic session minutes, one Planning Board set (March 25) and one Capital Improvement Plan Committee set (September 16) could be opened. Seven sets of committee minutes from September and October 2026 (Conservation Commission, Conservation Land Review Committee, library trustees, cemetery trustees, Energy Committee and firewards) were read on November 3, 2026 through the fetcher's copies. Other Select Board minutes posted through October 13, 2026 could not be opened, so meeting coverage is thin and some entries come from town notices and the Conway Daily Sun. The 2026 town warrant and MS-636 budget form are scanned files that could not be read; budget figures come from the town's 2026 draft budget. Plain-English summaries written by AI; items with needs_review=true are uncertain."
  },
  "town": {
   "name": "Tamworth",
@@ -170,7 +170,8 @@
     "April 14: construction of the recycling building had started; a high water table might require raising it slightly.",
     "April 14: the board voted, all yes, to send about a dozen food and beverage businesses a letter asking them to separate glass and aluminum, because trash tonnage costs the town double.",
     "September 15: the town announced the recycling center was fully open after a soft opening, with aluminum and cardboard already being baled.",
-    "The 2026 draft budget lists $352,656 for the Transfer Station, up from $330,961 in 2025."
+    "The 2026 draft budget lists $352,656 for the Transfer Station, up from $330,961 in 2025.",
+    "Sept 14: the Conservation Commission heard the recycling center takes #1 PET clear drink bottles, two kinds of #2 plastic, cardboard, aluminum, tin, glass and mixed paper, and now accepts lithium batteries; a supervised swap shop in the old can shack was discussed."
    ],
    "keywords": [
     "transfer station",
@@ -205,6 +206,10 @@
     {
      "label": "Town of Tamworth 2026 draft budget",
      "url": "https://www.tamworthnh.gov/DocumentCenter/View/4108/2026-Draft-Budget---Print-Ready"
+    },
+    {
+     "label": "Conservation Commission minutes, Sep 14, 2026 (approved)",
+     "url": "https://www.tamworthnh.gov/AgendaCenter/ViewFile/Minutes/_09142026-300"
     }
    ],
    "scope": "Town",
@@ -235,7 +240,8 @@
     "Paid for with 50 private donations totaling $22,651 from seven businesses and organizations, 43 households and two in-kind donors; TCNA also paid about $5,000 for trenching and conduit.",
     "Local and donated labor cut costs by about $4,000. Power use will be managed through the Town Office electrical panel.",
     "Next steps listed in September: order equipment, pour a concrete pad, install and test, set up payment, then a public ribbon cutting.",
-    "Questions: TamworthEnergy@TamworthNH.gov."
+    "Questions: TamworthEnergy@TamworthNH.gov.",
+    "Sept 8: the Energy Committee planned to ask the Select Board on September 9 to approve the spending, with the vendor billing the town monthly; any surplus, estimated at more than $4,000, would go to the General Fund for possible future town energy projects."
    ],
    "keywords": [
     "ev charger",
@@ -250,6 +256,10 @@
     {
      "label": "Town news, Sep 17, 2026: EV Chargers Coming Soon (Energy Committee)",
      "url": "https://www.tamworthnh.gov/CivicAlerts.aspx?AID=71"
+    },
+    {
+     "label": "Energy Committee minutes, Sep 8, 2026 (draft)",
+     "url": "https://www.tamworthnh.gov/AgendaCenter/ViewFile/Minutes/_09082026-313"
     }
    ],
    "scope": "Town",
@@ -272,8 +282,8 @@
    "id": "master-plan-update",
    "title": "Updating the 2008 Master Plan, starting with housing",
    "topic": "Housing & zoning",
-   "status": "Planning Board work under way; the board is seeking an interim member and an alternate",
-   "next": null,
+   "status": "Planning Board work under way; a transportation charrette is set for November 19",
+   "next": "2026-11-19: Master Plan transportation charrette, K.A. Brett School cafeteria (time not given in the source)",
    "summary": "Tamworth's Master Plan (the long-range plan that guides zoning) dates from 2008. The Planning Board began updating it in 2026, starting with the housing chapter, with help from the Lakes Region Planning Commission (LRPC). It is also revising its subdivision rules.",
    "points": [
     "March 25: the board discussed forming a Master Plan committee with substantial public participation; most of the work was expected in the fall. Members were asked to read the housing chapter before May 13.",
@@ -281,7 +291,8 @@
     "A Master Plan survey flyer is posted on the Planning Board page.",
     "Subdivision regulation changes under discussion include the definition of a \"site\" (which needs a legal opinion) and new major and minor subdivision categories.",
     "October 14: the board is seeking an interim member (term to March 2027) and an alternate; contact Chair Elsa Weintraub at pbchair@tamworthnh.gov.",
-    "The Planning Board meets the fourth Wednesday of the month at 5:30 PM."
+    "The Planning Board meets the fourth Wednesday of the month at 5:30 PM.",
+    "October 5: at the library trustees' meeting, the Select Board representative said the Planning Board is rewriting the Master Plan, asked residents to take its survey, and announced a transportation charrette (public design workshop) on November 19 at the Brett School cafeteria."
    ],
    "keywords": [
     "master plan",
@@ -308,6 +319,10 @@
     {
      "label": "Town news, Oct 14, 2026: Planning Board seeking members",
      "url": "https://www.tamworthnh.gov/CivicAlerts.aspx?AID=75"
+    },
+    {
+     "label": "Cook Memorial Library trustees minutes, Oct 5, 2026 (draft)",
+     "url": "https://www.tamworthnh.gov/AgendaCenter/ViewFile/Minutes/_10052026-305"
     }
    ],
    "scope": "Town",
@@ -338,7 +353,9 @@
     "The 2026 draft budget lists $347,320 for capital improvements, down from $1,308,976 in 2025.",
     "The draft lists $157,000 for the fire truck capital reserve (warrant article 5) and $150,000 for the bridge capital reserve (warrant article 6).",
     "The draft used $0 from fund balance (town savings) in 2026, compared with $611,514 in 2025, and estimates $3,243,606 to be raised by taxes, up from $2,535,752.",
-    "Tamworth's 2025 total tax rate was $14.78 per $1,000: town $3.37, local school $9.59, state education $1.09, county $0.73 (NH DRA)."
+    "Tamworth's 2025 total tax rate was $14.78 per $1,000: town $3.37, local school $9.59, state education $1.09, county $0.73 (NH DRA).",
+    "Sept 3: the Board of Firewards backed the fire chief's 2027 budget outline: most lines flat, a 3% cost-of-living raise, $2,500 more for heating fuel and $5,000 for dry hydrant materials.",
+    "Oct 5: library trustees said their 2027 budget draft is waiting on fuel contract pricing; the CIP report includes the library's plan for heat pumps in the archive and history rooms."
    ],
    "keywords": [
     "capital improvement",
@@ -363,6 +380,14 @@
     {
      "label": "NH DRA 2025 Municipal Tax Rates (copy hosted by the Town of Acworth)",
      "url": "https://www.acworthnh.net/_files/ugd/a327e9_a3f47ac2d74a46b7bb7c6b1467f85e8c.pdf"
+    },
+    {
+     "label": "Board of Firewards minutes, Sep 3, 2026 (draft)",
+     "url": "https://www.tamworthnh.gov/AgendaCenter/ViewFile/Minutes/_09032026-311"
+    },
+    {
+     "label": "Cook Memorial Library trustees minutes, Oct 5, 2026 (draft)",
+     "url": "https://www.tamworthnh.gov/AgendaCenter/ViewFile/Minutes/_10052026-305"
     }
    ],
    "scope": "Town",
@@ -813,6 +838,126 @@
  ],
  "board_meetings": [
   {
+   "body": "Conservation Land Review Committee (Tamworth and Sandwich Conservation Commissions)",
+   "date": "2026-10-13",
+   "record_url": "https://www.tamworthnh.gov/AgendaCenter/ViewFile/Minutes/_10132026-312",
+   "record_type": "minutes (draft)",
+   "headline": "The joint Tamworth and Sandwich land review committee saw a GIS mapping demonstration and agreed to ask both towns' conservation commissions to fund a shared ArcGIS Pro subscription and a mapping contractor.",
+   "items": [],
+   "policy_items": [
+    {
+     "title": "Conservation mapping with GIS",
+     "detail": "A GIS consultant showed water, wetland, wellhead protection and aquifer map layers for the two towns, mostly from NH GRANIT. The committee agreed the towns would try to share one ArcGIS Pro subscription (one town owning it, the other paying half) and contract a GIS expert to build layered maps and apply the committee's scoring system; finished maps would go on each town's website. A one-page funding proposal goes to each conservation commission for a vote by the first week of December, so work can start in January. The cost can come from town conservation funds.",
+     "topic": "Environment & resilience",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Past minutes approved",
+     "detail": "Minutes of March 17, April 21, May 19 and the July 21 non-official meeting were approved, all in favor.",
+     "topic": "Government & elections",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Next meeting",
+     "detail": "November 10, 5 pm, tentatively at Sandwich Town Hall. The Tamworth commission will open committee membership at year's end.",
+     "topic": "Government & elections",
+     "needs_review": false,
+     "review_note": null
+    }
+   ],
+   "needs_review": true,
+   "review_note": "Draft minutes. The town's Agenda Center also files the same text under an October 19 Conservation Commission listing (ViewFile/Minutes/_10192026-315); the October 19 commission meeting's own minutes were not found."
+  },
+  {
+   "body": "Cook Memorial Library Board of Trustees",
+   "date": "2026-10-05",
+   "record_url": "https://www.tamworthnh.gov/AgendaCenter/ViewFile/Minutes/_10052026-305",
+   "record_type": "minutes (draft)",
+   "headline": "Library trustees approved the library's 2026 to 2028 strategic plan and heard that the 2027 budget draft is waiting on fuel pricing.",
+   "items": [],
+   "policy_items": [
+    {
+     "title": "Strategic Plan 2026-2028 approved",
+     "detail": "Motion by Faris, seconded by Aparicio, to approve the final draft; passed by roll call with Thompson, Faris, Hitte, Aparicio, Davis and Mahoney voting yes. The plan will be shared with the groups that took part in community conversations, posted on the Tamworth Exchange and the library website, and a copy made available to borrow.",
+     "topic": "Arts & culture",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "2027 library budget",
+     "detail": "No new draft yet; the trustees are waiting for fuel contract pricing and looking at the cost of one mobile phone for text messages and online account authentication.",
+     "topic": "Budget & taxes",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Capital Improvement Program",
+     "detail": "The Select Board was to review the CIP Committee's report on October 13; questions were raised about new items, including the library's plan for heat pumps in the archive and history rooms.",
+     "topic": "Budget & taxes",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Library closing day for staff retreat",
+     "detail": "The library will close for one day in November or December for a staff retreat.",
+     "topic": "City buildings & facilities",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Finance",
+     "detail": "The board approved moving funds into the NH Public Deposit Investment Pool account; the library is looking at accepting credit card payments through Square. Unanticipated funds of $255 (a $150 grant and $105 in donations) were accepted.",
+     "topic": "Budget & taxes",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Public comment",
+     "detail": "The Select Board representative said the Planning Board is rewriting the Master Plan and asked residents to take its survey, and announced a transportation charrette on November 19 at the Brett School cafeteria. Speed limit signs were discussed.",
+     "topic": "Housing & zoning",
+     "needs_review": false,
+     "review_note": null
+    }
+   ],
+   "needs_review": false,
+   "review_note": null
+  },
+  {
+   "body": "Cemetery Trustees",
+   "date": "2026-09-28",
+   "record_url": "https://www.tamworthnh.gov/AgendaCenter/ViewFile/Minutes/_09282026-304",
+   "record_type": "minutes (draft)",
+   "headline": "Cemetery trustees raised the price of cremation plots, decommissioned unusable plots at Coville West and set a volunteer restoration morning at Chocorua Cemetery.",
+   "items": [],
+   "policy_items": [
+    {
+     "title": "Cremation plot prices",
+     "detail": "Voted to update the Cemetery Rules and Regulations to a new cremation plot cost: $400 for residents and Tamworth property owners, $800 for non-residents.",
+     "topic": "Other",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Plots decommissioned",
+     "detail": "Plot E-1-a in Coville West (non-existent) and Row 1, L to I in Coville West (ground unsuitable for burials) were decommissioned. Two plot purchases and one ownership transfer were recorded.",
+     "topic": "Other",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Fall work",
+     "detail": "Restoration morning Saturday, October 17, 9 am to noon, at Chocorua Cemetery; trustees to visit outlying cemeteries the town maintains in October. The 2027 budget was discussed. Next meeting: Tuesday, November 17, 3 pm.",
+     "topic": "Other",
+     "needs_review": false,
+     "review_note": null
+    }
+   ],
+   "needs_review": false,
+   "review_note": null
+  },
+  {
    "body": "Capital Improvement Plan Committee",
    "date": "2026-09-16",
    "record_url": "https://www.tamworthnh.gov/AgendaCenter/ViewFile/Minutes/_09162026-301",
@@ -842,6 +987,131 @@
      "review_note": null
     }
    ]
+  },
+  {
+   "body": "Conservation Commission",
+   "date": "2026-09-14",
+   "record_url": "https://www.tamworthnh.gov/AgendaCenter/ViewFile/Minutes/_09142026-300",
+   "record_type": "minutes (approved)",
+   "headline": "The Conservation Commission heard what the new recycling center will accept, moved its October meeting to the 19th and reported it had sent comments on the White Lake Woods permit to the state.",
+   "items": [],
+   "policy_items": [
+    {
+     "title": "Recycling center",
+     "detail": "The Transfer Station representative said the new recycling building would hold its ribbon cutting Tuesday, September 29 at 4 pm. It accepts #1 PET clear drink bottles, two types of #2 plastic, cardboard, aluminum, tin, glass and mixed paper, and now takes lithium batteries. Styrofoam is still handled twice a year by the volunteer Tamworth Recycling Project. A supervised swap shop in the old can shack was discussed.",
+     "topic": "Infrastructure & utilities",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "White Lake Woods LLC",
+     "detail": "The commission's comment letter on the Alteration of Terrain permit application went to NH DES with copies to the applicant and the Planning Board; the state confirmed receipt and is still reviewing. The Planning Board is expected to discuss it at a future meeting.",
+     "topic": "Housing & zoning",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Meeting moved",
+     "detail": "The October meeting moved from Columbus Day, October 12, to Monday, October 19, for a GIS mapping presentation. The August 10 minutes were approved (one abstention). The town paid a $1,200 mowing bill from the Conservation Fund.",
+     "topic": "Government & elections",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Managed lands",
+     "detail": "The fire tower has been repainted; the commission discussed no-graffiti signs, a QR code to its web page and clearer trail signage and maps. Volunteer hours will be logged on a new form to meet the Hemenway State Forest agreement.",
+     "topic": "Parks & recreation",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Wetlands",
+     "detail": "Two permits by notification for trail work by the Ossipee Valley Snowmobile Club were noted.",
+     "topic": "Environment & resilience",
+     "needs_review": false,
+     "review_note": null
+    }
+   ],
+   "needs_review": false,
+   "review_note": null
+  },
+  {
+   "body": "Cook Memorial Library Board of Trustees",
+   "date": "2026-09-14",
+   "record_url": "https://www.tamworthnh.gov/AgendaCenter/ViewFile/Minutes/_09142026-299",
+   "record_type": "minutes (approved)",
+   "headline": "Library trustees approved the August minutes and financial report and accepted $111 in unanticipated donations.",
+   "items": [],
+   "policy_items": [
+    {
+     "title": "Routine business",
+     "detail": "August 10 minutes and the financial report were approved by roll call (five yes votes). $111 in unrestricted donations was accepted. The trustee orientation packet group had not yet met.",
+     "topic": "Arts & culture",
+     "needs_review": false,
+     "review_note": null
+    }
+   ],
+   "needs_review": false,
+   "review_note": null
+  },
+  {
+   "body": "Energy Committee",
+   "date": "2026-09-08",
+   "record_url": "https://www.tamworthnh.gov/AgendaCenter/ViewFile/Minutes/_09082026-313",
+   "record_type": "minutes (draft)",
+   "headline": "The Energy Committee named a new vice chair and prepared to ask the Select Board on September 9 to approve spending on the Town Office EV charger.",
+   "items": [],
+   "policy_items": [
+    {
+     "title": "Officers",
+     "detail": "T.J. McAndrew was appointed vice chair unanimously, replacing Ted Morgan. Members and terms: Gabrielle Watson, chair, through 2029; McAndrew through 2028; Morgan through 2027; John Kumm, secretary, through 2028; Peg Loughran through 2027.",
+     "topic": "Government & elections",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "EV charger project",
+     "detail": "The chair and vice chair would present the project plan, budget and schedule to the Select Board on September 9 and ask the vendor to bill the town monthly. Any surplus, estimated at more than $4,000, would go to the General Fund, where the Select Board could set it aside for future town energy improvements.",
+     "topic": "Infrastructure & utilities",
+     "needs_review": false,
+     "review_note": null
+    }
+   ],
+   "needs_review": false,
+   "review_note": null
+  },
+  {
+   "body": "Board of Firewards (Tamworth Fire/Rescue)",
+   "date": "2026-09-03",
+   "record_url": "https://www.tamworthnh.gov/AgendaCenter/ViewFile/Minutes/_09032026-311",
+   "record_type": "minutes (draft)",
+   "headline": "The firewards backed the chief's 2027 budget outline, applied for a Tamworth Foundation grant for truck radios and planned a new system for monthly truck checks.",
+   "items": [],
+   "policy_items": [
+    {
+     "title": "2027 budget",
+     "detail": "The board agreed with the chief's suggestion to keep most lines at 2026 levels except a 3% cost-of-living raise for full-time and part-time salaries, $2,500 more for heating fuel, $5,000 for dry hydrant materials (only $1 was budgeted in 2026) and $250 less for office supplies.",
+     "topic": "Budget & taxes",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Truck radios grant",
+     "detail": "A grant application went to the Tamworth Foundation to replace several truck radios; the department's share would be $8,762.",
+     "topic": "Public safety",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Equipment and stations",
+     "detail": "A dry hydrant on Chocorua Lake Road was scheduled for installation September 4. Work on the Forestry 2 truck was prioritized: work lighting, a warning-light and headlight issue, brake and tail lights, then paint if money remains. The board will set up monthly truck checks recorded in the state's NERIS software. A draft tuition assistance guideline for education and training awaits formatting before approval.",
+     "topic": "Public safety",
+     "needs_review": false,
+     "review_note": null
+    }
+   ],
+   "needs_review": false,
+   "review_note": null
   },
   {
    "body": "Planning Board",
