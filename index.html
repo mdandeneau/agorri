@@ -1152,6 +1152,66 @@ a.agm-line:hover .agm-t b{color:var(--accent)}
 .vb-sum{display:block;font-size:11px;font-weight:500}
 @media (max-width:640px){.vb-tot-row{grid-template-columns:1fr 1fr}.vb6 .vb-r{grid-template-columns:1.3fr 1fr 20px}.vb6 .vb-r>span:nth-child(2),.vb6 .vb-r>span:nth-child(4),.vb6 .vb-r>span:nth-child(5){display:none}.vb6 .vb-r>span:nth-child(6){display:block}.vb-tot-row b{font-size:16px}}
 @media (max-width:720px){.qiss{margin-left:0;flex-basis:100%}.hcar-b{display:none}.dpgrid{grid-template-columns:1fr}.dp{min-height:0}.hc-feat{flex-basis:80%}.hc{flex-basis:72%}.hcar-track{margin:0 -16px;padding:4px 16px 10px;scroll-padding:0 16px}}
+
+/* ---- v41 Home ---- */
+.tband{position:relative;border-radius:20px;overflow:hidden;background:#1B2430;box-shadow:var(--shadow);isolation:isolate}
+.tband-img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:-2}
+.tband::before{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,rgba(8,14,22,.18) 0%,rgba(8,14,22,.42) 38%,rgba(8,14,22,.78) 100%)}
+.tband.nophoto{background:linear-gradient(135deg,#1B3A5F,#14202B)}
+.tband-in{padding:22px 22px 8px;display:flex;flex-direction:column;gap:10px}
+.tband-hd h1{color:#fff;font-size:30px;letter-spacing:-.01em;text-shadow:0 1px 10px rgba(0,0,0,.35)}
+.tband-hd span{color:rgba(255,255,255,.9);font-size:14px}
+.tband-sec{display:flex;align-items:baseline;justify-content:space-between;gap:12px;margin-top:34px}
+.tband-sec h2{color:#fff;font-size:15px;font-weight:700;letter-spacing:.02em}
+.tband-sec a{color:#fff;opacity:.9;font-size:13.5px;font-weight:600;text-decoration:none}
+.tband-sec a:hover{text-decoration:underline}
+.tband-cr{position:absolute;right:12px;top:10px;font-size:10.5px;color:rgba(255,255,255,.8);text-decoration:none}
+.tband-cr:hover{text-decoration:underline}
+.tband-empty{color:#fff;opacity:.9;margin:0 0 14px}.tband-empty a{color:#fff}
+.tband .hcar-b.prev{left:6px}.tband .hcar-b.next{right:6px}
+.tband .hc{box-shadow:0 6px 18px rgba(0,0,0,.28)}
+.hc-top{position:relative;overflow:hidden;min-height:84px;background:linear-gradient(135deg,var(--tone-soft) 0%,color-mix(in srgb,var(--tone) 30%,var(--tone-soft)) 100%)}
+.hc-wm{position:absolute;right:-14px;bottom:-22px;width:104px;height:104px;color:var(--tone);opacity:.32;pointer-events:none}
+.hc-feat .hc-top{background:linear-gradient(135deg,rgba(255,255,255,.18),rgba(255,255,255,.04))}
+.hc-feat .hc-wm{color:#fff;opacity:.28}
+.wallf{margin:4px 0 4px}
+.wall{column-count:2;column-gap:12px}
+.wc{break-inside:avoid;display:flex;flex-direction:column;gap:8px;background:var(--surface);border-radius:14px;box-shadow:var(--shadow);padding:14px 16px;margin:0 0 12px;color:var(--ink);text-decoration:none}
+a.wc:hover{box-shadow:0 0 0 2px var(--accent-soft)}
+.wc-h{display:flex;align-items:center;gap:10px;flex-wrap:wrap;min-width:0}
+.wc-badge{font-size:11px;font-weight:800;letter-spacing:.05em;text-transform:uppercase;border-radius:6px;padding:3px 7px;background:var(--amber-soft);color:var(--amber-ink)}
+.wc-badge.news{background:var(--soft);color:var(--ink2)}
+.wc-badge.res{background:var(--green-soft);color:var(--green-ink)}
+.wc-m{font-size:12.5px;color:var(--muted)}
+.wc-who{font-size:14px}
+.wc-t{font-size:16px;font-weight:700;line-height:1.3;color:var(--ink);text-decoration:none}
+a.wc-t:hover{text-decoration:underline}
+.wc-d{margin:0;font-size:14px;color:var(--ink2);line-height:1.45;display:-webkit-box;-webkit-line-clamp:4;-webkit-box-orient:vertical;overflow:hidden}
+.wc-q{margin:0;font-size:15px;line-height:1.4}
+.wc-c{font-size:12.5px}
+.w-issue{border-top:3px solid var(--amber)}
+.w-issue .act{border-top:0;padding-top:2px}
+.wc-more{margin-left:auto;font-weight:700;text-decoration:none;font-size:13px}
+.wall-empty{column-span:all;padding:12px 2px}
+.topics{display:flex;flex-direction:column;gap:8px;margin-top:6px;padding-top:14px;border-top:1px solid var(--line)}
+.topics-h{font-size:12px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.topics-row{display:flex;flex-wrap:wrap;gap:4px 2px}
+.tp{display:flex;flex-direction:column;align-items:center;gap:4px;width:84px;padding:8px 2px;border-radius:12px;text-decoration:none;color:var(--ink2);text-align:center}
+.tp:hover{background:var(--soft);color:var(--ink)}
+.tp-ic{width:38px;height:38px;border-radius:50%;background:var(--surface);box-shadow:var(--shadow);display:flex;align-items:center;justify-content:center;color:var(--muted)}
+.tp:hover .tp-ic{color:var(--accent)}
+.tp-l{font-size:12px;font-weight:600;line-height:1.2}
+.tp-v{font-size:11px;color:var(--muted);font-variant-numeric:tabular-nums;line-height:1.1}
+@media (max-width:640px){
+ .tband{border-radius:16px;margin:0 -4px}
+ .tband-in{padding:30px 16px 6px}
+ .tband-hd h1{font-size:23px}
+ .tband-sec{margin-top:22px}
+ .tband-cr{top:8px;right:10px}
+ .wall{column-count:1}
+ .topics-row{display:grid;grid-template-columns:repeat(4,minmax(0,1fr))}
+ .tp{width:auto}
+}
 </style>
 
 </head>
@@ -1658,6 +1718,7 @@ function route(){if(!TOWN)return;if(TLIVE()&&!D)return;let h=(location.hash||'#h
  else if(h==='staff'){html=pageStaff();active='home';}
  else if(h==='home-classic')html=pageHome();
  else if(h==='home-v39')html=pageHome2();
+ else if(h==='home-v40')html=pageHome40();
  else html=pageHome3();
  currentArea={home:'Home',ideas:'Ideas',local:'Local',social:'Lookup',safety:'Lookup',friends:'Neighbors',issues:'Issues',lookup:'Lookup',neighbors:'Neighbors',talk:'Talk',business:'Business',parks:'Parks & public works',schools:'Schools',sports:'Sports',election:'Vote'}[active]||'Home';
  if(TLIVE()&&TOWN.paused)html=pausedBanner(TOWN)+html;
@@ -1669,6 +1730,7 @@ function route(){if(!TOWN)return;if(TLIVE()&&!D)return;let h=(location.hash||'#h
  const I={social:'<circle cx="12" cy="12" r="4"/><path d="M16 12v1.5a2.5 2.5 0 0 0 5 0V12a9 9 0 1 0-3.5 7.1"/>',home:'<path d="M3 11l9-8 9 8v10a1 1 0 0 1-1 1h-5v-7h-6v7H4a1 1 0 0 1-1-1z"/>',local:'<path d="M4 4h13v16H4z"/><path d="M17 8h3v10a2 2 0 0 1-2 2"/><path d="M7 8h7M7 12h7M7 16h4"/>',ideas:'<path d="M9 18h6M10 22h4M12 2a7 7 0 0 0-4 12.7V17h8v-2.3A7 7 0 0 0 12 2z"/>',issues:'<path d="M9 11l3 3 8-8"/><path d="M20 12v7a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h9"/>',lookup:'<rect x="3.5" y="3.5" width="7" height="7" rx="1.5"/><rect x="13.5" y="3.5" width="7" height="7" rx="1.5"/><rect x="3.5" y="13.5" width="7" height="7" rx="1.5"/><rect x="13.5" y="13.5" width="7" height="7" rx="1.5"/>',neighbors:'<circle cx="9" cy="8" r="3.5"/><path d="M2.5 20v-.5a5.5 5.5 0 0 1 11 0v.5"/><circle cx="17" cy="9" r="2.5"/><path d="M15.5 14.2A4.5 4.5 0 0 1 21.5 18.5v.5"/>'};
  I.sports='<circle cx="12" cy="12" r="9"/><path d="M12 3v18M3 12h18"/><path d="M5.6 5.6c3.5 3.5 3.5 9.3 0 12.8M18.4 5.6c-3.5 3.5-3.5 9.3 0 12.8"/>';I.schools='<path d="M2 9.5l10-5 10 5-10 5z"/><path d="M6 11.5v4.5c3.5 2.5 8.5 2.5 12 0v-4.5"/><path d="M22 9.5v6"/>';I.business='<path d="M3 9l1.5-5h15L21 9"/><path d="M3 9h18v2.5a3 3 0 0 1-6 0 3 3 0 0 1-6 0 3 3 0 0 1-6 0z"/><path d="M5 14v7h14v-7"/><path d="M10 21v-4h4v4"/>';I.parks='<path d="M12 2l5 7h-3l4 6h-4l3 5H7l3-5H6l4-6H7z"/><path d="M12 20v2"/>';I.election='<path d="M4 11h16v10H4z"/><path d="M8 11V4h8v7"/><path d="M10 7l1.5 1.5L15 5"/>';I.lookup='<circle cx="5" cy="12" r="1.6"/><circle cx="12" cy="12" r="1.6"/><circle cx="19" cy="12" r="1.6"/>';I.friends=I.neighbors;I.talk='<path d="M21 12a8 8 0 0 1-11.6 7.1L4 20l1.1-4.4A8 8 0 1 1 21 12z"/><path d="M8.5 11h7M8.5 14h4"/>';I.safety='<path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>';
  $('nav').innerHTML=SL.map(l=>`<a href="#${l[0]}" class="${active===l[0]?'on':''}" aria-label="${l[1]}" data-tip="${TIP[l[0]]}"${active===l[0]?' aria-current="page"':''}><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">${I[l[0]]}</svg><span class="lbl">${l[1]}</span></a>`).join('')+`<button type="button" class="sitefb-nav" data-sitefb data-tip="Feedback on Agorri: bugs, ideas, anything that would make the site better"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12a8 8 0 0 1-11.6 7.1L4 20l1.1-4.4A8 8 0 1 1 21 12z"/><path d="M12 8v4M12 15.5v.01"/></svg><span class="lbl">Site feedback</span></button><div class="navrec lbl"><span class="navrec-h">Records</span>${REC.map(r=>`<a href="#${r[0]}" class="${(h===r[0]||(r[0]==='officials'&&h.startsWith('official-'))||(r[0]==='beyond'&&h.startsWith('person-'))||(r[0]==='record'&&/^b?meeting-/.test(h)))?'on':''}">${r[1]}</a>`).join('')}</div>`;
+ fillTopics(SL,I,REC);
  $('tabbar').innerHTML=L.map(l=>`<a href="#${l[0]}" class="${(active===l[0]||(['social','safety','business','parks','schools','sports','election'].includes(active)&&l[0]==='lookup'))?'on':''}" aria-label="${l[1]}"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">${I[l[0]]}</svg>${l[1]}</a>`).join('');
  const w=$('who');w.className='who'+(S.verified?' ok':'');w.innerHTML=S.verified?`✓ <span>${esc(S.username)}</span>`:'Verify';
  w.setAttribute('data-tip',S.verified?'Address checked as @'+S.username+'. Your address stays private.':'Verify your address so your Support and Oppose are counted. Your address is never shown.');
@@ -2632,7 +2694,7 @@ function hcItems(){const out=[];if(!LX||!D)return out;const tm=addDays(TODAY,1);
  upcomingEvents().filter(x=>x.date>TODAY).forEach(x=>{if(out.length>=14)return;const c={date:x.date,tone:'event',k:x.kind||'Event',t:x.title,line:[x.time,x.venue].filter(Boolean).join(' · '),href:x.url,ext:true,src:x.source};if(!dup(c))out.push(c);});
  const rank=x=>x.warn?0:x.late?2:1;return out.sort((a,b)=>a.date.localeCompare(b.date)||rank(a)-rank(b)).slice(0,14);}
 function hcCard(x){const d=ld(x.date);const tm=addDays(TODAY,1);const when=x.date===TODAY?'Today':x.date===tm?'Tomorrow':d.toLocaleDateString('en-US',{weekday:'short'})+' · '+MON[d.getMonth()];
- return `<a class="hc t-${x.tone}${x.date===TODAY?' is-today':''}" href="${esc(x.href||'#local')}"${x.ext?' target="_blank" rel="noopener"':''}><span class="hc-top"><span class="hc-d"><small>${esc(when)}</small><b>${d.getDate()}</b></span><span class="hc-ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${HC_IC[x.tone]||HC_IC.event}</svg></span></span><span class="hc-k">${esc(x.k)}</span><span class="hc-t">${esc(x.t)}</span>${x.line?`<span class="hc-l">${esc(x.line)}</span>`:''}${x.src?`<span class="hc-s">${esc(x.src)} ↗</span>`:''}</a>`;}
+ return `<a class="hc t-${x.tone}${x.date===TODAY?' is-today':''}" href="${esc(x.href||'#local')}"${x.ext?' target="_blank" rel="noopener"':''}><span class="hc-top"><span class="hc-d"><small>${esc(when)}</small><b>${d.getDate()}</b></span><svg class="hc-wm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${HC_IC[x.tone]||HC_IC.event}</svg></span><span class="hc-k">${esc(x.k)}</span><span class="hc-t">${esc(x.t)}</span>${x.line?`<span class="hc-l">${esc(x.line)}</span>`:''}${x.src?`<span class="hc-s">${esc(x.src)} ↗</span>`:''}</a>`;}
 function hcVote(){const C=LX&&LX.cand,e=LX&&LX.election;if(!e||!e.date||e.date<TODAY)return '';const days=Math.round((ld(e.date)-ld(TODAY))/864e5);if(days>45)return '';const d=ld(e.date);
  const races=C?racesForWard(S.ward):[];const nc=races.reduce((n,r)=>n+(r.candidates||[]).length,0);const href=C?'#election':'#local';
  return `<a class="hc hc-feat t-vote" href="${href}"><span class="hc-top"><span class="hc-d"><small>${days===0?'Today':days===1?'Tomorrow':'In '+days+' days'}</small><b>${d.getDate()}</b></span><span class="hc-ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${HC_IC.vote}</svg></span></span><span class="hc-k">${d.toLocaleDateString('en-US',{weekday:'long',month:'short',day:'numeric'})} · Election</span><span class="hc-t">Vote ${days===0?'today':days===1?'tomorrow':'in '+days+' days'}</span><span class="hc-l">${races.length?`${races.length} races, ${nc} candidates on ${BALLOT()}. `:''}${esc(e.hours||'')}</span><span class="hc-go">${C?'Who is running ›':'Where to vote ›'}</span></a>`;}
@@ -2701,7 +2763,59 @@ function talkingNow(){const ready=!!(window.TALK&&TALK.ready);const all=ready?tk
  return `<section class="blk"><div class="sec"><h2>What ${esc(TN())} is talking about</h2><a href="#talk">All talk${all.length?' ('+all.length+')':''} ›</a></div><div class="card pv-list">${rows.length?rows.join(''):`<p class="muted pv-empty">Nothing yet this week. Post an idea below, or tap ${BUBBLE} on any issue to start the debate.</p>`}</div></section>`;}
 function numbersFeat(){const t=kpiList().filter(k=>k&&!k.soc).slice(0,3);if(!t.length)return '';
  return `<section class="blk"><div class="sec"><h2>${esc(TN())} by the numbers</h2><a href="#budget">Budget and taxes ›</a></div><div class="kpis kfeat">${t.map(kpiCard).join('')}</div></section>`;}
+/* ---- v41 Home: today and coming up on the town photo, the day's question, a social wall of what people are discussing, then a minimal row of topic doors. v40 stays at #home-v40. ---- */
+function todayBand(hi){const d=ld(TODAY).toLocaleDateString('en-US',{weekday:'long',month:'long',day:'numeric'});const P=TOWN&&TOWN.photo;const PN=TOWN?TOWN.name:TN();
+ const fv=hcVote();const it=hcItems().filter(x=>!(fv&&x.tone==='vote'));const nev=upcomingEvents().length;const nt=it.filter(x=>x.date===TODAY).length;const u=w=>P.src.replace('{w}',w);
+ return `<section class="tband${P&&P.src?'':' nophoto'}">${P&&P.src?`<img class="tband-img" src="${esc(u(960))}" srcset="${esc(u(960))} 960w, ${esc(u(1920))} 1920w" sizes="(max-width:900px) 100vw, 900px" alt="${esc(P.alt||'')}" style="object-position:${esc(P.pos||'50% 50%')}" decoding="async" fetchpriority="high"><a class="tband-cr" href="${esc(P.page)}" target="_blank" rel="noopener">Photo: ${esc(P.author)}, ${esc(P.license)}</a>`:''}
+ <div class="tband-in"><div class="tband-hd"><div class="stack" style="gap:2px;min-width:0"><h1>${hi}, ${esc(PN)}</h1><span>${d}</span></div></div>
+ <div class="tband-sec"><h2>Today and coming up</h2><a href="#events">${nev?'All '+nev+' events ›':'Calendar ›'}</a></div>
+ ${fv||it.length?`<div class="hcar"><button type="button" class="hcar-b prev" data-hcar="-1" aria-label="Earlier">‹</button><div class="hcar-track" tabindex="0" aria-label="${nt?nt+' things today, then what is coming up':'What is coming up'}">${fv}${it.map(hcCard).join('')}</div><button type="button" class="hcar-b next" data-hcar="1" aria-label="Later">›</button></div>`:`<p class="tband-empty">Nothing on the calendar today. <a href="#events">See what is coming up ›</a></p>`}</div></section>`;}
+var WALLF='All';
+const WALL_F=[['All','All'],['issue','Up for a vote'],['talk','Residents'],['official','Officials'],['news','News']];
+function wallIssue(i,hit){const c=cnt(i.id),n=c.s+c.o,v=S.votes[i.id];const pct=n?Math.round(c.s/n*100):0;const k=(window.TALK&&TALK.ready)?tkFor('issue',i.id).length:0;
+ return `<article class="wc w-issue"><div class="wc-h"><span class="wc-badge">${hit?'On the '+fmtD(hit.date)+' '+esc(GBS())+' agenda':'Up for a vote'}</span><span class="wc-m">${esc(i.topic||'Issue')}${isNewDate(issueLast(i))?' '+NEWDOT:''}</span></div>
+ <a class="wc-t" href="#issue-${i.id}">${esc(i.title)}</a><p class="wc-d">${esc(i.summary||'')}</p>
+ <div class="stack" style="gap:4px"><div class="bar${n?'':' neutral'}" style="height:6px"><span style="width:${pct}%"></span></div><span class="muted wc-c">${n?`<b style="color:var(--accent)">${pct}% support</b> · ${n.toLocaleString()} verified`:'No resident input yet'}${k?' · '+k+' in the debate':''}</span></div>
+ <div class="act"><button class="btn sm yes${v==='s'?' on':''}" data-vote="s" data-tip="Support: counted as feedback from verified residents. Not a binding vote." data-id="${i.id}">${v==='s'?'Supporting':'Support'}</button><button class="btn sm no${v==='o'?' on':''}" data-vote="o" data-tip="Oppose: counted as feedback from verified residents. Not a binding vote." data-id="${i.id}">${v==='o'?'Opposing':'Oppose'}</button>${itemBar({t:'issue',id:i.id,label:i.title,href:'#issue-'+i.id},{sm:true})}<a class="muted wc-more" href="#issue-${i.id}">Context ›</a></div></article>`;}
+function wallTalk(x){const kd=TK_KINDS[x.kind]||{n:'Post',tone:''};const who=tkWho(x);
+ return `<a class="wc w-talk" href="#talk-${esc(x.key)}"><div class="wc-h">${av(x.anon?'?':(String(x.name||'R')[0]||'R').toUpperCase(),x.anon?'#8A8D91':'#2E8B57',34)}<div class="stack" style="gap:0;min-width:0"><b class="wc-who">${esc(who)}</b><span class="wc-m">${esc(kd.n)} · ${ago(x.active||x.at)}</span></div></div>
+ ${x.title?`<span class="wc-t">${esc(x.title)}</span>`:''}${x.body?`<p class="wc-d">${esc(String(x.body).slice(0,240))}</p>`:''}
+ <span class="muted wc-c">${x.replies?x.replies+' repl'+(x.replies===1?'y':'ies'):'Reply'}${x.sup?' · '+x.sup+' support':''}${x.ref&&x.ref.label?' · on '+esc(x.ref.label):''}</span></a>`;}
+function wallOfficial(p){const q=p.quote||'';const g=cleanGist(p);
+ return `<a class="wc w-off" href="${esc(p.url)}" target="_blank" rel="noopener"><div class="wc-h">${av(ini(p.who)||p.who.slice(0,2).toUpperCase(),p.platform==='Bluesky'?'#0085FF':p.platform==='YouTube'?'#E62117':'#1B74E4',34)}<div class="stack" style="gap:0;min-width:0"><b class="wc-who">${esc(p.who)}</b><span class="wc-m">${esc(postLevel(p))} · ${esc(p.platform)} · ${ago(p.when)}</span></div></div>
+ ${q?`<p class="wc-q">${esc(q)}</p>`:''}${g?`<p class="wc-d">${esc(g)}</p>`:''}<span class="muted wc-c">Official post ↗</span></a>`;}
+function wallNews(h,N){return `<a class="wc w-news" href="${esc(h.url)}" target="_blank" rel="noopener"><div class="wc-h"><span class="wc-badge news">In the news</span><span class="wc-m">${esc(N.name)} · ${dayLbl(h.date)}</span></div><span class="wc-t">${esc(h.title)}${isNewDate(h.at||h.date)?' '+NEWDOT:''}</span></a>`;}
+function wallRes(d){const st=liveStatus(d);const meta=STATUSES[st]||{tone:''};return `<a class="wc w-res" href="#ideas"><div class="wc-h"><span class="wc-badge res">Because of residents</span><span class="tag ${meta.tone}">${esc(st)}</span></div><span class="wc-t">${esc(d.title)}</span>${clockText(d)?`<span class="muted wc-c">${esc(clockText(d))}</span>`:''}</a>`;}
+function wallItems(){const ready=!!(window.TALK&&TALK.ready);const wk=addDays(TODAY,-14);
+ const Q={issue:voteRank().slice(0,4).map(({i,hit})=>wallIssue(i,hit)),
+  talk:ready?tkSort(tkTop().filter(x=>(x.active||x.at||'').slice(0,10)>=wk),'Discussed').slice(0,6).map(wallTalk):[],
+  official:(()=>{const ps=postsSorted().filter(p=>postKind(p)!=='candidate');const loc=ps.filter(p=>(LVL_RANK[postLevel(p)]??4)<=1);return (loc.length>=2?loc:ps).slice(0,4).map(wallOfficial);})(),
+  news:(()=>{const ph=paperHeads();return ph&&ph.hs?ph.hs.slice(0,3).map(h=>wallNews(h,ph.N)):[];})(),
+  res:allRequests().filter(d=>['Threshold met','Under review','Planned','Done','Declined'].includes(liveStatus(d))&&(d.statusAt||d.clockStart||'')>=addDays(TODAY,-7)).slice(0,2).map(wallRes)};
+ if(WALLF!=='All')return (Q[WALLF]||[]).concat(WALLF==='talk'?Q.res:[]);
+ const order=['issue','talk','official','issue','news','talk','res','official','issue','news','talk','issue','official','talk','news','talk','official','talk'];const out=[];order.forEach(k=>{if(Q[k]&&Q[k].length)out.push(Q[k].shift());});Object.values(Q).forEach(a=>out.push(...a));return out;}
+function wallGrid(){const it=wallItems();return it.length?it.join(''):`<p class="muted wall-empty">${WALLF==='talk'?`No resident posts yet. Share an idea above, or tap ${BUBBLE} on any issue to start the debate.`:'Nothing here yet.'}</p>`;}
+function socialWall(){return `<section class="blk"><div class="sec"><h2>What ${esc(TN())} is talking about</h2><a href="#talk">All talk ›</a></div>
+ <div class="chips wallf" role="group" aria-label="Show">${WALL_F.map(([k,l])=>`<button type="button" class="${WALLF===k?'on':''}" data-wallf="${k}" aria-pressed="${WALLF===k}">${l}</button>`).join('')}</div>
+ <div class="wall" id="wallgrid">${wallGrid()}</div></section>`;}
+document.addEventListener('click',e=>{const b=e.target.closest('[data-wallf]');if(!b)return;WALLF=b.dataset.wallf;document.querySelectorAll('[data-wallf]').forEach(x=>{const on=x.dataset.wallf===WALLF;x.classList.toggle('on',on);x.setAttribute('aria-pressed',on);});const g=document.getElementById('wallgrid');if(g)g.innerHTML=wallGrid();});
+/* the topic doors: the sidebar's sections as one quiet row of icons; render() fills it from the same list as the sidebar */
+function topicsRow(){return `<nav class="topics" id="hometopics" aria-label="More in ${esc(TN())}"></nav>`;}
+function fillTopics(SL,I,REC){const el=document.getElementById('hometopics');if(!el)return;const kp=kpiList().filter(k=>k&&!k.soc);const kv=re=>{const k=kp.find(k=>re.test(k.h||''));return k?k.v:'';};
+ const RI={housing:EX_IC.housing,budget:EX_IC.budget,officials:EX_IC.people};
+ const items=SL.filter(l=>l[0]!=='home').map(l=>({h:l[0],l:l[1],ic:I[l[0]],v:''})).concat(REC.filter(r=>RI[r[0]]).map(r=>({h:r[0],l:r[0]==='budget'?'Budget':r[0]==='housing'?'Home prices':r[1],ic:RI[r[0]],v:r[0]==='budget'?kv(/budget/):r[0]==='housing'?kv(/housing/):''})));
+ el.innerHTML=`<span class="topics-h">More in ${esc(TN())}</span><div class="topics-row">${items.map(x=>`<a class="tp" href="#${x.h}"><span class="tp-ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${x.ic||''}</svg></span><span class="tp-l">${esc(x.l)}</span>${x.v?`<span class="tp-v">${esc(String(x.v).replace(/<[^>]+>/g,''))}</span>`:''}</a>`).join('')}</div>`;}
 function pageHome3(){const hr=new Date().getHours();const hi=hr<12?'Good morning':hr<17?'Good afternoon':'Good evening';
+ if(!WX.ok||WX.town!==TOWN.id)loadWX();
+ return `
+ ${todayBand(hi)}
+ ${subPicker()}
+ ${askCard()}
+ ${socialWall()}
+ ${yourStuff()}
+ ${topicsRow()}
+ ${foot()}`;}
+function pageHome40(){const hr=new Date().getHours();const hi=hr<12?'Good morning':hr<17?'Good afternoon':'Good evening';
  if(!WX.ok||WX.town!==TOWN.id)loadWX();const e=LX&&LX.election;const soon=e&&e.date&&e.date>=TODAY&&e.date<=addDays(TODAY,2);const ys=yourStuff();
  return `
  ${heroHead(hi)}
@@ -2759,7 +2873,7 @@ const _tkVerify39=tkVerify;tkVerify=async function(a,u){const r=await _tkVerify3
 var NAVST=[];
 function navTrack(){const h=(location.hash||'#home').slice(1)||'home';if(NAVST.length>1&&NAVST[NAVST.length-2]===h)NAVST.pop();else if(NAVST[NAVST.length-1]!==h)NAVST.push(h);if(NAVST.length>60)NAVST=NAVST.slice(-60);}
 window.addEventListener('hashchange',navTrack);navTrack();
-function navChrome(){const h=(location.hash||'#home').slice(1)||'home';const home=h==='home';const b=document.getElementById('tbback');if(b)b.hidden=home;const t=document.getElementById('tbar');if(t)t.classList.toggle('has-back',!home);const app=document.getElementById('app');if(app)app.classList.toggle('wide',home||h==='home-classic'||h==='home-v39');}
+function navChrome(){const h=(location.hash||'#home').slice(1)||'home';const home=h==='home';const b=document.getElementById('tbback');if(b)b.hidden=home;const t=document.getElementById('tbar');if(t)t.classList.toggle('has-back',!home);const app=document.getElementById('app');if(app)app.classList.toggle('wide',home||h==='home-classic'||h==='home-v39'||h==='home-v40');}
 document.addEventListener('click',e=>{const b=e.target.closest('#tbback');if(!b)return;e.preventDefault();if(NAVST.length>1)history.back();else location.hash='#home';});
 
 /* ---- Regions: several towns under one place (towns.json "subtowns"); the picker swaps the government record ---- */
