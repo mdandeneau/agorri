@@ -21,7 +21,8 @@
     "questions": "data/portsmouth/questions.json",
     "schools": "data/portsmouth/schools.json",
     "sports": "data/portsmouth/sports.json",
-    "faith": "data/portsmouth/faith.json"
+    "faith": "data/portsmouth/faith.json",
+    "featured": "data/portsmouth/featured.json"
    },
    "assessor": {
     "type": "vgsi",

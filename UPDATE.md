@@ -41,6 +41,8 @@ Use the source lists further down for anything the inbox does not cover (events,
 7. **Housing** (`local.json` housing): Redfin's city page and the regional realtor report. Update numbers, period and sources.
 
 ## Each fall, when the FBI publishes a new year
+9. **Featured** (`featured.json`). One item at a time on Home for days when one thing matters more than the rest; each shows from `from` through `until`. For an election item: on Election Day the site builds the ballot view itself. The morning after, fill `results`: set `status` to `unofficial` (or `final` once the Clerk marks it so), `asOf` to now, `turnout.ballots` from the City Clerk's results, and for each race in `results.races` the `votes` per candidate (Portsmouth's count only, from the Clerk's results file; never a statewide figure). Set `called: true` and `winner` to the candidate id only when the Secretary of State or at least two news outlets have called the race; the note explains that. Leave `until` so results stay up about five days. Other kinds: `notice` with `kicker`, `title`, `line`, `actions` [{label, href}] and `source`, for a snow emergency, a town meeting day, the budget hearing or a town celebration.
+
 8. **Crime comparisons** (`local.json` safety.benchmarks). When the FBI releases a new year of Crime in the Nation, update the town, New Hampshire and U.S. rates and counts together, for the same year, from FBI Table 8 (city) and the FBI state and national estimates. Never mix years across the three. Keep the note about small counts and visitors. Police officers per 1,000: town's sworn count over the same population; U.S. figure from the latest Bureau of Justice Statistics local police report for the town's size band.
 
 ## Before an election (daily in the last 30 days)
