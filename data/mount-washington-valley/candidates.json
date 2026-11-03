@@ -82,83 +82,614 @@
      "website": "https://kellyfornh.com/",
      "positions": [
       {
-       "topic": "Education Freedom Accounts",
-       "stance": "For. Survey answer: supports Education Freedom Accounts and will fight for universal education freedom.",
+       "area": "Other",
+       "topic": "Allow segregation based on biological sex",
+       "stance": "Other",
+       "text": "Ayotte vetoed bills that would have let the state anti-discrimination law permit sex-based segregation in some settings.",
+       "quote": "address this issue in a thoughtful, narrow way",
+       "year": "2026",
+       "source": {
+        "label": "Voting Record, 2026",
+        "url": "https://www.citizenscount.org/candidate/kelly-ayotte"
+       }
+      },
+      {
+       "area": "Energy and climate",
+       "topic": "Encourage nuclear development",
+       "stance": "For",
+       "text": "Ayotte issued a March 2026 executive order directing the Department of Energy to advance next-generation nuclear power.",
+       "quote": "as a reliable, cost-effective, and low-emission energy source",
+       "year": "2026",
+       "source": {
+        "label": "Other, 2026",
+        "url": "https://www.citizenscount.org/candidate/kelly-ayotte"
+       }
+      },
+      {
+       "area": "Taxes and spending",
+       "topic": "School district tax cap mandate",
+       "stance": "For",
+       "text": "On the Granite State Taxpayers Survey, Ayotte said yes to voting for tax and spending caps on municipal growth.",
+       "quote": "",
+       "year": "2026",
+       "source": {
+        "label": "Other, 2026",
+        "url": "https://www.citizenscount.org/candidate/kelly-ayotte"
+       }
+      },
+      {
+       "area": "Education",
+       "topic": "\"Education Freedom Account\" program",
+       "stance": "For",
+       "text": "Ayotte supports the program giving students per-pupil state funds for private or home school expenses.",
        "quote": "Kelly supports Education Freedom Accounts and will fight for Universal education freedom",
+       "year": "2024",
        "source": {
-        "label": "Citizens Count survey, 2024 (reprinted by Nashua Ink Link)",
-        "url": "https://nashua.inklink.news/?p=286294"
+        "label": "Citizens Count Issue Survey, 2024",
+        "url": "https://www.citizenscount.org/candidate/kelly-ayotte"
        }
       },
       {
-       "topic": "Taxes",
-       "stance": "Against a state income or sales tax. Survey answer: no new taxes, will look to cut taxes wherever possible.",
+       "area": "Abortion",
+       "topic": "Ban abortion during 1st trimester",
+       "stance": "Against",
+       "text": "Ayotte opposes a first-trimester abortion ban and would keep current law.",
+       "quote": "protects women's freedom to obtain an abortion up to six months of pregnancy",
+       "year": "2024",
+       "source": {
+        "label": "Citizens Count Issue Survey, 2024",
+        "url": "https://www.citizenscount.org/candidate/kelly-ayotte"
+       }
+      },
+      {
+       "area": "Abortion",
+       "topic": "Ban abortion during 2nd trimester",
+       "stance": "Against",
+       "text": "Ayotte opposes a second-trimester abortion ban and would keep current law.",
+       "quote": "protects women's freedom to obtain an abortion up to six months of pregnancy",
+       "year": "2024",
+       "source": {
+        "label": "Citizens Count Issue Survey, 2024",
+        "url": "https://www.citizenscount.org/candidate/kelly-ayotte"
+       }
+      },
+      {
+       "area": "Taxes and spending",
+       "topic": "Broad-based income tax",
+       "stance": "Against",
+       "text": "Ayotte opposes any income tax on earned income.",
        "quote": "Kelly will never allow an income or sales tax to be imposed in New Hampshire.",
+       "year": "2024",
        "source": {
-        "label": "Citizens Count survey, 2024",
+        "label": "Citizens Count Issue Survey, 2024",
         "url": "https://www.citizenscount.org/candidate/kelly-ayotte"
        }
       },
       {
-       "topic": "Abortion",
-       "stance": "Says she supports and will not change New Hampshire's current abortion law.",
-       "quote": "Kelly supports and will not change New Hampshire's existing abortion law",
+       "area": "Taxes and spending",
+       "topic": "Broad-based sales tax",
+       "stance": "Against",
+       "text": "Ayotte opposes a broad sales tax to protect the state's economic advantage.",
+       "quote": "Kelly will never allow an income or sales tax to be imposed in New Hampshire.",
+       "year": "2024",
        "source": {
-        "label": "Citizens Count survey, 2024",
+        "label": "Citizens Count Issue Survey, 2024",
         "url": "https://www.citizenscount.org/candidate/kelly-ayotte"
        }
       },
       {
-       "topic": "Energy",
-       "stance": "For encouraging nuclear development; issued a March 2026 executive order directing the Department of Energy to explore next-generation nuclear power. Supports an all-of-the-above energy strategy.",
-       "quote": null,
+       "area": "Taxes and spending",
+       "topic": "Business tax decrease",
+       "stance": "For",
+       "text": "Ayotte rules out new taxes and would look at business tax cuts in her first budget.",
+       "quote": "no new taxes, period",
+       "year": "2024",
        "source": {
-        "label": "Citizens Count, 2026",
+        "label": "Citizens Count Issue Survey, 2024",
         "url": "https://www.citizenscount.org/candidate/kelly-ayotte"
        }
       },
       {
-       "topic": "Housing",
-       "stance": "Would streamline state permitting and cut red tape, and partner with municipalities on infrastructure.",
-       "quote": "Kelly will work to streamline the state permitting process and cut unnecessary red tape",
+       "area": "Taxes and spending",
+       "topic": "Capital gains tax",
+       "stance": "Against",
+       "text": "Ayotte notes New Hampshire has no capital gains tax and would not allow one.",
+       "quote": "Kelly would never allow New Hampshire to implement one.",
+       "year": "2024",
        "source": {
-        "label": "Citizens Count survey, 2024",
+        "label": "Citizens Count Issue Survey, 2024",
         "url": "https://www.citizenscount.org/candidate/kelly-ayotte"
        }
       },
       {
-       "topic": "Marijuana",
-       "stance": "Against legalization. Says she would not sign a legalization bill, citing youth mental health, road safety and the opioid crisis.",
+       "area": "Energy and climate",
+       "topic": "Climate change action",
+       "stance": "Other",
+       "text": "Ayotte favors protecting the environment through an all-of-the-above energy strategy, including small modular nuclear reactors.",
+       "quote": "Kelly supports an all-of-the above energy strategy, including renewable and other clean energy sources.",
+       "year": "2024",
+       "source": {
+        "label": "Citizens Count Issue Survey, 2024",
+        "url": "https://www.citizenscount.org/candidate/kelly-ayotte"
+       }
+      },
+      {
+       "area": "Elections and voting",
+       "topic": "Conditional, affidavit ballots for new voters",
+       "stance": "For",
+       "text": "Ayotte supports conditional affidavit ballots for same-day registrants who lack proper ID.",
+       "quote": "Kelly supports conditional affidavit ballots for same-day registrants that do not have proper identification",
+       "year": "2024",
+       "source": {
+        "label": "Citizens Count Issue Survey, 2024",
+        "url": "https://www.citizenscount.org/candidate/kelly-ayotte"
+       }
+      },
+      {
+       "area": "Housing",
+       "topic": "Encourage local zoning changes for housing development",
+       "stance": "Other",
+       "text": "Ayotte would streamline state permitting and partner with localities on infrastructure to build housing while respecting local decisions.",
+       "quote": "Kelly respects local decision making and will work with local communities",
+       "year": "2024",
+       "source": {
+        "label": "Citizens Count Issue Survey, 2024",
+        "url": "https://www.citizenscount.org/candidate/kelly-ayotte"
+       }
+      },
+      {
+       "area": "Energy and climate",
+       "topic": "Expand net metering opportunities",
+       "stance": "Other",
+       "text": "Ayotte will examine expanding net metering capacity while protecting ratepayers.",
+       "quote": "Kelly will examine ways to expand net metering capacity while protecting rate payers.",
+       "year": "2024",
+       "source": {
+        "label": "Citizens Count Issue Survey, 2024",
+        "url": "https://www.citizenscount.org/candidate/kelly-ayotte"
+       }
+      },
+      {
+       "area": "Abortion",
+       "topic": "Guarantee right to abortion before 24 weeks",
+       "stance": "Other",
+       "text": "Ayotte notes current law already guarantees abortion access up to six months, with medical-emergency exceptions later.",
+       "quote": "Women in New Hampshire are guaranteed access to abortion under current law",
+       "year": "2024",
+       "source": {
+        "label": "Citizens Count Issue Survey, 2024",
+        "url": "https://www.citizenscount.org/candidate/kelly-ayotte"
+       }
+      },
+      {
+       "area": "Labor and economy",
+       "topic": "Increase funding for child care providers",
+       "stance": "Other",
+       "text": "Ayotte would address child care affordability and availability by reviewing scholarships and engaging employers.",
+       "quote": "we must address issues with childcare affordability and availability",
+       "year": "2024",
+       "source": {
+        "label": "Citizens Count Issue Survey, 2024",
+        "url": "https://www.citizenscount.org/candidate/kelly-ayotte"
+       }
+      },
+      {
+       "area": "Education",
+       "topic": "Majority of public school funding through local property taxes",
+       "stance": "Other",
+       "text": "Ayotte believes the Legislature and Governor, working with localities, should set education funding, not the courts.",
+       "quote": "She does not believe these issues should be decided by the courts.",
+       "year": "2024",
+       "source": {
+        "label": "Citizens Count Issue Survey, 2024",
+        "url": "https://www.citizenscount.org/candidate/kelly-ayotte"
+       }
+      },
+      {
+       "area": "Cannabis",
+       "topic": "Marijuana legalization with home-growing, no sales",
+       "stance": "Against",
+       "text": "Ayotte would not sign a marijuana legalization bill, citing quality-of-life, youth, road safety, and opioid concerns.",
        "quote": "Kelly would not sign a bill legalizing marijuana",
+       "year": "2024",
        "source": {
-        "label": "Citizens Count survey, 2024",
+        "label": "Citizens Count Issue Survey, 2024",
         "url": "https://www.citizenscount.org/candidate/kelly-ayotte"
        }
       },
       {
-       "topic": "Immigration",
-       "stance": "For requiring local law enforcement to cooperate with federal immigration enforcement; would ban sanctuary cities.",
+       "area": "Cannabis",
+       "topic": "Marijuana legalization with private sales",
+       "stance": "Against",
+       "text": "Ayotte would not sign a bill licensing growers and retailers, citing the same concerns.",
+       "quote": "Kelly would not sign a bill legalizing marijuana",
+       "year": "2024",
+       "source": {
+        "label": "Citizens Count Issue Survey, 2024",
+        "url": "https://www.citizenscount.org/candidate/kelly-ayotte"
+       }
+      },
+      {
+       "area": "Cannabis",
+       "topic": "Marijuana legalization with state-run stores",
+       "stance": "Against",
+       "text": "Ayotte would not sign a bill creating state-run marijuana stores, citing the same concerns.",
+       "quote": "Kelly would not sign a bill legalizing marijuana",
+       "year": "2024",
+       "source": {
+        "label": "Citizens Count Issue Survey, 2024",
+        "url": "https://www.citizenscount.org/candidate/kelly-ayotte"
+       }
+      },
+      {
+       "area": "Labor and economy",
+       "topic": "Minimum wage increase",
+       "stance": "Against",
+       "text": "Ayotte believes the market should set wages and says government minimums would cost jobs.",
+       "quote": "Kelly believes that the market should decide wages",
+       "year": "2024",
+       "source": {
+        "label": "Citizens Count Issue Survey, 2024",
+        "url": "https://www.citizenscount.org/candidate/kelly-ayotte"
+       }
+      },
+      {
+       "area": "Abortion",
+       "topic": "Protection for interstate travel related to gender, abortion",
+       "stance": "Other",
+       "text": "Ayotte says she supports and would not change current abortion law, which covers out-of-state visitors.",
+       "quote": "Kelly supports and will not change New Hampshire's current abortion law.",
+       "year": "2024",
+       "source": {
+        "label": "Citizens Count Issue Survey, 2024",
+        "url": "https://www.citizenscount.org/candidate/kelly-ayotte"
+       }
+      },
+      {
+       "area": "Abortion",
+       "topic": "Repeal ban on abortion after 24 weeks",
+       "stance": "Against",
+       "text": "Ayotte says New Hampshire has no abortion ban and she would keep the current law.",
+       "quote": "New Hampshire does not have an abortion ban.",
+       "year": "2024",
+       "source": {
+        "label": "Citizens Count Issue Survey, 2024",
+        "url": "https://www.citizenscount.org/candidate/kelly-ayotte"
+       }
+      },
+      {
+       "area": "Immigration",
+       "topic": "Require local immigration enforcement",
+       "stance": "For",
+       "text": "Ayotte would ban sanctuary cities.",
        "quote": "As Governor, Kelly will ban sanctuary cities to keep New Hampshire communities safe.",
+       "year": "2024",
        "source": {
-        "label": "Citizens Count survey, 2024",
+        "label": "Citizens Count Issue Survey, 2024",
         "url": "https://www.citizenscount.org/candidate/kelly-ayotte"
        }
       },
       {
-       "topic": "Guns",
-       "stance": "Against stricter gun laws. Supports current laws and will enforce them.",
+       "area": "Guns",
+       "topic": "Stricter gun laws",
+       "stance": "Against",
+       "text": "Ayotte supports existing gun laws and would enforce them rather than add new ones.",
        "quote": "Kelly supports our current laws and will enforce them.",
+       "year": "2024",
        "source": {
-        "label": "Citizens Count survey, 2024",
+        "label": "Citizens Count Issue Survey, 2024",
         "url": "https://www.citizenscount.org/candidate/kelly-ayotte"
        }
       },
       {
-       "topic": "School district tax caps",
-       "stance": "For. Answered Yes on the Granite State Taxpayers survey to implementing tax and spending caps.",
-       "quote": null,
+       "area": "Public safety and courts",
+       "topic": "Increase heroin-related law enforcement",
+       "stance": "For",
+       "text": "Ayotte would strengthen penalties for heroin and fentanyl dealers and prosecute those crossing from Massachusetts.",
+       "quote": "On day one, Kelly will work to strengthen penalties for heroin and fentanyl dealers.",
+       "year": "2023",
        "source": {
-        "label": "Granite State Taxpayers survey, 2026 (via Citizens Count)",
+        "label": "Candidate's Website, 2023",
+        "url": "https://www.citizenscount.org/candidate/kelly-ayotte"
+       }
+      },
+      {
+       "area": "Immigration",
+       "topic": "More state immigration enforcement",
+       "stance": "For",
+       "text": "Ayotte would strictly enforce immigration laws, add northern border enforcement resources, require E-Verify, and bar sanctuary cities.",
+       "quote": "Kelly will require businesses to use E-Verify",
+       "year": "2023",
+       "source": {
+        "label": "Candidate's Website, 2023",
+        "url": "https://www.citizenscount.org/candidate/kelly-ayotte"
+       }
+      },
+      {
+       "area": "Education",
+       "topic": "Common Core",
+       "stance": "Against",
+       "text": "Ayotte believes education decisions should be made locally and backed reform returning control to states and districts.",
+       "quote": "She believes that education decisions are best made locally - not in Washington.",
+       "year": "2016",
+       "source": {
+        "label": "Candidate's Website, 2016",
+        "url": "https://www.citizenscount.org/candidate/kelly-ayotte"
+       }
+      },
+      {
+       "area": "Federal issues",
+       "topic": "Federal Balanced Budget Amendment",
+       "stance": "For",
+       "text": "Ayotte believes the federal government should live within its means and supports a balanced budget amendment.",
+       "quote": "Kelly believes that the federal government should have to live within its means",
+       "year": "2016",
+       "source": {
+        "label": "Candidate's Website, 2016",
+        "url": "https://www.citizenscount.org/candidate/kelly-ayotte"
+       }
+      },
+      {
+       "area": "Taxes and spending",
+       "topic": "Federal flat income tax",
+       "stance": "Against",
+       "text": "Ayotte does not support a flat tax but backs a simpler tax code with lower taxes.",
+       "quote": "Kelly also backs a simpler, fairer tax code that lowers taxes for families and small businesses.",
+       "year": "2016",
+       "source": {
+        "label": "Candidate's Website, 2016",
+        "url": "https://www.citizenscount.org/candidate/kelly-ayotte"
+       }
+      },
+      {
+       "area": "Federal issues",
+       "topic": "How to combat Islamic State",
+       "stance": "Other",
+       "text": "Ayotte calls for a stronger response with NATO and regional allies, targeting ISIS strongholds and safe havens.",
+       "quote": "Kelly is pushing for a much stronger response to defeat ISIS",
+       "year": "2016",
+       "source": {
+        "label": "Candidate's Website, 2016",
+        "url": "https://www.citizenscount.org/candidate/kelly-ayotte"
+       }
+      },
+      {
+       "area": "Veterans and military",
+       "topic": "Increase private care for veterans",
+       "stance": "For",
+       "text": "Ayotte supports the Veterans Choice Card, letting veterans get care at private facilities.",
+       "quote": "",
+       "year": "2016",
+       "source": {
+        "label": "Candidate's Website, 2016",
+        "url": "https://www.citizenscount.org/candidate/kelly-ayotte"
+       }
+      },
+      {
+       "area": "Taxes and spending",
+       "topic": "Lower federal tax rate for corporations",
+       "stance": "For",
+       "text": "Ayotte wants to cut the federal corporate tax rate.",
+       "quote": "The United States currently has the second highest corporate tax rate in the industrialized world",
+       "year": "2016",
+       "source": {
+        "label": "Candidate's Website, 2016",
+        "url": "https://www.citizenscount.org/candidate/kelly-ayotte"
+       }
+      },
+      {
+       "area": "Health care",
+       "topic": "Repeal Affordable Care Act/\"Obamacare\"",
+       "stance": "Other",
+       "text": "Ayotte favors health reforms that lower costs, increase competition, and expand patient choice and health savings accounts.",
+       "quote": "We need to focus on reforms that reduce health care costs, increase competition and allow greater patient choice.",
+       "year": "2016",
+       "source": {
+        "label": "Other, 2016",
+        "url": "https://www.citizenscount.org/candidate/kelly-ayotte"
+       }
+      },
+      {
+       "area": "Energy and climate",
+       "topic": "Federal climate change action",
+       "stance": "For",
+       "text": "Ayotte said she would support the EPA's Clean Power Plan to cut power plant carbon emissions.",
+       "quote": "will support the Environmental Protection Agency's Clean Power Plan",
+       "year": "2015",
+       "source": {
+        "label": "Candidate's Website, 2015",
+        "url": "https://www.citizenscount.org/candidate/kelly-ayotte"
+       }
+      },
+      {
+       "area": "Abortion",
+       "topic": "Federal funding for Planned Parenthood",
+       "stance": "Against",
+       "text": "Ayotte opposes taxpayer funding for Planned Parenthood and backed redirecting it to community health centers.",
+       "quote": "I do not support the use of taxpayer dollars to fund a private organization",
+       "year": "2015",
+       "source": {
+        "label": "Candidate's Website, 2015",
+        "url": "https://www.citizenscount.org/candidate/kelly-ayotte"
+       }
+      },
+      {
+       "area": "Energy and climate",
+       "topic": "Increase fossil fuel production",
+       "stance": "For",
+       "text": "Ayotte wants more domestic energy production, including oil and gas, to reduce reliance on hostile foreign regimes.",
+       "quote": "she wants to expand domestic sources of energy",
+       "year": "2015",
+       "source": {
+        "label": "Candidate's Website, 2015",
+        "url": "https://www.citizenscount.org/candidate/kelly-ayotte"
+       }
+      },
+      {
+       "area": "Public safety and courts",
+       "topic": "NH death penalty",
+       "stance": "For",
+       "text": "Ayotte backed the state Supreme Court's decision upholding the death sentence in the Michael Addison case.",
+       "quote": "I believe the New Hampshire Supreme Court made the right decision in upholding the death penalty",
+       "year": "2015",
+       "source": {
+        "label": "Candidate's Website, 2015",
+        "url": "https://www.citizenscount.org/candidate/kelly-ayotte"
+       }
+      },
+      {
+       "area": "Veterans and military",
+       "topic": "Portsmouth Naval Shipyard",
+       "stance": "For",
+       "text": "Ayotte, on the Seapower Subcommittee, advocated in Congress for the Portsmouth Naval Shipyard.",
+       "quote": "one of the leading advocates in Congress for the Portsmouth Naval Shipyard",
+       "year": "2015",
+       "source": {
+        "label": "Candidate's Website, 2015",
+        "url": "https://www.citizenscount.org/candidate/kelly-ayotte"
+       }
+      },
+      {
+       "area": "Labor and economy",
+       "topic": "Repeal Dodd-Frank regulations",
+       "stance": "For",
+       "text": "Ayotte sponsored a bill to exempt small banks from some Dodd-Frank rules.",
+       "quote": "Ayotte is sponsoring a bill to fix that by exempting small banks from some Dodd-Frank regulations.",
+       "year": "2015",
+       "source": {
+        "label": "Candidate's Website, 2015",
+        "url": "https://www.citizenscount.org/candidate/kelly-ayotte"
+       }
+      },
+      {
+       "area": "Education",
+       "topic": "Student loan payments by income",
+       "stance": "Other",
+       "text": "Ayotte sponsored a bill letting borrowers refinance student loans privately and letting employers help repay them with pre-tax dollars.",
+       "quote": "Our legislation would give borrowers flexibility, allowing them to save money",
+       "year": "2015",
+       "source": {
+        "label": "Candidate's Website, 2015",
+        "url": "https://www.citizenscount.org/candidate/kelly-ayotte"
+       }
+      },
+      {
+       "area": "Labor and economy",
+       "topic": "Trans Pacific Partnership (TPP)",
+       "stance": "For",
+       "text": "Ayotte voted to fast-track the TPP trade deal.",
+       "quote": "",
+       "year": "2015",
+       "source": {
+        "label": "Other, 2015",
+        "url": "https://www.citizenscount.org/candidate/kelly-ayotte"
+       }
+      },
+      {
+       "area": "Federal issues",
+       "topic": "U.S. approach with Iran",
+       "stance": "Other",
+       "text": "Ayotte opposed the Obama administration's nuclear deal with Iran.",
+       "quote": "",
+       "year": "2015",
+       "source": {
+        "label": "Candidate's Website, 2015",
+        "url": "https://www.citizenscount.org/candidate/kelly-ayotte"
+       }
+      },
+      {
+       "area": "Guns",
+       "topic": "Expand federal background checks",
+       "stance": "Against",
+       "text": "Ayotte says the existing background check system should be fixed and enforced rather than expanded.",
+       "quote": "we shouldn't be expanding a flawed system",
+       "year": "2014",
+       "source": {
+        "label": "Candidate's Website, 2014",
+        "url": "https://www.citizenscount.org/candidate/kelly-ayotte"
+       }
+      },
+      {
+       "area": "Health care",
+       "topic": "Nationalized health care",
+       "stance": "For",
+       "text": "Ayotte supports interstate insurance sales, small business insurance pools, and expanded health savings accounts.",
+       "quote": "",
+       "year": "2014",
+       "source": {
+        "label": "Candidate's Website, 2014",
+        "url": "https://www.citizenscount.org/candidate/kelly-ayotte"
+       }
+      },
+      {
+       "area": "Immigration",
+       "topic": "Citizenship for illegal/undocumented immigrants",
+       "stance": "For",
+       "text": "Ayotte backs immigration reform that secures the border and creates a path for undocumented immigrants to earn citizenship.",
+       "quote": "creates a tough but fair means for those who are here illegally to earn citizenship",
+       "year": "2013",
+       "source": {
+        "label": "Candidate's Website, 2013",
+        "url": "https://www.citizenscount.org/candidate/kelly-ayotte"
+       }
+      },
+      {
+       "area": "Federal issues",
+       "topic": "NSA bulk data collection",
+       "stance": "For",
+       "text": "Ayotte noted that administrations with different philosophies have both supported keeping the program.",
+       "quote": "administrations from two very different philosophies have supported keeping this program in place",
+       "year": "2013",
+       "source": {
+        "label": "Other, 2013",
+        "url": "https://www.citizenscount.org/candidate/kelly-ayotte"
+       }
+      },
+      {
+       "area": "Education",
+       "topic": "Increase charter school funding",
+       "stance": "For",
+       "text": "Ayotte wants to reduce federal requirements and support school choice, charter schools, and home schooling.",
+       "quote": "detangle federal requirements",
+       "year": "2010",
+       "source": {
+        "label": "Project Vote Smart Survey, 2010",
+        "url": "https://www.citizenscount.org/candidate/kelly-ayotte"
+       }
+      },
+      {
+       "area": "Federal issues",
+       "topic": "Raise social security retirement age",
+       "stance": "For",
+       "text": "Ayotte is open to raising the Social Security retirement age for younger workers.",
+       "quote": "",
+       "year": "2010",
+       "source": {
+        "label": "Nashua Telegraph Voter Guide, 2010",
+        "url": "https://www.citizenscount.org/candidate/kelly-ayotte"
+       }
+      },
+      {
+       "area": "Cannabis",
+       "topic": "Federal marijuana enforcement",
+       "stance": "Other",
+       "text": "Ayotte has taken no position on federal enforcement, but as Attorney General opposed medical marijuana in a letter.",
+       "quote": "Marijuana is an addictive drug that poses significant health consequences to its users",
+       "year": "2009",
+       "source": {
+        "label": "Other, 2009",
+        "url": "https://www.citizenscount.org/candidate/kelly-ayotte"
+       }
+      },
+      {
+       "area": "Abortion",
+       "topic": "More abortion restrictions",
+       "stance": "For",
+       "text": "Ayotte says she is pro-life but would allow abortion in limited cases such as rape, incest, or medical emergency.",
+       "quote": "",
+       "year": "2009",
+       "source": {
+        "label": "Other, 2009",
         "url": "https://www.citizenscount.org/candidate/kelly-ayotte"
        }
       }
@@ -180,7 +711,89 @@
      "source": {
       "label": "Citizens Count candidate profile",
       "url": "https://www.citizenscount.org/candidate/kelly-ayotte"
-     }
+     },
+     "profileUrl": "https://www.citizenscount.org/candidate/kelly-ayotte",
+     "profileSource": "Citizens Count",
+     "experience": "Governor of NH (2025 - present); Senator, US Senate (2011 - 2016); NH Attorney General (2004 - 2009)",
+     "education": "BA, Penn State University, PA; JD, Villanova University School of Law, PA",
+     "noResponse": 4,
+     "votes": [
+      {
+       "bill": "S 524",
+       "year": "",
+       "vote": "Yes",
+       "summary": "Targets opioid addiction through several measures, including wider access to naloxone."
+      },
+      {
+       "bill": "S 2012",
+       "year": "2016",
+       "vote": "Yes",
+       "summary": "Energy bill covering efficiency, grid upgrades, pipeline rules on federal lands, hydropower and geothermal subsidies, and the Land and Water Conservation Fund."
+      },
+      {
+       "bill": "S Amdt 4751",
+       "year": "",
+       "vote": "Yes (voted to move forward)",
+       "summary": "Strengthens information sharing among states, courts, and the NICS background check system, and directs the Attorney General to study the causes of mass shootings."
+      },
+      {
+       "bill": "S Amdt 4749",
+       "year": "",
+       "vote": "Yes (voted to move forward)",
+       "summary": "Adds a 72-hour waiting period for people on a terrorist watch list who try to buy a gun, so federal officials can review the purchase."
+      },
+      {
+       "bill": "S Amdt 4720",
+       "year": "",
+       "vote": "Yes (voted to move forward)",
+       "summary": "Lets the Attorney General bar anyone on the terrorist watch list from buying a firearm."
+      },
+      {
+       "bill": "S Amdt 4787",
+       "year": "",
+       "vote": "Yes (voted to move forward)",
+       "summary": "Lets the FBI obtain company communication records through National Security Letters without court approval."
+      },
+      {
+       "bill": "S 3100",
+       "year": "",
+       "vote": "Yes (voted to move forward)",
+       "summary": "Withholds federal grants from cities that do not require, or that prohibit, inquiries into immigration status."
+      },
+      {
+       "bill": "S 2193",
+       "year": "",
+       "vote": "Yes (voted to move forward)",
+       "summary": "Increases the maximum prison term for an undocumented immigrant who re-enters the U.S. after deportation."
+      },
+      {
+       "bill": "S 2328",
+       "year": "",
+       "vote": "Yes",
+       "summary": "Restructures Puerto Rico's debt through a process similar to bankruptcy."
+      },
+      {
+       "bill": "HR 1295",
+       "year": "",
+       "vote": "Yes",
+       "summary": "Eases trade restrictions with parts of Africa, funds a U.S. worker assistance program, and renews Trade Adjustment Assistance."
+      },
+      {
+       "bill": "S J Res 24",
+       "year": "",
+       "vote": "No",
+       "summary": "Expresses disapproval of EPA rules requiring states to lower carbon dioxide emissions."
+      },
+      {
+       "bill": "HR 1314 (Amended)",
+       "year": "2015",
+       "vote": "Yes",
+       "summary": "Serves as the 2015 federal budget bill."
+      }
+     ],
+     "summary": "On taxes and spending, Ayotte is against a broad-based income tax, a sales tax, and a capital gains tax, and for cutting business taxes and for school district tax caps. On education, she is for Education Freedom Accounts and against Common Core. On abortion, she is against banning abortion in the first or second trimester and against repealing the 24-week limit, saying she supports current state law. She is for requiring local immigration enforcement and banning sanctuary cities, against stricter gun laws, against raising the minimum wage, and against legalizing marijuana in any of the three forms asked about. She did not answer 4 of 7 questions on the 2026 Citizens Count survey, including on reinstating the interest and dividends tax and proof of citizenship for new voters.",
+     "summaryFrom": "51 positions on Citizens Count, fetched Nov 3, 2026",
+     "positionsAsOf": "2026-11-03"
     },
     {
      "id": "cinde-warmington",
@@ -192,83 +805,614 @@
      "website": "https://www.cindewarmington.com",
      "positions": [
       {
-       "topic": "Housing",
-       "stance": "Campaign says housing costs are at record highs and headlines a plan on tackling New Hampshire's housing crisis.",
-       "quote": "Housing costs are at record highs",
+       "area": "Education",
+       "topic": "\"Education Freedom Account\" program",
+       "stance": "Against",
+       "text": "She says public school dollars should go to public schools and she would end the voucher program as governor.",
+       "quote": "All students in New Hampshire have the right to receive a quality public school education and we must protect that.",
+       "year": "2024",
        "source": {
-        "label": "Campaign website news page, 2026",
-        "url": "https://www.cindewarmington.com/news/what-planet-warmington-launches-first-tv-ad-highlighting-ayottes-failed-record-as-governor"
-       }
-      },
-      {
-       "topic": "Data centers",
-       "stance": "Calls for a statewide data center moratorium and criticizes a bill making it easier to build large data centers.",
-       "quote": null,
-       "source": {
-        "label": "Campaign website news page, 2026",
-        "url": "https://www.cindewarmington.com/news/what-planet-warmington-launches-first-tv-ad-highlighting-ayottes-failed-record-as-governor"
-       }
-      },
-      {
-       "topic": "Gas prices and tariffs",
-       "stance": "Announced support for a temporary gas tax suspension and demands the governor push for tariff refunds.",
-       "quote": null,
-       "source": {
-        "label": "Campaign website news page, 2026",
-        "url": "https://www.cindewarmington.com/news/what-planet-warmington-launches-first-tv-ad-highlighting-ayottes-failed-record-as-governor"
-       }
-      },
-      {
-       "topic": "Health care",
-       "stance": "Criticizes doubled prescription drug co-pays and higher Medicaid premiums under the current administration.",
-       "quote": null,
-       "source": {
-        "label": "Campaign website news page, 2026",
-        "url": "https://www.cindewarmington.com/news/what-planet-warmington-launches-first-tv-ad-highlighting-ayottes-failed-record-as-governor"
-       }
-      },
-      {
-       "topic": "Education Freedom Accounts",
-       "stance": "Against. Links private school vouchers to property tax increases.",
-       "quote": "All students in New Hampshire have the right to receive a quality public school education",
-       "source": {
-        "label": "Candidate website via Citizens Count, 2024; campaign news page, 2026",
+        "label": "Candidate's Website, 2024",
         "url": "https://www.citizenscount.org/candidate/cinde-warmington"
        }
       },
       {
-       "topic": "Abortion",
-       "stance": "For guaranteeing the right to abortion before 24 weeks and for repealing the ban after 24 weeks.",
-       "quote": "Everyone should have the freedom to make their own reproductive health care decisions",
+       "area": "Energy and climate",
+       "topic": "Climate change action",
+       "stance": "For",
+       "text": "She would adopt a statewide climate plan with set timelines, prioritizing clean energy and efficiency.",
+       "quote": "Climate change presents a real and imminent threat to our state",
+       "year": "2024",
        "source": {
-        "label": "Candidate website via Citizens Count, 2024",
+        "label": "Candidate's Website, 2024",
         "url": "https://www.citizenscount.org/candidate/cinde-warmington"
        }
       },
       {
-       "topic": "Guns",
-       "stance": "For stricter gun laws: universal background checks, gun-free school zones, extreme risk protection orders.",
-       "quote": null,
+       "area": "Energy and climate",
+       "topic": "Expand net metering opportunities",
+       "stance": "For",
+       "text": "She would create rules encouraging private renewable investment, including solar up to 5 MW where feasible.",
+       "quote": "Create a regulatory environment that promotes private investment in renewable energy",
+       "year": "2024",
        "source": {
-        "label": "Candidate website via Citizens Count, 2024",
+        "label": "Candidate's Website, 2024",
         "url": "https://www.citizenscount.org/candidate/cinde-warmington"
        }
       },
       {
-       "topic": "Minimum wage",
-       "stance": "For an increase; supports making the minimum wage a living wage.",
-       "quote": null,
+       "area": "Abortion",
+       "topic": "Guarantee right to abortion before 24 weeks",
+       "stance": "For",
+       "text": "She would repeal the state abortion ban and legally protect access to abortion care.",
+       "quote": "Cinde Warmington will repeal Governor Sununu’s dangerous abortion ban",
+       "year": "2024",
        "source": {
-        "label": "Candidate website via Citizens Count, 2024",
+        "label": "Candidate's Website, 2024",
         "url": "https://www.citizenscount.org/candidate/cinde-warmington"
        }
       },
       {
-       "topic": "Climate",
-       "stance": "For state action on climate change.",
-       "quote": "Climate change presents a real and imminent threat to our state and we must take bold actions",
+       "area": "Education",
+       "topic": "Majority of public school funding through local property taxes",
+       "stance": "Other",
+       "text": "She says taxpayer dollars should support public schools and she would end the voucher program.",
+       "quote": "Cinde Warmington believes that taxpayer dollars should go to public schools",
+       "year": "2024",
        "source": {
-        "label": "Candidate website via Citizens Count, 2024",
+        "label": "Candidate's Website, 2024",
+        "url": "https://www.citizenscount.org/candidate/cinde-warmington"
+       }
+      },
+      {
+       "area": "Labor and economy",
+       "topic": "Minimum wage increase",
+       "stance": "For",
+       "text": "She supports raising the minimum wage to a living wage and protecting workers' right to organize.",
+       "quote": "She supports making the minimum wage a living wage",
+       "year": "2024",
+       "source": {
+        "label": "Candidate's Website, 2024",
+        "url": "https://www.citizenscount.org/candidate/cinde-warmington"
+       }
+      },
+      {
+       "area": "Abortion",
+       "topic": "Repeal ban on abortion after 24 weeks",
+       "stance": "For",
+       "text": "She would repeal the abortion ban and enact legal protections for abortion care.",
+       "quote": "Cinde Warmington will repeal Governor Sununu’s dangerous abortion ban",
+       "year": "2024",
+       "source": {
+        "label": "Candidate's Website, 2024",
+        "url": "https://www.citizenscount.org/candidate/cinde-warmington"
+       }
+      },
+      {
+       "area": "Guns",
+       "topic": "Stricter gun laws",
+       "stance": "For",
+       "text": "She supports universal background checks, gun-free school zones, extreme risk protection orders, and removing weapons of war from streets.",
+       "quote": "She supports universal background checks, gun-free school zones, extreme risk protection orders",
+       "year": "2024",
+       "source": {
+        "label": "Candidate's Website, 2024",
+        "url": "https://www.citizenscount.org/candidate/cinde-warmington"
+       }
+      },
+      {
+       "area": "Abortion",
+       "topic": "Ban abortion during 1st trimester",
+       "stance": "Against",
+       "text": "She says abortion decisions are a fundamental right and she will advocate for affordable care access.",
+       "quote": "Freedom begins with a person being able to make decisions about their own bodies.",
+       "year": "2022",
+       "source": {
+        "label": "Citizens Count Issue Survey, 2022",
+        "url": "https://www.citizenscount.org/candidate/cinde-warmington"
+       }
+      },
+      {
+       "area": "Abortion",
+       "topic": "Ban abortion during 2nd trimester",
+       "stance": "Against",
+       "text": "She says abortion decisions are a fundamental right and she will advocate for affordable care access.",
+       "quote": "Freedom begins with a person being able to make decisions about their own bodies.",
+       "year": "2022",
+       "source": {
+        "label": "Citizens Count Issue Survey, 2022",
+        "url": "https://www.citizenscount.org/candidate/cinde-warmington"
+       }
+      },
+      {
+       "area": "Education",
+       "topic": "Ban on discussing sexual orientation, gender identity in K-3",
+       "stance": "Against",
+       "text": "She notes the issue is not before the Executive Council but supports age-appropriate discussion of these topics.",
+       "quote": "I support age-appropriate discussions around these topics.",
+       "year": "2022",
+       "source": {
+        "label": "Citizens Count Issue Survey, 2022",
+        "url": "https://www.citizenscount.org/candidate/cinde-warmington"
+       }
+      },
+      {
+       "area": "Education",
+       "topic": "Ban on teaching certain concepts related to race",
+       "stance": "Against",
+       "text": "She notes the issue is not before the Executive Council but strongly opposes censoring history instruction.",
+       "quote": "I strongly reject this effort to censor the teaching of history.",
+       "year": "2022",
+       "source": {
+        "label": "Citizens Count Issue Survey, 2022",
+        "url": "https://www.citizenscount.org/candidate/cinde-warmington"
+       }
+      },
+      {
+       "area": "Taxes and spending",
+       "topic": "Broad-based income tax",
+       "stance": "Against",
+       "text": "She notes the issue is not before the Executive Council.",
+       "quote": "This is not a matter that comes before the Executive Council.",
+       "year": "2022",
+       "source": {
+        "label": "Citizens Count Issue Survey, 2022",
+        "url": "https://www.citizenscount.org/candidate/cinde-warmington"
+       }
+      },
+      {
+       "area": "Taxes and spending",
+       "topic": "Broad-based sales tax",
+       "stance": "Against",
+       "text": "She notes the issue is not before the Executive Council.",
+       "quote": "This is not a matter that comes before the Executive Council.",
+       "year": "2022",
+       "source": {
+        "label": "Citizens Count Issue Survey, 2022",
+        "url": "https://www.citizenscount.org/candidate/cinde-warmington"
+       }
+      },
+      {
+       "area": "Education",
+       "topic": "Business tax credit for student loan repayment",
+       "stance": "For",
+       "text": "She notes the issue is not before the Executive Council.",
+       "quote": "This is not a matter that comes before the Executive Council.",
+       "year": "2022",
+       "source": {
+        "label": "Citizens Count Issue Survey, 2022",
+        "url": "https://www.citizenscount.org/candidate/cinde-warmington"
+       }
+      },
+      {
+       "area": "Taxes and spending",
+       "topic": "Business tax decrease",
+       "stance": "Against",
+       "text": "She notes the issue is not before the Executive Council.",
+       "quote": "This is not a matter that comes before the Executive Council.",
+       "year": "2022",
+       "source": {
+        "label": "Citizens Count Issue Survey, 2022",
+        "url": "https://www.citizenscount.org/candidate/cinde-warmington"
+       }
+      },
+      {
+       "area": "Elections and voting",
+       "topic": "Conditional, affidavit ballots for new voters",
+       "stance": "Against",
+       "text": "She notes the issue is not before the Executive Council but would back only judicial nominees who protect voting rights.",
+       "quote": "I would only support those who are committed to upholding the constitutional right to vote.",
+       "year": "2022",
+       "source": {
+        "label": "Citizens Count Issue Survey, 2022",
+        "url": "https://www.citizenscount.org/candidate/cinde-warmington"
+       }
+      },
+      {
+       "area": "Other",
+       "topic": "Contracts with faith-based organizations",
+       "stance": "For",
+       "text": "Her support depends on the contract, provided it meets Granite Staters' needs and respects church-state separation.",
+       "quote": "I support contracts that best suit the needs of Granite Staters",
+       "year": "2022",
+       "source": {
+        "label": "Citizens Count Issue Survey, 2022",
+        "url": "https://www.citizenscount.org/candidate/cinde-warmington"
+       }
+      },
+      {
+       "area": "Health care",
+       "topic": "Contracts with Planned Parenthood",
+       "stance": "For",
+       "text": "She supports Planned Parenthood as a provider of essential sexual and reproductive health care.",
+       "quote": "I have and will continue to support Planned Parenthood",
+       "year": "2022",
+       "source": {
+        "label": "Citizens Count Issue Survey, 2022",
+        "url": "https://www.citizenscount.org/candidate/cinde-warmington"
+       }
+      },
+      {
+       "area": "Taxes and spending",
+       "topic": "Electric vehicle fees",
+       "stance": "For",
+       "text": "She notes the issue is not before the Executive Council but says funding mechanisms must change as technology changes.",
+       "quote": "However, as technology changes, the funding mechanisms must necessarily follow.",
+       "year": "2022",
+       "source": {
+        "label": "Citizens Count Issue Survey, 2022",
+        "url": "https://www.citizenscount.org/candidate/cinde-warmington"
+       }
+      },
+      {
+       "area": "Housing",
+       "topic": "Encourage local zoning changes for housing development",
+       "stance": "For",
+       "text": "She notes the issue is not before the Executive Council but would ask nominees about their commitment to affordable housing.",
+       "quote": "I would make inquiry regarding the nominees commitment to affordable housing.",
+       "year": "2022",
+       "source": {
+        "label": "Citizens Count Issue Survey, 2022",
+        "url": "https://www.citizenscount.org/candidate/cinde-warmington"
+       }
+      },
+      {
+       "area": "Energy and climate",
+       "topic": "Extending renewable energy portfolio standard",
+       "stance": "For",
+       "text": "She notes the issue is not before the Executive Council but would ask energy nominees about their renewable energy commitment.",
+       "quote": "I would make inquiry regarding the nominee's commitment to renewable energy.",
+       "year": "2022",
+       "source": {
+        "label": "Citizens Count Issue Survey, 2022",
+        "url": "https://www.citizenscount.org/candidate/cinde-warmington"
+       }
+      },
+      {
+       "area": "Health care",
+       "topic": "Federal funding for COVID-19 vaccinations",
+       "stance": "For",
+       "text": "She supports public health efforts to combat COVID-19.",
+       "quote": "I have and will continue to support public health initiatives to combat the COVID-19 pandemic.",
+       "year": "2022",
+       "source": {
+        "label": "Citizens Count Issue Survey, 2022",
+        "url": "https://www.citizenscount.org/candidate/cinde-warmington"
+       }
+      },
+      {
+       "area": "Other",
+       "topic": "Importance of a judicial nominee's political beliefs",
+       "stance": "Other",
+       "text": "She says political beliefs matter only if they interfere with a nominee's ability to protect constitutional rights.",
+       "quote": "It depends on whether those political beliefs interfere with the nominees' ability",
+       "year": "2022",
+       "source": {
+        "label": "Citizens Count Issue Survey, 2022",
+        "url": "https://www.citizenscount.org/candidate/cinde-warmington"
+       }
+      },
+      {
+       "area": "Other",
+       "topic": "Importance of an executive branch nominee's political beliefs",
+       "stance": "Other",
+       "text": "She says political beliefs matter only if they interfere with a nominee's ability to protect constitutional rights.",
+       "quote": "It depends on whether those political beliefs interfere with the nominees' ability",
+       "year": "2022",
+       "source": {
+        "label": "Citizens Count Issue Survey, 2022",
+        "url": "https://www.citizenscount.org/candidate/cinde-warmington"
+       }
+      },
+      {
+       "area": "Elections and voting",
+       "topic": "Mail-in voting",
+       "stance": "For",
+       "text": "She notes the issue is not before the Executive Council but would back only judicial nominees who protect voting rights.",
+       "quote": "I would only support those who are committed to upholding the constitutional right to vote.",
+       "year": "2022",
+       "source": {
+        "label": "Citizens Count Issue Survey, 2022",
+        "url": "https://www.citizenscount.org/candidate/cinde-warmington"
+       }
+      },
+      {
+       "area": "Cannabis",
+       "topic": "Marijuana legalization with home-growing, no sales",
+       "stance": "For",
+       "text": "She notes the issue is not before the Executive Council but says cannabis should be legalized, regulated, and taxed.",
+       "quote": "cannabis should be legalized, regulated, and taxed",
+       "year": "2022",
+       "source": {
+        "label": "Citizens Count Issue Survey, 2022",
+        "url": "https://www.citizenscount.org/candidate/cinde-warmington"
+       }
+      },
+      {
+       "area": "Cannabis",
+       "topic": "Marijuana legalization with private sales",
+       "stance": "For",
+       "text": "She notes the issue is not before the Executive Council but says cannabis should be legalized, regulated, and taxed.",
+       "quote": "cannabis should be legalized, regulated, and taxed",
+       "year": "2022",
+       "source": {
+        "label": "Citizens Count Issue Survey, 2022",
+        "url": "https://www.citizenscount.org/candidate/cinde-warmington"
+       }
+      },
+      {
+       "area": "Cannabis",
+       "topic": "Marijuana legalization with state-run stores",
+       "stance": "For",
+       "text": "She notes the issue is not before the Executive Council but says cannabis should be legalized, regulated, and taxed.",
+       "quote": "cannabis should be legalized, regulated, and taxed",
+       "year": "2022",
+       "source": {
+        "label": "Citizens Count Issue Survey, 2022",
+        "url": "https://www.citizenscount.org/candidate/cinde-warmington"
+       }
+      },
+      {
+       "area": "Taxes and spending",
+       "topic": "No-bid state contracts",
+       "stance": "Against",
+       "text": "She generally opposes no-bid contracts but accepts that they can sometimes be the most fiscally responsible option.",
+       "quote": "Generally, I oppose no-bid state contracts",
+       "year": "2022",
+       "source": {
+        "label": "Citizens Count Issue Survey, 2022",
+        "url": "https://www.citizenscount.org/candidate/cinde-warmington"
+       }
+      },
+      {
+       "area": "Taxes and spending",
+       "topic": "Permanent increase to local revenue sharing",
+       "stance": "For",
+       "text": "She notes the issue is not before the Executive Council.",
+       "quote": "This is not a matter that comes before the Executive Council.",
+       "year": "2022",
+       "source": {
+        "label": "Citizens Count Issue Survey, 2022",
+        "url": "https://www.citizenscount.org/candidate/cinde-warmington"
+       }
+      },
+      {
+       "area": "Taxes and spending",
+       "topic": "Phasing out Interest and Dividends tax",
+       "stance": "Against",
+       "text": "She notes the issue is not before the Executive Council.",
+       "quote": "This is not a matter that comes before the Executive Council.",
+       "year": "2022",
+       "source": {
+        "label": "Citizens Count Issue Survey, 2022",
+        "url": "https://www.citizenscount.org/candidate/cinde-warmington"
+       }
+      },
+      {
+       "area": "Abortion",
+       "topic": "Abortion ban after 24 weeks",
+       "stance": "Against",
+       "text": "She would support only judicial nominees who protect constitutional rights and supports women's health care freedom.",
+       "quote": "I support a woman's freedom to make her own health care decisions.",
+       "year": "2020",
+       "source": {
+        "label": "Citizens Count Issue Survey, 2020",
+        "url": "https://www.citizenscount.org/candidate/cinde-warmington"
+       }
+      },
+      {
+       "area": "Taxes and spending",
+       "topic": "Capital gains tax",
+       "stance": "Other",
+       "text": "She says tax policy is not before the Executive Council.",
+       "quote": "Tax policy is not a matter before the Executive Council",
+       "year": "2020",
+       "source": {
+        "label": "Citizens Count Issue Survey, 2020",
+        "url": "https://www.citizenscount.org/candidate/cinde-warmington"
+       }
+      },
+      {
+       "area": "Taxes and spending",
+       "topic": "Cigarette tax increase",
+       "stance": "Other",
+       "text": "She says tax policy is not before the Executive Council.",
+       "quote": "Tax policy is not a matter before the Executive Council",
+       "year": "2020",
+       "source": {
+        "label": "Citizens Count Issue Survey, 2020",
+        "url": "https://www.citizenscount.org/candidate/cinde-warmington"
+       }
+      },
+      {
+       "area": "Other",
+       "topic": "Emergency power restrictions",
+       "stance": "For",
+       "text": "She says the governor should not spend unilaterally without Executive Council consent.",
+       "quote": "The Governor should be restricted from unilaterally spending without the advice and consent of the Council.",
+       "year": "2020",
+       "source": {
+        "label": "Citizens Count Issue Survey, 2020",
+        "url": "https://www.citizenscount.org/candidate/cinde-warmington"
+       }
+      },
+      {
+       "area": "Other",
+       "topic": "Higher dollar threshold for Executive Council review",
+       "stance": "Other",
+       "text": "She is undecided but would likely lean toward raising the threshold to $25,000.",
+       "quote": "I do not have strong feelings about this, but would likely lean in favor of an increase to $25,000.",
+       "year": "2020",
+       "source": {
+        "label": "Citizens Count Issue Survey, 2020",
+        "url": "https://www.citizenscount.org/candidate/cinde-warmington"
+       }
+      },
+      {
+       "area": "Other",
+       "topic": "Importance of a nominee's political beliefs",
+       "stance": "Other",
+       "text": "She says beliefs matter depending on whether they interfere with upholding constitutional rights.",
+       "quote": "It will depend on whether those political beliefs interfere with the nominees commitment",
+       "year": "2020",
+       "source": {
+        "label": "Citizens Count Issue Survey, 2020",
+        "url": "https://www.citizenscount.org/candidate/cinde-warmington"
+       }
+      },
+      {
+       "area": "Public safety and courts",
+       "topic": "Increased access to police misconduct reports",
+       "stance": "Other",
+       "text": "She notes the issue is not before the Executive Council but would ask law enforcement nominees about transparency.",
+       "quote": "I would ask nominees for law enforcement positions regarding their position",
+       "year": "2020",
+       "source": {
+        "label": "Citizens Count Issue Survey, 2020",
+        "url": "https://www.citizenscount.org/candidate/cinde-warmington"
+       }
+      },
+      {
+       "area": "Public safety and courts",
+       "topic": "MacDonald for chief justice",
+       "stance": "Against",
+       "text": "She would not vote to confirm Gordon MacDonald as chief justice.",
+       "quote": "No.",
+       "year": "2020",
+       "source": {
+        "label": "Citizens Count Issue Survey, 2020",
+        "url": "https://www.citizenscount.org/candidate/cinde-warmington"
+       }
+      },
+      {
+       "area": "Cannabis",
+       "topic": "Marijuana legalization",
+       "stance": "For",
+       "text": "She notes the issue is not before the Executive Council.",
+       "quote": "This is not a matter that comes before the Executive Council.",
+       "year": "2020",
+       "source": {
+        "label": "Citizens Count Issue Survey, 2020",
+        "url": "https://www.citizenscount.org/candidate/cinde-warmington"
+       }
+      },
+      {
+       "area": "Energy and climate",
+       "topic": "Net metering expansion",
+       "stance": "For",
+       "text": "She notes the issue is not directly before the Executive Council but would ask nominees about renewable energy commitments.",
+       "quote": "I would make inquiry of nominees to relevant positions about their commitment",
+       "year": "2020",
+       "source": {
+        "label": "Citizens Count Issue Survey, 2020",
+        "url": "https://www.citizenscount.org/candidate/cinde-warmington"
+       }
+      },
+      {
+       "area": "Taxes and spending",
+       "topic": "NH business subsidies and tax credits",
+       "stance": "Other",
+       "text": "She says tax policy is not before the Executive Council.",
+       "quote": "Tax policy is not a matter before the Executive Council",
+       "year": "2020",
+       "source": {
+        "label": "Citizens Count Issue Survey, 2020",
+        "url": "https://www.citizenscount.org/candidate/cinde-warmington"
+       }
+      },
+      {
+       "area": "Education",
+       "topic": "Per-pupil school funding increase",
+       "stance": "For",
+       "text": "She would confirm education officials who support public education and increased per-pupil funding.",
+       "quote": "I would seek to confirm a Commissioner of Education and Board of Education members",
+       "year": "2020",
+       "source": {
+        "label": "Citizens Count Issue Survey, 2020",
+        "url": "https://www.citizenscount.org/candidate/cinde-warmington"
+       }
+      },
+      {
+       "area": "Labor and economy",
+       "topic": "Private, opt-in family and medical leave",
+       "stance": "Other",
+       "text": "She notes the issue is not before the Executive Council but would check whether state contractors provide fair wages and benefits.",
+       "quote": "I will make inquiry into whether state contractors provide fair wages and benefits",
+       "year": "2020",
+       "source": {
+        "label": "Citizens Count Issue Survey, 2020",
+        "url": "https://www.citizenscount.org/candidate/cinde-warmington"
+       }
+      },
+      {
+       "area": "Energy and climate",
+       "topic": "Regional Greenhouse Gas Initiative",
+       "stance": "For",
+       "text": "She notes the issue is not directly before the Executive Council but would ask nominees about renewable energy commitments.",
+       "quote": "I would make inquiry of nominees to relevant positions about their commitment",
+       "year": "2020",
+       "source": {
+        "label": "Citizens Count Issue Survey, 2020",
+        "url": "https://www.citizenscount.org/candidate/cinde-warmington"
+       }
+      },
+      {
+       "area": "Taxes and spending",
+       "topic": "Road usage fee",
+       "stance": "Other",
+       "text": "She says tax policy is not before the Executive Council.",
+       "quote": "Tax policy is not a matter before the Executive Council",
+       "year": "2020",
+       "source": {
+        "label": "Citizens Count Issue Survey, 2020",
+        "url": "https://www.citizenscount.org/candidate/cinde-warmington"
+       }
+      },
+      {
+       "area": "Labor and economy",
+       "topic": "Statewide, mandatory family and medical leave",
+       "stance": "For",
+       "text": "She notes the issue is not directly before the Executive Council but would check whether state contractors provide fair wages and benefits.",
+       "quote": "I will make inquiry as to whether state contractors provide fair wages and benefits",
+       "year": "2020",
+       "source": {
+        "label": "Citizens Count Issue Survey, 2020",
+        "url": "https://www.citizenscount.org/candidate/cinde-warmington"
+       }
+      },
+      {
+       "area": "Education",
+       "topic": "Student debt repayment for certain industries",
+       "stance": "For",
+       "text": "She would generally favor such programs where they ensure essential services in underserved areas.",
+       "quote": "I would generally favor providing such programs",
+       "year": "2020",
+       "source": {
+        "label": "Citizens Count Issue Survey, 2020",
+        "url": "https://www.citizenscount.org/candidate/cinde-warmington"
+       }
+      },
+      {
+       "area": "Housing",
+       "topic": "Tax incentives for affordable housing",
+       "stance": "For",
+       "text": "She says tax policy is not before the Executive Council but would ask nominees about their affordable housing commitment.",
+       "quote": "I would make inquiry regarding the nominees commitment to affordable housing.",
+       "year": "2020",
+       "source": {
+        "label": "Citizens Count Issue Survey, 2020",
+        "url": "https://www.citizenscount.org/candidate/cinde-warmington"
+       }
+      },
+      {
+       "area": "Education",
+       "topic": "Tax revenue for private and home schooling",
+       "stance": "Against",
+       "text": "She opposes diverting public education funds away from public schools.",
+       "quote": "I oppose the diversion of public education funds away from public education.",
+       "year": "2020",
+       "source": {
+        "label": "Citizens Count Issue Survey, 2020",
         "url": "https://www.citizenscount.org/candidate/cinde-warmington"
        }
       }
@@ -304,7 +1448,15 @@
      "source": {
       "label": "Citizens Count candidate profile",
       "url": "https://www.citizenscount.org/candidate/cinde-warmington"
-     }
+     },
+     "profileUrl": "https://www.citizenscount.org/candidate/cinde-warmington",
+     "profileSource": "Citizens Count",
+     "experience": "Executive Councilor, District 2 (2020 - 2024); about 40 years in health care, including laboratory medicine, hospital management, and health care regulatory law",
+     "education": "B.S. in Medical Technology; MBA; J.D., UNH School of Law",
+     "noResponse": 10,
+     "summary": "Warmington did not answer any of the 7 questions on the 2026 Citizens Count survey; her recorded positions come from her 2024 campaign website and her 2022 and 2020 Executive Council surveys. On education, she is against the Education Freedom Account program and against using tax revenue for private or home schooling, and for increased per-pupil school funding. On abortion, she is against first and second trimester bans and for guaranteeing access before 24 weeks and repealing the ban after 24 weeks. On energy and climate, she is for a state climate action plan, expanded net metering, and the Regional Greenhouse Gas Initiative. She is for stricter gun laws, a minimum wage increase, mandatory paid family and medical leave, and marijuana legalization, and against a broad-based income tax, a sales tax, and a business tax decrease, noting on many tax questions that the matter does not come before the Executive Council.",
+     "summaryFrom": "51 positions on Citizens Count, fetched Nov 3, 2026",
+     "positionsAsOf": "2026-11-03"
     },
     {
      "id": "stephen-villee",
@@ -316,74 +1468,350 @@
      "website": "https://villee4nh.com/",
      "positions": [
       {
-       "topic": "Taxes",
-       "stance": "Against a broad-based income tax and against reinstating the interest and dividends tax. Would lower business taxes only with a matching cut in state spending.",
-       "quote": "I would love to lower business taxes, but there would have to be a corresponding decrease in state expenditures.",
+       "area": "Education",
+       "topic": "\"Education Freedom Account\" program",
+       "stance": "Other",
+       "text": "Undecided; in the long term he wants to reduce or eliminate both public school funding and Education Freedom Accounts, but says that must wait for more libertarians in NH.",
+       "quote": "In the long term, I want to reduce or eliminate both public school funding and Education Freedom Accounts.",
+       "year": "2026",
        "source": {
-        "label": "Citizens Count survey, 2026",
+        "label": "Citizens Count Issue Survey, 2026",
         "url": "https://www.citizenscount.org/candidate/stephen-villee"
        }
       },
       {
-       "topic": "Housing",
-       "stance": "For the state doing more to encourage municipalities to remove zoning barriers to housing.",
-       "quote": null,
+       "area": "Other",
+       "topic": "Allow segregation based on biological sex",
+       "stance": "For",
+       "text": "He supports allowing segregation based on biological sex in some settings.",
+       "quote": "",
+       "year": "2026",
        "source": {
-        "label": "Citizens Count survey, 2026",
+        "label": "Citizens Count Issue Survey, 2026",
         "url": "https://www.citizenscount.org/candidate/stephen-villee"
        }
       },
       {
-       "topic": "Energy",
-       "stance": "For encouraging nuclear development including small modular reactors.",
-       "quote": null,
+       "area": "Abortion",
+       "topic": "Ban abortion during 1st trimester",
+       "stance": "Other",
+       "text": "Undecided; he calls abortion divisive, wants any ban to include a rape exception, and is otherwise inclined to stay neutral.",
+       "quote": "I want any abortion ban to include an exception for rape.",
+       "year": "2026",
        "source": {
-        "label": "Citizens Count survey, 2026",
+        "label": "Citizens Count Issue Survey, 2026",
         "url": "https://www.citizenscount.org/candidate/stephen-villee"
        }
       },
       {
-       "topic": "Marijuana",
-       "stance": "For legalization under all three models surveyed (home growing, private sales, state-run stores).",
-       "quote": null,
+       "area": "Abortion",
+       "topic": "Ban abortion during 2nd trimester",
+       "stance": "Other",
+       "text": "Undecided; he gives the same position as on a first trimester ban, wanting a rape exception and otherwise staying neutral.",
+       "quote": "I want any abortion ban to include an exception for rape.",
+       "year": "2026",
        "source": {
-        "label": "Citizens Count survey, 2026",
+        "label": "Citizens Count Issue Survey, 2026",
         "url": "https://www.citizenscount.org/candidate/stephen-villee"
        }
       },
       {
-       "topic": "Abortion",
-       "stance": "Undecided on the survey's abortion questions; wants any ban to include an exception for rape.",
-       "quote": "Abortion is a very divisive issue, even among libertarians. I want any abortion ban to include an exception for rape",
+       "area": "Taxes and spending",
+       "topic": "Broad-based income tax",
+       "stance": "Against",
+       "text": "He opposes a broad-based income tax.",
+       "quote": "",
+       "year": "2026",
        "source": {
-        "label": "Citizens Count survey, 2026",
+        "label": "Citizens Count Issue Survey, 2026",
         "url": "https://www.citizenscount.org/candidate/stephen-villee"
        }
       },
       {
-       "topic": "Elections",
-       "stance": "For requiring proof of citizenship for newly registered voters.",
-       "quote": null,
+       "area": "Taxes and spending",
+       "topic": "Business tax decrease",
+       "stance": "Other",
+       "text": "Undecided; he would like lower business taxes, but only with a matching cut in state spending.",
+       "quote": "I would love to lower business taxes",
+       "year": "2026",
        "source": {
-        "label": "Citizens Count survey, 2026",
+        "label": "Citizens Count Issue Survey, 2026",
         "url": "https://www.citizenscount.org/candidate/stephen-villee"
        }
       },
       {
-       "topic": "Guns",
-       "stance": "Against stricter gun laws.",
-       "quote": null,
+       "area": "Housing",
+       "topic": "Encourage local zoning changes for housing development",
+       "stance": "For",
+       "text": "He supports encouraging local zoning changes for housing development.",
+       "quote": "",
+       "year": "2026",
        "source": {
-        "label": "Citizens Count survey, 2026",
+        "label": "Citizens Count Issue Survey, 2026",
         "url": "https://www.citizenscount.org/candidate/stephen-villee"
        }
       },
       {
-       "topic": "Public schools",
-       "stance": "Says in the long term he wants to reduce or eliminate public school funding, but that will have to wait.",
-       "quote": "In the long term, I want to reduce or eliminate public school funding. But that will have to wait until more libertarians move to NH.",
+       "area": "Energy and climate",
+       "topic": "Encourage nuclear development",
+       "stance": "For",
+       "text": "He supports encouraging nuclear development.",
+       "quote": "",
+       "year": "2026",
        "source": {
-        "label": "Citizens Count survey, 2026",
+        "label": "Citizens Count Issue Survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/stephen-villee"
+       }
+      },
+      {
+       "area": "Energy and climate",
+       "topic": "Expand net metering opportunities",
+       "stance": "Other",
+       "text": "Undecided on expanding net metering opportunities.",
+       "quote": "",
+       "year": "2026",
+       "source": {
+        "label": "Citizens Count Issue Survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/stephen-villee"
+       }
+      },
+      {
+       "area": "Taxes and spending",
+       "topic": "Fund the Office of the Child Advocate",
+       "stance": "Other",
+       "text": "Undecided; he would normally oppose restoring funding, but since the budget is about $2 million over two years, he is inclined to stay neutral.",
+       "quote": "As a Libertarian, normally I would be against restoring the funding.",
+       "year": "2026",
+       "source": {
+        "label": "Citizens Count Issue Survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/stephen-villee"
+       }
+      },
+      {
+       "area": "Abortion",
+       "topic": "Guarantee right to abortion before 24 weeks",
+       "stance": "Other",
+       "text": "Undecided; he gives the same position as on abortion bans, wanting a rape exception in any ban and otherwise staying neutral.",
+       "quote": "I want any abortion ban to include an exception for rape.",
+       "year": "2026",
+       "source": {
+        "label": "Citizens Count Issue Survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/stephen-villee"
+       }
+      },
+      {
+       "area": "Taxes and spending",
+       "topic": "Interest and Dividends tax",
+       "stance": "Against",
+       "text": "He opposes reinstating the interest and dividends tax.",
+       "quote": "",
+       "year": "2026",
+       "source": {
+        "label": "Citizens Count Issue Survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/stephen-villee"
+       }
+      },
+      {
+       "area": "Education",
+       "topic": "Majority of public school funding through local property taxes",
+       "stance": "Other",
+       "text": "Undecided; in the long term he wants to reduce or eliminate public school funding, but only after more libertarians move to NH.",
+       "quote": "In the long term, I want to reduce or eliminate public school funding.",
+       "year": "2026",
+       "source": {
+        "label": "Citizens Count Issue Survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/stephen-villee"
+       }
+      },
+      {
+       "area": "Cannabis",
+       "topic": "Marijuana legalization with home-growing, no sales",
+       "stance": "For",
+       "text": "He supports marijuana legalization with home-growing and no sales.",
+       "quote": "",
+       "year": "2026",
+       "source": {
+        "label": "Citizens Count Issue Survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/stephen-villee"
+       }
+      },
+      {
+       "area": "Cannabis",
+       "topic": "Marijuana legalization with private sales",
+       "stance": "For",
+       "text": "He supports marijuana legalization with private sales.",
+       "quote": "",
+       "year": "2026",
+       "source": {
+        "label": "Citizens Count Issue Survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/stephen-villee"
+       }
+      },
+      {
+       "area": "Cannabis",
+       "topic": "Marijuana legalization with state-run stores",
+       "stance": "For",
+       "text": "He supports marijuana legalization with state-run stores.",
+       "quote": "",
+       "year": "2026",
+       "source": {
+        "label": "Citizens Count Issue Survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/stephen-villee"
+       }
+      },
+      {
+       "area": "Elections and voting",
+       "topic": "Proof of citizenship for newly registered voters",
+       "stance": "For",
+       "text": "He supports requiring proof of citizenship for newly registered voters.",
+       "quote": "",
+       "year": "2026",
+       "source": {
+        "label": "Citizens Count Issue Survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/stephen-villee"
+       }
+      },
+      {
+       "area": "Education",
+       "topic": "Public school open enrollment with limits",
+       "stance": "Other",
+       "text": "Undecided; he gives the same long-term view of wanting to reduce or eliminate public school funding.",
+       "quote": "In the long term, I want to reduce or eliminate public school funding.",
+       "year": "2026",
+       "source": {
+        "label": "Citizens Count Issue Survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/stephen-villee"
+       }
+      },
+      {
+       "area": "Abortion",
+       "topic": "Repeal ban on abortion after 24 weeks",
+       "stance": "Other",
+       "text": "Undecided; he gives the same position as on abortion bans, wanting a rape exception in any ban and otherwise staying neutral.",
+       "quote": "I want any abortion ban to include an exception for rape.",
+       "year": "2026",
+       "source": {
+        "label": "Citizens Count Issue Survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/stephen-villee"
+       }
+      },
+      {
+       "area": "Taxes and spending",
+       "topic": "School district tax cap mandate",
+       "stance": "Other",
+       "text": "Undecided; he gives the same long-term view of wanting to reduce or eliminate public school funding.",
+       "quote": "In the long term, I want to reduce or eliminate public school funding.",
+       "year": "2026",
+       "source": {
+        "label": "Citizens Count Issue Survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/stephen-villee"
+       }
+      },
+      {
+       "area": "Guns",
+       "topic": "Stricter gun laws",
+       "stance": "Against",
+       "text": "He opposes stricter gun laws.",
+       "quote": "",
+       "year": "2026",
+       "source": {
+        "label": "Citizens Count Issue Survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/stephen-villee"
+       }
+      },
+      {
+       "area": "Taxes and spending",
+       "topic": "Broad-based sales tax",
+       "stance": "Against",
+       "text": "He opposes a broad-based sales tax.",
+       "quote": "",
+       "year": "2024",
+       "source": {
+        "label": "Citizens Count Issue Survey, 2024",
+        "url": "https://www.citizenscount.org/candidate/stephen-villee"
+       }
+      },
+      {
+       "area": "Taxes and spending",
+       "topic": "Capital gains tax",
+       "stance": "Against",
+       "text": "He opposes a capital gains tax.",
+       "quote": "",
+       "year": "2024",
+       "source": {
+        "label": "Citizens Count Issue Survey, 2024",
+        "url": "https://www.citizenscount.org/candidate/stephen-villee"
+       }
+      },
+      {
+       "area": "Energy and climate",
+       "topic": "Climate change action",
+       "stance": "Against",
+       "text": "He opposes more state government action on climate change.",
+       "quote": "",
+       "year": "2024",
+       "source": {
+        "label": "Citizens Count Issue Survey, 2024",
+        "url": "https://www.citizenscount.org/candidate/stephen-villee"
+       }
+      },
+      {
+       "area": "Elections and voting",
+       "topic": "Conditional, affidavit ballots for new voters",
+       "stance": "Against",
+       "text": "He says each voter should be able to show valid ID on Election Day and cites the free voter identification photo ID card under RSA 260:21.",
+       "quote": "I think each voter should be able to produce a valid ID on Election Day.",
+       "year": "2024",
+       "source": {
+        "label": "Citizens Count Issue Survey, 2024",
+        "url": "https://www.citizenscount.org/candidate/stephen-villee"
+       }
+      },
+      {
+       "area": "Labor and economy",
+       "topic": "Increase funding for child care providers",
+       "stance": "Against",
+       "text": "He opposes increasing state funding for child care providers.",
+       "quote": "",
+       "year": "2024",
+       "source": {
+        "label": "Citizens Count Issue Survey, 2024",
+        "url": "https://www.citizenscount.org/candidate/stephen-villee"
+       }
+      },
+      {
+       "area": "Labor and economy",
+       "topic": "Minimum wage increase",
+       "stance": "Against",
+       "text": "He opposes a minimum wage increase.",
+       "quote": "",
+       "year": "2024",
+       "source": {
+        "label": "Citizens Count Issue Survey, 2024",
+        "url": "https://www.citizenscount.org/candidate/stephen-villee"
+       }
+      },
+      {
+       "area": "Abortion",
+       "topic": "Protection for interstate travel related to gender, abortion",
+       "stance": "Other",
+       "text": "Undecided on legal protections for interstate travel related to gender or abortion care.",
+       "quote": "",
+       "year": "2024",
+       "source": {
+        "label": "Citizens Count Issue Survey, 2024",
+        "url": "https://www.citizenscount.org/candidate/stephen-villee"
+       }
+      },
+      {
+       "area": "Immigration",
+       "topic": "Require local immigration enforcement",
+       "stance": "Against",
+       "text": "He opposes requiring local cooperation with federal immigration enforcement.",
+       "quote": "",
+       "year": "2024",
+       "source": {
+        "label": "Citizens Count Issue Survey, 2024",
         "url": "https://www.citizenscount.org/candidate/stephen-villee"
        }
       }
@@ -408,7 +1836,15 @@
      },
      "party_note": "Citizens Count's Conway, Bartlett, Jackson and Madison ballot pages list him as Independent/Other; other Agorri towns list him as Libertarian.",
      "needs_review": true,
-     "review_note": "Confirm the party label printed on the valley ballots."
+     "review_note": "Confirm the party label printed on the valley ballots.",
+     "profileUrl": "https://www.citizenscount.org/candidate/stephen-villee",
+     "profileSource": "Citizens Count",
+     "experience": "Software developer",
+     "education": "BA Mathematics, Harvard University",
+     "noResponse": 0,
+     "summary": "Villee answered all 21 questions on the 2026 Citizens Count survey, marking 10 of them Undecided, plus 8 questions on the 2024 survey. On taxes, he is against a broad-based income tax, a sales tax, a capital gains tax, and reinstating the interest and dividends tax, and undecided on cutting business taxes unless spending is cut to match. On education and abortion he is undecided on most questions, saying he wants any abortion ban to include an exception for rape. He is for local zoning changes for housing, nuclear development, proof of citizenship for new voters, and marijuana legalization in all three forms asked about. He is against stricter gun laws, a minimum wage increase, more child care funding, state climate action, conditional affidavit ballots, and requiring local immigration enforcement.",
+     "summaryFrom": "29 positions on Citizens Count, fetched Nov 3, 2026",
+     "positionsAsOf": "2026-11-03"
     }
    ],
    "source": {
@@ -436,66 +1872,747 @@
      "website": "https://chrispappas.org/",
      "positions": [
       {
-       "topic": "Health care costs",
-       "stance": "Restoring enhanced ACA premium tax credits, capping insulin at $35 and letting Medicare negotiate drug prices.",
-       "quote": null,
+       "area": "Immigration",
+       "topic": "Abolish I.C.E.",
+       "stance": "Against",
+       "text": "Pappas supports border security but opposes the administration's ICE enforcement overreach and calls for oversight, not abolition.",
+       "quote": "We can have a secure border, and we must have a secure border",
+       "year": "2026",
        "source": {
-        "label": "Ballotpedia, 2026",
-        "url": "https://ballotpedia.org/United_States_Senate_election_in_New_Hampshire,_2026"
+        "label": "Other, 2026",
+        "url": "https://www.citizenscount.org/candidate/christopher-pappas"
        }
       },
       {
-       "topic": "Tariffs",
-       "stance": "For decreasing tariffs on imports; calls for getting rid of what he terms reckless tariffs.",
+       "area": "Elections and voting",
+       "topic": "Amendment to limit outside funding of campaigns",
+       "stance": "Other",
+       "text": "Pappas marks 16 years since Citizens United and says he is working to curb dark money and corporate influence.",
+       "quote": "I'm fighting to rein in dark money because power belongs in the hands of the American people.",
+       "year": "2026",
+       "source": {
+        "label": "Candidate's Website, 2026",
+        "url": "https://www.citizenscount.org/candidate/christopher-pappas"
+       }
+      },
+      {
+       "area": "Federal issues",
+       "topic": "Capture of Maduro in Venezuela",
+       "stance": "Against",
+       "text": "Pappas credits the service members involved but says acting without congressional approval sets a dangerous precedent.",
+       "quote": "a military operation of this kind done without Congressional approval sets a dangerous precedent",
+       "year": "2026",
+       "source": {
+        "label": "Other, 2026",
+        "url": "https://www.citizenscount.org/candidate/christopher-pappas"
+       }
+      },
+      {
+       "area": "Labor and economy",
+       "topic": "Decrease tariffs on imports",
+       "stance": "For",
+       "text": "Pappas calls the tariffs reckless and says they raise household costs, so he wants them eliminated.",
        "quote": "getting rid of these reckless tariffs",
+       "year": "2026",
        "source": {
-        "label": "C-SPAN/AARP debate via Citizens Count, 2026",
-        "url": "https://www.citizenscount.org/candidate/christopher-pappas/running/2026-primary-us-senate"
+        "label": "Other, 2026",
+        "url": "https://www.citizenscount.org/candidate/christopher-pappas"
        }
       },
       {
-       "topic": "Housing",
-       "stance": "For limiting private equity purchases of homes; cites bipartisan legislation to stop Wall Street from buying single-family homes.",
-       "quote": null,
+       "area": "Housing",
+       "topic": "Limit private equity purchase of homes",
+       "stance": "For",
+       "text": "Pappas backs bipartisan housing legislation to keep Wall Street from buying single-family homes and to expand affordable supply.",
+       "quote": "stop Wall Street from buying up single-family homes and driving up costs",
+       "year": "2026",
        "source": {
-        "label": "Candidate website via Citizens Count, 2026",
-        "url": "https://www.citizenscount.org/candidate/christopher-pappas/running/2026-primary-us-senate"
+        "label": "Candidate's Website, 2026",
+        "url": "https://www.citizenscount.org/candidate/christopher-pappas"
        }
       },
       {
-       "topic": "Corruption and money in politics",
-       "stance": "Refuses corporate PAC money and says he is fighting to ban stock trading by members of Congress.",
-       "quote": "no family has to choose between buying groceries and paying for a prescription",
+       "area": "Elections and voting",
+       "topic": "Proof of citizenship to vote",
+       "stance": "Against",
+       "text": "Pappas opposed the SAVE Act, arguing noncitizen voting is already illegal and the bill would burden eligible voters.",
+       "quote": "It is already illegal to vote in our elections if you are not a citizen of the United States",
+       "year": "2026",
        "source": {
-        "label": "Campaign press release, June 2026",
-        "url": "https://chrispappas.org/2026/06/serving-you-has-always-been-my-number-one-priority-new-tv-and-digital-ads-highlight-pappass-fight-to-lower-costs-end-corruption/"
+        "label": "Candidate's Website, 2026",
+        "url": "https://www.citizenscount.org/candidate/christopher-pappas"
        }
       },
       {
-       "topic": "Elections",
-       "stance": "Against requiring proof of citizenship to vote; voted no on the SAVE Act.",
-       "quote": "I voted no on this legislation today because it would force unnecessary federal changes to state voter registration",
+       "area": "Federal issues",
+       "topic": "War in Iran",
+       "stance": "Against",
+       "text": "Pappas voted to reassert congressional war powers, saying the president acted on Iran without consulting Congress.",
+       "quote": "President Trump unilaterally launched military operations in Iran without coming before Congress",
+       "year": "2026",
        "source": {
-        "label": "Candidate website via Citizens Count, 2026",
-        "url": "https://www.citizenscount.org/candidate/christopher-pappas/running/2026-primary-us-senate"
+        "label": "Candidate's Website, 2026",
+        "url": "https://www.citizenscount.org/candidate/christopher-pappas"
        }
       },
       {
-       "topic": "Iran",
-       "stance": "Against the war in Iran; voted to reassert Congress's war authority.",
-       "quote": "Today, I voted to reassert Congress's authority to prevent another forever war without a clear endgame",
+       "area": "Taxes and spending",
+       "topic": "Budget cuts to match new spending",
+       "stance": "Other",
+       "text": "Pappas supports a bipartisan commission to cut the deficit while protecting Social Security and Medicare.",
+       "quote": "creates a bipartisan commission that identifies ideas that can help us drastically reduce the deficit",
+       "year": "2024",
        "source": {
-        "label": "Candidate website via Citizens Count, 2026",
-        "url": "https://www.citizenscount.org/candidate/christopher-pappas/running/2026-primary-us-senate"
+        "label": "WMUR, 2024",
+        "url": "https://www.citizenscount.org/candidate/christopher-pappas"
        }
       },
       {
-       "topic": "Immigration enforcement",
-       "stance": "Against abolishing ICE; says he will hold the line against abuses.",
-       "quote": "I'll continue to hold the line against the abuses that we've seen",
+       "area": "Other",
+       "topic": "Exclude transgender women from sports",
+       "stance": "Against",
+       "text": "Pappas strongly opposes the bill and says all students deserve full participation in school, including sports.",
+       "quote": "I strongly oppose this legislation",
+       "year": "2024",
        "source": {
-        "label": "Southern NH Chamber debate via Citizens Count, 2026",
-        "url": "https://www.citizenscount.org/candidate/christopher-pappas/running/2026-primary-us-senate"
+        "label": "Candidate's Website, 2024",
+        "url": "https://www.citizenscount.org/candidate/christopher-pappas"
+       }
+      },
+      {
+       "area": "Abortion",
+       "topic": "Federal abortion ban",
+       "stance": "Against",
+       "text": "Pappas wants Roe restored in a way that meets people's reproductive health care needs, and opposes a federal ban.",
+       "quote": "I support restoring Roe in a way that will support people's reproductive healthcare needs",
+       "year": "2024",
+       "source": {
+        "label": "WMUR, 2024",
+        "url": "https://www.citizenscount.org/candidate/christopher-pappas"
+       }
+      },
+      {
+       "area": "Abortion",
+       "topic": "Federal right to abortion before 24 weeks",
+       "stance": "For",
+       "text": "Pappas says women should make their own decisions about their bodies and families, and he vows to protect reproductive freedom.",
+       "quote": "Every woman deserves the right to make her own decisions about her body, her family, and her future.",
+       "year": "2024",
+       "source": {
+        "label": "WMUR, 2024",
+        "url": "https://www.citizenscount.org/candidate/christopher-pappas"
+       }
+      },
+      {
+       "area": "Federal issues",
+       "topic": "Increase military aid to Taiwan",
+       "stance": "For",
+       "text": "Pappas introduced legislation to prioritize Taiwan's resilience and speed delivery of defensive resources.",
+       "quote": "the United States must reaffirm our support for and long-term cooperation with Taiwan,",
+       "year": "2024",
+       "source": {
+        "label": "Candidate's Website, 2024",
+        "url": "https://www.citizenscount.org/candidate/christopher-pappas"
+       }
+      },
+      {
+       "area": "Federal issues",
+       "topic": "Limit aid to Israel",
+       "stance": "Against",
+       "text": "Pappas opposed a partisan bill he says does nothing for Israel while reaffirming bipartisan security commitments.",
+       "quote": "I will never back down from our bipartisan security commitments to Israel.",
+       "year": "2024",
+       "source": {
+        "label": "Candidate's Website, 2024",
+        "url": "https://www.citizenscount.org/candidate/christopher-pappas"
+       }
+      },
+      {
+       "area": "Taxes and spending",
+       "topic": "Raise income cap for social security tax",
+       "stance": "For",
+       "text": "Pappas argues people earning over $1 million should pay more into Social Security so the system can be shored up.",
+       "quote": "Right now we have a system where someone making a million dollars pays on a fraction of their income",
+       "year": "2024",
+       "source": {
+        "label": "WMUR, 2024",
+        "url": "https://www.citizenscount.org/candidate/christopher-pappas"
+       }
+      },
+      {
+       "area": "Taxes and spending",
+       "topic": "Raise taxes to reduce budget deficit",
+       "stance": "Other",
+       "text": "Pappas opposes tax increases on those earning under $400,000 and supports bipartisan tax cuts for working families and small businesses.",
+       "quote": "fighting for bipartisan tax solutions to lower costs for working people",
+       "year": "2024",
+       "source": {
+        "label": "WMUR, 2024",
+        "url": "https://www.citizenscount.org/candidate/christopher-pappas"
+       }
+      },
+      {
+       "area": "Elections and voting",
+       "topic": "Add U.S. term limits",
+       "stance": "Against",
+       "text": "Pappas opposes term limits, arguing biennial elections already give voters strong control.",
+       "quote": "an election is the best term limit you can ask for.",
+       "year": "2022",
+       "source": {
+        "label": "WMUR, 2022",
+        "url": "https://www.citizenscount.org/candidate/christopher-pappas"
+       }
+      },
+      {
+       "area": "Education",
+       "topic": "Ban federal funds for \"divisive concepts\" in schools",
+       "stance": "Against",
+       "text": "Pappas says school decisions belong with local districts, parents, and educators, and he criticizes efforts to shift money away from public schools.",
+       "quote": "decision making is best done at the local level with parents and educators and school professionals",
+       "year": "2022",
+       "source": {
+        "label": "Other, 2022",
+        "url": "https://www.citizenscount.org/candidate/christopher-pappas"
+       }
+      },
+      {
+       "area": "Labor and economy",
+       "topic": "Cap prices increases by large businesses",
+       "stance": "For",
+       "text": "Pappas backs anti-price-gouging legislation and a gas tax holiday to lower costs for families and small businesses.",
+       "quote": "We have to put an end to this corporate profiteering and give families relief.",
+       "year": "2022",
+       "source": {
+        "label": "Candidate's Website, 2022",
+        "url": "https://www.citizenscount.org/candidate/christopher-pappas"
+       }
+      },
+      {
+       "area": "Public safety and courts",
+       "topic": "End qualified immunity",
+       "stance": "For",
+       "text": "Pappas backed the George Floyd bill, saying it would eliminate qualified immunity for police officers.",
+       "quote": "",
+       "year": "2022",
+       "source": {
+        "label": "WMUR, 2022",
+        "url": "https://www.citizenscount.org/candidate/christopher-pappas"
+       }
+      },
+      {
+       "area": "Taxes and spending",
+       "topic": "Expanded child tax credit",
+       "stance": "For",
+       "text": "Pappas supports efforts to extend the enhanced child tax credit after the program ended.",
+       "quote": "",
+       "year": "2022",
+       "source": {
+        "label": "WMUR, 2022",
+        "url": "https://www.citizenscount.org/candidate/christopher-pappas"
+       }
+      },
+      {
+       "area": "Energy and climate",
+       "topic": "Increase oil and natural gas leases on public land",
+       "stance": "Other",
+       "text": "Pappas says oil companies hold unused leases and should increase production instead of keeping prices high.",
+       "quote": "we need the private sector to step up to the plate and sacrifice some of their profits and stock buybacks",
+       "year": "2022",
+       "source": {
+        "label": "Other, 2022",
+        "url": "https://www.citizenscount.org/candidate/christopher-pappas"
+       }
+      },
+      {
+       "area": "Guns",
+       "topic": "Limit firearms under age 21",
+       "stance": "For",
+       "text": "Pappas supported H.R. 7910, which raises the purchase age for semi-automatic weapons to 21 and restricts magazines and trafficking.",
+       "quote": "We are not powerless to improve public safety and stop gun violence.",
+       "year": "2022",
+       "source": {
+        "label": "Candidate's Website, 2022",
+        "url": "https://www.citizenscount.org/candidate/christopher-pappas"
+       }
+      },
+      {
+       "area": "Taxes and spending",
+       "topic": "Lower federal tax rate for corporations",
+       "stance": "Against",
+       "text": "Pappas supports a minimum tax on the largest corporations instead of lower rates, arguing they exploit loopholes.",
+       "quote": "these corporations have profited through tax loopholes and avoidance of paying zero taxes",
+       "year": "2022",
+       "source": {
+        "label": "Other, 2022",
+        "url": "https://www.citizenscount.org/candidate/christopher-pappas"
+       }
+      },
+      {
+       "area": "Federal issues",
+       "topic": "Military aid to Ukraine",
+       "stance": "For",
+       "text": "Pappas urged rapid delivery of weapons and military aid so Ukraine can defend its sovereignty.",
+       "quote": "I have continuously said that we should be taking every step possible to support Ukraine and punish Putin",
+       "year": "2022",
+       "source": {
+        "label": "Candidate's Website, 2022",
+        "url": "https://www.citizenscount.org/candidate/christopher-pappas"
+       }
+      },
+      {
+       "area": "Elections and voting",
+       "topic": "Require voter ID",
+       "stance": "Other",
+       "text": "Pappas says New Hampshire's existing ID law works well and that the state should protect confidence in its elections.",
+       "quote": "We have an ID Law here in New Hampshire and it works well",
+       "year": "2022",
+       "source": {
+        "label": "WMUR, 2022",
+        "url": "https://www.citizenscount.org/candidate/christopher-pappas"
+       }
+      },
+      {
+       "area": "Labor and economy",
+       "topic": "Revise Jones Act",
+       "stance": "For",
+       "text": "Pappas urged the Biden administration to reduce energy exports and grant shipping waivers to lower costs in New England.",
+       "quote": "providing new flexibilities for shipping in this country with a waiver for something called the Jones Act",
+       "year": "2022",
+       "source": {
+        "label": "Other, 2022",
+        "url": "https://www.citizenscount.org/candidate/christopher-pappas"
+       }
+      },
+      {
+       "area": "Education",
+       "topic": "Student loan forgiveness",
+       "stance": "Other",
+       "text": "Pappas opposed the Biden executive student debt action and says any plan should go through Congress and be targeted and paid for.",
+       "quote": "",
+       "year": "2022",
+       "source": {
+        "label": "Other, 2022",
+        "url": "https://www.citizenscount.org/candidate/christopher-pappas"
+       }
+      },
+      {
+       "area": "Labor and economy",
+       "topic": "Support further Fed interest rate hikes",
+       "stance": "For",
+       "text": "Pappas says the Fed and the Biden administration were slow to address inflation and are now catching up with rate increases.",
+       "quote": "I will say this, the Biden administration and the Fed were late in recognizing the problem of inflation.",
+       "year": "2022",
+       "source": {
+        "label": "WMUR, 2022",
+        "url": "https://www.citizenscount.org/candidate/christopher-pappas"
+       }
+      },
+      {
+       "area": "Immigration",
+       "topic": "Title 42 border controls",
+       "stance": "For",
+       "text": "Pappas says the administration should not end Title 42 without plans to protect public health and inform Congress.",
+       "quote": "The administration should not revoke Title 42 without developing the plans needed",
+       "year": "2022",
+       "source": {
+        "label": "Candidate's Website, 2022",
+        "url": "https://www.citizenscount.org/candidate/christopher-pappas"
+       }
+      },
+      {
+       "area": "Abortion",
+       "topic": "Federal abortion ban after 24 weeks",
+       "stance": "Against",
+       "text": "Pappas opposes legislative efforts to restrict reproductive health care and family planning.",
+       "quote": "Opposing any legislative attempts to restrict access to reproductive health services",
+       "year": "2020",
+       "source": {
+        "label": "Candidate's Website, 2020",
+        "url": "https://www.citizenscount.org/candidate/christopher-pappas"
+       }
+      },
+      {
+       "area": "Public safety and courts",
+       "topic": "Federal oversight of state and local police",
+       "stance": "For",
+       "text": "Pappas backed the George Floyd Justice in Policing Act, which he said adds accountability, training, and transparency for law enforcement.",
+       "quote": "The George Floyd Justice in Policing Act puts accountability and transparency front and center",
+       "year": "2020",
+       "source": {
+        "label": "Candidate's Website, 2020",
+        "url": "https://www.citizenscount.org/candidate/christopher-pappas"
+       }
+      },
+      {
+       "area": "Abortion",
+       "topic": "Federal right to abortion",
+       "stance": "For",
+       "text": "Pappas cosponsored a bill that would have protected a right to seek an abortion.",
+       "quote": "",
+       "year": "2020",
+       "source": {
+        "label": "Voting Record, 2020",
+        "url": "https://www.citizenscount.org/candidate/christopher-pappas"
+       }
+      },
+      {
+       "area": "Elections and voting",
+       "topic": "Mail-in voting",
+       "stance": "For",
+       "text": "Pappas called for expanded early voting and a no-excuse mail-in voting option to protect democracy during a crisis.",
+       "quote": "We must safeguard our democracy with expanded early voting and a no-excuse, vote-by-mail option",
+       "year": "2020",
+       "source": {
+        "label": "Candidate's Twitter Feed, 2020",
+        "url": "https://www.citizenscount.org/candidate/christopher-pappas"
+       }
+      },
+      {
+       "area": "Federal issues",
+       "topic": "Privatize social security",
+       "stance": "Against",
+       "text": "Pappas says he is working to oppose privatization of Social Security and Medicare and to strengthen both programs.",
+       "quote": "Fighting efforts to privatize Social Security and Medicare",
+       "year": "2020",
+       "source": {
+        "label": "Candidate's Website, 2020",
+        "url": "https://www.citizenscount.org/candidate/christopher-pappas"
+       }
+      },
+      {
+       "area": "Energy and climate",
+       "topic": "Tax carbon emissions",
+       "stance": "Other",
+       "text": "Pappas said a carbon tax should be part of the climate debate, though he had not endorsed it.",
+       "quote": "It's not an idea that I've signed on to at this point in time.",
+       "year": "2020",
+       "source": {
+        "label": "Other, 2020",
+        "url": "https://www.citizenscount.org/candidate/christopher-pappas"
+       }
+      },
+      {
+       "area": "Energy and climate",
+       "topic": "Federal subsidies for energy efficiency",
+       "stance": "For",
+       "text": "Pappas welcomed nearly $4 million in federal funding for New Hampshire energy efficiency companies.",
+       "quote": "This funding will allow our state to continue to become a pioneer in energy efficiency technology",
+       "year": "2019",
+       "source": {
+        "label": "Other, 2019",
+        "url": "https://www.citizenscount.org/candidate/christopher-pappas"
+       }
+      },
+      {
+       "area": "Energy and climate",
+       "topic": "Federal subsidies for oil",
+       "stance": "Against",
+       "text": "Pappas said offshore drilling should be stopped and that he supported House legislation to do so.",
+       "quote": "We must stop off-shore drilling dead in its tracks and safeguard our coastal environment and economy.",
+       "year": "2019",
+       "source": {
+        "label": "Candidate's Facebook Page, 2019",
+        "url": "https://www.citizenscount.org/candidate/christopher-pappas"
+       }
+      },
+      {
+       "area": "Federal issues",
+       "topic": "Impeach President Trump",
+       "stance": "For",
+       "text": "Pappas said Congress should open a formal impeachment inquiry after the Mueller report and Ukraine allegations.",
+       "quote": "Opening an inquiry will allow Congress to put all the facts on the table",
+       "year": "2019",
+       "source": {
+        "label": "Candidate's Website, 2019",
+        "url": "https://www.citizenscount.org/candidate/christopher-pappas"
+       }
+      },
+      {
+       "area": "Federal issues",
+       "topic": "Increase federal transportation infrastructure funding",
+       "stance": "For",
+       "text": "Pappas said members of both parties want to work on a comprehensive infrastructure bill.",
+       "quote": "Members from both parties are eager to get to work on the committee",
+       "year": "2019",
+       "source": {
+        "label": "Candidate's Twitter Feed, 2019",
+        "url": "https://www.citizenscount.org/candidate/christopher-pappas"
+       }
+      },
+      {
+       "area": "Veterans and military",
+       "topic": "Increase private care for veterans",
+       "stance": "Against",
+       "text": "Pappas pledged to fight VA privatization and to work for a full-service VA facility in New Hampshire.",
+       "quote": "Fight efforts to privatize the VA",
+       "year": "2019",
+       "source": {
+        "label": "Candidate's Website, 2019",
+        "url": "https://www.citizenscount.org/candidate/christopher-pappas"
+       }
+      },
+      {
+       "area": "Health care",
+       "topic": "Medicare for All, opt-in",
+       "stance": "For",
+       "text": "Pappas said he backed a public option and lowering the Medicare eligibility age so near-retirees could buy in.",
+       "quote": "I would like to see people that are near retirement age be able to buy in to the program.",
+       "year": "2019",
+       "source": {
+        "label": "Other, 2019",
+        "url": "https://www.citizenscount.org/candidate/christopher-pappas"
+       }
+      },
+      {
+       "area": "Guns",
+       "topic": "\"Military-style\" firearms ban",
+       "stance": "For",
+       "text": "Pappas said he would support universal background checks, an assault weapons ban, a bump stock and high-capacity magazine ban, and red flag laws.",
+       "quote": "Support a ban on the sale of assault weapons including the AR-15",
+       "year": "2018",
+       "source": {
+        "label": "Candidate's Website, 2018",
+        "url": "https://www.citizenscount.org/candidate/christopher-pappas"
+       }
+      },
+      {
+       "area": "Taxes and spending",
+       "topic": "2017 Trump tax plan",
+       "stance": "Against",
+       "text": "Pappas said the Republican tax plan would favor special interests and large corporations over middle-class families.",
+       "quote": "is going to tilt the system even more in favor of special interests and the big corporations",
+       "year": "2018",
+       "source": {
+        "label": "WMUR, 2018",
+        "url": "https://www.citizenscount.org/candidate/christopher-pappas"
+       }
+      },
+      {
+       "area": "Immigration",
+       "topic": "Citizenship for child illegal/undocumented immigrants",
+       "stance": "For",
+       "text": "Pappas supports citizenship for Dreamers, who know no other country than the United States.",
+       "quote": "Support citizenship for Dreamers who know no other country than the United States",
+       "year": "2018",
+       "source": {
+        "label": "Candidate's Website, 2018",
+        "url": "https://www.citizenscount.org/candidate/christopher-pappas"
+       }
+      },
+      {
+       "area": "Health care",
+       "topic": "Eliminate \"essential health benefits\"",
+       "stance": "Against",
+       "text": "Pappas said he supports universal health care and opposes efforts to undermine the Affordable Care Act.",
+       "quote": "The Affordable Care Act was a significant step forward, and we must stop Republican attempts to sabotage it",
+       "year": "2018",
+       "source": {
+        "label": "Candidate's Website, 2018",
+        "url": "https://www.citizenscount.org/candidate/christopher-pappas"
+       }
+      },
+      {
+       "area": "Guns",
+       "topic": "Expand federal background checks",
+       "stance": "For",
+       "text": "Pappas said he would support universal background checks for all gun purchases.",
+       "quote": "Support universal background checks for all gun purchases",
+       "year": "2018",
+       "source": {
+        "label": "Candidate's Website, 2018",
+        "url": "https://www.citizenscount.org/candidate/christopher-pappas"
+       }
+      },
+      {
+       "area": "Abortion",
+       "topic": "Federal abortion ban after 20 weeks",
+       "stance": "Against",
+       "text": "Pappas cited his pro-choice record in the New Hampshire House and pledged to oppose restrictions on reproductive services.",
+       "quote": "Oppose attempts to restrict women's access to reproductive health services",
+       "year": "2018",
+       "source": {
+        "label": "Candidate's Website, 2018",
+        "url": "https://www.citizenscount.org/candidate/christopher-pappas"
+       }
+      },
+      {
+       "area": "Abortion",
+       "topic": "Federal funding for Planned Parenthood",
+       "stance": "For",
+       "text": "Pappas said he cast votes to keep Planned Parenthood centers funded for basic health services.",
+       "quote": "casting critical votes to keep Planned Parenthood centers funded to provide basic, vital health services",
+       "year": "2018",
+       "source": {
+        "label": "Candidate's Facebook Page, 2018",
+        "url": "https://www.citizenscount.org/candidate/christopher-pappas"
+       }
+      },
+      {
+       "area": "Labor and economy",
+       "topic": "Federal minimum wage increase",
+       "stance": "For",
+       "text": "Pappas supports raising the minimum wage and tying it to inflation.",
+       "quote": "Support increasing the minimum wage and indexing it to inflation",
+       "year": "2018",
+       "source": {
+        "label": "Candidate's Website, 2018",
+        "url": "https://www.citizenscount.org/candidate/christopher-pappas"
+       }
+      },
+      {
+       "area": "Energy and climate",
+       "topic": "Federal subsidies for coal",
+       "stance": "Against",
+       "text": "Pappas said he favors reducing fossil fuel dependence and, as Executive Councilor, supported clean energy grants.",
+       "quote": "I believe in reducing our dependence on fossil fuels and securing a clean energy future.",
+       "year": "2018",
+       "source": {
+        "label": "Candidate's Facebook Page, 2018",
+        "url": "https://www.citizenscount.org/candidate/christopher-pappas"
+       }
+      },
+      {
+       "area": "Energy and climate",
+       "topic": "Federal subsidies for renewable energy",
+       "stance": "For",
+       "text": "Pappas said he is a strong supporter of New Hampshire's renewable energy and wants to keep incentives and tax credits in place.",
+       "quote": "we must maintain incentives and tax credits to nurture the clean energy revolution that is underway",
+       "year": "2018",
+       "source": {
+        "label": "Candidate's Website, 2018",
+        "url": "https://www.citizenscount.org/candidate/christopher-pappas"
+       }
+      },
+      {
+       "area": "Education",
+       "topic": "Free tuition at public colleges",
+       "stance": "For",
+       "text": "Pappas said he would work to make college more affordable, including tuition-free community colleges and public universities.",
+       "quote": "Support tuition-free education at community colleges and public universities",
+       "year": "2018",
+       "source": {
+        "label": "Candidate's Website, 2018",
+        "url": "https://www.citizenscount.org/candidate/christopher-pappas"
+       }
+      },
+      {
+       "area": "Labor and economy",
+       "topic": "Higher tariffs",
+       "stance": "Against",
+       "text": "Pappas said tariffs hurt New Hampshire businesses and consumers and that calmer trade talks are preferable.",
+       "quote": "I think we should always be looking for more calm and collected trade talks",
+       "year": "2018",
+       "source": {
+        "label": "Other, 2018",
+        "url": "https://www.citizenscount.org/candidate/christopher-pappas"
+       }
+      },
+      {
+       "area": "Cannabis",
+       "topic": "Marijuana legalization across U.S.",
+       "stance": "For",
+       "text": "Pappas was among the candidates who said they would vote to remove marijuana from Schedule 1.",
+       "quote": "",
+       "year": "2018",
+       "source": {
+        "label": "Other, 2018",
+        "url": "https://www.citizenscount.org/candidate/christopher-pappas"
+       }
+      },
+      {
+       "area": "Federal issues",
+       "topic": "Means testing for social security",
+       "stance": "Against",
+       "text": "Pappas opposes efforts to privatize or means-test Social Security benefits, which he says would erode the program.",
+       "quote": "We've got to stop these efforts that are seeking to privatize it or to means-test benefits.",
+       "year": "2018",
+       "source": {
+        "label": "Other, 2018",
+        "url": "https://www.citizenscount.org/candidate/christopher-pappas"
+       }
+      },
+      {
+       "area": "Immigration",
+       "topic": "Mexican border wall",
+       "stance": "Against",
+       "text": "Pappas said a border wall lacks majority support and criticized a government shutdown over it.",
+       "quote": "over an absurd border wall that doesn't even have majority support",
+       "year": "2018",
+       "source": {
+        "label": "Candidate's Twitter Feed, 2018",
+        "url": "https://www.citizenscount.org/candidate/christopher-pappas"
+       }
+      },
+      {
+       "area": "Health care",
+       "topic": "More federal funding for opioid response",
+       "stance": "For",
+       "text": "Pappas called for more resources for local emergency responders and the recovery community.",
+       "quote": "We need to tackle the opioid crisis head-on with additional resources and support",
+       "year": "2018",
+       "source": {
+        "label": "Candidate's Twitter Feed, 2018",
+        "url": "https://www.citizenscount.org/candidate/christopher-pappas"
+       }
+      },
+      {
+       "area": "Federal issues",
+       "topic": "Raise social security retirement age",
+       "stance": "Against",
+       "text": "Pappas opposes raising the retirement age because it burdens working people more heavily.",
+       "quote": "I also don't support raising the retirement age, because I think that hits working people at a much greater rate",
+       "year": "2018",
+       "source": {
+        "label": "Other, 2018",
+        "url": "https://www.citizenscount.org/candidate/christopher-pappas"
+       }
+      },
+      {
+       "area": "Health care",
+       "topic": "Repeal Affordable Care Act/\"Obamacare\" employer tax penalty",
+       "stance": "Against",
+       "text": "Pappas said he supports universal health care and opposes repealing the Affordable Care Act.",
+       "quote": "Chris supports universal healthcare and will work to ensure everyone has quality, affordable health care coverage.",
+       "year": "2018",
+       "source": {
+        "label": "Candidate's Website, 2018",
+        "url": "https://www.citizenscount.org/candidate/christopher-pappas"
+       }
+      },
+      {
+       "area": "Federal issues",
+       "topic": "Russia sanctions",
+       "stance": "For",
+       "text": "Pappas called Russia an adversary and said the U.S. should impose tough sanctions and protect elections from hacking.",
+       "quote": "We need to say loudly and clearly that Russia is an adversary and not a friend of democracy",
+       "year": "2018",
+       "source": {
+        "label": "WMUR, 2018",
+        "url": "https://www.citizenscount.org/candidate/christopher-pappas"
+       }
+      },
+      {
+       "area": "Federal issues",
+       "topic": "Withdraw from 2015 Iran nuclear agreement",
+       "stance": "Against",
+       "text": "Pappas said the President's withdrawal was a serious mistake that undermines the main diplomatic check on Iran's nuclear weapons.",
+       "quote": "The President's decision is a serious mistake and unravels the only diplomatic means we have",
+       "year": "2018",
+       "source": {
+        "label": "Candidate's Twitter Feed, 2018",
+        "url": "https://www.citizenscount.org/candidate/christopher-pappas"
+       }
+      },
+      {
+       "area": "Energy and climate",
+       "topic": "Withdrawal from Paris climate agreement",
+       "stance": "Against",
+       "text": "Pappas called climate change an existential threat and said withdrawing from the Paris agreement moves the country backward.",
+       "quote": "Climate change is not only real, it is an existential threat to the future of our planet",
+       "year": "2018",
+       "source": {
+        "label": "Candidate's Website, 2018",
+        "url": "https://www.citizenscount.org/candidate/christopher-pappas"
        }
       }
      ],
@@ -530,7 +2647,89 @@
      "source": {
       "label": "Ballotpedia, U.S. Senate election in New Hampshire 2026",
       "url": "https://ballotpedia.org/United_States_Senate_election_in_New_Hampshire,_2026"
-     }
+     },
+     "profileUrl": "https://www.citizenscount.org/candidate/christopher-pappas",
+     "profileSource": "Citizens Count",
+     "experience": "Representative, U.S. House of Representatives (2018 - present); Executive Councilor (2012 - 2018); Representative, NH House of Representatives (2002 - 2006); Co-Owner, Puritan Backroom Restaurant; Treasurer, Hillsborough County",
+     "education": "Harvard University",
+     "noResponse": 14,
+     "votes": [
+      {
+       "bill": "H Res 1490",
+       "year": "2026",
+       "vote": "No",
+       "summary": "Nonbinding House resolution denouncing socialism that also urges the Senate to pass a bill requiring proof of citizenship to register to vote."
+      },
+      {
+       "bill": "H R 6945",
+       "year": "2026",
+       "vote": "No",
+       "summary": "Lets the Temporary Assistance for Needy Families program fund pregnancy resource centers."
+      },
+      {
+       "bill": "H R 2616",
+       "year": "2026",
+       "vote": "No",
+       "summary": "Requires parental consent for gender-related changes or sex-based accommodations in elementary and middle schools."
+      },
+      {
+       "bill": "S 2",
+       "year": "2026",
+       "vote": "No",
+       "summary": "Provides $70 billion for DHS, CBP, and ICE immigration enforcement and related work."
+      },
+      {
+       "bill": "H R 1041",
+       "year": "2026",
+       "vote": "No",
+       "summary": "Bars VA reporting to NICS for veterans assigned a fiduciary unless a judge finds them a danger to themselves or others."
+      },
+      {
+       "bill": "H R 5334",
+       "year": "2026",
+       "vote": "No",
+       "summary": "Adds sanctions, tariffs, and prohibitions on Russia, extends an Iran sanctions law, and expands a teacher expense tax deduction to early childhood educators."
+      },
+      {
+       "bill": "H R 7008",
+       "year": "2026",
+       "vote": "Yes",
+       "summary": "Generally bars members of Congress, their spouses, and dependent children from buying stocks and requires public notice before they sell."
+      },
+      {
+       "bill": "H R 4795",
+       "year": "2026",
+       "vote": "No",
+       "summary": "Would bar colleges and universities in federal student aid programs from boycotting Israel; the page records the vote as continuing to allow such boycotts."
+      },
+      {
+       "bill": "H R 1181",
+       "year": "2026",
+       "vote": "No",
+       "summary": "Would bar card networks from using merchant codes that single out firearms retailers; the page records the vote as continuing to allow the category."
+      },
+      {
+       "bill": "H R 1958",
+       "year": "2026",
+       "vote": "Yes",
+       "summary": "Makes defrauding the U.S. government or stealing benefits a deportable offense."
+      },
+      {
+       "bill": "H R 2913",
+       "year": "2026",
+       "vote": "Yes",
+       "summary": "Aids Ukraine and other European countries affected by the war, and sets penalties on Russia such as sanctions and tariffs."
+      },
+      {
+       "bill": "H Con Res 38",
+       "year": "2026",
+       "vote": "Yes",
+       "summary": "Directs the President to remove U.S. armed forces from Iran."
+      }
+     ],
+     "summary": "Pappas did not answer the Citizens Count surveys (14 questions marked No Response), so his recorded positions come from his campaign website, debates, WMUR, and his voting record. On abortion, he is against a federal ban and for a federal right to abortion before 24 weeks and for Planned Parenthood funding. On taxes and spending, he is for raising the income cap on the Social Security tax and the expanded child tax credit, and against the 2017 tax plan and lower corporate tax rates. On guns, he is for expanded background checks, a ban on military-style firearms, and limits on firearm purchases under age 21. He is for military aid to Ukraine and Taiwan, against the war in Iran and the capture of Maduro without congressional approval, against abolishing ICE and against the border wall, for decreasing tariffs, for limiting private equity purchases of homes, and against requiring proof of citizenship to vote.",
+     "summaryFrom": "62 positions on Citizens Count, fetched Nov 3, 2026",
+     "positionsAsOf": "2026-11-03"
     },
     {
      "id": "john-e-sununu",
@@ -542,74 +2741,206 @@
      "website": "https://www.sununusenator.com/",
      "positions": [
       {
-       "topic": "Cost of living",
-       "stance": "Reducing inflation and lowering costs for housing, health care and energy; opposes middle-class tax increases.",
-       "quote": null,
+       "area": "Immigration",
+       "topic": "Abolish I.C.E.",
+       "stance": "Against",
+       "text": "Sununu wants better ICE training, a ban on masks for officers, and body cameras for law enforcement.",
+       "quote": "I don't think masks should be used by any law enforcement",
+       "year": "2026",
        "source": {
-        "label": "Ballotpedia, 2026",
-        "url": "https://ballotpedia.org/United_States_Senate_election_in_New_Hampshire,_2026"
+        "label": "Other, 2026",
+        "url": "https://www.citizenscount.org/candidate/john-e-sununu"
        }
       },
       {
-       "topic": "Term limits",
-       "stance": "For congressional term limits.",
+       "area": "Elections and voting",
+       "topic": "Add U.S. term limits",
+       "stance": "For",
+       "text": "Sununu says he will push congressional reform, starting with term limits.",
        "quote": "No more career politicians.",
+       "year": "2026",
        "source": {
-        "label": "Citizens Count, 2026",
+        "label": "Other, 2026",
         "url": "https://www.citizenscount.org/candidate/john-e-sununu"
        }
       },
       {
-       "topic": "Taxes",
-       "stance": "For extending the Trump tax act; against raising taxes to reduce the deficit.",
-       "quote": null,
+       "area": "Immigration",
+       "topic": "Amendment to limit birthright citizenship",
+       "stance": "For",
+       "text": "Sununu says the 14th Amendment was not meant to allow births to foreign nationals for citizenship, and Congress should act if courts do not.",
+       "quote": "That is not what was envisioned by the 14th Amendment.",
+       "year": "2026",
        "source": {
-        "label": "Citizens Count, 2026",
+        "label": "Other, 2026",
         "url": "https://www.citizenscount.org/candidate/john-e-sununu"
        }
       },
       {
-       "topic": "Tariffs",
-       "stance": "Says if there are tariffs they should be set at a reasonable rate.",
+       "area": "Federal issues",
+       "topic": "Capture of Maduro in Venezuela",
+       "stance": "For",
+       "text": "Sununu calls Maduro a corrupt dictator and praises the military operation that captured him.",
+       "quote": "His capture makes America and the Western Hemisphere safer",
+       "year": "2026",
+       "source": {
+        "label": "Other, 2026",
+        "url": "https://www.citizenscount.org/candidate/john-e-sununu"
+       }
+      },
+      {
+       "area": "Labor and economy",
+       "topic": "Decrease tariffs on imports",
+       "stance": "Other",
+       "text": "Sununu wants reasonable tariff rates and clear, stable trade policy, especially toward China, with Congress involved.",
        "quote": "If you're going to have tariffs, set them at a reasonable rate.",
+       "year": "2026",
        "source": {
-        "label": "Citizens Count, 2026",
+        "label": "Other, 2026",
         "url": "https://www.citizenscount.org/candidate/john-e-sununu"
        }
       },
       {
-       "topic": "Elections",
-       "stance": "For requiring proof of citizenship to vote; urges an up or down vote on voter ID.",
-       "quote": null,
+       "area": "Other",
+       "topic": "Exclude transgender women from sports",
+       "stance": "For",
+       "text": "Sununu argues boys should not compete in girls' sports, citing women's safety and Title IX.",
+       "quote": "This is about women's safety.",
+       "year": "2026",
        "source": {
-        "label": "Citizens Count, 2026",
+        "label": "Other, 2026",
         "url": "https://www.citizenscount.org/candidate/john-e-sununu"
        }
       },
       {
-       "topic": "Health care",
-       "stance": "Against Medicare for All; proposes insurance competition across state lines, price transparency and health savings accounts.",
-       "quote": null,
+       "area": "Taxes and spending",
+       "topic": "Extend Trump tax act",
+       "stance": "For",
+       "text": "Sununu credits the 2025 tax and spending bill with keeping taxes low and tightening Medicaid work and eligibility rules.",
+       "quote": "Look, that bill did some important things.",
+       "year": "2026",
        "source": {
-        "label": "Citizens Count, 2026",
+        "label": "Other, 2026",
         "url": "https://www.citizenscount.org/candidate/john-e-sununu"
        }
       },
       {
-       "topic": "Social Security and Medicare",
-       "stance": "Says he never voted to cut Social Security benefits; calls for a bipartisan fix to solvency.",
-       "quote": null,
+       "area": "Federal issues",
+       "topic": "Increase military aid to Taiwan",
+       "stance": "For",
+       "text": "Sununu calls China the top security threat and urges continued support for Taiwan and tariffs against unfair trade.",
+       "quote": "China is the biggest national security threat we face.",
+       "year": "2026",
        "source": {
-        "label": "Ballotpedia, 2026; Citizens Count, 2026",
+        "label": "Other, 2026",
         "url": "https://www.citizenscount.org/candidate/john-e-sununu"
        }
       },
       {
-       "topic": "Immigration",
-       "stance": "Against abolishing ICE; says agents should not wear masks and should wear body cameras. For an amendment limiting birthright citizenship.",
-       "quote": null,
+       "area": "Energy and climate",
+       "topic": "Increase oil and natural gas leases on public land",
+       "stance": "Other",
+       "text": "Sununu has not addressed public land leasing directly but favors more domestic oil and gas production and faster permitting.",
+       "quote": "Energy, energy costs, energy investments, right?",
+       "year": "2026",
        "source": {
-        "label": "Citizens Count, 2026",
+        "label": "Other, 2026",
+        "url": "https://www.citizenscount.org/candidate/john-e-sununu"
+       }
+      },
+      {
+       "area": "Energy and climate",
+       "topic": "Keystone XL pipeline",
+       "stance": "For",
+       "text": "Sununu did not mention Keystone XL by name but supports domestic energy production and new pipeline and transmission infrastructure.",
+       "quote": "Energy affordability means producing more here in America",
+       "year": "2026",
+       "source": {
+        "label": "Other, 2026",
+        "url": "https://www.citizenscount.org/candidate/john-e-sununu"
+       }
+      },
+      {
+       "area": "Health care",
+       "topic": "Medicare for All, automatic enrollment",
+       "stance": "Against",
+       "text": "Sununu proposes interstate insurer competition, price transparency, health savings accounts, and less federal regulation.",
+       "quote": "Force insurance providers to compete with one another across state lines.",
+       "year": "2026",
+       "source": {
+        "label": "Other, 2026",
+        "url": "https://www.citizenscount.org/candidate/john-e-sununu"
+       }
+      },
+      {
+       "area": "Federal issues",
+       "topic": "Privatize social security",
+       "stance": "Other",
+       "text": "Sununu says the privatization plan from 20 years ago would have kept the system solvent, and a bipartisan fix is now needed.",
+       "quote": "That was 20 years ago, Adam.",
+       "year": "2026",
+       "source": {
+        "label": "WMUR, 2026",
+        "url": "https://www.citizenscount.org/candidate/john-e-sununu"
+       }
+      },
+      {
+       "area": "Elections and voting",
+       "topic": "Proof of citizenship to vote",
+       "stance": "For",
+       "text": "Sununu urges forcing Senate votes on voter ID and attaching the SAVE Act to must-pass legislation.",
+       "quote": "Make them vote. Make them do their job.",
+       "year": "2026",
+       "source": {
+        "label": "Other, 2026",
+        "url": "https://www.citizenscount.org/candidate/john-e-sununu"
+       }
+      },
+      {
+       "area": "Taxes and spending",
+       "topic": "Raise taxes to reduce budget deficit",
+       "stance": "Against",
+       "text": "Sununu argues tax increases hurt the economy and drive out investment, and he wants relief for working families instead.",
+       "quote": "I think the focus should be on those working families",
+       "year": "2026",
+       "source": {
+        "label": "Other, 2026",
+        "url": "https://www.citizenscount.org/candidate/john-e-sununu"
+       }
+      },
+      {
+       "area": "Federal issues",
+       "topic": "War in Iran",
+       "stance": "Other",
+       "text": "Sununu says he would not have started this war but supports preventing Iran from obtaining a nuclear weapon.",
+       "quote": "making sure Iran can't get access to a nuclear weapon",
+       "year": "2026",
+       "source": {
+        "label": "WMUR, 2026",
+        "url": "https://www.citizenscount.org/candidate/john-e-sununu"
+       }
+      },
+      {
+       "area": "Federal issues",
+       "topic": "Limit aid to Israel",
+       "stance": "Other",
+       "text": "Sununu declined to take a foreign policy position on this, calling Middle East politics complex and the suffering severe.",
+       "quote": "I'm not going to wade into foreign policy",
+       "year": "2025",
+       "source": {
+        "label": "WMUR, 2025",
+        "url": "https://www.citizenscount.org/candidate/john-e-sununu"
+       }
+      },
+      {
+       "area": "Cannabis",
+       "topic": "Marijuana legalization across U.S.",
+       "stance": "Other",
+       "text": "Sununu says he would need to review federal rules, states should set their own policies, and Washington should likely stay out.",
+       "quote": "this may be an issue where the federal government probably ought to just stay out",
+       "year": "2025",
+       "source": {
+        "label": "WMUR, 2025",
         "url": "https://www.citizenscount.org/candidate/john-e-sununu"
        }
       }
@@ -631,77 +2962,574 @@
      "source": {
       "label": "Ballotpedia, U.S. Senate election in New Hampshire 2026",
       "url": "https://ballotpedia.org/United_States_Senate_election_in_New_Hampshire,_2026"
-     }
+     },
+     "profileUrl": "https://www.citizenscount.org/candidate/john-e-sununu",
+     "profileSource": "Citizens Count",
+     "experience": "Representative, U.S. House of Representatives (1997 - 2003); Senator, U.S. Senate (2003 - 2009)",
+     "education": "MS Mechanical Engineering, Massachusetts Institute of Technology; MBA, Harvard University",
+     "noResponse": 26,
+     "summary": "Sununu did not answer the 2026 or 2025 Citizens Count surveys (26 questions marked No Response), so his recorded positions come from debates, WMUR, and other public statements. On taxes and spending, he is for extending the 2017 tax act and against raising taxes to reduce the deficit. On elections, he is for congressional term limits and for requiring proof of citizenship to vote. On immigration, he is against abolishing ICE and for an amendment limiting birthright citizenship. On health care, he is against Medicare for All with automatic enrollment. He is for military aid to Taiwan and for the capture of Maduro, and takes an Other position on tariffs, the war in Iran, aid to Israel, Social Security privatization, and federal marijuana legalization.",
+     "summaryFrom": "17 positions on Citizens Count, fetched Nov 3, 2026",
+     "positionsAsOf": "2026-11-03"
     },
     {
      "id": "edmond-laplante",
      "name": "Edmond J. Laplante Jr.",
-     "party": "Other",
+     "party": "Constitution Party",
      "incumbent": false,
      "hometown": "Richmond",
      "background": "Constitution Party. Auto mechanic since 1984, Marine Corps veteran (1999 to 2007), Richmond school board (SAU 93) representative since 2003 and State Chairman of the Constitution Party of NH.",
      "website": "https://laplante4constitutionalnh.com/",
      "positions": [
       {
-       "topic": "Role of government",
-       "stance": "Constitutional compliance and limited government; transparency and accountability.",
-       "quote": null,
+       "area": "Immigration",
+       "topic": "Abolish I.C.E.",
+       "stance": "Against",
+       "text": "He opposes abolishing ICE and would consider reforms or constitutional changes instead.",
+       "quote": "Open to suggestions on reform or constitutional provisions",
+       "year": "2026",
        "source": {
-        "label": "Ballotpedia, 2026",
-        "url": "https://ballotpedia.org/United_States_Senate_election_in_New_Hampshire,_2026"
-       }
-      },
-      {
-       "topic": "Tariffs",
-       "stance": "Against decreasing tariffs.",
-       "quote": "We should concentrate NOT being so reliant on foreign goods.",
-       "source": {
-        "label": "Citizens Count survey, 2026",
+        "label": "Citizens Count Issue Survey, 2026",
         "url": "https://www.citizenscount.org/candidate/edmond-j-laplante-jr"
        }
       },
       {
-       "topic": "Foreign policy",
-       "stance": "Says the U.S. should stay out of foreign affairs that do not affect it directly (Ukraine aid, Israel aid, Iran, Venezuela).",
+       "area": "Elections and voting",
+       "topic": "Add U.S. term limits",
+       "stance": "Against",
+       "text": "He opposes a constitutional amendment setting term limits for Congress.",
+       "quote": "",
+       "year": "2026",
+       "source": {
+        "label": "Citizens Count Issue Survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/edmond-j-laplante-jr"
+       }
+      },
+      {
+       "area": "Immigration",
+       "topic": "Amendment to limit birthright citizenship",
+       "stance": "For",
+       "text": "He backs a constitutional change ending automatic citizenship for all children born on U.S. soil.",
+       "quote": "",
+       "year": "2026",
+       "source": {
+        "label": "Citizens Count Issue Survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/edmond-j-laplante-jr"
+       }
+      },
+      {
+       "area": "Elections and voting",
+       "topic": "Amendment to limit outside funding of campaigns",
+       "stance": "For",
+       "text": "He supports a constitutional amendment restricting campaign funding from PACs.",
+       "quote": "",
+       "year": "2026",
+       "source": {
+        "label": "Citizens Count Issue Survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/edmond-j-laplante-jr"
+       }
+      },
+      {
+       "area": "Taxes and spending",
+       "topic": "Budget cuts to match new spending",
+       "stance": "For",
+       "text": "He favors requiring federal spending cuts to offset any new spending as an anti-inflation measure.",
+       "quote": "",
+       "year": "2026",
+       "source": {
+        "label": "Citizens Count Issue Survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/edmond-j-laplante-jr"
+       }
+      },
+      {
+       "area": "Labor and economy",
+       "topic": "Cap prices increases by large businesses",
+       "stance": "For",
+       "text": "He supports the federal government capping price hikes by large companies to fight inflation.",
+       "quote": "",
+       "year": "2026",
+       "source": {
+        "label": "Citizens Count Issue Survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/edmond-j-laplante-jr"
+       }
+      },
+      {
+       "area": "Federal issues",
+       "topic": "Capture of Maduro in Venezuela",
+       "stance": "Other",
+       "text": "He believes the U.S. should avoid foreign conflicts that do not directly affect it, rather than backing or opposing this operation outright.",
        "quote": "We should stay out of foreign affairs that don't affect us directly",
+       "year": "2026",
        "source": {
-        "label": "Citizens Count survey, 2026",
+        "label": "Citizens Count Issue Survey, 2026",
         "url": "https://www.citizenscount.org/candidate/edmond-j-laplante-jr"
        }
       },
       {
-       "topic": "Social Security",
-       "stance": "For privatizing Social Security; against raising the retirement age or income cap.",
-       "quote": "We should have individual plans where your funds are yours and yours alone",
+       "area": "Labor and economy",
+       "topic": "Decrease tariffs on imports",
+       "stance": "Against",
+       "text": "He opposes cutting import tariffs and instead wants less dependence on foreign goods.",
+       "quote": "We should concentrate NOT being so reliant on foreign goods.",
+       "year": "2026",
        "source": {
-        "label": "Citizens Count survey, 2026",
+        "label": "Citizens Count Issue Survey, 2026",
         "url": "https://www.citizenscount.org/candidate/edmond-j-laplante-jr"
        }
       },
       {
-       "topic": "Abortion",
-       "stance": "Describes himself as pro-life with rare exceptions; against a federal right to abortion before 24 weeks.",
+       "area": "Other",
+       "topic": "Exclude transgender women from sports",
+       "stance": "Other",
+       "text": "He holds that only biological females should compete in female sports.",
+       "quote": "Biological females should only be allowed in female sports",
+       "year": "2026",
+       "source": {
+        "label": "Citizens Count Issue Survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/edmond-j-laplante-jr"
+       }
+      },
+      {
+       "area": "Abortion",
+       "topic": "Federal abortion ban",
+       "stance": "Other",
+       "text": "He identifies as pro-life but accepts a few rare exceptions.",
        "quote": "I'm pro life there are rare exceptions",
+       "year": "2026",
        "source": {
-        "label": "Citizens Count survey, 2026",
+        "label": "Citizens Count Issue Survey, 2026",
         "url": "https://www.citizenscount.org/candidate/edmond-j-laplante-jr"
        }
       },
       {
-       "topic": "Elections",
-       "stance": "For proof of citizenship to vote; against mail-in voting.",
-       "quote": null,
+       "area": "Federal issues",
+       "topic": "Federal Balanced Budget Amendment",
+       "stance": "For",
+       "text": "He supports adding a balanced budget requirement to the U.S. Constitution.",
+       "quote": "",
+       "year": "2026",
        "source": {
-        "label": "Citizens Count survey, 2026",
+        "label": "Citizens Count Issue Survey, 2026",
         "url": "https://www.citizenscount.org/candidate/edmond-j-laplante-jr"
        }
       },
       {
-       "topic": "Housing",
-       "stance": "For limiting private equity purchases of homes.",
-       "quote": null,
+       "area": "Abortion",
+       "topic": "Federal right to abortion before 24 weeks",
+       "stance": "Against",
+       "text": "He opposes a federal law guaranteeing abortion access before fetal viability.",
+       "quote": "",
+       "year": "2026",
        "source": {
-        "label": "Citizens Count survey, 2026",
+        "label": "Citizens Count Issue Survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/edmond-j-laplante-jr"
+       }
+      },
+      {
+       "area": "Federal issues",
+       "topic": "Increase military aid to Taiwan",
+       "stance": "Against",
+       "text": "He opposes expanding U.S. military aid to Taiwan.",
+       "quote": "",
+       "year": "2026",
+       "source": {
+        "label": "Citizens Count Issue Survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/edmond-j-laplante-jr"
+       }
+      },
+      {
+       "area": "Energy and climate",
+       "topic": "Increase oil and natural gas leases on public land",
+       "stance": "Against",
+       "text": "He opposes expanding oil and gas leasing on public lands and waters.",
+       "quote": "",
+       "year": "2026",
+       "source": {
+        "label": "Citizens Count Issue Survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/edmond-j-laplante-jr"
+       }
+      },
+      {
+       "area": "Energy and climate",
+       "topic": "Keystone XL pipeline",
+       "stance": "Other",
+       "text": "Undecided on whether the federal government should reauthorize the Keystone XL pipeline.",
+       "quote": "",
+       "year": "2026",
+       "source": {
+        "label": "Citizens Count Issue Survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/edmond-j-laplante-jr"
+       }
+      },
+      {
+       "area": "Federal issues",
+       "topic": "Limit aid to Israel",
+       "stance": "Other",
+       "text": "He thinks the U.S. should stay out of foreign disputes that do not directly affect it, rather than attaching conditions to aid.",
+       "quote": "We should stay out of foreign affairs that don't effect us directly",
+       "year": "2026",
+       "source": {
+        "label": "Citizens Count Issue Survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/edmond-j-laplante-jr"
+       }
+      },
+      {
+       "area": "Housing",
+       "topic": "Limit private equity purchase of homes",
+       "stance": "For",
+       "text": "He supports restricting large investors from buying multiple single-family homes as rentals.",
+       "quote": "",
+       "year": "2026",
+       "source": {
+        "label": "Citizens Count Issue Survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/edmond-j-laplante-jr"
+       }
+      },
+      {
+       "area": "Elections and voting",
+       "topic": "Mail-in voting",
+       "stance": "Against",
+       "text": "He opposes offering mail-in ballots to all voters, not just absentee voters.",
+       "quote": "",
+       "year": "2026",
+       "source": {
+        "label": "Citizens Count Issue Survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/edmond-j-laplante-jr"
+       }
+      },
+      {
+       "area": "Cannabis",
+       "topic": "Marijuana legalization across U.S.",
+       "stance": "Other",
+       "text": "Undecided on whether marijuana should be legalized federally.",
+       "quote": "",
+       "year": "2026",
+       "source": {
+        "label": "Citizens Count Issue Survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/edmond-j-laplante-jr"
+       }
+      },
+      {
+       "area": "Federal issues",
+       "topic": "Means testing for social security",
+       "stance": "Against",
+       "text": "He opposes requiring income-based limits on Social Security benefits.",
+       "quote": "",
+       "year": "2026",
+       "source": {
+        "label": "Citizens Count Issue Survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/edmond-j-laplante-jr"
+       }
+      },
+      {
+       "area": "Health care",
+       "topic": "Medicare for All, automatic enrollment",
+       "stance": "Against",
+       "text": "He opposes automatically enrolling all citizens in Medicare and replacing most private coverage.",
+       "quote": "",
+       "year": "2026",
+       "source": {
+        "label": "Citizens Count Issue Survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/edmond-j-laplante-jr"
+       }
+      },
+      {
+       "area": "Health care",
+       "topic": "Medicare for All, opt-in",
+       "stance": "Other",
+       "text": "He believes the Affordable Care Act should be repealed entirely, so an opt-in Medicare option is not his preferred route.",
+       "quote": "It should've never been allowed in first place .Repeal it altogether",
+       "year": "2026",
+       "source": {
+        "label": "Citizens Count Issue Survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/edmond-j-laplante-jr"
+       }
+      },
+      {
+       "area": "Federal issues",
+       "topic": "Military aid to Ukraine",
+       "stance": "Other",
+       "text": "He believes the U.S. should avoid foreign affairs that do not directly affect it, instead of taking a clear side on Ukraine aid.",
+       "quote": "We should stay out of foreign affairs that don't affect us directly",
+       "year": "2026",
+       "source": {
+        "label": "Citizens Count Issue Survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/edmond-j-laplante-jr"
+       }
+      },
+      {
+       "area": "Federal issues",
+       "topic": "Privatize social security",
+       "stance": "For",
+       "text": "He supports partly or fully privatizing Social Security through individual accounts.",
+       "quote": "We should have individual plans where your funds are yours and yours alone",
+       "year": "2026",
+       "source": {
+        "label": "Citizens Count Issue Survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/edmond-j-laplante-jr"
+       }
+      },
+      {
+       "area": "Elections and voting",
+       "topic": "Proof of citizenship to vote",
+       "stance": "For",
+       "text": "He backs requiring documentary proof of citizenship at voter registration.",
+       "quote": "",
+       "year": "2026",
+       "source": {
+        "label": "Citizens Count Issue Survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/edmond-j-laplante-jr"
+       }
+      },
+      {
+       "area": "Taxes and spending",
+       "topic": "Raise income cap for social security tax",
+       "stance": "Against",
+       "text": "He opposes raising the income ceiling subject to the Social Security tax.",
+       "quote": "",
+       "year": "2026",
+       "source": {
+        "label": "Citizens Count Issue Survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/edmond-j-laplante-jr"
+       }
+      },
+      {
+       "area": "Federal issues",
+       "topic": "Raise social security retirement age",
+       "stance": "Against",
+       "text": "He opposes raising the Social Security retirement age above 67.",
+       "quote": "",
+       "year": "2026",
+       "source": {
+        "label": "Citizens Count Issue Survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/edmond-j-laplante-jr"
+       }
+      },
+      {
+       "area": "Taxes and spending",
+       "topic": "Raise taxes to reduce budget deficit",
+       "stance": "Against",
+       "text": "He opposes raising taxes to shrink the deficit.",
+       "quote": "",
+       "year": "2026",
+       "source": {
+        "label": "Citizens Count Issue Survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/edmond-j-laplante-jr"
+       }
+      },
+      {
+       "area": "Immigration",
+       "topic": "Require cities to cooperate with I.C.E.",
+       "stance": "For",
+       "text": "He supports withholding federal funds from cities that refuse ICE detainer requests.",
+       "quote": "",
+       "year": "2026",
+       "source": {
+        "label": "Citizens Count Issue Survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/edmond-j-laplante-jr"
+       }
+      },
+      {
+       "area": "Labor and economy",
+       "topic": "Revise Jones Act",
+       "stance": "Against",
+       "text": "He opposes repealing or revising the Jones Act to allow more foreign shipping between U.S. ports.",
+       "quote": "",
+       "year": "2026",
+       "source": {
+        "label": "Citizens Count Issue Survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/edmond-j-laplante-jr"
+       }
+      },
+      {
+       "area": "Energy and climate",
+       "topic": "Subsidies for electric vehicles",
+       "stance": "Against",
+       "text": "He opposes reinstating federal tax credits for buying electric vehicles.",
+       "quote": "",
+       "year": "2026",
+       "source": {
+        "label": "Citizens Count Issue Survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/edmond-j-laplante-jr"
+       }
+      },
+      {
+       "area": "Labor and economy",
+       "topic": "Support further Fed interest rate hikes",
+       "stance": "Against",
+       "text": "He opposes further Federal Reserve rate increases as an anti-inflation tool.",
+       "quote": "",
+       "year": "2026",
+       "source": {
+        "label": "Citizens Count Issue Survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/edmond-j-laplante-jr"
+       }
+      },
+      {
+       "area": "Energy and climate",
+       "topic": "Tax carbon emissions",
+       "stance": "Against",
+       "text": "He opposes a federal tax on carbon emissions.",
+       "quote": "",
+       "year": "2026",
+       "source": {
+        "label": "Citizens Count Issue Survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/edmond-j-laplante-jr"
+       }
+      },
+      {
+       "area": "Federal issues",
+       "topic": "War in Iran",
+       "stance": "Other",
+       "text": "He believes the U.S. should stay out of foreign conflicts that do not directly affect it.",
+       "quote": "We should stay out of foreign affairs that don't effect us directly",
+       "year": "2026",
+       "source": {
+        "label": "Citizens Count Issue Survey, 2026",
+        "url": "https://www.citizenscount.org/candidate/edmond-j-laplante-jr"
+       }
+      },
+      {
+       "area": "Education",
+       "topic": "Ban federal funds for \"divisive concepts\" in schools",
+       "stance": "For",
+       "text": "He supports barring federal funds from schools that teach concepts such as critical race theory.",
+       "quote": "",
+       "year": "2022",
+       "source": {
+        "label": "Citizens Count Issue Survey, 2022",
+        "url": "https://www.citizenscount.org/candidate/edmond-j-laplante-jr"
+       }
+      },
+      {
+       "area": "Public safety and courts",
+       "topic": "End qualified immunity",
+       "stance": "Other",
+       "text": "He says his view depends on the circumstances of each case.",
+       "quote": "Depending on circumstances",
+       "year": "2022",
+       "source": {
+        "label": "Citizens Count Issue Survey, 2022",
+        "url": "https://www.citizenscount.org/candidate/edmond-j-laplante-jr"
+       }
+      },
+      {
+       "area": "Taxes and spending",
+       "topic": "Expanded child tax credit",
+       "stance": "Against",
+       "text": "He opposes a larger child tax credit paid monthly to middle- and low-income families.",
+       "quote": "",
+       "year": "2022",
+       "source": {
+        "label": "Citizens Count Issue Survey, 2022",
+        "url": "https://www.citizenscount.org/candidate/edmond-j-laplante-jr"
+       }
+      },
+      {
+       "area": "Abortion",
+       "topic": "Federal abortion ban after 24 weeks",
+       "stance": "For",
+       "text": "He supports a federal ban on abortion after 24 weeks, with exceptions for rape, incest, and serious health risks.",
+       "quote": "",
+       "year": "2022",
+       "source": {
+        "label": "Citizens Count Issue Survey, 2022",
+        "url": "https://www.citizenscount.org/candidate/edmond-j-laplante-jr"
+       }
+      },
+      {
+       "area": "Guns",
+       "topic": "Limit firearms under age 21",
+       "stance": "Against",
+       "text": "He opposes federal limits on certain gun purchases by people under 21.",
+       "quote": "",
+       "year": "2022",
+       "source": {
+        "label": "Citizens Count Issue Survey, 2022",
+        "url": "https://www.citizenscount.org/candidate/edmond-j-laplante-jr"
+       }
+      },
+      {
+       "area": "Taxes and spending",
+       "topic": "Lower federal tax rate for corporations",
+       "stance": "Other",
+       "text": "He says a corporate tax cut depends on economic conditions.",
+       "quote": "Depends on economy",
+       "year": "2022",
+       "source": {
+        "label": "Citizens Count Issue Survey, 2022",
+        "url": "https://www.citizenscount.org/candidate/edmond-j-laplante-jr"
+       }
+      },
+      {
+       "area": "Immigration",
+       "topic": "Mexican border wall",
+       "stance": "For",
+       "text": "He supports building a physical wall along the U.S.-Mexico border.",
+       "quote": "",
+       "year": "2022",
+       "source": {
+        "label": "Citizens Count Issue Survey, 2022",
+        "url": "https://www.citizenscount.org/candidate/edmond-j-laplante-jr"
+       }
+      },
+      {
+       "area": "Taxes and spending",
+       "topic": "New wealth tax",
+       "stance": "Against",
+       "text": "He opposes a 20% tax on the income and unrealized gains of households worth over $100 million.",
+       "quote": "",
+       "year": "2022",
+       "source": {
+        "label": "Citizens Count Issue Survey, 2022",
+        "url": "https://www.citizenscount.org/candidate/edmond-j-laplante-jr"
+       }
+      },
+      {
+       "area": "Elections and voting",
+       "topic": "Require voter ID",
+       "stance": "For",
+       "text": "He supports requiring government-issued photo ID to vote.",
+       "quote": "",
+       "year": "2022",
+       "source": {
+        "label": "Citizens Count Issue Survey, 2022",
+        "url": "https://www.citizenscount.org/candidate/edmond-j-laplante-jr"
+       }
+      },
+      {
+       "area": "Federal issues",
+       "topic": "Revise Section 230",
+       "stance": "Other",
+       "text": "He wants social media companies held to the same standard for spreading misinformation as other publishers.",
+       "quote": "Social media should be held to same standards for spreading misinformation",
+       "year": "2022",
+       "source": {
+        "label": "Candidate's Website, 2022",
+        "url": "https://www.citizenscount.org/candidate/edmond-j-laplante-jr"
+       }
+      },
+      {
+       "area": "Education",
+       "topic": "Student loan forgiveness",
+       "stance": "Against",
+       "text": "He opposes canceling up to $10,000 of student debt per borrower.",
+       "quote": "",
+       "year": "2022",
+       "source": {
+        "label": "Citizens Count Issue Survey, 2022",
+        "url": "https://www.citizenscount.org/candidate/edmond-j-laplante-jr"
+       }
+      },
+      {
+       "area": "Immigration",
+       "topic": "Title 42 border controls",
+       "stance": "For",
+       "text": "He supports continuing to turn back asylum seekers under Title 42.",
+       "quote": "",
+       "year": "2022",
+       "source": {
+        "label": "Citizens Count Issue Survey, 2022",
         "url": "https://www.citizenscount.org/candidate/edmond-j-laplante-jr"
        }
       }
@@ -724,7 +3552,15 @@
       "label": "Citizens Count candidate profile",
       "url": "https://www.citizenscount.org/candidate/edmond-j-laplante-jr"
      },
-     "party_note": "Citizens Count's Conway, Bartlett, Jackson and Madison ballot pages list him as Independent/Other; he is state chairman of the Constitution Party of NH."
+     "party_note": "Citizens Count's Conway, Bartlett, Jackson and Madison ballot pages list him as Independent/Other; he is state chairman of the Constitution Party of NH.",
+     "profileUrl": "https://www.citizenscount.org/candidate/edmond-j-laplante-jr",
+     "profileSource": "Citizens Count",
+     "experience": "State Chairman, Constitution Party of NH (2003 - present); SAU 93 Richmond Representative (2003 - present); Auto Mechanic (1984 - present); Marine Veteran (1999 - 2007); A&P License",
+     "education": "Associate Degree Aviation Science, Central Texas College; Master Technician, Ohio Diesel & Gas Technical Institute; Monachusett Regional Tech (1982 - 1986)",
+     "noResponse": 22,
+     "summary": "Laplante answered all 34 questions on the 2026 Citizens Count survey and 12 on the 2022 survey, and did not answer the 22 state-level questions on the 2024 survey. On taxes and spending, he is for a federal balanced budget amendment and matching spending cuts, and against raising taxes to reduce the deficit, a wealth tax, an expanded child tax credit, and raising the Social Security income cap. On immigration, he is for an amendment limiting birthright citizenship, a border wall, Title 42, and requiring cities to cooperate with ICE, and against abolishing ICE. On elections, he is for proof of citizenship to vote and voter ID, and against mail-in voting for all and term limits. On abortion, he is against a federal right to abortion before 24 weeks and for a federal ban after 24 weeks with exceptions, and on foreign policy he repeatedly says the U.S. \"should stay out of foreign affairs that don't affect us directly.\"",
+     "summaryFrom": "46 positions on Citizens Count, fetched Nov 3, 2026",
+     "positionsAsOf": "2026-11-03"
     }
    ],
    "source": {
@@ -752,56 +3588,170 @@
      "website": "https://stefanyshaheen.com",
      "positions": [
       {
-       "topic": "Health care",
-       "stance": "For Medicare for All with automatic enrollment; against an opt-in version. Says she would break up health care monopolies.",
-       "quote": "We absolutely, positively need Medicare for All.",
-       "source": {
-        "label": "Citizens Count, 2026 (WMUR)",
-        "url": "https://www.citizenscount.org/candidate/stefany-shaheen"
-       }
-      },
-      {
-       "topic": "Housing",
-       "stance": "For limiting private equity purchase of homes; would expand support for first-time and middle class homebuyers and the Low-Income Housing Tax Credit.",
-       "quote": "Step one is to end these Wall Street tax breaks for buying up our homes.",
-       "source": {
-        "label": "Citizens Count, 2026 (candidate website)",
-        "url": "https://www.citizenscount.org/candidate/stefany-shaheen"
-       }
-      },
-      {
-       "topic": "Tariffs",
-       "stance": "For decreasing tariffs on imports.",
-       "quote": "The Supreme Court said clearly: Trump's tariffs are illegal.",
-       "source": {
-        "label": "Citizens Count, 2026 (candidate website)",
-        "url": "https://www.citizenscount.org/candidate/stefany-shaheen"
-       }
-      },
-      {
-       "topic": "Abortion",
-       "stance": "Against a federal abortion ban; for a federal right to abortion before 24 weeks.",
-       "quote": "Like millions of women I needed an abortion when a pregnancy went wrong.",
-       "source": {
-        "label": "Citizens Count, 2026 (candidate website)",
-        "url": "https://www.citizenscount.org/candidate/stefany-shaheen"
-       }
-      },
-      {
-       "topic": "Campaign finance",
-       "stance": "For an amendment to limit outside campaign funding.",
-       "quote": "Get Dark Money Out: Overturn Citizens United",
-       "source": {
-        "label": "Citizens Count, 2026 (candidate website)",
-        "url": "https://www.citizenscount.org/candidate/stefany-shaheen"
-       }
-      },
-      {
-       "topic": "Immigration",
-       "stance": "Other on abolishing ICE; says the agency must be overhauled.",
+       "area": "Immigration",
+       "topic": "Abolish I.C.E.",
+       "stance": "Other",
+       "text": "She wants ICE overhauled to meet local police standards, including body cameras, a mask ban, and no ICE warehouses in NH.",
        "quote": "ICE must be completely overhauled.",
+       "year": "2026",
        "source": {
-        "label": "Citizens Count, 2026 (candidate website)",
+        "label": "Candidate's Website, 2026",
+        "url": "https://www.citizenscount.org/candidate/stefany-shaheen"
+       }
+      },
+      {
+       "area": "Elections and voting",
+       "topic": "Add U.S. term limits",
+       "stance": "For",
+       "text": "She said yes when asked at a debate whether she supports congressional term limits.",
+       "quote": "Yes",
+       "year": "2026",
+       "source": {
+        "label": "Other, 2026",
+        "url": "https://www.citizenscount.org/candidate/stefany-shaheen"
+       }
+      },
+      {
+       "area": "Elections and voting",
+       "topic": "Amendment to limit outside funding of campaigns",
+       "stance": "For",
+       "text": "She supports overturning Citizens United so political spenders must act under their own names.",
+       "quote": "Get Dark Money Out: Overturn Citizens United",
+       "year": "2026",
+       "source": {
+        "label": "Candidate's Website, 2026",
+        "url": "https://www.citizenscount.org/candidate/stefany-shaheen"
+       }
+      },
+      {
+       "area": "Federal issues",
+       "topic": "Capture of Maduro in Venezuela",
+       "stance": "Against",
+       "text": "She criticizes the military strike as unauthorized by Congress and calls for clear answers on what comes next.",
+       "quote": "this attack defies the rule of law and our Constitution.",
+       "year": "2026",
+       "source": {
+        "label": "Other, 2026",
+        "url": "https://www.citizenscount.org/candidate/stefany-shaheen"
+       }
+      },
+      {
+       "area": "Labor and economy",
+       "topic": "Decrease tariffs on imports",
+       "stance": "For",
+       "text": "She argues the tariffs are illegal, raise prices, and hurt small businesses, allies, and tourism.",
+       "quote": "The Supreme Court said clearly: Trump's tariffs are illegal.",
+       "year": "2026",
+       "source": {
+        "label": "Candidate's Website, 2026",
+        "url": "https://www.citizenscount.org/candidate/stefany-shaheen"
+       }
+      },
+      {
+       "area": "Abortion",
+       "topic": "Federal abortion ban",
+       "stance": "Against",
+       "text": "She opposes a federal abortion ban, citing her own experience with a pregnancy complication.",
+       "quote": "",
+       "year": "2026",
+       "source": {
+        "label": "Candidate's Website, 2026",
+        "url": "https://www.citizenscount.org/candidate/stefany-shaheen"
+       }
+      },
+      {
+       "area": "Abortion",
+       "topic": "Federal right to abortion before 24 weeks",
+       "stance": "For",
+       "text": "She supports abortion access and reproductive rights, citing her own experience with a pregnancy complication.",
+       "quote": "",
+       "year": "2026",
+       "source": {
+        "label": "Candidate's Website, 2026",
+        "url": "https://www.citizenscount.org/candidate/stefany-shaheen"
+       }
+      },
+      {
+       "area": "Environment",
+       "topic": "Increase oil and natural gas leases on public land",
+       "stance": "Against",
+       "text": "She opposes expanded drilling, logging, or mining on public lands and vows to fight changes to the roadless rule.",
+       "quote": "we have to fight this tooth and nail.",
+       "year": "2026",
+       "source": {
+        "label": "Other, 2026",
+        "url": "https://www.citizenscount.org/candidate/stefany-shaheen"
+       }
+      },
+      {
+       "area": "Housing",
+       "topic": "Limit private equity purchase of homes",
+       "stance": "For",
+       "text": "She wants to end tax breaks that let investors buy homes, starting with Wall Street firms.",
+       "quote": "Step one is to end these Wall Street tax breaks for buying up our homes.",
+       "year": "2026",
+       "source": {
+        "label": "Candidate's Website, 2026",
+        "url": "https://www.citizenscount.org/candidate/stefany-shaheen"
+       }
+      },
+      {
+       "area": "Health care",
+       "topic": "Medicare for All, automatic enrollment",
+       "stance": "For",
+       "text": "She supports a single Medicare for All system and rejects a \"for those who want it\" approach.",
+       "quote": "We absolutely, positively need Medicare for All.",
+       "year": "2026",
+       "source": {
+        "label": "WMUR, 2026",
+        "url": "https://www.citizenscount.org/candidate/stefany-shaheen"
+       }
+      },
+      {
+       "area": "Health care",
+       "topic": "Medicare for All, opt-in",
+       "stance": "Against",
+       "text": "She rejects an opt-in model, arguing it would preserve private insurers and fall short of real reform.",
+       "quote": "Tinkering around the edges isn't going to work",
+       "year": "2026",
+       "source": {
+        "label": "WMUR, 2026",
+        "url": "https://www.citizenscount.org/candidate/stefany-shaheen"
+       }
+      },
+      {
+       "area": "Federal issues",
+       "topic": "War in Iran",
+       "stance": "Against",
+       "text": "She opposes the Iran military action, demands a plan and exit strategy, and says Congress should vote on authorization.",
+       "quote": "President Trump promised he would stop forever wars.",
+       "year": "2026",
+       "source": {
+        "label": "Candidate's Facebook Page, 2026",
+        "url": "https://www.citizenscount.org/candidate/stefany-shaheen"
+       }
+      },
+      {
+       "area": "Other",
+       "topic": "Exclude transgender women from sports",
+       "stance": "Other",
+       "text": "She opposes a one-size-fits-all federal law and prefers decisions by coaches, schools, and families.",
+       "quote": "I don't think it's necessary to have a one-size-fits-all federal law.",
+       "year": "2025",
+       "source": {
+        "label": "WMUR, 2025",
+        "url": "https://www.citizenscount.org/candidate/stefany-shaheen"
+       }
+      },
+      {
+       "area": "Federal issues",
+       "topic": "Limit aid to Israel",
+       "stance": "Other",
+       "text": "She calls for an end to the war and a two-state solution, while describing Israel as a democratic partner in the region.",
+       "quote": "The level of cruelty, the level of destruction has to stop.",
+       "year": "2025",
+       "source": {
+        "label": "WMUR, 2025",
         "url": "https://www.citizenscount.org/candidate/stefany-shaheen"
        }
       }
@@ -828,7 +3778,15 @@
      "source": {
       "label": "Citizens Count candidate profile",
       "url": "https://www.citizenscount.org/candidate/stefany-shaheen"
-     }
+     },
+     "profileUrl": "https://www.citizenscount.org/candidate/stefany-shaheen",
+     "profileSource": "Citizens Count",
+     "experience": "Portsmouth City Council (2014 - 2016); Chair, Portsmouth Police Commission (2019 - 2024); Co-Founder and President, Good Measures (2011 - present); author",
+     "education": "Master of Business Administration, MIT; Master of Public Administration, Harvard University",
+     "noResponse": 29,
+     "summary": "Shaheen did not answer the 2026 or 2025 Citizens Count surveys (29 questions marked No Response), so her recorded positions come from her campaign website, debates, and WMUR. On health care, she is for Medicare for All with automatic enrollment and against an opt-in model. On abortion, she is against a federal ban and for a federal right to abortion before 24 weeks. On elections, she is for congressional term limits and for an amendment limiting outside campaign funding. She is for decreasing tariffs and limiting private equity purchases of homes, against the war in Iran and the capture of Maduro without congressional authorization, against more oil and gas leases on public land, and takes an Other position on abolishing ICE, saying it must be overhauled.",
+     "summaryFrom": "14 positions on Citizens Count, fetched Nov 3, 2026",
+     "positionsAsOf": "2026-11-03"
     },
     {
      "id": "anthony-dilorenzo",
@@ -840,56 +3798,242 @@
      "website": "https://dilorenzoforcongress.com/",
      "positions": [
       {
-       "topic": "Taxes",
-       "stance": "Against raising taxes to reduce the deficit; for extending the 2017 tax cuts and ending taxes on tips, overtime and Social Security.",
-       "quote": "Protect the 2017 tax cuts and the elimination of taxes on tips, overtime, and social security.",
+       "area": "Immigration",
+       "topic": "Abolish I.C.E.",
+       "stance": "Against",
+       "text": "At a 2026 debate, DiLorenzo said he backs law enforcement, including immigration enforcement, and sees deportation as the remedy for illegal immigration.",
+       "quote": "the remedy again for illegal immigration is deportation.",
+       "year": "2026",
        "source": {
-        "label": "Citizens Count, 2026 (candidate website)",
+        "label": "Other, 2026",
         "url": "https://www.citizenscount.org/candidate/anthony-dilorenzo"
        }
       },
       {
-       "topic": "Budget",
-       "stance": "For budget cuts to match new spending and for a federal balanced budget amendment.",
+       "area": "Elections and voting",
+       "topic": "Add U.S. term limits",
+       "stance": "For",
+       "text": "At a 2026 debate, he answered yes when asked if he would support congressional term limits.",
+       "quote": "Yes",
+       "year": "2026",
+       "source": {
+        "label": "Other, 2026",
+        "url": "https://www.citizenscount.org/candidate/anthony-dilorenzo"
+       }
+      },
+      {
+       "area": "Taxes and spending",
+       "topic": "Budget cuts to match new spending",
+       "stance": "For",
+       "text": "At a 2026 WMUR debate, he argued the government must stop overspending because deficits fuel inflation.",
        "quote": "We need to stop spending more money than we take in.",
+       "year": "2026",
        "source": {
-        "label": "Citizens Count, 2026 (WMUR)",
+        "label": "WMUR, 2026",
         "url": "https://www.citizenscount.org/candidate/anthony-dilorenzo"
        }
       },
       {
-       "topic": "Energy",
-       "stance": "For repealing the Jones Act to bring natural gas in by tanker; supports more pipelines; opposes drilling in the White Mountain National Forest.",
-       "quote": "we also need to repeal the Jones Act so we can bring natural gas in via tanker.",
+       "area": "Labor and economy",
+       "topic": "Decrease tariffs on imports",
+       "stance": "Other",
+       "text": "At a 2026 WMUR debate, he said tariffs raise revenue, build manufacturing, and open markets, while noting inflation concerns and business strain.",
+       "quote": "we are not feeling the impact of the tariffs significantly.",
+       "year": "2026",
        "source": {
-        "label": "Citizens Count, 2026 (forum)",
+        "label": "WMUR, 2026",
         "url": "https://www.citizenscount.org/candidate/anthony-dilorenzo"
        }
       },
       {
-       "topic": "Immigration",
-       "stance": "Against abolishing ICE.",
-       "quote": "I support law enforcement, including immigration enforcement, and the remedy again for illegal immigration is deportation.",
+       "area": "Other",
+       "topic": "Exclude transgender women from sports",
+       "stance": "For",
+       "text": "His website says he wants to protect women's sports and locker rooms.",
+       "quote": "Protect women's sports and locker rooms.",
+       "year": "2026",
        "source": {
-        "label": "Citizens Count, 2026 (debate)",
+        "label": "Candidate's Website, 2026",
         "url": "https://www.citizenscount.org/candidate/anthony-dilorenzo"
        }
       },
       {
-       "topic": "Health care",
-       "stance": "Against Medicare for All with automatic enrollment.",
+       "area": "Federal issues",
+       "topic": "Federal Balanced Budget Amendment",
+       "stance": "For",
+       "text": "His issues list says he supports a constitutional Balanced Budget Amendment.",
+       "quote": "Balance the federal budget by supporting a Balanced Budget Amendment to the U.S. Constitution.",
+       "year": "2026",
+       "source": {
+        "label": "Candidate's Website, 2026",
+        "url": "https://www.citizenscount.org/candidate/anthony-dilorenzo"
+       }
+      },
+      {
+       "area": "Energy and climate",
+       "topic": "Increase oil and natural gas leases on public land",
+       "stance": "Other",
+       "text": "He supports responsible domestic energy production but opposes drilling, logging, or mining in the White Mountain National Forest.",
+       "quote": "I believe in responsible domestic energy production.",
+       "year": "2026",
+       "source": {
+        "label": "Other, 2026",
+        "url": "https://www.citizenscount.org/candidate/anthony-dilorenzo"
+       }
+      },
+      {
+       "area": "Energy and climate",
+       "topic": "Keystone XL pipeline",
+       "stance": "Other",
+       "text": "At a 2026 WMUR debate, he generally backed more pipelines to lower New England energy costs.",
+       "quote": "that would significantly lower our costs here in New England.",
+       "year": "2026",
+       "source": {
+        "label": "WMUR, 2026",
+        "url": "https://www.citizenscount.org/candidate/anthony-dilorenzo"
+       }
+      },
+      {
+       "area": "Federal issues",
+       "topic": "Limit aid to Israel",
+       "stance": "Other",
+       "text": "At a 2026 debate, he said he supports Israel, opposes the U.S. acting as the world's policeman, and wants military funding tied to humanitarian conduct.",
+       "quote": "I do not believe that the United States should be the world's policeman.",
+       "year": "2026",
+       "source": {
+        "label": "Other, 2026",
+        "url": "https://www.citizenscount.org/candidate/anthony-dilorenzo"
+       }
+      },
+      {
+       "area": "Health care",
+       "topic": "Medicare for All, automatic enrollment",
+       "stance": "Against",
+       "text": "At an October 2026 debate, he opposed government-run health care and said he wants private health care.",
        "quote": "I want to see private healthcare.",
+       "year": "2026",
        "source": {
-        "label": "Citizens Count, 2026 (October debate)",
+        "label": "Other, 2026",
         "url": "https://www.citizenscount.org/candidate/anthony-dilorenzo"
        }
       },
       {
-       "topic": "Abortion",
-       "stance": "Against a federal abortion ban and against a federal right to abortion before 24 weeks; says he would respect New Hampshire's laws.",
-       "quote": "Oppose federal abortion legislation and respect New Hampshire's laws.",
+       "area": "Federal issues",
+       "topic": "Military aid to Ukraine",
+       "stance": "Other",
+       "text": "At a 2026 debate, he said allies should be supported but required to support themselves, and military funding should carry humanitarian conditions.",
+       "quote": "any military funding should come with a string",
+       "year": "2026",
        "source": {
-        "label": "Citizens Count, 2025 (candidate website)",
+        "label": "Other, 2026",
+        "url": "https://www.citizenscount.org/candidate/anthony-dilorenzo"
+       }
+      },
+      {
+       "area": "Federal issues",
+       "topic": "Privatize social security",
+       "stance": "Other",
+       "text": "At a 2026 debate, he said Social Security is solvable and that contributions should be invested to protect future obligations.",
+       "quote": "I think Social Security is a solvable issue.",
+       "year": "2026",
+       "source": {
+        "label": "Other, 2026",
+        "url": "https://www.citizenscount.org/candidate/anthony-dilorenzo"
+       }
+      },
+      {
+       "area": "Elections and voting",
+       "topic": "Proof of citizenship to vote",
+       "stance": "For",
+       "text": "At a 2026 WMUR debate, he said New Hampshire's voting laws are sound and that the federal government should enforce voter eligibility requirements nationwide.",
+       "quote": "we need the federal government to step in to enforce the Constitution",
+       "year": "2026",
+       "source": {
+        "label": "WMUR, 2026",
+        "url": "https://www.citizenscount.org/candidate/anthony-dilorenzo"
+       }
+      },
+      {
+       "area": "Taxes and spending",
+       "topic": "Raise taxes to reduce budget deficit",
+       "stance": "Against",
+       "text": "His website says he wants to protect the 2017 tax cuts and the elimination of taxes on tips, overtime, and Social Security.",
+       "quote": "Protect the 2017 tax cuts and the elimination of taxes on tips, overtime, and social security.",
+       "year": "2026",
+       "source": {
+        "label": "Candidate's Website, 2026",
+        "url": "https://www.citizenscount.org/candidate/anthony-dilorenzo"
+       }
+      },
+      {
+       "area": "Labor and economy",
+       "topic": "Revise Jones Act",
+       "stance": "For",
+       "text": "At a 2026 candidate forum, he said a Pennsylvania pipeline is needed and the Jones Act should be repealed so natural gas can arrive by tanker.",
+       "quote": "we also need to repeal the Jones Act so we can bring natural gas in via tanker.",
+       "year": "2026",
+       "source": {
+        "label": "Other, 2026",
+        "url": "https://www.citizenscount.org/candidate/anthony-dilorenzo"
+       }
+      },
+      {
+       "area": "Federal issues",
+       "topic": "War in Iran",
+       "stance": "Other",
+       "text": "At a 2026 debate, he opposed an Iranian nuclear weapon, backed the president's pressure and diplomacy, and opposed ground troops.",
+       "quote": "I would not support boots on the ground in Iran.",
+       "year": "2026",
+       "source": {
+        "label": "Other, 2026",
+        "url": "https://www.citizenscount.org/candidate/anthony-dilorenzo"
+       }
+      },
+      {
+       "area": "Guns",
+       "topic": "\"Military-style\" firearms ban",
+       "stance": "Against",
+       "text": "His stated position is to defend lawful citizens' gun ownership rights.",
+       "quote": "Defend every law-abiding citizen's right to possess/own a firearm.",
+       "year": "2025",
+       "source": {
+        "label": "Citizens Count Issue Survey, 2025",
+        "url": "https://www.citizenscount.org/candidate/anthony-dilorenzo"
+       }
+      },
+      {
+       "area": "Taxes and spending",
+       "topic": "Extend Trump tax act",
+       "stance": "For",
+       "text": "His website says he wants to protect the 2017 tax cuts and the elimination of taxes on tips, overtime, and Social Security.",
+       "quote": "Protect the 2017 tax cuts and the elimination of taxes on tips, overtime, and social security.",
+       "year": "2025",
+       "source": {
+        "label": "Candidate's Website, 2025",
+        "url": "https://www.citizenscount.org/candidate/anthony-dilorenzo"
+       }
+      },
+      {
+       "area": "Abortion",
+       "topic": "Federal abortion ban",
+       "stance": "Against",
+       "text": "His website says he opposes federal abortion legislation and wants New Hampshire's laws respected.",
+       "quote": "Oppose federal abortion legislation and respect New Hampshire's laws.",
+       "year": "2025",
+       "source": {
+        "label": "Candidate's Website, 2025",
+        "url": "https://www.citizenscount.org/candidate/anthony-dilorenzo"
+       }
+      },
+      {
+       "area": "Abortion",
+       "topic": "Federal right to abortion before 24 weeks",
+       "stance": "Against",
+       "text": "His website says he opposes federal abortion legislation and wants New Hampshire's laws respected.",
+       "quote": "Oppose federal abortion legislation and respect New Hampshire's laws.",
+       "year": "2025",
+       "source": {
+        "label": "Candidate's Website, 2025",
         "url": "https://www.citizenscount.org/candidate/anthony-dilorenzo"
        }
       }
@@ -916,7 +4060,14 @@
      "source": {
       "label": "Citizens Count candidate profile",
       "url": "https://www.citizenscount.org/candidate/anthony-dilorenzo"
-     }
+     },
+     "profileUrl": "https://www.citizenscount.org/candidate/anthony-dilorenzo",
+     "profileSource": "Citizens Count",
+     "experience": "Owner, Key Auto Group",
+     "noResponse": 23,
+     "summary": "DiLorenzo did not answer most of the 2026 and 2025 Citizens Count surveys (23 questions marked No Response), so his recorded positions come mainly from debates, WMUR, and his campaign website. On taxes and spending, he is for a federal balanced budget amendment, budget cuts to match new spending, and extending the 2017 tax act, and against raising taxes to reduce the deficit. On abortion, he is against both a federal abortion ban and a federal right to abortion before 24 weeks, saying federal abortion legislation should be opposed and New Hampshire's laws respected. He is against a ban on military-style firearms, against abolishing ICE, against Medicare for All with automatic enrollment, and for congressional term limits, proof of citizenship to vote, and repealing the Jones Act. On tariffs, energy leases, Israel, Ukraine, Iran, and Social Security he takes an Other position.",
+     "summaryFrom": "20 positions on Citizens Count, fetched Nov 3, 2026",
+     "positionsAsOf": "2026-11-03"
     }
    ],
    "source": {

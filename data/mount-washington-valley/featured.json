@@ -1,0 +1,145 @@
+{
+ "as_of": "2026-11-03",
+ "note": "One featured item at a time on Home. Election results: fill each town's count from its Town Clerk's posted results (Conway, Bartlett, Jackson, Madison, Tamworth) and record the valley total; mark called only when the Secretary of State or two news outlets have called the race. Rules in UPDATE.md.",
+ "items": [
+  {
+   "id": "election-2026-11-03",
+   "kind": "election",
+   "from": "2026-11-03",
+   "until": "2026-11-08",
+   "election": "2026-11-03",
+   "results": {
+    "status": "polls-open",
+    "asOf": null,
+    "note": "Each valley town posts its own count after the polls close; the figures here add up the five towns. Statewide races are called by the Secretary of State and news outlets.",
+    "source": {
+     "label": "Town of Conway elections",
+     "url": "https://conwaynh.gov/pages/elections"
+    },
+    "turnout": {
+     "ballots": null,
+     "registered": null
+    },
+    "races": [
+     {
+      "id": "governor",
+      "office": "Governor",
+      "district": "Statewide",
+      "called": false,
+      "winner": null,
+      "candidates": [
+       {
+        "id": "kelly-ayotte",
+        "name": "Kelly Ayotte",
+        "party": "R",
+        "votes": null
+       },
+       {
+        "id": "cinde-warmington",
+        "name": "Cinde Warmington",
+        "party": "D",
+        "votes": null
+       },
+       {
+        "id": "stephen-villee",
+        "name": "Stephen Villee",
+        "party": "L",
+        "votes": null
+       }
+      ]
+     },
+     {
+      "id": "us-senate",
+      "office": "U.S. Senate",
+      "district": "Statewide",
+      "called": false,
+      "winner": null,
+      "candidates": [
+       {
+        "id": "chris-pappas",
+        "name": "Chris Pappas",
+        "party": "D",
+        "votes": null
+       },
+       {
+        "id": "john-e-sununu",
+        "name": "John E. Sununu",
+        "party": "R",
+        "votes": null
+       },
+       {
+        "id": "edmond-laplante",
+        "name": "Edmond J. Laplante Jr.",
+        "party": "Other",
+        "votes": null
+       }
+      ]
+     },
+     {
+      "id": "us-house-1",
+      "office": "U.S. House",
+      "district": "District 1",
+      "called": false,
+      "winner": null,
+      "candidates": [
+       {
+        "id": "stefany-shaheen",
+        "name": "Stefany Shaheen",
+        "party": "D",
+        "votes": null
+       },
+       {
+        "id": "anthony-dilorenzo",
+        "name": "Anthony DiLorenzo",
+        "party": "R",
+        "votes": null
+       }
+      ]
+     },
+     {
+      "id": "exec-council-1",
+      "office": "Executive Council",
+      "district": "District 1",
+      "called": false,
+      "winner": null,
+      "candidates": [
+       {
+        "id": "joseph-kenney",
+        "name": "Joseph D. Kenney",
+        "party": "R",
+        "votes": null
+       },
+       {
+        "id": "luz-bay",
+        "name": "Luz Bay",
+        "party": "D",
+        "votes": null
+       }
+      ]
+     },
+     {
+      "id": "state-senate-3",
+      "office": "State Senate",
+      "district": "District 3",
+      "called": false,
+      "winner": null,
+      "candidates": [
+       {
+        "id": "mark-mcconkey",
+        "name": "Mark E. McConkey",
+        "party": "R",
+        "votes": null
+       },
+       {
+        "id": "bobbi-boudman",
+        "name": "Bobbi Boudman",
+        "party": "D",
+        "votes": null
+       }
+      ]
+     }
+    ]
+   }
+  }
+ ]
+}
