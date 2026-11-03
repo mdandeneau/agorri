@@ -535,10 +535,10 @@
    }
   },
   {
-   "value": "$560K",
-   "label": "Economic Council pandemic loans",
-   "note": "Low-interest loans to 27 small local businesses",
-   "as_of": null,
+   "value": "$400K",
+   "label": "Economic Council revolving loan fund",
+   "note": "Lends to small businesses and startups across 13 valley towns; fund intact after the Tech Village sale, per its executive director",
+   "as_of": "2026-06",
    "source": {
     "label": "Conway Daily Sun, Jun 11, 2026",
     "url": "https://www.conwaydailysun.com/news/local/after-sale-of-tech-village-whats-next-for-economic-council/article_db83d604-5912-44ed-95f7-6b387209a094.html"
