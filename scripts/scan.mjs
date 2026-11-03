@@ -14,7 +14,7 @@ const ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..')
 const PORT = 8800 + Math.floor(Math.random() * 100);
 const QUIET = process.argv.includes('--quiet');
 const ROUTES = ['home', 'local', 'business', 'market', 'parks', 'schools', 'sports', 'issues', 'talk', 'ideas', 'safety', 'election', 'housing', 'budget', 'officials', 'beyond', 'record', 'around', 'town', 'events', 'faith', 'lookup', 'unsure', 'social', 'staff', 'mod'];
-const HANDLED = /^(issue-.+|official-.+|meeting-.+|bmeeting-.+|person-.+|talk-.+|candidate-.+|issues|ideas|around|lookup|budget|officials|record|beyond|town|safety|safety-log|safety-latest|local|events|social|business|market|parks|schools|sports|faith|unsure|housing|election|vote|candidates|neighbors|talk|mod|friends|staff|home|home-classic|home-v39|home-v40)$/;
+const HANDLED = /^(issue-.+|official-.+|meeting-.+|bmeeting-.+|person-.+|talk-.+|candidate-.+|issues|ideas|around|lookup|budget|officials|record|beyond|town|safety|safety-log|safety-latest|local|events|social|business|market|parks|schools|sports|faith|unsure|housing|election|vote|candidates|where|neighbors|talk|mod|friends|staff|home|home-classic|home-v39|home-v40)$/;
 
 const srv = http.createServer((req, res) => {
   let u = req.url.split('?')[0];
@@ -79,6 +79,8 @@ for (const t of towns) {
       const iss = go('issues'); const t0 = iss.querySelector('.nband .bn-t .big'); if (t0 && +t0.innerText !== D.issues.length) out.push(`issues: strip says ${t0.innerText} being decided, record has ${D.issues.length}`);
       const loc = go('local'); const l0 = loc.querySelector('.nband .bn-t .big'); const wk = upcomingEvents().filter(e => e.date <= addDays(TODAY, 6)).length; if (l0 && +l0.innerText !== wk) out.push(`local: strip says ${l0.innerText} events this week, calendar has ${wk}`);
       if (LX && LX.market) { const mk = go('market'); const m0 = mk.querySelector('.nband .bn-t .big'); const n = (LX.market.sales || []).filter(x => !x.date || x.date >= TODAY).length; if (m0 && +m0.innerText !== n) out.push(`market: strip says ${m0.innerText} sales, list has ${n}`); }
+      if (LX && LX.election && LX.election.date >= TODAY) { const w = go('where'); if (!w.querySelector('#where-to-vote')) out.push('where: "Where to vote" lands on a page without polling places'); }
+      const home = go('home'); [...home.querySelectorAll('a[href^="#"]')].forEach(a => { if (/where to vote/i.test(a.innerText) && a.getAttribute('href') !== '#where') out.push(`home: "Where to vote" links to ${a.getAttribute('href')}`); });
       go('home'); return out;
     });
     nb.forEach(c => problems.push(`${label}: ${c}`));

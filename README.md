@@ -77,6 +77,10 @@ Ideas, questions, debate arguments (for or against an issue), comments, replies 
 - Authors can always ask a person to review a blocked or removed post. Automatic checks also block phone numbers, emails, more than two links, and more than 5 posts in 10 minutes.
 - Without `ANTHROPIC_API_KEY`, posts go live after the rule checks and three flags hide a post until a person reviews it.
 
+## Talk, Business and Vote layout (Nov 3, 2026)
+
+Talk shows residents' posts and, below them, what officials are posting (the live social feed; `#social` still opens every account). Business carries the housing market block (median price, homes sold, days on market, over asking, with the Seacoast summary); Local no longer does. "Where to vote" links to `#where`, the Vote page opened at the polling places, and on Election Day the polling places sit at the top of Vote.
+
 ## By the numbers on every section
 
 Every sidebar section (Local, Business, Parks and public works, Schools, Sports, Issues, Talk, Safety, Vote) opens with a By the numbers strip of up to four short figures, with a small graphic where the data has a shape: bars by day for anything on a calendar, a split bar for a mix, a meter for a share. The figures are computed in the page (`NB` in index.html) from the same data the section shows, so they update with every refresh and can never disagree with the page under them. The Buy and sell page (`#market`, reached from Local) has one too. Business also shows its sourced `stats` from business.json. `scripts/scan.mjs` fails if a section is missing its strip, the strip is not at the top, a value is too long for a tile, or a strip's first figure disagrees with the list under it.
