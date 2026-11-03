@@ -1,8 +1,8 @@
 {
  "as_of": "2026-11-03",
- "note": "Buy and sell around Portsmouth, built only from sources that allow it: the city's own surplus sales, auction houses' own schedules, library and school sales, and eBay's public Browse API filtered to local pickup. Craigslist, Facebook Marketplace and OfferUp publish no feed and forbid automated copying, so they appear here only as links the resident opens. Nothing is scraped from a site whose terms forbid it. `surplus` and `sales` are filled by the daily refresh from the sources under `watch`; each item links to where it came from.",
+ "note": "Buy and sell around Portsmouth and the surrounding Seacoast (the Greater Portsmouth towns plus Kittery and York across the river), built only from sources that allow it: town surplus sales from each town's own site, auction houses' own schedules, library and school sales, and eBay's public Browse API filtered to local pickup. Craigslist, Facebook Marketplace and OfferUp publish no feed and forbid automated copying, so they appear here only as links the resident opens. `surplus` and `sales` are filled by the daily refresh from the sources under `watch` and from every Greater Portsmouth town's inbox; each item carries a `town` and links to where it came from.",
  "zip": "03801",
- "radius": 25,
+ "radius": 30,
  "surplus": [],
  "sales": [],
  "watch": [
@@ -11,6 +11,11 @@
    "what": "City of Portsmouth surplus sales (bid archive; items whose title says sale, surplus or auction)",
    "url": "https://www.portsmouthnh.gov/finance/bids-archive",
    "how": "ingest/sources.json portsmouth/surplus-sales"
+  },
+  {
+   "id": "area-town-sites",
+   "what": "Every Greater Portsmouth town's own notices and news feed (ingest/sources.json: dover, exeter, hampton, durham, rye, stratham, greenland, north-hampton, newmarket) for surplus sales, auctions, town-wide yard sales and swaps",
+   "how": "inbox/<town>/items.json, kind notice or market"
   },
   {
    "id": "city-opengov",
@@ -51,14 +56,14 @@
   {
    "kind": "Government surplus",
    "name": "GovDeals",
-   "what": "Where many cities auction surplus vehicles and equipment. Set your location on the site to see what is near Portsmouth.",
+   "what": "Where many cities and towns auction surplus vehicles and equipment. Set your location on the site to see what is near the Seacoast.",
    "url": "https://www.govdeals.com/",
    "source": "GovDeals"
   },
   {
    "kind": "Estate sales",
    "name": "Estate sales near 03801",
-   "what": "Estate sales and estate auctions within driving distance, with dates and photos.",
+   "what": "Estate sales and estate auctions across the Seacoast and southern Maine within driving distance of Portsmouth, with dates and photos.",
    "url": "https://www.estatesales.net/NH/Portsmouth/03801",
    "source": "EstateSales.net"
   },
@@ -107,5 +112,20 @@
    "source": "OfferUp",
    "external": true
   }
+ ],
+ "area": "Portsmouth and the Seacoast",
+ "areaTowns": [
+  "Portsmouth",
+  "Dover",
+  "Exeter",
+  "Hampton",
+  "Durham",
+  "Rye",
+  "Stratham",
+  "Greenland",
+  "North Hampton",
+  "Newmarket",
+  "Kittery",
+  "York"
  ]
 }
