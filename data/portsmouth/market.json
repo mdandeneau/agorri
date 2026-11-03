@@ -1,16 +1,84 @@
 {
  "as_of": "2026-11-03",
- "note": "Buy and sell around Portsmouth, built only from sources that allow it: the city's own surplus sales, auction houses' own schedules, library and school sales, and eBay's public Browse API filtered to local pickup. Craigslist, Facebook Marketplace and OfferUp publish no feed and forbid automated copying, so they appear here only as links the resident opens. Nothing is scraped from a site whose terms forbid it. `surplus` and `sales` are filled by the daily refresh from the sources under `watch`; each item links to where it came from.",
+ "note": "Buy and sell around Portsmouth and the surrounding Seacoast (the Greater Portsmouth towns plus Kittery and York across the river), built only from sources that allow it: town surplus sales from each town's own site, auction houses' own schedules, library and school sales, and eBay's public Browse API filtered to local pickup. Craigslist, Facebook Marketplace and OfferUp publish no feed and forbid automated copying, so they appear here only as links the resident opens. `sales` lists title, date, town and link only, the way the paper's headlines are handled; descriptions and photos stay on the listing site. `surplus` and `sales` are filled by the daily refresh from the sources under `watch` and from every Greater Portsmouth town's inbox; each item carries a `town` and links to where it came from.",
  "zip": "03801",
- "radius": 25,
+ "radius": 30,
  "surplus": [],
- "sales": [],
+ "sales": [
+  {
+   "title": "Civil War firearms, flags and memorabilia; 150 lots of gold coins, currency and silver",
+   "kind": "Online auction",
+   "date": "2026-11-07",
+   "time": "Ends 2 pm",
+   "town": "North Hampton",
+   "where": "Paul McInnis LLC",
+   "url": "https://www.estatesales.net/NH/North-Hampton/03862/5125929",
+   "source": "EstateSales.net"
+  },
+  {
+   "title": "Fall Estate Auction",
+   "kind": "Auction",
+   "date": "2026-11-07",
+   "time": "9:30 am",
+   "town": "North Hampton",
+   "where": "1 Juniper Road",
+   "url": "https://paulmcinnis.com/auctions/upcoming-auctions/26pm-29-fall-estate-auction/",
+   "source": "Paul McInnis LLC",
+   "note": "Catalog posted"
+  },
+  {
+   "title": "Dover downsizing online auction",
+   "kind": "Online auction",
+   "date": "2026-11-08",
+   "time": "Ends 7:15 pm",
+   "town": "Dover",
+   "where": "Bidrush",
+   "url": "https://www.estatesales.net/NH/Dover/03820/5139177",
+   "source": "EstateSales.net"
+  },
+  {
+   "title": "The Brunson Family Collection",
+   "kind": "Estate sale",
+   "date": "2026-11-15",
+   "time": "10 am",
+   "town": "Portsmouth",
+   "where": "Bray & Co Auctions",
+   "url": "https://www.estatesales.net/NH/Portsmouth/03801/5132877",
+   "source": "EstateSales.net"
+  },
+  {
+   "title": "The Chester Bearce Collection: farm, landscaping and property maintenance equipment",
+   "kind": "Auction",
+   "date": "2026-11-17",
+   "time": "2 pm",
+   "town": "Newton",
+   "where": "4 Merrimac Road",
+   "url": "https://paulmcinnis.com/auctions/upcoming-auctions/26pm-21/",
+   "source": "Paul McInnis LLC",
+   "note": "Catalog posted"
+  },
+  {
+   "title": "Former country store, 219 Main Street",
+   "kind": "Real estate auction",
+   "date": "2026-11-23",
+   "time": "2 pm",
+   "town": "Hampstead",
+   "where": "On site",
+   "url": "https://paulmcinnis.com/auctions/upcoming-auctions/26pm-33-hampstead-nh/",
+   "source": "Paul McInnis LLC"
+  }
+ ],
  "watch": [
   {
    "id": "city-bids",
    "what": "City of Portsmouth surplus sales (bid archive; items whose title says sale, surplus or auction)",
    "url": "https://www.portsmouthnh.gov/finance/bids-archive",
    "how": "ingest/sources.json portsmouth/surplus-sales"
+  },
+  {
+   "id": "area-town-sites",
+   "what": "Every Greater Portsmouth town's own notices and news feed (ingest/sources.json: dover, exeter, hampton, durham, rye, stratham, greenland, north-hampton, newmarket) for surplus sales, auctions, town-wide yard sales and swaps",
+   "how": "inbox/<town>/items.json, kind notice or market"
   },
   {
    "id": "city-opengov",
@@ -51,14 +119,14 @@
   {
    "kind": "Government surplus",
    "name": "GovDeals",
-   "what": "Where many cities auction surplus vehicles and equipment. Set your location on the site to see what is near Portsmouth.",
+   "what": "Where many cities and towns auction surplus vehicles and equipment. Set your location on the site to see what is near the Seacoast.",
    "url": "https://www.govdeals.com/",
    "source": "GovDeals"
   },
   {
    "kind": "Estate sales",
    "name": "Estate sales near 03801",
-   "what": "Estate sales and estate auctions within driving distance, with dates and photos.",
+   "what": "Estate sales and estate auctions across the Seacoast and southern Maine within driving distance of Portsmouth, with dates and photos.",
    "url": "https://www.estatesales.net/NH/Portsmouth/03801",
    "source": "EstateSales.net"
   },
@@ -107,5 +175,22 @@
    "source": "OfferUp",
    "external": true
   }
- ]
+ ],
+ "area": "Portsmouth and the Seacoast",
+ "areaTowns": [
+  "Portsmouth",
+  "Dover",
+  "Exeter",
+  "Hampton",
+  "Durham",
+  "Rye",
+  "Stratham",
+  "Greenland",
+  "North Hampton",
+  "Newmarket",
+  "Kittery",
+  "York"
+ ],
+ "nearby": false,
+ "sales_as_of": "2026-11-03"
 }

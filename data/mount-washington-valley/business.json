@@ -1,5 +1,5 @@
 {
- "as_of": "2026-10-30",
+ "as_of": "2026-11-03",
  "note": "From the Town of Conway's own pages (departments, Documents, Public Notices, town code), the Conway Forward zoning project site, the Mt Washington Valley Chamber of Commerce, NH state agencies and open Conway Daily Sun coverage. North Conway is a village in the Town of Conway, so permits and licenses run through Conway Town Hall at 23 Main Street in Conway Village.",
  "organizations": [
   {
@@ -495,12 +495,19 @@
   "tourism",
   "visitors",
   "workforce housing",
-  "zoning"
+  "zoning",
+  "for sale",
+  "listed for sale",
+  "up for sale",
+  "new owner",
+  "changes hands",
+  "business broker"
  ],
  "stats": [
   {
-   "label": "Chamber members",
-   "value": "Close to 600 member businesses and organizations",
+   "value": "~600",
+   "label": "Chamber member businesses and organizations",
+   "note": "Close to 600, per the Mt Washington Valley Chamber",
    "as_of": null,
    "source": {
     "label": "Mt Washington Valley Chamber of Commerce",
@@ -508,8 +515,9 @@
    }
   },
   {
-   "label": "Town of Conway population",
-   "value": "9,822 (2020 census), down from 10,115 in 2010",
+   "value": "9,822",
+   "label": "Conway population, 2020 census",
+   "note": "Down from 10,115 in 2010",
    "as_of": "2020",
    "source": {
     "label": "Wikipedia, Conway, New Hampshire (census figures)",
@@ -517,8 +525,9 @@
    }
   },
   {
-   "label": "North Conway village population",
-   "value": "2,116 (2020 census, census-designated place)",
+   "value": "2,116",
+   "label": "North Conway village population, 2020 census",
+   "note": "Census-designated place",
    "as_of": "2020",
    "source": {
     "label": "Wikipedia, North Conway, New Hampshire (census figures)",
@@ -526,8 +535,9 @@
    }
   },
   {
-   "label": "Economic Council pandemic lending",
-   "value": "$560,000 in low-interest loans to 27 small local businesses",
+   "value": "$560K",
+   "label": "Economic Council pandemic loans",
+   "note": "Low-interest loans to 27 small local businesses",
    "as_of": null,
    "source": {
     "label": "Conway Daily Sun, Jun 11, 2026",
@@ -535,5 +545,15 @@
    }
   }
  ],
- "methodology": "Compiled October 30, 2026 from pages opened this session: conwaynh.gov (Town Departments, Planning and Zoning, Building Inspection, Town Clerk, Assessing, Documents, Public Notices, Broadcast, news RSS), the Chapter 23 Building Construction text posted by the town, the Conway Forward zoning project site, the Mt Washington Valley Chamber (member page, Your Chamber page, member news), the NH SBDC locations page, NH DHHS Food Protection pages, Rep. Pappas's contact page, a 2023 summary of Town of Conway v. Kudrick (casemine.com), and Conway Daily Sun articles and its Business section listing. Notices marked 'Article not opened' are headlines and dates as listed on the Daily Sun Business page. Not covered: the sign permit, rental certificate and special event PDFs could not be opened, so fees and exact rules are not shown; no North Conway or Conway Main Street organization was found; the Economic Council's own website and NHES community profile were not opened; the June 22, 2026 Assessing notice to commercial taxpayers about Sansoucy Associates falls just outside the 120-day window and its text is an image; the TD Bank North Conway branch closing (January 29, 2026) and the MaineHealth Urgent Care opening (February 2026) are older than six months and left out."
+ "methodology": "Compiled October 30, 2026 from pages opened this session: conwaynh.gov (Town Departments, Planning and Zoning, Building Inspection, Town Clerk, Assessing, Documents, Public Notices, Broadcast, news RSS), the Chapter 23 Building Construction text posted by the town, the Conway Forward zoning project site, the Mt Washington Valley Chamber (member page, Your Chamber page, member news), the NH SBDC locations page, NH DHHS Food Protection pages, Rep. Pappas's contact page, a 2023 summary of Town of Conway v. Kudrick (casemine.com), and Conway Daily Sun articles and its Business section listing. Notices marked 'Article not opened' are headlines and dates as listed on the Daily Sun Business page. Not covered: the sign permit, rental certificate and special event PDFs could not be opened, so fees and exact rules are not shown; no North Conway or Conway Main Street organization was found; the Economic Council's own website and NHES community profile were not opened; the June 22, 2026 Assessing notice to commercial taxpayers about Sansoucy Associates falls just outside the 120-day window and its text is an image; the TD Bank North Conway branch closing (January 29, 2026) and the MaineHealth Urgent Care opening (February 2026) are older than six months and left out. Checked November 3, 2026: the valley towns' fetcher inboxes and the Conway Daily Sun Local section showed no new openings, closings, businesses for sale or business notices; the Sun's Business section could not be opened that day.",
+ "forSale": [],
+ "forSaleNote": "Businesses for sale come from local news coverage and town notices, each linked to its source. The listing sites below publish no feed and do not allow copying, so they are links only.",
+ "forSaleLinks": [
+  {
+   "name": "BizBuySell: New Hampshire",
+   "what": "The largest business-for-sale site. Filter by county for Carroll County and the valley towns.",
+   "url": "https://www.bizbuysell.com/new-hampshire-established-businesses-for-sale/",
+   "source": "BizBuySell"
+  }
+ ]
 }

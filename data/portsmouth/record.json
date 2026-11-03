@@ -1,9 +1,9 @@
 {
  "about": {
   "town": "Portsmouth, NH",
-  "as_of": "2026-11-02",
+  "as_of": "2026-11-03",
   "records_from": "2025-10-28",
-  "documents_used": 592,
+  "documents_used": 593,
   "note": "Plain-English summaries written by AI from official city PDFs; every meeting carries its source URL. Items with needs_review=true are where the official record is ambiguous or self-contradictory."
  },
  "next_council_meeting": {
@@ -25,14 +25,15 @@
    "title": "Downtown parking and the resident parking pilot",
    "topic": "Parking & transportation",
    "status": "One-year pilot since July 1, 2026",
-   "next": "RAPP first-quarter report was on the Oct 26 agenda; minutes not yet posted",
+   "next": "RAPP first-quarter report was on the Oct 26 agenda; minutes not yet posted (checked Nov 3). Shuttle working group reports back by Jan 29, 2027.",
    "summary": "Since July 1, residents with registered plates park free in pilot zones near downtown while nonresidents pay. The council has spent much of 2026 adjusting rates and parking for downtown workers, and gets its first data on the pilot on Oct 26.",
    "points": [
     "Aug 17: raising downtown on-street rates to $3 an hour for 3 hours, then $6, failed 3-5. Yes: Moreau, Hopkins, Bagley. No: Kelley, Cook, Flynn, Blalock, McEachern.",
     "Sept 14: resident rates stay at $1.25 an hour for the first 3 hours (8-0). The nonresident increase to $3 and $6 has no recorded final vote in the minutes; the city's RAPP page now lists $3 an hour for nonresidents.",
     "Sept 14: Parrott Avenue from Roger Street to Richards Avenue came out of the pilot, with 4 hours free, 5-3 on a roll call.",
     "Sept 28: downtown workforce parking opened to more downtown workers until March 1, 2027 (7-0).",
-    "A Shuttle Loop and Public Transit Working Group reports back by Jan 29, 2027."
+    "A Shuttle Loop and Public Transit Working Group reports back by Jan 29, 2027.",
+    "Nov 2: the Shuttle Loop and Public Transit Working Group's second meeting agenda covered barriers to riding, a downtown evening circulator, on-demand microtransit (Via) and a possible federal CMAQ grant application by COAST (80 percent federal, 20 percent City match), with a ranked project list to recommend to the Council."
    ],
    "keywords": [
     "parking",
@@ -45,6 +46,10 @@
     {
      "label": "City RAPP page",
      "url": "https://www.portsmouthnh.gov/publicworks/parkportsmouth/rapp"
+    },
+    {
+     "label": "Shuttle Loop and Transit Working Group agenda, Nov 2",
+     "url": "https://files.portsmouthnh.gov/agendas/2026/Seacoast%20Shuttle%20Group/11-02-26%20Agenda.pdf"
     }
    ],
    "scope": "council",

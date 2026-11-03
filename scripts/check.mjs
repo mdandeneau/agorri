@@ -5,6 +5,10 @@ const root = new URL('../', import.meta.url);
 const exists = f => fs.existsSync(new URL(f, root));
 const read = f => JSON.parse(fs.readFileSync(new URL(f, root)));
 const errs = [], warns = [];
+// --strict (or REFRESH=1): freshness and cross-section consistency become errors. The daily refresh runs strict; CI on a
+// code change runs plain, so stale data warns there instead of blocking a layout fix.
+const STRICT = process.argv.includes('--strict') || !!process.env.REFRESH;
+const stale = (msg) => (STRICT ? errs : warns).push(msg);
 const today = new Date().toISOString().slice(0, 10);
 const daysAgo = d => Math.round((Date.parse(today) - Date.parse(d)) / 864e5);
 
@@ -62,7 +66,41 @@ for (const t of units) {
   const QS = opt('questions');
   if (QS) { const ids = new Set(); (QS.questions || []).forEach((q, i) => { if (!q.id || !q.date || !q.text || !q.status) errs.push(`${id}: questions[${i}] needs id, date, text and status`); if (ids.has(q.id)) errs.push(`${id}: question id ${q.id} is used twice`); ids.add(q.id); if (!['draft', 'approved', 'retired'].includes(q.status)) errs.push(`${id}: question ${q.id} status must be draft, approved or retired`); if (q.issue && P && !(q.town && id.includes(':') && !id.endsWith(':' + q.town)) && !(P.issues || []).some(x => x.id === q.issue)) errs.push(`${id}: question ${q.id} links to unknown issue ${q.issue}`); if (q.text && q.text.length > 220) warns.push(`${id}: question ${q.id} is long; keep it to one sentence`); });
     if (!(QS.questions || []).some(q => q.status === 'approved' && q.date <= today)) warns.push(`${id}: no approved question for today`); }
-  const txt = JSON.stringify([P, L, B, PK, BZ, CD, QS]);
+  const SP = opt('sports'), MK = opt('market'), SC = opt('schools'), FA = opt('faith'), FT = opt('featured');
+  // ---- consistency: every section of a live town refreshed together, and shapes the page relies on ----
+  if (!t.paused) {
+    const fresh = (what, d, max) => { if (!d) { stale(`${id}: ${what} has no as_of`); return; } const n = daysAgo(d); if (n > max) stale(`${id}: ${what} is ${n} days old (limit ${max})`); };
+    if (P && P.about) fresh('record', P.about.as_of, 3);
+    if (L) { fresh('local', L.as_of, 7); fresh('events', L.events_as_of, 1); if (L.paper) fresh('paper headlines', L.paper.asOf, 1); if (L.safety) fresh('safety', L.safety.as_of, 3); }
+    const SF = opt('safety'); if (SF) fresh('safety file', SF.as_of, 3);
+    if (BZ) fresh('business', BZ.as_of, 7); if (PK) fresh('parks', PK.as_of, 7); if (SC) fresh('schools', SC.as_of, 7); if (FA) fresh('faith', FA.as_of, 14);
+    if (SP) fresh('sports', SP.as_of, 3); if (MK) { fresh('market', MK.as_of, 7); fresh('market sales', MK.sales_as_of, 3); }
+    if (B) fresh('beyond', B.as_of, 30);
+    if (CD && CD.election && CD.election.date >= today) fresh('candidates', CD.as_of, 7);
+    if (FT) fresh('featured', FT.as_of, 3);
+  }
+  if (SP) {
+    // a team whose source stopped updating is left honest: recordAsOf stays old, needs_review says why, and it is exempt from the same-date rule
+    const dates = []; (SP.schools || []).forEach(sc => (sc.teams || []).forEach(tm => { if (tm.record && !tm.recordAsOf) errs.push(`${id}: ${sc.name} ${tm.sport} has a record but no recordAsOf`); if (tm.recordAsOf && !tm.needs_review) dates.push(tm.recordAsOf); }));
+    if (dates.length && !t.paused) { const lo = dates.slice().sort()[0], hi = dates.slice().sort().pop(); if (daysAgo(lo) - daysAgo(hi) > 3) stale(`${id}: sports records span ${lo} to ${hi}; refresh every team together`); if (daysAgo(hi) > 7) stale(`${id}: newest sports record is ${daysAgo(hi)} days old`); }
+    (SP.schools || []).forEach(sc => (sc.teams || []).forEach(tm => [...(tm.next || []), ...(tm.recent || [])].forEach(g => { if (!/^\d{4}-\d{2}-\d{2}$/.test(g.date || '')) errs.push(`${id}: ${sc.name} ${tm.sport} game without a date`); })));
+  }
+  if (MK) {
+    (MK.sales || []).forEach((x, i) => { if (!x.title || !x.url || !x.source || !/^\d{4}-\d{2}-\d{2}$/.test(x.date || '')) errs.push(`${id}: market.sales[${i}] needs title, date, url and source`); if (x.date && daysAgo(x.date) > 14) warns.push(`${id}: market.sales[${i}] "${x.title}" was ${daysAgo(x.date)} days ago; drop it`); });
+    (MK.surplus || []).forEach((x, i) => { if (!x.title || !x.url || !x.source) errs.push(`${id}: market.surplus[${i}] needs title, url and source`); });
+    (MK.links || []).forEach((x, i) => { if (!x.name || !x.url || !x.kind) errs.push(`${id}: market.links[${i}] needs kind, name and url`); });
+    if (MK.nearby !== undefined && typeof MK.nearby !== 'boolean') errs.push(`${id}: market.nearby must be true or false`);
+    if (!MK.zip) errs.push(`${id}: market needs zip`);
+  }
+  if (BZ) {
+    (BZ.forSale || []).forEach((x, i) => { if (!x.name || !x.source || !x.source.url) errs.push(`${id}: business.forSale[${i}] needs name and source.url`); if (x.date && daysAgo(x.date) > 90) warns.push(`${id}: business.forSale[${i}] "${x.name}" is ${daysAgo(x.date)} days old; drop or update it`); });
+    (BZ.forSaleLinks || []).forEach((x, i) => { if (!x.name || !x.url) errs.push(`${id}: business.forSaleLinks[${i}] needs name and url`); });
+    (BZ.stats || []).forEach((x, i) => { if (!x.value || !x.label || !x.source || !x.source.url) errs.push(`${id}: business.stats[${i}] needs value, label and source.url`); if (String(x.value).length > 16) errs.push(`${id}: business.stats[${i}] value "${x.value}" is too long for a tile; put the detail in note`); });
+    [...(BZ.openings || []), ...(BZ.closures || [])].forEach((x, i) => { if (x.date && !/^\d{4}-\d{2}(-\d{2})?$/.test(x.date)) errs.push(`${id}: business opening/closing "${x.name}" date must be YYYY-MM-DD or YYYY-MM`); });
+  }
+  // a Town (or a region of towns) should not call itself a city in its own notes and labels
+  if (t.kind === 'Town' || t.subtowns) { const ntxt = JSON.stringify([L && L.note, BZ && BZ.note, PK && PK.note, MK && MK.note, SP && SP.note, SC && SC.note]); if (/\bthe city\b|City Hall|city's/i.test(ntxt)) warns.push(`${id}: a data note says "city" for a town; say town`); }
+  const txt = JSON.stringify([P, L, B, PK, BZ, CD, QS, SP, MK, SC, FA, FT]);
   if (txt.includes('—')) errs.push(`${id}: em dash found in data (house style: none)`);
 }
 warns.forEach(w => console.log('WARN ' + w));

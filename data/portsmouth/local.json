@@ -1,5 +1,5 @@
 {
- "as_of": "2026-10-26",
+ "as_of": "2026-11-03",
  "note": "Items on this page come from the City of Portsmouth's own releases and from local news outlets. Each item links to its source. Nothing here is a live feed yet; see the Sources card.",
  "housing": {
   "portsmouth": {
@@ -13,7 +13,7 @@
    "dom": 45,
    "domLastYear": 34,
    "overList": 32.7,
-   "note": "Redfin's page summary line shows an average of $760K, up 1.0%; the median above is from the page body and chart. Zip codes 03801, 03870, 03904, 03840, 03803.",
+   "note": "Redfin's page summary line shows an average of $760K, up 1.0%; the median above is from the page body and chart. Zip codes 03801, 03870, 03904, 03840, 03803. Checked Nov 3, 2026: Redfin still shows the three months ending August 2026.",
    "soldLabel": "Homes sold"
   },
   "seacoast": {
@@ -74,10 +74,20 @@
  },
  "notices": [
   {
+   "date": "2026-11-12",
+   "kind": "Library",
+   "title": "Understanding Artificial Intelligence at the Library, Thursday, Nov 12, 6 pm",
+   "detail": "A library session for people at any comfort level with AI, covering what it can do and its risks. Posted by the Portsmouth Public Library on Oct 27.",
+   "source": {
+    "label": "Portsmouth Public Library, Oct 27",
+    "url": "https://www.portsmouthnh.gov/library/news/understanding-artificial-intelligence-1112-6pm"
+   }
+  },
+  {
    "date": "2026-11-11",
    "kind": "Event",
    "title": "Veterans Day wreath-laying at Goodwin Park, Wednesday, Nov 11, 11 am",
-   "detail": "Ceremony at the Soldiers & Sailors Monument in Goodwin Park, followed by a light meal at the American Legion Post, 96 Islington Street. If it rains, the event moves indoors to the Legion.",
+   "detail": "Ceremony at the Soldiers & Sailors Monument in Goodwin Park, followed by a light meal at the American Legion Post, 96 Islington Street. If it rains, the event moves indoors to the Legion. A Veterans Breakfast is Tuesday, Nov 10 at 9 am at the Senior Activity Center, 125 Cottage Street. City offices, recreation facilities and the library are closed Nov 11.",
    "source": {
     "label": "City of Portsmouth, Oct 30",
     "url": "https://www.portsmouthnh.gov/city/press-releases/city-portsmouth-nh-announces-veterans-day-observances"
@@ -1276,7 +1286,7 @@
   }
  ],
  "safety": {
-  "as_of": "2026-10-31",
+  "as_of": "2026-11-03",
   "note": "Compiled from City of Portsmouth police and fire pages, daily police logs, Police and Fire Commission minutes and local news. Incidents are described by type, street and date only; no names of people involved.",
   "alerts": {
    "name": "Smart911 Community Alert System",
@@ -1298,23 +1308,19 @@
    "logsNote": "One PDF media log per day covering 5 a.m. to 5 a.m., posted about 2 to 3 days later. Each lists call number, time, call reason, street and action taken, plus a Daily Arrest Log section. The department says entries are unverified reports.",
    "logDigest": [
     {
-     "date": "2026-10-24",
-     "calls": 58,
+     "date": "2026-10-31",
+     "calls": 52,
      "top": [
       [
        "Motor vehicle stop",
-       8
+       13
       ],
       [
-       "Directed patrol",
+       "Abandoned 911 call",
        6
       ],
       [
-       "Parking complaint",
-       4
-      ],
-      [
-       "Burglar alarm",
+       "Attempt to locate",
        3
       ],
       [
@@ -1322,124 +1328,56 @@
        3
       ],
       [
-       "Hit-and-run crash",
-       3
+       "Check well-being",
+       2
+      ],
+      [
+       "Criminal mischief",
+       2
       ]
      ],
      "arrests": 1,
-     "url": "https://www.portsmouthnh.gov/sites/default/files/2026-10/October%2024-25.pdf"
+     "url": "https://www.portsmouthnh.gov/sites/default/files/2026-11/October%2031-November%201.pdf"
     },
     {
-     "date": "2026-10-23",
-     "calls": 66,
+     "date": "2026-10-30",
+     "calls": 65,
      "top": [
       [
        "Motor vehicle stop",
-       21
+       23
       ],
       [
-       "Directed patrol",
-       6
+       "Public assist",
+       3
       ],
       [
-       "Abandoned 911 call",
-       5
-      ],
-      [
-       "Noise complaint",
+       "Recovered property",
        3
       ],
       [
        "Park and walk",
-       3
+       2
       ],
       [
-       "Burglar alarm",
-       3
-      ]
-     ],
-     "arrests": 2,
-     "url": "https://www.portsmouthnh.gov/sites/default/files/2026-10/October%2023-24.pdf"
-    },
-    {
-     "date": "2026-10-22",
-     "calls": 66,
-     "top": [
-      [
-       "Motor vehicle stop",
-       19
-      ],
-      [
-       "Legal paperwork service",
-       7
+       "Property damage crash",
+       2
       ],
       [
        "Traffic enforcement",
-       4
-      ],
-      [
-       "Property check",
-       4
-      ],
-      [
-       "Burglar alarm",
-       3
-      ],
-      [
-       "Park and walk",
-       3
+       2
       ]
      ],
-     "arrests": 2,
-     "url": "https://www.portsmouthnh.gov/sites/default/files/2026-10/October%2022-23.pdf"
+     "arrests": 3,
+     "url": "https://www.portsmouthnh.gov/sites/default/files/2026-11/October%2030-31.pdf"
     },
     {
-     "date": "2026-10-21",
-     "calls": 54,
-     "top": [
-      [
-       "Motor vehicle stop",
-       7
-      ],
-      [
-       "Park and walk",
-       5
-      ],
-      [
-       "Check well-being",
-       5
-      ],
-      [
-       "Assist other department",
-       4
-      ],
-      [
-       "Property check",
-       4
-      ],
-      [
-       "Directed patrol",
-       3
-      ]
-     ],
-     "arrests": 1,
-     "url": "https://www.portsmouthnh.gov/sites/default/files/2026-10/October%2021-22.pdf"
-    },
-    {
-     "date": "2026-10-20",
+     "date": "2026-10-29",
      "calls": 59,
      "top": [
       [
        "Motor vehicle stop",
-       12
-      ],
-      [
-       "Park and walk",
-       8
-      ],
-      [
-       "Directed patrol",
-       6
+       16
       ],
       [
        "Abandoned 911 call",
@@ -1450,12 +1388,148 @@
        4
       ],
       [
-       "Animal call",
+       "Check well-being",
+       4
+      ],
+      [
+       "Property check",
+       4
+      ],
+      [
+       "Traffic enforcement",
+       3
+      ]
+     ],
+     "arrests": 2,
+     "url": "https://www.portsmouthnh.gov/sites/default/files/2026-11/October%2029-30.pdf"
+    },
+    {
+     "date": "2026-10-28",
+     "calls": 91,
+     "top": [
+      [
+       "Motor vehicle stop",
+       27
+      ],
+      [
+       "Property check",
+       11
+      ],
+      [
+       "Park and walk",
+       9
+      ],
+      [
+       "Directed patrol",
+       8
+      ],
+      [
+       "Abandoned 911 call",
+       6
+      ],
+      [
+       "Traffic enforcement",
+       5
+      ]
+     ],
+     "arrests": 0,
+     "url": "https://www.portsmouthnh.gov/sites/default/files/2026-10/October%2028-29.pdf"
+    },
+    {
+     "date": "2026-10-27",
+     "calls": 117,
+     "top": [
+      [
+       "Motor vehicle stop",
+       23
+      ],
+      [
+       "Property check",
+       21
+      ],
+      [
+       "Directed patrol",
+       20
+      ],
+      [
+       "Park and walk",
+       11
+      ],
+      [
+       "Check well-being",
+       6
+      ],
+      [
+       "Attempt to locate",
+       4
+      ]
+     ],
+     "arrests": 1,
+     "url": "https://www.portsmouthnh.gov/sites/default/files/2026-10/October%2027-28.pdf"
+    },
+    {
+     "date": "2026-10-26",
+     "calls": 73,
+     "top": [
+      [
+       "Property check",
+       15
+      ],
+      [
+       "Motor vehicle stop",
+       11
+      ],
+      [
+       "Park and walk",
+       8
+      ],
+      [
+       "Directed patrol",
+       8
+      ],
+      [
+       "Wanted person",
+       3
+      ],
+      [
+       "Abandoned 911 call",
+       3
+      ]
+     ],
+     "arrests": 2,
+     "url": "https://www.portsmouthnh.gov/sites/default/files/2026-10/October%2026-27_0.pdf"
+    },
+    {
+     "date": "2026-10-25",
+     "calls": 58,
+     "top": [
+      [
+       "Motor vehicle stop",
+       10
+      ],
+      [
+       "Property check",
+       8
+      ],
+      [
+       "Directed patrol",
+       6
+      ],
+      [
+       "Burglar alarm",
+       4
+      ],
+      [
+       "Park and walk",
+       4
+      ],
+      [
+       "Check well-being",
        3
       ]
      ],
      "arrests": 1,
-     "url": "https://www.portsmouthnh.gov/sites/default/files/2026-10/October%2020-21.pdf"
+     "url": "https://www.portsmouthnh.gov/sites/default/files/2026-10/October%2025-26_0.pdf"
     }
    ],
    "stats": [
@@ -1497,6 +1571,83 @@
     }
    ],
    "recent": [
+    {
+     "date": "2026-10-31",
+     "kind": "Arrest",
+     "title": "Theft and drug arrest on Lafayette Road; three thefts reported on Halloween",
+     "detail": "The Oct 31 log lists an arrest on theft and controlled drug charges on Lafayette Road in the evening, plus thefts reported on Woodbury Avenue, Lafayette Road and Hanover Street and hit-and-run crashes on Hanover Street and South Street. No injuries are listed.",
+     "area": "Lafayette Road",
+     "source": {
+      "label": "PPD daily log, Oct 31 to Nov 1",
+      "url": "https://www.portsmouthnh.gov/sites/default/files/2026-11/October%2031-November%201.pdf"
+     }
+    },
+    {
+     "date": "2026-10-31",
+     "kind": "Arrest",
+     "title": "Two DUI arrests overnight on Arthur F. Brady Drive and Lafayette Road",
+     "detail": "The Oct 30 to 31 log lists three arrests: driving after suspension (late Oct 30), a DUI stop on Arthur F. Brady Drive at 1:37 am and a DUI, second or third offense, on Lafayette Road at 3:59 am. The same day had an injury crash on Lafayette Road, a shoplifting arrest on Lafayette Road and an assault report on Market Street.",
+     "area": "Lafayette Road",
+     "source": {
+      "label": "PPD daily log, Oct 30-31",
+      "url": "https://www.portsmouthnh.gov/sites/default/files/2026-11/October%2030-31.pdf"
+     }
+    },
+    {
+     "date": "2026-10-29",
+     "kind": "Arrest",
+     "title": "Driving after suspension arrest on Greenland Road",
+     "detail": "Two arrests on the Oct 29 log: driving after revocation or suspension (subsequent offense) on Greenland Road at 5:12 pm, and operating without a valid license late in the evening. Two hit-and-run crashes, on Woodbury Avenue and Lafayette Road, with no injuries listed.",
+     "area": "Greenland Road",
+     "source": {
+      "label": "PPD daily log, Oct 29-30",
+      "url": "https://www.portsmouthnh.gov/sites/default/files/2026-11/October%2029-30.pdf"
+     }
+    },
+    {
+     "date": "2026-10-28",
+     "kind": "Incident",
+     "title": "Busy day of 91 calls, no arrests; assault report on Woodbury Avenue",
+     "detail": "The Oct 28 log lists 91 calls, 27 of them motor vehicle stops, and no arrests. Reports taken for an assault on Woodbury Avenue, criminal threatening on Junkins Avenue and a hit-and-run on Woodbury Avenue.",
+     "area": "Woodbury Avenue",
+     "source": {
+      "label": "PPD daily log, Oct 28-29",
+      "url": "https://www.portsmouthnh.gov/sites/default/files/2026-10/October%2028-29.pdf"
+     }
+    },
+    {
+     "date": "2026-10-27",
+     "kind": "Arrest",
+     "title": "Domestic assault arrest; 117 calls on the busiest day of the week",
+     "detail": "The Oct 27 log lists 117 calls, including 21 property checks and 20 directed patrols, and one arrest on a domestic violence simple assault charge at midday on Junkins Avenue. A theft on Daniel Street and a hit-and-run on Pleasant Street were also reported.",
+     "area": "Junkins Avenue",
+     "source": {
+      "label": "PPD daily log, Oct 27-28",
+      "url": "https://www.portsmouthnh.gov/sites/default/files/2026-10/October%2027-28.pdf"
+     }
+    },
+    {
+     "date": "2026-10-26",
+     "kind": "Arrest",
+     "title": "Warrant arrest on Banfield Road and theft arrest on Junkins Avenue",
+     "detail": "Two arrests on the Oct 26 log: an arrest on a warrant on Banfield Road at 9:23 am and a theft by unauthorized taking (under $1,000) on Junkins Avenue at 9:45 am. Three property damage crashes, on Gosling Road, Andrew Jarvis Drive and Willard Avenue, with no injuries listed.",
+     "area": "Junkins Avenue",
+     "source": {
+      "label": "PPD daily log, Oct 26-27",
+      "url": "https://www.portsmouthnh.gov/sites/default/files/2026-10/October%2026-27_0.pdf"
+     }
+    },
+    {
+     "date": "2026-10-26",
+     "kind": "Arrest",
+     "title": "Reckless driving and suspended license arrest on Longmeadow Lane",
+     "detail": "The Oct 25 to 26 log lists one arrest, at 1:02 am on Longmeadow Lane, on driving after revocation or suspension and reckless driving charges. A missing person call and criminal mischief on Thaxter Road were also logged.",
+     "area": "Longmeadow Lane",
+     "source": {
+      "label": "PPD daily log, Oct 25-26",
+      "url": "https://www.portsmouthnh.gov/sites/default/files/2026-10/October%2025-26_0.pdf"
+     }
+    },
     {
      "date": "2026-10-25",
      "kind": "Arrest",
@@ -1957,9 +2108,24 @@
  "paper": {
   "name": "Portsmouth Patch",
   "url": "https://patch.com/new-hampshire/portsmouth-nh",
-  "asOf": "2026-11-01",
+  "asOf": "2026-11-03",
   "note": "The Portsmouth Herald is paywalled with no public feed, so these come from Patch.",
   "headlines": [
+   {
+    "title": "Hotel Thaxter Named Best Boutique Hotel In New Hampshire By Boston Magazine",
+    "url": "https://patch.com/new-hampshire/portsmouth-nh/hotel-thaxter-named-best-boutique-hotel-new-hampshire-boston-magazine",
+    "date": "2026-10-31"
+   },
+   {
+    "title": "Devine Millimet Receives Top Woman-Led Business Recognition",
+    "url": "https://patch.com/new-hampshire/portsmouth-nh/devine-millimet-receives-top-woman-led-business-recognition",
+    "date": "2026-10-30"
+   },
+   {
+    "title": "Colliers Promotes Reilly To Senior Property Manager",
+    "url": "https://patch.com/new-hampshire/portsmouth-nh/colliers-promotes-reilly-senior-property-manager",
+    "date": "2026-10-29"
+   },
    {
     "title": "UNH Paul College Announces New Executive Program To Support Organizational AI Strategy",
     "url": "https://patch.com/new-hampshire/portsmouth-nh/unh-paul-college-announces-new-executive-program-support-organizational",
@@ -1984,16 +2150,6 @@
     "title": "Monkey Mind Escape Rooms Retires The Stolen Diamond After 8.5 Years And Nearly 7,000 Players",
     "url": "https://patch.com/new-hampshire/portsmouth-nh/monkey-mind-escape-rooms-retires-stolen-diamond-after-8-5-years-nearly-7",
     "date": "2026-10-19"
-   },
-   {
-    "title": "City Of Portsmouth, DPW Hosts Cate Street Bridge Project Public Info Session Oct. 20",
-    "url": "https://patch.com/new-hampshire/portsmouth-nh/city-portsmouth-nh-dpw-hosts-cate-street-bridge-project-public-info",
-    "date": "2026-10-18"
-   },
-   {
-    "title": "City Of Portsmouth: Parking Restrictions And Road Closures For The 2026 Halloween Parade",
-    "url": "https://patch.com/new-hampshire/portsmouth-nh/city-portsmouth-parking-restrictions-road-closures-2026-halloween-parade",
-    "date": "2026-10-18"
    }
   ]
  }

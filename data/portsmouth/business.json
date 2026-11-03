@@ -1,5 +1,5 @@
 {
- "as_of": "2026-10-29",
+ "as_of": "2026-11-03",
  "note": "From the city's own pages (Economic Development, City Clerk, Health, Inspection, Planning) and open local coverage: Seacoast Current, Patch, NH Business Review. The Portsmouth Herald is paywalled and not used. Fees that the city does not publish online are left out.",
  "organizations": [
   {
@@ -242,6 +242,16 @@
  ],
  "notices": [
   {
+   "date": "2026-11-02",
+   "title": "Route 1 (Lafayette Road) closed nightly between Peverly Hill Road and Mirona Road, Nov 2 to 5",
+   "detail": "Lafayette Road is closed in both directions from 8 pm to 6 am, from the evening of Monday, Nov 2 through the morning of Thursday, Nov 5, for a sewer connection and manhole for a housing project. A detour runs on Peverly Hill Road and Mirona Road. Daytime access is not affected.",
+   "url": "https://www.portsmouthnh.gov/node/728952",
+   "source": {
+    "label": "City of Portsmouth, Nov 2",
+    "url": "https://www.portsmouthnh.gov/node/728952"
+   }
+  },
+  {
    "date": "2026-10-28",
    "title": "Opportunity Zone 2.0 designations approved for 25 NH census tracts",
    "detail": "Governor Ayotte announced U.S. Treasury approval of 25 New Hampshire tracts across all 10 counties, effective January 1, 2027 through December 31, 2036. The article does not name Portsmouth tracts; maps are on the state website.",
@@ -483,12 +493,19 @@
   "grant",
   "tax credit",
   "erz",
-  "cdbg"
+  "cdbg",
+  "for sale",
+  "listed for sale",
+  "up for sale",
+  "new owner",
+  "changes hands",
+  "business broker"
  ],
  "stats": [
   {
-   "label": "Parking Fund budgeted contribution, FY27",
-   "value": "$6.86 million (up 67.6 percent since FY22); $2.5 million direct support to the General Fund",
+   "value": "$6.86M",
+   "label": "Parking Fund contribution, FY27",
+   "note": "Up 67.6 percent since FY22; $2.5 million of it direct support to the General Fund",
    "as_of": "2026-08-17",
    "source": {
     "label": "City of Portsmouth, City Council parking work session",
@@ -496,8 +513,9 @@
    }
   },
   {
-   "label": "Foundry Garage workforce parking, daily users",
-   "value": "160 per day in July 2026 (+23.1 percent vs July 2025)",
+   "value": "160 a day",
+   "label": "Foundry Garage workforce parkers, July 2026",
+   "note": "Up 23.1 percent on July 2025",
    "as_of": "2026-07",
    "source": {
     "label": "City of Portsmouth, City Council parking work session",
@@ -505,8 +523,9 @@
    }
   },
   {
+   "value": "$6.8M",
    "label": "Hanover Garage reconstruction",
-   "value": "$6.8 million project, 2022 to 2025, 900 spaces",
+   "note": "900 spaces, 2022 to 2025",
    "as_of": "2026-08-17",
    "source": {
     "label": "City of Portsmouth, City Council parking work session",
@@ -514,8 +533,9 @@
    }
   },
   {
+   "value": "$414M",
    "label": "Portsmouth Naval Shipyard payroll",
-   "value": "$414 million military and civilian payroll (year not stated)",
+   "note": "Military and civilian; year not stated",
    "as_of": null,
    "source": {
     "label": "City of Portsmouth, About Portsmouth",
@@ -523,5 +543,27 @@
    }
   }
  ],
- "methodology": "Compiled Oct 29, 2026 from pages fetched this session: portsmouthnh.gov (Economic Development, City Clerk, Health, Inspection, Planning, news), Seacoast Current, WOKQ, Patch Portsmouth, NH Business Review, The Nashua Independent. Not covered: Seacoastonline/Portsmouth Herald (paywalled, not fetched), the Chamber Collaborative's news page at business.portsmouthchamber.org (fetch blocked), WMUR (fetch blocked), Business NH Magazine (no RSS found). No official count of registered businesses or downtown vacancy was found. Fees for vendor, sidewalk obstruction and business licenses are not published on the city pages read."
+ "methodology": "Compiled Oct 29, 2026 from pages fetched this session: portsmouthnh.gov (Economic Development, City Clerk, Health, Inspection, Planning, news), Seacoast Current, WOKQ, Patch Portsmouth, NH Business Review, The Nashua Independent. Not covered: Seacoastonline/Portsmouth Herald (paywalled, not fetched), the Chamber Collaborative's news page at business.portsmouthchamber.org (fetch blocked), WMUR (fetch blocked), Business NH Magazine (no RSS found). No official count of registered businesses or downtown vacancy was found. Fees for vendor, sidewalk obstruction and business licenses are not published on the city pages read.",
+ "forSale": [],
+ "forSaleNote": "Businesses for sale in Portsmouth and the surrounding Seacoast, from local news coverage and town notices, each linked to its source and tagged with its town. The listing sites below publish no feed and do not allow copying, so they are links only. Checked Nov 3, 2026: no Portsmouth-area business reported for sale in Seacoast Current or Patch.",
+ "forSaleLinks": [
+  {
+   "name": "BizBuySell: Rockingham County",
+   "what": "The largest business-for-sale site. The county page covers Portsmouth and every Seacoast town, with asking prices.",
+   "url": "https://www.bizbuysell.com/new-hampshire/rockingham-county-businesses-for-sale",
+   "source": "BizBuySell"
+  },
+  {
+   "name": "BizQuest: Portsmouth",
+   "what": "Businesses listed for sale in Portsmouth by brokers and owners.",
+   "url": "https://www.bizquest.com/businesses-for-sale-in-portsmouth-nh",
+   "source": "BizQuest"
+  },
+  {
+   "name": "BusinessBroker.net: Portsmouth",
+   "what": "Broker listings for Portsmouth businesses.",
+   "url": "https://www.businessbroker.net/city/portsmouth-nh-businesses-for-sale.aspx",
+   "source": "BusinessBroker.net"
+  }
+ ]
 }

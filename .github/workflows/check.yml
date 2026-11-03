@@ -1,0 +1,32 @@
+name: Check data and pages
+
+# Runs on every push and pull request: scripts/check.mjs (data shapes, freshness, cross-section consistency) and
+# scripts/scan.mjs (renders every page of every live town headless and fails on errors, leaks, dead links, wrong wording).
+# A daily refresh commit (message starts "Daily refresh") runs check.mjs in --strict mode, where stale data is an error.
+on:
+  push:
+    branches: ['**']
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Data check
+        env:
+          MSG: ${{ github.event.head_commit.message }}
+        run: |
+          if [[ "$MSG" == Daily\ refresh* ]]; then node scripts/check.mjs --strict; else node scripts/check.mjs; fi
+      - name: Install Playwright
+        run: npm i --no-save playwright@1.49.1 && npx playwright install --with-deps chromium
+      - name: Page scan
+        run: node scripts/scan.mjs --quiet

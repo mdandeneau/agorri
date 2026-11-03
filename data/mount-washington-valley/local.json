@@ -1,5 +1,5 @@
 {
- "as_of": "2026-10-30",
+ "as_of": "2026-11-03",
  "note": "Mount Washington Valley local desk: Conway (including North Conway), Bartlett, Jackson and Madison. North Conway is a village inside the Town of Conway. Police, roads, the transfer station and elections are run by the Town of Conway; fire protection, water and sewer in North Conway come from the North Conway Water Precinct. Checked Oct 30, 2026 from town, precinct and department pages and local news. Every item links to its source.",
  "housing": {
   "region": {
@@ -160,6 +160,19 @@
    "town": "Conway"
   },
   {
+   "town": "Freedom",
+   "date": "2026-11-10",
+   "kind": "Meeting",
+   "title": "Freedom Hazard Mitigation Plan: final public meeting Nov 10, 3:30 pm",
+   "detail": "The Town of Freedom and its Hazard Mitigation Planning Committee hold the last meeting of their plan update at Freedom Elementary School, 40 Loon Lake Rd. Residents, businesses and neighboring towns are invited to comment on the plan, which lists natural and human-caused hazards and projects to reduce their effects. An online Weather Incident and Hazard Survey is open. Questions: office@townoffreedomnh.gov or 603-539-6323.",
+   "source": {
+    "label": "Town of Freedom, Hazard Mitigation Meeting 3 (Oct 16, 2026)",
+    "url": "https://townoffreedomnh.gov/2026/10/16/21456/"
+   },
+   "strip": "Hazard plan",
+   "stripLine": "Freedom hazard plan meeting, Tuesday 3:30 pm"
+  },
+  {
    "town": "Jackson",
    "date": "2026-11-05",
    "kind": "Closure",
@@ -250,6 +263,18 @@
    },
    "strip": "Election Day",
    "stripLine": "Madison votes at Madison Elementary gym, 8 to 7"
+  },
+  {
+   "town": "Conway",
+   "date": "2026-11-03",
+   "kind": "Election",
+   "title": "Conway posts the sample ballot for the Nov 3 state general election",
+   "detail": "The Town of Conway's news page carries the sample ballot for Tuesday's state general election.",
+   "source": {
+    "label": "Town of Conway news, State General Election",
+    "url": "https://conwaynh.org/news/state-general-election"
+   },
+   "oneLiner": "Sample ballot for Tuesday's election is on the town news page"
   },
   {
    "town": "Bartlett",
@@ -1423,7 +1448,7 @@
  "postsAsOf": "2026-10-30",
  "postsNote": "The live feed fills this in.",
  "safety": {
-  "as_of": "2026-10-30",
+  "as_of": "2026-11-03",
   "note": "Compiled from the Conway Police Department and North Conway Water Precinct pages, the Town of Conway's 2025 report and local news. Conway Police cover the whole town, including North Conway. North Conway Fire serves North Conway; Conway Fire (Conway Village, run by the town since Jan 1, 2025), Center Conway, Redstone and East Conway have their own departments. Incidents are described by type, street and date only; no names of people involved. Main listings are Conway Police and the North Conway Fire Department; Bartlett, Jackson and Madison departments are listed under \"Other departments in the valley\".",
   "alerts": {
    "name": "Conway Broadcast (town text and email notices)",
@@ -1801,47 +1826,47 @@
  "paper": {
   "name": "The Conway Daily Sun",
   "url": "https://www.conwaydailysun.com/",
-  "asOf": "2026-11-02",
+  "asOf": "2026-11-03",
   "note": "Stories open on the paper's site. Dates are the paper's last-updated dates. Picked from the Local news section for Conway relevance.",
   "headlines": [
    {
+    "title": "Election Day is here: Final look at local candidates, issues",
+    "url": "https://www.conwaydailysun.com/news/local/election-day-is-here-final-look-at-local-candidates-issues/article_c90a6e64-85e9-4549-91ef-cc1239a6f810.html",
+    "date": "2026-11-02"
+   },
+   {
+    "title": "Tuesday's General Election polling places and times",
+    "url": "https://www.conwaydailysun.com/news/local/tuesdays-general-election-polling-places-and-times/article_4de657cb-0810-4fb1-8b2d-0acae423dccf.html",
+    "date": "2026-11-02"
+   },
+   {
+    "title": "October summary: Drier than normal month",
+    "url": "https://www.conwaydailysun.com/news/local/october-summary-drier-than-normal-month/article_e9c47725-b9f3-49f8-9aa2-2583d5464d01.html",
+    "date": "2026-11-02"
+   },
+   {
+    "title": "Scanlan predicts record voter turnout on Tuesday",
+    "url": "https://www.conwaydailysun.com/news/local/scanlan-predicts-record-voter-turnout-on-tuesday/article_a5eb84f7-0d81-45bb-b131-eefc49d10739.html",
+    "date": "2026-11-02"
+   },
+   {
     "title": "General Election polling places and times",
     "url": "https://www.conwaydailysun.com/news/local/general-election-polling-places-and-times/article_4d3eade7-7a5f-4c3f-8be6-98d6ef244b5c.html",
-    "date": "2026-11-01"
+    "date": "2026-10-31"
    },
    {
-    "title": "Next Tuesday's general election ballot a consequential one",
-    "url": "https://www.conwaydailysun.com/news/local/next-tuesdays-general-election-ballot-a-consequential-one/article_88070ab3-f6f8-434d-818d-668d996d56a3.html",
+    "title": "Three Democrats vie for three District 1 state rep seats",
+    "url": "https://www.conwaydailysun.com/politics/three-democrats-vie-for-three-district-1-state-rep-seats/article_54ccef85-d878-4e6e-9305-fc003b812ebb.html",
     "date": "2026-10-30"
    },
    {
-    "title": "Candidates share personal stories at 5-Minute Forum",
-    "url": "https://www.conwaydailysun.com/politics/candidates-share-personal-stories-at-5-minute-forum/article_21cdb720-ef9b-4fce-ba3e-7aa6c5f2f8b8.html",
-    "date": "2026-10-30"
-   },
-   {
-    "title": "Heard, Jones discuss property taxes, education and local control",
-    "url": "https://www.conwaydailysun.com/news/local/heard-jones-discuss-property-taxes-education-and-local-control/article_ca5d3828-b472-4e8d-b51a-34e660ed92c2.html",
-    "date": "2026-10-30"
-   },
-   {
-    "title": "Randell challenges McGee for Carroll County commissiioner",
-    "url": "https://www.conwaydailysun.com/news/local/randell-challenges-mcgee-for-carroll-county-commissiioner/article_ba7c794c-4ea6-4d41-9348-97dc2a28122d.html",
+    "title": "School board irons out committee assignments",
+    "url": "https://www.conwaydailysun.com/news/local/school-board-irons-out-committee-assignments/article_1b91472a-ca75-45a7-bca7-c99073255e40.html",
     "date": "2026-10-30"
    },
    {
     "title": "Beckwith named school board chair; no vice chair yet",
     "url": "https://www.conwaydailysun.com/news/local/beckwith-named-school-board-chair-no-vice-chair-yet/article_577cef40-c1f1-45d7-a79e-46c398070dea.html",
-    "date": "2026-10-30"
-   },
-   {
-    "title": "School tax cap info session attracts few takers",
-    "url": "https://www.conwaydailysun.com/news/local/school-tax-cap-info-session-attracts-few-takers/article_946e128f-d893-40a5-a4d5-b16f6d6d1a71.html",
-    "date": "2026-10-30"
-   },
-   {
-    "title": "NH Lottery films holiday TV ad in valley",
-    "url": "https://www.conwaydailysun.com/news/local/nh-lottery-films-holiday-tv-ad-in-valley/article_27933b36-9319-43b9-9835-a2baffebb678.html",
     "date": "2026-10-30"
    }
   ]

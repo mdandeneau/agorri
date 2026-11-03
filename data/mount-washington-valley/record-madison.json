@@ -1,7 +1,7 @@
 {
  "about": {
   "town": "Madison, NH",
-  "as_of": "2026-11-02",
+  "as_of": "2026-11-03",
   "records_from": "2025-09-17",
   "documents_used": 45,
   "note": "The Town of Madison, Carroll County, including Silver Lake and Eidelweiss. Madison is governed by a five-member Board of Selectmen and a Town Administrator, with an annual town meeting: officers and zoning changes are voted by ballot on the second Tuesday in March (March 10, 2026), and money articles at a business session the following Saturday (March 14, 2026). Eidelweiss is also served by the Village District of Eidelweiss, a separate small local government with its own commissioners, water system, roads and tax rate. The town posts Selectmen minutes through September 29, 2026, but those 2026 PDFs could not be opened for this research (only the January 20, 2026 minutes could), so most meeting entries are built from Conway Daily Sun reports and are marked as news reports. The results of the March 14, 2026 business session (including the final operating budget) and the 2025 tax rate breakdown were not found. Plain-English summaries written by AI; items with needs_review=true are uncertain."
@@ -1442,7 +1442,7 @@
     },
     {
      "name": "Town",
-     "pct": 24.0
+     "pct": 24
     },
     {
      "name": "State education tax",

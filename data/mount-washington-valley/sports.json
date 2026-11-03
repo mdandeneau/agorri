@@ -1,6 +1,6 @@
 {
- "as_of": "2026-11-01",
- "note": "Sports in the Mount Washington Valley (Conway including North Conway, Bartlett, Tamworth, Madison, Freedom, Jackson, Albany, Eaton and Hart's Location). Kennett High School in North Conway is the valley's public high school. Coaches come from Kennett's own team pages; game results come from MaxPreps and SI High School (aggregators, so every result is marked for review) because Kennett's official schedule site (kennettathletics.bigteams.com, which now redirects to an Arbiter site) and NHIAA brackets could not be opened. Conway Daily Sun headlines were read from the Sun's sports page; the articles themselves could not be opened. No student athletes are named. Kennett Middle School sports schedules were not found.",
+ "as_of": "2026-11-03",
+ "note": "Sports in the Mount Washington Valley (Conway including North Conway, Bartlett, Tamworth, Madison, Freedom, Jackson, Albany, Eaton and Hart's Location). Kennett High School in North Conway is the valley's public high school. Coaches come from Kennett's own team pages; game results come from MaxPreps and SI High School (aggregators, so every result is marked for review) because Kennett's official schedule site (kennettathletics.bigteams.com, which now redirects to an Arbiter site) and NHIAA brackets could not be opened. Conway Daily Sun headlines were read from the Sun's high school sports page; on Nov 3, 2026 its Nov 2 boys and girls soccer playoff stories were read for records, coaches and playoff details, while other Sun articles could not be opened. No student athletes are named. Kennett Middle School sports schedules were not found.",
  "schools": [
   {
    "name": "Kennett High School",
@@ -23,13 +23,13 @@
      "season": "Fall 2026",
      "level": "Varsity",
      "record": "4-5",
-     "recordAsOf": "2026-10-31",
+     "recordAsOf": "2026-11-02",
      "coach": "Scott Stearns",
      "coachSource": {
       "label": "Kennett High School, Football page",
       "url": "https://khs.sau9.org/football"
      },
-     "postseason": "No playoff game was listed on MaxPreps or SI High School as of Oct. 31; the Conway Daily Sun's Oct. 29 headline said the Eagles were still in the playoff chase after beating Trinity.",
+     "postseason": "No playoff game was listed on MaxPreps as of Nov 3 (its page was last updated Oct 31); the regular season ended Oct 30 with the 13-12 loss to Kingswood.",
      "recent": [
       {
        "date": "2026-10-30",
@@ -117,29 +117,39 @@
       }
      ],
      "next": [],
-     "note": "Earlier games: lost 9-6 at Manchester West (Sept. 4) and 35-0 at Plymouth (Sept. 12), per MaxPreps' schedule page and SI High School. MaxPreps lists the head coach as K. Brady; the school's own page lists Scott Stearns, used here.",
+     "note": "Earlier games: lost 9-6 at Manchester West (Sept. 4) and 35-0 at Plymouth (Sept. 12), per MaxPreps' schedule page and SI High School. MaxPreps lists the head coach as K. Brady; the school's own page lists Scott Stearns, used here. Record confirmed Nov 3 against MaxPreps (last updated Oct 31), which lists no game after Oct 30.",
      "needs_review": true,
-     "review_note": "Record and results from aggregators (MaxPreps, SI High School), not the school or NHIAA."
+     "review_note": "Record and results from aggregators (MaxPreps, SI High School), not the school or NHIAA. The NHIAA Division II football tournament page showed no bracket when opened Nov 3. The Conway Daily Sun's Oct 30 headline 'Kennett shuts out Kingswood, but misses the playoffs' could not be opened, so which team it refers to is not confirmed."
     },
     {
      "sport": "Boys Soccer",
      "season": "Fall 2026",
      "level": "Varsity",
-     "record": "6-9-4",
-     "recordAsOf": "2026-10-29",
-     "coach": null,
-     "postseason": "No. 11 seed in Division II; lost 3-1 at No. 6 Pembroke in the preliminary round on Oct 27.",
+     "record": "5-8-4",
+     "recordAsOf": "2026-11-02",
+     "coach": "Kevin Lebel",
+     "postseason": "No. 11 seed in Division II; lost 3-1 at No. 6 Pembroke Academy in the preliminary round on Oct 27, ending the season at 5-8-4 (Conway Daily Sun).",
      "recent": [
       {
        "date": "2026-10-27",
        "opponent": "Pembroke Academy",
        "home": false,
        "result": "L 1-3",
-       "note": "Division II preliminary round",
+       "note": "Division II preliminary round. Tied 1-1 before Pembroke scored twice in the second half (Conway Daily Sun).",
        "source": {
         "label": "NHIAA 2026 Division II Boys Soccer tournament",
         "url": "https://www.nhiaa.org/nhiaa-2026-27-division-ii-boys-soccer-tournament/"
-       }
+       },
+       "sources": [
+        {
+         "label": "NHIAA 2026 Division II Boys Soccer tournament",
+         "url": "https://www.nhiaa.org/nhiaa-2026-27-division-ii-boys-soccer-tournament/"
+        },
+        {
+         "label": "Conway Daily Sun, Nov 2, 2026: Kennett boys fall to Pembroke 3-1 in playoffs",
+         "url": "https://www.conwaydailysun.com/sports/high_school/kennett-boys-fall-to-pembroke-3-1-in-playoffs/article_e1e9cb3c-a391-46b3-917f-47e251356b09.html"
+        }
+       ]
       },
       {
        "date": "2026-10-22",
@@ -191,29 +201,43 @@
       }
      ],
      "next": [],
-     "note": "Head coach not found; the khs.sau9.org boys soccer page could not be opened. MaxPreps shows only 9 of the 19 games behind its 6-9-4 record.",
+     "note": "Record is from the Conway Daily Sun's Nov 2 playoff story (5-7-4 going into the playoffs per its Oct 31 preview, 5-8-4 after). MaxPreps shows 6-9-4 and only 9 of the games behind it. Head coach from the Sun.",
      "needs_review": true,
-     "review_note": "Record and results from MaxPreps (aggregator); playoff status inferred from a headline."
+     "review_note": "The Sun's record (5-8-4) and MaxPreps' (6-9-4) disagree; the Sun is used. Individual regular-season scores are from MaxPreps (aggregator).",
+     "coachSource": {
+      "label": "Conway Daily Sun, Nov 2, 2026: Kennett boys fall to Pembroke 3-1 in playoffs",
+      "url": "https://www.conwaydailysun.com/sports/high_school/kennett-boys-fall-to-pembroke-3-1-in-playoffs/article_e1e9cb3c-a391-46b3-917f-47e251356b09.html"
+     }
     },
     {
      "sport": "Girls Soccer",
      "season": "Fall 2026",
      "level": "Varsity",
-     "record": "7-6-4",
-     "recordAsOf": "2026-10-31",
-     "coach": null,
-     "postseason": "No. 7 seed in Division II; beat Souhegan 3-0, then lost 1-0 at No. 2 Bow in the quarterfinal on Oct 31.",
+     "record": "8-7-4",
+     "recordAsOf": "2026-11-02",
+     "coach": "Scott Laine",
+     "postseason": "No. 7 seed in Division II; beat No. 10 Souhegan 3-0 at home on Oct 28, then lost 1-0 at Bow in the quarterfinal on Oct 31, on a goal with six minutes left in the second overtime (Conway Daily Sun).",
      "recent": [
       {
        "date": "2026-10-31",
        "opponent": "Bow",
        "home": false,
        "result": "L 0-1",
-       "note": "Division II quarterfinal",
+       "note": "Division II quarterfinal. Bow scored with six minutes left in the second overtime (Conway Daily Sun).",
        "source": {
         "label": "NHIAA 2026 Division II Girls Soccer tournament",
         "url": "https://www.nhiaa.org/nhiaa-2026-27-division-ii-girls-soccer-tournament/"
-       }
+       },
+       "sources": [
+        {
+         "label": "NHIAA 2026 Division II Girls Soccer tournament",
+         "url": "https://www.nhiaa.org/nhiaa-2026-27-division-ii-girls-soccer-tournament/"
+        },
+        {
+         "label": "Conway Daily Sun, Nov 2, 2026: Eagles take Bow to double overtime in the playoffs",
+         "url": "https://www.conwaydailysun.com/sports/high_school/eagles-take-bow-to-double-overtime-in-the-playoffs/article_83e76a57-841a-4395-b627-20010ee27d77.html"
+        }
+       ]
       },
       {
        "date": "2026-10-28",
@@ -228,7 +252,7 @@
       }
      ],
      "next": [],
-     "note": "Record from MaxPreps standings (updated Oct. 31). Individual results were not listed there. Head coach not found.",
+     "note": "The Conway Daily Sun gave Kennett's record as 7-6-4 going into the playoffs; with the Souhegan win and the Bow loss that is 8-7-4. Head coach from the Sun.",
      "sources": [
       {
        "label": "MaxPreps, Kennett girls soccer standings (aggregator)",
@@ -240,7 +264,11 @@
       }
      ],
      "needs_review": true,
-     "review_note": "Record from an aggregator; playoff win known only from a Sun photo gallery headline."
+     "review_note": "Final record is the Sun's pre-playoff record plus the two playoff results; the Sun did not state a final record. Playoff scores from the NHIAA bracket pages read Oct 31 (the pages showed no bracket when reopened Nov 3).",
+     "coachSource": {
+      "label": "Conway Daily Sun, Nov 2, 2026: Eagles take Bow to double overtime in the playoffs",
+      "url": "https://www.conwaydailysun.com/sports/high_school/eagles-take-bow-to-double-overtime-in-the-playoffs/article_83e76a57-841a-4395-b627-20010ee27d77.html"
+     }
     },
     {
      "sport": "Field Hockey",
@@ -314,7 +342,7 @@
        }
       }
      ],
-     "note": "The Conway Daily Sun's Oct. 28 headline: 'Kennett harriers compete in largest meet of the season; win at White Mountains.' State meet results and dates were not found.",
+     "note": "The Conway Daily Sun's Oct. 28 headline: 'Kennett harriers compete in largest meet of the season; win at White Mountains.' State meet results and dates were not found. The Arbiter athletics calendar that lists the Nov 7 and Nov 14 meets could not be reopened on Nov 3 (robots disallowed), so those dates are as read Nov 1.",
      "needs_review": true,
      "review_note": "Results known only from a headline."
     },
@@ -779,6 +807,26 @@
  ],
  "news": [
   {
+   "source": "The Conway Daily Sun",
+   "town": "Conway",
+   "note": "Date from the Sun's hours-ago label read Nov 3; the article was opened for the team entry above.",
+   "needs_review": false,
+   "review_note": null,
+   "date": "2026-11-02",
+   "title": "Eagles take Bow to double overtime in the playoffs",
+   "url": "https://www.conwaydailysun.com/sports/high_school/eagles-take-bow-to-double-overtime-in-the-playoffs/article_83e76a57-841a-4395-b627-20010ee27d77.html"
+  },
+  {
+   "source": "The Conway Daily Sun",
+   "town": "Conway",
+   "note": "Date from the Sun's hours-ago label read Nov 3; the article was opened for the team entry above.",
+   "needs_review": false,
+   "review_note": null,
+   "date": "2026-11-02",
+   "title": "Kennett boys fall to Pembroke 3-1 in playoffs",
+   "url": "https://www.conwaydailysun.com/sports/high_school/kennett-boys-fall-to-pembroke-3-1-in-playoffs/article_e1e9cb3c-a391-46b3-917f-47e251356b09.html"
+  },
+  {
    "date": "2026-10-31",
    "title": "KHS and FA mountain bikers shine in home meet",
    "url": "https://www.conwaydailysun.com/sports/high_school/khs-and-fa-mountain-bikers-shine-in-home-meet/article_2dae9900-0811-4ac0-8a9c-6e0d1142c11c.html",
@@ -869,26 +917,6 @@
    "date": "2026-10-26",
    "title": "Kennett Fall Sports Senior Recognition Games (photo gallery)",
    "url": "https://www.conwaydailysun.com/multimedia/kennett-fall-sports-senior-recognition-games/collection_89affe6e-ebb3-4e91-8c12-a190a992092c.html",
-   "source": "The Conway Daily Sun",
-   "town": "Conway",
-   "note": "Updated date.",
-   "needs_review": true,
-   "review_note": "Headline and date read from the Sun's sports index pages; the article itself could not be opened."
-  },
-  {
-   "date": "2026-10-23",
-   "title": "Generals declaw the Eagles 27-6",
-   "url": "https://www.conwaydailysun.com/sports/high_school/generals-declaw-the-eagles-27-6/article_2f25ef48-0de9-4c48-9e10-2f0d53ae8ba6.html",
-   "source": "The Conway Daily Sun",
-   "town": "Conway",
-   "note": "Updated date.",
-   "needs_review": true,
-   "review_note": "Headline and date read from the Sun's sports index pages; the article itself could not be opened."
-  },
-  {
-   "date": "2026-10-16",
-   "title": "Battle of the Badges Flag Football (photo gallery)",
-   "url": "https://www.conwaydailysun.com/multimedia/battle-of-the-badges-flag-football/collection_a5b2c507-e18d-4490-bdbd-adff14b4a196.html",
    "source": "The Conway Daily Sun",
    "town": "Conway",
    "note": "Updated date.",

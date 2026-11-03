@@ -1,5 +1,5 @@
 {
- "as_of": "2026-10-29",
+ "as_of": "2026-11-03",
  "note": "From the city's own parks and recreation pages, with a source on every item. Fees shown only as images on the city site are left out.",
  "department": {
   "name": "City of Portsmouth Recreation Department",
@@ -721,6 +721,22 @@
     "label": "Recreational Needs Study Update",
     "url": "https://www.portsmouthnh.gov/recreation/recreational-needs-study-update"
    }
+  },
+  {
+   "title": "Disc golf course study",
+   "status": "Subcommittee at work",
+   "summary": "A Recreation Board Disc Golf Subcommittee held its first meeting on October 29, 2026 at Community Campus, with an agenda covering goals and timeline, a work plan and initial site ideas. A disc golf course was among the resident requests reviewed for the capital plan this year. The subcommittee meets again Thursday, November 5 at 3 pm at Community Campus, 100 Campus Drive.",
+   "cost": "No figure published",
+   "url": "https://files.portsmouthnh.gov/agendas/2026/Recreation%20Committee/Notice%20of%20Meeting%2011.5.26.pdf",
+   "keywords": [
+    "disc golf",
+    "recreation board",
+    "subcommittee"
+   ],
+   "source": {
+    "label": "Recreation Board Disc Golf Subcommittee agendas, Oct 29 and Nov 5, 2026",
+    "url": "https://files.portsmouthnh.gov/agendas/2026/Recreation%20Committee/10.29.26%20Disc%20Golf%20Agenda.pdf"
+   }
   }
  ],
  "seasonal": [
@@ -735,19 +751,9 @@
    }
   },
   {
-   "title": "Spinnaker Point pool area closed for repairs",
-   "detail": "The pool area at Spinnaker Point was closed for repairs through Monday, October 26, 2026. The notice asks visitors to call (603) 766-1483 before coming in for reopening information.",
-   "dates": "Through October 26, 2026",
-   "url": "https://www.portsmouthnh.gov/node/728883",
-   "source": {
-    "label": "Pool Area Closed (Recreation notice, Oct 20, 2026)",
-    "url": "https://www.portsmouthnh.gov/node/728883"
-   }
-  },
-  {
-   "title": "Indoor Pool closed October 25 for the Seacoast Half Marathon",
-   "detail": "The Indoor Pool page lists a closure on Sunday, October 25 for the Seacoast Half Marathon.",
-   "dates": "October 25, 2026",
+   "title": "Indoor Pool closures in November",
+   "detail": "The Indoor Pool page lists a closure Friday, November 6 from 3:30 to 5 pm for the First Friday Family Fun event, a Veterans Day closure Wednesday, November 11, and a closure Sunday, November 15 for a swim meet.",
+   "dates": "November 6 (3:30 to 5 pm), November 11 and November 15, 2026",
    "url": "https://www.portsmouthnh.gov/recreation/indoor",
    "source": {
     "label": "Indoor Pool",
@@ -755,9 +761,9 @@
    }
   },
   {
-   "title": "Four Tree Island restrooms close October 31",
-   "detail": "Accessible restrooms on Four Tree Island are open daily from late April through October 31, weather permitting. The island stays open dawn to dusk.",
-   "dates": "Restrooms close October 31, 2026",
+   "title": "Four Tree Island restrooms closed for the season",
+   "detail": "Accessible restrooms on Four Tree Island are open daily from late April through October 31, weather permitting, so they are now closed until spring. The island stays open dawn to dusk.",
+   "dates": "Restrooms closed from November 1, 2026 until late April",
    "url": "https://www.portsmouthnh.gov/prescottpark/four-tree-island",
    "source": {
     "label": "Four Tree Island",
@@ -775,9 +781,9 @@
    }
   },
   {
-   "title": "Fall and holiday events",
-   "detail": "Trick or Treat Friday October 30, 5 to 8 pm citywide. Turkey Shoot and Food Drive Saturday November 21 at Connie Bean gym. Illuminated Holiday Parade and Tree Lighting Saturday December 5, tree lighting 5 pm in Market Square, parade 6 pm from Goodwin Park. Polar Express Storytime December 17 at Community Campus.",
-   "dates": "October 30 to December 17, 2026",
+   "title": "Holiday season events",
+   "detail": "Veterans Breakfast and Quilts of Valor ceremony Tuesday November 10, 9 am, Senior Activity Center. Veterans Day ceremony Wednesday November 11, 11 am, Goodwin Park. Sagamore Headlands walk Saturday November 14, 9 to 11 am, from the Urban Forestry Center. Turkey Shoot and Food Drive Saturday November 21 at Connie Bean gym (K to 1 at 9 am, grades 2 to 3 at 9:45, grades 4 to 5 at 10:30). Illuminated Holiday Parade and Tree Lighting Saturday December 5, tree lighting 5 pm in Market Square, parade 6 pm from Goodwin Park. Polar Express Storytime December 17, 5:30 to 7 pm, Community Campus gym.",
+   "dates": "November 10 to December 17, 2026",
    "url": "https://www.portsmouthnh.gov/recreation/special-events-trips",
    "source": {
     "label": "Special Events and Trips",

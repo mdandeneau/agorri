@@ -498,31 +498,34 @@
  ],
  "stats": [
   {
-   "label": "Holiday Stroll attendance",
-   "value": "Over 30,000 attendees every year",
+   "label": "Holiday Stroll attendance, every year",
+   "value": "30,000+",
    "as_of": null,
    "source": {
     "label": "City of Nashua, Downtown Nashua",
     "url": "https://www.nashuanh.gov/1060/Downtown-Nashua"
-   }
+   },
+   "note": "Over 30,000 attendees, per the city's Downtown Nashua page"
   },
   {
-   "label": "Business districts",
-   "value": "10 distinct business districts",
+   "label": "Distinct business districts",
+   "value": "10",
    "as_of": null,
    "source": {
     "label": "City of Nashua, Business Districts",
     "url": "https://www.nashuanh.gov/1038/Business-Districts"
-   }
+   },
+   "note": "Per the city's Business Districts page"
   },
   {
-   "label": "The Downtowner newsletter readership",
-   "value": "Over 5,000 readers",
+   "label": "Downtowner newsletter readers",
+   "value": "5,000+",
    "as_of": null,
    "source": {
     "label": "Downtown Nashua Association",
     "url": "https://www.downtownnashua.org/"
-   }
+   },
+   "note": "Over 5,000 readers, per the Downtown Nashua Association"
   }
  ],
  "methodology": "Compiled Oct 29, 2026 from pages fetched this session: nashuanh.gov (Economic Development, Tax Incentives, Revolving Loan Fund, Outdoor Dining, Help for Entrepreneurs, Community Development directory, Building Safety, Planning, news flash, Nashua on the Move October 2026 newsletter), The Nashua Independent (site and RSS), Greater Nashua Chamber of Commerce (homepage and member news), Downtown Nashua Association, Manchester Ink Link, NH Business Review, Nashua Telegraph homepage headlines, Patch and WOKQ. Not covered: Nashua Telegraph articles (paywalled), the Nashua City Clerk page (fetch failed), the Chamber's ChamberMate news releases and ribbon cutting listings (fetch blocked), Nashua Ink Link (no working feed found), WMUR (fetch blocked). No city page stating a food service license process, sign permit process, vendor or peddler license, or official business counts was found. No 2026 closures in Nashua were verified from readable sources."
