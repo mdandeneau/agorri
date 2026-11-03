@@ -1,32 +1,42 @@
 {
  "note": "Written by ingest/fetch.mjs. Each item: where it came from (source, url), the date in the document when known, firstSeen (the day the fetcher first saw it; new since the last refresh = firstSeen on or after that day) and text (the saved agenda or minutes text, when there is one). Facts for the site still come from reading the linked document.",
  "town": "freedom",
- "updated": "2026-11-02T17:05:50.952Z",
+ "updated": "2026-11-03T15:09:59.258Z",
  "sources": {
   "feed": {
    "ok": true,
    "found": 10,
    "new": 1,
-   "checked": "2026-11-02T17:05:50.952Z",
-   "ms": 796
+   "checked": "2026-11-03T15:09:59.258Z",
+   "ms": 2807
   },
   "feed2": {
    "ok": true,
    "found": 0,
    "new": 0,
-   "checked": "2026-11-02T17:05:50.952Z",
-   "ms": 1444
+   "checked": "2026-11-03T15:09:59.258Z",
+   "ms": 624
   },
   "meeting-docs": {
    "ok": true,
    "found": 150,
    "new": 0,
-   "checked": "2026-11-02T17:05:50.952Z",
-   "ms": 1746
+   "checked": "2026-11-03T15:09:59.258Z",
+   "ms": 1765
   }
  },
  "notes": [],
  "items": [
+  {
+   "key": "feed:94a5e8b1447c",
+   "source": "feed",
+   "kind": "notice",
+   "title": "NOTICE: TOWN CLERK’S OFFICE",
+   "url": "https://townoffreedomnh.gov/2026/11/02/notice-town-clerks-office/",
+   "date": "2026-11-02",
+   "firstSeen": "2026-11-03",
+   "lastSeen": "2026-11-03"
+  },
   {
    "key": "feed:3da7e5f059a9",
    "source": "feed",
@@ -36,7 +46,7 @@
    "date": "2026-11-02",
    "detail": "Voting will take place at the Freedom Elementary School – 40 Loon Lake Rd Poll are open from 8:00am to 7:00pm Sample Ballots can be seen below:",
    "firstSeen": "2026-11-02",
-   "lastSeen": "2026-11-02"
+   "lastSeen": "2026-11-03"
   },
   {
    "key": "feed:1775bdbd9426",
@@ -69,7 +79,7 @@
    "date": "2026-10-16",
    "detail": "PUBLIC NOTICE FREEDOM HAZARD MITIGATION FINAL MEETING November 10, 2026 @ 3:30pm At the Freedom Elementary School at 40 Loon Lake Rd The Town of Freedom, with the Hazard Mitigation Planning Committee, is currently working to update Freedom’s Hazard Mitigation Plan. The Plan identifies potential natural, and human caused hazards throughout the town and various […]",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-02"
+   "lastSeen": "2026-11-03"
   },
   {
    "key": "feed:1465060d76e9",
@@ -102,7 +112,7 @@
    "date": "2026-09-21",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-02",
+   "lastSeen": "2026-11-03",
    "text": "inbox/freedom/docs/0655accab729.txt"
   },
   {
@@ -114,7 +124,7 @@
    "date": "2026-09-14",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-02",
+   "lastSeen": "2026-11-03",
    "text": "inbox/freedom/docs/030a3bf44a6f.txt"
   },
   {
@@ -126,7 +136,7 @@
    "date": "2026-09-10",
    "detail": "PUBLIC NOTICE TOWN OF FREEDOM VOTER REGISTRATION SESSION The Supervisors of the Checklist for the Town of Freedom will be in session on: Tuesday, October 27th, 2026, from 7:00 to 8:00 PM at the Freedom Town Hall This session will be for additions and corrections to the Voter Checklist. New Voters: Applicants for registration must […]",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-02"
+   "lastSeen": "2026-11-03"
   },
   {
    "key": "meeting-docs:ea55cd1b5890",
@@ -137,7 +147,7 @@
    "date": "2026-08-31",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-02"
+   "lastSeen": "2026-11-03"
   },
   {
    "key": "meeting-docs:79e862cf0c9f",
@@ -148,7 +158,7 @@
    "date": "2026-08-17",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-02"
+   "lastSeen": "2026-11-03"
   },
   {
    "key": "meeting-docs:abe08fd0cef4",
@@ -159,7 +169,7 @@
    "date": "2026-08-10",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-02"
+   "lastSeen": "2026-11-03"
   },
   {
    "key": "meeting-docs:92d757580a0c",
@@ -170,7 +180,7 @@
    "date": "2026-08-03",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-02"
+   "lastSeen": "2026-11-03"
   },
   {
    "key": "meeting-docs:5ad5de54b6d6",
@@ -181,7 +191,7 @@
    "date": "2026-07-26",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-02"
+   "lastSeen": "2026-11-03"
   },
   {
    "key": "meeting-docs:ec33ade1fe58",
@@ -192,7 +202,7 @@
    "date": "2026-07-20",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-02"
+   "lastSeen": "2026-11-03"
   }
  ]
 }

@@ -1,21 +1,21 @@
 {
  "note": "Written by ingest/fetch.mjs. Each item: where it came from (source, url), the date in the document when known, firstSeen (the day the fetcher first saw it; new since the last refresh = firstSeen on or after that day) and text (the saved agenda or minutes text, when there is one). Facts for the site still come from reading the linked document.",
  "town": "harts-location",
- "updated": "2026-11-02T17:05:50.952Z",
+ "updated": "2026-11-03T15:09:59.258Z",
  "sources": {
   "feed": {
    "ok": true,
    "found": 1,
    "new": 0,
-   "checked": "2026-11-02T17:05:50.952Z",
-   "ms": 2611
+   "checked": "2026-11-03T15:09:59.258Z",
+   "ms": 1610
   },
   "feed2": {
    "ok": true,
    "found": 0,
    "new": 0,
-   "checked": "2026-11-02T17:05:50.952Z",
-   "ms": 1290
+   "checked": "2026-11-03T15:09:59.258Z",
+   "ms": 1622
   }
  },
  "notes": [],

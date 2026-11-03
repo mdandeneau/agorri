@@ -1,27 +1,110 @@
 {
  "note": "Written by ingest/fetch.mjs. Each item: where it came from (source, url), the date in the document when known, firstSeen (the day the fetcher first saw it; new since the last refresh = firstSeen on or after that day) and text (the saved agenda or minutes text, when there is one). Facts for the site still come from reading the linked document.",
  "town": "rye",
- "updated": "2026-11-02T17:05:50.952Z",
+ "updated": "2026-11-03T15:09:59.258Z",
  "sources": {
   "town-feeds": {
    "ok": true,
    "found": 29,
-   "new": 3,
-   "checked": "2026-11-02T17:05:50.952Z",
-   "ms": 6426
+   "new": 6,
+   "checked": "2026-11-03T15:09:59.258Z",
+   "ms": 6252
   },
   "agenda-center": {
    "ok": true,
    "found": 150,
    "new": 1,
-   "checked": "2026-11-02T17:05:50.952Z",
-   "ms": 4445
+   "checked": "2026-11-03T15:09:59.258Z",
+   "ms": 4455
   }
  },
  "notes": [
   "no text in https://www.ryenh.gov/AgendaCenter/ViewFile/Agenda/_10192026-783 (scanned image?)"
  ],
  "items": [
+  {
+   "key": "agenda-center:a88fed3f75db",
+   "source": "agenda-center",
+   "kind": "meeting-doc",
+   "title": "Agenda: Agenda: _11042026-879",
+   "url": "https://www.ryenh.gov/AgendaCenter/ViewFile/Agenda/_11042026-879",
+   "date": "2026-11-04",
+   "doc": "agenda",
+   "firstSeen": "2026-11-03",
+   "lastSeen": "2026-11-03",
+   "text": "inbox/rye/docs/a88fed3f75db.txt"
+  },
+  {
+   "key": "town-feeds:2f7ef5889aba",
+   "source": "town-feeds",
+   "kind": "notice",
+   "feed": "calendar",
+   "title": "Cemetery Trustees",
+   "url": "https://www.ryenh.gov/Calendar.aspx?EID=1556",
+   "date": "2026-11-03",
+   "detail": "Event date: November 4, 2026 Event Time: 01:00 PM - 03:00 PM Location: 10 Central Rd Rye, NH 03870",
+   "firstSeen": "2026-11-03",
+   "lastSeen": "2026-11-03"
+  },
+  {
+   "key": "town-feeds:7853f4ffb258",
+   "source": "town-feeds",
+   "kind": "notice",
+   "feed": "calendar",
+   "title": "Board of Adjustment",
+   "url": "https://www.ryenh.gov/Calendar.aspx?EID=766",
+   "date": "2026-11-02",
+   "detail": "Event date: November 4, 2026 Event Time: 07:00 PM - 11:59 PM Location: 10 Central Rd Rye, NH 03870",
+   "firstSeen": "2026-11-03",
+   "lastSeen": "2026-11-03"
+  },
+  {
+   "key": "town-feeds:6e8dd72039f9",
+   "source": "town-feeds",
+   "kind": "notice",
+   "feed": "calendar",
+   "title": "Historic District Commission-CANCELLED DUE TO HOLIDAY",
+   "url": "https://www.ryenh.gov/Calendar.aspx?EID=875",
+   "date": "2026-11-02",
+   "detail": "Event date: November 11, 2026 Event Time: 05:30 PM - 08:30 PM Location: 10 Central Rd Rye, NH 03870",
+   "firstSeen": "2026-11-03",
+   "lastSeen": "2026-11-03"
+  },
+  {
+   "key": "town-feeds:02ea0a59a32f",
+   "source": "town-feeds",
+   "kind": "notice",
+   "feed": "calendar",
+   "title": "Rules and Regulations Meeting",
+   "url": "https://www.ryenh.gov/Calendar.aspx?EID=1554",
+   "date": "2026-11-02",
+   "detail": "Event date: November 13, 2026 Event Time: 10:00 AM - 11:00 AM Location: 10 Central Rd Rye, NH 03870",
+   "firstSeen": "2026-11-03",
+   "lastSeen": "2026-11-03"
+  },
+  {
+   "key": "town-feeds:0207154c33ae",
+   "source": "town-feeds",
+   "kind": "notice",
+   "feed": "calendar",
+   "title": "Planning Board",
+   "url": "https://www.ryenh.gov/Calendar.aspx?EID=1553",
+   "date": "2026-11-02",
+   "detail": "Event date: November 17, 2026 Event Time: 06:00 PM - 10:00 PM Location: 10 Central Road Rye, NH 03870",
+   "firstSeen": "2026-11-03",
+   "lastSeen": "2026-11-03"
+  },
+  {
+   "key": "town-feeds:fdb4bdd5e2ce",
+   "source": "town-feeds",
+   "kind": "notice",
+   "feed": "news",
+   "title": "Winter Parking Ban In Effect Nov. 1-Apr. 15",
+   "url": "https://www.ryenh.gov/CivicAlerts.aspx?aid=49",
+   "date": "2026-11-02",
+   "firstSeen": "2026-11-03",
+   "lastSeen": "2026-11-03"
+  },
   {
    "key": "agenda-center:9ff2183f28f6",
    "source": "agenda-center",
@@ -31,7 +114,7 @@
    "date": "2026-11-05",
    "doc": "agenda",
    "firstSeen": "2026-11-02",
-   "lastSeen": "2026-11-02",
+   "lastSeen": "2026-11-03",
    "text": "inbox/rye/docs/9ff2183f28f6.txt"
   },
   {
@@ -44,7 +127,7 @@
    "date": "2026-11-02",
    "detail": "Zoning Board of Adjustment",
    "firstSeen": "2026-11-02",
-   "lastSeen": "2026-11-02"
+   "lastSeen": "2026-11-03"
   },
   {
    "key": "town-feeds:b3c89f31bb82",
@@ -56,7 +139,7 @@
    "date": "2026-11-02",
    "detail": "Event date: November 5, 2026 Event Time: 05:30 PM - 08:30 PM Location: 10 Central Rd Rye, NH 03870",
    "firstSeen": "2026-11-02",
-   "lastSeen": "2026-11-02"
+   "lastSeen": "2026-11-03"
   },
   {
    "key": "town-feeds:37e1a06f739e",
@@ -68,7 +151,7 @@
    "date": "2026-11-02",
    "detail": "Paving on Washington Road begins Tuesday, November 3rd. Expect delays! Thank you for your continued support of the Rye Public Works Department as we work to make necessary improvements to town roads.",
    "firstSeen": "2026-11-02",
-   "lastSeen": "2026-11-02"
+   "lastSeen": "2026-11-03"
   },
   {
    "key": "agenda-center:e4dda5966628",
@@ -79,7 +162,7 @@
    "date": "2026-11-02",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-02",
+   "lastSeen": "2026-11-03",
    "text": "inbox/rye/docs/e4dda5966628.txt"
   },
   {
@@ -91,7 +174,7 @@
    "date": "2026-11-02",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-02",
+   "lastSeen": "2026-11-03",
    "text": "inbox/rye/docs/9ebddeaf9791.txt"
   },
   {
@@ -103,7 +186,7 @@
    "date": "2026-11-02",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-02",
+   "lastSeen": "2026-11-03",
    "text": "inbox/rye/docs/79c43618e013.txt"
   },
   {
@@ -119,6 +202,18 @@
    "lastSeen": "2026-11-02"
   },
   {
+   "key": "town-feeds:44fffc04c29f",
+   "source": "town-feeds",
+   "kind": "notice",
+   "feed": "calendar",
+   "title": "Planning Board Cancelled and Rescheduled to November 17, 2026",
+   "url": "https://www.ryenh.gov/Calendar.aspx?EID=712",
+   "date": "2026-11-02",
+   "detail": "Event date: November 10, 2026 Event Time: 06:00 PM - 11:59 PM Location: 10 Central Rd Rye, NH 03870",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-03"
+  },
+  {
    "key": "town-feeds:68e75ed7d24b",
    "source": "town-feeds",
    "kind": "notice",
@@ -128,7 +223,7 @@
    "date": "2026-10-30",
    "detail": "Demolition Review Committee Agenda Update: Minutes added or updated",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-02"
+   "lastSeen": "2026-11-03"
   },
   {
    "key": "town-feeds:6cd749707a20",
@@ -152,7 +247,7 @@
    "date": "2026-10-30",
    "detail": "Event date: November 9, 2026 Event Time: 08:00 AM - 10:00 AM Location: 830 Central Road Rye, NH 03870",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-02"
+   "lastSeen": "2026-11-03"
   },
   {
    "key": "town-feeds:28108569eca9",
@@ -176,7 +271,7 @@
    "date": "2026-10-27",
    "detail": "Event date: November 11, 2026 Event Time: 08:30 AM - 09:30 AM Location: Rye, NH 03870",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-02"
+   "lastSeen": "2026-11-03"
   },
   {
    "key": "town-feeds:bdf4c20a3a3e",
@@ -188,7 +283,7 @@
    "date": "2026-10-26",
    "detail": "Sewer Commission Regular Meeting Agenda Update: Minutes added or updated",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-02"
+   "lastSeen": "2026-11-03"
   },
   {
    "key": "town-feeds:615cb89d9193",
@@ -200,7 +295,7 @@
    "date": "2026-10-21",
    "detail": "Rye Rec Commission Meeting Agenda Update: Minutes added or updated",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-02"
+   "lastSeen": "2026-11-03"
   },
   {
    "key": "town-feeds:a265cabccbdb",
@@ -212,7 +307,7 @@
    "date": "2026-10-21",
    "detail": "Conservation Commission Agenda Update: Minutes added or updated",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-02"
+   "lastSeen": "2026-11-03"
   },
   {
    "key": "town-feeds:c66dc866749d",
@@ -224,7 +319,7 @@
    "date": "2026-10-21",
    "detail": "Recreation Commission Regular Meeting Agenda Update: Minutes added or updated",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-02"
+   "lastSeen": "2026-11-03"
   },
   {
    "key": "town-feeds:51e67cd03390",
@@ -235,7 +330,7 @@
    "url": "https://www.ryenh.gov/CivicAlerts.aspx?aid=47",
    "date": "2026-10-21",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-02"
+   "lastSeen": "2026-11-03"
   },
   {
    "key": "town-feeds:ecb388838eca",
@@ -247,7 +342,7 @@
    "date": "2026-10-20",
    "detail": "Rye Rec Commission Meeting Agenda 4.6.26 Update: Minutes added or updated",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-02"
+   "lastSeen": "2026-11-03"
   },
   {
    "key": "town-feeds:0b5c1d1772cb",
@@ -259,7 +354,7 @@
    "date": "2026-10-20",
    "detail": "Recreation Commission Meeting Agenda 1.5.26 Update: Minutes added or updated",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-02"
+   "lastSeen": "2026-11-03"
   },
   {
    "key": "town-feeds:d3c46d23813c",
@@ -271,7 +366,7 @@
    "date": "2026-10-20",
    "detail": "Recreation Commission Agenda Update: Minutes added or updated",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-02"
+   "lastSeen": "2026-11-03"
   },
   {
    "key": "town-feeds:65b57e113f24",
@@ -283,7 +378,7 @@
    "date": "2026-10-20",
    "detail": "Recreation Commission Meeting Agenda 9.14.2026 Update: Minutes added or updated",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-02"
+   "lastSeen": "2026-11-03"
   },
   {
    "key": "agenda-center:0055a559430c",
@@ -294,7 +389,7 @@
    "date": "2026-10-19",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-02"
+   "lastSeen": "2026-11-03"
   },
   {
    "key": "agenda-center:59c1d41abbe5",
@@ -305,7 +400,7 @@
    "date": "2026-10-19",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-02",
+   "lastSeen": "2026-11-03",
    "text": "inbox/rye/docs/59c1d41abbe5.txt"
   },
   {
@@ -329,7 +424,7 @@
    "date": "2026-10-09",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-02",
+   "lastSeen": "2026-11-03",
    "text": "inbox/rye/docs/ca1767b544aa.txt"
   },
   {
@@ -341,7 +436,7 @@
    "date": "2026-10-09",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-02",
+   "lastSeen": "2026-11-03",
    "text": "inbox/rye/docs/67d2e7dec902.txt"
   },
   {
@@ -353,7 +448,7 @@
    "date": "2026-10-08",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-02",
+   "lastSeen": "2026-11-03",
    "text": "inbox/rye/docs/ee4ea22a0567.txt"
   },
   {
@@ -365,7 +460,7 @@
    "date": "2026-10-08",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-02",
+   "lastSeen": "2026-11-03",
    "text": "inbox/rye/docs/40e0094abba8.txt"
   },
   {
@@ -389,7 +484,7 @@
    "date": "2026-10-06",
    "detail": "The Town of Rye would like to develop a comprehensive Municipal Facilities and Services Master Plan to guide decisions about municipal investments and service delivery over the next 10 to 20 years. You can help by completing our feedback form.",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-02"
+   "lastSeen": "2026-11-03"
   },
   {
    "key": "town-feeds:23ed0b8a85ab",
@@ -400,7 +495,7 @@
    "url": "https://www.ryenh.gov/CivicAlerts.aspx?aid=43",
    "date": "2026-10-05",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-02"
+   "lastSeen": "2026-11-03"
   },
   {
    "key": "agenda-center:400e6398177f",
@@ -411,7 +506,7 @@
    "date": "2026-10-05",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-02",
+   "lastSeen": "2026-11-03",
    "text": "inbox/rye/docs/400e6398177f.txt"
   },
   {
@@ -423,7 +518,7 @@
    "date": "2026-10-05",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-02",
+   "lastSeen": "2026-11-03",
    "text": "inbox/rye/docs/a0f95d5d447e.txt"
   },
   {
@@ -435,7 +530,7 @@
    "date": "2026-10-02",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-02",
+   "lastSeen": "2026-11-03",
    "text": "inbox/rye/docs/506a7f0fb6a8.txt"
   },
   {
@@ -447,7 +542,7 @@
    "date": "2026-10-02",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-02",
+   "lastSeen": "2026-11-03",
    "text": "inbox/rye/docs/bac4a46d2029.txt"
   },
   {
@@ -459,7 +554,7 @@
    "date": "2026-10-02",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-02",
+   "lastSeen": "2026-11-03",
    "text": "inbox/rye/docs/b4820969ab0c.txt"
   },
   {
@@ -471,7 +566,7 @@
    "date": "2026-10-01",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-02",
+   "lastSeen": "2026-11-03",
    "text": "inbox/rye/docs/a2d7de0de9a9.txt"
   },
   {
@@ -483,7 +578,7 @@
    "date": "2026-10-01",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-02",
+   "lastSeen": "2026-11-03",
    "text": "inbox/rye/docs/74bd103f36fe.txt"
   },
   {
@@ -495,7 +590,7 @@
    "date": "2026-09-23",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-02",
+   "lastSeen": "2026-11-03",
    "text": "inbox/rye/docs/5faca44624ea.txt"
   },
   {
@@ -507,7 +602,7 @@
    "date": "2026-09-23",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-02",
+   "lastSeen": "2026-11-03",
    "text": "inbox/rye/docs/0441ad6eeb91.txt"
   },
   {
@@ -519,7 +614,7 @@
    "date": "2026-09-23",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-02",
+   "lastSeen": "2026-11-03",
    "text": "inbox/rye/docs/1ea9768f3a0d.txt"
   },
   {
@@ -531,7 +626,7 @@
    "date": "2026-09-23",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-02",
+   "lastSeen": "2026-11-03",
    "text": "inbox/rye/docs/127c729d6392.txt"
   },
   {
@@ -543,7 +638,7 @@
    "date": "2026-09-10",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-02",
+   "lastSeen": "2026-11-03",
    "text": "inbox/rye/docs/1d00edf85011.txt"
   },
   {
@@ -555,7 +650,7 @@
    "date": "2026-09-10",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-02",
+   "lastSeen": "2026-11-03",
    "text": "inbox/rye/docs/e658ab709600.txt"
   },
   {
@@ -567,7 +662,7 @@
    "date": "2026-09-07",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-02",
+   "lastSeen": "2026-11-03",
    "text": "inbox/rye/docs/bc5a887822c2.txt"
   },
   {
@@ -579,20 +674,8 @@
    "date": "2026-09-07",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-02",
+   "lastSeen": "2026-11-03",
    "text": "inbox/rye/docs/70a3ea0dffce.txt"
-  },
-  {
-   "key": "town-feeds:44fffc04c29f",
-   "source": "town-feeds",
-   "kind": "notice",
-   "feed": "calendar",
-   "title": "Planning Board",
-   "url": "https://www.ryenh.gov/Calendar.aspx?EID=712",
-   "date": "2026-09-03",
-   "detail": "Event date: November 10, 2026 Event Time: 06:00 PM - 11:59 PM Location: 10 Central Rd Rye, NH 03870",
-   "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-02"
   },
   {
    "key": "agenda-center:6bf1a7bdbed9",
@@ -603,7 +686,7 @@
    "date": "2026-09-03",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-02",
+   "lastSeen": "2026-11-03",
    "text": "inbox/rye/docs/6bf1a7bdbed9.txt"
   },
   {
@@ -615,7 +698,7 @@
    "date": "2026-09-03",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-02",
+   "lastSeen": "2026-11-03",
    "text": "inbox/rye/docs/a8c2ceea8005.txt"
   },
   {
@@ -627,7 +710,7 @@
    "date": "2026-09-01",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-02"
+   "lastSeen": "2026-11-03"
   },
   {
    "key": "agenda-center:4bae4e75c51c",
@@ -638,7 +721,7 @@
    "date": "2026-09-01",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-02"
+   "lastSeen": "2026-11-03"
   },
   {
    "key": "agenda-center:17b433ae41d1",
@@ -649,7 +732,7 @@
    "date": "2026-09-01",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-02"
+   "lastSeen": "2026-11-03"
   },
   {
    "key": "agenda-center:4f61fe427ab7",
@@ -660,7 +743,7 @@
    "date": "2026-09-01",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-02"
+   "lastSeen": "2026-11-03"
   },
   {
    "key": "agenda-center:94a550ebcc3d",
@@ -671,7 +754,7 @@
    "date": "2026-08-31",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-02"
+   "lastSeen": "2026-11-03"
   },
   {
    "key": "agenda-center:25877525c66d",
@@ -682,7 +765,7 @@
    "date": "2026-08-31",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-02"
+   "lastSeen": "2026-11-03"
   },
   {
    "key": "agenda-center:f846bb47ab72",
@@ -693,7 +776,7 @@
    "date": "2026-08-24",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-02"
+   "lastSeen": "2026-11-03"
   },
   {
    "key": "agenda-center:897ada028b12",
@@ -704,7 +787,7 @@
    "date": "2026-08-24",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-02"
+   "lastSeen": "2026-11-03"
   },
   {
    "key": "town-feeds:8fdb311842e5",
@@ -716,7 +799,7 @@
    "date": "2026-08-20",
    "detail": "Event date: November 11, 2026 Event Time: 12:00 AM - 11:59 PM Location: Manhattan, KS 66502",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-02"
+   "lastSeen": "2026-11-03"
   },
   {
    "key": "agenda-center:5b7c03233497",
@@ -727,7 +810,7 @@
    "date": "2026-08-20",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-02"
+   "lastSeen": "2026-11-03"
   },
   {
    "key": "agenda-center:1d875b0526d7",
@@ -738,7 +821,7 @@
    "date": "2026-08-19",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-02"
+   "lastSeen": "2026-11-03"
   },
   {
    "key": "agenda-center:91cb6d1639f5",
@@ -749,7 +832,7 @@
    "date": "2026-08-19",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-02"
+   "lastSeen": "2026-11-03"
   },
   {
    "key": "agenda-center:e830dc79ddf3",
@@ -760,7 +843,7 @@
    "date": "2026-08-19",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-02"
+   "lastSeen": "2026-11-03"
   },
   {
    "key": "agenda-center:3fb8eb800763",
@@ -771,7 +854,7 @@
    "date": "2026-08-13",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-02"
+   "lastSeen": "2026-11-03"
   },
   {
    "key": "agenda-center:9653d41a79b4",
@@ -782,7 +865,7 @@
    "date": "2026-08-13",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-02"
+   "lastSeen": "2026-11-03"
   },
   {
    "key": "agenda-center:b8437de25f1c",
@@ -793,7 +876,7 @@
    "date": "2026-08-11",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-02"
+   "lastSeen": "2026-11-03"
   },
   {
    "key": "agenda-center:a42e40b946ff",
@@ -804,7 +887,7 @@
    "date": "2026-08-11",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-02"
+   "lastSeen": "2026-11-03"
   },
   {
    "key": "agenda-center:f6d22e7f342b",
@@ -815,7 +898,7 @@
    "date": "2026-08-11",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-02"
+   "lastSeen": "2026-11-03"
   },
   {
    "key": "agenda-center:3b3c69d19923",
@@ -826,7 +909,7 @@
    "date": "2026-08-11",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-02"
+   "lastSeen": "2026-11-03"
   },
   {
    "key": "agenda-center:6a2bd47d2c84",
@@ -837,7 +920,7 @@
    "date": "2026-08-06",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-02"
+   "lastSeen": "2026-11-03"
   },
   {
    "key": "agenda-center:1a2deec19250",
@@ -848,7 +931,7 @@
    "date": "2026-08-06",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-02"
+   "lastSeen": "2026-11-03"
   },
   {
    "key": "agenda-center:e6524503be14",
@@ -859,7 +942,7 @@
    "date": "2026-08-04",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-02"
+   "lastSeen": "2026-11-03"
   },
   {
    "key": "agenda-center:e68d716927b7",
@@ -870,7 +953,7 @@
    "date": "2026-08-04",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-02"
+   "lastSeen": "2026-11-03"
   },
   {
    "key": "agenda-center:0ac25face412",
@@ -881,7 +964,7 @@
    "date": "2026-08-03",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-02"
+   "lastSeen": "2026-11-03"
   },
   {
    "key": "agenda-center:5052de775dd9",
@@ -892,7 +975,7 @@
    "date": "2026-08-03",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-02"
+   "lastSeen": "2026-11-03"
   },
   {
    "key": "agenda-center:0fd346b8320c",
@@ -903,7 +986,7 @@
    "date": "2026-07-27",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-02"
+   "lastSeen": "2026-11-03"
   },
   {
    "key": "agenda-center:4899d4c76c24",
@@ -914,7 +997,7 @@
    "date": "2026-07-27",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-02"
+   "lastSeen": "2026-11-03"
   },
   {
    "key": "agenda-center:eb59daa9478b",
@@ -925,7 +1008,7 @@
    "date": "2026-07-09",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-02"
+   "lastSeen": "2026-11-03"
   },
   {
    "key": "agenda-center:c8a8b4803bc1",
@@ -936,7 +1019,7 @@
    "date": "2026-07-09",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-02"
+   "lastSeen": "2026-11-03"
   },
   {
    "key": "agenda-center:f4636f13bbb0",
@@ -947,7 +1030,7 @@
    "date": "2026-07-09",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-02"
+   "lastSeen": "2026-11-03"
   },
   {
    "key": "agenda-center:396084219458",
@@ -958,7 +1041,7 @@
    "date": "2026-07-09",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-02"
+   "lastSeen": "2026-11-03"
   },
   {
    "key": "agenda-center:4eab5bd7a0cc",
@@ -969,7 +1052,7 @@
    "date": "2026-07-09",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-02"
+   "lastSeen": "2026-11-03"
   },
   {
    "key": "agenda-center:7c23172aef9a",
@@ -980,7 +1063,7 @@
    "date": "2026-07-07",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-02"
+   "lastSeen": "2026-11-03"
   },
   {
    "key": "agenda-center:b43df40128c1",
@@ -991,7 +1074,7 @@
    "date": "2026-07-07",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-02"
+   "lastSeen": "2026-11-03"
   },
   {
    "key": "agenda-center:5b92eccf1714",
@@ -1002,7 +1085,7 @@
    "date": "2026-07-06",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-02"
+   "lastSeen": "2026-11-03"
   },
   {
    "key": "agenda-center:b0cd798ad02d",
@@ -1013,7 +1096,7 @@
    "date": "2026-07-06",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-02"
+   "lastSeen": "2026-11-03"
   }
  ]
 }
