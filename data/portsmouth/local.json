@@ -74,113 +74,6 @@
  },
  "notices": [
   {
-   "date": "2026-10-30",
-   "kind": "Event",
-   "title": "Trick-or-treat is Friday, October 30, 5 to 8 pm",
-   "detail": "Police ask drivers to watch for children and expect heavier traffic that evening. The Recreation Department and Library also have fall and Halloween events.",
-   "source": {
-    "label": "City of Portsmouth, Oct 2",
-    "url": "https://www.portsmouthnh.gov/city/press-releases/city-announces-trick-or-treat-hours-and-fall-events"
-   },
-   "strip": "Trick-or-treat",
-   "stripLine": "Friday, 5 to 8 pm"
-  },
-  {
-   "date": "2026-10-31",
-   "kind": "Roads",
-   "title": "Halloween Parade steps off from Peirce Island at 7 pm Saturday; downtown streets close 6 to 10 pm",
-   "detail": "Closed or local traffic only from 6 pm: Marcy (Hancock to State, and under the bridge to Daniel), Daniel (Bow to Market Square), Bow (Daniel to Market), Market (Hanover to Market Square), Fleet (Hanover to State), Congress (Market to Maplewood), Pleasant (Court to Market Square), State (Fleet to Marcy), Porter (Fleet to Pleasant). No parking on the route 5 to 10 pm; cars still there at 5 pm are towed at the owner's expense. Garages: Hanover, Foundry Place, Worth Lot, Bridge Street Lot at normal rates. It is the 31st independently organized parade.",
-   "source": {
-    "label": "City of Portsmouth, Oct 13",
-    "url": "https://www.portsmouthnh.gov/city/press-releases/parking-restrictions-and-road-closures-2026-portsmouth-halloween-parade"
-   },
-   "strip": "Halloween Parade",
-   "stripLine": "Peirce Island, 7 pm · downtown closed 6 to 10"
-  },
-  {
-   "date": "2026-11-01",
-   "kind": "Trash",
-   "title": "Automated trash and recycling pickup starts in the Pannaway neighborhood in November",
-   "detail": "Each household gets two 64-gallon city-issued wheeled bins, one trash and one single-stream recycling, assigned to the property with RFID tracking. Weekly curbside pickup on the usual day; only the new bins are emptied. Old bins can go to the Recycling Center, 680 Peverly Hill Road. Other neighborhoods follow in 2027. Details: portsnh.co/toter or (603) 431-2000.",
-   "source": {
-    "label": "City of Portsmouth DPW, Oct 22",
-    "url": "https://www.portsmouthnh.gov/city/news/city-portsmouth-nh-dpw-launches-automated-collection-program-trash-and-recycling"
-   },
-   "oneLiner": "Pannaway gets the new automated trash and recycling bins in November; other neighborhoods in 2027"
-  },
-  {
-   "date": "2026-10-13",
-   "kind": "Trash",
-   "title": "Leaves and yard waste: curbside collection and free drop-off at the Recycling Center",
-   "detail": "The city asks residents to keep leaves and clippings out of storm drains and waterways.",
-   "source": {
-    "label": "City of Portsmouth, Oct 13",
-    "url": "https://www.portsmouthnh.gov/city/press-releases/falling-leaves-cleaner-water-yard-waste-guidance"
-   }
-  },
-  {
-   "date": "2026-10-16",
-   "kind": "Water",
-   "title": "Q3 drinking water update: supplies holding up despite the drought that began in June 2025",
-   "detail": "DPW's quarterly report covers the Portsmouth and Pease Tradeport water systems.",
-   "source": {
-    "label": "City of Portsmouth DPW, Oct 16",
-    "url": "https://www.portsmouthnh.gov/publicworks/water/news/dpw-releases-q3-2026-drinking-water-supply-updates-portsmouth-and-pease"
-   }
-  },
-  {
-   "date": "2026-10-20",
-   "kind": "Roads",
-   "title": "Cate Street Bridge project: public information session held October 20",
-   "detail": "6:30 pm at the Senior Activity Center, 125 Cottage Street, with questions afterward.",
-   "source": {
-    "label": "City of Portsmouth DPW, Oct 16",
-    "url": "https://www.portsmouthnh.gov/city/press-releases/dpw-hosts-cate-street-bridge-project-public-information-session-october-20-2026"
-   }
-  },
-  {
-   "date": "2026-10-23",
-   "kind": "Grants",
-   "title": "FY27 CDBG grants open for public facility and accessibility improvements",
-   "detail": "Federal Community Development Block Grant money for public facility and accessibility projects.",
-   "source": {
-    "label": "City of Portsmouth, Oct 23",
-    "url": "https://www.portsmouthnh.gov/community/news/fy27-cdbg-public-facility-and-accessibility-improvement-grants-available"
-   }
-  },
-  {
-   "date": "2026-10-26",
-   "kind": "Library",
-   "title": "Korean Alphabet (Hangul) at the Library, Monday 5:30 pm",
-   "detail": "Portsmouth Public Library, 175 Parrott Avenue.",
-   "source": {
-    "label": "Library calendar",
-    "url": "https://portsmouthpl.librarycalendar.com/event/hangul26"
-   }
-  },
-  {
-   "date": "2026-11-02",
-   "kind": "Library",
-   "title": "The Mind Reset workshop at the Library, Monday 6:30 pm",
-   "detail": "Portsmouth Public Library, 175 Parrott Avenue.",
-   "source": {
-    "label": "Library calendar",
-    "url": "https://portsmouthpl.librarycalendar.com/event/mind-reset"
-   }
-  },
-  {
-   "date": "2026-11-03",
-   "kind": "Election",
-   "title": "Election Day: polls open 8 am to 7 pm; Ward 4 votes at Portsmouth High School",
-   "detail": "Polling places: Ward 1 New Franklin School, Ward 2 Portsmouth Middle School, Ward 3 Senior Activity Center, Ward 4 Portsmouth High School (50 Andrew Jarvis Drive), Ward 5 Little Harbour School. City Clerk: 603-610-7245.",
-   "source": {
-    "label": "City of Portsmouth, City Clerk",
-    "url": "https://www.portsmouthnh.gov/cityclerk/voting-information"
-   },
-   "strip": "Election Day",
-   "stripLine": "Tuesday, 8 am to 7 pm"
-  },
-  {
    "date": "2026-11-11",
    "kind": "Event",
    "title": "Veterans Day wreath-laying at Goodwin Park, Wednesday, Nov 11, 11 am",
@@ -191,18 +84,6 @@
    },
    "strip": "Veterans Day",
    "stripLine": "Wreath-laying, Goodwin Park, 11 am"
-  },
-  {
-   "date": "2026-11-09",
-   "kind": "Water",
-   "title": "Mechanic Street Pump Station: second public information meeting, Monday, Nov 9, 6:30 pm",
-   "detail": "Public Works hosts the meeting in Council Chambers at City Hall, 1 Junkins Avenue. Residents can review the latest plans and ask questions of City staff and project consultants.",
-   "source": {
-    "label": "City of Portsmouth DPW, Oct 30",
-    "url": "https://www.portsmouthnh.gov/city/press-releases/city-portsmouth-nh-public-works-hosts-second-mechanic-street-pump-station"
-   },
-   "strip": "Pump station",
-   "stripLine": "Info meeting Monday, 6:30 pm"
   },
   {
    "date": "2026-11-11",
@@ -217,6 +98,64 @@
    "stripLine": "Public Library closed Wednesday, Nov 11"
   },
   {
+   "date": "2026-11-09",
+   "kind": "Water",
+   "title": "Mechanic Street Pump Station: second public information meeting, Monday, Nov 9, 6:30 pm",
+   "detail": "Public Works hosts the meeting in Council Chambers at City Hall, 1 Junkins Avenue. Residents can review the latest plans and ask questions of City staff and project consultants.",
+   "source": {
+    "label": "City of Portsmouth DPW, Oct 30",
+    "url": "https://www.portsmouthnh.gov/city/press-releases/city-portsmouth-nh-public-works-hosts-second-mechanic-street-pump-station"
+   },
+   "strip": "Pump station",
+   "stripLine": "Info meeting Monday, 6:30 pm"
+  },
+  {
+   "date": "2026-11-03",
+   "kind": "Election",
+   "title": "Election Day: polls open 8 am to 7 pm; Ward 4 votes at Portsmouth High School",
+   "detail": "Polling places: Ward 1 New Franklin School, Ward 2 Portsmouth Middle School, Ward 3 Senior Activity Center, Ward 4 Portsmouth High School (50 Andrew Jarvis Drive), Ward 5 Little Harbour School. City Clerk: 603-610-7245.",
+   "source": {
+    "label": "City of Portsmouth, City Clerk",
+    "url": "https://www.portsmouthnh.gov/cityclerk/voting-information"
+   },
+   "strip": "Election Day",
+   "stripLine": "Tuesday, 8 am to 7 pm"
+  },
+  {
+   "date": "2026-11-02",
+   "kind": "Library",
+   "title": "The Mind Reset workshop at the Library, Monday 6:30 pm",
+   "detail": "Portsmouth Public Library, 175 Parrott Avenue.",
+   "source": {
+    "label": "Library calendar",
+    "url": "https://portsmouthpl.librarycalendar.com/event/mind-reset"
+   }
+  },
+  {
+   "date": "2026-11-02",
+   "kind": "Roads",
+   "title": "Route 1 (Lafayette Road) closed nightly, 8 pm to 6 am, through the morning of Nov 5",
+   "detail": "Lafayette Road (US Route 1) is closed in both directions between Peverly Hill Road and Mirona Road from 8 pm to 6 am, starting the evening of Monday, Nov 2 and ending the morning of Thursday, Nov 5. Drivers follow a detour on Peverly Hill Road and Mirona Road back to Route 1. The work installs a new sewer connection and manhole for a housing project.",
+   "source": {
+    "label": "City of Portsmouth, Nov 2",
+    "url": "https://www.portsmouthnh.gov/node/728952"
+   },
+   "strip": "Route 1 nights",
+   "stripLine": "Closed nights 8 pm to 6 am",
+   "until": "2026-11-05"
+  },
+  {
+   "date": "2026-11-01",
+   "kind": "Trash",
+   "title": "Automated trash and recycling pickup starts in the Pannaway neighborhood in November",
+   "detail": "Each household gets two 64-gallon city-issued wheeled bins, one trash and one single-stream recycling, assigned to the property with RFID tracking. Weekly curbside pickup on the usual day; only the new bins are emptied. Old bins can go to the Recycling Center, 680 Peverly Hill Road. Other neighborhoods follow in 2027. Details: portsnh.co/toter or (603) 431-2000.",
+   "source": {
+    "label": "City of Portsmouth DPW, Oct 22",
+    "url": "https://www.portsmouthnh.gov/city/news/city-portsmouth-nh-dpw-launches-automated-collection-program-trash-and-recycling"
+   },
+   "oneLiner": "Pannaway gets the new automated trash and recycling bins in November; other neighborhoods in 2027"
+  },
+  {
    "date": "2026-11-01",
    "kind": "Water",
    "title": "Got a letter about a galvanized or unknown water service line? The city posted FAQs",
@@ -224,6 +163,80 @@
    "source": {
     "label": "City of Portsmouth DPW, Nov 1",
     "url": "https://www.portsmouthnh.gov/publicworks/water/news/faqs-service-line-notices"
+   }
+  },
+  {
+   "date": "2026-10-31",
+   "kind": "Roads",
+   "title": "Halloween Parade steps off from Peirce Island at 7 pm Saturday; downtown streets close 6 to 10 pm",
+   "detail": "Closed or local traffic only from 6 pm: Marcy (Hancock to State, and under the bridge to Daniel), Daniel (Bow to Market Square), Bow (Daniel to Market), Market (Hanover to Market Square), Fleet (Hanover to State), Congress (Market to Maplewood), Pleasant (Court to Market Square), State (Fleet to Marcy), Porter (Fleet to Pleasant). No parking on the route 5 to 10 pm; cars still there at 5 pm are towed at the owner's expense. Garages: Hanover, Foundry Place, Worth Lot, Bridge Street Lot at normal rates. It is the 31st independently organized parade.",
+   "source": {
+    "label": "City of Portsmouth, Oct 13",
+    "url": "https://www.portsmouthnh.gov/city/press-releases/parking-restrictions-and-road-closures-2026-portsmouth-halloween-parade"
+   },
+   "strip": "Halloween Parade",
+   "stripLine": "Peirce Island, 7 pm · downtown closed 6 to 10"
+  },
+  {
+   "date": "2026-10-30",
+   "kind": "Event",
+   "title": "Trick-or-treat is Friday, October 30, 5 to 8 pm",
+   "detail": "Police ask drivers to watch for children and expect heavier traffic that evening. The Recreation Department and Library also have fall and Halloween events.",
+   "source": {
+    "label": "City of Portsmouth, Oct 2",
+    "url": "https://www.portsmouthnh.gov/city/press-releases/city-announces-trick-or-treat-hours-and-fall-events"
+   },
+   "strip": "Trick-or-treat",
+   "stripLine": "Friday, 5 to 8 pm"
+  },
+  {
+   "date": "2026-10-26",
+   "kind": "Library",
+   "title": "Korean Alphabet (Hangul) at the Library, Monday 5:30 pm",
+   "detail": "Portsmouth Public Library, 175 Parrott Avenue.",
+   "source": {
+    "label": "Library calendar",
+    "url": "https://portsmouthpl.librarycalendar.com/event/hangul26"
+   }
+  },
+  {
+   "date": "2026-10-23",
+   "kind": "Grants",
+   "title": "FY27 CDBG grants open for public facility and accessibility improvements",
+   "detail": "Federal Community Development Block Grant money for public facility and accessibility projects.",
+   "source": {
+    "label": "City of Portsmouth, Oct 23",
+    "url": "https://www.portsmouthnh.gov/community/news/fy27-cdbg-public-facility-and-accessibility-improvement-grants-available"
+   }
+  },
+  {
+   "date": "2026-10-20",
+   "kind": "Roads",
+   "title": "Cate Street Bridge project: public information session held October 20",
+   "detail": "6:30 pm at the Senior Activity Center, 125 Cottage Street, with questions afterward.",
+   "source": {
+    "label": "City of Portsmouth DPW, Oct 16",
+    "url": "https://www.portsmouthnh.gov/city/press-releases/dpw-hosts-cate-street-bridge-project-public-information-session-october-20-2026"
+   }
+  },
+  {
+   "date": "2026-10-16",
+   "kind": "Water",
+   "title": "Q3 drinking water update: supplies holding up despite the drought that began in June 2025",
+   "detail": "DPW's quarterly report covers the Portsmouth and Pease Tradeport water systems.",
+   "source": {
+    "label": "City of Portsmouth DPW, Oct 16",
+    "url": "https://www.portsmouthnh.gov/publicworks/water/news/dpw-releases-q3-2026-drinking-water-supply-updates-portsmouth-and-pease"
+   }
+  },
+  {
+   "date": "2026-10-13",
+   "kind": "Trash",
+   "title": "Leaves and yard waste: curbside collection and free drop-off at the Recycling Center",
+   "detail": "The city asks residents to keep leaves and clippings out of storm drains and waterways.",
+   "source": {
+    "label": "City of Portsmouth, Oct 13",
+    "url": "https://www.portsmouthnh.gov/city/press-releases/falling-leaves-cleaner-water-yard-waste-guidance"
    }
   }
  ],
@@ -871,19 +884,8 @@
    "status": "not yet connected"
   }
  ],
- "events_as_of": "2026-11-02",
+ "events_as_of": "2026-11-03",
  "events": [
-  {
-   "date": "2026-11-02",
-   "time": "6:30 pm",
-   "title": "The Mind Reset workshop",
-   "venue": "Portsmouth Public Library, 175 Parrott Ave",
-   "town": "Portsmouth",
-   "kind": "Library",
-   "url": "https://portsmouthpl.librarycalendar.com/event/mind-reset",
-   "source": "Library calendar",
-   "price": "Free"
-  },
   {
    "date": "2026-11-03",
    "time": "8 am to 7 pm",

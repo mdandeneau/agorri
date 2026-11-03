@@ -265,6 +265,19 @@
    "stripLine": "Bartlett Planning Board public hearing Monday"
   },
   {
+   "town": "Freedom",
+   "date": "2026-11-02",
+   "kind": "Election",
+   "title": "Election Day in Freedom: vote 8 am to 7 pm at Freedom Elementary School",
+   "detail": "Freedom votes at Freedom Elementary School, 40 Loon Lake Rd. Polls are open 8 am to 7 pm on Tuesday, Nov 3. The town posted the sample ballots with the notice.",
+   "source": {
+    "label": "Town of Freedom, Nov 2",
+    "url": "https://townoffreedomnh.gov/2026/11/02/election-day-is-tuesday-november-3-2026/"
+   },
+   "strip": "Election Day",
+   "stripLine": "Freedom votes at Freedom Elementary, 8 to 7"
+  },
+  {
    "town": "Madison",
    "date": "2026-11-01",
    "kind": "Planning",
@@ -441,17 +454,6 @@
    "source": {
     "label": "Town of Jackson, October Town Clerk Closures (Oct 5, 2026)",
     "url": "https://www.jackson-nh.gov/town-clerk/october-town-clerk-closures/"
-   }
-  },
-  {
-   "town": "Jackson",
-   "date": "2026-10-01",
-   "kind": "Planning",
-   "title": "Jackson Master Plan survey is open",
-   "detail": "The Planning Board is writing the 2026 Master Plan, a ten-year guide for the town, and asks residents and non-residents to fill out a survey online or on paper. Paper copies are at the post office and the Town Office; return them to the box at the Town Office.",
-   "source": {
-    "label": "Town of Jackson, Planning Board Master Plan Survey Flyer (Oct 1, 2026)",
-    "url": "https://www.jackson-nh.gov/news-and-alerts/planning-board-master-plan-survey-flyer/"
    }
   }
  ],
@@ -807,36 +809,6 @@
  ],
  "events": [
   {
-   "date": "2026-11-02",
-   "time": "4:00 pm",
-   "title": "Capital Improvement Committee meeting (4 to 5 pm)",
-   "venue": "Town of Madison (room not stated on the calendar)",
-   "town": "Madison",
-   "kind": "Civic",
-   "url": "https://www.madison-nh.org/",
-   "source": "Town of Madison"
-  },
-  {
-   "date": "2026-11-02",
-   "time": "5:30 pm",
-   "title": "Conservation Commission meeting (5:30 to 6:30 pm)",
-   "venue": "Jackson Town Offices, 54 Main Street",
-   "town": "Jackson",
-   "kind": "Civic",
-   "url": "https://www.jackson-nh.gov/boards-committees/conservation-commission/",
-   "source": "Town of Jackson"
-  },
-  {
-   "date": "2026-11-02",
-   "time": "6:00 pm",
-   "title": "Adult Basic Literacy Classes (ESL)",
-   "venue": "Conway Public Library, 15 Greenwood Ave",
-   "town": "Conway",
-   "kind": "Community",
-   "url": "https://conwaypubliclibrary.org/adult-community/events/291674/adult-basic-literacy-classes-esl",
-   "source": "Conway Public Library"
-  },
-  {
    "date": "2026-11-03",
    "time": "10:30 am",
    "title": "Tuesday Tales (story time)",
@@ -1145,7 +1117,7 @@
    "note": "The page gives Saturday, Dec 12 and Sunday, Dec 13 but no year; those weekdays match 2026 and the 2025 tour (28th) was Dec 13 and 14, 2025. Tickets are sold through the tour; the inn's page lists only its package."
   }
  ],
- "events_as_of": "2026-11-02",
+ "events_as_of": "2026-11-03",
  "eventsNote": "Events from the Conway Public Library, Cranmore, Conway Scenic Railroad, the Town of Conway, Settlers Green (via the Visit NH calendar) and The Conway Daily Sun, as of Oct 30. The Mt. Washington Valley Chamber calendar loads by script and the North Conway Community Center schedule could not be opened, so their events are missing. Conway Scenic's Santa's Holiday Special page says it begins Nov 27 but gives no year, so it is not listed. Confirm with the organizer. Valley-wide: Conway, Bartlett, Jackson and Madison. From the Town of Bartlett, Town of Jackson and Town of Madison calendars and notices, Jackson XC, the Jackson Area Chamber, White Mountain Ski Co., the Inn at Ellis River and OnTheSnow, as of Oct 31. Ski opening dates are OnTheSnow projections, not resort announcements. Story Land's 2026 season ended Oct 25 with Happy Hauntings (visitwhitemountains.com), so it has no events in this window. Not covered: the Jackson Area Chamber November and December calendar pages, the Attitash events calendar, the Bartlett, Jackson and Madison library sites and the Bartlett and Madison recreation sites could not be opened. Weekly programs at the Old Jackson Library (yoga, mahjong, canasta) are listed in parks-add.json, not here.",
  "election": {
   "date": "2026-11-03",
@@ -1652,7 +1624,7 @@
      "year": "2024",
      "better": "lower",
      "town": 2145.4,
-     "nh": 918.0,
+     "nh": 918,
      "us": 1760.1,
      "counts": {
       "town": 224,
