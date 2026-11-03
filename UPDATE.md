@@ -5,6 +5,7 @@ This is what the scheduled Agorri refresh does every morning, for every town wit
 All towns share one page (`index.html`). Only edit data in `data/<town>/`. Never edit `index.html` or `functions/` during a refresh.
 
 ## Hard rules
+- Consistency: a refresh updates every section of a town together. Never leave one tab weeks behind another, one team's record on a different date than the rest, or a count on Home that the tab page does not match. `scripts/check.mjs --strict` and `scripts/scan.mjs` enforce this; run both before pushing.
 - Facts only from sources you fetched in this run. Every new item carries its source URL.
 - Plain English, neutral, no em dashes. Report what officials said and did; never characterize.
 - Copy vote outcomes exactly as recorded. Mark anything ambiguous `needs_review` with a `review_note`.
@@ -61,7 +62,8 @@ Use the source lists further down for anything the inbox does not cover (events,
 9b. **Results** (`candidates.json`). The day after, add `result: {votes, pct, won: true/false, source}` to each candidate from the official count (NH Secretary of State or the City Clerk), set `note` to say results are unofficial until certified, and leave the page up for 30 days. Then remove `candidates.json` from the town's files in `towns.json` until the next election's filing period, and drop the `cand-*` feed sources from `feeds.json`.
 
 ## Before pushing
-10. Run `node scripts/check.mjs` (checks every live town). Fix every ERROR. Mention WARNs in the summary.
+10. Run `node scripts/check.mjs --strict` (checks every live town; in strict mode a section that was not refreshed today is an ERROR, so every section moves together: record within 3 days, events and paper headlines daily, safety within 3 days, sports every team on the same date, local, business, parks, schools and market within a week). Fix every ERROR. Mention WARNs in the summary.
+10b. Run `node scripts/scan.mjs` (renders every page of every live town headless and fails on a JavaScript error, leaked code or placeholders, a link to a page that does not exist, Home disagreeing with a tab page, or "the city" on a town's page). Fix every PROBLEM. Both scripts also run in GitHub Actions on every push (`.github/workflows/check.yml`), so a refresh that pushes with a failure shows red there.
 11. Commit to `main` as "Daily refresh YYYY-MM-DD: what changed" and push. Cloudflare redeploys in about a minute.
 12. End with a short summary per town: what was added, what was removed, anything marked needs_review, any source that failed.
 

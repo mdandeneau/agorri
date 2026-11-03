@@ -77,6 +77,10 @@ Ideas, questions, debate arguments (for or against an issue), comments, replies 
 - Authors can always ask a person to review a blocked or removed post. Automatic checks also block phone numbers, emails, more than two links, and more than 5 posts in 10 minutes.
 - Without `ANTHROPIC_API_KEY`, posts go live after the rule checks and three flags hide a post until a person reviews it.
 
+## Checks on every update
+
+Two scripts guard consistency and both run in GitHub Actions on every push (`.github/workflows/check.yml`). `node scripts/check.mjs` validates every live town's data files: required fields, newest-first order, sources on every item, no em dashes, and freshness (record, events, paper, safety, sports, local, business, parks, schools, market, each within its limit; sports records for every team on the same date; Home tile stats short enough to read). Freshness warns on a code push and fails with `--strict` (the daily refresh). `node scripts/scan.mjs` renders every page of every live town in headless Chromium and fails on a JavaScript error, leaked code or placeholders in the text, a link to a page that does not exist, a nearly empty page, Home disagreeing with a tab page, or "the city" on a town's page. Needs Playwright (`npm i playwright && npx playwright install chromium`).
+
 ## Files
 - `index.html`: the whole site.
 - `data/<town>/record.json` (meetings, votes, officials, budget), `local.json` (events, notices, housing, businesses, police and fire, social accounts), `beyond.json` (county, state, federal), `feeds.json` (live feed sources).
