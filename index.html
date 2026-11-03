@@ -817,6 +817,21 @@ a.more-l,.more-l{text-decoration:none}
 /* v35: clean-cut Home */
 .hhead{align-items:baseline}
 .kpis{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin-top:4px}
+.kpis.kfeat{grid-template-columns:repeat(3,minmax(0,1fr))}
+.kpis.kfeat .kpi .k-v{font-size:30px}
+@media (max-width:760px){.kpis.kfeat{grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}.kpis.kfeat .kpi{padding:12px 10px}.kpis.kfeat .kpi .k-v{font-size:20px}.kpis.kfeat .kpi .k-s{display:none}.kpis.kfeat .kpi .k-l{white-space:normal;font-size:11.5px}.kpis.kfeat .kpi .k-d{font-size:11.5px}}
+.vgrid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
+.vc{display:flex;flex-direction:column;gap:8px;min-width:0}
+.vc-k{font-size:12px;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.03em}
+.vc-ag{align-self:flex-start}
+.vc-t{font-size:16px;font-weight:800;line-height:1.25;color:var(--ink);text-decoration:none}
+.vc-d{margin:0;font-size:13.5px;line-height:1.4;color:var(--ink);display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.vc-n{margin:0;font-size:12.5px;line-height:1.35;color:var(--muted);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.vc-c{font-size:12.5px}.vc .act{display:flex;align-items:center;gap:6px;flex-wrap:wrap}
+.vc-more{margin-left:auto;text-decoration:none;font-weight:700}
+.vcell{display:flex;flex-direction:column;gap:6px;min-width:0}.vcell>.fc{flex:1}
+.vn-ag{align-self:flex-start}.vn-sub{margin:0 2px 6px;font-size:13px}
+@media (max-width:900px){.vgrid{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;gap:10px;padding-bottom:4px;scrollbar-width:none}.vgrid::-webkit-scrollbar{display:none}.vgrid>.vc{flex:0 0 84%;scroll-snap-align:start}}
 @media (max-width:760px){.kpis{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}}
 .kpi{display:flex;flex-direction:column;gap:4px;text-decoration:none;color:var(--ink);min-width:0}
 .kpi:hover{box-shadow:var(--shadow),0 0 0 1px var(--line)}
@@ -1642,7 +1657,8 @@ function route(){if(!TOWN)return;if(TLIVE()&&!D)return;let h=(location.hash||'#h
  else if(h==='friends'){if(!FRIENDS)S.fTab='board';html=pageFriends();active=FRIENDS?'friends':'neighbors';}
  else if(h==='staff'){html=pageStaff();active='home';}
  else if(h==='home-classic')html=pageHome();
- else html=pageHome2();
+ else if(h==='home-v39')html=pageHome2();
+ else html=pageHome3();
  currentArea={home:'Home',ideas:'Ideas',local:'Local',social:'Lookup',safety:'Lookup',friends:'Neighbors',issues:'Issues',lookup:'Lookup',neighbors:'Neighbors',talk:'Talk',business:'Business',parks:'Parks & public works',schools:'Schools',sports:'Sports',election:'Vote'}[active]||'Home';
  if(TLIVE()&&TOWN.paused)html=pausedBanner(TOWN)+html;
  $('app').innerHTML=html;
@@ -2662,6 +2678,44 @@ function exploreGrid(){const t=[];const nm=D.next_council_meeting;const nd=nm&&n
  const C=(D.officials&&D.officials.council)||[];if(C.length&&!ALLMODE())t.push({ic:'people',l:'Who represents you',v:C.length+' '+((D.town&&D.town.members)||'members'),s:'Votes, attendance, contact',h:'#officials'});
  const nev=upcomingEvents().length;if(t.length<6&&nev)t.push({ic:'cal',l:'Events and calendar',v:nev+' coming up',s:'Meetings, shows, family events',h:'#events'});
  return `<section class="blk"><div class="sec"><h2>Explore ${esc(TN())}</h2></div><div class="exgrid">${t.slice(0,6).map(x=>`<a class="card ex" href="${x.h}"><span class="ex-ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${EX_IC[x.ic]}</svg></span><span class="ex-tx"><span class="ex-l">${esc(x.l)}${x.dot?' '+NEWDOT:''}</span><span class="ex-v">${esc(x.v)}</span>${x.s?`<span class="ex-s">${esc(x.s)}</span>`:''}</span></a>`).join('')}</div></section>`;}
+/* ---- v40 Home: what is up for a vote, what people are talking about, and the town's key numbers lead. The v39 Home stays at #home-v39. ---- */
+function voteRank(){const fut=futureItems().filter(u=>u.date&&u.date>=TODAY&&u.date<=addDays(TODAY,30));const kw=i=>(i.keywords||[]).map(k=>String(k).toLowerCase()).filter(Boolean);
+ return D.issues.map((i,n)=>{const hit=fut.find(u=>kw(i).some(k=>u.item.toLowerCase().includes(k)));const c=cnt(i.id);const talkN=(window.TALK&&TALK.ready)?tkFor('issue',i.id).length:0;
+  return {i,hit,score:(hit?1e6-(Math.round((ld(hit.date)-ld(TODAY))/864e5)*100):0)+(isNewDate(issueLast(i))?5e4:0)+(c.s+c.o)*10+talkN*20-n};}).sort((a,b)=>b.score-a.score);}
+function voteCard(i,hit){const c=cnt(i.id),n=c.s+c.o,v=S.votes[i.id];const pct=n?Math.round(c.s/n*100):0;const k=(window.TALK&&TALK.ready)?tkFor('issue',i.id).length:0;
+ return `<article class="card vc">${hit?`<span class="tag amber vc-ag">On the ${fmtD(hit.date)} ${esc(GBS())} agenda</span>`:`<span class="vc-k">${esc(i.topic||'Issue')}${isNewDate(issueLast(i))?' '+NEWDOT:''}</span>`}
+ <a class="vc-t" href="#issue-${i.id}">${esc(i.title)}</a><p class="vc-d">${esc(i.summary||'')}</p>
+ ${i.next||i.status?`<p class="vc-n"><b>Where it stands:</b> ${esc(i.status||'')}${i.next?'. Next: '+esc(i.next):''}</p>`:''}
+ <div class="stack" style="gap:4px;margin-top:auto"><div class="bar${n?'':' neutral'}" style="height:6px"><span style="width:${pct}%"></span></div><span class="muted vc-c">${n?`<b style="color:var(--accent)">${pct}% support</b> · ${n.toLocaleString()} verified`:'No resident input yet'}${k?' · '+k+' in the debate':''}</span></div>
+ <div class="act"><button class="btn sm yes${v==='s'?' on':''}" data-vote="s" data-tip="Support: counted as feedback from verified residents. Not a binding vote." data-id="${i.id}">${v==='s'?'Supporting':'Support'}</button><button class="btn sm no${v==='o'?' on':''}" data-vote="o" data-tip="Oppose: counted as feedback from verified residents. Not a binding vote." data-id="${i.id}">${v==='o'?'Opposing':'Oppose'}</button>${itemBar({t:'issue',id:i.id,label:i.title,href:'#issue-'+i.id},{sm:true})}<a class="muted vc-more" href="#issue-${i.id}">Context ›</a></div></article>`;}
+function voteNow(){if(!D.issues||!D.issues.length)return '';const R=voteRank();const top=R.slice(0,3);const nm=D.next_council_meeting;const nd=nm&&nm.date&&nm.date>=TODAY?nm.date:null;
+ return `<section class="blk"><div class="sec"><h2>Up for a vote: weigh in</h2><a href="#issues">All ${D.issues.length} issue${D.issues.length===1?'':'s'} ›</a></div>
+ <p class="muted vn-sub">${nd?`${esc(GB())} meets ${fmtD(nd)}. `:''}Support or oppose before it's decided. Verified residents are counted and shown to the ${ISTOWN()?'town':'city'}.</p>
+ <div class="vgrid">${top.map(({i,hit})=>voteCard(i,hit)).join('')}</div></section>`;}
+function talkingNow(){const ready=!!(window.TALK&&TALK.ready);const all=ready?tkTop():[];const wk=addDays(TODAY,-14);
+ const posts=tkSort(all.filter(x=>(x.active||x.at||'').slice(0,10)>=wk),'Discussed').slice(0,4);
+ const iss=D.issues.map(i=>({i,k:ready?tkFor('issue',i.id).length:0,c:cnt(i.id)})).filter(x=>x.k||x.c.s+x.c.o).sort((a,b)=>(b.k-a.k)||((b.c.s+b.c.o)-(a.c.s+a.c.o))).slice(0,Math.max(0,4-posts.length));
+ const nm=D.next_council_meeting;const ag=(nm&&nm.date>=TODAY?nm.items:[]).slice(0,Math.max(0,3-posts.length-iss.length)).map(it=>`<a class="pv-row" href="#issues"><span class="pv-t"><span class="pv-kind">${esc(GBS())} ${fmtD(nm.date)}</span> ${esc(it.item)}</span></a>`);
+ const rows=[...posts.map(x=>`<a class="pv-row" href="#talk-${esc(x.key)}"><span class="pv-t"><span class="pv-kind">${esc((TK_KINDS[x.kind]||{n:'Post'}).n)}</span> ${esc(x.title||(x.body||'').slice(0,120))}</span><small class="muted num">${x.replies?x.replies+' repl'+(x.replies===1?'y':'ies')+' · ':''}${x.sup?x.sup+' support · ':''}${ago(x.active||x.at)}</small></a>`),
+  ...iss.map(({i,k,c})=>{const n=c.s+c.o;return `<a class="pv-row" href="#issue-${i.id}"><span class="pv-t"><span class="pv-kind">Issue</span> ${esc(i.title)}</span><small class="muted num">${k?k+' in the debate':''}${k&&n?' · ':''}${n?Math.round(c.s/n*100)+'% support of '+n:''}</small></a>`;}),...ag];
+ return `<section class="blk"><div class="sec"><h2>What ${esc(TN())} is talking about</h2><a href="#talk">All talk${all.length?' ('+all.length+')':''} ›</a></div><div class="card pv-list">${rows.length?rows.join(''):`<p class="muted pv-empty">Nothing yet this week. Post an idea below, or tap ${BUBBLE} on any issue to start the debate.</p>`}</div></section>`;}
+function numbersFeat(){const t=kpiList().filter(k=>k&&!k.soc).slice(0,3);if(!t.length)return '';
+ return `<section class="blk"><div class="sec"><h2>${esc(TN())} by the numbers</h2><a href="#budget">Budget and taxes ›</a></div><div class="kpis kfeat">${t.map(kpiCard).join('')}</div></section>`;}
+function pageHome3(){const hr=new Date().getHours();const hi=hr<12?'Good morning':hr<17?'Good afternoon':'Good evening';
+ if(!WX.ok||WX.town!==TOWN.id)loadWX();const e=LX&&LX.election;const soon=e&&e.date&&e.date>=TODAY&&e.date<=addDays(TODAY,2);const ys=yourStuff();
+ return `
+ ${heroHead(hi)}
+ ${subPicker()}
+ ${soon?hcBlock():''}
+ ${voteNow()}
+ ${talkingNow()}
+ ${numbersFeat()}
+ ${askCard()}
+ ${soon?'':hcBlock()}
+ ${ys}
+ ${newsPreview()}
+ ${becauseResidents()}
+ ${foot()}`;}
 /* ---- the new Home ---- */
 function pageHome2(){const m=D.council_meetings[0];const yes=m?m.decisions.filter(d=>/^pass|^approved/i.test(d.outcome||'')).length:0;const nev=upcomingEvents().length;const hr=new Date().getHours();const hi=hr<12?'Good morning':hr<17?'Good afternoon':'Good evening';const yday=m&&m.date===addDays(TODAY,-1);
  if(!WX.ok||WX.town!==TOWN.id)loadWX();
@@ -2705,7 +2759,7 @@ const _tkVerify39=tkVerify;tkVerify=async function(a,u){const r=await _tkVerify3
 var NAVST=[];
 function navTrack(){const h=(location.hash||'#home').slice(1)||'home';if(NAVST.length>1&&NAVST[NAVST.length-2]===h)NAVST.pop();else if(NAVST[NAVST.length-1]!==h)NAVST.push(h);if(NAVST.length>60)NAVST=NAVST.slice(-60);}
 window.addEventListener('hashchange',navTrack);navTrack();
-function navChrome(){const h=(location.hash||'#home').slice(1)||'home';const home=h==='home';const b=document.getElementById('tbback');if(b)b.hidden=home;const t=document.getElementById('tbar');if(t)t.classList.toggle('has-back',!home);const app=document.getElementById('app');if(app)app.classList.toggle('wide',home||h==='home-classic');}
+function navChrome(){const h=(location.hash||'#home').slice(1)||'home';const home=h==='home';const b=document.getElementById('tbback');if(b)b.hidden=home;const t=document.getElementById('tbar');if(t)t.classList.toggle('has-back',!home);const app=document.getElementById('app');if(app)app.classList.toggle('wide',home||h==='home-classic'||h==='home-v39');}
 document.addEventListener('click',e=>{const b=e.target.closest('#tbback');if(!b)return;e.preventDefault();if(NAVST.length>1)history.back();else location.hash='#home';});
 
 /* ---- Regions: several towns under one place (towns.json "subtowns"); the picker swaps the government record ---- */
