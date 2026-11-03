@@ -149,6 +149,7 @@
     "safety": "data/mount-washington-valley/safety.json",
     "sports": "data/mount-washington-valley/sports.json",
     "faith": "data/mount-washington-valley/faith.json",
+    "featured": "data/mount-washington-valley/featured.json",
     "market": "data/mount-washington-valley/market.json"
    },
    "photo": {
