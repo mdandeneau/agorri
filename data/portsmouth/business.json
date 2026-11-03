@@ -483,7 +483,13 @@
   "grant",
   "tax credit",
   "erz",
-  "cdbg"
+  "cdbg",
+  "for sale",
+  "listed for sale",
+  "up for sale",
+  "new owner",
+  "changes hands",
+  "business broker"
  ],
  "stats": [
   {
@@ -523,5 +529,27 @@
    }
   }
  ],
- "methodology": "Compiled Oct 29, 2026 from pages fetched this session: portsmouthnh.gov (Economic Development, City Clerk, Health, Inspection, Planning, news), Seacoast Current, WOKQ, Patch Portsmouth, NH Business Review, The Nashua Independent. Not covered: Seacoastonline/Portsmouth Herald (paywalled, not fetched), the Chamber Collaborative's news page at business.portsmouthchamber.org (fetch blocked), WMUR (fetch blocked), Business NH Magazine (no RSS found). No official count of registered businesses or downtown vacancy was found. Fees for vendor, sidewalk obstruction and business licenses are not published on the city pages read."
+ "methodology": "Compiled Oct 29, 2026 from pages fetched this session: portsmouthnh.gov (Economic Development, City Clerk, Health, Inspection, Planning, news), Seacoast Current, WOKQ, Patch Portsmouth, NH Business Review, The Nashua Independent. Not covered: Seacoastonline/Portsmouth Herald (paywalled, not fetched), the Chamber Collaborative's news page at business.portsmouthchamber.org (fetch blocked), WMUR (fetch blocked), Business NH Magazine (no RSS found). No official count of registered businesses or downtown vacancy was found. Fees for vendor, sidewalk obstruction and business licenses are not published on the city pages read.",
+ "forSale": [],
+ "forSaleNote": "Businesses for sale come from local news coverage and the city's own notices, each linked to its source. The listing sites below publish no feed and do not allow copying, so they are links only.",
+ "forSaleLinks": [
+  {
+   "name": "BizBuySell: Rockingham County",
+   "what": "The largest business-for-sale site. County page lists Portsmouth businesses with asking prices.",
+   "url": "https://www.bizbuysell.com/new-hampshire/rockingham-county-businesses-for-sale",
+   "source": "BizBuySell"
+  },
+  {
+   "name": "BizQuest: Portsmouth",
+   "what": "Businesses listed for sale in Portsmouth by brokers and owners.",
+   "url": "https://www.bizquest.com/businesses-for-sale-in-portsmouth-nh",
+   "source": "BizQuest"
+  },
+  {
+   "name": "BusinessBroker.net: Portsmouth",
+   "what": "Broker listings for Portsmouth businesses.",
+   "url": "https://www.businessbroker.net/city/portsmouth-nh-businesses-for-sale.aspx",
+   "source": "BusinessBroker.net"
+  }
+ ]
 }

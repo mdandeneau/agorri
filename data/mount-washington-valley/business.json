@@ -495,7 +495,13 @@
   "tourism",
   "visitors",
   "workforce housing",
-  "zoning"
+  "zoning",
+  "for sale",
+  "listed for sale",
+  "up for sale",
+  "new owner",
+  "changes hands",
+  "business broker"
  ],
  "stats": [
   {
@@ -535,5 +541,15 @@
    }
   }
  ],
- "methodology": "Compiled October 30, 2026 from pages opened this session: conwaynh.gov (Town Departments, Planning and Zoning, Building Inspection, Town Clerk, Assessing, Documents, Public Notices, Broadcast, news RSS), the Chapter 23 Building Construction text posted by the town, the Conway Forward zoning project site, the Mt Washington Valley Chamber (member page, Your Chamber page, member news), the NH SBDC locations page, NH DHHS Food Protection pages, Rep. Pappas's contact page, a 2023 summary of Town of Conway v. Kudrick (casemine.com), and Conway Daily Sun articles and its Business section listing. Notices marked 'Article not opened' are headlines and dates as listed on the Daily Sun Business page. Not covered: the sign permit, rental certificate and special event PDFs could not be opened, so fees and exact rules are not shown; no North Conway or Conway Main Street organization was found; the Economic Council's own website and NHES community profile were not opened; the June 22, 2026 Assessing notice to commercial taxpayers about Sansoucy Associates falls just outside the 120-day window and its text is an image; the TD Bank North Conway branch closing (January 29, 2026) and the MaineHealth Urgent Care opening (February 2026) are older than six months and left out."
+ "methodology": "Compiled October 30, 2026 from pages opened this session: conwaynh.gov (Town Departments, Planning and Zoning, Building Inspection, Town Clerk, Assessing, Documents, Public Notices, Broadcast, news RSS), the Chapter 23 Building Construction text posted by the town, the Conway Forward zoning project site, the Mt Washington Valley Chamber (member page, Your Chamber page, member news), the NH SBDC locations page, NH DHHS Food Protection pages, Rep. Pappas's contact page, a 2023 summary of Town of Conway v. Kudrick (casemine.com), and Conway Daily Sun articles and its Business section listing. Notices marked 'Article not opened' are headlines and dates as listed on the Daily Sun Business page. Not covered: the sign permit, rental certificate and special event PDFs could not be opened, so fees and exact rules are not shown; no North Conway or Conway Main Street organization was found; the Economic Council's own website and NHES community profile were not opened; the June 22, 2026 Assessing notice to commercial taxpayers about Sansoucy Associates falls just outside the 120-day window and its text is an image; the TD Bank North Conway branch closing (January 29, 2026) and the MaineHealth Urgent Care opening (February 2026) are older than six months and left out.",
+ "forSale": [],
+ "forSaleNote": "Businesses for sale come from local news coverage and town notices, each linked to its source. The listing sites below publish no feed and do not allow copying, so they are links only.",
+ "forSaleLinks": [
+  {
+   "name": "BizBuySell: New Hampshire",
+   "what": "The largest business-for-sale site. Filter by county for Carroll County and the valley towns.",
+   "url": "https://www.bizbuysell.com/new-hampshire-established-businesses-for-sale/",
+   "source": "BizBuySell"
+  }
+ ]
 }
