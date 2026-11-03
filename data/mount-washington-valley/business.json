@@ -535,10 +535,10 @@
    }
   },
   {
-   "value": "$560K",
-   "label": "Economic Council pandemic loans",
-   "note": "Low-interest loans to 27 small local businesses",
-   "as_of": null,
+   "value": "$400K",
+   "label": "Economic Council revolving loan fund",
+   "note": "Lends to small businesses and startups across 13 valley towns; fund intact after the Tech Village sale, per its executive director",
+   "as_of": "2026-06",
    "source": {
     "label": "Conway Daily Sun, Jun 11, 2026",
     "url": "https://www.conwaydailysun.com/news/local/after-sale-of-tech-village-whats-next-for-economic-council/article_db83d604-5912-44ed-95f7-6b387209a094.html"
@@ -554,6 +554,19 @@
    "what": "The largest business-for-sale site. Filter by county for Carroll County and the valley towns.",
    "url": "https://www.bizbuysell.com/new-hampshire-established-businesses-for-sale/",
    "source": "BizBuySell"
+  }
+ ],
+ "changedHands": [
+  {
+   "name": "Comfort Inn & Suites North Conway",
+   "what": "58-room hotel, 2001 White Mountain Highway",
+   "town": "Conway",
+   "date": "2026-09-21",
+   "detail": "Sold September 21, 2026, through Wason Associates. It had been under the same ownership and management since it was built in 2000; the broker's listing calls it consistently the #1 Choice Hotel/Comfort Inn in the United States. Buyer and price were not published.",
+   "source": {
+    "label": "Wason Associates, sold listing",
+    "url": "https://www.hospitalityrealestate.com/properties/comfort-inn/"
+   }
   }
  ]
 }
