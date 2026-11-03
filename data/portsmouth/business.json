@@ -493,8 +493,9 @@
  ],
  "stats": [
   {
-   "label": "Parking Fund budgeted contribution, FY27",
-   "value": "$6.86 million (up 67.6 percent since FY22); $2.5 million direct support to the General Fund",
+   "value": "$6.86M",
+   "label": "Parking Fund contribution, FY27",
+   "note": "Up 67.6 percent since FY22; $2.5 million of it direct support to the General Fund",
    "as_of": "2026-08-17",
    "source": {
     "label": "City of Portsmouth, City Council parking work session",
@@ -502,8 +503,9 @@
    }
   },
   {
-   "label": "Foundry Garage workforce parking, daily users",
-   "value": "160 per day in July 2026 (+23.1 percent vs July 2025)",
+   "value": "160 a day",
+   "label": "Foundry Garage workforce parkers, July 2026",
+   "note": "Up 23.1 percent on July 2025",
    "as_of": "2026-07",
    "source": {
     "label": "City of Portsmouth, City Council parking work session",
@@ -511,8 +513,9 @@
    }
   },
   {
+   "value": "$6.8M",
    "label": "Hanover Garage reconstruction",
-   "value": "$6.8 million project, 2022 to 2025, 900 spaces",
+   "note": "900 spaces, 2022 to 2025",
    "as_of": "2026-08-17",
    "source": {
     "label": "City of Portsmouth, City Council parking work session",
@@ -520,8 +523,9 @@
    }
   },
   {
+   "value": "$414M",
    "label": "Portsmouth Naval Shipyard payroll",
-   "value": "$414 million military and civilian payroll (year not stated)",
+   "note": "Military and civilian; year not stated",
    "as_of": null,
    "source": {
     "label": "City of Portsmouth, About Portsmouth",

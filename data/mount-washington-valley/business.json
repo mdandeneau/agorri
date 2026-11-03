@@ -505,8 +505,9 @@
  ],
  "stats": [
   {
-   "label": "Chamber members",
-   "value": "Close to 600 member businesses and organizations",
+   "value": "~600",
+   "label": "Chamber member businesses and organizations",
+   "note": "Close to 600, per the Mt Washington Valley Chamber",
    "as_of": null,
    "source": {
     "label": "Mt Washington Valley Chamber of Commerce",
@@ -514,8 +515,9 @@
    }
   },
   {
-   "label": "Town of Conway population",
-   "value": "9,822 (2020 census), down from 10,115 in 2010",
+   "value": "9,822",
+   "label": "Conway population, 2020 census",
+   "note": "Down from 10,115 in 2010",
    "as_of": "2020",
    "source": {
     "label": "Wikipedia, Conway, New Hampshire (census figures)",
@@ -523,8 +525,9 @@
    }
   },
   {
-   "label": "North Conway village population",
-   "value": "2,116 (2020 census, census-designated place)",
+   "value": "2,116",
+   "label": "North Conway village population, 2020 census",
+   "note": "Census-designated place",
    "as_of": "2020",
    "source": {
     "label": "Wikipedia, North Conway, New Hampshire (census figures)",
@@ -532,8 +535,9 @@
    }
   },
   {
-   "label": "Economic Council pandemic lending",
-   "value": "$560,000 in low-interest loans to 27 small local businesses",
+   "value": "$560K",
+   "label": "Economic Council pandemic loans",
+   "note": "Low-interest loans to 27 small local businesses",
    "as_of": null,
    "source": {
     "label": "Conway Daily Sun, Jun 11, 2026",
