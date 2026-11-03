@@ -1,10 +1,21 @@
 {
  "as_of": "2026-11-03",
- "note": "Buy and sell around the Mount Washington Valley, built only from sources that allow it: town and county surplus sales, auction houses' own schedules, library and school sales, and eBay's public Browse API filtered to local pickup near North Conway. Craigslist, Facebook Marketplace and OfferUp publish no feed and forbid automated copying, so they appear here only as links the resident opens. `surplus` and `sales` are filled by the daily refresh from the sources under `watch`; each item links to where it came from.",
+ "note": "Buy and sell around the Mount Washington Valley, built only from sources that allow it: town and county surplus sales, auction houses' own schedules, library and school sales, and eBay's public Browse API filtered to local pickup near North Conway. Craigslist, Facebook Marketplace and OfferUp publish no feed and forbid automated copying, so they appear here only as links the resident opens. `sales` lists title, date, town and link only, the way the paper's headlines are handled; descriptions and photos stay on the listing site. `surplus` and `sales` are filled by the daily refresh from the sources under `watch`; each item links to where it came from.",
  "zip": "03860",
  "radius": 30,
  "surplus": [],
- "sales": [],
+ "sales": [
+  {
+   "title": "3-bedroom home on 1.7 acres, 22 Rainbow Drive",
+   "kind": "Real estate auction",
+   "date": "2026-11-06",
+   "time": "11 am",
+   "town": "Ossipee",
+   "where": "On site",
+   "url": "https://paulmcinnis.com/auctions/upcoming-auctions/26pm-31-ossipee-nh/",
+   "source": "Paul McInnis LLC"
+  }
+ ],
  "watch": [
   {
    "id": "municibid-nh",
@@ -15,6 +26,16 @@
    "id": "town-sites",
    "what": "Each valley town's own notices (ingest/sources.json) for surplus sales, town-wide yard sales and swaps",
    "how": "ingest/sources.json conway, bartlett, jackson, madison, tamworth"
+  },
+  {
+   "id": "estatesales-mwv",
+   "what": "EstateSales.net around North Conway (0 sales listed Nov 3, 2026; check for new ones)",
+   "url": "https://www.estatesales.net/NH/North-Conway/03860"
+  },
+  {
+   "id": "mcinnis",
+   "what": "Paul McInnis LLC upcoming auctions (Carroll County real estate and estates)",
+   "url": "https://paulmcinnis.com/auctions/upcoming-auctions/"
   }
  ],
  "links": [
@@ -63,5 +84,7 @@
    "source": "OfferUp",
    "external": true
   }
- ]
+ ],
+ "nearby": false,
+ "sales_as_of": "2026-11-03"
 }
