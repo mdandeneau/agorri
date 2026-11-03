@@ -1,5 +1,5 @@
 {
- "note": "Agorri town registry. Every live town runs on the same page (index.html), so a layout change applies to all of them. To add a town: put its files in data/<id>/ (record, local, beyond and feeds are required; parks, business and candidates are optional and turn on those tabs), add an entry here with status \"live\", and add \"/<id> / 200\" to _redirects. A live town can carry \"paused\": {\"since\", \"note\"}: the page stays up with a banner saying updates are paused and the last update date, and the daily refresh skips it.",
+ "note": "Agorri town registry. Every live town runs on the same page (index.html), so a layout change applies to all of them. To add a town: put its files in data/<id>/ (record, local, beyond and feeds are required; parks, business, candidates and market are optional and turn on those tabs), add an entry here with status \"live\", and add \"/<id> / 200\" to _redirects. A live town can carry \"paused\": {\"since\", \"note\"}: the page stays up with a banner saying updates are paused and the last update date, and the daily refresh skips it.",
  "default": "portsmouth",
  "towns": [
   {
@@ -22,7 +22,8 @@
     "schools": "data/portsmouth/schools.json",
     "sports": "data/portsmouth/sports.json",
     "faith": "data/portsmouth/faith.json",
-    "featured": "data/portsmouth/featured.json"
+    "featured": "data/portsmouth/featured.json",
+    "market": "data/portsmouth/market.json"
    },
    "assessor": {
     "type": "vgsi",
@@ -148,7 +149,8 @@
     "safety": "data/mount-washington-valley/safety.json",
     "sports": "data/mount-washington-valley/sports.json",
     "faith": "data/mount-washington-valley/faith.json",
-    "featured": "data/mount-washington-valley/featured.json"
+    "featured": "data/mount-washington-valley/featured.json",
+    "market": "data/mount-washington-valley/market.json"
    },
    "photo": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Echo_Lake_and_Cathedral_Ledge%2C_North_Conway_%28494301%29_%2811924544465%29.jpg/{w}px-Echo_Lake_and_Cathedral_Ledge%2C_North_Conway_%28494301%29_%2811924544465%29.jpg",

@@ -1,0 +1,111 @@
+{
+ "as_of": "2026-11-03",
+ "note": "Buy and sell around Portsmouth, built only from sources that allow it: the city's own surplus sales, auction houses' own schedules, library and school sales, and eBay's public Browse API filtered to local pickup. Craigslist, Facebook Marketplace and OfferUp publish no feed and forbid automated copying, so they appear here only as links the resident opens. Nothing is scraped from a site whose terms forbid it. `surplus` and `sales` are filled by the daily refresh from the sources under `watch`; each item links to where it came from.",
+ "zip": "03801",
+ "radius": 25,
+ "surplus": [],
+ "sales": [],
+ "watch": [
+  {
+   "id": "city-bids",
+   "what": "City of Portsmouth surplus sales (bid archive; items whose title says sale, surplus or auction)",
+   "url": "https://www.portsmouthnh.gov/finance/bids-archive",
+   "how": "ingest/sources.json portsmouth/surplus-sales"
+  },
+  {
+   "id": "city-opengov",
+   "what": "City of Portsmouth bids and sales since 2026 (OpenGov portal; no feed, read by hand)",
+   "url": "https://procurement.opengov.com/portal/cityofportsmouth"
+  },
+  {
+   "id": "mcinnis",
+   "what": "Paul McInnis LLC upcoming auctions (North Hampton)",
+   "url": "https://paulmcinnis.com/auctions/upcoming-auctions/"
+  },
+  {
+   "id": "library-events",
+   "what": "Portsmouth Public Library events (book sales)",
+   "url": "https://www.portsmouthnh.gov/library"
+  },
+  {
+   "id": "city-calendar",
+   "what": "City calendar (town-wide yard sales, swaps, cleanups)",
+   "url": "https://www.portsmouthnh.gov/city-municipal-meetings-calendar"
+  }
+ ],
+ "links": [
+  {
+   "kind": "Government surplus",
+   "name": "City of Portsmouth bid archive",
+   "what": "The city's own list of bids and sales. Vehicles, equipment and surplus go out to bid here or by online auction; the 2024 police vehicles went through GovDeals.",
+   "url": "https://www.portsmouthnh.gov/finance/bids-archive",
+   "source": "City of Portsmouth, Finance"
+  },
+  {
+   "kind": "Government surplus",
+   "name": "Municibid: New Hampshire",
+   "what": "Online auctions run by New Hampshire towns, counties, school districts and fire departments. Surplus trucks, plows, tools and equipment.",
+   "url": "https://www.municibid.com/Browse/R3777826/New-Hampshire",
+   "source": "Municibid"
+  },
+  {
+   "kind": "Government surplus",
+   "name": "GovDeals",
+   "what": "Where many cities auction surplus vehicles and equipment. Set your location on the site to see what is near Portsmouth.",
+   "url": "https://www.govdeals.com/",
+   "source": "GovDeals"
+  },
+  {
+   "kind": "Estate sales",
+   "name": "Estate sales near 03801",
+   "what": "Estate sales and estate auctions within driving distance, with dates and photos.",
+   "url": "https://www.estatesales.net/NH/Portsmouth/03801",
+   "source": "EstateSales.net"
+  },
+  {
+   "kind": "Auction house",
+   "name": "Paul McInnis LLC",
+   "what": "Auction company at One Juniper Road, North Hampton, since 1976. Estate, equipment and real estate auctions around the Seacoast.",
+   "url": "https://paulmcinnis.com/auctions/upcoming-auctions/",
+   "source": "Paul McInnis LLC"
+  },
+  {
+   "kind": "Auction house",
+   "name": "Northeast Auctions",
+   "what": "Portsmouth auction house. Cataloged antiques auctions in Portsmouth and Manchester and periodic general estate sales at the Frank Jones Center, per its AuctionZip listing.",
+   "url": "https://www.auctionzip.com/NH-Auctioneers/1548.html",
+   "source": "AuctionZip"
+  },
+  {
+   "kind": "Library",
+   "name": "Portsmouth Public Library",
+   "what": "Library events, including book sales when they are scheduled.",
+   "url": "https://www.portsmouthnh.gov/library",
+   "source": "City of Portsmouth"
+  },
+  {
+   "kind": "Classifieds",
+   "name": "Craigslist: New Hampshire",
+   "what": "Opens Craigslist's New Hampshire for-sale listings. Craigslist publishes no feed and does not allow copying, so it is a link only.",
+   "url": "https://nh.craigslist.org/search/sss",
+   "source": "Craigslist",
+   "external": true
+  },
+  {
+   "kind": "Classifieds",
+   "name": "Facebook Marketplace",
+   "what": "Opens Marketplace in your account. Meta publishes no public listing feed, so it is a link only.",
+   "url": "https://www.facebook.com/marketplace/",
+   "source": "Meta",
+   "external": true
+  },
+  {
+   "kind": "Classifieds",
+   "name": "OfferUp",
+   "what": "Opens OfferUp. No public feed or API, so it is a link only.",
+   "url": "https://offerup.com/",
+   "source": "OfferUp",
+   "external": true
+  }
+ ]
+}
