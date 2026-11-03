@@ -1167,7 +1167,12 @@ a.agm-line:hover .agm-t b{color:var(--accent)}
 .tband-sec a:hover{text-decoration:underline}
 .tband-cr{position:absolute;right:12px;top:10px;font-size:10.5px;color:rgba(255,255,255,.8);text-decoration:none}
 .tband-cr:hover{text-decoration:underline}
-.tband-empty{color:#fff;opacity:.9;margin:0 0 14px}.tband-empty a{color:#fff}
+.tband-empty{color:#fff;opacity:.9;margin:0 0 14px}
+.hcf{margin:-2px 0 2px}
+.hcf button{background:rgba(255,255,255,.14);border-color:rgba(255,255,255,.28);color:#fff;backdrop-filter:blur(6px)}
+.hcf button:hover{background:rgba(255,255,255,.24)}
+.hcf button.on{background:#fff;border-color:#fff;color:#14202B}
+.hc-none{color:#fff;opacity:.9;margin:8px 4px 14px;font-size:14px}.hc-none a{color:#fff}.tband-empty a{color:#fff}
 .tband .hcar-b.prev{left:6px}.tband .hcar-b.next{right:6px}
 .tband .hc{box-shadow:0 6px 18px rgba(0,0,0,.28)}
 .hc-top{position:relative;overflow:hidden;min-height:84px;background:linear-gradient(135deg,var(--tone-soft) 0%,color-mix(in srgb,var(--tone) 30%,var(--tone-soft)) 100%)}
@@ -2744,7 +2749,7 @@ function becauseResidents(){const wk=addDays(TODAY,-7);const items=allRequests()
 /* ---- Today and coming up: one swipeable row of cards ---- */
 const HC_IC={weather:'<path d="M7 18h10a4 4 0 0 0 .5-7.97A6 6 0 0 0 6 11.5 3.5 3.5 0 0 0 7 18z"/>',road:'<path d="M3 9h18v5H3z"/><path d="M7 9l-2 5M12 9l-2 5M17 9l-2 5M6 14v6M18 14v6"/>',event:'<rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/>',biz:'<path d="M3 9l1.5-5h15L21 9"/><path d="M3 9h18v2.5a3 3 0 0 1-6 0 3 3 0 0 1-6 0 3 3 0 0 1-6 0z"/><path d="M5 14v7h14v-7"/>',safety:'<path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6z"/>',civic:'<path d="M12 3l9 5H3z"/><path d="M5 10v8M9 10v8M15 10v8M19 10v8M3 20h18"/>',vote:'<path d="M4 11h16v10H4z"/><path d="M8 11V4h8v7"/><path d="M10 7l1.5 1.5L15 5"/>',notice:'<path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10.3 21a1.94 1.94 0 0 0 3.4 0"/>'};
 function hcTone(kind){kind=String(kind||'');if(/Road|Parking|Closure|Detour/i.test(kind))return 'road';if(/Election|Vote/i.test(kind))return 'vote';if(/Hearing|Meeting|Council|Board/i.test(kind))return 'civic';if(/Trash|Water|Schools|Notice/i.test(kind))return 'notice';return 'event';}
-function hcItems(){const out=[];if(!LX||!D)return out;const tm=addDays(TODAY,1);const e=LX.election;
+function hcItems(lim){lim=lim||14;const out=[];if(!LX||!D)return out;const tm=addDays(TODAY,1);const e=LX.election;
  const fmtT=s=>{try{return new Date(s).toLocaleTimeString('en-US',{hour:'numeric',minute:'2-digit'});}catch(x){return '';}};
  WX.alerts.slice(0,2).forEach(a=>out.push({date:TODAY,tone:'weather',k:'Weather',t:a.event,line:a.ends?'Until '+fmtT(a.ends)+(a.ends.slice(0,10)>TODAY?' '+fmtD(a.ends.slice(0,10)):''):a.headline,href:a.url,ext:true,src:'National Weather Service',warn:true}));
  if(e&&(e.date===TODAY||e.date===tm))out.push({date:e.date,tone:'vote',k:'Vote',t:'Election Day',line:e.hours||'',href:LX.cand?'#election':'#local'});
@@ -2755,8 +2760,16 @@ function hcItems(){const out=[];if(!LX||!D)return out;const tm=addDays(TODAY,1);
  const w1=t=>String(t||'').toLowerCase().split(/[\s,:·]+/)[0];const lc=t=>String(t||'').toLowerCase().replace(/[^a-z0-9 ]/g,'').trim();const dup=x=>out.some(o=>{if(o.date!==x.date)return false;const a=lc(o.t),b=lc(x.t);return a===b||(w1(o.t)===w1(x.t)&&w1(x.t).length>3)||(a.length>8&&b.includes(a))||(b.length>8&&a.includes(b));});
  upcomingEvents().filter(x=>x.date===TODAY).forEach(x=>{const c={date:x.date,tone:'event',k:x.kind||'Event',t:x.title,line:[x.time,x.venue].filter(Boolean).join(' · '),href:x.url,ext:true,src:x.source};if(!dup(c))out.push(c);});
  moments().forEach(m=>{const c={date:m.date,tone:/Election/.test(m.title)?'vote':/meets$/.test(m.title)?'civic':'event',k:/Election/.test(m.title)?'Vote':/meets$/.test(m.title)?'Meeting':'Coming up',t:m.title,line:m.line,href:m.href,ext:m.ext};if(!dup(c))out.push(c);});
- upcomingEvents().filter(x=>x.date>TODAY).forEach(x=>{if(out.length>=14)return;const c={date:x.date,tone:'event',k:x.kind||'Event',t:x.title,line:[x.time,x.venue].filter(Boolean).join(' · '),href:x.url,ext:true,src:x.source};if(!dup(c))out.push(c);});
- const rank=x=>x.warn?0:x.late?2:1;return out.sort((a,b)=>a.date.localeCompare(b.date)||rank(a)-rank(b)).slice(0,14);}
+ upcomingEvents().filter(x=>x.date>TODAY).forEach(x=>{if(out.length>=lim)return;const c={date:x.date,tone:'event',k:x.kind||'Event',t:x.title,line:[x.time,x.venue].filter(Boolean).join(' · '),href:x.url,ext:true,src:x.source};if(!dup(c))out.push(c);});
+ const rank=x=>x.warn?0:x.late?2:1;return out.sort((a,b)=>a.date.localeCompare(b.date)||rank(a)-rank(b)).slice(0,lim);}
+/* filters for the strip: what kind of thing, or just today */
+var HCF='All';
+const HC_FILTERS=[['All','All'],['Today','Today'],['City','City and roads'],['Events','Events'],['Sports','Sports'],['Business','Business']];
+function hcFilterOk(x,f){f=f||HCF;if(f==='All')return true;if(f==='Today')return x.date===TODAY;if(f==='City')return ['civic','vote','road','notice','weather','safety'].includes(x.tone);if(f==='Sports')return /sport|game|athletic/i.test(x.k);if(f==='Business')return x.tone==='biz';if(f==='Events')return x.tone==='event'&&!/sport|game|athletic/i.test(x.k);return true;}
+function hcTrack(fv){const all=hcItems(HCF==='All'?14:60);const it=all.filter(x=>hcFilterOk(x)).slice(0,14);const nt=it.filter(x=>x.date===TODAY).length;
+ return `<div class="hcar"><button type="button" class="hcar-b prev" data-hcar="-1" aria-label="Earlier">‹</button><div class="hcar-track" tabindex="0" aria-label="${nt?nt+' things today, then what is coming up':'What is coming up'}">${HCF==='All'||HCF==='Today'||HCF==='City'?fv:''}${it.map(hcCard).join('')||`<p class="hc-none">Nothing ${HCF==='Today'?'else today':'in '+HC_FILTERS.find(f=>f[0]===HCF)[1].toLowerCase()+' coming up'}. <a href="#events">See the calendar ›</a></p>`}</div><button type="button" class="hcar-b next" data-hcar="1" aria-label="Later">›</button></div>`;}
+function hcChips(){const all=hcItems(60);const has=f=>f==='All'||all.some(x=>hcFilterOk(x,f));return `<div class="chips hcf" role="group" aria-label="Show">${HC_FILTERS.filter(([k])=>has(k)).map(([k,l])=>`<button type="button" data-hcf="${k}" class="${HCF===k?'on':''}" aria-pressed="${HCF===k}">${l}</button>`).join('')}</div>`;}
+document.addEventListener('click',e=>{const b=e.target.closest('[data-hcf]');if(!b)return;HCF=b.dataset.hcf;document.querySelectorAll('[data-hcf]').forEach(x=>{const on=x.dataset.hcf===HCF;x.classList.toggle('on',on);x.setAttribute('aria-pressed',on);});const host=document.getElementById('hctrack');if(host){const fx=featuredItem();host.innerHTML=hcTrack(fx&&fx.kind==='election'?'':hcVote());hcSync();}});
 function hcCard(x){const d=ld(x.date);const tm=addDays(TODAY,1);const when=x.date===TODAY?'Today':x.date===tm?'Tomorrow':d.toLocaleDateString('en-US',{weekday:'short'})+' · '+MON[d.getMonth()];
  return `<a class="hc t-${x.tone}${x.date===TODAY?' is-today':''}" href="${esc(x.href||'#local')}"${x.ext?' target="_blank" rel="noopener"':''}><span class="hc-top"><span class="hc-d"><small>${esc(when)}</small><b>${d.getDate()}</b></span><svg class="hc-wm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${HC_IC[x.tone]||HC_IC.event}</svg></span><span class="hc-k">${esc(x.k)}</span><span class="hc-t">${esc(x.t)}</span>${x.line?`<span class="hc-l">${esc(x.line)}</span>`:''}${x.src?`<span class="hc-s">${esc(x.src)} ↗</span>`:''}</a>`;}
 function hcVote(){const C=LX&&LX.cand,e=LX&&LX.election;if(!e||!e.date||e.date<TODAY)return '';const days=Math.round((ld(e.date)-ld(TODAY))/864e5);if(days>45)return '';const d=ld(e.date);
@@ -2833,7 +2846,7 @@ function todayBand(hi){const d=ld(TODAY).toLocaleDateString('en-US',{weekday:'lo
  return `<section class="tband${P&&P.src?'':' nophoto'}">${P&&P.src?`<img class="tband-img" src="${esc(u(960))}" srcset="${esc(u(960))} 960w, ${esc(u(1920))} 1920w" sizes="(max-width:900px) 100vw, 900px" alt="${esc(P.alt||'')}" style="object-position:${esc(P.pos||'50% 50%')}" decoding="async" fetchpriority="high"><a class="tband-cr" href="${esc(P.page)}" target="_blank" rel="noopener">Photo: ${esc(P.author)}, ${esc(P.license)}</a>`:''}
  <div class="tband-in"><div class="tband-hd"><div class="stack" style="gap:2px;min-width:0"><h1>${hi}, ${esc(PN)}</h1><span>${d}</span></div></div>
  <div class="tband-sec"><h2>Today and coming up</h2><a href="#events">${nev?'All '+nev+' events ›':'Calendar ›'}</a></div>
- ${fv||it.length?`<div class="hcar"><button type="button" class="hcar-b prev" data-hcar="-1" aria-label="Earlier">‹</button><div class="hcar-track" tabindex="0" aria-label="${nt?nt+' things today, then what is coming up':'What is coming up'}">${fv}${it.map(hcCard).join('')}</div><button type="button" class="hcar-b next" data-hcar="1" aria-label="Later">›</button></div>`:`<p class="tband-empty">Nothing on the calendar today. <a href="#events">See what is coming up ›</a></p>`}</div></section>`;}
+ ${fv||it.length?`${hcChips()}<div id="hctrack">${hcTrack(fv)}</div>`:`<p class="tband-empty">Nothing on the calendar today. <a href="#events">See what is coming up ›</a></p>`}</div></section>`;}
 var WALLF='All';
 const WALL_F=[['All','All'],['issue','Up for a vote'],['talk','Residents'],['official','Officials'],['news','News']];
 function wallIssue(i,hit){const c=cnt(i.id),n=c.s+c.o,v=S.votes[i.id];const pct=n?Math.round(c.s/n*100):0;const k=(window.TALK&&TALK.ready)?tkFor('issue',i.id).length:0;
