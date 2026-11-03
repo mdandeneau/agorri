@@ -1237,6 +1237,23 @@ a.wc-t:hover{text-decoration:underline}
  .tp{width:auto}
 }
 
+/* ---- Candidate page ---- */
+.cp-head{display:flex;gap:14px;align-items:flex-start}
+.cp-sum{margin:0;font-size:15.5px;line-height:1.5}
+.cp-counts{gap:6px;align-items:center;font-size:12.5px}
+.st{display:inline-block;font-size:11px;font-weight:800;letter-spacing:.04em;text-transform:uppercase;border-radius:6px;padding:2px 7px;white-space:nowrap;align-self:flex-start}
+.st-for{background:var(--green-soft);color:var(--green-ink)}.st-against{background:var(--red-soft);color:var(--red-ink)}.st-other{background:var(--soft);color:var(--ink2)}
+.cp-note{margin:0;font-size:13.5px;background:var(--amber-soft);color:var(--amber-ink);border-radius:8px;padding:8px 10px}
+.cp-area{display:flex;flex-direction:column;gap:10px}
+.cp-area h3{font-size:15px}
+.cp-list{display:flex;flex-direction:column;gap:10px}
+.cp-pos{display:grid;grid-template-columns:76px minmax(0,1fr);gap:10px;font-size:14px;color:var(--ink2);padding-top:10px;border-top:1px solid var(--line)}
+.cp-pos:first-child{border-top:0;padding-top:0}
+.cp-pos b{color:var(--ink)}
+.cp-vote{display:grid;grid-template-columns:76px minmax(0,1fr);gap:10px;font-size:14px;padding:8px 0;border-top:1px solid var(--line)}
+.cp-vote:first-child{border-top:0}
+.cp-also{display:flex;align-items:center;gap:8px;color:var(--ink);text-decoration:none;font-size:14px}
+@media (max-width:640px){.cp-pos,.cp-vote{grid-template-columns:1fr;gap:4px}}
 /* ---- Featured ---- */
 .fx{display:flex;flex-direction:column;gap:12px;padding:18px 20px;border-left:5px solid var(--accent)}
 .fx.t-vote{border-left-color:var(--accent)}
@@ -1746,6 +1763,7 @@ function route(){if(!TOWN)return;if(TLIVE()&&!D)return;let h=(location.hash||'#h
  else if(h==='record'){html=pageRecord();active='lookup';}
  else if(h==='beyond'){html=pageBeyond();active='lookup';}
  else if(h.startsWith('person-')){html=pagePerson(h.slice(7));active='lookup';}
+ else if(h.startsWith('candidate-')){html=pageCandidate(h.slice(10));active='election';}
  else if(h==='town'){html=pageTown();active='lookup';}
  else if(h==='safety'||h==='safety-log'||h==='safety-latest'){html=pageSafety();active='safety';}
  else if(h==='local'){html=pageLocal();active='local';}
@@ -2307,7 +2325,8 @@ function tkCtx(r){if(!r||r.t==='town')return null;if(r.t==='issue'){const i=D.is
  if(r.t==='housing')return {label:r.label||'Home prices',href:'#housing',ext:false};
  if(r.t==='event')return {label:r.label||'An event',href:r.url||'#local',ext:!!r.url};
  if(r.t==='idea'){const d=allRequests().find(x=>String(x.id)===String(r.id));return {label:r.label||(d?d.title:'An idea'),href:'#ideas',ext:false};}
- if(r.t==='candidate'||r.t==='race')return {label:r.label||'A candidate',href:'#election',ext:false};
+ if(r.t==='candidate')return {label:r.label||'A candidate',href:'#candidate-'+r.id,ext:false};
+ if(r.t==='race')return {label:r.label||'A race',href:'#election',ext:false};
  if(r.t==='election')return {label:r.label||'Election Day',href:'#election',ext:false};
  if(r.t==='feature')return {label:r.label||'Featured',href:r.href||'#home',ext:false};
  if(r.t==='park'||r.t==='project'||r.t==='program'||r.t==='parknote')return {label:r.label||'Parks and recreation',href:'#parks',ext:false};
@@ -2555,10 +2574,38 @@ function racesForWard(w){const C=LX&&LX.cand;if(!C)return [];if(ALLMODE())return
 function candSort(a,b){const l=s=>s.trim().split(/\s+/).pop().toLowerCase();return l(a.name).localeCompare(l(b.name))||a.name.localeCompare(b.name);}
 function acctLinks(list,skip){const seen=new Set([skip||''].map(u=>String(u).replace(/\/$/,'')));return (list||[]).filter(a=>a.url&&!seen.has(String(a.url).replace(/\/$/,''))&&!(skip&&a.platform==='Website')&&seen.add(String(a.url).replace(/\/$/,''))).map(a=>`<a class="tkb" href="${esc(a.url)}" target="_blank" rel="noopener">${esc(a.platform)} ↗</a>`).join('');}
 function candCard(c,r){const ref={t:'candidate',id:c.id,label:c.name+' ('+r.office+')',href:'#election'};const pos=(c.positions||[]).filter(p=>p.stance);
- return `<div class="cand" id="cand-${esc(c.id)}">${av(ini(c.name),pcolor(c.party),44)}<div class="stack" style="gap:6px;min-width:0"><div class="between" style="flex-wrap:nowrap;align-items:flex-start"><div class="stack" style="gap:2px"><h3>${esc(c.name)}</h3><div class="row" style="gap:6px">${partyTag(PARTY_FULL[c.party]&&!PARTY[c.party]?PARTY_FULL[c.party]:c.party)}${c.incumbent?'<span class="tag green">Incumbent</span>':''}${c.hometown?`<span class="muted">${esc(c.hometown)}</span>`:''}</div></div>${itemBar(ref)}</div>
+ return `<div class="cand" id="cand-${esc(c.id)}">${av(ini(c.name),pcolor(c.party),44)}<div class="stack" style="gap:6px;min-width:0"><div class="between" style="flex-wrap:nowrap;align-items:flex-start"><div class="stack" style="gap:2px"><h3><a href="#candidate-${esc(c.id)}" style="color:inherit;text-decoration:none">${esc(c.name)}</a></h3><div class="row" style="gap:6px">${partyTag(PARTY_FULL[c.party]&&!PARTY[c.party]?PARTY_FULL[c.party]:c.party)}${c.incumbent?'<span class="tag green">Incumbent</span>':''}${c.hometown?`<span class="muted">${esc(c.hometown)}</span>`:''}</div></div>${itemBar(ref)}</div>
   ${c.background?`<p class="pos">${esc(c.background)}</p>`:''}
   ${pos.length?`<details class="candpos"><summary>${pos.length} position${pos.length===1?'':'s'} on record</summary><ul class="pts">${pos.map(p=>`<li><b>${esc(p.topic)}:</b> ${esc(p.stance)}${p.quote?` <span class="muted">"${esc(p.quote)}"</span>`:''} ${srcLink(p.source)}</li>`).join('')}</ul></details>`:'<span class="muted" style="font-size:13px">No positions on record from a source we could read.</span>'}
-  <div class="row" style="gap:4px">${c.website?`<a class="tkb" href="${esc(c.website)}" target="_blank" rel="noopener">Website ↗</a>`:''}${acctLinks(c.accounts,c.website)}${c.source&&c.source.url?`<span class="srcline" style="margin-left:auto">${srcLink(c.source)}</span>`:''}</div></div></div>`;}
+  <div class="row" style="gap:4px"><a class="tkb" href="#candidate-${esc(c.id)}" style="font-weight:700">${c.summary?'Profile and summary ›':'Profile ›'}</a>${c.website?`<a class="tkb" href="${esc(c.website)}" target="_blank" rel="noopener">Website ↗</a>`:''}${acctLinks(c.accounts,c.website)}${c.source&&c.source.url?`<span class="srcline" style="margin-left:auto">${srcLink(c.source)}</span>`:''}</div></div></div>`;}
+/* ---- Candidate page: background, an AI summary written only from sourced positions, every position by topic, votes on record, comments ---- */
+const CAND_AREAS=['Taxes and spending','Education','Housing','Energy and climate','Health care','Abortion','Guns','Immigration','Elections and voting','Public safety and courts','Labor and economy','Environment','Veterans and military','Cannabis','Federal issues','Other'];
+var CANDF={area:'All',stance:'All'};
+function candFind(id){const C=LX&&LX.cand;if(!C)return null;for(const r of (C.races||[]))for(const c of (r.candidates||[]))if(c.id===id)return {c,r};return null;}
+function candPos(c){return (c.positions||[]).map(p=>p.text?p:{...p,text:p.stance,stance:'',area:p.area||'Other'}).map(p=>({...p,area:CAND_AREAS.includes(p.area)?p.area:'Other'}));}
+function stanceTag(st){return st?`<span class="st st-${st==='For'?'for':st==='Against'?'against':'other'}">${esc(st)}</span>`:'';}
+function pageCandidate(id){const f=candFind(id);if(!f)return `<section class="stack"><a href="#election" class="muted" style="text-decoration:none">‹ Vote</a><h1>Not found</h1><p class="muted">That candidate isn't on the ${esc(TN())} ballot we have.</p></section>${foot()}`;
+ const {c,r}=f;const ref={t:'candidate',id:c.id,label:c.name+' ('+r.office+')',href:'#candidate-'+c.id};const pos=candPos(c);const n={For:0,Against:0,Other:0};pos.forEach(p=>{if(n[p.stance]!=null)n[p.stance]++;});
+ const areas=CAND_AREAS.filter(a=>pos.some(p=>p.area===a));if(CANDF.area!=='All'&&!areas.includes(CANDF.area))CANDF.area='All';
+ const shown=pos.filter(p=>(CANDF.area==='All'||p.area===CANDF.area)&&(CANDF.stance==='All'||p.stance===CANDF.stance));const byArea={};shown.forEach(p=>(byArea[p.area]=byArea[p.area]||[]).push(p));
+ const th=tkFor('candidate',c.id).slice().sort((a,b)=>a.at.localeCompare(b.at));const party=PARTY_FULL[c.party]&&!PARTY[c.party]?PARTY_FULL[c.party]:c.party;
+ return `<section class="stack" style="gap:8px"><a href="#election" class="muted" style="text-decoration:none">‹ Vote: every race</a>
+ <div class="cp-head">${av(ini(c.name),pcolor(c.party),56)}<div class="stack" style="gap:4px;min-width:0"><h1 style="font-size:26px">${esc(c.name)}</h1><div class="row" style="gap:6px">${partyTag(party)}${c.incumbent?'<span class="tag green">Incumbent</span>':''}<span class="muted">Running for ${esc(r.office)}${r.district&&r.district!=='Statewide'?', '+esc(r.district):''}</span></div>
+ <div class="row" style="gap:4px">${itemBar(ref,{sm:true})}${c.website?`<a class="tkb" href="${esc(c.website)}" target="_blank" rel="noopener">Website ↗</a>`:''}${acctLinks(c.accounts,c.website)}${c.profileUrl?`<a class="tkb" href="${esc(c.profileUrl)}" target="_blank" rel="noopener">${esc(c.profileSource||'Profile')} ↗</a>`:''}</div></div></div></section>
+ <div class="cols"><div class="main">
+ <section class="card stack cp-brief" style="gap:8px"><div class="between"><h2>In brief</h2>${pos.length?`<span class="row cp-counts">${n.For?`<span class="st st-for">${n.For} for</span>`:''}${n.Against?`<span class="st st-against">${n.Against} against</span>`:''}${n.Other?`<span class="st st-other">${n.Other} other</span>`:''}${c.noResponse?`<span class="muted">${c.noResponse} no response</span>`:''}</span>`:''}</div>
+  ${c.summary?`<p class="cp-sum">${esc(c.summary)}</p><p class="muted" style="font-size:12.5px">Written by AI only from the positions below${c.summaryFrom?' ('+esc(c.summaryFrom)+')':''}. Agorri doesn't rate, label or endorse anyone. Something off? <button type="button" class="linkish" data-sitefb="1">Tell us</button>.</p>`:`<p class="muted">${pos.length?'No summary yet. The positions below are in the candidate\'s own words.':'No positions on record from a source we could read. Check the candidate\'s website.'}</p>`}
+  ${c.dataNote?`<p class="cp-note"><b>A note on the record:</b> ${esc(c.dataNote)}</p>`:''}
+  ${c.background?`<p class="pos">${esc(c.background)}</p>`:''}${c.experience?`<p class="muted" style="font-size:13.5px"><b>Experience:</b> ${esc(c.experience)}</p>`:''}${c.education?`<p class="muted" style="font-size:13.5px"><b>Education:</b> ${esc(c.education)}</p>`:''}</section>
+ ${pos.length?`<section class="blk"><div class="sec"><h2>Where they stand</h2><span class="muted">${pos.length} position${pos.length===1?'':'s'} on record</span></div>
+  <div class="chips" role="group" aria-label="Topic">${['All',...areas].map(a=>`<button type="button" data-candarea="${esc(a)}" class="${CANDF.area===a?'on':''}">${esc(a)}</button>`).join('')}</div>
+  <div class="seg" role="group" aria-label="Stance" style="align-self:flex-start">${['All','For','Against','Other'].map(x=>`<button type="button" data-candst="${x}" class="${CANDF.stance===x?'on':''}">${x}</button>`).join('')}</div>
+  ${Object.keys(byArea).length?CAND_AREAS.filter(a=>byArea[a]).map(a=>`<div class="card cp-area"><h3>${esc(a)}</h3><div class="cp-list">${byArea[a].map(p=>`<div class="cp-pos">${stanceTag(p.stance)}<div class="stack" style="gap:3px;min-width:0"><b>${esc(p.topic)}</b><span>${esc(p.text)}</span>${p.quote?`<span class="muted">"${esc(p.quote)}"</span>`:''}<span class="srcline">${esc((p.source&&p.source.label)||'')}${p.year&&!String((p.source&&p.source.label)||'').includes(p.year)?', '+esc(p.year):''}${p.source&&p.source.url?` · <a href="${esc(p.source.url)}" target="_blank" rel="noopener">source ↗</a>`:''}</span></div></div>`).join('')}</div></div>`).join(''):'<p class="muted">Nothing matches those filters.</p>'}</section>`:''}
+ ${(c.votes||[]).length?`<section class="blk"><div class="sec"><h2>Votes on record</h2><span class="muted">From ${esc(c.profileSource||'the record')}</span></div><div class="card" style="padding-top:6px;padding-bottom:6px"><div class="list">${c.votes.map(v=>`<div class="cp-vote"><span class="st st-${/^yes|^for|^aye/i.test(v.vote)?'for':/^no|^against|^nay/i.test(v.vote)?'against':'other'}">${esc(v.vote)}</span><div class="stack" style="gap:2px;min-width:0"><b>${esc(v.bill)}${v.year?' <span class="muted">('+esc(v.year)+')</span>':''}</b>${v.summary?`<span class="muted">${esc(v.summary)}</span>`:''}</div></div>`).join('')}</div></div></section>`:''}
+ <section class="card stack" style="gap:12px"><div class="between"><h2>Talk about this candidate</h2><span class="muted">${th.length||'No'} comment${th.length===1?'':'s'}</span></div><p class="muted" style="font-size:13px">House rules apply: no name-calling, no claims about people's private lives. Posts are checked by AI and flagged ones go to a person.</p>${th.length?tkThreadList(th):''}${tkComposer({id:'cand',kinds:['comment'],ref,showRef:false,compact:true})}</section>
+ </div><aside class="rail">${raceCardMini(r,c.id)}</aside></div>${foot()}`;}
+function raceCardMini(r,skip){const cs=(r.candidates||[]).slice().sort(candSort).filter(x=>x.id!==skip);return `<div class="card stack" style="gap:8px"><h3>Also running for ${esc(r.office)}</h3>${cs.map(x=>`<a class="cp-also" href="#candidate-${esc(x.id)}">${av(ini(x.name),pcolor(x.party),28)}<span>${esc(x.name)}</span>${partyTag(PARTY_FULL[x.party]&&!PARTY[x.party]?PARTY_FULL[x.party]:x.party)}</a>`).join('')||'<span class="muted">Unopposed.</span>'}<a class="muted" href="#election" style="text-decoration:none">Every race ›</a></div>`;}
+document.addEventListener('click',e=>{const a=e.target.closest('[data-candarea]');const st=e.target.closest('[data-candst]');if(!a&&!st)return;if(a)CANDF.area=a.dataset.candarea;if(st)CANDF.stance=st.dataset.candst;const y=window.scrollY;rerender();window.scrollTo(0,y);});
 function raceCard(r){const ref={t:'race',id:r.id,label:r.office+(r.district&&r.district!=='Statewide'?', '+r.district:''),href:'#election'};const cs=(r.candidates||[]).slice().sort(candSort);
  return `<section class="card stack race" id="race-${esc(r.id)}"><div class="between" style="flex-wrap:nowrap;align-items:flex-start"><div class="stack" style="gap:2px"><h2>${esc(r.office)}</h2><span class="muted">${[r.district,r.seats>1?r.seats+' seats':'',r.term,raceTowns(r)].filter(Boolean).map(esc).join(' · ')}</span></div>${itemBar(ref)}</div>${r.what?`<p class="muted">${esc(r.what)}</p>`:''}<div class="cands">${cs.map(c=>candCard(c,r)).join('')||'<p class="muted">No candidates listed yet.</p>'}</div>${r.source&&r.source.url?`<span class="srcline">Candidate list: ${srcLink(r.source)}</span>`:''}</section>`;}
 function pageElection(){const C=LX&&LX.cand,e=LX&&LX.election;if(!C)return `<section class="stack" style="gap:4px"><h1>Vote</h1><p class="muted">The ballot for ${esc(TN())} isn't loaded yet.</p></section>${LX&&LX.election?electionCard():''}${foot()}`;
