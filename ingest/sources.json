@@ -1,5 +1,5 @@
 {
- "note": "Official sources the daily fetcher (ingest/fetch.mjs, run by .github/workflows/fetch-sources.yml) checks for each town. Results go to inbox/<town>/items.json, and meeting document text to inbox/<town>/docs/. Types: rss, links (a page; keeps <a> links whose URL matches `match`), civicplus (a CivicPlus site: reads every feed listed on /rss.aspx), civicplus-docs (a CivicPlus Document Center folder), civicclerk (the CivicClerk meetings API). `docs: true` saves the text of linked agendas and minutes (never packets). `text: false` means links only; police logs are never saved as text because they name people. Only the Seacoast (Greater Portsmouth) and Mount Washington Valley are fetched for now; other towns' sources are kept in ingest/sources-paused.json. Move a town back here to turn it on.",
+ "note": "Official sources the daily fetcher (ingest/fetch.mjs, run by .github/workflows/fetch-sources.yml) checks for each town. Results go to inbox/<town>/items.json, and meeting document text to inbox/<town>/docs/. Types: rss, links (a page; keeps <a> links whose URL matches `match`), civicplus (a CivicPlus site: reads every feed listed on /rss.aspx), civicplus-docs (a CivicPlus Document Center folder), civicclerk (the CivicClerk meetings API). `docs: true` saves the text of linked agendas and minutes (never packets). `text: false` means links only; police logs are never saved as text because they name people. Only the Seacoast (Greater Portsmouth) and Mount Washington Valley are fetched for now; other towns' sources are kept in ingest/sources-paused.json. Move a town back here to turn it on. Kind `market` marks surplus sales and auctions the town runs itself (a `links` source with `require` set to sale|surplus|auction); the daily refresh moves those into data/<town>/market.json.",
  "towns": {
   "portsmouth": [
    {
@@ -62,6 +62,15 @@
      "https://www.portsmouthnh.gov/citycouncil/city-council-agendas",
      "https://www.portsmouthnh.gov/citycouncil/city-council-minutes"
     ]
+   },
+   {
+    "id": "surplus-sales",
+    "type": "links",
+    "kind": "market",
+    "url": "https://www.portsmouthnh.gov/finance/bids-archive",
+    "match": "files\\.(portsmouthnh\\.gov|cityofportsmouth\\.com)/finance/bids/",
+    "require": "sale|surplus|auction",
+    "max": 20
    }
   ],
   "dover": [

@@ -1,0 +1,67 @@
+{
+ "as_of": "2026-11-03",
+ "note": "Buy and sell around the Mount Washington Valley, built only from sources that allow it: town and county surplus sales, auction houses' own schedules, library and school sales, and eBay's public Browse API filtered to local pickup near North Conway. Craigslist, Facebook Marketplace and OfferUp publish no feed and forbid automated copying, so they appear here only as links the resident opens. `surplus` and `sales` are filled by the daily refresh from the sources under `watch`; each item links to where it came from.",
+ "zip": "03860",
+ "radius": 30,
+ "surplus": [],
+ "sales": [],
+ "watch": [
+  {
+   "id": "municibid-nh",
+   "what": "Municibid New Hampshire page (Carroll County and valley towns list surplus here; read by hand, not fetched)",
+   "url": "https://www.municibid.com/Browse/R3777826/New-Hampshire"
+  },
+  {
+   "id": "town-sites",
+   "what": "Each valley town's own notices (ingest/sources.json) for surplus sales, town-wide yard sales and swaps",
+   "how": "ingest/sources.json conway, bartlett, jackson, madison, tamworth"
+  }
+ ],
+ "links": [
+  {
+   "kind": "Government surplus",
+   "name": "Municibid: New Hampshire",
+   "what": "Online auctions run by New Hampshire towns, counties, school districts and fire departments. Carroll County sells surplus here.",
+   "url": "https://www.municibid.com/Browse/R3777826/New-Hampshire",
+   "source": "Municibid"
+  },
+  {
+   "kind": "Government surplus",
+   "name": "GovDeals",
+   "what": "Where many cities and counties auction surplus vehicles and equipment. Set your location on the site to see what is near the valley.",
+   "url": "https://www.govdeals.com/",
+   "source": "GovDeals"
+  },
+  {
+   "kind": "Estate sales",
+   "name": "Estate sales near 03860",
+   "what": "Estate sales and estate auctions within driving distance of North Conway, with dates and photos.",
+   "url": "https://www.estatesales.net/NH/North-Conway/03860",
+   "source": "EstateSales.net"
+  },
+  {
+   "kind": "Classifieds",
+   "name": "Craigslist: New Hampshire",
+   "what": "Opens Craigslist's New Hampshire for-sale listings. Craigslist publishes no feed and does not allow copying, so it is a link only.",
+   "url": "https://nh.craigslist.org/search/sss",
+   "source": "Craigslist",
+   "external": true
+  },
+  {
+   "kind": "Classifieds",
+   "name": "Facebook Marketplace",
+   "what": "Opens Marketplace in your account. Meta publishes no public listing feed, so it is a link only.",
+   "url": "https://www.facebook.com/marketplace/",
+   "source": "Meta",
+   "external": true
+  },
+  {
+   "kind": "Classifieds",
+   "name": "OfferUp",
+   "what": "Opens OfferUp. No public feed or API, so it is a link only.",
+   "url": "https://offerup.com/",
+   "source": "OfferUp",
+   "external": true
+  }
+ ]
+}
