@@ -1,7 +1,7 @@
-// Optional site-wide password for private testing.
-// Off until the SITE_PASSWORD secret is set in Cloudflare (Workers & Pages > agorri > Settings > Variables and secrets).
-// When set, every page and API asks for it once per device; the device stays signed in for 30 days.
-// Changing SITE_PASSWORD signs everyone out. Remove it to open the site to the public.
+// Optional site-wide password for private testing. The site is public (opened Nov 3, 2026).
+// The gate turns on only when BOTH are set in Cloudflare (Workers & Pages > agorri > Settings > Variables and secrets):
+// SITE_GATE = "on" and the SITE_PASSWORD secret. Then every page and API asks for the password once per device; the
+// device stays signed in for 30 days, and changing SITE_PASSWORD signs everyone out. Unset SITE_GATE to open it again.
 const COOKIE = 'agorri_gate';
 const DAYS = 30;
 const PUBLIC = new Set(['/favicon.svg', '/apple-touch-icon.png', '/og.png']);
@@ -38,7 +38,7 @@ export async function onRequest(context) {
   const { request, env, next } = context;
   // inbox/ and ingest/ are the source fetcher's working files (see ingest/fetch.mjs), not part of the site.
   if (/^\/(inbox|ingest|\.github)(\/|$)/.test(new URL(request.url).pathname)) return new Response('Not found', { status: 404 });
-  const pw = env.SITE_PASSWORD;
+  const pw = env.SITE_GATE === 'on' ? env.SITE_PASSWORD : null;
   if (!pw) return next();
   const url = new URL(request.url);
   const want = await token(pw, env.TALK_SALT || '');
