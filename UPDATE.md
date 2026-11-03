@@ -88,5 +88,6 @@ North Conway is a village of the Town of Conway, so its record is the Town of Co
 - Elections: one polling place, the Town Garage, 1611 East Main St., Center Conway. Town Clerk 603-447-3811.
 - Planning Board and ZBA: notices on conwaynh.gov; Conway Forward zoning rewrite: https://bpg.mysocialpinpoint.com/conway-forward-zoning
 - Assessing (tax lookup): https://conway.univers-clt.com/ (house numbers are zero-padded; each property lists its tax district). Tax rates by precinct: NH DRA tax rate sheets.
-- Police: https://conwaypdnh.gov (no daily logs online). Fire in North Conway: North Conway Water Precinct.
+- Police: https://conwaypdnh.gov. Its Logs page links to a public Google Drive folder of daily dispatch logs, but Drive blocks automated reading, so there is no daily digest; the Conway Daily Sun prints the log now and then (add it to `police.recent` as a news item). Fire in North Conway: North Conway Water Precinct.
+- Other valley police figures: Tamworth posts monthly stats at https://www.tamworthnh.gov/1386/Police-Stats---2026 (one document per month; add each new month to Tamworth's `police.stats` as "Calls for service, <Month YYYY>", plus arrests and crashes). Bartlett, Jackson, Madison and Freedom publish yearly totals only in their annual town reports.
 

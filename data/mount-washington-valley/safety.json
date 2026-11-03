@@ -395,6 +395,24 @@
     "site": "https://www.tamworthnh.gov/1220/Police-Department",
     "stats": [
      {
+      "label": "Calls for service, July 2026",
+      "value": 363,
+      "year": "2026",
+      "src": "https://www.tamworthnh.gov/DocumentCenter/View/4229/July-2026"
+     },
+     {
+      "label": "Arrests, July 2026",
+      "value": 1,
+      "year": "2026",
+      "src": "https://www.tamworthnh.gov/DocumentCenter/View/4229/July-2026"
+     },
+     {
+      "label": "Motor vehicle crashes, July 2026",
+      "value": 4,
+      "year": "2026",
+      "src": "https://www.tamworthnh.gov/DocumentCenter/View/4229/July-2026"
+     },
+     {
       "label": "Calls for service",
       "value": 4521,
       "year": "2025",
@@ -415,7 +433,8 @@
     ],
     "statsNote": "Agorri added up the twelve monthly reports the department posts for 2025 (monthly call totals from 314 to 449). The reports say community policing, administrative work, report writing and patrol time are not counted. Monthly reports for January to July 2026 are also posted.",
     "logsUrl": "https://www.tamworthnh.gov/1386/Police-Stats---2026",
-    "recent": []
+    "recent": [],
+    "logsNote": "Monthly call statistics are posted on the town's Police Stats 2026 page (latest posted: July 2026, checked Nov 3, 2026). No daily log."
    },
    "fire": [
     {
