@@ -1132,6 +1132,7 @@ a.agm-line:hover .agm-t b{color:var(--accent)}
 .sch-tiles{display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:10px;margin-bottom:6px}.sch-t{display:flex;flex-direction:column;gap:3px;padding:12px 14px;font-size:12.5px}.sch-t b{font-size:24px;color:var(--ink)}.sch-t a{font-size:11.5px;text-decoration:none}
 .sch-h{font-size:15px;margin:14px 0 8px}
 .bn{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin-bottom:14px}.bn-t{display:flex;flex-direction:column;gap:4px;padding:14px 16px;min-width:0}.bn-t .big{font-size:26px}.bn-l{font-size:13px;font-weight:600;line-height:1.25}.bn-n{font-size:12px;line-height:1.3}.bn-s{font-size:11px;color:var(--muted);margin-top:auto;padding-top:6px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.bn-g{display:block;margin-top:6px;color:var(--accent)}.bn-sp{display:block;width:100%;height:24px}.bn-split{display:flex;gap:2px;height:8px;border-radius:4px;overflow:hidden;background:var(--line)}.bn-split i{display:block;height:100%;background:var(--accent)}.bn-m{display:block;height:8px;border-radius:4px;overflow:hidden;background:var(--line)}.bn-m i{display:block;height:100%;background:var(--accent)}.bn-in{color:var(--accent)}.nband{margin-bottom:4px}
 @media (max-width:900px){.bn{grid-template-columns:repeat(2,minmax(0,1fr))}}
 .sch-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:10px}.sch{display:flex;flex-direction:column;gap:3px;padding:12px 14px;text-decoration:none;color:var(--ink);font-size:13px}.sch b{font-size:15px}.sch:hover{box-shadow:0 0 0 2px var(--accent)}.sch-l{font-size:11px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;color:var(--accent-soft-ink)}
 .sch-board{display:flex;flex-wrap:wrap;gap:6px}.sch-links{gap:14px;margin-top:10px;font-size:13.5px}
@@ -2028,7 +2029,6 @@ function pageSafety(){const SF=LX&&LX.safety;if(!SF)return `<section class="stac
   <div class="ols">${moreList(items.map(safetyRow),8,'','','items')||'<p class="muted" style="padding:12px 0">Nothing posted recently.</p>'}</div></section>
   ${logs.length?`<section class="blk" id="safety-log"><div class="sec"><h2>Police log</h2><span class="muted">Counted by call type from the department's daily log</span></div>${logBlock(logs)}</section>`:''}
   <section class="blk"><div class="sec"><h2>The departments</h2></div><div class="dgrid">${SF.deptList?SF.deptList.map(x=>deptCard(x.d,x.k)).join(''):deptCard(P,'Police')+deptCard(F,'Fire')+(SF.fireMore||[]).map(d=>deptCard(d,'Fire')).join('')}</div></section>
-  ${tiles?`<section class="blk"><div class="sec"><h2>By the numbers</h2></div><div class="strip">${tiles}</div></section>`:''}
   ${progs.length?`<section class="blk"><div class="sec"><h2>Programs and services</h2></div><div class="ols">${moreList(progs.map(x=>`<a class="ol" href="${esc(x.url||'#safety')}"${x.url?' target="_blank" rel="noopener"':''}><span class="evt"><span style="font-weight:600">${esc(x.name)}</span><span class="muted" style="font-weight:500">${esc(x.detail||'')}</span></span><span class="tag ${x.dept==='Fire'?'amber':'blue'}" style="margin-left:auto">${x.dept}</span></a>`),4,'','','programs')}</div></section>`:''}
   <p class="muted">${esc(SF.note||'')} Updated ${fmtD(SF.as_of)}. Home shows only counts and comparisons; individual police and fire items never appear there and never send notifications.</p>
  </div></div>${foot()}`;}
@@ -2766,7 +2766,7 @@ function newCounts(){const p=sincePrev();if(!p||!D)return {issues:0,talk:0,local
  return {issues:D.issues.filter(i=>isNewDate(issueLast(i))).length,talk:(window.TALK&&TALK.ready?tkTop().filter(x=>!x.mine&&x.at>p).length:0),local:((LX&&LX.notices)||[]).filter(n=>isNewDate(n.date)&&n.date<=TODAY).length};}
 const NEWDOT='<span class="newdot" title="New since your last visit">New</span>';
 function applyNavBadges(){const n=newCounts();[['issues',n.issues],['talk',n.talk],['local',n.local]].forEach(([k,c])=>{document.querySelectorAll(`#nav a[href="#${k}"],#tabbar a[href="#${k}"]`).forEach(a=>{let b=a.querySelector('.navnew');if(!c){if(b)b.remove();return;}if(!b){b=document.createElement('span');b.className='navnew';a.appendChild(b);}b.textContent=c;b.title=c+' new since your last visit';});});}
-var SEEN_ONCE={};const _route39=route;route=function(){if(TOWN&&!SEEN_ONCE[TOWN.id]){SEEN_ONCE[TOWN.id]=1;try{seenInit();}catch(e){}}if(TOWN&&TOWN.subtowns){const st=subTown();if(st&&S.ward!==govName(st)){S.ward=govName(st);}}_route39();try{applyNavBadges();hcSync();navChrome();subInject();valleyDeptInject();valleyBudgetInject();marketInject();}catch(e){}};
+var SEEN_ONCE={};const _route39=route;route=function(){if(TOWN&&!SEEN_ONCE[TOWN.id]){SEEN_ONCE[TOWN.id]=1;try{seenInit();}catch(e){}}if(TOWN&&TOWN.subtowns){const st=subTown();if(st&&S.ward!==govName(st)){S.ward=govName(st);}}_route39();try{applyNavBadges();hcSync();navChrome();subInject();valleyDeptInject();valleyBudgetInject();marketInject();numInject();}catch(e){}};
 /* ---- weather alerts from the National Weather Service ---- */
 async function loadWX(){if(!TOWN||!TOWN_PT[TOWN.id])return;if(WX.town===TOWN.id&&Date.now()-WX.at<15*60e3)return;WX.town=TOWN.id;WX.at=Date.now();
  try{const [la,lo]=TOWN_PT[TOWN.id];const r=await fetch(`https://api.weather.gov/alerts/active?point=${la},${lo}`,{headers:{accept:'application/geo+json'}});if(!r.ok)throw 0;const j=await r.json();
@@ -3300,6 +3300,82 @@ function pageSports(){const SP=LX&&LX.sports;if(!SP)return `<section class="stac
  ${SP.note?`<p class="muted">${esc(SP.note)}</p>`:''}${foot()}`;}
 function faithLocal(){const F=LX&&LX.faith;if(!F)return '';const C=(F.congregations||[]).filter(spTownOk);const ev=upcomingEvents().filter(e=>e.kind==='Faith'&&spTownOk(e)).slice(0,3);if(!C.length&&!ev.length)return '';
  return `<div class="sec"><h2>Faith communities</h2><a href="#faith">All ${C.length} ›</a></div><div class="card pv-list">${ev.length?ev.map(e=>`<a class="pv-row" href="${esc(e.url||'#faith')}"${e.url?' target="_blank" rel="noopener"':''}><span class="pv-t">${esc(e.title)}</span><small class="muted num">${fmtD(e.date)}</small></a>`).join(''):''}<a class="pv-row" href="#faith"><span class="pv-t">Places of worship, service times, community meals and help</span><small class="muted">›</small></a></div>`;}
+/* ================= By the numbers, on every section =================
+   One strip of short figures at the top of each sidebar section, each computed from the same data the section shows,
+   so the strip can never disagree with the page under it. A small graphic where the data has a shape: bars by day for
+   anything on a calendar, a split bar for a mix, a meter for a share. Business keeps its sourced stats (bizNumbers). */
+const fmtN=n=>typeof n==='number'?n.toLocaleString('en-US'):String(n);
+function nbSpark(vals,hi){if(!vals||!vals.length||!vals.some(v=>v>0))return '';const mx=Math.max(1,...vals),w=100/vals.length;return `<svg class="bn-sp" viewBox="0 0 100 24" preserveAspectRatio="none" aria-hidden="true">${vals.map((v,i)=>`<rect x="${(i*w+w*0.12).toFixed(2)}" y="${(24-Math.max(v?2:0.6,v/mx*22)).toFixed(2)}" width="${(w*0.76).toFixed(2)}" height="${Math.max(v?2:0.6,v/mx*22).toFixed(2)}" rx="0.6" fill="currentColor" opacity="${i===hi?1:v?0.55:0.2}"/>`).join('')}</svg>`;}
+function nbSplit(parts){parts=parts.filter(p=>p[1]>0);const tot=parts.reduce((a,p)=>a+p[1],0);if(!tot||parts.length<2)return '';const op=[1,0.7,0.48,0.3,0.18];return `<span class="bn-split" aria-hidden="true">${parts.map((p,i)=>`<i style="width:${(p[1]/tot*100).toFixed(1)}%;opacity:${op[Math.min(i,4)]}" title="${esc(p[0])}: ${p[1]}"></i>`).join('')}</span>`;}
+function nbMeter(pct){if(pct==null||isNaN(pct))return '';return `<span class="bn-m" aria-hidden="true"><i style="width:${Math.max(2,Math.min(100,pct)).toFixed(1)}%"></i></span>`;}
+const nbClip=(t,n)=>{t=String(t||'').replace(/\s+/g,' ').trim();if(t.length<=n)return t;const c=t.slice(0,n).replace(/[\s,;:(\-]+\S*$/,'');return (c||t.slice(0,n)).replace(/[\s,;:(]+$/,'')+'…';};
+const nbTop=(parts,n)=>parts.slice(0,n||3).map(p=>p[0]+' '+p[1]).join(' · ');
+function nbCount(arr,key){const m={};arr.forEach(x=>{const k=typeof key==='function'?key(x):x[key];if(k)m[k]=(m[k]||0)+1;});return Object.entries(m).sort((a,b)=>b[1]-a[1]);}
+function nbDays(dates,n){const out=[];for(let i=0;i<n;i++){const d=addDays(TODAY,i);out.push(dates.filter(x=>x===d).length);}return out;}
+function numBand(tiles,sub){tiles=(tiles||[]).filter(t=>t&&t.v!=null&&t.v!==''&&!(typeof t.v==='number'&&isNaN(t.v))).slice(0,4);if(tiles.length<2)return '';
+ return `<section class="blk nband"><div class="sec"><h2>By the numbers</h2>${sub?`<span class="muted">${esc(sub)}</span>`:''}</div><div class="bn">${tiles.map(t=>`<div class="card bn-t"><span class="big num">${esc(fmtN(t.v))}</span><span class="bn-l">${esc(t.l)}</span>${t.n?`<span class="muted bn-n">${esc(t.n)}</span>`:''}${t.g?`<span class="bn-g">${t.g}</span>`:''}${t.src&&t.src.url?`<a class="bn-s" href="${esc(t.src.url)}" target="_blank" rel="noopener">${esc(t.src.label||'Source')} ↗</a>`:t.href?`<a class="bn-s bn-in" href="${esc(t.href)}">${esc(t.hl||'See all')} ›</a>`:''}</div>`).join('')}</div></section>`;}
+const NB={
+ local(){const ev=upcomingEvents();const wk=ev.filter(e=>e.date<=addDays(TODAY,6));const nt=(LX.notices||[]).filter(n=>worksTownOk(n)&&n.date>=addDays(TODAY,-14)&&n.date<=addDays(TODAY,14));const kinds=nbCount(nt,'kind');
+  const B=LX.biz||LX.business||{};const yr=TODAY.slice(0,4);const op=(B.openings||[]).filter(o=>String(o.date||'').startsWith(yr)).length,cl=(B.closures||[]).filter(o=>String(o.date||'').startsWith(yr)).length;const hl=(LX.paper&&LX.paper.headlines)||[];
+  return [{v:wk.length,l:'Events in the next 7 days',n:ev.length+' on the calendar in all',g:nbSpark(nbDays(ev.map(e=>e.date),14),0),href:'#events',hl:'Calendar'},
+   {v:nt.length,l:CAP(CW1())+' notices, past and next 2 weeks',n:nbTop(kinds),g:nbSplit(kinds)},
+   (op||cl)?{v:op,l:'Businesses opened in '+yr,n:cl+' closed, from local coverage',g:nbSplit([['Opened',op],['Closed',cl]]),href:'#business',hl:'Business'}:null,
+   hl.length?{v:hl.length,l:'Latest local headlines',n:(LX.paper.name||'')+(LX.paper.asOf?' · '+fmtD(LX.paper.asOf):'')}:null];},
+ market(){const M=LX.market;if(!M)return [];const up=(M.sales||[]).filter(x=>!x.date||x.date>=TODAY);const wk=up.filter(x=>x.date&&x.date<=addDays(TODAY,6));const towns=new Set(up.map(x=>x.town).filter(Boolean));const kinds=nbCount(up,x=>/auction/i.test(x.kind||'')?'Auctions':'Sales');
+  const nx=up.filter(x=>x.date).sort((a,b)=>a.date.localeCompare(b.date))[0];const links=(M.links||[]).length;
+  if(up.length<3)return [{v:up.length,l:up.length===1?'Sale or auction coming up':'Sales and auctions coming up',n:up.length?'':'None listed yet'},nx?{v:fmtD(nx.date),l:'Next one',n:nbClip(nx.title,44)+(nx.town?' · '+nx.town:'')}:null,links?{v:links,l:'Places people buy and sell here',n:'Surplus, estate sales, auctions, classifieds'}:null,(M.surplus||[]).length?{v:M.surplus.length,l:'Town surplus items',n:'Vehicles and equipment'}:null];
+  return [{v:up.length,l:'Sales and auctions coming up',n:'Bars show the next 4 weeks',g:nbSpark(nbDays(up.map(x=>x.date),28),0)},
+   {v:wk.length,l:'In the next 7 days',n:wk[0]?'Next: '+nbClip(wk[0].title,40):''},
+   towns.size?{v:towns.size,l:towns.size===1?'Town':'Towns',n:[...towns].slice(0,4).join(', ')}:null,
+   {v:(kinds.find(k=>k[0]==='Auctions')||[0,0])[1],l:'Auctions',n:((kinds.find(k=>k[0]==='Sales')||[0,0])[1])+' estate and other sales',g:nbSplit(kinds)},
+   (M.surplus||[]).length?{v:M.surplus.length,l:'Town surplus items',n:'Vehicles and equipment'}:null];},
+ parks(){const P=LX.parks;if(!P)return [];const fac=(P.facilities||[]).filter(spTownOk);const kinds=nbCount(fac,'kind');const prog=(P.programs||[]).filter(spTownOk);const proj=(P.projects||[]).filter(spTownOk);
+  const wn=(LX.notices||[]).filter(n=>worksTownOk(n)&&/road|trash|water|sewer|parking|closure|detour|leaf|plow|snow/i.test((n.kind||'')+' '+(n.title||''))&&(n.until?n.until>=TODAY:n.date>=addDays(TODAY,-7))&&n.date<=addDays(TODAY,14));
+  return [{v:fac.length,l:'Parks, fields, pools and trails',n:nbTop(kinds),g:nbSplit(kinds)},
+   wn.length?{v:wn.length,l:'Road, trash and water notices now',n:wn[0]?wn[0].strip||nbClip(wn[0].title,44):''}:null,
+   prog.length?{v:prog.length,l:'Programs',n:(P.registration&&P.registration.label)||'Recreation programs'}:null,
+   proj.length?{v:proj.length,l:'Projects underway or being decided',n:proj[0]?nbClip(proj[0].name||proj[0].title||'',44):''}:null,
+   (()=>{const e=typeof parkEvents==='function'?parkEvents():[];return e.length?{v:e.length,l:'Outdoor events coming up',g:nbSpark(nbDays(e.map(x=>x.date),21),0)}:null;})()];},
+ schools(){const ds=districtsHere();if(!ds.length)return [];const sch=ds.reduce((a,d)=>a+(d.schools||[]).length,0);const bud=ds.map(d=>d.budget||{}).filter(b=>b.total);const tot=bud.reduce((a,b)=>a+b.total,0);const one=ds.length===1?ds[0]:null;const sh=schoolShare();
+  return [{v:sch,l:sch===1?'School':'Schools',n:ds.length>1?ds.length+' districts':one.name},
+   tot?{v:money(tot),l:'School budget'+(one&&one.budget.year?', '+one.budget.year.split(' ')[0]:''),n:one&&one.budget.changePct!=null?(one.budget.changePct>0?'+':'')+one.budget.changePct+'% from last year':bud.length+' of '+ds.length+' districts'}:null,
+   one&&one.budget&&one.budget.perPupil?{v:'$'+fmtN(one.budget.perPupil),l:'Spent per student',n:one.budget.perPupilYear?'State figure, '+one.budget.perPupilYear:''}:null,
+   sh?{v:sh.pct+'%',l:'Of your tax bill goes to schools',n:sh.dollars?'About $'+fmtN(sh.dollars)+' on a typical home':'',g:nbMeter(sh.pct),href:'#budget',hl:'Budget'}:null,
+   (()=>{const up=ds.flatMap(d=>d.upcoming||[]).filter(u=>!u.date||u.date>=TODAY);return up.length?{v:up.length,l:'School dates coming up',n:up[0]&&up[0].title?nbClip(up[0].title,44):''}:null;})()];},
+ sports(){const SP=LX.sports;if(!SP)return [];const sc=(SP.schools||[]).filter(spTownOk);const teams=sc.flatMap(s=>s.teams||[]);const games=teams.flatMap(t=>(t.next||[]).filter(g=>g.date>=TODAY));const wk=games.filter(g=>g.date<=addDays(TODAY,6));
+  const h2h=t=>!/golf|cross|track|ski|swim|bik|bowling/i.test(t.sport||'');let w=0,l=0,ti=0,nt=0;teams.filter(h2h).forEach(t=>{const m=String(t.record||'').match(/^(\d+)-(\d+)(?:-(\d+))?/);if(m){w+=+m[1];l+=+m[2];ti+=+(m[3]||0);nt++;}});const gp=w+l+ti;const made=teams.filter(t=>/\bseed\b/i.test(t.postseason||''));const alive=made.filter(t=>(t.next||[]).some(g=>g.date>=TODAY)&&!/season ended|lost [^.;]* in the (preliminary|quarterfinal|semifinal|final)/i.test(t.postseason||''));
+  return [{v:wk.length,l:'Games in the next 7 days',n:games.length+' on the schedule',g:nbSpark(nbDays(games.map(g=>g.date),14),0)},
+   gp?{v:w+'-'+l+(ti?'-'+ti:''),l:'Combined record this season',n:Math.round(w/gp*100)+'% wins across '+nt+' team sports',g:nbMeter(w/gp*100)}:null,
+   made.length?{v:alive.length,l:alive.length===1?'Team still in the playoffs':'Teams still in the playoffs',n:made.length+' made the playoffs this fall',g:nbSplit([['Still playing',alive.length],['Season over',made.length-alive.length]])}:null,
+   {v:teams.length,l:'High school teams',n:sc.length>1?sc.length+' schools':(sc[0]&&sc[0].name)||''},
+   ((SP.youth||[]).length+(SP.adult||[]).length)?{v:(SP.youth||[]).filter(spTownOk).length+(SP.adult||[]).filter(spTownOk).length,l:'Youth and adult leagues',n:(SP.youth||[]).filter(spTownOk).length+' youth · '+(SP.adult||[]).filter(spTownOk).length+' adult'}:null];},
+ issues(){const I=D.issues||[];const tp=nbCount(I,'topic');const nm=D.next_council_meeting;const dd=nm&&nm.date?Math.round((ld(nm.date)-ld(TODAY))/864e5):null;const cm=(D.council_meetings||[]).filter(m=>String(m.date).startsWith(TODAY.slice(0,4))).length;
+  return [{v:I.length,l:'Being decided now',n:'Support or oppose any of them'},
+   tp.length&&tp[0][1]>1?{v:tp.length,l:tp.length===1?'Topic':'Topics',n:nbTop(tp,2),g:nbSplit(tp)}:(D.roll_call_votes||[]).length?{v:D.roll_call_votes.length,l:'Votes recorded by name',n:'Who voted which way',href:'#officials',hl:'Officials'}:null,
+   nm&&nm.date&&dd>=0?{v:dd===0?'Today':fmtD(nm.date),l:'Next '+GBS()+' meeting',n:dd===0?'':dd===1?'Tomorrow':'In '+dd+' days'}:null,
+   cm?{v:cm,l:GB()+' meetings this year',n:'With minutes or agendas on record',href:'#record',hl:'Meeting record'}:null];},
+ talk(){const top=tkTop();const ideas=top.filter(x=>x.kind==='idea');const reached=ideas.filter(x=>(x.vsup||0)>=REQ_T).length;const replies=top.reduce((a,x)=>a+(x.replies||0),0);const wk=top.filter(x=>String(x.at||'').slice(0,10)>=addDays(TODAY,-6)).length;
+  const kinds=nbCount(top,x=>({idea:'Ideas',question:'Questions',comment:'Comments'})[x.kind]||'Posts');
+  return [top.length?{v:top.length,l:'Posts from residents',n:wk+' this week',g:nbSplit(kinds)}:{v:(D.issues||[]).length,l:'Things being decided to weigh in on',href:'#issues',hl:'Issues'},
+   top.length?{v:replies,l:'Replies',n:'Across every thread'}:null,
+   ideas.length?{v:reached,l:reached===1?'Idea at the threshold':'Ideas at the threshold',n:ideas.length+' ideas posted',g:nbMeter(ideas.length?reached/ideas.length*100:0)}:null,
+   {v:fmtN(REQ_T),l:'Verified supporters for a public answer',n:'The '+CW1()+' then has 30 days to answer'},
+   (()=>{const nm=D.next_council_meeting;if(top.length||!nm||!nm.date||nm.date<TODAY)return null;const dd=Math.round((ld(nm.date)-ld(TODAY))/864e5);return {v:dd===0?'Today':fmtD(nm.date),l:'Next '+GBS()+' meeting',n:dd===0?'':'In '+dd+' days. Say what you think before it'};})()];},
+ safety(){const SF=LX.safety;if(!SF)return [];const P=SF.police||{},F=SF.fire||{};const logs=(P.logDigest||[]).slice().sort((a,b)=>a.date.localeCompare(b.date)).slice(-7);const num=s=>s&&(typeof s.value==='number'||String(s.value).length<=8);
+  const ps=(P.stats||[]).filter(num),fs=(F.stats||[]).filter(num);const lab=s=>String(s.label).replace(/\s*\(.*?\)\s*$/,'');const yr=s=>s.year&&!String(s.label).includes(s.year)?', '+s.year:'';
+  const out=[];if(logs.length>=3){const c=logs.map(g=>g.calls||0);out.push({v:Math.round(c.reduce((a,b)=>a+b,0)/c.length),l:'Police calls a day',n:'Last '+logs.length+' daily logs · '+logs.reduce((a,g)=>a+(g.arrests||0),0)+' arrests',g:nbSpark(c,c.length-1),href:'#safety-log',hl:'Police log'});}
+  ps.slice(0,out.length?2:3).forEach(s=>out.push({v:s.value,l:'Police: '+lab(s)+yr(s),src:s.src?{url:s.src,label:'Source'}:null}));if(fs[0])out.push({v:fs[0].value,l:'Fire: '+lab(fs[0])+yr(fs[0]),src:fs[0].src?{url:fs[0].src,label:'Source'}:null});return out;},
+ election(){const e=LX.election,C=LX.cand;if(!e&&!C)return [];const dd=e&&e.date?Math.round((ld(e.date)-ld(TODAY))/864e5):null;const races=(C&&C.races)||[];const cands=races.reduce((a,r)=>a+(r.candidates||[]).length,0);const lv=nbCount(races,'level');const T=D.town||{};
+  return [e&&e.date?{v:dd===0?'Today':dd<0?fmtD(e.date):dd===1?'Tomorrow':fmtD(e.date),l:dd===0?'Election Day':dd<0?'Last election':'Election Day',n:dd===0?(e.hours||''):dd>0?'In '+dd+' days':'Results to come'}:null,
+   races.length?{v:races.length,l:'Races on the ballot',n:nbTop(lv),g:nbSplit(lv)}:null,
+   cands?{v:cands,l:'Candidates',n:'Positions in their own words'}:null,
+   T.registeredVoters?{v:T.registeredVoters,l:'Registered voters',n:T.turnout2025&&T.turnout2025.pct?Math.round(T.turnout2025.pct)+'% voted in 2025':'',g:T.turnout2025&&T.turnout2025.pct?nbMeter(T.turnout2025.pct):'',href:'#town',hl:'Voters'}:null];}
+};
+const NB_SUB={local:()=>'This week in '+TN(),market:()=>LX.market&&LX.market.area||TN(),parks:()=>TN()+' parks and public works',schools:()=>TN()+' schools',sports:()=>'This season',issues:()=>'Before the '+GB(),talk:()=>'What residents are saying',safety:()=>"From the departments' own figures",election:()=>TN()+' ballot'};
+function numInject(){const h=(location.hash||'#home').slice(1);const key=h==='vote'||h==='candidates'?'election':/^safety/.test(h)?'safety':h;const f=NB[key];if(!f||!LX||!D||!TLIVE())return;const app=$('app');if(!app||app.querySelector('.nband'))return;
+ let html='';try{html=numBand(f(),(NB_SUB[key]||(()=>''))());}catch(e){return;}if(!html)return;
+ let at=[...app.children].find(el=>el.querySelector&&el.querySelector('h1'));if(!at)return;while(at.nextElementSibling&&/\b(subpick|sos)\b/.test(at.nextElementSibling.className||''))at=at.nextElementSibling;
+ at.insertAdjacentHTML('afterend',html);}
 /* ================= Buy & sell ================= */
 /* Everything on this tab comes from a source that allows it: the town's own surplus sales (ingest kind `market`), auction
    houses' own schedules, library and school sales, and eBay's public Browse API pinned to local pickup (/api/market).

@@ -64,6 +64,24 @@ for (const t of towns) {
       if (dead.length) problems.push(`${label}/${r}: links to pages that do not exist: ${dead.join(', ')}`);
       if (info.len < 300 && !['mod', 'staff', 'unsure', 'social', 'ideas'].includes(r)) problems.push(`${label}/${r}: page is nearly empty (${info.len} chars)`);
     }
+    // every sidebar section opens with By the numbers, and its figures agree with the page under it
+    const nb = await page.evaluate(() => {
+      const out = []; const go = h => { location.hash = '#' + h; route(); return document.getElementById('app'); };
+      const need = ['local', 'business', 'market', 'parks', 'schools', 'sports', 'issues', 'talk', 'safety', 'election'];
+      for (const h of need) {
+        if (h === 'market' && !(LX && LX.market)) continue; if (h === 'schools' && !(LX && LX.schools)) continue; if (h === 'sports' && !(LX && LX.sports)) continue;
+        const app = go(h); const band = app.querySelector('.nband') || (h === 'business' ? app.querySelector('.bn') : null);
+        if (!band) { out.push(`${h}: no By the numbers strip`); continue; }
+        const tiles = band.querySelectorAll('.bn-t'); if (tiles.length < 2) out.push(`${h}: By the numbers has ${tiles.length} tile`);
+        const y = band.getBoundingClientRect().top + scrollY; if (y > 700) out.push(`${h}: By the numbers sits ${Math.round(y)}px down; it belongs at the top`);
+        [...tiles].forEach(t => { const v = (t.querySelector('.big') || {}).innerText || ''; if (v.length > 16) out.push(`${h}: tile value "${v}" is too long`); });
+      }
+      const iss = go('issues'); const t0 = iss.querySelector('.nband .bn-t .big'); if (t0 && +t0.innerText !== D.issues.length) out.push(`issues: strip says ${t0.innerText} being decided, record has ${D.issues.length}`);
+      const loc = go('local'); const l0 = loc.querySelector('.nband .bn-t .big'); const wk = upcomingEvents().filter(e => e.date <= addDays(TODAY, 6)).length; if (l0 && +l0.innerText !== wk) out.push(`local: strip says ${l0.innerText} events this week, calendar has ${wk}`);
+      if (LX && LX.market) { const mk = go('market'); const m0 = mk.querySelector('.nband .bn-t .big'); const n = (LX.market.sales || []).filter(x => !x.date || x.date >= TODAY).length; if (m0 && +m0.innerText !== n) out.push(`market: strip says ${m0.innerText} sales, list has ${n}`); }
+      go('home'); return out;
+    });
+    nb.forEach(c => problems.push(`${label}: ${c}`));
     // Home against the tab pages
     const cmp = await page.evaluate(() => {
       const go = h => { location.hash = '#' + h; route(); return document.getElementById('app').innerText; };

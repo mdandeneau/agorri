@@ -77,6 +77,10 @@ Ideas, questions, debate arguments (for or against an issue), comments, replies 
 - Authors can always ask a person to review a blocked or removed post. Automatic checks also block phone numbers, emails, more than two links, and more than 5 posts in 10 minutes.
 - Without `ANTHROPIC_API_KEY`, posts go live after the rule checks and three flags hide a post until a person reviews it.
 
+## By the numbers on every section
+
+Every sidebar section (Local, Business, Buy & sell, Parks and public works, Schools, Sports, Issues, Talk, Safety, Vote) opens with a By the numbers strip of up to four short figures, with a small graphic where the data has a shape: bars by day for anything on a calendar, a split bar for a mix, a meter for a share. The figures are computed in the page (`NB` in index.html) from the same data the section shows, so they update with every refresh and can never disagree with the page under them. Business also shows its sourced `stats` from business.json. `scripts/scan.mjs` fails if a section is missing its strip, the strip is not at the top, a value is too long for a tile, or a strip's first figure disagrees with the list under it.
+
 ## Checks on every update
 
 Two scripts guard consistency and both run in GitHub Actions on every push (`.github/workflows/check.yml`). `node scripts/check.mjs` validates every live town's data files: required fields, newest-first order, sources on every item, no em dashes, and freshness (record, events, paper, safety, sports, local, business, parks, schools, market, each within its limit; sports records for every team on the same date; Home tile stats short enough to read). Freshness warns on a code push and fails with `--strict` (the daily refresh). `node scripts/scan.mjs` renders every page of every live town in headless Chromium and fails on a JavaScript error, leaked code or placeholders in the text, a link to a page that does not exist, a nearly empty page, Home disagreeing with a tab page, or "the city" on a town's page. Needs Playwright (`npm i playwright && npx playwright install chromium`).
