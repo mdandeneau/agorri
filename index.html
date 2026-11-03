@@ -1168,11 +1168,22 @@ a.agm-line:hover .agm-t b{color:var(--accent)}
 .tband-cr{position:absolute;right:12px;top:10px;font-size:10.5px;color:rgba(255,255,255,.8);text-decoration:none}
 .tband-cr:hover{text-decoration:underline}
 .tband-empty{color:#fff;opacity:.9;margin:0 0 14px}
-.hcf{margin:-2px 0 2px}
-.hcf button{background:rgba(255,255,255,.14);border-color:rgba(255,255,255,.28);color:#fff;backdrop-filter:blur(6px)}
-.hcf button:hover{background:rgba(255,255,255,.24)}
-.hcf button.on{background:#fff;border-color:#fff;color:#14202B}
-.hc-none{color:#fff;opacity:.9;margin:8px 4px 14px;font-size:14px}.hc-none a{color:#fff}.tband-empty a{color:#fff}
+.hcf button{min-height:26px;padding:0 10px;font-size:12px}
+.hc-none{color:var(--muted);margin:8px 4px 14px;font-size:14px}
+.hcs .sec{flex-wrap:wrap}
+@media (max-width:640px){.hcs .sec>.row{width:100%;justify-content:space-between;flex-wrap:nowrap}.hcs .hcf{flex:1;min-width:0;flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none}.hcs .hcf::-webkit-scrollbar{display:none}.hcs .hcf button{white-space:nowrap}.hcs .sec a{white-space:nowrap}}
+.hcs .hc{flex-basis:168px;min-height:150px;gap:3px;padding:0 12px 11px}
+.hcs .hc-top{min-height:60px;padding:9px 12px 8px;margin:0 -12px 4px}
+.hcs .hc-d b{font-size:24px}
+.hcs .hc-d small{font-size:10px}
+.hcs .hc-wm{width:80px;height:80px;right:-12px;bottom:-18px}
+.hcs .hc-t{font-size:13.5px;-webkit-line-clamp:2}
+.hcs .hc-l{font-size:12px;-webkit-line-clamp:2}
+.hcs .hc-s{font-size:11px}
+.hcs .hc-feat{flex-basis:220px}
+.hcs .hc-feat .hc-t{font-size:16px}
+.hcs .hc-go{font-size:12.5px}
+@media (max-width:640px){.hcs .hc{flex-basis:60%}.hcs .hc-feat{flex-basis:72%}}.tband-empty a{color:#fff}
 .tband .hcar-b.prev{left:6px}.tband .hcar-b.next{right:6px}
 .tband .hc{box-shadow:0 6px 18px rgba(0,0,0,.28)}
 .hc-top{position:relative;overflow:hidden;min-height:84px;background:linear-gradient(135deg,var(--tone-soft) 0%,color-mix(in srgb,var(--tone) 30%,var(--tone-soft)) 100%)}
@@ -2766,7 +2777,7 @@ function hcItems(lim){lim=lim||14;const out=[];if(!LX||!D)return out;const tm=ad
 var HCF='All';
 const HC_FILTERS=[['All','All'],['Today','Today'],['City','City and roads'],['Events','Events'],['Sports','Sports'],['Business','Business']];
 function hcFilterOk(x,f){f=f||HCF;if(f==='All')return true;if(f==='Today')return x.date===TODAY;if(f==='City')return ['civic','vote','road','notice','weather','safety'].includes(x.tone);if(f==='Sports')return /sport|game|athletic/i.test(x.k);if(f==='Business')return x.tone==='biz';if(f==='Events')return x.tone==='event'&&!/sport|game|athletic/i.test(x.k);return true;}
-function hcTrack(fv){const all=hcItems(HCF==='All'?14:60);const it=all.filter(x=>hcFilterOk(x)).slice(0,14);const nt=it.filter(x=>x.date===TODAY).length;
+function hcTrack(fv){const fx=featuredItem();const all=hcItems(HCF==='All'?14:60).filter(x=>!(fx&&fx.kind==='election'&&x.tone==='vote'));const it=all.filter(x=>hcFilterOk(x)).slice(0,14);const nt=it.filter(x=>x.date===TODAY).length;
  return `<div class="hcar"><button type="button" class="hcar-b prev" data-hcar="-1" aria-label="Earlier">‹</button><div class="hcar-track" tabindex="0" aria-label="${nt?nt+' things today, then what is coming up':'What is coming up'}">${HCF==='All'||HCF==='Today'||HCF==='City'?fv:''}${it.map(hcCard).join('')||`<p class="hc-none">Nothing ${HCF==='Today'?'else today':'in '+HC_FILTERS.find(f=>f[0]===HCF)[1].toLowerCase()+' coming up'}. <a href="#events">See the calendar ›</a></p>`}</div><button type="button" class="hcar-b next" data-hcar="1" aria-label="Later">›</button></div>`;}
 function hcChips(){const all=hcItems(60);const has=f=>f==='All'||all.some(x=>hcFilterOk(x,f));return `<div class="chips hcf" role="group" aria-label="Show">${HC_FILTERS.filter(([k])=>has(k)).map(([k,l])=>`<button type="button" data-hcf="${k}" class="${HCF===k?'on':''}" aria-pressed="${HCF===k}">${l}</button>`).join('')}</div>`;}
 document.addEventListener('click',e=>{const b=e.target.closest('[data-hcf]');if(!b)return;HCF=b.dataset.hcf;document.querySelectorAll('[data-hcf]').forEach(x=>{const on=x.dataset.hcf===HCF;x.classList.toggle('on',on);x.setAttribute('aria-pressed',on);});const host=document.getElementById('hctrack');if(host){const fx=featuredItem();host.innerHTML=hcTrack(fx&&fx.kind==='election'?'':hcVote());hcSync();}});
@@ -2841,12 +2852,9 @@ function talkingNow(){const ready=!!(window.TALK&&TALK.ready);const all=ready?tk
 function numbersFeat(){const t=kpiList().filter(k=>k&&!k.soc).slice(0,3);if(!t.length)return '';
  return `<section class="blk"><div class="sec"><h2>${esc(TN())} by the numbers</h2><a href="#budget">Budget and taxes ›</a></div><div class="kpis kfeat">${t.map(kpiCard).join('')}</div></section>`;}
 /* ---- v41 Home: today and coming up on the town photo, the day's question, a social wall of what people are discussing, then a minimal row of topic doors. v40 stays at #home-v40. ---- */
-function todayBand(hi){const d=ld(TODAY).toLocaleDateString('en-US',{weekday:'long',month:'long',day:'numeric'});const P=TOWN&&TOWN.photo;const PN=TOWN?TOWN.name:TN();
- const fx=featuredItem();const fv=fx&&fx.kind==='election'?'':hcVote();const it=hcItems().filter(x=>!(fv&&x.tone==='vote'));const nev=upcomingEvents().length;const nt=it.filter(x=>x.date===TODAY).length;const u=w=>P.src.replace('{w}',w);
- return `<section class="tband${P&&P.src?'':' nophoto'}">${P&&P.src?`<img class="tband-img" src="${esc(u(960))}" srcset="${esc(u(960))} 960w, ${esc(u(1920))} 1920w" sizes="(max-width:900px) 100vw, 900px" alt="${esc(P.alt||'')}" style="object-position:${esc(P.pos||'50% 50%')}" decoding="async" fetchpriority="high"><a class="tband-cr" href="${esc(P.page)}" target="_blank" rel="noopener">Photo: ${esc(P.author)}, ${esc(P.license)}</a>`:''}
- <div class="tband-in"><div class="tband-hd"><div class="stack" style="gap:2px;min-width:0"><h1>${hi}, ${esc(PN)}</h1><span>${d}</span></div></div>
- <div class="tband-sec"><h2>Today and coming up</h2><a href="#events">${nev?'All '+nev+' events ›':'Calendar ›'}</a></div>
- ${fv||it.length?`${hcChips()}<div id="hctrack">${hcTrack(fv)}</div>`:`<p class="tband-empty">Nothing on the calendar today. <a href="#events">See what is coming up ›</a></p>`}</div></section>`;}
+function todayBand(hi){return heroHead(hi);}
+function comingStrip(){const fx=featuredItem();const fv=fx&&fx.kind==='election'?'':hcVote();const it=hcItems();const nev=upcomingEvents().length;if(!fv&&!it.length)return '';
+ return `<section class="blk hcs"><div class="sec"><h2>Today and coming up</h2><div class="row" style="gap:10px">${hcChips()}<a href="#events">${nev?'All '+nev+' events ›':'Calendar ›'}</a></div></div><div id="hctrack">${hcTrack(fv)}</div></section>`;}
 var WALLF='All';
 const WALL_F=[['All','All'],['issue','Up for a vote'],['talk','Residents'],['official','Officials'],['news','News']];
 function wallIssue(i,hit){const c=cnt(i.id),n=c.s+c.o,v=S.votes[i.id];const pct=n?Math.round(c.s/n*100):0;const k=(window.TALK&&TALK.ready)?tkFor('issue',i.id).length:0;
@@ -2911,6 +2919,7 @@ function pageHome3(){const hr=new Date().getHours();const hi=hr<12?'Good morning
  return `
  ${todayBand(hi)}
  ${subPicker()}
+ ${comingStrip()}
  ${featuredBlock()}
  ${askCard()}
  ${socialWall()}
