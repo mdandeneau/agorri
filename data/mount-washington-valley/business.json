@@ -555,5 +555,18 @@
    "url": "https://www.bizbuysell.com/new-hampshire-established-businesses-for-sale/",
    "source": "BizBuySell"
   }
+ ],
+ "changedHands": [
+  {
+   "name": "Comfort Inn & Suites North Conway",
+   "what": "58-room hotel, 2001 White Mountain Highway",
+   "town": "Conway",
+   "date": "2026-09-21",
+   "detail": "Sold September 21, 2026, through Wason Associates. It had been under the same ownership and management since it was built in 2000; the broker's listing calls it consistently the #1 Choice Hotel/Comfort Inn in the United States. Buyer and price were not published.",
+   "source": {
+    "label": "Wason Associates, sold listing",
+    "url": "https://www.hospitalityrealestate.com/properties/comfort-inn/"
+   }
+  }
  ]
 }

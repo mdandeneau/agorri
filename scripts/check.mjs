@@ -96,6 +96,7 @@ for (const t of units) {
     (BZ.forSale || []).forEach((x, i) => { if (!x.name || !x.source || !x.source.url) errs.push(`${id}: business.forSale[${i}] needs name and source.url`); if (x.date && daysAgo(x.date) > 90) warns.push(`${id}: business.forSale[${i}] "${x.name}" is ${daysAgo(x.date)} days old; drop or update it`); });
     (BZ.forSaleLinks || []).forEach((x, i) => { if (!x.name || !x.url) errs.push(`${id}: business.forSaleLinks[${i}] needs name and url`); });
     (BZ.stats || []).forEach((x, i) => { if (!x.value || !x.label || !x.source || !x.source.url) errs.push(`${id}: business.stats[${i}] needs value, label and source.url`); if (String(x.value).length > 16) errs.push(`${id}: business.stats[${i}] value "${x.value}" is too long for a tile; put the detail in note`); });
+    (BZ.changedHands || []).forEach((x, i) => { if (!x.name || !x.date || !x.source || !x.source.url) errs.push(`${id}: business.changedHands[${i}] needs name, date and source.url`); });
     [...(BZ.openings || []), ...(BZ.closures || [])].forEach((x, i) => { if (x.date && !/^\d{4}-\d{2}(-\d{2})?$/.test(x.date)) errs.push(`${id}: business opening/closing "${x.name}" date must be YYYY-MM-DD or YYYY-MM`); });
   }
   // a Town (or a region of towns) should not call itself a city in its own notes and labels
