@@ -1243,6 +1243,7 @@ a.wc-t:hover{text-decoration:underline}
 .cp-counts{gap:6px;align-items:center;font-size:12.5px}
 .st{display:inline-block;font-size:11px;font-weight:800;letter-spacing:.04em;text-transform:uppercase;border-radius:6px;padding:2px 7px;white-space:nowrap;align-self:flex-start}
 .st-for{background:var(--green-soft);color:var(--green-ink)}.st-against{background:var(--red-soft);color:var(--red-ink)}.st-other{background:var(--soft);color:var(--ink2)}
+.cp-note{margin:0;font-size:13.5px;background:var(--amber-soft);color:var(--amber-ink);border-radius:8px;padding:8px 10px}
 .cp-area{display:flex;flex-direction:column;gap:10px}
 .cp-area h3{font-size:15px}
 .cp-list{display:flex;flex-direction:column;gap:10px}
@@ -2594,6 +2595,7 @@ function pageCandidate(id){const f=candFind(id);if(!f)return `<section class="st
  <div class="cols"><div class="main">
  <section class="card stack cp-brief" style="gap:8px"><div class="between"><h2>In brief</h2>${pos.length?`<span class="row cp-counts">${n.For?`<span class="st st-for">${n.For} for</span>`:''}${n.Against?`<span class="st st-against">${n.Against} against</span>`:''}${n.Other?`<span class="st st-other">${n.Other} other</span>`:''}${c.noResponse?`<span class="muted">${c.noResponse} no response</span>`:''}</span>`:''}</div>
   ${c.summary?`<p class="cp-sum">${esc(c.summary)}</p><p class="muted" style="font-size:12.5px">Written by AI only from the positions below${c.summaryFrom?' ('+esc(c.summaryFrom)+')':''}. Agorri doesn't rate, label or endorse anyone. Something off? <button type="button" class="linkish" data-sitefb="1">Tell us</button>.</p>`:`<p class="muted">${pos.length?'No summary yet. The positions below are in the candidate\'s own words.':'No positions on record from a source we could read. Check the candidate\'s website.'}</p>`}
+  ${c.dataNote?`<p class="cp-note"><b>A note on the record:</b> ${esc(c.dataNote)}</p>`:''}
   ${c.background?`<p class="pos">${esc(c.background)}</p>`:''}${c.experience?`<p class="muted" style="font-size:13.5px"><b>Experience:</b> ${esc(c.experience)}</p>`:''}${c.education?`<p class="muted" style="font-size:13.5px"><b>Education:</b> ${esc(c.education)}</p>`:''}</section>
  ${pos.length?`<section class="blk"><div class="sec"><h2>Where they stand</h2><span class="muted">${pos.length} position${pos.length===1?'':'s'} on record</span></div>
   <div class="chips" role="group" aria-label="Topic">${['All',...areas].map(a=>`<button type="button" data-candarea="${esc(a)}" class="${CANDF.area===a?'on':''}">${esc(a)}</button>`).join('')}</div>
