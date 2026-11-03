@@ -1,5 +1,5 @@
 {
- "as_of": "2026-10-29",
+ "as_of": "2026-11-03",
  "note": "From the city's own pages (Economic Development, City Clerk, Health, Inspection, Planning) and open local coverage: Seacoast Current, Patch, NH Business Review. The Portsmouth Herald is paywalled and not used. Fees that the city does not publish online are left out.",
  "organizations": [
   {
@@ -241,6 +241,16 @@
   }
  ],
  "notices": [
+  {
+   "date": "2026-11-02",
+   "title": "Route 1 (Lafayette Road) closed nightly between Peverly Hill Road and Mirona Road, Nov 2 to 5",
+   "detail": "Lafayette Road is closed in both directions from 8 pm to 6 am, from the evening of Monday, Nov 2 through the morning of Thursday, Nov 5, for a sewer connection and manhole for a housing project. A detour runs on Peverly Hill Road and Mirona Road. Daytime access is not affected.",
+   "url": "https://www.portsmouthnh.gov/node/728952",
+   "source": {
+    "label": "City of Portsmouth, Nov 2",
+    "url": "https://www.portsmouthnh.gov/node/728952"
+   }
+  },
   {
    "date": "2026-10-28",
    "title": "Opportunity Zone 2.0 designations approved for 25 NH census tracts",
@@ -535,7 +545,7 @@
  ],
  "methodology": "Compiled Oct 29, 2026 from pages fetched this session: portsmouthnh.gov (Economic Development, City Clerk, Health, Inspection, Planning, news), Seacoast Current, WOKQ, Patch Portsmouth, NH Business Review, The Nashua Independent. Not covered: Seacoastonline/Portsmouth Herald (paywalled, not fetched), the Chamber Collaborative's news page at business.portsmouthchamber.org (fetch blocked), WMUR (fetch blocked), Business NH Magazine (no RSS found). No official count of registered businesses or downtown vacancy was found. Fees for vendor, sidewalk obstruction and business licenses are not published on the city pages read.",
  "forSale": [],
- "forSaleNote": "Businesses for sale in Portsmouth and the surrounding Seacoast, from local news coverage and town notices, each linked to its source and tagged with its town. The listing sites below publish no feed and do not allow copying, so they are links only.",
+ "forSaleNote": "Businesses for sale in Portsmouth and the surrounding Seacoast, from local news coverage and town notices, each linked to its source and tagged with its town. The listing sites below publish no feed and do not allow copying, so they are links only. Checked Nov 3, 2026: no Portsmouth-area business reported for sale in Seacoast Current or Patch.",
  "forSaleLinks": [
   {
    "name": "BizBuySell: Rockingham County",

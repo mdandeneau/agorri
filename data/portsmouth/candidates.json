@@ -5173,10 +5173,10 @@
       {
        "area": "Other",
        "topic": "Affordability and housing",
-       "stance": "",
+       "stance": "Other",
        "text": "Wants to reduce pressure on property taxpayers and expand affordable housing and childcare.",
        "quote": "New Hampshire should be a place where regular people can afford to build a good life.",
-       "year": "",
+       "year": "2026",
        "source": {
         "label": "Ballotpedia Candidate Connection survey, 2026",
         "url": "https://ballotpedia.org/Anna_Howard"
@@ -5185,10 +5185,10 @@
       {
        "area": "Other",
        "topic": "Democracy and human rights",
-       "stance": "",
+       "stance": "Other",
        "text": "Says she is especially passionate about human rights and protecting democracy.",
        "quote": "I'm especially passionate about human rights and protecting democracy.",
-       "year": "",
+       "year": "2026",
        "source": {
         "label": "Ballotpedia Candidate Connection survey, 2026",
         "url": "https://ballotpedia.org/Anna_Howard"
@@ -5197,10 +5197,10 @@
       {
        "area": "Other",
        "topic": "Accountability",
-       "stance": "",
+       "stance": "Other",
        "text": "Emphasizes listening, explaining decisions and following the evidence.",
        "quote": "I will ask questions, follow the money, look at the evidence",
-       "year": "",
+       "year": "2026",
        "source": {
         "label": "Ballotpedia Candidate Connection survey, 2026",
         "url": "https://ballotpedia.org/Anna_Howard"
@@ -5226,7 +5226,9 @@
      "noResponse": 21,
      "summary": "Anna Howard has not stated a position on any issue on her Citizens Count profile. She answered 0 of 21 questions on the 2026 Citizens Count issue survey, so no positions can be listed by area. Her Ballotpedia district page indicates she completed a Candidate Connection survey, but that page and her campaign website could not be loaded this session.",
      "summaryFrom": "0 positions on Citizens Count, fetched Nov 3, 2026",
-     "positionsAsOf": "2026-11-03"
+     "positionsAsOf": "2026-11-03",
+     "needs_review": true,
+     "review_note": "Stance set to Other on Nov 3, 2026 for the three Ballotpedia survey statements already on file (they are stated priorities, not For or Against a specific proposal). Ballotpedia, Citizens Count and the campaign site could not be fetched on Nov 3, so the quotes were not re-verified this run."
     }
    ],
    "source": {
