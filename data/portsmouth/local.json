@@ -1279,10 +1279,6 @@
    "text": "Public Works keeps a construction map and an anticipated projects dashboard; they are not pulled in yet.",
    "url": "https://www.portsmouthnh.gov/publicworks/projects",
    "label": "construction map"
-  },
-  {
-   "title": "Schools",
-   "text": "The district site blocks automated reading; calendar and School Board items need a direct feed from SAU 52."
   }
  ],
  "safety": {

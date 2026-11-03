@@ -1793,22 +1793,10 @@
    "label": "NHDOT project notice"
   },
   {
-   "title": "Schools",
-   "text": "Conway's public schools, including Kennett High School, are run through SAU 9 and the school district, which votes on its own ballot, not by the town.",
-   "url": "http://www.sau9.org/",
-   "label": "SAU 9"
-  },
-  {
    "title": "Fire, water and sewer in North Conway",
    "text": "The North Conway Water Precinct, not the town, runs the North Conway Fire Department and North Conway's water and sewer systems. Water: 603-356-5382.",
    "url": "https://ncwp.nh.gov/departments",
    "label": "precinct departments"
-  },
-  {
-   "title": "Police logs",
-   "text": "Conway police post daily dispatch logs in a Google Drive folder that Agorri can't read automatically yet.",
-   "url": "https://www.conwaypdnh.gov/logs",
-   "label": "dispatch logs"
   },
   {
    "title": "Valley events calendar",
