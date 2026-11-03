@@ -1,0 +1,150 @@
+{
+ "as_of": "2026-11-03",
+ "note": "One featured item at a time on Home, for days when one thing matters more than the rest. Each item shows between from and until (inclusive). kind: election (built from candidates.json and local.json election; results below fill in the morning after), or notice (title, line, actions). Rules for filling results are in UPDATE.md.",
+ "items": [
+  {
+   "id": "election-2026-11-03",
+   "kind": "election",
+   "from": "2026-11-03",
+   "until": "2026-11-08",
+   "election": "2026-11-03",
+   "results": {
+    "status": "polls-open",
+    "asOf": null,
+    "note": "Portsmouth results are posted by the City Clerk after the polls close; statewide races are called by the Secretary of State and news outlets.",
+    "source": {
+     "label": "City Clerk election results",
+     "url": "https://www.portsmouthnh.gov/cityclerk/voting-information"
+    },
+    "turnout": {
+     "ballots": null,
+     "registered": 17228,
+     "prior": {
+      "year": 2025,
+      "ballots": 6207,
+      "pct": 35.68
+     }
+    },
+    "races": [
+     {
+      "id": "governor",
+      "office": "Governor",
+      "district": "Statewide",
+      "called": false,
+      "winner": null,
+      "candidates": [
+       {
+        "id": "kelly-ayotte",
+        "name": "Kelly Ayotte",
+        "party": "R",
+        "votes": null
+       },
+       {
+        "id": "cinde-warmington",
+        "name": "Cinde Warmington",
+        "party": "D",
+        "votes": null
+       },
+       {
+        "id": "stephen-villee",
+        "name": "Stephen Villee",
+        "party": "L",
+        "votes": null
+       }
+      ]
+     },
+     {
+      "id": "us-senate",
+      "office": "U.S. Senate",
+      "district": "Statewide",
+      "called": false,
+      "winner": null,
+      "candidates": [
+       {
+        "id": "chris-pappas",
+        "name": "Chris Pappas",
+        "party": "D",
+        "votes": null
+       },
+       {
+        "id": "john-e-sununu",
+        "name": "John E. Sununu",
+        "party": "R",
+        "votes": null
+       },
+       {
+        "id": "edmond-laplante",
+        "name": "Edmond J. Laplante Jr.",
+        "party": "Constitution Party",
+        "votes": null
+       }
+      ]
+     },
+     {
+      "id": "us-house-1",
+      "office": "U.S. House",
+      "district": "District 1",
+      "called": false,
+      "winner": null,
+      "candidates": [
+       {
+        "id": "stefany-shaheen",
+        "name": "Stefany Shaheen",
+        "party": "D",
+        "votes": null
+       },
+       {
+        "id": "anthony-dilorenzo",
+        "name": "Anthony DiLorenzo",
+        "party": "R",
+        "votes": null
+       }
+      ]
+     },
+     {
+      "id": "exec-council-3",
+      "office": "Executive Council",
+      "district": "District 3",
+      "called": false,
+      "winner": null,
+      "candidates": [
+       {
+        "id": "janet-stevens",
+        "name": "Janet Stevens",
+        "party": "R",
+        "votes": null
+       },
+       {
+        "id": "lisa-kennedy-sheldon",
+        "name": "Lisa Kennedy Sheldon",
+        "party": "D",
+        "votes": null
+       }
+      ]
+     },
+     {
+      "id": "state-senate-21",
+      "office": "State Senate",
+      "district": "District 21",
+      "called": false,
+      "winner": null,
+      "candidates": [
+       {
+        "id": "rebecca-perkins-kwoka",
+        "name": "Rebecca Perkins Kwoka",
+        "party": "D",
+        "votes": null
+       },
+       {
+        "id": "jeffrey-berlin",
+        "name": "Jeffrey Berlin",
+        "party": "R",
+        "votes": null
+       }
+      ]
+     }
+    ]
+   }
+  }
+ ]
+}

@@ -1212,6 +1212,31 @@ a.wc-t:hover{text-decoration:underline}
  .topics-row{display:grid;grid-template-columns:repeat(4,minmax(0,1fr))}
  .tp{width:auto}
 }
+
+/* ---- Featured ---- */
+.fx{display:flex;flex-direction:column;gap:12px;padding:18px 20px;border-left:5px solid var(--accent)}
+.fx.t-vote{border-left-color:var(--accent)}
+.fx-k{align-self:flex-start;background:none;padding:0;font-size:11px;font-weight:800;letter-spacing:.07em;text-transform:uppercase;color:var(--accent)}
+.fx-top{display:flex;flex-direction:column;gap:4px}
+.fx-top h2{font-size:24px;letter-spacing:-.01em;line-height:1.15}
+.fx-l{margin:0;color:var(--ink2);font-size:14.5px}
+.fx-where{display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px;background:var(--soft);border-radius:10px;padding:10px 12px;font-size:14px}
+.fx-where select{width:auto;font:inherit;font-size:14px;padding:5px 8px;border-radius:8px;border:1px solid var(--line);background:var(--surface);color:var(--ink)}
+.fx-acts{gap:8px;align-items:center}
+.fx-races{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.fr{display:flex;flex-direction:column;gap:6px;border:1px solid var(--line);border-radius:10px;padding:10px 12px;min-width:0}
+.fr-h{display:flex;align-items:center;justify-content:space-between;gap:8px}
+.fr-o{font-weight:700;color:var(--ink);text-decoration:none;font-size:14.5px}
+.fr-names{display:flex;flex-wrap:wrap;gap:4px 12px;font-size:13.5px;color:var(--ink2)}
+.fp{display:inline-block;font-size:10px;font-weight:800;border-radius:4px;padding:0 4px;background:var(--soft);color:var(--ink2);vertical-align:1px}
+.fr-c{display:flex;flex-direction:column;gap:5px}
+.fr-cand{display:grid;grid-template-columns:minmax(0,1fr) 90px 92px;gap:8px;align-items:center;font-size:13.5px}
+.fr-cand.won .fr-n{font-weight:700}
+.fr-bar{height:8px;background:var(--soft);border-radius:4px;overflow:hidden}
+.fr-bar span{display:block;height:100%;background:var(--accent);border-radius:4px}
+.fr-v{text-align:right;font-size:12.5px}
+.fx-note{margin:0;font-size:12.5px}
+@media (max-width:640px){.fx{padding:14px 14px}.fx-top h2{font-size:21px}.fx-races{grid-template-columns:1fr}.fr-cand{grid-template-columns:minmax(0,1fr) 80px}.fr-bar{display:none}}
 </style>
 
 </head>
@@ -2241,6 +2266,8 @@ function tkCtx(r){if(!r||r.t==='town')return null;if(r.t==='issue'){const i=D.is
  if(r.t==='event')return {label:r.label||'An event',href:r.url||'#local',ext:!!r.url};
  if(r.t==='idea'){const d=allRequests().find(x=>String(x.id)===String(r.id));return {label:r.label||(d?d.title:'An idea'),href:'#ideas',ext:false};}
  if(r.t==='candidate'||r.t==='race')return {label:r.label||'A candidate',href:'#election',ext:false};
+ if(r.t==='election')return {label:r.label||'Election Day',href:'#election',ext:false};
+ if(r.t==='feature')return {label:r.label||'Featured',href:r.href||'#home',ext:false};
  if(r.t==='park'||r.t==='project'||r.t==='program'||r.t==='parknote')return {label:r.label||'Parks and recreation',href:'#parks',ext:false};
  if(r.t==='business')return {label:r.label||'A business',href:'#business',ext:false};
  if(r.t==='official')return {label:r.label||'A city official',href:'#official-'+r.id,ext:false};
@@ -2765,7 +2792,7 @@ function numbersFeat(){const t=kpiList().filter(k=>k&&!k.soc).slice(0,3);if(!t.l
  return `<section class="blk"><div class="sec"><h2>${esc(TN())} by the numbers</h2><a href="#budget">Budget and taxes ›</a></div><div class="kpis kfeat">${t.map(kpiCard).join('')}</div></section>`;}
 /* ---- v41 Home: today and coming up on the town photo, the day's question, a social wall of what people are discussing, then a minimal row of topic doors. v40 stays at #home-v40. ---- */
 function todayBand(hi){const d=ld(TODAY).toLocaleDateString('en-US',{weekday:'long',month:'long',day:'numeric'});const P=TOWN&&TOWN.photo;const PN=TOWN?TOWN.name:TN();
- const fv=hcVote();const it=hcItems().filter(x=>!(fv&&x.tone==='vote'));const nev=upcomingEvents().length;const nt=it.filter(x=>x.date===TODAY).length;const u=w=>P.src.replace('{w}',w);
+ const fx=featuredItem();const fv=fx&&fx.kind==='election'?'':hcVote();const it=hcItems().filter(x=>!(fv&&x.tone==='vote'));const nev=upcomingEvents().length;const nt=it.filter(x=>x.date===TODAY).length;const u=w=>P.src.replace('{w}',w);
  return `<section class="tband${P&&P.src?'':' nophoto'}">${P&&P.src?`<img class="tband-img" src="${esc(u(960))}" srcset="${esc(u(960))} 960w, ${esc(u(1920))} 1920w" sizes="(max-width:900px) 100vw, 900px" alt="${esc(P.alt||'')}" style="object-position:${esc(P.pos||'50% 50%')}" decoding="async" fetchpriority="high"><a class="tband-cr" href="${esc(P.page)}" target="_blank" rel="noopener">Photo: ${esc(P.author)}, ${esc(P.license)}</a>`:''}
  <div class="tband-in"><div class="tband-hd"><div class="stack" style="gap:2px;min-width:0"><h1>${hi}, ${esc(PN)}</h1><span>${d}</span></div></div>
  <div class="tband-sec"><h2>Today and coming up</h2><a href="#events">${nev?'All '+nev+' events ›':'Calendar ›'}</a></div>
@@ -2805,11 +2832,36 @@ function fillTopics(SL,I,REC){const el=document.getElementById('hometopics');if(
  const RI={housing:EX_IC.housing,budget:EX_IC.budget,officials:EX_IC.people};
  const items=SL.filter(l=>l[0]!=='home').map(l=>({h:l[0],l:l[1],ic:I[l[0]],v:''})).concat(REC.filter(r=>RI[r[0]]).map(r=>({h:r[0],l:r[0]==='budget'?'Budget':r[0]==='housing'?'Home prices':r[1],ic:RI[r[0]],v:r[0]==='budget'?kv(/budget/):r[0]==='housing'?kv(/housing/):''})));
  el.innerHTML=`<span class="topics-h">More in ${esc(TN())}</span><div class="topics-row">${items.map(x=>`<a class="tp" href="#${x.h}"><span class="tp-ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${x.ic||''}</svg></span><span class="tp-l">${esc(x.l)}</span>${x.v?`<span class="tp-v">${esc(String(x.v).replace(/<[^>]+>/g,''))}</span>`:''}</a>`).join('')}</div>`;}
+/* ---- Featured: one item for days when one thing matters more (data/<town>/featured.json). Election: the ballot today, results after. ---- */
+function featuredItem(){const F=LX&&LX.featured;if(!F||!F.items)return null;return F.items.find(x=>x.from<=TODAY&&(!x.until||x.until>=TODAY))||null;}
+function featPartyTag(p){return p?`<span class="fp fp-${esc(String(p).toLowerCase())}">${esc(p)}</span>`:'';}
+function featRaceRow(r,res){const ref={t:'race',id:r.id,label:r.office+(r.district&&r.district!=='Statewide'?', '+r.district:''),href:'#election'};const cs=(r.candidates||[]).slice();
+ if(res){const tot=cs.reduce((n,c)=>n+(c.votes||0),0);cs.sort((a,b)=>(b.votes||0)-(a.votes||0));
+  return `<div class="fr"><div class="fr-h"><a class="fr-o" href="#election">${esc(r.office)}${r.district&&r.district!=='Statewide'?' <span class="muted">· '+esc(r.district)+'</span>':''}</a>${itemBar(ref,{sm:true})}</div>
+  <div class="fr-c">${cs.map(c=>{const pct=tot&&c.votes!=null?Math.round(c.votes/tot*100):null;const won=r.called&&r.winner===c.id;return `<div class="fr-cand${won?' won':''}"><span class="fr-n">${won?'✓ ':''}${esc(c.name)} ${featPartyTag(c.party)}</span>${c.votes!=null?`<span class="fr-bar"><span style="width:${pct||0}%"></span></span><span class="fr-v num">${c.votes.toLocaleString()}${pct!=null?' · '+pct+'%':''}</span>`:'<span class="fr-v muted">Counting</span>'}</div>`;}).join('')}</div>${r.called?'':'<span class="muted" style="font-size:12px">Not yet called.</span>'}</div>`;}
+ cs.sort(candSort);return `<div class="fr"><div class="fr-h"><a class="fr-o" href="#election">${esc(r.office)}${r.district&&r.district!=='Statewide'?' <span class="muted">· '+esc(r.district)+'</span>':''}</a>${itemBar(ref,{sm:true})}</div><div class="fr-names">${cs.map(c=>`<span>${esc(c.name)} ${featPartyTag(c.party)}</span>`).join('')}</div></div>`;}
+function featuredElection(x){const e=LX&&LX.election,C=LX&&LX.cand;const ed=x.election||(e&&e.date);if(!ed)return '';const R=x.results||{};const after=TODAY>ed;const polls=e&&e.polls?e.polls:[];
+ const wl=Object.keys((C&&C.wardRaces)||{}).sort((a,b)=>a-b);if(wl.length&&!wl.includes(S.ward))S.ward=wl[0];const mine=polls.find(p=>String(p.ward)===String(S.ward));
+ const races=C?racesForWard(S.ward):[];const nc=races.reduce((n,r)=>n+(r.candidates||[]).length,0);
+ const ids=new Set((R.races||[]).map(r=>r.id));const show=(R.races||[]).map(rr=>{const full=races.find(r=>r.id===rr.id)||(C&&(C.races||[]).find(r=>r.id===rr.id))||rr;return after?rr:full;}).filter(Boolean);
+ const ref={t:'election',id:ed,label:'Election Day, '+fmtD(ed),href:'#election'};const n=tkFor('election',ed).length;
+ const head=after?`<span class="fx-k">Results · ${R.status==='final'?'Final':R.status==='counting'||!R.asOf?'Counting':'Unofficial'}</span><h2>How ${esc(TN())} voted on ${fmtD(ed)}</h2><p class="fx-l">${R.turnout&&R.turnout.ballots?`${R.turnout.ballots.toLocaleString()} ballots${R.turnout.registered?', '+Math.round(R.turnout.ballots/R.turnout.registered*1000)/10+'% of '+R.turnout.registered.toLocaleString()+' registered voters':''}${R.turnout.prior?' ('+R.turnout.prior.pct+'% in '+R.turnout.prior.year+')':''}.`:'The City Clerk posts the count after the polls close. This updates as it comes in.'} ${R.asOf?'As of '+esc(ago(R.asOf))+'.':''}</p>`
+  :`<span class="fx-k">Election Day</span><h2>${esc(TN())} votes today</h2><p class="fx-l">${esc((e&&e.hours)||'')} ${races.length?`${races.length} races and ${nc} candidates on a ${WLBL(S.ward)} ballot.`:''}</p>`;
+ const where=!after&&polls.length?`<div class="fx-where"><label for="featward" class="muted">${/^\d+$/.test(String(S.ward))?'Your ward':'Your town'}</label><select id="featward" data-featward>${polls.map(p=>`<option value="${esc(p.ward)}"${String(p.ward)===String(S.ward)?' selected':''}>${esc(WLBL(p.ward))}</option>`).join('')}</select><b>${esc(mine?mine.place:'')}</b></div>${e.sameDay?`<p class="muted" style="font-size:13px">${esc(e.sameDay)}</p>`:''}`:'';
+ const acts=after?`<a class="btn sm" href="#election">Every race ›</a>${R.source&&R.source.url?`<a class="btn sm ghost" href="${esc(R.source.url)}" target="_blank" rel="noopener">${esc(R.source.label||'Official results')} ↗</a>`:''}`
+  :`<a class="btn sm primary" href="#election">Who is on my ballot ›</a>${e&&e.sampleBallots?`<a class="btn sm ghost" href="${esc(e.sampleBallots)}" target="_blank" rel="noopener">Sample ballot ↗</a>`:''}<a class="btn sm ghost" href="#local">Where to vote ›</a>`;
+ return `<section class="card fx t-vote" id="featured"><div class="fx-top">${head}</div>${where}<div class="row fx-acts">${acts}${itemBar(ref,{sm:true})}<span class="muted" style="font-size:13px">${n?n+' comment'+(n===1?'':'s'):'Comment on the election'}</span></div>
+ ${show.length?`<div class="fx-races">${show.map(r=>featRaceRow(r,after)).join('')}</div>`:''}
+ <p class="muted fx-note">${after?esc(R.note||''):'Results show here tomorrow morning. '+esc(R.note||'')} Agorri doesn’t rate or endorse anyone.</p></section>`;}
+function featuredNotice(x){const ref={t:'feature',id:x.id,label:x.title,href:'#home'};return `<section class="card fx" id="featured"><div class="fx-top"><span class="fx-k">${esc(x.kicker||'Featured')}</span><h2>${esc(x.title)}</h2>${x.line?`<p class="fx-l">${esc(x.line)}</p>`:''}</div><div class="row fx-acts">${(x.actions||[]).map((a,k)=>`<a class="btn sm${k?' ghost':' primary'}" href="${esc(a.href)}"${/^https?:/.test(a.href)?' target="_blank" rel="noopener"':''}>${esc(a.label)}${/^https?:/.test(a.href)?' ↗':' ›'}</a>`).join('')}${itemBar(ref,{sm:true})}</div>${x.source?`<p class="muted fx-note">${srcLink(x.source)}</p>`:''}</section>`;}
+function featuredBlock(){const x=featuredItem();if(!x)return '';return x.kind==='election'?featuredElection(x):featuredNotice(x);}
+document.addEventListener('change',e=>{const w=e.target.closest('[data-featward]');if(!w)return;S.ward=w.value;save();rerender();});
 function pageHome3(){const hr=new Date().getHours();const hi=hr<12?'Good morning':hr<17?'Good afternoon':'Good evening';
  if(!WX.ok||WX.town!==TOWN.id)loadWX();
  return `
  ${todayBand(hi)}
  ${subPicker()}
+ ${featuredBlock()}
  ${askCard()}
  ${socialWall()}
  ${yourStuff()}
@@ -3151,7 +3203,7 @@ function townList(filter){const f=(filter||'').trim().toLowerCase();const subRow
  return subRows+ts.map(t=>`<button type="button" class="townrow${TOWN&&t.id===TOWN.id&&(!t.subtowns||subId(TOWN)==='all')?' on':''}" data-town="${t.id}"${t.subtowns?' data-sub="all"':''}><span class="stack" style="gap:1px;min-width:0"><b>${esc(townLabel(t))}</b><span class="muted">${esc(t.kind)}</span></span>${t.status==='live'?'<span class="tag green">Live</span>':(S.townReq[t.id]?'<span class="tag">Requested</span>':'<span class="tag">Coming soon</span>')}</button>`).join('')||`<p class="muted" style="padding:10px 0">No town by that name yet. <button type="button" class="btn ghost sm" data-reqother="${esc(f)}">Request ${esc(filter)}</button></p>`;}
 function openTownPicker(){panel=null;openSheet(`<div class="between" style="flex-wrap:nowrap;align-items:flex-start"><div class="stack" style="gap:2px"><h2>Choose your town</h2><p class="muted">Each town is built from its own public record. More are on the way.</p></div><button class="x" data-close aria-label="Close" data-tip="Close">×</button></div>
  <input id="townq" placeholder="Search towns" autocomplete="off" aria-label="Search towns"><div id="townlist" class="stack" style="gap:0">${townList('')}</div>`);}
-async function loadTownData(t){const sid=subId(t);const ck=t.id+(sid?':'+sid:'');if(TCACHE[ck])return TCACHE[ck];const f={...(t.files||{})};if(sid&&f.records&&f.records[sid])f.record=f.records[sid];const allRec=sid==='all'?loadAllRecords(t):null;if(allRec)delete f.record;delete f.records;const keys=Object.keys(f).filter(k=>k!=='feeds');const got=await Promise.all(keys.map(k=>fetch(f[k]).then(r=>r.ok?r.json():(k==='record'?Promise.reject(new Error(r.status)):null)).catch(e=>{if(k==='record')throw e;return null;})));const g={};keys.forEach((k,i)=>g[k]=got[i]);if(allRec)g.record=await allRec;if(!g.record)throw new Error('record');const LXo=g.local||null;if(LXo){LXo.parks=g.parks||null;LXo.biz=g.business||null;LXo.cand=g.candidates||null;LXo.questions=g.questions||null;LXo.schools=g.schools||null;LXo.sports=g.sports||null;LXo.faith=g.faith||null;mergeExtraEvents(LXo);LXo.area=g.area||null;if(g.safety&&t.subtowns)LXo.safety=composeSafety(LXo.safety,g.safety,t,sid,g.area);}const out={D:g.record,BX:g.beyond||null,LX:LXo};TCACHE[ck]=out;return out;}
+async function loadTownData(t){const sid=subId(t);const ck=t.id+(sid?':'+sid:'');if(TCACHE[ck])return TCACHE[ck];const f={...(t.files||{})};if(sid&&f.records&&f.records[sid])f.record=f.records[sid];const allRec=sid==='all'?loadAllRecords(t):null;if(allRec)delete f.record;delete f.records;const keys=Object.keys(f).filter(k=>k!=='feeds');const got=await Promise.all(keys.map(k=>fetch(f[k]).then(r=>r.ok?r.json():(k==='record'?Promise.reject(new Error(r.status)):null)).catch(e=>{if(k==='record')throw e;return null;})));const g={};keys.forEach((k,i)=>g[k]=got[i]);if(allRec)g.record=await allRec;if(!g.record)throw new Error('record');const LXo=g.local||null;if(LXo){LXo.parks=g.parks||null;LXo.biz=g.business||null;LXo.cand=g.candidates||null;LXo.questions=g.questions||null;LXo.schools=g.schools||null;LXo.sports=g.sports||null;LXo.faith=g.faith||null;LXo.featured=g.featured||null;mergeExtraEvents(LXo);LXo.area=g.area||null;if(g.safety&&t.subtowns)LXo.safety=composeSafety(LXo.safety,g.safety,t,sid,g.area);}const out={D:g.record,BX:g.beyond||null,LX:LXo};TCACHE[ck]=out;return out;}
 async function switchTown(id,quiet){const t=(TOWNS||[]).find(x=>x.id===id);if(!t)return;if(!S.vtowns){S.vtowns={};if(S.verified)S.vtowns[id]={at:new Date().toISOString(),method:'demo'};}S.verified=!!S.vtowns[id];TOWN=t;S.town=id;save();setTownChrome();if(!$('scrim').hidden)closeSheet();
  if(t.status==='live'){$('app').innerHTML='<p class="muted">Loading '+esc(t.name)+' records…</p>';try{const r=await loadTownData(t);D=r.D;BX=r.BX;LX=r.LX;REQ_T=reqT();}catch(err){$('app').innerHTML=`<div class="card stack"><h2>Couldn't load the ${esc(t.name)} records</h2><p class="muted">The data file didn't load (${esc(err.message)}). Reload the page to try again.</p></div>`;return;}}
  route();window.scrollTo(0,0);if(TLIVE()){sweepNotifs();startLive();tkInit();}else clearInterval(LIVE.timer);updateBell();if(!quiet)toast(t.status==='live'?'Showing '+t.name+'.':t.name+' is not live yet.');}
