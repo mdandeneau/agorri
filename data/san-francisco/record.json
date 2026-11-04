@@ -2,8 +2,8 @@
  "about": {
   "town": "San Francisco, CA",
   "as_of": "2026-11-04",
-  "records_from": "2026-09-29",
-  "documents_used": 14,
+  "records_from": "2026-06-30",
+  "documents_used": 20,
   "note": "Plain-English summaries written by AI from official City and County of San Francisco documents (Board of Supervisors minutes and agendas, Planning Commission agendas, budget documents); every meeting carries its source URL. Election items on Nov 3 results are preliminary and marked needs_review. Items with needs_review=true are where the record is incomplete, secondary-sourced or ambiguous."
  },
  "next_council_meeting": {
@@ -82,6 +82,186 @@
       "roll_call": null,
       "dissent": [],
       "topic": "Parking & transportation",
+      "dollars": null,
+      "ordinance_reading": null,
+      "needs_review": false,
+      "review_note": null
+     }
+    },
+    {
+     "date": "2026-07-28",
+     "body": "Board of Supervisors",
+     "url": "https://media.api.sf.gov/documents/bag072826_minutes.pdf",
+     "d": {
+      "title": "Put ending the foreclosure exemption from the transfer tax on the Nov 3 ballot",
+      "detail": "Motion 260692 (M26-070) submits an ordinance eliminating the real property transfer tax exemption for foreclosures to the November 3, 2026 election (Prop J on sf.gov's list of qualified measures). Supervisor Walton had been excused.",
+      "outcome": "APPROVED, Ayes: 10, Excused: 1 (Walton)",
+      "moved_by": null,
+      "seconded_by": null,
+      "roll_call": {
+       "yes": [
+        "Chan",
+        "Chen",
+        "Dorsey",
+        "Fielder",
+        "Mahmood",
+        "Mandelman",
+        "Melgar",
+        "Sauter",
+        "Sherrill",
+        "Wong"
+       ],
+       "no": []
+      },
+      "dissent": [],
+      "topic": "Budget & taxes",
+      "dollars": null,
+      "ordinance_reading": null,
+      "needs_review": false,
+      "review_note": null
+     }
+    },
+    {
+     "date": "2026-07-14",
+     "body": "Board of Supervisors",
+     "url": "https://media.api.sf.gov/documents/bag071426_minutes.pdf",
+     "d": {
+      "title": "Put a Charter amendment updating City departments and commissions on the Nov 3 ballot",
+      "detail": "File 260536 (Mandelman, with Mahmood, Melgar, Sherrill and Dorsey), a 13-part Charter amendment updating departments, boards, commissions and advisory bodies.",
+      "outcome": "ORDERED SUBMITTED, Ayes: 9, Noes: 2 (Chan, Fielder)",
+      "moved_by": null,
+      "seconded_by": null,
+      "roll_call": {
+       "yes": [
+        "Chen",
+        "Dorsey",
+        "Mahmood",
+        "Mandelman",
+        "Melgar",
+        "Sauter",
+        "Sherrill",
+        "Walton",
+        "Wong"
+       ],
+       "no": [
+        "Chan",
+        "Fielder"
+       ]
+      },
+      "dissent": [
+       "Chan",
+       "Fielder"
+      ],
+      "topic": "Government & elections",
+      "dollars": null,
+      "ordinance_reading": null,
+      "needs_review": false,
+      "review_note": null
+     }
+    },
+    {
+     "date": "2026-07-14",
+     "body": "Board of Supervisors",
+     "url": "https://media.api.sf.gov/documents/bag071426_minutes.pdf",
+     "d": {
+      "title": "Put a Housing Trust Fund Charter amendment on the Nov 3 ballot",
+      "detail": "File 260537 (Melgar, with nine co-sponsors) increases funding for the Housing Trust Fund and extends its sunset to July 1, 2058.",
+      "outcome": "ORDERED SUBMITTED, Ayes: 11",
+      "moved_by": null,
+      "seconded_by": null,
+      "roll_call": {
+       "yes": [
+        "Chan",
+        "Chen",
+        "Dorsey",
+        "Fielder",
+        "Mahmood",
+        "Mandelman",
+        "Melgar",
+        "Sauter",
+        "Sherrill",
+        "Walton",
+        "Wong"
+       ],
+       "no": []
+      },
+      "dissent": [],
+      "topic": "Housing & zoning",
+      "dollars": null,
+      "ordinance_reading": null,
+      "needs_review": false,
+      "review_note": null
+     }
+    },
+    {
+     "date": "2026-07-07",
+     "body": "Board of Supervisors",
+     "url": "https://media.api.sf.gov/documents/bag070726_minutes.pdf",
+     "d": {
+      "title": "Put the public bank Charter amendment on the Nov 3 ballot",
+      "detail": "File 260535 (Chen, with Fielder, Melgar, Mahmood and Walton), a Charter amendment creating a Municipal Finance Corporation and Public Bank, submitted to voters for the November 3, 2026 election.",
+      "outcome": "ORDERED SUBMITTED, Ayes: 9, Noes: 2 (Sherrill, Wong)",
+      "moved_by": null,
+      "seconded_by": null,
+      "roll_call": {
+       "yes": [
+        "Chan",
+        "Chen",
+        "Dorsey",
+        "Fielder",
+        "Mahmood",
+        "Mandelman",
+        "Melgar",
+        "Sauter",
+        "Walton"
+       ],
+       "no": [
+        "Sherrill",
+        "Wong"
+       ]
+      },
+      "dissent": [
+       "Sherrill",
+       "Wong"
+      ],
+      "topic": "Government & elections",
+      "dollars": null,
+      "ordinance_reading": null,
+      "needs_review": false,
+      "review_note": null
+     }
+    },
+    {
+     "date": "2026-06-30",
+     "body": "Board of Supervisors",
+     "url": "https://media.api.sf.gov/documents/bag063026_minutes_V2PNVk4.pdf",
+     "d": {
+      "title": "Held the public bank Charter amendment for one week",
+      "detail": "File 260535 (Chen, with Fielder, Melgar, Mahmood and Walton), a Charter amendment creating a Municipal Finance Corporation and Public Bank, proposed for the November 3, 2026 ballot, was continued to July 7. The minutes note Supervisor Wong voted no on continuing it at its first appearance.",
+      "outcome": "CONTINUED to July 7, 2026, Ayes: 10, Noes: 1 (Wong)",
+      "moved_by": null,
+      "seconded_by": null,
+      "roll_call": {
+       "yes": [
+        "Chan",
+        "Chen",
+        "Dorsey",
+        "Fielder",
+        "Mahmood",
+        "Mandelman",
+        "Melgar",
+        "Sauter",
+        "Sherrill",
+        "Walton"
+       ],
+       "no": [
+        "Wong"
+       ]
+      },
+      "dissent": [
+       "Wong"
+      ],
+      "topic": "Government & elections",
       "dollars": null,
       "ordinance_reading": null,
       "needs_review": false,
@@ -188,7 +368,144 @@
     }
    ],
    "scope": "council",
-   "related": []
+   "related": [
+    {
+     "date": "2026-07-28",
+     "body": "Board of Supervisors",
+     "url": "https://media.api.sf.gov/documents/bag072826_minutes.pdf",
+     "d": {
+      "title": "Final approval: the two-year City budget",
+      "detail": "File 260596 (Ordinance No. 140-26), the Budget and Appropriation Ordinance for FY2026-27 and FY2027-28, and File 260597 (Ordinance No. 141-26), the Annual Salary Ordinance.",
+      "outcome": "FINALLY PASSED, Ayes: 11 (each)",
+      "moved_by": null,
+      "seconded_by": null,
+      "roll_call": {
+       "yes": [
+        "Chan",
+        "Chen",
+        "Dorsey",
+        "Fielder",
+        "Mahmood",
+        "Mandelman",
+        "Melgar",
+        "Sauter",
+        "Sherrill",
+        "Walton",
+        "Wong"
+       ],
+       "no": []
+      },
+      "dissent": [],
+      "topic": "Budget & taxes",
+      "dollars": null,
+      "ordinance_reading": "final",
+      "needs_review": false,
+      "review_note": null
+     }
+    },
+    {
+     "date": "2026-07-28",
+     "body": "Board of Supervisors",
+     "url": "https://media.api.sf.gov/documents/bag072826_minutes.pdf",
+     "d": {
+      "title": "Final approval: the budget's trailing legislation",
+      "detail": "Files 260598 to 260602 and 260655 (Ordinances No. 155-26 to 160-26): Self-Insurance Surety Bond Fund contributions, the early care and education commercial rents tax baseline, Public Health patient rates, weights and measures and utility meter fees, suspending the cap on using Homelessness Gross Receipts Tax money for short-term rental subsidies, and the Neighborhood Beautification fund tax ceiling.",
+      "outcome": "FINALLY PASSED, Ayes: 11 (each)",
+      "moved_by": null,
+      "seconded_by": null,
+      "roll_call": {
+       "yes": [
+        "Chan",
+        "Chen",
+        "Dorsey",
+        "Fielder",
+        "Mahmood",
+        "Mandelman",
+        "Melgar",
+        "Sauter",
+        "Sherrill",
+        "Walton",
+        "Wong"
+       ],
+       "no": []
+      },
+      "dissent": [],
+      "topic": "Budget & taxes",
+      "dollars": null,
+      "ordinance_reading": "final",
+      "needs_review": false,
+      "review_note": null
+     }
+    },
+    {
+     "date": "2026-07-21",
+     "body": "Board of Supervisors",
+     "url": "https://media.api.sf.gov/documents/bag072126_minutes.pdf",
+     "d": {
+      "title": "First reading: the two-year City budget",
+      "detail": "File 260596 (Mayor), the Budget and Appropriation Ordinance for the fiscal years ending June 30, 2027 and 2028, and File 260597, the Annual Salary Ordinance (City positions and pay), together with the budget's trailing ordinances (Files 260598 to 260602 and 260655).",
+      "outcome": "PASSED ON FIRST READING, Ayes: 11 (each)",
+      "moved_by": null,
+      "seconded_by": null,
+      "roll_call": {
+       "yes": [
+        "Chan",
+        "Chen",
+        "Dorsey",
+        "Fielder",
+        "Mahmood",
+        "Mandelman",
+        "Melgar",
+        "Sauter",
+        "Sherrill",
+        "Walton",
+        "Wong"
+       ],
+       "no": []
+      },
+      "dissent": [],
+      "topic": "Budget & taxes",
+      "dollars": null,
+      "ordinance_reading": "first",
+      "needs_review": false,
+      "review_note": null
+     }
+    },
+    {
+     "date": "2026-07-14",
+     "body": "Board of Supervisors",
+     "url": "https://media.api.sf.gov/documents/bag071426_minutes.pdf",
+     "d": {
+      "title": "Amended the two-year budget and held it to July 21",
+      "detail": "File 260596, the Budget and Appropriation Ordinance for FY2026-27 and FY2027-28. Supervisor Chan's amendment of the whole (11-0) changed the Board of Supervisors spending plan, including adding job training and preparedness for climate related jobs, and made technical adjustments that raise the Sheriff's Office FY2026-27 budget by $3,695,945. The Annual Salary Ordinance (File 260597) and the budget's trailing legislation were also continued to July 21.",
+      "outcome": "AMENDED; CONTINUED ON FIRST READING AS AMENDED to July 21, 2026, Ayes: 11",
+      "moved_by": null,
+      "seconded_by": null,
+      "roll_call": {
+       "yes": [
+        "Chan",
+        "Chen",
+        "Dorsey",
+        "Fielder",
+        "Mahmood",
+        "Mandelman",
+        "Melgar",
+        "Sauter",
+        "Sherrill",
+        "Walton",
+        "Wong"
+       ],
+       "no": []
+      },
+      "dissent": [],
+      "topic": "Budget & taxes",
+      "dollars": null,
+      "ordinance_reading": null,
+      "needs_review": false,
+      "review_note": null
+     }
+    }
+   ]
   },
   {
    "id": "datacenters",
@@ -556,6 +873,150 @@
       "needs_review": false,
       "review_note": null
      }
+    },
+    {
+     "date": "2026-07-28",
+     "body": "Board of Supervisors",
+     "url": "https://media.api.sf.gov/documents/bag072826_minutes.pdf",
+     "d": {
+      "title": "Approved funding for 175 senior homes at 758 Pacific Avenue",
+      "detail": "File 260793: a $2,178,786 purchase and a loan of up to $13,666,153 for 175 senior units at 758 Pacific Avenue.",
+      "outcome": "ADOPTED, Ayes: 11",
+      "moved_by": null,
+      "seconded_by": null,
+      "roll_call": {
+       "yes": [
+        "Chan",
+        "Chen",
+        "Dorsey",
+        "Fielder",
+        "Mahmood",
+        "Mandelman",
+        "Melgar",
+        "Sauter",
+        "Sherrill",
+        "Walton",
+        "Wong"
+       ],
+       "no": []
+      },
+      "dissent": [],
+      "topic": "Housing & zoning",
+      "dollars": null,
+      "ordinance_reading": null,
+      "needs_review": true,
+      "review_note": "The fetched summary of the minutes gave the amounts and unit count but not who is buying the site; confirm from the minutes before publishing."
+     }
+    },
+    {
+     "date": "2026-07-21",
+     "body": "Board of Supervisors",
+     "url": "https://media.api.sf.gov/documents/bag072126_minutes.pdf",
+     "d": {
+      "title": "Final approval: lower inclusionary housing requirements and impact fees",
+      "detail": "File 260538 (Ordinance No. 136-26; Mayor, with Melgar, Dorsey, Sherrill, Sauter and Mandelman) reduces inclusionary (below-market-rate) housing requirements for projects of 25 units or more, removes them for smaller projects, and cuts certain impact fees.",
+      "outcome": "FINALLY PASSED, Ayes: 9, Noes: 2 (Chen, Walton)",
+      "moved_by": null,
+      "seconded_by": null,
+      "roll_call": {
+       "yes": [
+        "Chan",
+        "Dorsey",
+        "Fielder",
+        "Mahmood",
+        "Mandelman",
+        "Melgar",
+        "Sauter",
+        "Sherrill",
+        "Wong"
+       ],
+       "no": [
+        "Chen",
+        "Walton"
+       ]
+      },
+      "dissent": [
+       "Chen",
+       "Walton"
+      ],
+      "topic": "Housing & zoning",
+      "dollars": null,
+      "ordinance_reading": "final",
+      "needs_review": false,
+      "review_note": null
+     }
+    },
+    {
+     "date": "2026-07-21",
+     "body": "Board of Supervisors",
+     "url": "https://media.api.sf.gov/documents/bag072126_minutes.pdf",
+     "d": {
+      "title": "Raised predevelopment funding for 216 affordable senior homes at 1234 Great Highway",
+      "detail": "File 260773 (Mayor) amends a loan of up to $27,248,500 to 1234 Great Highway LLC for a 216-unit affordable senior housing project at 1234, 1270 and 1280 Great Highway.",
+      "outcome": "ADOPTED, Ayes: 11",
+      "moved_by": null,
+      "seconded_by": null,
+      "roll_call": {
+       "yes": [
+        "Chan",
+        "Chen",
+        "Dorsey",
+        "Fielder",
+        "Mahmood",
+        "Mandelman",
+        "Melgar",
+        "Sauter",
+        "Sherrill",
+        "Walton",
+        "Wong"
+       ],
+       "no": []
+      },
+      "dissent": [],
+      "topic": "Housing & zoning",
+      "dollars": 27248500,
+      "ordinance_reading": null,
+      "needs_review": false,
+      "review_note": null
+     }
+    },
+    {
+     "date": "2026-07-14",
+     "body": "Board of Supervisors",
+     "url": "https://media.api.sf.gov/documents/bag071426_minutes.pdf",
+     "d": {
+      "title": "First reading: lower inclusionary housing requirements and impact fees",
+      "detail": "File 260538 (Mayor, with Melgar, Dorsey, Sherrill, Sauter and Mandelman) reduces inclusionary (below-market-rate) housing requirements for projects of 25 units or more, removes them for smaller projects, and cuts certain impact fees. Supervisor Fielder's amendment adding a Mission Area Plan ownership and rental set-aside carried 6-5. The Board then took and rescinded first-reading votes of 11-0, 10-1 (Walton no) and 8-3 (Chan, Chen, Walton no) before the final 9-2 vote.",
+      "outcome": "PASSED ON FIRST READING AS AMENDED, Ayes: 9, Noes: 2 (Chen, Walton)",
+      "moved_by": null,
+      "seconded_by": null,
+      "roll_call": {
+       "yes": [
+        "Chan",
+        "Dorsey",
+        "Fielder",
+        "Mahmood",
+        "Mandelman",
+        "Melgar",
+        "Sauter",
+        "Sherrill",
+        "Wong"
+       ],
+       "no": [
+        "Chen",
+        "Walton"
+       ]
+      },
+      "dissent": [
+       "Chen",
+       "Walton"
+      ],
+      "topic": "Housing & zoning",
+      "dollars": null,
+      "ordinance_reading": "first",
+      "needs_review": true,
+      "review_note": "The minutes print \"(Supervisors Chen and Walton voted No on First Reading.)\" above a first passage recorded 11-0 that was later rescinded. The final first-reading vote recorded is 9-2, Chen and Walton voting no."
+     }
     }
    ]
   },
@@ -631,6 +1092,119 @@
       "topic": "Health & human services",
       "dollars": 345840,
       "ordinance_reading": null,
+      "needs_review": false,
+      "review_note": null
+     }
+    },
+    {
+     "date": "2026-07-28",
+     "body": "Board of Supervisors",
+     "url": "https://media.api.sf.gov/documents/bag072826_minutes.pdf",
+     "d": {
+      "title": "Applied for more than $16,000,000 in federal homelessness funds",
+      "detail": "File 260796, the application for the U.S. Department of Housing and Urban Development's Continuum of Care grant.",
+      "outcome": "ADOPTED, Ayes: 10, Excused: 1 (Walton)",
+      "moved_by": null,
+      "seconded_by": null,
+      "roll_call": {
+       "yes": [
+        "Chan",
+        "Chen",
+        "Dorsey",
+        "Fielder",
+        "Mahmood",
+        "Mandelman",
+        "Melgar",
+        "Sauter",
+        "Sherrill",
+        "Wong"
+       ],
+       "no": []
+      },
+      "dissent": [],
+      "topic": "Health & human services",
+      "dollars": null,
+      "ordinance_reading": null,
+      "needs_review": false,
+      "review_note": null
+     }
+    },
+    {
+     "date": "2026-07-21",
+     "body": "Board of Supervisors",
+     "url": "https://media.api.sf.gov/documents/bag072126_minutes.pdf",
+     "d": {
+      "title": "Final approval: a drug-free policy for permanent supportive housing",
+      "detail": "File 251003 (Ordinance No. 139-26; Dorsey, with Mandelman, Sherrill, Sauter, Mahmood and Wong) makes Drug-Free Permanent Supportive Housing City policy, requires new site-based supportive housing funding to follow it, and sets resident survey and eviction rules.",
+      "outcome": "FINALLY PASSED, Ayes: 7, Noes: 4 (Chan, Chen, Fielder, Walton)",
+      "moved_by": null,
+      "seconded_by": null,
+      "roll_call": {
+       "yes": [
+        "Dorsey",
+        "Mahmood",
+        "Mandelman",
+        "Melgar",
+        "Sauter",
+        "Sherrill",
+        "Wong"
+       ],
+       "no": [
+        "Chan",
+        "Chen",
+        "Fielder",
+        "Walton"
+       ]
+      },
+      "dissent": [
+       "Chan",
+       "Chen",
+       "Fielder",
+       "Walton"
+      ],
+      "topic": "Health & human services",
+      "dollars": null,
+      "ordinance_reading": "final",
+      "needs_review": false,
+      "review_note": null
+     }
+    },
+    {
+     "date": "2026-07-14",
+     "body": "Board of Supervisors",
+     "url": "https://media.api.sf.gov/documents/bag071426_minutes.pdf",
+     "d": {
+      "title": "First reading: a drug-free policy for permanent supportive housing",
+      "detail": "File 251003 (Dorsey, with Mandelman, Sherrill, Sauter, Mahmood and Wong) makes Drug-Free Permanent Supportive Housing City policy, requires new site-based supportive housing funding to follow it, and sets resident survey and eviction rules for the Department of Homelessness and Supportive Housing. A Dorsey amendment adding \"evictions and\" carried 10-1 (Walton no). A Fielder amendment striking \"or shelter\" from parts of the text failed 5-6.",
+      "outcome": "PASSED ON FIRST READING AS AMENDED, Ayes: 7, Noes: 4 (Chan, Chen, Fielder, Walton)",
+      "moved_by": null,
+      "seconded_by": null,
+      "roll_call": {
+       "yes": [
+        "Dorsey",
+        "Mahmood",
+        "Mandelman",
+        "Melgar",
+        "Sauter",
+        "Sherrill",
+        "Wong"
+       ],
+       "no": [
+        "Chan",
+        "Chen",
+        "Fielder",
+        "Walton"
+       ]
+      },
+      "dissent": [
+       "Chan",
+       "Chen",
+       "Fielder",
+       "Walton"
+      ],
+      "topic": "Health & human services",
+      "dollars": null,
+      "ordinance_reading": "first",
       "needs_review": false,
       "review_note": null
      }
@@ -2053,6 +2627,2003 @@
     }
    ],
    "record_note": "Draft minutes, not yet approved by the Board. Supervisors are not usually recorded as making or seconding motions in these minutes, so moved_by and seconded_by are null."
+  },
+  {
+   "body": "Board of Supervisors",
+   "date": "2026-09-01",
+   "minutes_url": "https://media.api.sf.gov/documents/bag090126_minutes.pdf",
+   "minutes_status": "draft",
+   "ocr": false,
+   "attendance": {
+    "present": [
+     "Chan",
+     "Chen",
+     "Dorsey",
+     "Fielder",
+     "Mahmood",
+     "Mandelman",
+     "Melgar",
+     "Sauter",
+     "Sherrill",
+     "Walton",
+     "Wong"
+    ],
+    "absent": []
+   },
+   "headline": "Back from recess, the Board passed new street tree rules on first reading 7-4, gave final approval to 22 new landmarks, and upheld a two-unit condo conversion map on Folsom Street after an appeal hearing.",
+   "decisions": [
+    {
+     "title": "First reading: new street tree rules, in-lieu fees and an exemption for ADUs",
+     "detail": "File 251211 (Mayor, with Wong) changes street tree standards and in-lieu fees (paid instead of planting a tree), exempts accessory dwelling units (ADUs), and changes appeals.",
+     "outcome": "PASSED ON FIRST READING, Ayes: 7, Noes: 4 (Chan, Fielder, Sauter, Walton)",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": {
+      "yes": [
+       "Chen",
+       "Dorsey",
+       "Mahmood",
+       "Mandelman",
+       "Melgar",
+       "Sherrill",
+       "Wong"
+      ],
+      "no": [
+       "Chan",
+       "Fielder",
+       "Sauter",
+       "Walton"
+      ]
+     },
+     "dissent": [
+      "Chan",
+      "Fielder",
+      "Sauter",
+      "Walton"
+     ],
+     "topic": "Environment & resilience",
+     "dollars": null,
+     "ordinance_reading": "first",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Final approval: 22 new City landmarks",
+     "detail": "Files 260570 to 260584, 260587 to 260590, 260681, 260682 and 260754, mostly homes, plus Holy Innocents Church (455 Fair Oaks St), Mission Congregational Church (3689 19th St), Second Church of Christ Scientist (651 Dolores St), the Phoenix Brewery (552 Noe St) and Engine Company No. 33 (117 Broad St).",
+     "outcome": "FINALLY PASSED, Ayes: 11 (each)",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": {
+      "yes": [
+       "Chan",
+       "Chen",
+       "Dorsey",
+       "Fielder",
+       "Mahmood",
+       "Mandelman",
+       "Melgar",
+       "Sauter",
+       "Sherrill",
+       "Walton",
+       "Wong"
+      ],
+      "no": []
+     },
+     "dissent": [],
+     "topic": "Historic preservation",
+     "dollars": null,
+     "ordinance_reading": "final",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Final approval: streets and infrastructure for Hunters View HOPE SF Phase 2",
+     "detail": "File 260710 (Walton, with Mandelman) accepts the streets and infrastructure built for Phase 2 of Hunters View HOPE SF and sets street widths.",
+     "outcome": "FINALLY PASSED, Ayes: 11",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": {
+      "yes": [
+       "Chan",
+       "Chen",
+       "Dorsey",
+       "Fielder",
+       "Mahmood",
+       "Mandelman",
+       "Melgar",
+       "Sauter",
+       "Sherrill",
+       "Walton",
+       "Wong"
+      ],
+      "no": []
+     },
+     "dissent": [],
+     "topic": "Infrastructure & utilities",
+     "dollars": null,
+     "ordinance_reading": "final",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Upheld a two-unit condo conversion map at 2722-2724 Folsom Street",
+     "detail": "After a 3:00 p.m. appeal hearing (File 260907, heard and filed), the Board approved Public Works' decision and the tentative parcel map for a two-unit condominium conversion (File 260908, Motion M26-083) and tabled motions by Supervisor Fielder to disapprove it (Files 260909 and 260910, also 11-0).",
+     "outcome": "APPROVED, Ayes: 11",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": {
+      "yes": [
+       "Chan",
+       "Chen",
+       "Dorsey",
+       "Fielder",
+       "Mahmood",
+       "Mandelman",
+       "Melgar",
+       "Sauter",
+       "Sherrill",
+       "Walton",
+       "Wong"
+      ],
+      "no": []
+     },
+     "dissent": [],
+     "topic": "Housing & zoning",
+     "dollars": null,
+     "ordinance_reading": null,
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Urged Kaiser Permanente to drop three contract demands",
+     "detail": "File 260887 (Chen) urges Kaiser Permanente to drop what the resolution calls its \"Terrible Three\" contract demands. Supervisor Melgar had left the meeting.",
+     "outcome": "ADOPTED, Ayes: 10, Absent: 1 (Melgar)",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": {
+      "yes": [
+       "Chan",
+       "Chen",
+       "Dorsey",
+       "Fielder",
+       "Mahmood",
+       "Mandelman",
+       "Sauter",
+       "Sherrill",
+       "Walton",
+       "Wong"
+      ],
+      "no": []
+     },
+     "dissent": [],
+     "topic": "Health & human services",
+     "dollars": null,
+     "ordinance_reading": null,
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Approved the June 30, July 7 and July 14 minutes",
+     "detail": "The Board's own minutes for its last three meetings before the recess.",
+     "outcome": "Motion carried, Ayes: 11",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": {
+      "yes": [
+       "Chan",
+       "Chen",
+       "Dorsey",
+       "Fielder",
+       "Mahmood",
+       "Mandelman",
+       "Melgar",
+       "Sauter",
+       "Sherrill",
+       "Walton",
+       "Wong"
+      ],
+      "no": []
+     },
+     "dissent": [],
+     "topic": "Government & elections",
+     "dollars": null,
+     "ordinance_reading": null,
+     "needs_review": false,
+     "review_note": null
+    }
+   ],
+   "discussed": [
+    {
+     "title": "Introduced: more landmarks, settlements and resolutions",
+     "detail": "Files 260914 to 260925 (landmark designations), 260926 to 260930 (lawsuit settlements) and 260931 to 260956 (resolutions) were introduced and sent to committees.",
+     "topic": "Government & elections"
+    }
+   ],
+   "public_comment": [],
+   "coming_up": [
+    {
+     "date": "2026-09-15",
+     "item": "Final vote on the street tree ordinance; Mayor's monthly appearance."
+    }
+   ],
+   "record_note": "Draft minutes (printed September 2, 2026). Supervisor Melgar was noted absent at 3:35 p.m. for the rest of the meeting. The meeting adjourned at 4:08 p.m."
+  },
+  {
+   "body": "Board of Supervisors",
+   "date": "2026-07-28",
+   "minutes_url": "https://media.api.sf.gov/documents/bag072826_minutes.pdf",
+   "minutes_status": "final",
+   "ocr": false,
+   "attendance": {
+    "present": [
+     "Chan",
+     "Chen",
+     "Dorsey",
+     "Fielder",
+     "Mahmood",
+     "Mandelman",
+     "Melgar",
+     "Sauter",
+     "Sherrill",
+     "Walton",
+     "Wong"
+    ],
+    "absent": []
+   },
+   "headline": "The Board gave the two-year City budget final approval 11-0, passed fireworks fines 9-2, put ending the foreclosure exemption from the transfer tax on the Nov 3 ballot, and advanced 22 new landmarks before its August recess.",
+   "decisions": [
+    {
+     "title": "Final approval: the two-year City budget",
+     "detail": "File 260596 (Ordinance No. 140-26), the Budget and Appropriation Ordinance for FY2026-27 and FY2027-28, and File 260597 (Ordinance No. 141-26), the Annual Salary Ordinance.",
+     "outcome": "FINALLY PASSED, Ayes: 11 (each)",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": {
+      "yes": [
+       "Chan",
+       "Chen",
+       "Dorsey",
+       "Fielder",
+       "Mahmood",
+       "Mandelman",
+       "Melgar",
+       "Sauter",
+       "Sherrill",
+       "Walton",
+       "Wong"
+      ],
+      "no": []
+     },
+     "dissent": [],
+     "topic": "Budget & taxes",
+     "dollars": null,
+     "ordinance_reading": "final",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Final approval: the budget's trailing legislation",
+     "detail": "Files 260598 to 260602 and 260655 (Ordinances No. 155-26 to 160-26): Self-Insurance Surety Bond Fund contributions, the early care and education commercial rents tax baseline, Public Health patient rates, weights and measures and utility meter fees, suspending the cap on using Homelessness Gross Receipts Tax money for short-term rental subsidies, and the Neighborhood Beautification fund tax ceiling.",
+     "outcome": "FINALLY PASSED, Ayes: 11 (each)",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": {
+      "yes": [
+       "Chan",
+       "Chen",
+       "Dorsey",
+       "Fielder",
+       "Mahmood",
+       "Mandelman",
+       "Melgar",
+       "Sauter",
+       "Sherrill",
+       "Walton",
+       "Wong"
+      ],
+      "no": []
+     },
+     "dissent": [],
+     "topic": "Budget & taxes",
+     "dollars": null,
+     "ordinance_reading": "final",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Final approval: $14,043,516 more for Sheriff's Office overtime",
+     "detail": "File 260567 (Ordinance No. 142-26) appropriates $1,926,125 in revenue and $14,043,516 to overtime, and de-appropriates $12,117,391.",
+     "outcome": "FINALLY PASSED, Ayes: 11",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": {
+      "yes": [
+       "Chan",
+       "Chen",
+       "Dorsey",
+       "Fielder",
+       "Mahmood",
+       "Mandelman",
+       "Melgar",
+       "Sauter",
+       "Sherrill",
+       "Walton",
+       "Wong"
+      ],
+      "no": []
+     },
+     "dissent": [],
+     "topic": "Public safety",
+     "dollars": 14043516,
+     "ordinance_reading": "final",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Final approval: fines for illegal fireworks",
+     "detail": "File 260543 (Ordinance No. 161-26). A first offense is an infraction; repeat offenses are misdemeanors.",
+     "outcome": "FINALLY PASSED, Ayes: 9, Noes: 2 (Fielder, Walton)",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": {
+      "yes": [
+       "Chan",
+       "Chen",
+       "Dorsey",
+       "Mahmood",
+       "Mandelman",
+       "Melgar",
+       "Sauter",
+       "Sherrill",
+       "Wong"
+      ],
+      "no": [
+       "Fielder",
+       "Walton"
+      ]
+     },
+     "dissent": [
+      "Fielder",
+      "Walton"
+     ],
+     "topic": "Public safety",
+     "dollars": null,
+     "ordinance_reading": "final",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Put ending the foreclosure exemption from the transfer tax on the Nov 3 ballot",
+     "detail": "Motion 260692 (M26-070) submits an ordinance eliminating the real property transfer tax exemption for foreclosures to the November 3, 2026 election (Prop J on sf.gov's list of qualified measures). Supervisor Walton had been excused.",
+     "outcome": "APPROVED, Ayes: 10, Excused: 1 (Walton)",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": {
+      "yes": [
+       "Chan",
+       "Chen",
+       "Dorsey",
+       "Fielder",
+       "Mahmood",
+       "Mandelman",
+       "Melgar",
+       "Sauter",
+       "Sherrill",
+       "Wong"
+      ],
+      "no": []
+     },
+     "dissent": [],
+     "topic": "Budget & taxes",
+     "dollars": null,
+     "ordinance_reading": null,
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Approved funding for 175 senior homes at 758 Pacific Avenue",
+     "detail": "File 260793: a $2,178,786 purchase and a loan of up to $13,666,153 for 175 senior units at 758 Pacific Avenue.",
+     "outcome": "ADOPTED, Ayes: 11",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": {
+      "yes": [
+       "Chan",
+       "Chen",
+       "Dorsey",
+       "Fielder",
+       "Mahmood",
+       "Mandelman",
+       "Melgar",
+       "Sauter",
+       "Sherrill",
+       "Walton",
+       "Wong"
+      ],
+      "no": []
+     },
+     "dissent": [],
+     "topic": "Housing & zoning",
+     "dollars": null,
+     "ordinance_reading": null,
+     "needs_review": true,
+     "review_note": "The fetched summary of the minutes gave the amounts and unit count but not who is buying the site; confirm from the minutes before publishing."
+    },
+    {
+     "title": "First reading: 22 new City landmarks",
+     "detail": "Files 260570 to 260584, 260587 to 260590, 260681, 260682 and 260754, mostly homes, plus Holy Innocents Church (455 Fair Oaks St), Mission Congregational Church (3689 19th St), Second Church of Christ Scientist (651 Dolores St), the Phoenix Brewery (552 Noe St) and Engine Company No. 33 (117 Broad St).",
+     "outcome": "PASSED ON FIRST READING, Ayes: 10, Excused: 1 (Walton) (each)",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": {
+      "yes": [
+       "Chan",
+       "Chen",
+       "Dorsey",
+       "Fielder",
+       "Mahmood",
+       "Mandelman",
+       "Melgar",
+       "Sauter",
+       "Sherrill",
+       "Wong"
+      ],
+      "no": []
+     },
+     "dissent": [],
+     "topic": "Historic preservation",
+     "dollars": null,
+     "ordinance_reading": "first",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Approved three Planning Commission appointments",
+     "detail": "The Mayor's appointment of Mike Chen (File 260769) and Board President Mandelman's appointments of Elizabeth Macdonald (File 260863) and Joel Koppel (File 260864).",
+     "outcome": "APPROVED, Ayes: 10, Excused: 1 (Walton) (each)",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": {
+      "yes": [
+       "Chan",
+       "Chen",
+       "Dorsey",
+       "Fielder",
+       "Mahmood",
+       "Mandelman",
+       "Melgar",
+       "Sauter",
+       "Sherrill",
+       "Wong"
+      ],
+      "no": []
+     },
+     "dissent": [],
+     "topic": "Government & elections",
+     "dollars": null,
+     "ordinance_reading": null,
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Applied for more than $16,000,000 in federal homelessness funds",
+     "detail": "File 260796, the application for the U.S. Department of Housing and Urban Development's Continuum of Care grant.",
+     "outcome": "ADOPTED, Ayes: 10, Excused: 1 (Walton)",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": {
+      "yes": [
+       "Chan",
+       "Chen",
+       "Dorsey",
+       "Fielder",
+       "Mahmood",
+       "Mandelman",
+       "Melgar",
+       "Sauter",
+       "Sherrill",
+       "Wong"
+      ],
+      "no": []
+     },
+     "dissent": [],
+     "topic": "Health & human services",
+     "dollars": null,
+     "ordinance_reading": null,
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Final approval: Public Works can recover the cost of cleaning up illegal dumping",
+     "detail": "File 260685 (Ordinance No. 151-26; Sauter, Mandelman, Melgar) lets Public Works recover the City's costs of abating illegal dumping through administrative enforcement against the people responsible.",
+     "outcome": "FINALLY PASSED, Ayes: 11",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": {
+      "yes": [
+       "Chan",
+       "Chen",
+       "Dorsey",
+       "Fielder",
+       "Mahmood",
+       "Mandelman",
+       "Melgar",
+       "Sauter",
+       "Sherrill",
+       "Walton",
+       "Wong"
+      ],
+      "no": []
+     },
+     "dissent": [],
+     "topic": "Infrastructure & utilities",
+     "dollars": null,
+     "ordinance_reading": "final",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Final approval: up to ten hotel rooms allowed in some residential districts",
+     "detail": "File 260282 (Ordinance No. 148-26).",
+     "outcome": "FINALLY PASSED, Ayes: 11",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": {
+      "yes": [
+       "Chan",
+       "Chen",
+       "Dorsey",
+       "Fielder",
+       "Mahmood",
+       "Mandelman",
+       "Melgar",
+       "Sauter",
+       "Sherrill",
+       "Walton",
+       "Wong"
+      ],
+      "no": []
+     },
+     "dissent": [],
+     "topic": "Housing & zoning",
+     "dollars": null,
+     "ordinance_reading": "final",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Final approval: House of Latin Rock landmark at 2880 25th Street",
+     "detail": "File 260698 (Ordinance No. 152-26; Fielder, Mandelman, Melgar).",
+     "outcome": "FINALLY PASSED, Ayes: 11",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": {
+      "yes": [
+       "Chan",
+       "Chen",
+       "Dorsey",
+       "Fielder",
+       "Mahmood",
+       "Mandelman",
+       "Melgar",
+       "Sauter",
+       "Sherrill",
+       "Walton",
+       "Wong"
+      ],
+      "no": []
+     },
+     "dissent": [],
+     "topic": "Historic preservation",
+     "dollars": null,
+     "ordinance_reading": "final",
+     "needs_review": false,
+     "review_note": null
+    }
+   ],
+   "discussed": [],
+   "public_comment": [],
+   "coming_up": [
+    {
+     "date": "2026-09-01",
+     "item": "First meeting after the August recess; final votes on the 22 landmarks and the Hunters View street changes."
+    }
+   ],
+   "record_note": "Not marked draft (printed October 19, 2026). Supervisor Sherrill was noted present at 2:07 p.m.; Supervisor Walton was excused at 4:15 p.m. for the rest of the meeting."
+  },
+  {
+   "body": "Board of Supervisors",
+   "date": "2026-07-21",
+   "minutes_url": "https://media.api.sf.gov/documents/bag072126_minutes.pdf",
+   "minutes_status": "final",
+   "ocr": false,
+   "attendance": {
+    "present": [
+     "Chan",
+     "Chen",
+     "Dorsey",
+     "Fielder",
+     "Mahmood",
+     "Mandelman",
+     "Melgar",
+     "Sauter",
+     "Sherrill",
+     "Walton",
+     "Wong"
+    ],
+    "absent": []
+   },
+   "headline": "The Board passed the two-year City budget on first reading 11-0, gave final approval to lower inclusionary housing requirements (9-2) and the drug-free supportive housing policy (7-4), and formed the Downtown Community Benefit District.",
+   "decisions": [
+    {
+     "title": "First reading: the two-year City budget",
+     "detail": "File 260596 (Mayor), the Budget and Appropriation Ordinance for the fiscal years ending June 30, 2027 and 2028, and File 260597, the Annual Salary Ordinance (City positions and pay), together with the budget's trailing ordinances (Files 260598 to 260602 and 260655).",
+     "outcome": "PASSED ON FIRST READING, Ayes: 11 (each)",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": {
+      "yes": [
+       "Chan",
+       "Chen",
+       "Dorsey",
+       "Fielder",
+       "Mahmood",
+       "Mandelman",
+       "Melgar",
+       "Sauter",
+       "Sherrill",
+       "Walton",
+       "Wong"
+      ],
+      "no": []
+     },
+     "dissent": [],
+     "topic": "Budget & taxes",
+     "dollars": null,
+     "ordinance_reading": "first",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Final approval: lower inclusionary housing requirements and impact fees",
+     "detail": "File 260538 (Ordinance No. 136-26; Mayor, with Melgar, Dorsey, Sherrill, Sauter and Mandelman) reduces inclusionary (below-market-rate) housing requirements for projects of 25 units or more, removes them for smaller projects, and cuts certain impact fees.",
+     "outcome": "FINALLY PASSED, Ayes: 9, Noes: 2 (Chen, Walton)",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": {
+      "yes": [
+       "Chan",
+       "Dorsey",
+       "Fielder",
+       "Mahmood",
+       "Mandelman",
+       "Melgar",
+       "Sauter",
+       "Sherrill",
+       "Wong"
+      ],
+      "no": [
+       "Chen",
+       "Walton"
+      ]
+     },
+     "dissent": [
+      "Chen",
+      "Walton"
+     ],
+     "topic": "Housing & zoning",
+     "dollars": null,
+     "ordinance_reading": "final",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Final approval: a drug-free policy for permanent supportive housing",
+     "detail": "File 251003 (Ordinance No. 139-26; Dorsey, with Mandelman, Sherrill, Sauter, Mahmood and Wong) makes Drug-Free Permanent Supportive Housing City policy, requires new site-based supportive housing funding to follow it, and sets resident survey and eviction rules.",
+     "outcome": "FINALLY PASSED, Ayes: 7, Noes: 4 (Chan, Chen, Fielder, Walton)",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": {
+      "yes": [
+       "Dorsey",
+       "Mahmood",
+       "Mandelman",
+       "Melgar",
+       "Sauter",
+       "Sherrill",
+       "Wong"
+      ],
+      "no": [
+       "Chan",
+       "Chen",
+       "Fielder",
+       "Walton"
+      ]
+     },
+     "dissent": [
+      "Chan",
+      "Chen",
+      "Fielder",
+      "Walton"
+     ],
+     "topic": "Health & human services",
+     "dollars": null,
+     "ordinance_reading": "final",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Final approval: cleanup of obsolete reports, programs and funds",
+     "detail": "File 250630 (Ordinance No. 137-26; Mandelman, with Dorsey) streamlines reporting, removes obsolete programs and eliminates defunct funds and agencies across City codes, including 111 listed reporting items.",
+     "outcome": "FINALLY PASSED, Ayes: 7, Noes: 4 (Chan, Fielder, Melgar, Walton)",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": {
+      "yes": [
+       "Chen",
+       "Dorsey",
+       "Mahmood",
+       "Mandelman",
+       "Sauter",
+       "Sherrill",
+       "Wong"
+      ],
+      "no": [
+       "Chan",
+       "Fielder",
+       "Melgar",
+       "Walton"
+      ]
+     },
+     "dissent": [
+      "Chan",
+      "Fielder",
+      "Melgar",
+      "Walton"
+     ],
+     "topic": "Government & elections",
+     "dollars": null,
+     "ordinance_reading": "final",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "First reading: fines for illegal fireworks",
+     "detail": "File 260543 (Wong, with Sherrill, Melgar, Sauter, Dorsey and Mandelman). A first offense is an infraction with a $125 to $250 fine; repeat offenses within five years are misdemeanors with fines of $250 to $750.",
+     "outcome": "PASSED ON FIRST READING, Ayes: 9, Noes: 2 (Fielder, Walton)",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": {
+      "yes": [
+       "Chan",
+       "Chen",
+       "Dorsey",
+       "Mahmood",
+       "Mandelman",
+       "Melgar",
+       "Sauter",
+       "Sherrill",
+       "Wong"
+      ],
+      "no": [
+       "Fielder",
+       "Walton"
+      ]
+     },
+     "dissent": [
+      "Fielder",
+      "Walton"
+     ],
+     "topic": "Public safety",
+     "dollars": null,
+     "ordinance_reading": "first",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Formed the renewed Downtown Community Benefit District",
+     "detail": "File 260468 (Sauter) establishes the district for 10 years starting in FY2026-27, after a Committee of the Whole hearing. Weighted ballots were 85.15% in favor and 14.85% against, with no majority protest. Supervisor Chan had been excused.",
+     "outcome": "ADOPTED, Ayes: 10, Excused: 1 (Chan)",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": {
+      "yes": [
+       "Chen",
+       "Dorsey",
+       "Fielder",
+       "Mahmood",
+       "Mandelman",
+       "Melgar",
+       "Sauter",
+       "Sherrill",
+       "Walton",
+       "Wong"
+      ],
+      "no": []
+     },
+     "dissent": [],
+     "topic": "Downtown & business",
+     "dollars": null,
+     "ordinance_reading": null,
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Approved the redevelopment successor agency's budget and up to $275,000,000 in bonds",
+     "detail": "File 260606 (Mayor) approves the Office of Community Investment and Infrastructure's FY2026-27 budget and bonds up to $275,000,000 to finance its enforceable obligations.",
+     "outcome": "ADOPTED, Ayes: 11",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": {
+      "yes": [
+       "Chan",
+       "Chen",
+       "Dorsey",
+       "Fielder",
+       "Mahmood",
+       "Mandelman",
+       "Melgar",
+       "Sauter",
+       "Sherrill",
+       "Walton",
+       "Wong"
+      ],
+      "no": []
+     },
+     "dissent": [],
+     "topic": "Budget & taxes",
+     "dollars": 275000000,
+     "ordinance_reading": null,
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Allowed extra concerts at the Golden Gate Park Polo Field around Outside Lands",
+     "detail": "File 260614 (Mayor) amends Another Planet Entertainment's permit for ticketed concerts at the Polo Field on the Friday, Saturday and Sunday before or after the Outside Lands Festival in 2027, 2028 and 2029, with extension options to 2035. Minimum fees are $1,530,000 a year for two-day events and $2,295,000 for three-day events.",
+     "outcome": "ADOPTED, Ayes: 11",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": {
+      "yes": [
+       "Chan",
+       "Chen",
+       "Dorsey",
+       "Fielder",
+       "Mahmood",
+       "Mandelman",
+       "Melgar",
+       "Sauter",
+       "Sherrill",
+       "Walton",
+       "Wong"
+      ],
+      "no": []
+     },
+     "dissent": [],
+     "topic": "Parks & recreation",
+     "dollars": null,
+     "ordinance_reading": null,
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Raised predevelopment funding for 216 affordable senior homes at 1234 Great Highway",
+     "detail": "File 260773 (Mayor) amends a loan of up to $27,248,500 to 1234 Great Highway LLC for a 216-unit affordable senior housing project at 1234, 1270 and 1280 Great Highway.",
+     "outcome": "ADOPTED, Ayes: 11",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": {
+      "yes": [
+       "Chan",
+       "Chen",
+       "Dorsey",
+       "Fielder",
+       "Mahmood",
+       "Mandelman",
+       "Melgar",
+       "Sauter",
+       "Sherrill",
+       "Walton",
+       "Wong"
+      ],
+      "no": []
+     },
+     "dissent": [],
+     "topic": "Housing & zoning",
+     "dollars": 27248500,
+     "ordinance_reading": null,
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Approved a 75-year ground lease for 187 affordable homes at 1939 Market Street",
+     "detail": "File 260774 (Mayor, with Mandelman), at $15,000 annual base rent, to Mercy Housing California 109.",
+     "outcome": "ADOPTED, Ayes: 11",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": {
+      "yes": [
+       "Chan",
+       "Chen",
+       "Dorsey",
+       "Fielder",
+       "Mahmood",
+       "Mandelman",
+       "Melgar",
+       "Sauter",
+       "Sherrill",
+       "Walton",
+       "Wong"
+      ],
+      "no": []
+     },
+     "dissent": [],
+     "topic": "Housing & zoning",
+     "dollars": null,
+     "ordinance_reading": null,
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "First reading: up to ten hotel rooms allowed in some residential districts",
+     "detail": "File 260282 (Mandelman) raises the number of hotel guest rooms allowed as a conditional use (allowed only with Planning Commission approval) in listed RH, RM and RTO districts from five or fewer to ten or fewer.",
+     "outcome": "PASSED, ON FIRST READING, Ayes: 11",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": {
+      "yes": [
+       "Chan",
+       "Chen",
+       "Dorsey",
+       "Fielder",
+       "Mahmood",
+       "Mandelman",
+       "Melgar",
+       "Sauter",
+       "Sherrill",
+       "Walton",
+       "Wong"
+      ],
+      "no": []
+     },
+     "dissent": [],
+     "topic": "Housing & zoning",
+     "dollars": null,
+     "ordinance_reading": "first",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Reappointed Lydia So to the Planning Commission",
+     "detail": "File 260768, the Mayor's reappointment, for a term ending June 30, 2030.",
+     "outcome": "APPROVED, Ayes: 11",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": {
+      "yes": [
+       "Chan",
+       "Chen",
+       "Dorsey",
+       "Fielder",
+       "Mahmood",
+       "Mandelman",
+       "Melgar",
+       "Sauter",
+       "Sherrill",
+       "Walton",
+       "Wong"
+      ],
+      "no": []
+     },
+     "dissent": [],
+     "topic": "Government & elections",
+     "dollars": null,
+     "ordinance_reading": null,
+     "needs_review": false,
+     "review_note": null
+    }
+   ],
+   "discussed": [
+    {
+     "title": "Hearing: Kaiser Permanente and the National Union of Healthcare Workers",
+     "detail": "File 260747 (Chen, with Mandelman, Walton and Melgar), a Committee of the Whole hearing on collective bargaining and behavioral health care practices. Heard and filed.",
+     "topic": "Health & human services"
+    },
+    {
+     "title": "Proposed tax on vacant former grocery stores and pharmacies did not come before the Board",
+     "detail": "File 260693, a proposed initiative ordinance (Mahmood, Chen, Dorsey and Fielder) taxing parcels last used as formula retail grocery stores or pharmacies that are kept vacant or used differently. President Mandelman reported it was not referred to the Board, so the related items were not before the Board and its hearing did not occur.",
+     "topic": "Downtown & business"
+    }
+   ],
+   "public_comment": [],
+   "coming_up": [
+    {
+     "date": "2026-07-28",
+     "item": "Final votes on the budget and its trailing legislation, fireworks fines, hotel rooms in residential districts and the House of Latin Rock landmark."
+    }
+   ],
+   "record_note": "Not marked draft (printed October 19, 2026). Supervisor Chan was excused at 6:32 p.m. for the rest of the meeting."
+  },
+  {
+   "body": "Board of Supervisors",
+   "date": "2026-07-14",
+   "minutes_url": "https://media.api.sf.gov/documents/bag071426_minutes.pdf",
+   "minutes_status": "final",
+   "ocr": false,
+   "attendance": {
+    "present": [
+     "Chan",
+     "Chen",
+     "Dorsey",
+     "Fielder",
+     "Mahmood",
+     "Mandelman",
+     "Melgar",
+     "Sauter",
+     "Sherrill",
+     "Walton",
+     "Wong"
+    ],
+    "absent": []
+   },
+   "headline": "The Board passed lower inclusionary housing requirements 9-2 and a drug-free supportive housing policy 7-4 on first reading, gave final approval to cannabis cafes 7-4, put two Charter amendments on the Nov 3 ballot, and held the amended budget to July 21.",
+   "decisions": [
+    {
+     "title": "First reading: lower inclusionary housing requirements and impact fees",
+     "detail": "File 260538 (Mayor, with Melgar, Dorsey, Sherrill, Sauter and Mandelman) reduces inclusionary (below-market-rate) housing requirements for projects of 25 units or more, removes them for smaller projects, and cuts certain impact fees. Supervisor Fielder's amendment adding a Mission Area Plan ownership and rental set-aside carried 6-5. The Board then took and rescinded first-reading votes of 11-0, 10-1 (Walton no) and 8-3 (Chan, Chen, Walton no) before the final 9-2 vote.",
+     "outcome": "PASSED ON FIRST READING AS AMENDED, Ayes: 9, Noes: 2 (Chen, Walton)",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": {
+      "yes": [
+       "Chan",
+       "Dorsey",
+       "Fielder",
+       "Mahmood",
+       "Mandelman",
+       "Melgar",
+       "Sauter",
+       "Sherrill",
+       "Wong"
+      ],
+      "no": [
+       "Chen",
+       "Walton"
+      ]
+     },
+     "dissent": [
+      "Chen",
+      "Walton"
+     ],
+     "topic": "Housing & zoning",
+     "dollars": null,
+     "ordinance_reading": "first",
+     "needs_review": true,
+     "review_note": "The minutes print \"(Supervisors Chen and Walton voted No on First Reading.)\" above a first passage recorded 11-0 that was later rescinded. The final first-reading vote recorded is 9-2, Chen and Walton voting no."
+    },
+    {
+     "title": "First reading: a drug-free policy for permanent supportive housing",
+     "detail": "File 251003 (Dorsey, with Mandelman, Sherrill, Sauter, Mahmood and Wong) makes Drug-Free Permanent Supportive Housing City policy, requires new site-based supportive housing funding to follow it, and sets resident survey and eviction rules for the Department of Homelessness and Supportive Housing. A Dorsey amendment adding \"evictions and\" carried 10-1 (Walton no). A Fielder amendment striking \"or shelter\" from parts of the text failed 5-6.",
+     "outcome": "PASSED ON FIRST READING AS AMENDED, Ayes: 7, Noes: 4 (Chan, Chen, Fielder, Walton)",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": {
+      "yes": [
+       "Dorsey",
+       "Mahmood",
+       "Mandelman",
+       "Melgar",
+       "Sauter",
+       "Sherrill",
+       "Wong"
+      ],
+      "no": [
+       "Chan",
+       "Chen",
+       "Fielder",
+       "Walton"
+      ]
+     },
+     "dissent": [
+      "Chan",
+      "Chen",
+      "Fielder",
+      "Walton"
+     ],
+     "topic": "Health & human services",
+     "dollars": null,
+     "ordinance_reading": "first",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Final approval: a new permit for cannabis cafes",
+     "detail": "File 260281 (Mandelman) creates a cannabis cafe permit type with on-premises sales and exemptions from the 600-foot buffer rule.",
+     "outcome": "FINALLY PASSED, Ayes: 7, Noes: 4 (Chan, Chen, Melgar, Wong)",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": {
+      "yes": [
+       "Dorsey",
+       "Fielder",
+       "Mahmood",
+       "Mandelman",
+       "Sauter",
+       "Sherrill",
+       "Walton"
+      ],
+      "no": [
+       "Chan",
+       "Chen",
+       "Melgar",
+       "Wong"
+      ]
+     },
+     "dissent": [
+      "Chan",
+      "Chen",
+      "Melgar",
+      "Wong"
+     ],
+     "topic": "Downtown & business",
+     "dollars": null,
+     "ordinance_reading": "final",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Put a Charter amendment updating City departments and commissions on the Nov 3 ballot",
+     "detail": "File 260536 (Mandelman, with Mahmood, Melgar, Sherrill and Dorsey), a 13-part Charter amendment updating departments, boards, commissions and advisory bodies.",
+     "outcome": "ORDERED SUBMITTED, Ayes: 9, Noes: 2 (Chan, Fielder)",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": {
+      "yes": [
+       "Chen",
+       "Dorsey",
+       "Mahmood",
+       "Mandelman",
+       "Melgar",
+       "Sauter",
+       "Sherrill",
+       "Walton",
+       "Wong"
+      ],
+      "no": [
+       "Chan",
+       "Fielder"
+      ]
+     },
+     "dissent": [
+      "Chan",
+      "Fielder"
+     ],
+     "topic": "Government & elections",
+     "dollars": null,
+     "ordinance_reading": null,
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Put a Housing Trust Fund Charter amendment on the Nov 3 ballot",
+     "detail": "File 260537 (Melgar, with nine co-sponsors) increases funding for the Housing Trust Fund and extends its sunset to July 1, 2058.",
+     "outcome": "ORDERED SUBMITTED, Ayes: 11",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": {
+      "yes": [
+       "Chan",
+       "Chen",
+       "Dorsey",
+       "Fielder",
+       "Mahmood",
+       "Mandelman",
+       "Melgar",
+       "Sauter",
+       "Sherrill",
+       "Walton",
+       "Wong"
+      ],
+      "no": []
+     },
+     "dissent": [],
+     "topic": "Housing & zoning",
+     "dollars": null,
+     "ordinance_reading": null,
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Amended the two-year budget and held it to July 21",
+     "detail": "File 260596, the Budget and Appropriation Ordinance for FY2026-27 and FY2027-28. Supervisor Chan's amendment of the whole (11-0) changed the Board of Supervisors spending plan, including adding job training and preparedness for climate related jobs, and made technical adjustments that raise the Sheriff's Office FY2026-27 budget by $3,695,945. The Annual Salary Ordinance (File 260597) and the budget's trailing legislation were also continued to July 21.",
+     "outcome": "AMENDED; CONTINUED ON FIRST READING AS AMENDED to July 21, 2026, Ayes: 11",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": {
+      "yes": [
+       "Chan",
+       "Chen",
+       "Dorsey",
+       "Fielder",
+       "Mahmood",
+       "Mandelman",
+       "Melgar",
+       "Sauter",
+       "Sherrill",
+       "Walton",
+       "Wong"
+      ],
+      "no": []
+     },
+     "dissent": [],
+     "topic": "Budget & taxes",
+     "dollars": null,
+     "ordinance_reading": null,
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Approved up to $270,000,000 in school bonds",
+     "detail": "File 260739 (Mayor, with Chan) approves San Francisco Unified School District General Obligation Bonds, Election of 2024, Series B, up to $270,000,000.",
+     "outcome": "ADOPTED, Ayes: 11",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": {
+      "yes": [
+       "Chan",
+       "Chen",
+       "Dorsey",
+       "Fielder",
+       "Mahmood",
+       "Mandelman",
+       "Melgar",
+       "Sauter",
+       "Sherrill",
+       "Walton",
+       "Wong"
+      ],
+      "no": []
+     },
+     "dissent": [],
+     "topic": "Schools",
+     "dollars": 270000000,
+     "ordinance_reading": null,
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Backed more speed camera locations",
+     "detail": "File 260499 (Dorsey and others), a resolution supporting the Speed Safety System Pilot Program and urging more camera locations.",
+     "outcome": "ADOPTED, Ayes: 10, Noes: 1 (Walton)",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": {
+      "yes": [
+       "Chan",
+       "Chen",
+       "Dorsey",
+       "Fielder",
+       "Mahmood",
+       "Mandelman",
+       "Melgar",
+       "Sauter",
+       "Sherrill",
+       "Wong"
+      ],
+      "no": [
+       "Walton"
+      ]
+     },
+     "dissent": [
+      "Walton"
+     ],
+     "topic": "Parking & transportation",
+     "dollars": null,
+     "ordinance_reading": null,
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Accepted about $20,000,000 for Embarcadero Plaza and Sue Bierman Park",
+     "detail": "File 260715 (Resolution No. 405-26), a Recreation and Park Department agreement with the San Francisco Downtown Development Corporation for cash grants of approximately $20,000,000, through December 2028, for potential improvements and renovations at Embarcadero Plaza and Sue Bierman Park.",
+     "outcome": "ADOPTED, Ayes: 11",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": {
+      "yes": [
+       "Chan",
+       "Chen",
+       "Dorsey",
+       "Fielder",
+       "Mahmood",
+       "Mandelman",
+       "Melgar",
+       "Sauter",
+       "Sherrill",
+       "Walton",
+       "Wong"
+      ],
+      "no": []
+     },
+     "dissent": [],
+     "topic": "Parks & recreation",
+     "dollars": null,
+     "ordinance_reading": null,
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "First reading: cleanup of obsolete reports, programs and funds",
+     "detail": "File 250630 (Mandelman, with Dorsey) streamlines reporting requirements, removes obsolete programs and eliminates defunct funds and agencies across City codes. An amendment passed 11-0.",
+     "outcome": "PASSED ON FIRST READING AS AMENDED, Ayes: 7, Noes: 4 (Chan, Fielder, Melgar, Walton)",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": {
+      "yes": [
+       "Chen",
+       "Dorsey",
+       "Mahmood",
+       "Mandelman",
+       "Sauter",
+       "Sherrill",
+       "Wong"
+      ],
+      "no": [
+       "Chan",
+       "Fielder",
+       "Melgar",
+       "Walton"
+      ]
+     },
+     "dissent": [
+      "Chan",
+      "Fielder",
+      "Melgar",
+      "Walton"
+     ],
+     "topic": "Government & elections",
+     "dollars": null,
+     "ordinance_reading": "first",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Ordered a Budget and Legislative Analyst audit of the Academy of Sciences",
+     "detail": "File 260719 (Melgar, with Chan), an audit for FY2026-27.",
+     "outcome": "APPROVED, Ayes: 11",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": {
+      "yes": [
+       "Chan",
+       "Chen",
+       "Dorsey",
+       "Fielder",
+       "Mahmood",
+       "Mandelman",
+       "Melgar",
+       "Sauter",
+       "Sherrill",
+       "Walton",
+       "Wong"
+      ],
+      "no": []
+     },
+     "dissent": [],
+     "topic": "Arts & culture",
+     "dollars": null,
+     "ordinance_reading": null,
+     "needs_review": false,
+     "review_note": null
+    }
+   ],
+   "discussed": [
+    {
+     "title": "Mayor's question time: the Mission Street BART plazas",
+     "detail": "Mayor Lurie appeared for the District 9 question on strategies and metrics at the Mission Street BART plazas. Supervisor Fielder asked two questions.",
+     "topic": "Public safety"
+    }
+   ],
+   "public_comment": [],
+   "coming_up": [
+    {
+     "date": "2026-07-21",
+     "item": "The budget on first reading; final votes on inclusionary housing, drug-free supportive housing and the code cleanup."
+    }
+   ],
+   "record_note": "Minutes approved by the Board on September 1, 2026."
+  },
+  {
+   "body": "Board of Supervisors",
+   "date": "2026-07-07",
+   "minutes_url": "https://media.api.sf.gov/documents/bag070726_minutes.pdf",
+   "minutes_status": "final",
+   "ocr": false,
+   "attendance": {
+    "present": [
+     "Chan",
+     "Chen",
+     "Dorsey",
+     "Fielder",
+     "Mahmood",
+     "Mandelman",
+     "Melgar",
+     "Sauter",
+     "Sherrill",
+     "Walton",
+     "Wong"
+    ],
+    "absent": []
+   },
+   "headline": "The Board voted 9-2 to put the public bank Charter amendment on the Nov 3 ballot (Sherrill and Wong opposed), passed a cannabis cafe permit on first reading 7-4, and gave final approval to the Fair Chance Ordinance changes.",
+   "decisions": [
+    {
+     "title": "Put the public bank Charter amendment on the Nov 3 ballot",
+     "detail": "File 260535 (Chen, with Fielder, Melgar, Mahmood and Walton), a Charter amendment creating a Municipal Finance Corporation and Public Bank, submitted to voters for the November 3, 2026 election.",
+     "outcome": "ORDERED SUBMITTED, Ayes: 9, Noes: 2 (Sherrill, Wong)",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": {
+      "yes": [
+       "Chan",
+       "Chen",
+       "Dorsey",
+       "Fielder",
+       "Mahmood",
+       "Mandelman",
+       "Melgar",
+       "Sauter",
+       "Walton"
+      ],
+      "no": [
+       "Sherrill",
+       "Wong"
+      ]
+     },
+     "dissent": [
+      "Sherrill",
+      "Wong"
+     ],
+     "topic": "Government & elections",
+     "dollars": null,
+     "ordinance_reading": null,
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "First reading: a new permit for cannabis cafes",
+     "detail": "File 260281 (Mandelman) creates a cannabis cafe permit type, with a smoking exemption and an exemption from the 600-foot buffer rule. It came from committee without a recommendation.",
+     "outcome": "PASSED ON FIRST READING, Ayes: 7, Noes: 4 (Chan, Chen, Melgar, Wong)",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": {
+      "yes": [
+       "Dorsey",
+       "Fielder",
+       "Mahmood",
+       "Mandelman",
+       "Sauter",
+       "Sherrill",
+       "Walton"
+      ],
+      "no": [
+       "Chan",
+       "Chen",
+       "Melgar",
+       "Wong"
+      ]
+     },
+     "dissent": [
+      "Chan",
+      "Chen",
+      "Melgar",
+      "Wong"
+     ],
+     "topic": "Downtown & business",
+     "dollars": null,
+     "ordinance_reading": "first",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Final approval: Fair Chance Ordinance limits on out-of-state records",
+     "detail": "File 260540 (Ordinance No. 128-26; Mahmood, with Dorsey, Mandelman, Sherrill and Fielder) limits the use of out-of-state arrests and convictions for conduct that is lawful in California, and raises penalties.",
+     "outcome": "FINALLY PASSED, Ayes: 11",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": {
+      "yes": [
+       "Chan",
+       "Chen",
+       "Dorsey",
+       "Fielder",
+       "Mahmood",
+       "Mandelman",
+       "Melgar",
+       "Sauter",
+       "Sherrill",
+       "Walton",
+       "Wong"
+      ],
+      "no": []
+     },
+     "dissent": [],
+     "topic": "Public safety",
+     "dollars": null,
+     "ordinance_reading": "final",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Final approval: three lawsuit settlements, the largest $3,000,000",
+     "detail": "Files 260483 ($3,000,000), 260484 ($50,000) and 260566 ($35,000).",
+     "outcome": "FINALLY PASSED, Ayes: 11",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": {
+      "yes": [
+       "Chan",
+       "Chen",
+       "Dorsey",
+       "Fielder",
+       "Mahmood",
+       "Mandelman",
+       "Melgar",
+       "Sauter",
+       "Sherrill",
+       "Walton",
+       "Wong"
+      ],
+      "no": []
+     },
+     "dissent": [],
+     "topic": "Government & elections",
+     "dollars": null,
+     "ordinance_reading": "final",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "First reading: Chestnut Street Entertainment Zone",
+     "detail": "File 260686 (Sherrill, with Mandelman) creates an entertainment zone on Chestnut Street, covering parts of Chestnut, Steiner, Pierce and Scott Streets.",
+     "outcome": "PASSED, ON FIRST READING, Ayes: 11",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": {
+      "yes": [
+       "Chan",
+       "Chen",
+       "Dorsey",
+       "Fielder",
+       "Mahmood",
+       "Mandelman",
+       "Melgar",
+       "Sauter",
+       "Sherrill",
+       "Walton",
+       "Wong"
+      ],
+      "no": []
+     },
+     "dissent": [],
+     "topic": "Downtown & business",
+     "dollars": null,
+     "ordinance_reading": "first",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "First reading: rules for relocating liquor businesses in the Bayview",
+     "detail": "File 260180 (Walton) changes Planning Code rules on relocating and re-establishing liquor establishments in the Third Street restricted use district and the Bayview Neighborhood Commercial District.",
+     "outcome": "PASSED, ON FIRST READING, Ayes: 11",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": {
+      "yes": [
+       "Chan",
+       "Chen",
+       "Dorsey",
+       "Fielder",
+       "Mahmood",
+       "Mandelman",
+       "Melgar",
+       "Sauter",
+       "Sherrill",
+       "Walton",
+       "Wong"
+      ],
+      "no": []
+     },
+     "dissent": [],
+     "topic": "Downtown & business",
+     "dollars": null,
+     "ordinance_reading": "first",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Approved two Port Commission appointments",
+     "detail": "File 260765 approves the Mayor's nomination of Rich Lee and File 260767 the reappointment of William Adams, both for terms ending May 1, 2030.",
+     "outcome": "APPROVED, Ayes: 11 (each)",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": {
+      "yes": [
+       "Chan",
+       "Chen",
+       "Dorsey",
+       "Fielder",
+       "Mahmood",
+       "Mandelman",
+       "Melgar",
+       "Sauter",
+       "Sherrill",
+       "Walton",
+       "Wong"
+      ],
+      "no": []
+     },
+     "dissent": [],
+     "topic": "Government & elections",
+     "dollars": null,
+     "ordinance_reading": null,
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Gave the Planning Commission 90 more days on a corner-lot fee waiver",
+     "detail": "File 260777 (Sherrill) extends by 90 days the Planning Commission's review of File 260542, an impact fee waiver for corner lots.",
+     "outcome": "ADOPTED, Ayes: 11",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": {
+      "yes": [
+       "Chan",
+       "Chen",
+       "Dorsey",
+       "Fielder",
+       "Mahmood",
+       "Mandelman",
+       "Melgar",
+       "Sauter",
+       "Sherrill",
+       "Walton",
+       "Wong"
+      ],
+      "no": []
+     },
+     "dissent": [],
+     "topic": "Housing & zoning",
+     "dollars": null,
+     "ordinance_reading": null,
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Urged the FCC to renew KGO-TV's broadcast license",
+     "detail": "File 260775 (Chan, with ten co-sponsors) urges the Federal Communications Commission to fairly evaluate and renew the KGO-TV broadcast license.",
+     "outcome": "ADOPTED, Ayes: 11",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": {
+      "yes": [
+       "Chan",
+       "Chen",
+       "Dorsey",
+       "Fielder",
+       "Mahmood",
+       "Mandelman",
+       "Melgar",
+       "Sauter",
+       "Sherrill",
+       "Walton",
+       "Wong"
+      ],
+      "no": []
+     },
+     "dissent": [],
+     "topic": "Other",
+     "dollars": null,
+     "ordinance_reading": null,
+     "needs_review": false,
+     "review_note": null
+    }
+   ],
+   "discussed": [
+    {
+     "title": "Two Charter amendments held a week",
+     "detail": "File 260536 (Mandelman and others, updates to departments, boards and commissions) and File 260537 (Melgar and others, Housing Trust Fund funding) were continued to July 14 (11-0).",
+     "topic": "Government & elections"
+    }
+   ],
+   "public_comment": [],
+   "coming_up": [
+    {
+     "date": "2026-07-14",
+     "item": "Final vote on cannabis cafes; the two Charter amendments on departments and the Housing Trust Fund return; the budget reaches the full Board."
+    }
+   ],
+   "record_note": "Minutes approved by the Board on September 1, 2026. Supervisor Sherrill was noted present at 2:06 p.m. The meeting adjourned at 3:53 p.m."
+  },
+  {
+   "body": "Board of Supervisors",
+   "date": "2026-06-30",
+   "minutes_url": "https://media.api.sf.gov/documents/bag063026_minutes_V2PNVk4.pdf",
+   "minutes_status": "final",
+   "ocr": false,
+   "attendance": {
+    "present": [
+     "Chan",
+     "Chen",
+     "Dorsey",
+     "Fielder",
+     "Mahmood",
+     "Mandelman",
+     "Melgar",
+     "Sauter",
+     "Sherrill",
+     "Walton",
+     "Wong"
+    ],
+    "absent": []
+   },
+   "headline": "The Board voted 10-1 to hold Supervisor Chen's public bank Charter amendment for a week (Wong opposed), passed changes to the Fair Chance Ordinance on first reading 11-0, declared the June 2 primary results and set a July 21 hearing on Kaiser Permanente and the National Union of Healthcare Workers.",
+   "decisions": [
+    {
+     "title": "Held the public bank Charter amendment for one week",
+     "detail": "File 260535 (Chen, with Fielder, Melgar, Mahmood and Walton), a Charter amendment creating a Municipal Finance Corporation and Public Bank, proposed for the November 3, 2026 ballot, was continued to July 7. The minutes note Supervisor Wong voted no on continuing it at its first appearance.",
+     "outcome": "CONTINUED to July 7, 2026, Ayes: 10, Noes: 1 (Wong)",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": {
+      "yes": [
+       "Chan",
+       "Chen",
+       "Dorsey",
+       "Fielder",
+       "Mahmood",
+       "Mandelman",
+       "Melgar",
+       "Sauter",
+       "Sherrill",
+       "Walton"
+      ],
+      "no": [
+       "Wong"
+      ]
+     },
+     "dissent": [
+      "Wong"
+     ],
+     "topic": "Government & elections",
+     "dollars": null,
+     "ordinance_reading": null,
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "First reading: Fair Chance Ordinance limits on out-of-state records",
+     "detail": "File 260540 (Mahmood, with Dorsey, Mandelman, Sherrill and Fielder) amends the Police Code's Fair Chance Ordinance to limit the use of out-of-state arrests and convictions for conduct that is lawful in California.",
+     "outcome": "PASSED, ON FIRST READING, Ayes: 11",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": {
+      "yes": [
+       "Chan",
+       "Chen",
+       "Dorsey",
+       "Fielder",
+       "Mahmood",
+       "Mandelman",
+       "Melgar",
+       "Sauter",
+       "Sherrill",
+       "Walton",
+       "Wong"
+      ],
+      "no": []
+     },
+     "dissent": [],
+     "topic": "Public safety",
+     "dollars": null,
+     "ordinance_reading": "first",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "First reading: three lawsuit settlements, the largest $3,000,000",
+     "detail": "Files 260483 ($3,000,000, a medical negligence case), 260484 ($50,000, a vehicle collision injury) and 260566 ($35,000, an injury on a City street), on the consent agenda.",
+     "outcome": "PASSED, ON FIRST READING, Ayes: 11",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": {
+      "yes": [
+       "Chan",
+       "Chen",
+       "Dorsey",
+       "Fielder",
+       "Mahmood",
+       "Mandelman",
+       "Melgar",
+       "Sauter",
+       "Sherrill",
+       "Walton",
+       "Wong"
+      ],
+      "no": []
+     },
+     "dissent": [],
+     "topic": "Government & elections",
+     "dollars": null,
+     "ordinance_reading": "first",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Let the Mayor vote yes on renewing the Downtown Community Benefit District for City-owned parcels",
+     "detail": "File 260467 (Sauter). A community benefit district is an area where property owners pay an assessment for extra local services; the City votes as an owner of parcels inside it.",
+     "outcome": "ADOPTED, Ayes: 11",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": {
+      "yes": [
+       "Chan",
+       "Chen",
+       "Dorsey",
+       "Fielder",
+       "Mahmood",
+       "Mandelman",
+       "Melgar",
+       "Sauter",
+       "Sherrill",
+       "Walton",
+       "Wong"
+      ],
+      "no": []
+     },
+     "dissent": [],
+     "topic": "Downtown & business",
+     "dollars": null,
+     "ordinance_reading": null,
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Accepted the Police Department's 2025 equipment use report",
+     "detail": "File 260626 (Mayor), the SFPD 2025 Use of Equipment Policy Annual Report.",
+     "outcome": "ADOPTED, Ayes: 11",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": {
+      "yes": [
+       "Chan",
+       "Chen",
+       "Dorsey",
+       "Fielder",
+       "Mahmood",
+       "Mandelman",
+       "Melgar",
+       "Sauter",
+       "Sherrill",
+       "Walton",
+       "Wong"
+      ],
+      "no": []
+     },
+     "dissent": [],
+     "topic": "Public safety",
+     "dollars": null,
+     "ordinance_reading": null,
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Changed the Board's rules on public comment and disruptions",
+     "detail": "File 260563 amends the Board's Rules of Order on public comment and disruption. It needed 8 votes and came to the Board without a Rules Committee recommendation.",
+     "outcome": "APPROVED, Ayes: 11",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": {
+      "yes": [
+       "Chan",
+       "Chen",
+       "Dorsey",
+       "Fielder",
+       "Mahmood",
+       "Mandelman",
+       "Melgar",
+       "Sauter",
+       "Sherrill",
+       "Walton",
+       "Wong"
+      ],
+      "no": []
+     },
+     "dissent": [],
+     "topic": "Government & elections",
+     "dollars": null,
+     "ordinance_reading": null,
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Declared the results of the June 2, 2026 primary election",
+     "detail": "File 260753 (Mandelman) declares the results of the June 2, 2026 Consolidated Statewide Direct Primary Election.",
+     "outcome": "ADOPTED, Ayes: 11",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": {
+      "yes": [
+       "Chan",
+       "Chen",
+       "Dorsey",
+       "Fielder",
+       "Mahmood",
+       "Mandelman",
+       "Melgar",
+       "Sauter",
+       "Sherrill",
+       "Walton",
+       "Wong"
+      ],
+      "no": []
+     },
+     "dissent": [],
+     "topic": "Government & elections",
+     "dollars": null,
+     "ordinance_reading": null,
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Scheduled a July 21 hearing on Kaiser Permanente and its healthcare workers union",
+     "detail": "File 260746 (Chen) sets a Committee of the Whole hearing (the full Board sitting as a committee) for July 21, 2026 at 3:00 p.m. on Kaiser Permanente and the National Union of Healthcare Workers (NUHW). It was held and filed July 21.",
+     "outcome": "APPROVED, Ayes: 11",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": {
+      "yes": [
+       "Chan",
+       "Chen",
+       "Dorsey",
+       "Fielder",
+       "Mahmood",
+       "Mandelman",
+       "Melgar",
+       "Sauter",
+       "Sherrill",
+       "Walton",
+       "Wong"
+      ],
+      "no": []
+     },
+     "dissent": [],
+     "topic": "Health & human services",
+     "dollars": null,
+     "ordinance_reading": null,
+     "needs_review": false,
+     "review_note": null
+    }
+   ],
+   "discussed": [
+    {
+     "title": "Code cleanup held two weeks",
+     "detail": "File 250630 (Mandelman, with Dorsey), an omnibus cleanup of reporting requirements and obsolete funds across City codes, was continued on first reading to July 14 (11-0).",
+     "topic": "Government & elections"
+    }
+   ],
+   "public_comment": [],
+   "coming_up": [
+    {
+     "date": "2026-07-07",
+     "item": "Final votes on the Fair Chance Ordinance changes and the three settlements; the public bank Charter amendment returns."
+    },
+    {
+     "date": "2026-07-21",
+     "item": "Committee of the Whole hearing on Kaiser Permanente and the National Union of Healthcare Workers, 3:00 p.m."
+    }
+   ],
+   "record_note": "Minutes approved by the Board on September 1, 2026. The meeting adjourned at 4:09 p.m."
   }
  ],
  "board_meetings": [
@@ -2684,51 +5255,441 @@
    ],
    "no": [],
    "url": "https://media.api.sf.gov/documents/bag092926_minutes.pdf"
+  },
+  {
+   "date": "2026-09-01",
+   "title": "First reading: new street tree rules, in-lieu fees and an exemption for ADUs",
+   "outcome": "PASSED ON FIRST READING, Ayes: 7, Noes: 4 (Chan, Fielder, Sauter, Walton)",
+   "yes": [
+    "Chen",
+    "Dorsey",
+    "Mahmood",
+    "Mandelman",
+    "Melgar",
+    "Sherrill",
+    "Wong"
+   ],
+   "no": [
+    "Chan",
+    "Fielder",
+    "Sauter",
+    "Walton"
+   ],
+   "url": "https://media.api.sf.gov/documents/bag090126_minutes.pdf"
+  },
+  {
+   "date": "2026-07-28",
+   "title": "Final approval: fines for illegal fireworks",
+   "outcome": "FINALLY PASSED, Ayes: 9, Noes: 2 (Fielder, Walton)",
+   "yes": [
+    "Chan",
+    "Chen",
+    "Dorsey",
+    "Mahmood",
+    "Mandelman",
+    "Melgar",
+    "Sauter",
+    "Sherrill",
+    "Wong"
+   ],
+   "no": [
+    "Fielder",
+    "Walton"
+   ],
+   "url": "https://media.api.sf.gov/documents/bag072826_minutes.pdf"
+  },
+  {
+   "date": "2026-07-21",
+   "title": "Final approval: lower inclusionary housing requirements and impact fees",
+   "outcome": "FINALLY PASSED, Ayes: 9, Noes: 2 (Chen, Walton)",
+   "yes": [
+    "Chan",
+    "Dorsey",
+    "Fielder",
+    "Mahmood",
+    "Mandelman",
+    "Melgar",
+    "Sauter",
+    "Sherrill",
+    "Wong"
+   ],
+   "no": [
+    "Chen",
+    "Walton"
+   ],
+   "url": "https://media.api.sf.gov/documents/bag072126_minutes.pdf"
+  },
+  {
+   "date": "2026-07-21",
+   "title": "Final approval: a drug-free policy for permanent supportive housing",
+   "outcome": "FINALLY PASSED, Ayes: 7, Noes: 4 (Chan, Chen, Fielder, Walton)",
+   "yes": [
+    "Dorsey",
+    "Mahmood",
+    "Mandelman",
+    "Melgar",
+    "Sauter",
+    "Sherrill",
+    "Wong"
+   ],
+   "no": [
+    "Chan",
+    "Chen",
+    "Fielder",
+    "Walton"
+   ],
+   "url": "https://media.api.sf.gov/documents/bag072126_minutes.pdf"
+  },
+  {
+   "date": "2026-07-21",
+   "title": "Final approval: cleanup of obsolete reports, programs and funds",
+   "outcome": "FINALLY PASSED, Ayes: 7, Noes: 4 (Chan, Fielder, Melgar, Walton)",
+   "yes": [
+    "Chen",
+    "Dorsey",
+    "Mahmood",
+    "Mandelman",
+    "Sauter",
+    "Sherrill",
+    "Wong"
+   ],
+   "no": [
+    "Chan",
+    "Fielder",
+    "Melgar",
+    "Walton"
+   ],
+   "url": "https://media.api.sf.gov/documents/bag072126_minutes.pdf"
+  },
+  {
+   "date": "2026-07-21",
+   "title": "First reading: fines for illegal fireworks",
+   "outcome": "PASSED ON FIRST READING, Ayes: 9, Noes: 2 (Fielder, Walton)",
+   "yes": [
+    "Chan",
+    "Chen",
+    "Dorsey",
+    "Mahmood",
+    "Mandelman",
+    "Melgar",
+    "Sauter",
+    "Sherrill",
+    "Wong"
+   ],
+   "no": [
+    "Fielder",
+    "Walton"
+   ],
+   "url": "https://media.api.sf.gov/documents/bag072126_minutes.pdf"
+  },
+  {
+   "date": "2026-07-14",
+   "title": "First reading: lower inclusionary housing requirements and impact fees",
+   "outcome": "PASSED ON FIRST READING AS AMENDED, Ayes: 9, Noes: 2 (Chen, Walton)",
+   "yes": [
+    "Chan",
+    "Dorsey",
+    "Fielder",
+    "Mahmood",
+    "Mandelman",
+    "Melgar",
+    "Sauter",
+    "Sherrill",
+    "Wong"
+   ],
+   "no": [
+    "Chen",
+    "Walton"
+   ],
+   "url": "https://media.api.sf.gov/documents/bag071426_minutes.pdf"
+  },
+  {
+   "date": "2026-07-14",
+   "title": "First reading: a drug-free policy for permanent supportive housing",
+   "outcome": "PASSED ON FIRST READING AS AMENDED, Ayes: 7, Noes: 4 (Chan, Chen, Fielder, Walton)",
+   "yes": [
+    "Dorsey",
+    "Mahmood",
+    "Mandelman",
+    "Melgar",
+    "Sauter",
+    "Sherrill",
+    "Wong"
+   ],
+   "no": [
+    "Chan",
+    "Chen",
+    "Fielder",
+    "Walton"
+   ],
+   "url": "https://media.api.sf.gov/documents/bag071426_minutes.pdf"
+  },
+  {
+   "date": "2026-07-14",
+   "title": "Final approval: a new permit for cannabis cafes",
+   "outcome": "FINALLY PASSED, Ayes: 7, Noes: 4 (Chan, Chen, Melgar, Wong)",
+   "yes": [
+    "Dorsey",
+    "Fielder",
+    "Mahmood",
+    "Mandelman",
+    "Sauter",
+    "Sherrill",
+    "Walton"
+   ],
+   "no": [
+    "Chan",
+    "Chen",
+    "Melgar",
+    "Wong"
+   ],
+   "url": "https://media.api.sf.gov/documents/bag071426_minutes.pdf"
+  },
+  {
+   "date": "2026-07-14",
+   "title": "Put a Charter amendment updating City departments and commissions on the Nov 3 ballot",
+   "outcome": "ORDERED SUBMITTED, Ayes: 9, Noes: 2 (Chan, Fielder)",
+   "yes": [
+    "Chen",
+    "Dorsey",
+    "Mahmood",
+    "Mandelman",
+    "Melgar",
+    "Sauter",
+    "Sherrill",
+    "Walton",
+    "Wong"
+   ],
+   "no": [
+    "Chan",
+    "Fielder"
+   ],
+   "url": "https://media.api.sf.gov/documents/bag071426_minutes.pdf"
+  },
+  {
+   "date": "2026-07-14",
+   "title": "Backed more speed camera locations",
+   "outcome": "ADOPTED, Ayes: 10, Noes: 1 (Walton)",
+   "yes": [
+    "Chan",
+    "Chen",
+    "Dorsey",
+    "Fielder",
+    "Mahmood",
+    "Mandelman",
+    "Melgar",
+    "Sauter",
+    "Sherrill",
+    "Wong"
+   ],
+   "no": [
+    "Walton"
+   ],
+   "url": "https://media.api.sf.gov/documents/bag071426_minutes.pdf"
+  },
+  {
+   "date": "2026-07-14",
+   "title": "First reading: cleanup of obsolete reports, programs and funds",
+   "outcome": "PASSED ON FIRST READING AS AMENDED, Ayes: 7, Noes: 4 (Chan, Fielder, Melgar, Walton)",
+   "yes": [
+    "Chen",
+    "Dorsey",
+    "Mahmood",
+    "Mandelman",
+    "Sauter",
+    "Sherrill",
+    "Wong"
+   ],
+   "no": [
+    "Chan",
+    "Fielder",
+    "Melgar",
+    "Walton"
+   ],
+   "url": "https://media.api.sf.gov/documents/bag071426_minutes.pdf"
+  },
+  {
+   "date": "2026-07-14",
+   "title": "Inclusionary housing ordinance: Fielder amendment adding a Mission Area Plan ownership and rental set-aside",
+   "outcome": "Amendment passed, Ayes: 6, Noes: 5 (Dorsey, Mandelman, Sauter, Sherrill, Wong)",
+   "yes": [
+    "Chan",
+    "Chen",
+    "Fielder",
+    "Mahmood",
+    "Melgar",
+    "Walton"
+   ],
+   "no": [
+    "Dorsey",
+    "Mandelman",
+    "Sauter",
+    "Sherrill",
+    "Wong"
+   ],
+   "url": "https://media.api.sf.gov/documents/bag071426_minutes.pdf"
+  },
+  {
+   "date": "2026-07-14",
+   "title": "Drug-free supportive housing ordinance: Fielder amendment striking \"or shelter\" from parts of the text",
+   "outcome": "FAILED, Ayes: 5, Noes: 6 (Dorsey, Mahmood, Mandelman, Sauter, Sherrill, Wong)",
+   "yes": [
+    "Chan",
+    "Chen",
+    "Fielder",
+    "Melgar",
+    "Walton"
+   ],
+   "no": [
+    "Dorsey",
+    "Mahmood",
+    "Mandelman",
+    "Sauter",
+    "Sherrill",
+    "Wong"
+   ],
+   "url": "https://media.api.sf.gov/documents/bag071426_minutes.pdf"
+  },
+  {
+   "date": "2026-07-14",
+   "title": "Drug-free supportive housing ordinance: Dorsey amendment adding \"evictions and\"",
+   "outcome": "Amendment passed, Ayes: 10, Noes: 1 (Walton)",
+   "yes": [
+    "Chan",
+    "Chen",
+    "Dorsey",
+    "Fielder",
+    "Mahmood",
+    "Mandelman",
+    "Melgar",
+    "Sauter",
+    "Sherrill",
+    "Wong"
+   ],
+   "no": [
+    "Walton"
+   ],
+   "url": "https://media.api.sf.gov/documents/bag071426_minutes.pdf"
+  },
+  {
+   "date": "2026-07-07",
+   "title": "Put the public bank Charter amendment on the Nov 3 ballot",
+   "outcome": "ORDERED SUBMITTED, Ayes: 9, Noes: 2 (Sherrill, Wong)",
+   "yes": [
+    "Chan",
+    "Chen",
+    "Dorsey",
+    "Fielder",
+    "Mahmood",
+    "Mandelman",
+    "Melgar",
+    "Sauter",
+    "Walton"
+   ],
+   "no": [
+    "Sherrill",
+    "Wong"
+   ],
+   "url": "https://media.api.sf.gov/documents/bag070726_minutes.pdf"
+  },
+  {
+   "date": "2026-07-07",
+   "title": "First reading: a new permit for cannabis cafes",
+   "outcome": "PASSED ON FIRST READING, Ayes: 7, Noes: 4 (Chan, Chen, Melgar, Wong)",
+   "yes": [
+    "Dorsey",
+    "Fielder",
+    "Mahmood",
+    "Mandelman",
+    "Sauter",
+    "Sherrill",
+    "Walton"
+   ],
+   "no": [
+    "Chan",
+    "Chen",
+    "Melgar",
+    "Wong"
+   ],
+   "url": "https://media.api.sf.gov/documents/bag070726_minutes.pdf"
+  },
+  {
+   "date": "2026-06-30",
+   "title": "Held the public bank Charter amendment for one week",
+   "outcome": "CONTINUED to July 7, 2026, Ayes: 10, Noes: 1 (Wong)",
+   "yes": [
+    "Chan",
+    "Chen",
+    "Dorsey",
+    "Fielder",
+    "Mahmood",
+    "Mandelman",
+    "Melgar",
+    "Sauter",
+    "Sherrill",
+    "Walton"
+   ],
+   "no": [
+    "Wong"
+   ],
+   "url": "https://media.api.sf.gov/documents/bag063026_minutes_V2PNVk4.pdf"
   }
  ],
  "topics": [
   {
    "topic": "Housing & zoning",
-   "count": 19
-  },
-  {
-   "topic": "Public safety",
-   "count": 3
-  },
-  {
-   "topic": "Downtown & business",
-   "count": 3
-  },
-  {
-   "topic": "Environment & resilience",
-   "count": 2
-  },
-  {
-   "topic": "Health & human services",
-   "count": 2
-  },
-  {
-   "topic": "Infrastructure & utilities",
-   "count": 2
+   "count": 38
   },
   {
    "topic": "Government & elections",
-   "count": 2
+   "count": 18
   },
   {
-   "topic": "Parking & transportation",
-   "count": 2
+   "topic": "Public safety",
+   "count": 11
   },
   {
    "topic": "Budget & taxes",
-   "count": 1
+   "count": 9
+  },
+  {
+   "topic": "Downtown & business",
+   "count": 9
+  },
+  {
+   "topic": "Health & human services",
+   "count": 7
   },
   {
    "topic": "Historic preservation",
-   "count": 1
+   "count": 5
+  },
+  {
+   "topic": "Infrastructure & utilities",
+   "count": 5
+  },
+  {
+   "topic": "Environment & resilience",
+   "count": 4
+  },
+  {
+   "topic": "Parking & transportation",
+   "count": 3
   },
   {
    "topic": "Parks & recreation",
+   "count": 3
+  },
+  {
+   "topic": "Arts & culture",
+   "count": 1
+  },
+  {
+   "topic": "Other",
+   "count": 1
+  },
+  {
+   "topic": "Schools",
    "count": 1
   }
  ],
@@ -2995,51 +5956,51 @@
  },
  "attendance": {
   "Chan": {
-   "present": 4,
-   "total": 4
+   "present": 10,
+   "total": 10
   },
   "Chen": {
-   "present": 3,
-   "total": 4
+   "present": 9,
+   "total": 10
   },
   "Dorsey": {
-   "present": 4,
-   "total": 4
+   "present": 10,
+   "total": 10
   },
   "Fielder": {
-   "present": 4,
-   "total": 4
+   "present": 10,
+   "total": 10
   },
   "Mahmood": {
-   "present": 4,
-   "total": 4
+   "present": 10,
+   "total": 10
   },
   "Mandelman": {
-   "present": 4,
-   "total": 4
+   "present": 10,
+   "total": 10
   },
   "Melgar": {
-   "present": 3,
-   "total": 4
+   "present": 9,
+   "total": 10
   },
   "Sauter": {
-   "present": 4,
-   "total": 4
+   "present": 10,
+   "total": 10
   },
   "Sherrill": {
-   "present": 4,
-   "total": 4
+   "present": 10,
+   "total": 10
   },
   "Walton": {
-   "present": 4,
-   "total": 4
+   "present": 10,
+   "total": 10
   },
   "Wong": {
-   "present": 4,
-   "total": 4
+   "present": 10,
+   "total": 10
   }
  },
- "attendance_from": "2026-09-29",
- "attendanceNote": "Counts cover the four regular meetings in this file with minutes (Sep 29, Oct 6, Oct 20 and Oct 27), not the full term. Supervisors Chen and Melgar were excused on Oct 20.",
+ "attendance_from": "2026-06-30",
+ "attendanceNote": "Counts cover the 10 regular Board meetings in this file with minutes, from Jun 30 to Oct 27, 2026 (the Board was on summer recess in August), not the full term. A member counts as present when recorded present at the meeting, even if excused partway through; mid-meeting excusals are noted on each meeting. Absences at roll call: Chen excused Oct 20; Melgar excused Oct 20.",
  "resident_requests": null
 }

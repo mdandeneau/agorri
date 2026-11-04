@@ -4,13 +4,13 @@
  "organizations": [
   {
    "name": "San Francisco Office of Small Business",
-   "what": "City office that helps small businesses with registration, licenses, permitting, leasing and funding; runs free drop-in community office hours in commercial corridors and visits merchant corridors on request.",
+   "what": "City office in City Hall, Room 140, that helps small businesses with registration, licenses, permitting, leasing and funding; runs the Legacy Business Program and free drop-in community office hours in commercial corridors. Email sfosb@sfgov.org.",
    "url": "https://www.sf.gov/departments--office-economic-and-workforce-development--office-small-business",
-   "phone": null,
+   "phone": "415-554-6134",
    "kind": "City office",
    "source": {
-    "label": "Office of Small Business newsletter, Oct 6, 2026",
-    "url": "https://www.sf.gov/news-small-business-newsletter-for-oct-2026/"
+    "label": "SF.gov, Office of Small Business",
+    "url": "https://www.sf.gov/departments--office-economic-and-workforce-development--office-small-business/"
    }
   },
   {
@@ -103,7 +103,7 @@
   },
   {
    "name": "Public Works, Shared Spaces (parklets and sidewalk use)",
-   "what": "Permits for parklets and other outdoor business use of sidewalks and streets. Questions: sharedspaces@sfgov.org.",
+   "what": "Permits for parklets and other outdoor business use of sidewalks and streets. Renewals and billing questions: SharedSpacesPermit@sfdpw.org; general questions: sharedspaces@sfgov.org.",
    "url": "https://www.sf.gov/shared-spaces",
    "phone": null,
    "source": {
@@ -119,6 +119,36 @@
    "source": {
     "label": "Office of Small Business newsletter, Oct 6, 2026",
     "url": "https://www.sf.gov/news-small-business-newsletter-for-oct-2026/"
+   }
+  },
+  {
+   "name": "Office of Small Business (main office)",
+   "what": "City Hall, 1 Dr Carlton B. Goodlett Place, Room 140. Help with registration, permits, leasing, grants and the Legacy Business Program; book a session with a commercial leasing specialist from the office's page. Email sfosb@sfgov.org.",
+   "url": "https://www.sf.gov/departments--office-economic-and-workforce-development--office-small-business/",
+   "phone": "415-554-6134",
+   "source": {
+    "label": "SF.gov, Office of Small Business",
+    "url": "https://www.sf.gov/departments--office-economic-and-workforce-development--office-small-business/"
+   }
+  },
+  {
+   "name": "Permit Center, small business permitting help",
+   "what": "In-person permitting help at 49 South Van Ness. The city also offers a 30-day review path for small business permits and waives some first-year permit fees for new businesses (First Year Free).",
+   "url": "https://www.sf.gov/location--small-business-permitting-help/",
+   "phone": null,
+   "source": {
+    "label": "SF.gov, Office of Small Business",
+    "url": "https://www.sf.gov/departments--office-economic-and-workforce-development--office-small-business/"
+   }
+  },
+  {
+   "name": "Small Business Commission",
+   "what": "Seven-member commission that reviews how city laws affect small businesses and approves Legacy Business Registry applications; meets Mondays at 4:30 pm in City Hall Room 400 (also on SFGovTV).",
+   "url": "https://sf.gov/departments/small-business-commission",
+   "phone": null,
+   "source": {
+    "label": "SF.gov, Small Business Commission meeting of Sept 28, 2026",
+    "url": "https://www.sf.gov/october-26-2026-small-business-commission-meeting"
    }
   }
  ],
@@ -167,9 +197,68 @@
     "label": "Office of Small Business newsletter, Oct 6, 2026",
     "url": "https://www.sf.gov/news-small-business-newsletter-for-oct-2026/"
    }
+  },
+  {
+   "title": "Renew, or remove, a parklet",
+   "steps": "Shared Spaces parklet renewals are due November 15, 2026: email an updated Certificate of Insurance and, if it applies, a Neighboring Letter of Consent to SharedSpacesPermit@sfdpw.org. Parklet fees appear on the 2027 Unified License Bill; businesses with gross receipts of $5 million or less a year get a 50 percent waiver automatically. To remove a parklet no removal permit is needed: email a photo of the cleared parking lane with your business name, address and permit number to stop billing.",
+   "url": "https://www.sf.gov/shared-spaces",
+   "source": {
+    "label": "Office of Small Business newsletter, Nov 2, 2026",
+    "url": "https://www.sf.gov/news-small-business-newsletter-for-november-2026/"
+   }
   }
  ],
  "notices": [
+  {
+   "date": "2026-11-02",
+   "title": "Parklet permit renewals due November 15",
+   "detail": "Send an updated Certificate of Insurance (and a Neighboring Letter of Consent if it applies) to SharedSpacesPermit@sfdpw.org. Parklet fees are on the 2027 Unified License Bill, with an automatic 50 percent waiver for businesses grossing $5 million or less a year.",
+   "url": "https://www.sf.gov/shared-spaces",
+   "source": {
+    "label": "Office of Small Business newsletter, Nov 2, 2026",
+    "url": "https://www.sf.gov/news-small-business-newsletter-for-november-2026/"
+   }
+  },
+  {
+   "date": "2026-11-02",
+   "title": "New state laws for businesses, most starting January 1, 2027",
+   "detail": "The Office of Small Business lists: AB 1693 (a qualified private certifier may approve retail tenant-improvement plans; 20 business days to approve or deny), AB 2418 (private plan check for nonresidential projects when local review would take 30 business days or more), SB 936 and SB 758 (limits on nitrous oxide sales; tobacco sellers may not sell it), AB 1918 (trafficking notices and training at body art facilities), AB 762 (disposable vapes: no import or manufacture from January 1, 2027, no sales from January 1, 2028), SB 1149 (bereavement leave for a designated person) and AB 2663 (restaurant alcohol takeout extended to December 31, 2029).",
+   "url": "https://www.sf.gov/news-small-business-newsletter-for-november-2026/",
+   "source": {
+    "label": "Office of Small Business newsletter, Nov 2, 2026",
+    "url": "https://www.sf.gov/news-small-business-newsletter-for-november-2026/"
+   }
+  },
+  {
+   "date": "2026-11-02",
+   "title": "Free drop-in help for business owners, November 5",
+   "detail": "Office of Small Business community office hours, no appointment: 9 am to noon at Progressive Grounds, 400 Cortland Avenue, and 1 to 4 pm at Imperial Garden, 2626 San Bruno Avenue. Help with registration, licenses, permits, leasing and funding.",
+   "url": "https://www.sf.gov/community-office-hours-with-the-office-of-small-business",
+   "source": {
+    "label": "Office of Small Business newsletter, Nov 2, 2026",
+    "url": "https://www.sf.gov/news-small-business-newsletter-for-november-2026/"
+   }
+  },
+  {
+   "date": "2026-11-02",
+   "title": "SF Music Week partner event proposals due November 20",
+   "detail": "Industry partners can propose events for SF Music Week, February 15 to 21, 2027.",
+   "url": "https://docs.google.com/forms/d/e/1FAIpQLSfF5UrxyTtfR_N5UriPqlX-E_HPc4nLeE9EbuSvr0Rp4zmbrQ/viewform",
+   "source": {
+    "label": "Office of Small Business newsletter, Nov 2, 2026",
+    "url": "https://www.sf.gov/news-small-business-newsletter-for-november-2026/"
+   }
+  },
+  {
+   "date": "2026-11-02",
+   "title": "Disability entrepreneurship event, November 18",
+   "detail": "Hosted by the San Francisco Disability Business Alliance; register online. A Spanish-language workshop on attracting customers with disabilities is November 9 at the Excelsior Branch Library, 4400 Mission Street.",
+   "url": "https://www.sfdba.org/register",
+   "source": {
+    "label": "Office of Small Business newsletter, Nov 2, 2026",
+    "url": "https://www.sf.gov/news-small-business-newsletter-for-november-2026/"
+   }
+  },
   {
    "date": "2026-10-27",
    "title": "Folsom Streetscape in final stages, 2nd to 11th Streets",
@@ -188,6 +277,16 @@
    "source": {
     "label": "SFMTA, Oct 22, 2026",
     "url": "https://www.sfmta.com/project-updates/potrero-yard-construction-related-traffic-impacts-102226"
+   }
+  },
+  {
+   "date": "2026-10-09",
+   "title": "La Piazza picked for Union Square's west cafe, opening spring 2027",
+   "detail": "Rec and Park recommended Buen Rallo, LLC (the group behind Colibri and Il Parco in the Presidio) for a nine-year lease of the west cafe on Powell Street, chosen from 14 eligible proposals. It replaces b. Patisserie; the space is available March 1 and the all-day Italian cafe is expected to open in spring 2027, open daily from 6:30 am. Super Duper Burgers was preparing to open in the east cafe this fall.",
+   "url": "https://www.sfrecpark.org/CivicAlerts.aspx?AID=3111",
+   "source": {
+    "label": "Rec and Park press release, Oct 9, 2026",
+    "url": "https://www.sfrecpark.org/CivicAlerts.aspx?AID=3111"
    }
   },
   {
@@ -211,6 +310,16 @@
    }
   },
   {
+   "date": "2026-09-28",
+   "title": "Eight businesses added to the Legacy Business Registry",
+   "detail": "The Small Business Commission approved Ace Wasabi, BullsHead Restaurant, Celia's by the Beach, Copy Edge, Fresca Restaurant, Joe's Pharmacy, Katsura Garden and Wayo Sushi in one motion; motion passed 6-0-0.",
+   "url": "https://media.api.sf.gov/documents/2026-09-28_SBC_Meeting_Minutes.pdf",
+   "source": {
+    "label": "Small Business Commission minutes, Sept 28, 2026",
+    "url": "https://media.api.sf.gov/documents/2026-09-28_SBC_Meeting_Minutes.pdf"
+   }
+  },
+  {
    "date": "2026-09-10",
    "title": "Hayes Valley Pay or Permit parking expansion coming early 2027",
    "detail": "The SFMTA Board approved the expansion June 2, 2026. Test signs are up on Rose Street and on Linden and Fell Streets near Patricia's Green; the SFMTA says it is on schedule for early 2027.",
@@ -231,6 +340,16 @@
    }
   },
   {
+   "date": "2026-08-24",
+   "title": "Five businesses added to the Legacy Business Registry; commission backs hardware-store tax change",
+   "detail": "The Small Business Commission approved Ambrosia Bakery, Standard 5&10 Ace Hardware, Globus Books, Casa Guadalupe Market and the San Francisco Judo Institute (motion passed 4-0-2), voted to support Board of Supervisors File 260792 on the gross receipts tax for small hardware retailers (passed 4-0-2), and approved new Business Stabilization Grant rules that exclude formula retail tenants (passed 3-1-2).",
+   "url": "https://media.api.sf.gov/documents/2026-08-24_SBC_Meeting_Minutes_LDNf4n4.pdf",
+   "source": {
+    "label": "Small Business Commission minutes, Aug 24, 2026",
+    "url": "https://media.api.sf.gov/documents/2026-08-24_SBC_Meeting_Minutes_LDNf4n4.pdf"
+   }
+  },
+  {
    "date": "2026-08-10",
    "title": "Shared Spaces parklet rules loosened",
    "detail": "Public Works removed the 10-day public notification period, dropped the public seating requirement for commercial parklets, and requires parklets to be open during permitted business hours. New design guidelines were issued in June 2026.",
@@ -244,11 +363,11 @@
  "programs": [
   {
    "name": "Accessible Barrier Removal Grant",
-   "what": "Reimburses up to $10,000 for accessibility improvements at small business storefronts in commercially zoned areas. Rolling applications while funding lasts; relaunched August 17, 2026.",
+   "what": "Reimburses up to $10,000 per business location for accessibility improvements at small business storefronts in commercially zoned areas, such as power door openers, accessible counters and restroom remodels. Rolling applications while funds remain; reopened August 2026.",
    "url": "https://sf.gov/adagrant",
    "source": {
-    "label": "SF.gov, Aug 17, 2026",
-    "url": "https://www.sf.gov/news-san-francisco-announces-grant-to-improve-storefront-accessibility-and-support-for-small-businesses/"
+    "label": "Legacy Business Light, Summer/Fall 2026 (Aug 21, 2026)",
+    "url": "https://www.sf.gov/news-legacy-business-light-summer-fall-2026/"
    }
   },
   {
@@ -281,6 +400,24 @@
    },
    "needs_review": true,
    "review_note": "Rolling program; current open status not confirmed after August 2026."
+  },
+  {
+   "name": "OEWD Request for Proposals 237 (deadline November 13)",
+   "what": "Organizations and businesses can apply to deliver city-funded programs: workforce development and sector training, small business and entrepreneurship support, commercial corridor vitality and activation, arts and cultural economic development, entertainment zones, and organizational development. Applications are due November 13, 2026.",
+   "url": "https://www.sf.gov/resource--2026--request-proposals-rfp-237",
+   "source": {
+    "label": "Office of Small Business newsletter, Nov 2, 2026",
+    "url": "https://www.sf.gov/news-small-business-newsletter-for-november-2026/"
+   }
+  },
+  {
+   "name": "Legacy Business Program and Business Stabilization Grant",
+   "what": "Recognition, marketing and business help for long-running businesses on the Legacy Business Registry. The Business Stabilization Grant is not taking new applications in fiscal year 2026-27 (July 2026 to June 2027); existing grantees may re-apply. The city also runs a Neighborhood Anchor Business Registry for businesses open 15 years or more.",
+   "url": "https://sf.gov/legacy-business-program",
+   "source": {
+    "label": "Legacy Business Light, Summer/Fall 2026 (Aug 21, 2026)",
+    "url": "https://www.sf.gov/news-legacy-business-light-summer-fall-2026/"
+   }
   }
  ],
  "openings": [
@@ -309,6 +446,36 @@
  ],
  "closures": [
   {
+   "name": "Cotogna (temporary)",
+   "what": "Cal-Italian restaurant in Jackson Square",
+   "date": "2027-01-15",
+   "detail": "Closing January 15 for a kitchen renovation expected to take about three months; sister restaurants Quince and Verjus stay open.",
+   "source": {
+    "label": "SF Standard, Nov 4, 2026",
+    "url": "https://sfstandard.com/2026/11/04/cotogna-closing-renovation/"
+   }
+  },
+  {
+   "name": "Imperial Garden Seafood Restaurant",
+   "what": "Dim sum restaurant on the San Bruno Avenue corridor in the Portola; a Legacy Business",
+   "date": "2026-12-31",
+   "detail": "Final day of service December 31 after about 31 years (opened 1995). The building sold in February and the new owners let the family leave the lease early; the owners also cited a long stretch without profit since the pandemic.",
+   "source": {
+    "label": "SF Standard, Oct 20, 2026",
+    "url": "https://sfstandard.com/2026/10/20/imperial-garden-seafood-closing/"
+   }
+  },
+  {
+   "name": "Otra",
+   "what": "Masa-focused Mexican restaurant at 682 Haight Street (Lower Haight)",
+   "date": "2026-12",
+   "detail": "Closing in early December after about five and a half years; the owners want more time for family and their salsa business, after a slow summer.",
+   "source": {
+    "label": "SF Standard, Sep 9, 2026",
+    "url": "https://sfstandard.com/2026/09/09/otra-mexican-restaurant-closing/"
+   }
+  },
+  {
    "name": "Hed11",
    "what": "Thai fine dining at 1800 Sutter Street (Kimpton Hotel Enso)",
    "date": "2026-10-31",
@@ -319,6 +486,70 @@
    },
    "needs_review": true,
    "review_note": "Secondary report citing the restaurant's Instagram post."
+  },
+  {
+   "name": "Mama Ji's",
+   "what": "Dim sum and Sichuan restaurant at 4416 18th Street (Castro)",
+   "date": "2026-10-31",
+   "detail": "Last day of service October 31 after almost 15 years; the landlord raised the rent and the owners chose to retire.",
+   "source": {
+    "label": "SF Standard, Oct 6, 2026",
+    "url": "https://sfstandard.com/2026/10/06/mama-jis-castro-closing/"
+   }
+  },
+  {
+   "name": "Oasis Grill (100 1st Street)",
+   "what": "Mediterranean counter-service restaurant across from Salesforce Tower",
+   "date": "2026-10-29",
+   "detail": "Closed when the landlord did not renew the lease. Three other Oasis Grill locations stay open: 47 Drumm Street, 200 4th Street and 711 Market Street.",
+   "source": {
+    "label": "SF Standard, Oct 30, 2026",
+    "url": "https://sfstandard.com/2026/10/30/oasis-grill-forced-out-landlord/"
+   }
+  },
+  {
+   "name": "Studio Aurora",
+   "what": "Wine bar and focaccia sandwich spot on Valencia Street at 14th Street",
+   "date": "2026-10-24",
+   "detail": "Closed after about two years so the owner can focus on Alimentari Aurora on Potrero Hill. New owners plan an evening-only wine bar and restaurant in the space early next year; Western Acoustics is using it as a temporary showroom in November.",
+   "source": {
+    "label": "SF Standard, Oct 23, 2026",
+    "url": "https://sfstandard.com/2026/10/23/valencia-s-studio-aurora-saying-goodbye-pinsa-party-huge-wine-sale/"
+   }
+  },
+  {
+   "name": "Yank Sing (Rincon Center)",
+   "what": "Dim sum restaurant at 101 Spear Street",
+   "date": "2026-09-20",
+   "detail": "Closed when the lease ended; the Stevenson Street location stays open.",
+   "source": {
+    "label": "WhatNow, Sep 30, 2026",
+    "url": "https://whatnow.com/?p=440050"
+   },
+   "needs_review": true,
+   "review_note": "Secondary roundup; the SF Standard reported the closure on Sep 14 (article not opened)."
+  },
+  {
+   "name": "Prelude",
+   "what": "Restaurant inside The Jay hotel, 433 Clay Street",
+   "date": "2026-09-19",
+   "detail": "Closed September 19; Omakase Restaurant Group cited slow business.",
+   "source": {
+    "label": "WhatNow, Sep 30, 2026",
+    "url": "https://whatnow.com/?p=440050"
+   },
+   "needs_review": true,
+   "review_note": "Secondary roundup; not confirmed with the restaurant."
+  },
+  {
+   "name": "Topogato",
+   "what": "Chocolate shop at 5203 Geary Boulevard (Richmond)",
+   "date": "2026-09",
+   "detail": "Made its final storefront sales the Monday before a September 15 report; the owner plans to keep selling some products online. He cited record cacao prices, higher packaging and shipping costs and softer spending.",
+   "source": {
+    "label": "SF Standard, Sep 15, 2026",
+    "url": "https://sfstandard.com/2026/09/15/topogato-sf-chocolate-shop-closed/"
+   }
   }
  ],
  "keywords": [
@@ -347,7 +578,23 @@
   "first year free",
   "business registration",
   "mid-market",
-  "ferry building"
+  "ferry building",
+  "closed",
+  "last day",
+  "grand opening",
+  "now open",
+  "lease",
+  "landlord",
+  "legacy business registry",
+  "small business commission",
+  "gross receipts",
+  "parcel tax",
+  "transfer tax",
+  "dim sum",
+  "wine bar",
+  "pop-up",
+  "for sale",
+  "new owner"
  ],
  "stats": [
   {
@@ -373,7 +620,7 @@
   {
    "value": "4.0%",
    "label": "Unemployment rate, San Francisco County, September 2026",
-   "note": "Not seasonally adjusted: 20,100 unemployed in a labor force of 501,400. California's rate was 5.1 percent; October data is due November 20.",
+   "note": "Not seasonally adjusted: 20,100 unemployed in a labor force of 501,400. California's rate was 5.1 percent. October figures are due November 20.",
    "as_of": "2026-10-16",
    "source": {
     "label": "California EDD, September 2026 release",

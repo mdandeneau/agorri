@@ -1,6 +1,6 @@
 {
  "as_of": "2026-11-04",
- "note": "A representative set of San Francisco congregations across traditions, listed in no order of importance; the city has hundreds more. Most entries come from directories (SF Station, devout.org, Jewish Baby Network) because congregation websites could not be opened in this pass, so service times are filled only where a congregation's own page or bulletin was read, and directory-only entries are marked for review. No Sikh gurdwara or Hindu temple other than the Vedanta Society was found in sources opened. Few November and December 2026 public events were posted yet; Thanksgiving meals listed under services are based on 2025 reports.",
+ "note": "Congregations of every tradition found in San Francisco, listed in no order of importance; the city has hundreds more. Service times are filled where a congregation's own page or bulletin was read; entries from directories are marked for review. Events are public programs at congregations from Nov 4 to Dec 19, 2026 (Hanukkah runs Dec 4 to 12). Holiday meals are listed only where a 2026 date was posted.",
  "congregations": [
   {
    "name": "Cathedral of Saint Mary of the Assumption",
@@ -172,16 +172,16 @@
    "tradition": "Episcopal",
    "town": "San Francisco",
    "address": "1100 California Street, San Francisco, CA 94108",
-   "services": "Sunday 8:30 am Holy Eucharist with hymns, 11 am Choral Eucharist, 6 pm Vesper Light (Eucharist on the labyrinth); weekdays 9 am Morning Prayer; Wednesday 12 pm Eucharist and 6 pm The Vine SF; Tuesday 5:30 pm Evening Prayer; Thursday 5:30 pm Choral Evensong",
+   "services": "Sunday 8:30 am Holy Eucharist with hymns, 11 am Choral Eucharist, 6 pm Vesper Light (Eucharist on the labyrinth); weekdays 9 am Morning Prayer; Tuesday 5:30 pm Evening Prayer; Wednesday 12 pm Midday Eucharist and 6 pm The Vine SF; Thursday 5:30 pm Choral Evensong",
    "servicesSource": {
-    "label": "Grace Cathedral, Service Times",
+    "label": "Grace Cathedral, Service Times (checked Nov 4, 2026)",
     "url": "https://gracecathedral.org/service-times/"
    },
    "site": "https://gracecathedral.org",
    "phone": "415-749-6300",
-   "note": "Choral Evensong also on select Sundays at 4:30 pm; healing prayer second Sundays after the 11 am service.",
+   "note": "Healing prayer on second Sundays at 12:15 pm; Sunday Choral Evensong at 4:30 pm on select Sundays. Choral Evening Prayer replaces Tuesday Evening Prayer when the Choir of Girls sings.",
    "needs_review": true,
-   "review_note": "Address and phone from SF Station; service times from the cathedral's site."
+   "review_note": "Address and phone from SF Station; service times from the cathedral's own site."
   },
   {
    "name": "All Saints' Episcopal Church",
@@ -218,9 +218,9 @@
    "servicesSource": null,
    "site": "https://www.glide.org",
    "phone": "415-674-6000",
-   "note": "Runs daily free meals and many social services (see services).",
+   "note": "Runs free daily meals and social services (see services). Sunday Celebration page: https://www.glide.org/church/",
    "needs_review": true,
-   "review_note": "Denomination not stated in sources opened; Sunday Celebration times not found on the GLIDE pages that could be opened."
+   "review_note": "Denomination not stated in sources opened; Sunday Celebration times not listed on the GLIDE pages opened Nov 4."
   },
   {
    "name": "Third Baptist Church of San Francisco",
@@ -625,9 +625,9 @@
    "servicesSource": null,
    "site": "http://www.islamsf.com/",
    "phone": "415-863-7997",
-   "note": null,
+   "note": "Its mosque, Masjid Darussalam, is on the top floor of the building at 20 Jones St. (Mission Local, Aug 2025: https://missionlocal.org/2025/08/photos-masjid-darussalam-mosque/).",
    "needs_review": true,
-   "review_note": "Name, address and phone from a directory (SF Station); service times not found on the congregation's own site (could not be opened). Prayer times not found."
+   "review_note": "Address and phone from SF Station; prayer and Jumu'ah times not found on a page opened."
   },
   {
    "name": "San Francisco Zen Center, City Center",
@@ -735,6 +735,55 @@
    "note": null,
    "needs_review": true,
    "review_note": "Name, address and phone from a directory (SF Station); service times not found on the congregation's own site (could not be opened)."
+  },
+  {
+   "name": "Chabad SF, Knesset Israel (SOMA Shul)",
+   "tradition": "Jewish (Chabad)",
+   "town": "San Francisco",
+   "address": "873 Sutter St, San Francisco, CA",
+   "services": "Weekday Shacharis Monday to Friday 7:15 am; Friday Kabbalat Shabbat 6 pm in winter (7 pm in summer) with Kiddush and dinner; Shabbat morning 10 am with Kiddush and lunch; Sunday 8:15 am",
+   "servicesSource": {
+    "label": "Chabad SF, minyan schedule",
+    "url": "https://www.chabadsf.org/3045168"
+   },
+   "site": "https://www.chabadsf.org",
+   "phone": null,
+   "note": "RSVP requested for Friday dinner and Shabbat lunch.",
+   "needs_review": true,
+   "review_note": "ZIP code and phone not shown on the page opened."
+  },
+  {
+   "name": "Chabad of Noe Valley",
+   "tradition": "Jewish (Chabad)",
+   "town": "San Francisco",
+   "address": null,
+   "services": "Shabbat morning services 10 am (beginners Torah study 9:15 am; Torah reading and sermon 11:15 am; community lunch 12:15 pm)",
+   "servicesSource": {
+    "label": "Chabad of Noe Valley, Shabbat services",
+    "url": "https://www.chabadnoevalley.org/274351"
+   },
+   "site": "https://www.chabadnoevalley.org",
+   "phone": null,
+   "note": "Family Shul on second Saturdays at 11:15 am; tefillin club and breakfast on second Sundays at 8:30 am.",
+   "needs_review": true,
+   "review_note": "Street address not shown on the page opened."
+  },
+  {
+   "name": "Congregation Chevra Thilim",
+   "tradition": "Jewish (Orthodox)",
+   "town": "San Francisco",
+   "address": "751 25th Avenue, San Francisco, CA 94121",
+   "services": null,
+   "servicesSource": null,
+   "site": "https://sfshul.org",
+   "phone": "415-752-2866",
+   "note": "Described in J.'s resource guide as a contemporary Orthodox synagogue.",
+   "source": {
+    "label": "J. The Jewish News of Northern California, resource listing",
+    "url": "https://jweekly.com/?p=140380"
+   },
+   "needs_review": true,
+   "review_note": "From J.'s directory listing; service times not found on the congregation's own site (not opened)."
   }
  ],
  "events": [
@@ -777,6 +826,166 @@
    "kind": "Faith",
    "url": "https://www.sfzc.org/locations/city-center",
    "source": "San Francisco Zen Center"
+  },
+  {
+   "date": "2026-11-13",
+   "time": "1:30 pm",
+   "title": "Jizo Peace Project: clay making gathering for remembrance and peace",
+   "venue": "San Francisco Zen Center, 300 Page Street",
+   "town": "San Francisco",
+   "kind": "Faith",
+   "url": "https://www.sfzc.org/event/jizo-peace-project-clay-making-gathering-for-remembrance-and-peace-cc-11-13/",
+   "source": "San Francisco Zen Center calendar"
+  },
+  {
+   "date": "2026-11-14",
+   "time": "10:00 am",
+   "title": "Saturday dharma talk (onsite and livestream)",
+   "venue": "San Francisco Zen Center, 300 Page Street",
+   "town": "San Francisco",
+   "kind": "Faith",
+   "url": "https://www.sfzc.org/event/saturday-1000-am-dharma-talk-livestream-tbd-cc-11-14/",
+   "source": "San Francisco Zen Center calendar",
+   "note": "Zazen instruction for newcomers at 8:40 am the same morning."
+  },
+  {
+   "date": "2026-11-14",
+   "time": "2:00 pm",
+   "title": "Socks for Our Neighbors (service project)",
+   "venue": "San Francisco Zen Center, 300 Page Street",
+   "town": "San Francisco",
+   "kind": "Faith",
+   "url": "https://www.sfzc.org/event/socks-for-our-neighbors-cc-11-14/",
+   "source": "San Francisco Zen Center calendar"
+  },
+  {
+   "date": "2026-11-18",
+   "time": "7:30 pm",
+   "title": "Wednesday dharma talk with Abbot Tenzen David Zimmerman (onsite and livestream)",
+   "venue": "San Francisco Zen Center, 300 Page Street",
+   "town": "San Francisco",
+   "kind": "Faith",
+   "url": "https://www.sfzc.org/event/wednesday-730-pm-dharma-talk-abbot-tenzen-david-zimmerman-livestream-onsite-11-4-2/",
+   "source": "San Francisco Zen Center calendar"
+  },
+  {
+   "date": "2026-11-20",
+   "time": "6:15 pm",
+   "title": "Trans Day of Remembrance ceremony (after evening zazen)",
+   "venue": "San Francisco Zen Center, 300 Page Street",
+   "town": "San Francisco",
+   "kind": "Faith",
+   "url": "https://www.sfzc.org/event/trans-day-of-remembrance-cc-11-20/",
+   "source": "San Francisco Zen Center calendar"
+  },
+  {
+   "date": "2026-11-21",
+   "time": "8:50 am",
+   "title": "Saturday Sangha (dharma talk at 10 am, onsite and livestream)",
+   "venue": "San Francisco Zen Center, 300 Page Street",
+   "town": "San Francisco",
+   "kind": "Faith",
+   "url": "https://www.sfzc.org/event/saturday-sangha/2026-11-21/",
+   "source": "San Francisco Zen Center calendar"
+  },
+  {
+   "date": "2026-12-10",
+   "time": "7:30 pm",
+   "title": "American Bach Soloists present Handel's Messiah",
+   "venue": "Grace Cathedral, 1100 California Street",
+   "town": "San Francisco",
+   "kind": "Faith",
+   "url": "https://gracecathedral.org/?p=80881",
+   "source": "Grace Cathedral, Christmas at Grace Cathedral",
+   "note": "Also Dec 11 at 7:30 pm.",
+   "needs_review": true,
+   "review_note": "The cathedral's Christmas page lists these dates without a year; they fall on the 2026 calendar's weekends (for example Saturday Dec 12 and Sunday Dec 13). Ticket prices not shown; groups of 10 or more through City Box Office, 415-392-4400."
+  },
+  {
+   "date": "2026-12-11",
+   "time": "7:30 pm",
+   "title": "American Bach Soloists present Handel's Messiah",
+   "venue": "Grace Cathedral, 1100 California Street",
+   "town": "San Francisco",
+   "kind": "Faith",
+   "url": "https://gracecathedral.org/?p=80881",
+   "source": "Grace Cathedral, Christmas at Grace Cathedral",
+   "needs_review": true,
+   "review_note": "The cathedral's Christmas page lists these dates without a year; they fall on the 2026 calendar's weekends (for example Saturday Dec 12 and Sunday Dec 13). Ticket prices not shown; groups of 10 or more through City Box Office, 415-392-4400."
+  },
+  {
+   "date": "2026-12-12",
+   "time": "11:00 am",
+   "title": "Sing You A Merry Christmas (one-hour family concert)",
+   "venue": "Grace Cathedral, 1100 California Street",
+   "town": "San Francisco",
+   "kind": "Faith",
+   "url": "https://gracecathedral.org/?p=80881",
+   "source": "Grace Cathedral, Christmas at Grace Cathedral",
+   "note": "Repeats Dec 19 at 11 am and Dec 22 and 23 at 3 pm.",
+   "needs_review": true,
+   "review_note": "The cathedral's Christmas page lists these dates without a year; they fall on the 2026 calendar's weekends (for example Saturday Dec 12 and Sunday Dec 13). Ticket prices not shown; groups of 10 or more through City Box Office, 415-392-4400."
+  },
+  {
+   "date": "2026-12-12",
+   "time": "3:00 pm",
+   "title": "A Cathedral Christmas (Grace Cathedral choirs, 90 minutes)",
+   "venue": "Grace Cathedral, 1100 California Street",
+   "town": "San Francisco",
+   "kind": "Faith",
+   "url": "https://gracecathedral.org/?p=80881",
+   "source": "Grace Cathedral, Christmas at Grace Cathedral",
+   "note": "Repeats Dec 13, 19 and 20 at 3 pm and Dec 23 at 7:30 pm.",
+   "needs_review": true,
+   "review_note": "The cathedral's Christmas page lists these dates without a year; they fall on the 2026 calendar's weekends (for example Saturday Dec 12 and Sunday Dec 13). Ticket prices not shown; groups of 10 or more through City Box Office, 415-392-4400."
+  },
+  {
+   "date": "2026-12-13",
+   "time": "3:00 pm",
+   "title": "A Cathedral Christmas (Grace Cathedral choirs, 90 minutes)",
+   "venue": "Grace Cathedral, 1100 California Street",
+   "town": "San Francisco",
+   "kind": "Faith",
+   "url": "https://gracecathedral.org/?p=80881",
+   "source": "Grace Cathedral, Christmas at Grace Cathedral",
+   "needs_review": true,
+   "review_note": "The cathedral's Christmas page lists these dates without a year; they fall on the 2026 calendar's weekends (for example Saturday Dec 12 and Sunday Dec 13). Ticket prices not shown; groups of 10 or more through City Box Office, 415-392-4400."
+  },
+  {
+   "date": "2026-12-18",
+   "time": "7:30 pm",
+   "title": "Soulful Joy (Christmas concert, 75 minutes)",
+   "venue": "Grace Cathedral, 1100 California Street",
+   "town": "San Francisco",
+   "kind": "Faith",
+   "url": "https://gracecathedral.org/?p=80881",
+   "source": "Grace Cathedral, Christmas at Grace Cathedral",
+   "needs_review": true,
+   "review_note": "The cathedral's Christmas page lists these dates without a year; they fall on the 2026 calendar's weekends (for example Saturday Dec 12 and Sunday Dec 13). Ticket prices not shown; groups of 10 or more through City Box Office, 415-392-4400."
+  },
+  {
+   "date": "2026-12-19",
+   "time": "11:00 am",
+   "title": "Sing You A Merry Christmas (one-hour family concert)",
+   "venue": "Grace Cathedral, 1100 California Street",
+   "town": "San Francisco",
+   "kind": "Faith",
+   "url": "https://gracecathedral.org/?p=80881",
+   "source": "Grace Cathedral, Christmas at Grace Cathedral",
+   "needs_review": true,
+   "review_note": "The cathedral's Christmas page lists these dates without a year; they fall on the 2026 calendar's weekends (for example Saturday Dec 12 and Sunday Dec 13). Ticket prices not shown; groups of 10 or more through City Box Office, 415-392-4400."
+  },
+  {
+   "date": "2026-12-19",
+   "time": "3:00 pm",
+   "title": "A Cathedral Christmas (Grace Cathedral choirs, 90 minutes)",
+   "venue": "Grace Cathedral, 1100 California Street",
+   "town": "San Francisco",
+   "kind": "Faith",
+   "url": "https://gracecathedral.org/?p=80881",
+   "source": "Grace Cathedral, Christmas at Grace Cathedral",
+   "needs_review": true,
+   "review_note": "The cathedral's Christmas page lists these dates without a year; they fall on the 2026 calendar's weekends (for example Saturday Dec 12 and Sunday Dec 13). Ticket prices not shown; groups of 10 or more through City Box Office, 415-392-4400."
   }
  ],
  "services": [
@@ -784,23 +993,23 @@
    "name": "GLIDE Daily Free Meals",
    "what": "Free breakfast, lunch and dinner; no eligibility requirements or intake form. About 1,700 meals a day, 364 days a year.",
    "town": "San Francisco",
-   "when": "Breakfast 7:30 to 9 am (7:30 to 8 am reserved for seniors, families and adults with disabilities); lunch 11:30 am to 1 pm including weekends; dinner 3:30 to 5 pm, Monday to Sunday",
+   "when": "Breakfast 7:30 to 9 am (7:30 to 8 am reserved for seniors, families and adults with disabilities); lunch 11:30 am to 1 pm including Saturday and Sunday; dinner 3:30 to 5 pm, Monday to Sunday",
    "where": "GLIDE, 330 Ellis St.",
    "url": "https://www.glide.org/?p=21485",
-   "note": "Run by GLIDE. GLIDE has served an annual Thanksgiving meal (11 am start in 2025) and Christmas Eve and Christmas Day meals in past years.",
+   "note": "Run by GLIDE. GLIDE's meals page says special meals are served at Thanksgiving, Christmas Eve, Christmas and New Year's Eve; 2026 dates were not posted on that page when checked Nov 4.",
    "needs_review": true,
-   "review_note": "Thanksgiving and Christmas 2026 plans not posted on pages opened; 2025 Thanksgiving detail from Mission Local (https://missionlocal.org/2025/11/where-san-franciscans-can-find-a-free-thanksgving-dinner/)."
+   "review_note": "The meals page has no update date (footer shows 2025) and lists holiday meals without a year; confirm 2026 holiday dates on GLIDE's events calendar."
   },
   {
    "name": "St. Anthony's Dining Room",
-   "what": "Free hot meals",
+   "what": "Free meals; breakfast dine-in or to go, lunch dine-in only, afternoon hot meal to go",
    "town": "San Francisco",
-   "when": "Daily; 10 am to 11:45 am for seniors and families with children, 11:30 am to 1:30 pm for everyone (as of 2019)",
-   "where": "121 Golden Gate Ave.",
-   "url": "https://www.stanthonysf.org",
-   "note": "Run by St. Anthony Foundation.",
+   "when": "Open 7 days a week: breakfast from 7 am; lunch 10 am to 1:30 pm (dine-in only); afternoon hot meal at 2 pm, to go only, Monday to Friday",
+   "where": "St. Anthony's, 121 Golden Gate Ave., 1st floor",
+   "url": "https://www.stanthonysf.org/services/dining-room/",
+   "note": "Run by St. Anthony Foundation. Its site also lists a free clothing program, a tech lab and a medical clinic. No 2026 Thanksgiving or Christmas meal details were posted on the dining room page when checked Nov 4.",
    "needs_review": true,
-   "review_note": "Hours from KQED's list, last updated Oct 29, 2019 (https://kqed.org/bayareabites/110356/where-homeless-people-can-get-free-meals-in-the-bay-area); St. Anthony's own site could not be opened. Mission Local (Nov 2025) lists meals from 10 am."
+   "review_note": "Breakfast end time not given. The page footer lists 150 Golden Gate Ave. while the hours section gives 121 Golden Gate Ave."
   },
   {
    "name": "Third Baptist Church Feed the Hungry",
@@ -814,50 +1023,6 @@
    "review_note": "Hours from One Degree (https://www.1degree.org/opp/get-free-meals-third-baptist-church-of-san-san-francisco-ca), not the church; the listed hours may be office hours rather than meal times."
   },
   {
-   "name": "Tenderloin Tessie Thanksgiving dinner",
-   "what": "Free Thanksgiving meal",
-   "town": "San Francisco",
-   "when": "Thanksgiving Day (1 pm start in 2025); 2026 details not yet posted",
-   "where": "First Unitarian Universalist Church, 1187 Franklin St.",
-   "url": "https://missionlocal.org/2025/11/where-san-franciscans-can-find-a-free-thanksgving-dinner/",
-   "note": "Held at First Unitarian Universalist Church; in its 51st year in 2025.",
-   "needs_review": true,
-   "review_note": "Based on Mission Local's 2025 list; confirm 2026 date and time."
-  },
-  {
-   "name": "Calvary Presbyterian Thanksgiving lunch",
-   "what": "Thanksgiving lunch; online registrants served first, then walk-ins; $7 donation requested (2025)",
-   "town": "San Francisco",
-   "when": "Thanksgiving Day (noon start in 2025); 2026 details not yet posted",
-   "where": "Calvary Presbyterian Church, 2515 Fillmore St.",
-   "url": "https://missionlocal.org/2025/11/where-san-franciscans-can-find-a-free-thanksgving-dinner/",
-   "note": "Run by Calvary Presbyterian Church.",
-   "needs_review": true,
-   "review_note": "Based on Mission Local's 2025 list; confirm 2026 date, time and donation."
-  },
-  {
-   "name": "CityTeam San Francisco Thanksgiving meals",
-   "what": "Thanksgiving Eve brunch and Thanksgiving Day meal distribution (2025)",
-   "town": "San Francisco",
-   "when": "In 2025: Wednesday before Thanksgiving from 11 am, plus Thanksgiving Day distribution; 2026 not yet posted",
-   "where": "CityTeam, 164 6th St.",
-   "url": "https://missionlocal.org/2025/11/where-san-franciscans-can-find-a-free-thanksgving-dinner/",
-   "note": "CityTeam is a Christian nonprofit.",
-   "needs_review": true,
-   "review_note": "Based on Mission Local's 2025 list; confirm 2026 plans."
-  },
-  {
-   "name": "City Impact Thanksgiving meals",
-   "what": "Thanksgiving meals served on site and packed for street distribution (2025)",
-   "town": "San Francisco",
-   "when": "Thanksgiving; times not listed",
-   "where": "City Impact, 136 Taylor St.",
-   "url": "https://missionlocal.org/2025/11/where-san-franciscans-can-find-a-free-thanksgving-dinner/",
-   "note": "City Impact is a Christian nonprofit.",
-   "needs_review": true,
-   "review_note": "Based on Mission Local's 2025 list; confirm 2026 plans."
-  },
-  {
    "name": "Cathedral grief support group",
    "what": "Free grief support group",
    "town": "San Francisco",
@@ -867,6 +1032,17 @@
    "note": "Run by the cathedral parish.",
    "needs_review": true,
    "review_note": "From the February 2026 bulletin; confirm it continues."
+  },
+  {
+   "name": "San Francisco City Impact Thanksgiving Day outreach",
+   "what": "Thanksgiving hot meals served at a sit-down service and delivered to nearby apartment buildings; guests also receive hygiene kits, clothing and toys",
+   "town": "San Francisco",
+   "when": "Thursday, Nov 26, 2026, 8 am to 2 pm",
+   "where": "144 Taylor St. (Tenderloin)",
+   "url": "https://www.idealist.org/es/oportunidad-voluntariado/6beb9c009c524ed180da63faf0311456-large-community-thanksgiving-day-outreach-1126-san-francisco-city-impact-san-francisco",
+   "note": "City Impact is a Christian nonprofit. The 8 am to 2 pm window is the volunteer shift listing; it serves Tenderloin residents.",
+   "needs_review": true,
+   "review_note": "From City Impact's volunteer listing on Idealist (posted for 2026), not City Impact's own site; guest meal hours not stated separately."
   }
  ]
 }

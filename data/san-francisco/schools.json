@@ -1,6 +1,6 @@
 {
  "as_of": "2026-11-04",
- "note": "San Francisco Unified School District runs the city's public schools from transitional kindergarten through grade 12; the district says it has 120 schools. A seven-member Board of Education, elected citywide, adopts the budget and sets policy. City College of San Francisco, the public community college, is governed by its own elected Board of Trustees and is listed second with only the basics we could confirm.",
+ "note": "San Francisco Unified School District runs the city's public schools, from preschool and transitional kindergarten through grade 12, plus county schools for students referred out of regular schools. Its online directory lists 128 entries; they are shown here as 126, because two second campuses are folded into their schools. A seven-member Board of Education, elected citywide, adopts the budget and sets policy. City College of San Francisco, the public community college, has its own elected Board of Trustees and is listed second.",
  "districts": [
   {
    "id": "sfusd",
@@ -20,9 +20,9 @@
    },
    "board": {
     "name": "Board of Education",
-    "meets": "Regular meetings on the second and fourth Tuesdays of the month unless otherwise noticed: closed session at 5:00 pm, public session at 6:30 pm, in the Irving G. Breyer Board Meeting Room, 555 Franklin Street. Study sessions and monitoring workshops are added on other Tuesdays. Childcare for ages 3 to 10 is offered at regular and monitoring meetings. Seven commissioners are elected citywide to four-year terms; two student delegates also sit with the board.",
+    "meets": "Regular meetings are on the second and fourth Tuesdays of the month unless otherwise noticed: closed session at 5:00 pm, public session at 6:30 pm, in the Irving G. Breyer Board Meeting Room, 555 Franklin Street, First Floor. This fall's calendar also sets regular meetings on December 1 and 15, with study sessions and monitoring workshops on other Tuesdays. Meetings are shown live and archived on SFGovTV, and can be heard by phone at (669) 900-9128. Childcare is offered at regular meetings and monitoring workshops. Seven commissioners are elected citywide to four-year terms; two student delegates also sit with the board.",
     "agendasUrl": "https://go.boarddocs.com/ca/sfusd/Board.nsf/Public#tab-meetings",
-    "videoUrl": "https://sfgovtv.org/watch",
+    "videoUrl": "https://sanfrancisco.granicus.com/ViewPublisher.php?view_id=47",
     "members": [
      {
       "name": "Phil Kim",
@@ -68,13 +68,1274 @@
      }
     ],
     "source": {
-     "label": "SFUSD Board of Education page (opened Nov 4, 2026)",
+     "label": "SFUSD Board of Education page and board meeting calendar (opened Nov 4, 2026)",
      "url": "https://www.sfusd.edu/about-sfusd/board-education"
     },
     "needs_review": true,
-    "review_note": "Members are as listed on the district page on Nov 4, 2026; term end dates are not shown there, and any board seats on the Nov 3, 2026 ballot were not checked. Supriya Ray's first name is spelled as in KQED's Oct 14 report; confirm against the district page."
+    "review_note": "Members and offices are as listed on the district's board page on Nov 4, 2026; it does not show term end dates. The page's list spells one name \"Supryia Ray\", while her profile page address uses \"supriya-ray\"; we use Supriya, as KQED does. Three seats were on the Nov 3, 2026 ballot and results are preliminary (see Being decided)."
    },
-   "schools": [],
+   "schools": [
+    {
+     "name": "A.P. Giannini Middle School",
+     "level": "Middle",
+     "grades": "6-8",
+     "address": "3151 Ortega Street, San Francisco, CA 94122",
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": "https://www.sfusd.edu/school/ap-giannini-middle-school"
+    },
+    {
+     "name": "Abraham Lincoln High School",
+     "level": "High",
+     "grades": "9-12",
+     "address": "2162 24th Avenue, San Francisco, CA 94116",
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": "https://www.sfusd.edu/school/abraham-lincoln-high-school"
+    },
+    {
+     "name": "Access SFUSD: Bay Street",
+     "level": "Continuation/Alternative",
+     "grades": "13",
+     "address": "Transition Training Center, 416 Bay Street, San Francisco, CA 94133",
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": "https://www.sfusd.edu/school/access-sfusd-bay-street"
+    },
+    {
+     "name": "AccessSFUSD: The Arc",
+     "level": "Continuation/Alternative",
+     "grades": "13",
+     "address": "1520 Howard Street, San Francisco, CA 94103",
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": "https://www.sfusd.edu/school/accesssfusd-arc"
+    },
+    {
+     "name": "Alamo Elementary School",
+     "level": "Elementary",
+     "grades": "TK-5",
+     "address": "250 23rd Avenue, San Francisco, CA 94121",
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": "https://www.sfusd.edu/school/alamo-elementary-school"
+    },
+    {
+     "name": "Alice Fong Yu Alternative School (K-8)",
+     "level": "K-8",
+     "grades": "K-8",
+     "address": "1541 12th Avenue, San Francisco, CA 94122",
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": "https://www.sfusd.edu/school/alice-fong-yu-alternative-school-k-8"
+    },
+    {
+     "name": "Alvarado Elementary School",
+     "level": "Elementary",
+     "grades": "TK-5",
+     "address": "625 Douglass Street, San Francisco, CA 94114",
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": "https://www.sfusd.edu/school/alvarado-elementary-school"
+    },
+    {
+     "name": "Aptos Middle School",
+     "level": "Middle",
+     "grades": "6-8",
+     "address": "105 Aptos Avenue, San Francisco, CA 94127",
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": "https://www.sfusd.edu/school/aptos-middle-school"
+    },
+    {
+     "name": "Argonne Early Education School",
+     "level": "Early education",
+     "grades": "PreK-TK",
+     "address": "750 16th Avenue, San Francisco, CA 94118",
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": "https://www.sfusd.edu/school/argonne-early-education-school"
+    },
+    {
+     "name": "Argonne Elementary School",
+     "level": "Elementary",
+     "grades": "TK-5",
+     "address": "680 18th Avenue, San Francisco, CA 94121",
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": "https://www.sfusd.edu/school/argonne-elementary-school"
+    },
+    {
+     "name": "Balboa High School",
+     "level": "High",
+     "grades": "9-13",
+     "address": "1000 Cayuga Avenue, San Francisco, CA 94112",
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": "https://www.sfusd.edu/school/balboa-high-school"
+    },
+    {
+     "name": "Bessie Carmichael School PreK-8 Filipino Education Center",
+     "level": "K-8",
+     "grades": "PreK-8",
+     "address": "375 7th Street (PK-5 campus) and 824 Harrison Street (6-8 campus), San Francisco, CA 94103",
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": "https://www.sfusd.edu/school/bessie-carmichael-school-prek-8-filipino-education-center"
+    },
+    {
+     "name": "Bret Harte Elementary School",
+     "level": "Elementary",
+     "grades": "PreK-5",
+     "address": "1035 Gilman Avenue, San Francisco, CA 94124",
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": "https://www.sfusd.edu/school/bret-harte-elementary-school"
+    },
+    {
+     "name": "Bryant Elementary School",
+     "level": "Elementary",
+     "grades": "TK-5",
+     "address": "2641 25th Street, San Francisco, CA 94110",
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": "https://www.sfusd.edu/school/bryant-elementary-school"
+    },
+    {
+     "name": "Buena Vista Horace Mann K-8 Community School",
+     "level": "K-8",
+     "grades": "K-8",
+     "address": "325 La Grande Avenue, San Francisco, CA 94112",
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": "https://www.sfusd.edu/school/buena-vista-horace-mann-k-8-community-school"
+    },
+    {
+     "name": "C.A.R.E. Bayview Highschool",
+     "level": "Continuation/Alternative",
+     "grades": "9-10",
+     "address": "1601 Lane Street, 3rd Floor, San Francisco, CA 94124",
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": "https://www.sfusd.edu/school/care-bayview-highschool"
+    },
+    {
+     "name": "C.A.R.E. Buchanan",
+     "level": "Continuation/Alternative",
+     "grades": "9-10",
+     "address": "1530 Buchanan Street, San Francisco, CA 94124",
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": "https://www.sfusd.edu/school/care-buchanan"
+    },
+    {
+     "name": "C.A.R.E. Middle School",
+     "level": "Continuation/Alternative",
+     "grades": "6-8",
+     "address": "1601 Lane Street, 2nd Floor, San Francisco, CA 94124",
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": "https://www.sfusd.edu/school/care-middle-school"
+    },
+    {
+     "name": "César Chávez Elementary School",
+     "level": "Elementary",
+     "grades": "TK-5",
+     "address": "825 Shotwell Street, San Francisco, CA 94110",
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": "https://www.sfusd.edu/school/cesar-chavez-elementary-school"
+    },
+    {
+     "name": "Chinese Immersion School at De Avila 中文沉浸學校",
+     "level": "Elementary",
+     "grades": "TK-5",
+     "address": "1250 Waller Street, San Francisco, CA 94117",
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": "https://www.sfusd.edu/school/chinese-immersion-school-de-avila-zhongwenchenjinxuexiao"
+    },
+    {
+     "name": "Civic Center Secondary School",
+     "level": "Continuation/Alternative",
+     "grades": "7-12",
+     "address": "727 Golden Gate Avenue, San Francisco, CA 94102",
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": "https://www.sfusd.edu/school/civic-center-secondary-school"
+    },
+    {
+     "name": "Claire Lilienthal Alternative School K-8",
+     "level": "K-8",
+     "grades": "K-8",
+     "address": "3630 Divisadero Street (3-8 Winfield Scott campus), San Francisco, CA 94123, and 3950 Sacramento Street (K-2 Madison campus), San Francisco, CA 94118",
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": "https://www.sfusd.edu/school/claire-lilienthal-alternative-school-k-8"
+    },
+    {
+     "name": "Clarendon Alternative Elementary School",
+     "level": "Elementary",
+     "grades": "TK-5",
+     "address": "500 Clarendon Avenue, San Francisco, CA 94131",
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": "https://www.sfusd.edu/school/clarendon-alternative-elementary-school"
+    },
+    {
+     "name": "Cleveland Elementary School",
+     "level": "Elementary",
+     "grades": "K-5",
+     "address": "455 Athens Street, San Francisco, CA 94112",
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": "https://www.sfusd.edu/school/cleveland-elementary-school"
+    },
+    {
+     "name": "Commodore Sloat Elementary School",
+     "level": "Elementary",
+     "grades": "TK-5",
+     "address": "50 Darien Way, San Francisco, CA 94127",
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": "https://www.sfusd.edu/school/commodore-sloat-elementary-school"
+    },
+    {
+     "name": "Commodore Stockton Early Education School",
+     "level": "Early education",
+     "grades": "PreK-TK",
+     "address": "1 Trenton Street, San Francisco, CA 94108",
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": "https://www.sfusd.edu/school/commodore-stockton-early-education-school"
+    },
+    {
+     "name": "County Opportunity Schools: Hilltop, El Camino Alternativo, Ray B Academy",
+     "level": "Continuation/Alternative",
+     "grades": "7-12",
+     "address": "2730 Bryant Street, San Francisco, CA 94110",
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": "https://www.sfusd.edu/school/county-opportunity-schools-hilltop-el-camino-alternativo-ray-b-academy"
+    },
+    {
+     "name": "Daniel Webster Elementary School",
+     "level": "Elementary",
+     "grades": "K-5",
+     "address": "465 Missouri Street, San Francisco, CA 94107",
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": "https://www.sfusd.edu/school/daniel-webster-elementary-school"
+    },
+    {
+     "name": "Dianne Feinstein Elementary School",
+     "level": "Elementary",
+     "grades": "TK-5",
+     "address": "2550 25th Avenue, San Francisco, CA 94116",
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": "https://www.sfusd.edu/school/dianne-feinstein-elementary-school"
+    },
+    {
+     "name": "Dolores Huerta Elementary School",
+     "level": "Elementary",
+     "grades": "TK-5",
+     "address": "65 Chenery Street, San Francisco, CA 94131",
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": "https://www.sfusd.edu/school/dolores-huerta-elementary-school"
+    },
+    {
+     "name": "Downtown High School",
+     "level": "High",
+     "grades": "11-12",
+     "address": "693 Vermont Street, San Francisco, CA 94107",
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": "https://www.sfusd.edu/school/downtown-high-school"
+    },
+    {
+     "name": "Dr. Charles R. Drew College Preparatory Academy",
+     "level": "Elementary",
+     "grades": "PreK-5",
+     "address": "50 Pomona Street, San Francisco, CA 94124",
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": "https://www.sfusd.edu/school/dr-charles-r-drew-college-preparatory-academy"
+    },
+    {
+     "name": "Dr. George Washington Carver Elementary School",
+     "level": "Elementary",
+     "grades": "TK-5",
+     "address": "1360 Oakdale Avenue, San Francisco, CA 94124",
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": "https://www.sfusd.edu/school/dr-george-washington-carver-elementary-school"
+    },
+    {
+     "name": "Dr. Martin Luther King, Jr. Academic Middle School",
+     "level": "Middle",
+     "grades": "6-8",
+     "address": "350 Girard Street, San Francisco, CA 94134",
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": "https://www.sfusd.edu/school/dr-martin-luther-king-jr-academic-middle-school"
+    },
+    {
+     "name": "Dr. William L. Cobb Elementary School",
+     "level": "Elementary",
+     "grades": "PreK-5",
+     "address": "2725 California Street, San Francisco, CA 94115",
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": "https://www.sfusd.edu/school/dr-william-l-cobb-elementary-school"
+    },
+    {
+     "name": "E.R. Taylor Elementary School",
+     "level": "Elementary",
+     "grades": "PreK-5",
+     "address": "423 Burrows Street, San Francisco, CA 94134",
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": "https://www.sfusd.edu/school/er-taylor-elementary-school"
+    },
+    {
+     "name": "Edwin and Anita Lee Newcomer School 李孟賢伉儷新移民學校",
+     "level": "Elementary",
+     "grades": "2-4",
+     "address": "950 Clay Street, San Francisco, CA 94108",
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": "https://www.sfusd.edu/school/edwin-and-anita-lee-newcomer-school-limengxiankanglixinyiminxuexiao"
+    },
+    {
+     "name": "El Dorado Elementary School",
+     "level": "Elementary",
+     "grades": "PreK-5",
+     "address": "70 Delta Street, San Francisco, CA 94134",
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": "https://www.sfusd.edu/school/el-dorado-elementary-school"
+    },
+    {
+     "name": "Everett Middle School",
+     "level": "Middle",
+     "grades": "6-8",
+     "address": "450 Church Street, San Francisco, CA 94114",
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": "https://www.sfusd.edu/school/everett-middle-school"
+    },
+    {
+     "name": "Francis Scott Key Elementary School",
+     "level": "Elementary",
+     "grades": "TK-5",
+     "address": "1530 43rd Avenue, San Francisco, CA 94122",
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": "https://www.sfusd.edu/school/francis-scott-key-elementary-school"
+    },
+    {
+     "name": "Francisco Middle School",
+     "level": "Middle",
+     "grades": "6-8",
+     "address": "2190 Powell Street, San Francisco, CA 94133",
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": "https://www.sfusd.edu/school/francisco-middle-school"
+    },
+    {
+     "name": "Frank McCoppin Elementary School",
+     "level": "Elementary",
+     "grades": "PreK-5",
+     "address": "651 6th Avenue, San Francisco, CA 94118",
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": "https://www.sfusd.edu/mccoppin"
+    },
+    {
+     "name": "Galileo Academy of Science & Technology",
+     "level": "High",
+     "grades": "9-13",
+     "address": "1150 Francisco Street, San Francisco, CA 94109",
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": "https://www.sfusd.edu/school/galileo-academy-science-technology"
+    },
+    {
+     "name": "Garfield Elementary School",
+     "level": "Elementary",
+     "grades": "TK-5",
+     "address": "420 Filbert Street, San Francisco, CA 94133",
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": "https://www.sfusd.edu/school/garfield-elementary-school"
+    },
+    {
+     "name": "George Peabody Elementary School",
+     "level": "Elementary",
+     "grades": "K-5",
+     "address": "251 6th Avenue, San Francisco, CA 94118",
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": "https://www.sfusd.edu/school/george-peabody-elementary-school"
+    },
+    {
+     "name": "George R. Moscone Elementary School",
+     "level": "Elementary",
+     "grades": "PreK-5",
+     "address": "2576 Harrison Street, San Francisco, CA 94110",
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": "https://www.sfusd.edu/school/george-r-moscone-elementary-school"
+    },
+    {
+     "name": "George Washington High School",
+     "level": "High",
+     "grades": "9-12",
+     "address": "600 32nd Avenue, San Francisco, CA 94121",
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": "https://www.sfusd.edu/school/george-washington-high-school"
+    },
+    {
+     "name": "Glen Park Elementary School",
+     "level": "Elementary",
+     "grades": "K-5",
+     "address": "151 Lippard Avenue, San Francisco, CA 94131",
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": "https://www.sfusd.edu/school/glen-park-elementary-school"
+    },
+    {
+     "name": "Gordon J. Lau Elementary School 劉貴明小學",
+     "level": "Elementary",
+     "grades": "TK-5",
+     "address": "950 Clay Street, San Francisco, CA 94108",
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": "https://www.sfusd.edu/school/gordon-j-lau-elementary-school"
+    },
+    {
+     "name": "Grattan Elementary School",
+     "level": "Elementary",
+     "grades": "PreK-5",
+     "address": "165 Grattan Street, San Francisco, CA 94117",
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": "https://www.sfusd.edu/school/grattan-elementary-school"
+    },
+    {
+     "name": "Guadalupe Elementary School",
+     "level": "Elementary",
+     "grades": "PreK-5",
+     "address": "859 Prague Street, San Francisco, CA 94112",
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": "https://www.sfusd.edu/school/guadalupe-elementary-school"
+    },
+    {
+     "name": "Harvey Milk Civil Rights Academy",
+     "level": "Elementary",
+     "grades": "TK-5",
+     "address": "4235 19th Street, San Francisco, CA 94114",
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": "https://www.sfusd.edu/school/harvey-milk-civil-rights-academy"
+    },
+    {
+     "name": "Herbert Hoover Middle School",
+     "level": "Middle",
+     "grades": "6-8",
+     "address": "2290 14th Avenue, San Francisco, CA 94116",
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": "https://www.sfusd.edu/school/herbert-hoover-middle-school"
+    },
+    {
+     "name": "Hillcrest Elementary School",
+     "level": "Elementary",
+     "grades": "TK-5",
+     "address": "810 Silver Avenue, San Francisco, CA 94134",
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": "https://www.sfusd.edu/school/hillcrest-elementary-school"
+    },
+    {
+     "name": "Ida B. Wells High School",
+     "level": "High",
+     "grades": "9-12",
+     "address": "1099 Hayes Street, San Francisco, CA 94117",
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": "https://www.sfusd.edu/school/ida-b-wells-high-school"
+    },
+    {
+     "name": "Independence High School",
+     "level": "High",
+     "grades": "9-12",
+     "address": "1350 7th Avenue, San Francisco, CA 94122",
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": "https://www.sfusd.edu/school/independence-high-school"
+    },
+    {
+     "name": "James Denman Middle School",
+     "level": "Middle",
+     "grades": "6-8",
+     "address": "241 Oneida Avenue, San Francisco, CA 94112",
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": "https://www.sfusd.edu/school/james-denman-middle-school"
+    },
+    {
+     "name": "James Lick Middle School",
+     "level": "Middle",
+     "grades": "6-8",
+     "address": "1220 Noe Street, San Francisco, CA 94114",
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": "https://www.sfusd.edu/school/james-lick-middle-school"
+    },
+    {
+     "name": "Jean Parker Elementary School",
+     "level": "Elementary",
+     "grades": "TK-5",
+     "address": "840 Broadway Street, San Francisco, CA 94133",
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": "https://www.sfusd.edu/school/jean-parker-elementary-school"
+    },
+    {
+     "name": "Jefferson Early Education School",
+     "level": "Early education",
+     "grades": "PreK",
+     "address": "1350 25th Avenue, San Francisco, CA 94122",
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": "https://www.sfusd.edu/school/jefferson-early-education-school"
+    },
+    {
+     "name": "Jefferson Elementary School",
+     "level": "Elementary",
+     "grades": "K-5",
+     "address": "1725 Irving Street, San Francisco, CA 94122",
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": "https://www.sfusd.edu/school/jefferson-elementary-school"
+    },
+    {
+     "name": "John McLaren Early Education School",
+     "level": "Early education",
+     "grades": "PreK-TK",
+     "address": "2055 Sunnydale Avenue (East Building), San Francisco, CA 94134",
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": "https://www.sfusd.edu/school/john-mclaren-early-education-school"
+    },
+    {
+     "name": "John Muir Elementary School",
+     "level": "Elementary",
+     "grades": "PreK-5",
+     "address": "380 Webster Street, San Francisco, CA 94117",
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": "https://www.sfusd.edu/school/john-muir-elementary-school"
+    },
+    {
+     "name": "John O'Connell High School",
+     "level": "High",
+     "grades": "9-13",
+     "address": "2355 Folsom Street, San Francisco, CA 94110",
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": "https://www.sfusd.edu/school/john-oconnell-high-school"
+    },
+    {
+     "name": "John Yehall Chin Elementary School",
+     "level": "Elementary",
+     "grades": "K-5",
+     "address": "350 Broadway, San Francisco, CA 94133",
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": "https://www.sfusd.edu/school/john-yehall-chin-elementary-school"
+    },
+    {
+     "name": "Jose Ortega Elementary School",
+     "level": "Elementary",
+     "grades": "PreK-5",
+     "address": "400 Sargent Street, San Francisco, CA 94132",
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": "https://www.sfusd.edu/school/jose-ortega-elementary-school"
+    },
+    {
+     "name": "June Jordan School for Equity",
+     "level": "High",
+     "grades": "9-12",
+     "address": "325 La Grande Avenue, San Francisco, CA 94112",
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": "https://www.sfusd.edu/school/june-jordan-school-equity"
+    },
+    {
+     "name": "Junipero Serra Annex Early Education School",
+     "level": "Early education",
+     "grades": "PreK-TK",
+     "address": "155 Appleton Avenue, San Francisco, CA 94110",
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": "https://www.sfusd.edu/school/junipero-serra-annex-early-education-school"
+    },
+    {
+     "name": "Junipero Serra Elementary School",
+     "level": "Elementary",
+     "grades": "TK-5",
+     "address": "625 Holly Park Circle, San Francisco, CA 94110",
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": "https://www.sfusd.edu/school/junipero-serra-elementary-school"
+    },
+    {
+     "name": "Lafayette Elementary School",
+     "level": "Elementary",
+     "grades": "PreK-5",
+     "address": "4545 Anza Street, San Francisco, CA 94121",
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": "https://www.sfusd.edu/school/lafayette-elementary-school"
+    },
+    {
+     "name": "Lakeshore Alternative Elementary School",
+     "level": "Elementary",
+     "grades": "TK-5",
+     "address": "220 Middlefield Drive, San Francisco, CA 94132",
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": "https://www.sfusd.edu/school/lakeshore-alternative-elementary-school"
+    },
+    {
+     "name": "Lawton Alternative School (K-8)",
+     "level": "K-8",
+     "grades": "TK-8",
+     "address": "1570 31st Avenue, San Francisco, CA 94122",
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": "https://www.sfusd.edu/school/lawton-alternative-school-k-8"
+    },
+    {
+     "name": "Leola M. Havard Early Education School",
+     "level": "Early education",
+     "grades": "PreK",
+     "address": "1360 Oakdale Avenue, San Francisco, CA 94124",
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": "https://www.sfusd.edu/school/leola-m-havard-early-education-school"
+    },
+    {
+     "name": "Leonard R. Flynn Elementary School",
+     "level": "Elementary",
+     "grades": "TK-5",
+     "address": "3125 Cesar Chavez Street, San Francisco, CA 94110",
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": "https://www.sfusd.edu/school/leonard-r-flynn-elementary-school"
+    },
+    {
+     "name": "Longfellow Elementary School",
+     "level": "Elementary",
+     "grades": "TK-5",
+     "address": "755 Morse Street, San Francisco, CA 94112",
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": "https://www.sfusd.edu/school/longfellow-elementary-school"
+    },
+    {
+     "name": "Lowell High School",
+     "level": "High",
+     "grades": "9-13",
+     "address": "1101 Eucalyptus Drive, San Francisco, CA 94132",
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": "https://www.sfusd.edu/school/lowell-high-school"
+    },
+    {
+     "name": "Malcolm X Academy Elementary School",
+     "level": "Elementary",
+     "grades": "TK-5",
+     "address": "350 Harbor Road, San Francisco, CA 94124",
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": "https://www.sfusd.edu/school/malcolm-x-academy-elementary-school"
+    },
+    {
+     "name": "Mandarin Immersion TK-8 School (opens fall 2027)",
+     "level": "K-8",
+     "grades": "TK-K",
+     "address": "1670 Noe Street, San Francisco, CA 94131 (launch site, shared with Mission Education Center)",
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": "https://www.sfusd.edu/school/mandarin-immersion-tk-8-school"
+    },
+    {
+     "name": "Marina Middle School",
+     "level": "Middle",
+     "grades": "6-8",
+     "address": "3500 Fillmore Street, San Francisco, CA 94123",
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": "https://www.sfusd.edu/school/marina-middle-school"
+    },
+    {
+     "name": "Marshall Elementary School",
+     "level": "Elementary",
+     "grades": "K-5",
+     "address": "1575 15th Street, San Francisco, CA 94103",
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": "https://www.sfusd.edu/school/marshall-elementary-school"
+    },
+    {
+     "name": "McKinley Elementary School",
+     "level": "Elementary",
+     "grades": "TK-5",
+     "address": "1025 14th Street, San Francisco, CA 94114",
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": "https://www.sfusd.edu/school/mckinley-elementary-school"
+    },
+    {
+     "name": "Miraloma Elementary School",
+     "level": "Elementary",
+     "grades": "TK-5",
+     "address": "175 Omar Way, San Francisco, CA 94127",
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": "https://www.sfusd.edu/school/miraloma-elementary-school"
+    },
+    {
+     "name": "Mission Bay School",
+     "level": "Elementary",
+     "grades": "PreK-K",
+     "address": "1415 Owens Street, San Francisco, CA 94158",
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": "https://www.sfusd.edu/school/mission-bay-school"
+    },
+    {
+     "name": "Mission Education Center",
+     "level": "Early education",
+     "grades": "PreK-TK",
+     "address": "1670 Noe Street, San Francisco, CA 94131",
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": "https://www.sfusd.edu/school/mission-education-center"
+    },
+    {
+     "name": "Mission High School",
+     "level": "High",
+     "grades": "9-13",
+     "address": "3750 18th Street, San Francisco, CA 94114",
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": "https://www.sfusd.edu/school/mission-high-school"
+    },
+    {
+     "name": "Monroe Elementary School",
+     "level": "Elementary",
+     "grades": "K-5",
+     "address": "260 Madrid Street, San Francisco, CA 94112",
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": "https://www.sfusd.edu/school/monroe-elementary-school"
+    },
+    {
+     "name": "New Traditions Creative Arts Elementary School",
+     "level": "Elementary",
+     "grades": "K-5",
+     "address": "2049 Grove Street, San Francisco, CA 94117",
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": "https://www.sfusd.edu/school/new-traditions-creative-arts-elementary-school"
+    },
+    {
+     "name": "Noriega Early Education School",
+     "level": "Early education",
+     "grades": "PreK-TK",
+     "address": "1775 44th Avenue, San Francisco, CA 94122",
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": "https://www.sfusd.edu/school/noriega-early-education-school"
+    },
+    {
+     "name": "Paul Revere (PreK-8) School",
+     "level": "K-8",
+     "grades": "PreK-8",
+     "address": "555 Tompkins Avenue, San Francisco, CA 94110",
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": "https://www.sfusd.edu/school/paul-revere-prek-8-school"
+    },
+    {
+     "name": "Phillip and Sala Burton Academic High School",
+     "level": "High",
+     "grades": "9-13",
+     "address": "400 Mansell Street, San Francisco, CA 94134",
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": "https://www.sfusd.edu/school/phillip-and-sala-burton-academic-high-school"
+    },
+    {
+     "name": "Presidio Middle School",
+     "level": "Middle",
+     "grades": "6-8",
+     "address": "450 30th Avenue, San Francisco, CA 94121",
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": "https://www.sfusd.edu/school/presidio-middle-school"
+    },
+    {
+     "name": "Project Search",
+     "level": "Continuation/Alternative",
+     "grades": "13",
+     "address": "2425 Geary Boulevard, San Francisco, CA 94115",
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": "https://www.sfusd.edu/school/project-search"
+    },
+    {
+     "name": "Raoul Wallenberg High School",
+     "level": "High",
+     "grades": "9-13",
+     "address": "40 Vega Street, San Francisco, CA 94115",
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": "https://www.sfusd.edu/school/raoul-wallenberg-high-school"
+    },
+    {
+     "name": "Raphael Weill Early Education School",
+     "level": "Early education",
+     "grades": "PreK",
+     "address": "1501 O'Farrell Street, San Francisco, CA 94115",
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": "https://www.sfusd.edu/school/raphael-weill-early-education-school"
+    },
+    {
+     "name": "Redding Elementary School",
+     "level": "Elementary",
+     "grades": "TK-5",
+     "address": "1421 Pine Street, San Francisco, CA 94109",
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": "https://www.sfusd.edu/school/redding-elementary-school"
+    },
+    {
+     "name": "Robert Louis Stevenson Elementary School",
+     "level": "Elementary",
+     "grades": "TK-5",
+     "address": "2051 34th Avenue, San Francisco, CA 94116",
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": "https://www.sfusd.edu/school/robert-louis-stevenson-elementary-school"
+    },
+    {
+     "name": "Rooftop School TK-8",
+     "level": "K-8",
+     "grades": "TK-8",
+     "address": "443 Burnett Avenue (TK-4 Twin Peaks campus) and 500 Corbett Avenue (5-8 Mayeda campus), San Francisco, CA 94131",
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": "https://www.sfusd.edu/school/rooftop-school-tk-8"
+    },
+    {
+     "name": "Roosevelt Middle School",
+     "level": "Middle",
+     "grades": "6-8",
+     "address": "460 Arguello Boulevard, San Francisco, CA 94118",
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": "https://www.sfusd.edu/school/roosevelt-middle-school"
+    },
+    {
+     "name": "Rosa Parks Elementary School",
+     "level": "Elementary",
+     "grades": "PreK-5",
+     "address": "1501 O'Farrell Street, San Francisco, CA 94115",
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": "https://www.sfusd.edu/school/rosa-parks-elementary-school"
+    },
+    {
+     "name": "Ruth Asawa San Francisco School of the Arts",
+     "level": "High",
+     "grades": "9-12",
+     "address": "555 Portola Drive, San Francisco, CA 94131",
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": "https://www.sfusd.edu/school/ruth-asawa-san-francisco-school-arts"
+    },
+    {
+     "name": "San Francisco Community School",
+     "level": "K-8",
+     "grades": "TK-8",
+     "address": "125 Excelsior Avenue, San Francisco, CA 94112",
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": "https://www.sfusd.edu/school/san-francisco-community-school"
+    },
+    {
+     "name": "San Francisco International High School",
+     "level": "High",
+     "grades": "9-12",
+     "address": "655 De Haro Street, San Francisco, CA 94107",
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": "https://www.sfusd.edu/school/san-francisco-international-high-school"
+    },
+    {
+     "name": "San Francisco Public Montessori",
+     "level": "Elementary",
+     "grades": "PreK-5",
+     "address": "2340 Jackson Street, San Francisco, CA 94115",
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": "https://www.sfusd.edu/school/san-francisco-public-montessori"
+    },
+    {
+     "name": "San Miguel Early Education School",
+     "level": "Early education",
+     "grades": "PreK",
+     "address": "300 Seneca Avenue, San Francisco, CA 94112",
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": "https://www.sfusd.edu/school/san-miguel-early-education-school"
+    },
+    {
+     "name": "Sanchez Elementary School",
+     "level": "Elementary",
+     "grades": "TK-5",
+     "address": "325 Sanchez Street, San Francisco, CA 94114",
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": "https://www.sfusd.edu/school/sanchez-elementary-school"
+    },
+    {
+     "name": "Sheridan Elementary School",
+     "level": "Elementary",
+     "grades": "PreK-5",
+     "address": "431 Capitol Avenue, San Francisco, CA 94112",
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": "https://www.sfusd.edu/school/sheridan-elementary-school"
+    },
+    {
+     "name": "Sherman Elementary School",
+     "level": "Elementary",
+     "grades": "TK-5",
+     "address": "1651 Union Street, San Francisco, CA 94123",
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": "https://www.sfusd.edu/school/sherman-elementary-school"
+    },
+    {
+     "name": "Spring Valley Science Elementary School",
+     "level": "Elementary",
+     "grades": "TK-5",
+     "address": "1451 Jackson Street, San Francisco, CA 94109",
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": "https://www.sfusd.edu/school/spring-valley-science-elementary-school"
+    },
+    {
+     "name": "Starr King Elementary School",
+     "level": "Elementary",
+     "grades": "TK-5",
+     "address": "1215 Carolina Street, San Francisco, CA 94107",
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": "https://www.sfusd.edu/school/starr-king-elementary-school"
+    },
+    {
+     "name": "Sunnyside Elementary School",
+     "level": "Elementary",
+     "grades": "K-5",
+     "address": "250 Foerster Street, San Francisco, CA 94112",
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": "https://www.sfusd.edu/school/sunnyside-elementary-school"
+    },
+    {
+     "name": "Sunset Elementary School",
+     "level": "Elementary",
+     "grades": "K-5",
+     "address": "1920 41st Avenue, San Francisco, CA 94116",
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": "https://www.sfusd.edu/school/sunset-elementary-school"
+    },
+    {
+     "name": "Sutro Elementary School",
+     "level": "Elementary",
+     "grades": "TK-5",
+     "address": "235 12th Avenue, San Francisco, CA 94118",
+     "enrollment": 268,
+     "enrollmentYear": "2025-26",
+     "principal": null,
+     "url": "https://www.sfusd.edu/school/sutro-elementary-school"
+    },
+    {
+     "name": "Tenderloin Community Elementary School",
+     "level": "Elementary",
+     "grades": "PreK-5",
+     "address": "627 Turk Street, San Francisco, CA 94102",
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": "https://www.sfusd.edu/school/tenderloin-community-elementary-school"
+    },
+    {
+     "name": "The Academy - San Francisco @ McAteer",
+     "level": null,
+     "grades": null,
+     "address": null,
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": "https://www.sfusd.edu/school/academy-san-francisco-mcateer"
+    },
+    {
+     "name": "Theresa S. Mahler Early Education School",
+     "level": "Early education",
+     "grades": "PreK",
+     "address": "990 Church Street, San Francisco, CA 94114",
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": "https://www.sfusd.edu/school/theresa-s-mahler-early-education-school"
+    },
+    {
+     "name": "Thurgood Marshall Academic High School",
+     "level": "High",
+     "grades": "9-12",
+     "address": "45 Conkling Street, San Francisco, CA 94124",
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": "https://www.sfusd.edu/school/thurgood-marshall-academic-high-school"
+    },
+    {
+     "name": "Tule Elk Park Early Education School",
+     "level": "Early education",
+     "grades": "PreK-TK",
+     "address": "2110 Greenwich Street, San Francisco, CA 94123",
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": "https://www.sfusd.edu/school/tule-elk-park-early-education-school"
+    },
+    {
+     "name": "Ulloa Elementary School",
+     "level": "Elementary",
+     "grades": "TK-5",
+     "address": "2650 42nd Avenue, San Francisco, CA 94116",
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": "https://www.sfusd.edu/school/ulloa-elementary-school"
+    },
+    {
+     "name": "Visitacion Valley Elementary School",
+     "level": "Elementary",
+     "grades": "TK-5",
+     "address": "55 Schwerin Street, San Francisco, CA 94134",
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": "https://www.sfusd.edu/school/visitacion-valley-elementary-school"
+    },
+    {
+     "name": "Visitacion Valley Middle School",
+     "level": "Middle",
+     "grades": "6-8",
+     "address": "1971 Visitacion Avenue, San Francisco, CA 94134",
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": "https://www.sfusd.edu/school/visitacion-valley-middle-school"
+    },
+    {
+     "name": "West Portal Elementary School",
+     "level": "Elementary",
+     "grades": "TK-5",
+     "address": "5 Lenox Way, San Francisco, CA 94127",
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": "https://www.sfusd.edu/school/west-portal-elementary-school"
+    },
+    {
+     "name": "Willie L. Brown Jr. Middle School",
+     "level": "Middle",
+     "grades": "6-8",
+     "address": "2055 Silver Avenue, San Francisco, CA 94124",
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": "https://www.sfusd.edu/school/willie-l-brown-jr-middle-school"
+    },
+    {
+     "name": "Woodside Learning Center",
+     "level": "Continuation/Alternative",
+     "grades": "7-12",
+     "address": "375 Woodside Avenue, Suite 332, San Francisco, CA 94127",
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": "https://www.sfusd.edu/school/woodside-learning-center"
+    },
+    {
+     "name": "Yick Wo Alternative Elementary School",
+     "level": "Elementary",
+     "grades": "K-5",
+     "address": "2245 Jones Street, San Francisco, CA 94133",
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": "https://www.sfusd.edu/school/yick-wo-alternative-elementary-school"
+    },
+    {
+     "name": "Youth Chance High School",
+     "level": "Continuation/Alternative",
+     "grades": "11-12",
+     "address": "169 Steuart Street, San Francisco, CA 94105",
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": "https://www.sfusd.edu/school/youth-chance-high-school"
+    },
+    {
+     "name": "Zaida T. Rodriguez Early Education School",
+     "level": "Early education",
+     "grades": "PreK-TK",
+     "address": "2950 Mission Street, San Francisco, CA 94110 (TK campus: 421 Bartlett Avenue)",
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": "https://www.sfusd.edu/school/zaida-t-rodriguez-early-education-school"
+    }
+   ],
    "enrollment": null,
    "budget": {
     "year": "FY2026-27 (2026-27)",
@@ -150,16 +1411,16 @@
    "upcoming": [
     {
      "date": "2026-11-07",
-     "time": null,
-     "title": "Board of Education: Student Outcomes Focused Governance training for community",
-     "venue": null,
-     "url": "https://www.sfusd.edu/about-sfusd/board-education/board-meeting-calendar-and-agendas"
+     "time": "9:00 am",
+     "title": "Board of Education special meeting: Student Outcomes Focused Governance training for the community (9 am to noon)",
+     "venue": "Irving G. Breyer Board Meeting Room, 555 Franklin Street, First Floor",
+     "url": "https://go.boarddocs.com/ca/sfusd/Board.nsf/goto?open&id=DYZLQS579EEC"
     },
     {
      "date": "2026-11-10",
      "time": null,
-     "title": "Board of Education study session (Reorg 4)",
-     "venue": null,
+     "title": "Board of Education study session: School Reorganization #4",
+     "venue": "Irving G. Breyer Board Meeting Room, 555 Franklin Street, First Floor",
      "url": "https://www.sfusd.edu/about-sfusd/board-education/board-meeting-calendar-and-agendas"
     },
     {
@@ -171,29 +1432,29 @@
     },
     {
      "date": "2026-11-17",
-     "time": null,
-     "title": "Board of Education monitoring workshop",
-     "venue": null,
+     "time": "6:30 pm",
+     "title": "Board of Education regular meeting: monitoring workshop (closed session 5:00 pm; final agenda posted Nov 13)",
+     "venue": "Irving G. Breyer Board Meeting Room, 555 Franklin Street, First Floor",
      "url": "https://www.sfusd.edu/about-sfusd/board-education/board-meeting-calendar-and-agendas"
     },
     {
      "date": "2026-11-23",
      "time": null,
-     "title": "Fall Recess, schools closed November 23 to 27",
+     "title": "Fall Recess, schools closed November 23 to 27 (Thanksgiving holidays Nov 26 and 27)",
      "venue": null,
      "url": "https://www.sfusd.edu/sites/default/files/2026-09/7-27-26%20FINAL%20-%20SFUSD%202026-27%20SY%20Academic%20Calendar%2C%20Work%20Calendar%2C%20Key%20Dates%20-%20Google%20Sheets.pdf"
     },
     {
      "date": "2026-12-01",
      "time": "6:30 pm",
-     "title": "Board of Education regular meeting",
+     "title": "Board of Education regular meeting (closed session 5:00 pm; final agenda posted Nov 25)",
      "venue": "Irving G. Breyer Board Meeting Room, 555 Franklin Street, First Floor",
      "url": "https://www.sfusd.edu/about-sfusd/board-education/board-meeting-calendar-and-agendas"
     },
     {
      "date": "2026-12-11",
      "time": null,
-     "title": "Application deadline for Ruth Asawa SOTA and Lowell High School (2027-28)",
+     "title": "Application deadline for Ruth Asawa School of the Arts and Lowell High School (2027-28); SOTA applicants audition in January",
      "venue": null,
      "url": "https://www.sfusd.edu/es/node/3504"
     },
@@ -205,6 +1466,13 @@
      "url": "https://www.sfusd.edu/about-sfusd/board-education/board-meeting-calendar-and-agendas"
     },
     {
+     "date": "2026-12-18",
+     "time": null,
+     "title": "Last day of fall instruction (end of first semester)",
+     "venue": null,
+     "url": "https://www.sfusd.edu/sites/default/files/2026-09/7-27-26%20FINAL%20-%20SFUSD%202026-27%20SY%20Academic%20Calendar%2C%20Work%20Calendar%2C%20Key%20Dates%20-%20Google%20Sheets.pdf"
+    },
+    {
      "date": "2026-12-21",
      "time": null,
      "title": "Winter Recess, schools closed December 21 to January 1",
@@ -212,9 +1480,44 @@
      "url": "https://www.sfusd.edu/sites/default/files/2026-09/7-27-26%20FINAL%20-%20SFUSD%202026-27%20SY%20Academic%20Calendar%2C%20Work%20Calendar%2C%20Key%20Dates%20-%20Google%20Sheets.pdf"
     },
     {
+     "date": "2027-01-04",
+     "time": null,
+     "title": "Spring semester classes begin",
+     "venue": null,
+     "url": "https://www.sfusd.edu/sites/default/files/2026-09/7-27-26%20FINAL%20-%20SFUSD%202026-27%20SY%20Academic%20Calendar%2C%20Work%20Calendar%2C%20Key%20Dates%20-%20Google%20Sheets.pdf"
+    },
+    {
+     "date": "2027-01-12",
+     "time": "6:30 pm",
+     "title": "Board of Education regular meeting",
+     "venue": "Irving G. Breyer Board Meeting Room, 555 Franklin Street, First Floor",
+     "url": "https://www.sfusd.edu/about-sfusd/board-education/board-meeting-calendar-and-agendas"
+    },
+    {
+     "date": "2027-01-18",
+     "time": null,
+     "title": "Martin Luther King Jr. Day holiday, no school",
+     "venue": null,
+     "url": "https://www.sfusd.edu/sites/default/files/2026-09/7-27-26%20FINAL%20-%20SFUSD%202026-27%20SY%20Academic%20Calendar%2C%20Work%20Calendar%2C%20Key%20Dates%20-%20Google%20Sheets.pdf"
+    },
+    {
+     "date": "2027-01-19",
+     "time": null,
+     "title": "Board of Education study session",
+     "venue": "Irving G. Breyer Board Meeting Room, 555 Franklin Street, First Floor",
+     "url": "https://www.sfusd.edu/about-sfusd/board-education/board-meeting-calendar-and-agendas"
+    },
+    {
+     "date": "2027-01-26",
+     "time": "6:30 pm",
+     "title": "Board of Education regular meeting: monitoring workshop",
+     "venue": "Irving G. Breyer Board Meeting Room, 555 Franklin Street, First Floor",
+     "url": "https://www.sfusd.edu/about-sfusd/board-education/board-meeting-calendar-and-agendas"
+    },
+    {
      "date": "2027-02-01",
      "time": null,
-     "title": "Main Round enrollment applications due (2027-28)",
+     "title": "Main Round enrollment applications due for TK to grade 12 (2027-28); interdistrict transfer applications also due",
      "venue": null,
      "url": "https://www.sfusd.edu/es/node/3504"
     }
@@ -294,5 +1597,5 @@
    "news": []
   }
  ],
- "methodology": "Built November 4, 2026 from pages opened this session: sfusd.edu (Board of Education page, board meeting calendar, press release list and the June 25, 2026 budget release, a June 2026 budget announcement, the calendars page and the 2026-27 academic calendar PDF, Enrollment Key Dates for 2027-28), KQED (Oct 14 and Sep 24, 2026), the San Francisco Standard (Oct 6, 2026) and KALW (Jun 16, 2025). Gaps: the California Department of Education district profile returned a server error, so enrollment and per-pupil spending are blank; no SFUSD page with those figures was opened. The 120-schools count is the district website's own label. The individual SFUSD press releases of Oct 13 and Sep 24 could not be opened (titles and links only), the school holiday calendar PDF was blocked, and BoardDocs minutes were not opened, so board actions are taken from KQED and the SF Standard. Times are shown only for regular meetings (public session 6:30 pm); study session and workshop times were not listed. No school closings page was found. Individual schools are not listed. City College: ccsf.edu could not be opened; trustees, enrollment, budget and calendar are left blank, and KALW's 2025 figure of about 40,000 students is not used as current enrollment. Board of Education and College Board races on the Nov 3, 2026 ballot, if any, were not researched for this file."
+ "methodology": "Built November 4, 2026. School list: the SFUSD school directory (table view, \"Showing 1 - 128 of 128 results\") at https://www.sfusd.edu/schools/directory/table, opened Nov 4, 2026, for names, grades, addresses and page links. Level follows the directory's own type: schools it labels County School are shown as Continuation/Alternative; schools labeled K-8 School as K-8; schools with both early education and elementary grades as Elementary. Two directory rows that are second campuses (Claire Lilienthal's K-2 Madison campus and Rooftop's 5-8 Mayeda campus) are folded into their schools, so 126 are listed. The directory lists a grade 13 for seven high schools and three county programs, and does not define it; grades are shown as listed. One directory row, The Academy - San Francisco @ McAteer, has no grades or address in the directory, so its level and address are blank. Individual school pages could not be opened in this session (permission requests timed out), so principals are blank. Board: the district's Board of Education page and board meeting calendar (opened Nov 4). Calendar: the 2026-27 district calendar PDF and Enrollment Key Dates page (opened Nov 4)."
 }

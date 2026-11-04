@@ -1,6 +1,6 @@
 {
  "as_of": "2026-11-04",
- "note": "Fall 2026 public high school sports in the AAA (Academic Athletic Association, CIF San Francisco Section), teams San Franciscans follow, youth and adult leagues, and venues. Volleyball playoff results come from CIFSF's own championship program; football scores come from High School On SI and MaxPreps (aggregators) because CIFSF schedules are posted as Google Sheets that could not be opened, so football items are marked for review and most have no dates. In San Francisco, boys and girls soccer are winter sports. No students are named. Checked Nov 4, 2026: the Nov 3 volleyball city final result was not yet posted.",
+ "note": "Fall 2026 public high school sports in the AAA (Academic Athletic Association, CIF San Francisco Section) for the seven SFUSD schools with varsity football, teams San Franciscans follow, youth and adult leagues, and venues. Playoff dates, sites and volleyball, golf and tennis results come from CIFSF's own pages. Football scores and records come from High School On SI and MaxPreps (aggregators), because CIFSF posts schedules as Google Sheets that could not be opened; those are marked for review, and only games with a date on an opened page are listed. In San Francisco, boys and girls soccer, basketball and wrestling are winter sports. No students are named. Checked Nov 4, 2026.",
  "schools": [
   {
    "name": "Abraham Lincoln High School",
@@ -9,14 +9,40 @@
    "division": "AAA (Academic Athletic Association), CIF San Francisco Section",
    "address": "2162 24th Ave, San Francisco, CA 94116",
    "site": null,
-   "athleticsUrl": null,
-   "scheduleUrl": "https://www.cifsf.org/schedules-and-scores/",
-   "note": "SFUSD public high school. In San Francisco, boys and girls soccer are winter sports, so there are no fall soccer results. Girls tennis, girls golf, girls flag football and cross country also play in fall; see CIFSF for results.",
+   "athleticsUrl": "https://sites.google.com/sfusd.edu/alhsathletics",
+   "scheduleUrl": "https://www.cifsf.org/high-school-playoffs-fall/",
+   "note": "SFUSD public high school in the AAA. Soccer, basketball and wrestling are winter sports in the San Francisco Section. Fall playoffs still to come: girls flag football semifinals Sat Nov 21 (10 and 11:30 am) and City Championship Thu Nov 26, 9:30 am; cross country All City Championships Wed Nov 18 at the Polo Fields, Golden Gate Park (varsity girls 2:30 pm, varsity boys 3:15 pm); cheer and spirit All City Championship Sat Dec 12 at Lincoln High School (CIFSF; teams and sites TBD unless stated).",
    "source": {
     "label": "SFUSD, High Schools list",
     "url": "https://sfusd.edu/es/node/1087"
    },
    "teams": [
+    {
+     "sport": "Football",
+     "season": "Fall 2026",
+     "level": "Varsity",
+     "record": "6-4",
+     "recordAsOf": "2026-11-04",
+     "recordNote": "High School On SI header: 6-4 overall, 5-1 AAA league. The game list on the same page adds up to 5-4 (4-1). Undated league results there: wins over Galileo 19-6, Burton 46-12 and Washington 29-9, a loss to Balboa 6-40, and a win at Mission.",
+     "coach": null,
+     "postseason": "Regular season closes against Lowell (date not found in sources opened). AAA (CIF San Francisco Section) varsity semifinals Saturday, Nov 14, 2026, 1:30 pm; City Championship, the Thanksgiving Day game, Thursday, Nov 26, 2026, 11:30 am. CIFSF lists seeds, matchups and sites as TBD. NorCal championships Dec 4 and 5; CIF State championships Dec 11 and 12.",
+     "recent": [
+      {
+       "date": "2026-10-30",
+       "opponent": "Mission",
+       "home": false,
+       "result": "W (score differs by source)",
+       "source": {
+        "label": "MaxPreps, Mission Bears football (updated Nov 3, 2026)",
+        "url": "https://www.maxpreps.com/ca/san-francisco/mission-bears/football/"
+       },
+       "note": "Mission's MaxPreps page shows 30-2 and lists the game as Friday Oct 30 in its results and Saturday Oct 31 in its schedule summary; High School On SI shows 56-6."
+      }
+     ],
+     "next": [],
+     "needs_review": true,
+     "review_note": "Scores and records come from High School On SI and MaxPreps (aggregators). SI pages show no game dates, so only games dated on a MaxPreps page are listed. CIFSF schedule sheets (Google Sheets) could not be opened. The SI header and game list disagree on Lincoln's record."
+    },
     {
      "sport": "Girls Volleyball",
      "season": "Fall 2026",
@@ -24,7 +50,7 @@
      "record": null,
      "recordAsOf": null,
      "coach": null,
-     "postseason": "No. 1 seed in the AAA varsity playoffs. Beat No. 4 Balboa in the Oct 30 semifinal. City Championship vs No. 3 Washington was Tuesday, Nov 3, 7 pm, at City College of San Francisco; the result was not yet posted when checked on Nov 4. Lincoln's JV team won the AAA JV city title on Nov 2. AAA/CIF San Francisco Section varsity playoffs. NorCal playoffs Nov 10, 12 and 14, 2026; NorCal championship Nov 17; CIF State championships Nov 20 and 21 at Santiago Canyon College, Orange (teams TBD).",
+     "postseason": "No. 1 seed in the AAA varsity playoffs. Beat No. 4 Balboa 3-0 in the Oct 30 semifinal. City Championship vs No. 3 Washington was Tuesday, Nov 3, 7 pm, at City College of San Francisco; CIFSF had not posted the result when checked Nov 4. Lincoln's JV team won the AAA JV city title on Nov 2, beating Washington 2-0 at RASOTA. NorCal playoffs Nov 10, 12 and 14, 2026; NorCal championship Nov 17; CIF State championships Nov 20 and 21 at Santiago Canyon College, Orange (teams TBD).",
      "recent": [
       {
        "date": "2026-10-30",
@@ -35,50 +61,309 @@
         "label": "CIFSF, HS Girls Volleyball Championship Program (V & JV), posted Nov 3, 2026",
         "url": "https://www.cifsf.org/hs-girls-volleyball-championship-program-v-jv/"
        },
-       "note": "AAA semifinal, played at Lowell High School per the CIFSF program."
+       "note": "AAA semifinal; the CIFSF program lists the site as Lowell High School."
       }
      ],
      "next": [],
      "needs_review": true,
-     "review_note": "Nov 3 city final result not yet posted on CIFSF when checked Nov 4. Overall record not found (CIFSF standings page did not load data). Scores read from the CIFSF program table, which lists the losing team's games first."
+     "review_note": "Nov 3 city final result not posted on CIFSF when checked Nov 4. Overall record not found (CIFSF standings did not load). The CIFSF program lists the losing team first in some matches."
     },
     {
-     "sport": "Football",
+     "sport": "Girls Tennis",
      "season": "Fall 2026",
      "level": "Varsity",
      "record": null,
      "recordAsOf": null,
      "coach": null,
-     "postseason": "AAA/CIF San Francisco Section varsity football semifinals Saturday, Nov 14, 2026, 1:30 pm (matchups and sites TBD); City Championship Thursday, Nov 26, 2026 (Thanksgiving), 11:30 am, site TBD.",
+     "postseason": "No. 3 seed; played No. 2 Washington in the semifinal Tuesday, Nov 3, 3:15 pm, at Goldman Tennis Center (result not posted when checked Nov 4). AAA team City Championship Friday, Nov 6, 2026, 3:15 pm, Goldman Tennis Center, Golden Gate Park (semifinal winners). The section champion plays the Oakland Section champion in a NorCal playoff Nov 17.",
      "recent": [],
-     "next": [
+     "next": [],
+     "needs_review": true,
+     "review_note": "Semifinal results not found."
+    },
+    {
+     "sport": "Girls Golf",
+     "season": "Fall 2026",
+     "level": "Varsity",
+     "record": null,
+     "recordAsOf": null,
+     "coach": null,
+     "postseason": "No. 3 seed; lost the Oct 20 team semifinal to Washington. One Lincoln golfer qualified individually for the NorCal Championship, Monday Nov 9, 7 am, at Poppy Ridge, Livermore.",
+     "recent": [
       {
-       "date": "2026-11-14",
-       "time": "1:30 pm",
-       "opponent": null,
+       "date": "2026-10-20",
+       "opponent": "Washington",
        "home": null,
-       "venue": null,
-       "note": "AAA varsity semifinals (two games). Seeds, matchups and sites listed as TBD by CIFSF.",
+       "result": "L 294-272 (team strokes, lower wins)",
        "source": {
-        "label": "CIFSF, High School Playoffs (Fall), posted Oct 26, 2026",
+        "label": "CIFSF, High School Playoffs (Fall), checked Nov 4, 2026",
         "url": "https://www.cifsf.org/high-school-playoffs-fall/"
+       },
+       "note": "Team semifinal, Fleming Golf Course, 9 holes."
+      }
+     ],
+     "next": []
+    }
+   ]
+  },
+  {
+   "name": "Lowell High School",
+   "town": "San Francisco",
+   "mascot": "Cardinals",
+   "division": "AAA (Academic Athletic Association), CIF San Francisco Section",
+   "address": "1101 Eucalyptus Drive, San Francisco, CA 94132",
+   "site": "https://www.sfusd.edu/school/lowell-high-school",
+   "athleticsUrl": "https://www.sfusd.edu/school/lowell-high-school/students-families/lowell-athletics",
+   "scheduleUrl": "https://www.cifsf.org/high-school-playoffs-fall/",
+   "note": "SFUSD public high school in the AAA. Soccer, basketball and wrestling are winter sports in the San Francisco Section. Fall playoffs still to come: girls flag football semifinals Sat Nov 21 (10 and 11:30 am) and City Championship Thu Nov 26, 9:30 am; cross country All City Championships Wed Nov 18 at the Polo Fields, Golden Gate Park (varsity girls 2:30 pm, varsity boys 3:15 pm); cheer and spirit All City Championship Sat Dec 12 at Lincoln High School (CIFSF; teams and sites TBD unless stated).",
+   "source": {
+    "label": "SFUSD, Lowell High School details",
+    "url": "https://www.sfusd.edu/school/lowell-high-school/details"
+   },
+   "teams": [
+    {
+     "sport": "Football",
+     "season": "Fall 2026",
+     "level": "Varsity",
+     "record": "7-2",
+     "recordAsOf": "2026-11-04",
+     "recordNote": "High School On SI: 7-2 overall, 4-1 AAA league. Undated league results there: wins over Washington 26-13, Mission 39-6, Burton 53-6 and Galileo 42-0; loss to Balboa 0-18.",
+     "coach": null,
+     "postseason": "Regular season closes at Lincoln (date not found in sources opened). AAA (CIF San Francisco Section) varsity semifinals Saturday, Nov 14, 2026, 1:30 pm; City Championship, the Thanksgiving Day game, Thursday, Nov 26, 2026, 11:30 am. CIFSF lists seeds, matchups and sites as TBD. NorCal championships Dec 4 and 5; CIF State championships Dec 11 and 12.",
+     "recent": [
+      {
+       "date": "2026-10-09",
+       "opponent": "Mission",
+       "home": false,
+       "result": "W 39-6",
+       "source": {
+        "label": "MaxPreps, Mission Bears football (updated Nov 3, 2026)",
+        "url": "https://www.maxpreps.com/ca/san-francisco/mission-bears/football/"
        }
       },
       {
-       "date": "2026-11-26",
-       "time": "11:30 am",
+       "date": "2026-09-19",
+       "opponent": "Terra Linda",
+       "home": true,
+       "result": "L 15-30",
+       "source": {
+        "label": "MaxPreps, Lowell Cardinals football (last updated Sept 24, 2026)",
+        "url": "https://www.maxpreps.com/ca/san-francisco/lowell-cardinals/football/"
+       }
+      },
+      {
+       "date": "2026-09-11",
+       "opponent": "Emerald",
+       "home": null,
+       "result": "W 45-18",
+       "source": {
+        "label": "MaxPreps, Lowell Cardinals football (last updated Sept 24, 2026)",
+        "url": "https://www.maxpreps.com/ca/san-francisco/lowell-cardinals/football/"
+       },
+       "note": "MaxPreps listed this as a home game; High School On SI lists it as away."
+      },
+      {
+       "date": "2026-09-05",
+       "opponent": "Novato",
+       "home": true,
+       "result": "W 30-21",
+       "source": {
+        "label": "MaxPreps, Lowell Cardinals football (last updated Sept 24, 2026)",
+        "url": "https://www.maxpreps.com/ca/san-francisco/lowell-cardinals/football/"
+       }
+      },
+      {
+       "date": "2026-08-28",
+       "opponent": "Albany",
+       "home": null,
+       "result": "W 58-26",
+       "source": {
+        "label": "MaxPreps, Lowell Cardinals football (last updated Sept 24, 2026)",
+        "url": "https://www.maxpreps.com/ca/san-francisco/lowell-cardinals/football/"
+       },
+       "note": "MaxPreps listed this as a home game; High School On SI lists it as away."
+      }
+     ],
+     "next": [],
+     "needs_review": true,
+     "review_note": "Scores and records come from High School On SI and MaxPreps (aggregators). SI pages show no game dates, so only games dated on a MaxPreps page are listed. CIFSF schedule sheets (Google Sheets) could not be opened. Early-season dates are from the MaxPreps page as last updated Sept 24, 2026. MaxPreps lists a head coach, but no school page naming the coach was opened."
+    },
+    {
+     "sport": "Girls Volleyball",
+     "season": "Fall 2026",
+     "level": "Varsity",
+     "record": null,
+     "recordAsOf": null,
+     "coach": null,
+     "postseason": "No. 2 seed; lost to No. 3 Washington 1-3 in the Oct 30 AAA semifinal. Season over.",
+     "recent": [
+      {
+       "date": "2026-10-30",
+       "opponent": "Washington",
+       "home": null,
+       "result": "L 1-3",
+       "source": {
+        "label": "CIFSF, HS Girls Volleyball Championship Program (V & JV), posted Nov 3, 2026",
+        "url": "https://www.cifsf.org/hs-girls-volleyball-championship-program-v-jv/"
+       },
+       "note": "AAA semifinal; the CIFSF program lists the site as Lincoln High School."
+      }
+     ],
+     "next": [],
+     "needs_review": true,
+     "review_note": "Record not found."
+    },
+    {
+     "sport": "Girls Tennis",
+     "season": "Fall 2026",
+     "level": "Varsity",
+     "record": null,
+     "recordAsOf": null,
+     "coach": null,
+     "postseason": "No. 1 seed in the AAA team playoffs; played No. 4 Balboa in the semifinal Monday, Nov 2, 3:15 pm, at Goldman Tennis Center (result not posted on the CIFSF playoffs page when checked Nov 4). AAA team City Championship Friday, Nov 6, 2026, 3:15 pm, Goldman Tennis Center, Golden Gate Park (semifinal winners). The section champion plays the Oakland Section champion in a NorCal playoff Nov 17.",
+     "recent": [],
+     "next": [],
+     "needs_review": true,
+     "review_note": "Semifinal results not found."
+    },
+    {
+     "sport": "Girls Golf",
+     "season": "Fall 2026",
+     "level": "Varsity",
+     "record": null,
+     "recordAsOf": null,
+     "coach": null,
+     "postseason": "AAA city champion: won the All City team championship on Oct 28 at Fleming Golf Course (18 holes). The team qualified for the NorCal Championship.",
+     "recent": [
+      {
+       "date": "2026-10-28",
+       "opponent": "Washington",
+       "home": null,
+       "result": "W 406-549 (team strokes, lower wins)",
+       "source": {
+        "label": "CIFSF, High School Playoffs (Fall), checked Nov 4, 2026",
+        "url": "https://www.cifsf.org/high-school-playoffs-fall/"
+       },
+       "note": "All City Tournament and Team Championship, Fleming Golf Course."
+      },
+      {
+       "date": "2026-10-19",
+       "opponent": "RASOTA",
+       "home": null,
+       "result": "W 214-274 (team strokes, lower wins)",
+       "source": {
+        "label": "CIFSF, High School Playoffs (Fall), checked Nov 4, 2026",
+        "url": "https://www.cifsf.org/high-school-playoffs-fall/"
+       },
+       "note": "Team semifinal, Fleming Golf Course, 9 holes."
+      }
+     ],
+     "next": [
+      {
+       "date": "2026-11-09",
+       "time": "7:00 am",
        "opponent": null,
        "home": null,
-       "venue": null,
-       "note": "AAA varsity City Championship on Thanksgiving Day, semifinal winners. Site listed as TBD.",
+       "venue": "Poppy Ridge Golf Club, Livermore",
+       "note": "NorCal Championship, 18 holes.",
        "source": {
-        "label": "CIFSF, High School Playoffs (Fall), posted Oct 26, 2026",
+        "label": "CIFSF, High School Playoffs (Fall), checked Nov 4, 2026",
         "url": "https://www.cifsf.org/high-school-playoffs-fall/"
        }
       }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Balboa High School",
+   "town": "San Francisco",
+   "mascot": "Buccaneers",
+   "division": "AAA (Academic Athletic Association), CIF San Francisco Section",
+   "address": "1000 Cayuga Ave, San Francisco, CA 94112",
+   "site": null,
+   "athleticsUrl": null,
+   "scheduleUrl": "https://www.cifsf.org/high-school-playoffs-fall/",
+   "note": "SFUSD public high school in the AAA. Soccer, basketball and wrestling are winter sports in the San Francisco Section. Fall playoffs still to come: girls flag football semifinals Sat Nov 21 (10 and 11:30 am) and City Championship Thu Nov 26, 9:30 am; cross country All City Championships Wed Nov 18 at the Polo Fields, Golden Gate Park (varsity girls 2:30 pm, varsity boys 3:15 pm); cheer and spirit All City Championship Sat Dec 12 at Lincoln High School (CIFSF; teams and sites TBD unless stated).",
+   "source": {
+    "label": "SFUSD, High Schools list",
+    "url": "https://sfusd.edu/es/node/1087"
+   },
+   "teams": [
+    {
+     "sport": "Football",
+     "season": "Fall 2026",
+     "level": "Varsity",
+     "record": "6-3",
+     "recordAsOf": "2026-11-04",
+     "recordNote": "High School On SI: 6-3 overall, 5-0 AAA league. Undated league results there: wins over Mission 50-0, Lowell 18-0, Lincoln 40-6, Burton 41-6 and Galileo 2-0.",
+     "coach": null,
+     "postseason": "Regular season closes at Washington (date not found in sources opened). AAA (CIF San Francisco Section) varsity semifinals Saturday, Nov 14, 2026, 1:30 pm; City Championship, the Thanksgiving Day game, Thursday, Nov 26, 2026, 11:30 am. CIFSF lists seeds, matchups and sites as TBD. NorCal championships Dec 4 and 5; CIF State championships Dec 11 and 12.",
+     "recent": [
+      {
+       "date": "2026-09-26",
+       "opponent": "Mission",
+       "home": null,
+       "result": "W 50-0",
+       "source": {
+        "label": "MaxPreps, Mission Bears football (updated Nov 3, 2026)",
+        "url": "https://www.maxpreps.com/ca/san-francisco/mission-bears/football/"
+       },
+       "note": "Mission's MaxPreps page lists this as a Mission home game; High School On SI lists it as a Balboa home game."
+      }
      ],
+     "next": [],
      "needs_review": true,
-     "review_note": "Scores and 6-4 record are from High School On SI, an aggregator; that page shows no game dates, only six of ten games, and its home/away labels are inconsistent, so dates and home flags are left null. CIFSF schedule sheets (Google Sheets) could not be opened. Confirm before publishing."
+     "review_note": "Scores and records come from High School On SI and MaxPreps (aggregators). SI pages show no game dates, so only games dated on a MaxPreps page are listed. CIFSF schedule sheets (Google Sheets) could not be opened."
+    },
+    {
+     "sport": "Girls Volleyball",
+     "season": "Fall 2026",
+     "level": "Varsity",
+     "record": null,
+     "recordAsOf": null,
+     "coach": null,
+     "postseason": "No. 4 seed. Beat No. 5 Wallenberg 3-0 in Round I on Oct 28, then lost to No. 1 Lincoln 0-3 in the Oct 30 semifinal. Season over.",
+     "recent": [
+      {
+       "date": "2026-10-30",
+       "opponent": "Lincoln",
+       "home": null,
+       "result": "L 0-3",
+       "source": {
+        "label": "CIFSF, HS Girls Volleyball Championship Program (V & JV), posted Nov 3, 2026",
+        "url": "https://www.cifsf.org/hs-girls-volleyball-championship-program-v-jv/"
+       },
+       "note": "AAA semifinal; the CIFSF program lists the site as Lowell High School."
+      },
+      {
+       "date": "2026-10-28",
+       "opponent": "Wallenberg",
+       "home": true,
+       "result": "W 3-0",
+       "source": {
+        "label": "CIFSF, HS Girls Volleyball Championship Program (V & JV), posted Nov 3, 2026",
+        "url": "https://www.cifsf.org/hs-girls-volleyball-championship-program-v-jv/"
+       },
+       "note": "AAA Round I at Balboa High School."
+      }
+     ],
+     "next": [],
+     "needs_review": true,
+     "review_note": "Record not found."
+    },
+    {
+     "sport": "Girls Tennis",
+     "season": "Fall 2026",
+     "level": "Varsity",
+     "record": null,
+     "recordAsOf": null,
+     "coach": null,
+     "postseason": "No. 4 seed; played No. 1 Lowell in the semifinal Monday, Nov 2, 3:15 pm, at Goldman Tennis Center (result not posted when checked Nov 4). AAA team City Championship Friday, Nov 6, 2026, 3:15 pm, Goldman Tennis Center, Golden Gate Park (semifinal winners). The section champion plays the Oakland Section champion in a NorCal playoff Nov 17.",
+     "recent": [],
+     "next": [],
+     "needs_review": true,
+     "review_note": "Semifinal results not found."
     }
    ]
   },
@@ -90,13 +375,71 @@
    "address": "600 32nd Ave, San Francisco, CA 94121",
    "site": null,
    "athleticsUrl": null,
-   "scheduleUrl": "https://www.cifsf.org/schedules-and-scores/",
-   "note": "SFUSD public high school. Soccer is a winter sport in the San Francisco Section.",
+   "scheduleUrl": "https://www.cifsf.org/high-school-playoffs-fall/",
+   "note": "SFUSD public high school in the AAA. Soccer, basketball and wrestling are winter sports in the San Francisco Section. Fall playoffs still to come: girls flag football semifinals Sat Nov 21 (10 and 11:30 am) and City Championship Thu Nov 26, 9:30 am; cross country All City Championships Wed Nov 18 at the Polo Fields, Golden Gate Park (varsity girls 2:30 pm, varsity boys 3:15 pm); cheer and spirit All City Championship Sat Dec 12 at Lincoln High School (CIFSF; teams and sites TBD unless stated).",
    "source": {
     "label": "SFUSD, High Schools list",
     "url": "https://sfusd.edu/es/node/1087"
    },
    "teams": [
+    {
+     "sport": "Football",
+     "season": "Fall 2026",
+     "level": "Varsity",
+     "record": "3-7",
+     "recordAsOf": "2026-11-04",
+     "recordNote": "High School On SI header: 3-7 overall, 2-4 AAA league; the game list on the same page adds up to 3-6 (2-3) with Balboa still to play. Undated league results there: wins over Galileo 21-14 and Burton 19-14; losses to Lowell 13-26, Mission 21-26 and Lincoln 9-29.",
+     "coach": null,
+     "postseason": "Regular season closes at home against Balboa (date not found in sources opened). AAA (CIF San Francisco Section) varsity semifinals Saturday, Nov 14, 2026, 1:30 pm; City Championship, the Thanksgiving Day game, Thursday, Nov 26, 2026, 11:30 am. CIFSF lists seeds, matchups and sites as TBD. NorCal championships Dec 4 and 5; CIF State championships Dec 11 and 12.",
+     "recent": [
+      {
+       "date": "2026-10-17",
+       "opponent": "Mission",
+       "home": true,
+       "result": "L 21-26",
+       "source": {
+        "label": "MaxPreps, Mission Bears football (updated Nov 3, 2026)",
+        "url": "https://www.maxpreps.com/ca/san-francisco/mission-bears/football/"
+       }
+      },
+      {
+       "date": "2026-09-12",
+       "opponent": "Sequoia",
+       "home": true,
+       "result": "L 0-20",
+       "source": {
+        "label": "High School On SI, Washington Eagles football schedule (checked Nov 4, 2026)",
+        "url": "https://www.si.com/high-school/stats/california/football/teams/235328-washington-eagles/games"
+       },
+       "note": "Date and 2 pm kickoff from the MaxPreps schedule posted Aug 14, 2026; score from High School On SI."
+      },
+      {
+       "date": "2026-09-04",
+       "opponent": "Hayward",
+       "home": false,
+       "result": "L 0-54",
+       "source": {
+        "label": "High School On SI, Washington Eagles football schedule (checked Nov 4, 2026)",
+        "url": "https://www.si.com/high-school/stats/california/football/teams/235328-washington-eagles/games"
+       },
+       "note": "Date from the MaxPreps schedule posted Aug 14, 2026; score from High School On SI."
+      },
+      {
+       "date": "2026-08-29",
+       "opponent": "Healdsburg",
+       "home": true,
+       "result": "W 34-0",
+       "source": {
+        "label": "High School On SI, Washington Eagles football schedule (checked Nov 4, 2026)",
+        "url": "https://www.si.com/high-school/stats/california/football/teams/235328-washington-eagles/games"
+       },
+       "note": "Date from the MaxPreps schedule posted Aug 14, 2026; score from High School On SI."
+      }
+     ],
+     "next": [],
+     "needs_review": true,
+     "review_note": "Scores and records come from High School On SI and MaxPreps (aggregators). SI pages show no game dates, so only games dated on a MaxPreps page are listed. CIFSF schedule sheets (Google Sheets) could not be opened. The SI header and game list disagree on Washington's record; dates for the first three games come from a preseason MaxPreps schedule."
+    },
     {
      "sport": "Girls Volleyball",
      "season": "Fall 2026",
@@ -104,7 +447,7 @@
      "record": null,
      "recordAsOf": null,
      "coach": null,
-     "postseason": "No. 3 seed. Beat No. 6 CAL on Oct 28 and No. 2 Lowell 3-1 in the Oct 30 semifinal. City Championship vs No. 1 Lincoln was Tuesday, Nov 3, 7 pm, at City College of San Francisco; result not yet posted when checked Nov 4. AAA/CIF San Francisco Section varsity playoffs. NorCal playoffs Nov 10, 12 and 14, 2026; NorCal championship Nov 17; CIF State championships Nov 20 and 21 at Santiago Canyon College, Orange (teams TBD).",
+     "postseason": "No. 3 seed. Beat No. 6 CAL 3-0 on Oct 28 and No. 2 Lowell 3-1 in the Oct 30 semifinal. City Championship vs No. 1 Lincoln was Tuesday, Nov 3, 7 pm, at City College of San Francisco; CIFSF had not posted the result when checked Nov 4. NorCal playoffs Nov 10, 12 and 14, 2026; NorCal championship Nov 17; CIF State championships Nov 20 and 21 at Santiago Canyon College, Orange (teams TBD).",
      "recent": [
       {
        "date": "2026-10-30",
@@ -126,264 +469,252 @@
         "label": "CIFSF, HS Girls Volleyball Championship Program (V & JV), posted Nov 3, 2026",
         "url": "https://www.cifsf.org/hs-girls-volleyball-championship-program-v-jv/"
        },
-       "note": "AAA Round I at Washington High School."
+       "note": "AAA Round I at Washington High School. CAL is the abbreviation CIFSF uses."
       }
      ],
      "next": [],
      "needs_review": true,
-     "review_note": "Nov 3 final result not posted when checked Nov 4. Opponent 'CAL' is the abbreviation the CIFSF program uses. Record not found."
+     "review_note": "Nov 3 final result not posted when checked Nov 4. Record not found."
     },
     {
-     "sport": "Football",
+     "sport": "Girls Tennis",
      "season": "Fall 2026",
      "level": "Varsity",
      "record": null,
      "recordAsOf": null,
      "coach": null,
-     "postseason": "AAA/CIF San Francisco Section varsity football semifinals Saturday, Nov 14, 2026, 1:30 pm (matchups and sites TBD); City Championship Thursday, Nov 26, 2026 (Thanksgiving), 11:30 am, site TBD.",
+     "postseason": "No. 2 seed; played No. 3 Lincoln in the semifinal Tuesday, Nov 3, 3:15 pm, at Goldman Tennis Center (result not posted when checked Nov 4). AAA team City Championship Friday, Nov 6, 2026, 3:15 pm, Goldman Tennis Center, Golden Gate Park (semifinal winners). The section champion plays the Oakland Section champion in a NorCal playoff Nov 17.",
      "recent": [],
-     "next": [
+     "next": [],
+     "needs_review": true,
+     "review_note": "Semifinal results not found."
+    },
+    {
+     "sport": "Girls Golf",
+     "season": "Fall 2026",
+     "level": "Varsity",
+     "record": null,
+     "recordAsOf": null,
+     "coach": null,
+     "postseason": "No. 2 seed; city runner-up to Lowell on Oct 28.",
+     "recent": [
       {
-       "date": "2026-11-14",
-       "time": "1:30 pm",
-       "opponent": null,
+       "date": "2026-10-28",
+       "opponent": "Lowell",
        "home": null,
-       "venue": null,
-       "note": "AAA varsity semifinals (two games). Seeds, matchups and sites listed as TBD by CIFSF.",
+       "result": "L 549-406 (team strokes, lower wins)",
        "source": {
-        "label": "CIFSF, High School Playoffs (Fall), posted Oct 26, 2026",
+        "label": "CIFSF, High School Playoffs (Fall), checked Nov 4, 2026",
         "url": "https://www.cifsf.org/high-school-playoffs-fall/"
-       }
+       },
+       "note": "All City Tournament and Team Championship, Fleming Golf Course."
       },
       {
-       "date": "2026-11-26",
-       "time": "11:30 am",
-       "opponent": null,
+       "date": "2026-10-20",
+       "opponent": "Lincoln",
        "home": null,
-       "venue": null,
-       "note": "AAA varsity City Championship on Thanksgiving Day, semifinal winners. Site listed as TBD.",
+       "result": "W 272-294 (team strokes, lower wins)",
        "source": {
-        "label": "CIFSF, High School Playoffs (Fall), posted Oct 26, 2026",
+        "label": "CIFSF, High School Playoffs (Fall), checked Nov 4, 2026",
         "url": "https://www.cifsf.org/high-school-playoffs-fall/"
-       }
+       },
+       "note": "Team semifinal, Fleming Golf Course, 9 holes."
       }
      ],
-     "needs_review": true,
-     "review_note": "Only one result found, from High School On SI (aggregator) via Lincoln's page; no dates shown. Record not found."
+     "next": []
     }
    ]
   },
   {
-   "name": "Balboa High School",
+   "name": "Mission High School",
    "town": "San Francisco",
-   "mascot": "Buccaneers",
+   "mascot": "Bears",
    "division": "AAA (Academic Athletic Association), CIF San Francisco Section",
-   "address": "1000 Cayuga Ave, San Francisco, CA 94112",
+   "address": null,
    "site": null,
    "athleticsUrl": null,
-   "scheduleUrl": "https://www.cifsf.org/schedules-and-scores/",
-   "note": "SFUSD public high school. Soccer is a winter sport in the San Francisco Section.",
+   "scheduleUrl": "https://www.cifsf.org/high-school-playoffs-fall/",
+   "note": "SFUSD public high school in the AAA. Soccer, basketball and wrestling are winter sports in the San Francisco Section. Fall playoffs still to come: girls flag football semifinals Sat Nov 21 (10 and 11:30 am) and City Championship Thu Nov 26, 9:30 am; cross country All City Championships Wed Nov 18 at the Polo Fields, Golden Gate Park (varsity girls 2:30 pm, varsity boys 3:15 pm); cheer and spirit All City Championship Sat Dec 12 at Lincoln High School (CIFSF; teams and sites TBD unless stated).",
    "source": {
-    "label": "SFUSD, High Schools list",
-    "url": "https://sfusd.edu/es/node/1087"
+    "label": "CIFSF, member high schools",
+    "url": "https://www.cifsf.org/schools/high-schools/"
    },
    "teams": [
     {
      "sport": "Football",
      "season": "Fall 2026",
      "level": "Varsity",
-     "record": null,
-     "recordAsOf": null,
+     "record": "2-6",
+     "recordAsOf": "2026-11-03",
+     "recordNote": "MaxPreps (updated Nov 3, 2026): 2-6 overall, 2-3 AAA league, 4th. Earlier losses: Denair 12-57 (Aug 29, Kezar Stadium), at Terra Linda 6-22 (Sept 5), at Prospect by forfeit (Sept 11).",
      "coach": null,
-     "postseason": "AAA/CIF San Francisco Section varsity football semifinals Saturday, Nov 14, 2026, 1:30 pm (matchups and sites TBD); City Championship Thursday, Nov 26, 2026 (Thanksgiving), 11:30 am, site TBD.",
-     "recent": [],
-     "next": [
-      {
-       "date": "2026-11-14",
-       "time": "1:30 pm",
-       "opponent": null,
-       "home": null,
-       "venue": null,
-       "note": "AAA varsity semifinals (two games). Seeds, matchups and sites listed as TBD by CIFSF.",
-       "source": {
-        "label": "CIFSF, High School Playoffs (Fall), posted Oct 26, 2026",
-        "url": "https://www.cifsf.org/high-school-playoffs-fall/"
-       }
-      },
-      {
-       "date": "2026-11-26",
-       "time": "11:30 am",
-       "opponent": null,
-       "home": null,
-       "venue": null,
-       "note": "AAA varsity City Championship on Thanksgiving Day, semifinal winners. Site listed as TBD.",
-       "source": {
-        "label": "CIFSF, High School Playoffs (Fall), posted Oct 26, 2026",
-        "url": "https://www.cifsf.org/high-school-playoffs-fall/"
-       }
-      }
-     ],
-     "needs_review": true,
-     "review_note": "All results and the 6-3 (5-0) record are from High School On SI (aggregator), which shows no dates; El Camino result not shown. CIFSF schedule sheets could not be opened."
-    },
-    {
-     "sport": "Girls Volleyball",
-     "season": "Fall 2026",
-     "level": "Varsity",
-     "record": null,
-     "recordAsOf": null,
-     "coach": null,
-     "postseason": "No. 4 seed. Beat No. 5 Wallenberg in Round I on Oct 28, then lost to No. 1 Lincoln in the Oct 30 semifinal. Season over.",
+     "postseason": "AAA (CIF San Francisco Section) varsity semifinals Saturday, Nov 14, 2026, 1:30 pm; City Championship, the Thanksgiving Day game, Thursday, Nov 26, 2026, 11:30 am. CIFSF lists seeds, matchups and sites as TBD. NorCal championships Dec 4 and 5; CIF State championships Dec 11 and 12.",
      "recent": [
       {
        "date": "2026-10-30",
        "opponent": "Lincoln",
-       "home": null,
-       "result": "L 0-3",
+       "home": true,
+       "result": "L 2-30",
        "source": {
-        "label": "CIFSF, HS Girls Volleyball Championship Program (V & JV), posted Nov 3, 2026",
-        "url": "https://www.cifsf.org/hs-girls-volleyball-championship-program-v-jv/"
+        "label": "MaxPreps, Mission Bears football (updated Nov 3, 2026)",
+        "url": "https://www.maxpreps.com/ca/san-francisco/mission-bears/football/"
        },
-       "note": "AAA semifinal, played at Lowell High School per the CIFSF program."
+       "note": "High School On SI shows this game as 6-56. MaxPreps lists it as Friday Oct 30 in its results and Saturday Oct 31 in its schedule summary."
       },
       {
-       "date": "2026-10-28",
-       "opponent": "Wallenberg",
-       "home": true,
-       "result": "W 3-0",
-       "source": {
-        "label": "CIFSF, HS Girls Volleyball Championship Program (V & JV), posted Nov 3, 2026",
-        "url": "https://www.cifsf.org/hs-girls-volleyball-championship-program-v-jv/"
-       },
-       "note": "AAA Round I at Balboa High School."
-      }
-     ],
-     "next": [],
-     "needs_review": true,
-     "review_note": "Record not found."
-    }
-   ]
-  },
-  {
-   "name": "Lowell High School",
-   "town": "San Francisco",
-   "mascot": "Cardinals",
-   "division": "AAA (Academic Athletic Association), CIF San Francisco Section",
-   "address": "1101 Eucalyptus Drive, San Francisco, CA 94132",
-   "site": "https://www.sfusd.edu/school/lowell-high-school",
-   "athleticsUrl": "https://www.sfusd.edu/school/lowell-high-school/students-families/lowell-athletics",
-   "scheduleUrl": "https://www.cifsf.org/schedules-and-scores/",
-   "note": "SFUSD public high school. Phone 415-759-2730. Fall sports offered include cross country, flag football, football, golf, tennis and volleyball. Soccer is a winter sport in the San Francisco Section.",
-   "source": {
-    "label": "SFUSD, Lowell High School details",
-    "url": "https://www.sfusd.edu/school/lowell-high-school/details"
-   },
-   "teams": [
-    {
-     "sport": "Girls Volleyball",
-     "season": "Fall 2026",
-     "level": "Varsity",
-     "record": null,
-     "recordAsOf": null,
-     "coach": null,
-     "postseason": "No. 2 seed; lost to No. 3 Washington 3-1 in the Oct 30 AAA semifinal. Season over.",
-     "recent": [
-      {
-       "date": "2026-10-30",
+       "date": "2026-10-17",
        "opponent": "Washington",
+       "home": false,
+       "result": "W 26-21",
+       "source": {
+        "label": "MaxPreps, Mission Bears football (updated Nov 3, 2026)",
+        "url": "https://www.maxpreps.com/ca/san-francisco/mission-bears/football/"
+       }
+      },
+      {
+       "date": "2026-10-09",
+       "opponent": "Lowell",
+       "home": true,
+       "result": "L 6-39",
+       "source": {
+        "label": "MaxPreps, Mission Bears football (updated Nov 3, 2026)",
+        "url": "https://www.maxpreps.com/ca/san-francisco/mission-bears/football/"
+       }
+      },
+      {
+       "date": "2026-10-03",
+       "opponent": "Burton",
        "home": null,
-       "result": "L 1-3",
+       "result": "W 36-22",
        "source": {
-        "label": "CIFSF, HS Girls Volleyball Championship Program (V & JV), posted Nov 3, 2026",
-        "url": "https://www.cifsf.org/hs-girls-volleyball-championship-program-v-jv/"
+        "label": "MaxPreps, Mission Bears football (updated Nov 3, 2026)",
+        "url": "https://www.maxpreps.com/ca/san-francisco/mission-bears/football/"
        },
-       "note": "AAA semifinal; the CIFSF program lists the site as Lincoln High School."
-      }
-     ],
-     "next": [],
-     "needs_review": true,
-     "review_note": "Record not found."
-    },
-    {
-     "sport": "Football",
-     "season": "Fall 2026",
-     "level": "Varsity",
-     "record": null,
-     "recordAsOf": null,
-     "coach": null,
-     "postseason": "AAA/CIF San Francisco Section varsity football semifinals Saturday, Nov 14, 2026, 1:30 pm (matchups and sites TBD); City Championship Thursday, Nov 26, 2026 (Thanksgiving), 11:30 am, site TBD.",
-     "recent": [
-      {
-       "date": "2026-09-19",
-       "opponent": "Terra Linda",
-       "home": true,
-       "result": "L 15-30",
-       "source": {
-        "label": "MaxPreps, Lowell Cardinals football (last updated Sept 24, 2026)",
-        "url": "https://www.maxpreps.com/ca/san-francisco/lowell-cardinals/football/"
-       }
+       "note": "MaxPreps lists this as a Mission home game; High School On SI lists it as a Burton home game."
       },
       {
-       "date": "2026-09-11",
-       "opponent": "Emerald",
-       "home": true,
-       "result": "W 45-18",
+       "date": "2026-09-26",
+       "opponent": "Balboa",
+       "home": null,
+       "result": "L 0-50",
        "source": {
-        "label": "MaxPreps, Lowell Cardinals football (last updated Sept 24, 2026)",
-        "url": "https://www.maxpreps.com/ca/san-francisco/lowell-cardinals/football/"
-       }
-      },
-      {
-       "date": "2026-09-05",
-       "opponent": "Novato",
-       "home": true,
-       "result": "W 30-21",
-       "source": {
-        "label": "MaxPreps, Lowell Cardinals football (last updated Sept 24, 2026)",
-        "url": "https://www.maxpreps.com/ca/san-francisco/lowell-cardinals/football/"
-       }
-      },
-      {
-       "date": "2026-08-28",
-       "opponent": "Albany",
-       "home": true,
-       "result": "W 58-26",
-       "source": {
-        "label": "MaxPreps, Lowell Cardinals football (last updated Sept 24, 2026)",
-        "url": "https://www.maxpreps.com/ca/san-francisco/lowell-cardinals/football/"
-       }
+        "label": "MaxPreps, Mission Bears football (updated Nov 3, 2026)",
+        "url": "https://www.maxpreps.com/ca/san-francisco/mission-bears/football/"
+       },
+       "note": "MaxPreps lists this as a Mission home game; High School On SI lists it as a Balboa home game."
       }
      ],
      "next": [
       {
-       "date": "2026-11-14",
-       "time": "1:30 pm",
-       "opponent": null,
-       "home": null,
+       "date": "2026-11-06",
+       "time": "5:30 pm",
+       "opponent": "Galileo",
+       "home": true,
        "venue": null,
-       "note": "AAA varsity semifinals (two games). Seeds, matchups and sites listed as TBD by CIFSF.",
+       "note": "Listed as Mission's next game, a home game, on MaxPreps; site not stated.",
        "source": {
-        "label": "CIFSF, High School Playoffs (Fall), posted Oct 26, 2026",
-        "url": "https://www.cifsf.org/high-school-playoffs-fall/"
-       }
-      },
-      {
-       "date": "2026-11-26",
-       "time": "11:30 am",
-       "opponent": null,
-       "home": null,
-       "venue": null,
-       "note": "AAA varsity City Championship on Thanksgiving Day, semifinal winners. Site listed as TBD.",
-       "source": {
-        "label": "CIFSF, High School Playoffs (Fall), posted Oct 26, 2026",
-        "url": "https://www.cifsf.org/high-school-playoffs-fall/"
+        "label": "MaxPreps, Mission Bears football (updated Nov 3, 2026)",
+        "url": "https://www.maxpreps.com/ca/san-francisco/mission-bears/football/"
        }
       }
      ],
      "needs_review": true,
-     "review_note": "MaxPreps page was last updated Sept 24, 2026 (3-1 at that point) and its 'vs' labels are read as home games; later results come only from High School On SI. Current record not found. MaxPreps lists a head coach, but no school page naming the coach was opened, so coach is left null."
+     "review_note": "Scores and record from MaxPreps (aggregator). CIFSF schedule sheets (Google Sheets) could not be opened."
     }
-   ]
+   ],
+   "needs_review": true,
+   "review_note": "Address not yet confirmed in sources opened."
+  },
+  {
+   "name": "Galileo Academy of Science and Technology",
+   "town": "San Francisco",
+   "mascot": "Lions",
+   "division": "AAA (Academic Athletic Association), CIF San Francisco Section",
+   "address": null,
+   "site": null,
+   "athleticsUrl": null,
+   "scheduleUrl": "https://www.cifsf.org/high-school-playoffs-fall/",
+   "note": "SFUSD public high school in the AAA. Soccer, basketball and wrestling are winter sports in the San Francisco Section. Fall playoffs still to come: girls flag football semifinals Sat Nov 21 (10 and 11:30 am) and City Championship Thu Nov 26, 9:30 am; cross country All City Championships Wed Nov 18 at the Polo Fields, Golden Gate Park (varsity girls 2:30 pm, varsity boys 3:15 pm); cheer and spirit All City Championship Sat Dec 12 at Lincoln High School (CIFSF; teams and sites TBD unless stated).",
+   "source": {
+    "label": "CIFSF, member high schools",
+    "url": "https://www.cifsf.org/schools/high-schools/"
+   },
+   "teams": [
+    {
+     "sport": "Football",
+     "season": "Fall 2026",
+     "level": "Varsity",
+     "record": "0-7",
+     "recordAsOf": "2026-11-04",
+     "recordNote": "High School On SI: 0-7 overall, 0-4 AAA league. Undated results there: losses to Fremont (Oakland) 21-33, Emerald 6-16, Burton 12-15 (non-league), Lincoln 6-19, Washington 14-21, Lowell 0-42 and Balboa 0-2.",
+     "coach": null,
+     "postseason": "AAA (CIF San Francisco Section) varsity semifinals Saturday, Nov 14, 2026, 1:30 pm; City Championship, the Thanksgiving Day game, Thursday, Nov 26, 2026, 11:30 am. CIFSF lists seeds, matchups and sites as TBD. NorCal championships Dec 4 and 5; CIF State championships Dec 11 and 12.",
+     "recent": [],
+     "next": [
+      {
+       "date": "2026-11-06",
+       "time": "5:30 pm",
+       "opponent": "Mission",
+       "home": false,
+       "venue": null,
+       "note": "Listed on Mission's MaxPreps page as a Mission home game; site not stated.",
+       "source": {
+        "label": "MaxPreps, Mission Bears football (updated Nov 3, 2026)",
+        "url": "https://www.maxpreps.com/ca/san-francisco/mission-bears/football/"
+       }
+      }
+     ],
+     "needs_review": true,
+     "review_note": "Scores and records come from High School On SI and MaxPreps (aggregators). SI pages show no game dates, so only games dated on a MaxPreps page are listed. CIFSF schedule sheets (Google Sheets) could not be opened. No dated Galileo result was found."
+    }
+   ],
+   "needs_review": true,
+   "review_note": "Address not yet confirmed in sources opened. CIFSF lists the school as Galileo."
+  },
+  {
+   "name": "Phillip and Sala Burton Academic High School",
+   "town": "San Francisco",
+   "mascot": "Pumas",
+   "division": "AAA (Academic Athletic Association), CIF San Francisco Section",
+   "address": null,
+   "site": null,
+   "athleticsUrl": null,
+   "scheduleUrl": "https://www.cifsf.org/high-school-playoffs-fall/",
+   "note": "SFUSD public high school in the AAA. Soccer, basketball and wrestling are winter sports in the San Francisco Section. Fall playoffs still to come: girls flag football semifinals Sat Nov 21 (10 and 11:30 am) and City Championship Thu Nov 26, 9:30 am; cross country All City Championships Wed Nov 18 at the Polo Fields, Golden Gate Park (varsity girls 2:30 pm, varsity boys 3:15 pm); cheer and spirit All City Championship Sat Dec 12 at Lincoln High School (CIFSF; teams and sites TBD unless stated).",
+   "source": {
+    "label": "CIFSF, member high schools",
+    "url": "https://www.cifsf.org/schools/high-schools/"
+   },
+   "teams": [
+    {
+     "sport": "Football",
+     "season": "Fall 2026",
+     "level": "Varsity",
+     "record": "3-6",
+     "recordAsOf": "2026-11-04",
+     "recordNote": "High School On SI: 3-6 overall, 0-5 AAA league. Undated results there: wins over Lynbrook 20-7, Kimball 20-18 and Galileo 15-12 (non-league); league losses to Mission 22-36, Lincoln 12-46, Lowell 6-53, Balboa 6-41 and Washington 14-19.",
+     "coach": null,
+     "postseason": "AAA (CIF San Francisco Section) varsity semifinals Saturday, Nov 14, 2026, 1:30 pm; City Championship, the Thanksgiving Day game, Thursday, Nov 26, 2026, 11:30 am. CIFSF lists seeds, matchups and sites as TBD. NorCal championships Dec 4 and 5; CIF State championships Dec 11 and 12.",
+     "recent": [
+      {
+       "date": "2026-10-03",
+       "opponent": "Mission",
+       "home": null,
+       "result": "L 22-36",
+       "source": {
+        "label": "MaxPreps, Mission Bears football (updated Nov 3, 2026)",
+        "url": "https://www.maxpreps.com/ca/san-francisco/mission-bears/football/"
+       },
+       "note": "Mission's MaxPreps page lists this as a Mission home game; High School On SI lists it as a Burton home game."
+      }
+     ],
+     "next": [],
+     "needs_review": true,
+     "review_note": "Scores and records come from High School On SI and MaxPreps (aggregators). SI pages show no game dates, so only games dated on a MaxPreps page are listed. CIFSF schedule sheets (Google Sheets) could not be opened."
+    }
+   ],
+   "needs_review": true,
+   "review_note": "Address not yet confirmed in sources opened. CIFSF lists the school as Phillip & Sala Burton."
   }
  ],
  "youth": [
@@ -579,32 +910,34 @@
  ],
  "teams": [
   {
+   "name": "Golden State Warriors",
+   "league": "NBA",
+   "sport": "Basketball",
+   "venue": "Chase Center, San Francisco",
+   "site": "https://www.nba.com/warriors",
+   "note": "4-3 through Nov 1 (2-1 at home); beat the Clippers 124-112 at home Nov 1. Home games at Chase Center, Nov 4 to Dec 31 (Pacific times): Miami Thu Nov 5, 7 pm; Orlando Sat Nov 7, 5:30 pm; New Orleans Mon Nov 9, 7 pm; Boston Sun Nov 22, 5:30 pm; Sacramento Wed Nov 25, 7 pm (NBA Cup group play); LA Clippers Sun Nov 29, 5:30 pm; Utah Tue Dec 1, 8 pm (NBC); Dallas Tue Dec 22, 7:30 pm (NBC); Denver Fri Dec 25 (Christmas), 7:30 pm (ABC); Minnesota Sun Dec 27, 5:30 pm; Houston Wed Dec 30, 7 pm. Two more games between Dec 4 and Dec 11 depend on NBA Cup knockout results; opponents and sites not yet set.",
+   "source": {
+    "label": "Golden State Warriors, 2026-27 schedule (official PDF)",
+    "url": "https://cdn.nba.com/teams/uploads/sites/1610612744/2026/08/Warriors-2026-27-Schedule_list.pdf"
+   },
+   "alsoSource": {
+    "label": "Golden State Warriors game notes (through Nov 1, 2026)",
+    "url": "https://www.nba.com/gamenotes/warriors.pdf"
+   }
+  },
+  {
    "name": "San Francisco 49ers",
    "league": "NFL",
    "sport": "Football",
    "venue": "Levi's Stadium, Santa Clara (not in San Francisco)",
    "site": "https://www.49ers.com/",
-   "note": "Remaining 2026 home games: Las Vegas Raiders, Sunday Nov 8, 1:05 pm (CBS); Minnesota, Sunday Nov 22, 5:20 pm (NBC), a designated home game played at Estadio Banorte in Mexico City; Seattle, Sunday Nov 29, 1:25 pm (FOX); Los Angeles Rams, Sunday Dec 13, 1:25 pm (FOX); Philadelphia, Sunday Jan 3, 2027, 5:20 pm (NBC). Times are Pacific and may change under flexible scheduling.",
+   "note": "6-1 after Week 7 (bye in Week 8). Remaining games, Pacific times: Las Vegas at Levi's Stadium Sun Nov 8, 1:25 pm (FOX); at Dallas Sun Nov 15, 1:25 pm (FOX); Minnesota Sun Nov 22, 5:20 pm (NBC), a 49ers home game played at Estadio Banorte in Mexico City; Seattle at Levi's Stadium Sun Nov 29, 1:25 pm (FOX); at New York Giants Sun Dec 6, 10 am (FOX); LA Rams at Levi's Stadium Sun Dec 13, 1:25 pm (FOX); at LA Chargers Thu Dec 17, 5:15 pm (Prime Video); at Kansas City Sun Dec 27, 1:25 pm (CBS); Philadelphia at Levi's Stadium Sun Jan 3, 5:20 pm (NBC); at Arizona, date TBD. Radio: KSAN 107.7 FM and KNBR 104.5 FM / 680 AM.",
    "source": {
-    "label": "49ers news release, 49ers Announce 2026 Schedule",
-    "url": "https://49ers.1rmg.com/news-releases/49ers-announce-2026-schedule/"
+    "label": "San Francisco 49ers, 2026 schedule (49ers.com)",
+    "url": "https://www.49ers.com/schedule/"
    },
    "needs_review": true,
-   "review_note": "Schedule is from the team's spring release; check for flex changes. 'Santa Clara' for Levi's Stadium was not stated on the release page itself."
-  },
-  {
-   "name": "Golden State Warriors",
-   "league": "NBA",
-   "sport": "Basketball",
-   "venue": "Chase Center, San Francisco",
-   "site": null,
-   "note": "Home games listed for November and December 2026: Heat Thu Nov 5, 7 pm; Magic Sat Nov 7, 5:30 pm; Pelicans Mon Nov 9, 7 pm; Jazz Tue Dec 1, 8 pm; Mavericks Tue Dec 22, 7:30 pm. Christmas Day game vs Denver (site not stated in sources opened). Recent home results: W 124-112 vs Clippers Nov 1; W 116-113 vs Suns Nov 2.",
-   "source": {
-    "label": "FanDuel Research, 2026-27 Golden State Warriors schedule",
-    "url": "https://fanduel.com/research/2026-27-golden-state-warriors-schedule-results-tv-channel"
-   },
-   "needs_review": true,
-   "review_note": "Secondary source (times converted from Eastern). The list looks incomplete for late November and December; the team's official schedule was not opened."
+   "review_note": "Record computed from the results listed on 49ers.com (wins over the Rams, Miami, Arizona, Denver, Seattle and Washington; loss at Atlanta). Santa Clara location of Levi's Stadium not yet confirmed on a page opened in this pass."
   },
   {
    "name": "Golden State Valkyries",
@@ -862,6 +1195,12 @@
    "title": "Sharp-shooting Dream beat Valkyries 80-69 to force Game 7 in WNBA Finals",
    "url": "https://www.aljazeera.com/sports/2026/10/30/sharp-shooting-dream-beat-valkyries-80-69-to-force-game-7-in-wnba-finals",
    "source": "Al Jazeera"
+  },
+  {
+   "date": "2026-10-30",
+   "title": "Dream Blitzes Valkyries 80-69 to Force Winner-Take-All Game 7",
+   "url": "https://justwomenssports.com/?p=42483",
+   "source": "Just Women's Sports"
   },
   {
    "date": "2026-10-29",

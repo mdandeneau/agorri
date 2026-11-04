@@ -1,23 +1,23 @@
 {
  "as_of": "2026-11-04",
- "note": "From San Francisco Recreation and Park Department pages, its eNews emails, San Francisco Public Works project pages and SFMTA project updates, with a source on every item. Rec and Park runs parks and recreation; street repaving, sewer and streetscape work is Public Works, and street safety and transit projects are SFMTA. The winter 2027 class catalog was not posted on any page we could open.",
+ "note": "From San Francisco Recreation and Park Department pages and press releases, Gardens of Golden Gate Park, San Francisco Public Works project pages and SFMTA advisories, with a source on every item. Rec and Park runs parks, pools, golf and recreation; street repaving, sewer and streetscape work is Public Works; street safety and transit projects are SFMTA. The winter 2027 class catalog and registration dates were not posted as of November 4.",
  "department": {
   "name": "San Francisco Recreation and Park Department",
   "url": "https://sfrecpark.org",
-  "phone": null,
+  "phone": "415-831-2700",
   "email": "rpdinfo@sfgov.org",
-  "address": null,
+  "address": "McLaren Lodge, Golden Gate Park, 501 Stanyan Street, San Francisco, CA 94117",
   "hours": null,
-  "what": "Runs the city's parks, recreation centers, pools, playgrounds, Golden Gate Park, Camp Mather, the Randall Museum and Sharon Art Studio, and quarterly recreation classes. Street repaving, sewer and streetscape work is done by San Francisco Public Works; street safety, parking and transit projects by the SFMTA.",
+  "what": "Runs the city's parks, playgrounds, recreation centers and clubhouses, nine public pools, six golf courses (one of them, Sharp Park, is in Pacifica), Golden Gate Park, Camp Mather, the Randall Museum and Sharon Art Studio, and quarterly recreation classes. Street repaving, sewer and streetscape work is done by San Francisco Public Works; street safety, parking and transit projects by the SFMTA.",
   "source": {
-   "label": "Rec and Park Spring 2026 Catalog and registration FAQ",
-   "url": "https://sfrecpark.org/DocumentCenter/View/28186/2026-Spring-Catalog"
+   "label": "Rec and Park, Swimming Pools page (main office and address); Golf Courses page",
+   "url": "https://sfrecpark.org/482/Swimming-Pools"
   }
  },
  "registration": {
   "url": "https://apm.activecommunities.com/sfrecpark/activity_search",
   "label": "Search and register for classes (Rec and Park online registration)",
-  "note": "Registration opens quarterly: the department's FAQ says it typically opens in December for winter, March for spring and day camp, May for summer and August for fall. Create an account first (your email is your login), then register online, by phone at 628-652-2900, or at a walk-in site. For Spring 2026, general registration opened March 7 at 10 am after priority days for Sharon Art Studio and Randall Museum members (Feb 28) and for scholarship recipients and senior classes (Mar 4); half of the slots were held back and released later with waitlists. Exact winter 2027 dates were not posted on pages we could open. Late registration is allowed by phone but is not prorated."
+  "note": "Registration opens quarterly: the department's FAQ says it usually opens in August for fall, December for winter, March for spring and day camp, and May for summer. Last year, winter class registration opened Saturday, December 13, 2025 at 10 am (Rec and Park eNews, Dec 10, 2025). Exact winter 2027 dates were not posted on any page we could open as of November 4, 2026. Create an account first (your email is your login), then register online, by phone at 628-652-2900, or at a walk-in site during the registration period. For most courses you can still register by phone after a course starts, but late registration is not prorated. Swim passes and memberships are sold through the same system (sfrecpark.org/register)."
  },
  "facilities": [
   {
@@ -130,7 +130,7 @@
    "hours": null,
    "seasonal": null,
    "url": "https://t.e2ma.net/message/o1fohk/wfcl20hc",
-   "note": "Closed for annual maintenance in February 2026 and reopened February 24. The eNews named Garfield Pool and Balboa Pool as nearby alternatives during closures.",
+   "note": "Closed for annual maintenance in February 2026 and reopened February 24. The eNews named Garfield Pool and Balboa Pool as nearby alternatives during closures. One of the city's nine public pools.",
    "source": {
     "label": "Rec and Park eNews, Feb 11, 2026",
     "url": "https://t.e2ma.net/message/o1fohk/wfcl20hc"
@@ -221,18 +221,296 @@
     "label": "Rec and Park eNews, May 20, 2026",
     "url": "https://t.e2ma.net/message/0q3wrk/wfcl20hc"
    }
+  },
+  {
+   "id": "balboa-pool",
+   "name": "Balboa Pool",
+   "kind": "Pool",
+   "address": "San Jose Avenue and Havelock, San Francisco, CA 94112",
+   "features": [
+    "Lap swim",
+    "Senior swim",
+    "Recreation swim",
+    "Fitness classes",
+    "Swim lessons",
+    "Community room",
+    "Locker room",
+    "Parking"
+   ],
+   "hours": "Fall 2026 schedule, September 1 to December 12: sessions between 7:00 am and 7:30 pm (see the schedule for each day)",
+   "seasonal": "Closed November 11, November 26 and 27, and Saturday, December 12 (staff in-service)",
+   "url": "https://sfrecpark.org/488/Balboa-Pool",
+   "note": "Phone (415) 831-6805.",
+   "source": {
+    "label": "Rec and Park, Balboa Pool and its Fall 2026 schedule",
+    "url": "https://sfrecpark.org/488/Balboa-Pool"
+   }
+  },
+  {
+   "id": "coffman-pool",
+   "name": "Coffman Pool",
+   "kind": "Pool",
+   "address": "1701 Visitacion Avenue, San Francisco, CA 94134",
+   "features": [],
+   "hours": "Fall 2026 schedule runs August 18 to December 12 (posted on the pool page)",
+   "seasonal": null,
+   "url": "https://www.sfrecpark.org/489/Coffman-Pool",
+   "note": "Phone (415) 337-9085.",
+   "source": {
+    "label": "Rec and Park, Coffman Pool",
+    "url": "https://www.sfrecpark.org/489/Coffman-Pool"
+   }
+  },
+  {
+   "id": "hamilton-pool",
+   "name": "Hamilton Pool",
+   "kind": "Pool",
+   "address": "1900 Geary Street at Steiner Street, San Francisco, CA 94115",
+   "features": [],
+   "hours": "Fall 2026 schedule runs August 18 to December 12 (posted on the pool page)",
+   "seasonal": null,
+   "url": "https://www.sfrecpark.org/491/Hamilton-Pool",
+   "note": "Phone (415) 292-2008.",
+   "source": {
+    "label": "Rec and Park, Hamilton Pool",
+    "url": "https://www.sfrecpark.org/491/Hamilton-Pool"
+   }
+  },
+  {
+   "id": "rossi-pool",
+   "name": "Rossi Pool",
+   "kind": "Pool",
+   "address": null,
+   "features": [],
+   "hours": null,
+   "seasonal": "Closed for annual maintenance from November 2; reopens November 22, 2026",
+   "url": "https://sfrecpark.org/Facilities/Facility/Details/Rossi-Pool-219",
+   "note": null,
+   "source": {
+    "label": "Rec and Park, Swimming Pools",
+    "url": "https://sfrecpark.org/482/Swimming-Pools"
+   }
+  },
+  {
+   "id": "mission-community-pool",
+   "name": "Mission Community Pool",
+   "kind": "Pool",
+   "address": null,
+   "features": [],
+   "hours": null,
+   "seasonal": "Last day of the 2026 season is November 21",
+   "url": "https://sfrecpark.org/493/Mission-Community-Pool",
+   "note": null,
+   "source": {
+    "label": "Rec and Park, Swimming Pools",
+    "url": "https://sfrecpark.org/482/Swimming-Pools"
+   }
+  },
+  {
+   "id": "garfield-pool",
+   "name": "Garfield Pool",
+   "kind": "Pool",
+   "address": null,
+   "features": [],
+   "hours": null,
+   "seasonal": null,
+   "url": "https://sfrecpark.org/490/Garfield-Pool",
+   "note": null,
+   "source": {
+    "label": "Rec and Park, Swimming Pools",
+    "url": "https://sfrecpark.org/482/Swimming-Pools"
+   }
+  },
+  {
+   "id": "north-beach-pool",
+   "name": "North Beach Pool",
+   "kind": "Pool",
+   "address": null,
+   "features": [],
+   "hours": null,
+   "seasonal": null,
+   "url": "https://sfrecpark.org/Facilities/Facility/Details/North-Beach-Pool-218",
+   "note": null,
+   "source": {
+    "label": "Rec and Park, Swimming Pools",
+    "url": "https://sfrecpark.org/482/Swimming-Pools"
+   }
+  },
+  {
+   "id": "sava-pool",
+   "name": "Sava Pool",
+   "kind": "Pool",
+   "address": null,
+   "features": [],
+   "hours": null,
+   "seasonal": null,
+   "url": "https://sfrecpark.org/546/Sava-Pool",
+   "note": null,
+   "source": {
+    "label": "Rec and Park, Swimming Pools",
+    "url": "https://sfrecpark.org/482/Swimming-Pools"
+   }
+  },
+  {
+   "id": "gleneagles-golf",
+   "name": "Gleneagles Golf Course",
+   "kind": "Golf course",
+   "address": "McLaren Park, San Francisco",
+   "features": [
+    "9 holes"
+   ],
+   "hours": null,
+   "seasonal": null,
+   "url": "https://www.sfrecpark.org/Facilities/Facility/Details/Gleneagles-Golf-Course-40",
+   "note": "Rates, tee times and resident cards: sfrecpark.org/1384/Rates-and-Tee-Times.",
+   "source": {
+    "label": "Rec and Park, Golf Courses",
+    "url": "https://sfrecpark.org/445/Golf-Courses"
+   }
+  },
+  {
+   "id": "golden-gate-park-golf",
+   "name": "Golden Gate Park Golf Course",
+   "kind": "Golf course",
+   "address": "Golden Gate Park, San Francisco",
+   "features": [],
+   "hours": null,
+   "seasonal": null,
+   "url": "https://www.sfrecpark.org/Facilities/Facility/Details/Golden-Gate-Park-Golf-Course-277",
+   "note": "Rates, tee times and resident cards: sfrecpark.org/1384/Rates-and-Tee-Times.",
+   "source": {
+    "label": "Rec and Park, Golf Courses",
+    "url": "https://sfrecpark.org/445/Golf-Courses"
+   }
+  },
+  {
+   "id": "lincoln-park-golf",
+   "name": "Lincoln Park Golf Course",
+   "kind": "Golf course",
+   "address": "Lincoln Park, San Francisco",
+   "features": [],
+   "hours": null,
+   "seasonal": null,
+   "url": "https://www.sfrecpark.org/Facilities/Facility/Details/Lincoln-Park-Golf-Course-41",
+   "note": "Overlooks the Golden Gate Bridge. Rates, tee times and resident cards: sfrecpark.org/1384/Rates-and-Tee-Times.",
+   "source": {
+    "label": "Rec and Park, Golf Courses",
+    "url": "https://sfrecpark.org/445/Golf-Courses"
+   }
+  },
+  {
+   "id": "sharp-park-golf",
+   "name": "Sharp Park Golf Course",
+   "kind": "Golf course",
+   "address": "Pacifica, CA",
+   "features": [],
+   "hours": null,
+   "seasonal": null,
+   "url": "https://www.sfrecpark.org/Facilities/Facility/Details/Sharp-Park-Golf-Course-42",
+   "note": "Run by San Francisco Rec and Park but located in Pacifica. Rates, tee times and resident cards: sfrecpark.org/1384/Rates-and-Tee-Times.",
+   "source": {
+    "label": "Rec and Park, Golf Courses",
+    "url": "https://sfrecpark.org/445/Golf-Courses"
+   }
+  },
+  {
+   "id": "tpc-harding-park",
+   "name": "TPC Harding Park",
+   "kind": "Golf course",
+   "address": "Lake Merced, San Francisco",
+   "features": [],
+   "hours": null,
+   "seasonal": null,
+   "url": "https://www.sfrecpark.org/Facilities/Facility/Details/TPC-Harding-Park-Golf-Course-44",
+   "note": "Paragolfer stand-up golf chairs are available at Harding and Fleming. Rates, tee times and resident cards: sfrecpark.org/1384/Rates-and-Tee-Times.",
+   "source": {
+    "label": "Rec and Park, Golf Courses",
+    "url": "https://sfrecpark.org/445/Golf-Courses"
+   }
+  },
+  {
+   "id": "tpc-fleming",
+   "name": "Fleming Golf Course (TPC Fleming)",
+   "kind": "Golf course",
+   "address": "Inside TPC Harding Park, Lake Merced, San Francisco",
+   "features": [
+    "9 holes"
+   ],
+   "hours": null,
+   "seasonal": null,
+   "url": "https://www.sfrecpark.org/Facilities/Facility/Details/TPC-Fleming-Golf-Course-43",
+   "note": "Rates, tee times and resident cards: sfrecpark.org/1384/Rates-and-Tee-Times.",
+   "source": {
+    "label": "Rec and Park, Golf Courses",
+    "url": "https://sfrecpark.org/445/Golf-Courses"
+   }
+  },
+  {
+   "id": "conservatory-of-flowers",
+   "name": "Conservatory of Flowers",
+   "kind": "Garden",
+   "address": "100 John F Kennedy Drive, Golden Gate Park, San Francisco, CA 94118",
+   "features": [
+    "Free on the first Tuesday of the month",
+    "Free nightly light show, Photosynthesis, starting 30 minutes after sunset"
+   ],
+   "hours": "10 am to 4:30 pm, last entry 4 pm; closed Wednesdays",
+   "seasonal": null,
+   "url": "https://gggp.org/admissions-hours/",
+   "note": "Hours and admission are posted by Gardens of Golden Gate Park (gggp.org), which Rec and Park links from its home page. Free general admission with a valid EBT card.",
+   "source": {
+    "label": "Gardens of Golden Gate Park, Admissions and hours",
+    "url": "https://gggp.org/admissions-hours/"
+   }
+  },
+  {
+   "id": "japanese-tea-garden",
+   "name": "Japanese Tea Garden",
+   "kind": "Garden",
+   "address": "75 Hagiwara Tea Garden Drive, Golden Gate Park, San Francisco, CA 94118",
+   "features": [
+    "Free hour Monday, Wednesday and Friday, 9 to 10 am"
+   ],
+   "hours": "Daily from 9 am",
+   "seasonal": "November to February: last entry 4:30 pm (5:30 pm March to October)",
+   "url": "https://gggp.org/admissions-hours/",
+   "note": "Hours and admission are posted by Gardens of Golden Gate Park (gggp.org), which Rec and Park links from its home page. Free general admission with a valid EBT card.",
+   "source": {
+    "label": "Gardens of Golden Gate Park, Admissions and hours",
+    "url": "https://gggp.org/admissions-hours/"
+   }
+  },
+  {
+   "id": "sf-botanical-garden",
+   "name": "San Francisco Botanical Garden",
+   "kind": "Garden",
+   "address": "1199 9th Avenue, Golden Gate Park, San Francisco, CA 94122",
+   "features": [
+    "Free daily 7:30 to 9 am",
+    "Free on the second Tuesday of each month",
+    "Free on Thanksgiving, Christmas and New Year's Day",
+    "Bookstore and plant shop, daily 10 am to 4 pm"
+   ],
+   "hours": "Daily from 7:30 am",
+   "seasonal": "First Sunday in November through January: last entry 4 pm; the garden closes one hour after last entry. Lightscape runs November 20 to January 3 (separate ticket).",
+   "url": "https://gggp.org/admissions-hours/",
+   "note": "Hours and admission are posted by Gardens of Golden Gate Park (gggp.org), which Rec and Park links from its home page. Free general admission with a valid EBT card.",
+   "source": {
+    "label": "Gardens of Golden Gate Park, Admissions and hours",
+    "url": "https://gggp.org/admissions-hours/"
+   }
   }
  ],
  "programs": [
   {
-   "name": "Winter recreation classes (next quarterly season)",
-   "who": "All ages; classes listed by age group in the catalog",
-   "when": "Winter registration typically opens in December; exact winter 2027 dates not yet posted",
-   "where": "Recreation centers and parks citywide",
+   "name": "Winter 2027 recreation classes",
+   "who": "All ages; classes are listed by age group in each season's catalog",
+   "when": "Winter registration usually opens in December (last year: Saturday, December 13, 2025 at 10 am); winter 2027 dates not posted as of November 4",
+   "where": "Recreation centers, clubhouses and parks citywide",
    "cost": null,
    "url": "https://apm.activecommunities.com/sfrecpark/activity_search",
    "source": {
-    "label": "Rec and Park registration FAQ",
+    "label": "Rec and Park registration FAQ; Rec and Park eNews, Dec 10, 2025",
     "url": "https://sfrecpark.org/m/faq?cat=16"
    }
   },
@@ -242,7 +520,7 @@
    "when": "Each quarterly season; scholarship recipients get a priority registration day",
    "where": "Applies to Rec and Park classes",
    "cost": "Financial assistance toward class fees",
-   "url": "https://sfrecpark.org/m/faq?cat=16",
+   "url": "https://sfrecpark.org/408/Apply-for-a-Scholarship",
    "source": {
     "label": "Rec and Park registration FAQ",
     "url": "https://sfrecpark.org/m/faq?cat=16"
@@ -258,6 +536,30 @@
    "source": {
     "label": "Rec and Park eNews, Feb 25, 2026",
     "url": "https://t.e2ma.net/message/g76uik/wfcl20hc"
+   }
+  },
+  {
+   "name": "Swim passes, lap swim and swim lessons",
+   "who": "All ages",
+   "when": "Fall 2026 pool schedules run to December 12",
+   "where": "Nine city pools (Rossi closed November 2 to 21; Mission's season ends November 21)",
+   "cost": "Admission fees on the aquatic fee sheet effective July 1, 2026",
+   "url": "https://sfrecpark.org/register",
+   "source": {
+    "label": "Rec and Park, Swimming Pools",
+    "url": "https://sfrecpark.org/482/Swimming-Pools"
+   }
+  },
+  {
+   "name": "Lightscape at the San Francisco Botanical Garden",
+   "who": "All ages",
+   "when": "November 20, 2026 to January 3, 2027, evenings",
+   "where": "San Francisco Botanical Garden, Golden Gate Park",
+   "cost": "Separate ticket",
+   "url": "https://gggp.org/admissions-hours/",
+   "source": {
+    "label": "Gardens of Golden Gate Park, Admissions and hours",
+    "url": "https://gggp.org/admissions-hours/"
    }
   }
  ],
@@ -469,6 +771,151 @@
     "label": "SFMTA, Beach Street Quick-Build updates",
     "url": "https://www.sfmta.com/projects/project-updates/28896"
    }
+  },
+  {
+   "title": "Outdoor fitness and recreation area for seniors (Golden Gate Park Senior Center)",
+   "status": "Under construction",
+   "summary": "Rec and Park broke ground October 6, 2026 on a 5,000 square foot outdoor area at the Golden Gate Park Senior Center: stationary exercise equipment for up to 20 people, open space for dance, tai chi, yoga and classes, shaded seating under a pergola, an accessible picnic table and pathway, and four refreshed accessible parking spaces. The design came from four community meetings and two multilingual surveys in 2024 and 2025. No completion date was given.",
+   "cost": "$1.27 million ($1.175 million from the 2020 Health and Recovery Bond, $100,000 from the General Fund)",
+   "url": "https://www.sfrecpark.org/CivicAlerts.aspx?AID=3107",
+   "keywords": [
+    "senior center",
+    "golden gate park",
+    "outdoor fitness",
+    "seniors",
+    "health and recovery bond"
+   ],
+   "source": {
+    "label": "Rec and Park press release, Oct 6, 2026",
+    "url": "https://www.sfrecpark.org/CivicAlerts.aspx?AID=3107"
+   }
+  },
+  {
+   "title": "Nate Thurmond Panhandle Basketball Courts refurbishment",
+   "status": "Completed",
+   "summary": "Unveiled October 14, 2026. The courts' third refurbishment, by the Golden State Community Foundation with Rec and Park and the Good Tidings Foundation, milled and leveled the surface, repaired cracks, recoated and painted the court, and added new rims and backboards and hand-painted signs honoring Nate Thurmond.",
+   "cost": "No cost given",
+   "url": "https://www.sfrecpark.org/CivicAlerts.aspx?AID=3116",
+   "keywords": [
+    "panhandle",
+    "basketball courts",
+    "nate thurmond",
+    "warriors"
+   ],
+   "source": {
+    "label": "Rec and Park News Flash, Oct 14, 2026",
+    "url": "https://www.sfrecpark.org/CivicAlerts.aspx?AID=3116"
+   }
+  },
+  {
+   "title": "WNBA 3-point lines at Margaret S. Hayward and Joe DiMaggio Playgrounds",
+   "status": "Completed",
+   "summary": "Unveiled October 16, 2026: official WNBA 3-point lines, the first on courts in California, with Valkyries and WNBA logos, at Margaret S. Hayward Playground (Western Addition) and Joe DiMaggio Playground (North Beach).",
+   "cost": null,
+   "url": "https://www.sfrecpark.org/CivicAlerts.aspx?AID=3125",
+   "keywords": [
+    "hayward playground",
+    "joe dimaggio playground",
+    "basketball",
+    "valkyries",
+    "wnba"
+   ],
+   "source": {
+    "label": "Rec and Park press release, Oct 16, 2026",
+    "url": "https://www.sfrecpark.org/CivicAlerts.aspx?AID=3125"
+   }
+  },
+  {
+   "title": "Jackson Playground renovation",
+   "status": "Funded (state award)",
+   "summary": "Rec and Park's press room lists a release headlined State Awards Jackson Playground Renovation Project $10 Million. The release itself would not load, so scope and timing are not listed here.",
+   "cost": "$10 million state award (per the headline)",
+   "url": "https://www.sfrecpark.org/CivicAlerts.aspx?AID=3095",
+   "keywords": [
+    "jackson playground",
+    "potrero hill",
+    "renovation",
+    "state grant"
+   ],
+   "source": {
+    "label": "Rec and Park Press Room (headline)",
+    "url": "https://www.sfrecpark.org/412/Press-Room"
+   },
+   "needs_review": true,
+   "review_note": "Only the headline could be read; the release page returned an error twice on Nov 4."
+  },
+  {
+   "title": "13th Street Safety Project (13th Street and Duboce Avenue, Folsom to Valencia)",
+   "status": "Under construction (through 2027)",
+   "summary": "Protected bike lanes, sidewalk extensions, signal upgrades and repaving on 13th Street and Duboce Avenue between Folsom and Valencia, plus curb ramps and traffic islands at the US-101 off-ramp. Work runs 8 am to 4 pm weekdays (not holidays); barricades and lane reductions stay up after hours, and some bus stops move temporarily. The SFMTA warned of delays exiting the Mission Street/Duboce Avenue off-ramp for about four weeks.",
+   "cost": null,
+   "url": "https://sfpublicworks.org/13thStreetSafety",
+   "keywords": [
+    "13th street",
+    "duboce",
+    "bike lanes",
+    "valencia",
+    "folsom",
+    "safety project"
+   ],
+   "source": {
+    "label": "SFMTA transit and traffic advisory, Oct 29 to Nov 4, 2026",
+    "url": "https://www.sfmta.com/press-releases/sfmta-transit-and-traffic-advisory-week-thursday-october-29-through-wednesday-november-4-2026"
+   }
+  },
+  {
+   "title": "Transbay Howard Streetscape (Howard Street, The Embarcadero to 4th Street)",
+   "status": "Under construction (February 2026 through 2028)",
+   "summary": "Safety upgrades, new signals, landscaping and a protected two-way bike lane on Howard Street between The Embarcadero and 4th Street. Expect weekday lane closures and delays from 7 am to 4 pm; work pauses near Moscone Center during major conventions.",
+   "cost": null,
+   "url": "https://sfpublicworks.org/TransbayHoward",
+   "keywords": [
+    "howard street",
+    "streetscape",
+    "bike lane",
+    "soma",
+    "moscone"
+   ],
+   "source": {
+    "label": "SFMTA transit and traffic advisory, Oct 29 to Nov 4, 2026",
+    "url": "https://www.sfmta.com/press-releases/sfmta-transit-and-traffic-advisory-week-thursday-october-29-through-wednesday-november-4-2026"
+   }
+  },
+  {
+   "title": "Geary Boulevard sewer and water replacement (32nd Avenue to Stanyan Street)",
+   "status": "Under construction (through 2027)",
+   "summary": "The SFPUC is replacing sewer and water lines on Geary Boulevard between 32nd Avenue and Stanyan Street. Some 38 Geary and 38R Geary Rapid stops are temporarily moved; look for orange signs.",
+   "cost": null,
+   "url": "https://www.sfmta.com/press-releases/sfmta-transit-and-traffic-advisory-week-thursday-october-29-through-wednesday-november-4-2026",
+   "keywords": [
+    "geary",
+    "sewer",
+    "water main",
+    "sfpuc",
+    "38 geary",
+    "richmond"
+   ],
+   "source": {
+    "label": "SFMTA transit and traffic advisory, Oct 29 to Nov 4, 2026",
+    "url": "https://www.sfmta.com/press-releases/sfmta-transit-and-traffic-advisory-week-thursday-october-29-through-wednesday-november-4-2026"
+   }
+  },
+  {
+   "title": "Castro Station elevator (Muni accessibility)",
+   "status": "Nearing completion",
+   "summary": "A new elevator at Castro Station is nearing completion; until it opens, riders use the north-side escalator.",
+   "cost": null,
+   "url": "https://www.sfmta.com/projects/castro-station-accessibility-improvements-project",
+   "keywords": [
+    "castro station",
+    "elevator",
+    "muni",
+    "accessibility"
+   ],
+   "source": {
+    "label": "SFMTA transit and traffic advisory, Oct 29 to Nov 4, 2026",
+    "url": "https://www.sfmta.com/press-releases/sfmta-transit-and-traffic-advisory-week-thursday-october-29-through-wednesday-november-4-2026"
+   }
   }
  ],
  "seasonal": [
@@ -534,12 +981,82 @@
   },
   {
    "title": "Lane shifts around Potrero Yard",
-   "detail": "Week of October 22 to 28: trench backfill and temporary paving on Hampshire Street (17th to Mariposa), excavation and trenching on Mariposa Street (Hampshire to Bryant), and electrical trenching on the east side of Bryant Street (17th to Mariposa). The SFMTA posts a new notice each week.",
+   "detail": "Week of October 29 to November 4: trenching on Hampshire Street (17th to Mariposa) and Bryant Street (18th to 16th); sidewalk excavation on 17th Street (Bryant to Hampshire), Mariposa Street (Potrero Avenue to Florida) and Bryant Street (18th to 16th); vault setting and conduit on Mariposa (Hampshire to Bryant). Work hours 7 am to 8 pm weekdays, with some overnight work from 11 pm to 4 am. The SFMTA posts a new notice each week.",
    "dates": "Weekly updates; construction through 2030",
-   "url": "https://www.sfmta.com/project-updates/potrero-yard-construction-related-traffic-impacts-102226",
+   "url": "https://www.sfmta.com/press-releases/sfmta-transit-and-traffic-advisory-week-thursday-october-29-through-wednesday-november-4-2026",
    "source": {
-    "label": "SFMTA, Potrero Yard traffic impacts 10/22/26",
-    "url": "https://www.sfmta.com/project-updates/potrero-yard-construction-related-traffic-impacts-102226"
+    "label": "SFMTA transit and traffic advisory, Oct 29 to Nov 4, 2026",
+    "url": "https://www.sfmta.com/press-releases/sfmta-transit-and-traffic-advisory-week-thursday-october-29-through-wednesday-november-4-2026"
+   }
+  },
+  {
+   "title": "Rossi Pool closed for annual maintenance",
+   "detail": "Rossi Pool closed November 2 for its annual maintenance and reopens November 22.",
+   "dates": "November 2 to 21, 2026",
+   "url": "https://sfrecpark.org/482/Swimming-Pools",
+   "source": {
+    "label": "Rec and Park, Swimming Pools",
+    "url": "https://sfrecpark.org/482/Swimming-Pools"
+   }
+  },
+  {
+   "title": "Mission Community Pool season ends November 21",
+   "detail": "Rec and Park says Mission Pool's last day of 2026 operation is Saturday, November 21.",
+   "dates": "Last day November 21, 2026",
+   "url": "https://sfrecpark.org/482/Swimming-Pools",
+   "source": {
+    "label": "Rec and Park, Swimming Pools",
+    "url": "https://sfrecpark.org/482/Swimming-Pools"
+   }
+  },
+  {
+   "title": "Pool holiday closures",
+   "detail": "Balboa Pool's fall schedule lists closures on Veterans Day (November 11) and Thanksgiving and the day after (November 26 and 27), and a staff in-service closure on Saturday, December 12. Check each pool's own schedule.",
+   "dates": "November 11, November 26 and 27, December 12",
+   "url": "https://sfrecpark.org/DocumentCenter/View/29796",
+   "source": {
+    "label": "Rec and Park, Balboa Pool Fall 2026 schedule",
+    "url": "https://sfrecpark.org/DocumentCenter/View/29796"
+   }
+  },
+  {
+   "title": "Winter hours at the Golden Gate Park gardens",
+   "detail": "From the first Sunday in November through January, the San Francisco Botanical Garden's last entry is 4 pm; the Japanese Tea Garden's last entry is 4:30 pm from November to February. The Conservatory of Flowers is open 10 am to 4:30 pm and closed Wednesdays.",
+   "dates": "November 2026 to February 2027",
+   "url": "https://gggp.org/admissions-hours/",
+   "source": {
+    "label": "Gardens of Golden Gate Park, Admissions and hours",
+    "url": "https://gggp.org/admissions-hours/"
+   }
+  },
+  {
+   "title": "Lightscape returns to the Botanical Garden",
+   "detail": "The evening light trail runs November 20, 2026 to January 3, 2027 at the San Francisco Botanical Garden, with a separate ticket.",
+   "dates": "November 20, 2026 to January 3, 2027",
+   "url": "https://gggp.org/admissions-hours/",
+   "source": {
+    "label": "Gardens of Golden Gate Park, Admissions and hours",
+    "url": "https://gggp.org/admissions-hours/"
+   }
+  },
+  {
+   "title": "T-Third overnight track maintenance",
+   "detail": "Cleaning and maintenance between Evans and Sunnydale stations from midnight to 5 am, September to November 2026; work at the Gilman platform on Tuesdays, November 3 and November 10. Owl service is not affected.",
+   "dates": "Through November 2026",
+   "url": "https://www.sfmta.com/press-releases/sfmta-transit-and-traffic-advisory-week-thursday-october-29-through-wednesday-november-4-2026",
+   "source": {
+    "label": "SFMTA transit and traffic advisory, Oct 29 to Nov 4, 2026",
+    "url": "https://www.sfmta.com/press-releases/sfmta-transit-and-traffic-advisory-week-thursday-october-29-through-wednesday-november-4-2026"
+   }
+  },
+  {
+   "title": "Public Works so far in 2026",
+   "detail": "Through October 2026, Public Works reports 447 blocks resurfaced, 5,144 potholes filled, 352 curb ramps installed, 18,958 trees pruned and 17,773 tons of debris collected. Report street problems to 311; the department aims to address its own issues within 48 hours on weekdays.",
+   "dates": "January to October 2026",
+   "url": "https://sfpublicworks.org",
+   "source": {
+    "label": "SF Public Works home page",
+    "url": "https://sfpublicworks.org"
    }
   }
  ],
@@ -603,7 +1120,57 @@
     "label": "SF Public Works, VL85",
     "url": "https://sfpublicworks.org/index.php/node/35652"
    }
+  },
+  {
+   "role": "Main office (McLaren Lodge)",
+   "name": null,
+   "phone": "415-831-2700",
+   "email": "rpdinfo@sfgov.org",
+   "source": {
+    "label": "Rec and Park, Swimming Pools",
+    "url": "https://sfrecpark.org/482/Swimming-Pools"
+   }
+  },
+  {
+   "role": "Program registration (as listed on pool and golf pages)",
+   "name": null,
+   "phone": "415-831-6800",
+   "email": null,
+   "source": {
+    "label": "Rec and Park, Swimming Pools",
+    "url": "https://sfrecpark.org/482/Swimming-Pools"
+   }
+  },
+  {
+   "role": "Balboa Pool supervisor",
+   "name": "Andrew Wynkoop",
+   "phone": "(415) 831-6805",
+   "email": "andrew.wynkoop@sfgov.org",
+   "source": {
+    "label": "Rec and Park, Balboa Pool",
+    "url": "https://sfrecpark.org/488/Balboa-Pool"
+   }
+  },
+  {
+   "role": "Hamilton Pool",
+   "name": "Karly Wong",
+   "phone": "(415) 292-2008",
+   "email": "karly.wong@sfgov.org",
+   "source": {
+    "label": "Rec and Park, Hamilton Pool",
+    "url": "https://www.sfrecpark.org/491/Hamilton-Pool"
+   }
+  },
+  {
+   "role": "Coffman Pool",
+   "name": "Victor Lee",
+   "phone": "(415) 337-9085",
+   "email": "victor.lee2@sfgov.org",
+   "source": {
+    "label": "Rec and Park, Coffman Pool",
+    "url": "https://www.sfrecpark.org/489/Coffman-Pool"
+   }
   }
  ],
- "methodology": "Compiled November 4, 2026 from pages opened this session: the Rec and Park Spring 2026 Catalog and registration FAQ on sfrecpark.org, the Rec and Park Press Room page, a Rec and Park News Flash, Rec and Park eNews emails (t.e2ma.net archive copies dated Oct 29, 2025 to May 20, 2026, and a July 29, 2026 issue forwarded to a public Google Group), SF.gov, SF Public Works project pages (VL85, VL90, Folsom Streetscape) and SFMTA project updates. Gaps: the sfrecpark.org home page could not be opened, and no Rec and Park eNews or press release from September to November 2026 was found, so recent park closures, the winter 2027 catalog and registration dates, and the Community Opportunity Fund awards are missing. Facility hours, fees and most addresses are not listed because no page we opened gave them. The department's main phone and headquarters address were not confirmed (the FAQ lists 415-831-6800 for program registration in one place and 628-652-2900 in another; the catalog uses 628-652-2900). Gene Friend Recreation Center is listed at 270 6th Street on SF.gov and at 77 Harriet Street in the July 2026 eNews; both are shown. No Public Works or SFMTA list of all current projects was found; projects are those with pages we could open."
+ "methodology": "Compiled November 4, 2026. Second pass: opened this session the Rec and Park home page, Explore Our Parks, registration FAQ, Press Room list and releases of Oct 6, 9, 14 and 16, 2026, the Swimming Pools page and the Balboa, Coffman and Hamilton pool pages, the Balboa Fall 2026 schedule, the Golf Courses page, Gardens of Golden Gate Park hours, a Dec 10, 2025 Rec and Park eNews (public Google Group copy), the Public Works home page and project list, and the SFMTA advisory for Oct 29 to Nov 4, 2026. First-pass items (eNews Oct 2025 to Jul 2026, Spring 2026 catalog, VL85, VL90, Folsom, Potrero Yard, Hayes Valley, Beach Street) are kept. Gaps: the dog play areas page, the 2026/27 pool maintenance schedule and the Jackson Playground release would not load. The department lists program registration as 415-831-6800 on its pool and golf pages and 628-652-2900 in its FAQ and catalog; both are shown."
 }
