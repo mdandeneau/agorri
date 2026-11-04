@@ -834,36 +834,6 @@
  ],
  "events": [
   {
-   "date": "2026-11-03",
-   "time": "10:30 am",
-   "title": "Tuesday Tales (story time)",
-   "venue": "Conway Public Library, 15 Greenwood Ave",
-   "town": "Conway",
-   "kind": "Family",
-   "url": "https://conwaypubliclibrary.org/childrens/events/290163/tuesday-tales",
-   "source": "Conway Public Library"
-  },
-  {
-   "date": "2026-11-03",
-   "time": "8:00 am",
-   "title": "State general election: polls open 8 am to 7 pm",
-   "venue": "Town Garage, 1611 East Main St., Center Conway",
-   "town": "Conway",
-   "kind": "Civic",
-   "url": "https://conwaynh.gov/pages/elections",
-   "source": "Town of Conway"
-  },
-  {
-   "date": "2026-11-03",
-   "time": "9:00 am",
-   "title": "Board of Selectmen work session (9 to 11 am)",
-   "venue": "Town of Madison (room not stated on the calendar)",
-   "town": "Madison",
-   "kind": "Civic",
-   "url": "https://www.madison-nh.org/selectmen/",
-   "source": "Town of Madison"
-  },
-  {
    "date": "2026-11-04",
    "time": "2:00 pm",
    "title": "Madison PEG TV Board work session on job descriptions and operating policies",
@@ -1142,7 +1112,7 @@
    "note": "The page gives Saturday, Dec 12 and Sunday, Dec 13 but no year; those weekdays match 2026 and the 2025 tour (28th) was Dec 13 and 14, 2025. Tickets are sold through the tour; the inn's page lists only its package."
   }
  ],
- "events_as_of": "2026-11-03",
+ "events_as_of": "2026-11-04",
  "eventsNote": "Events from the Conway Public Library, Cranmore, Conway Scenic Railroad, the Town of Conway, Settlers Green (via the Visit NH calendar) and The Conway Daily Sun, as of Oct 30. The Mt. Washington Valley Chamber calendar loads by script and the North Conway Community Center schedule could not be opened, so their events are missing. Conway Scenic's Santa's Holiday Special page says it begins Nov 27 but gives no year, so it is not listed. Confirm with the organizer. Valley-wide: Conway, Bartlett, Jackson and Madison. From the Town of Bartlett, Town of Jackson and Town of Madison calendars and notices, Jackson XC, the Jackson Area Chamber, White Mountain Ski Co., the Inn at Ellis River and OnTheSnow, as of Oct 31. Ski opening dates are OnTheSnow projections, not resort announcements. Story Land's 2026 season ended Oct 25 with Happy Hauntings (visitwhitemountains.com), so it has no events in this window. Not covered: the Jackson Area Chamber November and December calendar pages, the Attitash events calendar, the Bartlett, Jackson and Madison library sites and the Bartlett and Madison recreation sites could not be opened. Weekly programs at the Old Jackson Library (yoga, mahjong, canasta) are listed in parks-add.json, not here.",
  "election": {
   "date": "2026-11-03",
@@ -1814,7 +1784,7 @@
  "paper": {
   "name": "The Conway Daily Sun",
   "url": "https://www.conwaydailysun.com/",
-  "asOf": "2026-11-03",
+  "asOf": "2026-11-04",
   "note": "Stories open on the paper's site. Dates are the paper's last-updated dates. Picked from the Local news section for Conway relevance.",
   "headlines": [
    {

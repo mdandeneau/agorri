@@ -894,18 +894,8 @@
    "status": "not yet connected"
   }
  ],
- "events_as_of": "2026-11-03",
+ "events_as_of": "2026-11-04",
  "events": [
-  {
-   "date": "2026-11-03",
-   "time": "8 am to 7 pm",
-   "title": "Election Day: polls open",
-   "venue": "Your ward polling place",
-   "town": "Portsmouth",
-   "kind": "Civic",
-   "url": "https://www.portsmouthnh.gov/city/press-releases/voter-information-november-3-2026-general-election-0",
-   "source": "City of Portsmouth"
-  },
   {
    "date": "2026-11-04",
    "time": "7:00 pm",
@@ -925,6 +915,16 @@
    "kind": "Music",
    "url": "https://patch.com/new-hampshire/portsmouth-nh/calendar/event/20261105/aa3297d6-4a80-4265-a46c-584b3178c207/greg-piccolo-and-heavy-juice",
    "source": "Patch calendar"
+  },
+  {
+   "date": "2026-11-05",
+   "time": "3:00 pm",
+   "title": "Recreation Board Disc Golf Subcommittee meeting",
+   "venue": "Community Campus, 100 Campus Drive",
+   "town": "Portsmouth",
+   "kind": "Civic",
+   "url": "https://files.portsmouthnh.gov/agendas/2026/Recreation%20Committee/Notice%20of%20Meeting%2011.5.26.pdf",
+   "source": "City of Portsmouth"
   },
   {
    "date": "2026-11-07",
@@ -2104,7 +2104,7 @@
  "paper": {
   "name": "Portsmouth Patch",
   "url": "https://patch.com/new-hampshire/portsmouth-nh",
-  "asOf": "2026-11-03",
+  "asOf": "2026-11-04",
   "note": "The Portsmouth Herald is paywalled with no public feed, so these come from Patch.",
   "headlines": [
    {

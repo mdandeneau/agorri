@@ -1,5 +1,5 @@
 {
- "as_of": "2026-11-03",
+ "as_of": "2026-11-04",
  "note": "One featured item at a time on Home, for days when one thing matters more than the rest. Each item shows between from and until (inclusive). kind: election (built from candidates.json and local.json election; results below fill in the morning after), or notice (title, line, actions). Rules for filling results are in UPDATE.md.",
  "items": [
   {
@@ -9,9 +9,9 @@
    "until": "2026-11-08",
    "election": "2026-11-03",
    "results": {
-    "status": "polls-open",
-    "asOf": null,
-    "note": "Portsmouth results are posted by the City Clerk after the polls close; statewide races are called by the Secretary of State and news outlets.",
+    "status": "counting",
+    "asOf": "2026-11-04T10:58:06Z",
+    "note": "Portsmouth's own count is posted by the City Clerk; it was not yet posted when this was checked on the morning of Nov 4, so vote counts stay blank until it is. Called races: the Associated Press called Governor for Kelly Ayotte (12:42 am Nov 4, reported by InDepthNH and NHPR), U.S. Senate for Chris Pappas (reported by NHPR and the New Hampshire Bulletin) and U.S. House District 1 for Stefany Shaheen (reported by NHPR, the New Hampshire Bulletin and The Hill). Executive Council and State Senate races had not been called by two outlets.",
     "source": {
      "label": "City Clerk election results",
      "url": "https://www.portsmouthnh.gov/cityclerk/voting-information"
@@ -30,8 +30,8 @@
       "id": "governor",
       "office": "Governor",
       "district": "Statewide",
-      "called": false,
-      "winner": null,
+      "called": true,
+      "winner": "kelly-ayotte",
       "candidates": [
        {
         "id": "kelly-ayotte",
@@ -57,8 +57,8 @@
       "id": "us-senate",
       "office": "U.S. Senate",
       "district": "Statewide",
-      "called": false,
-      "winner": null,
+      "called": true,
+      "winner": "chris-pappas",
       "candidates": [
        {
         "id": "chris-pappas",
@@ -84,8 +84,8 @@
       "id": "us-house-1",
       "office": "U.S. House",
       "district": "District 1",
-      "called": false,
-      "winner": null,
+      "called": true,
+      "winner": "stefany-shaheen",
       "candidates": [
        {
         "id": "stefany-shaheen",
@@ -142,6 +142,28 @@
         "votes": null
        }
       ]
+     }
+    ],
+    "callSources": [
+     {
+      "label": "InDepthNH, Kelly Ayotte Wins Re-Election as Governor (Nov 4, 2026)",
+      "url": "https://indepthnh.org/2026/11/04/kelly-ayotte-wins-re-election-as-governor-of-new-hampshire/"
+     },
+     {
+      "label": "NHPR, Election live updates (Nov 3 to 4, 2026)",
+      "url": "https://www.nhpr.org/live-updates/election-day-live-blog-newhampshire-voting-2026"
+     },
+     {
+      "label": "New Hampshire Bulletin, Pappas defeats Sununu (Nov 3, 2026)",
+      "url": "https://newhampshirebulletin.com/2026/11/03/pappas-defeats-sununu-in-pivotal-u-s-senate-race/"
+     },
+     {
+      "label": "New Hampshire Bulletin, Shaheen defeats DiLorenzo (Nov 3, 2026)",
+      "url": "https://newhampshirebulletin.com/2026/11/03/shaheen-defeats-dilorenzo-to-hold-1st-district-for-democrats/"
+     },
+     {
+      "label": "The Hill, Stefany Shaheen wins (Nov 3, 2026)",
+      "url": "https://thehill.com/homenews/campaign/6178282-shaheen-wins-nh-congressional-race/"
      }
     ]
    }
