@@ -1,18 +1,29 @@
 {
  "note": "Written by ingest/fetch.mjs. Each item: where it came from (source, url), the date in the document when known, firstSeen (the day the fetcher first saw it; new since the last refresh = firstSeen on or after that day) and text (the saved agenda or minutes text, when there is one). Facts for the site still come from reading the linked document.",
  "town": "conway",
- "updated": "2026-11-03T15:09:59.258Z",
+ "updated": "2026-11-04T15:28:07.515Z",
  "sources": {
   "town-news": {
    "ok": true,
-   "found": 25,
-   "new": 0,
-   "checked": "2026-11-03T15:09:59.258Z",
-   "ms": 292
+   "found": 26,
+   "new": 1,
+   "checked": "2026-11-04T15:28:07.515Z",
+   "ms": 473
   }
  },
  "notes": [],
  "items": [
+  {
+   "key": "town-news:9f8aaff0b76f",
+   "source": "town-news",
+   "kind": "notice",
+   "title": "November 3, 2026 Election Results",
+   "url": "https://conwaynh.org/news/november-3-2026-election-results",
+   "date": "2026-09-29",
+   "detail": "Election Results",
+   "firstSeen": "2026-11-04",
+   "lastSeen": "2026-11-04"
+  },
   {
    "key": "town-news:81f8faf78542",
    "source": "town-news",
@@ -22,7 +33,7 @@
    "date": "2026-11-03",
    "detail": "Sample Ballot",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-03"
+   "lastSeen": "2026-11-04"
   },
   {
    "key": "town-news:a244dc7b1435",
@@ -33,7 +44,7 @@
    "date": "2026-09-17",
    "detail": "Complaint investigation report",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-03"
+   "lastSeen": "2026-11-04"
   },
   {
    "key": "town-news:fa4ff3e89bcc",
@@ -44,7 +55,7 @@
    "date": "2026-09-09",
    "detail": "Election Results",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-03"
+   "lastSeen": "2026-11-04"
   }
  ]
 }
