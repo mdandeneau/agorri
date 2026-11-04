@@ -1,0 +1,410 @@
+{
+ "as_of": "2026-11-04",
+ "note": "From the City and County of San Francisco's own pages (Office of Small Business newsletters, Office of Economic and Workforce Development news, Treasurer and Tax Collector, Public Works, SFMTA), the California EDD, a named brokerage report, and open local food coverage (SFist, WhatNow). Paywalled outlets are not used.",
+ "organizations": [
+  {
+   "name": "San Francisco Office of Small Business",
+   "what": "City office that helps small businesses with registration, licenses, permitting, leasing and funding; runs free drop-in community office hours in commercial corridors and visits merchant corridors on request.",
+   "url": "https://www.sf.gov/departments--office-economic-and-workforce-development--office-small-business",
+   "phone": null,
+   "kind": "City office",
+   "source": {
+    "label": "Office of Small Business newsletter, Oct 6, 2026",
+    "url": "https://www.sf.gov/news-small-business-newsletter-for-oct-2026/"
+   }
+  },
+  {
+   "name": "Office of Economic and Workforce Development (OEWD)",
+   "what": "City department behind the Storefront Opportunity Grant, the Accessible Barrier Removal Grant and the citywide job fair; posts city grant and contract opportunities for organizations.",
+   "url": "https://www.sf.gov/departments--office-economic-and-workforce-development/",
+   "phone": null,
+   "kind": "Economic development",
+   "source": {
+    "label": "SF.gov, Aug 17, 2026",
+    "url": "https://www.sf.gov/news-san-francisco-announces-grant-to-improve-storefront-accessibility-and-support-for-small-businesses/"
+   }
+  },
+  {
+   "name": "San Francisco Chamber of Commerce",
+   "what": "Business membership organization offering member benefits, small business and workforce resources, public policy advocacy and events.",
+   "url": "https://sfchamber.com/",
+   "phone": "415.392.4520",
+   "kind": "Chamber",
+   "source": {
+    "label": "SF Chamber of Commerce, Contact Us (235 Montgomery Street, Suite 760; info@sfchamber.com)",
+    "url": "https://sfchamber.com/contact-us/"
+   }
+  },
+  {
+   "name": "La Cocina",
+   "what": "Food business incubator at 101 Hyde Street; holds free orientations on its program and on the basics of starting a food business.",
+   "url": "https://www.lacocinasf.org/apply",
+   "phone": null,
+   "kind": "Nonprofit",
+   "source": {
+    "label": "Office of Small Business newsletter, Oct 6, 2026",
+    "url": "https://www.sf.gov/news-small-business-newsletter-for-oct-2026/"
+   }
+  },
+  {
+   "name": "Renaissance Entrepreneurship Center",
+   "what": "Business training center at 220 Montgomery Street that runs workshops and networking for small business owners.",
+   "url": "https://luma.com/9950us7f",
+   "phone": null,
+   "kind": "Nonprofit",
+   "source": {
+    "label": "Office of Small Business newsletter, Aug 2026",
+    "url": "https://www.sf.gov/news-small-business-newsletter-for-august-2026"
+   }
+  },
+  {
+   "name": "Small Business Development Center (NorCal SBDC)",
+   "what": "Free advising and webinars on planning, permits, hiring and financing, including office hours with an advisor through the SF Public Library.",
+   "url": "https://norcalsbdc.zoom.us/webinar/register/WN__K4MeOQrTxa1m_jlXtSsNA#/registration",
+   "phone": null,
+   "kind": "Nonprofit",
+   "source": {
+    "label": "Office of Small Business newsletter, Oct 6, 2026",
+    "url": "https://www.sf.gov/news-small-business-newsletter-for-oct-2026/"
+   }
+  },
+  {
+   "name": "Legal Services for Entrepreneurs",
+   "what": "Free virtual legal clinics with pro bono attorneys on contracts, leases, employment and other business law; sign up in advance through an intake form.",
+   "url": "https://lccrsfoi.legalserver.org/modules/matter/extern_intake.php?pid=163&h=62b5ab&state_uuid=aa1c689c-1ccf-11f1-8740-0ac4595f4081&f=404&d_id=67",
+   "phone": null,
+   "kind": "Nonprofit",
+   "source": {
+    "label": "Office of Small Business newsletter, Oct 6, 2026",
+    "url": "https://www.sf.gov/news-small-business-newsletter-for-oct-2026/"
+   }
+  }
+ ],
+ "cityOffices": [
+  {
+   "name": "Office of Small Business (community office hours)",
+   "what": "Drop-in help, no appointment needed, with registration, licenses, permitting, leasing and funding at rotating neighborhood locations. Email sfosb@sfgov.org to request a merchant corridor visit.",
+   "url": "https://www.sf.gov/community-office-hours-with-the-office-of-small-business",
+   "phone": null,
+   "source": {
+    "label": "Office of Small Business newsletters, Sep and Oct 2026",
+    "url": "https://www.sf.gov/news-small-business-newsletter-for-oct-2026/"
+   }
+  },
+  {
+   "name": "Treasurer and Tax Collector (business registration)",
+   "what": "Issues the Business Registration Certificate and handles annual renewals; questions go through the online Help Center, with same-day replies to questions sent before 7:00 pm.",
+   "url": "https://sftreasurer.org/registration",
+   "phone": null,
+   "source": {
+    "label": "SF Treasurer and Tax Collector, Register a Business",
+    "url": "https://sftreasurer.org/registration"
+   }
+  },
+  {
+   "name": "Public Works, Shared Spaces (parklets and sidewalk use)",
+   "what": "Permits for parklets and other outdoor business use of sidewalks and streets. Questions: sharedspaces@sfgov.org.",
+   "url": "https://www.sf.gov/shared-spaces",
+   "phone": null,
+   "source": {
+    "label": "Office of Small Business newsletter, Aug 2026",
+    "url": "https://www.sf.gov/news-small-business-newsletter-for-august-2026"
+   }
+  },
+  {
+   "name": "Office of Economic and Workforce Development, workforce services",
+   "what": "Hiring businesses can table for free at OEWD job fairs; contact workforce.development@sfgov.org.",
+   "url": "https://www.sf.gov/departments--office-economic-and-workforce-development/",
+   "phone": null,
+   "source": {
+    "label": "Office of Small Business newsletter, Oct 6, 2026",
+    "url": "https://www.sf.gov/news-small-business-newsletter-for-oct-2026/"
+   }
+  }
+ ],
+ "howTo": [
+  {
+   "title": "Register a business with the city",
+   "steps": "If you form a corporation, LLC, LP or LLP, register with the state first. Check zoning and pick a location, then complete the Treasurer and Tax Collector's online application, sign the DocuSign email (unsigned applications are deleted after 15 days) and pay the fee. Register within 30 days of starting business in the city; you generally must register if you have a fixed place of business, work in the city for any part of seven days in a year, or rent property for business. Fees for the April 1, 2026 to March 31, 2027 year run from $55 (gross receipts up to $100,000) to $60,000, plus a $4 state fee. Your Business Account Number is on the payment confirmation; new businesses also file a Business Property Statement (Form 571-L). Renew every year by the end of February.",
+   "url": "https://sf.gov/information/business-registration",
+   "source": {
+    "label": "SF.gov, Business registration; SF Treasurer and Tax Collector",
+    "url": "https://sftreasurer.org/registration"
+   }
+  },
+  {
+   "title": "Put a parklet or outdoor seating in front of your business",
+   "steps": "Apply for a Shared Spaces permit through Public Works. As of summer 2026 there is no 10-day public notification period, so you can build right after approval; commercial parklets no longer need public seating but must be open during permitted business hours. Follow the June 2026 design guidelines.",
+   "url": "https://www.sf.gov/shared-spaces",
+   "source": {
+    "label": "Office of Small Business newsletter, Aug 2026",
+    "url": "https://www.sf.gov/news-small-business-newsletter-for-august-2026"
+   }
+  },
+  {
+   "title": "Get a restaurant liquor license in a priority neighborhood",
+   "steps": "California ABC offers nontransferable restaurant licenses for downtown (Union Square and Yerba Buena hospitality zone) and for Bayview, Excelsior, Portola, Ocean Avenue and the Sunset (Type 87). The 2026 priority filing window ran September 14 to 25 with a $19,840 fee; if applications exceed licenses, ABC holds a random drawing, and unsuccessful applicants are refunded less a service charge.",
+   "url": "https://www.sf.gov/neighborhood-restricted-restaurant-liquor-licenses",
+   "source": {
+    "label": "Office of Small Business newsletter, Sep 2026",
+    "url": "https://www.sf.gov/news-small-business-newsletter-for-sep-2026/"
+   }
+  },
+  {
+   "title": "Make your storefront accessible",
+   "steps": "Apply for OEWD's Accessible Barrier Removal Grant, which reimburses up to $10,000 for physical changes such as power door openers, accessible counters and restroom remodels at storefronts in commercially zoned areas.",
+   "url": "https://sf.gov/adagrant",
+   "source": {
+    "label": "SF.gov, Aug 17, 2026",
+    "url": "https://www.sf.gov/news-san-francisco-announces-grant-to-improve-storefront-accessibility-and-support-for-small-businesses/"
+   }
+  },
+  {
+   "title": "Get free help in person",
+   "steps": "Drop in to an Office of Small Business community office hours session (no appointment) for help with registration, licenses, permits, leasing and funding, or email sfosb@sfgov.org.",
+   "url": "https://www.sf.gov/community-office-hours-with-the-office-of-small-business",
+   "source": {
+    "label": "Office of Small Business newsletter, Oct 6, 2026",
+    "url": "https://www.sf.gov/news-small-business-newsletter-for-oct-2026/"
+   }
+  }
+ ],
+ "notices": [
+  {
+   "date": "2026-10-27",
+   "title": "Folsom Streetscape in final stages, 2nd to 11th Streets",
+   "detail": "Public Works says crews are on punch-list items and final installations; decorative crosswalks were scheduled October 23 to 30, and Clear Channel will install the remaining bus island shelters.",
+   "url": "https://sfpublicworks.org/node/35204",
+   "source": {
+    "label": "SF Public Works, Oct 27, 2026",
+    "url": "https://sfpublicworks.org/node/35204"
+   }
+  },
+  {
+   "date": "2026-10-22",
+   "title": "Lane shifts and parking limits around Potrero Yard (Mariposa, Bryant, 17th, Hampshire)",
+   "detail": "SFMTA construction of the new bus yard at 2500 Mariposa Street brings temporary lane shifts and parking restrictions in active work zones; the agency posts a weekly notice. Construction runs through 2030.",
+   "url": "https://www.sfmta.com/project-updates/potrero-yard-construction-related-traffic-impacts-102226",
+   "source": {
+    "label": "SFMTA, Oct 22, 2026",
+    "url": "https://www.sfmta.com/project-updates/potrero-yard-construction-related-traffic-impacts-102226"
+   }
+  },
+  {
+   "date": "2026-10-06",
+   "title": "Prepare your business for a wet winter; free sandbags",
+   "detail": "The National Weather Service expects a wetter than normal December to February. Public Works gives businesses up to 10 free sandbags, Monday to Saturday, 8 am to 2 pm, at the Marin Street and Kansas Street gate, with proof of business address. Sign up for AlertSF by texting your ZIP code to 888-777.",
+   "url": "https://www.sf.gov/weather-impacts-on-small-businesses",
+   "source": {
+    "label": "Office of Small Business newsletter, Oct 6, 2026",
+    "url": "https://www.sf.gov/news-small-business-newsletter-for-oct-2026/"
+   }
+  },
+  {
+   "date": "2026-10-06",
+   "title": "Federal Reserve Small Business Credit Survey closes November 13",
+   "detail": "Open to firms with fewer than 500 employees; it gathers data on financing needs and debt experience.",
+   "url": "https://fedreserveboard.gov1.qualtrics.com/jfe/form/SV_38k9xZy8ayEERue?orgID=20251047",
+   "source": {
+    "label": "Office of Small Business newsletter, Oct 6, 2026",
+    "url": "https://www.sf.gov/news-small-business-newsletter-for-oct-2026/"
+   }
+  },
+  {
+   "date": "2026-09-10",
+   "title": "Hayes Valley Pay or Permit parking expansion coming early 2027",
+   "detail": "The SFMTA Board approved the expansion June 2, 2026. Test signs are up on Rose Street and on Linden and Fell Streets near Patricia's Green; the SFMTA says it is on schedule for early 2027.",
+   "url": "https://www.sfmta.com/project-updates/hayes-valley-pay-or-permit-parking-expansion-new-signs-preview",
+   "source": {
+    "label": "SFMTA project update (modified Sep 10, 2026)",
+    "url": "https://www.sfmta.com/project-updates/hayes-valley-pay-or-permit-parking-expansion-new-signs-preview"
+   }
+  },
+  {
+   "date": "2026-09-03",
+   "title": "ShopDineSF Holiday Pop-Up at City Hall, December 1",
+   "detail": "The pop-up market runs Tuesday, December 1, 11 am to 3 pm, at City Hall. Vendor applications closed October 1.",
+   "url": "https://www.sf.gov/news-small-business-newsletter-for-sep-2026/",
+   "source": {
+    "label": "Office of Small Business newsletter, Sep 2026",
+    "url": "https://www.sf.gov/news-small-business-newsletter-for-sep-2026/"
+   }
+  },
+  {
+   "date": "2026-08-10",
+   "title": "Shared Spaces parklet rules loosened",
+   "detail": "Public Works removed the 10-day public notification period, dropped the public seating requirement for commercial parklets, and requires parklets to be open during permitted business hours. New design guidelines were issued in June 2026.",
+   "url": "https://www.sf.gov/shared-spaces",
+   "source": {
+    "label": "Office of Small Business newsletter, Aug 2026",
+    "url": "https://www.sf.gov/news-small-business-newsletter-for-august-2026"
+   }
+  }
+ ],
+ "programs": [
+  {
+   "name": "Accessible Barrier Removal Grant",
+   "what": "Reimburses up to $10,000 for accessibility improvements at small business storefronts in commercially zoned areas. Rolling applications while funding lasts; relaunched August 17, 2026.",
+   "url": "https://sf.gov/adagrant",
+   "source": {
+    "label": "SF.gov, Aug 17, 2026",
+    "url": "https://www.sf.gov/news-san-francisco-announces-grant-to-improve-storefront-accessibility-and-support-for-small-businesses/"
+   }
+  },
+  {
+   "name": "California Paid Family Leave (PFL) Grant",
+   "what": "State grant for California small businesses of up to $2,000 per employee to offset costs when employees take Paid Family Leave, such as cross-training or hiring temporary staff. No deadline was stated.",
+   "url": "https://californiapfl.com/",
+   "source": {
+    "label": "Office of Small Business newsletter, Oct 6, 2026",
+    "url": "https://www.sf.gov/news-small-business-newsletter-for-oct-2026/"
+   }
+  },
+  {
+   "name": "Storefront Opportunity Grant",
+   "what": "Grants of $50,000 to $100,000 for established businesses opening new locations in commercial corridors, to cover first-year costs such as permits, equipment, tenant improvements, deposits and inventory.",
+   "url": "https://www.sf.gov/permitsf",
+   "source": {
+    "label": "SF.gov, Aug 12, 2026",
+    "url": "https://www.sf.gov/news-mayor-lurie-celebrates-new-businesses-opening-in-eight-neighborhoods-thanks-to-storefront-opportunity-grant-program/"
+   },
+   "needs_review": true,
+   "review_note": "The city page does not say whether applications are currently open."
+  },
+  {
+   "name": "Inner Sunset Neighborhood Vibrancy Grant (SF New Deal)",
+   "what": "$5,000 to $20,000 for ground-floor storefronts in the Inner Sunset, for beautification, technical assistance or storefront activation. Rolling applications; priority went to those submitted by August 28, 2026.",
+   "url": "https://sfnewdeal.org/inner-sunset-neighborhood-vibrancy-fund",
+   "source": {
+    "label": "Office of Small Business newsletter, Aug 2026",
+    "url": "https://www.sf.gov/news-small-business-newsletter-for-august-2026"
+   },
+   "needs_review": true,
+   "review_note": "Rolling program; current open status not confirmed after August 2026."
+  }
+ ],
+ "openings": [
+  {
+   "name": "Che Fico",
+   "what": "Italian restaurant on the Divisadero corridor",
+   "date": "2026-10-18",
+   "detail": "Set to reopen Sunday, October 18 after being closed since a June 11 chimney fire; reservations were open.",
+   "source": {
+    "label": "SFist, Oct 9, 2026",
+    "url": "https://sfist.com/2026/10/09/this-week-in-food-bentornato-che-fico/"
+   },
+   "needs_review": true,
+   "review_note": "Planned reopening date as reported Oct 9; actual reopening not confirmed."
+  },
+  {
+   "name": "Tacos El Patron",
+   "what": "Taqueria at 1325 Fillmore Street",
+   "date": "2026-10",
+   "detail": "Opened a few weeks before October 9, with a grand opening that week; seeking a Type 47 liquor license.",
+   "source": {
+    "label": "SFist, Oct 9, 2026",
+    "url": "https://sfist.com/2026/10/09/this-week-in-food-bentornato-che-fico/"
+   }
+  }
+ ],
+ "closures": [
+  {
+   "name": "Hed11",
+   "what": "Thai fine dining at 1800 Sutter Street (Kimpton Hotel Enso)",
+   "date": "2026-10-31",
+   "detail": "Closed October 31, 2026; the space will host Hed Very Thai. No reason was given.",
+   "source": {
+    "label": "WhatNow, Oct 31, 2026",
+    "url": "https://whatnow.com/?p=450298"
+   },
+   "needs_review": true,
+   "review_note": "Secondary report citing the restaurant's Instagram post."
+  }
+ ],
+ "keywords": [
+  "restaurant",
+  "opens",
+  "opening",
+  "reopens",
+  "closing",
+  "closes",
+  "storefront",
+  "small business",
+  "legacy business",
+  "chamber",
+  "union square",
+  "retail",
+  "cafe",
+  "bakery",
+  "boutique",
+  "parklet",
+  "shared spaces",
+  "liquor license",
+  "office vacancy",
+  "oewd",
+  "office of small business",
+  "vacant storefront",
+  "first year free",
+  "business registration",
+  "mid-market",
+  "ferry building"
+ ],
+ "stats": [
+  {
+   "value": "29.3%",
+   "label": "Office vacancy rate, Q3 2026",
+   "note": "Cushman & Wakefield, down 50 basis points from Q2; net absorption was just over 405,000 square feet (Kidder Mathews' Q3 report, measured differently, puts overall vacancy at 26.0%).",
+   "as_of": "2026-09-30",
+   "source": {
+    "label": "Cushman & Wakefield, San Francisco Office MarketBeat Q3 2026",
+    "url": "https://www.cushmanwakefield.com/en/united-states/insights/us-marketbeats/san-francisco-marketbeats/office"
+   }
+  },
+  {
+   "value": "$72.68",
+   "label": "Average office asking rent, Q3 2026",
+   "note": "Per square foot per year, gross; up $2.39 (3.4%) from $70.29 in Q2 2026.",
+   "as_of": "2026-09-30",
+   "source": {
+    "label": "Cushman & Wakefield, San Francisco Office MarketBeat Q3 2026",
+    "url": "https://www.cushmanwakefield.com/en/united-states/insights/us-marketbeats/san-francisco-marketbeats/office"
+   }
+  },
+  {
+   "value": "4.0%",
+   "label": "Unemployment rate, San Francisco County, September 2026",
+   "note": "Not seasonally adjusted: 20,100 unemployed in a labor force of 501,400. California's rate was 5.1 percent; October data is due November 20.",
+   "as_of": "2026-10-16",
+   "source": {
+    "label": "California EDD, September 2026 release",
+    "url": "https://edd.ca.gov/en/about_edd/news_releases_and_announcements/unemployment-september-2026/"
+   }
+  },
+  {
+   "value": "200+",
+   "label": "Businesses helped by three city storefront programs, as of Aug 2026",
+   "note": "The Storefront Opportunity Grant, Vacant to Vibrant and the Downtown Vibrancy Loan Fund together, per the Mayor's office.",
+   "as_of": "2026-08-12",
+   "source": {
+    "label": "SF.gov, Aug 12, 2026",
+    "url": "https://www.sf.gov/news-mayor-lurie-celebrates-new-businesses-opening-in-eight-neighborhoods-thanks-to-storefront-opportunity-grant-program/"
+   }
+  }
+ ],
+ "methodology": "Compiled November 4, 2026 from pages fetched this session: SF.gov (Office of Small Business news list and newsletters for August, September and October 2026, OEWD releases of August 12 and 17, 2026, Business registration), sftreasurer.org (Register a Business), SF Public Works (Folsom Streetscape), SFMTA project updates, sfchamber.com (Contact Us), Cushman & Wakefield and Kidder Mathews Q3 2026 office reports, the California EDD September 2026 release, SFist and WhatNow. Not covered: no November 2026 Office of Small Business newsletter was posted yet; openings and closures beyond those listed were not found in open sources for late September to early November (SF Chronicle and other paywalled outlets not used; closures outside San Francisco in the WhatNow roundup are left out). The Rustic on Church Street closed in early September, more than 30 days ago, and is not listed. Phone numbers for the Office of Small Business, OEWD and the Treasurer and Tax Collector were not shown on the pages opened. Business-for-sale listing sites were not opened, so no link cards are given.",
+ "forSale": [
+  {
+   "name": "Dee Dee Boutique",
+   "what": "Beauty retail and facial services; registered Legacy Business since 1988",
+   "town": "San Francisco",
+   "date": "2026-09-03",
+   "detail": "Listed for sale at 714 A Pacific Avenue in Chinatown because the owner is retiring; described as fully operational and turnkey. Contact details are in the city newsletter.",
+   "source": {
+    "label": "Office of Small Business newsletter, Sep 2026",
+    "url": "https://www.sf.gov/news-small-business-newsletter-for-sep-2026/"
+   }
+  }
+ ],
+ "forSaleNote": "Businesses for sale in San Francisco from city notices and local news, each linked to its source. Checked Nov 4, 2026: one listing found, in the Office of Small Business's September 2026 newsletter.",
+ "forSaleLinks": []
+}

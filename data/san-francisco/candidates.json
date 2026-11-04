@@ -1,0 +1,2911 @@
+{
+ "as_of": "2026-11-04",
+ "election": {
+  "date": "2026-11-03"
+ },
+ "note": "Preliminary results for San Francisco from the Department of Elections (last update Nov 3, 11:45 pm, with about 164,000 ballots still to count). Results are unofficial until the department certifies them, by December 3, 2026; it posts new counts about once a day at 4 pm. Counts are San Francisco votes only; statewide races and propositions are decided by the statewide count. A winner is marked only where the race has been called.",
+ "races": [
+  {
+   "id": "governor",
+   "office": "Governor",
+   "district": "Statewide",
+   "level": "State",
+   "wards": "all",
+   "seats": 1,
+   "term": null,
+   "what": "The governor signs or vetoes state laws, proposes the state budget and appoints many state officials and judges. Gavin Newsom is term-limited.",
+   "candidates": [
+    {
+     "id": "xavier-becerra",
+     "name": "Xavier Becerra",
+     "party": "D",
+     "incumbent": false,
+     "hometown": null,
+     "background": null,
+     "website": null,
+     "accounts": [],
+     "positions": [],
+     "source": {
+      "label": "SF Department of Elections, Candidates, Nov 3, 2026 General Election",
+      "url": "https://www.sf.gov/candidates-november-3-2026-general-election"
+     },
+     "result": {
+      "votes": 148558,
+      "pct": 82.83,
+      "won": true,
+      "source": {
+       "label": "SF Department of Elections, preliminary results (last update Nov 3, 2026, 11:45 pm)",
+       "url": "https://www.sfelections.org/results/20261103/index.html"
+      },
+      "note": "San Francisco votes only. Statewide count, not San Francisco only. The SF Standard reports the AP and NBC called the race at 8:03 p.m. Nov 3; NBC Bay Area shows him as NBC News's projected winner."
+     },
+     "needs_review": true,
+     "review_note": "Preliminary election night count from news results pages; not read from the Department of Elections."
+    },
+    {
+     "id": "steve-hilton",
+     "name": "Steve Hilton",
+     "party": "R",
+     "incumbent": false,
+     "hometown": null,
+     "background": null,
+     "website": null,
+     "accounts": [],
+     "positions": [],
+     "source": {
+      "label": "SF Department of Elections, Candidates, Nov 3, 2026 General Election",
+      "url": "https://www.sf.gov/candidates-november-3-2026-general-election"
+     },
+     "result": {
+      "votes": 30796,
+      "pct": 17.17,
+      "won": false,
+      "source": {
+       "label": "SF Department of Elections, preliminary results (last update Nov 3, 2026, 11:45 pm)",
+       "url": "https://www.sfelections.org/results/20261103/index.html"
+      },
+      "note": "San Francisco votes only. Statewide count, not San Francisco only."
+     },
+     "needs_review": true,
+     "review_note": "Preliminary election night count from news results pages; not read from the Department of Elections."
+    }
+   ],
+   "source": {
+    "label": "Wikipedia, 2026 California elections",
+    "url": "https://en.wikipedia.org/wiki/2026_California_elections"
+   },
+   "results_status": "preliminary",
+   "results_as_of": "Nov 3, 2026, 11:45 pm (SF Department of Elections, preliminary; about 164,000 ballots left to count)",
+   "needs_review": true,
+   "review_note": "Preliminary results; the Department of Elections and Secretary of State pages could not be opened in this session. Confirm against sfelections.org and sos.ca.gov.",
+   "call_sources": [
+    {
+     "label": "SF Standard live blog, Nov 3, 2026",
+     "url": "https://sfstandard.com/2026/11/03/live-blog-election-midterm-2026/"
+    },
+    {
+     "label": "NBC Bay Area, California governor and state offices results",
+     "url": "https://www.nbcbayarea.com/news/local/california-governor-state-offices-election-results/4164847/"
+    }
+   ],
+   "called": true,
+   "called_by": "AP and NBC, 8:03 p.m. Nov 3 (reported by the SF Standard live blog)"
+  },
+  {
+   "id": "lt-governor",
+   "office": "Lieutenant Governor",
+   "district": "Statewide",
+   "level": "State",
+   "wards": "all",
+   "seats": 1,
+   "term": null,
+   "what": "The lieutenant governor presides over the State Senate, serves as acting governor when the governor is out of state and sits on state boards.",
+   "candidates": [
+    {
+     "id": "fiona-ma",
+     "name": "Fiona Ma",
+     "party": "D",
+     "incumbent": false,
+     "hometown": null,
+     "background": null,
+     "website": null,
+     "accounts": [],
+     "positions": [],
+     "source": {
+      "label": "SF Department of Elections, Candidates, Nov 3, 2026 General Election",
+      "url": "https://www.sf.gov/candidates-november-3-2026-general-election"
+     },
+     "result": {
+      "votes": 146201,
+      "pct": 84.49,
+      "won": null,
+      "source": {
+       "label": "SF Department of Elections, preliminary results (last update Nov 3, 2026, 11:45 pm)",
+       "url": "https://www.sfelections.org/results/20261103/index.html"
+      },
+      "note": "San Francisco votes only. The SF Standard live blog lists her as projected; it does not say who made the call."
+     },
+     "needs_review": true,
+     "review_note": "Preliminary election night count from news results pages; not read from the Department of Elections."
+    },
+    {
+     "id": "gloria-romero",
+     "name": "Gloria Romero",
+     "party": "R",
+     "incumbent": false,
+     "hometown": null,
+     "background": null,
+     "website": null,
+     "accounts": [],
+     "positions": [],
+     "source": {
+      "label": "SF Department of Elections, Candidates, Nov 3, 2026 General Election",
+      "url": "https://www.sf.gov/candidates-november-3-2026-general-election"
+     },
+     "result": {
+      "votes": 26839,
+      "pct": 15.51,
+      "won": null,
+      "source": {
+       "label": "SF Department of Elections, preliminary results (last update Nov 3, 2026, 11:45 pm)",
+       "url": "https://www.sfelections.org/results/20261103/index.html"
+      },
+      "note": "San Francisco votes only."
+     },
+     "needs_review": true,
+     "review_note": "Preliminary election night count from news results pages; not read from the Department of Elections."
+    }
+   ],
+   "source": {
+    "label": "Wikipedia, 2026 California elections",
+    "url": "https://en.wikipedia.org/wiki/2026_California_elections"
+   },
+   "results_status": "preliminary",
+   "results_as_of": "Nov 3, 2026, 11:45 pm (SF Department of Elections, preliminary; about 164,000 ballots left to count)",
+   "needs_review": true,
+   "review_note": "Preliminary results; the Department of Elections and Secretary of State pages could not be opened in this session. Confirm against sfelections.org and sos.ca.gov.",
+   "called": false,
+   "called_by": null
+  },
+  {
+   "id": "attorney-general",
+   "office": "Attorney General",
+   "district": "Statewide",
+   "level": "State",
+   "wards": "all",
+   "seats": 1,
+   "term": null,
+   "what": "The attorney general is the state's chief lawyer and law enforcement officer.",
+   "candidates": [
+    {
+     "id": "rob-bonta",
+     "name": "Rob Bonta",
+     "party": "D",
+     "incumbent": true,
+     "hometown": null,
+     "background": null,
+     "website": null,
+     "accounts": [],
+     "positions": [],
+     "source": {
+      "label": "SF Department of Elections, Candidates, Nov 3, 2026 General Election",
+      "url": "https://www.sf.gov/candidates-november-3-2026-general-election"
+     },
+     "result": {
+      "votes": 147205,
+      "pct": 83.77,
+      "won": null,
+      "source": {
+       "label": "SF Department of Elections, preliminary results (last update Nov 3, 2026, 11:45 pm)",
+       "url": "https://www.sfelections.org/results/20261103/index.html"
+      },
+      "note": "San Francisco votes only. The SF Standard live blog lists him as projected; it does not say who made the call."
+     },
+     "needs_review": true,
+     "review_note": "Preliminary election night count from news results pages; not read from the Department of Elections."
+    },
+    {
+     "id": "michael-gates",
+     "name": "Michael Gates",
+     "party": "R",
+     "incumbent": false,
+     "hometown": null,
+     "background": null,
+     "website": null,
+     "accounts": [],
+     "positions": [],
+     "source": {
+      "label": "SF Department of Elections, Candidates, Nov 3, 2026 General Election",
+      "url": "https://www.sf.gov/candidates-november-3-2026-general-election"
+     },
+     "result": {
+      "votes": 28513,
+      "pct": 16.23,
+      "won": null,
+      "source": {
+       "label": "SF Department of Elections, preliminary results (last update Nov 3, 2026, 11:45 pm)",
+       "url": "https://www.sfelections.org/results/20261103/index.html"
+      },
+      "note": "San Francisco votes only."
+     },
+     "needs_review": true,
+     "review_note": "Preliminary election night count from news results pages; not read from the Department of Elections."
+    }
+   ],
+   "source": {
+    "label": "Wikipedia, 2026 California elections",
+    "url": "https://en.wikipedia.org/wiki/2026_California_elections"
+   },
+   "results_status": "preliminary",
+   "results_as_of": "Nov 3, 2026, 11:45 pm (SF Department of Elections, preliminary; about 164,000 ballots left to count)",
+   "needs_review": true,
+   "review_note": "Preliminary results; the Department of Elections and Secretary of State pages could not be opened in this session. Confirm against sfelections.org and sos.ca.gov.",
+   "called": false,
+   "called_by": null
+  },
+  {
+   "id": "insurance-commissioner",
+   "office": "Insurance Commissioner",
+   "district": "Statewide",
+   "level": "State",
+   "wards": "all",
+   "seats": 1,
+   "term": null,
+   "what": "The insurance commissioner regulates insurance companies and rates in California.",
+   "candidates": [
+    {
+     "id": "jane-kim",
+     "name": "Jane Kim",
+     "party": "D",
+     "incumbent": false,
+     "hometown": null,
+     "background": null,
+     "website": null,
+     "accounts": [],
+     "positions": [],
+     "source": {
+      "label": "SF Department of Elections, Candidates, Nov 3, 2026 General Election",
+      "url": "https://www.sf.gov/candidates-november-3-2026-general-election"
+     },
+     "result": {
+      "votes": 85934,
+      "pct": 51.68,
+      "won": null,
+      "source": {
+       "label": "SF Department of Elections, preliminary results (last update Nov 3, 2026, 11:45 pm)",
+       "url": "https://www.sfelections.org/results/20261103/index.html"
+      },
+      "note": "San Francisco votes only."
+     },
+     "needs_review": true,
+     "review_note": "Preliminary election night count from news results pages; not read from the Department of Elections."
+    },
+    {
+     "id": "ben-allen",
+     "name": "Ben Allen",
+     "party": "D",
+     "incumbent": false,
+     "hometown": null,
+     "background": null,
+     "website": null,
+     "accounts": [],
+     "positions": [],
+     "source": {
+      "label": "SF Department of Elections, Candidates, Nov 3, 2026 General Election",
+      "url": "https://www.sf.gov/candidates-november-3-2026-general-election"
+     },
+     "result": {
+      "votes": 80353,
+      "pct": 48.32,
+      "won": null,
+      "source": {
+       "label": "SF Department of Elections, preliminary results (last update Nov 3, 2026, 11:45 pm)",
+       "url": "https://www.sfelections.org/results/20261103/index.html"
+      },
+      "note": "San Francisco votes only."
+     },
+     "needs_review": true,
+     "review_note": "Preliminary election night count from news results pages; not read from the Department of Elections."
+    }
+   ],
+   "source": {
+    "label": "Wikipedia, 2026 California elections",
+    "url": "https://en.wikipedia.org/wiki/2026_California_elections"
+   },
+   "results_status": "preliminary",
+   "results_as_of": "Nov 3, 2026, 11:45 pm (SF Department of Elections, preliminary; about 164,000 ballots left to count)",
+   "needs_review": true,
+   "review_note": "Preliminary results; the Department of Elections and Secretary of State pages could not be opened in this session. Confirm against sfelections.org and sos.ca.gov.",
+   "results_note": "Mission Local described the race as neck-and-neck on election night; no counts were gathered.",
+   "results_note_src": {
+    "label": "Mission Local, 2026 San Francisco Elections",
+    "url": "https://missionlocal.org/2026-elections/"
+   },
+   "called": false,
+   "called_by": null
+  },
+  {
+   "id": "boe-2",
+   "office": "Board of Equalization",
+   "district": "District 2",
+   "level": "State",
+   "wards": "all",
+   "seats": 1,
+   "term": null,
+   "what": "The Board of Equalization hears some tax appeals and oversees certain state taxes. All of San Francisco is in District 2.",
+   "candidates": [
+    {
+     "id": "sally-j-lieber",
+     "name": "Sally J. Lieber",
+     "party": "D",
+     "incumbent": true,
+     "hometown": null,
+     "background": null,
+     "website": null,
+     "accounts": [],
+     "positions": [],
+     "source": {
+      "label": "SF Department of Elections, Candidates, Nov 3, 2026 General Election",
+      "url": "https://www.sf.gov/candidates-november-3-2026-general-election"
+     },
+     "result": {
+      "votes": 91313,
+      "pct": 59.25,
+      "won": null,
+      "source": {
+       "label": "SF Department of Elections, preliminary results (last update Nov 3, 2026, 11:45 pm)",
+       "url": "https://www.sfelections.org/results/20261103/index.html"
+      },
+      "note": "San Francisco votes only."
+     },
+     "needs_review": true,
+     "review_note": "Preliminary election night count from news results pages; not read from the Department of Elections."
+    },
+    {
+     "id": "john-pimentel",
+     "name": "John Pimentel",
+     "party": "D",
+     "incumbent": false,
+     "hometown": null,
+     "background": null,
+     "website": null,
+     "accounts": [],
+     "positions": [],
+     "source": {
+      "label": "SF Department of Elections, Candidates, Nov 3, 2026 General Election",
+      "url": "https://www.sf.gov/candidates-november-3-2026-general-election"
+     },
+     "result": {
+      "votes": 62791,
+      "pct": 40.75,
+      "won": null,
+      "source": {
+       "label": "SF Department of Elections, preliminary results (last update Nov 3, 2026, 11:45 pm)",
+       "url": "https://www.sfelections.org/results/20261103/index.html"
+      },
+      "note": "San Francisco votes only."
+     },
+     "needs_review": true,
+     "review_note": "Preliminary election night count from news results pages; not read from the Department of Elections."
+    }
+   ],
+   "source": {
+    "label": "California Secretary of State results API, BOE District 2, San Francisco",
+    "url": "https://api.sos.ca.gov/returns/board-of-equalization/district/2/county/san-francisco"
+   },
+   "results_status": "preliminary",
+   "results_as_of": "Nov 3, 2026, 11:45 pm (SF Department of Elections, preliminary; about 164,000 ballots left to count)",
+   "needs_review": true,
+   "review_note": "Preliminary results; the Department of Elections and Secretary of State pages could not be opened in this session. Confirm against sfelections.org and sos.ca.gov.",
+   "results_note": "The Secretary of State results feed showed only a pre-election zero report (Nov 2, 6:28 p.m.) when opened; no news results page opened listed this race.",
+   "called": false,
+   "called_by": null
+  },
+  {
+   "id": "us-house-11",
+   "office": "U.S. House",
+   "district": "District 11",
+   "level": "Federal",
+   "wards": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11"
+   ],
+   "seats": 1,
+   "term": null,
+   "what": "Open seat; Nancy Pelosi did not run. Covers part of San Francisco; look up your district at https://sfelections.org/tools/districts_lookup/ .",
+   "candidates": [
+    {
+     "id": "scott-wiener",
+     "name": "Scott Wiener",
+     "party": "D",
+     "incumbent": false,
+     "hometown": null,
+     "background": null,
+     "website": null,
+     "accounts": [],
+     "positions": [],
+     "source": {
+      "label": "SF Department of Elections, Candidates, Nov 3, 2026 General Election",
+      "url": "https://www.sf.gov/candidates-november-3-2026-general-election"
+     },
+     "result": {
+      "votes": 87641,
+      "pct": 55.42,
+      "won": null,
+      "source": {
+       "label": "SF Department of Elections, preliminary results (last update Nov 3, 2026, 11:45 pm)",
+       "url": "https://www.sfelections.org/results/20261103/index.html"
+      },
+      "note": "About 51% of the expected vote counted (KQED)."
+     },
+     "needs_review": true,
+     "review_note": "Preliminary election night count from news results pages; not read from the Department of Elections."
+    },
+    {
+     "id": "connie-chan",
+     "name": "Connie Chan",
+     "party": "D",
+     "incumbent": false,
+     "hometown": null,
+     "background": null,
+     "website": null,
+     "accounts": [],
+     "positions": [],
+     "source": {
+      "label": "SF Department of Elections, Candidates, Nov 3, 2026 General Election",
+      "url": "https://www.sf.gov/candidates-november-3-2026-general-election"
+     },
+     "result": {
+      "votes": 70511,
+      "pct": 44.58,
+      "won": null,
+      "source": {
+       "label": "SF Department of Elections, preliminary results (last update Nov 3, 2026, 11:45 pm)",
+       "url": "https://www.sfelections.org/results/20261103/index.html"
+      }
+     },
+     "needs_review": true,
+     "review_note": "Preliminary election night count from news results pages; not read from the Department of Elections."
+    }
+   ],
+   "source": {
+    "label": "Ballotpedia, California's 11th Congressional District",
+    "url": "https://ballotpedia.org/California's_11th_Congressional_District"
+   },
+   "results_status": "preliminary",
+   "results_as_of": "Nov 3, 2026, 11:45 pm (SF Department of Elections, preliminary; about 164,000 ballots left to count)",
+   "needs_review": true,
+   "review_note": "Preliminary results; the Department of Elections and Secretary of State pages could not be opened in this session. Confirm against sfelections.org and sos.ca.gov.",
+   "called": false,
+   "called_by": null
+  },
+  {
+   "id": "us-house-15",
+   "office": "U.S. House",
+   "district": "District 15",
+   "level": "Federal",
+   "wards": [
+    "7",
+    "9",
+    "10",
+    "11"
+   ],
+   "seats": 1,
+   "term": null,
+   "what": "District 15 also takes in part of San Mateo County. Covers part of San Francisco; look up your district at https://sfelections.org/tools/districts_lookup/ .",
+   "candidates": [
+    {
+     "id": "kevin-mullin",
+     "name": "Kevin Mullin",
+     "party": "D",
+     "incumbent": true,
+     "hometown": null,
+     "background": null,
+     "website": null,
+     "accounts": [],
+     "positions": [],
+     "source": {
+      "label": "SF Department of Elections, Candidates, Nov 3, 2026 General Election",
+      "url": "https://www.sf.gov/candidates-november-3-2026-general-election"
+     },
+     "result": {
+      "votes": 13048,
+      "pct": 78.68,
+      "won": true,
+      "source": {
+       "label": "SF Department of Elections, preliminary results (last update Nov 3, 2026, 11:45 pm)",
+       "url": "https://www.sfelections.org/results/20261103/index.html"
+      },
+      "note": "San Francisco votes only. Districtwide count per KQED, about 51% of the expected vote counted; may include San Mateo County votes. KQED shows the race called at 8:43 p.m. Nov 3; the SF Standard marks him the winner."
+     },
+     "needs_review": true,
+     "review_note": "Preliminary election night count from news results pages; not read from the Department of Elections."
+    },
+    {
+     "id": "charles-hoelter",
+     "name": "Charles Hoelter",
+     "party": "R",
+     "incumbent": false,
+     "hometown": null,
+     "background": null,
+     "website": null,
+     "accounts": [],
+     "positions": [],
+     "source": {
+      "label": "SF Department of Elections, Candidates, Nov 3, 2026 General Election",
+      "url": "https://www.sf.gov/candidates-november-3-2026-general-election"
+     },
+     "result": {
+      "votes": 3535,
+      "pct": 21.32,
+      "won": false,
+      "source": {
+       "label": "SF Department of Elections, preliminary results (last update Nov 3, 2026, 11:45 pm)",
+       "url": "https://www.sfelections.org/results/20261103/index.html"
+      },
+      "note": "San Francisco votes only."
+     },
+     "needs_review": true,
+     "review_note": "Preliminary election night count from news results pages; not read from the Department of Elections."
+    }
+   ],
+   "source": {
+    "label": "SF Department of Elections, Candidates, Nov 3, 2026 General Election",
+    "url": "https://www.sf.gov/candidates-november-3-2026-general-election"
+   },
+   "results_status": "preliminary",
+   "results_as_of": "Nov 3, 2026, 11:45 pm (SF Department of Elections, preliminary; about 164,000 ballots left to count)",
+   "needs_review": true,
+   "review_note": "Preliminary results; the Department of Elections and Secretary of State pages could not be opened in this session. Confirm against sfelections.org and sos.ca.gov.",
+   "call_sources": [
+    {
+     "label": "KQED, 2026 San Francisco Election Results (AP and county data; latest stamp 11:53 p.m. Nov 3)",
+     "url": "https://www.kqed.org/elections/results/sanfrancisco"
+    },
+    {
+     "label": "SF Standard, 2026 San Francisco live election results (updated 7 a.m. Nov 4)",
+     "url": "https://sfstandard.com/2026/11/03/san-francisco-election-results-november-2026/"
+    }
+   ],
+   "called": true,
+   "called_by": "KQED (8:43 p.m. Nov 3) and the SF Standard"
+  },
+  {
+   "id": "assembly-17",
+   "office": "State Assembly",
+   "district": "District 17",
+   "level": "State",
+   "wards": [
+    "2",
+    "3",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11"
+   ],
+   "seats": 1,
+   "term": null,
+   "what": "One of San Francisco's two Assembly districts. Covers part of San Francisco; look up your district at https://sfelections.org/tools/districts_lookup/ .",
+   "candidates": [
+    {
+     "id": "matt-haney",
+     "name": "Matt Haney",
+     "party": "D",
+     "incumbent": true,
+     "hometown": null,
+     "background": null,
+     "website": null,
+     "accounts": [],
+     "positions": [],
+     "source": {
+      "label": "SF Department of Elections, Candidates, Nov 3, 2026 General Election",
+      "url": "https://www.sf.gov/candidates-november-3-2026-general-election"
+     },
+     "result": {
+      "votes": 84457,
+      "pct": 88.93,
+      "won": true,
+      "source": {
+       "label": "SF Department of Elections, preliminary results (last update Nov 3, 2026, 11:45 pm)",
+       "url": "https://www.sfelections.org/results/20261103/index.html"
+      },
+      "note": "KQED shows the race called at 11:06 p.m. Nov 3; the SF Standard marks him the winner."
+     },
+     "needs_review": true,
+     "review_note": "Preliminary election night count from news results pages; not read from the Department of Elections."
+    },
+    {
+     "id": "manuel-noris-barrera",
+     "name": "Manuel Noris-Barrera",
+     "party": "R",
+     "incumbent": false,
+     "hometown": null,
+     "background": null,
+     "website": null,
+     "accounts": [],
+     "positions": [],
+     "source": {
+      "label": "SF Department of Elections, Candidates, Nov 3, 2026 General Election",
+      "url": "https://www.sf.gov/candidates-november-3-2026-general-election"
+     },
+     "result": {
+      "votes": 10513,
+      "pct": 11.07,
+      "won": false,
+      "source": {
+       "label": "SF Department of Elections, preliminary results (last update Nov 3, 2026, 11:45 pm)",
+       "url": "https://www.sfelections.org/results/20261103/index.html"
+      }
+     },
+     "needs_review": true,
+     "review_note": "Preliminary election night count from news results pages; not read from the Department of Elections."
+    }
+   ],
+   "source": {
+    "label": "SF Department of Elections, Candidates, Nov 3, 2026 General Election",
+    "url": "https://www.sf.gov/candidates-november-3-2026-general-election"
+   },
+   "results_status": "preliminary",
+   "results_as_of": "Nov 3, 2026, 11:45 pm (SF Department of Elections, preliminary; about 164,000 ballots left to count)",
+   "needs_review": true,
+   "review_note": "Preliminary results; the Department of Elections and Secretary of State pages could not be opened in this session. Confirm against sfelections.org and sos.ca.gov.",
+   "call_sources": [
+    {
+     "label": "KQED, 2026 San Francisco Election Results (AP and county data; latest stamp 11:53 p.m. Nov 3)",
+     "url": "https://www.kqed.org/elections/results/sanfrancisco"
+    },
+    {
+     "label": "SF Standard, 2026 San Francisco live election results (updated 7 a.m. Nov 4)",
+     "url": "https://sfstandard.com/2026/11/03/san-francisco-election-results-november-2026/"
+    }
+   ],
+   "called": true,
+   "called_by": "KQED (11:06 p.m. Nov 3) and the SF Standard"
+  },
+  {
+   "id": "assembly-19",
+   "office": "State Assembly",
+   "district": "District 19",
+   "level": "State",
+   "wards": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "7",
+    "8",
+    "11"
+   ],
+   "seats": 1,
+   "term": null,
+   "what": "One of San Francisco's two Assembly districts. Covers part of San Francisco; look up your district at https://sfelections.org/tools/districts_lookup/ .",
+   "candidates": [
+    {
+     "id": "catherine-stefani",
+     "name": "Catherine Stefani",
+     "party": "D",
+     "incumbent": true,
+     "hometown": null,
+     "background": null,
+     "website": null,
+     "accounts": [],
+     "positions": [],
+     "source": {
+      "label": "SF Department of Elections, Candidates, Nov 3, 2026 General Election",
+      "url": "https://www.sf.gov/candidates-november-3-2026-general-election"
+     },
+     "result": {
+      "votes": 63236,
+      "pct": 82.87,
+      "won": true,
+      "source": {
+       "label": "SF Department of Elections, preliminary results (last update Nov 3, 2026, 11:45 pm)",
+       "url": "https://www.sfelections.org/results/20261103/index.html"
+      },
+      "note": "KQED shows the race called at 9:20 p.m. Nov 3; the SF Standard marks her the winner."
+     },
+     "needs_review": true,
+     "review_note": "Preliminary election night count from news results pages; not read from the Department of Elections."
+    },
+    {
+     "id": "philip-louis-wing",
+     "name": "Philip Louis Wing",
+     "party": "R",
+     "incumbent": false,
+     "hometown": null,
+     "background": null,
+     "website": null,
+     "accounts": [],
+     "positions": [],
+     "source": {
+      "label": "SF Department of Elections, Candidates, Nov 3, 2026 General Election",
+      "url": "https://www.sf.gov/candidates-november-3-2026-general-election"
+     },
+     "result": {
+      "votes": 13073,
+      "pct": 17.13,
+      "won": false,
+      "source": {
+       "label": "SF Department of Elections, preliminary results (last update Nov 3, 2026, 11:45 pm)",
+       "url": "https://www.sfelections.org/results/20261103/index.html"
+      }
+     },
+     "needs_review": true,
+     "review_note": "Preliminary election night count from news results pages; not read from the Department of Elections."
+    }
+   ],
+   "source": {
+    "label": "SF Department of Elections, Candidates, Nov 3, 2026 General Election",
+    "url": "https://www.sf.gov/candidates-november-3-2026-general-election"
+   },
+   "results_status": "preliminary",
+   "results_as_of": "Nov 3, 2026, 11:45 pm (SF Department of Elections, preliminary; about 164,000 ballots left to count)",
+   "needs_review": true,
+   "review_note": "Preliminary results; the Department of Elections and Secretary of State pages could not be opened in this session. Confirm against sfelections.org and sos.ca.gov.",
+   "call_sources": [
+    {
+     "label": "KQED, 2026 San Francisco Election Results (AP and county data; latest stamp 11:53 p.m. Nov 3)",
+     "url": "https://www.kqed.org/elections/results/sanfrancisco"
+    },
+    {
+     "label": "SF Standard, 2026 San Francisco live election results (updated 7 a.m. Nov 4)",
+     "url": "https://sfstandard.com/2026/11/03/san-francisco-election-results-november-2026/"
+    }
+   ],
+   "called": true,
+   "called_by": "KQED (9:20 p.m. Nov 3) and the SF Standard"
+  },
+  {
+   "id": "bos-2",
+   "office": "Board of Supervisors",
+   "district": "District 2",
+   "level": "County",
+   "wards": [
+    "2"
+   ],
+   "seats": 1,
+   "term": null,
+   "what": "The Board of Supervisors is San Francisco's 11-member legislature (city and county). Nonpartisan, ranked-choice voting. Only voters in this district vote in this race.",
+   "candidates": [
+    {
+     "id": "stephen-sherrill",
+     "name": "Stephen Sherrill",
+     "party": "",
+     "incumbent": true,
+     "hometown": null,
+     "background": null,
+     "website": null,
+     "accounts": [],
+     "positions": [],
+     "source": {
+      "label": "SF Department of Elections, Candidates, Nov 3, 2026 General Election",
+      "url": "https://www.sf.gov/candidates-november-3-2026-general-election"
+     },
+     "result": {
+      "votes": 13340,
+      "pct": 90.69,
+      "won": true,
+      "source": {
+       "label": "SF Department of Elections, preliminary results (last update Nov 3, 2026, 11:45 pm)",
+       "url": "https://www.sfelections.org/results/20261103/index.html"
+      }
+     },
+     "needs_review": true,
+     "review_note": "Preliminary election night count from news results pages; not read from the Department of Elections."
+    },
+    {
+     "id": "monthanus-ratanapakdee",
+     "name": "Monthanus Ratanapakdee",
+     "party": "",
+     "incumbent": false,
+     "hometown": null,
+     "background": null,
+     "website": null,
+     "accounts": [],
+     "positions": [],
+     "source": {
+      "label": "SF Department of Elections, Candidates, Nov 3, 2026 General Election",
+      "url": "https://www.sf.gov/candidates-november-3-2026-general-election"
+     },
+     "result": {
+      "votes": 1369,
+      "pct": 9.31,
+      "won": false,
+      "source": {
+       "label": "SF Department of Elections, preliminary results (last update Nov 3, 2026, 11:45 pm)",
+       "url": "https://www.sfelections.org/results/20261103/index.html"
+      }
+     },
+     "needs_review": true,
+     "review_note": "Preliminary election night count from news results pages; not read from the Department of Elections."
+    },
+    {
+     "id": "nicholas-berg",
+     "name": "Nicholas Berg",
+     "party": "",
+     "incumbent": false,
+     "hometown": null,
+     "background": null,
+     "website": null,
+     "accounts": [],
+     "positions": [],
+     "source": {
+      "label": "SF Department of Elections, Candidates, Nov 3, 2026 General Election",
+      "url": "https://www.sf.gov/candidates-november-3-2026-general-election"
+     },
+     "result": {
+      "votes": null,
+      "pct": null,
+      "won": false,
+      "source": {
+       "label": "SF Department of Elections, preliminary results (last update Nov 3, 2026, 11:45 pm)",
+       "url": "https://www.sfelections.org/results/20261103/index.html"
+      },
+      "note": "Ranked-choice count: eliminated in round 2."
+     },
+     "needs_review": true,
+     "review_note": "Preliminary election night count from news results pages; not read from the Department of Elections."
+    },
+    {
+     "id": "guy-mccoy",
+     "name": "Guy McCoy",
+     "party": "",
+     "incumbent": false,
+     "hometown": null,
+     "background": null,
+     "website": null,
+     "accounts": [],
+     "positions": [],
+     "source": {
+      "label": "SF Department of Elections, Candidates, Nov 3, 2026 General Election",
+      "url": "https://www.sf.gov/candidates-november-3-2026-general-election"
+     },
+     "result": {
+      "votes": null,
+      "pct": null,
+      "won": false,
+      "source": {
+       "label": "SF Department of Elections, preliminary results (last update Nov 3, 2026, 11:45 pm)",
+       "url": "https://www.sfelections.org/results/20261103/index.html"
+      },
+      "note": "Ranked-choice count: eliminated in round 1."
+     },
+     "needs_review": true,
+     "review_note": "Preliminary election night count from news results pages; not read from the Department of Elections."
+    }
+   ],
+   "source": {
+    "label": "Ballotpedia, City elections in San Francisco (2026)",
+    "url": "https://ballotpedia.org/City_elections_in_San_Francisco%2C_California_%282026%29"
+   },
+   "results_status": "preliminary",
+   "results_as_of": "Nov 3, 2026, 11:45 pm (SF Department of Elections, preliminary; about 164,000 ballots left to count)",
+   "needs_review": true,
+   "review_note": "Preliminary results; the Department of Elections and Secretary of State pages could not be opened in this session. Confirm against sfelections.org and sos.ca.gov.",
+   "call_sources": [
+    {
+     "label": "SF Standard, 2026 San Francisco live election results (updated 7 a.m. Nov 4)",
+     "url": "https://sfstandard.com/2026/11/03/san-francisco-election-results-november-2026/"
+    },
+    {
+     "label": "Mission Local, three incumbent supervisors win reelection (Nov 3 to 4, 2026)",
+     "url": "https://missionlocal.org/2026/11/three-incumbent-sf-supervisors-win-reelection/"
+    }
+   ],
+   "votesNote": "votes is the final ranked-choice round shown by the SF Standard (first-choice votes in firstChoice); pct is computed from those two finalists. KQED's first-choice figures differ slightly.",
+   "called": true,
+   "called_by": "SF Standard and Mission Local",
+   "rcvNote": "Ranked-choice voting. Votes shown are from the last round of the preliminary count."
+  },
+  {
+   "id": "bos-4",
+   "office": "Board of Supervisors",
+   "district": "District 4",
+   "level": "County",
+   "wards": [
+    "4"
+   ],
+   "seats": 1,
+   "term": null,
+   "what": "The Board of Supervisors is San Francisco's 11-member legislature (city and county). Nonpartisan, ranked-choice voting. Only voters in this district vote in this race.",
+   "candidates": [
+    {
+     "id": "alan-wong",
+     "name": "Alan Wong",
+     "party": "",
+     "incumbent": true,
+     "hometown": null,
+     "background": null,
+     "website": null,
+     "accounts": [],
+     "positions": [],
+     "source": {
+      "label": "SF Department of Elections, Candidates, Nov 3, 2026 General Election",
+      "url": "https://www.sf.gov/candidates-november-3-2026-general-election"
+     },
+     "result": {
+      "votes": 11182,
+      "pct": 75.72,
+      "won": true,
+      "source": {
+       "label": "SF Department of Elections, preliminary results (last update Nov 3, 2026, 11:45 pm)",
+       "url": "https://www.sfelections.org/results/20261103/index.html"
+      }
+     },
+     "needs_review": true,
+     "review_note": "Preliminary election night count from news results pages; not read from the Department of Elections."
+    },
+    {
+     "id": "albert-chow",
+     "name": "Albert Chow",
+     "party": "",
+     "incumbent": false,
+     "hometown": null,
+     "background": null,
+     "website": null,
+     "accounts": [],
+     "positions": [],
+     "source": {
+      "label": "SF Department of Elections, Candidates, Nov 3, 2026 General Election",
+      "url": "https://www.sf.gov/candidates-november-3-2026-general-election"
+     },
+     "result": {
+      "votes": 3585,
+      "pct": 24.28,
+      "won": false,
+      "source": {
+       "label": "SF Department of Elections, preliminary results (last update Nov 3, 2026, 11:45 pm)",
+       "url": "https://www.sfelections.org/results/20261103/index.html"
+      }
+     },
+     "needs_review": true,
+     "review_note": "Preliminary election night count from news results pages; not read from the Department of Elections."
+    },
+    {
+     "id": "jeremy-julian-greco",
+     "name": "Jeremy Julian Greco",
+     "party": "",
+     "incumbent": false,
+     "hometown": null,
+     "background": null,
+     "website": null,
+     "accounts": [],
+     "positions": [],
+     "source": {
+      "label": "SF Department of Elections, Candidates, Nov 3, 2026 General Election",
+      "url": "https://www.sf.gov/candidates-november-3-2026-general-election"
+     },
+     "result": {
+      "votes": null,
+      "pct": null,
+      "won": false,
+      "source": {
+       "label": "SF Department of Elections, preliminary results (last update Nov 3, 2026, 11:45 pm)",
+       "url": "https://www.sfelections.org/results/20261103/index.html"
+      },
+      "note": "Ranked-choice count: eliminated in round 1."
+     },
+     "needs_review": true,
+     "review_note": "Preliminary election night count from news results pages; not read from the Department of Elections."
+    }
+   ],
+   "source": {
+    "label": "Ballotpedia, City elections in San Francisco (2026)",
+    "url": "https://ballotpedia.org/City_elections_in_San_Francisco%2C_California_%282026%29"
+   },
+   "results_status": "preliminary",
+   "results_as_of": "Nov 3, 2026, 11:45 pm (SF Department of Elections, preliminary; about 164,000 ballots left to count)",
+   "needs_review": true,
+   "review_note": "Preliminary results; the Department of Elections and Secretary of State pages could not be opened in this session. Confirm against sfelections.org and sos.ca.gov.",
+   "call_sources": [
+    {
+     "label": "SF Standard, 2026 San Francisco live election results (updated 7 a.m. Nov 4)",
+     "url": "https://sfstandard.com/2026/11/03/san-francisco-election-results-november-2026/"
+    },
+    {
+     "label": "Mission Local, three incumbent supervisors win reelection (Nov 3 to 4, 2026)",
+     "url": "https://missionlocal.org/2026/11/three-incumbent-sf-supervisors-win-reelection/"
+    }
+   ],
+   "votesNote": "votes is the final ranked-choice round shown by the SF Standard (first-choice votes in firstChoice); pct is computed from those two finalists. KQED's first-choice figures differ slightly.",
+   "called": true,
+   "called_by": "SF Standard and Mission Local",
+   "rcvNote": "Ranked-choice voting. Votes shown are from the last round of the preliminary count."
+  },
+  {
+   "id": "bos-6",
+   "office": "Board of Supervisors",
+   "district": "District 6",
+   "level": "County",
+   "wards": [
+    "6"
+   ],
+   "seats": 1,
+   "term": null,
+   "what": "The Board of Supervisors is San Francisco's 11-member legislature (city and county). Nonpartisan, ranked-choice voting. Only voters in this district vote in this race.",
+   "candidates": [
+    {
+     "id": "matt-dorsey",
+     "name": "Matt Dorsey",
+     "party": "",
+     "incumbent": true,
+     "hometown": null,
+     "background": null,
+     "website": null,
+     "accounts": [],
+     "positions": [],
+     "source": {
+      "label": "SF Department of Elections, Candidates, Nov 3, 2026 General Election",
+      "url": "https://www.sf.gov/candidates-november-3-2026-general-election"
+     },
+     "result": {
+      "votes": 7564,
+      "pct": 80.83,
+      "won": true,
+      "source": {
+       "label": "SF Department of Elections, preliminary results (last update Nov 3, 2026, 11:45 pm)",
+       "url": "https://www.sfelections.org/results/20261103/index.html"
+      }
+     },
+     "needs_review": true,
+     "review_note": "Preliminary election night count from news results pages; not read from the Department of Elections."
+    },
+    {
+     "id": "alex-behrend",
+     "name": "Alex Behrend",
+     "party": "",
+     "incumbent": false,
+     "hometown": null,
+     "background": null,
+     "website": null,
+     "accounts": [],
+     "positions": [],
+     "source": {
+      "label": "SF Department of Elections, Candidates, Nov 3, 2026 General Election",
+      "url": "https://www.sf.gov/candidates-november-3-2026-general-election"
+     },
+     "result": {
+      "votes": 1794,
+      "pct": 19.17,
+      "won": false,
+      "source": {
+       "label": "SF Department of Elections, preliminary results (last update Nov 3, 2026, 11:45 pm)",
+       "url": "https://www.sfelections.org/results/20261103/index.html"
+      }
+     },
+     "needs_review": true,
+     "review_note": "Preliminary election night count from news results pages; not read from the Department of Elections."
+    }
+   ],
+   "source": {
+    "label": "Ballotpedia, City elections in San Francisco (2026)",
+    "url": "https://ballotpedia.org/City_elections_in_San_Francisco%2C_California_%282026%29"
+   },
+   "results_status": "preliminary",
+   "results_as_of": "Nov 3, 2026, 11:45 pm (SF Department of Elections, preliminary; about 164,000 ballots left to count)",
+   "needs_review": true,
+   "review_note": "Preliminary results; the Department of Elections and Secretary of State pages could not be opened in this session. Confirm against sfelections.org and sos.ca.gov.",
+   "call_sources": [
+    {
+     "label": "SF Standard, 2026 San Francisco live election results (updated 7 a.m. Nov 4)",
+     "url": "https://sfstandard.com/2026/11/03/san-francisco-election-results-november-2026/"
+    },
+    {
+     "label": "Mission Local, three incumbent supervisors win reelection (Nov 3 to 4, 2026)",
+     "url": "https://missionlocal.org/2026/11/three-incumbent-sf-supervisors-win-reelection/"
+    }
+   ],
+   "votesNote": "votes is the final ranked-choice round shown by the SF Standard (first-choice votes in firstChoice); pct is computed from those two finalists. KQED's first-choice figures differ slightly.",
+   "called": true,
+   "called_by": "SF Standard and Mission Local",
+   "rcvNote": "Ranked-choice voting. Votes shown are from the last round of the preliminary count."
+  },
+  {
+   "id": "bos-8",
+   "office": "Board of Supervisors",
+   "district": "District 8",
+   "level": "County",
+   "wards": [
+    "8"
+   ],
+   "seats": 1,
+   "term": null,
+   "what": "The Board of Supervisors is San Francisco's 11-member legislature (city and county). Nonpartisan, ranked-choice voting. Only voters in this district vote in this race.",
+   "candidates": [
+    {
+     "id": "gary-mccoy",
+     "name": "Gary McCoy",
+     "party": "",
+     "incumbent": false,
+     "hometown": null,
+     "background": null,
+     "website": null,
+     "accounts": [],
+     "positions": [],
+     "source": {
+      "label": "SF Department of Elections, Candidates, Nov 3, 2026 General Election",
+      "url": "https://www.sf.gov/candidates-november-3-2026-general-election"
+     },
+     "result": {
+      "votes": 13687,
+      "pct": 64.6,
+      "won": true,
+      "source": {
+       "label": "SF Department of Elections, preliminary results (last update Nov 3, 2026, 11:45 pm)",
+       "url": "https://www.sfelections.org/results/20261103/index.html"
+      },
+      "note": "Open seat (Rafael Mandelman is term-limited)."
+     },
+     "needs_review": true,
+     "review_note": "Preliminary election night count from news results pages; not read from the Department of Elections."
+    },
+    {
+     "id": "darshini-patel",
+     "name": "Darshini Patel",
+     "party": "",
+     "incumbent": false,
+     "hometown": null,
+     "background": null,
+     "website": null,
+     "accounts": [],
+     "positions": [],
+     "source": {
+      "label": "SF Department of Elections, Candidates, Nov 3, 2026 General Election",
+      "url": "https://www.sf.gov/candidates-november-3-2026-general-election"
+     },
+     "result": {
+      "votes": 7499,
+      "pct": 35.4,
+      "won": false,
+      "source": {
+       "label": "SF Department of Elections, preliminary results (last update Nov 3, 2026, 11:45 pm)",
+       "url": "https://www.sfelections.org/results/20261103/index.html"
+      }
+     },
+     "needs_review": true,
+     "review_note": "Preliminary election night count from news results pages; not read from the Department of Elections."
+    },
+    {
+     "id": "emanuel-manny-yekutiel",
+     "name": "Emanuel \"Manny\" Yekutiel",
+     "party": "",
+     "incumbent": false,
+     "hometown": null,
+     "background": null,
+     "website": null,
+     "accounts": [],
+     "positions": [],
+     "source": {
+      "label": "SF Department of Elections, Candidates, Nov 3, 2026 General Election",
+      "url": "https://www.sf.gov/candidates-november-3-2026-general-election"
+     },
+     "result": {
+      "votes": null,
+      "pct": null,
+      "won": false,
+      "source": {
+       "label": "SF Department of Elections, preliminary results (last update Nov 3, 2026, 11:45 pm)",
+       "url": "https://www.sfelections.org/results/20261103/index.html"
+      },
+      "note": "Ranked-choice count: eliminated in round 2."
+     },
+     "needs_review": true,
+     "review_note": "Preliminary election night count from news results pages; not read from the Department of Elections."
+    },
+    {
+     "id": "michael-t-nguyen",
+     "name": "Michael T. Nguyen",
+     "party": "",
+     "incumbent": false,
+     "hometown": null,
+     "background": null,
+     "website": null,
+     "accounts": [],
+     "positions": [],
+     "source": {
+      "label": "SF Department of Elections, Candidates, Nov 3, 2026 General Election",
+      "url": "https://www.sf.gov/candidates-november-3-2026-general-election"
+     },
+     "result": {
+      "votes": null,
+      "pct": null,
+      "won": false,
+      "source": {
+       "label": "SF Department of Elections, preliminary results (last update Nov 3, 2026, 11:45 pm)",
+       "url": "https://www.sfelections.org/results/20261103/index.html"
+      },
+      "note": "Ranked-choice count: eliminated in round 1."
+     },
+     "needs_review": true,
+     "review_note": "Preliminary election night count from news results pages; not read from the Department of Elections."
+    }
+   ],
+   "source": {
+    "label": "Ballotpedia, City elections in San Francisco (2026)",
+    "url": "https://ballotpedia.org/City_elections_in_San_Francisco%2C_California_%282026%29"
+   },
+   "results_status": "preliminary",
+   "results_as_of": "Nov 3, 2026, 11:45 pm (SF Department of Elections, preliminary; about 164,000 ballots left to count)",
+   "needs_review": true,
+   "review_note": "Preliminary results; the Department of Elections and Secretary of State pages could not be opened in this session. Confirm against sfelections.org and sos.ca.gov.",
+   "call_sources": [
+    {
+     "label": "SF Standard, 2026 San Francisco live election results (updated 7 a.m. Nov 4)",
+     "url": "https://sfstandard.com/2026/11/03/san-francisco-election-results-november-2026/"
+    },
+    {
+     "label": "Bay Area Reporter, McCoy wins San Francisco District 8 supervisor race (headline)",
+     "url": "https://www.ebar.com/story/171775/News/"
+    },
+    {
+     "label": "SF Chronicle, McCoy and Ellington win two open supervisor races (headline)",
+     "url": "https://www.sfchronicle.com/sf/article/sf-supervisors-d8-d10-mccoy-ellington-22487748.php"
+    }
+   ],
+   "votesNote": "votes is the final ranked-choice round shown by the SF Standard (first-choice votes in firstChoice); pct is computed from those two finalists. KQED's first-choice figures differ slightly.",
+   "called": true,
+   "called_by": "SF Standard and Bay Area Reporter, SF Chronicle",
+   "rcvNote": "Ranked-choice voting. Votes shown are from the last round of the preliminary count."
+  },
+  {
+   "id": "bos-10",
+   "office": "Board of Supervisors",
+   "district": "District 10",
+   "level": "County",
+   "wards": [
+    "10"
+   ],
+   "seats": 1,
+   "term": null,
+   "what": "The Board of Supervisors is San Francisco's 11-member legislature (city and county). Nonpartisan, ranked-choice voting. Only voters in this district vote in this race.",
+   "candidates": [
+    {
+     "id": "theo-ellington",
+     "name": "Theo Ellington",
+     "party": "",
+     "incumbent": false,
+     "hometown": null,
+     "background": null,
+     "website": null,
+     "accounts": [],
+     "positions": [],
+     "source": {
+      "label": "SF Department of Elections, Candidates, Nov 3, 2026 General Election",
+      "url": "https://www.sf.gov/candidates-november-3-2026-general-election"
+     },
+     "result": {
+      "votes": 6385,
+      "pct": 66.87,
+      "won": true,
+      "source": {
+       "label": "SF Department of Elections, preliminary results (last update Nov 3, 2026, 11:45 pm)",
+       "url": "https://www.sfelections.org/results/20261103/index.html"
+      },
+      "note": "Open seat (Shamann Walton is term-limited)."
+     },
+     "needs_review": true,
+     "review_note": "Preliminary election night count from news results pages; not read from the Department of Elections."
+    },
+    {
+     "id": "dionjay-dj-brookter",
+     "name": "Dionjay (DJ) Brookter",
+     "party": "",
+     "incumbent": false,
+     "hometown": null,
+     "background": null,
+     "website": null,
+     "accounts": [],
+     "positions": [],
+     "source": {
+      "label": "SF Department of Elections, Candidates, Nov 3, 2026 General Election",
+      "url": "https://www.sf.gov/candidates-november-3-2026-general-election"
+     },
+     "result": {
+      "votes": 3163,
+      "pct": 33.13,
+      "won": false,
+      "source": {
+       "label": "SF Department of Elections, preliminary results (last update Nov 3, 2026, 11:45 pm)",
+       "url": "https://www.sfelections.org/results/20261103/index.html"
+      }
+     },
+     "needs_review": true,
+     "review_note": "Preliminary election night count from news results pages; not read from the Department of Elections."
+    },
+    {
+     "id": "j-r-eppler",
+     "name": "J.R. Eppler",
+     "party": "",
+     "incumbent": false,
+     "hometown": null,
+     "background": null,
+     "website": null,
+     "accounts": [],
+     "positions": [],
+     "source": {
+      "label": "SF Department of Elections, Candidates, Nov 3, 2026 General Election",
+      "url": "https://www.sf.gov/candidates-november-3-2026-general-election"
+     },
+     "result": {
+      "votes": null,
+      "pct": null,
+      "won": false,
+      "source": {
+       "label": "SF Department of Elections, preliminary results (last update Nov 3, 2026, 11:45 pm)",
+       "url": "https://www.sfelections.org/results/20261103/index.html"
+      },
+      "note": "Ranked-choice count: eliminated in round 8."
+     },
+     "needs_review": true,
+     "review_note": "Preliminary election night count from news results pages; not read from the Department of Elections."
+    },
+    {
+     "id": "jessica-pessecow",
+     "name": "Jessica Pessecow",
+     "party": "",
+     "incumbent": false,
+     "hometown": null,
+     "background": null,
+     "website": null,
+     "accounts": [],
+     "positions": [],
+     "source": {
+      "label": "SF Department of Elections, Candidates, Nov 3, 2026 General Election",
+      "url": "https://www.sf.gov/candidates-november-3-2026-general-election"
+     },
+     "result": {
+      "votes": null,
+      "pct": null,
+      "won": false,
+      "source": {
+       "label": "SF Department of Elections, preliminary results (last update Nov 3, 2026, 11:45 pm)",
+       "url": "https://www.sfelections.org/results/20261103/index.html"
+      },
+      "note": "Ranked-choice count: eliminated in round 7."
+     },
+     "needs_review": true,
+     "review_note": "Preliminary election night count from news results pages; not read from the Department of Elections."
+    },
+    {
+     "id": "mike-trouble-lin",
+     "name": "Mike Trouble Lin",
+     "party": "",
+     "incumbent": false,
+     "hometown": null,
+     "background": null,
+     "website": null,
+     "accounts": [],
+     "positions": [],
+     "source": {
+      "label": "SF Department of Elections, Candidates, Nov 3, 2026 General Election",
+      "url": "https://www.sf.gov/candidates-november-3-2026-general-election"
+     },
+     "result": {
+      "votes": null,
+      "pct": null,
+      "won": false,
+      "source": {
+       "label": "SF Department of Elections, preliminary results (last update Nov 3, 2026, 11:45 pm)",
+       "url": "https://www.sfelections.org/results/20261103/index.html"
+      },
+      "note": "Ranked-choice count: eliminated in round 6."
+     },
+     "needs_review": true,
+     "review_note": "Preliminary election night count from news results pages; not read from the Department of Elections."
+    },
+    {
+     "id": "pearci-pj-bastiany-iii",
+     "name": "Pearci \"PJ\" Bastiany III",
+     "party": "",
+     "incumbent": false,
+     "hometown": null,
+     "background": null,
+     "website": null,
+     "accounts": [],
+     "positions": [],
+     "source": {
+      "label": "SF Department of Elections, Candidates, Nov 3, 2026 General Election",
+      "url": "https://www.sf.gov/candidates-november-3-2026-general-election"
+     },
+     "result": {
+      "votes": null,
+      "pct": null,
+      "won": false,
+      "source": {
+       "label": "SF Department of Elections, preliminary results (last update Nov 3, 2026, 11:45 pm)",
+       "url": "https://www.sfelections.org/results/20261103/index.html"
+      },
+      "note": "Ranked-choice count: eliminated in round 1."
+     },
+     "needs_review": true,
+     "review_note": "Preliminary election night count from news results pages; not read from the Department of Elections."
+    },
+    {
+     "id": "deandra-bryant",
+     "name": "Deandra Bryant",
+     "party": "",
+     "incumbent": false,
+     "hometown": null,
+     "background": null,
+     "website": null,
+     "accounts": [],
+     "positions": [],
+     "source": {
+      "label": "SF Department of Elections, Candidates, Nov 3, 2026 General Election",
+      "url": "https://www.sf.gov/candidates-november-3-2026-general-election"
+     },
+     "result": {
+      "votes": null,
+      "pct": null,
+      "won": false,
+      "source": {
+       "label": "SF Department of Elections, preliminary results (last update Nov 3, 2026, 11:45 pm)",
+       "url": "https://www.sfelections.org/results/20261103/index.html"
+      },
+      "note": "Ranked-choice count: eliminated in round 5."
+     },
+     "needs_review": true,
+     "review_note": "Preliminary election night count from news results pages; not read from the Department of Elections."
+    },
+    {
+     "id": "ellsworth-ell-m-jennison-jr",
+     "name": "Ellsworth \"Ell\" M. Jennison, Jr.",
+     "party": "",
+     "incumbent": false,
+     "hometown": null,
+     "background": null,
+     "website": null,
+     "accounts": [],
+     "positions": [],
+     "source": {
+      "label": "SF Department of Elections, Candidates, Nov 3, 2026 General Election",
+      "url": "https://www.sf.gov/candidates-november-3-2026-general-election"
+     },
+     "result": {
+      "votes": null,
+      "pct": null,
+      "won": false,
+      "source": {
+       "label": "SF Department of Elections, preliminary results (last update Nov 3, 2026, 11:45 pm)",
+       "url": "https://www.sfelections.org/results/20261103/index.html"
+      },
+      "note": "Ranked-choice count: eliminated in round 4."
+     },
+     "needs_review": true,
+     "review_note": "Preliminary election night count from news results pages; not read from the Department of Elections."
+    },
+    {
+     "id": "jamo-muhammad",
+     "name": "Jamo Muhammad",
+     "party": "",
+     "incumbent": false,
+     "hometown": null,
+     "background": null,
+     "website": null,
+     "accounts": [],
+     "positions": [],
+     "source": {
+      "label": "SF Department of Elections, Candidates, Nov 3, 2026 General Election",
+      "url": "https://www.sf.gov/candidates-november-3-2026-general-election"
+     },
+     "result": {
+      "votes": null,
+      "pct": null,
+      "won": false,
+      "source": {
+       "label": "SF Department of Elections, preliminary results (last update Nov 3, 2026, 11:45 pm)",
+       "url": "https://www.sfelections.org/results/20261103/index.html"
+      },
+      "note": "Ranked-choice count: eliminated in round 2."
+     },
+     "needs_review": true,
+     "review_note": "Preliminary election night count from news results pages; not read from the Department of Elections."
+    },
+    {
+     "id": "shawn-m-richard",
+     "name": "Shawn M. Richard",
+     "party": "",
+     "incumbent": false,
+     "hometown": null,
+     "background": null,
+     "website": null,
+     "accounts": [],
+     "positions": [],
+     "source": {
+      "label": "SF Department of Elections, Candidates, Nov 3, 2026 General Election",
+      "url": "https://www.sf.gov/candidates-november-3-2026-general-election"
+     },
+     "result": {
+      "votes": null,
+      "pct": null,
+      "won": false,
+      "source": {
+       "label": "SF Department of Elections, preliminary results (last update Nov 3, 2026, 11:45 pm)",
+       "url": "https://www.sfelections.org/results/20261103/index.html"
+      },
+      "note": "Ranked-choice count: eliminated in round 3."
+     },
+     "needs_review": true,
+     "review_note": "Preliminary election night count from news results pages; not read from the Department of Elections."
+    }
+   ],
+   "source": {
+    "label": "Ballotpedia, City elections in San Francisco (2026)",
+    "url": "https://ballotpedia.org/City_elections_in_San_Francisco%2C_California_%282026%29"
+   },
+   "results_status": "preliminary",
+   "results_as_of": "Nov 3, 2026, 11:45 pm (SF Department of Elections, preliminary; about 164,000 ballots left to count)",
+   "needs_review": true,
+   "review_note": "Preliminary results; the Department of Elections and Secretary of State pages could not be opened in this session. Confirm against sfelections.org and sos.ca.gov.",
+   "call_sources": [
+    {
+     "label": "SF Standard, 2026 San Francisco live election results (updated 7 a.m. Nov 4)",
+     "url": "https://sfstandard.com/2026/11/03/san-francisco-election-results-november-2026/"
+    },
+    {
+     "label": "Mission Local, Theo Ellington wins race for District 10 supervisor (headline)",
+     "url": "https://missionlocal.org/2026/11/theo-ellington-district-10-supervisor-victory-san-francisco/"
+    },
+    {
+     "label": "SF Chronicle, McCoy and Ellington win two open supervisor races (headline)",
+     "url": "https://www.sfchronicle.com/sf/article/sf-supervisors-d8-d10-mccoy-ellington-22487748.php"
+    }
+   ],
+   "votesNote": "votes is the final ranked-choice round shown by the SF Standard (first-choice votes in firstChoice); pct is computed from those two finalists. KQED's first-choice figures differ slightly.",
+   "called": true,
+   "called_by": "SF Standard and Mission Local, SF Chronicle",
+   "rcvNote": "Ranked-choice voting. Votes shown are from the last round of the preliminary count."
+  },
+  {
+   "id": "board-of-education",
+   "office": "Board of Education",
+   "district": "Citywide, 3 seats",
+   "level": "County",
+   "wards": "all",
+   "seats": 3,
+   "term": null,
+   "what": "The Board of Education governs the San Francisco Unified School District. Top three win. Nonpartisan. Some non-citizen parents and guardians may vote in this contest.",
+   "candidates": [
+    {
+     "id": "phil-kim",
+     "name": "Phil Kim",
+     "party": "",
+     "incumbent": true,
+     "hometown": null,
+     "background": null,
+     "website": null,
+     "accounts": [],
+     "positions": [],
+     "source": {
+      "label": "SF Department of Elections, Candidates, Nov 3, 2026 General Election",
+      "url": "https://www.sf.gov/candidates-november-3-2026-general-election"
+     },
+     "result": {
+      "votes": 91496,
+      "pct": 22.6,
+      "won": true,
+      "source": {
+       "label": "SF Department of Elections, preliminary results (last update Nov 3, 2026, 11:45 pm)",
+       "url": "https://www.sfelections.org/results/20261103/index.html"
+      },
+      "note": "Called by the SF Standard; Mission Local reports he won reelection."
+     },
+     "needs_review": true,
+     "review_note": "Preliminary election night count from news results pages; not read from the Department of Elections."
+    },
+    {
+     "id": "tim-tung",
+     "name": "Tim Tung",
+     "party": "",
+     "incumbent": false,
+     "hometown": null,
+     "background": null,
+     "website": null,
+     "accounts": [],
+     "positions": [],
+     "source": {
+      "label": "SF Department of Elections, Candidates, Nov 3, 2026 General Election",
+      "url": "https://www.sf.gov/candidates-november-3-2026-general-election"
+     },
+     "result": {
+      "votes": 64745,
+      "pct": 16.0,
+      "won": null,
+      "source": {
+       "label": "SF Department of Elections, preliminary results (last update Nov 3, 2026, 11:45 pm)",
+       "url": "https://www.sfelections.org/results/20261103/index.html"
+      }
+     },
+     "needs_review": true,
+     "review_note": "Preliminary election night count from news results pages; not read from the Department of Elections."
+    },
+    {
+     "id": "autumn-brown-garibay",
+     "name": "Autumn Brown Garibay",
+     "party": "",
+     "incumbent": false,
+     "hometown": null,
+     "background": null,
+     "website": null,
+     "accounts": [],
+     "positions": [],
+     "source": {
+      "label": "SF Department of Elections, Candidates, Nov 3, 2026 General Election",
+      "url": "https://www.sf.gov/candidates-november-3-2026-general-election"
+     },
+     "result": {
+      "votes": 62967,
+      "pct": 15.56,
+      "won": null,
+      "source": {
+       "label": "SF Department of Elections, preliminary results (last update Nov 3, 2026, 11:45 pm)",
+       "url": "https://www.sfelections.org/results/20261103/index.html"
+      }
+     },
+     "needs_review": true,
+     "review_note": "Preliminary election night count from news results pages; not read from the Department of Elections."
+    },
+    {
+     "id": "virginia-cheung",
+     "name": "Virginia Cheung",
+     "party": "",
+     "incumbent": false,
+     "hometown": null,
+     "background": null,
+     "website": null,
+     "accounts": [],
+     "positions": [],
+     "source": {
+      "label": "SF Department of Elections, Candidates, Nov 3, 2026 General Election",
+      "url": "https://www.sf.gov/candidates-november-3-2026-general-election"
+     },
+     "result": {
+      "votes": 50967,
+      "pct": 12.59,
+      "won": null,
+      "source": {
+       "label": "SF Department of Elections, preliminary results (last update Nov 3, 2026, 11:45 pm)",
+       "url": "https://www.sfelections.org/results/20261103/index.html"
+      }
+     },
+     "needs_review": true,
+     "review_note": "Preliminary election night count from news results pages; not read from the Department of Elections."
+    },
+    {
+     "id": "ryan-hazelton",
+     "name": "Ryan Hazelton",
+     "party": "",
+     "incumbent": false,
+     "hometown": null,
+     "background": null,
+     "website": null,
+     "accounts": [],
+     "positions": [],
+     "source": {
+      "label": "SF Department of Elections, Candidates, Nov 3, 2026 General Election",
+      "url": "https://www.sf.gov/candidates-november-3-2026-general-election"
+     },
+     "result": {
+      "votes": 44919,
+      "pct": 11.1,
+      "won": null,
+      "source": {
+       "label": "SF Department of Elections, preliminary results (last update Nov 3, 2026, 11:45 pm)",
+       "url": "https://www.sfelections.org/results/20261103/index.html"
+      }
+     },
+     "needs_review": true,
+     "review_note": "Preliminary election night count from news results pages; not read from the Department of Elections."
+    },
+    {
+     "id": "alida-fisher",
+     "name": "Alida Fisher",
+     "party": "",
+     "incumbent": false,
+     "hometown": null,
+     "background": null,
+     "website": null,
+     "accounts": [],
+     "positions": [],
+     "source": {
+      "label": "SF Department of Elections, Candidates, Nov 3, 2026 General Election",
+      "url": "https://www.sf.gov/candidates-november-3-2026-general-election"
+     },
+     "result": {
+      "votes": 29302,
+      "pct": 7.24,
+      "won": null,
+      "source": {
+       "label": "SF Department of Elections, preliminary results (last update Nov 3, 2026, 11:45 pm)",
+       "url": "https://www.sfelections.org/results/20261103/index.html"
+      },
+      "note": "Not among the vote totals shown by the SF Standard."
+     },
+     "needs_review": true,
+     "review_note": "Preliminary election night count from news results pages; not read from the Department of Elections."
+    },
+    {
+     "id": "laurance-lee",
+     "name": "Laurance Lee",
+     "party": "",
+     "incumbent": false,
+     "hometown": null,
+     "background": null,
+     "website": null,
+     "accounts": [],
+     "positions": [],
+     "source": {
+      "label": "SF Department of Elections, Candidates, Nov 3, 2026 General Election",
+      "url": "https://www.sf.gov/candidates-november-3-2026-general-election"
+     },
+     "result": {
+      "votes": 16512,
+      "pct": 4.08,
+      "won": null,
+      "source": {
+       "label": "SF Department of Elections, preliminary results (last update Nov 3, 2026, 11:45 pm)",
+       "url": "https://www.sfelections.org/results/20261103/index.html"
+      },
+      "note": "Not among the vote totals shown by the SF Standard."
+     },
+     "needs_review": true,
+     "review_note": "Preliminary election night count from news results pages; not read from the Department of Elections."
+    },
+    {
+     "id": "reina-tello",
+     "name": "Reina Tello",
+     "party": "",
+     "incumbent": false,
+     "hometown": null,
+     "background": null,
+     "website": null,
+     "accounts": [],
+     "positions": [],
+     "source": {
+      "label": "SF Department of Elections, Candidates, Nov 3, 2026 General Election",
+      "url": "https://www.sf.gov/candidates-november-3-2026-general-election"
+     },
+     "result": {
+      "votes": 43863,
+      "pct": 10.84,
+      "won": null,
+      "source": {
+       "label": "SF Department of Elections, preliminary results (last update Nov 3, 2026, 11:45 pm)",
+       "url": "https://www.sfelections.org/results/20261103/index.html"
+      },
+      "note": "Not among the vote totals shown by the SF Standard."
+     },
+     "needs_review": true,
+     "review_note": "Preliminary election night count from news results pages; not read from the Department of Elections."
+    }
+   ],
+   "source": {
+    "label": "SF Department of Elections, Candidates, Nov 3, 2026 General Election",
+    "url": "https://www.sf.gov/candidates-november-3-2026-general-election"
+   },
+   "results_status": "preliminary",
+   "results_as_of": "Nov 3, 2026, 11:45 pm (SF Department of Elections, preliminary; about 164,000 ballots left to count)",
+   "needs_review": true,
+   "review_note": "Preliminary results; the Department of Elections and Secretary of State pages could not be opened in this session. Confirm against sfelections.org and sos.ca.gov.",
+   "call_sources": [
+    {
+     "label": "SF Standard, 2026 San Francisco live election results (updated 7 a.m. Nov 4)",
+     "url": "https://sfstandard.com/2026/11/03/san-francisco-election-results-november-2026/"
+    },
+    {
+     "label": "Mission Local, 2026 San Francisco Elections",
+     "url": "https://missionlocal.org/2026-elections/"
+    }
+   ],
+   "votesNote": "Votes are each candidate's count; 404,771 votes counted in all (voters choose up to three), per the SF Standard.",
+   "called": true,
+   "called_by": "Phil Kim only (SF Standard; Mission Local)"
+  },
+  {
+   "id": "community-college-board",
+   "office": "Community College Board",
+   "district": "Citywide, 3 seats",
+   "level": "County",
+   "wards": "all",
+   "seats": 3,
+   "term": null,
+   "what": "The Community College Board governs City College of San Francisco. Top three win. Nonpartisan. No incumbents ran for the full-term seats (Ballotpedia).",
+   "candidates": [
+    {
+     "id": "monroe-lace",
+     "name": "Monroe Lace",
+     "party": "",
+     "incumbent": false,
+     "hometown": null,
+     "background": null,
+     "website": null,
+     "accounts": [],
+     "positions": [],
+     "source": {
+      "label": "SF Department of Elections, Candidates, Nov 3, 2026 General Election",
+      "url": "https://www.sf.gov/candidates-november-3-2026-general-election"
+     },
+     "result": {
+      "votes": 77913,
+      "pct": 21.16,
+      "won": null,
+      "source": {
+       "label": "SF Department of Elections, preliminary results (last update Nov 3, 2026, 11:45 pm)",
+       "url": "https://www.sfelections.org/results/20261103/index.html"
+      },
+      "note": "Marked a winner by the SF Standard only."
+     },
+     "needs_review": true,
+     "review_note": "Preliminary election night count from news results pages; not read from the Department of Elections."
+    },
+    {
+     "id": "elijah-ball",
+     "name": "Elijah Ball",
+     "party": "",
+     "incumbent": false,
+     "hometown": null,
+     "background": null,
+     "website": null,
+     "accounts": [],
+     "positions": [],
+     "source": {
+      "label": "SF Department of Elections, Candidates, Nov 3, 2026 General Election",
+      "url": "https://www.sf.gov/candidates-november-3-2026-general-election"
+     },
+     "result": {
+      "votes": 73293,
+      "pct": 19.9,
+      "won": null,
+      "source": {
+       "label": "SF Department of Elections, preliminary results (last update Nov 3, 2026, 11:45 pm)",
+       "url": "https://www.sfelections.org/results/20261103/index.html"
+      },
+      "note": "Marked a winner by the SF Standard only."
+     },
+     "needs_review": true,
+     "review_note": "Preliminary election night count from news results pages; not read from the Department of Elections."
+    },
+    {
+     "id": "erwin-tam",
+     "name": "Erwin Tam",
+     "party": "",
+     "incumbent": false,
+     "hometown": null,
+     "background": null,
+     "website": null,
+     "accounts": [],
+     "positions": [],
+     "source": {
+      "label": "SF Department of Elections, Candidates, Nov 3, 2026 General Election",
+      "url": "https://www.sf.gov/candidates-november-3-2026-general-election"
+     },
+     "result": {
+      "votes": 71853,
+      "pct": 19.51,
+      "won": null,
+      "source": {
+       "label": "SF Department of Elections, preliminary results (last update Nov 3, 2026, 11:45 pm)",
+       "url": "https://www.sfelections.org/results/20261103/index.html"
+      },
+      "note": "Marked a winner by the SF Standard only."
+     },
+     "needs_review": true,
+     "review_note": "Preliminary election night count from news results pages; not read from the Department of Elections."
+    },
+    {
+     "id": "leah-lacroix",
+     "name": "Leah LaCroix",
+     "party": "",
+     "incumbent": false,
+     "hometown": null,
+     "background": null,
+     "website": null,
+     "accounts": [],
+     "positions": [],
+     "source": {
+      "label": "SF Department of Elections, Candidates, Nov 3, 2026 General Election",
+      "url": "https://www.sf.gov/candidates-november-3-2026-general-election"
+     },
+     "result": {
+      "votes": 44739,
+      "pct": 12.15,
+      "won": null,
+      "source": {
+       "label": "SF Department of Elections, preliminary results (last update Nov 3, 2026, 11:45 pm)",
+       "url": "https://www.sfelections.org/results/20261103/index.html"
+      }
+     },
+     "needs_review": true,
+     "review_note": "Preliminary election night count from news results pages; not read from the Department of Elections."
+    },
+    {
+     "id": "bunny-mcfadden",
+     "name": "Bunny McFadden",
+     "party": "",
+     "incumbent": false,
+     "hometown": null,
+     "background": null,
+     "website": null,
+     "accounts": [],
+     "positions": [],
+     "source": {
+      "label": "SF Department of Elections, Candidates, Nov 3, 2026 General Election",
+      "url": "https://www.sf.gov/candidates-november-3-2026-general-election"
+     },
+     "result": {
+      "votes": 42665,
+      "pct": 11.58,
+      "won": null,
+      "source": {
+       "label": "SF Department of Elections, preliminary results (last update Nov 3, 2026, 11:45 pm)",
+       "url": "https://www.sfelections.org/results/20261103/index.html"
+      }
+     },
+     "needs_review": true,
+     "review_note": "Preliminary election night count from news results pages; not read from the Department of Elections."
+    },
+    {
+     "id": "rome-moses-jones",
+     "name": "Rome Moses Jones",
+     "party": "",
+     "incumbent": false,
+     "hometown": null,
+     "background": null,
+     "website": null,
+     "accounts": [],
+     "positions": [],
+     "source": {
+      "label": "SF Department of Elections, Candidates, Nov 3, 2026 General Election",
+      "url": "https://www.sf.gov/candidates-november-3-2026-general-election"
+     },
+     "result": {
+      "votes": 10324,
+      "pct": 2.8,
+      "won": null,
+      "source": {
+       "label": "SF Department of Elections, preliminary results (last update Nov 3, 2026, 11:45 pm)",
+       "url": "https://www.sfelections.org/results/20261103/index.html"
+      },
+      "note": "Not among the vote totals shown by the SF Standard."
+     },
+     "needs_review": true,
+     "review_note": "Preliminary election night count from news results pages; not read from the Department of Elections."
+    },
+    {
+     "id": "jeremy-lee",
+     "name": "Jeremy Lee",
+     "party": "",
+     "incumbent": false,
+     "hometown": null,
+     "background": null,
+     "website": null,
+     "accounts": [],
+     "positions": [],
+     "source": {
+      "label": "SF Department of Elections, Candidates, Nov 3, 2026 General Election",
+      "url": "https://www.sf.gov/candidates-november-3-2026-general-election"
+     },
+     "result": {
+      "votes": 36908,
+      "pct": 10.02,
+      "won": null,
+      "source": {
+       "label": "SF Department of Elections, preliminary results (last update Nov 3, 2026, 11:45 pm)",
+       "url": "https://www.sfelections.org/results/20261103/index.html"
+      },
+      "note": "Not among the vote totals shown by the SF Standard."
+     },
+     "needs_review": true,
+     "review_note": "Preliminary election night count from news results pages; not read from the Department of Elections."
+    },
+    {
+     "id": "lisa-wynn",
+     "name": "Lisa Wynn",
+     "party": "",
+     "incumbent": false,
+     "hometown": null,
+     "background": null,
+     "website": null,
+     "accounts": [],
+     "positions": [],
+     "source": {
+      "label": "SF Department of Elections, Candidates, Nov 3, 2026 General Election",
+      "url": "https://www.sf.gov/candidates-november-3-2026-general-election"
+     },
+     "result": {
+      "votes": 10594,
+      "pct": 2.88,
+      "won": null,
+      "source": {
+       "label": "SF Department of Elections, preliminary results (last update Nov 3, 2026, 11:45 pm)",
+       "url": "https://www.sfelections.org/results/20261103/index.html"
+      },
+      "note": "Not among the vote totals shown by the SF Standard."
+     },
+     "needs_review": true,
+     "review_note": "Preliminary election night count from news results pages; not read from the Department of Elections."
+    }
+   ],
+   "source": {
+    "label": "SF Department of Elections, Candidates, Nov 3, 2026 General Election",
+    "url": "https://www.sf.gov/candidates-november-3-2026-general-election"
+   },
+   "results_status": "preliminary",
+   "results_as_of": "Nov 3, 2026, 11:45 pm (SF Department of Elections, preliminary; about 164,000 ballots left to count)",
+   "needs_review": true,
+   "review_note": "Preliminary results; the Department of Elections and Secretary of State pages could not be opened in this session. Confirm against sfelections.org and sos.ca.gov.",
+   "votesNote": "368,289 votes counted in all (voters choose up to three), per the SF Standard.",
+   "called": false,
+   "called_by": null
+  }
+ ],
+ "wardRaces": {
+  "1": [
+   "governor",
+   "lt-governor",
+   "attorney-general",
+   "insurance-commissioner",
+   "boe-2",
+   "us-house-11",
+   "assembly-19",
+   "board-of-education",
+   "community-college-board"
+  ],
+  "2": [
+   "governor",
+   "lt-governor",
+   "attorney-general",
+   "insurance-commissioner",
+   "boe-2",
+   "us-house-11",
+   "assembly-17",
+   "assembly-19",
+   "bos-2",
+   "board-of-education",
+   "community-college-board"
+  ],
+  "3": [
+   "governor",
+   "lt-governor",
+   "attorney-general",
+   "insurance-commissioner",
+   "boe-2",
+   "us-house-11",
+   "assembly-17",
+   "assembly-19",
+   "board-of-education",
+   "community-college-board"
+  ],
+  "4": [
+   "governor",
+   "lt-governor",
+   "attorney-general",
+   "insurance-commissioner",
+   "boe-2",
+   "us-house-11",
+   "assembly-19",
+   "bos-4",
+   "board-of-education",
+   "community-college-board"
+  ],
+  "5": [
+   "governor",
+   "lt-governor",
+   "attorney-general",
+   "insurance-commissioner",
+   "boe-2",
+   "us-house-11",
+   "assembly-17",
+   "assembly-19",
+   "board-of-education",
+   "community-college-board"
+  ],
+  "6": [
+   "governor",
+   "lt-governor",
+   "attorney-general",
+   "insurance-commissioner",
+   "boe-2",
+   "us-house-11",
+   "assembly-17",
+   "bos-6",
+   "board-of-education",
+   "community-college-board"
+  ],
+  "7": [
+   "governor",
+   "lt-governor",
+   "attorney-general",
+   "insurance-commissioner",
+   "boe-2",
+   "us-house-11",
+   "us-house-15",
+   "assembly-17",
+   "assembly-19",
+   "board-of-education",
+   "community-college-board"
+  ],
+  "8": [
+   "governor",
+   "lt-governor",
+   "attorney-general",
+   "insurance-commissioner",
+   "boe-2",
+   "us-house-11",
+   "assembly-17",
+   "assembly-19",
+   "bos-8",
+   "board-of-education",
+   "community-college-board"
+  ],
+  "9": [
+   "governor",
+   "lt-governor",
+   "attorney-general",
+   "insurance-commissioner",
+   "boe-2",
+   "us-house-11",
+   "us-house-15",
+   "assembly-17",
+   "board-of-education",
+   "community-college-board"
+  ],
+  "10": [
+   "governor",
+   "lt-governor",
+   "attorney-general",
+   "insurance-commissioner",
+   "boe-2",
+   "us-house-11",
+   "us-house-15",
+   "assembly-17",
+   "bos-10",
+   "board-of-education",
+   "community-college-board"
+  ],
+  "11": [
+   "governor",
+   "lt-governor",
+   "attorney-general",
+   "insurance-commissioner",
+   "boe-2",
+   "us-house-11",
+   "us-house-15",
+   "assembly-17",
+   "assembly-19",
+   "board-of-education",
+   "community-college-board"
+  ]
+ },
+ "wardMappingSource": {
+  "label": "SF Department of Elections, Preliminary District Statement of the Vote (report 4)",
+  "url": "https://www.sfelections.org/results/20261103/data/20261103_4/dsov.xlsx"
+ },
+ "wardMappingNote": "Which supervisor districts vote in each U.S. House and Assembly race comes from the registered voters each district has in that race in the Department of Elections' district Statement of the Vote. Districts split between two House or Assembly districts show both races.",
+ "levelNote": "San Francisco is a consolidated city and county; city races use level County so the Vote page groups them.",
+ "measures": {
+  "note": "San Francisco's ten local measures (A to J), the regional transit measure and the state propositions. Local measures need a simple majority. Counts are San Francisco votes from the Department of Elections' preliminary results; state propositions are decided by the statewide count.",
+  "source": {
+   "label": "SF Department of Elections, preliminary results (last update Nov 3, 2026, 11:45 pm)",
+   "url": "https://www.sfelections.org/results/20261103/index.html"
+  },
+  "local": [
+   {
+    "id": "prop-a",
+    "letter": "A",
+    "title": "Charter Changes Affecting Various City Departments and Commissions",
+    "type": "Charter amendment",
+    "threshold": "Majority",
+    "what": "Changes the Charter for several city departments and commissions.",
+    "legalText": "https://api.sf.gov/documents/60913/Nov2026_CA_DepartmentBoardCommissionandAdvisoryBodyUpdates_LegalText.pdf",
+    "result": {
+     "yes": 122226,
+     "no": 50809,
+     "yesPct": 70.64,
+     "noPct": 29.36,
+     "status": "Yes leading in San Francisco, preliminary",
+     "called": false,
+     "source": {
+      "label": "SF Department of Elections, preliminary results (last update Nov 3, 2026, 11:45 pm)",
+      "url": "https://www.sfelections.org/results/20261103/index.html"
+     }
+    },
+    "needs_review": true,
+    "review_note": "Preliminary count; about 164,000 San Francisco ballots were left to count as of the Nov 3, 11:45 pm update."
+   },
+   {
+    "id": "prop-b",
+    "letter": "B",
+    "title": "Establishing a Municipal Finance Corporation and a Public Bank",
+    "type": "Charter amendment",
+    "threshold": "Majority",
+    "what": "Would establish a municipal finance corporation and a public bank.",
+    "legalText": "https://api.sf.gov/documents/60915/Nov2026_CA_Municipal_Finance_Corporation_and_Public_Bank_LegalText.pdf",
+    "result": {
+     "yes": 85175,
+     "no": 85805,
+     "yesPct": 49.82,
+     "noPct": 50.18,
+     "status": "No leading in San Francisco, preliminary",
+     "called": false,
+     "source": {
+      "label": "SF Department of Elections, preliminary results (last update Nov 3, 2026, 11:45 pm)",
+      "url": "https://www.sfelections.org/results/20261103/index.html"
+     }
+    },
+    "needs_review": true,
+    "review_note": "Preliminary count; about 164,000 San Francisco ballots were left to count as of the Nov 3, 11:45 pm update."
+   },
+   {
+    "id": "prop-c",
+    "letter": "C",
+    "title": "Contributions to the Housing Fund",
+    "type": "Charter amendment",
+    "threshold": "Majority",
+    "what": "Charter amendment on contributions to the city's Housing Trust Fund (KQED).",
+    "legalText": "https://api.sf.gov/documents/60917/Nov2026_CA_HousingTrustFund_LegalText.pdf",
+    "result": {
+     "yes": 138152,
+     "no": 34852,
+     "yesPct": 79.85,
+     "noPct": 20.15,
+     "status": "Yes leading in San Francisco, preliminary",
+     "called": false,
+     "source": {
+      "label": "SF Department of Elections, preliminary results (last update Nov 3, 2026, 11:45 pm)",
+      "url": "https://www.sfelections.org/results/20261103/index.html"
+     }
+    },
+    "needs_review": true,
+    "review_note": "Preliminary count; about 164,000 San Francisco ballots were left to count as of the Nov 3, 11:45 pm update."
+   },
+   {
+    "id": "prop-d",
+    "letter": "D",
+    "title": "Changes to Ballot Measure Process",
+    "type": "Charter amendment",
+    "threshold": "Majority",
+    "what": "Would raise the number of signatures needed to put citizen initiatives on the ballot (Mission Local: quadruple).",
+    "legalText": "https://api.sf.gov/documents/53002/Legal_Text_Changes_to_Ballot_Measure_Process.pdf",
+    "result": {
+     "yes": 101064,
+     "no": 73937,
+     "yesPct": 57.75,
+     "noPct": 42.25,
+     "status": "Yes leading in San Francisco, preliminary",
+     "called": true,
+     "source": {
+      "label": "SF Department of Elections, preliminary results (last update Nov 3, 2026, 11:45 pm)",
+      "url": "https://www.sfelections.org/results/20261103/index.html"
+     }
+    },
+    "needs_review": true,
+    "review_note": "Preliminary count; about 164,000 San Francisco ballots were left to count as of the Nov 3, 11:45 pm update."
+   },
+   {
+    "id": "prop-e",
+    "letter": "E",
+    "title": "City Administrator's Authority and Changes to City Contracting",
+    "type": "Charter amendment",
+    "threshold": "Majority",
+    "what": "Changes the City Administrator's authority and city contracting rules.",
+    "legalText": "https://api.sf.gov/documents/53470/LT_ModernizingCityContracting.pdf",
+    "result": {
+     "yes": 115890,
+     "no": 57388,
+     "yesPct": 66.88,
+     "noPct": 33.12,
+     "status": "Yes leading in San Francisco, preliminary",
+     "called": true,
+     "source": {
+      "label": "SF Department of Elections, preliminary results (last update Nov 3, 2026, 11:45 pm)",
+      "url": "https://www.sfelections.org/results/20261103/index.html"
+     }
+    },
+    "needs_review": true,
+    "review_note": "Preliminary count; about 164,000 San Francisco ballots were left to count as of the Nov 3, 11:45 pm update."
+   },
+   {
+    "id": "prop-f",
+    "letter": "F",
+    "title": "Changes to Executive Branch Management",
+    "type": "Charter amendment",
+    "threshold": "Majority",
+    "what": "Changes how the city's executive branch is managed, including the Mayor's authority over departments (KQED: mayoral authority).",
+    "legalText": "https://api.sf.gov/documents/53467/LT_ExecutiveBranchAccountablility.pdf",
+    "result": {
+     "yes": 109328,
+     "no": 64585,
+     "yesPct": 62.86,
+     "noPct": 37.14,
+     "status": "Yes leading in San Francisco, preliminary",
+     "called": true,
+     "source": {
+      "label": "SF Department of Elections, preliminary results (last update Nov 3, 2026, 11:45 pm)",
+      "url": "https://www.sfelections.org/results/20261103/index.html"
+     }
+    },
+    "needs_review": true,
+    "review_note": "Preliminary count; about 164,000 San Francisco ballots were left to count as of the Nov 3, 11:45 pm update."
+   },
+   {
+    "id": "prop-g",
+    "letter": "G",
+    "title": "Allowing Private Vehicles on the Great Highway in Sunset Dunes Park",
+    "type": "Ordinance",
+    "threshold": "Majority",
+    "what": "Would allow private vehicles back on the Great Highway in Sunset Dunes park.",
+    "legalText": "https://api.sf.gov/documents/51994/20260220_Legal_Text.pdf",
+    "result": {
+     "yes": 64776,
+     "no": 109319,
+     "yesPct": 37.21,
+     "noPct": 62.79,
+     "status": "No leading in San Francisco, preliminary",
+     "called": true,
+     "source": {
+      "label": "SF Department of Elections, preliminary results (last update Nov 3, 2026, 11:45 pm)",
+      "url": "https://www.sfelections.org/results/20261103/index.html"
+     }
+    },
+    "needs_review": true,
+    "review_note": "Preliminary count; about 164,000 San Francisco ballots were left to count as of the Nov 3, 11:45 pm update."
+   },
+   {
+    "id": "prop-h",
+    "letter": "H",
+    "title": "Parcel Tax to Fund Public Muni Operations",
+    "type": "Ordinance (parcel tax)",
+    "threshold": "Majority",
+    "what": "A parcel tax for Muni operations, estimated by the SF Standard at $177 million a year.",
+    "legalText": "https://api.sf.gov/documents/52842/Legal_Text_3X0F1JU.pdf",
+    "result": {
+     "yes": 126168,
+     "no": 47995,
+     "yesPct": 72.44,
+     "noPct": 27.56,
+     "status": "Yes leading in San Francisco, preliminary",
+     "called": true,
+     "source": {
+      "label": "SF Department of Elections, preliminary results (last update Nov 3, 2026, 11:45 pm)",
+      "url": "https://www.sfelections.org/results/20261103/index.html"
+     }
+    },
+    "needs_review": true,
+    "review_note": "Preliminary count; about 164,000 San Francisco ballots were left to count as of the Nov 3, 11:45 pm update."
+   },
+   {
+    "id": "prop-i",
+    "letter": "I",
+    "title": "Changes to Real Property Transfer Tax",
+    "type": "Ordinance (tax)",
+    "threshold": "Majority",
+    "what": "Would change the real property transfer tax and dedicate revenue to affordable housing (SF Standard).",
+    "legalText": "https://api.sf.gov/documents/55542/05042026_LT_AfordableHousing.pdf",
+    "result": {
+     "yes": 76936,
+     "no": 93917,
+     "yesPct": 45.03,
+     "noPct": 54.97,
+     "status": "No leading in San Francisco, preliminary",
+     "called": false,
+     "source": {
+      "label": "SF Department of Elections, preliminary results (last update Nov 3, 2026, 11:45 pm)",
+      "url": "https://www.sfelections.org/results/20261103/index.html"
+     }
+    },
+    "needs_review": true,
+    "review_note": "Preliminary count; about 164,000 San Francisco ballots were left to count as of the Nov 3, 11:45 pm update."
+   },
+   {
+    "id": "prop-j",
+    "letter": "J",
+    "title": "Removal of Foreclosure Exemption for Real Property Transfer Tax",
+    "type": "Ordinance (tax)",
+    "threshold": "Majority",
+    "what": "Would remove the foreclosure exemption from the real property transfer tax.",
+    "legalText": "https://api.sf.gov/documents/61295/Nov2026_LT_RealPropertyTransferTaxForeclosureExemption.pdf",
+    "result": {
+     "yes": 135129,
+     "no": 35793,
+     "yesPct": 79.06,
+     "noPct": 20.94,
+     "status": "Yes leading in San Francisco, preliminary",
+     "called": false,
+     "source": {
+      "label": "SF Department of Elections, preliminary results (last update Nov 3, 2026, 11:45 pm)",
+      "url": "https://www.sfelections.org/results/20261103/index.html"
+     }
+    },
+    "needs_review": true,
+    "review_note": "Preliminary count; about 164,000 San Francisco ballots were left to count as of the Nov 3, 11:45 pm update."
+   }
+  ],
+  "regional": [
+   {
+    "id": "measure-rtm",
+    "letter": "RTM",
+    "title": "Regional Transit Measure",
+    "type": "Regional sales tax",
+    "threshold": "Majority of the combined vote in five counties (KQED)",
+    "what": "A Bay Area sales tax for transit operations, voted on across five counties (KQED).",
+    "result": {
+     "yes": 134191,
+     "no": 38663,
+     "yesPct": 77.63,
+     "noPct": 22.37,
+     "status": "Yes leading in San Francisco, preliminary",
+     "called": false,
+     "source": {
+      "label": "SF Department of Elections, preliminary results (last update Nov 3, 2026, 11:45 pm)",
+      "url": "https://www.sfelections.org/results/20261103/index.html"
+     }
+    },
+    "needs_review": true,
+    "review_note": "Preliminary count; about 164,000 San Francisco ballots were left to count as of the Nov 3, 11:45 pm update."
+   }
+  ],
+  "state": [
+   {
+    "id": "ca-prop-1",
+    "letter": "Prop 1",
+    "title": "$11.25 billion bond for affordable housing",
+    "titleSource": {
+     "label": "Wikipedia, 2026 California elections",
+     "url": "https://en.wikipedia.org/wiki/2026_California_elections"
+    },
+    "result": {
+     "yes": 137103,
+     "no": 40378,
+     "yesPct": 77.25,
+     "noPct": 22.75,
+     "status": "Yes leading in San Francisco (statewide count decides), preliminary",
+     "called": false,
+     "source": {
+      "label": "SF Department of Elections, preliminary results (last update Nov 3, 2026, 11:45 pm)",
+      "url": "https://www.sfelections.org/results/20261103/index.html"
+     }
+    },
+    "needs_review": true,
+    "review_note": "Preliminary count; about 164,000 San Francisco ballots were left to count as of the Nov 3, 11:45 pm update."
+   },
+   {
+    "id": "ca-prop-2",
+    "letter": "Prop 2",
+    "title": "Raises the rainy day fund deposit cap from 10% to 20% of general fund revenue",
+    "titleSource": {
+     "label": "Wikipedia, 2026 California elections",
+     "url": "https://en.wikipedia.org/wiki/2026_California_elections"
+    },
+    "result": {
+     "yes": 137043,
+     "no": 37653,
+     "yesPct": 78.45,
+     "noPct": 21.55,
+     "status": "Yes leading in San Francisco (statewide count decides), preliminary",
+     "called": false,
+     "source": {
+      "label": "SF Department of Elections, preliminary results (last update Nov 3, 2026, 11:45 pm)",
+      "url": "https://www.sfelections.org/results/20261103/index.html"
+     }
+    },
+    "needs_review": true,
+    "review_note": "Preliminary count; about 164,000 San Francisco ballots were left to count as of the Nov 3, 11:45 pm update."
+   },
+   {
+    "id": "ca-prop-3",
+    "letter": "Prop 3",
+    "title": "Makes permanent the top income tax rates first set by Prop 30 (2012)",
+    "titleSource": {
+     "label": "Wikipedia, 2026 California elections",
+     "url": "https://en.wikipedia.org/wiki/2026_California_elections"
+    },
+    "result": {
+     "yes": 133448,
+     "no": 44645,
+     "yesPct": 74.93,
+     "noPct": 25.07,
+     "status": "Yes leading in San Francisco (statewide count decides), preliminary",
+     "called": false,
+     "source": {
+      "label": "SF Department of Elections, preliminary results (last update Nov 3, 2026, 11:45 pm)",
+      "url": "https://www.sfelections.org/results/20261103/index.html"
+     }
+    },
+    "needs_review": true,
+    "review_note": "Preliminary count; about 164,000 San Francisco ballots were left to count as of the Nov 3, 11:45 pm update."
+   },
+   {
+    "id": "ca-prop-4",
+    "letter": "Prop 4",
+    "title": "Repeals the 1988 ban on public campaign financing",
+    "titleSource": {
+     "label": "Wikipedia, 2026 California elections",
+     "url": "https://en.wikipedia.org/wiki/2026_California_elections"
+    },
+    "result": {
+     "yes": 90773,
+     "no": 82536,
+     "yesPct": 52.38,
+     "noPct": 47.62,
+     "status": "Yes leading in San Francisco (statewide count decides), preliminary",
+     "called": false,
+     "source": {
+      "label": "SF Department of Elections, preliminary results (last update Nov 3, 2026, 11:45 pm)",
+      "url": "https://www.sfelections.org/results/20261103/index.html"
+     }
+    },
+    "needs_review": true,
+    "review_note": "Preliminary count; about 164,000 San Francisco ballots were left to count as of the Nov 3, 11:45 pm update."
+   },
+   {
+    "id": "ca-prop-5",
+    "letter": "Prop 5",
+    "title": "Ends successor elections when a state officer is recalled",
+    "titleSource": {
+     "label": "Wikipedia, 2026 California elections",
+     "url": "https://en.wikipedia.org/wiki/2026_California_elections"
+    },
+    "result": {
+     "yes": 119509,
+     "no": 50897,
+     "yesPct": 70.13,
+     "noPct": 29.87,
+     "status": "Yes leading in San Francisco (statewide count decides), preliminary",
+     "called": false,
+     "source": {
+      "label": "SF Department of Elections, preliminary results (last update Nov 3, 2026, 11:45 pm)",
+      "url": "https://www.sfelections.org/results/20261103/index.html"
+     }
+    },
+    "needs_review": true,
+    "review_note": "Preliminary count; about 164,000 San Francisco ballots were left to count as of the Nov 3, 11:45 pm update."
+   },
+   {
+    "id": "ca-prop-37",
+    "letter": "Prop 37",
+    "title": "Second mortgage homebuyer program, up to $25 billion in CalHFA bonds",
+    "titleSource": {
+     "label": "Wikipedia, 2026 California elections",
+     "url": "https://en.wikipedia.org/wiki/2026_California_elections"
+    },
+    "result": {
+     "yes": 123825,
+     "no": 48809,
+     "yesPct": 71.73,
+     "noPct": 28.27,
+     "status": "Yes leading in San Francisco (statewide count decides), preliminary",
+     "called": false,
+     "source": {
+      "label": "SF Department of Elections, preliminary results (last update Nov 3, 2026, 11:45 pm)",
+      "url": "https://www.sfelections.org/results/20261103/index.html"
+     }
+    },
+    "needs_review": true,
+    "review_note": "Preliminary count; about 164,000 San Francisco ballots were left to count as of the Nov 3, 11:45 pm update."
+   },
+   {
+    "id": "ca-prop-38",
+    "letter": "Prop 38",
+    "title": "$8.4 billion in bonds for immunology research",
+    "titleSource": {
+     "label": "Wikipedia, 2026 California elections",
+     "url": "https://en.wikipedia.org/wiki/2026_California_elections"
+    },
+    "result": {
+     "yes": 69815,
+     "no": 105314,
+     "yesPct": 39.86,
+     "noPct": 60.14,
+     "status": "No leading in San Francisco (statewide count decides), preliminary",
+     "called": false,
+     "source": {
+      "label": "SF Department of Elections, preliminary results (last update Nov 3, 2026, 11:45 pm)",
+      "url": "https://www.sfelections.org/results/20261103/index.html"
+     }
+    },
+    "needs_review": true,
+    "review_note": "Preliminary count; about 164,000 San Francisco ballots were left to count as of the Nov 3, 11:45 pm update."
+   },
+   {
+    "id": "ca-prop-39",
+    "letter": "Prop 39",
+    "title": "Voter identification requirements",
+    "titleSource": {
+     "label": "Wikipedia, 2026 California elections",
+     "url": "https://en.wikipedia.org/wiki/2026_California_elections"
+    },
+    "result": {
+     "yes": 38032,
+     "no": 139353,
+     "yesPct": 21.44,
+     "noPct": 78.56,
+     "status": "No leading in San Francisco (statewide count decides), preliminary",
+     "called": false,
+     "source": {
+      "label": "SF Department of Elections, preliminary results (last update Nov 3, 2026, 11:45 pm)",
+      "url": "https://www.sfelections.org/results/20261103/index.html"
+     }
+    },
+    "needs_review": true,
+    "review_note": "Preliminary count; about 164,000 San Francisco ballots were left to count as of the Nov 3, 11:45 pm update."
+   },
+   {
+    "id": "ca-prop-40",
+    "letter": "Prop 40",
+    "title": "One-time 5% tax on billionaires' accumulated wealth",
+    "titleSource": {
+     "label": "Wikipedia, 2026 California elections",
+     "url": "https://en.wikipedia.org/wiki/2026_California_elections"
+    },
+    "result": {
+     "yes": 93263,
+     "no": 84609,
+     "yesPct": 52.43,
+     "noPct": 47.57,
+     "status": "Yes leading in San Francisco (statewide count decides), preliminary",
+     "called": false,
+     "source": {
+      "label": "SF Department of Elections, preliminary results (last update Nov 3, 2026, 11:45 pm)",
+      "url": "https://www.sfelections.org/results/20261103/index.html"
+     }
+    },
+    "needs_review": true,
+    "review_note": "Preliminary count; about 164,000 San Francisco ballots were left to count as of the Nov 3, 11:45 pm update."
+   },
+   {
+    "id": "ca-prop-41",
+    "letter": "Prop 41",
+    "title": "Counts new taxes toward the state spending limit and requires audits",
+    "titleSource": {
+     "label": "Wikipedia, 2026 California elections",
+     "url": "https://en.wikipedia.org/wiki/2026_California_elections"
+    },
+    "result": {
+     "yes": 66184,
+     "no": 106897,
+     "yesPct": 38.24,
+     "noPct": 61.76,
+     "status": "No leading in San Francisco (statewide count decides), preliminary",
+     "called": false,
+     "source": {
+      "label": "SF Department of Elections, preliminary results (last update Nov 3, 2026, 11:45 pm)",
+      "url": "https://www.sfelections.org/results/20261103/index.html"
+     }
+    },
+    "needs_review": true,
+    "review_note": "Preliminary count; about 164,000 San Francisco ballots were left to count as of the Nov 3, 11:45 pm update."
+   },
+   {
+    "id": "ca-prop-42",
+    "letter": "Prop 42",
+    "title": "Prevents new taxes on personal property",
+    "titleSource": {
+     "label": "Wikipedia, 2026 California elections",
+     "url": "https://en.wikipedia.org/wiki/2026_California_elections"
+    },
+    "result": {
+     "yes": 72588,
+     "no": 102379,
+     "yesPct": 41.49,
+     "noPct": 58.51,
+     "status": "No leading in San Francisco (statewide count decides), preliminary",
+     "called": false,
+     "source": {
+      "label": "SF Department of Elections, preliminary results (last update Nov 3, 2026, 11:45 pm)",
+      "url": "https://www.sfelections.org/results/20261103/index.html"
+     }
+    },
+    "needs_review": true,
+    "review_note": "Preliminary count; about 164,000 San Francisco ballots were left to count as of the Nov 3, 11:45 pm update."
+   },
+   {
+    "id": "ca-prop-43",
+    "letter": "Prop 43",
+    "title": "Restores two-thirds voter approval for citizen-initiated local special taxes",
+    "titleSource": {
+     "label": "Wikipedia, 2026 California elections",
+     "url": "https://en.wikipedia.org/wiki/2026_California_elections"
+    },
+    "result": {
+     "yes": 65623,
+     "no": 105861,
+     "yesPct": 38.27,
+     "noPct": 61.73,
+     "status": "No leading in San Francisco (statewide count decides), preliminary",
+     "called": false,
+     "source": {
+      "label": "SF Department of Elections, preliminary results (last update Nov 3, 2026, 11:45 pm)",
+      "url": "https://www.sfelections.org/results/20261103/index.html"
+     }
+    },
+    "needs_review": true,
+    "review_note": "Preliminary count; about 164,000 San Francisco ballots were left to count as of the Nov 3, 11:45 pm update."
+   },
+   {
+    "id": "ca-prop-44",
+    "letter": "Prop 44",
+    "title": "Requires community health centers (FQHCs) to spend at least 90% of revenue on mission-related expenses",
+    "titleSource": {
+     "label": "Wikipedia, 2026 California elections",
+     "url": "https://en.wikipedia.org/wiki/2026_California_elections"
+    },
+    "result": {
+     "yes": 27942,
+     "no": 143789,
+     "yesPct": 16.27,
+     "noPct": 83.73,
+     "status": "No leading in San Francisco (statewide count decides), preliminary",
+     "called": false,
+     "source": {
+      "label": "SF Department of Elections, preliminary results (last update Nov 3, 2026, 11:45 pm)",
+      "url": "https://www.sfelections.org/results/20261103/index.html"
+     }
+    },
+    "needs_review": true,
+    "review_note": "Preliminary count; about 164,000 San Francisco ballots were left to count as of the Nov 3, 11:45 pm update."
+   },
+   {
+    "id": "ca-prop-45",
+    "letter": "Prop 45",
+    "title": "Speeds CEQA review for certain housing, transportation, water, health and clean energy projects",
+    "titleSource": {
+     "label": "Wikipedia, 2026 California elections",
+     "url": "https://en.wikipedia.org/wiki/2026_California_elections"
+    },
+    "result": {
+     "yes": 73416,
+     "no": 98165,
+     "yesPct": 42.79,
+     "noPct": 57.21,
+     "status": "No leading in San Francisco (statewide count decides), preliminary",
+     "called": false,
+     "source": {
+      "label": "SF Department of Elections, preliminary results (last update Nov 3, 2026, 11:45 pm)",
+      "url": "https://www.sfelections.org/results/20261103/index.html"
+     }
+    },
+    "needs_review": true,
+    "review_note": "Preliminary count; about 164,000 San Francisco ballots were left to count as of the Nov 3, 11:45 pm update."
+   }
+  ]
+ },
+ "otherContests": [
+  {
+   "office": "Secretary of State",
+   "candidates": [
+    "Shirley Weber (D, incumbent)",
+    "Donald Wagner (R)"
+   ],
+   "note": "SF Standard live blog lists Weber as projected; caller not named.",
+   "source": {
+    "label": "Wikipedia, 2026 California elections",
+    "url": "https://en.wikipedia.org/wiki/2026_California_elections"
+   }
+  },
+  {
+   "office": "Treasurer",
+   "candidates": [
+    "Eleni Kounalakis (D)",
+    "Jennifer Hawks (R)"
+   ],
+   "note": "SF Standard live blog lists Kounalakis as projected; caller not named.",
+   "source": {
+    "label": "Wikipedia, 2026 California elections",
+    "url": "https://en.wikipedia.org/wiki/2026_California_elections"
+   }
+  },
+  {
+   "office": "Controller",
+   "candidates": [
+    "Malia Cohen (D, incumbent)",
+    "Herb Morgan (R)"
+   ],
+   "note": "SF Standard live blog lists Cohen as projected; caller not named.",
+   "source": {
+    "label": "Wikipedia, 2026 California elections",
+    "url": "https://en.wikipedia.org/wiki/2026_California_elections"
+   }
+  },
+  {
+   "office": "Superintendent of Public Instruction (nonpartisan)",
+   "candidates": [
+    "Sonja Shaw",
+    "Richard Barrera"
+   ],
+   "note": "No results gathered.",
+   "source": {
+    "label": "Wikipedia, 2026 California elections",
+    "url": "https://en.wikipedia.org/wiki/2026_California_elections"
+   }
+  },
+  {
+   "office": "Assessor-Recorder",
+   "candidates": [
+    "Joaquin Torres (incumbent, unopposed)"
+   ],
+   "note": "KQED shows the race called at 8:00 p.m.",
+   "source": {
+    "label": "KQED, 2026 San Francisco Election Results (AP and county data; latest stamp 11:53 p.m. Nov 3)",
+    "url": "https://www.kqed.org/elections/results/sanfrancisco"
+   }
+  },
+  {
+   "office": "Public Defender",
+   "candidates": [
+    "Manohar Raju (incumbent, unopposed)"
+   ],
+   "note": "KQED shows the race called at 8:00 p.m.",
+   "source": {
+    "label": "KQED, 2026 San Francisco Election Results (AP and county data; latest stamp 11:53 p.m. Nov 3)",
+    "url": "https://www.kqed.org/elections/results/sanfrancisco"
+   }
+  },
+  {
+   "office": "BART Board, District 8",
+   "candidates": [
+    "Sara Barz (unopposed)"
+   ],
+   "note": "KQED: 58,838 votes.",
+   "source": {
+    "label": "KQED, 2026 San Francisco Election Results (AP and county data; latest stamp 11:53 p.m. Nov 3)",
+    "url": "https://www.kqed.org/elections/results/sanfrancisco"
+   }
+  },
+  {
+   "office": "Community College Board, partial term (ends Jan 8, 2029)",
+   "candidates": [
+    "Ruth Ferguson (incumbent, unopposed)"
+   ],
+   "note": "KQED shows the race called at 8:00 p.m.",
+   "source": {
+    "label": "KQED, 2026 San Francisco Election Results (AP and county data; latest stamp 11:53 p.m. Nov 3)",
+    "url": "https://www.kqed.org/elections/results/sanfrancisco"
+   }
+  },
+  {
+   "office": "Supreme Court and Court of Appeal (First District) retention votes",
+   "candidates": [],
+   "note": "Yes or no on keeping each justice; KQED lists the statewide and district counts.",
+   "source": {
+    "label": "KQED, 2026 San Francisco Election Results (AP and county data; latest stamp 11:53 p.m. Nov 3)",
+    "url": "https://www.kqed.org/elections/results/sanfrancisco"
+   }
+  }
+ ],
+ "methodology": "Contests and candidate names are from the SF Department of Elections candidate list for Nov 3, 2026 (sf.gov), Ballotpedia (local) and Wikipedia's 2026 California elections page (statewide). Local measure letters and official titles are from the Department of Elections qualified measures page. Vote counts: KQED's San Francisco results page (AP and county data; latest stamp 11:53 p.m. PT Nov 3) for U.S. House and Assembly, and the SF Standard results page (updated 7 a.m. PT Nov 4) for supervisors, school boards, measures and statewide totals; the two agree on every measure count. Supervisor figures are the final ranked-choice round shown by the SF Standard, with first-choice votes alongside; KQED's first-choice figures differ slightly. Calls come from KQED's called-race stamps, the SF Standard, Mission Local, the Bay Area Reporter and SF Chronicle headlines, as cited on each race. The sfelections.org results pages, sos.ca.gov, the Department of Elections voter pamphlet PDF and several news results pages could not be opened (permission not granted in this session). Parties for statewide candidates are from Wikipedia; for House and Assembly from KQED and Ballotpedia. Positions were not gathered for this file. The 'what' text is a general description of each office. The Superior Court Seat 16 contest is not listed because no source opened confirmed it was on the November ballot.",
+ "sources": [
+  {
+   "label": "SF Department of Elections, Nov 3, 2026 election",
+   "url": "https://www.sf.gov/november-3-2026-consolidated-general-election"
+  },
+  {
+   "label": "KQED, 2026 San Francisco Election Results (AP and county data; latest stamp 11:53 p.m. Nov 3)",
+   "url": "https://www.kqed.org/elections/results/sanfrancisco"
+  },
+  {
+   "label": "SF Standard, 2026 San Francisco live election results (updated 7 a.m. Nov 4)",
+   "url": "https://sfstandard.com/2026/11/03/san-francisco-election-results-november-2026/"
+  },
+  {
+   "label": "California Secretary of State",
+   "url": "https://www.sos.ca.gov/elections/upcoming-elections/general-election-november-3-2026"
+  }
+ ],
+ "levelLabels": {
+  "County": "City and County"
+ }
+}

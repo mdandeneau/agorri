@@ -2,7 +2,7 @@
 
 Government you can see. A voice they can count.
 
-A static site (one page plus JSON data per town) with two small Cloudflare Pages Functions. Every town runs on the same `index.html`, so a layout change applies to all of them. Live towns: Portsmouth (agorri.com/portsmouth), Nashua (agorri.com/nashua) and North Conway (agorri.com/north-conway, the Town of Conway's government).
+A static site (one page plus JSON data per town) with two small Cloudflare Pages Functions. Every town runs on the same `index.html`, so a layout change applies to all of them. Live places: Portsmouth (agorri.com/portsmouth), Nashua (agorri.com/nashua), the Mount Washington Valley (agorri.com/mount-washington-valley) and San Francisco (agorri.com/san-francisco, added Nov 4, 2026).
 - `/api/feed?town=<id>` merges that town's official feeds (`data/<id>/feeds.json`: city RSS, YouTube, officials on Bluesky, police and fire feeds). Cached 5 minutes per town; the page polls it every 5 minutes.
 - `/api/ask` writes short answers for the search bar from the records the page matched. Off until you add an API key.
 
@@ -31,6 +31,9 @@ The **Site feedback** button (a highlighted blue item in the main side bar menu,
 ## Interests and comments
 
 Every item on the site (an issue, an event, a candidate, a park, a post, a news story, a meeting, an official) carries two small controls: a star (**Interest**, one tap to follow, one tap to remove) and a speech bubble (**comments**, which stay attached to that item and open in a panel). The Home box posts ideas and questions only; its **Comments** tab lists what you have commented on, what you follow, and new comments on those. Interests are saved in the visitor's browser. Comments go through Talk (below), so every comment also appears there with its context.
+
+## Places outside New Hampshire (San Francisco)
+San Francisco is the first place outside New Hampshire. The page adapts from data: `record.json` town.wardLabel ("District") replaces "Ward" everywhere, `towns.json` state and stateName drive the state comparisons ("vs California") and the lower house's name ("State Assembly" for CA), and `candidates.json` can carry `measures` (local, regional and state ballot measures with Yes and No counts, shown on Vote under the races) and `levelLabels` (San Francisco's county races show as "City and County"). Registered voters by supervisor district and which House and Assembly members cover each district come from the Department of Elections' district Statement of the Vote (dsov.xlsx on sfelections.org). The Board of Supervisors' minutes are PDFs at media.api.sf.gov/documents/bagMMDDYY_minutes.pdf.
 
 ## Email updates on starred items
 Tap the star on anything (an issue, event, game, meeting, congregation, pantry, business...) and Agorri asks once whether to email you when it changes. Type an email, tap the link in the confirmation email, and from then on every star you add or remove on that device is kept by `/api/follow`. Nothing is sent to an address until its owner taps that link, and stars made before confirming wait on the device, so nobody can sign someone else up for anything. Every email has a "Stop updates on this" link per item and a "Stop all" link (one-click unsubscribe in mail apps too).

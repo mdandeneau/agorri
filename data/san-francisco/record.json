@@ -1,0 +1,3045 @@
+{
+ "about": {
+  "town": "San Francisco, CA",
+  "as_of": "2026-11-04",
+  "records_from": "2026-09-29",
+  "documents_used": 14,
+  "note": "Plain-English summaries written by AI from official City and County of San Francisco documents (Board of Supervisors minutes and agendas, Planning Commission agendas, budget documents); every meeting carries its source URL. Election items on Nov 3 results are preliminary and marked needs_review. Items with needs_review=true are where the record is incomplete, secondary-sourced or ambiguous."
+ },
+ "next_council_meeting": {
+  "date": "2026-11-10",
+  "items": [
+   {
+    "item": "Mayor's monthly appearance at the Board; supervisors in Districts 9 to 11 may submit a question",
+    "from": "2026 regular meeting schedule"
+   },
+   {
+    "item": "The Board also met Nov 3 (final votes on the firearm procurement ordinance and eleven settlements were on that agenda); those minutes and the Nov 10 agenda were not posted yet.",
+    "from": "Nov 3 agenda"
+   }
+  ],
+  "source": "https://www.sf.gov/regularly-scheduled-board-of-supervisors-meetings"
+ },
+ "issues": [
+  {
+   "id": "ballot2026",
+   "title": "The November 3 ballot measures",
+   "topic": "Government & elections",
+   "status": "Counting. Preliminary results only",
+   "next": "The Department of Elections certifies final local results by December 3, 2026.",
+   "summary": "San Francisco voters decided ten local measures (Props A to J) and a regional transit measure (RTM) on Nov 3. Six are charter amendments, including three placed by Mayor Lurie on how City departments, contracting and the ballot process work. Results are preliminary and will change as ballots are counted.",
+   "points": [
+    "Charter amendments: A (changes affecting various City departments and commissions), B (a Municipal Finance Corporation and public bank), C (contributions to the Housing Fund), D (changes to the ballot measure process), E (City Administrator's authority and City contracting), F (executive branch management).",
+    "Ordinances: G (allowing private vehicles on the Great Highway in Sunset Dunes Park), H (a parcel tax to fund Muni operations), I (changes to the real property transfer tax), J (removing the foreclosure exemption from the transfer tax).",
+    "Regional: RTM, the Regional Transit Measure. On Sep 29 the Board consolidated that special election with Nov 3 (adopted unanimously).",
+    "Mission Local headlines on Nov 3 to 4 (preliminary): the BART and Muni measures were \"winning with unexpected ease\"; the public bank measure was \"in tight race, but trending up\"; one affordable housing measure was \"set to pass, another unlikely to succeed.\"",
+    "The Department of Elections scheduled the first preliminary local results for 8:45 p.m. on Nov 3, with updates through the canvass."
+   ],
+   "keywords": [
+    "Prop A",
+    "Prop B",
+    "Prop C",
+    "Prop D",
+    "Prop E",
+    "Prop F",
+    "Prop G",
+    "Prop H",
+    "Prop I",
+    "Prop J",
+    "RTM",
+    "ballot",
+    "election",
+    "public bank",
+    "Great Highway",
+    "transfer tax"
+   ],
+   "sources": [
+    {
+     "label": "Qualified ballot measures (sf.gov)",
+     "url": "https://www.sf.gov/qualified-ballot-measures"
+    },
+    {
+     "label": "Nov 3, 2026 election page (sf.gov)",
+     "url": "https://www.sf.gov/november-3-2026-consolidated-general-election"
+    },
+    {
+     "label": "Mission Local 2026 election coverage",
+     "url": "https://missionlocal.org/2026-elections/"
+    }
+   ],
+   "scope": "all",
+   "related": [
+    {
+     "date": "2026-09-29",
+     "body": "Board of Supervisors",
+     "url": "https://media.api.sf.gov/documents/bag092926_minutes.pdf",
+     "d": {
+      "title": "Consolidated the regional Public Transit Revenue Measure election with the Nov 3 election",
+      "detail": "File 261060 consolidates the Public Transit Revenue Measure District special election with the November 3, 2026 elections.",
+      "outcome": "ADOPTED, unanimous",
+      "moved_by": null,
+      "seconded_by": null,
+      "roll_call": null,
+      "dissent": [],
+      "topic": "Parking & transportation",
+      "dollars": null,
+      "ordinance_reading": null,
+      "needs_review": false,
+      "review_note": null
+     }
+    }
+   ],
+   "needs_review": true,
+   "review_note": "Results are preliminary and come only from Mission Local headlines, not from sfelections.org (not opened). Replace with official counts and the Department of Elections' timestamp. Passing thresholds were not stated on the sf.gov measures page."
+  },
+  {
+   "id": "muni",
+   "title": "Muni and regional transit funding",
+   "topic": "Parking & transportation",
+   "status": "On the Nov 3 ballot (Prop H and RTM). Preliminary results only",
+   "next": "Final results certified by December 3, 2026.",
+   "summary": "Two measures on the Nov 3 ballot would raise money for transit: Prop H, a parcel tax to fund Muni operations, and RTM, a regional transit measure. The adopted City budget gives the Municipal Transportation Agency $1,605,818,178 in FY2026-27, including $662,210,000 in General Fund support.",
+   "points": [
+    "Prop H: \"Parcel Tax to Fund Public Muni Operations\" (ordinance). Mayor Lurie wrote the proponent argument.",
+    "RTM: the Regional Transit Measure. The Board consolidated the Public Transit Revenue Measure District special election with Nov 3 on Sep 29 (unanimous).",
+    "Mission Local headline (preliminary): \"Measures to rescue BART, Muni from financial ruin winning with unexpected ease.\"",
+    "Oct 20 agenda listed public letters on the Muni Fillmore line."
+   ],
+   "keywords": [
+    "Muni",
+    "SFMTA",
+    "BART",
+    "transit",
+    "Prop H",
+    "RTM",
+    "parcel tax"
+   ],
+   "sources": [
+    {
+     "label": "Qualified ballot measures (sf.gov)",
+     "url": "https://www.sf.gov/qualified-ballot-measures"
+    },
+    {
+     "label": "Annual Appropriation Ordinance FY2026-27 and FY2027-28",
+     "url": "https://media.api.sf.gov/documents/FY2027__FY2028_-_FINAL_AAO.pdf"
+    },
+    {
+     "label": "Mission Local 2026 election coverage",
+     "url": "https://missionlocal.org/2026-elections/"
+    }
+   ],
+   "scope": "all",
+   "related": [
+    {
+     "date": "2026-09-29",
+     "body": "Board of Supervisors",
+     "url": "https://media.api.sf.gov/documents/bag092926_minutes.pdf",
+     "d": {
+      "title": "Consolidated the regional Public Transit Revenue Measure election with the Nov 3 election",
+      "detail": "File 261060 consolidates the Public Transit Revenue Measure District special election with the November 3, 2026 elections.",
+      "outcome": "ADOPTED, unanimous",
+      "moved_by": null,
+      "seconded_by": null,
+      "roll_call": null,
+      "dissent": [],
+      "topic": "Parking & transportation",
+      "dollars": null,
+      "ordinance_reading": null,
+      "needs_review": false,
+      "review_note": null
+     }
+    }
+   ],
+   "needs_review": true,
+   "review_note": "Election status is from a Mission Local headline only; confirm with sfelections.org."
+  },
+  {
+   "id": "budget",
+   "title": "City budget and the deficit",
+   "topic": "Budget & taxes",
+   "status": "Two-year budget adopted (FY2026-27 and FY2027-28)",
+   "next": "City labor contract extensions (first reading on the Oct 20 agenda) set raises through FY2030-31.",
+   "summary": "The two-year budget closes a projected $642.8 million shortfall. The Mayor signed it July 30, 2026 after a unanimous Board vote. Total uses are $16.85 billion in FY2026-27 and $17.22 billion in FY2027-28.",
+   "points": [
+    "March 2026 projection: $168.5 million short in FY2026-27 and $474.3 million in FY2027-28 ($642.8 million over two years), down from a $936.6 million two-year projection in December 2025.",
+    "The Mayor's office said the budget reduces the structural deficit by about $300 million and saves another $80 million by slowing hiring.",
+    "General Fund property tax: $2,407.0 million in FY2026-27, $30.0 million (1.2%) below the FY2025-26 budget, per the Mayor's proposed budget.",
+    "Oct 20 agenda: six labor agreement amendments extend contracts through June 30, 2031 and bar layoffs of permanent civil service employees through June 30, 2029."
+   ],
+   "keywords": [
+    "budget",
+    "deficit",
+    "general fund",
+    "labor contracts",
+    "property tax"
+   ],
+   "sources": [
+    {
+     "label": "Mayor's budget signing release, July 30, 2026",
+     "url": "https://www.sf.gov/news-mayor-lurie-signs-balanced-budge-strengthening-san-franciscos-social-safety-net-advancing-citys-economic-recover"
+    },
+    {
+     "label": "Mayor's proposed FY27 and FY28 budget book",
+     "url": "https://media.api.sf.gov/documents/Mayors_June_1st_Proposed_FY27_and_FY28_Budget_Budget_Book.pdf"
+    },
+    {
+     "label": "Annual Appropriation Ordinance",
+     "url": "https://media.api.sf.gov/documents/FY2027__FY2028_-_FINAL_AAO.pdf"
+    }
+   ],
+   "scope": "council",
+   "related": []
+  },
+  {
+   "id": "datacenters",
+   "title": "Moratorium on new data centers",
+   "topic": "Housing & zoning",
+   "status": "Passed first reading 11-0 on Oct 6",
+   "next": "Final vote not yet in the record opened for this update.",
+   "summary": "Supervisor Walton's urgency ordinance would pause new data centers citywide for 45 days while the City studies rules for them. As an urgency measure it needs 9 of 11 votes; it received 11 on first reading.",
+   "points": [
+    "Oct 6: IMMEDIATELY PASSED ON FIRST READING, Ayes: 11. Co-sponsors: Chan, Fielder, Chen.",
+    "The Oct 20 agenda listed 18 public letters about the moratorium (File 261021)."
+   ],
+   "keywords": [
+    "data center",
+    "moratorium",
+    "261021",
+    "interim zoning"
+   ],
+   "sources": [
+    {
+     "label": "Oct 6 Board minutes (draft)",
+     "url": "https://media.api.sf.gov/documents/bag100626_minutes.pdf"
+    },
+    {
+     "label": "Oct 20 Board agenda",
+     "url": "https://media.api.sf.gov/documents/bag102026_agenda.pdf"
+    }
+   ],
+   "scope": "council",
+   "related": [
+    {
+     "date": "2026-10-06",
+     "body": "Board of Supervisors",
+     "url": "https://media.api.sf.gov/documents/bag100626_minutes.pdf",
+     "d": {
+      "title": "Passed a 45-day citywide moratorium on new data centers on first reading",
+      "detail": "File 261021, an urgency interim zoning moratorium on data centers citywide for 45 days, sponsored by Supervisor Walton with Supervisors Chan, Fielder and Chen. An urgency measure needs four-fifths of the Board (9 votes); it received 11.",
+      "outcome": "IMMEDIATELY PASSED ON FIRST READING, Ayes: 11",
+      "moved_by": null,
+      "seconded_by": null,
+      "roll_call": {
+       "yes": [
+        "Chan",
+        "Chen",
+        "Dorsey",
+        "Fielder",
+        "Mahmood",
+        "Mandelman",
+        "Melgar",
+        "Sauter",
+        "Sherrill",
+        "Walton",
+        "Wong"
+       ],
+       "no": []
+      },
+      "dissent": [],
+      "topic": "Housing & zoning",
+      "dollars": null,
+      "ordinance_reading": "first",
+      "needs_review": false,
+      "review_note": null
+     }
+    }
+   ]
+  },
+  {
+   "id": "ceqa",
+   "title": "Changes to local environmental review (CEQA) appeals",
+   "topic": "Housing & zoning",
+   "status": "Adopted: finally passed 8-1 on Oct 20",
+   "next": "Takes effect after the Mayor signs it and the effective date passes.",
+   "summary": "Supervisor Mahmood's ordinance changes how San Francisco applies the California Environmental Quality Act locally: shadow is no longer analyzed as an impact type, the time to appeal a CEQA decision to the Board drops from 30 to 15 days, and local steps not required by state law are removed.",
+   "points": [
+    "Oct 6: PASSED ON FIRST READING, Ayes: 10, Noes: 1. Supervisor Chan voted no.",
+    "Oct 20: FINALLY PASSED, Ayes: 8, Noes: 1 (Chan); Chen and Melgar excused."
+   ],
+   "keywords": [
+    "CEQA",
+    "environmental review",
+    "appeal",
+    "shadow",
+    "260539"
+   ],
+   "sources": [
+    {
+     "label": "Oct 6 Board minutes (draft)",
+     "url": "https://media.api.sf.gov/documents/bag100626_minutes.pdf"
+    },
+    {
+     "label": "Oct 20 Board agenda",
+     "url": "https://media.api.sf.gov/documents/bag102026_agenda.pdf"
+    }
+   ],
+   "scope": "council",
+   "related": [
+    {
+     "date": "2026-10-06",
+     "body": "Board of Supervisors",
+     "url": "https://media.api.sf.gov/documents/bag100626_minutes.pdf",
+     "d": {
+      "title": "Passed first reading of changes to the city's local CEQA (environmental review) procedures",
+      "detail": "File 260539, sponsored by Supervisor Mahmood. Per the Oct 20 agenda, it drops shadow as a type of environmental impact, shortens the window to appeal to the Board from 30 to 15 days, and removes local procedures that state CEQA (the California Environmental Quality Act) does not require.",
+      "outcome": "PASSED ON FIRST READING, Ayes: 10, Noes: 1 (Chan)",
+      "moved_by": null,
+      "seconded_by": null,
+      "roll_call": {
+       "yes": [
+        "Chen",
+        "Dorsey",
+        "Fielder",
+        "Mahmood",
+        "Mandelman",
+        "Melgar",
+        "Sauter",
+        "Sherrill",
+        "Walton",
+        "Wong"
+       ],
+       "no": [
+        "Chan"
+       ]
+      },
+      "dissent": [
+       "Chan"
+      ],
+      "topic": "Housing & zoning",
+      "dollars": null,
+      "ordinance_reading": "first",
+      "needs_review": false,
+      "review_note": null
+     }
+    }
+   ]
+  },
+  {
+   "id": "tenants",
+   "title": "New tenant protections",
+   "topic": "Housing & zoning",
+   "status": "Adopted: finally passed 11-0 on Oct 27",
+   "next": "The disclosure and eviction rules take effect after the Mayor signs them and the effective date passes.",
+   "summary": "Three housing ordinances reached the full Board from the Land Use and Transportation Committee on Oct 20: required disclosure of total monthly rental costs, a ban on evictions for small amounts of unpaid rent, and lower minimum ceiling heights for existing buildings.",
+   "points": [
+    "File 260680 (Mahmood): listings and leases must show total monthly costs; tenants could end leases early without penalty if fees were not disclosed; limits on evictions and late fees for undisclosed charges.",
+    "File 260962 (Fielder): bars eviction for unpaid rent below HUD's fair market rent for a comparable unit.",
+    "File 260623 (Wong): lowers minimum ceiling heights in existing buildings to 7 feet for habitable rooms and 6 feet 8 inches for other rooms.",
+    "The Oct 20 agenda listed a letter about Domus Management properties in the Western Addition (Files 260799 and 260962).",
+    "Oct 20: passed on first reading, Ayes: 9.",
+    "Oct 27: FINALLY PASSED, Ayes: 11."
+   ],
+   "keywords": [
+    "tenant",
+    "eviction",
+    "rent",
+    "fees",
+    "260680",
+    "260962",
+    "ceiling height"
+   ],
+   "sources": [
+    {
+     "label": "Oct 20 Board agenda",
+     "url": "https://media.api.sf.gov/documents/bag102026_agenda.pdf"
+    },
+    {
+     "label": "Oct 27 Board minutes (draft)",
+     "url": "https://media.api.sf.gov/documents/bag102726_minutes.pdf"
+    }
+   ],
+   "scope": "council",
+   "related": []
+  },
+  {
+   "id": "housing",
+   "title": "Housing production and big development sites",
+   "topic": "Housing & zoning",
+   "status": "Potrero Power Station plan approved Oct 6",
+   "next": "Nov 5 Planning Commission: Supervisor Chen's residential demolition and replacement ordinance (staff recommends disapproval unless modified).",
+   "summary": "The Board gave final approval to the amended Potrero Power Station development agreement and zoning, approved more funding for affordable homes at 3300 Mission, and eased parking and loading rules for converting offices to housing.",
+   "points": [
+    "Oct 6: Potrero Power Station development agreement and Special Use District, FINALLY PASSED, Ayes: 11.",
+    "Sep 29: $16,083,595 loan amendment for 35 affordable homes at 3300 Mission Street, ADOPTED, Ayes: 11.",
+    "Sep 29: office-to-housing conversions exempted from some parking, car share and loading rules, FINALLY PASSED, Ayes: 11.",
+    "Sep 29: the Board asked Planning to report on equity actions in the 2022 Housing Element (unanimous).",
+    "Oct 6: the Fillmore Heritage Center parcels moved to the Mayor's Office of Housing and Community Development (11-0).",
+    "Oct 8 Planning Commission agenda: an informational presentation on a 45-story, 501-unit project at 395 3rd Street under SB 423 (state streamlined approval)."
+   ],
+   "keywords": [
+    "housing",
+    "Potrero",
+    "affordable",
+    "3300 Mission",
+    "adaptive reuse",
+    "Housing Element",
+    "SB 423",
+    "demolition"
+   ],
+   "sources": [
+    {
+     "label": "Oct 6 Board minutes (draft)",
+     "url": "https://media.api.sf.gov/documents/bag100626_minutes.pdf"
+    },
+    {
+     "label": "Sep 29 Board minutes (draft)",
+     "url": "https://media.api.sf.gov/documents/bag092926_minutes.pdf"
+    },
+    {
+     "label": "Planning Commission agenda, Nov 5",
+     "url": "https://sfplanning.org/sites/default/files/agendas/2026-10/20261105_cpc%20%28ID%201593881%29.pdf"
+    }
+   ],
+   "scope": "all",
+   "related": [
+    {
+     "date": "2026-10-06",
+     "body": "Board of Supervisors",
+     "url": "https://media.api.sf.gov/documents/bag100626_minutes.pdf",
+     "d": {
+      "title": "Gave final approval to the amended Potrero Power Station development agreement",
+      "detail": "File 260724, the Amended and Restated Development Agreement for the Potrero Power Station site, including amendments to its Housing Plan and Transportation Plan. Approved on the consent agenda.",
+      "outcome": "FINALLY PASSED, Ayes: 11",
+      "moved_by": null,
+      "seconded_by": null,
+      "roll_call": {
+       "yes": [
+        "Chan",
+        "Chen",
+        "Dorsey",
+        "Fielder",
+        "Mahmood",
+        "Mandelman",
+        "Melgar",
+        "Sauter",
+        "Sherrill",
+        "Walton",
+        "Wong"
+       ],
+       "no": []
+      },
+      "dissent": [],
+      "topic": "Housing & zoning",
+      "dollars": null,
+      "ordinance_reading": "final",
+      "needs_review": false,
+      "review_note": null
+     }
+    },
+    {
+     "date": "2026-10-06",
+     "body": "Board of Supervisors",
+     "url": "https://media.api.sf.gov/documents/bag100626_minutes.pdf",
+     "d": {
+      "title": "Transferred the Fillmore Heritage Center parcels to the Mayor's Office of Housing",
+      "detail": "File 260955 transfers the Fillmore Heritage Center parcels to the Mayor's Office of Housing and Community Development (MOHCD).",
+      "outcome": "ADOPTED, Ayes: 11",
+      "moved_by": null,
+      "seconded_by": null,
+      "roll_call": {
+       "yes": [
+        "Chan",
+        "Chen",
+        "Dorsey",
+        "Fielder",
+        "Mahmood",
+        "Mandelman",
+        "Melgar",
+        "Sauter",
+        "Sherrill",
+        "Walton",
+        "Wong"
+       ],
+       "no": []
+      },
+      "dissent": [],
+      "topic": "Housing & zoning",
+      "dollars": null,
+      "ordinance_reading": null,
+      "needs_review": false,
+      "review_note": null
+     }
+    },
+    {
+     "date": "2026-09-29",
+     "body": "Board of Supervisors",
+     "url": "https://media.api.sf.gov/documents/bag092926_minutes.pdf",
+     "d": {
+      "title": "Approved a loan amendment for 35 affordable homes at 3300 Mission Street",
+      "detail": "File 260968, a loan amendment for a 35-unit, 100 percent affordable housing project at 3300 Mission Street, not to exceed $16,083,595.",
+      "outcome": "ADOPTED, Ayes: 11",
+      "moved_by": null,
+      "seconded_by": null,
+      "roll_call": {
+       "yes": [
+        "Chan",
+        "Chen",
+        "Dorsey",
+        "Fielder",
+        "Mahmood",
+        "Mandelman",
+        "Melgar",
+        "Sauter",
+        "Sherrill",
+        "Walton",
+        "Wong"
+       ],
+       "no": []
+      },
+      "dissent": [],
+      "topic": "Housing & zoning",
+      "dollars": 16083595,
+      "ordinance_reading": null,
+      "needs_review": false,
+      "review_note": null
+     }
+    },
+    {
+     "date": "2026-09-29",
+     "body": "Board of Supervisors",
+     "url": "https://media.api.sf.gov/documents/bag092926_minutes.pdf",
+     "d": {
+      "title": "Gave final approval to easing parking and loading rules for office-to-housing conversions",
+      "detail": "File 260771 exempts commercial-to-residential adaptive reuse projects (turning offices or other commercial space into homes) from certain parking, car share and loading requirements. Consent agenda.",
+      "outcome": "FINALLY PASSED, Ayes: 11",
+      "moved_by": null,
+      "seconded_by": null,
+      "roll_call": {
+       "yes": [
+        "Chan",
+        "Chen",
+        "Dorsey",
+        "Fielder",
+        "Mahmood",
+        "Mandelman",
+        "Melgar",
+        "Sauter",
+        "Sherrill",
+        "Walton",
+        "Wong"
+       ],
+       "no": []
+      },
+      "dissent": [],
+      "topic": "Housing & zoning",
+      "dollars": null,
+      "ordinance_reading": "final",
+      "needs_review": false,
+      "review_note": null
+     }
+    },
+    {
+     "date": "2026-09-29",
+     "body": "Board of Supervisors",
+     "url": "https://media.api.sf.gov/documents/bag092926_minutes.pdf",
+     "d": {
+      "title": "Asked Planning to report on equity actions in the 2022 Housing Element",
+      "detail": "File 261057, a resolution urging the Planning Department to report on the equity actions in the city's 2022 Housing Element (the state-required housing plan).",
+      "outcome": "ADOPTED, unanimous",
+      "moved_by": null,
+      "seconded_by": null,
+      "roll_call": null,
+      "dissent": [],
+      "topic": "Housing & zoning",
+      "dollars": null,
+      "ordinance_reading": null,
+      "needs_review": false,
+      "review_note": null
+     }
+    }
+   ]
+  },
+  {
+   "id": "homelessness",
+   "title": "Homelessness and supportive housing spending",
+   "topic": "Health & human services",
+   "status": "Grants moving through Budget and Finance",
+   "next": "Budget and Finance Committee review of the Conard House and Lark Inn grants.",
+   "summary": "The budget gives Homelessness and Supportive Housing $832,706,060 in FY2026-27 and sets aside $100 million for expected state and federal cuts to housing and homelessness programs. Several contract increases for shelters and supportive housing are before the Board.",
+   "points": [
+    "Sep 29 introduced: Conard House grant for the Allen, Aranda and McAllister hotels, +$9,997,868 to a total not to exceed $32,803,756 through June 30, 2029.",
+    "Oct 6 introduced: Lark Inn youth shelter grant (Larkin Street Youth Services), total not to exceed $14,926,904.",
+    "Oct 20 introduced: an application for up to $4.7 million in transitional housing funds and $588,826 in navigation funds for young adults.",
+    "Sep 29: lease amendment for the department's 601 Van Ness offices at $345,840 a year (11-0).",
+    "Sep 29: the Board adopted its response to a Civil Grand Jury report on homelessness data (11-0)."
+   ],
+   "keywords": [
+    "homeless",
+    "HSH",
+    "shelter",
+    "supportive housing",
+    "Conard House",
+    "Lark Inn"
+   ],
+   "sources": [
+    {
+     "label": "Sep 29 Board minutes (draft)",
+     "url": "https://media.api.sf.gov/documents/bag092926_minutes.pdf"
+    },
+    {
+     "label": "Oct 6 Board minutes (draft)",
+     "url": "https://media.api.sf.gov/documents/bag100626_minutes.pdf"
+    },
+    {
+     "label": "Oct 20 Board agenda",
+     "url": "https://media.api.sf.gov/documents/bag102026_agenda.pdf"
+    },
+    {
+     "label": "Mayor's budget signing release",
+     "url": "https://www.sf.gov/news-mayor-lurie-signs-balanced-budge-strengthening-san-franciscos-social-safety-net-advancing-citys-economic-recover"
+    }
+   ],
+   "scope": "council",
+   "related": [
+    {
+     "date": "2026-09-29",
+     "body": "Board of Supervisors",
+     "url": "https://media.api.sf.gov/documents/bag092926_minutes.pdf",
+     "d": {
+      "title": "Approved a lease amendment for Homelessness and Supportive Housing offices at 601 Van Ness",
+      "detail": "File 260811, annual base rent of $345,840 for the department's administrative offices.",
+      "outcome": "ADOPTED, Ayes: 11",
+      "moved_by": null,
+      "seconded_by": null,
+      "roll_call": {
+       "yes": [
+        "Chan",
+        "Chen",
+        "Dorsey",
+        "Fielder",
+        "Mahmood",
+        "Mandelman",
+        "Melgar",
+        "Sauter",
+        "Sherrill",
+        "Walton",
+        "Wong"
+       ],
+       "no": []
+      },
+      "dissent": [],
+      "topic": "Health & human services",
+      "dollars": 345840,
+      "ordinance_reading": null,
+      "needs_review": false,
+      "review_note": null
+     }
+    }
+   ]
+  },
+  {
+   "id": "surveillance",
+   "title": "Police technology and license plate readers",
+   "topic": "Public safety",
+   "status": "Policies in committee",
+   "next": "Government Audit and Oversight Committee review of the Airport and Recreation and Park license plate reader policies.",
+   "summary": "Under the City's surveillance technology law, departments need Board approval for policies on tools like license plate readers. The Board accepted a $3 million gift for SFPD's Real Time Investigation Center, and new policies for the Airport and Recreation and Park are in committee.",
+   "points": [
+    "Sep 29: $3,000,000 gift for the SFPD Real Time Investigation Center, ADOPTED, Ayes: 11.",
+    "Sep 29: Airport (File 261035) and Recreation and Park (File 261036) automated license plate reader policies assigned to Government Audit and Oversight under the 30-day rule.",
+    "Oct 20 agenda: first readings of the Department of Elections security camera policy (File 260272) and the Fire Department social media monitoring policy (File 260414).",
+    "Oct 27: Fire Department social media monitoring policy and an amended Department of Elections policy FINALLY PASSED, Ayes: 11."
+   ],
+   "keywords": [
+    "surveillance",
+    "ALPR",
+    "license plate",
+    "Real Time Investigation Center",
+    "SFPD"
+   ],
+   "sources": [
+    {
+     "label": "Sep 29 Board minutes (draft)",
+     "url": "https://media.api.sf.gov/documents/bag092926_minutes.pdf"
+    },
+    {
+     "label": "Oct 20 Board agenda",
+     "url": "https://media.api.sf.gov/documents/bag102026_agenda.pdf"
+    },
+    {
+     "label": "Oct 27 Board minutes (draft)",
+     "url": "https://media.api.sf.gov/documents/bag102726_minutes.pdf"
+    }
+   ],
+   "scope": "council",
+   "related": [
+    {
+     "date": "2026-09-29",
+     "body": "Board of Supervisors",
+     "url": "https://media.api.sf.gov/documents/bag092926_minutes.pdf",
+     "d": {
+      "title": "Accepted a $3,000,000 gift for the Police Department's Real Time Investigation Center",
+      "detail": "File 260847. The Board also accepted smaller retroactive gifts and grants to SFPD: an in-kind Oracle Park venue gift ($45,500), an O2X Wellness Initiative gift ($103,750) and a CHP FY2026-27 cannabis grant ($772,507).",
+      "outcome": "ADOPTED, Ayes: 11",
+      "moved_by": null,
+      "seconded_by": null,
+      "roll_call": {
+       "yes": [
+        "Chan",
+        "Chen",
+        "Dorsey",
+        "Fielder",
+        "Mahmood",
+        "Mandelman",
+        "Melgar",
+        "Sauter",
+        "Sherrill",
+        "Walton",
+        "Wong"
+       ],
+       "no": []
+      },
+      "dissent": [],
+      "topic": "Public safety",
+      "dollars": 3000000,
+      "ordinance_reading": null,
+      "needs_review": false,
+      "review_note": null
+     }
+    }
+   ]
+  }
+ ],
+ "council_meetings": [
+  {
+   "body": "Board of Supervisors",
+   "date": "2026-10-27",
+   "minutes_url": "https://media.api.sf.gov/documents/bag102726_minutes.pdf",
+   "minutes_status": "draft",
+   "ocr": false,
+   "attendance": {
+    "present": [
+     "Chan",
+     "Chen",
+     "Dorsey",
+     "Fielder",
+     "Mahmood",
+     "Mandelman",
+     "Melgar",
+     "Sauter",
+     "Sherrill",
+     "Walton",
+     "Wong"
+    ],
+    "absent": []
+   },
+   "headline": "The Board gave final approval 11-0 to the rent cost disclosure and unpaid-rent eviction ordinances, lower ceiling heights for existing buildings, six city labor contracts and two surveillance technology policies, and passed eleven lawsuit settlements on first reading.",
+   "decisions": [
+    {
+     "title": "Final approval: rental listings and leases must show the total monthly cost",
+     "detail": "File 260680.",
+     "outcome": "FINALLY PASSED, Ayes: 11",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": {
+      "yes": [
+       "Chan",
+       "Chen",
+       "Dorsey",
+       "Fielder",
+       "Mahmood",
+       "Mandelman",
+       "Melgar",
+       "Sauter",
+       "Sherrill",
+       "Walton",
+       "Wong"
+      ],
+      "no": []
+     },
+     "dissent": [],
+     "topic": "Housing & zoning",
+     "dollars": null,
+     "ordinance_reading": "final",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Final approval: no evictions for small amounts of unpaid rent",
+     "detail": "File 260962. Landlords may not evict a tenant for unpaid rent below a threshold tied to the federal fair market rent for an equivalent unit.",
+     "outcome": "FINALLY PASSED, Ayes: 11",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": {
+      "yes": [
+       "Chan",
+       "Chen",
+       "Dorsey",
+       "Fielder",
+       "Mahmood",
+       "Mandelman",
+       "Melgar",
+       "Sauter",
+       "Sherrill",
+       "Walton",
+       "Wong"
+      ],
+      "no": []
+     },
+     "dissent": [],
+     "topic": "Housing & zoning",
+     "dollars": null,
+     "ordinance_reading": "final",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Final approval: lower minimum ceiling heights in existing buildings",
+     "detail": "File 260623.",
+     "outcome": "FINALLY PASSED, Ayes: 11",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": {
+      "yes": [
+       "Chan",
+       "Chen",
+       "Dorsey",
+       "Fielder",
+       "Mahmood",
+       "Mandelman",
+       "Melgar",
+       "Sauter",
+       "Sherrill",
+       "Walton",
+       "Wong"
+      ],
+      "no": []
+     },
+     "dissent": [],
+     "topic": "Housing & zoning",
+     "dollars": null,
+     "ordinance_reading": "final",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Final approval: larger mezzanines no longer count as a separate story",
+     "detail": "File 260709.",
+     "outcome": "FINALLY PASSED, Ayes: 11",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": {
+      "yes": [
+       "Chan",
+       "Chen",
+       "Dorsey",
+       "Fielder",
+       "Mahmood",
+       "Mandelman",
+       "Melgar",
+       "Sauter",
+       "Sherrill",
+       "Walton",
+       "Wong"
+      ],
+      "no": []
+     },
+     "dissent": [],
+     "topic": "Housing & zoning",
+     "dollars": null,
+     "ordinance_reading": "final",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Final approval: six city labor contracts",
+     "detail": "Files 261080 to 261085.",
+     "outcome": "FINALLY PASSED, Ayes: 11",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": {
+      "yes": [
+       "Chan",
+       "Chen",
+       "Dorsey",
+       "Fielder",
+       "Mahmood",
+       "Mandelman",
+       "Melgar",
+       "Sauter",
+       "Sherrill",
+       "Walton",
+       "Wong"
+      ],
+      "no": []
+     },
+     "dissent": [],
+     "topic": "Budget & taxes",
+     "dollars": null,
+     "ordinance_reading": "final",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Final approval: Fire Department social media monitoring software policy",
+     "detail": "File 260414. Approves the Surveillance Technology Policy for the Fire Department's use of social media monitoring software. File 260272, an amended Department of Elections surveillance technology policy, also passed 11-0.",
+     "outcome": "FINALLY PASSED, Ayes: 11",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": {
+      "yes": [
+       "Chan",
+       "Chen",
+       "Dorsey",
+       "Fielder",
+       "Mahmood",
+       "Mandelman",
+       "Melgar",
+       "Sauter",
+       "Sherrill",
+       "Walton",
+       "Wong"
+      ],
+      "no": []
+     },
+     "dissent": [],
+     "topic": "Public safety",
+     "dollars": null,
+     "ordinance_reading": "final",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Final approval: notifying property owners of filings on their property",
+     "detail": "File 261014. Creates a system run by the Assessor-Recorder to notify property owners of filings affecting their real property.",
+     "outcome": "FINALLY PASSED, Ayes: 11",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": {
+      "yes": [
+       "Chan",
+       "Chen",
+       "Dorsey",
+       "Fielder",
+       "Mahmood",
+       "Mandelman",
+       "Melgar",
+       "Sauter",
+       "Sherrill",
+       "Walton",
+       "Wong"
+      ],
+      "no": []
+     },
+     "dissent": [],
+     "topic": "Government & elections",
+     "dollars": null,
+     "ordinance_reading": "final",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Final approval: Department of Elections appropriation for the statewide election",
+     "detail": "File 260959.",
+     "outcome": "FINALLY PASSED, Ayes: 11",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": {
+      "yes": [
+       "Chan",
+       "Chen",
+       "Dorsey",
+       "Fielder",
+       "Mahmood",
+       "Mandelman",
+       "Melgar",
+       "Sauter",
+       "Sherrill",
+       "Walton",
+       "Wong"
+      ],
+      "no": []
+     },
+     "dissent": [],
+     "topic": "Government & elections",
+     "dollars": null,
+     "ordinance_reading": "final",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "First reading: new rules for buying firearms and ammunition",
+     "detail": "File 260838. Changes the minimum qualifications for the City's firearm and ammunition suppliers and removes exceptions to the procurement rules.",
+     "outcome": "PASSED, ON FIRST READING, Ayes: 11",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": {
+      "yes": [
+       "Chan",
+       "Chen",
+       "Dorsey",
+       "Fielder",
+       "Mahmood",
+       "Mandelman",
+       "Melgar",
+       "Sauter",
+       "Sherrill",
+       "Walton",
+       "Wong"
+      ],
+      "no": []
+     },
+     "dissent": [],
+     "topic": "Public safety",
+     "dollars": null,
+     "ordinance_reading": "first",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "First reading: eleven lawsuit settlements",
+     "detail": "Files 260926 to 260929, 260993 to 260995 and 261038 to 261042, including the City receiving $400,000 from Genasci Dairy and payments by the City from $50,000 to $1,500,000.",
+     "outcome": "PASSED, ON FIRST READING, Ayes: 11",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": {
+      "yes": [
+       "Chan",
+       "Chen",
+       "Dorsey",
+       "Fielder",
+       "Mahmood",
+       "Mandelman",
+       "Melgar",
+       "Sauter",
+       "Sherrill",
+       "Walton",
+       "Wong"
+      ],
+      "no": []
+     },
+     "dissent": [],
+     "topic": "Government & elections",
+     "dollars": null,
+     "ordinance_reading": "first",
+     "needs_review": false,
+     "review_note": null
+    }
+   ],
+   "discussed": [],
+   "public_comment": [],
+   "coming_up": [
+    {
+     "item": "Final votes on the firearm procurement ordinance and the eleven settlements (on the Nov 3 agenda)",
+     "from": "Nov 3 agenda"
+    }
+   ]
+  },
+  {
+   "body": "Board of Supervisors",
+   "date": "2026-10-20",
+   "minutes_url": "https://media.api.sf.gov/documents/bag102026_minutes.pdf",
+   "minutes_status": "draft",
+   "ocr": false,
+   "attendance": {
+    "present": [
+     "Chan",
+     "Dorsey",
+     "Fielder",
+     "Mahmood",
+     "Mandelman",
+     "Sauter",
+     "Sherrill",
+     "Walton",
+     "Wong"
+    ],
+    "absent": [
+     "Chen",
+     "Melgar"
+    ]
+   },
+   "headline": "The Board gave final approval 8-1 to Supervisor Mahmood's changes to local CEQA (environmental review) procedures, passed three tenant and housing ordinances on first reading, and approved six city labor contracts on first reading. Supervisors Chen and Melgar were excused.",
+   "decisions": [
+    {
+     "title": "Final approval: changes to local CEQA (environmental review) procedures",
+     "detail": "File 260539. Simplifies local procedures under the California Environmental Quality Act, including removing shadow as a specific type of environmental impact and cutting the time to appeal CEQA determinations to the Board from 30 to 15 days.",
+     "outcome": "FINALLY PASSED, Ayes: 8, Noes: 1 (Chan), Excused: 2 (Chen, Melgar)",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": {
+      "yes": [
+       "Dorsey",
+       "Fielder",
+       "Mahmood",
+       "Mandelman",
+       "Sauter",
+       "Sherrill",
+       "Walton",
+       "Wong"
+      ],
+      "no": [
+       "Chan"
+      ]
+     },
+     "dissent": [
+      "Chan"
+     ],
+     "topic": "Housing & zoning",
+     "dollars": null,
+     "ordinance_reading": "final",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "First reading: rental listings and leases must show the total monthly cost",
+     "detail": "File 260680. Online listings and lease agreements for rental units would have to disclose the total estimated monthly cost, including rent and required fees.",
+     "outcome": "PASSED ON FIRST READING, Ayes: 9, Excused: 2",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": {
+      "yes": [
+       "Chan",
+       "Dorsey",
+       "Fielder",
+       "Mahmood",
+       "Mandelman",
+       "Sauter",
+       "Sherrill",
+       "Walton",
+       "Wong"
+      ],
+      "no": []
+     },
+     "dissent": [],
+     "topic": "Housing & zoning",
+     "dollars": null,
+     "ordinance_reading": "first",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "First reading: no evictions for small amounts of unpaid rent",
+     "detail": "File 260962. A landlord could not evict a tenant for unpaid rent below a threshold tied to the federal fair market rent for an equivalent unit.",
+     "outcome": "PASSED ON FIRST READING, Ayes: 9, Excused: 2",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": {
+      "yes": [
+       "Chan",
+       "Dorsey",
+       "Fielder",
+       "Mahmood",
+       "Mandelman",
+       "Sauter",
+       "Sherrill",
+       "Walton",
+       "Wong"
+      ],
+      "no": []
+     },
+     "dissent": [],
+     "topic": "Housing & zoning",
+     "dollars": null,
+     "ordinance_reading": "first",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "First reading: lower minimum ceiling heights in existing buildings",
+     "detail": "File 260623. Reduces the minimum ceiling height for habitable rooms in existing buildings to 7 feet, and other rooms to 6 feet 8 inches.",
+     "outcome": "PASSED ON FIRST READING, Ayes: 9, Excused: 2",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": {
+      "yes": [
+       "Chan",
+       "Dorsey",
+       "Fielder",
+       "Mahmood",
+       "Mandelman",
+       "Sauter",
+       "Sherrill",
+       "Walton",
+       "Wong"
+      ],
+      "no": []
+     },
+     "dissent": [],
+     "topic": "Housing & zoning",
+     "dollars": null,
+     "ordinance_reading": "first",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "First reading: larger mezzanines no longer count as a separate story",
+     "detail": "File 260709. Revises the size threshold for when a mezzanine counts as a separate story, to include larger mezzanines the Building Code permits.",
+     "outcome": "PASSED ON FIRST READING, Ayes: 9, Excused: 2",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": {
+      "yes": [
+       "Chan",
+       "Dorsey",
+       "Fielder",
+       "Mahmood",
+       "Mandelman",
+       "Sauter",
+       "Sherrill",
+       "Walton",
+       "Wong"
+      ],
+      "no": []
+     },
+     "dissent": [],
+     "topic": "Housing & zoning",
+     "dollars": null,
+     "ordinance_reading": "first",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "First reading: six city labor contracts (memoranda of understanding)",
+     "detail": "Files 261080 to 261085, contracts with the International Federation of Professional and Technical Engineers, the Municipal Executives' Association, SEIU, the District Attorney Investigators, the Laborers union and the plumbers and pipefitters union.",
+     "outcome": "PASSED ON FIRST READING, Ayes: 9, Excused: 2",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": {
+      "yes": [
+       "Chan",
+       "Dorsey",
+       "Fielder",
+       "Mahmood",
+       "Mandelman",
+       "Sauter",
+       "Sherrill",
+       "Walton",
+       "Wong"
+      ],
+      "no": []
+     },
+     "dissent": [],
+     "topic": "Budget & taxes",
+     "dollars": null,
+     "ordinance_reading": "first",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Final approval: green building rules for city buildings",
+     "detail": "File 260837. Updates the Environment Code's green building requirements for new construction, major renovation and tenant improvements of City buildings.",
+     "outcome": "FINALLY PASSED, Ayes: 9, Excused: 2",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": {
+      "yes": [
+       "Chan",
+       "Dorsey",
+       "Fielder",
+       "Mahmood",
+       "Mandelman",
+       "Sauter",
+       "Sherrill",
+       "Walton",
+       "Wong"
+      ],
+      "no": []
+     },
+     "dissent": [],
+     "topic": "Environment & resilience",
+     "dollars": null,
+     "ordinance_reading": "final",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Final approval: refinancing for 525 Golden Gate Avenue (PUC headquarters)",
+     "detail": "File 260809. Authorizes the PUC to issue revenue bonds to refinance outstanding debt on its 525 Golden Gate Avenue headquarters.",
+     "outcome": "FINALLY PASSED, Ayes: 9, Excused: 2",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": {
+      "yes": [
+       "Chan",
+       "Dorsey",
+       "Fielder",
+       "Mahmood",
+       "Mandelman",
+       "Sauter",
+       "Sherrill",
+       "Walton",
+       "Wong"
+      ],
+      "no": []
+     },
+     "dissent": [],
+     "topic": "Infrastructure & utilities",
+     "dollars": null,
+     "ordinance_reading": "final",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Final approval: expanded landmark designation for the Site of the Compton's Cafeteria Riot",
+     "detail": "File 260415. Expands Landmark No. 307 to include the whole building at 101-121 Taylor Street and widens its period of significance.",
+     "outcome": "FINALLY PASSED, Ayes: 9, Excused: 2",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": {
+      "yes": [
+       "Chan",
+       "Dorsey",
+       "Fielder",
+       "Mahmood",
+       "Mandelman",
+       "Sauter",
+       "Sherrill",
+       "Walton",
+       "Wong"
+      ],
+      "no": []
+     },
+     "dissent": [],
+     "topic": "Historic preservation",
+     "dollars": null,
+     "ordinance_reading": "final",
+     "needs_review": false,
+     "review_note": null
+    }
+   ],
+   "discussed": [],
+   "public_comment": [],
+   "coming_up": [
+    {
+     "item": "Final votes on the tenant ordinances, ceiling heights, mezzanines and the six labor contracts",
+     "from": "Passed on first reading Oct 20"
+    }
+   ]
+  },
+  {
+   "body": "Board of Supervisors",
+   "date": "2026-10-06",
+   "minutes_url": "https://media.api.sf.gov/documents/bag100626_minutes.pdf",
+   "minutes_status": "draft",
+   "ocr": false,
+   "attendance": {
+    "present": [
+     "Chan",
+     "Chen",
+     "Dorsey",
+     "Fielder",
+     "Mahmood",
+     "Mandelman",
+     "Melgar",
+     "Sauter",
+     "Sherrill",
+     "Walton",
+     "Wong"
+    ],
+    "absent": []
+   },
+   "headline": "The Board passed a 45-day citywide data center moratorium 11-0 on first reading, passed CEQA procedure changes 10-1 on first reading, gave final approval to the Potrero Power Station plan, and advanced about $530 million in PUC bonds.",
+   "decisions": [
+    {
+     "title": "Passed a 45-day citywide moratorium on new data centers on first reading",
+     "detail": "File 261021, an urgency interim zoning moratorium on data centers citywide for 45 days, sponsored by Supervisor Walton with Supervisors Chan, Fielder and Chen. An urgency measure needs four-fifths of the Board (9 votes); it received 11.",
+     "outcome": "IMMEDIATELY PASSED ON FIRST READING, Ayes: 11",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": {
+      "yes": [
+       "Chan",
+       "Chen",
+       "Dorsey",
+       "Fielder",
+       "Mahmood",
+       "Mandelman",
+       "Melgar",
+       "Sauter",
+       "Sherrill",
+       "Walton",
+       "Wong"
+      ],
+      "no": []
+     },
+     "dissent": [],
+     "topic": "Housing & zoning",
+     "dollars": null,
+     "ordinance_reading": "first",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Passed first reading of changes to the city's local CEQA (environmental review) procedures",
+     "detail": "File 260539, sponsored by Supervisor Mahmood. Per the Oct 20 agenda, it drops shadow as a type of environmental impact, shortens the window to appeal to the Board from 30 to 15 days, and removes local procedures that state CEQA (the California Environmental Quality Act) does not require.",
+     "outcome": "PASSED ON FIRST READING, Ayes: 10, Noes: 1 (Chan)",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": {
+      "yes": [
+       "Chen",
+       "Dorsey",
+       "Fielder",
+       "Mahmood",
+       "Mandelman",
+       "Melgar",
+       "Sauter",
+       "Sherrill",
+       "Walton",
+       "Wong"
+      ],
+      "no": [
+       "Chan"
+      ]
+     },
+     "dissent": [
+      "Chan"
+     ],
+     "topic": "Housing & zoning",
+     "dollars": null,
+     "ordinance_reading": "first",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Gave final approval to the amended Potrero Power Station development agreement",
+     "detail": "File 260724, the Amended and Restated Development Agreement for the Potrero Power Station site, including amendments to its Housing Plan and Transportation Plan. Approved on the consent agenda.",
+     "outcome": "FINALLY PASSED, Ayes: 11",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": {
+      "yes": [
+       "Chan",
+       "Chen",
+       "Dorsey",
+       "Fielder",
+       "Mahmood",
+       "Mandelman",
+       "Melgar",
+       "Sauter",
+       "Sherrill",
+       "Walton",
+       "Wong"
+      ],
+      "no": []
+     },
+     "dissent": [],
+     "topic": "Housing & zoning",
+     "dollars": null,
+     "ordinance_reading": "final",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Gave final approval to height and land use changes for the Potrero Power Station Special Use District",
+     "detail": "File 260770, Planning Code and Zoning Map changes for the Potrero Power Station Special Use District (a zoning district with its own rules for one large site). Approved on the consent agenda.",
+     "outcome": "FINALLY PASSED, Ayes: 11",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": {
+      "yes": [
+       "Chan",
+       "Chen",
+       "Dorsey",
+       "Fielder",
+       "Mahmood",
+       "Mandelman",
+       "Melgar",
+       "Sauter",
+       "Sherrill",
+       "Walton",
+       "Wong"
+      ],
+      "no": []
+     },
+     "dissent": [],
+     "topic": "Housing & zoning",
+     "dollars": null,
+     "ordinance_reading": "final",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Passed first reading of PUC borrowing tied to its 525 Golden Gate Avenue headquarters",
+     "detail": "File 260809 authorizes Public Utilities Commission revenue bonds of up to $492,820,000 (Water), $24,570,000 (Wastewater) and $12,610,000 (Power) for 525 Golden Gate Avenue. It needs a two-thirds vote (8) under the Charter. Primary sponsor: Supervisor Mandelman.",
+     "outcome": "PASSED ON FIRST READING, Ayes: 11",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": {
+      "yes": [
+       "Chan",
+       "Chen",
+       "Dorsey",
+       "Fielder",
+       "Mahmood",
+       "Mandelman",
+       "Melgar",
+       "Sauter",
+       "Sherrill",
+       "Walton",
+       "Wong"
+      ],
+      "no": []
+     },
+     "dissent": [],
+     "topic": "Budget & taxes",
+     "dollars": 530000000,
+     "ordinance_reading": "first",
+     "needs_review": true,
+     "review_note": "dollars is the sum of the three caps ($492.82M + $24.57M + $12.61M = $530.0M); the Oct 20 agenda describes the purpose as prepaying lease payments."
+    },
+    {
+     "title": "Transferred the Fillmore Heritage Center parcels to the Mayor's Office of Housing",
+     "detail": "File 260955 transfers the Fillmore Heritage Center parcels to the Mayor's Office of Housing and Community Development (MOHCD).",
+     "outcome": "ADOPTED, Ayes: 11",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": {
+      "yes": [
+       "Chan",
+       "Chen",
+       "Dorsey",
+       "Fielder",
+       "Mahmood",
+       "Mandelman",
+       "Melgar",
+       "Sauter",
+       "Sherrill",
+       "Walton",
+       "Wong"
+      ],
+      "no": []
+     },
+     "dissent": [],
+     "topic": "Housing & zoning",
+     "dollars": null,
+     "ordinance_reading": null,
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Passed first reading of updated green building rules for city buildings",
+     "detail": "File 260837, Municipal Green Building Requirements, sponsored by Supervisor Mandelman.",
+     "outcome": "PASSED ON FIRST READING, Ayes: 11",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": {
+      "yes": [
+       "Chan",
+       "Chen",
+       "Dorsey",
+       "Fielder",
+       "Mahmood",
+       "Mandelman",
+       "Melgar",
+       "Sauter",
+       "Sherrill",
+       "Walton",
+       "Wong"
+      ],
+      "no": []
+     },
+     "dissent": [],
+     "topic": "Environment & resilience",
+     "dollars": null,
+     "ordinance_reading": "first",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Passed first reading of an expanded Compton's Cafeteria Riot landmark",
+     "detail": "File 260415 amends Landmark No. 307. Per the Oct 20 agenda it covers the entire 101-121 Taylor Street building and extends the period of significance. Sponsor: Supervisor Mahmood.",
+     "outcome": "PASSED ON FIRST READING, Ayes: 11",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": {
+      "yes": [
+       "Chan",
+       "Chen",
+       "Dorsey",
+       "Fielder",
+       "Mahmood",
+       "Mandelman",
+       "Melgar",
+       "Sauter",
+       "Sherrill",
+       "Walton",
+       "Wong"
+      ],
+      "no": []
+     },
+     "dissent": [],
+     "topic": "Historic preservation",
+     "dollars": null,
+     "ordinance_reading": "first",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Created an Office of Food Security Coordination",
+     "detail": "File 260869 establishes an Office of Food Security Coordination in the Human Services Agency. Supervisor Sauter was added as a co-sponsor.",
+     "outcome": "FINALLY PASSED, Ayes: 11",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": {
+      "yes": [
+       "Chan",
+       "Chen",
+       "Dorsey",
+       "Fielder",
+       "Mahmood",
+       "Mandelman",
+       "Melgar",
+       "Sauter",
+       "Sherrill",
+       "Walton",
+       "Wong"
+      ],
+      "no": []
+     },
+     "dissent": [],
+     "topic": "Health & human services",
+     "dollars": null,
+     "ordinance_reading": "final",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Approved four SFPUC as-needed engineering contracts and a power program management contract",
+     "detail": "Files 260950 to 260953: as-needed contracts with Stantec, AECOM, Jacobs and LEE, each not to exceed $20,000,000. File 260954: Deloitte power capital program management, not to exceed $30,000,000.",
+     "outcome": "ADOPTED, Ayes: 11 (each)",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": {
+      "yes": [
+       "Chan",
+       "Chen",
+       "Dorsey",
+       "Fielder",
+       "Mahmood",
+       "Mandelman",
+       "Melgar",
+       "Sauter",
+       "Sherrill",
+       "Walton",
+       "Wong"
+      ],
+      "no": []
+     },
+     "dissent": [],
+     "topic": "Infrastructure & utilities",
+     "dollars": 110000000,
+     "ordinance_reading": null,
+     "needs_review": true,
+     "review_note": "dollars is the sum of five separate contract caps (4 x $20,000,000 + $30,000,000); each was a separate resolution."
+    },
+    {
+     "title": "Urged the Census Bureau to reconsider changes planned for the 2030 Census",
+     "detail": "File 261094. Supervisor Chen severed it from the without-reference calendar; it was amended and then adopted.",
+     "outcome": "ADOPTED AS AMENDED, Ayes: 11",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": {
+      "yes": [
+       "Chan",
+       "Chen",
+       "Dorsey",
+       "Fielder",
+       "Mahmood",
+       "Mandelman",
+       "Melgar",
+       "Sauter",
+       "Sherrill",
+       "Walton",
+       "Wong"
+      ],
+      "no": []
+     },
+     "dissent": [],
+     "topic": "Government & elections",
+     "dollars": null,
+     "ordinance_reading": null,
+     "needs_review": false,
+     "review_note": null
+    }
+   ],
+   "discussed": [
+    {
+     "title": "Introduced: Lark Inn youth shelter grant",
+     "detail": "File 261074, a Larkin Street Youth Services Lark Inn shelter grant amendment for Homelessness and Supportive Housing, total not to exceed $14,926,904, was sent to the Budget and Finance Committee.",
+     "topic": "Health & human services"
+    },
+    {
+     "title": "Retirement board election rules",
+     "detail": "File 250928, on disclosure and reporting rules for candidates for the Retirement, Health Service and Retiree Health Care Trust Fund boards, was re-referred to the Government Audit and Oversight Committee.",
+     "topic": "Government & elections"
+    }
+   ],
+   "public_comment": [],
+   "coming_up": [
+    {
+     "date": "2026-10-20",
+     "item": "Final votes on the CEQA procedure changes, PUC bonds, Compton's Cafeteria landmark and green building rules"
+    }
+   ],
+   "record_note": "Draft minutes, not yet approved by the Board. Supervisors are not usually recorded as making or seconding motions in these minutes, so moved_by and seconded_by are null."
+  },
+  {
+   "body": "Board of Supervisors",
+   "date": "2026-09-29",
+   "minutes_url": "https://media.api.sf.gov/documents/bag092926_minutes.pdf",
+   "minutes_status": "draft",
+   "ocr": false,
+   "attendance": {
+    "present": [
+     "Chan",
+     "Chen",
+     "Dorsey",
+     "Fielder",
+     "Mahmood",
+     "Mandelman",
+     "Melgar",
+     "Sauter",
+     "Sherrill",
+     "Walton",
+     "Wong"
+    ],
+    "absent": []
+   },
+   "headline": "Every recorded vote was 11-0: a $16.1 million loan amendment for 35 affordable homes at 3300 Mission, easier office-to-housing conversions, a $3 million gift for SFPD's Real Time Investigation Center, and consolidating the regional transit tax election with Nov 3.",
+   "decisions": [
+    {
+     "title": "Approved a loan amendment for 35 affordable homes at 3300 Mission Street",
+     "detail": "File 260968, a loan amendment for a 35-unit, 100 percent affordable housing project at 3300 Mission Street, not to exceed $16,083,595.",
+     "outcome": "ADOPTED, Ayes: 11",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": {
+      "yes": [
+       "Chan",
+       "Chen",
+       "Dorsey",
+       "Fielder",
+       "Mahmood",
+       "Mandelman",
+       "Melgar",
+       "Sauter",
+       "Sherrill",
+       "Walton",
+       "Wong"
+      ],
+      "no": []
+     },
+     "dissent": [],
+     "topic": "Housing & zoning",
+     "dollars": 16083595,
+     "ordinance_reading": null,
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Gave final approval to easing parking and loading rules for office-to-housing conversions",
+     "detail": "File 260771 exempts commercial-to-residential adaptive reuse projects (turning offices or other commercial space into homes) from certain parking, car share and loading requirements. Consent agenda.",
+     "outcome": "FINALLY PASSED, Ayes: 11",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": {
+      "yes": [
+       "Chan",
+       "Chen",
+       "Dorsey",
+       "Fielder",
+       "Mahmood",
+       "Mandelman",
+       "Melgar",
+       "Sauter",
+       "Sherrill",
+       "Walton",
+       "Wong"
+      ],
+      "no": []
+     },
+     "dissent": [],
+     "topic": "Housing & zoning",
+     "dollars": null,
+     "ordinance_reading": "final",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Consolidated the regional Public Transit Revenue Measure election with the Nov 3 election",
+     "detail": "File 261060 consolidates the Public Transit Revenue Measure District special election with the November 3, 2026 elections.",
+     "outcome": "ADOPTED, unanimous",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": null,
+     "dissent": [],
+     "topic": "Parking & transportation",
+     "dollars": null,
+     "ordinance_reading": null,
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Accepted a $3,000,000 gift for the Police Department's Real Time Investigation Center",
+     "detail": "File 260847. The Board also accepted smaller retroactive gifts and grants to SFPD: an in-kind Oracle Park venue gift ($45,500), an O2X Wellness Initiative gift ($103,750) and a CHP FY2026-27 cannabis grant ($772,507).",
+     "outcome": "ADOPTED, Ayes: 11",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": {
+      "yes": [
+       "Chan",
+       "Chen",
+       "Dorsey",
+       "Fielder",
+       "Mahmood",
+       "Mandelman",
+       "Melgar",
+       "Sauter",
+       "Sherrill",
+       "Walton",
+       "Wong"
+      ],
+      "no": []
+     },
+     "dissent": [],
+     "topic": "Public safety",
+     "dollars": 3000000,
+     "ordinance_reading": null,
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Accepted District Attorney victim services and fraud grants",
+     "detail": "File 260964, a Cal OES Victim Witness Assistance grant of $4,017,774 total (about $1,339,258 a year); File 260965, a Workers' Compensation Fraud grant of $1,005,686 (retroactive); File 260876, a $75,000 revolving fund from the California Victim Compensation Board.",
+     "outcome": "ADOPTED, Ayes: 11 (each)",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": {
+      "yes": [
+       "Chan",
+       "Chen",
+       "Dorsey",
+       "Fielder",
+       "Mahmood",
+       "Mandelman",
+       "Melgar",
+       "Sauter",
+       "Sherrill",
+       "Walton",
+       "Wong"
+      ],
+      "no": []
+     },
+     "dissent": [],
+     "topic": "Public safety",
+     "dollars": null,
+     "ordinance_reading": null,
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Approved official misconduct charges against a Sheriff's Oversight Board commissioner",
+     "detail": "File 261030 approved the suspension of, and official misconduct charges against, Commissioner William Palmer of the Sheriff's Oversight Board. The first vote was 10-0 with Supervisor Chen absent; it was rescinded and retaken 11-0.",
+     "outcome": "APPROVED, Ayes: 11",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": {
+      "yes": [
+       "Chan",
+       "Chen",
+       "Dorsey",
+       "Fielder",
+       "Mahmood",
+       "Mandelman",
+       "Melgar",
+       "Sauter",
+       "Sherrill",
+       "Walton",
+       "Wong"
+      ],
+      "no": []
+     },
+     "dissent": [],
+     "topic": "Public safety",
+     "dollars": null,
+     "ordinance_reading": null,
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Approved a lease amendment for Homelessness and Supportive Housing offices at 601 Van Ness",
+     "detail": "File 260811, annual base rent of $345,840 for the department's administrative offices.",
+     "outcome": "ADOPTED, Ayes: 11",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": {
+      "yes": [
+       "Chan",
+       "Chen",
+       "Dorsey",
+       "Fielder",
+       "Mahmood",
+       "Mandelman",
+       "Melgar",
+       "Sauter",
+       "Sherrill",
+       "Walton",
+       "Wong"
+      ],
+      "no": []
+     },
+     "dissent": [],
+     "topic": "Health & human services",
+     "dollars": 345840,
+     "ordinance_reading": null,
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Gave final approval to prevailing wages for street cleaning work in city contracts",
+     "detail": "File 260084 requires prevailing wages for street cleaning services in City contracts and grants. Consent agenda.",
+     "outcome": "FINALLY PASSED, Ayes: 11",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": {
+      "yes": [
+       "Chan",
+       "Chen",
+       "Dorsey",
+       "Fielder",
+       "Mahmood",
+       "Mandelman",
+       "Melgar",
+       "Sauter",
+       "Sherrill",
+       "Walton",
+       "Wong"
+      ],
+      "no": []
+     },
+     "dissent": [],
+     "topic": "Infrastructure & utilities",
+     "dollars": null,
+     "ordinance_reading": "final",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Asked Planning to report on equity actions in the 2022 Housing Element",
+     "detail": "File 261057, a resolution urging the Planning Department to report on the equity actions in the city's 2022 Housing Element (the state-required housing plan).",
+     "outcome": "ADOPTED, unanimous",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": null,
+     "dissent": [],
+     "topic": "Housing & zoning",
+     "dollars": null,
+     "ordinance_reading": null,
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Approved an SFO curbside management contract with SP Plus",
+     "detail": "File 260933, not to exceed $45,000,000.",
+     "outcome": "ADOPTED, Ayes: 11",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": {
+      "yes": [
+       "Chan",
+       "Chen",
+       "Dorsey",
+       "Fielder",
+       "Mahmood",
+       "Mandelman",
+       "Melgar",
+       "Sauter",
+       "Sherrill",
+       "Walton",
+       "Wong"
+      ],
+      "no": []
+     },
+     "dissent": [],
+     "topic": "Parking & transportation",
+     "dollars": 45000000,
+     "ordinance_reading": null,
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Passed first reading of the amended Potrero Power Station development agreement and zoning",
+     "detail": "Files 260724 (amended development agreement with California Barrel Co.) and 260770 (Special Use District height and land use changes). Both received final passage on Oct 6.",
+     "outcome": "PASSED ON FIRST READING, Ayes: 11 (each)",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": {
+      "yes": [
+       "Chan",
+       "Chen",
+       "Dorsey",
+       "Fielder",
+       "Mahmood",
+       "Mandelman",
+       "Melgar",
+       "Sauter",
+       "Sherrill",
+       "Walton",
+       "Wong"
+      ],
+      "no": []
+     },
+     "dissent": [],
+     "topic": "Housing & zoning",
+     "dollars": null,
+     "ordinance_reading": "first",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Adopted the Board's responses to five Civil Grand Jury reports",
+     "detail": "Files 260650, 260676, 260704, 260722 and 260730: responses to 2025-26 Civil Grand Jury reports on Glen Canyon wildfire risk, jails, the outdoor warning system (two reports) and homelessness data.",
+     "outcome": "ADOPTED, Ayes: 11 (each)",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": {
+      "yes": [
+       "Chan",
+       "Chen",
+       "Dorsey",
+       "Fielder",
+       "Mahmood",
+       "Mandelman",
+       "Melgar",
+       "Sauter",
+       "Sherrill",
+       "Walton",
+       "Wong"
+      ],
+      "no": []
+     },
+     "dissent": [],
+     "topic": "Government & elections",
+     "dollars": null,
+     "ordinance_reading": null,
+     "needs_review": false,
+     "review_note": null
+    }
+   ],
+   "discussed": [
+    {
+     "title": "Introduced: Conard House supportive housing grant",
+     "detail": "File 261043 adds $9,997,868 to a Conard House grant for services at the Allen, Aranda and McAllister hotels, for a total not to exceed $32,803,756 through June 30, 2029. Sent to Budget and Finance.",
+     "topic": "Health & human services"
+    },
+    {
+     "title": "Introduced: license plate reader policies",
+     "detail": "Files 261035 (Airport) and 261036 (Recreation and Park vehicle-mounted automated license plate readers) were assigned to the Government Audit and Oversight Committee.",
+     "topic": "Public safety"
+    }
+   ],
+   "public_comment": [
+    {
+     "topic": "Various",
+     "speakers": null,
+     "gist": "Speakers raised retiree benefits, a death in police custody, SF State class cuts, AI and security breaches, and surveillance cameras."
+    }
+   ],
+   "coming_up": [
+    {
+     "date": "2026-10-06",
+     "item": "Final votes on the Potrero Power Station agreement and zoning"
+    }
+   ],
+   "record_note": "Draft minutes, not yet approved by the Board. Supervisors are not usually recorded as making or seconding motions in these minutes, so moved_by and seconded_by are null."
+  }
+ ],
+ "board_meetings": [
+  {
+   "body": "Planning Commission",
+   "date": "2026-11-05",
+   "record_url": "https://sfplanning.org/sites/default/files/agendas/2026-10/20261105_cpc%20%28ID%201593881%29.pdf",
+   "record_type": "agenda only",
+   "headline": "Agenda for Nov 5: Supervisor Chen's citywide residential demolition and replacement ordinance (staff recommends disapproval unless modified), Supervisor Mandelman's yard-structure legalization change, and several home additions under discretionary review.",
+   "items": [
+    {
+     "address": "Citywide, including parcels south of Ocean Avenue between Ashton Avenue and Howth Street",
+     "applicant": "Supervisor Chen (sponsor)",
+     "request": "Planning Code and Zoning Map changes on residential demolition, including replacement requirements and expanding the Priority Equity Geographies Special Use District (a zoning overlay with extra rules for certain neighborhoods). Staff recommends disapproval unless modified.",
+     "decision": null,
+     "vote": null,
+     "conditions": [],
+     "topic": "Housing & zoning",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "address": "Citywide",
+     "applicant": "Supervisor Mandelman (sponsor)",
+     "request": "Planning Code change letting unpermitted residential yard structures built before 2010 (now 2003) keep noncomplying status (allowed to stay even though they do not meet current rules). On consent; staff recommends approval.",
+     "decision": null,
+     "vote": null,
+     "conditions": [],
+     "topic": "Housing & zoning",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "address": "3326 Mission St",
+     "applicant": "STIIIZY Mission",
+     "request": "Conditional use authorization (permission for a use allowed only with Commission approval) to legalize a formula retail cannabis store. On consent; staff recommends approval with conditions.",
+     "decision": null,
+     "vote": null,
+     "conditions": [],
+     "topic": "Downtown & business",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "address": "40 12th St",
+     "applicant": null,
+     "request": "Conditional use authorization to convert a 7,516 square foot building to an adult sex venue, plus a variance (permission to break a specific rule for one property) from storefront window requirements. Staff recommends approval with conditions on the conditional use.",
+     "decision": null,
+     "vote": null,
+     "conditions": [],
+     "topic": "Downtown & business",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "address": "301 Mission St (PH 4 and PH 5)",
+     "applicant": null,
+     "request": "Conditional use authorization to merge two penthouse units into one. Staff recommends approval with conditions.",
+     "decision": null,
+     "vote": null,
+     "conditions": [],
+     "topic": "Housing & zoning",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "address": "3837 18th St, 32 Ellert St, 116 18th Ave",
+     "applicant": null,
+     "request": "Discretionary reviews (a neighbor's request that the Commission take a closer look at a permit) of home additions, including a rear ADU at 116 18th Avenue. Staff recommends not taking discretionary review and approving as modified.",
+     "decision": null,
+     "vote": null,
+     "conditions": [],
+     "topic": "Housing & zoning",
+     "needs_review": false,
+     "review_note": null
+    }
+   ],
+   "policy_items": [
+    "Adoption of the Oct 8 and Oct 15 draft minutes."
+   ],
+   "record_note": "Agenda for a meeting the day after this update; outcomes are not in yet."
+  },
+  {
+   "body": "Planning Commission",
+   "date": "2026-10-15",
+   "record_url": "https://sfplanning.org/sites/default/files/agendas/2026-10/20261015_cpc%20%28ID%201591031%29.pdf",
+   "record_type": "agenda only",
+   "headline": "Agenda for Oct 15: a seven-story, 13-unit building on a vacant lot at 173 Shipley Street under discretionary review, sign standards for a professional women's soccer practice facility on Treasure Island, and Treasure Island General Plan map changes.",
+   "items": [
+    {
+     "address": "173 Shipley St",
+     "applicant": null,
+     "request": "Discretionary review of a seven-story, 13-unit residential building on a vacant lot with up to seven parking spaces. Staff recommends not taking discretionary review and approving.",
+     "decision": null,
+     "vote": null,
+     "conditions": [],
+     "topic": "Housing & zoning",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "address": "449 Avenue H (Treasure Island)",
+     "applicant": null,
+     "request": "Major changes to sign standards for a professional women's soccer practice facility: a one-story, roughly 24,000 square foot training building and three practice fields. Staff recommends approval.",
+     "decision": null,
+     "vote": null,
+     "conditions": [],
+     "topic": "Parks & recreation",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "address": "Treasure Island and Yerba Buena Island",
+     "applicant": null,
+     "request": "Starting General Plan amendments to delete two maps (the Setback Plan and Map 4) and renumber the rest; a hearing would follow on or after Nov 19, 2026.",
+     "decision": null,
+     "vote": null,
+     "conditions": [],
+     "topic": "Housing & zoning",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "address": "85 Liberty St",
+     "applicant": null,
+     "request": "Conditional use authorization to remove an unauthorized ground-floor unit in a three-unit building. Staff recommends denial; proposed for continuance to Nov 12.",
+     "decision": null,
+     "vote": null,
+     "conditions": [],
+     "topic": "Housing & zoning",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "address": "2213 25th St",
+     "applicant": null,
+     "request": "Informational presentation on an SB 423 (state streamlined approval) proposal to replace a single-family home with a three-unit building. No action.",
+     "decision": null,
+     "vote": null,
+     "conditions": [],
+     "topic": "Housing & zoning",
+     "needs_review": false,
+     "review_note": null
+    }
+   ],
+   "policy_items": [
+    "Adoption of the Sep 24 and Oct 1 draft minutes."
+   ],
+   "record_note": "Agenda only. The Planning Commission's actions are recorded in its minutes, which were not opened for this update. The Commission canceled its Oct 22 and Oct 29 meetings."
+  },
+  {
+   "body": "Planning Commission",
+   "date": "2026-10-08",
+   "record_url": "https://sfplanning.org/sites/default/files/agendas/2026-10/20261008_cpc%20%28ID%201590027%29.pdf",
+   "record_type": "agenda only",
+   "headline": "Agenda for Oct 8: certifying the final environmental impact report for the Pier 92 sand processing facility, and informational presentations on a 45-story, 501-unit tower at 395 3rd Street and a two-unit project at 3832 18th Street.",
+   "items": [
+    {
+     "address": "Pier 92 (480 Amador St)",
+     "applicant": null,
+     "request": "Certify the Final EIR (environmental impact report) for modernizing a sand processing facility: growing the site from 4.4 to 5.2 acres and adding a roughly 63-foot, 30,800 square foot warehouse. Needs a new Port lease and air district permits. Staff recommends certification.",
+     "decision": null,
+     "vote": null,
+     "conditions": [],
+     "topic": "Environment & resilience",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "address": "395 3rd St",
+     "applicant": null,
+     "request": "Informational presentation on a 45-story, 501-unit residential project under SB 423, with 150 parking spaces on seven above-ground floors and ground-floor retail. No action.",
+     "decision": null,
+     "vote": null,
+     "conditions": [],
+     "topic": "Housing & zoning",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "address": "101 Otsego Ave",
+     "applicant": null,
+     "request": "Conditional use authorization to merge an unauthorized first-floor unit with the legal second-floor unit. Staff recommends approval with conditions.",
+     "decision": null,
+     "vote": null,
+     "conditions": [],
+     "topic": "Housing & zoning",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "address": "701 Taraval St",
+     "applicant": "Alloy Personal Training",
+     "request": "Conditional use authorization for a formula retail gym in an existing ground-floor space. On consent; staff recommends approval with conditions.",
+     "decision": null,
+     "vote": null,
+     "conditions": [],
+     "topic": "Downtown & business",
+     "needs_review": false,
+     "review_note": null
+    }
+   ],
+   "policy_items": [
+    "Adoption of the Sep 17 draft minutes."
+   ],
+   "record_note": "Agenda only. The Planning Commission's actions are recorded in its minutes, which were not opened for this update. The Commission canceled its Oct 22 and Oct 29 meetings."
+  }
+ ],
+ "officials": {
+  "council": [
+   {
+    "name": "Daniel Lurie",
+    "last": "Lurie",
+    "role": "Mayor",
+    "votes2025": null,
+    "term": null,
+    "contact": {
+     "phone": "415-554-6141",
+     "email": "daniel.lurie@sfgov.org",
+     "address": "City Hall, 1 Dr. Carlton B. Goodlett Place, Room 200"
+    },
+    "source": "https://www.sf.gov/profile--daniel-lurie"
+   },
+   {
+    "name": "Connie Chan",
+    "last": "Chan",
+    "role": "Supervisor",
+    "votes2025": null,
+    "term": null,
+    "ward": "1",
+    "source": "https://sf.gov/sfbos"
+   },
+   {
+    "name": "Stephen Sherrill",
+    "last": "Sherrill",
+    "role": "Supervisor",
+    "votes2025": null,
+    "term": null,
+    "ward": "2",
+    "source": "https://sf.gov/sfbos"
+   },
+   {
+    "name": "Danny Sauter",
+    "last": "Sauter",
+    "role": "Supervisor",
+    "votes2025": null,
+    "term": null,
+    "ward": "3",
+    "source": "https://sf.gov/sfbos"
+   },
+   {
+    "name": "Alan Wong",
+    "last": "Wong",
+    "role": "Supervisor",
+    "votes2025": null,
+    "term": null,
+    "ward": "4",
+    "source": "https://sf.gov/sfbos"
+   },
+   {
+    "name": "Bilal Mahmood",
+    "last": "Mahmood",
+    "role": "Supervisor",
+    "votes2025": null,
+    "term": null,
+    "ward": "5",
+    "source": "https://sf.gov/sfbos"
+   },
+   {
+    "name": "Matt Dorsey",
+    "last": "Dorsey",
+    "role": "Supervisor",
+    "votes2025": null,
+    "term": null,
+    "ward": "6",
+    "source": "https://sf.gov/sfbos"
+   },
+   {
+    "name": "Myrna Melgar",
+    "last": "Melgar",
+    "role": "Supervisor",
+    "votes2025": null,
+    "term": null,
+    "ward": "7",
+    "source": "https://sf.gov/sfbos"
+   },
+   {
+    "name": "Rafael Mandelman",
+    "last": "Mandelman",
+    "role": "Board President",
+    "votes2025": null,
+    "term": null,
+    "ward": "8",
+    "source": "https://sf.gov/sfbos"
+   },
+   {
+    "name": "Jackie Fielder",
+    "last": "Fielder",
+    "role": "Supervisor",
+    "votes2025": null,
+    "term": null,
+    "ward": "9",
+    "source": "https://sf.gov/sfbos"
+   },
+   {
+    "name": "Shamann Walton",
+    "last": "Walton",
+    "role": "Supervisor",
+    "votes2025": null,
+    "term": null,
+    "ward": "10",
+    "source": "https://sf.gov/sfbos"
+   },
+   {
+    "name": "Chyanne Chen",
+    "last": "Chen",
+    "role": "Supervisor",
+    "votes2025": null,
+    "term": null,
+    "ward": "11",
+    "source": "https://sf.gov/sfbos"
+   }
+  ],
+  "councilNote": "Eleven supervisors, one elected from each district. The Mayor is not a member of the Board. Seats in Districts 2, 4, 6, 8 and 10 were on the 2026 ballot; Mission Local headlines on Nov 3 to 4 report Sherrill (D2), Wong (D4) and Dorsey (D6) on track to win reelection, Gary McCoy declaring victory in District 8 (Mandelman is term-limited) and Theo Ellington winning District 10 (Walton is term-limited). Results are preliminary; new members would take office in January 2027.",
+  "councilNote_needs_review": true,
+  "councilNote_review_note": "Term years were not confirmed on an official page, so term is null. Election outcomes are preliminary, from Mission Local headlines, and term limits are from Wikipedia; confirm with sfelections.org before publishing.",
+  "railNote": "Mayor Lurie, Board President Mandelman and 10 supervisors, each elected by district.",
+  "rollCallNote": "San Francisco minutes list Ayes and Noes by name for every vote, so per-member records are complete for the meetings in this file.",
+  "committees": [
+   {
+    "name": "Budget and Finance (and Budget and Appropriations)",
+    "chair": "Dorsey",
+    "vice": "Chen",
+    "members": [
+     "Sauter"
+    ]
+   },
+   {
+    "name": "Land Use and Transportation",
+    "chair": "Melgar",
+    "vice": "Chen",
+    "members": [
+     "Dorsey"
+    ]
+   },
+   {
+    "name": "Government Audit and Oversight",
+    "chair": "Sherrill",
+    "vice": "Fielder",
+    "members": [
+     "Wong"
+    ]
+   },
+   {
+    "name": "Rules",
+    "chair": "Walton",
+    "vice": "Sherrill",
+    "members": [
+     "Mandelman"
+    ]
+   },
+   {
+    "name": "Public Safety and Neighborhood Services",
+    "chair": "Sauter",
+    "vice": "Mahmood",
+    "members": [
+     "Wong",
+     "Walton",
+     "Chan"
+    ]
+   }
+  ],
+  "committeesSource": "https://media.api.sf.gov/documents/Committee_Assignments_August_2026.pdf",
+  "committeesNote": "Committee assignments by Board President Mandelman, effective August 17, 2026.",
+  "staff": [
+   {
+    "name": "David Chiu",
+    "role": "City Attorney",
+    "since": null,
+    "note": "Elected citywide. The City's lawyer.",
+    "phone": "415-554-4700",
+    "source": "https://www.sf.gov/cityattorney"
+   },
+   {
+    "name": "Greg Wagner",
+    "role": "Controller",
+    "since": null,
+    "note": "Named as Controller in the Mayor's proposed FY27 and FY28 budget book.",
+    "phone": null,
+    "source": "https://media.api.sf.gov/documents/Mayors_June_1st_Proposed_FY27_and_FY28_Budget_Budget_Book.pdf"
+   },
+   {
+    "name": "Brooke Jenkins",
+    "role": "District Attorney",
+    "since": null,
+    "note": "Elected citywide.",
+    "phone": null,
+    "source": "https://www.sf.gov/topics--government"
+   },
+   {
+    "name": "Paul Miyamoto",
+    "role": "Sheriff",
+    "since": null,
+    "note": "Elected citywide.",
+    "phone": null,
+    "source": "https://www.sf.gov/topics--government"
+   },
+   {
+    "name": "Manohar Raju",
+    "role": "Public Defender",
+    "since": null,
+    "note": "Elected citywide.",
+    "phone": null,
+    "source": "https://www.sf.gov/topics--government"
+   },
+   {
+    "name": "José Cisneros",
+    "role": "Treasurer",
+    "since": null,
+    "note": "Elected citywide.",
+    "phone": null,
+    "source": "https://www.sf.gov/topics--government"
+   },
+   {
+    "name": "Joaquín Torres",
+    "role": "Assessor-Recorder",
+    "since": null,
+    "note": "Elected citywide.",
+    "phone": null,
+    "source": "https://www.sf.gov/topics--government"
+   }
+  ],
+  "staffNote": "The City Administrator and Clerk of the Board were not named on the official pages opened for this update.",
+  "schoolBoard": {
+   "note": "Board of Education of the San Francisco Unified School District: seven members elected at large to four-year terms. Superintendent Dr. Maria Su. Only the officers below were confirmed on an official SFUSD page (January 16, 2026); the full roster and Nov 3 results are not in this file yet.",
+   "members": [
+    {
+     "name": "Phil Kim",
+     "term": null,
+     "role": "President"
+    },
+    {
+     "name": "Jaime Huling",
+     "term": null,
+     "role": "Vice President"
+    }
+   ],
+   "source": "https://www.sfusd.edu/about-sfusd/sfusd-news/press-releases/2026-01-16-sf-board-education-elects-leaders-2026",
+   "needs_review": true,
+   "review_note": "Five other members not listed. Mission Local reports Phil Kim winning reelection on Nov 3 (preliminary)."
+  },
+  "commissions": [],
+  "commissionsNote": "San Francisco's commissions are appointed, not elected, so none are listed here. See boards.",
+  "boards": [
+   {
+    "name": "Planning Commission",
+    "meets": "Thursdays, 12 PM, City Hall Room 400 (no meetings Oct 22 and Oct 29, 2026)",
+    "does": "Decides conditional use authorizations, discretionary reviews and environmental impact reports for projects, and recommends Planning Code and zoning changes to the Board of Supervisors. President Amy Campbell; Vice President Joel Koppel; Commissioners Malea Chavez, Mike Chen, Elizabeth Macdonald, Sean McGarry and Lydia So.",
+    "url": "https://sfplanning.org/hearings-cpc-grid"
+   },
+   {
+    "name": "Police Commission",
+    "meets": "Wednesdays, 5:30 PM, City Hall Room 400",
+    "does": "Oversees the Police Department.",
+    "url": "https://www.sf.gov/departments/police-commission/upcoming-meetings",
+    "needs_review": true,
+    "review_note": "Meeting day and time are from the commission's page, which last showed a 2024 meeting; confirm the current schedule."
+   }
+  ],
+  "boardsNote": "The Recreation and Park Commission, SFMTA Board of Directors and other commissions were not confirmed from official pages in this update and are left out rather than guessed."
+ },
+ "roll_call_votes": [
+  {
+   "date": "2026-10-20",
+   "title": "Final approval of changes to local CEQA (environmental review) procedures",
+   "outcome": "FINALLY PASSED, Ayes: 8, Noes: 1 (Chan)",
+   "yes": [
+    "Dorsey",
+    "Fielder",
+    "Mahmood",
+    "Mandelman",
+    "Sauter",
+    "Sherrill",
+    "Walton",
+    "Wong"
+   ],
+   "no": [
+    "Chan"
+   ],
+   "url": "https://media.api.sf.gov/documents/bag102026_minutes.pdf"
+  },
+  {
+   "date": "2026-10-06",
+   "title": "Passed first reading of changes to the city's local CEQA (environmental review) procedures",
+   "outcome": "PASSED ON FIRST READING, Ayes: 10, Noes: 1 (Chan)",
+   "yes": [
+    "Chen",
+    "Dorsey",
+    "Fielder",
+    "Mahmood",
+    "Mandelman",
+    "Melgar",
+    "Sauter",
+    "Sherrill",
+    "Walton",
+    "Wong"
+   ],
+   "no": [
+    "Chan"
+   ],
+   "url": "https://media.api.sf.gov/documents/bag100626_minutes.pdf"
+  },
+  {
+   "date": "2026-10-06",
+   "title": "Passed a 45-day citywide moratorium on new data centers on first reading",
+   "outcome": "IMMEDIATELY PASSED ON FIRST READING, Ayes: 11",
+   "yes": [
+    "Chan",
+    "Chen",
+    "Dorsey",
+    "Fielder",
+    "Mahmood",
+    "Mandelman",
+    "Melgar",
+    "Sauter",
+    "Sherrill",
+    "Walton",
+    "Wong"
+   ],
+   "no": [],
+   "url": "https://media.api.sf.gov/documents/bag100626_minutes.pdf"
+  },
+  {
+   "date": "2026-10-06",
+   "title": "Gave final approval to the amended Potrero Power Station development agreement",
+   "outcome": "FINALLY PASSED, Ayes: 11",
+   "yes": [
+    "Chan",
+    "Chen",
+    "Dorsey",
+    "Fielder",
+    "Mahmood",
+    "Mandelman",
+    "Melgar",
+    "Sauter",
+    "Sherrill",
+    "Walton",
+    "Wong"
+   ],
+   "no": [],
+   "url": "https://media.api.sf.gov/documents/bag100626_minutes.pdf"
+  },
+  {
+   "date": "2026-10-06",
+   "title": "Passed first reading of PUC borrowing tied to its 525 Golden Gate Avenue headquarters",
+   "outcome": "PASSED ON FIRST READING, Ayes: 11",
+   "yes": [
+    "Chan",
+    "Chen",
+    "Dorsey",
+    "Fielder",
+    "Mahmood",
+    "Mandelman",
+    "Melgar",
+    "Sauter",
+    "Sherrill",
+    "Walton",
+    "Wong"
+   ],
+   "no": [],
+   "url": "https://media.api.sf.gov/documents/bag100626_minutes.pdf"
+  },
+  {
+   "date": "2026-09-29",
+   "title": "Approved a loan amendment for 35 affordable homes at 3300 Mission Street",
+   "outcome": "ADOPTED, Ayes: 11",
+   "yes": [
+    "Chan",
+    "Chen",
+    "Dorsey",
+    "Fielder",
+    "Mahmood",
+    "Mandelman",
+    "Melgar",
+    "Sauter",
+    "Sherrill",
+    "Walton",
+    "Wong"
+   ],
+   "no": [],
+   "url": "https://media.api.sf.gov/documents/bag092926_minutes.pdf"
+  },
+  {
+   "date": "2026-09-29",
+   "title": "Approved official misconduct charges against a Sheriff's Oversight Board commissioner",
+   "outcome": "APPROVED, Ayes: 11",
+   "yes": [
+    "Chan",
+    "Chen",
+    "Dorsey",
+    "Fielder",
+    "Mahmood",
+    "Mandelman",
+    "Melgar",
+    "Sauter",
+    "Sherrill",
+    "Walton",
+    "Wong"
+   ],
+   "no": [],
+   "url": "https://media.api.sf.gov/documents/bag092926_minutes.pdf"
+  },
+  {
+   "date": "2026-09-29",
+   "title": "Accepted a $3,000,000 gift for the Police Department's Real Time Investigation Center",
+   "outcome": "ADOPTED, Ayes: 11",
+   "yes": [
+    "Chan",
+    "Chen",
+    "Dorsey",
+    "Fielder",
+    "Mahmood",
+    "Mandelman",
+    "Melgar",
+    "Sauter",
+    "Sherrill",
+    "Walton",
+    "Wong"
+   ],
+   "no": [],
+   "url": "https://media.api.sf.gov/documents/bag092926_minutes.pdf"
+  }
+ ],
+ "topics": [
+  {
+   "topic": "Housing & zoning",
+   "count": 19
+  },
+  {
+   "topic": "Public safety",
+   "count": 3
+  },
+  {
+   "topic": "Downtown & business",
+   "count": 3
+  },
+  {
+   "topic": "Environment & resilience",
+   "count": 2
+  },
+  {
+   "topic": "Health & human services",
+   "count": 2
+  },
+  {
+   "topic": "Infrastructure & utilities",
+   "count": 2
+  },
+  {
+   "topic": "Government & elections",
+   "count": 2
+  },
+  {
+   "topic": "Parking & transportation",
+   "count": 2
+  },
+  {
+   "topic": "Budget & taxes",
+   "count": 1
+  },
+  {
+   "topic": "Historic preservation",
+   "count": 1
+  },
+  {
+   "topic": "Parks & recreation",
+   "count": 1
+  }
+ ],
+ "budget": {
+  "fiscalYear": "FY2026-27 (July 2026 to June 2027), first year of a two-year budget",
+  "fundLabel": "General Fund",
+  "adopted": null,
+  "adoptedNote": "The Mayor signed the budget July 30, 2026. The Board's adoption date was not in the documents opened.",
+  "adoptedVote": "Annual Appropriation Ordinance No. 140-26 (File 260596), passed unanimously per the Mayor's office",
+  "generalFund": 7598833795,
+  "generalFundNote": "General Fund total uses (net) for FY2026-27 from the Consolidated Schedule of Sources and Uses. FY2027-28: $7,890,021,478.",
+  "totalAllFunds": 16851826113,
+  "totalAllFundsFy28": 17218844108,
+  "priorGeneralFund": null,
+  "changePct": null,
+  "changeNote": "The FY2025-26 General Fund total was not in the documents opened. The Mayor's proposed budget says General Fund resources rise $576.6 million (8.2%) over the FY2025-26 original budget, and total spending rises $861.3 million (5.4%).",
+  "departments": [
+   {
+    "name": "Public Health",
+    "fy26": null,
+    "fy27": 3621244753,
+    "note": "All funds, FY2026-27. General Fund support: $863,720,306.",
+    "short": "Public Health"
+   },
+   {
+    "name": "Public Utilities Commission",
+    "fy26": null,
+    "fy27": 2181286331,
+    "note": "All funds, FY2026-27. General Fund support: $0.",
+    "short": "Water, sewer, power"
+   },
+   {
+    "name": "Municipal Transportation Agency (Muni)",
+    "fy26": null,
+    "fy27": 1605818178,
+    "note": "All funds, FY2026-27. General Fund support: $662,210,000.",
+    "short": "Muni and streets"
+   },
+   {
+    "name": "Human Services Agency",
+    "fy26": null,
+    "fy27": 1383529350,
+    "note": "All funds, FY2026-27. General Fund support: $377,585,848.",
+    "short": "Human services"
+   },
+   {
+    "name": "Police",
+    "fy26": null,
+    "fy27": 882696502,
+    "note": "All funds, FY2026-27. General Fund support: $702,143,717.",
+    "short": "Police"
+   },
+   {
+    "name": "Homelessness and Supportive Housing",
+    "fy26": null,
+    "fy27": 832706060,
+    "note": "All funds, FY2026-27. General Fund support: $252,071,535.",
+    "short": "Homelessness"
+   },
+   {
+    "name": "Fire",
+    "fy26": null,
+    "fy27": 578586963,
+    "note": "All funds, FY2026-27. General Fund support: $393,684,182.",
+    "short": "Fire"
+   },
+   {
+    "name": "Public Works",
+    "fy26": null,
+    "fy27": 476586328,
+    "note": "All funds, FY2026-27. General Fund support: $150,982,943.",
+    "short": "Public Works"
+   },
+   {
+    "name": "Sheriff",
+    "fy26": null,
+    "fy27": 381420673,
+    "note": "All funds, FY2026-27. General Fund support: $308,811,835.",
+    "short": "Sheriff"
+   },
+   {
+    "name": "Recreation and Park",
+    "fy26": null,
+    "fy27": 353230576,
+    "note": "All funds, FY2026-27. General Fund support: $90,584,303.",
+    "short": "Parks"
+   }
+  ],
+  "departmentsNote": "Selected departments' total sources for FY2026-27 from the adopted Annual Appropriation Ordinance; the City funds many departments mostly from fees, grants and enterprise revenue, so General Fund support is shown in each note. FY2025-26 department figures were not in the document, so fy26 is null. The Airport and Port are not listed.",
+  "departments_needs_review": true,
+  "departments_review_note": "Figures were read from a long PDF by a summarizing tool; spot-check against the AAO's Sources of Funds by Service Area and Department table.",
+  "serviceAreas": {
+   "label": "FY2026-27 uses by service area, in thousands of dollars (from the AAO Major Fund Budgetary Recap)",
+   "items": [
+    {
+     "name": "Community Health",
+     "generalFund": 1313703,
+     "allFunds": 3575749
+    },
+    {
+     "name": "Culture and Recreation",
+     "generalFund": 215549,
+     "allFunds": 668379
+    },
+    {
+     "name": "General Administration and Finance",
+     "generalFund": 370626,
+     "allFunds": 617274
+    },
+    {
+     "name": "General City Responsibilities",
+     "generalFund": 254654,
+     "allFunds": 712527
+    },
+    {
+     "name": "Human Welfare and Neighborhood Development",
+     "generalFund": 1738334,
+     "allFunds": 3049740
+    },
+    {
+     "name": "Public Protection",
+     "generalFund": 2026436,
+     "allFunds": 2218062
+    },
+    {
+     "name": "Public Works, Transportation and Commerce",
+     "generalFund": 218088,
+     "allFunds": 5955025
+    }
+   ],
+   "totals": {
+    "generalFund": 6137390,
+    "allFunds": 16796756
+   }
+  },
+  "drivers": [
+   "Closes a projected two-year shortfall of $642.8 million ($168.5 million in FY2026-27, $474.3 million in FY2027-28)",
+   "New $100 million reserve for expected state and federal cuts to housing and homelessness programs",
+   "$34 million to help residents stay enrolled in Medi-Cal and CalFresh",
+   "$71 million for street resurfacing (Mayor's release; the proposed budget cited $79 million General Fund for repaving and potholes)",
+   "$80 million in savings from slowing hiring",
+   "General Fund property tax $30.0 million (1.2%) below the FY2025-26 budget"
+  ],
+  "driverChips": [
+   [
+    "Deficit closed",
+    "$642.8M"
+   ],
+   [
+    "Housing cuts reserve",
+    "$100M"
+   ]
+  ],
+  "revenue": {
+   "propertyTaxGeneralFund": 2407000000,
+   "note": "General Fund property tax for FY2026-27 per the Mayor's proposed budget ($2,407.0 million; $2,427.0 million in FY2027-28). Transfers into the General Fund: $297.2 million. Year-end fund balance used: $505.0 million over two years; reserve withdrawals: $191.1 million over two years.",
+   "needs_review": true,
+   "review_note": "From the June 1 proposed budget, not the adopted ordinance."
+  },
+  "taxRate": {
+   "fy27Estimate": null,
+   "fy26": 1.18268325,
+   "rateLabel": "percent of assessed value (dollars per $100)",
+   "note": "California limits the base property tax to 1% of assessed value; voter-approved debt (City, school district, community college and BART bonds) is added on top. The FY2025-26 combined secured rate is $1.18268325 per $100 of assessed value (Resolution 447-25, adopted Sep 30, 2025, 11 ayes). The FY2026-27 rate resolution was not in the documents opened.",
+   "components": [
+    {
+     "name": "City and County (general fund, library, children's fund, open space and City bonds)",
+     "fy26": 1.00969325,
+     "fy27": null
+    },
+    {
+     "name": "San Francisco Unified School District",
+     "fy26": 0.11702862,
+     "fy27": null
+    },
+    {
+     "name": "San Francisco Community College District",
+     "fy26": 0.03137736,
+     "fy27": null
+    },
+    {
+     "name": "BART",
+     "fy26": 0.02152528,
+     "fy27": null
+    },
+    {
+     "name": "County Office of Education",
+     "fy26": 0.00097335,
+     "fy27": null
+    },
+    {
+     "name": "Bay Area Air Quality Management District",
+     "fy26": 0.00208539,
+     "fy27": null
+    }
+   ],
+   "componentsNote": "Components as listed by agency in Resolution 447-25. The City's line includes $0.11051006 for City general obligation bonds. The resolution splits the 1% base levy among agencies, so the 1% is not a separate line.",
+   "history": [
+    {
+     "fy": "FY26",
+     "rate": 1.18268325
+    }
+   ],
+   "medianHome": null,
+   "needs_review": true,
+   "review_note": "Component rates were read from the resolution PDF by a summarizing tool; confirm the split before publishing."
+  },
+  "taxDollar": null,
+  "enterprise": null,
+  "waterSewerBill": null,
+  "debtOutstanding": null,
+  "valuation": null,
+  "cip": null,
+  "sources": {
+   "adopted": "https://media.api.sf.gov/documents/FY2027__FY2028_-_FINAL_AAO.pdf",
+   "proposed": "https://media.api.sf.gov/documents/Mayors_June_1st_Proposed_FY27_and_FY28_Budget_Budget_Book.pdf",
+   "signing": "https://www.sf.gov/news-mayor-lurie-signs-balanced-budge-strengthening-san-franciscos-social-safety-net-advancing-citys-economic-recover",
+   "taxRate": "https://sfbos.org/sites/default/files/r0447-25.pdf"
+  }
+ },
+ "town": {
+  "name": "San Francisco",
+  "state": "CA",
+  "registeredVoters": 535608,
+  "registeredByWard": {
+   "1": 48480,
+   "2": 50921,
+   "3": 45113,
+   "4": 51173,
+   "5": 46551,
+   "6": 38624,
+   "7": 52406,
+   "8": 60440,
+   "9": 49536,
+   "10": 45392,
+   "11": 46972
+  },
+  "turnout2025": null,
+  "votersNote": "Registered voters as of the Nov 3, 2026 election, from the Department of Elections' preliminary district Statement of the Vote.",
+  "sources": {
+   "election": "https://www.sf.gov/november-3-2026-consolidated-general-election",
+   "roster": "https://sf.gov/sfbos",
+   "wards": "https://sfelections.org/tools/districts_lookup/",
+   "measures": "https://www.sf.gov/qualified-ballot-measures",
+   "schedule": "https://www.sf.gov/regularly-scheduled-board-of-supervisors-meetings",
+   "voters": "https://www.sfelections.org/results/20261103/data/20261103_4/dsov.xlsx"
+  },
+  "body": "Board of Supervisors",
+  "bodyShort": "Board",
+  "members": "supervisors",
+  "wardLabel": "District",
+  "demoAddress": "1 Dr. Carlton B. Goodlett Place",
+  "nextCityElection": null,
+  "nextCityElectionNote": "The next scheduled city election after Nov 3, 2026 was not confirmed from an official page. Final Nov 3 results are due by Dec 3, 2026.",
+  "financeNote": "no campaign finance yet (San Francisco filings are public through the Ethics Commission; not added to this dataset)",
+  "contactNote": "Supervisor offices are listed on sf.gov/sfbos. Mayor's office: 415-554-6141.",
+  "turnout2026": {
+   "ballots": 185032,
+   "registered": 535608,
+   "pct": 34.55,
+   "asOf": "2026-11-03T23:45",
+   "note": "Preliminary; about 164,000 ballots were still to be counted."
+  }
+ },
+ "attendance": {
+  "Chan": {
+   "present": 4,
+   "total": 4
+  },
+  "Chen": {
+   "present": 3,
+   "total": 4
+  },
+  "Dorsey": {
+   "present": 4,
+   "total": 4
+  },
+  "Fielder": {
+   "present": 4,
+   "total": 4
+  },
+  "Mahmood": {
+   "present": 4,
+   "total": 4
+  },
+  "Mandelman": {
+   "present": 4,
+   "total": 4
+  },
+  "Melgar": {
+   "present": 3,
+   "total": 4
+  },
+  "Sauter": {
+   "present": 4,
+   "total": 4
+  },
+  "Sherrill": {
+   "present": 4,
+   "total": 4
+  },
+  "Walton": {
+   "present": 4,
+   "total": 4
+  },
+  "Wong": {
+   "present": 4,
+   "total": 4
+  }
+ },
+ "attendance_from": "2026-09-29",
+ "attendanceNote": "Counts cover the four regular meetings in this file with minutes (Sep 29, Oct 6, Oct 20 and Oct 27), not the full term. Supervisors Chen and Melgar were excused on Oct 20.",
+ "resident_requests": null
+}

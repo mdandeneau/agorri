@@ -1,0 +1,43 @@
+{
+ "note": "Live sources for /api/feed. type: rss, atom, bluesky (actor) or links (a homepage, match = article URL regex). tag: safety, news, business or parks routes items to that page instead of the social scroll. level: City, County, State or Federal. kind: official or candidate. max: items kept per source (default 6, tagged sources 12).",
+ "sources": [
+  {
+   "id": "sfgov-bluesky",
+   "who": "City and County of San Francisco",
+   "platform": "Bluesky",
+   "type": "bluesky",
+   "actor": "sfgov.sf.gov",
+   "kind": "official",
+   "level": "City"
+  },
+  {
+   "id": "x-sfgov",
+   "who": "City and County of San Francisco",
+   "platform": "X",
+   "type": "x",
+   "handle": "sfgov",
+   "level": "City",
+   "kind": "official"
+  },
+  {
+   "id": "x-sfpd",
+   "who": "San Francisco Police Department",
+   "platform": "X",
+   "type": "x",
+   "handle": "SFPD",
+   "tag": "safety",
+   "level": "City",
+   "kind": "official"
+  },
+  {
+   "id": "x-sffdpio",
+   "who": "San Francisco Fire Department",
+   "platform": "X",
+   "type": "x",
+   "handle": "sffdpio",
+   "tag": "safety",
+   "level": "City",
+   "kind": "official"
+  }
+ ]
+}

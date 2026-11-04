@@ -1,0 +1,891 @@
+{
+ "as_of": "2026-11-04",
+ "note": "Fall 2026 public high school sports in the AAA (Academic Athletic Association, CIF San Francisco Section), teams San Franciscans follow, youth and adult leagues, and venues. Volleyball playoff results come from CIFSF's own championship program; football scores come from High School On SI and MaxPreps (aggregators) because CIFSF schedules are posted as Google Sheets that could not be opened, so football items are marked for review and most have no dates. In San Francisco, boys and girls soccer are winter sports. No students are named. Checked Nov 4, 2026: the Nov 3 volleyball city final result was not yet posted.",
+ "schools": [
+  {
+   "name": "Abraham Lincoln High School",
+   "town": "San Francisco",
+   "mascot": "Mustangs",
+   "division": "AAA (Academic Athletic Association), CIF San Francisco Section",
+   "address": "2162 24th Ave, San Francisco, CA 94116",
+   "site": null,
+   "athleticsUrl": null,
+   "scheduleUrl": "https://www.cifsf.org/schedules-and-scores/",
+   "note": "SFUSD public high school. In San Francisco, boys and girls soccer are winter sports, so there are no fall soccer results. Girls tennis, girls golf, girls flag football and cross country also play in fall; see CIFSF for results.",
+   "source": {
+    "label": "SFUSD, High Schools list",
+    "url": "https://sfusd.edu/es/node/1087"
+   },
+   "teams": [
+    {
+     "sport": "Girls Volleyball",
+     "season": "Fall 2026",
+     "level": "Varsity",
+     "record": null,
+     "recordAsOf": null,
+     "coach": null,
+     "postseason": "No. 1 seed in the AAA varsity playoffs. Beat No. 4 Balboa in the Oct 30 semifinal. City Championship vs No. 3 Washington was Tuesday, Nov 3, 7 pm, at City College of San Francisco; the result was not yet posted when checked on Nov 4. Lincoln's JV team won the AAA JV city title on Nov 2. AAA/CIF San Francisco Section varsity playoffs. NorCal playoffs Nov 10, 12 and 14, 2026; NorCal championship Nov 17; CIF State championships Nov 20 and 21 at Santiago Canyon College, Orange (teams TBD).",
+     "recent": [
+      {
+       "date": "2026-10-30",
+       "opponent": "Balboa",
+       "home": null,
+       "result": "W 3-0",
+       "source": {
+        "label": "CIFSF, HS Girls Volleyball Championship Program (V & JV), posted Nov 3, 2026",
+        "url": "https://www.cifsf.org/hs-girls-volleyball-championship-program-v-jv/"
+       },
+       "note": "AAA semifinal, played at Lowell High School per the CIFSF program."
+      }
+     ],
+     "next": [],
+     "needs_review": true,
+     "review_note": "Nov 3 city final result not yet posted on CIFSF when checked Nov 4. Overall record not found (CIFSF standings page did not load data). Scores read from the CIFSF program table, which lists the losing team's games first."
+    },
+    {
+     "sport": "Football",
+     "season": "Fall 2026",
+     "level": "Varsity",
+     "record": null,
+     "recordAsOf": null,
+     "coach": null,
+     "postseason": "AAA/CIF San Francisco Section varsity football semifinals Saturday, Nov 14, 2026, 1:30 pm (matchups and sites TBD); City Championship Thursday, Nov 26, 2026 (Thanksgiving), 11:30 am, site TBD.",
+     "recent": [],
+     "next": [
+      {
+       "date": "2026-11-14",
+       "time": "1:30 pm",
+       "opponent": null,
+       "home": null,
+       "venue": null,
+       "note": "AAA varsity semifinals (two games). Seeds, matchups and sites listed as TBD by CIFSF.",
+       "source": {
+        "label": "CIFSF, High School Playoffs (Fall), posted Oct 26, 2026",
+        "url": "https://www.cifsf.org/high-school-playoffs-fall/"
+       }
+      },
+      {
+       "date": "2026-11-26",
+       "time": "11:30 am",
+       "opponent": null,
+       "home": null,
+       "venue": null,
+       "note": "AAA varsity City Championship on Thanksgiving Day, semifinal winners. Site listed as TBD.",
+       "source": {
+        "label": "CIFSF, High School Playoffs (Fall), posted Oct 26, 2026",
+        "url": "https://www.cifsf.org/high-school-playoffs-fall/"
+       }
+      }
+     ],
+     "needs_review": true,
+     "review_note": "Scores and 6-4 record are from High School On SI, an aggregator; that page shows no game dates, only six of ten games, and its home/away labels are inconsistent, so dates and home flags are left null. CIFSF schedule sheets (Google Sheets) could not be opened. Confirm before publishing."
+    }
+   ]
+  },
+  {
+   "name": "George Washington High School",
+   "town": "San Francisco",
+   "mascot": "Eagles",
+   "division": "AAA (Academic Athletic Association), CIF San Francisco Section",
+   "address": "600 32nd Ave, San Francisco, CA 94121",
+   "site": null,
+   "athleticsUrl": null,
+   "scheduleUrl": "https://www.cifsf.org/schedules-and-scores/",
+   "note": "SFUSD public high school. Soccer is a winter sport in the San Francisco Section.",
+   "source": {
+    "label": "SFUSD, High Schools list",
+    "url": "https://sfusd.edu/es/node/1087"
+   },
+   "teams": [
+    {
+     "sport": "Girls Volleyball",
+     "season": "Fall 2026",
+     "level": "Varsity",
+     "record": null,
+     "recordAsOf": null,
+     "coach": null,
+     "postseason": "No. 3 seed. Beat No. 6 CAL on Oct 28 and No. 2 Lowell 3-1 in the Oct 30 semifinal. City Championship vs No. 1 Lincoln was Tuesday, Nov 3, 7 pm, at City College of San Francisco; result not yet posted when checked Nov 4. AAA/CIF San Francisco Section varsity playoffs. NorCal playoffs Nov 10, 12 and 14, 2026; NorCal championship Nov 17; CIF State championships Nov 20 and 21 at Santiago Canyon College, Orange (teams TBD).",
+     "recent": [
+      {
+       "date": "2026-10-30",
+       "opponent": "Lowell",
+       "home": null,
+       "result": "W 3-1",
+       "source": {
+        "label": "CIFSF, HS Girls Volleyball Championship Program (V & JV), posted Nov 3, 2026",
+        "url": "https://www.cifsf.org/hs-girls-volleyball-championship-program-v-jv/"
+       },
+       "note": "AAA semifinal; the CIFSF program lists the site as Lincoln High School."
+      },
+      {
+       "date": "2026-10-28",
+       "opponent": "CAL",
+       "home": true,
+       "result": "W 3-0",
+       "source": {
+        "label": "CIFSF, HS Girls Volleyball Championship Program (V & JV), posted Nov 3, 2026",
+        "url": "https://www.cifsf.org/hs-girls-volleyball-championship-program-v-jv/"
+       },
+       "note": "AAA Round I at Washington High School."
+      }
+     ],
+     "next": [],
+     "needs_review": true,
+     "review_note": "Nov 3 final result not posted when checked Nov 4. Opponent 'CAL' is the abbreviation the CIFSF program uses. Record not found."
+    },
+    {
+     "sport": "Football",
+     "season": "Fall 2026",
+     "level": "Varsity",
+     "record": null,
+     "recordAsOf": null,
+     "coach": null,
+     "postseason": "AAA/CIF San Francisco Section varsity football semifinals Saturday, Nov 14, 2026, 1:30 pm (matchups and sites TBD); City Championship Thursday, Nov 26, 2026 (Thanksgiving), 11:30 am, site TBD.",
+     "recent": [],
+     "next": [
+      {
+       "date": "2026-11-14",
+       "time": "1:30 pm",
+       "opponent": null,
+       "home": null,
+       "venue": null,
+       "note": "AAA varsity semifinals (two games). Seeds, matchups and sites listed as TBD by CIFSF.",
+       "source": {
+        "label": "CIFSF, High School Playoffs (Fall), posted Oct 26, 2026",
+        "url": "https://www.cifsf.org/high-school-playoffs-fall/"
+       }
+      },
+      {
+       "date": "2026-11-26",
+       "time": "11:30 am",
+       "opponent": null,
+       "home": null,
+       "venue": null,
+       "note": "AAA varsity City Championship on Thanksgiving Day, semifinal winners. Site listed as TBD.",
+       "source": {
+        "label": "CIFSF, High School Playoffs (Fall), posted Oct 26, 2026",
+        "url": "https://www.cifsf.org/high-school-playoffs-fall/"
+       }
+      }
+     ],
+     "needs_review": true,
+     "review_note": "Only one result found, from High School On SI (aggregator) via Lincoln's page; no dates shown. Record not found."
+    }
+   ]
+  },
+  {
+   "name": "Balboa High School",
+   "town": "San Francisco",
+   "mascot": "Buccaneers",
+   "division": "AAA (Academic Athletic Association), CIF San Francisco Section",
+   "address": "1000 Cayuga Ave, San Francisco, CA 94112",
+   "site": null,
+   "athleticsUrl": null,
+   "scheduleUrl": "https://www.cifsf.org/schedules-and-scores/",
+   "note": "SFUSD public high school. Soccer is a winter sport in the San Francisco Section.",
+   "source": {
+    "label": "SFUSD, High Schools list",
+    "url": "https://sfusd.edu/es/node/1087"
+   },
+   "teams": [
+    {
+     "sport": "Football",
+     "season": "Fall 2026",
+     "level": "Varsity",
+     "record": null,
+     "recordAsOf": null,
+     "coach": null,
+     "postseason": "AAA/CIF San Francisco Section varsity football semifinals Saturday, Nov 14, 2026, 1:30 pm (matchups and sites TBD); City Championship Thursday, Nov 26, 2026 (Thanksgiving), 11:30 am, site TBD.",
+     "recent": [],
+     "next": [
+      {
+       "date": "2026-11-14",
+       "time": "1:30 pm",
+       "opponent": null,
+       "home": null,
+       "venue": null,
+       "note": "AAA varsity semifinals (two games). Seeds, matchups and sites listed as TBD by CIFSF.",
+       "source": {
+        "label": "CIFSF, High School Playoffs (Fall), posted Oct 26, 2026",
+        "url": "https://www.cifsf.org/high-school-playoffs-fall/"
+       }
+      },
+      {
+       "date": "2026-11-26",
+       "time": "11:30 am",
+       "opponent": null,
+       "home": null,
+       "venue": null,
+       "note": "AAA varsity City Championship on Thanksgiving Day, semifinal winners. Site listed as TBD.",
+       "source": {
+        "label": "CIFSF, High School Playoffs (Fall), posted Oct 26, 2026",
+        "url": "https://www.cifsf.org/high-school-playoffs-fall/"
+       }
+      }
+     ],
+     "needs_review": true,
+     "review_note": "All results and the 6-3 (5-0) record are from High School On SI (aggregator), which shows no dates; El Camino result not shown. CIFSF schedule sheets could not be opened."
+    },
+    {
+     "sport": "Girls Volleyball",
+     "season": "Fall 2026",
+     "level": "Varsity",
+     "record": null,
+     "recordAsOf": null,
+     "coach": null,
+     "postseason": "No. 4 seed. Beat No. 5 Wallenberg in Round I on Oct 28, then lost to No. 1 Lincoln in the Oct 30 semifinal. Season over.",
+     "recent": [
+      {
+       "date": "2026-10-30",
+       "opponent": "Lincoln",
+       "home": null,
+       "result": "L 0-3",
+       "source": {
+        "label": "CIFSF, HS Girls Volleyball Championship Program (V & JV), posted Nov 3, 2026",
+        "url": "https://www.cifsf.org/hs-girls-volleyball-championship-program-v-jv/"
+       },
+       "note": "AAA semifinal, played at Lowell High School per the CIFSF program."
+      },
+      {
+       "date": "2026-10-28",
+       "opponent": "Wallenberg",
+       "home": true,
+       "result": "W 3-0",
+       "source": {
+        "label": "CIFSF, HS Girls Volleyball Championship Program (V & JV), posted Nov 3, 2026",
+        "url": "https://www.cifsf.org/hs-girls-volleyball-championship-program-v-jv/"
+       },
+       "note": "AAA Round I at Balboa High School."
+      }
+     ],
+     "next": [],
+     "needs_review": true,
+     "review_note": "Record not found."
+    }
+   ]
+  },
+  {
+   "name": "Lowell High School",
+   "town": "San Francisco",
+   "mascot": "Cardinals",
+   "division": "AAA (Academic Athletic Association), CIF San Francisco Section",
+   "address": "1101 Eucalyptus Drive, San Francisco, CA 94132",
+   "site": "https://www.sfusd.edu/school/lowell-high-school",
+   "athleticsUrl": "https://www.sfusd.edu/school/lowell-high-school/students-families/lowell-athletics",
+   "scheduleUrl": "https://www.cifsf.org/schedules-and-scores/",
+   "note": "SFUSD public high school. Phone 415-759-2730. Fall sports offered include cross country, flag football, football, golf, tennis and volleyball. Soccer is a winter sport in the San Francisco Section.",
+   "source": {
+    "label": "SFUSD, Lowell High School details",
+    "url": "https://www.sfusd.edu/school/lowell-high-school/details"
+   },
+   "teams": [
+    {
+     "sport": "Girls Volleyball",
+     "season": "Fall 2026",
+     "level": "Varsity",
+     "record": null,
+     "recordAsOf": null,
+     "coach": null,
+     "postseason": "No. 2 seed; lost to No. 3 Washington 3-1 in the Oct 30 AAA semifinal. Season over.",
+     "recent": [
+      {
+       "date": "2026-10-30",
+       "opponent": "Washington",
+       "home": null,
+       "result": "L 1-3",
+       "source": {
+        "label": "CIFSF, HS Girls Volleyball Championship Program (V & JV), posted Nov 3, 2026",
+        "url": "https://www.cifsf.org/hs-girls-volleyball-championship-program-v-jv/"
+       },
+       "note": "AAA semifinal; the CIFSF program lists the site as Lincoln High School."
+      }
+     ],
+     "next": [],
+     "needs_review": true,
+     "review_note": "Record not found."
+    },
+    {
+     "sport": "Football",
+     "season": "Fall 2026",
+     "level": "Varsity",
+     "record": null,
+     "recordAsOf": null,
+     "coach": null,
+     "postseason": "AAA/CIF San Francisco Section varsity football semifinals Saturday, Nov 14, 2026, 1:30 pm (matchups and sites TBD); City Championship Thursday, Nov 26, 2026 (Thanksgiving), 11:30 am, site TBD.",
+     "recent": [
+      {
+       "date": "2026-09-19",
+       "opponent": "Terra Linda",
+       "home": true,
+       "result": "L 15-30",
+       "source": {
+        "label": "MaxPreps, Lowell Cardinals football (last updated Sept 24, 2026)",
+        "url": "https://www.maxpreps.com/ca/san-francisco/lowell-cardinals/football/"
+       }
+      },
+      {
+       "date": "2026-09-11",
+       "opponent": "Emerald",
+       "home": true,
+       "result": "W 45-18",
+       "source": {
+        "label": "MaxPreps, Lowell Cardinals football (last updated Sept 24, 2026)",
+        "url": "https://www.maxpreps.com/ca/san-francisco/lowell-cardinals/football/"
+       }
+      },
+      {
+       "date": "2026-09-05",
+       "opponent": "Novato",
+       "home": true,
+       "result": "W 30-21",
+       "source": {
+        "label": "MaxPreps, Lowell Cardinals football (last updated Sept 24, 2026)",
+        "url": "https://www.maxpreps.com/ca/san-francisco/lowell-cardinals/football/"
+       }
+      },
+      {
+       "date": "2026-08-28",
+       "opponent": "Albany",
+       "home": true,
+       "result": "W 58-26",
+       "source": {
+        "label": "MaxPreps, Lowell Cardinals football (last updated Sept 24, 2026)",
+        "url": "https://www.maxpreps.com/ca/san-francisco/lowell-cardinals/football/"
+       }
+      }
+     ],
+     "next": [
+      {
+       "date": "2026-11-14",
+       "time": "1:30 pm",
+       "opponent": null,
+       "home": null,
+       "venue": null,
+       "note": "AAA varsity semifinals (two games). Seeds, matchups and sites listed as TBD by CIFSF.",
+       "source": {
+        "label": "CIFSF, High School Playoffs (Fall), posted Oct 26, 2026",
+        "url": "https://www.cifsf.org/high-school-playoffs-fall/"
+       }
+      },
+      {
+       "date": "2026-11-26",
+       "time": "11:30 am",
+       "opponent": null,
+       "home": null,
+       "venue": null,
+       "note": "AAA varsity City Championship on Thanksgiving Day, semifinal winners. Site listed as TBD.",
+       "source": {
+        "label": "CIFSF, High School Playoffs (Fall), posted Oct 26, 2026",
+        "url": "https://www.cifsf.org/high-school-playoffs-fall/"
+       }
+      }
+     ],
+     "needs_review": true,
+     "review_note": "MaxPreps page was last updated Sept 24, 2026 (3-1 at that point) and its 'vs' labels are read as home games; later results come only from High School On SI. Current record not found. MaxPreps lists a head coach, but no school page naming the coach was opened, so coach is left null."
+    }
+   ]
+  }
+ ],
+ "youth": [
+  {
+   "name": "SFRPD Jr. Warriors League",
+   "sport": "Basketball",
+   "ages": "Kindergarten to grade 8 (about ages 5 to 14); co-ed and all-girls divisions",
+   "season": "8 weeks starting the week of Jan 5, 2027; championships Feb 27, 2027",
+   "site": "https://sfrecpark.org/1416/Jr-Warriors",
+   "note": "Individual registration opened Oct 19 (priority) and Oct 21, 2026 (public); $123 individual, $617 independent team. Games Thursday and Friday 5 to 9 pm, Saturday 9 am to 5 pm at 10 to 14 Rec and Park sites. Program Registration 415-831-6800.",
+   "town": "San Francisco",
+   "source": {
+    "label": "SF Recreation and Park, Jr. Warriors",
+    "url": "https://sfrecpark.org/1416/Jr-Warriors"
+   }
+  },
+  {
+   "name": "SFRPD Youth Flag Football League",
+   "sport": "Flag football",
+   "ages": "Ages 8 to 16; co-ed and all-girls divisions",
+   "season": "Fall 2026: Sept 9 to Oct 31 (championships Oct 31)",
+   "site": "https://sfrecpark.org/1801/Flag-Football",
+   "note": "5-on-5 non-contact passing league. Saturday games at Potrero Hill and Upper Noe Recreation Centers. Fall 2026 season has ended.",
+   "town": "San Francisco",
+   "source": {
+    "label": "SF Recreation and Park, Flag Football",
+    "url": "https://sfrecpark.org/1801/Flag-Football"
+   }
+  },
+  {
+   "name": "SFPAL 49ers Football and Cheerleading",
+   "sport": "Tackle football; cheer and dance",
+   "ages": "Football boys and girls 7 to 12; cheer 5 to 11",
+   "season": "Registration begins in April; season starts Aug 1",
+   "site": "https://www.sfpal.org/",
+   "note": "Free. Run by the San Francisco Police Activities League. SFPAL also lists free 49ers Prep Flag Football and girls basketball (spring) and boys basketball (fall).",
+   "town": "San Francisco",
+   "source": {
+    "label": "SFPAL home page",
+    "url": "https://www.sfpal.org/"
+   }
+  },
+  {
+   "name": "Giants Community Fund Academy Baseball",
+   "sport": "Baseball",
+   "ages": "Middle school 10 to 13; high school 13 to 17; co-ed",
+   "season": "Fall 2026 season ran Sept 12 to Oct 31; winter clinics January and February (2027 dates not posted)",
+   "site": "https://www.mlb.com/giants/community/fund/programs/gcf-academy/academy-baseball",
+   "note": "Free, with uniform and equipment provided; offered with SF Recreation and Parks. Contact academy@sfgiants.com.",
+   "town": "San Francisco",
+   "source": {
+    "label": "Giants Community Fund, Academy Baseball",
+    "url": "https://www.mlb.com/giants/community/fund/programs/gcf-academy/academy-baseball"
+   }
+  },
+  {
+   "name": "San Francisco Little League",
+   "sport": "Baseball",
+   "ages": null,
+   "season": "Fall Ball and a spring season with spring skills evaluations",
+   "site": null,
+   "note": "Spring 2027 registration dates and the league's own website were not found in sources opened.",
+   "town": "San Francisco",
+   "source": {
+    "label": "Enrichment.kids listing, San Francisco Little League",
+    "url": "https://enrichment.kids/ca/san-francisco/san-francisco-little-league"
+   },
+   "needs_review": true,
+   "review_note": "Third-party listing only; league site not opened. Spring 2027 sign-up dates not found."
+  }
+ ],
+ "adult": [
+  {
+   "name": "Municipal Softball League",
+   "sport": "Softball",
+   "season": null,
+   "site": "http://sfsoftball.com",
+   "note": "Independent league listed by SF Recreation and Park; season, fees and fields are on the league's site.",
+   "town": "San Francisco",
+   "source": {
+    "label": "SF Recreation and Park, Adult Sports Leagues",
+    "url": "https://sfrecpark.org/1186/Adult-Sports-Leagues"
+   }
+  },
+  {
+   "name": "Gay Softball League",
+   "sport": "Softball",
+   "season": null,
+   "site": "http://sfgsl.org",
+   "note": "Independent league listed by SF Recreation and Park; season, fees and fields are on the league's site.",
+   "town": "San Francisco",
+   "source": {
+    "label": "SF Recreation and Park, Adult Sports Leagues",
+    "url": "https://sfrecpark.org/1186/Adult-Sports-Leagues"
+   }
+  },
+  {
+   "name": "Golden Gate Women's Soccer League",
+   "sport": "Soccer",
+   "season": null,
+   "site": "http://www.ggwsl.org",
+   "note": "Independent league listed by SF Recreation and Park; season, fees and fields are on the league's site.",
+   "town": "San Francisco",
+   "source": {
+    "label": "SF Recreation and Park, Adult Sports Leagues",
+    "url": "https://sfrecpark.org/1186/Adult-Sports-Leagues"
+   }
+  },
+  {
+   "name": "San Francisco Soccer-Football League",
+   "sport": "Soccer",
+   "season": null,
+   "site": "http://sfsfl.com",
+   "note": "Independent league listed by SF Recreation and Park; season, fees and fields are on the league's site.",
+   "town": "San Francisco",
+   "source": {
+    "label": "SF Recreation and Park, Adult Sports Leagues",
+    "url": "https://sfrecpark.org/1186/Adult-Sports-Leagues"
+   }
+  },
+  {
+   "name": "Co-Ed Soccer League",
+   "sport": "Soccer",
+   "season": null,
+   "site": "http://www.sfcrsl.org",
+   "note": "Independent league listed by SF Recreation and Park; season, fees and fields are on the league's site.",
+   "town": "San Francisco",
+   "source": {
+    "label": "SF Recreation and Park, Adult Sports Leagues",
+    "url": "https://sfrecpark.org/1186/Adult-Sports-Leagues"
+   }
+  },
+  {
+   "name": "Women's Flag Football League",
+   "sport": "Flag football",
+   "season": null,
+   "site": "http://sfwffl.org",
+   "note": "Independent league listed by SF Recreation and Park; season, fees and fields are on the league's site.",
+   "town": "San Francisco",
+   "source": {
+    "label": "SF Recreation and Park, Adult Sports Leagues",
+    "url": "https://sfrecpark.org/1186/Adult-Sports-Leagues"
+   }
+  },
+  {
+   "name": "SF Gay Flag Football League",
+   "sport": "Flag football",
+   "season": null,
+   "site": "https://sfgffl.leagueapps.com/",
+   "note": "Independent league listed by SF Recreation and Park; season, fees and fields are on the league's site.",
+   "town": "San Francisco",
+   "source": {
+    "label": "SF Recreation and Park, Adult Sports Leagues",
+    "url": "https://sfrecpark.org/1186/Adult-Sports-Leagues"
+   }
+  },
+  {
+   "name": "Ultimate League (Bay Area Disc)",
+   "sport": "Ultimate",
+   "season": null,
+   "site": "https://www.bayareadisc.org/",
+   "note": "Independent league listed by SF Recreation and Park; season, fees and fields are on the league's site.",
+   "town": "San Francisco",
+   "source": {
+    "label": "SF Recreation and Park, Adult Sports Leagues",
+    "url": "https://sfrecpark.org/1186/Adult-Sports-Leagues"
+   }
+  },
+  {
+   "name": "Ferry Bocce League",
+   "sport": "Bocce",
+   "season": null,
+   "site": "http://ferrybocce.com",
+   "note": "Independent league listed by SF Recreation and Park; season, fees and fields are on the league's site.",
+   "town": "San Francisco",
+   "source": {
+    "label": "SF Recreation and Park, Adult Sports Leagues",
+    "url": "https://sfrecpark.org/1186/Adult-Sports-Leagues"
+   }
+  },
+  {
+   "name": "San Francisco Lacrosse",
+   "sport": "Lacrosse",
+   "season": null,
+   "site": "http://sflacrosse.org",
+   "note": "Independent league listed by SF Recreation and Park; season, fees and fields are on the league's site. The department's general registration portal is apm.activecommunities.com/sfrecpark; Program Registration 415-831-6800.",
+   "town": "San Francisco",
+   "source": {
+    "label": "SF Recreation and Park, Adult Sports Leagues",
+    "url": "https://sfrecpark.org/1186/Adult-Sports-Leagues"
+   }
+  }
+ ],
+ "teams": [
+  {
+   "name": "San Francisco 49ers",
+   "league": "NFL",
+   "sport": "Football",
+   "venue": "Levi's Stadium, Santa Clara (not in San Francisco)",
+   "site": "https://www.49ers.com/",
+   "note": "Remaining 2026 home games: Las Vegas Raiders, Sunday Nov 8, 1:05 pm (CBS); Minnesota, Sunday Nov 22, 5:20 pm (NBC), a designated home game played at Estadio Banorte in Mexico City; Seattle, Sunday Nov 29, 1:25 pm (FOX); Los Angeles Rams, Sunday Dec 13, 1:25 pm (FOX); Philadelphia, Sunday Jan 3, 2027, 5:20 pm (NBC). Times are Pacific and may change under flexible scheduling.",
+   "source": {
+    "label": "49ers news release, 49ers Announce 2026 Schedule",
+    "url": "https://49ers.1rmg.com/news-releases/49ers-announce-2026-schedule/"
+   },
+   "needs_review": true,
+   "review_note": "Schedule is from the team's spring release; check for flex changes. 'Santa Clara' for Levi's Stadium was not stated on the release page itself."
+  },
+  {
+   "name": "Golden State Warriors",
+   "league": "NBA",
+   "sport": "Basketball",
+   "venue": "Chase Center, San Francisco",
+   "site": null,
+   "note": "Home games listed for November and December 2026: Heat Thu Nov 5, 7 pm; Magic Sat Nov 7, 5:30 pm; Pelicans Mon Nov 9, 7 pm; Jazz Tue Dec 1, 8 pm; Mavericks Tue Dec 22, 7:30 pm. Christmas Day game vs Denver (site not stated in sources opened). Recent home results: W 124-112 vs Clippers Nov 1; W 116-113 vs Suns Nov 2.",
+   "source": {
+    "label": "FanDuel Research, 2026-27 Golden State Warriors schedule",
+    "url": "https://fanduel.com/research/2026-27-golden-state-warriors-schedule-results-tv-channel"
+   },
+   "needs_review": true,
+   "review_note": "Secondary source (times converted from Eastern). The list looks incomplete for late November and December; the team's official schedule was not opened."
+  },
+  {
+   "name": "Golden State Valkyries",
+   "league": "WNBA",
+   "sport": "Basketball",
+   "venue": "Chase Center, San Francisco",
+   "site": "https://valkyries.wnba.com/",
+   "note": "Season over; no home games in November or December. Chase Center will host WNBA All-Star 2027 (game July 31, 2027).",
+   "source": {
+    "label": "2026 Golden State Valkyries season (Wikipedia)",
+    "url": "https://en.wikipedia.org/wiki/2026_Golden_State_Valkyries_season"
+   },
+   "needs_review": true,
+   "review_note": "The 2026 Finals result was only found on Wikipedia, so it is left out."
+  },
+  {
+   "name": "San Francisco Giants",
+   "league": "MLB",
+   "sport": "Baseball",
+   "venue": "Oracle Park, San Francisco",
+   "site": "https://www.mlb.com/giants",
+   "note": "No November or December home games found. The Giants Community Fund runs free youth baseball and softball with Rec and Park (see youth).",
+   "source": {
+    "label": "Giants Community Fund, Academy Baseball",
+    "url": "https://www.mlb.com/giants/community/fund/programs/gcf-academy/academy-baseball"
+   },
+   "needs_review": true,
+   "review_note": "No Giants schedule page was opened; ballpark name not confirmed in sources opened. 2027 home opener not checked."
+  },
+  {
+   "name": "USF Dons men's basketball",
+   "league": "West Coast Conference (NCAA Division I)",
+   "sport": "Basketball",
+   "venue": "War Memorial at the Sobrato Center, USF campus",
+   "site": "https://usfdons.com/sports/mens-basketball/schedule",
+   "note": "Listed 'vs' games: North Dakota State Nov 6, 7 pm; Montana Nov 10, 7 pm; Portland State Nov 14, 4 pm; Louisiana Nov 18, 7 pm; Bethune-Cookman Nov 28, 4 pm; UNLV Dec 2, 7 pm. USF plays in the Acrisure Series in Palm Desert Nov 21 to 26 (games vs Nevada Nov 23 and Oregon State Nov 24 fall in that window).",
+   "source": {
+    "label": "USF Athletics, Dons return to Acrisure Series (page schedule listing)",
+    "url": "https://usfdons.com/news/2026/7/22/mens-basketball-dons-return-to-acrisure-series-for-second-straight-year"
+   },
+   "needs_review": true,
+   "review_note": "Games and times read from the schedule listing on a July news page; venue is not stated per game. Confirm on the official schedule."
+  },
+  {
+   "name": "USF Dons women's basketball",
+   "league": "West Coast Conference (NCAA Division I)",
+   "sport": "Basketball",
+   "venue": "War Memorial at the Sobrato Center, USF campus",
+   "site": "https://usfdons.com/news/2026/8/26/womens-basketball-releases-2026-27-nonconference-schedule",
+   "note": "Home games: Hawaii Thu Nov 5 (season opener); Long Beach State Thu Nov 19; CSU Bakersfield Sun Nov 22; Cal State East Bay Wed Nov 25; Grand Canyon Mon Nov 30; Boise State Fri Dec 4. Times not listed in the release.",
+   "source": {
+    "label": "USF Athletics, women's basketball 2026-27 nonconference schedule (Aug 26, 2026)",
+    "url": "https://usfdons.com/news/2026/8/26/womens-basketball-releases-2026-27-nonconference-schedule"
+   }
+  },
+  {
+   "name": "SF State Gators basketball",
+   "league": "California Collegiate Athletic Association (NCAA Division II)",
+   "sport": "Basketball",
+   "venue": null,
+   "site": "https://sfstategators.com/",
+   "note": "November and December 2026 home schedule not found in sources opened.",
+   "source": {
+    "label": "SF State Athletics",
+    "url": "https://sfstategators.com/news/2016/11/7/mens-basketball-sfstate-mbb-opens-up-regular-season-hosting-tip-off-classic.aspx"
+   },
+   "needs_review": true,
+   "review_note": "Official schedule page could not be opened; league affiliation and venue not confirmed in sources opened."
+  },
+  {
+   "name": "Bay FC",
+   "league": "NWSL",
+   "sport": "Soccer",
+   "venue": "PayPal Park, San Jose (not in San Francisco)",
+   "site": "https://bayfc.com/",
+   "note": "Regular season's final match was a home game on Nov 1, 2026. Playoff status and any November or December matches not confirmed.",
+   "source": {
+    "label": "2026 Bay FC season (Wikipedia)",
+    "url": "https://en.wikipedia.org/wiki/2026_Bay_FC_season"
+   },
+   "needs_review": true,
+   "review_note": "Wikipedia page last updated Aug 31, 2026 (Bay FC 14th at that point); final standing and playoff status not found."
+  }
+ ],
+ "venues": [
+  {
+   "name": "Lincoln High School",
+   "address": "2162 24th Avenue, San Francisco, CA 94116",
+   "town": "San Francisco",
+   "uses": "Lincoln home games; site of an Oct 30, 2026 AAA volleyball semifinal",
+   "site": null,
+   "source": {
+    "label": "SFUSD, San Francisco Section member school gyms (updated Sept 22, 2019)",
+    "url": "https://www.sfusd.edu/fil/node/3858"
+   }
+  },
+  {
+   "name": "Washington High School",
+   "address": "600 32nd Avenue, San Francisco, CA 94121",
+   "town": "San Francisco",
+   "uses": "Washington home games and AAA volleyball playoff matches",
+   "site": null,
+   "source": {
+    "label": "SFUSD, San Francisco Section member school gyms (updated Sept 22, 2019)",
+    "url": "https://www.sfusd.edu/fil/node/3858"
+   }
+  },
+  {
+   "name": "Balboa High School",
+   "address": "1000 Cayuga Avenue, San Francisco, CA 94112",
+   "town": "San Francisco",
+   "uses": "Balboa home games and AAA volleyball playoff matches",
+   "site": null,
+   "source": {
+    "label": "SFUSD, San Francisco Section member school gyms (updated Sept 22, 2019)",
+    "url": "https://www.sfusd.edu/fil/node/3858"
+   }
+  },
+  {
+   "name": "Lowell High School",
+   "address": "1101 Eucalyptus Drive, San Francisco, CA 94132",
+   "town": "San Francisco",
+   "uses": "Lowell home games; site of an Oct 30, 2026 AAA volleyball semifinal",
+   "site": "https://www.sfusd.edu/school/lowell-high-school",
+   "source": {
+    "label": "SFUSD, San Francisco Section member school gyms (updated Sept 22, 2019)",
+    "url": "https://www.sfusd.edu/fil/node/3858"
+   }
+  },
+  {
+   "name": "City College of San Francisco",
+   "address": null,
+   "town": "San Francisco",
+   "uses": "2026 AAA varsity girls volleyball City Championship (Nov 3)",
+   "site": null,
+   "source": {
+    "label": "CIFSF, HS Girls Volleyball Championship Program (V & JV), posted Nov 3, 2026",
+    "url": "https://www.cifsf.org/hs-girls-volleyball-championship-program-v-jv/"
+   },
+   "needs_review": true,
+   "review_note": "Specific gym and address not given in the CIFSF program."
+  },
+  {
+   "name": "Kezar Stadium",
+   "address": null,
+   "town": "San Francisco",
+   "uses": "Hosted the AAA Thanksgiving Day football game in 2025; the 2026 City Championship site is listed as TBD.",
+   "site": null,
+   "source": {
+    "label": "High School On SI, Thanksgiving Game at Kezar Stadium (2025)",
+    "url": "https://www.si.com/high-school/california/thanksgiving-game-at-kezar-stadium-balboa-survives-35-penalties-upstart-washington-to-turkey-day-classic-01kb6cry06x5"
+   },
+   "needs_review": true,
+   "review_note": "Address not found in sources opened; 2026 Thanksgiving game site not yet announced."
+  },
+  {
+   "name": "War Memorial at the Sobrato Center",
+   "address": "Golden Gate Avenue, USF campus (street number not given)",
+   "town": "San Francisco",
+   "uses": "USF men's and women's basketball and women's volleyball; 5,300 seats",
+   "site": "https://usfdons.com/facilities/war-memorial-at-the-sobrato-center/20",
+   "source": {
+    "label": "USF Athletics, War Memorial at the Sobrato Center",
+    "url": "https://usfdons.com/facilities/war-memorial-at-the-sobrato-center/20"
+   }
+  },
+  {
+   "name": "Chase Center",
+   "address": null,
+   "town": "San Francisco",
+   "uses": "Warriors and Valkyries home games; WNBA All-Star 2027",
+   "site": null,
+   "source": {
+    "label": "KTVU, Valkyries to host All-Star 2027 at Chase Center (Aug 18, 2026)",
+    "url": "https://www.ktvu.com/news/wnba-announces-golden-state-valkyries-host-all-star-2027-chase-center"
+   },
+   "needs_review": true,
+   "review_note": "Address not found in sources opened."
+  },
+  {
+   "name": "Levi's Stadium",
+   "address": null,
+   "town": "Santa Clara",
+   "uses": "49ers home games",
+   "site": null,
+   "source": {
+    "label": "49ers news release, 49ers Announce 2026 Schedule",
+    "url": "https://49ers.1rmg.com/news-releases/49ers-announce-2026-schedule/"
+   },
+   "needs_review": true,
+   "review_note": "Outside San Francisco; city and address not stated in the source opened."
+  },
+  {
+   "name": "PayPal Park",
+   "address": null,
+   "town": "San Jose",
+   "uses": "Bay FC home matches",
+   "site": null,
+   "source": {
+    "label": "2026 Bay FC season (Wikipedia)",
+    "url": "https://en.wikipedia.org/wiki/2026_Bay_FC_season"
+   },
+   "needs_review": true,
+   "review_note": "Outside San Francisco; address not found."
+  },
+  {
+   "name": "Potrero Hill Recreation Center",
+   "address": null,
+   "town": "San Francisco",
+   "uses": "SFRPD youth flag football games",
+   "site": "https://sfrecpark.org/1801/Flag-Football",
+   "source": {
+    "label": "SF Recreation and Park, Flag Football",
+    "url": "https://sfrecpark.org/1801/Flag-Football"
+   }
+  },
+  {
+   "name": "Upper Noe Recreation Center",
+   "address": null,
+   "town": "San Francisco",
+   "uses": "SFRPD youth flag football games",
+   "site": "https://sfrecpark.org/1801/Flag-Football",
+   "source": {
+    "label": "SF Recreation and Park, Flag Football",
+    "url": "https://sfrecpark.org/1801/Flag-Football"
+   }
+  },
+  {
+   "name": "Sunset Recreation Center",
+   "address": null,
+   "town": "San Francisco",
+   "uses": "Jr. Warriors coach preseason workshop",
+   "site": "https://sfrecpark.org/1416/Jr-Warriors",
+   "source": {
+    "label": "SF Recreation and Park, Jr. Warriors",
+    "url": "https://sfrecpark.org/1416/Jr-Warriors"
+   }
+  }
+ ],
+ "news": [
+  {
+   "date": "2026-11-03",
+   "title": "HS Girls Volleyball Championship Program (V & JV)",
+   "url": "https://www.cifsf.org/hs-girls-volleyball-championship-program-v-jv/",
+   "source": "CIF San Francisco Section"
+  },
+  {
+   "date": "2026-10-30",
+   "title": "HS Girls Tennis All City Tournament & Team Championship Program",
+   "url": "https://www.cifsf.org/hs-girls-tennis-all-city-tournament-team-championship-program/",
+   "source": "CIF San Francisco Section"
+  },
+  {
+   "date": "2026-10-30",
+   "title": "Sharp-shooting Dream beat Valkyries 80-69 to force Game 7 in WNBA Finals",
+   "url": "https://www.aljazeera.com/sports/2026/10/30/sharp-shooting-dream-beat-valkyries-80-69-to-force-game-7-in-wnba-finals",
+   "source": "Al Jazeera"
+  },
+  {
+   "date": "2026-10-29",
+   "title": "Atlanta Dream stave off elimination, beat Golden State to force Game 7 of WNBA Finals",
+   "url": "https://www.atlantanewsfirst.com/2026/10/29/atlanta-dream-stave-off-elimination-beat-golden-state-force-deciding-game-7/",
+   "source": "Atlanta News First"
+  },
+  {
+   "date": "2026-10-28",
+   "title": "HS Girls Golf All City Tournament & Team Championship Program",
+   "url": "https://www.cifsf.org/hs-girls-golf-all-city-tournament-team-championship-program/",
+   "source": "CIF San Francisco Section"
+  },
+  {
+   "date": "2026-10-26",
+   "title": "High School Playoffs (Fall)",
+   "url": "https://www.cifsf.org/high-school-playoffs-fall/",
+   "source": "CIF San Francisco Section"
+  },
+  {
+   "date": "2026-10-16",
+   "title": "AAA/CIFSF Cross Country Results and Rankings",
+   "url": "https://www.cifsf.org/aaa-cifsf-cross-country-results-and-rankings/",
+   "source": "CIF San Francisco Section"
+  }
+ ]
+}

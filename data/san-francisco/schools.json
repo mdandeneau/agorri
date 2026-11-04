@@ -1,0 +1,298 @@
+{
+ "as_of": "2026-11-04",
+ "note": "San Francisco Unified School District runs the city's public schools from transitional kindergarten through grade 12; the district says it has 120 schools. A seven-member Board of Education, elected citywide, adopts the budget and sets policy. City College of San Francisco, the public community college, is governed by its own elected Board of Trustees and is listed second with only the basics we could confirm.",
+ "districts": [
+  {
+   "id": "sfusd",
+   "name": "San Francisco Unified School District",
+   "towns": [
+    "San Francisco"
+   ],
+   "sau": null,
+   "site": "https://www.sfusd.edu",
+   "superintendent": {
+    "name": "Dr. Maria Su",
+    "since": null,
+    "src": {
+     "label": "SFUSD press release, Jun 25, 2026",
+     "url": "https://www.sfusd.edu/about-sfusd/sfusd-news/press-releases/2026-06-25-sf-board-education-adopts-three-year-balanced-budget-2026-27-school-year"
+    }
+   },
+   "board": {
+    "name": "Board of Education",
+    "meets": "Regular meetings on the second and fourth Tuesdays of the month unless otherwise noticed: closed session at 5:00 pm, public session at 6:30 pm, in the Irving G. Breyer Board Meeting Room, 555 Franklin Street. Study sessions and monitoring workshops are added on other Tuesdays. Childcare for ages 3 to 10 is offered at regular and monitoring meetings. Seven commissioners are elected citywide to four-year terms; two student delegates also sit with the board.",
+    "agendasUrl": "https://go.boarddocs.com/ca/sfusd/Board.nsf/Public#tab-meetings",
+    "videoUrl": "https://sfgovtv.org/watch",
+    "members": [
+     {
+      "name": "Phil Kim",
+      "role": "President",
+      "term": null,
+      "ward": null
+     },
+     {
+      "name": "Jaime Huling",
+      "role": "Vice President",
+      "term": null,
+      "ward": null
+     },
+     {
+      "name": "Matt Alexander",
+      "role": "Member",
+      "term": null,
+      "ward": null
+     },
+     {
+      "name": "Alida Fisher",
+      "role": "Member",
+      "term": null,
+      "ward": null
+     },
+     {
+      "name": "Parag Gupta",
+      "role": "Member",
+      "term": null,
+      "ward": null
+     },
+     {
+      "name": "Supriya Ray",
+      "role": "Member",
+      "term": null,
+      "ward": null
+     },
+     {
+      "name": "Lisa Weissman-Ward",
+      "role": "Member",
+      "term": null,
+      "ward": null
+     }
+    ],
+    "source": {
+     "label": "SFUSD Board of Education page (opened Nov 4, 2026)",
+     "url": "https://www.sfusd.edu/about-sfusd/board-education"
+    },
+    "needs_review": true,
+    "review_note": "Members are as listed on the district page on Nov 4, 2026; term end dates are not shown there, and any board seats on the Nov 3, 2026 ballot were not checked. Supriya Ray's first name is spelled as in KQED's Oct 14 report; confirm against the district page."
+   },
+   "schools": [],
+   "enrollment": null,
+   "budget": {
+    "year": "FY2026-27 (2026-27)",
+    "total": 1360000000,
+    "prior": null,
+    "changePct": null,
+    "adopted": "2026-06-23",
+    "adoptedVote": "Adopted by the Board of Education 4-3 on June 23, 2026",
+    "perPupil": null,
+    "perPupilYear": null,
+    "perPupilSource": null,
+    "note": "The district reports a $1.36 billion operating budget (total shown is that rounded figure). It is a three-year balanced budget with $33.3 million in commitments: $8.6 million for up to 14 weeks of paid pregnancy leave, $12.2 million to guard against federal funding risks and grant freezes, and $12.5 million for student success strategies. The district projects its Unrestricted General Fund structural deficit will be eliminated in 2027-28. No per-pupil figure or prior-year total was found on SFUSD or California Department of Education pages we could open.",
+    "source": {
+     "label": "SFUSD press release, Jun 25, 2026",
+     "url": "https://www.sfusd.edu/about-sfusd/sfusd-news/press-releases/2026-06-25-sf-board-education-adopts-three-year-balanced-budget-2026-27-school-year"
+    }
+   },
+   "results": [],
+   "calendarUrl": "https://www.sfusd.edu/calendars",
+   "closingsUrl": null,
+   "issues": [
+    {
+     "title": "Board votes to move toward neighborhood-based school assignment",
+     "status": "Final policy vote expected April 2027",
+     "summary": "On October 13 the Board voted 5-2 for Option C, directing staff to draft a neighborhood-based enrollment policy. Students would first be offered a seat at a neighborhood school near home; families could also apply to citywide programs such as language pathways and K-8 campuses, without a guarantee. Commissioners Alida Fisher and Supriya Ray voted no and backed Option B, which would have let families apply to any school with open seats. Staff will work with demographers on attendance-boundary maps and tiebreakers. The change is meant to take effect for students entering elementary school in fall 2028; families would apply under the new rules in fall 2027.",
+     "date": "2026-10-13",
+     "source": {
+      "label": "KQED, Oct 14, 2026",
+      "url": "https://www.kqed.org/news/12104230/sfusd-moves-closer-to-neighborhood-based-enrollment-in-historic-vote"
+     }
+    },
+    {
+     "title": "How the enrollment options were narrowed",
+     "status": "Decided Oct 13",
+     "summary": "At an October 6 study session the Board dropped Option A, leaving Options B and C, both of which guarantee a neighborhood seat. The SF Standard reported the final policy is scheduled for adoption April 13, 2027.",
+     "date": "2026-10-06",
+     "source": {
+      "label": "San Francisco Standard, Oct 6, 2026",
+      "url": "https://sfstandard.com/2026/10/06/sfusd-set-overhaul-its-enrollment-lottery-nobody-can-agree/"
+     }
+    },
+    {
+     "title": "Site chosen for new Mandarin immersion TK-8 school",
+     "status": "Opening fall 2027",
+     "summary": "SFUSD announced the new school will start in fall 2027 sharing the Mission Education Center campus at 1670 Noe Street before moving to a permanent site. It opens with four classes (three kindergarten, one transitional kindergarten) and adds grades each year.",
+     "date": "2026-09-24",
+     "source": {
+      "label": "KQED, Sep 24, 2026",
+      "url": "https://www.kqed.org/news/12101173/sfusd-reveals-location-of-new-mandarin-immersion-campus"
+     }
+    },
+    {
+     "title": "2027-28 enrollment season is open",
+     "status": "Applications open",
+     "summary": "Online and paper applications for 2027-28 opened October 23, 2026. Applications to Ruth Asawa School of the Arts and Lowell High School are due December 11, 2026 (SOTA applicants also audition in January). Main Round applications for TK-12 are due February 1, 2027; assignment letters go out the week of March 15, 2027.",
+     "date": "2026-10-23",
+     "source": {
+      "label": "SFUSD Enrollment Key Dates",
+      "url": "https://www.sfusd.edu/es/node/3504"
+     }
+    },
+    {
+     "title": "2026-27 budget adopted on a 4-3 vote",
+     "status": "In this year's budget",
+     "summary": "The Board adopted a $1.36 billion operating budget on June 23, 2026 along with the 2024-27 Local Control and Accountability Plan. The district said it planned to self-certify a positive budget, up from a Qualified certification at its First Interim projection in March 2026.",
+     "date": "2026-06-23",
+     "source": {
+      "label": "SFUSD press release, Jun 25, 2026",
+      "url": "https://www.sfusd.edu/about-sfusd/sfusd-news/press-releases/2026-06-25-sf-board-education-adopts-three-year-balanced-budget-2026-27-school-year"
+     }
+    }
+   ],
+   "upcoming": [
+    {
+     "date": "2026-11-07",
+     "time": null,
+     "title": "Board of Education: Student Outcomes Focused Governance training for community",
+     "venue": null,
+     "url": "https://www.sfusd.edu/about-sfusd/board-education/board-meeting-calendar-and-agendas"
+    },
+    {
+     "date": "2026-11-10",
+     "time": null,
+     "title": "Board of Education study session (Reorg 4)",
+     "venue": null,
+     "url": "https://www.sfusd.edu/about-sfusd/board-education/board-meeting-calendar-and-agendas"
+    },
+    {
+     "date": "2026-11-11",
+     "time": null,
+     "title": "Veterans Day holiday, no school",
+     "venue": null,
+     "url": "https://www.sfusd.edu/sites/default/files/2026-09/7-27-26%20FINAL%20-%20SFUSD%202026-27%20SY%20Academic%20Calendar%2C%20Work%20Calendar%2C%20Key%20Dates%20-%20Google%20Sheets.pdf"
+    },
+    {
+     "date": "2026-11-17",
+     "time": null,
+     "title": "Board of Education monitoring workshop",
+     "venue": null,
+     "url": "https://www.sfusd.edu/about-sfusd/board-education/board-meeting-calendar-and-agendas"
+    },
+    {
+     "date": "2026-11-23",
+     "time": null,
+     "title": "Fall Recess, schools closed November 23 to 27",
+     "venue": null,
+     "url": "https://www.sfusd.edu/sites/default/files/2026-09/7-27-26%20FINAL%20-%20SFUSD%202026-27%20SY%20Academic%20Calendar%2C%20Work%20Calendar%2C%20Key%20Dates%20-%20Google%20Sheets.pdf"
+    },
+    {
+     "date": "2026-12-01",
+     "time": "6:30 pm",
+     "title": "Board of Education regular meeting",
+     "venue": "Irving G. Breyer Board Meeting Room, 555 Franklin Street, First Floor",
+     "url": "https://www.sfusd.edu/about-sfusd/board-education/board-meeting-calendar-and-agendas"
+    },
+    {
+     "date": "2026-12-11",
+     "time": null,
+     "title": "Application deadline for Ruth Asawa SOTA and Lowell High School (2027-28)",
+     "venue": null,
+     "url": "https://www.sfusd.edu/es/node/3504"
+    },
+    {
+     "date": "2026-12-15",
+     "time": "6:30 pm",
+     "title": "Board of Education regular meeting",
+     "venue": "Irving G. Breyer Board Meeting Room, 555 Franklin Street, First Floor",
+     "url": "https://www.sfusd.edu/about-sfusd/board-education/board-meeting-calendar-and-agendas"
+    },
+    {
+     "date": "2026-12-21",
+     "time": null,
+     "title": "Winter Recess, schools closed December 21 to January 1",
+     "venue": null,
+     "url": "https://www.sfusd.edu/sites/default/files/2026-09/7-27-26%20FINAL%20-%20SFUSD%202026-27%20SY%20Academic%20Calendar%2C%20Work%20Calendar%2C%20Key%20Dates%20-%20Google%20Sheets.pdf"
+    },
+    {
+     "date": "2027-02-01",
+     "time": null,
+     "title": "Main Round enrollment applications due (2027-28)",
+     "venue": null,
+     "url": "https://www.sfusd.edu/es/node/3504"
+    }
+   ],
+   "news": [
+    {
+     "title": "SFUSD moves closer to neighborhood-based enrollment in historic vote (KQED)",
+     "url": "https://www.kqed.org/news/12104230/sfusd-moves-closer-to-neighborhood-based-enrollment-in-historic-vote",
+     "date": "2026-10-14"
+    },
+    {
+     "title": "San Francisco Board of Education Approves Resolution to Move SFUSD Toward Neighborhood-Based Student Assignment System (SFUSD)",
+     "url": "https://www.sfusd.edu/about-sfusd/sfusd-news/press-releases/2026-10-13-san-francisco-board-education-approves-resolution-move-sfusd-toward-neighborhood-based-student",
+     "date": "2026-10-13"
+    },
+    {
+     "title": "SFUSD is set to overhaul its enrollment lottery. Nobody can agree on how (SF Standard)",
+     "url": "https://sfstandard.com/2026/10/06/sfusd-set-overhaul-its-enrollment-lottery-nobody-can-agree/",
+     "date": "2026-10-06"
+    },
+    {
+     "title": "SFUSD Selects Launch Site for New Mandarin Immersion TK-8 School (SFUSD)",
+     "url": "https://www.sfusd.edu/about-sfusd/sfusd-news/press-releases/2026-09-24-sfusd-selects-launch-site-new-mandarin-immersion-tk-8-school",
+     "date": "2026-09-24"
+    },
+    {
+     "title": "SFUSD Continues Offering Free Breakfast and Lunch for 2026-27 School Year (SFUSD)",
+     "url": "https://www.sfusd.edu/about-sfusd/sfusd-news/press-releases/2026-09-02-sfusd-continues-offering-free-breakfast-and-lunch-2026-27-school-year",
+     "date": "2026-09-02"
+    },
+    {
+     "title": "SFUSD Earns Improved Bond Ratings (SFUSD)",
+     "url": "https://www.sfusd.edu/about-sfusd/sfusd-news/press-releases/2026-08-25-sfusd-earns-improved-bond-ratings",
+     "date": "2026-08-25"
+    },
+    {
+     "title": "SFUSD Celebrates Milestone Opening Long-Awaited New School in Mission Bay Neighborhood (SFUSD)",
+     "url": "https://www.sfusd.edu/about-sfusd/sfusd-news/press-releases/2026-08-07-sfusd-celebrates-milestone-opening-long-awaited-new-school-mission-bay-neighborhood",
+     "date": "2026-08-07"
+    }
+   ]
+  },
+  {
+   "id": "ccsf",
+   "name": "City College of San Francisco",
+   "towns": [
+    "San Francisco"
+   ],
+   "sau": null,
+   "site": "https://www.ccsf.edu",
+   "superintendent": {
+    "name": "Kimberlee Messina (Chancellor)",
+    "since": null,
+    "src": {
+     "label": "KALW, Jun 16, 2025",
+     "url": "https://www.kalw.org/bay-area-news/2025-06-16/ccsf-appoints-new-chancellor"
+    },
+    "needs_review": true,
+    "review_note": "From a June 2025 news report of her selection; not confirmed on a current CCSF page (ccsf.edu could not be opened)."
+   },
+   "board": {
+    "name": "Board of Trustees",
+    "meets": null,
+    "agendasUrl": null,
+    "videoUrl": null,
+    "members": [],
+    "source": null
+   },
+   "schools": [],
+   "enrollment": null,
+   "budget": null,
+   "results": [],
+   "calendarUrl": null,
+   "closingsUrl": null,
+   "issues": [],
+   "upcoming": [],
+   "news": []
+  }
+ ],
+ "methodology": "Built November 4, 2026 from pages opened this session: sfusd.edu (Board of Education page, board meeting calendar, press release list and the June 25, 2026 budget release, a June 2026 budget announcement, the calendars page and the 2026-27 academic calendar PDF, Enrollment Key Dates for 2027-28), KQED (Oct 14 and Sep 24, 2026), the San Francisco Standard (Oct 6, 2026) and KALW (Jun 16, 2025). Gaps: the California Department of Education district profile returned a server error, so enrollment and per-pupil spending are blank; no SFUSD page with those figures was opened. The 120-schools count is the district website's own label. The individual SFUSD press releases of Oct 13 and Sep 24 could not be opened (titles and links only), the school holiday calendar PDF was blocked, and BoardDocs minutes were not opened, so board actions are taken from KQED and the SF Standard. Times are shown only for regular meetings (public session 6:30 pm); study session and workshop times were not listed. No school closings page was found. Individual schools are not listed. City College: ccsf.edu could not be opened; trustees, enrollment, budget and calendar are left blank, and KALW's 2025 figure of about 40,000 students is not used as current enrollment. Board of Education and College Board races on the Nov 3, 2026 ballot, if any, were not researched for this file."
+}

@@ -1,0 +1,1366 @@
+{
+ "as_of": "2026-11-04",
+ "note": "Items on this page come from City and County of San Francisco departments' own releases and pages and from local news outlets. Each item links to its source. Nothing here is a live feed yet; see the Sources card.",
+ "housing": {
+  "san-francisco": {
+   "source": "Redfin, San Francisco CA home values",
+   "url": "https://redfin.com/city/17151/CA/San-Francisco/home-values",
+   "period": "July 2026 (median); three months ending July 2026 (days on market)",
+   "median": 1674162,
+   "yoy": 14.2,
+   "sold": 1715,
+   "soldLastYear": 1463,
+   "soldLabel": "Homes sold",
+   "dom": 18,
+   "domLastYear": 22,
+   "overList": null,
+   "note": "All home types. Redfin also shows a $1.7M median over the last three months and a median price per square foot of $1.07K, up 17.7%. The page says homes sell for about 14% above list price on average; that is not the share of homes sold over list, so overList is left empty. Days on market is shown as an average of 18 (22 a year earlier) but elsewhere as 20; checked Nov 4, 2026, when the page still showed July 2026 data.",
+   "needs_review": true,
+   "review_note": "Redfin's housing-market page could not be opened; figures are from its home-values page. The 1,715 sales figure may cover more than one month; confirm against Redfin's chart."
+  },
+  "region": null,
+  "regionNote": "No 2026 Bay Area regional figure from the California Association of Realtors or Redfin could be opened on Nov 4, 2026; the reports found covered 2025.",
+  "records": []
+ },
+ "business": {
+  "note": "Openings and closures come from news coverage and City releases, not a complete list. Checked Nov 4, 2026 for the last six weeks. The SF Chronicle is paywalled and was not used.",
+  "closures": [
+   {
+    "name": "Hed11",
+    "what": "Thai restaurant, open 11 years",
+    "date": "2026-10-31",
+    "detail": "Closed Oct 31 at 1800 Sutter Street, inside the Kimpton Hotel Enso. The report says the space will host Hed Very Thai, a Thai bento concept. No reason was given.",
+    "source": {
+     "label": "WhatNow, Oct 31, 2026",
+     "url": "https://whatnow.com/?p=450298"
+    },
+    "needs_review": true,
+    "review_note": "Secondary source (restaurant news roundup citing the restaurant's Instagram); not confirmed with the restaurant."
+   }
+  ],
+  "openings": [
+   {
+    "name": "Uniqlo",
+    "what": "Clothing store, two-floor 20,000 square foot flagship",
+    "date": "2026-10-09",
+    "detail": "Opened Friday, Oct 9 at 801 Market Street (Fourth and Market) with a free street festival. The store carries merchandise made with SFMTA, Ruth Asawa School of the Arts students and local artists.",
+    "source": {
+     "label": "Office of the Mayor, Oct 8",
+     "url": "https://www.sf.gov/es/news-mayor-lurie-welcomes-uniqlo-back-to-downtown-with-free-street-festival-collaborations-with-muni-sfusd-students-local-artists/"
+    }
+   },
+   {
+    "name": "Raising Cane's",
+    "what": "Chicken fingers restaurant, the chain's first in San Francisco",
+    "date": "2026-09-21",
+    "detail": "Opening set for Monday, Sept 21 at 211 Jefferson Street, Fisherman's Wharf. A second location at Stonestown Galleria was under construction and expected this fall.",
+    "source": {
+     "label": "KTVU, Sep 15, 2026",
+     "url": "https://www.ktvu.com/news/san-francisco-is-getting-its-first-raising-canes-second-one-coming-soon"
+    },
+    "needs_review": true,
+    "review_note": "Report was published before the opening; opening on Sept 21 not separately confirmed. Slightly older than six weeks."
+   }
+  ]
+ },
+ "notices": [
+  {
+   "date": "2026-11-04",
+   "kind": "Roads",
+   "title": "Valkyries victory parade on the Embarcadero today, Wednesday, Nov 4, noon to 2 pm",
+   "detail": "The parade runs along the Embarcadero from the Ferry Building near Mission Street to Second and King streets; fans can gather from 9 am. The Embarcadero, King Street and nearby blocks (including Market between Drumm and Steuart, and Mission, Howard, Folsom, Harrison and Bryant between Main and the Embarcadero) close in stages from 12:01 am or 8 am until 4 pm. Muni's F and N lines along the Embarcadero are suspended about 9:30 am to 3 pm, with a bus replacing them. BART and Bay Ferry are adding service. The City recommends transit.",
+   "source": {
+    "label": "Office of the Mayor, Nov 1",
+    "url": "https://www.sf.gov/es/news-mayor-lurie-unveils-plans-for-victory-parade-for-wnba-champion-golden-state-valkyries/"
+   },
+   "strip": "Valkyries parade",
+   "stripLine": "Embarcadero closed; F and N suspended",
+   "until": "2026-11-04"
+  },
+  {
+   "date": "2026-11-04",
+   "kind": "Election",
+   "title": "Election results: updated preliminary counts about 4 pm daily, Nov 4 to 13 (not Nov 11)",
+   "detail": "The Department of Elections posts a daily estimate of ballots left to count starting Nov 4 and updated preliminary results at about 4 pm each day from Nov 4 through Nov 13, except Veterans Day, then more updates as counting continues. Mail ballots postmarked by Election Day count if they arrive within seven days. The earliest certification date is Wednesday, Nov 25; final results must be certified by Dec 3.",
+   "source": {
+    "label": "Department of Elections, Oct 26",
+    "url": "https://www.sf.gov/news-the-department-of-elections-announces-results-reporting-timeline-for-the-november-3-2026-consolidated-general-election"
+   },
+   "strip": "Election count",
+   "stripLine": "New results daily about 4 pm",
+   "until": "2026-11-13",
+   "oneLiner": "Election results update about 4 pm daily through Nov 13; certification due by Dec 3"
+  },
+  {
+   "date": "2026-11-06",
+   "kind": "Roads",
+   "title": "Southbound US-101 fully closed from the 9th Street/Civic Center exit to Cesar Chavez, Friday 11 pm to Monday 6 am (Nov 6 to 9)",
+   "detail": "Caltrans paving work at the Hospital Curve. Detours use southbound I-280 via 6th Street and southbound Potrero; SFMTA parking control officers will help at key detour points. The same weekend, northbound I-280 near the Farallones Street overcrossing has overnight lane closures (at least one lane open).",
+   "source": {
+    "label": "SFMTA weekly advisory, Oct 29",
+    "url": "https://www.sfmta.com/press-releases/sfmta-transit-and-traffic-advisory-week-thursday-october-29-through-wednesday-november-4-2026"
+   },
+   "strip": "101 closed",
+   "stripLine": "Southbound 101 shut Fri night to Mon",
+   "until": "2026-11-09"
+  },
+  {
+   "date": "2026-11-11",
+   "kind": "Holiday",
+   "title": "Veterans Day, Wednesday, Nov 11: meters enforced, libraries closed, trash pickup as normal",
+   "detail": "SFMTA enforces parking meters, nightly street sweeping (midnight to 6 am), white zones and safety rules. Not enforced: residential permit time limits, general time limits, weekday daytime street sweeping and unmetered yellow and green zones. Recology collects as normal. All San Francisco Public Library locations are closed. The Board of Supervisors meets as scheduled on Tuesday, Nov 10.",
+   "source": {
+    "label": "SFMTA holiday enforcement schedule",
+    "url": "https://www.sfmta.com/vi/node/654"
+   },
+   "strip": "Veterans Day",
+   "stripLine": "Meters enforced; libraries closed"
+  },
+  {
+   "date": "2026-11-13",
+   "kind": "Roads",
+   "title": "Northbound US-101 connector to the Central Freeway fully closed, Friday 11 pm to Monday 6 am (Nov 13 to 16)",
+   "detail": "Caltrans work on the Central Viaduct and I-80 Bayshore Viaduct. Detours will be signed; SFMTA says details will follow.",
+   "source": {
+    "label": "SFMTA weekly advisory, Oct 29",
+    "url": "https://www.sfmta.com/press-releases/sfmta-transit-and-traffic-advisory-week-thursday-october-29-through-wednesday-november-4-2026"
+   },
+   "strip": "Freeway closure",
+   "stripLine": "101 to Central Freeway shut Fri to Mon",
+   "until": "2026-11-16"
+  },
+  {
+   "date": "2026-11-14",
+   "kind": "Library",
+   "title": "Mission Branch Library reopens Saturday, Nov 14, at 3359 24th Street",
+   "detail": "The temporary Mission branch and book drop at 1234 Valencia Street closed at 6 pm on Oct 31. The Mission Branch reopens Nov 14 at 3359 24th Street.",
+   "source": {
+    "label": "San Francisco Public Library site alert",
+    "url": "https://sfpl.org/releases?page=1"
+   },
+   "strip": "Mission library",
+   "stripLine": "Branch reopens Saturday at 3359 24th St",
+   "oneLiner": "Mission Branch Library reopens Nov 14 at 3359 24th Street"
+  },
+  {
+   "date": "2026-11-26",
+   "kind": "Holiday",
+   "title": "Thanksgiving, Thursday, Nov 26: meters and street sweeping not enforced; trash on the regular schedule",
+   "detail": "SFMTA does not enforce meters, nightly street sweeping or other parking programs on Thanksgiving Day. On Friday, Nov 27, meters and nightly sweeping are enforced but other programs are not. Recology says drivers service on the regular schedule Thanksgiving Day. The Board of Supervisors does not meet Nov 24.",
+   "source": {
+    "label": "SFMTA holiday enforcement schedule",
+    "url": "https://www.sfmta.com/vi/node/654"
+   },
+   "strip": "Thanksgiving",
+   "stripLine": "No meters Thursday; trash as usual"
+  },
+  {
+   "date": "2026-12-25",
+   "kind": "Holiday",
+   "title": "Christmas Day, Friday, Dec 25: meters and street sweeping not enforced",
+   "detail": "SFMTA does not enforce meters, nightly street sweeping or other parking programs. Recology lists its Christmas Day plan as to be determined.",
+   "source": {
+    "label": "SFMTA holiday enforcement schedule",
+    "url": "https://www.sfmta.com/vi/node/654"
+   }
+  },
+  {
+   "date": "2026-11-10",
+   "kind": "Hearing",
+   "title": "Board of Supervisors meets Tuesdays at 2 pm: Nov 10, Nov 17, Dec 1, Dec 8 and Dec 15",
+   "detail": "No meeting Nov 24 (Thanksgiving week). The Mayor is scheduled to appear Nov 10 and Dec 15 (appearances can be rescheduled; check the agenda). Winter recess runs Dec 16, 2026 through Jan 7, 2027. Meetings air live on SFGovTV Channel 26. Clerk of the Board: (415) 554-5184, board.of.supervisors@sfgov.org.",
+   "source": {
+    "label": "Board of Supervisors 2026 schedule",
+    "url": "https://www.sf.gov/regularly-scheduled-board-of-supervisors-meetings"
+   },
+   "oneLiner": "Board of Supervisors meets Tuesdays at 2 pm; last meeting before winter recess is Dec 15"
+  },
+  {
+   "date": "2026-10-29",
+   "kind": "Housing",
+   "title": "Mayor signs legislation on renter protections against unwarranted evictions and hidden rental fees",
+   "detail": "Listed in the Office of the Mayor's news on Oct 29. Agorri has not yet read the full release; see the link for what the law does and when it takes effect.",
+   "source": {
+    "label": "Office of the Mayor, Oct 29",
+    "url": "https://www.sf.gov/es/news-mayor-lurie-signs-legislation-protecting-renters-from-unwarranted-evictions-hidden-rental-fees/"
+   },
+   "needs_review": true,
+   "review_note": "Title translated from the Spanish-language listing; release body not read."
+  },
+  {
+   "date": "2026-10-23",
+   "kind": "Emergency",
+   "title": "Mayor declares a local emergency to prepare for El Niño storms",
+   "detail": "Listed in the Office of the Mayor's news on Oct 23. Agorri has not yet read the full release; see the link for what the declaration covers.",
+   "source": {
+    "label": "Office of the Mayor, Oct 23",
+    "url": "https://www.sf.gov/es/news-mayor-lurie-declares-local-emergency-to-strengthen-san-franciscos-el-nino-preparedness/"
+   },
+   "needs_review": true,
+   "review_note": "Title translated from the Spanish-language listing; release body not read."
+  },
+  {
+   "date": "2026-10-29",
+   "kind": "Transit",
+   "title": "Geary Boulevard sewer and water work moves some 38 Geary and 38R stops (through 2027)",
+   "detail": "SFPUC is replacing sewer and water lines on Geary Boulevard between 32nd Avenue and Stanyan Street. Some 38 Geary and 38R Geary Rapid stops are temporarily relocated nearby; look for orange signs at affected stops.",
+   "source": {
+    "label": "SFMTA weekly advisory, Oct 29",
+    "url": "https://www.sfmta.com/press-releases/sfmta-transit-and-traffic-advisory-week-thursday-october-29-through-wednesday-november-4-2026"
+   },
+   "oneLiner": "Some 38 Geary stops are moved for sewer and water work between 32nd Ave and Stanyan"
+  },
+  {
+   "date": "2026-10-29",
+   "kind": "Roads",
+   "title": "Potrero Yard rebuild: trenching and sidewalk work on Hampshire, Bryant, 17th and Mariposa streets",
+   "detail": "SFMTA is replacing the bus yard at 2500 Mariposa Street (through 2030). Daytime work 7 am to 8 pm weekdays, with some overnight work 11 pm to 4 am. Expect lane shifts and temporary parking restrictions around Mariposa, Bryant, 17th and Hampshire streets.",
+   "source": {
+    "label": "SFMTA weekly advisory, Oct 29",
+    "url": "https://www.sfmta.com/press-releases/sfmta-transit-and-traffic-advisory-week-thursday-october-29-through-wednesday-november-4-2026"
+   }
+  }
+ ],
+ "election": {
+  "date": "2026-11-03",
+  "status": "Counting. Results are preliminary until certified.",
+  "hours": "Polls were open 7:00 am to 8:00 pm at 501 neighborhood polling places and the City Hall Voting Center.",
+  "hoursSource": {
+   "label": "Department of Elections, Nov 3",
+   "url": "https://www.sf.gov/news-today-is-election-day-for-the-november-3-2026-consolidated-general-election/"
+  },
+  "ballot": {
+   "federalState": "Candidates for federal and state offices, including the U.S. House and statewide offices, plus statewide propositions.",
+   "local": "Board of Supervisors in Districts 2, 4, 6, 8 and 10; Board of Education (three seats; some non-citizen parents and guardians may vote in this contest); ten local measures (A to J) and one regional measure.",
+   "localSource": {
+    "label": "Mission Local 2026 elections guide",
+    "url": "https://missionlocal.org/2026-elections/"
+   },
+   "measures": [
+    {
+     "letter": "A",
+     "title": "Charter Changes Affecting Various City Departments and Commissions",
+     "type": "Charter amendment"
+    },
+    {
+     "letter": "B",
+     "title": "Establishing a Municipal Finance Corporation and a Public Bank",
+     "type": "Charter amendment"
+    },
+    {
+     "letter": "C",
+     "title": "Contributions to the Housing Fund",
+     "type": "Charter amendment"
+    },
+    {
+     "letter": "D",
+     "title": "Changes to Ballot Measure Process",
+     "type": "Charter amendment"
+    },
+    {
+     "letter": "E",
+     "title": "City Administrator's Authority and Changes to City Contracting",
+     "type": "Charter amendment"
+    },
+    {
+     "letter": "F",
+     "title": "Changes to Executive Branch Management",
+     "type": "Charter amendment"
+    },
+    {
+     "letter": "G",
+     "title": "Allowing Private Vehicles on the Great Highway in Sunset Dunes Park",
+     "type": "Ordinance"
+    },
+    {
+     "letter": "H",
+     "title": "Parcel Tax to Fund Public Muni Operations",
+     "type": "Ordinance (parcel tax)"
+    },
+    {
+     "letter": "I",
+     "title": "Changes to Real Property Transfer Tax",
+     "type": "Ordinance (tax)"
+    },
+    {
+     "letter": "J",
+     "title": "Removal of Foreclosure Exemption for Real Property Transfer Tax",
+     "type": "Ordinance (tax)"
+    },
+    {
+     "letter": "RTM",
+     "title": "Regional Transit Measure",
+     "type": "Regional measure"
+    }
+   ],
+   "measuresSource": {
+    "label": "Department of Elections, qualified measures",
+    "url": "https://www.sf.gov/qualified-ballot-measures"
+   },
+   "sampleBallot": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf"
+  },
+  "results": {
+   "url": "https://sfelections.org/results",
+   "stateUrl": "https://www.sos.ca.gov/elections/prior-elections/statewide-election-results",
+   "schedule": "Election night reports at about 8:45, 9:45 and 10:45 pm, then a final election night report. From Nov 4, a daily estimate of ballots left to count, and updated preliminary results at about 4 pm daily through Nov 13 (none on Nov 11), then further updates as ballots are counted. Ranked-choice contests show round-by-round results.",
+   "mailBallots": "Mail ballots postmarked by Nov 3 count if received within seven days.",
+   "certification": "Earliest Wednesday, Nov 25, 2026; final results certified by Thursday, Dec 3, 2026.",
+   "source": {
+    "label": "Department of Elections, Oct 26",
+    "url": "https://www.sf.gov/news-the-department-of-elections-announces-results-reporting-timeline-for-the-november-3-2026-consolidated-general-election"
+   }
+  },
+  "caveat": "Preliminary results only. Agorri could not open the Department of Elections results page on the morning of Nov 4, 2026, so no vote counts are shown here. The headlines below are election-night news reports, not official results, and races can change as ballots are counted.",
+  "reported": [
+   {
+    "title": "San Francisco's first-ever public bank measure in tight race, but trending up",
+    "url": "https://missionlocal.org/2026/11/san-francisco-public-bank-prop-b-2026-results/",
+    "date": "2026-11-04",
+    "asOf": "2026-11-04 00:04",
+    "outlet": "Mission Local"
+   },
+   {
+    "title": "Three incumbent S.F. supervisors on track to easily win reelection, backed by similar allies",
+    "url": "https://missionlocal.org/2026/11/three-incumbent-sf-supervisors-win-reelection/",
+    "date": "2026-11-03",
+    "asOf": "2026-11-04 00:14",
+    "outlet": "Mission Local"
+   },
+   {
+    "title": "Measures to rescue BART, Muni from financial ruin winning with unexpected ease",
+    "url": "https://missionlocal.org/2026/11/san-francisco-election-results-transit-proposition-h-rtm/",
+    "date": "2026-11-03",
+    "asOf": "2026-11-04 02:26",
+    "outlet": "Mission Local"
+   },
+   {
+    "title": "Phil Kim wins school-board reelection, other GrowSF candidates likely to win",
+    "url": "https://missionlocal.org/2026/11/san-francisco-school-board-race-results/",
+    "date": "2026-11-03",
+    "asOf": "2026-11-04 00:19",
+    "outlet": "Mission Local"
+   },
+   {
+    "title": "One San Francisco affordable-housing measure set to pass, another unlikely to succeed",
+    "url": "https://missionlocal.org/2026/11/san-francisco-affordable-housing-measures-2026-election-results/",
+    "date": "2026-11-03",
+    "asOf": "2026-11-04 00:47",
+    "outlet": "Mission Local"
+   },
+   {
+    "title": "Mayor Lurie's effort to consolidate City Hall power coasting to victory",
+    "url": "https://missionlocal.org/2026/11/mayor-daniel-lurie-san-francisco-charter-reform-city-hall/",
+    "date": "2026-11-03",
+    "asOf": "2026-11-04 00:34",
+    "outlet": "Mission Local"
+   },
+   {
+    "title": "Great Highway measure Prop. G fails. Sunset Dunes will stay a park.",
+    "url": "https://missionlocal.org/2026/11/sf-great-highway-sunset-dunes-prop-g/",
+    "date": "2026-11-03",
+    "asOf": "2026-11-04 00:13",
+    "outlet": "Mission Local"
+   },
+   {
+    "title": "Theo Ellington overwhelmingly wins race for Bayview-Hunters Point supervisor",
+    "url": "https://missionlocal.org/2026/11/theo-ellington-district-10-supervisor-victory-san-francisco/",
+    "date": "2026-11-03",
+    "asOf": "2026-11-04 00:29",
+    "outlet": "Mission Local"
+   },
+   {
+    "title": "Gary McCoy declares victory in Castro supervisor race",
+    "url": "https://missionlocal.org/2026/11/san-francisco-district-8-castro-supervisor-results/",
+    "date": null,
+    "asOf": null,
+    "outlet": "Mission Local"
+   }
+  ],
+  "reportedNote": "Times are as shown on Mission Local's homepage (last updated), morning of Nov 4. Headlines and links only.",
+  "source": {
+   "label": "Department of Elections, Nov 3 election page",
+   "url": "https://www.sf.gov/november-3-2026-consolidated-general-election"
+  },
+  "needs_review": true,
+  "review_note": "Preliminary results as of Mission Local's last updates (about 12:13 am to 2:26 am, Nov 4, 2026). Official counts not yet read from sfelections.org. Offices on the ballot come from Mission Local, not the Department of Elections."
+ },
+ "social": {
+  "feedNote": "Posts from these accounts are not pulled in yet, except where feeds.json lists a source. When the live feed runs, Agorri shows official posts word for word with the time and a link back, no replies or comments, newest first, never ranked.",
+  "accounts": [
+   {
+    "who": "City and County of San Francisco",
+    "level": "City",
+    "role": "City of San Francisco",
+    "platform": "Facebook",
+    "url": "https://www.facebook.com/SF",
+    "type": "Official",
+    "source": "https://www.sf.gov/news-mayor-lurie-moves-to-bring-nearly-2400-new-homes-to-western-addition-following-years-of-community-advocacy"
+   },
+   {
+    "who": "City and County of San Francisco",
+    "level": "City",
+    "role": "City of San Francisco",
+    "platform": "Instagram",
+    "url": "https://www.instagram.com/sfgov",
+    "type": "Official",
+    "source": "https://www.sf.gov/news-mayor-lurie-moves-to-bring-nearly-2400-new-homes-to-western-addition-following-years-of-community-advocacy"
+   },
+   {
+    "who": "City and County of San Francisco",
+    "level": "City",
+    "role": "City of San Francisco",
+    "platform": "Threads",
+    "url": "https://www.threads.net/@sfgov",
+    "type": "Official",
+    "source": "https://www.sf.gov/news-mayor-lurie-moves-to-bring-nearly-2400-new-homes-to-western-addition-following-years-of-community-advocacy"
+   },
+   {
+    "who": "City and County of San Francisco",
+    "level": "City",
+    "role": "City of San Francisco",
+    "platform": "X",
+    "url": "https://x.com/sfgov",
+    "type": "Official",
+    "source": "https://www.sf.gov/news-mayor-lurie-moves-to-bring-nearly-2400-new-homes-to-western-addition-following-years-of-community-advocacy"
+   },
+   {
+    "who": "City and County of San Francisco",
+    "level": "City",
+    "role": "City of San Francisco",
+    "platform": "Bluesky",
+    "url": "https://bsky.app/profile/sfgov.sf.gov",
+    "type": "Official",
+    "source": "https://www.sf.gov/news-mayor-lurie-moves-to-bring-nearly-2400-new-homes-to-western-addition-following-years-of-community-advocacy"
+   },
+   {
+    "who": "San Francisco Police Department",
+    "level": "City",
+    "role": "Police",
+    "platform": "Facebook",
+    "url": "https://www.facebook.com/SFPD",
+    "type": "Official",
+    "source": "https://www.sanfranciscopolice.org/node/2301"
+   },
+   {
+    "who": "San Francisco Police Department",
+    "level": "City",
+    "role": "Police",
+    "platform": "X",
+    "url": "https://x.com/SFPD",
+    "type": "Official",
+    "source": "https://www.sanfranciscopolice.org/node/2301"
+   },
+   {
+    "who": "San Francisco Police Department",
+    "level": "City",
+    "role": "Police",
+    "platform": "Instagram",
+    "url": "https://www.instagram.com/sfpdofficial",
+    "type": "Official",
+    "source": "https://www.sanfranciscopolice.org/node/2301"
+   },
+   {
+    "who": "San Francisco Police Department",
+    "level": "City",
+    "role": "Police",
+    "platform": "Vimeo",
+    "url": "https://www.vimeo.com/sfpd/videos",
+    "type": "Official",
+    "source": "https://www.sanfranciscopolice.org/node/2301"
+   },
+   {
+    "who": "San Francisco Police Department",
+    "level": "City",
+    "role": "Police",
+    "platform": "Nextdoor",
+    "url": "https://www.nextdoor.com/agency-detail/ca/san-francisco/sfpd/",
+    "type": "Official",
+    "source": "https://www.sanfranciscopolice.org/node/2301"
+   },
+   {
+    "who": "San Francisco Fire Department",
+    "level": "City",
+    "role": "Fire",
+    "platform": "Facebook",
+    "url": "https://www.facebook.com/yoursffd",
+    "type": "Official",
+    "source": "https://sf-fire.org/node/14"
+   },
+   {
+    "who": "San Francisco Fire Department",
+    "level": "City",
+    "role": "Fire",
+    "platform": "X",
+    "url": "https://twitter.com/sffdpio",
+    "type": "Official",
+    "source": "https://sf-fire.org/node/14"
+   },
+   {
+    "who": "San Francisco Fire Department",
+    "level": "City",
+    "role": "Fire",
+    "platform": "Instagram",
+    "url": "https://www.instagram.com/sffdpio/",
+    "type": "Official",
+    "source": "https://sf-fire.org/node/14"
+   }
+  ],
+  "notListed": [
+   {
+    "who": "Mayor Daniel Lurie (Office of the Mayor)",
+    "why": "The Mayor's office page and profile list only the City's shared accounts (above), not separate Mayor accounts. Office contact: (415) 554-6141, daniel.lurie@sfgov.org.",
+    "source": "https://www.sf.gov/departments--office-mayor"
+   },
+   {
+    "who": "Board of Supervisors (11 members)",
+    "why": "sfbos.org lists no social accounts. Individual supervisors' pages were not checked for this file.",
+    "source": "https://www.sfbos.org/"
+   },
+   {
+    "who": "SFMTA (Muni), Department of Elections, Recreation and Park, Public Library, Public Works",
+    "why": "Not yet checked against each department's own site."
+   }
+  ],
+  "rules": "Official means the account is listed by the office itself. Personal accounts are never listed. No account is added from memory or a search result; each row links to where it was found."
+ },
+ "links": [
+  {
+   "name": "Election results (Department of Elections)",
+   "url": "https://sfelections.org/results",
+   "note": "Preliminary until certified."
+  },
+  {
+   "name": "Weekly transit and traffic advisory (SFMTA)",
+   "url": "https://www.sfmta.com/press-releases/sfmta-transit-and-traffic-advisory-week-thursday-october-29-through-wednesday-november-4-2026"
+  },
+  {
+   "name": "Holiday parking enforcement (SFMTA)",
+   "url": "https://www.sfmta.com/vi/node/654"
+  },
+  {
+   "name": "Trash holiday calendar (Recology)",
+   "url": "https://www.recology.com/recology-san-francisco/holiday-calendar/"
+  },
+  {
+   "name": "Board of Supervisors meeting schedule",
+   "url": "https://www.sf.gov/regularly-scheduled-board-of-supervisors-meetings"
+  },
+  {
+   "name": "Watch meetings on SFGovTV",
+   "url": "https://www.sf.gov/departments--san-francisco-government-tv"
+  },
+  {
+   "name": "SFPD news releases",
+   "url": "https://www.sanfranciscopolice.org/news",
+   "note": "Posted by the department. Agorri does not republish names."
+  },
+  {
+   "name": "Find your fire station",
+   "url": "https://sf-fire.org/node/846"
+  },
+  {
+   "name": "311 City services",
+   "url": "https://sf311.org/"
+  }
+ ],
+ "newsSources": [
+  {
+   "name": "City and County of San Francisco news (sf.gov)",
+   "url": "https://www.sf.gov/",
+   "status": "used"
+  },
+  {
+   "name": "Mission Local",
+   "url": "https://missionlocal.org/",
+   "status": "used (headlines on Home)"
+  },
+  {
+   "name": "San Francisco Chronicle",
+   "url": "https://www.sfchronicle.com/",
+   "status": "paywalled, not used"
+  },
+  {
+   "name": "The San Francisco Standard",
+   "url": "https://sfstandard.com/",
+   "status": "not yet connected"
+  },
+  {
+   "name": "San Francisco Examiner",
+   "url": "https://www.sfexaminer.com/",
+   "status": "not yet connected"
+  },
+  {
+   "name": "KQED",
+   "url": "https://www.kqed.org/news",
+   "status": "not yet connected"
+  },
+  {
+   "name": "KTVU",
+   "url": "https://www.ktvu.com/",
+   "status": "used (business)"
+  }
+ ],
+ "events_as_of": "2026-11-04",
+ "events": [
+  {
+   "date": "2026-11-04",
+   "time": "12:00 pm to 2:00 pm",
+   "title": "Golden State Valkyries WNBA championship parade",
+   "venue": "The Embarcadero, Ferry Building to Second and King streets",
+   "town": "San Francisco",
+   "kind": "Civic",
+   "url": "https://www.sf.gov/es/news-mayor-lurie-unveils-plans-for-victory-parade-for-wnba-champion-golden-state-valkyries/",
+   "source": "Office of the Mayor",
+   "price": "Free",
+   "note": "Fans can gather along the route from 9 am. Take transit."
+  },
+  {
+   "date": "2026-11-07",
+   "time": "10:00 am to 3:00 pm",
+   "title": "Día de los Muertos and Diwali celebration with fire ceremony",
+   "venue": "Crissy Field Center, Presidio Tunnel Tops",
+   "town": "San Francisco",
+   "kind": "Festival",
+   "url": "https://sf.funcheap.com/sfs-free-da-de-los-muertos-diwali-celebration-fire-ceremony-presido-tunnel-tops/",
+   "source": "Funcheap SF",
+   "price": "Free",
+   "needs_review": true,
+   "review_note": "From the Funcheap SF listing, not the organizer. Confirm with the organizer."
+  },
+  {
+   "date": "2026-11-07",
+   "time": "11:00 am to 1:30 pm",
+   "title": "District 2 Marina Family Summit",
+   "venue": "Marina Middle School",
+   "town": "San Francisco",
+   "kind": "Civic",
+   "url": "https://sf.funcheap.com/district-2-marina-family-summit/",
+   "source": "Funcheap SF",
+   "price": "Free",
+   "note": "Food and childcare provided, per the listing.",
+   "needs_review": true,
+   "review_note": "From the Funcheap SF listing, not the organizer. Confirm with the organizer."
+  },
+  {
+   "date": "2026-11-07",
+   "time": "12:00 pm to 4:00 pm",
+   "title": "Fall Cider Fest",
+   "venue": "SPARK Social SF, 601 Mission Bay Blvd. North",
+   "town": "San Francisco",
+   "kind": "Food",
+   "url": "https://sf.funcheap.com/2026-san-francisco-fall-cider-fest-unlimited-tastings-of-30-ciders/",
+   "source": "Funcheap SF",
+   "price": "From $45 (21+)",
+   "needs_review": true,
+   "review_note": "From the Funcheap SF listing, not the organizer. Confirm with the organizer."
+  },
+  {
+   "date": "2026-11-07",
+   "time": "2:00 pm",
+   "title": "Peter Pan Goes Wrong (runs through Nov 28)",
+   "venue": "San Francisco Playhouse",
+   "town": "San Francisco",
+   "kind": "Theater",
+   "url": "https://sf.funcheap.com/5-off-tix-san-francisco-playhouses-peter-pan-goes-wrong-sept-26-nov-28-3/",
+   "source": "Funcheap SF",
+   "price": "From $55",
+   "needs_review": true,
+   "review_note": "From the Funcheap SF listing, not the organizer. Confirm with the organizer."
+  },
+  {
+   "date": "2026-11-07",
+   "time": "9:30 am to 4:30 pm",
+   "title": "SF Coffee Festival (Nov 7 and 8)",
+   "venue": "Fort Mason Center Festival Pavilion",
+   "town": "San Francisco",
+   "kind": "Food",
+   "url": "https://sf.funcheap.com/sf-coffee-festival-2026-coffee-tastings-live-music-nov-7-8/",
+   "source": "Funcheap SF",
+   "price": "From $29",
+   "needs_review": true,
+   "review_note": "From the Funcheap SF listing, not the organizer. Confirm with the organizer."
+  },
+  {
+   "date": "2026-11-07",
+   "time": "9:30 am to 5:15 pm",
+   "title": "Free Saturdays at the de Young for Bay Area residents",
+   "venue": "de Young Museum, Golden Gate Park",
+   "town": "San Francisco",
+   "kind": "Museum",
+   "url": "https://sf.funcheap.com/free-de-young-museum-day-for-bay-area-residents-every-saturday-343/",
+   "source": "Funcheap SF",
+   "price": "Free with Bay Area ID",
+   "note": "Every Saturday. Timed tickets required; permanent collection only.",
+   "needs_review": true,
+   "review_note": "From the Funcheap SF listing, not the organizer. Confirm with the organizer."
+  },
+  {
+   "date": "2026-11-07",
+   "time": "9:30 am to 5:15 pm",
+   "title": "Free Saturdays at the Legion of Honor for Bay Area residents",
+   "venue": "Legion of Honor",
+   "town": "San Francisco",
+   "kind": "Museum",
+   "url": "https://sf.funcheap.com/free-legion-of-honor-museum-day-for-bay-area-residents-every-saturday-341/",
+   "source": "Funcheap SF",
+   "price": "Free with Bay Area ID",
+   "note": "Every Saturday. Timed tickets required; permanent collection only.",
+   "needs_review": true,
+   "review_note": "From the Funcheap SF listing, not the organizer. Confirm with the organizer."
+  },
+  {
+   "date": "2026-11-08",
+   "time": "10:00 am to 4:00 pm",
+   "title": "Inner Sunset Flea Market (season finale)",
+   "venue": "Irving Street, 9th to 11th avenues",
+   "town": "San Francisco",
+   "kind": "Market",
+   "url": "https://sf.funcheap.com/sfs-inner-sunset-flea-market-2026-w-sunset-mercantile-every-2nd-sunday-7/",
+   "source": "Funcheap SF",
+   "price": "Free",
+   "needs_review": true,
+   "review_note": "From the Funcheap SF listing, not the organizer. Confirm with the organizer."
+  },
+  {
+   "date": "2026-11-08",
+   "time": "1:00 pm to 5:00 pm",
+   "title": "San Francisco Diwali Festival",
+   "venue": "Great Lawn, Yerba Buena Gardens",
+   "town": "San Francisco",
+   "kind": "Festival",
+   "url": "https://sf.funcheap.com/san-francisco-diwali-festival-yerba-buena-gardens-2026/",
+   "source": "Funcheap SF",
+   "price": "Free (RSVP encouraged)",
+   "needs_review": true,
+   "review_note": "From the Funcheap SF listing, not the organizer. Confirm with the organizer."
+  },
+  {
+   "date": "2026-11-08",
+   "time": "5:45 pm",
+   "title": "Arab Film Festival: Edward Said: Between Worlds",
+   "venue": "Castro Theatre",
+   "town": "San Francisco",
+   "kind": "Film",
+   "url": "https://sf.funcheap.com/edward-said-between-worlds-at-the-arab-film-festival-bay-area-premiere/",
+   "source": "Funcheap SF",
+   "price": "From $20",
+   "needs_review": true,
+   "review_note": "From the Funcheap SF listing, not the organizer. Confirm with the organizer."
+  },
+  {
+   "date": "2026-11-10",
+   "time": "2:00 pm",
+   "title": "Board of Supervisors meeting (Mayor scheduled to appear)",
+   "venue": "City Hall, 1 Dr. Carlton B. Goodlett Place",
+   "town": "San Francisco",
+   "kind": "Civic",
+   "url": "https://www.sf.gov/regularly-scheduled-board-of-supervisors-meetings",
+   "source": "Board of Supervisors",
+   "price": "Free",
+   "note": "Live on SFGovTV Channel 26. Mayoral appearances can be rescheduled; check the agenda."
+  },
+  {
+   "date": "2026-11-13",
+   "time": "4:00 pm to 9:00 pm",
+   "title": "Bhangra and Beats Diwali Night Market",
+   "venue": "Great Lawn, Yerba Buena Gardens",
+   "town": "San Francisco",
+   "kind": "Festival",
+   "url": "https://sf.funcheap.com/bhangra-beats-night-market-yerba-buena-gardens-festival-2026-2/",
+   "source": "Funcheap SF",
+   "price": "Free",
+   "needs_review": true,
+   "review_note": "From the Funcheap SF listing, not the organizer. Confirm with the organizer."
+  },
+  {
+   "date": "2026-11-13",
+   "time": "5:00 pm to 8:00 pm",
+   "title": "Holiday performing arts showcase under LED lights",
+   "venue": "Fulton Plaza, Civic Center",
+   "town": "San Francisco",
+   "kind": "Holiday",
+   "url": "https://sf.funcheap.com/sfs-free-holiday-performing-arts-showcase-1200-led-lights-civic-center/",
+   "source": "Funcheap SF",
+   "price": "Free",
+   "needs_review": true,
+   "review_note": "From the Funcheap SF listing, not the organizer. Confirm with the organizer."
+  },
+  {
+   "date": "2026-11-13",
+   "time": "6:00 pm to 10:00 pm",
+   "title": "Filipino Cultural District mural reveal and block party",
+   "venue": "Jessie West Alley at 5th and Mission",
+   "town": "San Francisco",
+   "kind": "Arts",
+   "url": "https://sf.funcheap.com/free-mahallove-mural-unveiling-fashion-show-mini-block-party-sf/",
+   "source": "Funcheap SF",
+   "price": "Free with RSVP",
+   "needs_review": true,
+   "review_note": "From the Funcheap SF listing, not the organizer. Confirm with the organizer."
+  },
+  {
+   "date": "2026-11-14",
+   "time": "",
+   "title": "Mission Branch Library reopens",
+   "venue": "3359 24th Street",
+   "town": "San Francisco",
+   "kind": "Library",
+   "url": "https://sfpl.org/releases?page=1",
+   "source": "San Francisco Public Library",
+   "price": "Free"
+  },
+  {
+   "date": "2026-11-14",
+   "time": "10:00 am to 5:00 pm",
+   "title": "SF Tea Festival (Nov 14 and 15)",
+   "venue": "Ferry Building",
+   "town": "San Francisco",
+   "kind": "Food",
+   "url": "https://sf.funcheap.com/2026-sf-tea-festival-at-ferry-building-nov-14-15/",
+   "source": "Funcheap SF",
+   "price": "From $24",
+   "needs_review": true,
+   "review_note": "From the Funcheap SF listing, not the organizer. Confirm with the organizer."
+  },
+  {
+   "date": "2026-11-14",
+   "time": "11:00 am to 1:30 pm",
+   "title": "District 4 Sunset Family Summit",
+   "venue": "Sunset Recreation Center",
+   "town": "San Francisco",
+   "kind": "Civic",
+   "url": "https://sf.funcheap.com/district-4-sunset-family-summit/",
+   "source": "Funcheap SF",
+   "price": "Free",
+   "note": "Food and childcare provided, per the listing.",
+   "needs_review": true,
+   "review_note": "From the Funcheap SF listing, not the organizer. Confirm with the organizer."
+  },
+  {
+   "date": "2026-11-14",
+   "time": "11:00 am to 5:00 pm",
+   "title": "Renegade Craft holiday fair (Nov 14 and 15)",
+   "venue": "Fort Mason Center Festival Pavilion",
+   "town": "San Francisco",
+   "kind": "Market",
+   "url": "https://sf.funcheap.com/sfs-renegade-craft-holiday-2026-fair-250-makers-fort-mason-nov-1415/",
+   "source": "Funcheap SF",
+   "price": "Free (suggested $5)",
+   "needs_review": true,
+   "review_note": "From the Funcheap SF listing, not the organizer. Confirm with the organizer."
+  },
+  {
+   "date": "2026-11-14",
+   "time": "11:00 am to 5:00 pm",
+   "title": "Free day at the Museum of the African Diaspora",
+   "venue": "Museum of the African Diaspora (MoAD)",
+   "town": "San Francisco",
+   "kind": "Museum",
+   "url": "https://sf.funcheap.com/moad-museum-of-the-african-diaspora-free-museum-day-sf-45/",
+   "source": "Funcheap SF",
+   "price": "Free",
+   "needs_review": true,
+   "review_note": "From the Funcheap SF listing, not the organizer. Confirm with the organizer."
+  },
+  {
+   "date": "2026-11-14",
+   "time": "3:00 pm to 5:00 pm",
+   "title": "Civic Music free concert",
+   "venue": "Noe Valley Ministry",
+   "town": "San Francisco",
+   "kind": "Music",
+   "url": "https://sf.funcheap.com/sfs-civic-music-free-concerts-2026-4/",
+   "source": "Funcheap SF",
+   "price": "Free (RSVP)",
+   "needs_review": true,
+   "review_note": "From the Funcheap SF listing, not the organizer. Confirm with the organizer."
+  },
+  {
+   "date": "2026-11-17",
+   "time": "2:00 pm",
+   "title": "Board of Supervisors meeting",
+   "venue": "City Hall, 1 Dr. Carlton B. Goodlett Place",
+   "town": "San Francisco",
+   "kind": "Civic",
+   "url": "https://www.sf.gov/regularly-scheduled-board-of-supervisors-meetings",
+   "source": "Board of Supervisors",
+   "price": "Free",
+   "note": "Live on SFGovTV Channel 26. No meeting Nov 24."
+  },
+  {
+   "date": "2026-11-21",
+   "time": "10:00 am to 4:00 pm",
+   "title": "Secondhand Saturday (season finale)",
+   "venue": "Sunset Community Mercantile",
+   "town": "San Francisco",
+   "kind": "Market",
+   "url": "https://sf.funcheap.com/sfs-secondhand-saturday-2025-w-sunset-mercantile-season-finale/",
+   "source": "Funcheap SF",
+   "price": "Free",
+   "needs_review": true,
+   "review_note": "From the Funcheap SF listing, not the organizer. Confirm with the organizer."
+  },
+  {
+   "date": "2026-11-27",
+   "time": "4:30 pm to 8:00 pm",
+   "title": "Ghirardelli Square tree lighting",
+   "venue": "Ghirardelli Square",
+   "town": "San Francisco",
+   "kind": "Holiday",
+   "url": "https://sf.funcheap.com/ghirardelli-squares-holiday-lighting-ceremony/",
+   "source": "Funcheap SF",
+   "price": "Free",
+   "needs_review": true,
+   "review_note": "From the Funcheap SF listing, not the organizer. Confirm with the organizer."
+  },
+  {
+   "date": "2026-12-01",
+   "time": "2:00 pm",
+   "title": "Board of Supervisors meeting",
+   "venue": "City Hall, 1 Dr. Carlton B. Goodlett Place",
+   "town": "San Francisco",
+   "kind": "Civic",
+   "url": "https://www.sf.gov/regularly-scheduled-board-of-supervisors-meetings",
+   "source": "Board of Supervisors",
+   "price": "Free",
+   "note": "Live on SFGovTV Channel 26."
+  },
+  {
+   "date": "2026-12-04",
+   "time": "6:00 pm to 10:00 pm",
+   "title": "Let's Glow SF opening night",
+   "venue": "Harry Bridges Plaza",
+   "town": "San Francisco",
+   "kind": "Holiday",
+   "url": "https://sf.funcheap.com/lets-glow-sf/",
+   "source": "Funcheap SF",
+   "price": "Free",
+   "needs_review": true,
+   "review_note": "From the Funcheap SF listing, not the organizer. Confirm with the organizer."
+  },
+  {
+   "date": "2026-12-05",
+   "time": "5:30 pm to 10:00 pm",
+   "title": "Let's Glow SF light projections (nightly through Dec 13)",
+   "venue": "Financial District",
+   "town": "San Francisco",
+   "kind": "Holiday",
+   "url": "https://sf.funcheap.com/lets-glow-sf-2026-sfs-huge-holiday-projection-arts-festival-dec-4-13/",
+   "source": "Funcheap SF",
+   "price": "Free",
+   "needs_review": true,
+   "review_note": "From the Funcheap SF listing, not the organizer. Confirm with the organizer."
+  },
+  {
+   "date": "2026-12-08",
+   "time": "2:00 pm",
+   "title": "Board of Supervisors meeting",
+   "venue": "City Hall, 1 Dr. Carlton B. Goodlett Place",
+   "town": "San Francisco",
+   "kind": "Civic",
+   "url": "https://www.sf.gov/regularly-scheduled-board-of-supervisors-meetings",
+   "source": "Board of Supervisors",
+   "price": "Free",
+   "note": "Live on SFGovTV Channel 26."
+  },
+  {
+   "date": "2026-12-15",
+   "time": "2:00 pm",
+   "title": "Board of Supervisors meeting, last before winter recess (Mayor scheduled to appear)",
+   "venue": "City Hall, 1 Dr. Carlton B. Goodlett Place",
+   "town": "San Francisco",
+   "kind": "Civic",
+   "url": "https://www.sf.gov/regularly-scheduled-board-of-supervisors-meetings",
+   "source": "Board of Supervisors",
+   "price": "Free",
+   "note": "Winter recess Dec 16 to Jan 7. Mayoral appearances can be rescheduled; check the agenda."
+  }
+ ],
+ "eventsNote": "Events from the City (Office of the Mayor, Board of Supervisors, Public Library) and the Funcheap SF listings, checked Nov 4. Funcheap items are marked for review; confirm with the organizer. Not yet connected: sfrecpark.org, SFPL's event calendar, Chase Center, SF Symphony, SF Ballet, SF Station.",
+ "posts": [
+  {
+   "who": "Department of Elections",
+   "platform": "City website",
+   "when": "2026-11-03",
+   "gist": "Election Day: 501 polling places and the City Hall Voting Center open 7 am to 8 pm; four preliminary results reports after polls close.",
+   "url": "https://www.sf.gov/news-today-is-election-day-for-the-november-3-2026-consolidated-general-election/",
+   "snap": true
+  },
+  {
+   "who": "Office of the Mayor",
+   "platform": "City website",
+   "when": "2026-11-02",
+   "gist": "Mayor signs legislation strengthening San Francisco's wholesale produce market.",
+   "url": "https://www.sf.gov/es/news-mayor-lurie-signs-legislation-strengthening-san-franciscos-wholesale-produce-market/",
+   "snap": true
+  },
+  {
+   "who": "Office of the Mayor",
+   "platform": "City website",
+   "when": "2026-11-01",
+   "gist": "Mayor announces the Nov 4 victory parade for the WNBA champion Golden State Valkyries along the Embarcadero.",
+   "url": "https://www.sf.gov/es/news-mayor-lurie-unveils-plans-for-victory-parade-for-wnba-champion-golden-state-valkyries/",
+   "snap": true
+  },
+  {
+   "who": "Office of the Mayor",
+   "platform": "City website",
+   "when": "2026-10-30",
+   "gist": "Mayor signs legislation expanding the landmark at the site of the Compton's Cafeteria riot.",
+   "url": "https://www.sf.gov/es/news-mayor-lurie-signs-legislation-expanding-landmark-at-site-of-historic-comptons-cafeteria-riot/",
+   "snap": true
+  },
+  {
+   "who": "Office of the Mayor",
+   "platform": "City website",
+   "when": "2026-10-29",
+   "gist": "Mayor signs legislation on renter protections against unwarranted evictions and hidden rental fees.",
+   "url": "https://www.sf.gov/es/news-mayor-lurie-signs-legislation-protecting-renters-from-unwarranted-evictions-hidden-rental-fees/",
+   "snap": true
+  },
+  {
+   "who": "Office of the Mayor",
+   "platform": "City website",
+   "when": "2026-10-23",
+   "gist": "Mayor signs legislation streamlining the process to build housing.",
+   "url": "https://www.sf.gov/es/news-mayor-lurie-signs-legislation-streamlining-process-to-build-housing-in-san-francisco/",
+   "snap": true
+  },
+  {
+   "who": "Office of the Mayor",
+   "platform": "City website",
+   "when": "2026-10-23",
+   "gist": "Mayor declares a local emergency to prepare for El Niño.",
+   "url": "https://www.sf.gov/es/news-mayor-lurie-declares-local-emergency-to-strengthen-san-franciscos-el-nino-preparedness/",
+   "snap": true
+  },
+  {
+   "who": "Office of the Mayor",
+   "platform": "City website",
+   "when": "2026-10-20",
+   "gist": "Mayor introduces legislation for Freedom West 2.0 in the Western Addition, which could bring nearly 2,400 homes, more than 17% expected to be affordable.",
+   "url": "https://www.sf.gov/news-mayor-lurie-moves-to-bring-nearly-2400-new-homes-to-western-addition-following-years-of-community-advocacy",
+   "snap": true
+  },
+  {
+   "who": "Office of the Mayor",
+   "platform": "City website",
+   "when": "2026-10-16",
+   "gist": "Mayor marks upgrades to three public basketball courts with the Valkyries and Warriors.",
+   "url": "https://www.sf.gov/es/news-mayor-lurie-celebrates-upgrades-to-three-public-basketball-courts-in-partnership-with-wnba-valkyries-and-warriors/",
+   "snap": true
+  },
+  {
+   "who": "Office of the Mayor",
+   "platform": "City website",
+   "when": "2026-10-15",
+   "gist": "Mayor reports an 84% drop in speeding where automated speed cameras operate.",
+   "url": "https://www.sf.gov/es/news-mayor-lurie-delivers-progress-on-street-safety-initiative-announcing-84-drop-in-speeding-due-to-automated-speed-safety-cameras/",
+   "snap": true
+  }
+ ],
+ "postsAsOf": "2026-11-04T15:00:00Z",
+ "postsNote": "Snapshot, not live. These are City releases from sf.gov; most links open the Spanish-language listing of each release because that is the version Agorri could open, and summaries are from the release titles. Social posts from Facebook, Instagram, X and Threads need API access or a collector before they can appear here.",
+ "notHere": [
+  {
+   "title": "Live election counts",
+   "text": "The Department of Elections results page could not be read for this file. Use the official page for current counts.",
+   "url": "https://sfelections.org/results",
+   "label": "results"
+  },
+  {
+   "title": "Fire news",
+   "text": "The Fire Department's press room had no releases from the last 60 days when checked.",
+   "url": "https://sf-fire.org/news-alerts/press-room",
+   "label": "SFFD press room"
+  }
+ ],
+ "safety": {
+  "as_of": "2026-11-04",
+  "note": "Compiled from SFPD and San Francisco Fire Department pages, Fire Commission minutes and City pages. Items list SFPD press releases by title, date and neighborhood only; no names of people involved.",
+  "alerts": {
+   "name": "AlertSF: text your ZIP code to 888-777",
+   "url": "https://sf-fire.org/node/14"
+  },
+  "police": {
+   "name": "San Francisco Police Department",
+   "chief": {
+    "name": "Derrick Lew",
+    "since": "2025",
+    "src": "https://www.sanfranciscopolice.org/node/2301"
+   },
+   "emergency": "911",
+   "nonEmergency": "(415) 553-0123",
+   "address": "1245 3rd Street, San Francisco, CA 94158 (Headquarters)",
+   "site": "https://www.sanfranciscopolice.org/",
+   "oversight": "The Police Commission and the Department of Police Accountability, both listed on the department's site.",
+   "logsUrl": null,
+   "logsNote": "No daily call log was found on the SFPD news pages checked; the department's numbered press releases are listed below.",
+   "logDigest": [],
+   "stats": [],
+   "statsNote": "No current-year SFPD figures were opened for this file.",
+   "recent": [
+    {
+     "date": "2026-10-30",
+     "kind": "Arrest",
+     "title": "SFPD arrests suspect in a fatal hit-and-run",
+     "detail": "SFPD press release #26-136. Agorri lists the release by its title only; open the link for details.",
+     "area": null,
+     "source": {
+      "label": "SFPD news, Oct 30",
+      "url": "https://www.sanfranciscopolice.org/news/sfpd-arrests-fatal-hit-and-run-suspect-26-136"
+     }
+    },
+    {
+     "date": "2026-10-29",
+     "kind": "Arrest",
+     "title": "SFPD arrests suspects in possession of assault weapons",
+     "detail": "SFPD press release #26-135. Agorri lists the release by its title only; open the link for details.",
+     "area": null,
+     "source": {
+      "label": "SFPD news, Oct 29",
+      "url": "https://www.sanfranciscopolice.org/news/sfpd-arrests-suspects-possession-assault-weapons-26-135"
+     }
+    },
+    {
+     "date": "2026-10-26",
+     "kind": "Arrest",
+     "title": "Suspect in a fatal hit-and-run collision booked for second-degree murder",
+     "detail": "SFPD press release #26-134. Agorri lists the release by its title only; open the link for details.",
+     "area": null,
+     "source": {
+      "label": "SFPD news, Oct 26",
+      "url": "https://www.sanfranciscopolice.org/news/sfpd-books-suspect-fatal-hit-and-run-collision-second-degree"
+     }
+    },
+    {
+     "date": "2026-10-25",
+     "kind": "Investigation",
+     "title": "SFPD investigates a homicide in the Tenderloin",
+     "detail": "SFPD press release #26-133. Agorri lists the release by its title only; open the link for details.",
+     "area": "Tenderloin",
+     "source": {
+      "label": "SFPD news, Oct 25",
+      "url": "https://www.sanfranciscopolice.org/news/sfpd-investigates-tenderloin-district-homicide-26-133"
+     }
+    },
+    {
+     "date": "2026-10-21",
+     "kind": "Enforcement",
+     "title": "SFPD seizes hundreds of items illegally for sale at city smoke shops",
+     "detail": "SFPD press release #26-132. Agorri lists the release by its title only; open the link for details.",
+     "area": null,
+     "source": {
+      "label": "SFPD news, Oct 21",
+      "url": "https://www.sanfranciscopolice.org/news/sfpd-seizes-hundreds-items-illegally-sale-city-smoke-shops"
+     }
+    },
+    {
+     "date": "2026-10-20",
+     "kind": "Traffic",
+     "title": "DUI saturation operation set for Friday, Oct 23",
+     "detail": "SFPD press release #26-131. Agorri lists the release by its title only; open the link for details.",
+     "area": null,
+     "source": {
+      "label": "SFPD news, Oct 20",
+      "url": "https://www.sanfranciscopolice.org/news/sfpd-conduct-dui-saturation-operation-friday-october-23-2026"
+     }
+    },
+    {
+     "date": "2026-10-20",
+     "kind": "Arrest",
+     "title": "Arrest in a Bayview homicide (case 26-130)",
+     "detail": "SFPD press release #26-130(a). Agorri lists the release by its title only; open the link for details.",
+     "area": "Bayview",
+     "source": {
+      "label": "SFPD news, Oct 20",
+      "url": "https://www.sanfranciscopolice.org/news/sfpd-arrests-bayview-district-homicide-suspect-26-130a"
+     }
+    },
+    {
+     "date": "2026-10-20",
+     "kind": "Arrest",
+     "title": "Arrest in an earlier Bayview homicide (case 26-119)",
+     "detail": "SFPD press release #26-119(a). Agorri lists the release by its title only; open the link for details.",
+     "area": "Bayview",
+     "source": {
+      "label": "SFPD news, Oct 20",
+      "url": "https://www.sanfranciscopolice.org/news/sfpd-arrests-bayview-district-homicide-suspect-26-119a"
+     }
+    },
+    {
+     "date": "2026-10-17",
+     "kind": "Investigation",
+     "title": "SFPD investigates a homicide in the Bayview",
+     "detail": "SFPD press release #26-130. Agorri lists the release by its title only; open the link for details.",
+     "area": "Bayview",
+     "source": {
+      "label": "SFPD news, Oct 17",
+      "url": "https://www.sanfranciscopolice.org/news/sfpd-investigates-homicide-bayview-district-26-130"
+     }
+    },
+    {
+     "date": "2026-10-15",
+     "kind": "Community",
+     "title": "SFPD recognizes Officers of the Month for April, May and June",
+     "detail": "SFPD press release #26-129. Agorri lists the release by its title only; open the link for details.",
+     "area": null,
+     "source": {
+      "label": "SFPD news, Oct 15",
+      "url": "https://www.sanfranciscopolice.org/news/sfpd-recognizes-officers-month-april-may-and-june-26-129"
+     }
+    }
+   ],
+   "programs": [],
+   "programsNote": "SFPD program pages were not checked for this file.",
+   "social": [
+    {
+     "platform": "Facebook",
+     "url": "https://www.facebook.com/SFPD"
+    },
+    {
+     "platform": "X",
+     "url": "https://x.com/SFPD"
+    },
+    {
+     "platform": "Instagram",
+     "url": "https://www.instagram.com/sfpdofficial"
+    },
+    {
+     "platform": "Vimeo",
+     "url": "https://www.vimeo.com/sfpd/videos"
+    },
+    {
+     "platform": "Nextdoor",
+     "url": "https://www.nextdoor.com/agency-detail/ca/san-francisco/sfpd/"
+    }
+   ]
+  },
+  "fire": {
+   "name": "San Francisco Fire Department",
+   "chief": {
+    "name": "Dean Crispen",
+    "since": "2025",
+    "src": "https://www.sf.gov/dean-crispen"
+   },
+   "emergency": "911 (call or text)",
+   "nonEmergency": "311 for City services; Fire Department headquarters (415) 558-3200",
+   "address": "698 2nd Street, San Francisco, CA 94107 (Headquarters)",
+   "site": "https://sf-fire.org/",
+   "oversight": "Fire Commission, five commissioners; regular meetings once a month in City Hall, Room 416, under rules amended in June 2026.",
+   "oversightSrc": "https://sf-fire.org/media/4121/download",
+   "stats": [
+    {
+     "label": "Calls, May",
+     "value": 15420,
+     "year": "2026",
+     "src": "https://sf-fire.org/media/4129/download"
+    },
+    {
+     "label": "Calls, June",
+     "value": 14716,
+     "year": "2026",
+     "src": "https://sf-fire.org/media/4129/download"
+    },
+    {
+     "label": "Fire stations (45 in the city, 3 at SFO)",
+     "value": 48,
+     "year": null,
+     "src": "https://sf-fire.org/node/846"
+    }
+   ],
+   "recent": [],
+   "recentNote": "The department's press room showed no releases from the last 60 days when checked Nov 4, 2026 (newest dated Jan 23, 2026).",
+   "recentSrc": "https://sf-fire.org/news-alerts/press-room",
+   "programs": [
+    {
+     "name": "NERT",
+     "detail": "Neighborhood Emergency Response Team, the department's volunteer disaster-response training.",
+     "url": "https://sf-fire.org/node/1580"
+    },
+    {
+     "name": "Fire prevention and permits",
+     "detail": "Call (415) 558-3200.",
+     "url": "https://www.sf.gov/dean-crispen"
+    },
+    {
+     "name": "Anonymous arson tips",
+     "detail": "Hotline (415) 558-3200.",
+     "url": "https://www.sf.gov/dean-crispen"
+    }
+   ],
+   "social": [
+    {
+     "platform": "Facebook",
+     "url": "https://www.facebook.com/yoursffd"
+    },
+    {
+     "platform": "X",
+     "url": "https://twitter.com/sffdpio"
+    },
+    {
+     "platform": "Instagram",
+     "url": "https://www.instagram.com/sffdpio/"
+    }
+   ],
+   "stations": [],
+   "stationsSummary": {
+    "text": "48 stations: 45 in San Francisco and 3 at SFO. Use the department's Find Your Station page.",
+    "url": "https://sf-fire.org/node/846"
+   },
+   "burnPermits": null,
+   "liveIncidents": null,
+   "logsUrl": null
+  },
+  "benchmarks": null,
+  "benchmarksNote": "Not shown: same-year San Francisco and California FBI figures (2024) were found, but a matching U.S. figure could not be opened for this file."
+ },
+ "paper": {
+  "name": "Mission Local",
+  "url": "https://missionlocal.org/",
+  "asOf": "2026-11-04",
+  "note": "Newest Mission Local news stories as of the morning of Nov 4. Opinion columns and one headline with a dash were skipped.",
+  "headlines": [
+   {
+    "title": "San Francisco's first-ever public bank measure in tight race, but trending up",
+    "url": "https://missionlocal.org/2026/11/san-francisco-public-bank-prop-b-2026-results/",
+    "date": "2026-11-04"
+   },
+   {
+    "title": "California billionaire tax, Prop. 40, trailing in early results",
+    "url": "https://missionlocal.org/2026/11/california-billionaire-tax-election-results-2026/",
+    "date": "2026-11-03"
+   },
+   {
+    "title": "Three incumbent S.F. supervisors on track to easily win reelection, backed by similar allies",
+    "url": "https://missionlocal.org/2026/11/three-incumbent-sf-supervisors-win-reelection/",
+    "date": "2026-11-03"
+   },
+   {
+    "title": "Jane Kim neck-and-neck with Ben Allen in race for California insurance commissioner",
+    "url": "https://missionlocal.org/2026/11/california-insurance-commissioner-election-results-2026-jane-kim-ben-allen/",
+    "date": "2026-11-03"
+   },
+   {
+    "title": "Measures to rescue BART, Muni from financial ruin winning with unexpected ease",
+    "url": "https://missionlocal.org/2026/11/san-francisco-election-results-transit-proposition-h-rtm/",
+    "date": "2026-11-03"
+   },
+   {
+    "title": "Phil Kim wins school-board reelection, other GrowSF candidates likely to win",
+    "url": "https://missionlocal.org/2026/11/san-francisco-school-board-race-results/",
+    "date": "2026-11-03"
+   },
+   {
+    "title": "One San Francisco affordable-housing measure set to pass, another unlikely to succeed",
+    "url": "https://missionlocal.org/2026/11/san-francisco-affordable-housing-measures-2026-election-results/",
+    "date": "2026-11-03"
+   },
+   {
+    "title": "Mayor Lurie's effort to consolidate City Hall power coasting to victory",
+    "url": "https://missionlocal.org/2026/11/mayor-daniel-lurie-san-francisco-charter-reform-city-hall/",
+    "date": "2026-11-03"
+   }
+  ]
+ }
+}

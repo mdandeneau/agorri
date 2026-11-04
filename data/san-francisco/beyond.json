@@ -1,0 +1,365 @@
+{
+ "as_of": "2026-11-04",
+ "note": "Officeholders and districts as listed by the SF Department of Elections (sf.gov), the California State Senate, the SF Public Library's February 2026 legislator directory and Ballotpedia, checked Nov 4, 2026, the day after the Nov 3 general election. Results named here are preliminary election night counts and calls as reported by news outlets; the Department of Elections and Secretary of State results pages could not be opened in this session. Positions are the officials' own quoted words with the source and year. Nothing here is characterized or scored.",
+ "ballot_note": "The Nov 3, 2026 general election was yesterday. Governor and the other statewide offices, the U.S. House seats for Districts 11 and 15, Assembly Districts 17 and 19 and Board of Equalization District 2 were on San Francisco ballots. The State Senate District 11 seat was not on the ballot. Results are preliminary and are counted for weeks; San Francisco expects to certify by Dec 3, 2026. Winners replace the names below once results are certified.",
+ "ballot_note_src": {
+  "label": "SF.gov, November 3, 2026 Consolidated General Election",
+  "url": "https://www.sf.gov/november-3-2026-consolidated-general-election"
+ },
+ "ward_reps": {
+  "1": [
+   "pelosi",
+   "stefani"
+  ],
+  "2": [
+   "pelosi",
+   "haney",
+   "stefani"
+  ],
+  "3": [
+   "pelosi",
+   "haney",
+   "stefani"
+  ],
+  "4": [
+   "pelosi",
+   "stefani"
+  ],
+  "5": [
+   "pelosi",
+   "haney",
+   "stefani"
+  ],
+  "6": [
+   "pelosi",
+   "haney"
+  ],
+  "7": [
+   "pelosi",
+   "mullin",
+   "haney",
+   "stefani"
+  ],
+  "8": [
+   "pelosi",
+   "haney",
+   "stefani"
+  ],
+  "9": [
+   "pelosi",
+   "mullin",
+   "haney"
+  ],
+  "10": [
+   "pelosi",
+   "mullin",
+   "haney"
+  ],
+  "11": [
+   "pelosi",
+   "mullin",
+   "haney",
+   "stefani"
+  ]
+ },
+ "ward_reps_note": "Assembly and U.S. House members for each supervisor district, from the registered voters each district has in those races (Department of Elections, Nov 3, 2026 district Statement of the Vote). Some districts are split between two.",
+ "needs_review": true,
+ "review_note": "Districts confirmed from sf.gov (page updated through Dec 2025) and the Nov 3, 2026 candidate list; boundaries under the Proposition 50 (2025) congressional map were not described by any official page opened. Results and calls are from news outlets, not the Department of Elections.",
+ "levels": [
+  {
+   "id": "federal",
+   "title": "Federal",
+   "blurb": "Two U.S. senators and two representatives. San Francisco is split between California's 11th and 15th Congressional Districts; which one is yours depends on your address (SF Department of Elections district lookup). Both districts were on the Nov 3, 2026 San Francisco ballot. The current congressional lines come from Proposition 50 (2025), per Ballotpedia.",
+   "src": [
+    {
+     "label": "SF Department of Elections, Your voting districts and representatives",
+     "url": "https://www.sf.gov/reports--november-2022--your-voting-districts-and-representatives"
+    },
+    {
+     "label": "SF Department of Elections, Candidates, Nov 3, 2026",
+     "url": "https://www.sf.gov/candidates-november-3-2026-general-election"
+    },
+    {
+     "label": "Ballotpedia, California's 11th Congressional District",
+     "url": "https://ballotpedia.org/California's_11th_Congressional_District"
+    }
+   ],
+   "people": [
+    "padilla",
+    "schiff",
+    "pelosi",
+    "mullin"
+   ]
+  },
+  {
+   "id": "state",
+   "title": "State",
+   "blurb": "The Governor (and the projected governor-elect), your State Senator (all of San Francisco is in Senate District 11, which also takes in part of San Mateo County), your Assembly member (the city is split between Assembly Districts 17 and 19) and your Board of Equalization member (District 2), which hears tax appeals and oversees some state taxes.",
+   "src": [
+    {
+     "label": "SF Department of Elections, Your voting districts and representatives",
+     "url": "https://www.sf.gov/reports--november-2022--your-voting-districts-and-representatives"
+    },
+    {
+     "label": "California State Senate, District 11",
+     "url": "https://www.senate.ca.gov/senators/11"
+    }
+   ],
+   "people": [
+    "newsom",
+    "becerra",
+    "wiener",
+    "haney",
+    "stefani",
+    "lieber"
+   ]
+  }
+ ],
+ "levels_note": "San Francisco is a consolidated city and county, so there is no separate county government level; the Mayor, Board of Supervisors and citywide officers cover both roles and are in the city record.",
+ "people": {
+  "padilla": {
+   "name": "Alex Padilla",
+   "party": "D",
+   "office": "U.S. Senator",
+   "level": "federal",
+   "since": null,
+   "status": "Not on the Nov 3, 2026 ballot.",
+   "positions": [],
+   "caveat": "No position statements gathered in this session; his official site could not be opened. First year in office not confirmed from a source opened today.",
+   "src": {
+    "label": "California Congressional Delegation roster, June 2026",
+    "url": "https://www.peacecorpsconnect.org/wp-content/uploads/2026/07/California-Congressional-Delegation-June-2026-1.pdf"
+   },
+   "contact": "(415) 981-9369 · 333 Bush Street, Suite 3225, San Francisco",
+   "contactSrc": {
+    "label": "SF Public Library, Contacting Your Legislators (Feb 2026)",
+    "url": "https://sfpl.org/sites/default/files/2026-02/Contacting-Your-Legislators%20%28SFPL-903%29%20-%20February%202026.pdf"
+   },
+   "needs_review": true,
+   "review_note": "Two directories give different Washington office addresses (331 Hart per the June 2026 roster, 112 Hart per SFPL); only the San Francisco office is listed here."
+  },
+  "schiff": {
+   "name": "Adam Schiff",
+   "party": "D",
+   "office": "U.S. Senator",
+   "level": "federal",
+   "since": null,
+   "status": "Not on the Nov 3, 2026 ballot.",
+   "positions": [],
+   "caveat": "No position statements gathered in this session; his official site could not be opened. First year in office not confirmed from a source opened today.",
+   "src": {
+    "label": "California Congressional Delegation roster, June 2026",
+    "url": "https://www.peacecorpsconnect.org/wp-content/uploads/2026/07/California-Congressional-Delegation-June-2026-1.pdf"
+   },
+   "contact": "(415) 393-0707 · One Post Street, Suite 2450, San Francisco",
+   "contactSrc": {
+    "label": "SF Public Library, Contacting Your Legislators (Feb 2026)",
+    "url": "https://sfpl.org/sites/default/files/2026-02/Contacting-Your-Legislators%20%28SFPL-903%29%20-%20February%202026.pdf"
+   },
+   "needs_review": true,
+   "review_note": "Two directories give different Washington office addresses (112 Hart per the June 2026 roster, SD-B40B Dirksen per SFPL); only the San Francisco office is listed here."
+  },
+  "pelosi": {
+   "name": "Nancy Pelosi",
+   "party": "D",
+   "office": "U.S. Representative, District 11",
+   "level": "federal",
+   "since": "2023",
+   "status": "Not on the 2026 ballot; Ballotpedia lists her as withdrawn from the June 2 primary. The District 11 seat was on the Nov 3 ballot (Scott Wiener and Connie Chan). Preliminary election night results showed Wiener ahead; the race had not been called as of the morning of Nov 4.",
+   "statusSrc": {
+    "label": "Ballotpedia, California's 11th Congressional District",
+    "url": "https://ballotpedia.org/California's_11th_Congressional_District"
+   },
+   "positions": [],
+   "caveat": "\"Since\" is the year the district took the number 11 (Jan 3, 2023, per Ballotpedia); her earlier service under other district numbers is not covered here. No position statements gathered; her official site could not be opened.",
+   "src": {
+    "label": "SF Department of Elections, Your voting districts and representatives",
+    "url": "https://www.sf.gov/reports--november-2022--your-voting-districts-and-representatives"
+   },
+   "contact": "(415) 556-4862 · 90 7th Street, Suite 2-800, San Francisco",
+   "contactSrc": {
+    "label": "SF Public Library, Contacting Your Legislators (Feb 2026)",
+    "url": "https://sfpl.org/sites/default/files/2026-02/Contacting-Your-Legislators%20%28SFPL-903%29%20-%20February%202026.pdf"
+   },
+   "needs_review": true,
+   "review_note": "Seat changes hands in January 2027; update when the race is called and certified."
+  },
+  "mullin": {
+   "name": "Kevin Mullin",
+   "party": "D",
+   "office": "U.S. Representative, District 15",
+   "level": "federal",
+   "since": "2023",
+   "status": "On the Nov 3, 2026 ballot against Charles Hoelter (R). KQED shows the race called at 8:43 p.m. Nov 3, and the SF Standard results page marks him the winner. Preliminary.",
+   "statusSrc": {
+    "label": "KQED, 2026 San Francisco Election Results (AP and county data, 11:53 p.m. Nov 3)",
+    "url": "https://www.kqed.org/elections/results/sanfrancisco"
+   },
+   "positions": [],
+   "caveat": "District 15 covers part of San Francisco and part of San Mateo County; no official page opened describes which San Francisco neighborhoods it includes under the 2025 map. His district office is in San Mateo. No position statements gathered; his official site could not be opened.",
+   "src": {
+    "label": "Wikipedia, California's 15th congressional district",
+    "url": "https://en.wikipedia.org/wiki/California%27s_15th_congressional_district"
+   },
+   "contact": "(650) 342-0300 · 1528 S. Camino Real, Suite 307, San Mateo",
+   "contactSrc": {
+    "label": "SF Public Library, Contacting Your Legislators (Feb 2026)",
+    "url": "https://sfpl.org/sites/default/files/2026-02/Contacting-Your-Legislators%20%28SFPL-903%29%20-%20February%202026.pdf"
+   },
+   "needs_review": true,
+   "review_note": "First year in office from Wikipedia (secondary). Result is preliminary."
+  },
+  "newsom": {
+   "name": "Gavin Newsom",
+   "party": "",
+   "office": "Governor of California",
+   "level": "state",
+   "since": null,
+   "status": "Term-limited, so not on the ballot. The Nov 3, 2026 race to succeed him was between Xavier Becerra (D) and Steve Hilton (R).",
+   "statusSrc": {
+    "label": "Wikipedia, 2026 California elections",
+    "url": "https://en.wikipedia.org/wiki/2026_California_elections"
+   },
+   "positions": [],
+   "caveat": "Party and first year in office were not stated in the sources opened for this file. No position statements gathered.",
+   "src": {
+    "label": "SF Public Library, Contacting Your Legislators (Feb 2026)",
+    "url": "https://sfpl.org/sites/default/files/2026-02/Contacting-Your-Legislators%20%28SFPL-903%29%20-%20February%202026.pdf"
+   },
+   "contact": "(916) 445-2841 · 1021 O St., Suite 9000, Sacramento",
+   "needs_review": true,
+   "review_note": "Party and start year left blank because no source opened today stated them."
+  },
+  "becerra": {
+   "name": "Xavier Becerra",
+   "party": "D",
+   "office": "Governor-elect of California (projected)",
+   "level": "state",
+   "since": null,
+   "status": "Projected winner of the Nov 3, 2026 governor's race. The SF Standard reports that the AP and NBC called the race for him at 8:03 p.m. Nov 3; NBC Bay Area's results page shows him as NBC News's projected winner. Statewide preliminary count as shown by the SF Standard on Nov 4, 7 a.m.: 4,992,161 votes (63.9%) to Steve Hilton's 2,815,459 (36.1%). Not yet in office.",
+   "statusSrc": {
+    "label": "SF Standard live blog, Nov 3, 2026",
+    "url": "https://sfstandard.com/2026/11/03/live-blog-election-midterm-2026/"
+   },
+   "positions": [],
+   "caveat": "No position statements gathered in this session. Results are preliminary until the Secretary of State certifies them.",
+   "src": {
+    "label": "NBC Bay Area, California governor and state offices results",
+    "url": "https://www.nbcbayarea.com/news/local/california-governor-state-offices-election-results/4164847/"
+   },
+   "needs_review": true,
+   "review_note": "Preliminary results and media calls; vote counts are statewide figures from the SF Standard results page, not from the Secretary of State."
+  },
+  "wiener": {
+   "name": "Scott Wiener",
+   "party": "D",
+   "office": "State Senator, District 11",
+   "level": "state",
+   "since": "2016",
+   "status": "District 11 covers all of San Francisco and part of San Mateo County. His Senate term runs to Dec 4, 2028 (Ballotpedia). He was on the Nov 3, 2026 ballot for U.S. House District 11 and led Connie Chan in preliminary results (87,641 to 70,511, about half the vote counted, per KQED at 11:53 p.m. Nov 3); not called as of the morning of Nov 4. If he wins, the Senate seat would become vacant.",
+   "statusSrc": {
+    "label": "KQED, 2026 San Francisco Election Results (AP and county data, 11:53 p.m. Nov 3)",
+    "url": "https://www.kqed.org/elections/results/sanfrancisco"
+   },
+   "positions": [
+    [
+     "Immigration enforcement",
+     "Abolish ICE",
+     "\"ICE has become a terror organization. We must abolish ICE and hold officials and agents accountable for lawless behavior.\"",
+     "Congressional campaign website, 2026 (via Ballotpedia)"
+    ],
+    [
+     "Israel and Palestine",
+     "Two states side by side",
+     "\"Scott believes Israel and Palestine must co-exist side by side in peace.\"",
+     "Congressional campaign website, 2026 (via Ballotpedia)"
+    ]
+   ],
+   "src": {
+    "label": "Ballotpedia, Scott Wiener",
+    "url": "https://ballotpedia.org/Scott_Wiener"
+   },
+   "contact": "(415) 557-1300 · 455 Golden Gate Avenue, Suite 14800, San Francisco",
+   "contactSrc": {
+    "label": "California State Senate, District 11",
+    "url": "https://www.senate.ca.gov/senators/11"
+   },
+   "needs_review": true,
+   "review_note": "The statement that the Senate seat would become vacant if he wins is a consequence of the race, not a sourced announcement. Update after CA-11 is called."
+  },
+  "haney": {
+   "name": "Matt Haney",
+   "party": "D",
+   "office": "Assembly Member, District 17",
+   "level": "house",
+   "since": null,
+   "status": "One of San Francisco's two Assembly districts. Reelected Nov 3, 2026 over Manuel Noris-Barrera (R), preliminary: 84,457 (88.9%) to 10,513 (11.1%); KQED shows the race called at 11:06 p.m. Nov 3.",
+   "statusSrc": {
+    "label": "KQED, 2026 San Francisco Election Results (AP and county data, 11:53 p.m. Nov 3)",
+    "url": "https://www.kqed.org/elections/results/sanfrancisco"
+   },
+   "positions": [],
+   "caveat": "First year in office not confirmed from a source opened today. No position statements gathered.",
+   "src": {
+    "label": "SF Department of Elections, Your voting districts and representatives",
+    "url": "https://www.sf.gov/reports--november-2022--your-voting-districts-and-representatives"
+   },
+   "contact": "(415) 557-3013 · 455 Golden Gate Ave., Suite 14300, San Francisco",
+   "contactSrc": {
+    "label": "SF Public Library, Contacting Your Legislators (Feb 2026)",
+    "url": "https://sfpl.org/sites/default/files/2026-02/Contacting-Your-Legislators%20%28SFPL-903%29%20-%20February%202026.pdf"
+   },
+   "needs_review": true,
+   "review_note": "Result preliminary."
+  },
+  "stefani": {
+   "name": "Catherine Stefani",
+   "party": "D",
+   "office": "Assembly Member, District 19",
+   "level": "house",
+   "since": "2024",
+   "status": "One of San Francisco's two Assembly districts. Reelected Nov 3, 2026 over Philip Louis Wing (R), preliminary: 79,673 (81.2%) to 18,393 (18.8%); KQED shows the race called at 9:20 p.m. Nov 3.",
+   "statusSrc": {
+    "label": "KQED, 2026 San Francisco Election Results (AP and county data, 11:53 p.m. Nov 3)",
+    "url": "https://www.kqed.org/elections/results/sanfrancisco"
+   },
+   "positions": [],
+   "caveat": "\"Since\" is from Wikipedia's account that she won the Assembly seat in 2024, after which the Mayor appointed her successor on the Board of Supervisors in December 2024. No position statements gathered.",
+   "src": {
+    "label": "SF Department of Elections, Your voting districts and representatives",
+    "url": "https://www.sf.gov/reports--november-2022--your-voting-districts-and-representatives"
+   },
+   "contact": "(415) 557-2312 · 455 Golden Gate Ave., Suite 14600, San Francisco",
+   "contactSrc": {
+    "label": "SF Public Library, Contacting Your Legislators (Feb 2026)",
+    "url": "https://sfpl.org/sites/default/files/2026-02/Contacting-Your-Legislators%20%28SFPL-903%29%20-%20February%202026.pdf"
+   },
+   "needs_review": true,
+   "review_note": "Start year from a secondary source; result preliminary."
+  },
+  "lieber": {
+   "name": "Sally J. Lieber",
+   "party": "D",
+   "office": "Board of Equalization, District 2",
+   "level": "state",
+   "since": null,
+   "status": "Incumbent, on the Nov 3, 2026 ballot against John Pimentel (D). No results for this race were found in the sources opened.",
+   "statusSrc": {
+    "label": "California Secretary of State results API, BOE District 2, San Francisco",
+    "url": "https://api.sos.ca.gov/returns/board-of-equalization/district/2/county/san-francisco"
+   },
+   "positions": [],
+   "caveat": "The Secretary of State results feed showed only a pre-election zero report (Nov 2, 6:28 p.m.) when opened. First year in office not confirmed. No position statements gathered.",
+   "src": {
+    "label": "Wikipedia, 2026 California elections",
+    "url": "https://en.wikipedia.org/wiki/2026_California_elections"
+   },
+   "needs_review": true,
+   "review_note": "Incumbency from Wikipedia (secondary). Result unknown; check the Secretary of State."
+  }
+ },
+ "ward_reps_source": {
+  "label": "SF Department of Elections, Preliminary District Statement of the Vote (report 4)",
+  "url": "https://www.sfelections.org/results/20261103/data/20261103_4/dsov.xlsx"
+ }
+}

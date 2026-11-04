@@ -1,0 +1,49 @@
+{
+ "note": "One statement a day for residents to agree or disagree with. Each comes from an open San Francisco issue and is worded neutrally (rules in UPDATE.md). Only questions with status \"approved\" are shown. Results are what participants said, not what residents want.",
+ "questions": [
+  {
+   "id": "2026-11-05-public-bank",
+   "date": "2026-11-05",
+   "issue": "ballot2026",
+   "text": "San Francisco should set up a public bank, as Proposition B on the Nov 3 ballot proposes.",
+   "source": "https://www.sf.gov/qualified-ballot-measures",
+   "status": "draft",
+   "needs_review": true,
+   "review_note": "Prop B was too close to call on election night (49.8% yes per the SF Standard, Nov 4, 7 a.m.); reword if the count is final by this date."
+  },
+  {
+   "id": "2026-11-06-great-highway",
+   "date": "2026-11-06",
+   "issue": "ballot2026",
+   "text": "The Great Highway in Sunset Dunes park should stay closed to private vehicles.",
+   "source": "https://www.sf.gov/qualified-ballot-measures",
+   "status": "draft"
+  },
+  {
+   "id": "2026-11-07-muni",
+   "date": "2026-11-07",
+   "issue": "muni",
+   "text": "A parcel tax on property owners is a good way to help pay for Muni service.",
+   "source": "https://api.sf.gov/documents/52842/Legal_Text_3X0F1JU.pdf",
+   "status": "draft"
+  },
+  {
+   "id": "2026-11-08-transfer-tax",
+   "date": "2026-11-08",
+   "issue": "housing",
+   "text": "San Francisco should dedicate more of its real property transfer tax to affordable housing.",
+   "source": "https://api.sf.gov/documents/55542/05042026_LT_AfordableHousing.pdf",
+   "status": "draft",
+   "needs_review": true,
+   "review_note": "Based on Prop I (trailing, not called on election night). Check the legal text before approving; the one-line summary here is from SF Standard coverage."
+  },
+  {
+   "id": "2026-11-09-ballot-measures",
+   "date": "2026-11-09",
+   "issue": "ballot2026",
+   "text": "It should take more voter signatures to put a citizen initiative on the San Francisco ballot.",
+   "source": "https://api.sf.gov/documents/53002/Legal_Text_Changes_to_Ballot_Measure_Process.pdf",
+   "status": "draft"
+  }
+ ]
+}

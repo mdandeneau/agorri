@@ -163,6 +163,37 @@
    }
   },
   {
+   "id": "san-francisco",
+   "name": "San Francisco",
+   "state": "CA",
+   "stateName": "California",
+   "kind": "City",
+   "status": "live",
+   "site": "https://www.sf.gov/",
+   "files": {
+    "record": "data/san-francisco/record.json",
+    "local": "data/san-francisco/local.json",
+    "beyond": "data/san-francisco/beyond.json",
+    "feeds": "data/san-francisco/feeds.json",
+    "parks": "data/san-francisco/parks.json",
+    "business": "data/san-francisco/business.json",
+    "candidates": "data/san-francisco/candidates.json",
+    "questions": "data/san-francisco/questions.json",
+    "schools": "data/san-francisco/schools.json",
+    "sports": "data/san-francisco/sports.json",
+    "faith": "data/san-francisco/faith.json"
+   },
+   "photo": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/San_Francisco_City_Hall_September_2013_panorama_3.jpg/{w}px-San_Francisco_City_Hall_September_2013_panorama_3.jpg",
+    "alt": "San Francisco City Hall",
+    "author": "King of Hearts",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:San_Francisco_City_Hall_September_2013_panorama_3.jpg",
+    "pos": "50% 50%"
+   }
+  },
+  {
    "id": "dover",
    "name": "Dover",
    "state": "NH",
