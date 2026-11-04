@@ -186,6 +186,28 @@
    "stripLine": "Jackson Selectmen's Office closed Thursday"
   },
   {
+   "town": "Conway",
+   "date": "2026-11-04",
+   "kind": "Election",
+   "title": "Conway posts its Nov 3 general election results",
+   "detail": "The Town of Conway posted its count for the Nov 3 state general election as a PDF on its news page.",
+   "source": {
+    "label": "Town of Conway, November 3, 2026 Election Results",
+    "url": "https://conwaynh.gov/news/november-3-2026-election-results"
+   }
+  },
+  {
+   "town": "Freedom",
+   "date": "2026-11-04",
+   "kind": "Election",
+   "title": "Freedom posts its Nov 3 general election results",
+   "detail": "The Town of Freedom posted its count for the Nov 3 state general election as a PDF on its website.",
+   "source": {
+    "label": "Town of Freedom, 2026 Election, Nov 4",
+    "url": "https://townoffreedomnh.gov/2026/11/04/2026-election-results/"
+   }
+  },
+  {
    "date": "2026-11-04",
    "kind": "Event",
    "title": "Public invited to the Hannes Schneider arrival re-enactment, Nov 4 and 5",

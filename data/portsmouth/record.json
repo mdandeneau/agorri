@@ -1,7 +1,7 @@
 {
  "about": {
   "town": "Portsmouth, NH",
-  "as_of": "2026-11-03",
+  "as_of": "2026-11-04",
   "records_from": "2025-10-28",
   "documents_used": 593,
   "note": "Plain-English summaries written by AI from official city PDFs; every meeting carries its source URL. Items with needs_review=true are where the official record is ambiguous or self-contradictory."
@@ -10,12 +10,20 @@
   "date": "2026-11-16",
   "items": [
    {
-    "item": "Joint Capital Improvement Plan (CIP) work session with the Planning Board comes first, Thursday, Nov 12 at 6 pm",
-    "from": "2026-10-30"
+    "item": "Work session on the 361 Hanover Street Landscape and Pole Licenses, before the regular meeting",
+    "from": "2026-10-26"
    },
    {
-    "item": "Proposed on the Oct 26 agenda (outcome not yet in minutes): first reading of a new Sewer Use Ordinance, and a public hearing on giving up part of Cornwall Street",
-    "from": "2026-11-02"
+    "item": "Public hearing on giving up part of Cornwall Street",
+    "from": "2026-10-26"
+   },
+   {
+    "item": "First reading of a new Sewer Use Ordinance replacing the current one",
+    "from": "2026-10-26"
+   },
+   {
+    "item": "Joint Capital Improvement Plan (CIP) work session with the Planning Board comes first, Thursday, Nov 12 at 6 pm",
+    "from": "2026-10-30"
    }
   ]
  },
@@ -25,7 +33,7 @@
    "title": "Downtown parking and the resident parking pilot",
    "topic": "Parking & transportation",
    "status": "One-year pilot since July 1, 2026",
-   "next": "RAPP first-quarter report was on the Oct 26 agenda; minutes not yet posted (checked Nov 3). Shuttle working group reports back by Jan 29, 2027.",
+   "next": "Shuttle working group reports back by Jan 29, 2027.",
    "summary": "Since July 1, residents with registered plates park free in pilot zones near downtown while nonresidents pay. The council has spent much of 2026 adjusting rates and parking for downtown workers, and gets its first data on the pilot on Oct 26.",
    "points": [
     "Aug 17: raising downtown on-street rates to $3 an hour for 3 hours, then $6, failed 3-5. Yes: Moreau, Hopkins, Bagley. No: Kelley, Cook, Flynn, Blalock, McEachern.",
@@ -33,7 +41,8 @@
     "Sept 14: Parrott Avenue from Roger Street to Richards Avenue came out of the pilot, with 4 hours free, 5-3 on a roll call.",
     "Sept 28: downtown workforce parking opened to more downtown workers until March 1, 2027 (7-0).",
     "A Shuttle Loop and Public Transit Working Group reports back by Jan 29, 2027.",
-    "Nov 2: the Shuttle Loop and Public Transit Working Group's second meeting agenda covered barriers to riding, a downtown evening circulator, on-demand microtransit (Via) and a possible federal CMAQ grant application by COAST (80 percent federal, 20 percent City match), with a ranked project list to recommend to the Council."
+    "Nov 2: the Shuttle Loop and Public Transit Working Group's second meeting agenda covered barriers to riding, a downtown evening circulator, on-demand microtransit (Via) and a possible federal CMAQ grant application by COAST (80 percent federal, 20 percent City match), with a ranked project list to recommend to the Council.",
+    "Oct 26: the Council heard the RAPP first-quarter report and adopted staff recommendations on off-peak workweek parking for downtown employees (unanimous), and moved most parking rules from zoning into site plan review (9-0)."
    ],
    "keywords": [
     "parking",
@@ -54,6 +63,57 @@
    ],
    "scope": "council",
    "related": [
+    {
+     "date": "2026-10-26",
+     "body": "City Council",
+     "url": "https://files.portsmouthnh.gov/minutes/2026/citycouncil/10.26.26%20City%20Council%20Minutes%20DRAFT.pdf",
+     "d": {
+      "title": "Adopted the off-peak workweek parking recommendations",
+      "detail": "After the Resident Access Parking Program (RAPP) first-quarter report and the report on off-peak parking for downtown business employees, the Council adopted staff's recommendations.",
+      "outcome": "passed unanimously",
+      "moved_by": "Moreau",
+      "seconded_by": "Kelley",
+      "roll_call": null,
+      "dissent": [],
+      "topic": "Parking & transportation",
+      "dollars": null,
+      "ordinance_reading": null,
+      "needs_review": true,
+      "review_note": "Minutes say the Council adopted 'recommendations as presented' without listing them; check the presentation for what was adopted."
+     }
+    },
+    {
+     "date": "2026-10-26",
+     "body": "City Council",
+     "url": "https://files.portsmouthnh.gov/minutes/2026/citycouncil/10.26.26%20City%20Council%20Minutes%20DRAFT.pdf",
+     "d": {
+      "title": "Passed third and final reading moving most parking rules from zoning into site plan review",
+      "detail": "Parking rules for most projects, except one- and two-family homes, move from the Zoning Ordinance (Chapter 10) to the Site Plan Review Regulations. Councilor Moreau said the change allows more condition-based reviews; Councilor Tabor said it was also a goal of the Housing Committee.",
+      "outcome": "passed 9-0",
+      "moved_by": "Tabor",
+      "seconded_by": "Blalock",
+      "roll_call": {
+       "yes": [
+        "McEachern",
+        "Kelley",
+        "Cook",
+        "Tabor",
+        "Blalock",
+        "Bagley",
+        "Moreau",
+        "Flynn",
+        "Hopkins"
+       ],
+       "no": []
+      },
+      "dissent": [],
+      "topic": "Housing & zoning",
+      "dollars": null,
+      "ordinance_reading": "third",
+      "needs_review": false,
+      "review_note": null
+     }
+    },
     {
      "date": "2026-10-13",
      "body": "City Council",
@@ -710,7 +770,8 @@
     "Feb 17: the council voted to develop a Housing Action Plan by July 2026 and gave final approval to zoning changes on accessory dwelling units (backyard or in-home apartments).",
     "Aug 3: the draft went to the Planning Board, with public input sessions on Sept 23 and 28.",
     "Sept 17: the Planning Board recommended the council accept the plan.",
-    "Planning Board work continues on pre-approved accessory dwelling unit plans."
+    "Planning Board work continues on pre-approved accessory dwelling unit plans.",
+    "Oct 26: final approval, 9-0, to move parking rules for most projects (not one- and two-family homes) from the Zoning Ordinance to site plan review, a Housing Committee goal."
    ],
    "keywords": [
     "housing action",
@@ -727,6 +788,38 @@
    ],
    "scope": "all",
    "related": [
+    {
+     "date": "2026-10-26",
+     "body": "City Council",
+     "url": "https://files.portsmouthnh.gov/minutes/2026/citycouncil/10.26.26%20City%20Council%20Minutes%20DRAFT.pdf",
+     "d": {
+      "title": "Passed third and final reading moving most parking rules from zoning into site plan review",
+      "detail": "Parking rules for most projects, except one- and two-family homes, move from the Zoning Ordinance (Chapter 10) to the Site Plan Review Regulations. Councilor Moreau said the change allows more condition-based reviews; Councilor Tabor said it was also a goal of the Housing Committee.",
+      "outcome": "passed 9-0",
+      "moved_by": "Tabor",
+      "seconded_by": "Blalock",
+      "roll_call": {
+       "yes": [
+        "McEachern",
+        "Kelley",
+        "Cook",
+        "Tabor",
+        "Blalock",
+        "Bagley",
+        "Moreau",
+        "Flynn",
+        "Hopkins"
+       ],
+       "no": []
+      },
+      "dissent": [],
+      "topic": "Housing & zoning",
+      "dollars": null,
+      "ordinance_reading": "third",
+      "needs_review": false,
+      "review_note": null
+     }
+    },
     {
      "date": "2026-10-13",
      "body": "City Council",
@@ -1457,71 +1550,306 @@
   {
    "body": "City Council",
    "date": "2026-10-26",
-   "minutes_url": "https://files.portsmouthnh.gov/agendas/2026/City%20Council/City%20Council%20Agenda%2010.26.2026.pdf",
-   "minutes_status": "agenda only",
+   "minutes_url": "https://files.portsmouthnh.gov/minutes/2026/citycouncil/10.26.26%20City%20Council%20Minutes%20DRAFT.pdf",
+   "minutes_status": "draft",
    "ocr": false,
    "attendance": {
-    "present": [],
+    "present": [
+     "McEachern",
+     "Kelley",
+     "Cook",
+     "Tabor",
+     "Blalock",
+     "Bagley",
+     "Moreau",
+     "Flynn",
+     "Hopkins"
+    ],
     "absent": []
    },
-   "headline": "Agenda only: the Council was scheduled to hold the third and final reading on moving most parking rules out of the Zoning Ordinance, vote on borrowing up to $600,000 for fire apparatus, and hear the first-quarter report on resident parking. Minutes are not posted yet, so outcomes are not known.",
-   "decisions": [],
+   "headline": "The Council gave final approval 9-0 to moving most parking rules out of zoning, approved up to $600,000 in borrowing for a fire boat 8-1, accepted two federal police grants totaling $2.03 million, and set a Nov 16 work session on licenses for 361 Hanover Street.",
+   "decisions": [
+    {
+     "title": "Passed third and final reading moving most parking rules from zoning into site plan review",
+     "detail": "Parking rules for most projects, except one- and two-family homes, move from the Zoning Ordinance (Chapter 10) to the Site Plan Review Regulations. Councilor Moreau said the change allows more condition-based reviews; Councilor Tabor said it was also a goal of the Housing Committee.",
+     "outcome": "passed 9-0",
+     "moved_by": "Tabor",
+     "seconded_by": "Blalock",
+     "roll_call": {
+      "yes": [
+       "McEachern",
+       "Kelley",
+       "Cook",
+       "Tabor",
+       "Blalock",
+       "Bagley",
+       "Moreau",
+       "Flynn",
+       "Hopkins"
+      ],
+      "no": []
+     },
+     "dissent": [],
+     "topic": "Housing & zoning",
+     "dollars": null,
+     "ordinance_reading": "third",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Approved up to $600,000 in borrowing for a fire department boat",
+     "detail": "Resolution #15-2026 authorizes bonds or notes of up to $600,000 for fire apparatus. The hearing was held Aug 3; the vote waited on a FEMA Port Security Grant application, which was not successful. Councilor Blalock said $600,000 was too much to spend on a boat given other resources and agencies; Councilors Bagley, Hopkins and Cook cited recent rescue calls on the water. Fire Commissioner Gamester said the present boat is no longer suitable. Two residents spoke, one urging a regional water response team.",
+     "outcome": "passed 8-1",
+     "moved_by": "Bagley",
+     "seconded_by": "Moreau",
+     "roll_call": {
+      "yes": [
+       "McEachern",
+       "Kelley",
+       "Cook",
+       "Tabor",
+       "Bagley",
+       "Moreau",
+       "Flynn",
+       "Hopkins"
+      ],
+      "no": [
+       "Blalock"
+      ]
+     },
+     "dissent": [
+      "Blalock"
+     ],
+     "topic": "Public safety",
+     "dollars": 600000,
+     "ordinance_reading": null,
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Accepted a sidewalk easement at 361 Hanover Street and set a work session on the other licenses",
+     "detail": "The Council split the item. It accepted the Sidewalk Easement from 361 Hanover Steam Factory, LLC, and scheduled a work session before the Nov 16 meeting on the Landscape License and Pole License, after councilors asked for more on the green space, liability and Eversource's reasons for the size and place of a ground-mounted transformer. Councilor Moreau recused herself.",
+     "outcome": "passed unanimously",
+     "moved_by": "Bagley",
+     "seconded_by": "Hopkins",
+     "roll_call": null,
+     "dissent": [],
+     "topic": "Housing & zoning",
+     "dollars": null,
+     "ordinance_reading": null,
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Approved the Fire Officers agreement",
+     "detail": "Memorandum of Agreement with the Portsmouth Professional Fire Officers Association, Local #4039, with a correction to the pay scale.",
+     "outcome": "passed unanimously",
+     "moved_by": "Cook",
+     "seconded_by": "Kelley",
+     "roll_call": null,
+     "dissent": [],
+     "topic": "Public safety",
+     "dollars": null,
+     "ordinance_reading": null,
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Scheduled a Nov 16 public hearing on giving up part of Cornwall Street",
+     "detail": "The Planning Board recommended unanimously on Oct 15 that the city discontinue the section, subject to a utility easement over the sewer line and a voluntary lot merger.",
+     "outcome": "passed unanimously",
+     "moved_by": "Tabor",
+     "seconded_by": "Blalock",
+     "roll_call": null,
+     "dissent": [],
+     "topic": "Infrastructure & utilities",
+     "dollars": null,
+     "ordinance_reading": null,
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Allowed a building permit for 0 Elm Street, a lot with no street frontage",
+     "detail": "Contingent on all other variances, approvals and permits and on a driveway adequate for emergency vehicles as approved by Public Works and the Fire Department. The authorization gives no private right of access over Forrest Street or other private property. The City Manager said this is not development approval.",
+     "outcome": "passed unanimously",
+     "moved_by": "Flynn",
+     "seconded_by": "Hopkins",
+     "roll_call": null,
+     "dissent": [],
+     "topic": "Housing & zoning",
+     "dollars": null,
+     "ordinance_reading": null,
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Gave up part of Taft Road",
+     "detail": "Discontinued the section subject to a utility easement over the water line and a pedestrian easement. Assistant Mayor Kelley abstained as a member of The Woodlands HOA, which abuts the land.",
+     "outcome": "passed 8-0",
+     "moved_by": "Bagley",
+     "seconded_by": "Moreau",
+     "roll_call": null,
+     "dissent": [],
+     "topic": "Infrastructure & utilities",
+     "dollars": null,
+     "ordinance_reading": null,
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Accepted a sidewalk easement at 48-50 Langdon Street",
+     "detail": "Part of the Planning Board's Nov 20, 2025 approval of a two-lot subdivision. Councilor Moreau recused herself as a direct abutter.",
+     "outcome": "passed 8-0",
+     "moved_by": "Kelley",
+     "seconded_by": "Cook",
+     "roll_call": null,
+     "dissent": [],
+     "topic": "Housing & zoning",
+     "dollars": null,
+     "ordinance_reading": null,
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Scheduled a Solid Waste Ordinance work session for Dec 7 at 6 pm",
+     "detail": "The ordinance is being reviewed ahead of Public Works' switch to automated side-loader trash collection. The session will include education on recycling and the staggered rollout of new carts.",
+     "outcome": "passed unanimously",
+     "moved_by": "Flynn",
+     "seconded_by": "Hopkins",
+     "roll_call": null,
+     "dissent": [],
+     "topic": "Infrastructure & utilities",
+     "dollars": null,
+     "ordinance_reading": null,
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Scheduled first reading of a new Sewer Use Ordinance for Nov 16",
+     "detail": "The new ordinance in Chapter 16 would replace the existing one in Chapter 11, reflecting federal discharge permit requirements for industrial users. Councilor Cook asked that microbreweries not face extra permitting burden.",
+     "outcome": "passed unanimously",
+     "moved_by": "Kelley",
+     "seconded_by": "Cook",
+     "roll_call": null,
+     "dissent": [],
+     "topic": "Infrastructure & utilities",
+     "dollars": null,
+     "ordinance_reading": null,
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Approved FY2027 payment in lieu of taxes agreements",
+     "detail": "Friends of Lafayette House ($3,500) and Betty's Dream Foundation ($3,000), in two separate votes.",
+     "outcome": "passed unanimously",
+     "moved_by": "Kelley",
+     "seconded_by": "Tabor",
+     "roll_call": null,
+     "dissent": [],
+     "topic": "Budget & taxes",
+     "dollars": 6500,
+     "ordinance_reading": null,
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Accepted two federal police grants",
+     "detail": "A $1,000,000 FY26 Byrne Discretionary Community Projects grant for the NH Internet Crimes Against Children Task Force, and a $1,031,000 FY26 COPS Technology and Equipment grant for police IT, communications and building security equipment, with a report back on what the money is used for.",
+     "outcome": "passed unanimously",
+     "moved_by": "Tabor",
+     "seconded_by": "Blalock",
+     "roll_call": null,
+     "dissent": [],
+     "topic": "Public safety",
+     "dollars": 2031000,
+     "ordinance_reading": null,
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Adopted the off-peak workweek parking recommendations",
+     "detail": "After the Resident Access Parking Program (RAPP) first-quarter report and the report on off-peak parking for downtown business employees, the Council adopted staff's recommendations.",
+     "outcome": "passed unanimously",
+     "moved_by": "Moreau",
+     "seconded_by": "Kelley",
+     "roll_call": null,
+     "dissent": [],
+     "topic": "Parking & transportation",
+     "dollars": null,
+     "ordinance_reading": null,
+     "needs_review": true,
+     "review_note": "Minutes say the Council adopted 'recommendations as presented' without listing them; check the presentation for what was adopted."
+    },
+    {
+     "title": "Release of sealed Sept 28 non-public minutes did not go forward",
+     "detail": "Councilor Bagley moved to release the sealed minutes of the Sept 28 non-public session. The motion was not seconded.",
+     "outcome": "The motion was not seconded. The motion failed.",
+     "moved_by": "Bagley",
+     "seconded_by": null,
+     "roll_call": null,
+     "dissent": [],
+     "topic": "Government & elections",
+     "dollars": null,
+     "ordinance_reading": null,
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Appointed two Economic Development Commission members",
+     "detail": "Zachary Dombrowski as a full member and Matthew Jeffers as an alternate.",
+     "outcome": "passed unanimously",
+     "moved_by": "Bagley",
+     "seconded_by": "Moreau",
+     "roll_call": null,
+     "dissent": [],
+     "topic": "Government & elections",
+     "dollars": null,
+     "ordinance_reading": null,
+     "needs_review": false,
+     "review_note": null
+    }
+   ],
    "discussed": [
     {
      "title": "Rolling stock work session (6 pm)",
-     "detail": "Deputy City Manager Nathan Lunney was scheduled to review the City's vehicles and equipment (rolling stock), followed by Council questions and public comment.",
+     "detail": "Deputy City Manager Nathan Lunney reviewed the city's vehicles and equipment before the meeting.",
      "topic": "Budget & taxes"
     },
     {
-     "title": "Parking rules out of zoning: third and final reading",
-     "detail": "Public hearing and vote on amending the Zoning Ordinance (Chapter 10) to move most parking regulations into the Site Plan Review Regulations, except for one- and two-family homes.",
-     "topic": "Parking & transportation"
-    },
-    {
-     "title": "Bond for fire apparatus",
-     "detail": "Resolution #15-2026 would authorize bonds or notes of up to $600,000 for buying fire apparatus.",
-     "topic": "Public safety"
-    },
-    {
-     "title": "Solid waste and sewer ordinances",
-     "detail": "The City Manager asked the Council to schedule a Solid Waste Ordinance work session on December 7, 2026 at 6 pm, and a first reading on November 16 of a new Sewer Use Ordinance that would replace the existing one.",
+     "title": "Borthwick Avenue sewer upgrade",
+     "detail": "A new PFAS treatment plant at the Griffin Road well site needs more sewer capacity, so the city will upgrade the Borthwick Avenue sewer main using existing Water and Sewer Enterprise Fund capital money. Councilor Bagley asked for a cost report; Public Works said it will come as design develops.",
      "topic": "Infrastructure & utilities"
     },
     {
-     "title": "Payments in lieu of taxes (PILOT)",
-     "detail": "FY2027 PILOT agreements with Friends of Lafayette House ($3,500) and Betty's Dream Foundation ($3,000).",
-     "topic": "Budget & taxes"
-    },
-    {
-     "title": "Planning Board recommendations",
-     "detail": "361 Hanover Street sidewalk easement and licenses; a public hearing on November 16 on giving up part of Cornwall Street; giving up part of Taft Road; whether to allow a building permit for 0 Elm Street, a lot with no street frontage; and a sidewalk easement at 48-50 Langdon Street.",
-     "topic": "Housing & zoning"
-    },
-    {
-     "title": "Fire officers agreement",
-     "detail": "A Memorandum of Agreement with the Portsmouth Professional Fire Officers Association, Local #4039.",
-     "topic": "Public safety"
-    },
-    {
-     "title": "Police grants",
-     "detail": "Accepting a $1,000,000 FY26 Byrne Discretionary Community Projects grant for the NH Internet Crimes Against Children Task Force and a $1,031,000 FY26 COPS Technology and Equipment grant for the Police Department.",
-     "topic": "Public safety"
-    },
-    {
-     "title": "Reports from the City Manager",
-     "detail": "Resident Access Parking Program (RAPP) first-quarter report, off-peak workweek parking for downtown businesses, a general fund revenue update, a Pease Development Authority update, water and sewer work on Borthwick Avenue and the Sherburne property, and the November 9 Mechanic Street Pump Station meeting.",
-     "topic": "Parking & transportation"
+     "title": "Other reports",
+     "detail": "Annual food and liquor permit figures, a Pease Development Authority update on its FY26 audit and the airport, a general fund revenue update, and the Nov 9 Mechanic Street Pump Station meeting at 6:30 pm.",
+     "topic": "Other"
     }
    ],
-   "public_comment": [],
+   "public_comment": [
+    {
+     "topic": "361 Hanover Street",
+     "speakers": 6,
+     "gist": "Speakers raised permitting concerns, public input on the project, the transformer and use of public land."
+    },
+    {
+     "topic": "Other topics",
+     "speakers": 5,
+     "gist": "Speakers addressed public comment at events, the Mechanic Street Pump Station, the fire boat, Question 2 on the state ballot, RAPP, downtown parking, the trash cart rollout and the Fire Officers agreement."
+    }
+   ],
    "coming_up": [
     {
      "date": "2026-11-16",
-     "item": "Proposed on the Oct 26 agenda: first reading of a new Sewer Use Ordinance and a public hearing on giving up part of Cornwall Street"
+     "item": "Work session on the 361 Hanover Street Landscape and Pole Licenses before the regular meeting"
+    },
+    {
+     "date": "2026-11-16",
+     "item": "Public hearing on giving up part of Cornwall Street; first reading of the new Sewer Use Ordinance"
     },
     {
      "date": "2026-12-07",
-     "item": "Proposed on the Oct 26 agenda: Solid Waste Ordinance work session, 6 pm"
+     "item": "Solid Waste Ordinance work session, 6 pm"
     }
    ]
   },
@@ -14284,6 +14612,43 @@
  },
  "roll_call_votes": [
   {
+   "date": "2026-10-26",
+   "title": "Approved up to $600,000 in borrowing for a fire department boat",
+   "outcome": "passed 8-1",
+   "yes": [
+    "McEachern",
+    "Kelley",
+    "Cook",
+    "Tabor",
+    "Bagley",
+    "Moreau",
+    "Flynn",
+    "Hopkins"
+   ],
+   "no": [
+    "Blalock"
+   ],
+   "url": "https://files.portsmouthnh.gov/minutes/2026/citycouncil/10.26.26%20City%20Council%20Minutes%20DRAFT.pdf"
+  },
+  {
+   "date": "2026-10-26",
+   "title": "Moved most parking rules from zoning into site plan review (third reading)",
+   "outcome": "passed 9-0",
+   "yes": [
+    "McEachern",
+    "Kelley",
+    "Cook",
+    "Tabor",
+    "Blalock",
+    "Bagley",
+    "Moreau",
+    "Flynn",
+    "Hopkins"
+   ],
+   "no": [],
+   "url": "https://files.portsmouthnh.gov/minutes/2026/citycouncil/10.26.26%20City%20Council%20Minutes%20DRAFT.pdf"
+  },
+  {
    "date": "2026-09-14",
    "title": "Removed part of Parrott Avenue from the RAPP pilot",
    "outcome": "passed 5-3 on a roll call vote",
@@ -14774,40 +15139,40 @@
  },
  "attendance": {
   "McEachern": {
-   "present": 18,
-   "total": 18
+   "present": 19,
+   "total": 19
   },
   "Kelley": {
-   "present": 15,
-   "total": 18
+   "present": 16,
+   "total": 19
   },
   "Cook": {
-   "present": 18,
-   "total": 18
+   "present": 19,
+   "total": 19
   },
   "Tabor": {
-   "present": 16,
-   "total": 18
+   "present": 17,
+   "total": 19
   },
   "Blalock": {
-   "present": 17,
-   "total": 18
+   "present": 18,
+   "total": 19
   },
   "Bagley": {
-   "present": 15,
-   "total": 18
+   "present": 16,
+   "total": 19
   },
   "Moreau": {
-   "present": 18,
-   "total": 18
+   "present": 19,
+   "total": 19
   },
   "Flynn": {
-   "present": 18,
-   "total": 18
+   "present": 19,
+   "total": 19
   },
   "Hopkins": {
-   "present": 18,
-   "total": 18
+   "present": 19,
+   "total": 19
   }
  },
  "attendance_from": "2026-01-05",
