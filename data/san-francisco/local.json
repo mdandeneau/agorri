@@ -219,6 +219,18 @@
     "label": "SFMTA weekly advisory, Oct 29",
     "url": "https://www.sfmta.com/press-releases/sfmta-transit-and-traffic-advisory-week-thursday-october-29-through-wednesday-november-4-2026"
    }
+  },
+  {
+   "date": "2026-11-07",
+   "kind": "Roads",
+   "title": "Street closures for weekend markets, fairs and block parties",
+   "detail": "Permitted closures this week (SFMTA, via DataSF): Bob's Day (Nov 6); the CCA Art and Crafts Fair, Fillmore, North Beach and Hayes Valley farmers markets, a Playmates Preschool harvest festival, the Biondivino 20th anniversary and block parties on Bonview Street and Texas Street (Nov 7); Head West Marketplace, the Outer Sunset, Inner Sunset and Clement Street farmers markets and a Precita Avenue block party (Nov 8); the Castro Farmers' Market (Nov 11) and the Mission Community Market on Bartlett Street (Nov 12). Check the map for exact blocks and hours.",
+   "source": {
+    "label": "DataSF, Current and Upcoming Events based on Temporary Street Closures",
+    "url": "https://data.sf.gov/d/v9cz-kk5i"
+   },
+   "strip": "Street closures",
+   "stripLine": "Markets, fairs and block parties close blocks"
   }
  ],
  "election": {
@@ -1094,11 +1106,261 @@
    "address": "1245 3rd Street, San Francisco, CA 94158 (Headquarters)",
    "site": "https://www.sanfranciscopolice.org/",
    "oversight": "The Police Commission and the Department of Police Accountability, both listed on the department's site.",
-   "logsUrl": null,
-   "logsNote": "No daily call log was found on the SFPD news pages checked; the department's numbered press releases are listed below.",
-   "logDigest": [],
-   "stats": [],
-   "statsNote": "No current-year SFPD figures were opened for this file.",
+   "logsUrl": "https://data.sf.gov/d/2zdj-bwza",
+   "logsNote": "Daily counts of calls dispatched to SFPD (agency \"Police\"), by the time the call was received, from DataSF's \"Law Enforcement Dispatched Calls for Service: Closed\" dataset. \"Passing call\" is an officer's self-initiated stop by a location. The dataset does not count arrests.",
+   "logDigest": [
+    {
+     "date": "2026-11-02",
+     "calls": 1243,
+     "top": [
+      [
+       "Passing call",
+       304
+      ],
+      [
+       "Suspicious person",
+       157
+      ],
+      [
+       "Fight no weapon",
+       65
+      ],
+      [
+       "Traffic stop",
+       63
+      ],
+      [
+       "Well being check",
+       53
+      ],
+      [
+       "Traffic violation, cited",
+       43
+      ]
+     ],
+     "arrests": null,
+     "url": "https://data.sf.gov/d/2zdj-bwza"
+    },
+    {
+     "date": "2026-11-01",
+     "calls": 1446,
+     "top": [
+      [
+       "Passing call",
+       331
+      ],
+      [
+       "Fight no weapon",
+       111
+      ],
+      [
+       "Suspicious person",
+       110
+      ],
+      [
+       "Noise nuisance",
+       90
+      ],
+      [
+       "Well being check",
+       73
+      ],
+      [
+       "Traffic stop",
+       71
+      ]
+     ],
+     "arrests": null,
+     "url": "https://data.sf.gov/d/2zdj-bwza"
+    },
+    {
+     "date": "2026-10-31",
+     "calls": 1540,
+     "top": [
+      [
+       "Passing call",
+       444
+      ],
+      [
+       "Noise nuisance",
+       150
+      ],
+      [
+       "Suspicious person",
+       117
+      ],
+      [
+       "Fight no weapon",
+       106
+      ],
+      [
+       "Well being check",
+       73
+      ],
+      [
+       "Traffic stop",
+       62
+      ]
+     ],
+     "arrests": null,
+     "url": "https://data.sf.gov/d/2zdj-bwza"
+    },
+    {
+     "date": "2026-10-30",
+     "calls": 1510,
+     "top": [
+      [
+       "Passing call",
+       356
+      ],
+      [
+       "Traffic stop",
+       158
+      ],
+      [
+       "Suspicious person",
+       144
+      ],
+      [
+       "Noise nuisance",
+       97
+      ],
+      [
+       "Fight no weapon",
+       87
+      ],
+      [
+       "Suspicious vehicle",
+       58
+      ]
+     ],
+     "arrests": null,
+     "url": "https://data.sf.gov/d/2zdj-bwza"
+    },
+    {
+     "date": "2026-10-29",
+     "calls": 1355,
+     "top": [
+      [
+       "Passing call",
+       347
+      ],
+      [
+       "Suspicious person",
+       201
+      ],
+      [
+       "Traffic stop",
+       136
+      ],
+      [
+       "Fight no weapon",
+       63
+      ],
+      [
+       "Meet w/city employee",
+       53
+      ],
+      [
+       "Trespasser",
+       45
+      ]
+     ],
+     "arrests": null,
+     "url": "https://data.sf.gov/d/2zdj-bwza"
+    },
+    {
+     "date": "2026-10-28",
+     "calls": 1486,
+     "top": [
+      [
+       "Passing call",
+       295
+      ],
+      [
+       "Traffic stop",
+       248
+      ],
+      [
+       "Suspicious person",
+       235
+      ],
+      [
+       "Fight no weapon",
+       67
+      ],
+      [
+       "Well being check",
+       54
+      ],
+      [
+       "Trespasser",
+       44
+      ]
+     ],
+     "arrests": null,
+     "url": "https://data.sf.gov/d/2zdj-bwza"
+    },
+    {
+     "date": "2026-10-27",
+     "calls": 1336,
+     "top": [
+      [
+       "Passing call",
+       276
+      ],
+      [
+       "Suspicious person",
+       199
+      ],
+      [
+       "Traffic stop",
+       142
+      ],
+      [
+       "Fight no weapon",
+       75
+      ],
+      [
+       "Well being check",
+       51
+      ],
+      [
+       "Trespasser",
+       50
+      ]
+     ],
+     "arrests": null,
+     "url": "https://data.sf.gov/d/2zdj-bwza"
+    }
+   ],
+   "stats": [
+    {
+     "label": "Calls dispatched to SFPD, Jan 1 to Oct 31",
+     "value": 381322,
+     "year": "2026",
+     "src": "https://data.sf.gov/d/2zdj-bwza"
+    },
+    {
+     "label": "Change in calls dispatched vs Jan 1 to Oct 31, 2025 (367,057)",
+     "value": "+3.9%",
+     "year": "2026",
+     "src": "https://data.sf.gov/d/2zdj-bwza"
+    },
+    {
+     "label": "Incident reports, Jan 1 to Oct 31 (distinct incidents)",
+     "value": 60760,
+     "year": "2026",
+     "src": "https://data.sf.gov/d/wg3w-h783"
+    },
+    {
+     "label": "Change in incident reports vs Jan 1 to Oct 31, 2025 (64,311)",
+     "value": "−5.5%",
+     "year": "2026",
+     "src": "https://data.sf.gov/d/wg3w-h783"
+    }
+   ],
+   "statsNote": "From DataSF, queried Nov 4, 2026. Incident reports are counted by incident date and can rise as late reports are filed, so the latest weeks may grow.",
    "recent": [
     {
      "date": "2026-10-30",
@@ -1251,22 +1513,28 @@
    "oversightSrc": "https://sf-fire.org/media/4121/download",
    "stats": [
     {
-     "label": "Calls, May",
-     "value": 15420,
+     "label": "Fire and EMS incidents, October",
+     "value": 16138,
      "year": "2026",
-     "src": "https://sf-fire.org/media/4129/download"
+     "src": "https://data.sf.gov/d/nuek-vuh3"
     },
     {
-     "label": "Calls, June",
-     "value": 14716,
+     "label": "Potentially life-threatening medical calls, October",
+     "value": 7411,
      "year": "2026",
-     "src": "https://sf-fire.org/media/4129/download"
+     "src": "https://data.sf.gov/d/nuek-vuh3"
     },
     {
-     "label": "Fire stations (45 in the city, 3 at SFO)",
-     "value": 48,
-     "year": null,
-     "src": "https://sf-fire.org/node/846"
+     "label": "Fire calls, October",
+     "value": 583,
+     "year": "2026",
+     "src": "https://data.sf.gov/d/nuek-vuh3"
+    },
+    {
+     "label": "Fire and EMS incidents, Jan 1 to Oct 31",
+     "value": 152628,
+     "year": "2026",
+     "src": "https://data.sf.gov/d/nuek-vuh3"
     }
    ],
    "recent": [],
@@ -1310,9 +1578,63 @@
    },
    "burnPermits": null,
    "liveIncidents": null,
-   "logsUrl": null
+   "logsUrl": null,
+   "statsNote": "Distinct incidents dispatched to the Fire Department (fires, alarms and medical calls), from DataSF's \"Fire Department and Emergency Medical Services Dispatched Calls for Service,\" queried Nov 4, 2026. October 2025 had 15,659."
   },
-  "benchmarks": null,
+  "benchmarks": {
+   "year": "2024",
+   "note": "FBI figures for 2024, the latest year with matching city, state and national numbers. Rates are offenses reported to police per 100,000 residents (FBI population for San Francisco: 802,856). San Francisco's rates fell from 2023 (violent 710.2, property 5,712.5). The many people who work in or visit San Francisco aren't counted as residents, which pushes per-resident rates up. The FBI advises against ranking places on these numbers alone.",
+   "homeNote": "FBI, 2024. Per-resident rates; visitors and commuters aren't counted as residents.",
+   "fireNote": "No fire comparison yet: national fire figures don't match how departments count calls or staff.",
+   "items": [
+    {
+     "id": "violent",
+     "label": "Violent crime",
+     "unit": "per 100,000 residents",
+     "year": "2024",
+     "better": "lower",
+     "town": 596.5,
+     "nh": 486.0,
+     "us": 359.1,
+     "counts": {
+      "town": 4789,
+      "nh": 191641,
+      "us": 1221345
+     },
+     "def": "Murder, rape, robbery and aggravated assault reported to police."
+    },
+    {
+     "id": "property",
+     "label": "Property crime",
+     "unit": "per 100,000 residents",
+     "year": "2024",
+     "better": "lower",
+     "town": 3929.1,
+     "nh": 2078.4,
+     "us": 1760.1,
+     "counts": {
+      "town": 31545,
+      "nh": 819559,
+      "us": 5986400
+     },
+     "def": "Burglary, theft and motor vehicle theft reported to police."
+    }
+   ],
+   "sources": [
+    {
+     "label": "FBI Table 8 for San Francisco, 2024 (via OpenCrime)",
+     "url": "https://www.opencrime.us/cities/san-francisco-california"
+    },
+    {
+     "label": "FBI California estimates, 2024 (via OpenCrime)",
+     "url": "https://www.opencrime.us/states/ca"
+    },
+    {
+     "label": "FBI national estimates, 2024 (via OpenCrime)",
+     "url": "https://www.opencrime.us/years/2024"
+    }
+   ]
+  },
   "benchmarksNote": "Not shown: same-year San Francisco and California FBI figures (2024) were found, but a matching U.S. figure could not be opened for this file."
  },
  "paper": {

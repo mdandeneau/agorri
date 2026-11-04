@@ -389,6 +389,16 @@
     "label": "SF.gov, Aug 12, 2026",
     "url": "https://www.sf.gov/news-mayor-lurie-celebrates-new-businesses-opening-in-eight-neighborhoods-thanks-to-storefront-opportunity-grant-program/"
    }
+  },
+  {
+   "label": "New business locations registered, September 2026",
+   "value": 816,
+   "note": "877 in September 2025. Counted by location start date in the Treasurer and Tax Collector's registry; recent months can rise as late registrations come in (October shows 658 so far).",
+   "as_of": "2026-11-04",
+   "source": {
+    "label": "DataSF, Registered Business Locations",
+    "url": "https://data.sf.gov/d/g8m3-pdis"
+   }
   }
  ],
  "methodology": "Compiled November 4, 2026 from pages fetched this session: SF.gov (Office of Small Business news list and newsletters for August, September and October 2026, OEWD releases of August 12 and 17, 2026, Business registration), sftreasurer.org (Register a Business), SF Public Works (Folsom Streetscape), SFMTA project updates, sfchamber.com (Contact Us), Cushman & Wakefield and Kidder Mathews Q3 2026 office reports, the California EDD September 2026 release, SFist and WhatNow. Not covered: no November 2026 Office of Small Business newsletter was posted yet; openings and closures beyond those listed were not found in open sources for late September to early November (SF Chronicle and other paywalled outlets not used; closures outside San Francisco in the WhatNow roundup are left out). The Rustic on Church Street closed in early September, more than 30 days ago, and is not listed. Phone numbers for the Office of Small Business, OEWD and the Treasurer and Tax Collector were not shown on the pages opened. Business-for-sale listing sites were not opened, so no link cards are given.",
