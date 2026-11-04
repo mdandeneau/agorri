@@ -32,6 +32,19 @@ The **Site feedback** button (a highlighted blue item in the main side bar menu,
 
 Every item on the site (an issue, an event, a candidate, a park, a post, a news story, a meeting, an official) carries two small controls: a star (**Interest**, one tap to follow, one tap to remove) and a speech bubble (**comments**, which stay attached to that item and open in a panel). The Home box posts ideas and questions only; its **Comments** tab lists what you have commented on, what you follow, and new comments on those. Interests are saved in the visitor's browser. Comments go through Talk (below), so every comment also appears there with its context.
 
+## Email updates on starred items
+Tap the star on anything (an issue, event, game, meeting, congregation, pantry, business...) and Agorri asks once whether to email you when it changes. Type an email, tap the link in the confirmation email, and from then on every star you add or remove on that device is kept by `/api/follow`. Nothing is sent to an address until its owner taps that link, and stars made before confirming wait on the device, so nobody can sign someone else up for anything. Every email has a "Stop updates on this" link per item and a "Stop all" link (one-click unsubscribe in mail apps too).
+
+Twice a day (`.github/workflows/notify.yml`, about 7 am and 6 pm in New Hampshire) GitHub calls `/api/notify`, which looks each starred item up in the live data and sends one email per person listing: a watched field that changed (date, time, place, status, next step, result, record, service times, minutes posted), a reminder the evening before or the morning of a dated item, and new resident comments on it. The first run after a star only records the item as it is. Past events that drop off the site are forgotten quietly.
+
+Setup (Marc does this, once):
+1. In Resend, add the domain agorri.com and add the DNS records it shows in Cloudflare. Until a domain is verified, Resend only delivers to the Resend account's own address, which is fine for testing.
+2. In the Pages project settings, add `NOTIFY_FROM` (for example `Agorri <updates@agorri.com>`), `NOTIFY_TOKEN` (Secret; any long random string) and, if not already there, `RESEND_API_KEY` (Secret). Redeploy.
+3. In GitHub, Settings > Secrets and variables > Actions, add `NOTIFY_TOKEN` with the same value.
+4. Test: Actions tab > "Email updates on starred items" > Run workflow with "dry" ticked shows what would be sent.
+
+The tables (`mail_subscribers`, `mail_devices`, `mail_follows`, `mail_log`) are created automatically; `migrations/0005_mail.sql` has them too. Test: `node scripts/test-follow.mjs`.
+
 ## Home: the daily layout
 
 **Nov 2026 Home (v40):** Home now leads with **Up for a vote: weigh in** (the three issues most worth weighing in on: anything on an agenda in the next 30 days first, then recently updated and most-discussed, each with Support / Oppose, where it stands and a Context link), **What <town> is talking about** (the most-discussed Talk threads from the last two weeks, then the most-debated issues, then the next meeting's agenda items), and **<town> by the numbers** (budget, police and fire, median home sale as large cards). Then the day's question and idea box, Today and coming up (moved to the top when an election is within two days), Your stuff, local news. The previous Home is at `#home-v39`.

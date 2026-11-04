@@ -51,3 +51,8 @@ CREATE UNIQUE INDEX IF NOT EXISTS talk_residents_name ON talk_residents (town, u
 CREATE TABLE IF NOT EXISTS talk_config (k TEXT PRIMARY KEY, v TEXT NOT NULL);
 -- Today's question answers (also created automatically by /api/question)
 CREATE TABLE IF NOT EXISTS q_answers (qid TEXT NOT NULL, town TEXT NOT NULL, author TEXT NOT NULL, choice TEXT NOT NULL, verified INTEGER DEFAULT 0, at TEXT NOT NULL, PRIMARY KEY (qid, author));
+-- Email updates on starred items (also created automatically by /api/follow and /api/notify)
+CREATE TABLE IF NOT EXISTS mail_subscribers (id INTEGER PRIMARY KEY AUTOINCREMENT, email TEXT NOT NULL UNIQUE, token TEXT NOT NULL UNIQUE, status TEXT NOT NULL DEFAULT 'pending', created TEXT NOT NULL, last_sent TEXT);
+CREATE TABLE IF NOT EXISTS mail_devices (key_hash TEXT PRIMARY KEY, sub_id INTEGER NOT NULL, author TEXT, confirmed INTEGER NOT NULL DEFAULT 0, confirm_token TEXT UNIQUE, created TEXT NOT NULL, confirmed_at TEXT, ip TEXT, pending TEXT);
+CREATE TABLE IF NOT EXISTS mail_follows (id INTEGER PRIMARY KEY AUTOINCREMENT, sub_id INTEGER NOT NULL, town TEXT NOT NULL, ref_t TEXT NOT NULL, ref_id TEXT NOT NULL, label TEXT, href TEXT, url TEXT, created TEXT NOT NULL, snap TEXT, fp TEXT, checked TEXT, reminded INTEGER NOT NULL DEFAULT 0, gone INTEGER NOT NULL DEFAULT 0, UNIQUE (sub_id, town, ref_t, ref_id));
+CREATE TABLE IF NOT EXISTS mail_log (id INTEGER PRIMARY KEY AUTOINCREMENT, sub_id INTEGER, ip TEXT, kind TEXT NOT NULL, at TEXT NOT NULL);

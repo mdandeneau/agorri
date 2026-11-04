@@ -1,0 +1,38 @@
+name: Email updates on starred items
+
+# Twice a day, asks the live site to email people about changes to the things they starred (functions/api/notify.js).
+# 11:35 UTC is 6:35 or 7:35 am in New Hampshire (the "today" reminders); 22:35 UTC is 5:35 or 6:35 pm ("tomorrow").
+# Needs the repository secret NOTIFY_TOKEN, the same value as NOTIFY_TOKEN in Cloudflare. Run it by hand from the
+# Actions tab; tick "dry" to see what would be sent without sending.
+on:
+  schedule:
+    - cron: '35 11 * * *'
+    - cron: '35 22 * * *'
+  workflow_dispatch:
+    inputs:
+      dry:
+        description: 'Dry run (report only, send nothing)'
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+
+concurrency:
+  group: notify
+  cancel-in-progress: false
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Send updates
+        env:
+          NOTIFY_TOKEN: ${{ secrets.NOTIFY_TOKEN }}
+          DRY: ${{ github.event.inputs.dry == 'true' && '1' || '0' }}
+        run: |
+          if [ -z "$NOTIFY_TOKEN" ]; then echo "NOTIFY_TOKEN is not set; skipping."; exit 0; fi
+          code=$(curl -sS -o out.json -w '%{http_code}' -X POST -H "x-agorri-notify: $NOTIFY_TOKEN" "https://agorri.com/api/notify?dry=$DRY")
+          cat out.json; echo
+          [ "$code" = "200" ] || { echo "HTTP $code"; exit 1; }
