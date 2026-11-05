@@ -1,5 +1,5 @@
 {
- "as_of": "2026-11-03",
+ "as_of": "2026-11-05",
  "note": "Buy and sell around the Mount Washington Valley, built only from sources that allow it: town and county surplus sales, auction houses' own schedules, library and school sales, and eBay's public Browse API filtered to local pickup near North Conway. Craigslist, Facebook Marketplace and OfferUp publish no feed and forbid automated copying, so they appear here only as links the resident opens. `sales` lists title, date, town and link only, the way the paper's headlines are handled; descriptions and photos stay on the listing site. `surplus` and `sales` are filled by the daily refresh from the sources under `watch`; each item links to where it came from.",
  "zip": "03860",
  "radius": 30,
@@ -86,5 +86,5 @@
   }
  ],
  "nearby": false,
- "sales_as_of": "2026-11-03"
+ "sales_as_of": "2026-11-05"
 }

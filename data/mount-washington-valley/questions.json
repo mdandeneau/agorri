@@ -108,6 +108,33 @@
    "text": "Madison should update its Master Plan, the long-range guide for land use, housing, roads and conservation.",
    "source": "https://www.madison-nh.org/wp-content/uploads/2026/01/PB-Minutes-12-3-2025-APPROVED.pdf",
    "status": "draft"
+  },
+  {
+   "id": "2026-11-06-bartlett-bus-parking",
+   "date": "2026-11-06",
+   "town": "bartlett",
+   "issue": "school-bus-parking",
+   "text": "Bartlett's school buses should park on a nearby private lot, with the town's Highway Department plowing and maintaining it.",
+   "source": "https://www.townofbartlett.nh.gov/AgendaCenter/ViewFile/Minutes/_10212026-208",
+   "status": "draft"
+  },
+  {
+   "id": "2026-11-07-bartlett-flood-fund",
+   "date": "2026-11-07",
+   "town": "bartlett",
+   "issue": "dugway-flood-mitigation",
+   "text": "Bartlett voters should create a flood reserve fund for work such as the Dugway berm on the upper Saco River.",
+   "source": "https://www.townofbartlett.nh.gov/AgendaCenter/ViewFile/Minutes/_10212026-208",
+   "status": "draft"
+  },
+  {
+   "id": "2026-11-08-conway-zoning",
+   "date": "2026-11-08",
+   "town": "conway",
+   "issue": "zoning-rewrite",
+   "text": "Conway voters should adopt the rewritten Zoning Ordinance and zoning map at the 2027 Town Meeting.",
+   "source": "https://bpg.mysocialpinpoint.com/conway-forward-zoning",
+   "status": "draft"
   }
  ]
 }

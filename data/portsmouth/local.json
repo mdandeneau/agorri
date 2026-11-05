@@ -894,18 +894,8 @@
    "status": "not yet connected"
   }
  ],
- "events_as_of": "2026-11-04",
+ "events_as_of": "2026-11-05",
  "events": [
-  {
-   "date": "2026-11-04",
-   "time": "7:00 pm",
-   "title": "Black Violin",
-   "venue": "The Music Hall Historic Theater",
-   "town": "Portsmouth",
-   "kind": "Music",
-   "url": "https://www.themusichall.org/events/blackviolin-befreetour/",
-   "source": "The Music Hall"
-  },
   {
    "date": "2026-11-05",
    "time": "7:30 pm",
@@ -925,6 +915,26 @@
    "kind": "Civic",
    "url": "https://files.portsmouthnh.gov/agendas/2026/Recreation%20Committee/Notice%20of%20Meeting%2011.5.26.pdf",
    "source": "City of Portsmouth"
+  },
+  {
+   "date": "2026-11-06",
+   "time": "4:00 pm",
+   "title": "Field & Flower: guided outdoor floral workshop",
+   "venue": "High Standard Stable, 305 Peverly Hill Rd",
+   "town": "Portsmouth",
+   "kind": "Workshop",
+   "url": "https://patch.com/new-hampshire/portsmouth-nh/calendar/event/20261106/5fdca810-3553-472a-9b81-29d7e47a77b4/field-flower",
+   "source": "Patch calendar"
+  },
+  {
+   "date": "2026-11-06",
+   "time": "5:00 pm",
+   "title": "27th Annual Joan L. Dunfey Exhibition opening reception",
+   "venue": "New Hampshire Art Association, 136 State St",
+   "town": "Portsmouth",
+   "kind": "Art",
+   "url": "https://patch.com/new-hampshire/portsmouth-nh/calendar/event/20261106/f9fcb88d-9555-4c9c-855d-9252d822fdcd/new-hampshire-art-association",
+   "source": "Patch calendar"
   },
   {
    "date": "2026-11-07",
@@ -1010,6 +1020,16 @@
    "source": "Patch calendar"
   },
   {
+   "date": "2026-11-17",
+   "time": "6:00 pm",
+   "title": "Conversation Skills Practice: Start, Join & Leave Conversations Comfortably",
+   "venue": "South Church, 292 State St",
+   "town": "Portsmouth",
+   "kind": "Workshop",
+   "url": "https://patch.com/new-hampshire/portsmouth-nh/calendar/event/20261117/dddbae1b-3f74-4ec1-8b86-7c513510a27b/conversation-skills-practice-start-join-leave-conversations-comfortably",
+   "source": "Patch calendar"
+  },
+  {
    "date": "2026-11-19",
    "time": "9:30 am to 1:30 pm",
    "title": "Craft Fair and Thanksgiving Luncheon (lunch 11:30)",
@@ -1018,6 +1038,16 @@
    "kind": "Market",
    "url": "https://www.portsmouthnh.gov/city/press-releases/city-announces-trick-or-treat-hours-and-fall-events",
    "source": "City of Portsmouth"
+  },
+  {
+   "date": "2026-11-20",
+   "time": "8:00 pm",
+   "title": "Big Brothers Big Sisters Comedy Fundraiser with Jim McCue",
+   "venue": "McCues Comedy Club, 580 Portsmouth Traffic Circle",
+   "town": "Portsmouth",
+   "kind": "Comedy",
+   "url": "https://patch.com/new-hampshire/portsmouth-nh/calendar/event/20261120/2a1f9bc8-91b3-4dab-870f-50b6b559da98/big-brothers-big-sisters-comedy-fundraiser-with-jim-mccue",
+   "source": "Patch calendar"
   },
   {
    "date": "2026-11-21",
@@ -1031,10 +1061,20 @@
    "price": "$28 advance, $30 day of show"
   },
   {
+   "date": "2026-11-22",
+   "time": "1:00 pm",
+   "title": "Meet The Artists gallery talk",
+   "venue": "Robert Lincoln Levy Gallery, 136 State St",
+   "town": "Portsmouth",
+   "kind": "Art",
+   "url": "https://patch.com/new-hampshire/portsmouth-nh/calendar/event/20261122/d8c512a4-7cc0-4267-a9ce-3c0968fa785a/meet-the-artists",
+   "source": "Patch calendar"
+  },
+  {
    "date": "2026-11-26",
    "time": "8:30 am",
    "title": "Seacoast Rotary Turkey Trot",
-   "venue": "Portsmouth (start location not listed on the city calendar)",
+   "venue": "Strawbery Banke Museum, 14 Hancock St",
    "town": "Portsmouth",
    "kind": "Holiday",
    "url": "https://www.portsmouthnh.gov/city/events/seacoast-rotary-turkey-trot-2",
@@ -1051,6 +1091,16 @@
    "source": "The Music Hall"
   },
   {
+   "date": "2026-12-03",
+   "time": "7:00 pm",
+   "title": "Langdon House Parlor Entertainments: A Revolutionary Yuletide (also Dec 5, 4 pm)",
+   "venue": "Langdon House, 143 Pleasant St",
+   "town": "Portsmouth",
+   "kind": "History",
+   "url": "https://patch.com/new-hampshire/portsmouth-nh/calendar/event/20261203/aad910a9-a0e7-46cd-969d-d4b0616db428/langdon-house-parlor-entertainments-a-revolutionary-yuletide",
+   "source": "Patch calendar"
+  },
+  {
    "date": "2026-12-04",
    "time": "",
    "title": "Candlelight Stroll opens",
@@ -1061,6 +1111,16 @@
    "source": "Strawbery Banke"
   },
   {
+   "date": "2026-12-04",
+   "time": "5:00 pm",
+   "title": "39th Annual Button Factory Open Studios",
+   "venue": "Button Factory, 855 Islington St",
+   "town": "Portsmouth",
+   "kind": "Art",
+   "url": "https://patch.com/new-hampshire/portsmouth-nh/calendar/event/20261204/44ef6e67-14b4-40d0-9f99-8009fa5a8c7b/39th-annual-button-factory-open-studios",
+   "source": "Patch calendar"
+  },
+  {
    "date": "2026-12-05",
    "time": "5:00 pm to 7:00 pm",
    "title": "2026 Illuminated Holiday Parade",
@@ -1069,6 +1129,16 @@
    "kind": "Holiday",
    "url": "https://www.portsmouthnh.gov/city/events/2026-illuminated-holiday-parade",
    "source": "City of Portsmouth"
+  },
+  {
+   "date": "2026-12-05",
+   "time": "8:30 am",
+   "title": "Treasures & Treats Marketplace (Portsmouth Garden Club craft fair)",
+   "venue": "Community Campus, 100 Campus Dr",
+   "town": "Portsmouth",
+   "kind": "Market",
+   "url": "https://patch.com/new-hampshire/portsmouth-nh/calendar/event/20261205/c08d3869-0352-4b90-a1aa-b52b4564ce9a/treasures-treats-marketplace",
+   "source": "Patch calendar"
   }
  ],
  "eventsNote": "Events from The Music Hall, 3S Artspace, Strawbery Banke, the Library, the City and the Patch community calendar, as of Oct 27. Confirm with the organizer. Not yet connected: Eventbrite, the Chamber calendar, the Seacoast Rep, Jimmy's, Prescott Park.",
@@ -2104,9 +2174,34 @@
  "paper": {
   "name": "Portsmouth Patch",
   "url": "https://patch.com/new-hampshire/portsmouth-nh",
-  "asOf": "2026-11-04",
+  "asOf": "2026-11-05",
   "note": "The Portsmouth Herald is paywalled with no public feed, so these come from Patch.",
   "headlines": [
+   {
+    "title": "Greater Seacoast Health Expands Community-Based Health Services",
+    "url": "https://patch.com/new-hampshire/portsmouth-nh/greater-seacoast-health-expands-community-based-health-services",
+    "date": "2026-11-04"
+   },
+   {
+    "title": "Warmington, Pappas, Shaheen Easily Win In Portsmouth: 2026 Midterm General Election Results",
+    "url": "https://patch.com/new-hampshire/portsmouth-nh/portsmouth-nh-2026-midterm-general-election-results",
+    "date": "2026-11-03"
+   },
+   {
+    "title": "Former Supreme Court Justice Hantz Marconi Still Fighting Ethics Case",
+    "url": "https://patch.com/new-hampshire/portsmouth-nh/former-supreme-court-justice-hantz-marconi-still-fighting-ethics-case",
+    "date": "2026-11-03"
+   },
+   {
+    "title": "Birchtree Benefit For Learning Features 200+ Prizes To Win On Nov. 14 At Black Rock Sports Club",
+    "url": "https://patch.com/new-hampshire/portsmouth-nh/birchtree-benefit-learning-features-200-prizes-win-nov-14-black-rock",
+    "date": "2026-11-03"
+   },
+   {
+    "title": "Portsmouth NH General Election 2026 Midterm Voter Guide",
+    "url": "https://patch.com/new-hampshire/portsmouth-nh/portsmouth-nh-general-election-2026-midterm-voter-guide",
+    "date": "2026-11-02"
+   },
    {
     "title": "Hotel Thaxter Named Best Boutique Hotel In New Hampshire By Boston Magazine",
     "url": "https://patch.com/new-hampshire/portsmouth-nh/hotel-thaxter-named-best-boutique-hotel-new-hampshire-boston-magazine",
@@ -2121,31 +2216,6 @@
     "title": "Colliers Promotes Reilly To Senior Property Manager",
     "url": "https://patch.com/new-hampshire/portsmouth-nh/colliers-promotes-reilly-senior-property-manager",
     "date": "2026-10-29"
-   },
-   {
-    "title": "UNH Paul College Announces New Executive Program To Support Organizational AI Strategy",
-    "url": "https://patch.com/new-hampshire/portsmouth-nh/unh-paul-college-announces-new-executive-program-support-organizational",
-    "date": "2026-10-27"
-   },
-   {
-    "title": "Devine Millimet Partners With NH SBDC To Provide Free Legal Consulting Services To Small Businesses",
-    "url": "https://patch.com/new-hampshire/portsmouth-nh/devine-millimet-partners-nh-sbdc-provide-free-legal-consulting-services",
-    "date": "2026-10-26"
-   },
-   {
-    "title": "Portsmouth DPW Launches Automated Collection Program For Trash And Recycling",
-    "url": "https://patch.com/new-hampshire/portsmouth-nh/portsmouth-dpw-launches-automated-collection-program-trash-recycling",
-    "date": "2026-10-23"
-   },
-   {
-    "title": "Investigators Renew Appeal In 1982 Killing Of Tammy Little In Portsmouth",
-    "url": "https://patch.com/new-hampshire/portsmouth-nh/investigators-renew-appeal-1982-killing-tammy-little-portsmouth",
-    "date": "2026-10-19"
-   },
-   {
-    "title": "Monkey Mind Escape Rooms Retires The Stolen Diamond After 8.5 Years And Nearly 7,000 Players",
-    "url": "https://patch.com/new-hampshire/portsmouth-nh/monkey-mind-escape-rooms-retires-stolen-diamond-after-8-5-years-nearly-7",
-    "date": "2026-10-19"
    }
   ]
  }
