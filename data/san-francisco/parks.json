@@ -1,6 +1,6 @@
 {
  "as_of": "2026-11-04",
- "note": "From San Francisco Recreation and Park Department pages and press releases, Gardens of Golden Gate Park, San Francisco Public Works project pages and SFMTA advisories, with a source on every item. Rec and Park runs parks, pools, golf and recreation; street repaving, sewer and streetscape work is Public Works; street safety and transit projects are SFMTA. The winter 2027 class catalog and registration dates were not posted as of November 4.",
+ "note": "From San Francisco Recreation and Park Department pages, Gardens of Golden Gate Park, San Francisco Public Works and SFMTA project pages, with a source on every item. Rec and Park runs parks, pools, golf and recreation; street repaving, sewer and streetscape work is Public Works; street safety and transit projects are SFMTA. The Presidio is federal and the Zoo is run by a nonprofit under a city lease. The winter 2027 class catalog and registration dates were not posted as of November 4.",
  "department": {
   "name": "San Francisco Recreation and Park Department",
   "url": "https://sfrecpark.org",
@@ -21,190 +21,222 @@
  },
  "facilities": [
   {
-   "id": "herz-recreation-center",
-   "name": "Herz Recreation Center",
-   "kind": "Community center",
-   "address": "160 Mrs. Jackson Way (McLaren Park), San Francisco, CA",
-   "features": [],
-   "hours": null,
-   "seasonal": null,
-   "url": "https://t.e2ma.net/message/o9pxdk/wfcl20hc",
-   "note": "New recreation center; grand opening held January 9, 2026.",
-   "source": {
-    "label": "Rec and Park eNews, Jan 7, 2026",
-    "url": "https://t.e2ma.net/message/o9pxdk/wfcl20hc"
-   }
-  },
-  {
-   "id": "gene-friend-recreation-center",
-   "name": "Gene Friend Recreation Center",
-   "kind": "Community center",
-   "address": "270 6th Street, San Francisco, CA (South of Market; new entry on Harriet Street)",
+   "id": "golden-gate-park",
+   "name": "Golden Gate Park",
+   "kind": "Park",
+   "address": "McLaren Lodge, 501 Stanyan Street, San Francisco, CA 94117 (park headquarters)",
    "features": [
-    "Gym with two full-size basketball courts",
-    "Exercise area",
-    "Two multipurpose rooms and a kitchenette",
-    "Playground, picnic area and sport court"
+    "1,017 acres",
+    "Lakes and meadows",
+    "Car-free roads",
+    "Bike rentals",
+    "Picnic areas and event rentals"
    ],
    "hours": null,
    "seasonal": null,
-   "url": "https://www.sf.gov/news/san-francisco-leaders-and-community-members-break-ground-new-gene-friend-recreation-center",
-   "note": "Rebuilt as a 25,000 square foot center replacing the 1990 building; the $59 million project broke ground February 5, 2024. See Projects for the August 2026 grand opening.",
+   "url": "https://www.sfrecpark.org/770/Golden-Gate-Park",
+   "note": "The Japanese Tea Garden, Conservatory of Flowers, Botanical Garden, de Young, California Academy of Sciences, Bandshell and Bison Paddock are inside the park and listed separately here.",
    "source": {
-    "label": "SF.gov, Gene Friend groundbreaking, Feb 5, 2024",
-    "url": "https://www.sf.gov/news/san-francisco-leaders-and-community-members-break-ground-new-gene-friend-recreation-center"
+    "label": "Rec and Park, Golden Gate Park",
+    "url": "https://www.sfrecpark.org/770/Golden-Gate-Park"
    }
   },
   {
-   "id": "tenderloin-recreation-center",
-   "name": "Tenderloin Recreation Center",
-   "kind": "Community center",
-   "address": "570 Ellis Street, San Francisco, CA",
+   "id": "mclaren-park",
+   "name": "McLaren Park",
+   "kind": "Park",
+   "address": null,
    "features": [
-    "Children's play area (redesigned, reopened May 2026)"
+    "Gleneagles Golf Course (9 holes)",
+    "Herz Recreation Center (opened January 2026)",
+    "Louis Sutter Upper Playground (renewal to break ground January 2027)",
+    "Yosemite Creek daylighting (contractor selected October 2026)"
    ],
    "hours": null,
    "seasonal": null,
-   "url": "https://t.e2ma.net/message/0q3wrk/wfcl20hc",
-   "note": "Reopening celebration for the children's play area was held May 26, 2026.",
+   "url": "https://www.sfrecpark.org/716/McLaren-Park",
+   "note": "Rec and Park's McLaren Park page did not load; the features listed here come from its golf, recreation center and project pages.",
    "source": {
-    "label": "Rec and Park eNews, May 20, 2026",
-    "url": "https://t.e2ma.net/message/0q3wrk/wfcl20hc"
+    "label": "Rec and Park, Golf Courses and Park Improvements",
+    "url": "https://www.sfrecpark.org/468/Park-Improvements"
    }
   },
   {
-   "id": "hamilton-recreation-center",
-   "name": "Hamilton Recreation Center",
-   "kind": "Community center",
-   "address": "1900 Geary Boulevard, San Francisco, CA",
+   "id": "mission-dolores-park",
+   "name": "Mission Dolores Park",
+   "kind": "Park",
+   "address": "19th and Dolores Streets, San Francisco, CA 94114",
+   "features": [
+    "Athletic field",
+    "Children's playground",
+    "Tennis courts",
+    "Restrooms",
+    "Two dog play areas (north and south)"
+   ],
+   "hours": "Dog play areas open 5 am to midnight",
+   "seasonal": null,
+   "url": "https://sfrecpark.org/675/Mission-Dolores-Park-Dog-Play-Areas",
+   "note": "Dogs may be off leash in the center of the park and must be leashed near the fields, playground and courts. Dog walkers may bring up to eight dogs.",
+   "source": {
+    "label": "Rec and Park, Mission Dolores Park Dog Play Areas",
+    "url": "https://sfrecpark.org/675/Mission-Dolores-Park-Dog-Play-Areas"
+   }
+  },
+  {
+   "id": "sunset-dunes",
+   "name": "Sunset Dunes",
+   "kind": "Park",
+   "address": null,
+   "features": [
+    "Shipwreck Cove, a pilot dune education and play area announced for summer 2026",
+    "Skate features"
+   ],
+   "hours": null,
+   "seasonal": null,
+   "url": "https://missionlocal.org/2026/11/sf-great-highway-sunset-dunes-prop-g/",
+   "note": "San Francisco's newest coastal park, made from the Great Highway; Rec and Park reported 1.7 million visits in its first year. On election night Mission Local reported that Proposition G, which would have let private vehicles back on the Great Highway there, failed; results are preliminary until certified December 3.",
+   "source": {
+    "label": "Mission Local, Nov 3, 2026 (headline); Rec and Park Press Room (headlines)",
+    "url": "https://missionlocal.org/2026/11/sf-great-highway-sunset-dunes-prop-g/"
+   },
+   "needs_review": true,
+   "review_note": "Built from headlines; the Prop G outcome is a preliminary count."
+  },
+  {
+   "id": "presidio",
+   "name": "Presidio of San Francisco",
+   "kind": "Federal park",
+   "address": null,
    "features": [],
    "hours": null,
    "seasonal": null,
-   "url": "https://t.e2ma.net/message/06ru6j/wfcl20hc",
+   "url": "https://www.federalregister.gov/agencies/presidio-trust",
+   "note": "A federal park, not a city park. The Presidio Trust, created by Congress in 1996, manages most of the former Army post: about 80 percent (Area B) moved from the National Park Service to the Trust on July 1, 1998.",
+   "source": {
+    "label": "Federal Register, Presidio Trust agency profile",
+    "url": "https://www.federalregister.gov/agencies/presidio-trust"
+   }
+  },
+  {
+   "id": "conservatory-of-flowers",
+   "name": "Conservatory of Flowers",
+   "kind": "Garden",
+   "address": "100 John F Kennedy Drive, Golden Gate Park, San Francisco, CA 94118",
+   "features": [
+    "Free to San Francisco residents and all veterans (Rec and Park)",
+    "Free on the first Tuesday of the month",
+    "Free nightly light show, Photosynthesis, starting 30 minutes after sunset"
+   ],
+   "hours": "10 am to 4:30 pm, last entry 4 pm; closed Wednesdays",
+   "seasonal": null,
+   "url": "https://gggp.org/admissions-hours/",
+   "note": "Hours and admission are posted by Gardens of Golden Gate Park (gggp.org), which Rec and Park links from its home page. Free general admission with a valid EBT card.",
+   "source": {
+    "label": "Gardens of Golden Gate Park, Admissions and hours",
+    "url": "https://gggp.org/admissions-hours/"
+   }
+  },
+  {
+   "id": "japanese-tea-garden",
+   "name": "Japanese Tea Garden",
+   "kind": "Garden",
+   "address": "75 Hagiwara Tea Garden Drive, Golden Gate Park, San Francisco, CA 94118",
+   "features": [
+    "Free hour Monday, Wednesday and Friday, 9 to 10 am"
+   ],
+   "hours": "Daily from 9 am",
+   "seasonal": "November to February: last entry 4:30 pm (5:30 pm March to October)",
+   "url": "https://gggp.org/admissions-hours/",
+   "note": "Hours and admission are posted by Gardens of Golden Gate Park (gggp.org), which Rec and Park links from its home page. Free general admission with a valid EBT card.",
+   "source": {
+    "label": "Gardens of Golden Gate Park, Admissions and hours",
+    "url": "https://gggp.org/admissions-hours/"
+   }
+  },
+  {
+   "id": "sf-botanical-garden",
+   "name": "San Francisco Botanical Garden",
+   "kind": "Garden",
+   "address": "1199 9th Avenue, Golden Gate Park, San Francisco, CA 94122",
+   "features": [
+    "Free daily 7:30 to 9 am",
+    "Free on the second Tuesday of each month",
+    "Free on Thanksgiving, Christmas and New Year's Day",
+    "Bookstore and plant shop, daily 10 am to 4 pm"
+   ],
+   "hours": "Daily from 7:30 am",
+   "seasonal": "First Sunday in November through January: last entry 4 pm; the garden closes one hour after last entry. Lightscape runs November 20 to January 3 (separate ticket).",
+   "url": "https://gggp.org/admissions-hours/",
+   "note": "Hours and admission are posted by Gardens of Golden Gate Park (gggp.org), which Rec and Park links from its home page. Free general admission with a valid EBT card.",
+   "source": {
+    "label": "Gardens of Golden Gate Park, Admissions and hours",
+    "url": "https://gggp.org/admissions-hours/"
+   }
+  },
+  {
+   "id": "bison-paddock",
+   "name": "Bison Paddock",
+   "kind": "Park feature",
+   "address": "1237 John F. Kennedy Drive, Golden Gate Park",
+   "features": [],
+   "hours": null,
+   "seasonal": null,
+   "url": "https://www.sfrecpark.org/1116/Golden-Gate-Park-Points-of-Interest",
+   "note": "The herd is cared for by the San Francisco Zoo; Rec and Park gardeners maintain the enclosure.",
+   "source": {
+    "label": "Rec and Park, Golden Gate Park points of interest",
+    "url": "https://www.sfrecpark.org/1116/Golden-Gate-Park-Points-of-Interest"
+   }
+  },
+  {
+   "id": "dutch-windmill",
+   "name": "Dutch Windmill",
+   "kind": "Park feature",
+   "address": "West end of Golden Gate Park",
+   "features": [],
+   "hours": null,
+   "seasonal": null,
+   "url": "https://www.sfrecpark.org/1116/Golden-Gate-Park-Points-of-Interest",
    "note": null,
    "source": {
-    "label": "Rec and Park eNews, Oct 29, 2025",
-    "url": "https://t.e2ma.net/message/06ru6j/wfcl20hc"
+    "label": "Rec and Park, Golden Gate Park points of interest",
+    "url": "https://www.sfrecpark.org/1116/Golden-Gate-Park-Points-of-Interest"
    }
   },
   {
-   "id": "rec-centers-with-classes",
-   "name": "Recreation centers offering classes",
-   "kind": "Community center",
-   "address": null,
+   "id": "golden-gate-bandshell",
+   "name": "Golden Gate Park Bandshell (Music Concourse)",
+   "kind": "Park feature",
+   "address": "Music Concourse Drive, off MLK Drive, Golden Gate Park",
    "features": [
-    "Bernal Heights",
-    "Betty Ann Ong Chinese",
-    "Eureka Valley",
-    "Glen Canyon",
-    "Hamilton",
-    "Joseph Lee",
-    "Minnie & Lovie Ward",
-    "Mission",
-    "Moscone",
-    "Palega",
-    "Potrero Hill",
-    "Richmond",
-    "St. Mary's",
-    "Sunset",
-    "Upper Noe"
+    "Free Illuminate LIVE shows, March to mid-November, Wednesdays, Fridays and Sundays",
+    "Free Golden Gate Park Band concerts, late April to early October, Sundays at 1 pm"
    ],
    "hours": null,
-   "seasonal": null,
-   "url": "https://sfrecpark.org/DocumentCenter/View/28186/2026-Spring-Catalog",
-   "note": "Recreation centers named in the Spring 2026 class catalog. Addresses are not listed here.",
+   "seasonal": "Illuminate LIVE season ends mid-November",
+   "url": "https://www.sfrecpark.org/1116/Golden-Gate-Park-Points-of-Interest",
+   "note": null,
    "source": {
-    "label": "Rec and Park Spring 2026 Catalog",
-    "url": "https://sfrecpark.org/DocumentCenter/View/28186/2026-Spring-Catalog"
+    "label": "Rec and Park, Golden Gate Park points of interest",
+    "url": "https://www.sfrecpark.org/1116/Golden-Gate-Park-Points-of-Interest"
    }
   },
   {
-   "id": "mlk-pool",
-   "name": "Martin Luther King Jr. Pool",
-   "kind": "Pool",
-   "address": null,
+   "id": "beach-chalet-visitor-center",
+   "name": "Golden Gate Park Visitor Center (Beach Chalet)",
+   "kind": "Park feature",
+   "address": "1000 Great Highway, San Francisco",
    "features": [
-    "Main pool",
-    "Wading pool"
+    "Park Chalet restaurant on the ground floor",
+    "Beach Chalet restaurant upstairs"
    ],
    "hours": null,
    "seasonal": null,
-   "url": "https://t.e2ma.net/message/o1fohk/wfcl20hc",
-   "note": "Closed for annual maintenance in February 2026 and reopened February 24. The eNews named Garfield Pool and Balboa Pool as nearby alternatives during closures. One of the city's nine public pools.",
+   "url": "https://www.sfrecpark.org/1116/Golden-Gate-Park-Points-of-Interest",
+   "note": null,
    "source": {
-    "label": "Rec and Park eNews, Feb 11, 2026",
-    "url": "https://t.e2ma.net/message/o1fohk/wfcl20hc"
-   }
-  },
-  {
-   "id": "bernal-heights-playground",
-   "name": "Bernal Heights Playground",
-   "kind": "Playground",
-   "address": "500 Moultrie Street, San Francisco, CA",
-   "features": [
-    "New play equipment"
-   ],
-   "hours": null,
-   "seasonal": null,
-   "url": "https://t.e2ma.net/message/06ru6j/wfcl20hc",
-   "note": "Reopened with a ribbon-cutting on November 3, 2025.",
-   "source": {
-    "label": "Rec and Park eNews, Oct 29, 2025",
-    "url": "https://t.e2ma.net/message/06ru6j/wfcl20hc"
-   }
-  },
-  {
-   "id": "stern-grove-playground",
-   "name": "Stern Grove Playground",
-   "kind": "Playground",
-   "address": null,
-   "features": [
-    "Nature-based play area",
-    "Treehouse-like structures and climbing nets",
-    "Swings",
-    "Accessibility improvements"
-   ],
-   "hours": null,
-   "seasonal": null,
-   "url": "https://sfrecpark.org/CivicAlerts.asp?AID=2446",
-   "note": "Reopened with a ribbon-cutting September 10, 2025 under the Let'sPlaySF! initiative, which is renovating 13 aging playgrounds.",
-   "source": {
-    "label": "Rec and Park News Flash, Sep 8, 2025",
-    "url": "https://sfrecpark.org/CivicAlerts.asp?AID=2446"
-   }
-  },
-  {
-   "id": "lincoln-park-playground",
-   "name": "Lincoln Park Playground",
-   "kind": "Playground",
-   "address": null,
-   "features": [
-    "New play equipment and safety surfacing"
-   ],
-   "hours": null,
-   "seasonal": null,
-   "url": "https://t.e2ma.net/message/cgnmck/wfcl20hc",
-   "note": "Reopened in December 2025 after a May 2025 arson fire; the $600,000 rebuild used the Playground Renewal Program.",
-   "source": {
-    "label": "Rec and Park eNews, Dec 24, 2025",
-    "url": "https://t.e2ma.net/message/cgnmck/wfcl20hc"
-   }
-  },
-  {
-   "id": "commission-vault-museum",
-   "name": "Commission Vault Museum (McLaren Lodge)",
-   "kind": "Museum",
-   "address": "McLaren Lodge, 501 Stanyan Street, San Francisco, CA",
-   "features": [
-    "Museum about Golden Gate Park's history"
-   ],
-   "hours": null,
-   "seasonal": null,
-   "url": "https://t.e2ma.net/message/g76uik/wfcl20hc",
-   "note": "Opened in early 2026.",
-   "source": {
-    "label": "Rec and Park eNews, Feb 25, 2026",
-    "url": "https://t.e2ma.net/message/g76uik/wfcl20hc"
+    "label": "Rec and Park, Golden Gate Park points of interest",
+    "url": "https://www.sfrecpark.org/1116/Golden-Gate-Park-Points-of-Interest"
    }
   },
   {
@@ -220,6 +252,495 @@
    "source": {
     "label": "Rec and Park eNews, May 20, 2026",
     "url": "https://t.e2ma.net/message/0q3wrk/wfcl20hc"
+   }
+  },
+  {
+   "id": "bernal-heights-recreation-center",
+   "name": "Bernal Heights Recreation Center",
+   "kind": "Community center",
+   "address": null,
+   "features": [],
+   "hours": null,
+   "seasonal": null,
+   "url": "https://sfrecpark.org/Facilities/Facility/Details/Bernal-Heights-Rec-Center-83",
+   "note": null,
+   "source": {
+    "label": "Rec and Park, Recreation Facilities",
+    "url": "https://www.sfrecpark.org/685/Recreation-Facilities"
+   }
+  },
+  {
+   "id": "betty-ann-ong-recreation-center",
+   "name": "Betty Ann Ong Recreation Center",
+   "kind": "Community center",
+   "address": null,
+   "features": [],
+   "hours": null,
+   "seasonal": null,
+   "url": "https://sfrecpark.org/Facilities/Facility/Details/Betty-Ann-Ong-Rec-Center-84",
+   "note": null,
+   "source": {
+    "label": "Rec and Park, Recreation Facilities",
+    "url": "https://www.sfrecpark.org/685/Recreation-Facilities"
+   }
+  },
+  {
+   "id": "eureka-valley-recreation-center",
+   "name": "Eureka Valley Recreation Center",
+   "kind": "Community center",
+   "address": null,
+   "features": [],
+   "hours": null,
+   "seasonal": null,
+   "url": "https://sfrecpark.org/Facilities/Facility/Details/Eureka-Valley-Rec-Center-86",
+   "note": null,
+   "source": {
+    "label": "Rec and Park, Recreation Facilities",
+    "url": "https://www.sfrecpark.org/685/Recreation-Facilities"
+   }
+  },
+  {
+   "id": "garfield-recreation-center",
+   "name": "Garfield Recreation Center",
+   "kind": "Community center",
+   "address": null,
+   "features": [],
+   "hours": null,
+   "seasonal": null,
+   "url": "https://sfrecpark.org/Facilities/Facility/Details/Garfield-Recreation-Center-441",
+   "note": "A 3,550 square foot clubhouse and pool building.",
+   "source": {
+    "label": "Rec and Park, Recreation Facilities",
+    "url": "https://www.sfrecpark.org/685/Recreation-Facilities"
+   }
+  },
+  {
+   "id": "gene-friend-recreation-center",
+   "name": "Gene Friend Recreation Center",
+   "kind": "Community center",
+   "address": "270 6th Street, San Francisco, CA (South of Market; new entry on Harriet Street)",
+   "features": [
+    "Gym with two full-size basketball courts",
+    "Exercise area",
+    "Two multipurpose rooms and a kitchenette",
+    "Playground, picnic area and sport court"
+   ],
+   "hours": null,
+   "seasonal": null,
+   "url": "https://sfrecpark.org/Facilities/Facility/Details/Gene-Friend-Rec-Center-88",
+   "note": "Rebuilt as a 25,000 square foot center replacing the 1990 building; opened in August 2026 (grand opening August 13) and received LEED Gold certification, per Rec and Park's September 2026 project update.",
+   "source": {
+    "label": "Rec and Park, Park Improvements (project updates list)",
+    "url": "https://www.sfrecpark.org/468/Park-Improvements"
+   }
+  },
+  {
+   "id": "glen-park-recreation-center",
+   "name": "Glen Park Recreation Center",
+   "kind": "Community center",
+   "address": null,
+   "features": [],
+   "hours": null,
+   "seasonal": null,
+   "url": "https://sfrecpark.org/Facilities/Facility/Details/Glen-Park-Rec-Center-89",
+   "note": null,
+   "source": {
+    "label": "Rec and Park, Recreation Facilities",
+    "url": "https://www.sfrecpark.org/685/Recreation-Facilities"
+   }
+  },
+  {
+   "id": "hamilton-recreation-center",
+   "name": "Hamilton Recreation Center",
+   "kind": "Community center",
+   "address": "1900 Geary Boulevard, San Francisco, CA",
+   "features": [],
+   "hours": null,
+   "seasonal": null,
+   "url": "https://sfrecpark.org/Facilities/Facility/Details/Hamilton-Rec-Center-93",
+   "note": null,
+   "source": {
+    "label": "Rec and Park eNews, Oct 29, 2025",
+    "url": "https://t.e2ma.net/message/06ru6j/wfcl20hc"
+   }
+  },
+  {
+   "id": "herz-recreation-center",
+   "name": "Herz Recreation Center",
+   "kind": "Community center",
+   "address": "160 Mrs. Jackson Way (McLaren Park), San Francisco, CA",
+   "features": [],
+   "hours": null,
+   "seasonal": null,
+   "url": "https://sfrecpark.org/Facilities/Facility/Details/Herz-Recreation-Center-471",
+   "note": "New recreation center; grand opening held January 9, 2026.",
+   "source": {
+    "label": "Rec and Park eNews, Jan 7, 2026",
+    "url": "https://t.e2ma.net/message/o9pxdk/wfcl20hc"
+   }
+  },
+  {
+   "id": "joseph-lee-recreation-center",
+   "name": "Joseph Lee Recreation Center",
+   "kind": "Community center",
+   "address": null,
+   "features": [],
+   "hours": null,
+   "seasonal": null,
+   "url": "https://sfrecpark.org/Facilities/Facility/Details/Joseph-Lee-Rec-Center-95",
+   "note": null,
+   "source": {
+    "label": "Rec and Park, Recreation Facilities",
+    "url": "https://www.sfrecpark.org/685/Recreation-Facilities"
+   }
+  },
+  {
+   "id": "minnie-lovie-ward-recreation-center",
+   "name": "Minnie & Lovie Ward Recreation Center",
+   "kind": "Community center",
+   "address": null,
+   "features": [],
+   "hours": null,
+   "seasonal": null,
+   "url": "https://sfrecpark.org/Facilities/Facility/Details/Minnie-Love-Ward-Rec-Center-97",
+   "note": "Athletic field renovation under way; phase one (east side) was expected to finish September 30, 2026.",
+   "source": {
+    "label": "Rec and Park, Recreation Facilities",
+    "url": "https://www.sfrecpark.org/685/Recreation-Facilities"
+   }
+  },
+  {
+   "id": "mission-recreation-center",
+   "name": "Mission Recreation Center",
+   "kind": "Community center",
+   "address": null,
+   "features": [],
+   "hours": null,
+   "seasonal": null,
+   "url": "https://sfrecpark.org/Facilities/Facility/Details/Mission-Rec-Center-100",
+   "note": null,
+   "source": {
+    "label": "Rec and Park, Recreation Facilities",
+    "url": "https://www.sfrecpark.org/685/Recreation-Facilities"
+   }
+  },
+  {
+   "id": "moscone-recreation-center",
+   "name": "Moscone Recreation Center",
+   "kind": "Community center",
+   "address": null,
+   "features": [],
+   "hours": null,
+   "seasonal": null,
+   "url": "https://sfrecpark.org/Facilities/Facility/Details/Moscone-Rec-Center-101",
+   "note": "Four tennis courts and four baseball diamonds.",
+   "source": {
+    "label": "Rec and Park, Recreation Facilities",
+    "url": "https://www.sfrecpark.org/685/Recreation-Facilities"
+   }
+  },
+  {
+   "id": "palega-recreation-center",
+   "name": "Palega Recreation Center",
+   "kind": "Community center",
+   "address": null,
+   "features": [],
+   "hours": null,
+   "seasonal": null,
+   "url": "https://sfrecpark.org/Facilities/Facility/Details/Palega-Rec-Center-103",
+   "note": null,
+   "source": {
+    "label": "Rec and Park, Recreation Facilities",
+    "url": "https://www.sfrecpark.org/685/Recreation-Facilities"
+   }
+  },
+  {
+   "id": "potrero-hill-recreation-center",
+   "name": "Potrero Hill Recreation Center",
+   "kind": "Community center",
+   "address": null,
+   "features": [],
+   "hours": null,
+   "seasonal": null,
+   "url": "https://sfrecpark.org/Facilities/Facility/Details/Potrero-Hill-Rec-Center-275",
+   "note": null,
+   "source": {
+    "label": "Rec and Park, Recreation Facilities",
+    "url": "https://www.sfrecpark.org/685/Recreation-Facilities"
+   }
+  },
+  {
+   "id": "richmond-recreation-center",
+   "name": "Richmond Recreation Center",
+   "kind": "Community center",
+   "address": null,
+   "features": [],
+   "hours": null,
+   "seasonal": null,
+   "url": "https://sfrecpark.org/Facilities/Facility/Details/Richmond-Rec-Center-105",
+   "note": null,
+   "source": {
+    "label": "Rec and Park, Recreation Facilities",
+    "url": "https://www.sfrecpark.org/685/Recreation-Facilities"
+   }
+  },
+  {
+   "id": "south-sunset-clubhouse",
+   "name": "South Sunset Clubhouse",
+   "kind": "Community center",
+   "address": null,
+   "features": [],
+   "hours": null,
+   "seasonal": null,
+   "url": "https://www.sfrecpark.org/468/Park-Improvements",
+   "note": "Renovated clubhouse reopened with a celebration on Thursday, August 27, 2026; the Mayor's release describes it as reopening space for Sunset District seniors.",
+   "source": {
+    "label": "Rec and Park, Park Improvements (project updates list)",
+    "url": "https://www.sfrecpark.org/468/Park-Improvements"
+   }
+  },
+  {
+   "id": "st-marys-recreation-center",
+   "name": "St. Mary's Recreation Center",
+   "kind": "Community center",
+   "address": null,
+   "features": [],
+   "hours": null,
+   "seasonal": null,
+   "url": "https://sfrecpark.org/Facilities/Facility/Details/St-Marys-Rec-Center-109",
+   "note": null,
+   "source": {
+    "label": "Rec and Park, Recreation Facilities",
+    "url": "https://www.sfrecpark.org/685/Recreation-Facilities"
+   }
+  },
+  {
+   "id": "sunset-recreation-center",
+   "name": "Sunset Recreation Center",
+   "kind": "Community center",
+   "address": null,
+   "features": [],
+   "hours": null,
+   "seasonal": null,
+   "url": "https://sfrecpark.org/Facilities/Facility/Details/Sunset-Rec-Center-110",
+   "note": null,
+   "source": {
+    "label": "Rec and Park, Recreation Facilities",
+    "url": "https://www.sfrecpark.org/685/Recreation-Facilities"
+   }
+  },
+  {
+   "id": "tenderloin-recreation-center",
+   "name": "Tenderloin Recreation Center",
+   "kind": "Community center",
+   "address": "570 Ellis Street, San Francisco, CA",
+   "features": [
+    "Children's play area (redesigned, reopened May 2026)"
+   ],
+   "hours": null,
+   "seasonal": null,
+   "url": "https://sfrecpark.org/Facilities/Facility/Details/Tenderloin-Rec-Center-111",
+   "note": "Reopening celebration for the children's play area was held May 26, 2026.",
+   "source": {
+    "label": "Rec and Park eNews, May 20, 2026",
+    "url": "https://t.e2ma.net/message/0q3wrk/wfcl20hc"
+   }
+  },
+  {
+   "id": "upper-noe-recreation-center",
+   "name": "Upper Noe Recreation Center",
+   "kind": "Community center",
+   "address": null,
+   "features": [],
+   "hours": null,
+   "seasonal": null,
+   "url": "https://sfrecpark.org/Facilities/Facility/Details/Upper-Noe-Rec-Center-112",
+   "note": null,
+   "source": {
+    "label": "Rec and Park, Recreation Facilities",
+    "url": "https://www.sfrecpark.org/685/Recreation-Facilities"
+   }
+  },
+  {
+   "id": "golden-gate-park-senior-center",
+   "name": "Golden Gate Park Senior Center",
+   "kind": "Senior center",
+   "address": null,
+   "features": [],
+   "hours": null,
+   "seasonal": null,
+   "url": "https://sfrecpark.org/Facilities/Facility/Details/Golden-Gate-Park-Senior-Center-90",
+   "note": "An outdoor fitness and recreation area for seniors is under construction here; the driveway is closed from October 6, 2026 for the length of construction (see Projects).",
+   "source": {
+    "label": "Rec and Park, Recreation Facilities",
+    "url": "https://www.sfrecpark.org/685/Recreation-Facilities"
+   }
+  },
+  {
+   "id": "harvey-milk-photo-center",
+   "name": "Harvey Milk Photo Center",
+   "kind": "Arts center",
+   "address": null,
+   "features": [],
+   "hours": null,
+   "seasonal": null,
+   "url": "https://sfrecpark.org/Facilities/Facility/Details/Harvey-Milk-Photo-Center-278",
+   "note": null,
+   "source": {
+    "label": "Rec and Park, Recreation Facilities",
+    "url": "https://www.sfrecpark.org/685/Recreation-Facilities"
+   }
+  },
+  {
+   "id": "harvey-milk-recreational-arts-center",
+   "name": "Harvey Milk Recreational Arts Center",
+   "kind": "Arts center",
+   "address": null,
+   "features": [],
+   "hours": null,
+   "seasonal": null,
+   "url": "https://sfrecpark.org/Facilities/Facility/Details/Harvey-Milk-Recreational-Arts-Center-94",
+   "note": null,
+   "source": {
+    "label": "Rec and Park, Recreation Facilities",
+    "url": "https://www.sfrecpark.org/685/Recreation-Facilities"
+   }
+  },
+  {
+   "id": "mission-arts-center",
+   "name": "Mission Arts Center",
+   "kind": "Arts center",
+   "address": null,
+   "features": [],
+   "hours": null,
+   "seasonal": null,
+   "url": "https://sfrecpark.org/Facilities/Facility/Details/Mission-Arts-Center-98",
+   "note": null,
+   "source": {
+    "label": "Rec and Park, Recreation Facilities",
+    "url": "https://www.sfrecpark.org/685/Recreation-Facilities"
+   }
+  },
+  {
+   "id": "sharon-art-studio",
+   "name": "Sharon Art Studio",
+   "kind": "Arts center",
+   "address": null,
+   "features": [],
+   "hours": null,
+   "seasonal": null,
+   "url": "https://sfrecpark.org/Facilities/Facility/Details/Sharon-Art-Studio-108",
+   "note": null,
+   "source": {
+    "label": "Rec and Park, Recreation Facilities",
+    "url": "https://www.sfrecpark.org/685/Recreation-Facilities"
+   }
+  },
+  {
+   "id": "ecocenter-herons-head",
+   "name": "The EcoCenter at Heron's Head Park",
+   "kind": "Nature center",
+   "address": null,
+   "features": [],
+   "hours": null,
+   "seasonal": null,
+   "url": "https://sfrecpark.org/1226/The-EcoCenter-at-Herons-Head-Park",
+   "note": null,
+   "source": {
+    "label": "Rec and Park, Recreation Facilities",
+    "url": "https://www.sfrecpark.org/685/Recreation-Facilities"
+   }
+  },
+  {
+   "id": "california-academy-of-sciences",
+   "name": "California Academy of Sciences",
+   "kind": "Museum",
+   "address": "55 Music Concourse Drive, Golden Gate Park",
+   "features": [],
+   "hours": null,
+   "seasonal": null,
+   "url": "https://www.calacademy.org/",
+   "note": null,
+   "source": {
+    "label": "Rec and Park, Golden Gate Park points of interest",
+    "url": "https://www.sfrecpark.org/1116/Golden-Gate-Park-Points-of-Interest"
+   }
+  },
+  {
+   "id": "commission-vault-museum",
+   "name": "Commission Vault and Mini-Museum (McLaren Lodge)",
+   "kind": "Museum",
+   "address": "McLaren Lodge, 501 Stanyan Street, San Francisco, CA",
+   "features": [
+    "Museum about Golden Gate Park's history"
+   ],
+   "hours": null,
+   "seasonal": null,
+   "url": "https://sfrecpark.org/1916/Commission-Vault-and-Mini-Museum",
+   "note": "Opened in early 2026.",
+   "source": {
+    "label": "Rec and Park eNews, Feb 25, 2026",
+    "url": "https://t.e2ma.net/message/g76uik/wfcl20hc"
+   }
+  },
+  {
+   "id": "de-young-museum",
+   "name": "de Young Museum",
+   "kind": "Museum",
+   "address": "50 Hagiwara Tea Garden Drive, Golden Gate Park",
+   "features": [],
+   "hours": null,
+   "seasonal": null,
+   "url": "https://deyoung.famsf.org/",
+   "note": null,
+   "source": {
+    "label": "Rec and Park, Golden Gate Park points of interest",
+    "url": "https://www.sfrecpark.org/1116/Golden-Gate-Park-Points-of-Interest"
+   }
+  },
+  {
+   "id": "randall-museum",
+   "name": "Randall Museum",
+   "kind": "Museum",
+   "address": null,
+   "features": [],
+   "hours": null,
+   "seasonal": null,
+   "url": "https://sfrecpark.org/Facilities/Facility/Details/Randall-Museum-104",
+   "note": null,
+   "source": {
+    "label": "Rec and Park, Recreation Facilities",
+    "url": "https://www.sfrecpark.org/685/Recreation-Facilities"
+   }
+  },
+  {
+   "id": "san-francisco-zoo",
+   "name": "San Francisco Zoo",
+   "kind": "Zoo",
+   "address": null,
+   "features": [],
+   "hours": null,
+   "seasonal": null,
+   "url": "https://media.api.sf.gov/documents/r0290-26.pdf",
+   "note": "City-owned; run by the San Francisco Zoological Society under a Lease and Management Agreement with Rec and Park that took effect July 1, 1993 and is due for renewal in 2028. The city pays the Society $4 million a year. On May 19, 2026 the Board of Supervisors (10-0, one excused) authorized Rec and Park to lend the Society up to $8.5 million, tied to cost cuts, quarterly reports and full accreditation from spring 2027.",
+   "source": {
+    "label": "Board of Supervisors Resolution 290-26, May 19, 2026",
+    "url": "https://media.api.sf.gov/documents/r0290-26.pdf"
+   }
+  },
+  {
+   "id": "kezar",
+   "name": "Kezar Stadium and Kezar Pavilion",
+   "kind": "Stadium",
+   "address": null,
+   "features": [],
+   "hours": null,
+   "seasonal": null,
+   "url": "https://www.sfrecpark.org/412/Press-Room",
+   "note": "Rec and Park press releases report legislation bringing a new professional soccer team to Kezar Stadium. Kezar Pavilion's renovation is in pre-construction (see Projects).",
+   "source": {
+    "label": "Rec and Park Press Room (headlines) and Park Improvements",
+    "url": "https://www.sfrecpark.org/412/Press-Room"
    }
   },
   {
@@ -262,18 +783,101 @@
    }
   },
   {
+   "id": "garfield-pool",
+   "name": "Garfield Pool",
+   "kind": "Pool",
+   "address": null,
+   "features": [
+    "Lap swim",
+    "Senior swim",
+    "Recreation swim",
+    "Fitness classes",
+    "Swim lessons",
+    "Community room",
+    "Locker room"
+   ],
+   "hours": null,
+   "seasonal": null,
+   "url": "https://sfrecpark.org/490/Garfield-Pool",
+   "note": null,
+   "source": {
+    "label": "Rec and Park, Garfield Pool",
+    "url": "https://sfrecpark.org/490/Garfield-Pool"
+   }
+  },
+  {
    "id": "hamilton-pool",
    "name": "Hamilton Pool",
    "kind": "Pool",
    "address": "1900 Geary Street at Steiner Street, San Francisco, CA 94115",
    "features": [],
-   "hours": "Fall 2026 schedule runs August 18 to December 12 (posted on the pool page)",
-   "seasonal": null,
+   "hours": "Fall 2026 schedule, August 18 to December 12: sessions between 6:30 am and 8:00 pm (see the schedule for each day)",
+   "seasonal": "Closed for maintenance November 23 to 29, 2026; also closed November 11 and the morning of December 12",
    "url": "https://www.sfrecpark.org/491/Hamilton-Pool",
    "note": "Phone (415) 292-2008.",
    "source": {
-    "label": "Rec and Park, Hamilton Pool",
-    "url": "https://www.sfrecpark.org/491/Hamilton-Pool"
+    "label": "Rec and Park, Hamilton Pool and its Fall 2026 schedule",
+    "url": "https://www.sfrecpark.org/DocumentCenter/View/29800"
+   }
+  },
+  {
+   "id": "mlk-pool",
+   "name": "Martin Luther King Jr. Pool",
+   "kind": "Pool",
+   "address": "5701 3rd Street (Carroll Avenue and Keith Street), San Francisco, CA 94124",
+   "features": [
+    "Main pool",
+    "Wading pool",
+    "Community room",
+    "Locker room",
+    "Parking"
+   ],
+   "hours": "Fall 2026 schedule, September 29 to December 12: sessions between 7:00 am and 8:30 pm (see the schedule for each day)",
+   "seasonal": "Closed November 11, November 26 and 27, and December 12 (staff training)",
+   "url": "https://www.sfrecpark.org/492/Martin-Luther-King-Jr-Pool",
+   "note": "Phone 415-269-7697. Closed for annual maintenance in February 2026 and reopened February 24. One of the city's nine public pools.",
+   "source": {
+    "label": "Rec and Park, Martin Luther King Jr. Pool and its Fall 2026 schedule",
+    "url": "https://www.sfrecpark.org/492/Martin-Luther-King-Jr-Pool"
+   }
+  },
+  {
+   "id": "mission-community-pool",
+   "name": "Mission Community Pool",
+   "kind": "Pool",
+   "address": "19th Street between Linda and Valencia Streets, Mission District, San Francisco",
+   "features": [
+    "Outdoor pool",
+    "Locker room"
+   ],
+   "hours": null,
+   "seasonal": "Last day of the 2026 season is November 21; closed for the season from November 22",
+   "url": "https://sfrecpark.org/493/Mission-Community-Pool",
+   "note": "The only city-operated outdoor pool in San Francisco.",
+   "source": {
+    "label": "Rec and Park, Mission Community Pool",
+    "url": "https://sfrecpark.org/493/Mission-Community-Pool"
+   }
+  },
+  {
+   "id": "north-beach-pool",
+   "name": "North Beach Pool",
+   "kind": "Pool",
+   "address": "661 Lombard Street, San Francisco, CA 94133",
+   "features": [
+    "25-meter lap pool",
+    "Recreation pool",
+    "Dry sauna",
+    "Community room",
+    "Locker room"
+   ],
+   "hours": "Fall 2026 schedules (cool pool and warm pool), September 1 to December 12",
+   "seasonal": "The pool page lists an annual maintenance closure from October 13 with reopening on November 2",
+   "url": "https://sfrecpark.org/Facilities/Facility/Details/North-Beach-Pool-218",
+   "note": "Phone (415) 391-0407.",
+   "source": {
+    "label": "Rec and Park, North Beach Pool",
+    "url": "https://sfrecpark.org/Facilities/Facility/Details/North-Beach-Pool-218"
    }
   },
   {
@@ -292,63 +896,39 @@
    }
   },
   {
-   "id": "mission-community-pool",
-   "name": "Mission Community Pool",
-   "kind": "Pool",
-   "address": null,
-   "features": [],
-   "hours": null,
-   "seasonal": "Last day of the 2026 season is November 21",
-   "url": "https://sfrecpark.org/493/Mission-Community-Pool",
-   "note": null,
-   "source": {
-    "label": "Rec and Park, Swimming Pools",
-    "url": "https://sfrecpark.org/482/Swimming-Pools"
-   }
-  },
-  {
-   "id": "garfield-pool",
-   "name": "Garfield Pool",
-   "kind": "Pool",
-   "address": null,
-   "features": [],
-   "hours": null,
-   "seasonal": null,
-   "url": "https://sfrecpark.org/490/Garfield-Pool",
-   "note": null,
-   "source": {
-    "label": "Rec and Park, Swimming Pools",
-    "url": "https://sfrecpark.org/482/Swimming-Pools"
-   }
-  },
-  {
-   "id": "north-beach-pool",
-   "name": "North Beach Pool",
-   "kind": "Pool",
-   "address": null,
-   "features": [],
-   "hours": null,
-   "seasonal": null,
-   "url": "https://sfrecpark.org/Facilities/Facility/Details/North-Beach-Pool-218",
-   "note": null,
-   "source": {
-    "label": "Rec and Park, Swimming Pools",
-    "url": "https://sfrecpark.org/482/Swimming-Pools"
-   }
-  },
-  {
    "id": "sava-pool",
    "name": "Sava Pool",
    "kind": "Pool",
    "address": null,
-   "features": [],
+   "features": [
+    "25-yard, eight-lane pool",
+    "Community room",
+    "Parking"
+   ],
    "hours": null,
    "seasonal": null,
    "url": "https://sfrecpark.org/546/Sava-Pool",
-   "note": null,
+   "note": "The pool page lists a replastering project flyer but gives no dates.",
    "source": {
-    "label": "Rec and Park, Swimming Pools",
-    "url": "https://sfrecpark.org/482/Swimming-Pools"
+    "label": "Rec and Park, Sava Pool",
+    "url": "https://sfrecpark.org/546/Sava-Pool"
+   }
+  },
+  {
+   "id": "tpc-fleming",
+   "name": "Fleming Golf Course (TPC Fleming)",
+   "kind": "Golf course",
+   "address": "Inside TPC Harding Park, Lake Merced, San Francisco",
+   "features": [
+    "9 holes"
+   ],
+   "hours": null,
+   "seasonal": null,
+   "url": "https://www.sfrecpark.org/Facilities/Facility/Details/TPC-Fleming-Golf-Course-43",
+   "note": "Rates, tee times and resident cards: sfrecpark.org/1384/Rates-and-Tee-Times.",
+   "source": {
+    "label": "Rec and Park, Golf Courses",
+    "url": "https://sfrecpark.org/445/Golf-Courses"
    }
   },
   {
@@ -407,7 +987,7 @@
    "hours": null,
    "seasonal": null,
    "url": "https://www.sfrecpark.org/Facilities/Facility/Details/Sharp-Park-Golf-Course-42",
-   "note": "Run by San Francisco Rec and Park but located in Pacifica. Rates, tee times and resident cards: sfrecpark.org/1384/Rates-and-Tee-Times.",
+   "note": "A San Francisco Rec and Park course located in Pacifica. Rates, tee times and resident cards: sfrecpark.org/1384/Rates-and-Tee-Times.",
    "source": {
     "label": "Rec and Park, Golf Courses",
     "url": "https://sfrecpark.org/445/Golf-Courses"
@@ -429,76 +1009,79 @@
    }
   },
   {
-   "id": "tpc-fleming",
-   "name": "Fleming Golf Course (TPC Fleming)",
-   "kind": "Golf course",
-   "address": "Inside TPC Harding Park, Lake Merced, San Francisco",
+   "id": "bernal-heights-playground",
+   "name": "Bernal Heights Playground",
+   "kind": "Playground",
+   "address": "500 Moultrie Street, San Francisco, CA",
    "features": [
-    "9 holes"
+    "New play equipment"
    ],
    "hours": null,
    "seasonal": null,
-   "url": "https://www.sfrecpark.org/Facilities/Facility/Details/TPC-Fleming-Golf-Course-43",
-   "note": "Rates, tee times and resident cards: sfrecpark.org/1384/Rates-and-Tee-Times.",
+   "url": "https://t.e2ma.net/message/06ru6j/wfcl20hc",
+   "note": "Reopened with a ribbon-cutting on November 3, 2025.",
    "source": {
-    "label": "Rec and Park, Golf Courses",
-    "url": "https://sfrecpark.org/445/Golf-Courses"
+    "label": "Rec and Park eNews, Oct 29, 2025",
+    "url": "https://t.e2ma.net/message/06ru6j/wfcl20hc"
    }
   },
   {
-   "id": "conservatory-of-flowers",
-   "name": "Conservatory of Flowers",
-   "kind": "Garden",
-   "address": "100 John F Kennedy Drive, Golden Gate Park, San Francisco, CA 94118",
+   "id": "lincoln-park-playground",
+   "name": "Lincoln Park Playground",
+   "kind": "Playground",
+   "address": null,
    "features": [
-    "Free on the first Tuesday of the month",
-    "Free nightly light show, Photosynthesis, starting 30 minutes after sunset"
+    "New play equipment and safety surfacing"
    ],
-   "hours": "10 am to 4:30 pm, last entry 4 pm; closed Wednesdays",
+   "hours": null,
    "seasonal": null,
-   "url": "https://gggp.org/admissions-hours/",
-   "note": "Hours and admission are posted by Gardens of Golden Gate Park (gggp.org), which Rec and Park links from its home page. Free general admission with a valid EBT card.",
+   "url": "https://t.e2ma.net/message/cgnmck/wfcl20hc",
+   "note": "Reopened in December 2025 after a May 2025 arson fire; the $600,000 rebuild used the Playground Renewal Program.",
    "source": {
-    "label": "Gardens of Golden Gate Park, Admissions and hours",
-    "url": "https://gggp.org/admissions-hours/"
+    "label": "Rec and Park eNews, Dec 24, 2025",
+    "url": "https://t.e2ma.net/message/cgnmck/wfcl20hc"
    }
   },
   {
-   "id": "japanese-tea-garden",
-   "name": "Japanese Tea Garden",
-   "kind": "Garden",
-   "address": "75 Hagiwara Tea Garden Drive, Golden Gate Park, San Francisco, CA 94118",
+   "id": "stern-grove-playground",
+   "name": "Stern Grove Playground",
+   "kind": "Playground",
+   "address": null,
    "features": [
-    "Free hour Monday, Wednesday and Friday, 9 to 10 am"
+    "Nature-based play area",
+    "Treehouse-like structures and climbing nets",
+    "Swings",
+    "Accessibility improvements"
    ],
-   "hours": "Daily from 9 am",
-   "seasonal": "November to February: last entry 4:30 pm (5:30 pm March to October)",
-   "url": "https://gggp.org/admissions-hours/",
-   "note": "Hours and admission are posted by Gardens of Golden Gate Park (gggp.org), which Rec and Park links from its home page. Free general admission with a valid EBT card.",
+   "hours": null,
+   "seasonal": null,
+   "url": "https://sfrecpark.org/CivicAlerts.asp?AID=2446",
+   "note": "Reopened with a ribbon-cutting September 10, 2025 under the Let'sPlaySF! initiative, which is renovating 13 aging playgrounds.",
    "source": {
-    "label": "Gardens of Golden Gate Park, Admissions and hours",
-    "url": "https://gggp.org/admissions-hours/"
+    "label": "Rec and Park News Flash, Sep 8, 2025",
+    "url": "https://sfrecpark.org/CivicAlerts.asp?AID=2446"
    }
   },
   {
-   "id": "sf-botanical-garden",
-   "name": "San Francisco Botanical Garden",
-   "kind": "Garden",
-   "address": "1199 9th Avenue, Golden Gate Park, San Francisco, CA 94122",
+   "id": "dog-play-areas",
+   "name": "Dog play areas (citywide)",
+   "kind": "Dog play area",
+   "address": null,
    "features": [
-    "Free daily 7:30 to 9 am",
-    "Free on the second Tuesday of each month",
-    "Free on Thanksgiving, Christmas and New Year's Day",
-    "Bookstore and plant shop, daily 10 am to 4 pm"
+    "Off leash only inside designated dog play areas",
+    "Leash dogs entering and leaving",
+    "No dogs on athletic fields, courts, children's play areas or sensitive habitat"
    ],
-   "hours": "Daily from 7:30 am",
-   "seasonal": "First Sunday in November through January: last entry 4 pm; the garden closes one hour after last entry. Lightscape runs November 20 to January 3 (separate ticket).",
-   "url": "https://gggp.org/admissions-hours/",
-   "note": "Hours and admission are posted by Gardens of Golden Gate Park (gggp.org), which Rec and Park links from its home page. Free general admission with a valid EBT card.",
+   "hours": null,
+   "seasonal": null,
+   "url": "https://www.sfrecpark.org/DocumentCenter/View/14206/SFRPD-Dog-Policy",
+   "note": "Rec and Park's dog policy (adopted May 8, 2002) counted 19 designated off-leash areas at the time; a current count was not on any page we could open. Mission Dolores Park's two areas are listed separately.",
    "source": {
-    "label": "Gardens of Golden Gate Park, Admissions and hours",
-    "url": "https://gggp.org/admissions-hours/"
-   }
+    "label": "Rec and Park, Dog Policy (May 8, 2002)",
+    "url": "https://www.sfrecpark.org/DocumentCenter/View/14206/SFRPD-Dog-Policy"
+   },
+   "needs_review": true,
+   "review_note": "Count is from 2002; Rec and Park's current Dog Play Areas page did not load."
   }
  ],
  "programs": [
@@ -561,15 +1144,63 @@
     "label": "Gardens of Golden Gate Park, Admissions and hours",
     "url": "https://gggp.org/admissions-hours/"
    }
+  },
+  {
+   "name": "Youth sports leagues (Rec and Park partners)",
+   "who": "Youth",
+   "when": "Seasons and sign-up dates are on each league's page",
+   "where": "MRC Rebels Basketball, Bayview United Soccer Club, Jose Coronado Futsal League and youth flag football",
+   "cost": null,
+   "url": "https://www.sfrecpark.org/406/Recreation-Programs",
+   "source": {
+    "label": "Rec and Park, Recreation Programs",
+    "url": "https://www.sfrecpark.org/406/Recreation-Programs"
+   }
+  },
+  {
+   "name": "After-school programs, 2026-27 school year",
+   "who": "School-age children",
+   "when": "2026-27 school year; enroll or join a waitlist by calling 628-652-2900",
+   "where": "Recreation centers citywide (search after school in the registration system)",
+   "cost": null,
+   "url": "https://anc.apm.activecommunities.com/sfrecpark/activity/search?onlineSiteId=0&activity_select_param=2&activity_keyword=after%20school&viewMode=list",
+   "source": {
+    "label": "Rec and Park, Recreation Programs",
+    "url": "https://www.sfrecpark.org/406/Recreation-Programs"
+   }
+  },
+  {
+   "name": "Therapeutic recreation (programs for people with disabilities)",
+   "who": "Children and adults with disabilities",
+   "when": "Year-round; separate registration help",
+   "where": "Citywide",
+   "cost": null,
+   "url": "https://sfrecpark.org/1249/Therapeutic-Recreation",
+   "source": {
+    "label": "Rec and Park, Recreation Programs",
+    "url": "https://www.sfrecpark.org/406/Recreation-Programs"
+   }
+  },
+  {
+   "name": "Camp Mather 2027 (Rec and Park family camp)",
+   "who": "Families",
+   "when": "The 2027 reservation process is not posted yet (Rec and Park says more information is coming soon). Last year's lottery was open until January 2, 2026.",
+   "where": "Camp Mather",
+   "cost": null,
+   "url": "https://www.sfrecpark.org/443/Camp-Mather",
+   "source": {
+    "label": "Rec and Park, Camp Mather; Rec and Park eNews, Dec 10, 2025",
+    "url": "https://www.sfrecpark.org/443/Camp-Mather"
+   }
   }
  ],
  "projects": [
   {
    "title": "Portsmouth Square renovation (Chinatown)",
-   "status": "Under way",
-   "summary": "Rec and Park announced the renovation was moving toward a summer 2026 groundbreaking with a contractor lined up. In late July and August 2026 Kearny Street between Clay and Washington had lane closures starting July 30 and full weekend closures August 1 to 2 and August 8 to 9 while the pedestrian bridge was demolished, with Muni reroutes.",
+   "status": "Under construction",
+   "summary": "The Mayor broke ground on the renovation in 2026. Rec and Park's construction update of October 30, 2026 says the new temporary walkway connecting the garage elevator is complete. No sewer replacement work is scheduled from October 8 to November 10, 2026, and that work was moved to after spring 2027; an October update reported an unforeseen pavement support issue on Walter U. Lum Place. Earlier, in late July and August 2026, Kearny Street had lane and weekend closures while the pedestrian bridge was demolished.",
    "cost": null,
-   "url": "https://groups.google.com/g/mclarenparkcollaborative/c/xG02vPNwoU8",
+   "url": "https://www.sfrecpark.org/468/Park-Improvements",
    "keywords": [
     "portsmouth square",
     "chinatown",
@@ -578,14 +1209,271 @@
     "renovation"
    ],
    "source": {
-    "label": "Rec and Park eNews, Jul 29, 2026 (forwarded to McLaren Park Collaborative list)",
-    "url": "https://groups.google.com/g/mclarenparkcollaborative/c/xG02vPNwoU8"
+    "label": "Rec and Park, Park Improvements (project updates list)",
+    "url": "https://www.sfrecpark.org/468/Park-Improvements"
    }
+  },
+  {
+   "title": "India Basin Waterfront Park",
+   "status": "Under construction (final phase)",
+   "summary": "Rec and Park's October 2026 update: cofferdam installation along the Marineway is complete, and dewatering and excavation are under way. With the 900 Innes site it will form a 10-acre waterfront park. Rec and Park also announced a $4 million federal grant to support cleanup and restoration.",
+   "cost": null,
+   "url": "https://www.sfrecpark.org/468/Park-Improvements",
+   "keywords": [
+    "india basin",
+    "900 innes",
+    "waterfront park",
+    "shoreline"
+   ],
+   "source": {
+    "label": "Rec and Park, Park Improvements (project updates list)",
+    "url": "https://www.sfrecpark.org/468/Park-Improvements"
+   }
+  },
+  {
+   "title": "Outdoor fitness and recreation area for seniors (Golden Gate Park Senior Center)",
+   "status": "Under construction",
+   "summary": "Rec and Park broke ground October 6, 2026 on a 5,000 square foot outdoor area at the Golden Gate Park Senior Center: stationary exercise equipment for up to 20 people, open space for dance, tai chi, yoga and classes, shaded seating under a pergola, an accessible picnic table and pathway, and four refreshed accessible parking spaces. The design came from four community meetings and two multilingual surveys in 2024 and 2025. No completion date was given.",
+   "cost": "$1.27 million ($1.175 million from the 2020 Health and Recovery Bond, $100,000 from the General Fund)",
+   "url": "https://www.sfrecpark.org/CivicAlerts.aspx?AID=3107",
+   "keywords": [
+    "senior center",
+    "golden gate park",
+    "outdoor fitness",
+    "seniors",
+    "health and recovery bond"
+   ],
+   "source": {
+    "label": "Rec and Park press release, Oct 6, 2026",
+    "url": "https://www.sfrecpark.org/CivicAlerts.aspx?AID=3107"
+   }
+  },
+  {
+   "title": "Buchanan Street Mall renovation",
+   "status": "Under construction (nearing completion)",
+   "summary": "Rec and Park's October 2026 update says work is moving quickly towards completion. Pedestrian access between McAllister Street and Golden Gate Avenue is limited to residents through late 2026.",
+   "cost": null,
+   "url": "https://www.sfrecpark.org/468/Park-Improvements",
+   "keywords": [
+    "buchanan street mall",
+    "western addition",
+    "fillmore",
+    "renovation"
+   ],
+   "source": {
+    "label": "Rec and Park, Park Improvements (project updates list)",
+    "url": "https://www.sfrecpark.org/468/Park-Improvements"
+   }
+  },
+  {
+   "title": "Twin Peaks Promenade",
+   "status": "Under construction",
+   "summary": "Rec and Park's September 2026 update says demolition at Twin Peaks has been completed. Rec and Park's press room also reports the Mayor celebrating the groundbreaking.",
+   "cost": null,
+   "url": "https://www.sfrecpark.org/468/Park-Improvements",
+   "keywords": [
+    "twin peaks",
+    "promenade",
+    "christmas tree point"
+   ],
+   "source": {
+    "label": "Rec and Park, Park Improvements (project updates list)",
+    "url": "https://www.sfrecpark.org/468/Park-Improvements"
+   }
+  },
+  {
+   "title": "Minnie & Lovie Ward Athletic Fields renovation",
+   "status": "Under construction",
+   "summary": "Rec and Park expected to finish phase one, the eastern side, on Wednesday, September 30, 2026 (September 2026 advisory).",
+   "cost": null,
+   "url": "https://www.sfrecpark.org/468/Park-Improvements",
+   "keywords": [
+    "minnie & lovie ward",
+    "ocean view",
+    "athletic fields",
+    "ballfields"
+   ],
+   "source": {
+    "label": "Rec and Park, Park Improvements (project updates list)",
+    "url": "https://www.sfrecpark.org/468/Park-Improvements"
+   }
+  },
+  {
+   "title": "Japantown Peace Plaza renovation",
+   "status": "Under construction",
+   "summary": "Rec and Park's October 2026 update says crews will spend the coming months finishing the parts of the plaza around the pagoda; weekend and night work continues into mid-November.",
+   "cost": null,
+   "url": "https://www.sfrecpark.org/468/Park-Improvements",
+   "keywords": [
+    "peace plaza",
+    "japantown",
+    "pagoda"
+   ],
+   "source": {
+    "label": "Rec and Park, Park Improvements (project updates list)",
+    "url": "https://www.sfrecpark.org/468/Park-Improvements"
+   }
+  },
+  {
+   "title": "Embarcadero Park renovation (Embarcadero Plaza and Sue Bierman Park)",
+   "status": "Pre-construction; site work started",
+   "summary": "The Rec and Park Commission gave final approval to the names Embarcadero Park and Art Agnos Plaza. Rec and Park's October 2026 update says Sue Bierman Playground has reopened after closing from September 28 to October 15 for tree work; tree removal began in mid-September and a groundbreaking was expected later in 2026.",
+   "cost": null,
+   "url": "https://www.sfrecpark.org/468/Park-Improvements",
+   "keywords": [
+    "embarcadero plaza",
+    "sue bierman park",
+    "waterfront",
+    "design survey"
+   ],
+   "source": {
+    "label": "Rec and Park, Park Improvements (project updates list)",
+    "url": "https://www.sfrecpark.org/468/Park-Improvements"
+   },
+   "needs_review": true,
+   "review_note": "Closure dates and groundbreaking timing come from Rec and Park's project list; the individual update pages did not load."
+  },
+  {
+   "title": "Kezar Pavilion renovation",
+   "status": "Pre-construction",
+   "summary": "Rec and Park's October 2026 update says Clark Construction has joined the team and the pre-construction phase began that month.",
+   "cost": null,
+   "url": "https://www.sfrecpark.org/468/Park-Improvements",
+   "keywords": [
+    "kezar pavilion",
+    "kezar",
+    "gym",
+    "golden gate park"
+   ],
+   "source": {
+    "label": "Rec and Park, Park Improvements (project updates list)",
+    "url": "https://www.sfrecpark.org/468/Park-Improvements"
+   }
+  },
+  {
+   "title": "Jackson Playground renovation",
+   "status": "Funded (state award)",
+   "summary": "Rec and Park's press room lists a release headlined State Awards Jackson Playground Renovation Project $10 Million. Rec and Park's July 2026 project update said it would conduct soil sampling on the fields at Jackson Park. Construction timing was not on pages that loaded.",
+   "cost": "$10 million state award (per the headline)",
+   "url": "https://www.sfrecpark.org/468/Park-Improvements",
+   "keywords": [
+    "jackson playground",
+    "potrero hill",
+    "renovation",
+    "state grant"
+   ],
+   "source": {
+    "label": "Rec and Park Press Room (headline)",
+    "url": "https://www.sfrecpark.org/412/Press-Room"
+   },
+   "needs_review": true,
+   "review_note": "Only the headline could be read; the release page returned an error twice on Nov 4."
+  },
+  {
+   "title": "McLaren Park, Louis Sutter Upper Playground renewal",
+   "status": "Design complete; groundbreaking January 2027",
+   "summary": "Rec and Park's July 2026 update says the project is expected to break ground in January 2027.",
+   "cost": null,
+   "url": "https://www.sfrecpark.org/468/Park-Improvements",
+   "keywords": [
+    "mclaren park",
+    "louis sutter",
+    "playground"
+   ],
+   "source": {
+    "label": "Rec and Park, Park Improvements (project updates list)",
+    "url": "https://www.sfrecpark.org/468/Park-Improvements"
+   }
+  },
+  {
+   "title": "McLaren Park, Yosemite Creek daylighting",
+   "status": "Contractor selected",
+   "summary": "Rec and Park's October 2026 update says a contractor has been identified for the Upper Yosemite Creek Daylighting Project in McLaren Park.",
+   "cost": null,
+   "url": "https://www.sfrecpark.org/468/Park-Improvements",
+   "keywords": [
+    "mclaren park",
+    "yosemite creek",
+    "daylighting",
+    "sfpuc"
+   ],
+   "source": {
+    "label": "Rec and Park, Park Improvements (project updates list)",
+    "url": "https://www.sfrecpark.org/468/Park-Improvements"
+   }
+  },
+  {
+   "title": "Koshland Park Playground renewal",
+   "status": "Design",
+   "summary": "Rec and Park shared the final plan for the Koshland Park playground in August 2026.",
+   "cost": null,
+   "url": "https://www.sfrecpark.org/468/Park-Improvements",
+   "keywords": [
+    "koshland park",
+    "playground",
+    "western addition"
+   ],
+   "source": {
+    "label": "Rec and Park, Park Improvements (project updates list)",
+    "url": "https://www.sfrecpark.org/468/Park-Improvements"
+   }
+  },
+  {
+   "title": "Marina Improvement and Remediation Project",
+   "status": "Permits pending",
+   "summary": "The Bay Conservation and Development Commission (BCDC) holds a public hearing on the project on Thursday, November 5, 2026.",
+   "cost": null,
+   "url": "https://www.sfrecpark.org/468/Park-Improvements",
+   "keywords": [
+    "marina",
+    "small craft harbor",
+    "remediation",
+    "bcdc"
+   ],
+   "source": {
+    "label": "Rec and Park, Park Improvements (project updates list)",
+    "url": "https://www.sfrecpark.org/468/Park-Improvements"
+   }
+  },
+  {
+   "title": "Mission Bay future parks (Mission Bay Commons)",
+   "status": "Design",
+   "summary": "The developer and design team for the future Mission Bay Commons park held a community meeting on October 27, 2026.",
+   "cost": null,
+   "url": "https://www.sfrecpark.org/468/Park-Improvements",
+   "keywords": [
+    "mission bay",
+    "mission bay commons",
+    "new park"
+   ],
+   "source": {
+    "label": "Rec and Park, Park Improvements (project updates list)",
+    "url": "https://www.sfrecpark.org/468/Park-Improvements"
+   }
+  },
+  {
+   "title": "Community Opportunity Fund (community-proposed park projects)",
+   "status": "Projects selected",
+   "summary": "Rec and Park invited residents to propose park projects for $6 million in funding. A later Rec and Park release is headlined Seven Park Projects Moving Forward Through Community Opportunity Fund; Rec and Park's project list says selected proposals were announced in June 2026. Selected projects were targeted for completion within three years.",
+   "cost": "$6 million",
+   "url": "https://www.sfrecpark.org/468/Park-Improvements",
+   "keywords": [
+    "community opportunity fund",
+    "park projects",
+    "grants",
+    "parks"
+   ],
+   "source": {
+    "label": "Rec and Park, Park Improvements (project updates list)",
+    "url": "https://www.sfrecpark.org/468/Park-Improvements"
+   },
+   "needs_review": true,
+   "review_note": "The seven project names were not read; the release page did not load."
   },
   {
    "title": "Gene Friend Recreation Center rebuild (South of Market)",
    "status": "Completed",
-   "summary": "The new 25,000 square foot center, with two full-size basketball courts, multipurpose rooms, a playground and sport court, held its grand opening on Thursday, August 13, 2026. Ground was broken February 5, 2024.",
+   "summary": "The new 25,000 square foot center, with two full-size basketball courts, multipurpose rooms, a playground and sport court, held its grand opening on Thursday, August 13, 2026. Ground was broken February 5, 2024. Rec and Park's September 2026 update says the building earned LEED Gold certification.",
    "cost": "$59 million, including $30 million from the Health and Recovery Bond",
    "url": "https://www.sf.gov/news/san-francisco-leaders-and-community-members-break-ground-new-gene-friend-recreation-center",
    "keywords": [
@@ -602,57 +1490,57 @@
    }
   },
   {
-   "title": "India Basin Shoreline Park",
-   "status": "Under construction (final phase)",
-   "summary": "As of May 2026 the park was in its final renovation phase. Together with the 900 Innes site it will form a 10-acre waterfront park.",
-   "cost": null,
-   "url": "https://t.e2ma.net/message/0q3wrk/wfcl20hc",
+   "title": "South Sunset Clubhouse renovation",
+   "status": "Completed",
+   "summary": "The renovated clubhouse reopened with a celebration on Thursday, August 27, 2026, reopening space for Sunset District seniors.",
+   "cost": "$6 million (per Rec and Park's project list)",
+   "url": "https://www.sfrecpark.org/468/Park-Improvements",
    "keywords": [
-    "india basin",
-    "900 innes",
-    "waterfront park",
-    "shoreline"
+    "south sunset clubhouse",
+    "sunset",
+    "seniors"
    ],
    "source": {
-    "label": "Rec and Park eNews, May 20, 2026",
-    "url": "https://t.e2ma.net/message/0q3wrk/wfcl20hc"
-   }
-  },
-  {
-   "title": "Embarcadero Plaza and Sue Bierman Park redesign",
-   "status": "Design",
-   "summary": "Rec and Park ran a third public design survey for the two parks, open through May 21, 2026.",
-   "cost": null,
-   "url": "https://t.e2ma.net/message/0q3wrk/wfcl20hc",
-   "keywords": [
-    "embarcadero plaza",
-    "sue bierman park",
-    "waterfront",
-    "design survey"
-   ],
-   "source": {
-    "label": "Rec and Park eNews, May 20, 2026",
-    "url": "https://t.e2ma.net/message/0q3wrk/wfcl20hc"
-   }
-  },
-  {
-   "title": "Community Opportunity Fund (community-proposed park projects)",
-   "status": "Awards expected",
-   "summary": "Rec and Park invited residents to propose park projects for $6 million in funding. Workshops covered 55 project ideas; an independent committee was to score applications in April 2026, with awards expected in summer 2026 and selected projects targeted for completion within three years.",
-   "cost": "$6 million",
-   "url": "https://t.e2ma.net/message/g76uik/wfcl20hc",
-   "keywords": [
-    "community opportunity fund",
-    "park projects",
-    "grants",
-    "parks"
-   ],
-   "source": {
-    "label": "Rec and Park eNews, Feb 25, 2026",
-    "url": "https://t.e2ma.net/message/g76uik/wfcl20hc"
+    "label": "Rec and Park, Park Improvements (project updates list)",
+    "url": "https://www.sfrecpark.org/468/Park-Improvements"
    },
    "needs_review": true,
-   "review_note": "Award announcement not found on pages opened; status as of February 2026."
+   "review_note": "Cost taken from Rec and Park's project list summary; the release itself did not load."
+  },
+  {
+   "title": "Nate Thurmond Panhandle Basketball Courts refurbishment",
+   "status": "Completed",
+   "summary": "Unveiled October 14, 2026. The courts' third refurbishment, by the Golden State Community Foundation with Rec and Park and the Good Tidings Foundation, milled and leveled the surface, repaired cracks, recoated and painted the court, and added new rims and backboards and hand-painted signs honoring Nate Thurmond.",
+   "cost": "No cost given",
+   "url": "https://www.sfrecpark.org/CivicAlerts.aspx?AID=3116",
+   "keywords": [
+    "panhandle",
+    "basketball courts",
+    "nate thurmond",
+    "warriors"
+   ],
+   "source": {
+    "label": "Rec and Park News Flash, Oct 14, 2026",
+    "url": "https://www.sfrecpark.org/CivicAlerts.aspx?AID=3116"
+   }
+  },
+  {
+   "title": "WNBA 3-point lines at Margaret S. Hayward and Joe DiMaggio Playgrounds",
+   "status": "Completed",
+   "summary": "Unveiled October 16, 2026: official WNBA 3-point lines, the first on courts in California, with Valkyries and WNBA logos, at Margaret S. Hayward Playground (Western Addition) and Joe DiMaggio Playground (North Beach).",
+   "cost": null,
+   "url": "https://www.sfrecpark.org/CivicAlerts.aspx?AID=3125",
+   "keywords": [
+    "hayward playground",
+    "joe dimaggio playground",
+    "basketball",
+    "valkyries",
+    "wnba"
+   ],
+   "source": {
+    "label": "Rec and Park press release, Oct 16, 2026",
+    "url": "https://www.sfrecpark.org/CivicAlerts.aspx?AID=3125"
+   }
   },
   {
    "title": "Folsom Streetscape (2nd to 11th Streets)",
@@ -717,134 +1605,6 @@
    }
   },
   {
-   "title": "Potrero Yard Modernization (SFMTA bus yard)",
-   "status": "Under construction",
-   "summary": "The SFMTA is replacing the century-old bus yard at 2500 Mariposa Street with a four-story bus maintenance and storage facility; Webcor leads construction, which runs through 2030. Expect lane shifts and parking restrictions in the area bounded by Mariposa, Bryant, 17th and Hampshire Streets. Work hours are 7 am to 8 pm weekdays, with some overnight (11 pm to 4 am) and weekend work.",
-   "cost": null,
-   "url": "https://www.sfmta.com/projects/potrero-yard-modernization-project",
-   "keywords": [
-    "potrero yard",
-    "bus yard",
-    "mariposa",
-    "bryant",
-    "hampshire",
-    "sfmta",
-    "muni"
-   ],
-   "source": {
-    "label": "SFMTA, Potrero Yard traffic impacts 10/22/26",
-    "url": "https://www.sfmta.com/project-updates/potrero-yard-construction-related-traffic-impacts-102226"
-   }
-  },
-  {
-   "title": "Hayes Valley Pay or Permit Parking Expansion",
-   "status": "Approved; set for early 2027",
-   "summary": "The SFMTA Board approved the expansion on June 2, 2026. Redesigned test signs are up on Rose Street (Market to Octavia) and on Linden and Fell Streets west of Patricia's Green. The SFMTA says the project is on schedule for early 2027; no enforcement start date is given.",
-   "cost": null,
-   "url": "https://www.sfmta.com/projects/pay-or-permit-parking-expansion-project",
-   "keywords": [
-    "hayes valley",
-    "pay or permit",
-    "parking",
-    "meters",
-    "residential permit",
-    "sfmta"
-   ],
-   "source": {
-    "label": "SFMTA project update (modified Sep 10, 2026)",
-    "url": "https://www.sfmta.com/project-updates/hayes-valley-pay-or-permit-parking-expansion-new-signs-preview"
-   }
-  },
-  {
-   "title": "Beach Street Quick-Build",
-   "status": "Substantially complete",
-   "summary": "The SFMTA's latest project update, Summer 2026, reports construction substantially complete.",
-   "cost": null,
-   "url": "https://www.sfmta.com/projects/beach-street-quick-build-project",
-   "keywords": [
-    "beach street",
-    "quick-build",
-    "sfmta",
-    "street safety"
-   ],
-   "source": {
-    "label": "SFMTA, Beach Street Quick-Build updates",
-    "url": "https://www.sfmta.com/projects/project-updates/28896"
-   }
-  },
-  {
-   "title": "Outdoor fitness and recreation area for seniors (Golden Gate Park Senior Center)",
-   "status": "Under construction",
-   "summary": "Rec and Park broke ground October 6, 2026 on a 5,000 square foot outdoor area at the Golden Gate Park Senior Center: stationary exercise equipment for up to 20 people, open space for dance, tai chi, yoga and classes, shaded seating under a pergola, an accessible picnic table and pathway, and four refreshed accessible parking spaces. The design came from four community meetings and two multilingual surveys in 2024 and 2025. No completion date was given.",
-   "cost": "$1.27 million ($1.175 million from the 2020 Health and Recovery Bond, $100,000 from the General Fund)",
-   "url": "https://www.sfrecpark.org/CivicAlerts.aspx?AID=3107",
-   "keywords": [
-    "senior center",
-    "golden gate park",
-    "outdoor fitness",
-    "seniors",
-    "health and recovery bond"
-   ],
-   "source": {
-    "label": "Rec and Park press release, Oct 6, 2026",
-    "url": "https://www.sfrecpark.org/CivicAlerts.aspx?AID=3107"
-   }
-  },
-  {
-   "title": "Nate Thurmond Panhandle Basketball Courts refurbishment",
-   "status": "Completed",
-   "summary": "Unveiled October 14, 2026. The courts' third refurbishment, by the Golden State Community Foundation with Rec and Park and the Good Tidings Foundation, milled and leveled the surface, repaired cracks, recoated and painted the court, and added new rims and backboards and hand-painted signs honoring Nate Thurmond.",
-   "cost": "No cost given",
-   "url": "https://www.sfrecpark.org/CivicAlerts.aspx?AID=3116",
-   "keywords": [
-    "panhandle",
-    "basketball courts",
-    "nate thurmond",
-    "warriors"
-   ],
-   "source": {
-    "label": "Rec and Park News Flash, Oct 14, 2026",
-    "url": "https://www.sfrecpark.org/CivicAlerts.aspx?AID=3116"
-   }
-  },
-  {
-   "title": "WNBA 3-point lines at Margaret S. Hayward and Joe DiMaggio Playgrounds",
-   "status": "Completed",
-   "summary": "Unveiled October 16, 2026: official WNBA 3-point lines, the first on courts in California, with Valkyries and WNBA logos, at Margaret S. Hayward Playground (Western Addition) and Joe DiMaggio Playground (North Beach).",
-   "cost": null,
-   "url": "https://www.sfrecpark.org/CivicAlerts.aspx?AID=3125",
-   "keywords": [
-    "hayward playground",
-    "joe dimaggio playground",
-    "basketball",
-    "valkyries",
-    "wnba"
-   ],
-   "source": {
-    "label": "Rec and Park press release, Oct 16, 2026",
-    "url": "https://www.sfrecpark.org/CivicAlerts.aspx?AID=3125"
-   }
-  },
-  {
-   "title": "Jackson Playground renovation",
-   "status": "Funded (state award)",
-   "summary": "Rec and Park's press room lists a release headlined State Awards Jackson Playground Renovation Project $10 Million. The release itself would not load, so scope and timing are not listed here.",
-   "cost": "$10 million state award (per the headline)",
-   "url": "https://www.sfrecpark.org/CivicAlerts.aspx?AID=3095",
-   "keywords": [
-    "jackson playground",
-    "potrero hill",
-    "renovation",
-    "state grant"
-   ],
-   "source": {
-    "label": "Rec and Park Press Room (headline)",
-    "url": "https://www.sfrecpark.org/412/Press-Room"
-   },
-   "needs_review": true,
-   "review_note": "Only the headline could be read; the release page returned an error twice on Nov 4."
-  },
-  {
    "title": "13th Street Safety Project (13th Street and Duboce Avenue, Folsom to Valencia)",
    "status": "Under construction (through 2027)",
    "summary": "Protected bike lanes, sidewalk extensions, signal upgrades and repaving on 13th Street and Duboce Avenue between Folsom and Valencia, plus curb ramps and traffic islands at the US-101 off-ramp. Work runs 8 am to 4 pm weekdays (not holidays); barricades and lane reductions stay up after hours, and some bus stops move temporarily. The SFMTA warned of delays exiting the Mission Street/Duboce Avenue off-ramp for about four weeks.",
@@ -882,6 +1642,24 @@
    }
   },
   {
+   "title": "Better Market Street, Phase 1 (5th to 8th Streets)",
+   "status": "Substantially complete",
+   "summary": "Public Works leads the Market Street redesign with the SFMTA and SFPUC. All sidewalk, curb ramp, roadway, signal and streetscape work between 5th and 8th Streets was finished February 27, 2025; remaining punch-list items were expected to finish in early 2026 without lane or sidewalk closures.",
+   "cost": "$29.1 million Phase 1 construction contract (estimate)",
+   "url": "https://sfpublicworks.org/node/35091",
+   "keywords": [
+    "market street",
+    "better market street",
+    "5th street",
+    "8th street",
+    "public works"
+   ],
+   "source": {
+    "label": "SF Public Works, Better Market Street",
+    "url": "https://sfpublicworks.org/node/35091"
+   }
+  },
+  {
    "title": "Geary Boulevard sewer and water replacement (32nd Avenue to Stanyan Street)",
    "status": "Under construction (through 2027)",
    "summary": "The SFPUC is replacing sewer and water lines on Geary Boulevard between 32nd Avenue and Stanyan Street. Some 38 Geary and 38R Geary Rapid stops are temporarily moved; look for orange signs.",
@@ -901,6 +1679,115 @@
    }
   },
   {
+   "title": "Geary Boulevard Improvement Project (Stanyan Street to 34th Avenue)",
+   "status": "Construction starting (late 2026 to early 2028)",
+   "summary": "After the SFPUC's water, sewer and fiber work (early 2025 to mid-2027), the SFMTA plans bus bulbs, pedestrian bulbs, upgraded signals, repaving, new street trees and sidewalk art, from late 2026 to early 2028. Detailed design finished in spring 2026. Project office hours: Tuesday, November 17, 2 to 5 pm, at Joe's Ice Cream, 5420 Geary Boulevard.",
+   "cost": "$48 million estimate",
+   "url": "https://www.sfmta.com/node/15300",
+   "keywords": [
+    "geary",
+    "geary boulevard",
+    "38 geary",
+    "bus bulbs",
+    "richmond",
+    "sfmta"
+   ],
+   "source": {
+    "label": "SFMTA, Geary Boulevard Improvement Project (updated Nov 2, 2026)",
+    "url": "https://www.sfmta.com/node/15300"
+   }
+  },
+  {
+   "title": "Oak Street and JFK Drive Quick-Build (protected bikeway)",
+   "status": "Under construction (to early 2027)",
+   "summary": "A physically protected eastbound bikeway on Oak Street from Stanyan to Baker Street, linking the JFK Drive Promenade to the existing Oak Street bike lane, plus crossing upgrades for Panhandle access and changes at Kezar Drive and Stanyan. Curb ramp work at Oak and Masonic is done; crews are moving to other curb ramps and base repair, with repaving to follow. Completion expected by early 2027.",
+   "cost": null,
+   "url": "https://www.sfmta.com/OakStreet",
+   "keywords": [
+    "oak street",
+    "jfk drive",
+    "panhandle",
+    "kezar drive",
+    "bikeway",
+    "quick-build"
+   ],
+   "source": {
+    "label": "SFMTA, Oak Street Quick-Build",
+    "url": "https://www.sfmta.com/OakStreet"
+   }
+  },
+  {
+   "title": "Quick-builds coming next (SFMTA)",
+   "status": "Coming soon",
+   "summary": "The SFMTA lists these quick-build street safety projects as coming soon: Bosworth/Monterey Connections (Glen Park), Brotherhood Way and Alemany Boulevard (at Sagamore Street and Orizaba Avenue), Cesar Chavez Street (Kansas to Pennsylvania), Clarendon Avenue (Laguna Honda to Johnstone), Innes Avenue (Hawes to Donahue), Jefferson Street (Hyde to Powell) and Sutter Street (Market to Polk). No dates are given.",
+   "cost": null,
+   "url": "https://www.sfmta.com/quickbuild",
+   "keywords": [
+    "quick-build",
+    "sutter street",
+    "jefferson street",
+    "cesar chavez",
+    "clarendon",
+    "innes avenue",
+    "brotherhood way",
+    "bosworth"
+   ],
+   "source": {
+    "label": "SFMTA, Quick-Build Program (updated Nov 3, 2026)",
+    "url": "https://www.sfmta.com/quickbuild"
+   }
+  },
+  {
+   "title": "Beach Street Quick-Build",
+   "status": "Substantially complete",
+   "summary": "The SFMTA's latest project update (Summer 2026) reports construction substantially complete; the quick-build program page, updated November 3, 2026, still lists Beach Street, between The Embarcadero and Polk Street, under construction.",
+   "cost": null,
+   "url": "https://www.sfmta.com/projects/beach-street-quick-build-project",
+   "keywords": [
+    "beach street",
+    "quick-build",
+    "sfmta",
+    "street safety"
+   ],
+   "source": {
+    "label": "SFMTA, Beach Street Quick-Build updates",
+    "url": "https://www.sfmta.com/projects/project-updates/28896"
+   }
+  },
+  {
+   "title": "Mission Bay Boulevard Quick-Build",
+   "status": "Completed",
+   "summary": "Complete as of August 2026: safe-hit posts on the Mission Bay Drive bike lane west of the roundabout and traffic calming on Mission Bay Boulevard North and South between 4th and 6th Streets.",
+   "cost": null,
+   "url": "https://www.sfmta.com/vi/node/44135",
+   "keywords": [
+    "mission bay",
+    "quick-build",
+    "bike lane"
+   ],
+   "source": {
+    "label": "SFMTA, Mission Bay Blvd Quick-Build",
+    "url": "https://www.sfmta.com/vi/node/44135"
+   }
+  },
+  {
+   "title": "Valencia Street side-running bike lane",
+   "status": "Completed",
+   "summary": "The SFMTA replaced the center-running bike lane with a side-running one, with floating parklets and parking separating bikes from traffic. Construction began February 10, 2025 at 23rd Street and moved north; left turns returned at three intersections on June 15, 2025.",
+   "cost": null,
+   "url": "https://www.sfmta.com/projects/valencia-bikeway-improvements",
+   "keywords": [
+    "valencia",
+    "bike lane",
+    "mission",
+    "sfmta"
+   ],
+   "source": {
+    "label": "SFMTA, Valencia Bikeway Improvements",
+    "url": "https://www.sfmta.com/projects/valencia-bikeway-improvements"
+   }
+  },
+  {
    "title": "Castro Station elevator (Muni accessibility)",
    "status": "Nearing completion",
    "summary": "A new elevator at Castro Station is nearing completion; until it opens, riders use the north-side escalator.",
@@ -916,77 +1803,56 @@
     "label": "SFMTA transit and traffic advisory, Oct 29 to Nov 4, 2026",
     "url": "https://www.sfmta.com/press-releases/sfmta-transit-and-traffic-advisory-week-thursday-october-29-through-wednesday-november-4-2026"
    }
+  },
+  {
+   "title": "Potrero Yard Modernization (SFMTA bus yard)",
+   "status": "Under construction",
+   "summary": "The SFMTA is replacing the century-old bus yard at 2500 Mariposa Street with a four-story bus maintenance and storage facility; Webcor leads construction, which runs through 2030. Expect lane shifts and parking restrictions in the area bounded by Mariposa, Bryant, 17th and Hampshire Streets. Work hours are 7 am to 8 pm weekdays, with some overnight (11 pm to 4 am) and weekend work.",
+   "cost": null,
+   "url": "https://www.sfmta.com/projects/potrero-yard-modernization-project",
+   "keywords": [
+    "potrero yard",
+    "bus yard",
+    "mariposa",
+    "bryant",
+    "hampshire",
+    "sfmta",
+    "muni"
+   ],
+   "source": {
+    "label": "SFMTA, Potrero Yard traffic impacts 10/22/26",
+    "url": "https://www.sfmta.com/project-updates/potrero-yard-construction-related-traffic-impacts-102226"
+   }
+  },
+  {
+   "title": "Hayes Valley Pay or Permit Parking Expansion",
+   "status": "Approved; set for early 2027",
+   "summary": "The SFMTA Board approved the expansion on June 2, 2026. Redesigned test signs are up on Rose Street (Market to Octavia) and on Linden and Fell Streets west of Patricia's Green. The SFMTA says the project is on schedule for early 2027; no enforcement start date is given.",
+   "cost": null,
+   "url": "https://www.sfmta.com/projects/pay-or-permit-parking-expansion-project",
+   "keywords": [
+    "hayes valley",
+    "pay or permit",
+    "parking",
+    "meters",
+    "residential permit",
+    "sfmta"
+   ],
+   "source": {
+    "label": "SFMTA project update (modified Sep 10, 2026)",
+    "url": "https://www.sfmta.com/project-updates/hayes-valley-pay-or-permit-parking-expansion-new-signs-preview"
+   }
   }
  ],
  "seasonal": [
   {
-   "title": "Whale's Tail in Golden Gate Park closed for the season",
-   "detail": "The interactive feature on the JFK Promenade was open weekends noon to 6 pm from Memorial Day weekend through October.",
-   "dates": "Weekend season ended October 2026",
-   "url": "https://t.e2ma.net/message/0q3wrk/wfcl20hc",
+   "title": "Marina project hearing Thursday, November 5",
+   "detail": "The Bay Conservation and Development Commission holds a public hearing on Rec and Park's Marina Improvement and Remediation Project.",
+   "dates": "November 5, 2026",
+   "url": "https://www.sfrecpark.org/468/Park-Improvements",
    "source": {
-    "label": "Rec and Park eNews, May 20, 2026",
-    "url": "https://t.e2ma.net/message/0q3wrk/wfcl20hc"
-   }
-  },
-  {
-   "title": "Illuminate LIVE season wrapping up",
-   "detail": "The 2026 Illuminate LIVE season at the Golden Gate Park Bandshell opened March 1 and runs through mid-November.",
-   "dates": "Through mid-November 2026",
-   "url": "https://t.e2ma.net/message/g76uik/wfcl20hc",
-   "source": {
-    "label": "Rec and Park eNews, Feb 25, 2026",
-    "url": "https://t.e2ma.net/message/g76uik/wfcl20hc"
-   }
-  },
-  {
-   "title": "Free sandbags from Public Works before winter storms",
-   "detail": "The National Weather Service expects a wetter than normal December to February. Public Works gives San Francisco businesses up to 10 free sandbags before and during severe rainstorms, Monday to Saturday, 8 am to 2 pm, at the operations yard gate at Marin and Kansas Streets; bring proof of business address. Clear leaves from sidewalks and drains from the sidewalk side and report blockages below the grate to 311.",
-   "dates": "Winter 2026 to 2027",
-   "url": "https://sfpublicworks.org/services/sandbags",
-   "source": {
-    "label": "Office of Small Business newsletter, Oct 6, 2026",
-    "url": "https://www.sf.gov/news-small-business-newsletter-for-oct-2026/"
-   }
-  },
-  {
-   "title": "Repaving and sewer work on 14th and 15th Avenues",
-   "detail": "Public Works crews began work on 14th and 15th Avenues on October 5, 2026, expected to finish by the end of October barring rain or unforeseen issues. Liaison: Alex Murillo, 628-271-2244.",
-   "dates": "October 5 to end of October 2026",
-   "url": "https://sfpublicworks.org/VL90",
-   "source": {
-    "label": "SF Public Works, VL90",
-    "url": "https://sfpublicworks.org/VL90"
-   }
-  },
-  {
-   "title": "Sewer and sidewalk work: Webster, Frederick and 40th Avenue",
-   "detail": "Sewer relining on Webster Street between Jefferson and Beach on October 23 (about one day), then repaving with advance notice; curb, gutter and sidewalk work on Frederick Street near Willard from October 19 (one to two weeks); sewer work on 40th Avenue between Geary and Clement from October 1 (two to three weeks).",
-   "dates": "October 1 to early November 2026",
-   "url": "https://sfpublicworks.org/index.php/node/35652",
-   "source": {
-    "label": "SF Public Works, VL85 (updated Oct 20, 2026)",
-    "url": "https://sfpublicworks.org/index.php/node/35652"
-   }
-  },
-  {
-   "title": "Folsom Street decorative crosswalks",
-   "detail": "Decorative crosswalk installation on Folsom Street was scheduled October 23 to 30 as the streetscape project finishes.",
-   "dates": "October 23 to 30, 2026",
-   "url": "https://sfpublicworks.org/node/35204",
-   "source": {
-    "label": "SF Public Works, Folsom Streetscape (updated Oct 27, 2026)",
-    "url": "https://sfpublicworks.org/node/35204"
-   }
-  },
-  {
-   "title": "Lane shifts around Potrero Yard",
-   "detail": "Week of October 29 to November 4: trenching on Hampshire Street (17th to Mariposa) and Bryant Street (18th to 16th); sidewalk excavation on 17th Street (Bryant to Hampshire), Mariposa Street (Potrero Avenue to Florida) and Bryant Street (18th to 16th); vault setting and conduit on Mariposa (Hampshire to Bryant). Work hours 7 am to 8 pm weekdays, with some overnight work from 11 pm to 4 am. The SFMTA posts a new notice each week.",
-   "dates": "Weekly updates; construction through 2030",
-   "url": "https://www.sfmta.com/press-releases/sfmta-transit-and-traffic-advisory-week-thursday-october-29-through-wednesday-november-4-2026",
-   "source": {
-    "label": "SFMTA transit and traffic advisory, Oct 29 to Nov 4, 2026",
-    "url": "https://www.sfmta.com/press-releases/sfmta-transit-and-traffic-advisory-week-thursday-october-29-through-wednesday-november-4-2026"
+    "label": "Rec and Park, Park Improvements (project updates list)",
+    "url": "https://www.sfrecpark.org/468/Park-Improvements"
    }
   },
   {
@@ -1000,33 +1866,23 @@
    }
   },
   {
-   "title": "Mission Community Pool season ends November 21",
-   "detail": "Rec and Park says Mission Pool's last day of 2026 operation is Saturday, November 21.",
-   "dates": "Last day November 21, 2026",
-   "url": "https://sfrecpark.org/482/Swimming-Pools",
-   "source": {
-    "label": "Rec and Park, Swimming Pools",
-    "url": "https://sfrecpark.org/482/Swimming-Pools"
-   }
-  },
-  {
-   "title": "Pool holiday closures",
-   "detail": "Balboa Pool's fall schedule lists closures on Veterans Day (November 11) and Thanksgiving and the day after (November 26 and 27), and a staff in-service closure on Saturday, December 12. Check each pool's own schedule.",
+   "title": "City pools closed November 11 and Thanksgiving",
+   "detail": "The fall pool schedules list all pools closed on Veterans Day (November 11); the Balboa and MLK schedules also show closures on November 26 and 27, and a staff in-service closure on Saturday, December 12 (8:30 am to 12:30 pm at all pools, per the Hamilton schedule). Check each pool's own schedule.",
    "dates": "November 11, November 26 and 27, December 12",
-   "url": "https://sfrecpark.org/DocumentCenter/View/29796",
+   "url": "https://www.sfrecpark.org/DocumentCenter/View/29800",
    "source": {
-    "label": "Rec and Park, Balboa Pool Fall 2026 schedule",
-    "url": "https://sfrecpark.org/DocumentCenter/View/29796"
+    "label": "Rec and Park, Fall 2026 pool schedules (Hamilton, Balboa, MLK)",
+    "url": "https://www.sfrecpark.org/DocumentCenter/View/29800"
    }
   },
   {
-   "title": "Winter hours at the Golden Gate Park gardens",
-   "detail": "From the first Sunday in November through January, the San Francisco Botanical Garden's last entry is 4 pm; the Japanese Tea Garden's last entry is 4:30 pm from November to February. The Conservatory of Flowers is open 10 am to 4:30 pm and closed Wednesdays.",
-   "dates": "November 2026 to February 2027",
-   "url": "https://gggp.org/admissions-hours/",
+   "title": "Geary Boulevard project office hours, November 17",
+   "detail": "SFMTA staff hold drop-in office hours on the Geary Boulevard Improvement Project, 2 to 5 pm, at Joe's Ice Cream, 5420 Geary Boulevard.",
+   "dates": "November 17, 2026",
+   "url": "https://www.sfmta.com/node/15300",
    "source": {
-    "label": "Gardens of Golden Gate Park, Admissions and hours",
-    "url": "https://gggp.org/admissions-hours/"
+    "label": "SFMTA, Geary Boulevard Improvement Project",
+    "url": "https://www.sfmta.com/node/15300"
    }
   },
   {
@@ -1040,6 +1896,128 @@
    }
   },
   {
+   "title": "Mission Community Pool season ends November 21",
+   "detail": "Rec and Park says Mission Pool's last day of 2026 operation is Saturday, November 21.",
+   "dates": "Last day November 21, 2026",
+   "url": "https://sfrecpark.org/482/Swimming-Pools",
+   "source": {
+    "label": "Rec and Park, Swimming Pools",
+    "url": "https://sfrecpark.org/482/Swimming-Pools"
+   }
+  },
+  {
+   "title": "Hamilton Pool closed for maintenance November 23 to 29",
+   "detail": "Hamilton Pool's fall schedule lists a maintenance closure from November 23 to November 29, 2026.",
+   "dates": "November 23 to 29, 2026",
+   "url": "https://www.sfrecpark.org/DocumentCenter/View/29800",
+   "source": {
+    "label": "Rec and Park, Hamilton Pool Fall 2026 schedule",
+    "url": "https://www.sfrecpark.org/DocumentCenter/View/29800"
+   }
+  },
+  {
+   "title": "North Beach Pool due back from maintenance",
+   "detail": "The pool page says North Beach Pool closed for annual maintenance on October 13 and reopens November 2.",
+   "dates": "October 13 to November 2, 2026",
+   "url": "https://sfrecpark.org/Facilities/Facility/Details/North-Beach-Pool-218",
+   "source": {
+    "label": "Rec and Park, North Beach Pool",
+    "url": "https://sfrecpark.org/Facilities/Facility/Details/North-Beach-Pool-218"
+   }
+  },
+  {
+   "title": "Winter hours at the Golden Gate Park gardens",
+   "detail": "From the first Sunday in November through January, the San Francisco Botanical Garden's last entry is 4 pm; the Japanese Tea Garden's last entry is 4:30 pm from November to February. The Conservatory of Flowers is open 10 am to 4:30 pm and closed Wednesdays.",
+   "dates": "November 2026 to February 2027",
+   "url": "https://gggp.org/admissions-hours/",
+   "source": {
+    "label": "Gardens of Golden Gate Park, Admissions and hours",
+    "url": "https://gggp.org/admissions-hours/"
+   }
+  },
+  {
+   "title": "New holiday ice rink at Fisherman's Wharf",
+   "detail": "A 6,300 square foot outdoor rink at 80 Jefferson Street, announced by the Port of San Francisco and run by On Ice Rinks LLC, is set to open November 4, 2026 and run through January 18, 2027, daily 10 am to 11 pm. Tickets at SanFranciscoOnIce.com.",
+   "dates": "November 4, 2026 to January 18, 2027",
+   "url": "https://www.kron4.com/news/bay-area/something-truly-special-sfs-newest-largest-holiday-ice-rink-is-coming-to-this-iconic-landmark/amp/",
+   "source": {
+    "label": "KRON4, Sep 25, 2026",
+    "url": "https://www.kron4.com/news/bay-area/something-truly-special-sfs-newest-largest-holiday-ice-rink-is-coming-to-this-iconic-landmark/amp/"
+   },
+   "needs_review": true,
+   "review_note": "News report from September; the Port's own announcement was not opened, and the rink is Port property, not Rec and Park."
+  },
+  {
+   "title": "Illuminate LIVE season wrapping up",
+   "detail": "Free Illuminate LIVE shows at the Golden Gate Park Bandshell run March through mid-November on Wednesdays, Fridays and Sundays; Rec and Park's calendar lists Bandshell events on November 4, 6, 7, 8, 11 and 13.",
+   "dates": "Through mid-November 2026",
+   "url": "https://www.sfrecpark.org/770/Golden-Gate-Park",
+   "source": {
+    "label": "Rec and Park, Golden Gate Park and points of interest",
+    "url": "https://www.sfrecpark.org/770/Golden-Gate-Park"
+   }
+  },
+  {
+   "title": "Japantown Peace Plaza weekend and night work",
+   "detail": "Weekend and night construction continues into mid-November as crews finish the plaza around the pagoda.",
+   "dates": "Into mid-November 2026",
+   "url": "https://www.sfrecpark.org/468/Park-Improvements",
+   "source": {
+    "label": "Rec and Park, Park Improvements (project updates list)",
+    "url": "https://www.sfrecpark.org/468/Park-Improvements"
+   }
+  },
+  {
+   "title": "Portsmouth Square: garage elevator walkway open; sewer work paused",
+   "detail": "A new temporary walkway to the garage elevator was completed October 30. No sewer replacement work is scheduled from October 8 to November 10; that work moves to after spring 2027.",
+   "dates": "October 8 to November 10, 2026",
+   "url": "https://www.sfrecpark.org/468/Park-Improvements",
+   "source": {
+    "label": "Rec and Park, Park Improvements (project updates list)",
+    "url": "https://www.sfrecpark.org/468/Park-Improvements"
+   }
+  },
+  {
+   "title": "Golden Gate Park Senior Center driveway closed",
+   "detail": "The driveway is closed from October 6, 2026 for the length of construction of the outdoor fitness area.",
+   "dates": "From October 6, 2026",
+   "url": "https://www.sfrecpark.org/468/Park-Improvements",
+   "source": {
+    "label": "Rec and Park, Park Improvements (project updates list)",
+    "url": "https://www.sfrecpark.org/468/Park-Improvements"
+   }
+  },
+  {
+   "title": "Buchanan Street Mall access limited",
+   "detail": "Pedestrian access between McAllister Street and Golden Gate Avenue is limited to residents through late 2026 while construction finishes.",
+   "dates": "Through late 2026",
+   "url": "https://www.sfrecpark.org/468/Park-Improvements",
+   "source": {
+    "label": "Rec and Park, Park Improvements (project updates list)",
+    "url": "https://www.sfrecpark.org/468/Park-Improvements"
+   }
+  },
+  {
+   "title": "Sue Bierman Playground reopened",
+   "detail": "The playground at Embarcadero Park reopened in October after closing September 28 to October 15 for tree work.",
+   "dates": "Reopened October 2026",
+   "url": "https://www.sfrecpark.org/468/Park-Improvements",
+   "source": {
+    "label": "Rec and Park, Park Improvements (project updates list)",
+    "url": "https://www.sfrecpark.org/468/Park-Improvements"
+   }
+  },
+  {
+   "title": "Free sandbags from Public Works before winter storms",
+   "detail": "The National Weather Service expects a wetter than normal December to February. Public Works gives San Francisco businesses up to 10 free sandbags before and during severe rainstorms, Monday to Saturday, 8 am to 2 pm, at the operations yard gate at Marin and Kansas Streets; bring proof of business address. Clear leaves from sidewalks and drains from the sidewalk side and report blockages below the grate to 311.",
+   "dates": "Winter 2026 to 2027",
+   "url": "https://sfpublicworks.org/services/sandbags",
+   "source": {
+    "label": "Office of Small Business newsletter, Oct 6, 2026",
+    "url": "https://www.sf.gov/news-small-business-newsletter-for-oct-2026/"
+   }
+  },
+  {
    "title": "T-Third overnight track maintenance",
    "detail": "Cleaning and maintenance between Evans and Sunnydale stations from midnight to 5 am, September to November 2026; work at the Gilman platform on Tuesdays, November 3 and November 10. Owl service is not affected.",
    "dates": "Through November 2026",
@@ -1047,6 +2025,56 @@
    "source": {
     "label": "SFMTA transit and traffic advisory, Oct 29 to Nov 4, 2026",
     "url": "https://www.sfmta.com/press-releases/sfmta-transit-and-traffic-advisory-week-thursday-october-29-through-wednesday-november-4-2026"
+   }
+  },
+  {
+   "title": "Lane shifts around Potrero Yard",
+   "detail": "Week of October 29 to November 4: trenching on Hampshire Street (17th to Mariposa) and Bryant Street (18th to 16th); sidewalk excavation on 17th Street (Bryant to Hampshire), Mariposa Street (Potrero Avenue to Florida) and Bryant Street (18th to 16th); vault setting and conduit on Mariposa (Hampshire to Bryant). Work hours 7 am to 8 pm weekdays, with some overnight work from 11 pm to 4 am. The SFMTA posts a new notice each week.",
+   "dates": "Weekly updates; construction through 2030",
+   "url": "https://www.sfmta.com/press-releases/sfmta-transit-and-traffic-advisory-week-thursday-october-29-through-wednesday-november-4-2026",
+   "source": {
+    "label": "SFMTA transit and traffic advisory, Oct 29 to Nov 4, 2026",
+    "url": "https://www.sfmta.com/press-releases/sfmta-transit-and-traffic-advisory-week-thursday-october-29-through-wednesday-november-4-2026"
+   }
+  },
+  {
+   "title": "Sewer and sidewalk work: Webster, Frederick and 40th Avenue",
+   "detail": "Sewer relining on Webster Street between Jefferson and Beach on October 23 (about one day), then repaving with advance notice; curb, gutter and sidewalk work on Frederick Street near Willard from October 19 (one to two weeks); sewer work on 40th Avenue between Geary and Clement from October 1 (two to three weeks).",
+   "dates": "October 1 to early November 2026",
+   "url": "https://sfpublicworks.org/index.php/node/35652",
+   "source": {
+    "label": "SF Public Works, VL85 (updated Oct 20, 2026)",
+    "url": "https://sfpublicworks.org/index.php/node/35652"
+   }
+  },
+  {
+   "title": "Repaving and sewer work on 14th and 15th Avenues",
+   "detail": "Public Works crews began work on 14th and 15th Avenues on October 5, 2026, expected to finish by the end of October barring rain or unforeseen issues. Liaison: Alex Murillo, 628-271-2244.",
+   "dates": "October 5 to end of October 2026",
+   "url": "https://sfpublicworks.org/VL90",
+   "source": {
+    "label": "SF Public Works, VL90",
+    "url": "https://sfpublicworks.org/VL90"
+   }
+  },
+  {
+   "title": "Folsom Street decorative crosswalks",
+   "detail": "Decorative crosswalk installation on Folsom Street was scheduled October 23 to 30 as the streetscape project finishes.",
+   "dates": "October 23 to 30, 2026",
+   "url": "https://sfpublicworks.org/node/35204",
+   "source": {
+    "label": "SF Public Works, Folsom Streetscape (updated Oct 27, 2026)",
+    "url": "https://sfpublicworks.org/node/35204"
+   }
+  },
+  {
+   "title": "Whale's Tail in Golden Gate Park closed for the season",
+   "detail": "The interactive feature on the JFK Promenade was open weekends noon to 6 pm from Memorial Day weekend through October.",
+   "dates": "Weekend season ended October 2026",
+   "url": "https://t.e2ma.net/message/0q3wrk/wfcl20hc",
+   "source": {
+    "label": "Rec and Park eNews, May 20, 2026",
+    "url": "https://t.e2ma.net/message/0q3wrk/wfcl20hc"
    }
   },
   {
@@ -1170,7 +2198,37 @@
     "label": "Rec and Park, Coffman Pool",
     "url": "https://www.sfrecpark.org/489/Coffman-Pool"
    }
+  },
+  {
+   "role": "Martin Luther King Jr. Pool",
+   "name": "Dan Ngo",
+   "phone": "415-269-7697",
+   "email": "dan.ngo@sfgov.org",
+   "source": {
+    "label": "Rec and Park, Martin Luther King Jr. Pool",
+    "url": "https://www.sfrecpark.org/492/Martin-Luther-King-Jr-Pool"
+   }
+  },
+  {
+   "role": "North Beach Pool",
+   "name": null,
+   "phone": "(415) 391-0407",
+   "email": null,
+   "source": {
+    "label": "Rec and Park, North Beach Pool",
+    "url": "https://sfrecpark.org/Facilities/Facility/Details/North-Beach-Pool-218"
+   }
+  },
+  {
+   "role": "Camp Mather desk",
+   "name": null,
+   "phone": "415-831-2715",
+   "email": null,
+   "source": {
+    "label": "Rec and Park, Camp Mather",
+    "url": "https://www.sfrecpark.org/443/Camp-Mather"
+   }
   }
  ],
- "methodology": "Compiled November 4, 2026. Second pass: opened this session the Rec and Park home page, Explore Our Parks, registration FAQ, Press Room list and releases of Oct 6, 9, 14 and 16, 2026, the Swimming Pools page and the Balboa, Coffman and Hamilton pool pages, the Balboa Fall 2026 schedule, the Golf Courses page, Gardens of Golden Gate Park hours, a Dec 10, 2025 Rec and Park eNews (public Google Group copy), the Public Works home page and project list, and the SFMTA advisory for Oct 29 to Nov 4, 2026. First-pass items (eNews Oct 2025 to Jul 2026, Spring 2026 catalog, VL85, VL90, Folsom, Potrero Yard, Hayes Valley, Beach Street) are kept. Gaps: the dog play areas page, the 2026/27 pool maintenance schedule and the Jackson Playground release would not load. The department lists program registration as 415-831-6800 on its pool and golf pages and 628-652-2900 in its FAQ and catalog; both are shown."
+ "methodology": "Compiled November 4, 2026. Second pass, from pages opened this session: Rec and Park's home page, Explore Our Parks, Recreation Facilities, Recreation Programs, registration FAQ, Park Improvements project list, Press Room list and releases of Oct 6, 9, 14 and 16, 2026, Golden Gate Park and its points of interest, Swimming Pools and the Balboa, Coffman, Garfield, Hamilton, MLK, Mission, North Beach and Sava pool pages, the Balboa, Hamilton and MLK fall 2026 schedules, Golf Courses, Camp Mather, Mission Dolores Park dog play areas and the 2002 dog policy; Gardens of Golden Gate Park hours; a Dec 10, 2025 Rec and Park eNews (public Google Group copy); the Public Works home page, project list and Better Market Street page; the SFMTA advisory for Oct 29 to Nov 4, 2026 and its quick-build, Oak Street, Mission Bay, Geary and Valencia pages; Board of Supervisors Resolution 290-26 (Zoo); the Federal Register's Presidio Trust profile; KRON4 (Fisherman's Wharf rink); Mission Local (Prop G headline). First-pass items (eNews Oct 2025 to Jul 2026, Spring 2026 catalog, VL85, VL90, Folsom, Potrero Yard, Hayes Valley, Beach Street) are kept. Not found or would not load: the winter 2027 catalog and registration dates, winter break camps, 2026 dates for the Golden Gate Park tree lighting and the Union Square rink, Coit Tower and Lands End pages, Rec and Park's dog play areas and points of interest pages, the 2026/27 pool maintenance schedule, the Coffman and Rossi schedules, individual project update pages, and Public Works' October journal, hearing and storm pages. Rec and Park lists program registration as 415-831-6800 on its pool, golf and program pages and 628-652-2900 in its FAQ, catalog and after-school listing; both are shown. Addresses appear only where a page listed them."
 }

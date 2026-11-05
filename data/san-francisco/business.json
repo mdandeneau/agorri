@@ -1,6 +1,6 @@
 {
  "as_of": "2026-11-04",
- "note": "From the City and County of San Francisco's own pages (Office of Small Business newsletters, Office of Economic and Workforce Development news, Treasurer and Tax Collector, Public Works, SFMTA), the California EDD, a named brokerage report, and open local food coverage (SFist, WhatNow). Paywalled outlets are not used.",
+ "note": "From the City and County of San Francisco's own pages (Office of Small Business newsletters and pages, Small Business Commission minutes, Treasurer and Tax Collector, OEWD, Rec and Park, Public Works, SFMTA), the official Prop H ballot digest, the California EDD, DataSF, a named brokerage report, and open local coverage (SF Standard, SFist, WhatNow). Paywalled outlets such as the SF Chronicle are not used.",
  "organizations": [
   {
    "name": "San Francisco Office of Small Business",
@@ -58,14 +58,14 @@
    }
   },
   {
-   "name": "Small Business Development Center (NorCal SBDC)",
+   "name": "SF Small Business Development Center (SBDC)",
    "what": "Free advising and webinars on planning, permits, hiring and financing, including office hours with an advisor through the SF Public Library.",
-   "url": "https://norcalsbdc.zoom.us/webinar/register/WN__K4MeOQrTxa1m_jlXtSsNA#/registration",
+   "url": "https://www.sfsbdc.org/",
    "phone": null,
    "kind": "Nonprofit",
    "source": {
-    "label": "Office of Small Business newsletter, Oct 6, 2026",
-    "url": "https://www.sf.gov/news-small-business-newsletter-for-oct-2026/"
+    "label": "SF.gov, Office of Small Business (resources)",
+    "url": "https://www.sf.gov/departments--office-economic-and-workforce-development--office-small-business/"
    }
   },
   {
@@ -143,7 +143,7 @@
   },
   {
    "name": "Small Business Commission",
-   "what": "Seven-member commission that reviews how city laws affect small businesses and approves Legacy Business Registry applications; meets Mondays at 4:30 pm in City Hall Room 400 (also on SFGovTV).",
+   "what": "Reviews how city laws affect small businesses and approves Legacy Business Registry applications. Meetings are in City Hall Room 400 and on SFGovTV (for example Monday, September 28, 2026 at 4:30 pm).",
    "url": "https://sf.gov/departments/small-business-commission",
    "phone": null,
    "source": {
@@ -206,9 +206,30 @@
     "label": "Office of Small Business newsletter, Nov 2, 2026",
     "url": "https://www.sf.gov/news-small-business-newsletter-for-november-2026/"
    }
+  },
+  {
+   "title": "Skip first-year city fees for a new business (First Year Free)",
+   "steps": "Register the new business or new location with the Treasurer and Tax Collector before you apply for permits; if your San Francisco gross receipts are $5,000,000 or less and the location is commercial, you are enrolled automatically and get an email and letter. Bring them to each permitting agency, which removes the waived fees on the spot. Permits applied for before you register do not qualify. The program runs through June 30, 2027 or until funds run out.",
+   "url": "https://sftreasurer.org/business/first-year-free",
+   "source": {
+    "label": "SF Treasurer and Tax Collector, First Year Free",
+    "url": "https://sftreasurer.org/business/first-year-free"
+   }
   }
  ],
  "notices": [
+  {
+   "date": "2026-11-04",
+   "title": "Nov 3 tax measures, preliminary: Muni parcel tax and regional transit sales tax passing",
+   "detail": "Preliminary results as of 7 am Nov 4 (SF Standard, from Department of Elections data; certification December 3): Proposition H, a parcel tax for Muni, Yes 72.4 percent. For non-residential parcels it is $799 plus $0.76 to $0.99 per square foot of building above 5,000 square feet, capped at $400,000 a parcel, from July 1, 2027 to June 30, 2042, rising with inflation; the SFMTA estimates about $160 million a year. The Regional Transit Measure, a Bay Area sales tax for BART and other transit, Yes 61.5 percent across the region. Proposition J, ending the foreclosure exemption from the real property transfer tax, Yes 79.1 percent. Proposition I, changing the real property transfer tax so half of high-value transfer tax revenue goes to affordable housing, No 55.0 percent.",
+   "url": "https://sfstandard.com/2026/11/03/san-francisco-election-results-november-2026/",
+   "source": {
+    "label": "SF Standard live results, updated Nov 4, 2026, 7 am",
+    "url": "https://sfstandard.com/2026/11/03/san-francisco-election-results-november-2026/"
+   },
+   "needs_review": true,
+   "review_note": "Preliminary counts; the Department of Elections certifies results December 3. Tax details for Prop H from the official ballot digest (media.api.sf.gov); the $160 million estimate is from the SFMTA's Prop H page."
+  },
   {
    "date": "2026-11-02",
    "title": "Parklet permit renewals due November 15",
@@ -282,7 +303,7 @@
   {
    "date": "2026-10-09",
    "title": "La Piazza picked for Union Square's west cafe, opening spring 2027",
-   "detail": "Rec and Park recommended Buen Rallo, LLC (the group behind Colibri and Il Parco in the Presidio) for a nine-year lease of the west cafe on Powell Street, chosen from 14 eligible proposals. It replaces b. Patisserie; the space is available March 1 and the all-day Italian cafe is expected to open in spring 2027, open daily from 6:30 am. Super Duper Burgers was preparing to open in the east cafe this fall.",
+   "detail": "Rec and Park recommended Buen Rallo, LLC (the group behind Colibri and Il Parco in the Presidio), chosen from 14 eligible proposals, to run the west cafe on Powell Street; the Recreation and Park Commission was to consider a nine-year lease the following Thursday. It replaces b. Patisserie; the space is available March 1 and the all-day Italian cafe is expected to open in spring 2027, daily from 6:30 am. Super Duper Burgers was preparing to open in the east cafe this fall.",
    "url": "https://www.sfrecpark.org/CivicAlerts.aspx?AID=3111",
    "source": {
     "label": "Rec and Park press release, Oct 9, 2026",
@@ -381,7 +402,7 @@
   },
   {
    "name": "Storefront Opportunity Grant",
-   "what": "Grants of $50,000 to $100,000 for established businesses opening new locations in commercial corridors, to cover first-year costs such as permits, equipment, tenant improvements, deposits and inventory.",
+   "what": "Grants of $50,000 to $100,000 for established businesses opening new locations in commercial corridors, to cover first-year costs such as permits, equipment, tenant improvements, deposits and inventory. The Mayor's office said in August 2026 that this grant, Vacant to Vibrant and the Downtown Vibrancy Loan Fund had together helped more than 200 businesses.",
    "url": "https://www.sf.gov/permitsf",
    "source": {
     "label": "SF.gov, Aug 12, 2026",
@@ -415,12 +436,105 @@
    "what": "Recognition, marketing and business help for long-running businesses on the Legacy Business Registry. The Business Stabilization Grant is not taking new applications in fiscal year 2026-27 (July 2026 to June 2027); existing grantees may re-apply. The city also runs a Neighborhood Anchor Business Registry for businesses open 15 years or more.",
    "url": "https://sf.gov/legacy-business-program",
    "source": {
-    "label": "Legacy Business Light, Summer/Fall 2026 (Aug 21, 2026)",
+    "label": "Legacy Business Light, Summer/Fall 2026 (Aug 21, 2026); Office of Small Business page",
     "url": "https://www.sf.gov/news-legacy-business-light-summer-fall-2026/"
+   }
+  },
+  {
+   "name": "First Year Free (permit and license fee waiver)",
+   "what": "Waives the initial business registration fee, application, inspection and one-time permit fees, and initial license fees (city fees only, not state surcharges) for new businesses or new locations started on or after July 1, 2023 with San Francisco gross receipts of $5,000,000 or less at a commercial location. Home-based businesses and short-term rentals do not qualify. Enrollment is automatic when you register; runs through June 30, 2027 or until the money runs out.",
+   "url": "https://sftreasurer.org/business/first-year-free",
+   "source": {
+    "label": "SF Treasurer and Tax Collector, First Year Free",
+    "url": "https://sftreasurer.org/business/first-year-free"
    }
   }
  ],
  "openings": [
+  {
+   "name": "El Buen Comer (Thrive City)",
+   "what": "Second location of the Bernal Heights Mexican restaurant, at Thrive City by Chase Center, in the former Taco Primo space",
+   "date": "2026-12",
+   "detail": "The chef-owner hopes to open by early December.",
+   "source": {
+    "label": "SFist, Oct 23, 2026",
+    "url": "https://sfist.com/2026/10/23/this-week-in-food-deep-fall/"
+   },
+   "needs_review": true,
+   "review_note": "Hoped-for opening as reported Oct 23."
+  },
+  {
+   "name": "hed Very Thai (Japantown)",
+   "what": "Casual Thai restaurant in the Kimpton Hotel Enso, 1800 Sutter Street, replacing hed 11",
+   "date": "2026-11-13",
+   "detail": "Grand opening set for November 13, a new location of the downtown restaurant of the same name.",
+   "source": {
+    "label": "SFist, Oct 23, 2026",
+    "url": "https://sfist.com/2026/10/23/this-week-in-food-deep-fall/"
+   },
+   "needs_review": true,
+   "review_note": "Planned date as reported Oct 23; not yet confirmed open."
+  },
+  {
+   "name": "Julius' Castle",
+   "what": "Restaurant with Northern California cooking and views in a historic three-story building at 302 Greenwich Street (Telegraph Hill)",
+   "date": "2026-11-12",
+   "detail": "Set to open November 12; the building's restaurant closed in 2007.",
+   "source": {
+    "label": "SF Standard, Nov 1, 2026",
+    "url": "https://sfstandard.com/2026/11/01/best-new-san-francisco-restaurants-bars/"
+   },
+   "needs_review": true,
+   "review_note": "Planned opening date as reported Nov 1; not yet confirmed open."
+  },
+  {
+   "name": "Scout",
+   "what": "All-day cafe cooking on a wood-fired oven, from the team behind Frankies and Norcina, at 2359 Chestnut Street (Marina)",
+   "date": "2026-11",
+   "detail": "Expected to open in early to mid-November.",
+   "source": {
+    "label": "SF Standard, Nov 1, 2026",
+    "url": "https://sfstandard.com/2026/11/01/best-new-san-francisco-restaurants-bars/"
+   },
+   "needs_review": true,
+   "review_note": "Expected opening as reported Nov 1; not yet confirmed open."
+  },
+  {
+   "name": "Stir Crazy",
+   "what": "Neighborhood cocktail bar in the former Black Magic Voodoo Lounge space, 1400 Lombard Street (Marina)",
+   "date": "2026-11",
+   "detail": "Expected to open sometime in November; no date given.",
+   "source": {
+    "label": "SF Standard, Nov 1, 2026",
+    "url": "https://sfstandard.com/2026/11/01/best-new-san-francisco-restaurants-bars/"
+   },
+   "needs_review": true,
+   "review_note": "Expected opening as reported Nov 1; not yet confirmed open."
+  },
+  {
+   "name": "Lorella",
+   "what": "Bakery with a second-floor play area for kids, 2139 Polk Street (Russian Hill)",
+   "date": "2026-11",
+   "detail": "Expected to open in late November; a storefront for the chefs' pop-ups.",
+   "source": {
+    "label": "SF Standard, Nov 1, 2026",
+    "url": "https://sfstandard.com/2026/11/01/best-new-san-francisco-restaurants-bars/"
+   },
+   "needs_review": true,
+   "review_note": "Expected opening as reported Nov 1; not yet confirmed open."
+  },
+  {
+   "name": "Bare Bones",
+   "what": "Counter-service rotisserie (chicken, porchetta, sandwiches) at 2325 Taraval Street (Parkside)",
+   "date": "2026-10-29",
+   "detail": "Soft opening set for October 29 with a full opening in early November, in the former Bearing West space; beer and wine at first, with a full liquor license applied for.",
+   "source": {
+    "label": "SF Standard, Oct 25, 2026",
+    "url": "https://sfstandard.com/2026/10/25/bare-bones-rotisserie-sunset-porchetta/"
+   },
+   "needs_review": true,
+   "review_note": "Soft-opening date as announced Oct 25; the Nov 1 roundup still listed the full opening as early November."
+  },
   {
    "name": "Che Fico",
    "what": "Italian restaurant on the Divisadero corridor",
@@ -442,6 +556,38 @@
     "label": "SFist, Oct 9, 2026",
     "url": "https://sfist.com/2026/10/09/this-week-in-food-bentornato-che-fico/"
    }
+  },
+  {
+   "name": "Corey's Pizza",
+   "what": "Staten Island-style slice shop at 3505 17th Street (Mission)",
+   "date": "2026-09",
+   "detail": "Opened about six weeks before an October 30 review, in space next to the former Turner's Kitchen; open noon to 10 pm weekdays and to 11 pm on weekends.",
+   "source": {
+    "label": "SF Standard, Oct 30, 2026",
+    "url": "https://sfstandard.com/2026/10/30/coreys-pizza-mission-review/"
+   }
+  },
+  {
+   "name": "Uniqlo",
+   "what": "Clothing store, two-floor 20,000 square foot flagship",
+   "date": "2026-10-09",
+   "detail": "Opened Friday, Oct 9 at 801 Market Street (Fourth and Market) with a free street festival. The store carries merchandise made with SFMTA, Ruth Asawa School of the Arts students and local artists.",
+   "source": {
+    "label": "Office of the Mayor, Oct 8",
+    "url": "https://www.sf.gov/es/news-mayor-lurie-welcomes-uniqlo-back-to-downtown-with-free-street-festival-collaborations-with-muni-sfusd-students-local-artists/"
+   }
+  },
+  {
+   "name": "Raising Cane's",
+   "what": "Chicken fingers restaurant, the chain's first in San Francisco",
+   "date": "2026-09-21",
+   "detail": "Opening set for Monday, Sept 21 at 211 Jefferson Street, Fisherman's Wharf. A second location at Stonestown Galleria was under construction and expected this fall.",
+   "source": {
+    "label": "KTVU, Sep 15, 2026",
+    "url": "https://www.ktvu.com/news/san-francisco-is-getting-its-first-raising-canes-second-one-coming-soon"
+   },
+   "needs_review": true,
+   "review_note": "Report was published before the opening; opening on Sept 21 not separately confirmed. Slightly older than six weeks."
   }
  ],
  "closures": [
@@ -479,13 +625,13 @@
    "name": "Hed11",
    "what": "Thai fine dining at 1800 Sutter Street (Kimpton Hotel Enso)",
    "date": "2026-10-31",
-   "detail": "Closed October 31, 2026; the space will host Hed Very Thai. No reason was given.",
+   "detail": "SFist reported last dinners on October 30 (a WhatNow roundup gave October 31). The high-end Thai tasting-menu restaurant is becoming a more casual concept: hed Very Thai opens in the space November 13.",
    "source": {
-    "label": "WhatNow, Oct 31, 2026",
-    "url": "https://whatnow.com/?p=450298"
+    "label": "SFist, Oct 23, 2026",
+    "url": "https://sfist.com/2026/10/23/this-week-in-food-deep-fall/"
    },
    "needs_review": true,
-   "review_note": "Secondary report citing the restaurant's Instagram post."
+   "review_note": "Closing date differs by one day between SFist (last dinners Oct 30) and WhatNow (Oct 31)."
   },
   {
    "name": "Mama Ji's",
@@ -628,16 +774,6 @@
    }
   },
   {
-   "value": "200+",
-   "label": "Businesses helped by three city storefront programs, as of Aug 2026",
-   "note": "The Storefront Opportunity Grant, Vacant to Vibrant and the Downtown Vibrancy Loan Fund together, per the Mayor's office.",
-   "as_of": "2026-08-12",
-   "source": {
-    "label": "SF.gov, Aug 12, 2026",
-    "url": "https://www.sf.gov/news-mayor-lurie-celebrates-new-businesses-opening-in-eight-neighborhoods-thanks-to-storefront-opportunity-grant-program/"
-   }
-  },
-  {
    "label": "New business locations registered, September 2026",
    "value": 816,
    "note": "877 in September 2025. Counted by location start date in the Treasurer and Tax Collector's registry; recent months can rise as late registrations come in (October shows 658 so far).",
@@ -648,7 +784,7 @@
    }
   }
  ],
- "methodology": "Compiled November 4, 2026 from pages fetched this session: SF.gov (Office of Small Business news list and newsletters for August, September and October 2026, OEWD releases of August 12 and 17, 2026, Business registration), sftreasurer.org (Register a Business), SF Public Works (Folsom Streetscape), SFMTA project updates, sfchamber.com (Contact Us), Cushman & Wakefield and Kidder Mathews Q3 2026 office reports, the California EDD September 2026 release, SFist and WhatNow. Not covered: no November 2026 Office of Small Business newsletter was posted yet; openings and closures beyond those listed were not found in open sources for late September to early November (SF Chronicle and other paywalled outlets not used; closures outside San Francisco in the WhatNow roundup are left out). The Rustic on Church Street closed in early September, more than 30 days ago, and is not listed. Phone numbers for the Office of Small Business, OEWD and the Treasurer and Tax Collector were not shown on the pages opened. Business-for-sale listing sites were not opened, so no link cards are given.",
+ "methodology": "Compiled November 4, 2026. Second pass, from pages opened this session: SF.gov's Office of Small Business page and its November (Nov 2) and October 2026 newsletters, Legacy Business Light Summer/Fall 2026, Small Business Commission minutes of Aug 24 and Sept 28, 2026, the qualified ballot measures page, the Prop H ballot digest and the SFMTA's Prop H page, the Treasurer's First Year Free page, a Rec and Park release (Oct 9), the SF Standard (closures tag, Food and Drink, articles of Sept 9 to Nov 4, live results updated Nov 4 at 7 am), SFist (Oct 23), WhatNow (Sept 30), the California EDD September release, Cushman & Wakefield Q3 2026, and the LoopNet and BizBuySell county listing pages. First-pass items are kept. Not found or would not load: the city's grants and loans pages, the Small Business Commission's own page and any October 26 meeting record, Mission Local's restaurant stories, the SF Chronicle (paywalled), and Eater SF and Hoodline (no current stories in searches). The BizBuySell link is the county list's first page; only its second page was opened. Openings listed for November are as announced and marked for review until confirmed.",
  "forSale": [
   {
    "name": "Dee Dee Boutique",
@@ -662,6 +798,19 @@
    }
   }
  ],
- "forSaleNote": "Businesses for sale in San Francisco from city notices and local news, each linked to its source. Checked Nov 4, 2026: one listing found, in the Office of Small Business's September 2026 newsletter.",
- "forSaleLinks": []
+ "forSaleNote": "Businesses for sale in San Francisco from city notices and local news, each linked to its source. The listing sites below publish no feed and do not allow copying, so they are links only. Checked Nov 4, 2026: the Office of Small Business's November newsletter and recent local news listed no new business for sale; the one listing found is from the September newsletter.",
+ "forSaleLinks": [
+  {
+   "name": "BizBuySell: San Francisco County",
+   "what": "The largest business-for-sale site; the county list showed 204 businesses with asking prices when checked November 4, 2026.",
+   "url": "https://www.bizbuysell.com/california/san-francisco-county-businesses-for-sale",
+   "source": "BizBuySell"
+  },
+  {
+   "name": "LoopNet: San Francisco County businesses for sale",
+   "what": "Business-for-sale listings for San Francisco County with asking prices; 199 listings when checked November 4, 2026.",
+   "url": "https://loopnet.com/biz/california/san-francisco-county-businesses-for-sale",
+   "source": "LoopNet"
+  }
+ ]
 }
