@@ -184,13 +184,14 @@
     "faith": "data/san-francisco/faith.json"
    },
    "photo": {
-    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/San_Francisco_City_Hall_September_2013_panorama_3.jpg/{w}px-San_Francisco_City_Hall_September_2013_panorama_3.jpg",
-    "alt": "San Francisco City Hall",
-    "author": "King of Hearts",
-    "license": "CC BY-SA 3.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
-    "page": "https://commons.wikimedia.org/wiki/File:San_Francisco_City_Hall_September_2013_panorama_3.jpg",
-    "pos": "50% 50%"
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/San_Francisco_Downtown_Aerial%2C_August_2025.jpg/{w}px-San_Francisco_Downtown_Aerial%2C_August_2025.jpg",
+    "alt": "Downtown San Francisco from the air, with Salesforce Tower and the Bay Bridge",
+    "author": "Spicypepper999",
+    "license": "CC0 (public domain dedication, no credit required)",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:San_Francisco_Downtown_Aerial,_August_2025.jpg",
+    "pos": "50% 35%",
+    "credit": false
    }
   },
   {
