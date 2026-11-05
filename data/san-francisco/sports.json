@@ -1,5 +1,5 @@
 {
- "as_of": "2026-11-04",
+ "as_of": "2026-11-05",
  "note": "Fall 2026 public high school sports in the AAA (Academic Athletic Association, CIF San Francisco Section) for the seven SFUSD schools with varsity football, teams San Franciscans follow, youth and adult leagues, and venues. Playoff dates, sites and volleyball, golf and tennis results come from CIFSF's own pages. Football scores and records come from High School On SI and MaxPreps (aggregators), because CIFSF posts schedules as Google Sheets that could not be opened; those are marked for review, and only games with a date on an opened page are listed. In San Francisco, boys and girls soccer, basketball and wrestling are winter sports. No students are named. Checked Nov 4, 2026.",
  "schools": [
   {
@@ -39,7 +39,19 @@
        "note": "Mission's MaxPreps page shows 30-2 and lists the game as Friday Oct 30 in its results and Saturday Oct 31 in its schedule summary; High School On SI shows 56-6."
       }
      ],
-     "next": [],
+     "next": [
+      {
+       "date": "2026-11-07",
+       "time": "1:30 pm",
+       "opponent": "Lowell",
+       "home": true,
+       "venue": "Abraham Lincoln High School",
+       "source": {
+        "label": "CIF San Francisco Section, schedules and scores",
+        "url": "https://www.cifsf.org/schedules-and-scores/"
+       }
+      }
+     ],
      "needs_review": true,
      "review_note": "Scores and records come from High School On SI and MaxPreps (aggregators). SI pages show no game dates, so only games dated on a MaxPreps page are listed. CIFSF schedule sheets (Google Sheets) could not be opened. The SI header and game list disagree on Lincoln's record."
     },
@@ -103,6 +115,242 @@
       }
      ],
      "next": []
+    },
+    {
+     "sport": "Girls Flag Football",
+     "season": "2026-27",
+     "level": "Varsity",
+     "record": null,
+     "recordAsOf": null,
+     "coach": null,
+     "postseason": null,
+     "recent": [],
+     "next": [
+      {
+       "date": "2026-11-07",
+       "time": "9:00 am",
+       "opponent": "Lowell",
+       "home": true,
+       "venue": "Abraham Lincoln High School",
+       "source": {
+        "label": "CIF San Francisco Section, schedules and scores",
+        "url": "https://www.cifsf.org/schedules-and-scores/"
+       }
+      },
+      {
+       "date": "2026-11-18",
+       "time": "3:30 pm",
+       "opponent": "ICA Cristo Rey",
+       "home": true,
+       "venue": "Lincoln High School",
+       "source": {
+        "label": "CIF San Francisco Section, schedules and scores",
+        "url": "https://www.cifsf.org/schedules-and-scores/"
+       }
+      }
+     ]
+    },
+    {
+     "sport": "Girls Soccer",
+     "season": "2026-27",
+     "level": "Varsity",
+     "record": null,
+     "recordAsOf": null,
+     "coach": null,
+     "postseason": null,
+     "recent": [],
+     "next": [
+      {
+       "date": "2026-11-17",
+       "time": "3:15 pm",
+       "opponent": "Oakland High",
+       "home": true,
+       "venue": "Lincoln High School",
+       "source": {
+        "label": "CIF San Francisco Section, schedules and scores",
+        "url": "https://www.cifsf.org/schedules-and-scores/"
+       }
+      },
+      {
+       "date": "2026-11-19",
+       "time": "3:15 pm",
+       "opponent": "Marin Catholic",
+       "home": true,
+       "venue": "Lincoln High School",
+       "source": {
+        "label": "CIF San Francisco Section, schedules and scores",
+        "url": "https://www.cifsf.org/schedules-and-scores/"
+       }
+      },
+      {
+       "date": "2026-12-02",
+       "time": "3:15 pm",
+       "opponent": "Lick Wilmerding",
+       "home": false,
+       "venue": "City College of San Francisco",
+       "source": {
+        "label": "CIF San Francisco Section, schedules and scores",
+        "url": "https://www.cifsf.org/schedules-and-scores/"
+       }
+      },
+      {
+       "date": "2026-12-05",
+       "time": "12:00 pm",
+       "opponent": "Terra Linda",
+       "home": true,
+       "venue": "Lincoln High School",
+       "source": {
+        "label": "CIF San Francisco Section, schedules and scores",
+        "url": "https://www.cifsf.org/schedules-and-scores/"
+       }
+      },
+      {
+       "date": "2026-12-10",
+       "time": "3:15 pm",
+       "opponent": "Branson School",
+       "home": true,
+       "venue": "Lincoln High School",
+       "source": {
+        "label": "CIF San Francisco Section, schedules and scores",
+        "url": "https://www.cifsf.org/schedules-and-scores/"
+       }
+      }
+     ]
+    },
+    {
+     "sport": "Girls Basketball",
+     "season": "2026-27",
+     "level": "Varsity",
+     "record": null,
+     "recordAsOf": null,
+     "coach": null,
+     "postseason": null,
+     "recent": [],
+     "next": [
+      {
+       "date": "2026-11-17",
+       "time": "6:30 pm",
+       "opponent": "Tamalpais",
+       "home": true,
+       "venue": "Lincoln High School, South Gym",
+       "source": {
+        "label": "CIF San Francisco Section, schedules and scores",
+        "url": "https://www.cifsf.org/schedules-and-scores/"
+       }
+      },
+      {
+       "date": "2026-11-18",
+       "time": "4:00 pm",
+       "opponent": "San Francisco Waldorf",
+       "home": false,
+       "venue": null,
+       "source": {
+        "label": "CIF San Francisco Section, schedules and scores",
+        "url": "https://www.cifsf.org/schedules-and-scores/"
+       }
+      },
+      {
+       "date": "2026-11-23",
+       "time": "1:00 pm",
+       "opponent": "Pescadero",
+       "home": false,
+       "venue": null,
+       "source": {
+        "label": "CIF San Francisco Section, schedules and scores",
+        "url": "https://www.cifsf.org/schedules-and-scores/"
+       }
+      },
+      {
+       "date": "2026-11-28",
+       "time": "12:00 pm",
+       "opponent": "Urban School of San Francisco",
+       "home": true,
+       "venue": "Lincoln High School, South Gym",
+       "source": {
+        "label": "CIF San Francisco Section, schedules and scores",
+        "url": "https://www.cifsf.org/schedules-and-scores/"
+       }
+      },
+      {
+       "date": "2026-12-01",
+       "time": "6:00 pm",
+       "opponent": "Aragon",
+       "home": true,
+       "venue": "Lincoln High School, South Gym",
+       "source": {
+        "label": "CIF San Francisco Section, schedules and scores",
+        "url": "https://www.cifsf.org/schedules-and-scores/"
+       }
+      },
+      {
+       "date": "2026-12-04",
+       "time": "6:00 pm",
+       "opponent": "Trinity",
+       "home": true,
+       "venue": "Lincoln High School, South Gym",
+       "source": {
+        "label": "CIF San Francisco Section, schedules and scores",
+        "url": "https://www.cifsf.org/schedules-and-scores/"
+       }
+      },
+      {
+       "date": "2026-12-07",
+       "time": "4:00 pm",
+       "opponent": "Galileo",
+       "home": true,
+       "venue": "Lincoln High School, South Gym",
+       "source": {
+        "label": "CIF San Francisco Section, schedules and scores",
+        "url": "https://www.cifsf.org/schedules-and-scores/"
+       }
+      },
+      {
+       "date": "2026-12-18",
+       "time": "6:00 pm",
+       "opponent": "South San Francisco",
+       "home": false,
+       "venue": null,
+       "source": {
+        "label": "CIF San Francisco Section, schedules and scores",
+        "url": "https://www.cifsf.org/schedules-and-scores/"
+       }
+      },
+      {
+       "date": "2026-12-21",
+       "time": "6:00 pm",
+       "opponent": "El Camino",
+       "home": false,
+       "venue": null,
+       "source": {
+        "label": "CIF San Francisco Section, schedules and scores",
+        "url": "https://www.cifsf.org/schedules-and-scores/"
+       }
+      }
+     ]
+    },
+    {
+     "sport": "Cross Country",
+     "season": "2026-27",
+     "level": "Varsity",
+     "record": null,
+     "recordAsOf": null,
+     "coach": null,
+     "postseason": null,
+     "recent": [],
+     "next": [
+      {
+       "date": "2026-11-05",
+       "time": "3:30 pm",
+       "opponent": "Balboa, Burton, KIPP SF College Prep, Ruth Asawa SOTA and SF International (league meet)",
+       "home": true,
+       "venue": "Course not listed by the Section",
+       "note": "Boys race 3:30 pm, girls race 4:15 pm",
+       "source": {
+        "label": "CIF San Francisco Section, schedules and scores",
+        "url": "https://www.cifsf.org/schedules-and-scores/"
+       }
+      }
+     ]
     }
    ],
    "athleticDirector": "Olga Camacho (camachoo@sfusd.edu)",
@@ -517,7 +765,19 @@
        "note": "Date from the MaxPreps schedule posted Aug 14, 2026; score from High School On SI."
       }
      ],
-     "next": [],
+     "next": [
+      {
+       "date": "2026-11-07",
+       "time": "1:30 pm",
+       "opponent": "Balboa",
+       "home": true,
+       "venue": "George Washington High School",
+       "source": {
+        "label": "CIF San Francisco Section, schedules and scores",
+        "url": "https://www.cifsf.org/schedules-and-scores/"
+       }
+      }
+     ],
      "needs_review": true,
      "review_note": "Scores and records come from High School On SI and MaxPreps (aggregators). SI pages show no game dates, so only games dated on a MaxPreps page are listed. CIFSF schedule sheets (Google Sheets) could not be opened. The SI header and game list disagree on Washington's record; dates for the first three games come from a preseason MaxPreps schedule."
     },
@@ -603,6 +863,108 @@
       }
      ],
      "next": []
+    },
+    {
+     "sport": "Girls Flag Football",
+     "season": "2026-27",
+     "level": "Varsity",
+     "record": null,
+     "recordAsOf": null,
+     "coach": null,
+     "postseason": null,
+     "recent": [],
+     "next": [
+      {
+       "date": "2026-11-07",
+       "time": "9:00 am",
+       "opponent": "Balboa",
+       "home": true,
+       "venue": "George Washington High School",
+       "source": {
+        "label": "CIF San Francisco Section, schedules and scores",
+        "url": "https://www.cifsf.org/schedules-and-scores/"
+       }
+      }
+     ]
+    },
+    {
+     "sport": "Boys Basketball",
+     "season": "2026-27",
+     "level": "Varsity",
+     "record": null,
+     "recordAsOf": null,
+     "coach": null,
+     "postseason": null,
+     "recent": [],
+     "next": [
+      {
+       "date": "2026-11-24",
+       "time": "2:00 pm",
+       "opponent": "Milpitas",
+       "home": false,
+       "venue": null,
+       "source": {
+        "label": "CIF San Francisco Section, schedules and scores",
+        "url": "https://www.cifsf.org/schedules-and-scores/"
+       }
+      }
+     ]
+    },
+    {
+     "sport": "Girls Basketball",
+     "season": "2026-27",
+     "level": "Varsity",
+     "record": null,
+     "recordAsOf": null,
+     "coach": null,
+     "postseason": null,
+     "recent": [],
+     "next": [
+      {
+       "date": "2026-11-24",
+       "time": "5:30 pm",
+       "opponent": "El Camino",
+       "home": false,
+       "venue": null,
+       "source": {
+        "label": "CIF San Francisco Section, schedules and scores",
+        "url": "https://www.cifsf.org/schedules-and-scores/"
+       }
+      },
+      {
+       "date": "2026-11-28",
+       "time": "4:00 pm",
+       "opponent": "Hillsdale",
+       "home": false,
+       "venue": null,
+       "source": {
+        "label": "CIF San Francisco Section, schedules and scores",
+        "url": "https://www.cifsf.org/schedules-and-scores/"
+       }
+      },
+      {
+       "date": "2026-12-19",
+       "time": "12:30 pm",
+       "opponent": "Urban School of San Francisco",
+       "home": true,
+       "venue": "George Washington High School",
+       "source": {
+        "label": "CIF San Francisco Section, schedules and scores",
+        "url": "https://www.cifsf.org/schedules-and-scores/"
+       }
+      },
+      {
+       "date": "2026-12-28",
+       "time": "2:00 pm",
+       "opponent": "Los Gatos",
+       "home": false,
+       "venue": null,
+       "source": {
+        "label": "CIF San Francisco Section, schedules and scores",
+        "url": "https://www.cifsf.org/schedules-and-scores/"
+       }
+      }
+     ]
     }
    ]
   },
@@ -701,6 +1063,96 @@
      ],
      "needs_review": true,
      "review_note": "Scores and record from MaxPreps (aggregator). CIFSF schedule sheets (Google Sheets) could not be opened."
+    },
+    {
+     "sport": "Girls Flag Football",
+     "season": "2026-27",
+     "level": "Varsity",
+     "record": null,
+     "recordAsOf": null,
+     "coach": null,
+     "postseason": null,
+     "recent": [],
+     "next": [
+      {
+       "date": "2026-11-06",
+       "time": "3:30 pm",
+       "opponent": "Galileo",
+       "home": true,
+       "venue": "Mission High School",
+       "source": {
+        "label": "CIF San Francisco Section, schedules and scores",
+        "url": "https://www.cifsf.org/schedules-and-scores/"
+       }
+      },
+      {
+       "date": "2026-11-17",
+       "time": "3:30 pm",
+       "opponent": "Wallenberg",
+       "home": true,
+       "venue": "Mission High School",
+       "source": {
+        "label": "CIF San Francisco Section, schedules and scores",
+        "url": "https://www.cifsf.org/schedules-and-scores/"
+       }
+      }
+     ]
+    },
+    {
+     "sport": "Boys Basketball",
+     "season": "2026-27",
+     "level": "Varsity",
+     "record": null,
+     "recordAsOf": null,
+     "coach": null,
+     "postseason": null,
+     "recent": [],
+     "next": [
+      {
+       "date": "2026-12-01",
+       "time": "6:00 pm",
+       "opponent": "South San Francisco",
+       "home": false,
+       "venue": null,
+       "source": {
+        "label": "CIF San Francisco Section, schedules and scores",
+        "url": "https://www.cifsf.org/schedules-and-scores/"
+       }
+      },
+      {
+       "date": "2026-12-02",
+       "time": "6:00 pm",
+       "opponent": "Terra Nova",
+       "home": false,
+       "venue": null,
+       "source": {
+        "label": "CIF San Francisco Section, schedules and scores",
+        "url": "https://www.cifsf.org/schedules-and-scores/"
+       }
+      },
+      {
+       "date": "2026-12-05",
+       "time": "1:00 pm",
+       "opponent": "El Camino",
+       "home": false,
+       "venue": null,
+       "source": {
+        "label": "CIF San Francisco Section, schedules and scores",
+        "url": "https://www.cifsf.org/schedules-and-scores/"
+       }
+      },
+      {
+       "date": "2026-12-30",
+       "time": "1:30 pm",
+       "opponent": "Convent and Stuart Hall",
+       "home": false,
+       "venue": null,
+       "source": {
+        "label": "CIF San Francisco Section, schedules and scores",
+        "url": "https://www.cifsf.org/schedules-and-scores/"
+       }
+      }
+     ]
     }
    ]
   },
@@ -729,22 +1181,176 @@
      "coach": null,
      "postseason": "AAA (CIF San Francisco Section) varsity semifinals Saturday, Nov 14, 2026, 1:30 pm; City Championship, the Thanksgiving Day game, Thursday, Nov 26, 2026, 11:30 am. CIFSF lists seeds, matchups and sites as TBD. NorCal championships Dec 4 and 5; CIF State championships Dec 11 and 12.",
      "recent": [],
-     "next": [
-      {
-       "date": "2026-11-06",
-       "time": "5:30 pm",
-       "opponent": "Mission",
-       "home": false,
-       "venue": null,
-       "note": "Listed on Mission's MaxPreps page as a Mission home game; site not stated.",
-       "source": {
-        "label": "MaxPreps, Mission Bears football (updated Nov 3, 2026)",
-        "url": "https://www.maxpreps.com/ca/san-francisco/mission-bears/football/"
-       }
-      }
-     ],
+     "next": [],
      "needs_review": true,
      "review_note": "Scores and records come from High School On SI and MaxPreps (aggregators). SI pages show no game dates, so only games dated on a MaxPreps page are listed. CIFSF schedule sheets (Google Sheets) could not be opened. No dated Galileo result was found."
+    },
+    {
+     "sport": "Boys Basketball",
+     "season": "2026-27",
+     "level": "Varsity",
+     "record": null,
+     "recordAsOf": null,
+     "coach": null,
+     "postseason": null,
+     "recent": [],
+     "next": [
+      {
+       "date": "2026-11-25",
+       "time": "4:00 pm",
+       "opponent": "James Logan",
+       "home": false,
+       "venue": null,
+       "source": {
+        "label": "CIF San Francisco Section, schedules and scores",
+        "url": "https://www.cifsf.org/schedules-and-scores/"
+       }
+      },
+      {
+       "date": "2026-12-01",
+       "time": "5:30 pm",
+       "opponent": "Convent and Stuart Hall",
+       "home": false,
+       "venue": null,
+       "source": {
+        "label": "CIF San Francisco Section, schedules and scores",
+        "url": "https://www.cifsf.org/schedules-and-scores/"
+       }
+      },
+      {
+       "date": "2026-12-03",
+       "time": "5:30 pm",
+       "opponent": "Urban School of San Francisco",
+       "home": false,
+       "venue": null,
+       "source": {
+        "label": "CIF San Francisco Section, schedules and scores",
+        "url": "https://www.cifsf.org/schedules-and-scores/"
+       }
+      },
+      {
+       "date": "2026-12-05",
+       "time": "2:00 pm",
+       "opponent": "Capuchino",
+       "home": false,
+       "venue": null,
+       "source": {
+        "label": "CIF San Francisco Section, schedules and scores",
+        "url": "https://www.cifsf.org/schedules-and-scores/"
+       }
+      },
+      {
+       "date": "2026-12-15",
+       "time": "6:00 pm",
+       "opponent": "Jefferson",
+       "home": true,
+       "venue": "Galileo High School",
+       "source": {
+        "label": "CIF San Francisco Section, schedules and scores",
+        "url": "https://www.cifsf.org/schedules-and-scores/"
+       }
+      },
+      {
+       "date": "2026-12-17",
+       "time": "6:30 pm",
+       "opponent": "Hillsdale",
+       "home": true,
+       "venue": "Galileo High School",
+       "source": {
+        "label": "CIF San Francisco Section, schedules and scores",
+        "url": "https://www.cifsf.org/schedules-and-scores/"
+       }
+      },
+      {
+       "date": "2026-12-19",
+       "time": "11:30 am",
+       "opponent": "The International School of San Francisco",
+       "home": false,
+       "venue": null,
+       "source": {
+        "label": "CIF San Francisco Section, schedules and scores",
+        "url": "https://www.cifsf.org/schedules-and-scores/"
+       }
+      }
+     ]
+    },
+    {
+     "sport": "Girls Basketball",
+     "season": "2026-27",
+     "level": "Varsity",
+     "record": null,
+     "recordAsOf": null,
+     "coach": null,
+     "postseason": null,
+     "recent": [],
+     "next": [
+      {
+       "date": "2026-11-17",
+       "time": "4:30 pm",
+       "opponent": "Gateway",
+       "home": true,
+       "venue": "Galileo High School",
+       "source": {
+        "label": "CIF San Francisco Section, schedules and scores",
+        "url": "https://www.cifsf.org/schedules-and-scores/"
+       }
+      },
+      {
+       "date": "2026-11-20",
+       "time": "4:30 pm",
+       "opponent": "San Francisco Waldorf",
+       "home": false,
+       "venue": null,
+       "source": {
+        "label": "CIF San Francisco Section, schedules and scores",
+        "url": "https://www.cifsf.org/schedules-and-scores/"
+       }
+      },
+      {
+       "date": "2026-12-02",
+       "time": "4:30 pm",
+       "opponent": "ICA Cristo Rey",
+       "home": true,
+       "venue": "Galileo High School",
+       "source": {
+        "label": "CIF San Francisco Section, schedules and scores",
+        "url": "https://www.cifsf.org/schedules-and-scores/"
+       }
+      },
+      {
+       "date": "2026-12-04",
+       "time": "5:30 pm",
+       "opponent": "Hayward",
+       "home": true,
+       "venue": "Galileo High School",
+       "source": {
+        "label": "CIF San Francisco Section, schedules and scores",
+        "url": "https://www.cifsf.org/schedules-and-scores/"
+       }
+      },
+      {
+       "date": "2026-12-16",
+       "time": "4:00 pm",
+       "opponent": "Drew School",
+       "home": true,
+       "venue": "Galileo High School",
+       "source": {
+        "label": "CIF San Francisco Section, schedules and scores",
+        "url": "https://www.cifsf.org/schedules-and-scores/"
+       }
+      },
+      {
+       "date": "2026-12-18",
+       "time": "5:30 pm",
+       "opponent": "Jefferson",
+       "home": true,
+       "venue": "Galileo High School",
+       "source": {
+        "label": "CIF San Francisco Section, schedules and scores",
+        "url": "https://www.cifsf.org/schedules-and-scores/"
+       }
+      }
+     ]
     }
    ]
   },
@@ -788,6 +1394,436 @@
      "next": [],
      "needs_review": true,
      "review_note": "Scores and records come from High School On SI and MaxPreps (aggregators). SI pages show no game dates, so only games dated on a MaxPreps page are listed. CIFSF schedule sheets (Google Sheets) could not be opened."
+    },
+    {
+     "sport": "Boys Soccer",
+     "season": "2026-27",
+     "level": "Varsity",
+     "record": null,
+     "recordAsOf": null,
+     "coach": null,
+     "postseason": null,
+     "recent": [],
+     "next": [
+      {
+       "date": "2026-12-01",
+       "time": "3:30 pm",
+       "opponent": "Ruth Asawa SOTA",
+       "home": true,
+       "venue": "Burton High School",
+       "source": {
+        "label": "CIF San Francisco Section, schedules and scores",
+        "url": "https://www.cifsf.org/schedules-and-scores/"
+       }
+      }
+     ]
+    },
+    {
+     "sport": "Girls Soccer",
+     "season": "2026-27",
+     "level": "Varsity",
+     "record": null,
+     "recordAsOf": null,
+     "coach": null,
+     "postseason": null,
+     "recent": [],
+     "next": [
+      {
+       "date": "2026-12-07",
+       "time": "3:30 pm",
+       "opponent": "Ruth Asawa SOTA",
+       "home": true,
+       "venue": "Phillip & Sala Burton",
+       "source": {
+        "label": "CIF San Francisco Section, schedules and scores",
+        "url": "https://www.cifsf.org/schedules-and-scores/"
+       }
+      }
+     ]
+    },
+    {
+     "sport": "Boys Basketball",
+     "season": "2026-27",
+     "level": "Varsity",
+     "record": null,
+     "recordAsOf": null,
+     "coach": null,
+     "postseason": null,
+     "recent": [],
+     "next": [
+      {
+       "date": "2026-11-13",
+       "time": "6:00 pm",
+       "opponent": "Marin Academy",
+       "home": true,
+       "venue": "Phillip and Sala Burton High School",
+       "source": {
+        "label": "CIF San Francisco Section, schedules and scores",
+        "url": "https://www.cifsf.org/schedules-and-scores/"
+       }
+      },
+      {
+       "date": "2026-11-17",
+       "time": "6:00 pm",
+       "opponent": "AIMS College Prep",
+       "home": true,
+       "venue": "Phillip and Sala Burton High School",
+       "source": {
+        "label": "CIF San Francisco Section, schedules and scores",
+        "url": "https://www.cifsf.org/schedules-and-scores/"
+       }
+      },
+      {
+       "date": "2026-11-18",
+       "time": "6:30 pm",
+       "opponent": "Bay School of San Francisco",
+       "home": true,
+       "venue": "Phillip and Sala Burton High School",
+       "source": {
+        "label": "CIF San Francisco Section, schedules and scores",
+        "url": "https://www.cifsf.org/schedules-and-scores/"
+       }
+      },
+      {
+       "date": "2026-11-20",
+       "time": "6:30 pm",
+       "opponent": "Drew School",
+       "home": false,
+       "venue": null,
+       "source": {
+        "label": "CIF San Francisco Section, schedules and scores",
+        "url": "https://www.cifsf.org/schedules-and-scores/"
+       }
+      },
+      {
+       "date": "2026-11-23",
+       "time": "6:00 pm",
+       "opponent": "San Mateo",
+       "home": true,
+       "venue": "Phillip and Sala Burton High School",
+       "source": {
+        "label": "CIF San Francisco Section, schedules and scores",
+        "url": "https://www.cifsf.org/schedules-and-scores/"
+       }
+      },
+      {
+       "date": "2026-12-01",
+       "time": "6:30 pm",
+       "opponent": "Jewish Community",
+       "home": false,
+       "venue": null,
+       "source": {
+        "label": "CIF San Francisco Section, schedules and scores",
+        "url": "https://www.cifsf.org/schedules-and-scores/"
+       }
+      },
+      {
+       "date": "2026-12-02",
+       "time": "6:00 pm",
+       "opponent": "Westmoor",
+       "home": false,
+       "venue": null,
+       "source": {
+        "label": "CIF San Francisco Section, schedules and scores",
+        "url": "https://www.cifsf.org/schedules-and-scores/"
+       }
+      },
+      {
+       "date": "2026-12-03",
+       "time": "6:30 pm",
+       "opponent": "Mills",
+       "home": true,
+       "venue": "Phillip and Sala Burton High School",
+       "source": {
+        "label": "CIF San Francisco Section, schedules and scores",
+        "url": "https://www.cifsf.org/schedules-and-scores/"
+       }
+      },
+      {
+       "date": "2026-12-04",
+       "time": "6:00 pm",
+       "opponent": "Hillsdale",
+       "home": true,
+       "venue": "Phillip and Sala Burton High School",
+       "source": {
+        "label": "CIF San Francisco Section, schedules and scores",
+        "url": "https://www.cifsf.org/schedules-and-scores/"
+       }
+      },
+      {
+       "date": "2026-12-09",
+       "time": "6:30 pm",
+       "opponent": "Oceana",
+       "home": false,
+       "venue": null,
+       "source": {
+        "label": "CIF San Francisco Section, schedules and scores",
+        "url": "https://www.cifsf.org/schedules-and-scores/"
+       }
+      },
+      {
+       "date": "2026-12-11",
+       "time": "6:00 pm",
+       "opponent": "Jefferson",
+       "home": true,
+       "venue": "Phillip and Sala Burton High School",
+       "source": {
+        "label": "CIF San Francisco Section, schedules and scores",
+        "url": "https://www.cifsf.org/schedules-and-scores/"
+       }
+      },
+      {
+       "date": "2026-12-18",
+       "time": "6:30 pm",
+       "opponent": "Terra Nova",
+       "home": true,
+       "venue": "Phillip and Sala Burton High School",
+       "source": {
+        "label": "CIF San Francisco Section, schedules and scores",
+        "url": "https://www.cifsf.org/schedules-and-scores/"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "ICA Cristo Rey Academy",
+   "town": "San Francisco",
+   "mascot": null,
+   "division": "CIF San Francisco Section (AAA)",
+   "site": null,
+   "athleticsUrl": null,
+   "scheduleUrl": "https://www.cifsf.org/schedules-and-scores/",
+   "note": null,
+   "source": {
+    "label": "CIF San Francisco Section, schedules and scores",
+    "url": "https://www.cifsf.org/schedules-and-scores/"
+   },
+   "teams": [
+    {
+     "sport": "Girls Flag Football",
+     "season": "2026-27",
+     "level": "Varsity",
+     "record": null,
+     "recordAsOf": null,
+     "coach": null,
+     "postseason": null,
+     "recent": [],
+     "next": [
+      {
+       "date": "2026-11-11",
+       "time": "3:30 pm",
+       "opponent": "Burton",
+       "home": true,
+       "venue": "ICA Cristo Rey Academy",
+       "source": {
+        "label": "CIF San Francisco Section, schedules and scores",
+        "url": "https://www.cifsf.org/schedules-and-scores/"
+       }
+      },
+      {
+       "date": "2026-11-13",
+       "time": "3:30 pm",
+       "opponent": "Lowell",
+       "home": true,
+       "venue": "ICA Cristo Rey Academy",
+       "source": {
+        "label": "CIF San Francisco Section, schedules and scores",
+        "url": "https://www.cifsf.org/schedules-and-scores/"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Raoul Wallenberg High School",
+   "town": "San Francisco",
+   "mascot": null,
+   "division": "CIF San Francisco Section (AAA)",
+   "site": null,
+   "athleticsUrl": null,
+   "scheduleUrl": "https://www.cifsf.org/schedules-and-scores/",
+   "note": null,
+   "source": {
+    "label": "CIF San Francisco Section, schedules and scores",
+    "url": "https://www.cifsf.org/schedules-and-scores/"
+   },
+   "teams": [
+    {
+     "sport": "Girls Flag Football",
+     "season": "2026-27",
+     "level": "Varsity",
+     "record": null,
+     "recordAsOf": null,
+     "coach": null,
+     "postseason": null,
+     "recent": [],
+     "next": [
+      {
+       "date": "2026-11-11",
+       "time": "3:30 pm",
+       "opponent": "Galileo",
+       "home": true,
+       "venue": "Raoul Wallenberg High School",
+       "source": {
+        "label": "CIF San Francisco Section, schedules and scores",
+        "url": "https://www.cifsf.org/schedules-and-scores/"
+       }
+      },
+      {
+       "date": "2026-11-13",
+       "time": "3:30 pm",
+       "opponent": "Balboa",
+       "home": true,
+       "venue": "Raoul Wallenberg High School",
+       "source": {
+        "label": "CIF San Francisco Section, schedules and scores",
+        "url": "https://www.cifsf.org/schedules-and-scores/"
+       }
+      },
+      {
+       "date": "2026-11-18",
+       "time": "3:30 pm",
+       "opponent": "Washington",
+       "home": true,
+       "venue": "Raoul Wallenberg High School",
+       "source": {
+        "label": "CIF San Francisco Section, schedules and scores",
+        "url": "https://www.cifsf.org/schedules-and-scores/"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Ruth Asawa School of the Arts",
+   "town": "San Francisco",
+   "mascot": null,
+   "division": "CIF San Francisco Section (AAA)",
+   "site": null,
+   "athleticsUrl": null,
+   "scheduleUrl": "https://www.cifsf.org/schedules-and-scores/",
+   "note": null,
+   "source": {
+    "label": "CIF San Francisco Section, schedules and scores",
+    "url": "https://www.cifsf.org/schedules-and-scores/"
+   },
+   "teams": [
+    {
+     "sport": "Boys Soccer",
+     "season": "2026-27",
+     "level": "Varsity",
+     "record": null,
+     "recordAsOf": null,
+     "coach": null,
+     "postseason": null,
+     "recent": [],
+     "next": [
+      {
+       "date": "2026-11-10",
+       "time": "3:30 pm",
+       "opponent": "John O'Connell",
+       "home": true,
+       "venue": "Ruth Asawa School of the Arts",
+       "source": {
+        "label": "CIF San Francisco Section, schedules and scores",
+        "url": "https://www.cifsf.org/schedules-and-scores/"
+       }
+      },
+      {
+       "date": "2026-11-16",
+       "time": "3:30 pm",
+       "opponent": "Oceana",
+       "home": true,
+       "venue": "Ruth Asawa School of the Arts",
+       "source": {
+        "label": "CIF San Francisco Section, schedules and scores",
+        "url": "https://www.cifsf.org/schedules-and-scores/"
+       }
+      }
+     ]
+    },
+    {
+     "sport": "Girls Soccer",
+     "season": "2026-27",
+     "level": "Varsity",
+     "record": null,
+     "recordAsOf": null,
+     "coach": null,
+     "postseason": null,
+     "recent": [],
+     "next": [
+      {
+       "date": "2026-11-12",
+       "time": "3:30 pm",
+       "opponent": "John O'Connell",
+       "home": true,
+       "venue": "Ruth Asawa School of the Arts",
+       "source": {
+        "label": "CIF San Francisco Section, schedules and scores",
+        "url": "https://www.cifsf.org/schedules-and-scores/"
+       }
+      },
+      {
+       "date": "2026-11-17",
+       "time": "3:30 pm",
+       "opponent": "Drew School",
+       "home": true,
+       "venue": "Ruth Asawa School of the Arts",
+       "source": {
+        "label": "CIF San Francisco Section, schedules and scores",
+        "url": "https://www.cifsf.org/schedules-and-scores/"
+       }
+      },
+      {
+       "date": "2026-12-02",
+       "time": "3:30 pm",
+       "opponent": "ICA Cristo Rey",
+       "home": true,
+       "venue": "Ruth Asawa School of the Arts",
+       "source": {
+        "label": "CIF San Francisco Section, schedules and scores",
+        "url": "https://www.cifsf.org/schedules-and-scores/"
+       }
+      },
+      {
+       "date": "2026-12-09",
+       "time": "3:30 pm",
+       "opponent": "Oceana",
+       "home": true,
+       "venue": "Ruth Asawa School of the Arts",
+       "source": {
+        "label": "CIF San Francisco Section, schedules and scores",
+        "url": "https://www.cifsf.org/schedules-and-scores/"
+       }
+      }
+     ]
+    },
+    {
+     "sport": "Boys Basketball",
+     "season": "2026-27",
+     "level": "Varsity",
+     "record": null,
+     "recordAsOf": null,
+     "coach": null,
+     "postseason": null,
+     "recent": [],
+     "next": [
+      {
+       "date": "2026-12-04",
+       "time": "4:30 pm",
+       "opponent": "John O'Connell",
+       "home": true,
+       "venue": "McAteer Gym",
+       "source": {
+        "label": "CIF San Francisco Section, schedules and scores",
+        "url": "https://www.cifsf.org/schedules-and-scores/"
+       }
+      }
+     ]
     }
    ]
   }
@@ -1018,7 +2054,7 @@
    "sport": "Basketball",
    "venue": "Chase Center, San Francisco",
    "site": "https://www.nba.com/warriors",
-   "note": "4-3 through Nov 1 (2-1 at home); beat the Clippers 124-112 at home Nov 1. Home games at Chase Center, Nov 4 to Dec 31 (Pacific times): Miami Thu Nov 5, 7 pm; Orlando Sat Nov 7, 5:30 pm; New Orleans Mon Nov 9, 7 pm; Boston Sun Nov 22, 5:30 pm; Sacramento Wed Nov 25, 7 pm (NBA Cup group play); LA Clippers Sun Nov 29, 5:30 pm; Utah Tue Dec 1, 8 pm (NBC); Dallas Tue Dec 22, 7:30 pm (NBC); Denver Fri Dec 25 (Christmas), 7:30 pm (ABC); Minnesota Sun Dec 27, 5:30 pm; Houston Wed Dec 30, 7 pm. Two more games between Dec 4 and Dec 11 depend on NBA Cup knockout results; opponents and sites not yet set.",
+   "note": "2026-27 season. Times are Pacific. No games are listed Dec 2 to 11, when the NBA Cup knockout rounds are played.",
    "source": {
     "label": "Golden State Warriors, 2026-27 schedule (official PDF)",
     "url": "https://cdn.nba.com/teams/uploads/sites/1610612744/2026/08/Warriors-2026-27-Schedule_list.pdf"
@@ -1026,7 +2062,358 @@
    "alsoSource": {
     "label": "Golden State Warriors game notes (through Nov 1, 2026)",
     "url": "https://www.nba.com/gamenotes/warriors.pdf"
-   }
+   },
+   "short": "Warriors",
+   "next": [
+    {
+     "date": "2026-11-05",
+     "time": "7:00 pm",
+     "opponent": "Miami Heat",
+     "home": true,
+     "venue": "Chase Center",
+     "source": {
+      "label": "ESPN, Warriors 2026-27 schedule",
+      "url": "https://www.espn.com/nba/team/schedule/_/name/gs/golden-state-warriors"
+     }
+    },
+    {
+     "date": "2026-11-07",
+     "time": "5:30 pm",
+     "opponent": "Orlando Magic",
+     "home": true,
+     "venue": "Chase Center",
+     "source": {
+      "label": "ESPN, Warriors 2026-27 schedule",
+      "url": "https://www.espn.com/nba/team/schedule/_/name/gs/golden-state-warriors"
+     }
+    },
+    {
+     "date": "2026-11-09",
+     "time": "7:00 pm",
+     "opponent": "New Orleans Pelicans",
+     "home": true,
+     "venue": "Chase Center",
+     "source": {
+      "label": "ESPN, Warriors 2026-27 schedule",
+      "url": "https://www.espn.com/nba/team/schedule/_/name/gs/golden-state-warriors"
+     }
+    },
+    {
+     "date": "2026-11-11",
+     "time": "6:30 pm",
+     "opponent": "Houston Rockets",
+     "home": false,
+     "venue": "Toyota Center, Houston",
+     "source": {
+      "label": "ESPN, Warriors 2026-27 schedule",
+      "url": "https://www.espn.com/nba/team/schedule/_/name/gs/golden-state-warriors"
+     }
+    },
+    {
+     "date": "2026-11-13",
+     "time": "6:30 pm",
+     "opponent": "San Antonio Spurs",
+     "home": false,
+     "venue": "Frost Bank Center, San Antonio",
+     "source": {
+      "label": "ESPN, Warriors 2026-27 schedule",
+      "url": "https://www.espn.com/nba/team/schedule/_/name/gs/golden-state-warriors"
+     }
+    },
+    {
+     "date": "2026-11-16",
+     "time": "5:00 pm",
+     "opponent": "New Orleans Pelicans",
+     "home": false,
+     "venue": "Smoothie King Center, New Orleans",
+     "source": {
+      "label": "ESPN, Warriors 2026-27 schedule",
+      "url": "https://www.espn.com/nba/team/schedule/_/name/gs/golden-state-warriors"
+     }
+    },
+    {
+     "date": "2026-11-18",
+     "time": "6:30 pm",
+     "opponent": "Dallas Mavericks",
+     "home": false,
+     "venue": "American Airlines Center, Dallas",
+     "source": {
+      "label": "ESPN, Warriors 2026-27 schedule",
+      "url": "https://www.espn.com/nba/team/schedule/_/name/gs/golden-state-warriors"
+     }
+    },
+    {
+     "date": "2026-11-19",
+     "time": "5:00 pm",
+     "opponent": "Memphis Grizzlies",
+     "home": false,
+     "venue": "FedExForum, Memphis",
+     "source": {
+      "label": "ESPN, Warriors 2026-27 schedule",
+      "url": "https://www.espn.com/nba/team/schedule/_/name/gs/golden-state-warriors"
+     }
+    },
+    {
+     "date": "2026-11-22",
+     "time": "5:30 pm",
+     "opponent": "Boston Celtics",
+     "home": true,
+     "venue": "Chase Center",
+     "source": {
+      "label": "ESPN, Warriors 2026-27 schedule",
+      "url": "https://www.espn.com/nba/team/schedule/_/name/gs/golden-state-warriors"
+     }
+    },
+    {
+     "date": "2026-11-25",
+     "time": "7:00 pm",
+     "opponent": "Sacramento Kings",
+     "home": true,
+     "venue": "Chase Center",
+     "source": {
+      "label": "ESPN, Warriors 2026-27 schedule",
+      "url": "https://www.espn.com/nba/team/schedule/_/name/gs/golden-state-warriors"
+     }
+    },
+    {
+     "date": "2026-11-27",
+     "time": "6:30 pm",
+     "opponent": "Portland Trail Blazers",
+     "home": false,
+     "venue": "Moda Center, Portland",
+     "source": {
+      "label": "ESPN, Warriors 2026-27 schedule",
+      "url": "https://www.espn.com/nba/team/schedule/_/name/gs/golden-state-warriors"
+     }
+    },
+    {
+     "date": "2026-11-29",
+     "time": "5:30 pm",
+     "opponent": "LA Clippers",
+     "home": true,
+     "venue": "Chase Center",
+     "source": {
+      "label": "ESPN, Warriors 2026-27 schedule",
+      "url": "https://www.espn.com/nba/team/schedule/_/name/gs/golden-state-warriors"
+     }
+    },
+    {
+     "date": "2026-12-01",
+     "time": "8:00 pm",
+     "opponent": "Utah Jazz",
+     "home": true,
+     "venue": "Chase Center",
+     "source": {
+      "label": "ESPN, Warriors 2026-27 schedule",
+      "url": "https://www.espn.com/nba/team/schedule/_/name/gs/golden-state-warriors"
+     }
+    },
+    {
+     "date": "2026-12-12",
+     "time": "5:00 pm",
+     "opponent": "Cleveland Cavaliers",
+     "home": false,
+     "venue": "Rocket Arena, Cleveland",
+     "source": {
+      "label": "ESPN, Warriors 2026-27 schedule",
+      "url": "https://www.espn.com/nba/team/schedule/_/name/gs/golden-state-warriors"
+     }
+    },
+    {
+     "date": "2026-12-14",
+     "time": "5:00 pm",
+     "opponent": "Memphis Grizzlies",
+     "home": false,
+     "venue": "FedExForum, Memphis",
+     "source": {
+      "label": "ESPN, Warriors 2026-27 schedule",
+      "url": "https://www.espn.com/nba/team/schedule/_/name/gs/golden-state-warriors"
+     }
+    },
+    {
+     "date": "2026-12-16",
+     "time": "4:00 pm",
+     "opponent": "Indiana Pacers",
+     "home": false,
+     "venue": "Gainbridge Fieldhouse, Indianapolis",
+     "source": {
+      "label": "ESPN, Warriors 2026-27 schedule",
+      "url": "https://www.espn.com/nba/team/schedule/_/name/gs/golden-state-warriors"
+     }
+    },
+    {
+     "date": "2026-12-18",
+     "time": "4:30 pm",
+     "opponent": "Toronto Raptors",
+     "home": false,
+     "venue": "Scotiabank Arena, Toronto",
+     "source": {
+      "label": "ESPN, Warriors 2026-27 schedule",
+      "url": "https://www.espn.com/nba/team/schedule/_/name/gs/golden-state-warriors"
+     }
+    },
+    {
+     "date": "2026-12-20",
+     "time": "5:00 pm",
+     "opponent": "Milwaukee Bucks",
+     "home": false,
+     "venue": "Fiserv Forum, Milwaukee",
+     "source": {
+      "label": "ESPN, Warriors 2026-27 schedule",
+      "url": "https://www.espn.com/nba/team/schedule/_/name/gs/golden-state-warriors"
+     }
+    },
+    {
+     "date": "2026-12-22",
+     "time": "7:30 pm",
+     "opponent": "Dallas Mavericks",
+     "home": true,
+     "venue": "Chase Center",
+     "source": {
+      "label": "ESPN, Warriors 2026-27 schedule",
+      "url": "https://www.espn.com/nba/team/schedule/_/name/gs/golden-state-warriors"
+     }
+    },
+    {
+     "date": "2026-12-23",
+     "time": "7:30 pm",
+     "opponent": "LA Clippers",
+     "home": false,
+     "venue": "Intuit Dome, Inglewood",
+     "source": {
+      "label": "ESPN, Warriors 2026-27 schedule",
+      "url": "https://www.espn.com/nba/team/schedule/_/name/gs/golden-state-warriors"
+     }
+    },
+    {
+     "date": "2026-12-25",
+     "time": "7:30 pm",
+     "opponent": "Denver Nuggets",
+     "home": true,
+     "venue": "Chase Center",
+     "source": {
+      "label": "ESPN, Warriors 2026-27 schedule",
+      "url": "https://www.espn.com/nba/team/schedule/_/name/gs/golden-state-warriors"
+     }
+    },
+    {
+     "date": "2026-12-27",
+     "time": "5:30 pm",
+     "opponent": "Minnesota Timberwolves",
+     "home": true,
+     "venue": "Chase Center",
+     "source": {
+      "label": "ESPN, Warriors 2026-27 schedule",
+      "url": "https://www.espn.com/nba/team/schedule/_/name/gs/golden-state-warriors"
+     }
+    },
+    {
+     "date": "2026-12-28",
+     "time": "6:00 pm",
+     "opponent": "Phoenix Suns",
+     "home": false,
+     "venue": "Mortgage Matchup Center, Phoenix",
+     "source": {
+      "label": "ESPN, Warriors 2026-27 schedule",
+      "url": "https://www.espn.com/nba/team/schedule/_/name/gs/golden-state-warriors"
+     }
+    },
+    {
+     "date": "2026-12-30",
+     "time": "7:00 pm",
+     "opponent": "Houston Rockets",
+     "home": true,
+     "venue": "Chase Center",
+     "source": {
+      "label": "ESPN, Warriors 2026-27 schedule",
+      "url": "https://www.espn.com/nba/team/schedule/_/name/gs/golden-state-warriors"
+     }
+    }
+   ],
+   "recent": [
+    {
+     "date": "2026-10-21",
+     "opponent": "Los Angeles Lakers",
+     "home": false,
+     "result": "L 105-127",
+     "source": {
+      "label": "ESPN, Warriors 2026-27 schedule",
+      "url": "https://www.espn.com/nba/team/schedule/_/name/gs/golden-state-warriors"
+     }
+    },
+    {
+     "date": "2026-10-23",
+     "opponent": "Memphis Grizzlies",
+     "home": true,
+     "result": "L 108-111",
+     "source": {
+      "label": "ESPN, Warriors 2026-27 schedule",
+      "url": "https://www.espn.com/nba/team/schedule/_/name/gs/golden-state-warriors"
+     }
+    },
+    {
+     "date": "2026-10-24",
+     "opponent": "Phoenix Suns",
+     "home": false,
+     "result": "L 122-131",
+     "source": {
+      "label": "ESPN, Warriors 2026-27 schedule",
+      "url": "https://www.espn.com/nba/team/schedule/_/name/gs/golden-state-warriors"
+     }
+    },
+    {
+     "date": "2026-10-26",
+     "opponent": "Denver Nuggets",
+     "home": false,
+     "result": "W 134-114",
+     "source": {
+      "label": "ESPN, Warriors 2026-27 schedule",
+      "url": "https://www.espn.com/nba/team/schedule/_/name/gs/golden-state-warriors"
+     }
+    },
+    {
+     "date": "2026-10-28",
+     "opponent": "Minnesota Timberwolves",
+     "home": false,
+     "result": "W 119-114",
+     "source": {
+      "label": "ESPN, Warriors 2026-27 schedule",
+      "url": "https://www.espn.com/nba/team/schedule/_/name/gs/golden-state-warriors"
+     }
+    },
+    {
+     "date": "2026-10-30",
+     "opponent": "Los Angeles Lakers",
+     "home": true,
+     "result": "W 112-95",
+     "source": {
+      "label": "ESPN, Warriors 2026-27 schedule",
+      "url": "https://www.espn.com/nba/team/schedule/_/name/gs/golden-state-warriors"
+     }
+    },
+    {
+     "date": "2026-11-01",
+     "opponent": "LA Clippers",
+     "home": true,
+     "result": "W 124-112",
+     "source": {
+      "label": "ESPN, Warriors 2026-27 schedule",
+      "url": "https://www.espn.com/nba/team/schedule/_/name/gs/golden-state-warriors"
+     }
+    },
+    {
+     "date": "2026-11-02",
+     "opponent": "Phoenix Suns",
+     "home": true,
+     "result": "W 116-113",
+     "source": {
+      "label": "ESPN, Warriors 2026-27 schedule",
+      "url": "https://www.espn.com/nba/team/schedule/_/name/gs/golden-state-warriors"
+     }
+    }
+   ],
+   "record": "5-3",
+   "recordAsOf": "2026-11-04"
   },
   {
    "name": "San Francisco 49ers",
@@ -1039,12 +2426,141 @@
     "label": "San Francisco 49ers, 2026 schedule (49ers.com)",
     "url": "https://www.49ers.com/schedule/"
    },
-   "needs_review": true,
    "alsoSource": {
     "label": "Ticketmaster, Step Inside Levi's Stadium (Sept 22, 2026)",
     "url": "https://blog.ticketmaster.com/step-inside-levis-stadium-santa-clara-ca/"
    },
-   "review_note": "Record computed from the results listed on 49ers.com (wins over the Rams in Melbourne, Miami, Arizona, Denver, Seattle and Washington; loss at Atlanta); 49ers.com does not state it. Times can change under flexible scheduling."
+   "short": "49ers",
+   "next": [
+    {
+     "date": "2026-11-08",
+     "time": "1:25 pm",
+     "opponent": "Las Vegas Raiders",
+     "home": true,
+     "venue": "Levi's Stadium, Santa Clara",
+     "source": {
+      "label": "ESPN, 49ers 2026 schedule",
+      "url": "https://www.espn.com/nfl/team/schedule/_/name/sf/san-francisco-49ers"
+     },
+     "local": false,
+     "note": "TV: Fox"
+    },
+    {
+     "date": "2026-11-15",
+     "time": "1:25 pm",
+     "opponent": "Dallas Cowboys",
+     "home": false,
+     "venue": "AT&T Stadium, Arlington",
+     "source": {
+      "label": "ESPN, 49ers 2026 schedule",
+      "url": "https://www.espn.com/nfl/team/schedule/_/name/sf/san-francisco-49ers"
+     },
+     "local": false,
+     "note": "TV: Fox"
+    },
+    {
+     "date": "2026-11-22",
+     "time": "5:20 pm",
+     "opponent": "Minnesota Vikings",
+     "home": true,
+     "venue": "Estadio Banorte, Mexico City",
+     "source": {
+      "label": "ESPN, 49ers 2026 schedule",
+      "url": "https://www.espn.com/nfl/team/schedule/_/name/sf/san-francisco-49ers"
+     },
+     "local": false,
+     "note": "TV: NBC. NFL international game; the 49ers are the designated home team."
+    },
+    {
+     "date": "2026-11-29",
+     "time": "1:25 pm",
+     "opponent": "Seattle Seahawks",
+     "home": true,
+     "venue": "Levi's Stadium, Santa Clara",
+     "source": {
+      "label": "ESPN, 49ers 2026 schedule",
+      "url": "https://www.espn.com/nfl/team/schedule/_/name/sf/san-francisco-49ers"
+     },
+     "local": false,
+     "note": "TV: Fox"
+    },
+    {
+     "date": "2026-12-06",
+     "time": "10:00 am",
+     "opponent": "New York Giants",
+     "home": false,
+     "venue": "MetLife Stadium",
+     "source": {
+      "label": "ESPN, 49ers 2026 schedule",
+      "url": "https://www.espn.com/nfl/team/schedule/_/name/sf/san-francisco-49ers"
+     },
+     "local": false,
+     "note": "TV: Fox"
+    },
+    {
+     "date": "2026-12-13",
+     "time": "1:25 pm",
+     "opponent": "Los Angeles Rams",
+     "home": true,
+     "venue": "Levi's Stadium, Santa Clara",
+     "source": {
+      "label": "ESPN, 49ers 2026 schedule",
+      "url": "https://www.espn.com/nfl/team/schedule/_/name/sf/san-francisco-49ers"
+     },
+     "local": false,
+     "note": "TV: Fox"
+    },
+    {
+     "date": "2026-12-17",
+     "time": "5:15 pm",
+     "opponent": "Los Angeles Chargers",
+     "home": false,
+     "venue": "SoFi Stadium, Inglewood",
+     "source": {
+      "label": "ESPN, 49ers 2026 schedule",
+      "url": "https://www.espn.com/nfl/team/schedule/_/name/sf/san-francisco-49ers"
+     },
+     "local": false,
+     "note": "TV: Prime Video"
+    },
+    {
+     "date": "2026-12-27",
+     "time": "1:25 pm",
+     "opponent": "Kansas City Chiefs",
+     "home": false,
+     "venue": "Arrowhead Stadium, Kansas City",
+     "source": {
+      "label": "ESPN, 49ers 2026 schedule",
+      "url": "https://www.espn.com/nfl/team/schedule/_/name/sf/san-francisco-49ers"
+     },
+     "local": false,
+     "note": "TV: CBS"
+    }
+   ],
+   "recent": [
+    {
+     "date": "2026-10-19",
+     "opponent": "Washington Commanders",
+     "home": true,
+     "result": "W 23-17",
+     "source": {
+      "label": "ESPN, 49ers 2026 schedule",
+      "url": "https://www.espn.com/nfl/team/schedule/_/name/sf/san-francisco-49ers"
+     }
+    },
+    {
+     "date": "2026-10-25",
+     "opponent": "Atlanta Falcons",
+     "home": false,
+     "result": "L 20-29",
+     "source": {
+      "label": "ESPN, 49ers 2026 schedule",
+      "url": "https://www.espn.com/nfl/team/schedule/_/name/sf/san-francisco-49ers"
+     }
+    }
+   ],
+   "record": "6-1",
+   "recordAsOf": "2026-11-04"
   },
   {
    "name": "Golden State Valkyries",
@@ -1089,8 +2605,196 @@
     "label": "USF Athletics, Dons return to Acrisure Series (page schedule listing)",
     "url": "https://usfdons.com/news/2026/7/22/mens-basketball-dons-return-to-acrisure-series-for-second-straight-year"
    },
-   "needs_review": true,
-   "review_note": "Games and times read from the schedule listing on a July news page; venue is not stated per game. Confirm on the official schedule."
+   "short": "USF men's basketball",
+   "next": [
+    {
+     "date": "2026-11-06",
+     "time": "7:00 pm",
+     "opponent": "North Dakota State",
+     "home": true,
+     "venue": "War Memorial Gym at the Sobrato Center, USF",
+     "source": {
+      "label": "ESPN, USF men's basketball schedule",
+      "url": "https://www.espn.com/mens-college-basketball/team/schedule/_/id/2539/san-francisco-dons"
+     }
+    },
+    {
+     "date": "2026-11-09",
+     "time": null,
+     "opponent": "Montana",
+     "home": true,
+     "venue": "War Memorial Gym at the Sobrato Center, USF",
+     "source": {
+      "label": "ESPN, USF men's basketball schedule",
+      "url": "https://www.espn.com/mens-college-basketball/team/schedule/_/id/2539/san-francisco-dons"
+     }
+    },
+    {
+     "date": "2026-11-13",
+     "time": null,
+     "opponent": "Portland State",
+     "home": true,
+     "venue": "War Memorial Gym at the Sobrato Center, USF",
+     "source": {
+      "label": "ESPN, USF men's basketball schedule",
+      "url": "https://www.espn.com/mens-college-basketball/team/schedule/_/id/2539/san-francisco-dons"
+     }
+    },
+    {
+     "date": "2026-11-17",
+     "time": null,
+     "opponent": "Louisiana",
+     "home": true,
+     "venue": "War Memorial Gym at the Sobrato Center, USF",
+     "source": {
+      "label": "ESPN, USF men's basketball schedule",
+      "url": "https://www.espn.com/mens-college-basketball/team/schedule/_/id/2539/san-francisco-dons"
+     }
+    },
+    {
+     "date": "2026-11-23",
+     "time": "1:30 pm",
+     "opponent": "Nevada",
+     "home": false,
+     "venue": "Acrisure Arena, Palm Desert",
+     "source": {
+      "label": "ESPN, USF men's basketball schedule",
+      "url": "https://www.espn.com/mens-college-basketball/team/schedule/_/id/2539/san-francisco-dons"
+     },
+     "neutral": true,
+     "note": "Neutral site"
+    },
+    {
+     "date": "2026-11-24",
+     "time": "11:00 am",
+     "opponent": "Oregon State",
+     "home": false,
+     "venue": "Acrisure Arena, Palm Desert",
+     "source": {
+      "label": "ESPN, USF men's basketball schedule",
+      "url": "https://www.espn.com/mens-college-basketball/team/schedule/_/id/2539/san-francisco-dons"
+     },
+     "neutral": true,
+     "note": "Neutral site"
+    },
+    {
+     "date": "2026-11-27",
+     "time": null,
+     "opponent": "Bethune-Cookman",
+     "home": true,
+     "venue": "War Memorial Gym at the Sobrato Center, USF",
+     "source": {
+      "label": "ESPN, USF men's basketball schedule",
+      "url": "https://www.espn.com/mens-college-basketball/team/schedule/_/id/2539/san-francisco-dons"
+     }
+    },
+    {
+     "date": "2026-12-02",
+     "time": "7:00 pm",
+     "opponent": "UNLV",
+     "home": true,
+     "venue": "War Memorial Gym at the Sobrato Center, USF",
+     "source": {
+      "label": "ESPN, USF men's basketball schedule",
+      "url": "https://www.espn.com/mens-college-basketball/team/schedule/_/id/2539/san-francisco-dons"
+     }
+    },
+    {
+     "date": "2026-12-05",
+     "time": "4:00 pm",
+     "opponent": "South Dakota",
+     "home": true,
+     "venue": "War Memorial Gym at the Sobrato Center, USF",
+     "source": {
+      "label": "ESPN, USF men's basketball schedule",
+      "url": "https://www.espn.com/mens-college-basketball/team/schedule/_/id/2539/san-francisco-dons"
+     }
+    },
+    {
+     "date": "2026-12-08",
+     "time": "7:00 pm",
+     "opponent": "Grace University",
+     "home": true,
+     "venue": "War Memorial Gym at the Sobrato Center, USF",
+     "source": {
+      "label": "ESPN, USF men's basketball schedule",
+      "url": "https://www.espn.com/mens-college-basketball/team/schedule/_/id/2539/san-francisco-dons"
+     }
+    },
+    {
+     "date": "2026-12-12",
+     "time": "1:30 pm",
+     "opponent": "Fresno State",
+     "home": false,
+     "venue": "Save Mart Center, Fresno",
+     "source": {
+      "label": "ESPN, USF men's basketball schedule",
+      "url": "https://www.espn.com/mens-college-basketball/team/schedule/_/id/2539/san-francisco-dons"
+     }
+    },
+    {
+     "date": "2026-12-16",
+     "time": "5:30 pm",
+     "opponent": "Texas State",
+     "home": false,
+     "venue": "Strahan Arena, San Marcos, Texas",
+     "source": {
+      "label": "ESPN, USF men's basketball schedule",
+      "url": "https://www.espn.com/mens-college-basketball/team/schedule/_/id/2539/san-francisco-dons"
+     }
+    },
+    {
+     "date": "2026-12-19",
+     "time": "3:00 pm",
+     "opponent": "George Washington",
+     "home": false,
+     "venue": "Comerica Center, Frisco, Texas",
+     "source": {
+      "label": "ESPN, USF men's basketball schedule",
+      "url": "https://www.espn.com/mens-college-basketball/team/schedule/_/id/2539/san-francisco-dons"
+     },
+     "neutral": true,
+     "note": "Neutral site"
+    },
+    {
+     "date": "2026-12-21",
+     "time": "1:00 pm",
+     "opponent": "Tulsa",
+     "home": false,
+     "venue": "Comerica Center, Frisco, Texas",
+     "source": {
+      "label": "ESPN, USF men's basketball schedule",
+      "url": "https://www.espn.com/mens-college-basketball/team/schedule/_/id/2539/san-francisco-dons"
+     },
+     "neutral": true,
+     "note": "Neutral site"
+    },
+    {
+     "date": "2026-12-29",
+     "time": "7:00 pm",
+     "opponent": "Yale",
+     "home": true,
+     "venue": "War Memorial Gym at the Sobrato Center, USF",
+     "source": {
+      "label": "ESPN, USF men's basketball schedule",
+      "url": "https://www.espn.com/mens-college-basketball/team/schedule/_/id/2539/san-francisco-dons"
+     }
+    }
+   ],
+   "recent": [
+    {
+     "date": "2026-11-02",
+     "opponent": "Radford",
+     "home": true,
+     "result": "W 76-62",
+     "source": {
+      "label": "ESPN, USF men's basketball schedule",
+      "url": "https://www.espn.com/mens-college-basketball/team/schedule/_/id/2539/san-francisco-dons"
+     }
+    }
+   ],
+   "record": "1-0",
+   "recordAsOf": "2026-11-04"
   },
   {
    "name": "USF Dons women's basketball",
@@ -1102,7 +2806,160 @@
    "source": {
     "label": "USF Athletics, women's basketball 2026-27 nonconference schedule (Aug 26, 2026)",
     "url": "https://usfdons.com/news/2026/8/26/womens-basketball-releases-2026-27-nonconference-schedule"
-   }
+   },
+   "short": "USF women's basketball",
+   "next": [
+    {
+     "date": "2026-11-05",
+     "time": "12:00 pm",
+     "opponent": "Hawai'i",
+     "home": true,
+     "venue": "War Memorial Gym at the Sobrato Center, USF",
+     "source": {
+      "label": "ESPN, USF women's basketball schedule",
+      "url": "https://www.espn.com/womens-college-basketball/team/schedule/_/id/2539/san-francisco-dons"
+     }
+    },
+    {
+     "date": "2026-11-08",
+     "time": "11:00 am",
+     "opponent": "California",
+     "home": false,
+     "venue": "Tahoe Blue Event Center, Stateline, Nevada",
+     "source": {
+      "label": "ESPN, USF women's basketball schedule",
+      "url": "https://www.espn.com/womens-college-basketball/team/schedule/_/id/2539/san-francisco-dons"
+     },
+     "neutral": true,
+     "note": "Neutral site"
+    },
+    {
+     "date": "2026-11-11",
+     "time": "3:00 pm",
+     "opponent": "Air Force",
+     "home": false,
+     "venue": "Clune Arena, Colorado Springs",
+     "source": {
+      "label": "ESPN, USF women's basketball schedule",
+      "url": "https://www.espn.com/womens-college-basketball/team/schedule/_/id/2539/san-francisco-dons"
+     }
+    },
+    {
+     "date": "2026-11-15",
+     "time": "1:00 pm",
+     "opponent": "UC San Diego",
+     "home": false,
+     "venue": "LionTree Arena, San Diego",
+     "source": {
+      "label": "ESPN, USF women's basketball schedule",
+      "url": "https://www.espn.com/womens-college-basketball/team/schedule/_/id/2539/san-francisco-dons"
+     }
+    },
+    {
+     "date": "2026-11-19",
+     "time": "6:00 pm",
+     "opponent": "Long Beach State",
+     "home": true,
+     "venue": "War Memorial Gym at the Sobrato Center, USF",
+     "source": {
+      "label": "ESPN, USF women's basketball schedule",
+      "url": "https://www.espn.com/womens-college-basketball/team/schedule/_/id/2539/san-francisco-dons"
+     }
+    },
+    {
+     "date": "2026-11-22",
+     "time": "2:00 pm",
+     "opponent": "Cal State Bakersfield",
+     "home": true,
+     "venue": "War Memorial Gym at the Sobrato Center, USF",
+     "source": {
+      "label": "ESPN, USF women's basketball schedule",
+      "url": "https://www.espn.com/womens-college-basketball/team/schedule/_/id/2539/san-francisco-dons"
+     }
+    },
+    {
+     "date": "2026-11-25",
+     "time": "11:00 am",
+     "opponent": "Cal State East Bay",
+     "home": true,
+     "venue": "War Memorial Gym at the Sobrato Center, USF",
+     "source": {
+      "label": "ESPN, USF women's basketball schedule",
+      "url": "https://www.espn.com/womens-college-basketball/team/schedule/_/id/2539/san-francisco-dons"
+     }
+    },
+    {
+     "date": "2026-11-30",
+     "time": "6:00 pm",
+     "opponent": "Grand Canyon",
+     "home": true,
+     "venue": "War Memorial Gym at the Sobrato Center, USF",
+     "source": {
+      "label": "ESPN, USF women's basketball schedule",
+      "url": "https://www.espn.com/womens-college-basketball/team/schedule/_/id/2539/san-francisco-dons"
+     }
+    },
+    {
+     "date": "2026-12-04",
+     "time": "6:00 pm",
+     "opponent": "Boise State",
+     "home": true,
+     "venue": "War Memorial Gym at the Sobrato Center, USF",
+     "source": {
+      "label": "ESPN, USF women's basketball schedule",
+      "url": "https://www.espn.com/womens-college-basketball/team/schedule/_/id/2539/san-francisco-dons"
+     }
+    },
+    {
+     "date": "2026-12-08",
+     "time": "6:30 pm",
+     "opponent": "Sacramento State",
+     "home": false,
+     "venue": "Hornet Pavilion, Sacramento",
+     "source": {
+      "label": "ESPN, USF women's basketball schedule",
+      "url": "https://www.espn.com/womens-college-basketball/team/schedule/_/id/2539/san-francisco-dons"
+     }
+    },
+    {
+     "date": "2026-12-12",
+     "time": "3:00 pm",
+     "opponent": "Colorado",
+     "home": false,
+     "venue": "CU Events Center, Boulder",
+     "source": {
+      "label": "ESPN, USF women's basketball schedule",
+      "url": "https://www.espn.com/womens-college-basketball/team/schedule/_/id/2539/san-francisco-dons"
+     }
+    },
+    {
+     "date": "2026-12-19",
+     "time": "4:30 pm",
+     "opponent": "Idaho State",
+     "home": false,
+     "venue": "Seabury Hall",
+     "source": {
+      "label": "ESPN, USF women's basketball schedule",
+      "url": "https://www.espn.com/womens-college-basketball/team/schedule/_/id/2539/san-francisco-dons"
+     },
+     "neutral": true,
+     "note": "Neutral site"
+    },
+    {
+     "date": "2026-12-31",
+     "time": "1:00 pm",
+     "opponent": "Pepperdine",
+     "home": false,
+     "venue": "Firestone Fieldhouse, Malibu",
+     "source": {
+      "label": "ESPN, USF women's basketball schedule",
+      "url": "https://www.espn.com/womens-college-basketball/team/schedule/_/id/2539/san-francisco-dons"
+     }
+    }
+   ],
+   "recent": [],
+   "record": "0-0",
+   "recordAsOf": "2026-11-04"
   },
   {
    "name": "Bay FC",
@@ -1120,6 +2977,265 @@
    "alsoSource": {
     "label": "Bay FC, 2026 NWSL regular season standings page",
     "url": "https://bayfc.com/?p=8180"
+   }
+  },
+  {
+   "name": "SF State men's basketball",
+   "league": "NCAA Division II, CCAA",
+   "sport": "Basketball",
+   "venue": "SF Federal Credit Union Gymnasium, SF State",
+   "site": "https://sfstategators.com/sports/mens-basketball/schedule",
+   "short": "SF State men's basketball",
+   "next": [
+    {
+     "date": "2026-11-09",
+     "time": "7:00 pm",
+     "opponent": "Lincoln",
+     "home": true,
+     "venue": "SF Federal Credit Union Gymnasium, SF State",
+     "source": {
+      "label": "SF State men's basketball schedule",
+      "url": "https://sfstategators.com/sports/mens-basketball/schedule"
+     }
+    },
+    {
+     "date": "2026-11-13",
+     "time": "5:15 pm",
+     "opponent": "Simon Fraser",
+     "home": true,
+     "venue": "SF Federal Credit Union Gymnasium, SF State",
+     "source": {
+      "label": "SF State men's basketball schedule",
+      "url": "https://sfstategators.com/sports/mens-basketball/schedule"
+     }
+    },
+    {
+     "date": "2026-11-14",
+     "time": "4:15 pm",
+     "opponent": "Northwest Nazarene",
+     "home": true,
+     "venue": "SF Federal Credit Union Gymnasium, SF State",
+     "source": {
+      "label": "SF State men's basketball schedule",
+      "url": "https://sfstategators.com/sports/mens-basketball/schedule"
+     }
+    },
+    {
+     "date": "2026-11-20",
+     "time": "7:30 pm HST",
+     "opponent": "Fort Lewis",
+     "home": false,
+     "venue": "Vulcan Gymnasium, Hilo, Hawaii",
+     "source": {
+      "label": "SF State men's basketball schedule",
+      "url": "https://sfstategators.com/sports/mens-basketball/schedule"
+     }
+    },
+    {
+     "date": "2026-11-21",
+     "time": "6:00 pm HST",
+     "opponent": "Hawai'i Hilo",
+     "home": false,
+     "venue": "Vulcan Gymnasium, Hilo, Hawaii",
+     "source": {
+      "label": "SF State men's basketball schedule",
+      "url": "https://sfstategators.com/sports/mens-basketball/schedule"
+     }
+    },
+    {
+     "date": "2026-12-03",
+     "time": "7:30 pm",
+     "opponent": "Cal State Dominguez Hills",
+     "home": false,
+     "venue": "Torodome, Carson",
+     "source": {
+      "label": "SF State men's basketball schedule",
+      "url": "https://sfstategators.com/sports/mens-basketball/schedule"
+     }
+    },
+    {
+     "date": "2026-12-05",
+     "time": "3:00 pm",
+     "opponent": "Cal State San Marcos",
+     "home": true,
+     "venue": "SF Federal Credit Union Gymnasium, SF State",
+     "source": {
+      "label": "SF State men's basketball schedule",
+      "url": "https://sfstategators.com/sports/mens-basketball/schedule"
+     }
+    },
+    {
+     "date": "2026-12-10",
+     "time": "7:00 pm",
+     "opponent": "Pacific Union",
+     "home": true,
+     "venue": "SF Federal Credit Union Gymnasium, SF State",
+     "source": {
+      "label": "SF State men's basketball schedule",
+      "url": "https://sfstategators.com/sports/mens-basketball/schedule"
+     }
+    },
+    {
+     "date": "2026-12-18",
+     "time": "7:30 pm",
+     "opponent": "Cal State Monterey Bay",
+     "home": true,
+     "venue": "SF Federal Credit Union Gymnasium, SF State",
+     "source": {
+      "label": "SF State men's basketball schedule",
+      "url": "https://sfstategators.com/sports/mens-basketball/schedule"
+     }
+    },
+    {
+     "date": "2026-12-20",
+     "time": "3:00 pm",
+     "opponent": "Cal State San Bernardino",
+     "home": true,
+     "venue": "SF Federal Credit Union Gymnasium, SF State",
+     "source": {
+      "label": "SF State men's basketball schedule",
+      "url": "https://sfstategators.com/sports/mens-basketball/schedule"
+     }
+    },
+    {
+     "date": "2026-12-31",
+     "time": "7:30 pm",
+     "opponent": "Chico State",
+     "home": true,
+     "venue": "SF Federal Credit Union Gymnasium, SF State",
+     "source": {
+      "label": "SF State men's basketball schedule",
+      "url": "https://sfstategators.com/sports/mens-basketball/schedule"
+     }
+    }
+   ],
+   "source": {
+    "label": "SF State men's basketball schedule",
+    "url": "https://sfstategators.com/sports/mens-basketball/schedule"
+   }
+  },
+  {
+   "name": "SF State women's basketball",
+   "league": "NCAA Division II, CCAA",
+   "sport": "Basketball",
+   "venue": "SF Federal Credit Union Gymnasium, SF State",
+   "site": "https://sfstategators.com/sports/womens-basketball/schedule",
+   "short": "SF State women's basketball",
+   "next": [
+    {
+     "date": "2026-11-09",
+     "time": "4:45 pm",
+     "opponent": "Point Loma",
+     "home": true,
+     "venue": "SF Federal Credit Union Gymnasium, SF State",
+     "source": {
+      "label": "SF State women's basketball schedule",
+      "url": "https://sfstategators.com/sports/womens-basketball/schedule"
+     }
+    },
+    {
+     "date": "2026-11-19",
+     "time": "6:00 pm",
+     "opponent": "Simon Fraser",
+     "home": true,
+     "venue": "SF Federal Credit Union Gymnasium, SF State",
+     "source": {
+      "label": "SF State women's basketball schedule",
+      "url": "https://sfstategators.com/sports/womens-basketball/schedule"
+     }
+    },
+    {
+     "date": "2026-11-25",
+     "time": "5:00 pm",
+     "opponent": "Biola",
+     "home": true,
+     "venue": "SF Federal Credit Union Gymnasium, SF State",
+     "source": {
+      "label": "SF State women's basketball schedule",
+      "url": "https://sfstategators.com/sports/womens-basketball/schedule"
+     }
+    },
+    {
+     "date": "2026-11-28",
+     "time": "2:00 pm",
+     "opponent": "UC Colorado Springs",
+     "home": true,
+     "venue": "SF Federal Credit Union Gymnasium, SF State",
+     "source": {
+      "label": "SF State women's basketball schedule",
+      "url": "https://sfstategators.com/sports/womens-basketball/schedule"
+     }
+    },
+    {
+     "date": "2026-12-03",
+     "time": "5:30 pm",
+     "opponent": "Cal State Dominguez Hills",
+     "home": false,
+     "venue": "Torodome, Carson",
+     "source": {
+      "label": "SF State women's basketball schedule",
+      "url": "https://sfstategators.com/sports/womens-basketball/schedule"
+     }
+    },
+    {
+     "date": "2026-12-05",
+     "time": "1:00 pm",
+     "opponent": "Cal State San Marcos",
+     "home": true,
+     "venue": "SF Federal Credit Union Gymnasium, SF State",
+     "source": {
+      "label": "SF State women's basketball schedule",
+      "url": "https://sfstategators.com/sports/womens-basketball/schedule"
+     }
+    },
+    {
+     "date": "2026-12-15",
+     "time": null,
+     "opponent": "Saint Mary's",
+     "home": false,
+     "venue": "University Credit Union Center, Moraga",
+     "source": {
+      "label": "SF State women's basketball schedule",
+      "url": "https://sfstategators.com/sports/womens-basketball/schedule"
+     }
+    },
+    {
+     "date": "2026-12-18",
+     "time": "5:30 pm",
+     "opponent": "Cal State Monterey Bay",
+     "home": true,
+     "venue": "SF Federal Credit Union Gymnasium, SF State",
+     "source": {
+      "label": "SF State women's basketball schedule",
+      "url": "https://sfstategators.com/sports/womens-basketball/schedule"
+     }
+    },
+    {
+     "date": "2026-12-20",
+     "time": "1:00 pm",
+     "opponent": "Cal State San Bernardino",
+     "home": true,
+     "venue": "SF Federal Credit Union Gymnasium, SF State",
+     "source": {
+      "label": "SF State women's basketball schedule",
+      "url": "https://sfstategators.com/sports/womens-basketball/schedule"
+     }
+    },
+    {
+     "date": "2026-12-31",
+     "time": "5:30 pm",
+     "opponent": "Chico State",
+     "home": true,
+     "venue": "SF Federal Credit Union Gymnasium, SF State",
+     "source": {
+      "label": "SF State women's basketball schedule",
+      "url": "https://sfstategators.com/sports/womens-basketball/schedule"
+     }
+    }
+   ],
+   "source": {
+    "label": "SF State women's basketball schedule",
+    "url": "https://sfstategators.com/sports/womens-basketball/schedule"
    }
   }
  ],

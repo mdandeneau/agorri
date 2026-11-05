@@ -993,6 +993,16 @@
   },
   {
    "date": "2026-11-06",
+   "time": "3:15 pm",
+   "title": "High school girls tennis city championship",
+   "venue": "Goldman Tennis Center, Golden Gate Park",
+   "town": "San Francisco",
+   "kind": "Sports",
+   "url": "https://www.cifsf.org/high-school-playoffs-fall/",
+   "source": "CIF San Francisco Section"
+  },
+  {
+   "date": "2026-11-06",
    "time": "3:45 pm to 4:45 pm",
    "title": "Workshop: Beaded Flower Bracelet (for elementary-age kids)",
    "venue": "Chinatown Branch Library",
@@ -1987,6 +1997,16 @@
   },
   {
    "date": "2026-11-14",
+   "time": "1:30 pm",
+   "title": "High school football city semifinals (varsity)",
+   "venue": "Site to be announced",
+   "town": "San Francisco",
+   "kind": "Sports",
+   "url": "https://www.cifsf.org/high-school-playoffs-fall/",
+   "source": "CIF San Francisco Section"
+  },
+  {
+   "date": "2026-11-14",
    "time": "3:00 pm to 5:00 pm",
    "title": "Civic Music free concert",
    "venue": "Noe Valley Ministry",
@@ -2110,6 +2130,17 @@
    "source": "Songkick",
    "needs_review": true,
    "review_note": "From Songkick's Castro Theatre calendar, not the theater. Confirm with the Castro Theatre."
+  },
+  {
+   "date": "2026-11-18",
+   "time": "12:00 pm",
+   "title": "High school cross country All City Championships",
+   "venue": "Polo Fields, Golden Gate Park",
+   "town": "San Francisco",
+   "kind": "Sports",
+   "url": "https://www.cifsf.org/high-school-playoffs-fall/",
+   "source": "CIF San Francisco Section",
+   "note": "Varsity girls 2:30 pm, varsity boys 3:15 pm."
   },
   {
    "date": "2026-11-18",
@@ -2312,6 +2343,16 @@
   },
   {
    "date": "2026-11-21",
+   "time": "10:00 am",
+   "title": "High school girls flag football city semifinals",
+   "venue": "Site to be announced",
+   "town": "San Francisco",
+   "kind": "Sports",
+   "url": "https://www.cifsf.org/high-school-playoffs-fall/",
+   "source": "CIF San Francisco Section"
+  },
+  {
+   "date": "2026-11-21",
    "time": "10:00 am to 2:00 pm",
    "title": "EcoCenter volunteer work party at Heron's Head Park",
    "venue": "EcoCenter at Heron's Head Park, 32 Jennings Street",
@@ -2410,6 +2451,16 @@
   },
   {
    "date": "2026-11-26",
+   "time": "11:30 am",
+   "title": "High school football city championship (Turkey Day game)",
+   "venue": "Site to be announced",
+   "town": "San Francisco",
+   "kind": "Sports",
+   "url": "https://www.cifsf.org/high-school-playoffs-fall/",
+   "source": "CIF San Francisco Section"
+  },
+  {
+   "date": "2026-11-26",
    "time": "8:00 am",
    "title": "San Francisco Turkey Trot (24th annual Thanksgiving run and walk)",
    "venue": "Golden Gate Park",
@@ -2434,6 +2485,16 @@
    "note": "Volunteers prepare and deliver meals, serve sit-down meals and host a kids' party. Sign up ahead.",
    "needs_review": true,
    "review_note": "From the Idealist listing; the organizer's own page could not be opened."
+  },
+  {
+   "date": "2026-11-26",
+   "time": "9:30 am",
+   "title": "High school girls flag football city championship",
+   "venue": "Site to be announced",
+   "town": "San Francisco",
+   "kind": "Sports",
+   "url": "https://www.cifsf.org/high-school-playoffs-fall/",
+   "source": "CIF San Francisco Section"
   },
   {
    "date": "2026-11-27",
@@ -3066,6 +3127,16 @@
    "price": "Free",
    "needs_review": true,
    "review_note": "From the Funcheap SF listing, not the organizer. Confirm with the organizer."
+  },
+  {
+   "date": "2026-12-12",
+   "time": null,
+   "title": "High school cheer and spirit All City Championship",
+   "venue": "Lincoln High School",
+   "town": "San Francisco",
+   "kind": "Sports",
+   "url": "https://www.cifsf.org/high-school-playoffs-fall/",
+   "source": "CIF San Francisco Section"
   },
   {
    "date": "2026-12-12",
