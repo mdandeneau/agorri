@@ -1723,7 +1723,177 @@
     "site": "https://www.tamworthnh.gov/1206/Fire-Rescue-Department",
     "note": "Overseen by a five-member Board of Firewards. The department provides fire protection and emergency medical services; its page does not say who provides ambulance transport, though the town budget has a separate Ambulance line ($236,814 in the 2026 draft). The 2024 annual report also refers to Chocorua, Wonalancet and South Tamworth fire stations. Fire permits through nh.burnsafeamerica.com. Dispatch: Carroll County Sheriff's Office, 603-539-2284."
    }
-  ]
+  ],
+  "trends": {
+   "sub": "FBI yearly rates for Conway",
+   "town": "Conway",
+   "note": "Yearly FBI figures. In a place this size a handful of incidents moves the rate, so single years swing a lot; look at the direction over several years.",
+   "charts": [
+    {
+     "id": "fbi-violent",
+     "title": "Violent crime rate by year",
+     "sub": "Per 100,000 residents (FBI)",
+     "period": "year",
+     "unit": "per 100,000",
+     "series": [
+      {
+       "label": "Conway",
+       "points": [
+        [
+         "2020",
+         224
+        ],
+        [
+         "2021",
+         231.6
+        ],
+        [
+         "2022",
+         164.5
+        ],
+        [
+         "2024",
+         201.1
+        ]
+       ]
+      },
+      {
+       "label": "New Hampshire",
+       "points": [
+        [
+         "2020",
+         146.4
+        ],
+        [
+         "2021",
+         129.7
+        ],
+        [
+         "2022",
+         128.6
+        ],
+        [
+         "2023",
+         115
+        ],
+        [
+         "2024",
+         110.1
+        ]
+       ]
+      },
+      {
+       "label": "U.S.",
+       "points": [
+        [
+         "2021",
+         387.0
+        ],
+        [
+         "2022",
+         388.7
+        ],
+        [
+         "2023",
+         379.5
+        ],
+        [
+         "2024",
+         359.1
+        ]
+       ]
+      }
+     ],
+     "source": {
+      "label": "FBI figures for Conway via OpenCrime",
+      "url": "https://www.opencrime.us/cities/conway-new-hampshire"
+     },
+     "note": "Offenses reported to police per 100,000 residents, as the FBI publishes them. A break in a line means no FBI figure for that year. These charts are for Conway only. Conway has no FBI figure for 2023."
+    },
+    {
+     "id": "fbi-property",
+     "title": "Property crime rate by year",
+     "sub": "Per 100,000 residents (FBI)",
+     "period": "year",
+     "unit": "per 100,000",
+     "series": [
+      {
+       "label": "Conway",
+       "points": [
+        [
+         "2020",
+         1976.8
+        ],
+        [
+         "2021",
+         1746.4
+        ],
+        [
+         "2022",
+         2070.8
+        ],
+        [
+         "2024",
+         2145.4
+        ]
+       ]
+      },
+      {
+       "label": "New Hampshire",
+       "points": [
+        [
+         "2020",
+         1098.9
+        ],
+        [
+         "2021",
+         1037.5
+        ],
+        [
+         "2022",
+         1032.8
+        ],
+        [
+         "2023",
+         912
+        ],
+        [
+         "2024",
+         918
+        ]
+       ]
+      },
+      {
+       "label": "U.S.",
+       "points": [
+        [
+         "2021",
+         1832.3
+        ],
+        [
+         "2022",
+         1973.8
+        ],
+        [
+         "2023",
+         1934.1
+        ],
+        [
+         "2024",
+         1760.1
+        ]
+       ]
+      }
+     ],
+     "source": {
+      "label": "FBI figures for Conway via OpenCrime",
+      "url": "https://www.opencrime.us/cities/conway-new-hampshire"
+     },
+     "note": "Burglary, theft and motor vehicle theft reported to police per 100,000 residents."
+    }
+   ],
+   "tables": []
+  }
  },
  "notHere": [
   {

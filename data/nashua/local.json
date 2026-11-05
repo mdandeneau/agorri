@@ -1951,6 +1951,184 @@
      "url": "https://bjs.ojp.gov/sites/g/files/xyckuh236/files/media/document/lpdp20_emb.pdf"
     }
    ]
+  },
+  "trends": {
+   "sub": "FBI yearly rates",
+   "town": "Nashua",
+   "note": "Yearly FBI figures. In a place this size a handful of incidents moves the rate, so single years swing a lot; look at the direction over several years.",
+   "charts": [
+    {
+     "id": "fbi-violent",
+     "title": "Violent crime rate by year",
+     "sub": "Per 100,000 residents (FBI)",
+     "period": "year",
+     "unit": "per 100,000",
+     "series": [
+      {
+       "label": "Nashua",
+       "points": [
+        [
+         "2020",
+         119.3
+        ],
+        [
+         "2021",
+         151
+        ],
+        [
+         "2022",
+         157.1
+        ],
+        [
+         "2023",
+         119.6
+        ],
+        [
+         "2024",
+         160.5
+        ]
+       ]
+      },
+      {
+       "label": "New Hampshire",
+       "points": [
+        [
+         "2020",
+         146.4
+        ],
+        [
+         "2021",
+         129.7
+        ],
+        [
+         "2022",
+         128.6
+        ],
+        [
+         "2023",
+         115
+        ],
+        [
+         "2024",
+         110.1
+        ]
+       ]
+      },
+      {
+       "label": "U.S.",
+       "points": [
+        [
+         "2021",
+         387.0
+        ],
+        [
+         "2022",
+         388.7
+        ],
+        [
+         "2023",
+         379.5
+        ],
+        [
+         "2024",
+         359.1
+        ]
+       ]
+      }
+     ],
+     "source": {
+      "label": "FBI figures for Nashua via OpenCrime",
+      "url": "https://www.opencrime.us/cities/nashua-new-hampshire"
+     },
+     "note": "Offenses reported to police per 100,000 residents, as the FBI publishes them. A break in a line means no FBI figure for that year."
+    },
+    {
+     "id": "fbi-property",
+     "title": "Property crime rate by year",
+     "sub": "Per 100,000 residents (FBI)",
+     "period": "year",
+     "unit": "per 100,000",
+     "series": [
+      {
+       "label": "Nashua",
+       "points": [
+        [
+         "2020",
+         912.2
+        ],
+        [
+         "2021",
+         1091.3
+        ],
+        [
+         "2022",
+         1068.9
+        ],
+        [
+         "2023",
+         1009.4
+        ],
+        [
+         "2024",
+         1261.3
+        ]
+       ]
+      },
+      {
+       "label": "New Hampshire",
+       "points": [
+        [
+         "2020",
+         1098.9
+        ],
+        [
+         "2021",
+         1037.5
+        ],
+        [
+         "2022",
+         1032.8
+        ],
+        [
+         "2023",
+         912
+        ],
+        [
+         "2024",
+         918
+        ]
+       ]
+      },
+      {
+       "label": "U.S.",
+       "points": [
+        [
+         "2021",
+         1832.3
+        ],
+        [
+         "2022",
+         1973.8
+        ],
+        [
+         "2023",
+         1934.1
+        ],
+        [
+         "2024",
+         1760.1
+        ]
+       ]
+      }
+     ],
+     "source": {
+      "label": "FBI figures for Nashua via OpenCrime",
+      "url": "https://www.opencrime.us/cities/nashua-new-hampshire"
+     },
+     "note": "Burglary, theft and motor vehicle theft reported to police per 100,000 residents."
+    }
+   ],
+   "tables": []
   }
  },
  "notHere": [
