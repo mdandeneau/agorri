@@ -61,6 +61,11 @@ t('finds a real congregation', findItem({ t: 'congregation', id: (pc.town || 'Po
 const sc = port.sports.schools.find(s => s.teams.some(x => (x.recent || []).length)); const tm = sc.teams.find(x => (x.recent || []).length); const g = tm.recent[0];
 t('finds a real game', findItem({ t: 'game', id: g.date + ':' + sc.name + ':' + tm.sport + ':' + g.opponent }, port)?.obj.result === g.result);
 
+const pd = port.schools.districts[0], slug = t => String(t || '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '').slice(0, 60);
+const pi = pd.issues[0];
+t('finds a school board decision', findItem({ t: 'school', id: pd.id + '|issue|' + (pi.id || slug(pi.title)) }, port)?.obj.title === pi.title);
+t('finds a school', findItem({ t: 'school', id: pd.id + '|school|' + slug(pd.schools[0].name) }, port)?.obj.name === pd.schools[0].name);
+
 // ---- the notify run ----
 const NENV = { DB: D1 };
 const mails = []; const send = async (to, m, h) => { mails.push({ to, m, h }); return true; };

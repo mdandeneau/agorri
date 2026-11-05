@@ -1,6 +1,6 @@
 {
  "as_of": "2026-11-04",
- "note": "Congregations of every tradition found in San Francisco, listed in no order of importance; the city has hundreds more. Service times are filled where a congregation's own page or bulletin was read; entries from directories are marked for review. Events are public programs at congregations from Nov 4 to Dec 19, 2026 (Hanukkah runs Dec 4 to 12). Holiday meals are listed only where a 2026 date was posted.",
+ "note": "Congregations of every tradition found in San Francisco, listed in no order of importance; the city has hundreds more. Service times come from a congregation's own page or bulletin where one could be read; most Catholic Mass times come from Catholic Church Times and mosque listings from Zabihah, third-party directories, and those entries are marked for review. No Sikh gurdwara and no Hindu temple other than the Vedanta Society was found within the city in sources opened. Events are public programs at congregations from Nov 4 to Dec 19, 2026; Hanukkah runs Dec 4 to 12, but no 2026 Hanukkah programs (including the Union Square menorah lightings) were posted on pages that could be opened. Holiday meals are listed only where a 2026 date was posted. Checked Nov 4, 2026.",
  "congregations": [
   {
    "name": "Cathedral of Saint Mary of the Assumption",
@@ -14,7 +14,7 @@
    },
    "site": "https://www.smcsf.org",
    "phone": "415-567-2020",
-   "note": "The archdiocese's cathedral. Sunday Concert Series at 4 pm; free grief support group on third Fridays, 10:30 am to noon. The 11 am Sunday and 12:10 pm weekday Masses are livestreamed.",
+   "note": "The archdiocese's cathedral. Weekly Sunday afternoon concert series (4 pm per the cathedral bulletin), open to the public, $10 suggested donation (SF Classical Voice, https://www.sfcv.org/organizations/cathedral-st-mary-assumption); 2026 concert dates were not found. Free grief support group on third Fridays, 10:30 am to noon. The 11 am Sunday and 12:10 pm weekday Masses are livestreamed. Catholic Church Times also lists a 3 pm Latin Mass on first Wednesdays.",
    "needs_review": true,
    "review_note": "Mass times from the cathedral's February 2026 bulletin; confirm none changed since."
   },
@@ -30,9 +30,9 @@
    },
    "site": "https://www.oldsaintmarys.org",
    "phone": "415-288-3800",
-   "note": "Office hours Monday to Friday 9 am to 2 pm.",
+   "note": "Office hours Monday to Friday 9 am to 2 pm. The parish (listed in directories as Mission of the Holy Family) formed from the merger of Old St. Mary's Cathedral parish with Holy Family and the Chinese Mission. Catholic Church Times (updated July 1, 2026) lists the same Mass times as the 2023 bulletin.",
    "needs_review": true,
-   "review_note": "Mass times are from a 2023 parish bulletin, the newest found; confirm current times."
+   "review_note": "Mass times from a 2023 parish bulletin, matched by a third-party directory updated July 1, 2026 (https://www.catholicchurchtimes.com/church/mission-of-the-holy-family-san-francisco-ca-a6c6fd2d-4042-446d-b4e1-ca44bb2a5fb0); the parish site could not be opened."
   },
   {
    "name": "Mission Dolores Basilica",
@@ -55,117 +55,144 @@
    "tradition": "Roman Catholic (Archdiocese of San Francisco)",
    "town": "San Francisco",
    "address": "666 Filbert St, San Francisco, CA 94133",
-   "services": null,
-   "servicesSource": null,
-   "site": null,
-   "phone": null,
-   "note": null,
+   "services": "Saturday 7:30 am, 9 am and 5 pm; Sunday 8:45 am (English), 10:15 am (Cantonese and English), 12 pm (Italian and English) and 5 pm; Monday to Friday 7 am and 9 am",
+   "servicesSource": {
+    "label": "Catholic Church Times, Ss. Peter and Paul",
+    "url": "https://www.catholicchurchtimes.com/church/d3805696-6f38-498d-ab10-3d5162b008f8"
+   },
+   "site": "https://www.salesiansspp.org",
+   "phone": "415-421-0809",
+   "note": "Sunday Masses in English, Cantonese and Italian.",
    "needs_review": true,
-   "review_note": "Name, address and phone from a directory (devout.org); service times not found on the congregation's own site (could not be opened)."
+   "review_note": "Mass times from Catholic Church Times, a third-party directory that says its times are not verified with the parish; the parish's own site was not opened."
   },
   {
    "name": "Saint Ignatius Church",
    "tradition": "Roman Catholic (Archdiocese of San Francisco)",
    "town": "San Francisco",
-   "address": "650 Parker Ave, San Francisco, CA 94117",
-   "services": null,
-   "servicesSource": null,
-   "site": null,
-   "phone": null,
+   "address": "650 Parker Ave, San Francisco, CA 94118",
+   "services": "Saturday 9 am and 5 pm; Sunday 8 am, 10 am, 5 pm and 7 pm; Monday to Friday 8 am. Confession Saturday 3:45 to 4:45 pm",
+   "servicesSource": {
+    "label": "Catholic Church Times, St. Ignatius Parish",
+    "url": "https://www.catholicchurchtimes.com/church/st-ignatius-parish-san-francisco-ca-ee6f3a1d-47e0-40e0-a062-95fb44be1bdd"
+   },
+   "site": "https://www.stignatiussf.org",
+   "phone": "415-422-2188",
    "note": null,
    "needs_review": true,
-   "review_note": "Name, address and phone from a directory (devout.org); service times not found on the congregation's own site (could not be opened)."
+   "review_note": "Mass times from Catholic Church Times, a third-party directory that says its times are not verified with the parish; the parish's own site was not opened. The live listing's ZIP (94117) differs from the directory's (94118)."
   },
   {
    "name": "Saint Dominic's Church",
    "tradition": "Roman Catholic (Archdiocese of San Francisco)",
    "town": "San Francisco",
    "address": "2390 Bush St, San Francisco, CA 94115",
-   "services": null,
-   "servicesSource": null,
-   "site": null,
-   "phone": null,
+   "services": "Saturday 9 am and 5:30 pm; Sunday 7:30 am, 9:30 am, 11:30 am, 1:30 pm and 5:30 pm (one Sunday Mass is in Spanish); Monday to Friday 8 am and 5:30 pm",
+   "servicesSource": {
+    "label": "Catholic Church Times, St. Dominic (updated Sept 22, 2026)",
+    "url": "https://www.catholicchurchtimes.com/church/st-dominic-san-francisco-ca-6bc5559b-6512-4c7b-b630-7aaf28be3234"
+   },
+   "site": "https://www.stdominics.org",
+   "phone": "415-567-7824",
    "note": null,
    "needs_review": true,
-   "review_note": "Name, address and phone from a directory (devout.org); service times not found on the congregation's own site (could not be opened)."
+   "review_note": "Mass times from Catholic Church Times, a third-party directory that says its times are not verified with the parish; the parish's own site was not opened. The directory does not make clear which Sunday Mass is in Spanish."
   },
   {
    "name": "Star of the Sea Church",
    "tradition": "Roman Catholic (Archdiocese of San Francisco)",
    "town": "San Francisco",
    "address": "4420 Geary Blvd, San Francisco, CA 94118",
-   "services": null,
-   "servicesSource": null,
-   "site": null,
-   "phone": null,
-   "note": null,
+   "services": "Saturday 8:30 am, 12 pm (Latin) and 4:30 pm; Sunday 8 am, 9:30 am, 11:30 am (sung Latin Mass) and 7:30 pm; Monday to Friday 7 am (Latin), 12 pm and 6 pm",
+   "servicesSource": {
+    "label": "Catholic Church Times, Star of the Sea (updated Sept 24, 2026)",
+    "url": "https://www.catholicchurchtimes.com/church/star-of-the-sea-roman-catholic-church-san-francisco-ca-1ed500ba-f3c7-41a4-9ff5-b55b4c01be89"
+   },
+   "site": "https://www.starparish.com",
+   "phone": "415-751-0450",
+   "note": "Offers Latin Masses daily and on Sunday.",
    "needs_review": true,
-   "review_note": "Name, address and phone from a directory (devout.org); service times not found on the congregation's own site (could not be opened)."
+   "review_note": "Mass times from Catholic Church Times, a third-party directory that says its times are not verified with the parish; the parish's own site was not opened."
   },
   {
    "name": "Saint Anthony of Padua Church",
    "tradition": "Roman Catholic (Archdiocese of San Francisco)",
    "town": "San Francisco",
    "address": "3215 Cesar Chavez St, San Francisco, CA 94110",
-   "services": null,
-   "servicesSource": null,
-   "site": null,
-   "phone": null,
-   "note": null,
+   "services": "Saturday 8 am (Spanish); Sunday 11 am and 12:30 pm (English and Spanish); Monday to Wednesday and Friday 8 am (Spanish)",
+   "servicesSource": {
+    "label": "Catholic Church Times, St. Anthony of Padua (updated June 19, 2026)",
+    "url": "https://www.catholicchurchtimes.com/church/st-anthony-of-padua-san-francisco-ca-ac9e5a5d-94ef-457e-89c7-9f1a3d8c8ff8"
+   },
+   "site": "https://www.missionparishes.com",
+   "phone": "415-647-2704",
+   "note": "One of the Mission Parishes with St. Peter.",
    "needs_review": true,
-   "review_note": "Name, address and phone from a directory (devout.org); service times not found on the congregation's own site (could not be opened)."
+   "review_note": "Mass times from Catholic Church Times, a third-party directory that says its times are not verified with the parish; the parish's own site was not opened."
   },
   {
    "name": "Most Holy Redeemer Church",
    "tradition": "Roman Catholic (Archdiocese of San Francisco)",
    "town": "San Francisco",
    "address": "100 Diamond St, San Francisco, CA 94114",
-   "services": null,
-   "servicesSource": null,
-   "site": null,
-   "phone": null,
+   "services": "Saturday 5 pm; Sunday 8 am, 10 am and 6:30 pm; Monday to Friday 8 am. Confession Saturday 3:45 to 4:30 pm",
+   "servicesSource": {
+    "label": "Catholic Church Times, Most Holy Redeemer (updated Sept 24, 2026)",
+    "url": "https://www.catholicchurchtimes.com/church/most-holy-redeemer-roman-catholic-church-san-francisco-ca-72b33e6b-9c86-49e0-867c-75e0c1842e7e"
+   },
+   "site": "https://www.mhr.org",
+   "phone": "415-863-6259",
    "note": null,
    "needs_review": true,
-   "review_note": "Name, address and phone from a directory (devout.org); service times not found on the congregation's own site (could not be opened)."
+   "review_note": "Mass times from Catholic Church Times, a third-party directory that says its times are not verified with the parish; the parish's own site was not opened."
   },
   {
    "name": "National Shrine of Saint Francis of Assisi",
    "tradition": "Roman Catholic (Archdiocese of San Francisco)",
    "town": "San Francisco",
    "address": "610 Vallejo St, San Francisco, CA 94133",
-   "services": null,
-   "servicesSource": null,
-   "site": "http://www.shrinesf.org/",
-   "phone": "415-983-0405",
+   "services": "Saturday 12:15 pm; Sunday 11 am; Tuesday to Friday 12:15 pm",
+   "servicesSource": {
+    "label": "Catholic Church Times, National Shrine of St. Francis of Assisi (updated Sept 22, 2026)",
+    "url": "https://www.catholicchurchtimes.com/church/national-shrine-of-st-francis-of-assisi-san-francisco-ca-9e49370d-66b4-4cf6-9ea0-09fc9ee4c796"
+   },
+   "site": "https://www.shrinesf.org",
+   "phone": "415-986-4557",
    "note": null,
    "needs_review": true,
-   "review_note": "Name, address and phone from a directory (SF Station); service times not found on the congregation's own site (could not be opened)."
+   "review_note": "Mass times from Catholic Church Times, a third-party directory that says its times are not verified with the parish; the parish's own site was not opened. SF Station listed the phone as 415-983-0405."
   },
   {
    "name": "Saint Boniface Church",
    "tradition": "Roman Catholic (Archdiocese of San Francisco)",
    "town": "San Francisco",
    "address": "133 Golden Gate Ave, San Francisco, CA 94102",
-   "services": null,
-   "servicesSource": null,
-   "site": null,
-   "phone": null,
-   "note": null,
+   "services": "Sunday 8 am (Filipino), 9:30 am (Spanish) and 11 am (Vietnamese); the parish offers Mass three times a week (weekday times not listed)",
+   "servicesSource": {
+    "label": "Catholic Church Times, St. Boniface",
+    "url": "https://www.catholicchurchtimes.com/church/st-boniface-san-francisco-ca-227b285d-8d1e-4134-b1a2-e46352755e39"
+   },
+   "site": "https://www.stbonifacesf.org",
+   "phone": "415-863-7515",
+   "note": "Sunday Masses in Filipino, Spanish and Vietnamese.",
    "needs_review": true,
-   "review_note": "Name, address and phone from a directory (devout.org); service times not found on the congregation's own site (could not be opened). Directory lists the address as 133 Golden Gate Ave #135."
+   "review_note": "Mass times from Catholic Church Times, a third-party directory that says its times are not verified with the parish; the parish's own site was not opened. Directory lists the address as 133 Golden Gate Ave."
   },
   {
    "name": "St. Michael Korean Catholic Church",
    "tradition": "Roman Catholic (Archdiocese of San Francisco), Korean community",
    "town": "San Francisco",
    "address": "32 Broad St, San Francisco, CA 94112",
-   "services": null,
-   "servicesSource": null,
-   "site": null,
-   "phone": null,
-   "note": null,
+   "services": "Saturday 10 am (Korean); Sunday 9 am, 9:30 am (family Mass) and 11 am (Korean); Tuesday and Thursday 6:30 pm, Wednesday and Friday 10 am (Korean)",
+   "servicesSource": {
+    "label": "Catholic Church Times, St. Michael Korean Catholic Church",
+    "url": "https://www.catholicchurchtimes.com/church/st-michael-korean-catholic-church-san-francisco-ca-cb6e1060-5315-4734-a470-9baa5fcd1cef"
+   },
+   "site": "https://www.sf-sd.org",
+   "phone": "415-333-1194",
+   "note": "Sunday Masses in English and Korean.",
    "needs_review": true,
-   "review_note": "Name, address and phone from a directory (devout.org); service times not found on the congregation's own site (could not be opened)."
+   "review_note": "Mass times from Catholic Church Times, a third-party directory that says its times are not verified with the parish; the parish's own site was not opened."
   },
   {
    "name": "Grace Cathedral",
@@ -231,7 +258,7 @@
    "servicesSource": null,
    "site": "https://www.thirdbaptist.org/",
    "phone": "415-346-4426",
-   "note": "Runs a Feed the Hungry ministry (see services).",
+   "note": "Founded in 1852 as the First Colored Baptist Church of San Francisco; at McAllister and Pierce streets (alamosquare.org, March 30, 2026). Runs a Feed the Hungry ministry (see services).",
    "needs_review": true,
    "review_note": "Address and phone from One Degree; worship times not found on the church's site (could not be opened)."
   },
@@ -275,7 +302,7 @@
    "review_note": "Name, address and phone from a directory (SF Station); service times not found on the congregation's own site (could not be opened)."
   },
   {
-   "name": "Jones United Methodist Church",
+   "name": "Jones Memorial United Methodist Church",
    "tradition": "United Methodist",
    "town": "San Francisco",
    "address": "1975 Post Street, San Francisco, CA 94115",
@@ -317,14 +344,15 @@
    "name": "Presbyterian Church in Chinatown",
    "tradition": "Presbyterian",
    "town": "San Francisco",
-   "address": null,
-   "services": null,
-   "servicesSource": null,
-   "site": "https://www.pccsf.org",
-   "phone": null,
-   "note": "Founded as the Presbyterian Chinese Mission; renamed in 1958.",
-   "needs_review": true,
-   "review_note": "From Wikipedia; street address, phone and service languages not found."
+   "address": "925 Stockton Street, San Francisco, CA 94108",
+   "services": "Sunday Mandarin 9:30 to 10:30 am, English 10:45 to 11:45 am, Cantonese 12 to 1 pm (in person and streamed)",
+   "servicesSource": {
+    "label": "Presbyterian Church in Chinatown, home page",
+    "url": "https://pccsf.org/"
+   },
+   "site": "https://pccsf.org",
+   "phone": "415-392-1500",
+   "note": "Chinese name 三藩市中華基督教長老會. Founded as the Presbyterian Chinese Mission; renamed in 1958."
   },
   {
    "name": "Korean Presbyterian Church of San Francisco",
@@ -625,7 +653,7 @@
    "servicesSource": null,
    "site": "http://www.islamsf.com/",
    "phone": "415-863-7997",
-   "note": "Its mosque, Masjid Darussalam, is on the top floor of the building at 20 Jones St. (Mission Local, Aug 2025: https://missionlocal.org/2025/08/photos-masjid-darussalam-mosque/).",
+   "note": "Also known as Darussalam Mosque (Masjid Darussalam), on the top floor of the building at 20 Jones St. (Mission Local, Aug 2025; Zabihah).",
    "needs_review": true,
    "review_note": "Address and phone from SF Station; prayer and Jumu'ah times not found on a page opened."
   },
@@ -784,6 +812,478 @@
    },
    "needs_review": true,
    "review_note": "From J.'s directory listing; service times not found on the congregation's own site (not opened)."
+  },
+  {
+   "name": "St. Patrick Church",
+   "tradition": "Roman Catholic (Archdiocese of San Francisco)",
+   "town": "San Francisco",
+   "address": "756 Mission Street, San Francisco, CA 94103",
+   "services": "Saturday 7:30 am, 12:10 pm and 5:15 pm; Sunday 7:30 am, 9:30 am, 12 pm and 5:15 pm; Monday to Friday 7:30 am, 12:10 pm and 5:15 pm",
+   "servicesSource": {
+    "label": "Catholic Church Times, St. Patrick",
+    "url": "https://www.catholicchurchtimes.com/church/st-patrick-san-francisco-ca-4d7b2f66-7f06-4974-93f1-cc3fdfcfd2d6"
+   },
+   "site": "https://www.stpatricksf.org",
+   "phone": "415-421-3730",
+   "note": "The directory notes a monthly Tagalog Mass (listed at 2 pm on first Sundays) and a Charismatic Mass at 2 pm on third Sundays.",
+   "needs_review": true,
+   "review_note": "Mass times from Catholic Church Times, a third-party directory that says its times are not verified with the parish; the parish's own site was not opened."
+  },
+  {
+   "name": "St. Peter Church",
+   "tradition": "Roman Catholic (Archdiocese of San Francisco)",
+   "town": "San Francisco",
+   "address": "1200 Florida Street, San Francisco, CA 94110",
+   "services": "Saturday 5 pm vigil (Spanish); Sunday 8 am (Spanish), 9:30 am, 11 am, 1 pm (Spanish) and 5 pm (Spanish); Monday to Friday 12 pm (Spanish), plus Thursday 8 am and 5 pm (Spanish)",
+   "servicesSource": {
+    "label": "Catholic Church Times, St. Peter",
+    "url": "https://www.catholicchurchtimes.com/church/ffb76f62-6b0b-478c-a7d7-5d88d137101f"
+   },
+   "site": "https://www.missionparishes.com",
+   "phone": "415-282-1652",
+   "note": "One of the Mission Parishes with St. Anthony of Padua.",
+   "needs_review": true,
+   "review_note": "Mass times from Catholic Church Times, a third-party directory that says its times are not verified with the parish; the parish's own site was not opened."
+  },
+  {
+   "name": "St. Charles Borromeo Church",
+   "tradition": "Roman Catholic (Archdiocese of San Francisco)",
+   "town": "San Francisco",
+   "address": "713 S. Van Ness Ave., San Francisco, CA 94110",
+   "services": "Sunday 7:30 am and 9 am (Spanish); Monday, Tuesday, Wednesday and Friday 5 pm (Spanish)",
+   "servicesSource": {
+    "label": "Catholic Church Times, St. Charles Borromeo (updated Sept 22, 2026)",
+    "url": "https://www.catholicchurchtimes.com/church/st-charles-borromeo-catholic-church-san-francisco-ca-e7283c83-5ac5-4a72-8784-0bf5876e6262"
+   },
+   "site": "https://www.stcharleschurchsf.com",
+   "phone": "415-824-1700",
+   "note": "Masses listed in Spanish.",
+   "needs_review": true,
+   "review_note": "Mass times from Catholic Church Times, a third-party directory that says its times are not verified with the parish; the parish's own site was not opened."
+  },
+  {
+   "name": "Church of the Visitacion",
+   "tradition": "Roman Catholic (Archdiocese of San Francisco)",
+   "town": "San Francisco",
+   "address": "655 Sunnydale Avenue, San Francisco, CA 94134",
+   "services": "Saturday 7:30 am and 4 pm; Sunday 9 am, 10:30 am (Spanish), 12 pm and 5 pm (Vietnamese); Monday to Friday 7 am, plus Wednesday 5:30 pm",
+   "servicesSource": {
+    "label": "Catholic Church Times, Visitacion",
+    "url": "https://www.catholicchurchtimes.com/church/50158dc4-34a2-4b9e-8017-a5f9abaaa94d"
+   },
+   "site": "https://www.visitacionchurch.org",
+   "phone": "415-494-5517",
+   "note": "Sunday Masses include Spanish and Vietnamese.",
+   "needs_review": true,
+   "review_note": "Mass times from Catholic Church Times, a third-party directory that says its times are not verified with the parish; the parish's own site was not opened."
+  },
+  {
+   "name": "Church of the Epiphany",
+   "tradition": "Roman Catholic (Archdiocese of San Francisco)",
+   "town": "San Francisco",
+   "address": "827 Vienna Street, San Francisco, CA 94112",
+   "services": "Saturday 8 am and 5:30 pm; Sunday 6:30 am, 8:30 am, 10 am, 11:30 am (Spanish) and 1 pm; Monday to Friday 6:30 am and 8 am",
+   "servicesSource": {
+    "label": "Catholic Church Times, Church of the Epiphany (updated Sept 22, 2026)",
+    "url": "https://www.catholicchurchtimes.com/church/church-of-the-epiphany-san-francisco-ca-2fc2c1b3-42ca-4ced-9f01-f42c2e96f07d"
+   },
+   "site": "https://www.epiphanysf.com",
+   "phone": "415-333-7630",
+   "note": null,
+   "needs_review": true,
+   "review_note": "Mass times from Catholic Church Times, a third-party directory that says its times are not verified with the parish; the parish's own site was not opened. The directory's Sunday list repeats some times and may be incomplete."
+  },
+  {
+   "name": "St. Agnes Church",
+   "tradition": "Roman Catholic (Archdiocese of San Francisco)",
+   "town": "San Francisco",
+   "address": "1025 Masonic Avenue, San Francisco, CA 94117",
+   "services": "Saturday 4 pm; Sunday 8:30 am, 10:30 am, 1:30 pm (Spanish) and 6 pm; Monday to Friday 12 pm",
+   "servicesSource": {
+    "label": "Catholic Church Times, St. Agnes",
+    "url": "https://www.catholicchurchtimes.com/church/7b3acaf4-f035-4ec5-a110-4ba80bb39b7f"
+   },
+   "site": "https://www.saintagnessf.com",
+   "phone": "415-487-8560",
+   "note": null,
+   "needs_review": true,
+   "review_note": "Mass times from Catholic Church Times, a third-party directory that says its times are not verified with the parish; the parish's own site was not opened. The directory's layout makes the Spanish Mass time ambiguous (1:30 pm appears most likely)."
+  },
+  {
+   "name": "St. Thomas More Church",
+   "tradition": "Roman Catholic (Archdiocese of San Francisco)",
+   "town": "San Francisco",
+   "address": "1300 Junipero Serra Boulevard, San Francisco, CA 94132",
+   "services": "Saturday 5 pm vigil (English); Sunday 8 am (Portuguese), 10 am (English), 12 pm (Arabic) and 8 pm (English), plus 5 pm in Tagalog on first Sundays; Monday to Thursday and Saturday 8 am, Friday 8:30 am; Burmese Mass first Saturdays 10 am",
+   "servicesSource": {
+    "label": "St. Thomas More Church, Mass schedule",
+    "url": "https://stmchurch.com/?p=46"
+   },
+   "site": "https://stmchurch.com",
+   "phone": "415-452-9634",
+   "note": "At Brotherhood and Thomas More Ways. Masses in English, Portuguese, Arabic, Tagalog and Burmese.",
+   "needs_review": true,
+   "review_note": "Phone from Catholic Church Times; Mass times from the parish's own site."
+  },
+  {
+   "name": "Corpus Christi Church",
+   "tradition": "Roman Catholic (Archdiocese of San Francisco)",
+   "town": "San Francisco",
+   "address": "62 Santa Rosa Avenue, San Francisco, CA 94112",
+   "services": "Saturday 5 pm and 7 pm; Sunday 8 am, 9:30 am, 11 am, 1 pm and 5 pm; Monday to Friday 8 am, 12:05 pm and 7 pm. Confession Saturday 3:30 to 4:30 pm",
+   "servicesSource": {
+    "label": "Catholic Church Times, Corpus Christi (updated Sept 22, 2026)",
+    "url": "https://www.catholicchurchtimes.com/church/corpus-christi-san-francisco-ca-89d921cf-3aec-4530-bf67-4aa4ea0507e6"
+   },
+   "site": "https://corpuschristisf.org",
+   "phone": "415-585-2991",
+   "note": "Spanish and English Masses; bilingual Eucharistic adoration Thursday 7 to 8 pm.",
+   "needs_review": true,
+   "review_note": "Mass times from Catholic Church Times, a third-party directory that says its times are not verified with the parish; the parish's own site was not opened. The directory does not say exactly which Masses are in Spanish."
+  },
+  {
+   "name": "St. Kevin Church",
+   "tradition": "Roman Catholic (Archdiocese of San Francisco)",
+   "town": "San Francisco",
+   "address": "704 Cortland Avenue, San Francisco, CA 94110",
+   "services": "Saturday 5 pm; Sunday 9:30 am (English) and 12 pm (Spanish); Tuesday to Friday 9 am",
+   "servicesSource": {
+    "label": "Catholic Church Times, St. Kevin (updated Sept 22, 2026)",
+    "url": "https://www.catholicchurchtimes.com/church/st-kevin-san-francisco-ca-c722e3ea-0c0c-4f08-9146-e9082133e122"
+   },
+   "site": "https://www.stkevinsf.org",
+   "phone": "415-648-5751",
+   "note": null,
+   "needs_review": true,
+   "review_note": "Mass times from Catholic Church Times, a third-party directory that says its times are not verified with the parish; the parish's own site was not opened."
+  },
+  {
+   "name": "St. Elizabeth Church",
+   "tradition": "Roman Catholic (Archdiocese of San Francisco)",
+   "town": "San Francisco",
+   "address": "459 Somerset Street, San Francisco, CA 94134",
+   "services": "Saturday 8:30 am and 4:30 pm vigil; Sunday 8:30 am and 10:30 am; Monday to Friday 8:30 am",
+   "servicesSource": {
+    "label": "Catholic Church Times, St. Elizabeth (updated Sept 22, 2026)",
+    "url": "https://www.catholicchurchtimes.com/church/st-elizabeth-san-francisco-ca-a1185f2f-ad32-4a61-969a-ab43bd4ed232"
+   },
+   "site": "https://stelizabethsf.org",
+   "phone": "415-468-0820",
+   "note": null,
+   "needs_review": true,
+   "review_note": "Mass times from Catholic Church Times, a third-party directory that says its times are not verified with the parish; the parish's own site was not opened."
+  },
+  {
+   "name": "Our Lady of Lourdes Church",
+   "tradition": "Roman Catholic (Archdiocese of San Francisco)",
+   "town": "San Francisco",
+   "address": "410 Hawes Street, San Francisco, CA 94124",
+   "services": "Saturday 6:30 pm (Spanish); Sunday 8:30 am, 10 am and 10:30 am (English and Spanish); Tuesday to Friday 8:30 am",
+   "servicesSource": {
+    "label": "Catholic Church Times, Our Lady of Lourdes (updated Sept 22, 2026)",
+    "url": "https://www.catholicchurchtimes.com/church/our-lady-of-lourdes-san-francisco-ca-8c3b29ba-ee2e-42b3-a7ba-1f1e44915fa2"
+   },
+   "site": "https://www.ourladyoflourdescatholicsf.org",
+   "phone": "415-285-3377",
+   "note": "In the Bayview.",
+   "needs_review": true,
+   "review_note": "Mass times from Catholic Church Times, a third-party directory that says its times are not verified with the parish; the parish's own site was not opened. The directory does not give the language of each Sunday Mass."
+  },
+  {
+   "name": "St. Paul of the Shipwreck Church",
+   "tradition": "Roman Catholic (Archdiocese of San Francisco)",
+   "town": "San Francisco",
+   "address": "1122 Jamestown Avenue, San Francisco, CA 94124",
+   "services": "Saturday 4:30 pm and 5 pm; Sunday 8 am, 8:30 am, 9:15 am and 10:45 am (one Sunday Mass in Spanish), plus an Igbo Mass at 1 pm on the last Sunday of the month; weekday Masses at 8 am or 8:30 am",
+   "servicesSource": {
+    "label": "Catholic Church Times, St. Paul of the Shipwreck (updated Sept 22, 2026)",
+    "url": "https://www.catholicchurchtimes.com/church/st-paul-of-the-shipwreck-san-francisco-ca-39bf7ea5-e461-4d30-935e-57a3d7663222"
+   },
+   "site": "https://www.stpauloftheshipwreck.org",
+   "phone": "415-468-3434",
+   "note": "In the Bayview.",
+   "needs_review": true,
+   "review_note": "Mass times from Catholic Church Times, a third-party directory that says its times are not verified with the parish; the parish's own site was not opened. The directory's Sunday and weekday lists are hard to read; confirm with the parish."
+  },
+  {
+   "name": "Notre Dame des Victoires",
+   "tradition": "Roman Catholic (Archdiocese of San Francisco)",
+   "town": "San Francisco",
+   "address": "566 Bush Street, San Francisco, CA 94108",
+   "services": "Saturday 5 pm; Sunday 9 am, 10:30 am (French) and 12:15 pm; Monday to Friday 7 am",
+   "servicesSource": {
+    "label": "Catholic Church Times, Notre Dame des Victoires (updated Sept 22, 2026)",
+    "url": "https://www.catholicchurchtimes.com/church/notre-dame-des-victoires-san-francisco-ca-8bdb28cc-4321-483b-8426-3c235beafaa5"
+   },
+   "site": "https://ndvsf.org",
+   "phone": "415-397-0113",
+   "note": "Sunday Mass in French at 10:30 am.",
+   "needs_review": true,
+   "review_note": "Mass times from Catholic Church Times, a third-party directory that says its times are not verified with the parish; the parish's own site was not opened."
+  },
+  {
+   "name": "Our Lady of Fatima Russian Byzantine Catholic Church",
+   "tradition": "Russian Byzantine Catholic (in communion with Rome)",
+   "town": "San Francisco",
+   "address": "5920 Geary Boulevard, San Francisco, CA 94121",
+   "services": "Sunday Divine Liturgy 10:30 am",
+   "servicesSource": {
+    "label": "Catholic Church Times, Our Lady of Fatima Russian Byzantine Catholic Church (updated Sept 23, 2026)",
+    "url": "https://www.catholicchurchtimes.com/church/our-lady-of-fatima-russian-byzantine-catholic-church-san-francisco-ca-414412da-220c-4552-be29-5bd812568ba6"
+   },
+   "site": "https://www.byzantinecatholic.org",
+   "phone": "415-752-2052",
+   "note": null,
+   "needs_review": true,
+   "review_note": "Mass times from Catholic Church Times, a third-party directory that says its times are not verified with the parish; the parish's own site was not opened."
+  },
+  {
+   "name": "Immaculate Conception Ukrainian Catholic Church",
+   "tradition": "Ukrainian Greek Catholic",
+   "town": "San Francisco",
+   "address": "215 Silliman Street, San Francisco, CA 94134",
+   "services": "Sunday Divine Liturgy 11:30 am (Ukrainian)",
+   "servicesSource": {
+    "label": "Catholic Church Times, Immaculate Conception Ukrainian Catholic Church (updated Sept 23, 2026)",
+    "url": "https://www.catholicchurchtimes.com/church/immaculate-conception-ukrainian-catholic-church-san-francisco-ca-0ba28b9b-952f-4630-9517-78f6862b6a8e"
+   },
+   "site": "https://ugccsf.org",
+   "phone": "415-468-2601",
+   "note": null,
+   "needs_review": true,
+   "review_note": "Mass times from Catholic Church Times, a third-party directory that says its times are not verified with the parish; the parish's own site was not opened."
+  },
+  {
+   "name": "Bethel African Methodist Episcopal Church",
+   "tradition": "African Methodist Episcopal",
+   "town": "San Francisco",
+   "address": "916 Laguna Street, San Francisco, CA",
+   "services": null,
+   "servicesSource": null,
+   "site": null,
+   "phone": null,
+   "note": "Founded in 1852; in the Fillmore.",
+   "source": {
+    "label": "Wikipedia, Bethel African Methodist Episcopal Church (San Francisco)",
+    "url": "https://en.wikipedia.org/wiki/Bethel_African_Methodist_Episcopal_Church_(San_Francisco)"
+   },
+   "needs_review": true,
+   "review_note": "From Wikipedia; service times, phone and website not found on a page opened."
+  },
+  {
+   "name": "Emmanuel Church of God in Christ",
+   "tradition": "Church of God in Christ",
+   "town": "San Francisco",
+   "address": null,
+   "services": null,
+   "servicesSource": null,
+   "site": null,
+   "phone": null,
+   "note": "On Hayes Street, per The San Francisco Standard (Sept 2023).",
+   "source": {
+    "label": "The San Francisco Standard, Black churches in the Fillmore (Sept 22, 2023)",
+    "url": "https://sfstandard.com/2023/09/22/san-francisco-black-churches-are-on-life-support-in-historic-fillmore-neighborhood/"
+   },
+   "needs_review": true,
+   "review_note": "Named in a 2023 news story; street number, service times and contact not found."
+  },
+  {
+   "name": "First Friendship Baptist",
+   "tradition": "Baptist",
+   "town": "San Francisco",
+   "address": null,
+   "services": null,
+   "servicesSource": null,
+   "site": null,
+   "phone": null,
+   "note": "On Steiner Street, per The San Francisco Standard (Sept 2023).",
+   "source": {
+    "label": "The San Francisco Standard, Black churches in the Fillmore (Sept 22, 2023)",
+    "url": "https://sfstandard.com/2023/09/22/san-francisco-black-churches-are-on-life-support-in-historic-fillmore-neighborhood/"
+   },
+   "needs_review": true,
+   "review_note": "Named in a 2023 news story as First Friendship Baptist; full name, street number, service times and contact not found."
+  },
+  {
+   "name": "Without Walls Ministries",
+   "tradition": "Christian",
+   "town": "San Francisco",
+   "address": null,
+   "services": null,
+   "servicesSource": null,
+   "site": null,
+   "phone": null,
+   "note": "On Steiner Street, per The San Francisco Standard (Sept 2023).",
+   "source": {
+    "label": "The San Francisco Standard, Black churches in the Fillmore (Sept 22, 2023)",
+    "url": "https://sfstandard.com/2023/09/22/san-francisco-black-churches-are-on-life-support-in-historic-fillmore-neighborhood/"
+   },
+   "needs_review": true,
+   "review_note": "Named in a 2023 news story; denomination, street number, service times and contact not found."
+  },
+  {
+   "name": "First Chinese Baptist Church of San Francisco",
+   "tradition": "Baptist (Chinese community)",
+   "town": "San Francisco",
+   "address": "15 Waverly Place, San Francisco, CA 94108",
+   "services": "Sunday 10 am Cantonese worship and 11:30 am English worship, in person and online",
+   "servicesSource": {
+    "label": "First Chinese Baptist Church, Worship",
+    "url": "https://www.fcbc-sf.org/worship"
+   },
+   "site": "https://www.fcbc-sf.org",
+   "phone": "415-857-3226",
+   "note": null,
+   "needs_review": true,
+   "review_note": "Street address from PewSearch (https://pewsearch.com/churches/first-chinese-baptist-church-san-francisco-ca); worship times from the church's own site."
+  },
+  {
+   "name": "Sharon Chinese Baptist Church",
+   "tradition": "Baptist (Chinese community)",
+   "town": "San Francisco",
+   "address": "1620 Irving Street, San Francisco, CA 94122",
+   "services": "Sunday 9 am and 11 am (bilingual Cantonese and English services)",
+   "servicesSource": {
+    "label": "PewSearch, Sharon Chinese Baptist Church",
+    "url": "https://www.pewsearch.com/churches/sharon-chinese-baptist-church-san-francisco-ca"
+   },
+   "site": "https://sfscbc.org",
+   "phone": "415-664-3303",
+   "note": null,
+   "needs_review": true,
+   "review_note": "Times from PewSearch, a third-party directory; it does not say which service is in which language."
+  },
+  {
+   "name": "True Sunshine Episcopal Church",
+   "tradition": "Episcopal (Chinese community)",
+   "town": "San Francisco",
+   "address": "1430 Mason Street, San Francisco, CA 94133",
+   "services": null,
+   "servicesSource": null,
+   "site": "https://www.truesunshine.org",
+   "phone": "415-956-2160",
+   "note": "The church's service page lists Sunday 9 am (English) and 11 am (Chinese, Cantonese and Mandarin) but still carries a pandemic-era suspension notice.",
+   "source": {
+    "label": "True Sunshine Episcopal Church, services page",
+    "url": "https://www.truesunshine.org/?p=158"
+   },
+   "needs_review": true,
+   "review_note": "Service page appears out of date; confirm current times with the church."
+  },
+  {
+   "name": "Christ the Saviour Church",
+   "tradition": "Orthodox Church in America (Diocese of the West)",
+   "town": "San Francisco",
+   "address": "490 12th Ave, San Francisco, CA 94118",
+   "services": "Saturday 6:30 pm All-Night Vigil; Sunday 10 am Divine Liturgy (Third and Sixth Hours at 9:30 am); Thursday 6 pm Jesus Prayer service",
+   "servicesSource": {
+    "label": "Orthodox Church in America, parish directory",
+    "url": "https://oca.org/parishes/oca-we-sfocsc"
+   },
+   "site": "https://sobor.org",
+   "phone": "415-583-9082",
+   "note": "Services in Church Slavonic and English, following the Julian calendar."
+  },
+  {
+   "name": "Holy Trinity Greek Orthodox Church",
+   "tradition": "Greek Orthodox",
+   "town": "San Francisco",
+   "address": "999 Brotherhood Way, San Francisco, CA",
+   "services": "Saturday 4 pm; Sunday 8:30 am and 10 am (as listed)",
+   "servicesSource": {
+    "label": "PewSearch, Holy Trinity Greek Orthodox Church",
+    "url": "https://pewsearch.com/churches/holy-trinity-greek-orthodox-church-san-francisco-ca"
+   },
+   "site": "https://holytrinitysf.org",
+   "phone": "415-584-4747",
+   "note": null,
+   "needs_review": true,
+   "review_note": "Times from PewSearch, a third-party directory; the church's own site was not opened."
+  },
+  {
+   "name": "Masjid Al-Tawheed",
+   "tradition": "Muslim (Sunni)",
+   "town": "San Francisco",
+   "address": "1227 Sutter Street, San Francisco, CA",
+   "services": null,
+   "servicesSource": null,
+   "site": null,
+   "phone": null,
+   "note": "Zabihah lists Friday hours of 1 to 2 pm, weekend lectures and a separate women's prayer room.",
+   "source": {
+    "label": "Zabihah, mosques in San Francisco (third-party directory)",
+    "url": "https://www.zabihah.com/mosques/city/san-francisco-ca-us"
+   },
+   "needs_review": true,
+   "review_note": "From Zabihah, a third-party directory; prayer and Jumu'ah times not confirmed on the mosque's own site."
+  },
+  {
+   "name": "Islamic Center of San Francisco",
+   "tradition": "Muslim",
+   "town": "San Francisco",
+   "address": "400 Crescent Avenue, San Francisco, CA",
+   "services": null,
+   "servicesSource": null,
+   "site": null,
+   "phone": null,
+   "note": null,
+   "source": {
+    "label": "Zabihah, mosques in San Francisco (third-party directory)",
+    "url": "https://www.zabihah.com/mosques/city/san-francisco-ca-us"
+   },
+   "needs_review": true,
+   "review_note": "From Zabihah, a third-party directory; prayer and Jumu'ah times not confirmed on the mosque's own site."
+  },
+  {
+   "name": "Alsabeel Masjid Noor Al-Islam",
+   "tradition": "Muslim",
+   "town": "San Francisco",
+   "address": "118 Jones Street, San Francisco, CA",
+   "services": null,
+   "servicesSource": null,
+   "site": null,
+   "phone": null,
+   "note": null,
+   "source": {
+    "label": "Zabihah, mosques in San Francisco (third-party directory)",
+    "url": "https://www.zabihah.com/mosques/city/san-francisco-ca-us"
+   },
+   "needs_review": true,
+   "review_note": "From Zabihah, a third-party directory; prayer and Jumu'ah times not confirmed on the mosque's own site."
+  },
+  {
+   "name": "San Francisco Muslim Community Center",
+   "tradition": "Muslim",
+   "town": "San Francisco",
+   "address": "4760 Mission Street, San Francisco, CA",
+   "services": null,
+   "servicesSource": null,
+   "site": null,
+   "phone": null,
+   "note": null,
+   "source": {
+    "label": "Zabihah, mosques in San Francisco (third-party directory)",
+    "url": "https://www.zabihah.com/mosques/city/san-francisco-ca-us"
+   },
+   "needs_review": true,
+   "review_note": "From Zabihah, a third-party directory; prayer and Jumu'ah times not confirmed on the mosque's own site."
+  },
+  {
+   "name": "Bayview Islamic Unity Center",
+   "tradition": "Muslim",
+   "town": "San Francisco",
+   "address": "1411 Thomas Avenue, San Francisco, CA",
+   "services": null,
+   "servicesSource": null,
+   "site": null,
+   "phone": null,
+   "note": null,
+   "source": {
+    "label": "Zabihah, mosques in San Francisco (third-party directory)",
+    "url": "https://www.zabihah.com/mosques/city/san-francisco-ca-us"
+   },
+   "needs_review": true,
+   "review_note": "From Zabihah, a third-party directory; prayer and Jumu'ah times not confirmed on the mosque's own site."
   }
  ],
  "events": [
@@ -826,6 +1326,18 @@
    "kind": "Faith",
    "url": "https://www.sfzc.org/locations/city-center",
    "source": "San Francisco Zen Center"
+  },
+  {
+   "date": "2026-11-10",
+   "time": null,
+   "title": "Noontime Concert: Angela Lee, cello, and Marc Teicholz, guitar",
+   "venue": "Old St. Mary's Cathedral, 660 California Street",
+   "town": "San Francisco",
+   "kind": "Faith",
+   "url": "https://noontimeconcerts.org/monthly-concert-highlight/",
+   "source": "Noontime Concerts",
+   "needs_review": true,
+   "review_note": "Start time and admission not shown on the 2026 listing; Noontime Concerts' 2025 series ran Tuesdays 12:30 to 1:30 pm, free (Funcheap listing https://sf.funcheap.com/?p=1592874)."
   },
   {
    "date": "2026-11-13",
@@ -887,6 +1399,30 @@
    "kind": "Faith",
    "url": "https://www.sfzc.org/event/saturday-sangha/2026-11-21/",
    "source": "San Francisco Zen Center calendar"
+  },
+  {
+   "date": "2026-11-23",
+   "time": null,
+   "title": "Noontime Concert: José Lopez, piano (Alkan, Schubert, Liszt, Hiller)",
+   "venue": "Old St. Mary's Cathedral, 660 California Street",
+   "town": "San Francisco",
+   "kind": "Faith",
+   "url": "https://noontimeconcerts.org/monthly-concert-highlight/",
+   "source": "Noontime Concerts",
+   "needs_review": true,
+   "review_note": "Start time and admission not shown on the 2026 listing; Noontime Concerts' 2025 series ran Tuesdays 12:30 to 1:30 pm, free (Funcheap listing https://sf.funcheap.com/?p=1592874). The organizer lists this date as a Monday."
+  },
+  {
+   "date": "2026-11-24",
+   "time": null,
+   "title": "Noontime Concert: Ross McKee Piano Competition laureates",
+   "venue": "Old St. Mary's Cathedral, 660 California Street",
+   "town": "San Francisco",
+   "kind": "Faith",
+   "url": "https://noontimeconcerts.org/monthly-concert-highlight/",
+   "source": "Noontime Concerts",
+   "needs_review": true,
+   "review_note": "Start time and admission not shown on the 2026 listing; Noontime Concerts' 2025 series ran Tuesdays 12:30 to 1:30 pm, free (Funcheap listing https://sf.funcheap.com/?p=1592874)."
   },
   {
    "date": "2026-12-10",

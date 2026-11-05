@@ -11,7 +11,7 @@
    "site": null,
    "athleticsUrl": "https://sites.google.com/sfusd.edu/alhsathletics",
    "scheduleUrl": "https://www.cifsf.org/high-school-playoffs-fall/",
-   "note": "SFUSD public high school in the AAA. Soccer, basketball and wrestling are winter sports in the San Francisco Section. Fall playoffs still to come: girls flag football semifinals Sat Nov 21 (10 and 11:30 am) and City Championship Thu Nov 26, 9:30 am; cross country All City Championships Wed Nov 18 at the Polo Fields, Golden Gate Park (varsity girls 2:30 pm, varsity boys 3:15 pm); cheer and spirit All City Championship Sat Dec 12 at Lincoln High School (CIFSF; teams and sites TBD unless stated).",
+   "note": "SFUSD public high school in the AAA. Soccer, basketball and wrestling are winter sports in the San Francisco Section. Fall playoffs still to come: girls flag football semifinals Sat Nov 21 (10 and 11:30 am) and City Championship Thu Nov 26, 9:30 am; cross country All City Championships Wed Nov 18 at the Polo Fields, Golden Gate Park (varsity girls 2:30 pm, varsity boys 3:15 pm); cheer and spirit All City Championship Sat Dec 12 at Lincoln High School (CIFSF; teams and sites TBD unless stated). Lincoln's athletics site lists Carl Jacobs as boys varsity basketball coach; it posts no 2026-27 winter schedule yet.",
    "source": {
     "label": "SFUSD, High Schools list",
     "url": "https://sfusd.edu/es/node/1087"
@@ -104,7 +104,12 @@
      ],
      "next": []
     }
-   ]
+   ],
+   "athleticDirector": "Olga Camacho (camachoo@sfusd.edu)",
+   "athleticDirectorSource": {
+    "label": "Lincoln High School Athletics (school site), boys varsity basketball",
+    "url": "https://sites.google.com/sfusd.edu/alhsathletics/winter-sports/boys-varsity-basketball"
+   }
   },
   {
    "name": "Lowell High School",
@@ -272,6 +277,32 @@
        }
       }
      ]
+    },
+    {
+     "sport": "Boys Basketball",
+     "season": "Winter 2026-27",
+     "level": "Varsity",
+     "record": null,
+     "recordAsOf": null,
+     "coach": null,
+     "postseason": null,
+     "recent": [],
+     "next": [
+      {
+       "date": "2026-12-03",
+       "time": "7:00 pm",
+       "opponent": "Sacred Heart Prep",
+       "home": false,
+       "venue": null,
+       "note": "First 2026-27 game listed on MaxPreps (non-league).",
+       "source": {
+        "label": "MaxPreps, Lowell Cardinals basketball (updated July 5, 2026)",
+        "url": "https://www.maxpreps.com/ca/san-francisco/lowell-cardinals/basketball/"
+       }
+      }
+     ],
+     "needs_review": true,
+     "review_note": "Only one 2026-27 game was posted on MaxPreps, last updated July 5, 2026."
     }
    ]
   },
@@ -364,6 +395,56 @@
      "next": [],
      "needs_review": true,
      "review_note": "Semifinal results not found."
+    },
+    {
+     "sport": "Boys Basketball",
+     "season": "Winter 2026-27",
+     "level": "Varsity",
+     "record": null,
+     "recordAsOf": null,
+     "coach": null,
+     "postseason": "Schedule as posted on MaxPreps in September; AAA league play and playoffs come later in the winter.",
+     "recent": [],
+     "next": [
+      {
+       "date": "2026-11-27",
+       "time": "1:30 pm",
+       "opponent": "Westmoor",
+       "home": false,
+       "venue": null,
+       "note": "Season opener as listed on MaxPreps.",
+       "source": {
+        "label": "MaxPreps, Balboa Buccaneers basketball 26-27 (updated Sept 10, 2026)",
+        "url": "https://www.maxpreps.com/ca/san-francisco/balboa-buccaneers/basketball/"
+       }
+      },
+      {
+       "date": "2026-12-01",
+       "time": "6:30 pm",
+       "opponent": "AIMS College Prep",
+       "home": true,
+       "venue": null,
+       "note": null,
+       "source": {
+        "label": "MaxPreps, Balboa Buccaneers basketball 26-27 (updated Sept 10, 2026)",
+        "url": "https://www.maxpreps.com/ca/san-francisco/balboa-buccaneers/basketball/"
+       }
+      },
+      {
+       "date": "2026-12-18",
+       "time": "6:00 pm",
+       "opponent": "South San Francisco",
+       "home": true,
+       "venue": null,
+       "note": null,
+       "source": {
+        "label": "MaxPreps, Balboa Buccaneers basketball 26-27 (updated Sept 10, 2026)",
+        "url": "https://www.maxpreps.com/ca/san-francisco/balboa-buccaneers/basketball/"
+       }
+      }
+     ],
+     "needs_review": true,
+     "review_note": "Preseason schedule from MaxPreps (aggregator), last updated Sept 10, 2026."
     }
    ]
   },
@@ -530,14 +611,14 @@
    "town": "San Francisco",
    "mascot": "Bears",
    "division": "AAA (Academic Athletic Association), CIF San Francisco Section",
-   "address": null,
+   "address": "3750 18th St, San Francisco, CA 94114",
    "site": null,
    "athleticsUrl": null,
    "scheduleUrl": "https://www.cifsf.org/high-school-playoffs-fall/",
    "note": "SFUSD public high school in the AAA. Soccer, basketball and wrestling are winter sports in the San Francisco Section. Fall playoffs still to come: girls flag football semifinals Sat Nov 21 (10 and 11:30 am) and City Championship Thu Nov 26, 9:30 am; cross country All City Championships Wed Nov 18 at the Polo Fields, Golden Gate Park (varsity girls 2:30 pm, varsity boys 3:15 pm); cheer and spirit All City Championship Sat Dec 12 at Lincoln High School (CIFSF; teams and sites TBD unless stated).",
    "source": {
-    "label": "CIFSF, member high schools",
-    "url": "https://www.cifsf.org/schools/high-schools/"
+    "label": "SFUSD, High Schools list",
+    "url": "https://sfusd.edu/es/node/1087"
    },
    "teams": [
     {
@@ -621,23 +702,21 @@
      "needs_review": true,
      "review_note": "Scores and record from MaxPreps (aggregator). CIFSF schedule sheets (Google Sheets) could not be opened."
     }
-   ],
-   "needs_review": true,
-   "review_note": "Address not yet confirmed in sources opened."
+   ]
   },
   {
-   "name": "Galileo Academy of Science and Technology",
+   "name": "Galileo High School",
    "town": "San Francisco",
    "mascot": "Lions",
    "division": "AAA (Academic Athletic Association), CIF San Francisco Section",
-   "address": null,
+   "address": "1150 Francisco St, San Francisco, CA 94109",
    "site": null,
    "athleticsUrl": null,
    "scheduleUrl": "https://www.cifsf.org/high-school-playoffs-fall/",
    "note": "SFUSD public high school in the AAA. Soccer, basketball and wrestling are winter sports in the San Francisco Section. Fall playoffs still to come: girls flag football semifinals Sat Nov 21 (10 and 11:30 am) and City Championship Thu Nov 26, 9:30 am; cross country All City Championships Wed Nov 18 at the Polo Fields, Golden Gate Park (varsity girls 2:30 pm, varsity boys 3:15 pm); cheer and spirit All City Championship Sat Dec 12 at Lincoln High School (CIFSF; teams and sites TBD unless stated).",
    "source": {
-    "label": "CIFSF, member high schools",
-    "url": "https://www.cifsf.org/schools/high-schools/"
+    "label": "SFUSD, High Schools list",
+    "url": "https://sfusd.edu/es/node/1087"
    },
    "teams": [
     {
@@ -667,23 +746,21 @@
      "needs_review": true,
      "review_note": "Scores and records come from High School On SI and MaxPreps (aggregators). SI pages show no game dates, so only games dated on a MaxPreps page are listed. CIFSF schedule sheets (Google Sheets) could not be opened. No dated Galileo result was found."
     }
-   ],
-   "needs_review": true,
-   "review_note": "Address not yet confirmed in sources opened. CIFSF lists the school as Galileo."
+   ]
   },
   {
-   "name": "Phillip and Sala Burton Academic High School",
+   "name": "Phillip and Sala Burton High School",
    "town": "San Francisco",
    "mascot": "Pumas",
    "division": "AAA (Academic Athletic Association), CIF San Francisco Section",
-   "address": null,
+   "address": "400 Mansell St, San Francisco, CA 94134",
    "site": null,
    "athleticsUrl": null,
    "scheduleUrl": "https://www.cifsf.org/high-school-playoffs-fall/",
-   "note": "SFUSD public high school in the AAA. Soccer, basketball and wrestling are winter sports in the San Francisco Section. Fall playoffs still to come: girls flag football semifinals Sat Nov 21 (10 and 11:30 am) and City Championship Thu Nov 26, 9:30 am; cross country All City Championships Wed Nov 18 at the Polo Fields, Golden Gate Park (varsity girls 2:30 pm, varsity boys 3:15 pm); cheer and spirit All City Championship Sat Dec 12 at Lincoln High School (CIFSF; teams and sites TBD unless stated).",
+   "note": "SFUSD public high school in the AAA. Soccer, basketball and wrestling are winter sports in the San Francisco Section. Fall playoffs still to come: girls flag football semifinals Sat Nov 21 (10 and 11:30 am) and City Championship Thu Nov 26, 9:30 am; cross country All City Championships Wed Nov 18 at the Polo Fields, Golden Gate Park (varsity girls 2:30 pm, varsity boys 3:15 pm); cheer and spirit All City Championship Sat Dec 12 at Lincoln High School (CIFSF; teams and sites TBD unless stated). CIFSF lists the school as Phillip & Sala Burton; SFUSD lists it as Burton HS.",
    "source": {
-    "label": "CIFSF, member high schools",
-    "url": "https://www.cifsf.org/schools/high-schools/"
+    "label": "SFUSD, High Schools list",
+    "url": "https://sfusd.edu/es/node/1087"
    },
    "teams": [
     {
@@ -712,9 +789,7 @@
      "needs_review": true,
      "review_note": "Scores and records come from High School On SI and MaxPreps (aggregators). SI pages show no game dates, so only games dated on a MaxPreps page are listed. CIFSF schedule sheets (Google Sheets) could not be opened."
     }
-   ],
-   "needs_review": true,
-   "review_note": "Address not yet confirmed in sources opened. CIFSF lists the school as Phillip & Sala Burton."
+   ]
   }
  ],
  "youth": [
@@ -724,10 +799,10 @@
    "ages": "Kindergarten to grade 8 (about ages 5 to 14); co-ed and all-girls divisions",
    "season": "8 weeks starting the week of Jan 5, 2027; championships Feb 27, 2027",
    "site": "https://sfrecpark.org/1416/Jr-Warriors",
-   "note": "Individual registration opened Oct 19 (priority) and Oct 21, 2026 (public); $123 individual, $617 independent team. Games Thursday and Friday 5 to 9 pm, Saturday 9 am to 5 pm at 10 to 14 Rec and Park sites. Program Registration 415-831-6800.",
+   "note": "Individual registration opened Oct 19 (priority) and Oct 21, 2026 (public), 10 am; $123 individual, $617 independent team (7 to 12 players). Independent teams were placed by lottery Oct 5 to 9, 2026. Games Thursday and Friday 5 to 9 pm, Saturday 9 am to 5 pm at 10 to 14 Rec and Park sites. Program Registration 415-831-6800.",
    "town": "San Francisco",
    "source": {
-    "label": "SF Recreation and Park, Jr. Warriors",
+    "label": "SF Recreation and Park, Jr. Warriors (checked Nov 4, 2026)",
     "url": "https://sfrecpark.org/1416/Jr-Warriors"
    }
   },
@@ -784,6 +859,34 @@
    },
    "needs_review": true,
    "review_note": "Third-party listing only; league site not opened. Spring 2027 sign-up dates not found."
+  },
+  {
+   "name": "Giants Community Fund Academy Softball",
+   "sport": "Softball",
+   "ages": "Middle school 10 to 13; high school 13 to 17",
+   "season": "Fall 2026 season ran Sept 12 to Oct 31; winter clinics January and February (2027 dates not posted)",
+   "site": "https://www.mlb.com/giants/community/fund/programs/gcf-academy/academy-softball",
+   "note": "Free, with jersey, pants, hat and equipment provided. Questions: academy@sfgiants.com.",
+   "town": "San Francisco",
+   "source": {
+    "label": "Giants Community Fund, Academy Softball",
+    "url": "https://www.mlb.com/giants/community/fund/programs/gcf-academy/academy-softball"
+   }
+  },
+  {
+   "name": "San Francisco Youth Soccer League (SFYS)",
+   "sport": "Soccer",
+   "ages": null,
+   "season": "Fall season starting in September",
+   "site": null,
+   "note": "Many school and club teams play in this league. Example: St. Finn Barr Catholic School took sign-ups for its fall 2026 SFYS team March 20 to 27, 2026 ($250 per player for the 2026-27 school year). Spring 2027 dates not found.",
+   "town": "San Francisco",
+   "source": {
+    "label": "St. Finn Barr Catholic School, SF Youth Soccer",
+    "url": "https://stfinnbarr.org/student-life/athletics/sf-youth-soccer"
+   },
+   "needs_review": true,
+   "review_note": "Described on one member school's page; the league's own site was not found."
   }
  ],
  "adult": [
@@ -937,7 +1040,11 @@
     "url": "https://www.49ers.com/schedule/"
    },
    "needs_review": true,
-   "review_note": "Record computed from the results listed on 49ers.com (wins over the Rams, Miami, Arizona, Denver, Seattle and Washington; loss at Atlanta). Santa Clara location of Levi's Stadium not yet confirmed on a page opened in this pass."
+   "alsoSource": {
+    "label": "Ticketmaster, Step Inside Levi's Stadium (Sept 22, 2026)",
+    "url": "https://blog.ticketmaster.com/step-inside-levis-stadium-santa-clara-ca/"
+   },
+   "review_note": "Record computed from the results listed on 49ers.com (wins over the Rams in Melbourne, Miami, Arizona, Denver, Seattle and Washington; loss at Atlanta); 49ers.com does not state it. Times can change under flexible scheduling."
   },
   {
    "name": "Golden State Valkyries",
@@ -945,13 +1052,17 @@
    "sport": "Basketball",
    "venue": "Chase Center, San Francisco",
    "site": "https://valkyries.wnba.com/",
-   "note": "Season over; no home games in November or December. Chase Center will host WNBA All-Star 2027 (game July 31, 2027).",
+   "note": "2026 WNBA champions: won Game 7 of the Finals against the Atlanta Dream at Chase Center. Atlanta had forced Game 7 with an 80-69 win in Game 6 on Oct 29 at State Farm Arena; Game 7 was scheduled for Saturday, Oct 31, 8 pm Eastern. The 2026 Finals averaged a record 1.89 million viewers. Season over; Chase Center hosts WNBA All-Star 2027 (game July 31, 2027).",
    "source": {
-    "label": "2026 Golden State Valkyries season (Wikipedia)",
-    "url": "https://en.wikipedia.org/wiki/2026_Golden_State_Valkyries_season"
+    "label": "Just Women's Sports, 2026 WNBA Finals Series Sets All-Time Viewership Record (Nov 4, 2026)",
+    "url": "https://justwomenssports.com/reads/wnba-finals-viewership-ratings-record-2026/"
+   },
+   "alsoSource": {
+    "label": "Just Women's Sports, Dream Blitzes Valkyries 80-69 to Force Winner-Take-All Game 7 (Oct 30, 2026)",
+    "url": "https://justwomenssports.com/?p=42483"
    },
    "needs_review": true,
-   "review_note": "The 2026 Finals result was only found on Wikipedia, so it is left out."
+   "review_note": "Game 7 final score not found in the news reports opened. All-Star 2027 date carried from KTVU (Aug 18, 2026) via the earlier pass."
   },
   {
    "name": "San Francisco Giants",
@@ -994,32 +1105,22 @@
    }
   },
   {
-   "name": "SF State Gators basketball",
-   "league": "California Collegiate Athletic Association (NCAA Division II)",
-   "sport": "Basketball",
-   "venue": null,
-   "site": "https://sfstategators.com/",
-   "note": "November and December 2026 home schedule not found in sources opened.",
-   "source": {
-    "label": "SF State Athletics",
-    "url": "https://sfstategators.com/news/2016/11/7/mens-basketball-sfstate-mbb-opens-up-regular-season-hosting-tip-off-classic.aspx"
-   },
-   "needs_review": true,
-   "review_note": "Official schedule page could not be opened; league affiliation and venue not confirmed in sources opened."
-  },
-  {
    "name": "Bay FC",
    "league": "NWSL",
    "sport": "Soccer",
    "venue": "PayPal Park, San Jose (not in San Francisco)",
    "site": "https://bayfc.com/",
-   "note": "Regular season's final match was a home game on Nov 1, 2026. Playoff status and any November or December matches not confirmed.",
+   "note": "The 2026 NWSL regular season closed with a home match against San Diego Wave FC on Sunday, Nov 1, 2 pm. The league expanded to 16 clubs playing 30 matches each; the top eight qualify for the playoffs. Bay FC's final place and playoff status were not found on a page opened.",
    "source": {
-    "label": "2026 Bay FC season (Wikipedia)",
-    "url": "https://en.wikipedia.org/wiki/2026_Bay_FC_season"
+    "label": "Bay FC, 2026 NWSL regular season schedule announcement (Jan 15, 2026)",
+    "url": "https://bayfc.com/press-releases/bay-fc-announces-2026-nwsl-regular-season-schedule-20260115/"
    },
    "needs_review": true,
-   "review_note": "Wikipedia page last updated Aug 31, 2026 (Bay FC 14th at that point); final standing and playoff status not found."
+   "review_note": "Bay FC's standings page did not load its table when checked Nov 4. PayPal Park location (San Jose) is from Wikipedia.",
+   "alsoSource": {
+    "label": "Bay FC, 2026 NWSL regular season standings page",
+    "url": "https://bayfc.com/?p=8180"
+   }
   }
  ],
  "venues": [
@@ -1084,7 +1185,7 @@
    "name": "Kezar Stadium",
    "address": null,
    "town": "San Francisco",
-   "uses": "Hosted the AAA Thanksgiving Day football game in 2025; the 2026 City Championship site is listed as TBD.",
+   "uses": "Hosted the AAA Thanksgiving Day football game in 2025 and Mission's Aug 29, 2026 opener against Denair (MaxPreps). CIFSF lists the 2026 City Championship site (Thu Nov 26, 11:30 am) as TBD.",
    "site": null,
    "source": {
     "label": "High School On SI, Thanksgiving Game at Kezar Stadium (2025)",
@@ -1108,7 +1209,7 @@
    "name": "Chase Center",
    "address": null,
    "town": "San Francisco",
-   "uses": "Warriors and Valkyries home games; WNBA All-Star 2027",
+   "uses": "Warriors and Valkyries home games; site of the Valkyries' 2026 WNBA Finals Game 7 title win; WNBA All-Star 2027",
    "site": null,
    "source": {
     "label": "KTVU, Valkyries to host All-Star 2027 at Chase Center (Aug 18, 2026)",
@@ -1119,16 +1220,14 @@
   },
   {
    "name": "Levi's Stadium",
-   "address": null,
+   "address": "4900 Marie P DeBartolo Way, Santa Clara, CA 95054",
    "town": "Santa Clara",
-   "uses": "49ers home games",
+   "uses": "49ers home games (68,500 seats for 49ers games). Outside San Francisco.",
    "site": null,
    "source": {
-    "label": "49ers news release, 49ers Announce 2026 Schedule",
-    "url": "https://49ers.1rmg.com/news-releases/49ers-announce-2026-schedule/"
-   },
-   "needs_review": true,
-   "review_note": "Outside San Francisco; city and address not stated in the source opened."
+    "label": "Ticketmaster, Step Inside Levi's Stadium (Sept 22, 2026)",
+    "url": "https://blog.ticketmaster.com/step-inside-levis-stadium-santa-clara-ca/"
+   }
   },
   {
    "name": "PayPal Park",
@@ -1175,9 +1274,87 @@
     "label": "SF Recreation and Park, Jr. Warriors",
     "url": "https://sfrecpark.org/1416/Jr-Warriors"
    }
+  },
+  {
+   "name": "Mission High School",
+   "address": "3750 18th Street, San Francisco, CA 94114",
+   "town": "San Francisco",
+   "uses": "Mission home games; Mission hosts Galileo in football Friday Nov 6 (site not stated by MaxPreps)",
+   "site": null,
+   "source": {
+    "label": "SFUSD, San Francisco Section member school gyms (updated Sept 22, 2019)",
+    "url": "https://www.sfusd.edu/fil/node/3858"
+   }
+  },
+  {
+   "name": "Galileo High School",
+   "address": "1150 Francisco Street, San Francisco, CA 94109",
+   "town": "San Francisco",
+   "uses": "Galileo home games; SFUSD notes a second gym on Bay Street that is not used for interscholastic play",
+   "site": null,
+   "source": {
+    "label": "SFUSD, San Francisco Section member school gyms (updated Sept 22, 2019)",
+    "url": "https://www.sfusd.edu/fil/node/3858"
+   }
+  },
+  {
+   "name": "Burton High School",
+   "address": "400 Mansell Street, San Francisco, CA 94134",
+   "town": "San Francisco",
+   "uses": "Burton home games",
+   "site": null,
+   "source": {
+    "label": "SFUSD, San Francisco Section member school gyms (updated Sept 22, 2019)",
+    "url": "https://www.sfusd.edu/fil/node/3858"
+   }
+  },
+  {
+   "name": "Goldman Tennis Center, Golden Gate Park",
+   "address": null,
+   "town": "San Francisco",
+   "uses": "AAA girls tennis semifinals (Nov 2 and 3) and team City Championship (Fri Nov 6, 3:15 pm); individual semifinals and finals Oct 29 and 30",
+   "site": null,
+   "source": {
+    "label": "CIFSF, High School Playoffs (Fall), checked Nov 4, 2026",
+    "url": "https://www.cifsf.org/high-school-playoffs-fall/"
+   },
+   "needs_review": true,
+   "review_note": "Street address not given on the CIFSF page."
+  },
+  {
+   "name": "Fleming Golf Course",
+   "address": null,
+   "town": "San Francisco",
+   "uses": "AAA girls golf team semifinals (Oct 19 and 20) and All City Tournament (Oct 28)",
+   "site": null,
+   "source": {
+    "label": "CIFSF, High School Playoffs (Fall), checked Nov 4, 2026",
+    "url": "https://www.cifsf.org/high-school-playoffs-fall/"
+   },
+   "needs_review": true,
+   "review_note": "Street address not given on the CIFSF page."
+  },
+  {
+   "name": "Polo Fields, Golden Gate Park",
+   "address": null,
+   "town": "San Francisco",
+   "uses": "AAA cross country All City Championships, Wed Nov 18 (JV races from midday; varsity girls 2:30 pm, varsity boys 3:15 pm)",
+   "site": null,
+   "source": {
+    "label": "CIFSF, High School Playoffs (Fall), checked Nov 4, 2026",
+    "url": "https://www.cifsf.org/high-school-playoffs-fall/"
+   },
+   "needs_review": true,
+   "review_note": "Street address not given on the CIFSF page; the page lists the JV boys start as both 12 pm and 1 pm."
   }
  ],
  "news": [
+  {
+   "date": "2026-11-04",
+   "title": "2026 WNBA Finals Series Sets All-Time Viewership Record With 1.89M Average",
+   "url": "https://justwomenssports.com/reads/wnba-finals-viewership-ratings-record-2026/",
+   "source": "Just Women's Sports"
+  },
   {
    "date": "2026-11-03",
    "title": "HS Girls Volleyball Championship Program (V & JV)",

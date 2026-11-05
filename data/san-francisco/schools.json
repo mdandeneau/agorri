@@ -1,6 +1,6 @@
 {
  "as_of": "2026-11-04",
- "note": "San Francisco Unified School District runs the city's public schools, from preschool and transitional kindergarten through grade 12, plus county schools for students referred out of regular schools. Its online directory lists 128 entries; they are shown here as 126, because two second campuses are folded into their schools. A seven-member Board of Education, elected citywide, adopts the budget and sets policy. City College of San Francisco, the public community college, has its own elected Board of Trustees and is listed second.",
+ "note": "San Francisco Unified School District runs the city's public schools, from preschool and transitional kindergarten through grade 12, plus county schools and programs for students 18 to 22 with disabilities. A seven-member Board of Education, elected citywide, adopts the budget and sets policy. Charter schools, which SFUSD lists separately, come second, and City College of San Francisco, the public community college with its own elected Board of Trustees, is third.",
  "districts": [
   {
    "id": "sfusd",
@@ -98,7 +98,7 @@
     {
      "name": "Access SFUSD: Bay Street",
      "level": "Continuation/Alternative",
-     "grades": "13",
+     "grades": "13 (ages 18-22)",
      "address": "Transition Training Center, 416 Bay Street, San Francisco, CA 94133",
      "enrollment": null,
      "enrollmentYear": null,
@@ -108,11 +108,11 @@
     {
      "name": "AccessSFUSD: The Arc",
      "level": "Continuation/Alternative",
-     "grades": "13",
+     "grades": "13 (ages 18-22)",
      "address": "1520 Howard Street, San Francisco, CA 94103",
      "enrollment": null,
      "enrollmentYear": null,
-     "principal": null,
+     "principal": "Kara Schinella",
      "url": "https://www.sfusd.edu/school/accesssfusd-arc"
     },
     {
@@ -210,8 +210,8 @@
      "level": "Elementary",
      "grades": "TK-5",
      "address": "2641 25th Street, San Francisco, CA 94110",
-     "enrollment": null,
-     "enrollmentYear": null,
+     "enrollment": 233,
+     "enrollmentYear": "2025-26",
      "principal": null,
      "url": "https://www.sfusd.edu/school/bryant-elementary-school"
     },
@@ -910,8 +910,8 @@
      "level": "Early education",
      "grades": "PreK-TK",
      "address": "1670 Noe Street, San Francisco, CA 94131",
-     "enrollment": null,
-     "enrollmentYear": null,
+     "enrollment": 75,
+     "enrollmentYear": "2025-26",
      "principal": null,
      "url": "https://www.sfusd.edu/school/mission-education-center"
     },
@@ -988,11 +988,11 @@
     {
      "name": "Project Search",
      "level": "Continuation/Alternative",
-     "grades": "13",
+     "grades": "13 (ages 18-22)",
      "address": "2425 Geary Boulevard, San Francisco, CA 94115",
      "enrollment": null,
      "enrollmentYear": null,
-     "principal": null,
+     "principal": "Kara Schinella",
      "url": "https://www.sfusd.edu/school/project-search"
     },
     {
@@ -1206,16 +1206,6 @@
      "url": "https://www.sfusd.edu/school/tenderloin-community-elementary-school"
     },
     {
-     "name": "The Academy - San Francisco @ McAteer",
-     "level": null,
-     "grades": null,
-     "address": null,
-     "enrollment": null,
-     "enrollmentYear": null,
-     "principal": null,
-     "url": "https://www.sfusd.edu/school/academy-san-francisco-mcateer"
-    },
-    {
      "name": "Theresa S. Mahler Early Education School",
      "level": "Early education",
      "grades": "PreK",
@@ -1260,8 +1250,8 @@
      "level": "Elementary",
      "grades": "TK-5",
      "address": "55 Schwerin Street, San Francisco, CA 94134",
-     "enrollment": null,
-     "enrollmentYear": null,
+     "enrollment": 204,
+     "enrollmentYear": "2025-26",
      "principal": null,
      "url": "https://www.sfusd.edu/school/visitacion-valley-elementary-school"
     },
@@ -1336,7 +1326,16 @@
      "url": "https://www.sfusd.edu/school/zaida-t-rodriguez-early-education-school"
     }
    ],
-   "enrollment": null,
+   "enrollment": {
+    "total": 55237,
+    "year": "2025-26",
+    "source": {
+     "label": "Ed-Data district profile, San Francisco Unified (2025-26 enrollment)",
+     "url": "https://www.ed-data.org/district/San-Francisco/San-Francisco-Unified"
+    },
+    "needs_review": true,
+    "review_note": "Read from Ed-Data's district profile. CDE DataQuest could not be opened from here, and SFUSD's 2025-26 Facts at a Glance posts its figures only as images, so the total was not checked against either."
+   },
    "budget": {
     "year": "FY2026-27 (2026-27)",
     "total": 1360000000,
@@ -1347,19 +1346,93 @@
     "perPupil": null,
     "perPupilYear": null,
     "perPupilSource": null,
-    "note": "The district reports a $1.36 billion operating budget (total shown is that rounded figure). It is a three-year balanced budget with $33.3 million in commitments: $8.6 million for up to 14 weeks of paid pregnancy leave, $12.2 million to guard against federal funding risks and grant freezes, and $12.5 million for student success strategies. The district projects its Unrestricted General Fund structural deficit will be eliminated in 2027-28. No per-pupil figure or prior-year total was found on SFUSD or California Department of Education pages we could open.",
+    "note": "The district reports a $1.36 billion operating budget (total shown is that rounded figure). It is a three-year balanced budget with $33.3 million in commitments: $8.6 million for up to 14 weeks of paid pregnancy leave, $12.2 million to guard against federal funding risks and grant freezes, and $12.5 million for student success strategies. The district projects its Unrestricted General Fund structural deficit will be eliminated in 2027-28. No per-pupil figure is shown: the state's current expense per ADA files are spreadsheets that could not be opened here, and Ed-Data's finance tables load only in a browser.",
     "source": {
      "label": "SFUSD press release, Jun 25, 2026",
      "url": "https://www.sfusd.edu/about-sfusd/sfusd-news/press-releases/2026-06-25-sf-board-education-adopts-three-year-balanced-budget-2026-27-school-year"
-    }
+    },
+    "perPupilLabel": null
    },
-   "results": [],
+   "results": [
+    {
+     "label": "English: met or exceeded standard",
+     "value": "53.5%",
+     "year": "Spring 2026 state tests (California 49.26%)",
+     "source": {
+      "label": "EdSource CAASPP results, San Francisco Unified (spring 2026 tests)",
+      "url": "https://caaspp.edsource.org/sbac/san-francisco-unified-38684780000000"
+     },
+     "needs_review": true,
+     "review_note": "District figure is from EdSource's CAASPP database, not read on the state's own report page (the CDE results pages for the district could not be opened). The brief asked for spring 2025 results; the spring 2026 results are now published, so 2026 is shown. EdSource gives the 2025 to 2026 change as +0.29 points in English and -0.21 points in math."
+    },
+    {
+     "label": "Math: met or exceeded standard",
+     "value": "45.8%",
+     "year": "Spring 2026 state tests (California 38.35%)",
+     "source": {
+      "label": "EdSource CAASPP results, San Francisco Unified (spring 2026 tests)",
+      "url": "https://caaspp.edsource.org/sbac/san-francisco-unified-38684780000000"
+     },
+     "needs_review": true,
+     "review_note": "District figure is from EdSource's CAASPP database, not read on the state's own report page (the CDE results pages for the district could not be opened). The brief asked for spring 2025 results; the spring 2026 results are now published, so 2026 is shown. EdSource gives the 2025 to 2026 change as +0.29 points in English and -0.21 points in math."
+    },
+    {
+     "label": "California: English met or exceeded standard",
+     "value": "49.26%",
+     "year": "Spring 2026 state tests",
+     "source": {
+      "label": "CDE CAASPP reporting, State of California, 2025-26 test results at a glance",
+      "url": "https://caaspp-elpac.ets.org/caaspp/DashViewReportSB/DashViewReportSB?ps=true&lstTestYear=2026&lstTestType=B&lstGroup=1&lstSubGroup=1&lstSchoolType=A&lstGrade=13&lstCounty=00&lstDistrict=00000&lstSchool=0000000"
+     }
+    },
+    {
+     "label": "California: math met or exceeded standard",
+     "value": "38.35%",
+     "year": "Spring 2026 state tests",
+     "source": {
+      "label": "CDE CAASPP reporting, State of California, 2025-26 test results at a glance",
+      "url": "https://caaspp-elpac.ets.org/caaspp/DashViewReportSB/DashViewReportSB?ps=true&lstTestYear=2026&lstTestType=B&lstGroup=1&lstSubGroup=1&lstSchoolType=A&lstGrade=13&lstCounty=00&lstDistrict=00000&lstSchool=0000000"
+     }
+    }
+   ],
    "calendarUrl": "https://www.sfusd.edu/calendars",
-   "closingsUrl": null,
+   "closingsUrl": "https://www.sfusd.edu/announcements",
    "issues": [
     {
-     "title": "Board votes to move toward neighborhood-based school assignment",
-     "status": "Final policy vote expected April 2027",
+     "title": "Board of Education election: preliminary results",
+     "status": "Preliminary count; certification expected December 3",
+     "summary": "Three of the seven Board of Education seats were on the November 3 ballot. On the San Francisco Standard's results page (updated 7 a.m. Nov 4), Commissioner Phil Kim was marked the winner with 91,496 votes. Tim Tung (64,745) and Autumn Brown Garibay (62,967), neither a current commissioner, held the next two places, followed by Virginia Cheung (50,967) and Ryan Hazelton (44,919). Only Kim was marked a winner. Results are preliminary and counting continues; the Standard says certification is expected December 3. The district pages opened today do not say when newly elected commissioners take office.",
+     "date": "2026-11-03",
+     "source": {
+      "label": "San Francisco Standard, 2026 live election results (updated Nov 4, 7 a.m.)",
+      "url": "https://sfstandard.com/2026/11/03/san-francisco-election-results-november-2026/"
+     },
+     "needs_review": true,
+     "review_note": "Preliminary results as of Nov 4, 2026, 7:00 a.m., read from a news results page; the Department of Elections results page could not be opened from here. Recheck after each daily count update."
+    },
+    {
+     "title": "Board votes 5-2 to move toward neighborhood-based school assignment",
+     "status": "Draft policy due March 2027; final vote set for April 13, 2027",
+     "summary": "On October 13 the Board of Education voted 5-2 to have SFUSD develop a neighborhood-based assignment system for elementary schools, replacing the lottery. Under the proposed policy every family would be assigned to a neighborhood school based on their home address, and families would keep access to citywide specialized programs. Staff will update attendance boundaries, review each school's enrollment capacity, plan to improve school quality districtwide (including stable staffing and budgets at every school), and hold community engagement sessions. The Board is expected to review a draft policy in March 2027 and vote on April 13, 2027. The new system would take effect in October 2027 for students enrolling for the 2028-29 school year.",
+     "date": "2026-10-13",
+     "source": {
+      "label": "SFUSD press release, Oct 13, 2026",
+      "url": "https://www.sfusd.edu/about-sfusd/sfusd-news/press-releases/2026-10-13-san-francisco-board-education-approves-resolution-move-sfusd-toward-neighborhood-based-student"
+     }
+    },
+    {
+     "title": "What happens next on school assignment",
+     "status": "Study session Nov 10; board discussion Jan 12; vote April 13, 2027",
+     "summary": "SFUSD calls the October 13 vote a direction, not the final policy, and says nothing changes for current families. The final vote, set for April 13, 2027, is to cover attendance areas, citywide tiebreakers, and where language and special education programs are placed; sibling priority has not been decided. Next steps: Study Session 4 on school program decisions and tradeoffs (November 10), a board discussion of school program decisions (January 12, 2027), Study Session 5 on draft policy language and what families said (February 2), Study Session 6 on a near-final proposal (March 16), and Study Session 7 on the rollout plan (May 18). The district says community sessions in multiple languages will be held at schools and in neighborhoods through spring 2027, and public comment is taken before each study session on that meeting's topics. A fall family survey ran September 11 to October 9.",
+     "date": "2026-10-23",
+     "source": {
+      "label": "SFUSD School Reorganization page (updated Oct 23, 2026)",
+      "url": "https://www.sfusd.edu/school-reorganization"
+     }
+    },
+    {
+     "title": "How commissioners split on the enrollment vote",
+     "status": "Decided Oct 13",
      "summary": "On October 13 the Board voted 5-2 for Option C, directing staff to draft a neighborhood-based enrollment policy. Students would first be offered a seat at a neighborhood school near home; families could also apply to citywide programs such as language pathways and K-8 campuses, without a guarantee. Commissioners Alida Fisher and Supriya Ray voted no and backed Option B, which would have let families apply to any school with open seats. Staff will work with demographers on attendance-boundary maps and tiebreakers. The change is meant to take effect for students entering elementary school in fall 2028; families would apply under the new rules in fall 2027.",
      "date": "2026-10-13",
      "source": {
@@ -1379,21 +1452,21 @@
     },
     {
      "title": "Site chosen for new Mandarin immersion TK-8 school",
-     "status": "Opening fall 2027",
-     "summary": "SFUSD announced the new school will start in fall 2027 sharing the Mission Education Center campus at 1670 Noe Street before moving to a permanent site. It opens with four classes (three kindergarten, one transitional kindergarten) and adds grades each year.",
+     "status": "Opening fall 2027; permanent site expected to be named in January 2027",
+     "summary": "SFUSD says the new Mandarin immersion TK-8 school is scheduled to open in fall 2027 at 1670 Noe Street, sharing the campus with Mission Education Center. It will open with one transitional kindergarten class and three kindergarten classes. The district expects to announce the permanent location in January 2027 and to move the school there in fall 2028, then add grades each year until it is a full TK-8 school.",
      "date": "2026-09-24",
      "source": {
-      "label": "KQED, Sep 24, 2026",
-      "url": "https://www.kqed.org/news/12101173/sfusd-reveals-location-of-new-mandarin-immersion-campus"
+      "label": "SFUSD press release, Sep 24, 2026",
+      "url": "https://www.sfusd.edu/about-sfusd/sfusd-news/press-releases/2026-09-24-sfusd-selects-launch-site-new-mandarin-immersion-tk-8-school"
      }
     },
     {
      "title": "2027-28 enrollment season is open",
      "status": "Applications open",
-     "summary": "Online and paper applications for 2027-28 opened October 23, 2026. Applications to Ruth Asawa School of the Arts and Lowell High School are due December 11, 2026 (SOTA applicants also audition in January). Main Round applications for TK-12 are due February 1, 2027; assignment letters go out the week of March 15, 2027.",
+     "summary": "Online and paper applications for 2027-28 opened October 23, 2026, and the district held its Enrollment Fair for all schools on October 24. Applications to Ruth Asawa School of the Arts and Lowell High School are due December 11, 2026 (SOTA applicants also audition in January). Main Round applications for TK to grade 12 are due February 1, 2027, the same day as interdistrict transfer applications; the waitlist opens February 2. Assignment letters go out the week of March 15, 2027, and families must accept or decline by March 25.",
      "date": "2026-10-23",
      "source": {
-      "label": "SFUSD Enrollment Key Dates",
+      "label": "SFUSD Enrollment Key Dates (opened Nov 4, 2026)",
       "url": "https://www.sfusd.edu/es/node/3504"
      }
     },
@@ -1419,9 +1492,9 @@
     {
      "date": "2026-11-10",
      "time": null,
-     "title": "Board of Education study session: School Reorganization #4",
+     "title": "Board of Education Study Session 4 on school assignment: school program decisions and tradeoffs",
      "venue": "Irving G. Breyer Board Meeting Room, 555 Franklin Street, First Floor",
-     "url": "https://www.sfusd.edu/about-sfusd/board-education/board-meeting-calendar-and-agendas"
+     "url": "https://www.sfusd.edu/school-reorganization"
     },
     {
      "date": "2026-11-11",
@@ -1489,9 +1562,9 @@
     {
      "date": "2027-01-12",
      "time": "6:30 pm",
-     "title": "Board of Education regular meeting",
+     "title": "Board of Education regular meeting, with a discussion of school program decisions under the new assignment plan",
      "venue": "Irving G. Breyer Board Meeting Room, 555 Franklin Street, First Floor",
-     "url": "https://www.sfusd.edu/about-sfusd/board-education/board-meeting-calendar-and-agendas"
+     "url": "https://www.sfusd.edu/school-reorganization"
     },
     {
      "date": "2027-01-18",
@@ -1520,9 +1593,26 @@
      "title": "Main Round enrollment applications due for TK to grade 12 (2027-28); interdistrict transfer applications also due",
      "venue": null,
      "url": "https://www.sfusd.edu/es/node/3504"
+    },
+    {
+     "date": "2027-02-02",
+     "time": null,
+     "title": "Board of Education Study Session 5: draft assignment policy language and what families said",
+     "venue": "Irving G. Breyer Board Meeting Room, 555 Franklin Street, First Floor",
+     "url": "https://www.sfusd.edu/school-reorganization"
     }
    ],
    "news": [
+    {
+     "title": "2026 San Francisco live election results (San Francisco Standard)",
+     "url": "https://sfstandard.com/2026/11/03/san-francisco-election-results-november-2026/",
+     "date": "2026-11-04"
+    },
+    {
+     "title": "Historic Step Toward a Great Neighborhood School for Every Student (SFUSD superintendent's message)",
+     "url": "https://www.sfusd.edu/announcements/2026-10-22-historic-step-toward-great-neighborhood-school-every-student",
+     "date": "2026-10-22"
+    },
     {
      "title": "SFUSD moves closer to neighborhood-based enrollment in historic vote (KQED)",
      "url": "https://www.kqed.org/news/12104230/sfusd-moves-closer-to-neighborhood-based-enrollment-in-historic-vote",
@@ -1554,11 +1644,184 @@
      "date": "2026-08-25"
     },
     {
+     "title": "As SFUSD Welcomes Back Students, Officials Plan to Revamp Enrollment, Consider Closures (KQED)",
+     "url": "https://www.kqed.org/news/12095382/as-sfusd-welcomes-back-students-officials-plan-to-revamp-enrollment-consider-closures",
+     "date": "2026-08-17"
+    },
+    {
      "title": "SFUSD Celebrates Milestone Opening Long-Awaited New School in Mission Bay Neighborhood (SFUSD)",
      "url": "https://www.sfusd.edu/about-sfusd/sfusd-news/press-releases/2026-08-07-sfusd-celebrates-milestone-opening-long-awaited-new-school-mission-bay-neighborhood",
      "date": "2026-08-07"
     }
-   ]
+   ],
+   "note": "The district's directory lists 128 entries; 125 open schools are shown here, because two second campuses are folded into their schools and one school marked permanently closed is left out. The directory lists grade 13 for AccessSFUSD, the program for students 18 to 22 with disabilities who have finished grade 12, and for seven high schools.",
+   "kind": "district"
+  },
+  {
+   "id": "sf-charter-schools",
+   "name": "Charter schools in San Francisco",
+   "towns": [
+    "San Francisco"
+   ],
+   "sau": null,
+   "site": "https://www.sfusd.edu/services/student-services/transcripts-work-permits-student-records/9-charter-schools",
+   "note": "SFUSD lists these 13 charter schools on its student records page (updated Nov 3, 2026) and asks families to contact each school directly for records. That page does not say which body authorized each school; the state's profile lists The New School of San Francisco under the State Board of Education. Levels are shown only where a school's name states one; the page gives no grades or addresses.",
+   "superintendent": null,
+   "board": null,
+   "schools": [
+    {
+     "name": "City Arts and Leadership High School",
+     "level": "High",
+     "grades": null,
+     "address": null,
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": "https://es-cat.org/contact/"
+    },
+    {
+     "name": "Creative Arts Charter School",
+     "level": null,
+     "grades": null,
+     "address": null,
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": "https://www.creativeartscharter.org/"
+    },
+    {
+     "name": "Thomas Edison Charter Academy",
+     "level": null,
+     "grades": null,
+     "address": null,
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": "https://www.teca-sf.org/"
+    },
+    {
+     "name": "Five Keys Charter High School",
+     "level": "High",
+     "grades": null,
+     "address": null,
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": "https://www.fivekeyscharter.org/"
+    },
+    {
+     "name": "Gateway High School",
+     "level": "High",
+     "grades": null,
+     "address": null,
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": "https://www.gatewaypublicschools.org/ghs"
+    },
+    {
+     "name": "Gateway Middle School",
+     "level": "Middle",
+     "grades": null,
+     "address": null,
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": "https://gatewaypublicschools.org/gms"
+    },
+    {
+     "name": "KIPP Bayview Academy",
+     "level": null,
+     "grades": null,
+     "address": null,
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": "https://bayview.kippnorcal.org/"
+    },
+    {
+     "name": "KIPP Bayview Elementary School",
+     "level": "Elementary",
+     "grades": null,
+     "address": null,
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": "https://bayviewelementary.kippnorcal.org/"
+    },
+    {
+     "name": "KIPP SF Bay Academy",
+     "level": null,
+     "grades": null,
+     "address": null,
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": null
+    },
+    {
+     "name": "KIPP SF College Prep",
+     "level": null,
+     "grades": null,
+     "address": null,
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": "https://sfcollegeprep.kippnorcal.org/"
+    },
+    {
+     "name": "Life Learning Academy Charter High School",
+     "level": "High",
+     "grades": null,
+     "address": null,
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": "https://lifelearningacademysf.org/"
+    },
+    {
+     "name": "Mission Preparatory School",
+     "level": null,
+     "grades": null,
+     "address": null,
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": "https://missionpreparatory.com/"
+    },
+    {
+     "name": "New School San Francisco",
+     "level": null,
+     "grades": null,
+     "address": "940 Filbert Street, San Francisco, CA 94133",
+     "enrollment": 461,
+     "enrollmentYear": "2025-26",
+     "principal": null,
+     "url": "https://www.newschoolsf.org/"
+    }
+   ],
+   "enrollment": null,
+   "budget": null,
+   "results": [],
+   "calendarUrl": null,
+   "closingsUrl": null,
+   "issues": [
+    {
+     "title": "Charter renewals before SFUSD",
+     "status": "Renewal petitions for 2027-31",
+     "summary": "SFUSD's charter oversight page lists renewal petitions for the 2027-31 term from Thomas Edison Charter Academy and Gateway High School. City Arts & Leadership's renewal petition is shown as withdrawn on October 27, 2026. KIPP Bayview Elementary School and KIPP San Francisco College Preparatory submitted renewal petitions on August 4, 2025, with an extension to June 2031. A new petition for Dragon Gate Academy was submitted June 2, 2025; the page shows no decision. The page says the district's charter oversight committee has not met since November 2023.",
+     "date": "2026-10-27",
+     "source": {
+      "label": "SFUSD Charter Schools Oversight Committee page (updated Oct 27, 2026)",
+      "url": "https://www.sfusd.edu/advisory-councils-committees/charter-schools-oversight-committee"
+     },
+     "needs_review": true,
+     "review_note": "The page lists petitions without decision dates or Board votes; outcomes were not confirmed in BoardDocs."
+    }
+   ],
+   "upcoming": [],
+   "news": [],
+   "kind": "charter"
   },
   {
    "id": "ccsf",
@@ -1569,33 +1832,252 @@
    "sau": null,
    "site": "https://www.ccsf.edu",
    "superintendent": {
-    "name": "Kimberlee Messina (Chancellor)",
+    "name": "Dr. Kimberlee S. Messina (Chancellor)",
     "since": null,
     "src": {
-     "label": "KALW, Jun 16, 2025",
-     "url": "https://www.kalw.org/bay-area-news/2025-06-16/ccsf-appoints-new-chancellor"
-    },
-    "needs_review": true,
-    "review_note": "From a June 2025 news report of her selection; not confirmed on a current CCSF page (ccsf.edu could not be opened)."
+     "label": "CCSF Office of the Chancellor page (opened Nov 4, 2026)",
+     "url": "https://www.ccsf.edu/about-ccsf/administration/office-chancellor"
+    }
    },
    "board": {
     "name": "Board of Trustees",
-    "meets": null,
-    "agendasUrl": null,
+    "meets": "Seven trustees serve, along with a student trustee. The college says agendas, minutes, the meeting calendar and public comment requests have moved to its Diligent Community site; its page does not give that site's address, and no meeting schedule or video link was found.",
+    "agendasUrl": "https://www.ccsf.edu/about-ccsf/board-trustees/board-trustee-meetings",
     "videoUrl": null,
-    "members": [],
-    "source": null
+    "members": [
+     {
+      "name": "Aliya R. Chisti",
+      "role": "President",
+      "term": null,
+      "ward": null
+     },
+     {
+      "name": "Luis Zamora",
+      "role": "Vice President",
+      "term": null,
+      "ward": null
+     },
+     {
+      "name": "Vick Chung",
+      "role": "Member",
+      "term": null,
+      "ward": null
+     },
+     {
+      "name": "Ruth Ferguson",
+      "role": "Member",
+      "term": null,
+      "ward": null
+     },
+     {
+      "name": "Anita Martinez",
+      "role": "Member",
+      "term": null,
+      "ward": null
+     },
+     {
+      "name": "Heather McCarty",
+      "role": "Member",
+      "term": null,
+      "ward": null
+     },
+     {
+      "name": "Susan Solomon",
+      "role": "Member",
+      "term": null,
+      "ward": null
+     }
+    ],
+    "source": {
+     "label": "CCSF FY2026-27 Adopted Budget (trustee list), confirmed in the 2026-27 catalog",
+     "url": "https://www.ccsf.edu/sites/default/files/2026/document/fy27-adopted-budget-v16.pdf"
+    },
+    "needs_review": true,
+    "review_note": "From the college's FY2026-27 budget (Sept 2026) and 2026-27 catalog; the trustees' own page could not be opened. Term end dates are not listed. Three seats were on the Nov 3, 2026 ballot and the preliminary leaders are not current trustees, so membership will change once results are certified. The student trustee is not named here."
    },
-   "schools": [],
+   "schools": [
+    {
+     "name": "Ocean Campus",
+     "level": "College",
+     "grades": null,
+     "address": "50 Frida Kahlo Way, San Francisco, CA",
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": null
+    },
+    {
+     "name": "Chinatown/North Beach Center",
+     "level": "College",
+     "grades": null,
+     "address": "808 Kearney Street, San Francisco, CA (as printed in the catalog)",
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": null
+    },
+    {
+     "name": "Evans Center",
+     "level": "College",
+     "grades": null,
+     "address": "1400 Evans Avenue, San Francisco, CA",
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": null
+    },
+    {
+     "name": "John Adams Center",
+     "level": "College",
+     "grades": null,
+     "address": "1860 Hayes Street, San Francisco, CA",
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": null
+    },
+    {
+     "name": "Mission Center",
+     "level": "College",
+     "grades": null,
+     "address": "1125 Valencia Street, San Francisco, CA",
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": null
+    },
+    {
+     "name": "Downtown Center (no programs in fall 2026 or spring 2027)",
+     "level": "College",
+     "grades": null,
+     "address": "88 4th Street, San Francisco, CA",
+     "enrollment": null,
+     "enrollmentYear": null,
+     "principal": null,
+     "url": null
+    }
+   ],
    "enrollment": null,
-   "budget": null,
+   "budget": {
+    "year": "FY2026-27 (2026-27)",
+    "total": 207157988,
+    "prior": null,
+    "changePct": null,
+    "adopted": null,
+    "adoptedVote": null,
+    "perPupil": null,
+    "perPupilYear": null,
+    "perPupilSource": null,
+    "perPupilLabel": null,
+    "note": "Unrestricted General Fund: $207,446,474 in revenue and $207,157,988 in expenditures, transfers out and unallocated costs (the total shown), leaving $288,487. All funds: $389,846,616 in revenue and $625,843,800 in expenditures. For 2025-26 the unaudited actual Unrestricted General Fund spending was $194,942,857. The budget calendar puts the public hearing and adoption in September 2026; the document does not give the date or vote.",
+    "source": {
+     "label": "CCSF FY2026-27 Adopted Budget",
+     "url": "https://www.ccsf.edu/sites/default/files/2026/document/fy27-adopted-budget-v16.pdf"
+    }
+   },
    "results": [],
-   "calendarUrl": null,
+   "calendarUrl": "https://www.ccsf.edu/sites/default/files/2026/document/academic-calendar-2026-27.pdf",
    "closingsUrl": null,
-   "issues": [],
-   "upcoming": [],
-   "news": []
+   "issues": [
+    {
+     "title": "College Board election: preliminary results",
+     "status": "Preliminary count; certification expected December 3",
+     "summary": "Three seats on the Board of Trustees were on the November 3 ballot. On the San Francisco Standard's results page (updated 7 a.m. Nov 4), Monroe Lace (77,913 votes), Elijah Ball (73,293) and Erwin Tam (71,853) were marked winners, ahead of Leah LaCroix (44,739) and Bunny McFadden (42,665). None of the three leaders is a current trustee. Results are preliminary until the city certifies them.",
+     "date": "2026-11-03",
+     "source": {
+      "label": "San Francisco Standard, 2026 live election results (updated Nov 4, 7 a.m.)",
+      "url": "https://sfstandard.com/2026/11/03/san-francisco-election-results-november-2026/"
+     },
+     "needs_review": true,
+     "review_note": "Preliminary results as of Nov 4, 2026, 7:00 a.m., read from a news results page, not the Department of Elections. The college's pages opened today do not say when new trustees take office."
+    },
+    {
+     "title": "Which trustees are leaving the College Board",
+     "status": "Reported before the election",
+     "summary": "The Guardsman, City College's student newspaper, reported that Trustees Anita Martinez, Susan Solomon and Vick Chung are leaving the board, opening their seats, that Trustee Ruth Ferguson, appointed by Mayor Daniel Lurie after Alan Wong became District 4 Supervisor, ran unopposed, and that Trustees Aliya Chisti, Luis Zamora and Heather McCarty stay on the board.",
+     "date": "2026-09-08",
+     "source": {
+      "label": "The Guardsman, Introducing the San Francisco College Board Race",
+      "url": "https://www.theguardsman.com/ballot-beat-2026-part-1/"
+     },
+     "needs_review": true,
+     "review_note": "Student newspaper report; the article also refers to the seats being up in 2028, so the details need checking against the Department of Elections."
+    },
+    {
+     "title": "2026-27 budget is balanced, with deficits projected in later years",
+     "status": "Adopted budget, September 2026",
+     "summary": "The adopted budget projects $207,446,474 in Unrestricted General Fund revenue against $207,157,988 in spending and transfers. Its multi-year projection assumes 2% enrollment growth a year and shows deficits of $6,580,115 in 2027-28, $16,554,290 in 2028-29 and $24,002,844 in 2029-30, with the ending fund balance falling from $72,198,441 (34.85%) at the end of 2026-27 to $25,061,192 in 2029-30. In her budget message, Chancellor Messina wrote that strategic enrollment must be central to the college's strategy, \"but enrollment alone will not solve the challenge.\"",
+     "date": "2026-09-01",
+     "source": {
+      "label": "CCSF FY2026-27 Adopted Budget (Chancellor's message dated Sep 1, 2026)",
+      "url": "https://www.ccsf.edu/sites/default/files/2026/document/fy27-adopted-budget-v16.pdf"
+     }
+    }
+   ],
+   "upcoming": [
+    {
+     "date": "2026-11-11",
+     "time": null,
+     "title": "Veterans Day (holiday on the college calendar)",
+     "venue": null,
+     "url": "https://www.ccsf.edu/sites/default/files/2026/document/academic-calendar-2026-27.pdf"
+    },
+    {
+     "date": "2026-11-26",
+     "time": null,
+     "title": "Thanksgiving holiday, November 26 to 29",
+     "venue": null,
+     "url": "https://www.ccsf.edu/sites/default/files/2026/document/academic-calendar-2026-27.pdf"
+    },
+    {
+     "date": "2026-12-15",
+     "time": null,
+     "title": "Fall final exams, December 15 to 22 (fall classes end December 22)",
+     "venue": null,
+     "url": "https://www.ccsf.edu/sites/default/files/2026/document/academic-calendar-2026-27.pdf"
+    },
+    {
+     "date": "2027-01-18",
+     "time": null,
+     "title": "Martin Luther King Jr. Day, college closed",
+     "venue": null,
+     "url": "https://www.ccsf.edu/sites/default/files/2026/document/spring-2027-instructional-calendar.pdf"
+    },
+    {
+     "date": "2027-01-19",
+     "time": null,
+     "title": "Spring 2027 classes begin (weekend classes begin January 23)",
+     "venue": null,
+     "url": "https://www.ccsf.edu/sites/default/files/2026/document/spring-2027-instructional-calendar.pdf"
+    },
+    {
+     "date": "2027-02-04",
+     "time": null,
+     "title": "Last day to add full-term spring classes, and to drop without a W",
+     "venue": null,
+     "url": "https://www.ccsf.edu/sites/default/files/2026/document/spring-2027-instructional-calendar.pdf"
+    }
+   ],
+   "news": [
+    {
+     "title": "2026 San Francisco live election results (San Francisco Standard)",
+     "url": "https://sfstandard.com/2026/11/03/san-francisco-election-results-november-2026/",
+     "date": "2026-11-04"
+    },
+    {
+     "title": "CCSF's Financial Standing Strengthens (CCSF)",
+     "url": "https://www.ccsf.edu/news/ccsfs-financial-standing-strengthens",
+     "date": "2025-10-10"
+    },
+    {
+     "title": "After Board Vote, City College of San Francisco Appoints Dr. Kimberlee Messina as Chancellor (CCSF)",
+     "url": "https://www.ccsf.edu/news/after-board-vote-city-college-san-francisco-appoints-dr-kimberlee-messina-chancellor",
+     "date": "2025-06-13"
+    }
+   ],
+   "note": "City College says it serves over 20,000 students each year (2026-27 catalog), and its 2026-27 budget describes it as enrolling more than 40,000 students; neither gives a year or term, so no enrollment total is shown.",
+   "kind": "college"
   }
  ],
- "methodology": "Built November 4, 2026. School list: the SFUSD school directory (table view, \"Showing 1 - 128 of 128 results\") at https://www.sfusd.edu/schools/directory/table, opened Nov 4, 2026, for names, grades, addresses and page links. Level follows the directory's own type: schools it labels County School are shown as Continuation/Alternative; schools labeled K-8 School as K-8; schools with both early education and elementary grades as Elementary. Two directory rows that are second campuses (Claire Lilienthal's K-2 Madison campus and Rooftop's 5-8 Mayeda campus) are folded into their schools, so 126 are listed. The directory lists a grade 13 for seven high schools and three county programs, and does not define it; grades are shown as listed. One directory row, The Academy - San Francisco @ McAteer, has no grades or address in the directory, so its level and address are blank. Individual school pages could not be opened in this session (permission requests timed out), so principals are blank. Board: the district's Board of Education page and board meeting calendar (opened Nov 4). Calendar: the 2026-27 district calendar PDF and Enrollment Key Dates page (opened Nov 4)."
+ "methodology": "Built November 4, 2026 from pages opened that day. SFUSD schools: the district's school directory, table view (\"Showing 1 - 128 of 128 results\", https://www.sfusd.edu/schools/directory/table), for names, grades, addresses and links. Level follows the directory's type: County School is shown as Continuation/Alternative, K-8 School as K-8, and schools with early education and elementary grades as Elementary. Two rows that are second campuses (Claire Lilienthal's K-2 Madison campus and Rooftop's 5-8 Mayeda campus) are folded into their schools, and The Academy - San Francisco @ McAteer is left out because its page says it is permanently closed, so 125 are listed. The Mandarin Immersion TK-8 School is listed with its fall 2027 opening (SFUSD press release, Sep 24, 2026). Grade 13 is explained from the AccessSFUSD, Project Search and Wallenberg Access pages. Individual school pages could not be opened (permission requests timed out), so principals are given only for the two AccessSFUSD programs whose pages were found through search. Per-school enrollment is the 2025-26 figure from four CDE school profiles (Sutro, Bryant, Visitacion Valley Elementary, Mission Education Center); DataQuest blocks automated reading and other profiles could not be reached, so the rest are blank. District enrollment is from Ed-Data (2025-26); SFUSD's 2025-26 Facts at a Glance figures are posted as images and could not be read. No per-pupil figure: CDE's current expense per ADA files are spreadsheets that could not be opened, and Ed-Data's finance tables load only in a browser. Test results: spring 2026 CAASPP results are now out, so they are used instead of 2025; the state figures are from CDE's CAASPP reporting site and the district figures from EdSource, because the district's all-students totals could not be reached on the state site. No district graduation rate is shown: no official class of 2025 figure for SFUSD could be opened (the state rate was 87.5%, CDE release of Nov 13, 2025). Board: the district's Board of Education page, board meeting calendar and School Reorganization page; BoardDocs minutes could not be read, so the only board decision listed from the last eight weeks is the October 13 enrollment vote (SFUSD press release) plus the charter petitions on the oversight page. Calendar: the 2026-27 district calendar PDF and Enrollment Key Dates page. Closings link: SFUSD posts closure notices, such as the February 2026 strike closures, under Public Announcements. Election results are preliminary (San Francisco Standard results page, updated Nov 4, 7 a.m.); the Department of Elections page could not be opened. Charter schools: SFUSD's student records list (updated Nov 3, 2026), the Charter Schools Oversight Committee page (updated Oct 27, 2026) and the CDE profile of The New School of San Francisco. City College: the FY2026-27 adopted budget, the 2026-27 catalog (locations and trustees), the Office of the Chancellor page, the 2026-27 academic calendar and spring 2027 instructional calendar, two college news releases, and The Guardsman. The trustees' meeting schedule, agendas and video are on a Diligent site whose address the college does not give, and spring 2027 registration dates were not posted on any college page that could be opened. Earlier items carried over from the live file keep their original sources (KQED Oct 14 and Sep 24, SF Standard Oct 6, SFUSD June 25 budget release)."
 }

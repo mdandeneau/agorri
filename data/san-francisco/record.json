@@ -3,8 +3,8 @@
   "town": "San Francisco, CA",
   "as_of": "2026-11-04",
   "records_from": "2026-06-30",
-  "documents_used": 20,
-  "note": "Plain-English summaries written by AI from official City and County of San Francisco documents (Board of Supervisors minutes and agendas, Planning Commission agendas, budget documents); every meeting carries its source URL. Election items on Nov 3 results are preliminary and marked needs_review. Items with needs_review=true are where the record is incomplete, secondary-sourced or ambiguous."
+  "documents_used": 33,
+  "note": "Plain-English summaries written by AI from official City and County of San Francisco documents: Board of Supervisors minutes and agendas, Police Commission and SFMTA Board minutes, Planning, Historic Preservation and SFMTA Board agendas, committee pages and budget documents. Every meeting carries its source URL. Election items on Nov 3 results are preliminary and marked needs_review. Items with needs_review=true are where the record is incomplete, secondary-sourced or ambiguous."
  },
  "next_council_meeting": {
   "date": "2026-11-10",
@@ -14,8 +14,8 @@
     "from": "2026 regular meeting schedule"
    },
    {
-    "item": "The Board also met Nov 3 (final votes on the firearm procurement ordinance and eleven settlements were on that agenda); those minutes and the Nov 10 agenda were not posted yet.",
-    "from": "Nov 3 agenda"
+    "item": "The Board also met Nov 3 (final votes on the firearm procurement ordinance and eleven settlements were on that agenda). As of Nov 4 the Nov 3 minutes and the Nov 10 agenda were not posted; sf.gov's Board calendar listed meetings only through Nov 6.",
+    "from": "Nov 3 agenda and sf.gov Board calendar"
    }
   ],
   "source": "https://www.sf.gov/regularly-scheduled-board-of-supervisors-meetings"
@@ -33,7 +33,8 @@
     "Ordinances: G (allowing private vehicles on the Great Highway in Sunset Dunes Park), H (a parcel tax to fund Muni operations), I (changes to the real property transfer tax), J (removing the foreclosure exemption from the transfer tax).",
     "Regional: RTM, the Regional Transit Measure. On Sep 29 the Board consolidated that special election with Nov 3 (adopted unanimously).",
     "Mission Local headlines on Nov 3 to 4 (preliminary): the BART and Muni measures were \"winning with unexpected ease\"; the public bank measure was \"in tight race, but trending up\"; one affordable housing measure was \"set to pass, another unlikely to succeed.\"",
-    "The Department of Elections scheduled the first preliminary local results for 8:45 p.m. on Nov 3, with updates through the canvass."
+    "The Department of Elections scheduled the first preliminary local results for 8:45 p.m. on Nov 3, with updates through the canvass.",
+    "How the Board placed its own measures: the public bank Charter amendment (Prop B) was ordered submitted 9-2 on July 7 (Sherrill and Wong opposed); a 13-part Charter amendment updating departments, boards and commissions 9-2 on July 14 (Chan and Fielder opposed); a Housing Trust Fund Charter amendment 11-0 on July 14; and the ordinance ending the transfer tax exemption for foreclosures (Prop J) 10-0 on July 28 (Walton excused)."
    ],
    "keywords": [
     "Prop A",
@@ -65,6 +66,18 @@
     {
      "label": "Mission Local 2026 election coverage",
      "url": "https://missionlocal.org/2026-elections/"
+    },
+    {
+     "label": "July 7 Board minutes",
+     "url": "https://media.api.sf.gov/documents/bag070726_minutes.pdf"
+    },
+    {
+     "label": "July 14 Board minutes",
+     "url": "https://media.api.sf.gov/documents/bag071426_minutes.pdf"
+    },
+    {
+     "label": "July 28 Board minutes",
+     "url": "https://media.api.sf.gov/documents/bag072826_minutes.pdf"
     }
    ],
    "scope": "all",
@@ -283,7 +296,10 @@
     "Prop H: \"Parcel Tax to Fund Public Muni Operations\" (ordinance). Mayor Lurie wrote the proponent argument.",
     "RTM: the Regional Transit Measure. The Board consolidated the Public Transit Revenue Measure District special election with Nov 3 on Sep 29 (unanimous).",
     "Mission Local headline (preliminary): \"Measures to rescue BART, Muni from financial ruin winning with unexpected ease.\"",
-    "Oct 20 agenda listed public letters on the Muni Fillmore line."
+    "Oct 20 agenda listed public letters on the Muni Fillmore line.",
+    "Oct 6: the SFMTA Board converted a transit and commercial vehicle-only lane on Sansome Street (Broadway to Washington) and a bus and taxi-only lane on 1st Street (Market to Mission) to general traffic, 6-0 each, and approved up to $8,871,652 toward BART's Embarcadero Station escalator rehabilitation.",
+    "Oct 20 SFMTA Board agenda: amendments to labor agreements with the Municipal Executives Association, SEIU Local 1021 and the Transport Workers Union through June 30, 2031.",
+    "July 14: the Board of Supervisors backed more speed camera locations, 10-1 (Walton opposed)."
    ],
    "keywords": [
     "Muni",
@@ -306,6 +322,18 @@
     {
      "label": "Mission Local 2026 election coverage",
      "url": "https://missionlocal.org/2026-elections/"
+    },
+    {
+     "label": "SFMTA Board minutes, Oct 6",
+     "url": "https://www.sfmta.com/media/50318/download"
+    },
+    {
+     "label": "SFMTA Board agenda, Oct 20",
+     "url": "https://www.sfmta.com/media/50323/download"
+    },
+    {
+     "label": "July 14 Board minutes",
+     "url": "https://media.api.sf.gov/documents/bag071426_minutes.pdf"
     }
    ],
    "scope": "all",
@@ -328,6 +356,43 @@
       "needs_review": false,
       "review_note": null
      }
+    },
+    {
+     "date": "2026-07-14",
+     "body": "Board of Supervisors",
+     "url": "https://media.api.sf.gov/documents/bag071426_minutes.pdf",
+     "d": {
+      "title": "Backed more speed camera locations",
+      "detail": "File 260499 (Dorsey and others), a resolution supporting the Speed Safety System Pilot Program and urging more camera locations.",
+      "outcome": "ADOPTED, Ayes: 10, Noes: 1 (Walton)",
+      "moved_by": null,
+      "seconded_by": null,
+      "roll_call": {
+       "yes": [
+        "Chan",
+        "Chen",
+        "Dorsey",
+        "Fielder",
+        "Mahmood",
+        "Mandelman",
+        "Melgar",
+        "Sauter",
+        "Sherrill",
+        "Wong"
+       ],
+       "no": [
+        "Walton"
+       ]
+      },
+      "dissent": [
+       "Walton"
+      ],
+      "topic": "Parking & transportation",
+      "dollars": null,
+      "ordinance_reading": null,
+      "needs_review": false,
+      "review_note": null
+     }
     }
    ],
    "needs_review": true,
@@ -337,14 +402,18 @@
    "id": "budget",
    "title": "City budget and the deficit",
    "topic": "Budget & taxes",
-   "status": "Two-year budget adopted (FY2026-27 and FY2027-28)",
+   "status": "Two-year budget adopted July 28 (FY2026-27 and FY2027-28)",
    "next": "City labor contract extensions (first reading on the Oct 20 agenda) set raises through FY2030-31.",
-   "summary": "The two-year budget closes a projected $642.8 million shortfall. The Mayor signed it July 30, 2026 after a unanimous Board vote. Total uses are $16.85 billion in FY2026-27 and $17.22 billion in FY2027-28.",
+   "summary": "The two-year budget closes a projected $642.8 million shortfall. The Board gave it final approval 11-0 on July 28, 2026 and the Mayor signed it July 30. Total uses are $16.85 billion in FY2026-27 and $17.22 billion in FY2027-28.",
    "points": [
     "March 2026 projection: $168.5 million short in FY2026-27 and $474.3 million in FY2027-28 ($642.8 million over two years), down from a $936.6 million two-year projection in December 2025.",
     "The Mayor's office said the budget reduces the structural deficit by about $300 million and saves another $80 million by slowing hiring.",
     "General Fund property tax: $2,407.0 million in FY2026-27, $30.0 million (1.2%) below the FY2025-26 budget, per the Mayor's proposed budget.",
-    "Oct 20 agenda: six labor agreement amendments extend contracts through June 30, 2031 and bar layoffs of permanent civil service employees through June 30, 2029."
+    "Oct 20 agenda: six labor agreement amendments extend contracts through June 30, 2031 and bar layoffs of permanent civil service employees through June 30, 2029.",
+    "July 14: amended 11-0 (Supervisor Chan's amendment of the whole), including technical adjustments that raise the Sheriff's Office FY2026-27 budget by $3,695,945.",
+    "July 21: PASSED ON FIRST READING, Ayes: 11.",
+    "July 28: FINALLY PASSED, Ayes: 11 (Ordinance No. 140-26), with the Annual Salary Ordinance (No. 141-26) and six trailing ordinances, including suspending the cap on using Homelessness Gross Receipts Tax money for short-term rental subsidies.",
+    "July 28: a separate $14,043,516 appropriation for Sheriff's Office overtime FINALLY PASSED, Ayes: 11."
    ],
    "keywords": [
     "budget",
@@ -365,6 +434,14 @@
     {
      "label": "Annual Appropriation Ordinance",
      "url": "https://media.api.sf.gov/documents/FY2027__FY2028_-_FINAL_AAO.pdf"
+    },
+    {
+     "label": "July 28 Board minutes (final budget vote)",
+     "url": "https://media.api.sf.gov/documents/bag072826_minutes.pdf"
+    },
+    {
+     "label": "July 14 Board minutes (budget amendment)",
+     "url": "https://media.api.sf.gov/documents/bag071426_minutes.pdf"
     }
    ],
    "scope": "council",
@@ -580,6 +657,7 @@
    "next": "Takes effect after the Mayor signs it and the effective date passes.",
    "summary": "Supervisor Mahmood's ordinance changes how San Francisco applies the California Environmental Quality Act locally: shadow is no longer analyzed as an impact type, the time to appeal a CEQA decision to the Board drops from 30 to 15 days, and local steps not required by state law are removed.",
    "points": [
+    "July 7: a substitute version of the ordinance (File 260539) was introduced and assigned to committee.",
     "Oct 6: PASSED ON FIRST READING, Ayes: 10, Noes: 1. Supervisor Chan voted no.",
     "Oct 20: FINALLY PASSED, Ayes: 8, Noes: 1 (Chan); Chen and Melgar excused."
    ],
@@ -598,6 +676,10 @@
     {
      "label": "Oct 20 Board agenda",
      "url": "https://media.api.sf.gov/documents/bag102026_agenda.pdf"
+    },
+    {
+     "label": "July 7 Board minutes",
+     "url": "https://media.api.sf.gov/documents/bag070726_minutes.pdf"
     }
    ],
    "scope": "council",
@@ -691,7 +773,12 @@
     "Sep 29: office-to-housing conversions exempted from some parking, car share and loading rules, FINALLY PASSED, Ayes: 11.",
     "Sep 29: the Board asked Planning to report on equity actions in the 2022 Housing Element (unanimous).",
     "Oct 6: the Fillmore Heritage Center parcels moved to the Mayor's Office of Housing and Community Development (11-0).",
-    "Oct 8 Planning Commission agenda: an informational presentation on a 45-story, 501-unit project at 395 3rd Street under SB 423 (state streamlined approval)."
+    "Oct 8 Planning Commission agenda: an informational presentation on a 45-story, 501-unit project at 395 3rd Street under SB 423 (state streamlined approval).",
+    "July 21: lower inclusionary (below-market-rate) housing requirements and impact fees FINALLY PASSED, Ayes: 9, Noes: 2 (Chen, Walton).",
+    "July 21: a loan of up to $27,248,500 for 216 affordable senior homes at 1234 Great Highway, and a 75-year ground lease for 187 affordable homes at 1939 Market Street (both 11-0).",
+    "July 28: the City will buy 758 Pacific Avenue for $2,178,786 and lend up to $13,666,153 toward 175 affordable homes for low-income seniors (11-0).",
+    "July 28: up to ten hotel rooms allowed as a conditional use in some residential districts, FINALLY PASSED, Ayes: 11.",
+    "Sept 1: after an appeal hearing, the Board upheld a two-unit condominium conversion map at 2722-2724 Folsom Street (11-0)."
    ],
    "keywords": [
     "housing",
@@ -715,6 +802,18 @@
     {
      "label": "Planning Commission agenda, Nov 5",
      "url": "https://sfplanning.org/sites/default/files/agendas/2026-10/20261105_cpc%20%28ID%201593881%29.pdf"
+    },
+    {
+     "label": "July 21 Board minutes",
+     "url": "https://media.api.sf.gov/documents/bag072126_minutes.pdf"
+    },
+    {
+     "label": "July 28 Board minutes",
+     "url": "https://media.api.sf.gov/documents/bag072826_minutes.pdf"
+    },
+    {
+     "label": "Sept 1 Board minutes (draft)",
+     "url": "https://media.api.sf.gov/documents/bag090126_minutes.pdf"
     }
    ],
    "scope": "all",
@@ -879,8 +978,8 @@
      "body": "Board of Supervisors",
      "url": "https://media.api.sf.gov/documents/bag072826_minutes.pdf",
      "d": {
-      "title": "Approved funding for 175 senior homes at 758 Pacific Avenue",
-      "detail": "File 260793: a $2,178,786 purchase and a loan of up to $13,666,153 for 175 senior units at 758 Pacific Avenue.",
+      "title": "City to buy 758 Pacific Avenue for 175 affordable senior homes",
+      "detail": "File 260793 (Resolution No. 451-26; Mayor, with Sauter): the City buys 758 Pacific Avenue for $2,178,786 from New Asia Housing, L.P. for the Mayor's Office of Housing and Community Development, which lends up to $13,666,153 for predevelopment of a 100% affordable, 175-unit rental building for low-income seniors. Includes 75-year ground leases for the housing and for community-serving commercial space at 772 Pacific Avenue.",
       "outcome": "ADOPTED, Ayes: 11",
       "moved_by": null,
       "seconded_by": null,
@@ -902,10 +1001,44 @@
       },
       "dissent": [],
       "topic": "Housing & zoning",
-      "dollars": null,
+      "dollars": 13666153,
       "ordinance_reading": null,
-      "needs_review": true,
-      "review_note": "The fetched summary of the minutes gave the amounts and unit count but not who is buying the site; confirm from the minutes before publishing."
+      "needs_review": false,
+      "review_note": null
+     }
+    },
+    {
+     "date": "2026-07-28",
+     "body": "Board of Supervisors",
+     "url": "https://media.api.sf.gov/documents/bag072826_minutes.pdf",
+     "d": {
+      "title": "Final approval: up to ten hotel rooms allowed in some residential districts",
+      "detail": "File 260282 (Ordinance No. 148-26).",
+      "outcome": "FINALLY PASSED, Ayes: 11",
+      "moved_by": null,
+      "seconded_by": null,
+      "roll_call": {
+       "yes": [
+        "Chan",
+        "Chen",
+        "Dorsey",
+        "Fielder",
+        "Mahmood",
+        "Mandelman",
+        "Melgar",
+        "Sauter",
+        "Sherrill",
+        "Walton",
+        "Wong"
+       ],
+       "no": []
+      },
+      "dissent": [],
+      "topic": "Housing & zoning",
+      "dollars": null,
+      "ordinance_reading": "final",
+      "needs_review": false,
+      "review_note": null
      }
     },
     {
@@ -1032,7 +1165,9 @@
     "Oct 6 introduced: Lark Inn youth shelter grant (Larkin Street Youth Services), total not to exceed $14,926,904.",
     "Oct 20 introduced: an application for up to $4.7 million in transitional housing funds and $588,826 in navigation funds for young adults.",
     "Sep 29: lease amendment for the department's 601 Van Ness offices at $345,840 a year (11-0).",
-    "Sep 29: the Board adopted its response to a Civil Grand Jury report on homelessness data (11-0)."
+    "Sep 29: the Board adopted its response to a Civil Grand Jury report on homelessness data (11-0).",
+    "July 21: Drug-Free Permanent Supportive Housing became City policy, FINALLY PASSED, Ayes: 7, Noes: 4 (Chan, Chen, Fielder, Walton). New site-based supportive housing funding must follow it.",
+    "July 28: the budget's trailing legislation suspends the cap on using Homelessness Gross Receipts Tax money for short-term rental subsidies (11-0), and the Board approved applying for more than $16,000,000 in federal Continuum of Care funds (10-0, Walton excused)."
    ],
    "keywords": [
     "homeless",
@@ -1058,6 +1193,14 @@
     {
      "label": "Mayor's budget signing release",
      "url": "https://www.sf.gov/news-mayor-lurie-signs-balanced-budge-strengthening-san-franciscos-social-safety-net-advancing-citys-economic-recover"
+    },
+    {
+     "label": "July 21 Board minutes",
+     "url": "https://media.api.sf.gov/documents/bag072126_minutes.pdf"
+    },
+    {
+     "label": "July 28 Board minutes",
+     "url": "https://media.api.sf.gov/documents/bag072826_minutes.pdf"
     }
    ],
    "scope": "council",
@@ -1222,7 +1365,9 @@
     "Sep 29: $3,000,000 gift for the SFPD Real Time Investigation Center, ADOPTED, Ayes: 11.",
     "Sep 29: Airport (File 261035) and Recreation and Park (File 261036) automated license plate reader policies assigned to Government Audit and Oversight under the 30-day rule.",
     "Oct 20 agenda: first readings of the Department of Elections security camera policy (File 260272) and the Fire Department social media monitoring policy (File 260414).",
-    "Oct 27: Fire Department social media monitoring policy and an amended Department of Elections policy FINALLY PASSED, Ayes: 11."
+    "Oct 27: Fire Department social media monitoring policy and an amended Department of Elections policy FINALLY PASSED, Ayes: 11.",
+    "June 30: the Board approved SFPD's 2025 Use of Equipment Policy Annual Report, 11-0.",
+    "Sept 9: the Police Commission asked for public comment on Department General Order 10.12, its policy on unmanned aircraft (drone) operations."
    ],
    "keywords": [
     "surveillance",
@@ -1243,9 +1388,17 @@
     {
      "label": "Oct 27 Board minutes (draft)",
      "url": "https://media.api.sf.gov/documents/bag102726_minutes.pdf"
+    },
+    {
+     "label": "June 30 Board minutes",
+     "url": "https://media.api.sf.gov/documents/bag063026_minutes_V2PNVk4.pdf"
+    },
+    {
+     "label": "Police Commission minutes, Sept 9",
+     "url": "https://media.api.sf.gov/documents/PoliceCommission10726_-_Minutes_Sept_9_2026_in-person.pdf"
     }
    ],
-   "scope": "council",
+   "scope": "all",
    "related": [
     {
      "date": "2026-09-29",
@@ -1276,6 +1429,386 @@
       "dissent": [],
       "topic": "Public safety",
       "dollars": 3000000,
+      "ordinance_reading": null,
+      "needs_review": false,
+      "review_note": null
+     }
+    },
+    {
+     "date": "2026-06-30",
+     "body": "Board of Supervisors",
+     "url": "https://media.api.sf.gov/documents/bag063026_minutes_V2PNVk4.pdf",
+     "d": {
+      "title": "Approved the Police Department's 2025 equipment use report",
+      "detail": "File 260626 (Mayor), the SFPD 2025 Use of Equipment Policy Annual Report.",
+      "outcome": "ADOPTED, Ayes: 11",
+      "moved_by": null,
+      "seconded_by": null,
+      "roll_call": {
+       "yes": [
+        "Chan",
+        "Chen",
+        "Dorsey",
+        "Fielder",
+        "Mahmood",
+        "Mandelman",
+        "Melgar",
+        "Sauter",
+        "Sherrill",
+        "Walton",
+        "Wong"
+       ],
+       "no": []
+      },
+      "dissent": [],
+      "topic": "Public safety",
+      "dollars": null,
+      "ordinance_reading": null,
+      "needs_review": false,
+      "review_note": null
+     }
+    }
+   ]
+  },
+  {
+   "id": "landmarks",
+   "title": "New City landmarks",
+   "topic": "Historic preservation",
+   "status": "22 landmarks designated Sept 1; 12 more introduced",
+   "next": "Files 260914 to 260925, more landmark designations, went to committee on Sept 1. Changes to existing landmarks go to the Historic Preservation Commission, which has three on its Nov 4 agenda.",
+   "summary": "The Board designated 22 City landmarks in one sitting on Sept 1, most of them homes, after passing them on first reading July 28. It also gave final approval to the House of Latin Rock in July and expanded the Compton's Cafeteria Riot landmark in October.",
+   "points": [
+    "July 28: 22 designations passed first reading, 10-0 (Walton excused).",
+    "Sept 1: all 22 FINALLY PASSED, Ayes: 11. They include Holy Innocents Church (455 Fair Oaks St), Mission Congregational Church (3689 19th St), Second Church of Christ Scientist (651 Dolores St), the Phoenix Brewery (552 Noe St), Engine Company No. 33 (117 Broad St) and the Richard Spreckels Mansion (737 Buena Vista Ave West).",
+    "July 28: the House of Latin Rock at 2880 25th Street FINALLY PASSED, Ayes: 11.",
+    "Oct 20: the expanded landmark for the Site of the Compton's Cafeteria Riot (101-121 Taylor Street) FINALLY PASSED, Ayes: 9 (Chen and Melgar excused).",
+    "Nov 4 Historic Preservation Commission agenda: changes at the Quinn House (1562 McKinnon Ave), 22 Beaver St and the theater at 2261 Fillmore St."
+   ],
+   "keywords": [
+    "landmark",
+    "historic",
+    "Article 10",
+    "Historic Preservation Commission",
+    "House of Latin Rock",
+    "Compton's Cafeteria"
+   ],
+   "sources": [
+    {
+     "label": "Sept 1 Board minutes (draft)",
+     "url": "https://media.api.sf.gov/documents/bag090126_minutes.pdf"
+    },
+    {
+     "label": "July 28 Board minutes",
+     "url": "https://media.api.sf.gov/documents/bag072826_minutes.pdf"
+    },
+    {
+     "label": "Historic Preservation Commission agenda, Nov 4",
+     "url": "https://sfplanning.org/sites/default/files/agendas/2026-10/20261104_hpc%20%28ID%201593689%29.pdf"
+    }
+   ],
+   "scope": "all",
+   "related": [
+    {
+     "date": "2026-10-20",
+     "body": "Board of Supervisors",
+     "url": "https://media.api.sf.gov/documents/bag102026_minutes.pdf",
+     "d": {
+      "title": "Final approval: expanded landmark designation for the Site of the Compton's Cafeteria Riot",
+      "detail": "File 260415. Expands Landmark No. 307 to include the whole building at 101-121 Taylor Street and widens its period of significance.",
+      "outcome": "FINALLY PASSED, Ayes: 9, Excused: 2",
+      "moved_by": null,
+      "seconded_by": null,
+      "roll_call": {
+       "yes": [
+        "Chan",
+        "Dorsey",
+        "Fielder",
+        "Mahmood",
+        "Mandelman",
+        "Sauter",
+        "Sherrill",
+        "Walton",
+        "Wong"
+       ],
+       "no": []
+      },
+      "dissent": [],
+      "topic": "Historic preservation",
+      "dollars": null,
+      "ordinance_reading": "final",
+      "needs_review": false,
+      "review_note": null
+     }
+    },
+    {
+     "date": "2026-09-01",
+     "body": "Board of Supervisors",
+     "url": "https://media.api.sf.gov/documents/bag090126_minutes.pdf",
+     "d": {
+      "title": "Final approval: 22 new City landmarks",
+      "detail": "Files 260570 to 260584, 260587 to 260590, 260681, 260682 and 260754, mostly homes, plus Holy Innocents Church (455 Fair Oaks St), Mission Congregational Church (3689 19th St), Second Church of Christ Scientist (651 Dolores St), the Phoenix Brewery (552 Noe St) and Engine Company No. 33 (117 Broad St).",
+      "outcome": "FINALLY PASSED, Ayes: 11 (each)",
+      "moved_by": null,
+      "seconded_by": null,
+      "roll_call": {
+       "yes": [
+        "Chan",
+        "Chen",
+        "Dorsey",
+        "Fielder",
+        "Mahmood",
+        "Mandelman",
+        "Melgar",
+        "Sauter",
+        "Sherrill",
+        "Walton",
+        "Wong"
+       ],
+       "no": []
+      },
+      "dissent": [],
+      "topic": "Historic preservation",
+      "dollars": null,
+      "ordinance_reading": "final",
+      "needs_review": false,
+      "review_note": null
+     }
+    },
+    {
+     "date": "2026-07-28",
+     "body": "Board of Supervisors",
+     "url": "https://media.api.sf.gov/documents/bag072826_minutes.pdf",
+     "d": {
+      "title": "First reading: 22 new City landmarks",
+      "detail": "Files 260570 to 260584, 260587 to 260590, 260681, 260682 and 260754, mostly homes, plus Holy Innocents Church (455 Fair Oaks St), Mission Congregational Church (3689 19th St), Second Church of Christ Scientist (651 Dolores St), the Phoenix Brewery (552 Noe St) and Engine Company No. 33 (117 Broad St).",
+      "outcome": "PASSED ON FIRST READING, Ayes: 10, Excused: 1 (Walton) (each)",
+      "moved_by": null,
+      "seconded_by": null,
+      "roll_call": {
+       "yes": [
+        "Chan",
+        "Chen",
+        "Dorsey",
+        "Fielder",
+        "Mahmood",
+        "Mandelman",
+        "Melgar",
+        "Sauter",
+        "Sherrill",
+        "Wong"
+       ],
+       "no": []
+      },
+      "dissent": [],
+      "topic": "Historic preservation",
+      "dollars": null,
+      "ordinance_reading": "first",
+      "needs_review": false,
+      "review_note": null
+     }
+    },
+    {
+     "date": "2026-07-28",
+     "body": "Board of Supervisors",
+     "url": "https://media.api.sf.gov/documents/bag072826_minutes.pdf",
+     "d": {
+      "title": "Final approval: House of Latin Rock landmark at 2880 25th Street",
+      "detail": "File 260698 (Ordinance No. 152-26; Fielder, Mandelman, Melgar).",
+      "outcome": "FINALLY PASSED, Ayes: 11",
+      "moved_by": null,
+      "seconded_by": null,
+      "roll_call": {
+       "yes": [
+        "Chan",
+        "Chen",
+        "Dorsey",
+        "Fielder",
+        "Mahmood",
+        "Mandelman",
+        "Melgar",
+        "Sauter",
+        "Sherrill",
+        "Walton",
+        "Wong"
+       ],
+       "no": []
+      },
+      "dissent": [],
+      "topic": "Historic preservation",
+      "dollars": null,
+      "ordinance_reading": "final",
+      "needs_review": false,
+      "review_note": null
+     }
+    }
+   ]
+  },
+  {
+   "id": "streettrees",
+   "title": "Street tree rules and fees",
+   "topic": "Environment & resilience",
+   "status": "Passed first reading 7-4 on Sept 1",
+   "next": "The final vote was due at a later meeting; the Sept 15 and Sept 22 minutes could not be opened for this update.",
+   "summary": "An ordinance from Mayor Lurie and Supervisor Wong changes the City's street tree standards and the in-lieu fees (paid instead of planting a required tree), exempts accessory dwelling units (ADUs), and changes appeals.",
+   "points": [
+    "Sept 1: PASSED ON FIRST READING, Ayes: 7, Noes: 4 (Chan, Fielder, Sauter, Walton)."
+   ],
+   "keywords": [
+    "street trees",
+    "trees",
+    "in-lieu fee",
+    "ADU",
+    "251211"
+   ],
+   "sources": [
+    {
+     "label": "Sept 1 Board minutes (draft)",
+     "url": "https://media.api.sf.gov/documents/bag090126_minutes.pdf"
+    }
+   ],
+   "scope": "council",
+   "related": [
+    {
+     "date": "2026-09-01",
+     "body": "Board of Supervisors",
+     "url": "https://media.api.sf.gov/documents/bag090126_minutes.pdf",
+     "d": {
+      "title": "First reading: new street tree rules, in-lieu fees and an exemption for ADUs",
+      "detail": "File 251211 (Mayor, with Wong) changes street tree standards and in-lieu fees (paid instead of planting a tree), exempts accessory dwelling units (ADUs), and changes appeals.",
+      "outcome": "PASSED ON FIRST READING, Ayes: 7, Noes: 4 (Chan, Fielder, Sauter, Walton)",
+      "moved_by": null,
+      "seconded_by": null,
+      "roll_call": {
+       "yes": [
+        "Chen",
+        "Dorsey",
+        "Mahmood",
+        "Mandelman",
+        "Melgar",
+        "Sherrill",
+        "Wong"
+       ],
+       "no": [
+        "Chan",
+        "Fielder",
+        "Sauter",
+        "Walton"
+       ]
+      },
+      "dissent": [
+       "Chan",
+       "Fielder",
+       "Sauter",
+       "Walton"
+      ],
+      "topic": "Environment & resilience",
+      "dollars": null,
+      "ordinance_reading": "first",
+      "needs_review": false,
+      "review_note": null
+     }
+    }
+   ],
+   "needs_review": true,
+   "review_note": "Final passage not confirmed: the Sept 15 and Sept 22 Board minutes could not be opened."
+  },
+  {
+   "id": "kaiser",
+   "title": "Kaiser Permanente and its healthcare workers' union",
+   "topic": "Health & human services",
+   "status": "Board hearing held July 21; resolution adopted Sept 1",
+   "next": "No further Board action was scheduled in the minutes opened for this update.",
+   "summary": "Supervisor Chen called a Committee of the Whole hearing (the full Board sitting as a committee) on Kaiser Permanente and the National Union of Healthcare Workers, covering collective bargaining and behavioral health care practices. On Sept 1 the Board urged Kaiser to drop what the resolution calls its \"Terrible Three\" contract demands.",
+   "points": [
+    "June 30: hearing scheduled, 11-0.",
+    "July 21: hearing held and filed.",
+    "Sept 1: resolution adopted, Ayes: 10 (Melgar absent)."
+   ],
+   "keywords": [
+    "Kaiser",
+    "NUHW",
+    "National Union of Healthcare Workers",
+    "behavioral health",
+    "union"
+   ],
+   "sources": [
+    {
+     "label": "June 30 Board minutes",
+     "url": "https://media.api.sf.gov/documents/bag063026_minutes_V2PNVk4.pdf"
+    },
+    {
+     "label": "July 21 Board minutes",
+     "url": "https://media.api.sf.gov/documents/bag072126_minutes.pdf"
+    },
+    {
+     "label": "Sept 1 Board minutes (draft)",
+     "url": "https://media.api.sf.gov/documents/bag090126_minutes.pdf"
+    }
+   ],
+   "scope": "council",
+   "related": [
+    {
+     "date": "2026-09-01",
+     "body": "Board of Supervisors",
+     "url": "https://media.api.sf.gov/documents/bag090126_minutes.pdf",
+     "d": {
+      "title": "Urged Kaiser Permanente to drop three contract demands",
+      "detail": "File 260887 (Chen) urges Kaiser Permanente to drop what the resolution calls its \"Terrible Three\" contract demands. Supervisor Melgar had left the meeting.",
+      "outcome": "ADOPTED, Ayes: 10, Absent: 1 (Melgar)",
+      "moved_by": null,
+      "seconded_by": null,
+      "roll_call": {
+       "yes": [
+        "Chan",
+        "Chen",
+        "Dorsey",
+        "Fielder",
+        "Mahmood",
+        "Mandelman",
+        "Sauter",
+        "Sherrill",
+        "Walton",
+        "Wong"
+       ],
+       "no": []
+      },
+      "dissent": [],
+      "topic": "Health & human services",
+      "dollars": null,
+      "ordinance_reading": null,
+      "needs_review": false,
+      "review_note": null
+     }
+    },
+    {
+     "date": "2026-06-30",
+     "body": "Board of Supervisors",
+     "url": "https://media.api.sf.gov/documents/bag063026_minutes_V2PNVk4.pdf",
+     "d": {
+      "title": "Scheduled a July 21 hearing on Kaiser Permanente and its healthcare workers union",
+      "detail": "File 260746 (Chen) sets a Committee of the Whole hearing (the full Board sitting as a committee) for July 21, 2026 at 3:00 p.m. on Kaiser Permanente and the National Union of Healthcare Workers (NUHW). It was held and filed July 21.",
+      "outcome": "APPROVED, Ayes: 11",
+      "moved_by": null,
+      "seconded_by": null,
+      "roll_call": {
+       "yes": [
+        "Chan",
+        "Chen",
+        "Dorsey",
+        "Fielder",
+        "Mahmood",
+        "Mandelman",
+        "Melgar",
+        "Sauter",
+        "Sherrill",
+        "Walton",
+        "Wong"
+       ],
+       "no": []
+      },
+      "dissent": [],
+      "topic": "Health & human services",
+      "dollars": null,
       "ordinance_reading": null,
       "needs_review": false,
       "review_note": null
@@ -3021,8 +3554,8 @@
      "review_note": null
     },
     {
-     "title": "Approved funding for 175 senior homes at 758 Pacific Avenue",
-     "detail": "File 260793: a $2,178,786 purchase and a loan of up to $13,666,153 for 175 senior units at 758 Pacific Avenue.",
+     "title": "City to buy 758 Pacific Avenue for 175 affordable senior homes",
+     "detail": "File 260793 (Resolution No. 451-26; Mayor, with Sauter): the City buys 758 Pacific Avenue for $2,178,786 from New Asia Housing, L.P. for the Mayor's Office of Housing and Community Development, which lends up to $13,666,153 for predevelopment of a 100% affordable, 175-unit rental building for low-income seniors. Includes 75-year ground leases for the housing and for community-serving commercial space at 772 Pacific Avenue.",
      "outcome": "ADOPTED, Ayes: 11",
      "moved_by": null,
      "seconded_by": null,
@@ -3044,10 +3577,10 @@
      },
      "dissent": [],
      "topic": "Housing & zoning",
-     "dollars": null,
+     "dollars": 13666153,
      "ordinance_reading": null,
-     "needs_review": true,
-     "review_note": "The fetched summary of the minutes gave the amounts and unit count but not who is buying the site; confirm from the minutes before publishing."
+     "needs_review": false,
+     "review_note": null
     },
     {
      "title": "First reading: 22 new City landmarks",
@@ -3253,7 +3786,7 @@
     ],
     "absent": []
    },
-   "headline": "The Board passed the two-year City budget on first reading 11-0, gave final approval to lower inclusionary housing requirements (9-2) and the drug-free supportive housing policy (7-4), and formed the Downtown Community Benefit District.",
+   "headline": "The Board passed the two-year City budget on first reading 11-0, gave final approval to lower inclusionary housing requirements (9-2) and the drug-free supportive housing policy (7-4), and renewed and expanded the Downtown Community Benefit District.",
    "decisions": [
     {
      "title": "First reading: the two-year City budget",
@@ -3421,8 +3954,8 @@
      "review_note": null
     },
     {
-     "title": "Formed the renewed Downtown Community Benefit District",
-     "detail": "File 260468 (Sauter) establishes the district for 10 years starting in FY2026-27, after a Committee of the Whole hearing. Weighted ballots were 85.15% in favor and 14.85% against, with no majority protest. Supervisor Chan had been excused.",
+     "title": "Renewed and expanded the Downtown Community Benefit District",
+     "detail": "File 260468 (Sauter) establishes the district for 10 years starting in FY2026-27, after a Committee of the Whole hearing on its renewal and expansion (File 260469, heard and filed). In a community benefit district, property owners pay an assessment for extra local services. Weighted ballots were 85.15% in favor and 14.85% against, with no majority protest. Supervisor Chan had been excused.",
      "outcome": "ADOPTED, Ayes: 10, Excused: 1 (Chan)",
      "moved_by": null,
      "seconded_by": null,
@@ -4489,7 +5022,7 @@
      "review_note": null
     },
     {
-     "title": "Accepted the Police Department's 2025 equipment use report",
+     "title": "Approved the Police Department's 2025 equipment use report",
      "detail": "File 260626 (Mayor), the SFPD 2025 Use of Equipment Policy Annual Report.",
      "outcome": "ADOPTED, Ayes: 11",
      "moved_by": null,
@@ -4702,9 +5235,215 @@
     }
    ],
    "policy_items": [
-    "Adoption of the Oct 8 and Oct 15 draft minutes."
+    {
+     "title": "Minutes",
+     "detail": "Adoption of the Oct 8 and Oct 15 draft minutes.",
+     "topic": "Government & elections",
+     "needs_review": false,
+     "review_note": null
+    }
    ],
    "record_note": "Agenda for a meeting the day after this update; outcomes are not in yet."
+  },
+  {
+   "body": "Historic Preservation Commission",
+   "date": "2026-11-04",
+   "record_url": "https://sfplanning.org/sites/default/files/agendas/2026-10/20261104_hpc%20%28ID%201593689%29.pdf",
+   "record_type": "agenda only",
+   "headline": "Agenda for Nov 4: changes at three landmarks, including front yard work at the Quinn House (1562 McKinnon Ave), a rear expansion at 22 Beaver St and revisions to the approved rehabilitation of the single-screen movie theater at 2261 Fillmore St.",
+   "items": [
+    {
+     "address": "1562 McKinnon Ave (Landmark No. 63, Quinn House)",
+     "applicant": null,
+     "request": "Certificate of appropriateness (permission to change a landmark) to remove unpermitted front yard features, legalize a retaining wall and fence, add landscaping and build a driveway gate, plus a variance (permission to break a specific rule for one property) for an 8-foot-1-inch fence and an 8-foot gate in the front yard. Staff recommends approval with conditions.",
+     "decision": null,
+     "vote": null,
+     "conditions": [],
+     "topic": "Historic preservation",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "address": "22 Beaver St (Landmark No. 284)",
+     "applicant": null,
+     "request": "Certificate of appropriateness for a rear expansion, new door and window openings, removing rear exterior stairs and adding rear decks, plus a rear yard variance to raise the rear roof up to 5 feet 3 inches. Staff recommends approval with conditions.",
+     "decision": null,
+     "vote": null,
+     "conditions": [],
+     "topic": "Historic preservation",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "address": "2261 Fillmore St (Landmark No. 302)",
+     "applicant": null,
+     "request": "Revisions to the approved rehabilitation of this single-screen movie theater: in-kind plaster replacement, strengthening the signage, and replacing the ticket booth and cladding. Staff recommends approval with conditions.",
+     "decision": null,
+     "vote": null,
+     "conditions": [],
+     "topic": "Historic preservation",
+     "needs_review": false,
+     "review_note": null
+    }
+   ],
+   "policy_items": [
+    {
+     "title": "Minutes",
+     "detail": "Adoption of the Oct 21 draft minutes.",
+     "topic": "Government & elections",
+     "needs_review": false,
+     "review_note": null
+    }
+   ],
+   "record_note": "Agenda for today's hearing; outcomes are not in yet. Historic Preservation Commission and Planning Commission minutes are posted on the Planning Department's minutes server (citypln-m-extnl.sfgov.org), which could not be opened for this update."
+  },
+  {
+   "body": "Historic Preservation Commission",
+   "date": "2026-10-21",
+   "record_url": "https://sfplanning.org/sites/default/files/agendas/2026-10/20261021_hpc%20%28ID%201591774%29.pdf",
+   "record_type": "agenda only",
+   "headline": "Agenda for Oct 21: Legacy Business Registry recommendations for eight businesses, Mills Act contracts for four historic buildings including 1-25 Montgomery St and 2261 Fillmore St, and support for a National Register nomination of the Ingleside Terraces Historic District.",
+   "items": [
+    {
+     "address": "Eight businesses citywide",
+     "applicant": null,
+     "request": "Recommendations to the Small Business Commission to add Alamo Square Cleaners (536 Divisadero St), 17th Noe Market (3900 17th St), San Francisco Tsunami Aquatics (584 Castro St), Sacket Design (1069-1073 Howard St), Micro-Tracers, Inc. (1370 Van Dyke Ave), Mars Bar and Restaurant (798 Brannan St), Growney Dental Group (790 Ulloa St) and Duxwell Printing (37 Wentworth Pl) to the Legacy Business Registry. Preliminary recommendation for each: approve.",
+     "decision": null,
+     "vote": null,
+     "conditions": [],
+     "topic": "Downtown & business",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "address": "555 Pacific Ave (Jackson Square Historic District)",
+     "applicant": null,
+     "request": "Certificate of appropriateness (permission to alter a historic property) to replace a non-historic security fence with a glass storefront, restore entry tile and install new glass doors. Staff recommends approval.",
+     "decision": null,
+     "vote": null,
+     "conditions": [],
+     "topic": "Historic preservation",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "address": "1-25 Montgomery St (Landmark No. 297), 67 Potomac St, 100 McAllister St and 2261 Fillmore St (Landmark No. 302)",
+     "applicant": null,
+     "request": "Recommendations to the Board of Supervisors on Mills Act contracts (agreements that lower property taxes in exchange for preserving a historic building) for the former First National Bank headquarters, an 1899 Queen Anne house in the Duboce Park Historic District, the former William Taylor Hotel and Temple Methodist Church, and an early 20th-century nickelodeon theater. Staff recommends approval.",
+     "decision": null,
+     "vote": null,
+     "conditions": [],
+     "topic": "Historic preservation",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "address": "Ingleside Terraces (District 7)",
+     "applicant": null,
+     "request": "Resolution supporting the Ingleside Terraces Historic District's nomination to the National Register of Historic Places. Staff recommends adoption.",
+     "decision": null,
+     "vote": null,
+     "conditions": [],
+     "topic": "Historic preservation",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "address": "Marina Neighborhood Commercial Districts",
+     "applicant": null,
+     "request": "Adopt, modify or reject Phase 1 SF Survey findings for the Marina commercial districts. No designations are proposed. Staff recommends adoption.",
+     "decision": null,
+     "vote": null,
+     "conditions": [],
+     "topic": "Historic preservation",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "address": "Citywide",
+     "applicant": null,
+     "request": "Adopt, modify or reject a historic context statement on ten 20th Century Revival architectural styles from 1900 to 1950 (a framework for judging buildings in those styles). Staff recommends adoption.",
+     "decision": null,
+     "vote": null,
+     "conditions": [],
+     "topic": "Historic preservation",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "address": "U.S. Grant Monument",
+     "applicant": null,
+     "request": "Comment letter on the monument's restoration, continued from Sept 16 and proposed for continuance to Dec 2, 2026.",
+     "decision": null,
+     "vote": null,
+     "conditions": [],
+     "topic": "Historic preservation",
+     "needs_review": false,
+     "review_note": null
+    }
+   ],
+   "policy_items": [
+    {
+     "title": "Minutes",
+     "detail": "Adoption of the Sept 16 draft minutes.",
+     "topic": "Government & elections",
+     "needs_review": false,
+     "review_note": null
+    }
+   ],
+   "record_note": "Agenda only. The Commission's actions are recorded in its minutes, which sit on the Planning Department's minutes server and could not be opened for this update."
+  },
+  {
+   "body": "SFMTA Board of Directors",
+   "date": "2026-10-20",
+   "record_url": "https://www.sfmta.com/media/50323/download",
+   "record_type": "agenda only",
+   "headline": "Agenda for Oct 20: amendments to labor agreements with the Municipal Executives Association, SEIU Local 1021 and the Transport Workers Union through June 30, 2031, and parking changes on Irving Street and 23rd Street.",
+   "items": [
+    {
+     "address": null,
+     "applicant": null,
+     "request": "Adopt amendments to labor agreements (memoranda of understanding) for July 1, 2024 to June 30, 2031 with the Municipal Executives Association, SEIU Local 1021 and Transport Workers Union Local 200.",
+     "decision": null,
+     "vote": null,
+     "conditions": [],
+     "topic": "Budget & taxes",
+     "needs_review": true,
+     "review_note": "The agenda names TWU Local 200 in this item but TWU Local 250A (transit operators) in its closed session; outcome not yet posted."
+    },
+    {
+     "address": "Irving St, north side, 82 to 102 feet east of 15th Ave",
+     "applicant": null,
+     "request": "Change angled parking to perpendicular parking (consent calendar).",
+     "decision": null,
+     "vote": null,
+     "conditions": [],
+     "topic": "Parking & transportation",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "address": "23rd St at Vermont St",
+     "applicant": null,
+     "request": "Remove a bus zone and add a tow-away, no stopping any time zone on the north side (consent calendar).",
+     "decision": null,
+     "vote": null,
+     "conditions": [],
+     "topic": "Parking & transportation",
+     "needs_review": false,
+     "review_note": null
+    }
+   ],
+   "policy_items": [
+    {
+     "title": "Minutes",
+     "detail": "Approval of the October 5 special meeting and October 6 regular meeting minutes.",
+     "topic": "Government & elections",
+     "needs_review": false,
+     "review_note": null
+    }
+   ],
+   "record_note": "Agenda only; minutes are posted after the Board approves them."
   },
   {
    "body": "Planning Commission",
@@ -4770,7 +5509,13 @@
     }
    ],
    "policy_items": [
-    "Adoption of the Sep 24 and Oct 1 draft minutes."
+    {
+     "title": "Minutes",
+     "detail": "Adoption of the Sep 24 and Oct 1 draft minutes.",
+     "topic": "Government & elections",
+     "needs_review": false,
+     "review_note": null
+    }
    ],
    "record_note": "Agenda only. The Planning Commission's actions are recorded in its minutes, which were not opened for this update. The Commission canceled its Oct 22 and Oct 29 meetings."
   },
@@ -4827,9 +5572,190 @@
     }
    ],
    "policy_items": [
-    "Adoption of the Sep 17 draft minutes."
+    {
+     "title": "Minutes",
+     "detail": "Adoption of the Sep 17 draft minutes.",
+     "topic": "Government & elections",
+     "needs_review": false,
+     "review_note": null
+    }
    ],
    "record_note": "Agenda only. The Planning Commission's actions are recorded in its minutes, which were not opened for this update. The Commission canceled its Oct 22 and Oct 29 meetings."
+  },
+  {
+   "body": "SFMTA Board of Directors",
+   "date": "2026-10-06",
+   "record_url": "https://www.sfmta.com/media/50318/download",
+   "record_type": "minutes",
+   "headline": "The SFMTA Board opened transit-only lanes on Sansome Street and 1st Street to general traffic, approved a weekend shared-space closure of Dodge Street, up to $8,871,652 toward BART's Embarcadero Station escalator rehabilitation, and a request for proposals for security services.",
+   "items": [
+    {
+     "address": "Sansome St, Broadway to Washington St",
+     "applicant": null,
+     "request": "Convert a transit and commercial vehicle-only lane to a general-purpose lane, and change parking and loading.",
+     "decision": "Adopted (Resolution No. 261006-076)",
+     "vote": "passed 6-0 (Felder, Heminger, Henderson, Hinze, Cajina, Tarlov)",
+     "conditions": [],
+     "topic": "Parking & transportation",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "address": "1st St, Market St to Mission St",
+     "applicant": null,
+     "request": "Convert a bus and taxi-only lane to a general-purpose lane and remove a left-turn restriction.",
+     "decision": "Adopted (Resolution No. 261006-077)",
+     "vote": "passed 6-0 (Felder, Heminger, Henderson, Hinze, Cajina, Tarlov)",
+     "conditions": [],
+     "topic": "Parking & transportation",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "address": "Dodge St, Turk St to its southern end",
+     "applicant": null,
+     "request": "Roadway Shared Spaces street closure Thursday through Sunday, 3 p.m. to 10 p.m., from October 10, 2026 to October 10, 2027.",
+     "decision": "Adopted on the consent calendar (Resolution No. 261006-078)",
+     "vote": "consent calendar",
+     "conditions": [],
+     "topic": "Downtown & business",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "address": "Embarcadero Station",
+     "applicant": null,
+     "request": "Agreement with BART to rehabilitate the station's escalators, with SFMTA payments to BART not to exceed $8,871,652.",
+     "decision": "Adopted (Resolution No. 261006-080)",
+     "vote": "passed 6-0 (Felder, Heminger, Henderson, Hinze, Cajina, Tarlov)",
+     "conditions": [],
+     "topic": "Parking & transportation",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "address": null,
+     "applicant": null,
+     "request": "Issue a request for proposals for armed and unarmed security services (Contract No. SFMTA-2026-47-LOC), three years plus a two-year option.",
+     "decision": "Adopted (Resolution No. 261006-081)",
+     "vote": "passed 6-0 (Felder, Heminger, Henderson, Hinze, Cajina, Tarlov)",
+     "conditions": [],
+     "topic": "Public safety",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "address": "Gamble Park",
+     "applicant": null,
+     "request": "Retroactively accept a gift of about $24,000 from the Civic Joy Fund for Phase 2 improvements.",
+     "decision": "Adopted (Resolution No. 261006-079)",
+     "vote": "passed 6-0 (Felder, Heminger, Henderson, Hinze, Cajina, Tarlov)",
+     "conditions": [],
+     "topic": "Parks & recreation",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "address": "Citywide",
+     "applicant": null,
+     "request": "Routine parking and traffic changes (Items A to L), including on Marin, Colton, North Point, Bryant and Geary Streets, Cunningham Place and Peters Avenue.",
+     "decision": "Adopted on the consent calendar (Resolution No. 261006-075)",
+     "vote": "consent calendar",
+     "conditions": [],
+     "topic": "Parking & transportation",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "address": null,
+     "applicant": null,
+     "request": "Collection claim against Cruise, LLC for $130,287.08 owed to SFMTA for damage to its property.",
+     "decision": "Adopted on the consent calendar (Resolution No. 261006-074)",
+     "vote": "consent calendar",
+     "conditions": [],
+     "topic": "Parking & transportation",
+     "needs_review": false,
+     "review_note": null
+    }
+   ],
+   "policy_items": [
+    {
+     "title": "E-devices and e-mobility safety",
+     "detail": "Presentation on an E-Devices Safe System Approach and the E-Mobility Working Group. No action.",
+     "topic": "Parking & transportation",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Minutes",
+     "detail": "Approved the September 1, 2026 regular meeting minutes (6-0).",
+     "topic": "Government & elections",
+     "needs_review": false,
+     "review_note": null
+    }
+   ]
+  },
+  {
+   "body": "Police Commission",
+   "date": "2026-09-09",
+   "record_url": "https://media.api.sf.gov/documents/PoliceCommission10726_-_Minutes_Sept_9_2026_in-person.pdf",
+   "record_type": "minutes",
+   "headline": "The Commission received and filed the Department's 2026 awards certification, the Department of Police Accountability's second-quarter report and a $97,000 narcotics-detection dog grant, and heard that Part 1 crime was down 18% for the year.",
+   "items": [
+    {
+     "address": null,
+     "applicant": null,
+     "request": "Consent calendar: receive and file the 2026 SFPD Department Awards Certification, the Department of Police Accountability's Q2 2026 Quarterly Report, and a grant and cost-sharing agreement from the Northern California High Intensity Drug Trafficking Area for a narcotics detecting canine valued at $97,000. The 2026 first and second quarter Live Monitoring Report was pulled for a presentation in the fall.",
+     "decision": "Received and filed",
+     "vote": "passed 6-0 (Clay, Tekkey, Benedicto, Leung, Scott, Low; Elias excused)",
+     "conditions": [],
+     "topic": "Public safety",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "address": null,
+     "applicant": null,
+     "request": "Closed session on a motion in an internal affairs disciplinary case.",
+     "decision": "No action recorded; the Commission voted not to disclose the closed session discussion",
+     "vote": "passed 7-0",
+     "conditions": [],
+     "topic": "Public safety",
+     "needs_review": false,
+     "review_note": null
+    }
+   ],
+   "policy_items": [
+    {
+     "title": "Chief's report: crime trends",
+     "detail": "Chief Lew reported Part 1 crime down 18% year to date, violent crime down 9% and property crime down 19%, no shootings in the period, and 16 homicides year to date, the same as 2025. The Retail Theft Task Force reported 844 retail theft arrests in six months and more than $410,000 in merchandise recovered.",
+     "topic": "Public safety",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Police academy",
+     "detail": "82 recruits are enrolled, with 42 expected to graduate in January 2027.",
+     "topic": "Public safety",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Department of Police Accountability",
+     "detail": "The DPA opened 22 cases and closed 24 in the period, and is building a public legislation dashboard and a record tracking system.",
+     "topic": "Public safety",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Drone policy out for public comment",
+     "detail": "The Commission asked for public comment on Department General Order 10.12 (Unmanned Aircraft Systems Operations), posted on the Commission website. It will also start developing performance reviews for the Chief and the DPA Executive Director with the City Attorney's Office.",
+     "topic": "Public safety",
+     "needs_review": false,
+     "review_note": null
+    }
+   ],
+   "record_note": "The most recent Police Commission minutes posted where this update could reach them. Two agenda items were pulled to be rescheduled. The meeting adjourned at 7:10 p.m."
   }
  ],
  "officials": {
@@ -4954,12 +5880,28 @@
   "rollCallNote": "San Francisco minutes list Ayes and Noes by name for every vote, so per-member records are complete for the meetings in this file.",
   "committees": [
    {
-    "name": "Budget and Finance (and Budget and Appropriations)",
+    "name": "Budget and Finance",
     "chair": "Dorsey",
     "vice": "Chen",
     "members": [
      "Sauter"
-    ]
+    ],
+    "meets": "Wednesdays, 10 AM, City Hall Room 244",
+    "clerk": "Brent Jalipa",
+    "url": "https://www.sf.gov/department-budget-and-finance-committee/"
+   },
+   {
+    "name": "Budget and Appropriations",
+    "chair": "Dorsey",
+    "vice": "Chen",
+    "members": [
+     "Sauter",
+     "Walton",
+     "Chan"
+    ],
+    "meets": "Wednesdays, 1:30 PM, City Hall Room 244, February 1 to August 1 (budget season)",
+    "clerk": "Brent Jalipa",
+    "url": "https://www.sf.gov/department-budget-appropriations-committee/"
    },
    {
     "name": "Land Use and Transportation",
@@ -4967,7 +5909,10 @@
     "vice": "Chen",
     "members": [
      "Dorsey"
-    ]
+    ],
+    "meets": "Mondays, 1:30 PM, City Hall Room 244",
+    "clerk": "John Carroll",
+    "url": "https://www.sf.gov/department-land-use-and-transportation-committee/"
    },
    {
     "name": "Government Audit and Oversight",
@@ -4975,7 +5920,10 @@
     "vice": "Fielder",
     "members": [
      "Wong"
-    ]
+    ],
+    "meets": "1st and 3rd Thursdays, 10 AM, City Hall Room 244",
+    "clerk": "Monique Crayton",
+    "url": "https://www.sf.gov/department-government-audit-oversight-committee/"
    },
    {
     "name": "Rules",
@@ -4983,29 +5931,33 @@
     "vice": "Sherrill",
     "members": [
      "Mandelman"
-    ]
+    ],
+    "meets": "Mondays, 10 AM, City Hall Room 244",
+    "clerk": "Victor Young",
+    "url": "https://www.sf.gov/department-rules-committee/"
    },
    {
     "name": "Public Safety and Neighborhood Services",
     "chair": "Sauter",
     "vice": "Mahmood",
     "members": [
-     "Wong",
-     "Walton",
-     "Chan"
-    ]
+     "Wong"
+    ],
+    "meets": "2nd and 4th Thursdays, 10 AM, Legislative Chamber (City Hall Room 250)",
+    "clerk": "Monique Crayton",
+    "url": "https://www.sf.gov/department-public-safety-and-neighborhood-services-committee/"
    }
   ],
-  "committeesSource": "https://media.api.sf.gov/documents/Committee_Assignments_August_2026.pdf",
-  "committeesNote": "Committee assignments by Board President Mandelman, effective August 17, 2026.",
+  "committeesSource": "https://www.sf.gov/department-budget-and-finance-committee/",
+  "committeesNote": "Membership, meeting times and clerks from each committee's sf.gov page, read Nov 4, 2026 (assignments by Board President Mandelman, effective August 17, 2026). Budget and Finance and Budget and Appropriations are separate committees; Walton and Chan sit only on Budget and Appropriations, which meets during budget season.",
   "staff": [
    {
-    "name": "David Chiu",
-    "role": "City Attorney",
+    "name": "Carmen Chu",
+    "role": "City Administrator",
     "since": null,
-    "note": "Elected citywide. The City's lawyer.",
-    "phone": "415-554-4700",
-    "source": "https://www.sf.gov/cityattorney"
+    "note": "The City Administrator's office runs more than 20 departments, divisions and programs with over 1,000 staff, including 311, Animal Care and Control, the Department of Technology, the Real Estate Division and Risk Management. City Hall Room 362.",
+    "phone": "628-652-1300",
+    "source": "https://www.sf.gov/departments--city-administrator"
    },
    {
     "name": "Greg Wagner",
@@ -5014,6 +5966,22 @@
     "note": "Named as Controller in the Mayor's proposed FY27 and FY28 budget book.",
     "phone": null,
     "source": "https://media.api.sf.gov/documents/Mayors_June_1st_Proposed_FY27_and_FY28_Budget_Budget_Book.pdf"
+   },
+   {
+    "name": "Angela Calvillo",
+    "role": "Clerk of the Board of Supervisors",
+    "since": null,
+    "note": "Runs the Office of the Clerk of the Board, which keeps the Board's legislative record and supports its members. City Hall Room 244; board.of.supervisors@sfgov.org.",
+    "phone": "415-554-5184",
+    "source": "https://www.sf.gov/department-office-of-the-clerk-of-the-board-of-supervisors"
+   },
+   {
+    "name": "David Chiu",
+    "role": "City Attorney",
+    "since": null,
+    "note": "Elected citywide. The City's lawyer.",
+    "phone": "415-554-4700",
+    "source": "https://www.sf.gov/cityattorney"
    },
    {
     "name": "Brooke Jenkins",
@@ -5056,7 +6024,7 @@
     "source": "https://www.sf.gov/topics--government"
    }
   ],
-  "staffNote": "The City Administrator and Clerk of the Board were not named on the official pages opened for this update.",
+  "staffNote": "Listed with the City Administrator, the Controller and the Clerk of the Board are the officers elected citywide: City Attorney, District Attorney, Sheriff, Public Defender, Treasurer and Assessor-Recorder.",
   "schoolBoard": {
    "note": "Board of Education of the San Francisco Unified School District: seven members elected at large to four-year terms. Superintendent Dr. Maria Su. Only the officers below were confirmed on an official SFUSD page (January 16, 2026); the full roster and Nov 3 results are not in this file yet.",
    "members": [
@@ -5085,15 +6053,27 @@
     "url": "https://sfplanning.org/hearings-cpc-grid"
    },
    {
+    "name": "Historic Preservation Commission",
+    "meets": "1st and 3rd Wednesdays, City Hall Room 400 (Nov 4 and Nov 18, Dec 2 and Dec 16, 2026)",
+    "does": "Reviews changes to City landmarks, such as certificates of appropriateness (permission to alter a landmark). President Diane Matsuda; Vice President Chris Foley; Commissioners Hans Baldauf, Dan Baroni, Eleanor Cox, Gayle Tsern Strang and Robert Vergara.",
+    "url": "https://sfplanning.org/hearings-hpc-grid"
+   },
+   {
     "name": "Police Commission",
     "meets": "Wednesdays, 5:30 PM, City Hall Room 400",
-    "does": "Oversees the Police Department.",
+    "does": "Oversees the Police Department: hears reports from the Chief and the Department of Police Accountability, reviews Department General Orders (police policies) and hears discipline cases in closed session. Sept 9, 2026 minutes list President Clay, Vice President Tekkey and Commissioners Benedicto, Elias, Leung, Low and Scott; Chief Lew reports to it.",
     "url": "https://www.sf.gov/departments/police-commission/upcoming-meetings",
     "needs_review": true,
-    "review_note": "Meeting day and time are from the commission's page, which last showed a 2024 meeting; confirm the current schedule."
+    "review_note": "Meeting day and time are from the first pass; the Sept 9, 2026 minutes opened here do not state the start time. First names of commissioners were not in the minutes summary."
+   },
+   {
+    "name": "SFMTA Board of Directors",
+    "meets": "Tuesdays, 1 PM, City Hall Room 400 (met Oct 6 and Oct 20, 2026)",
+    "does": "Governs the San Francisco Municipal Transportation Agency: parking and traffic changes, transit lanes, contracts and labor agreements. Chair Janet Tarlov; Vice Chair Stephanie Cajina; Directors Alfonso Felder, Steve Heminger, Dominica Henderson and Fiona Hinze.",
+    "url": "https://www.sfmta.com/media/50323/download"
    }
   ],
-  "boardsNote": "The Recreation and Park Commission, SFMTA Board of Directors and other commissions were not confirmed from official pages in this update and are left out rather than guessed."
+  "boardsNote": "The Recreation and Park Commission was not confirmed from an official page in this update and is left out rather than guessed. Planning and Historic Preservation Commission minutes sit on the Planning Department's minutes server, which could not be opened, so their outcomes are not in this file."
  },
  "roll_call_votes": [
   {
@@ -5642,27 +6622,31 @@
   },
   {
    "topic": "Government & elections",
-   "count": 18
+   "count": 25
   },
   {
    "topic": "Public safety",
+   "count": 18
+  },
+  {
+   "topic": "Historic preservation",
+   "count": 14
+  },
+  {
+   "topic": "Downtown & business",
+   "count": 11
+  },
+  {
+   "topic": "Parking & transportation",
    "count": 11
   },
   {
    "topic": "Budget & taxes",
-   "count": 9
-  },
-  {
-   "topic": "Downtown & business",
-   "count": 9
+   "count": 10
   },
   {
    "topic": "Health & human services",
    "count": 7
-  },
-  {
-   "topic": "Historic preservation",
-   "count": 5
   },
   {
    "topic": "Infrastructure & utilities",
@@ -5673,12 +6657,8 @@
    "count": 4
   },
   {
-   "topic": "Parking & transportation",
-   "count": 3
-  },
-  {
    "topic": "Parks & recreation",
-   "count": 3
+   "count": 4
   },
   {
    "topic": "Arts & culture",
@@ -5696,9 +6676,9 @@
  "budget": {
   "fiscalYear": "FY2026-27 (July 2026 to June 2027), first year of a two-year budget",
   "fundLabel": "General Fund",
-  "adopted": null,
-  "adoptedNote": "The Mayor signed the budget July 30, 2026. The Board's adoption date was not in the documents opened.",
-  "adoptedVote": "Annual Appropriation Ordinance No. 140-26 (File 260596), passed unanimously per the Mayor's office",
+  "adopted": "2026-07-28",
+  "adoptedNote": "The Board passed the budget on first reading July 21 and gave it final approval July 28, 2026, both 11-0; the Mayor signed it July 30, 2026.",
+  "adoptedVote": "Budget and Appropriation Ordinance, File 260596 (Ordinance No. 140-26): FINALLY PASSED, Ayes: 11",
   "generalFund": 7598833795,
   "generalFundNote": "General Fund total uses (net) for FY2026-27 from the Consolidated Schedule of Sources and Uses. FY2027-28: $7,890,021,478.",
   "totalAllFunds": 16851826113,
@@ -5907,7 +6887,8 @@
    "adopted": "https://media.api.sf.gov/documents/FY2027__FY2028_-_FINAL_AAO.pdf",
    "proposed": "https://media.api.sf.gov/documents/Mayors_June_1st_Proposed_FY27_and_FY28_Budget_Budget_Book.pdf",
    "signing": "https://www.sf.gov/news-mayor-lurie-signs-balanced-budge-strengthening-san-franciscos-social-safety-net-advancing-citys-economic-recover",
-   "taxRate": "https://sfbos.org/sites/default/files/r0447-25.pdf"
+   "taxRate": "https://sfbos.org/sites/default/files/r0447-25.pdf",
+   "boardVote": "https://media.api.sf.gov/documents/bag072826_minutes.pdf"
   }
  },
  "town": {
@@ -6001,6 +6982,6 @@
   }
  },
  "attendance_from": "2026-06-30",
- "attendanceNote": "Counts cover the 10 regular Board meetings in this file with minutes, from Jun 30 to Oct 27, 2026 (the Board was on summer recess in August), not the full term. A member counts as present when recorded present at the meeting, even if excused partway through; mid-meeting excusals are noted on each meeting. Absences at roll call: Chen excused Oct 20; Melgar excused Oct 20.",
+ "attendanceNote": "Counts cover the 10 regular Board meetings in this file with minutes, from Jun 30 to Oct 27, 2026 (the Board was on summer recess in August), not the full term. A member counts as present when recorded present at the meeting, even if excused partway through; mid-meeting excusals are noted on each meeting. Absences at roll call: Chen excused Oct 20; Melgar excused Oct 20. Minutes for the June 2, 9, 16 and 23 and Sept 15 and 22 meetings could not be opened, so those meetings are not counted.",
  "resident_requests": null
 }

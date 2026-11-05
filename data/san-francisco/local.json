@@ -741,6 +741,28 @@
   },
   {
    "date": "2026-11-04",
+   "time": "6:00 pm",
+   "title": "An Evening with Jane Schoenbrun: Public Access Afterworld and I Saw the TV Glow",
+   "venue": "Roxie Theater, 3125 16th St.",
+   "town": "San Francisco",
+   "kind": "Film",
+   "url": "https://roxie.com/film/an-evening-with-jane-schoenbrun-public-access-afterworld-i-saw-the-tv-glow/",
+   "source": "Roxie Theater",
+   "note": "Co-presented by Book Passage. Rush tickets only, per the Roxie."
+  },
+  {
+   "date": "2026-11-04",
+   "time": "6:00 pm",
+   "title": "Runa Simi, with filmmaker Q&A",
+   "venue": "Roxie Theater, 3125 16th St.",
+   "town": "San Francisco",
+   "kind": "Film",
+   "url": "https://roxie.com/film/runa-simi/",
+   "source": "Roxie Theater",
+   "note": "Q&A with the director, the film's protagonist and its producer."
+  },
+  {
+   "date": "2026-11-04",
    "time": "6:00 pm to 7:30 pm",
    "title": "Bayview Hunters Point Citizen Advisory Council meeting",
    "venue": "Bayview Linda Brooks-Barton Library, Bayview Meeting Room",
@@ -997,6 +1019,17 @@
   },
   {
    "date": "2026-11-06",
+   "time": "6:00 pm",
+   "title": "Being Heumann (open captions, with Q&A)",
+   "venue": "New People Cinema, 1746 Post St.",
+   "town": "San Francisco",
+   "kind": "Film",
+   "url": "https://roxie.com/film/new-people-being-heumann/",
+   "source": "Roxie Theater",
+   "note": "Also Nov 7 at 6:20 pm and Nov 8 at 1 pm."
+  },
+  {
+   "date": "2026-11-06",
    "time": "7:30 pm",
    "title": "Strauss in Concert",
    "venue": "War Memorial Opera House, 301 Van Ness Ave.",
@@ -1093,6 +1126,18 @@
   },
   {
    "date": "2026-11-07",
+   "time": "10:00 am to 4:00 pm",
+   "title": "Mobile Rec pop-up at Joe DiMaggio Playground",
+   "venue": "Joe DiMaggio Playground, 651 Lombard Street",
+   "town": "San Francisco",
+   "kind": "Family",
+   "url": "https://sfrecpark.org/Calendar.aspx?EID=10847&month=11&year=2026&day=4&calType=0",
+   "source": "Recreation and Park Department",
+   "price": "Free",
+   "note": "Rec and Park's free mobile recreation van. Also Nov 14 at Zion Skate Plaza, Nov 21 at Potrero del Sol and Nov 28 at Sunset Rec Center."
+  },
+  {
+   "date": "2026-11-07",
    "time": "11:00 am",
    "title": "Tiny Dances: Swan Lake",
    "venue": "Palace of Fine Arts",
@@ -1131,6 +1176,17 @@
   },
   {
    "date": "2026-11-07",
+   "time": "1:00 pm",
+   "title": "Colombia on Film: bajo el velo de la ficción",
+   "venue": "Roxie Theater, 3125 16th St.",
+   "town": "San Francisco",
+   "kind": "Film",
+   "url": "https://roxie.com/film/las-almas-ni-los-ojos-neither-souls-nor-eyes/",
+   "source": "Roxie Theater",
+   "note": "Series presented by CiNEOLA: Las Almas ni los Ojos (Nov 7, 1 pm), Los Conductos (Nov 8, 1:20 pm) and How to Clean a House in 10 Easy Steps (Nov 8, 3:10 pm)."
+  },
+  {
+   "date": "2026-11-07",
    "time": "1:00 pm to 5:00 pm",
    "title": "Alemany Farm community workday (Saturdays through Dec 5)",
    "venue": "Alemany Farm, 700 Alemany Boulevard",
@@ -1166,6 +1222,17 @@
    "source": "San Francisco Public Library",
    "price": "Free",
    "note": "This year's One City One Book pick."
+  },
+  {
+   "date": "2026-11-07",
+   "time": "3:15 pm",
+   "title": "The Dalai Lama: My Religion Is Kindness, with Q&A",
+   "venue": "Roxie Theater, 3125 16th St.",
+   "town": "San Francisco",
+   "kind": "Film",
+   "url": "https://roxie.com/film/the-dalai-lama-my-religion-is-kindness/",
+   "source": "Roxie Theater",
+   "note": "Q&A with the director and a cast member."
   },
   {
    "date": "2026-11-07",
@@ -1322,6 +1389,17 @@
   },
   {
    "date": "2026-11-08",
+   "time": "12:00 pm to 2:00 pm",
+   "title": "2nd Sunday Serenades at Sunset Dunes",
+   "venue": "Sunset Dunes, Great Highway between Lincoln and Sloat",
+   "town": "San Francisco",
+   "kind": "Community",
+   "url": "https://sfrecpark.org/Calendar.aspx?EID=10413&month=11&year=2026&day=4&calType=0",
+   "source": "Recreation and Park Department",
+   "price": "Free"
+  },
+  {
+   "date": "2026-11-08",
    "time": "12:00 pm to 6:00 pm",
    "title": "Diwali Festival of Lights and Kids Diwali Celebration",
    "venue": "San Francisco Shri Swaminarayan Hindu Mandir",
@@ -1335,6 +1413,17 @@
   },
   {
    "date": "2026-11-08",
+   "time": "12:30 pm",
+   "title": "Studio 8 Film Festival finale and Legacy Award",
+   "venue": "Roxie Theater, 3125 16th St.",
+   "town": "San Francisco",
+   "kind": "Film",
+   "url": "https://roxie.com/film/studio-8-2026/",
+   "source": "Roxie Theater",
+   "note": "Presented by SF Artists Alumni, honoring filmmaker Babeth Mondini VanLoo."
+  },
+  {
+   "date": "2026-11-08",
    "time": "1:00 pm to 3:00 pm",
    "title": "Presentation: Contemporary Indigenous Voices of California's South Coast Range",
    "venue": "Main Library",
@@ -1344,6 +1433,17 @@
    "source": "San Francisco Public Library",
    "price": "Free",
    "note": "Part of the library's First Person: Native American Heritage Month series. A related exhibit is on view at the Main Library."
+  },
+  {
+   "date": "2026-11-08",
+   "time": "1:00 pm to 3:00 pm",
+   "title": "Sunset Dunes community cleanup",
+   "venue": "Sunset Dunes and Upper Great Highway, 1611 Upper Great Highway",
+   "town": "San Francisco",
+   "kind": "Volunteer",
+   "url": "https://sfrecpark.org/Calendar.aspx?EID=10419&month=11&year=2026&day=4&calType=0",
+   "source": "Recreation and Park Department",
+   "price": "Free"
   },
   {
    "date": "2026-11-08",
@@ -1647,6 +1747,17 @@
   },
   {
    "date": "2026-11-12",
+   "time": "7:00 pm",
+   "title": "San Francisco Transgender Film Festival",
+   "venue": "Roxie Theater, 16th Street",
+   "town": "San Francisco",
+   "kind": "Film",
+   "url": "https://www.sf.gov/es/departments--city-administrator--office-transgender-initiatives/oti-november-2026-community-calendar-trans-film-festival",
+   "source": "Office of Transgender Initiatives (City and County of San Francisco)",
+   "note": "Six programs at the Roxie: comedy (7 pm) and documentary (9 pm) Nov 12; horror (7 pm) and grab bag (9 pm) Nov 13; speculative fiction (7 pm) and adults 18+ (9 pm) Nov 14. All six stream on demand Nov 15 to 22. Schedule and tickets: sftff.org."
+  },
+  {
+   "date": "2026-11-12",
    "time": "7:30 pm to 9:00 pm",
    "title": "Arab Film Festival outdoor movie night",
    "venue": "The Proxy, Hayes Valley",
@@ -1790,13 +1901,24 @@
    "date": "2026-11-14",
    "time": "10:00 am to 11:00 am",
    "title": "McLaren Park SF GROW Center community meeting",
-   "venue": "Louis Sutter Roundhouse, McLaren Park",
+   "venue": "Louis Sutter Roundhouse, 599 Yale Street (Louis Sutter Playground, McLaren Park)",
    "town": "San Francisco",
    "kind": "Community",
    "url": "https://sfrecpark.org/m/newsflash/Home/Detail/3139",
    "source": "Recreation and Park Department",
    "price": "Free",
-   "note": "Review the concept design for the center, ask questions and give feedback."
+   "note": "Review the concept design for renovating a long-vacant horse stable at Louis Sutter Playground into the center; questions and feedback welcome."
+  },
+  {
+   "date": "2026-11-14",
+   "time": "10:00 am to 4:00 pm",
+   "title": "Mobile Rec pop-up at Zion Skate Plaza",
+   "venue": "Zion Skate Plaza (Waller Street Skate Park), Stanyan and Waller streets",
+   "town": "San Francisco",
+   "kind": "Family",
+   "url": "https://sfrecpark.org/Calendar.aspx?EID=10848&month=11&year=2026&day=4&calType=0",
+   "source": "Recreation and Park Department",
+   "price": "Free"
   },
   {
    "date": "2026-11-14",
@@ -1810,6 +1932,18 @@
    "price": "From $24",
    "needs_review": true,
    "review_note": "From the Funcheap SF listing, not the organizer. Confirm with the organizer."
+  },
+  {
+   "date": "2026-11-14",
+   "time": "10:30 am to 11:15 am",
+   "title": "Zumba and Shake the Fog at Sunset Dunes",
+   "venue": "Sunset Dunes, Great Highway between Lincoln and Sloat",
+   "town": "San Francisco",
+   "kind": "Community",
+   "url": "https://sfrecpark.org/Calendar.aspx?EID=10407&month=11&year=2026&day=4&calType=0",
+   "source": "Recreation and Park Department",
+   "price": "Free",
+   "note": "Free outdoor fitness class."
   },
   {
    "date": "2026-11-14",
@@ -1943,7 +2077,7 @@
    "date": "2026-11-17",
    "time": "6:00 pm to 7:00 pm",
    "title": "McLaren Park SF GROW Center community meeting",
-   "venue": "Herz Clubhouse, McLaren Park",
+   "venue": "Herz Clubhouse, 1701 Visitacion Avenue",
    "town": "San Francisco",
    "kind": "Community",
    "url": "https://sfrecpark.org/m/newsflash/Home/Detail/3139",
@@ -1961,7 +2095,9 @@
    "url": "https://www.sfusd.edu/about-sfusd/board-education/board-meeting-calendar-and-agendas",
    "source": "SFUSD Board of Education",
    "price": "Free",
-   "note": "Closed session at 5 pm; public session at 6:30 pm. Final agenda posted Nov 13."
+   "note": "Closed session at 5 pm; public session at 6:30 pm. Final agenda posted Nov 13.",
+   "needs_review": true,
+   "review_note": "The calendar says the meeting is in person and lists 555 Franklin Street for childcare; it does not name the meeting room."
   },
   {
    "date": "2026-11-18",
@@ -2013,13 +2149,15 @@
    "date": "2026-11-19",
    "time": "10:00 am",
    "title": "Recreation and Park Commission meeting",
-   "venue": "City Hall, 1 Dr. Carlton B. Goodlett Place, Room 416",
+   "venue": "City Hall, 1 Dr. Carlton B. Goodlett Place, Room 408",
    "town": "San Francisco",
    "kind": "Civic",
-   "url": "https://sfrecpark.org/m/newsflash/Home/Detail/3131",
+   "url": "https://sfrecpark.org/Calendar.aspx?EID=9021&month=11&year=2026&day=4&calType=0",
    "source": "Recreation and Park Department",
    "price": "Free",
-   "note": "Staff plan to present the Buchanan Mall Equity Action Plan."
+   "note": "Staff plan to present the Buchanan Mall Equity Action Plan (per a Buchanan Street Mall project update).",
+   "needs_review": true,
+   "review_note": "Rec and Park's Commission calendar lists City Hall Room 408; an Oct 21 project update says Room 416. Confirm on the agenda."
   },
   {
    "date": "2026-11-19",
@@ -2056,7 +2194,7 @@
    "price": "Free",
    "note": "Regular meetings are the third Thursday at 4:30 pm.",
    "needs_review": true,
-   "review_note": "The 2026 schedule gives no location; confirm on the agenda."
+   "review_note": "The 2026 schedule gives no location. The Feb 12, 2026 meeting was in the Latino Auditorium, Main Library, 100 Larkin Street (lower level); confirm on the agenda."
   },
   {
    "date": "2026-11-19",
@@ -2069,6 +2207,17 @@
    "source": "California Academy of Sciences",
    "price": "$26 (21+, photo ID required)",
    "note": "Weekly Thursday adults-only night; NightLife pauses from mid-December to early January."
+  },
+  {
+   "date": "2026-11-19",
+   "time": "9:00 am to 9:30 am",
+   "title": "Joint Zoo Committee (Recreation and Park Commission)",
+   "venue": "City Hall, 1 Dr. Carlton B. Goodlett Place, Room 421",
+   "town": "San Francisco",
+   "kind": "Civic",
+   "url": "https://sfrecpark.org/Calendar.aspx?EID=9034&month=11&year=2026&day=4&calType=0",
+   "source": "Recreation and Park Department",
+   "price": "Free"
   },
   {
    "date": "2026-11-20",
@@ -2163,16 +2312,17 @@
   },
   {
    "date": "2026-11-21",
-   "time": "10:00 am to 12:00 pm",
+   "time": "10:00 am to 2:00 pm",
    "title": "EcoCenter volunteer work party at Heron's Head Park",
    "venue": "EcoCenter at Heron's Head Park, 32 Jennings Street",
    "town": "San Francisco",
    "kind": "Volunteer",
-   "url": "https://sfchildrennature.org/event/ecocenter-volunteer-work-party/2026-11-21/",
+   "url": "https://sfrecpark.org/Calendar.aspx?EID=2794&month=11&year=2026&day=4&calType=0",
    "source": "Recreation and Park Department",
-   "note": "Every third Saturday: weeding, mulching, watering and planting. Sign up on the Rec and Park volunteer portal.",
+   "price": "Free",
+   "note": "Third-Saturday work party with the Port: weeding, mulching, watering and planting. Sign up on the Rec and Park volunteer portal.",
    "needs_review": true,
-   "review_note": "Cross-posted on the San Francisco Children and Nature calendar; the organizer's own page could not be opened. Confirm and register with the organizer."
+   "review_note": "Rec and Park's volunteer calendar lists 10 am to 2 pm; the SF Children and Nature listing says 10 am to noon. Confirm when signing up."
   },
   {
    "date": "2026-11-21",
@@ -2186,6 +2336,17 @@
    "price": "Free",
    "needs_review": true,
    "review_note": "From the Funcheap SF listing, not the organizer. Confirm with the organizer."
+  },
+  {
+   "date": "2026-11-21",
+   "time": "10:00 am to 4:00 pm",
+   "title": "Mobile Rec pop-up at Potrero Hill Skate Park",
+   "venue": "Potrero del Sol, Potrero Avenue and Cesar Chavez Street",
+   "town": "San Francisco",
+   "kind": "Family",
+   "url": "https://sfrecpark.org/Calendar.aspx?EID=10849&month=11&year=2026&day=4&calType=0",
+   "source": "Recreation and Park Department",
+   "price": "Free"
   },
   {
    "date": "2026-11-22",
@@ -2300,6 +2461,17 @@
    "review_note": "From Songkick's Chase Center listing (also on Secret San Francisco's concert calendar); Chase Center's own calendar did not load. Confirm the time with Chase Center."
   },
   {
+   "date": "2026-11-28",
+   "time": "10:00 am to 4:00 pm",
+   "title": "Mobile Rec pop-up at Sunset Rec Center",
+   "venue": "Sunset Recreation Center, 2201 Lawton Street",
+   "town": "San Francisco",
+   "kind": "Family",
+   "url": "https://sfrecpark.org/Calendar.aspx?EID=10850&month=11&year=2026&day=4&calType=0",
+   "source": "Recreation and Park Department",
+   "price": "Free"
+  },
+  {
    "date": "2026-11-29",
    "time": null,
    "title": "Dweezil Zappa",
@@ -2370,7 +2542,22 @@
    "url": "https://www.sfusd.edu/about-sfusd/board-education/board-meeting-calendar-and-agendas",
    "source": "SFUSD Board of Education",
    "price": "Free",
-   "note": "Closed session at 5 pm; public session at 6:30 pm. Final agenda posted Nov 25."
+   "note": "Closed session at 5 pm; public session at 6:30 pm. Final agenda posted Nov 25.",
+   "needs_review": true,
+   "review_note": "The calendar says the meeting is in person and lists 555 Franklin Street for childcare; it does not name the meeting room."
+  },
+  {
+   "date": "2026-12-01",
+   "time": "6:30 pm to 8:30 pm",
+   "title": "PROSAC (Park, Recreation and Open Space Advisory Committee) meeting",
+   "venue": "Location on the agenda",
+   "town": "San Francisco",
+   "kind": "Civic",
+   "url": "https://sfrecpark.org/calendar.aspx?view=week&year=2026&month=11&day=30&CID=0",
+   "source": "Recreation and Park Department",
+   "price": "Free",
+   "needs_review": true,
+   "review_note": "Rec and Park's calendar week view gives no location or agenda link yet."
   },
   {
    "date": "2026-12-02",
@@ -2419,6 +2606,19 @@
    "note": "Regular start time; check the agenda."
   },
   {
+   "date": "2026-12-02",
+   "time": "2:00 pm",
+   "title": "Recreation and Park Commission Capital Committee",
+   "venue": "Location on the agenda",
+   "town": "San Francisco",
+   "kind": "Civic",
+   "url": "https://sfrecpark.org/calendar.aspx?view=week&year=2026&month=11&day=30&CID=0",
+   "source": "Recreation and Park Department",
+   "price": "Free",
+   "needs_review": true,
+   "review_note": "Rec and Park's calendar week view gives no location or agenda link yet."
+  },
+  {
    "date": "2026-12-03",
    "time": null,
    "title": "Sandra Bernhard",
@@ -2440,6 +2640,33 @@
    "url": "https://sfplanning.org/event/planning-commission-311",
    "source": "Planning Department",
    "price": "Free"
+  },
+  {
+   "date": "2026-12-03",
+   "time": "2:00 pm",
+   "title": "Recreation and Park Commission Operations Committee",
+   "venue": "Location on the agenda",
+   "town": "San Francisco",
+   "kind": "Civic",
+   "url": "https://sfrecpark.org/calendar.aspx?view=week&year=2026&month=11&day=30&CID=0",
+   "source": "Recreation and Park Department",
+   "price": "Free",
+   "needs_review": true,
+   "review_note": "Rec and Park's calendar week view gives no location or agenda link yet."
+  },
+  {
+   "date": "2026-12-03",
+   "time": "4:00 pm to 8:00 pm",
+   "title": "Mobile Rec at the tree lighting",
+   "venue": "Location not yet posted",
+   "town": "San Francisco",
+   "kind": "Holiday",
+   "url": "https://sfrecpark.org/calendar.aspx?view=week&year=2026&month=11&day=30&CID=0",
+   "source": "Recreation and Park Department",
+   "price": "Free",
+   "note": "Rec and Park's Mobile Rec pop-up is scheduled at a holiday tree lighting.",
+   "needs_review": true,
+   "review_note": "The calendar names no location. Rec and Park's 2023 Annual Holiday Tree Lighting (Uncle John's Tree, McLaren Lodge, Golden Gate Park) ran 4 to 8 pm on a Thursday; confirm the 2026 details."
   },
   {
    "date": "2026-12-03",
@@ -2558,9 +2785,20 @@
   },
   {
    "date": "2026-12-05",
+   "time": null,
+   "title": "Cameron Winter at Carnegie Hall (35mm)",
+   "venue": "Roxie Theater, 3125 16th St.",
+   "town": "San Francisco",
+   "kind": "Film",
+   "url": "https://roxie.com/film/cameron-winter-at-carnegie-hall-35mm/",
+   "source": "Roxie Theater",
+   "note": "Opens Dec 5; showtimes not yet posted."
+  },
+  {
+   "date": "2026-12-05",
    "time": "10:00 am to 11:00 am",
    "title": "McLaren Park SF GROW Center community meeting (third session)",
-   "venue": "Louis Sutter Roundhouse, McLaren Park",
+   "venue": "Louis Sutter Roundhouse, 599 Yale Street (Louis Sutter Playground, McLaren Park)",
    "town": "San Francisco",
    "kind": "Community",
    "url": "https://sfrecpark.org/m/newsflash/Home/Detail/3139",
@@ -2638,6 +2876,17 @@
    "kind": "Music",
    "url": "https://www.sfsymphony.org/Buy-Tickets/2026-27/Holiday-Brass",
    "source": "San Francisco Symphony"
+  },
+  {
+   "date": "2026-12-06",
+   "time": null,
+   "title": "Cookie Queens",
+   "venue": "New People Cinema, 1746 Post St.",
+   "town": "San Francisco",
+   "kind": "Film",
+   "url": "https://roxie.com/film/new-people-cookie-queens/",
+   "source": "Roxie Theater",
+   "note": "Showtimes not yet posted."
   },
   {
    "date": "2026-12-06",
@@ -3029,7 +3278,7 @@
    "source": "San Francisco Public Library",
    "price": "Free",
    "needs_review": true,
-   "review_note": "The 2026 schedule gives no location; confirm on the agenda."
+   "review_note": "The 2026 schedule gives no location. The Feb 12, 2026 meeting was in the Latino Auditorium, Main Library, 100 Larkin Street (lower level); confirm on the agenda."
   },
   {
    "date": "2026-12-17",
@@ -3064,6 +3313,17 @@
    "source": "Songkick",
    "needs_review": true,
    "review_note": "From Songkick's Castro Theatre calendar, not the theater. Confirm with the Castro Theatre."
+  },
+  {
+   "date": "2026-12-19",
+   "time": null,
+   "title": "The Promised Land",
+   "venue": "New People Cinema, 1746 Post St.",
+   "town": "San Francisco",
+   "kind": "Film",
+   "url": "https://roxie.com/film/new-people-the-promised-land/",
+   "source": "Roxie Theater",
+   "note": "Showtimes not yet posted."
   },
   {
    "date": "2026-12-19",
