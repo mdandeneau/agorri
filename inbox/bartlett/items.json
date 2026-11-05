@@ -1,14 +1,14 @@
 {
  "note": "Written by ingest/fetch.mjs. Each item: where it came from (source, url), the date in the document when known, firstSeen (the day the fetcher first saw it; new since the last refresh = firstSeen on or after that day) and text (the saved agenda or minutes text, when there is one). Facts for the site still come from reading the linked document.",
  "town": "bartlett",
- "updated": "2026-11-04T15:28:07.515Z",
+ "updated": "2026-11-05T15:28:41.571Z",
  "sources": {
   "meeting-docs": {
    "ok": true,
    "found": 11,
    "new": 0,
-   "checked": "2026-11-04T15:28:07.515Z",
-   "ms": 3296
+   "checked": "2026-11-05T15:28:41.571Z",
+   "ms": 2550
   }
  },
  "notes": [],
@@ -22,7 +22,7 @@
    "date": null,
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-04",
+   "lastSeen": "2026-11-05",
    "text": "inbox/bartlett/docs/2c021196b205.txt"
   },
   {
@@ -34,7 +34,7 @@
    "date": null,
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-04",
+   "lastSeen": "2026-11-05",
    "text": "inbox/bartlett/docs/949ec89f8118.txt"
   },
   {
@@ -46,7 +46,7 @@
    "date": null,
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-04",
+   "lastSeen": "2026-11-05",
    "text": "inbox/bartlett/docs/b627996ce8fd.txt"
   },
   {
@@ -58,7 +58,7 @@
    "date": null,
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-04",
+   "lastSeen": "2026-11-05",
    "text": "inbox/bartlett/docs/ac13daf08b89.txt"
   },
   {
@@ -70,7 +70,7 @@
    "date": null,
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-04",
+   "lastSeen": "2026-11-05",
    "text": "inbox/bartlett/docs/ea919357d83c.txt"
   },
   {
@@ -82,7 +82,7 @@
    "date": null,
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-04",
+   "lastSeen": "2026-11-05",
    "text": "inbox/bartlett/docs/23847bec484f.txt"
   },
   {
@@ -94,7 +94,7 @@
    "date": null,
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-04",
+   "lastSeen": "2026-11-05",
    "text": "inbox/bartlett/docs/3647abf86b62.txt"
   },
   {
@@ -106,7 +106,7 @@
    "date": null,
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-04",
+   "lastSeen": "2026-11-05",
    "text": "inbox/bartlett/docs/fd740156f629.txt"
   },
   {
@@ -118,7 +118,7 @@
    "date": null,
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-04",
+   "lastSeen": "2026-11-05",
    "text": "inbox/bartlett/docs/dc726d1dfad4.txt"
   },
   {
@@ -130,7 +130,7 @@
    "date": null,
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-04",
+   "lastSeen": "2026-11-05",
    "text": "inbox/bartlett/docs/95bd5b99055c.txt"
   },
   {
@@ -142,7 +142,7 @@
    "date": null,
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-04",
+   "lastSeen": "2026-11-05",
    "text": "inbox/bartlett/docs/e29448916be1.txt"
   }
  ]

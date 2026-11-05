@@ -1,25 +1,49 @@
 {
  "note": "Written by ingest/fetch.mjs. Each item: where it came from (source, url), the date in the document when known, firstSeen (the day the fetcher first saw it; new since the last refresh = firstSeen on or after that day) and text (the saved agenda or minutes text, when there is one). Facts for the site still come from reading the linked document.",
  "town": "newmarket",
- "updated": "2026-11-04T15:28:07.515Z",
+ "updated": "2026-11-05T15:28:41.571Z",
  "sources": {
   "civicclerk": {
    "ok": true,
    "found": 10,
-   "new": 0,
-   "checked": "2026-11-04T15:28:07.515Z",
-   "ms": 1086
+   "new": 1,
+   "checked": "2026-11-05T15:28:41.571Z",
+   "ms": 964
   },
   "town-feeds": {
    "ok": true,
    "found": 11,
    "new": 1,
-   "checked": "2026-11-04T15:28:07.515Z",
-   "ms": 7732
+   "checked": "2026-11-05T15:28:41.571Z",
+   "ms": 7788
   }
  },
  "notes": [],
  "items": [
+  {
+   "key": "civicclerk:48c39559b7c3",
+   "source": "civicclerk",
+   "kind": "meeting-doc",
+   "title": "Town Council 2026-11-04: November 4, 2026",
+   "url": "https://newmarketnh.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=7871,plainText=false)",
+   "date": "2026-11-04",
+   "body": "Town Council",
+   "doc": "agenda",
+   "packet": true,
+   "firstSeen": "2026-11-05",
+   "lastSeen": "2026-11-05"
+  },
+  {
+   "key": "town-feeds:1419dd7f9b91",
+   "source": "town-feeds",
+   "kind": "notice",
+   "feed": "news",
+   "title": "Town Offices Closed Wednesday November 11 in Observance of Veterans Day",
+   "url": "https://www.newmarketnh.gov/CivicAlerts.aspx?aid=1143",
+   "date": "2026-11-04",
+   "firstSeen": "2026-11-05",
+   "lastSeen": "2026-11-05"
+  },
   {
    "key": "town-feeds:40a07b2be15e",
    "source": "town-feeds",
@@ -29,7 +53,7 @@
    "url": "https://www.newmarketnh.gov/CivicAlerts.aspx?aid=1142",
    "date": "2026-11-04",
    "firstSeen": "2026-11-04",
-   "lastSeen": "2026-11-04"
+   "lastSeen": "2026-11-05"
   },
   {
    "key": "town-feeds:e84068bb10bd",
@@ -41,7 +65,7 @@
    "date": "2026-11-02",
    "detail": "Event date: November 11, 2026 Event Time: 12:00 AM - 11:59 PM Location: 186 Main Street Newmarket, NH 03857",
    "firstSeen": "2026-11-03",
-   "lastSeen": "2026-11-04"
+   "lastSeen": "2026-11-05"
   },
   {
    "key": "town-feeds:1139b6425d77",
@@ -53,7 +77,7 @@
    "date": "2026-10-07",
    "detail": "Event date: November 17, 2026 Event Time: 06:30 PM - 11:59 PM Location: Newmarket, NH 03857",
    "firstSeen": "2026-11-03",
-   "lastSeen": "2026-11-04"
+   "lastSeen": "2026-11-05"
   },
   {
    "key": "civicclerk:8c357dd51be6",
@@ -66,7 +90,7 @@
    "meeting": true,
    "files": 0,
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-04"
+   "lastSeen": "2026-11-05"
   },
   {
    "key": "civicclerk:9fc6f6680afa",
@@ -79,7 +103,7 @@
    "meeting": true,
    "files": 0,
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-04"
+   "lastSeen": "2026-11-05"
   },
   {
    "key": "civicclerk:2fdf4b5c96c8",
@@ -92,7 +116,7 @@
    "meeting": true,
    "files": 2,
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-04"
+   "lastSeen": "2026-11-05"
   },
   {
    "key": "civicclerk:3b56b27d73e0",
@@ -104,7 +128,7 @@
    "body": "Town Council",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-04",
+   "lastSeen": "2026-11-05",
    "text": "inbox/newmarket/docs/cc-7868.txt"
   },
   {
@@ -119,6 +143,18 @@
    "packet": true,
    "firstSeen": "2026-11-01",
    "lastSeen": "2026-11-04"
+  },
+  {
+   "key": "town-feeds:0308e9703925",
+   "source": "town-feeds",
+   "kind": "notice",
+   "feed": "news",
+   "title": "Squamscott Road in Stratham to Close Oct.12 for Culvert Replacement; Newmarket Commuters Face Detour",
+   "url": "https://www.newmarketnh.gov/CivicAlerts.aspx?aid=1137",
+   "date": "2026-11-04",
+   "detail": "Newmarket drivers headed toward Portsmouth and Pease International Tradeport will need to plan for longer commutes starting Monday, Oct. 12, when Squamscott Road in Stratham closes for a state culvert replacement project.",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-05"
   },
   {
    "key": "town-feeds:102c0e451814",
@@ -143,7 +179,7 @@
    "meeting": true,
    "files": 1,
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-04"
+   "lastSeen": "2026-11-05"
   },
   {
    "key": "civicclerk:95bc72339736",
@@ -155,7 +191,7 @@
    "body": "Town Council",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-04",
+   "lastSeen": "2026-11-05",
    "text": "inbox/newmarket/docs/cc-7865.txt"
   },
   {
@@ -169,7 +205,7 @@
    "meeting": true,
    "files": 2,
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-04"
+   "lastSeen": "2026-11-05"
   },
   {
    "key": "civicclerk:f01262eeb86f",
@@ -181,7 +217,7 @@
    "body": "Town Council",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-04",
+   "lastSeen": "2026-11-05",
    "text": "inbox/newmarket/docs/cc-7859.txt"
   },
   {
@@ -195,19 +231,7 @@
    "doc": "agenda",
    "packet": true,
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-04"
-  },
-  {
-   "key": "town-feeds:0308e9703925",
-   "source": "town-feeds",
-   "kind": "notice",
-   "feed": "news",
-   "title": "Squamscott Road in Stratham to Close Oct.12 for Culvert Replacement; Newmarket Commuters Face Detour",
-   "url": "https://www.newmarketnh.gov/CivicAlerts.aspx?aid=1137",
-   "date": "2026-10-15",
-   "detail": "Newmarket drivers headed toward Portsmouth and Pease International Tradeport will need to plan for longer commutes starting Monday, Oct. 12, when Squamscott Road in Stratham closes for a state culvert replacement project.",
-   "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-04"
+   "lastSeen": "2026-11-05"
   },
   {
    "key": "civicclerk:8c4d7e6faae2",
@@ -232,7 +256,7 @@
    "date": "2026-10-13",
    "detail": "Event date: November 7, 2026 Event Time: 08:00 AM - 01:00 PM Location: 2 Terrace Drive Newmarket, NH 03857 Description: The Sunrise Sunset Center's Craft Fair is the perfect time to find unique gifts for your loved ones this holiday season. You'll find items from local crafters, hot breakfast & lunch, silent auctions & raffles, and more. So stop by the SSC on Saturday, November 7th from 8 AM - 1 PM!",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-04"
+   "lastSeen": "2026-11-05"
   }
  ]
 }

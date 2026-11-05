@@ -1,32 +1,90 @@
 {
  "note": "Written by ingest/fetch.mjs. Each item: where it came from (source, url), the date in the document when known, firstSeen (the day the fetcher first saw it; new since the last refresh = firstSeen on or after that day) and text (the saved agenda or minutes text, when there is one). Facts for the site still come from reading the linked document.",
  "town": "freedom",
- "updated": "2026-11-04T15:28:07.515Z",
+ "updated": "2026-11-05T15:28:41.571Z",
  "sources": {
   "feed": {
    "ok": true,
    "found": 10,
    "new": 1,
-   "checked": "2026-11-04T15:28:07.515Z",
-   "ms": 590
+   "checked": "2026-11-05T15:28:41.571Z",
+   "ms": 823
   },
   "feed2": {
    "ok": true,
    "found": 0,
    "new": 0,
-   "checked": "2026-11-04T15:28:07.515Z",
-   "ms": 1393
+   "checked": "2026-11-05T15:28:41.571Z",
+   "ms": 1422
   },
   "meeting-docs": {
    "ok": true,
    "found": 150,
-   "new": 0,
-   "checked": "2026-11-04T15:28:07.515Z",
-   "ms": 1782
+   "new": 4,
+   "checked": "2026-11-05T15:28:41.571Z",
+   "ms": 6876
   }
  },
  "notes": [],
  "items": [
+  {
+   "key": "feed:0cb7a73d8025",
+   "source": "feed",
+   "kind": "notice",
+   "title": "Tax Bill 2026 PO2",
+   "url": "https://townoffreedomnh.gov/2026/11/04/tax-bill-2026-po2/",
+   "date": "2026-11-04",
+   "firstSeen": "2026-11-05",
+   "lastSeen": "2026-11-05"
+  },
+  {
+   "key": "meeting-docs:4806ef49e364",
+   "source": "meeting-docs",
+   "kind": "meeting-doc",
+   "title": "10-26-2026",
+   "url": "https://townoffreedomnh.gov/wp-content/uploads/2026/11/10.26.2026-BOS-Minutes.pdf",
+   "date": "2026-10-26",
+   "doc": "minutes",
+   "firstSeen": "2026-11-05",
+   "lastSeen": "2026-11-05",
+   "text": "inbox/freedom/docs/4806ef49e364.txt"
+  },
+  {
+   "key": "meeting-docs:3ffc3a10a0c2",
+   "source": "meeting-docs",
+   "kind": "meeting-doc",
+   "title": "10-19-2026",
+   "url": "https://townoffreedomnh.gov/wp-content/uploads/2026/11/10.19.2026-BOS-Minutes.pdf",
+   "date": "2026-10-19",
+   "doc": "minutes",
+   "firstSeen": "2026-11-05",
+   "lastSeen": "2026-11-05",
+   "text": "inbox/freedom/docs/3ffc3a10a0c2.txt"
+  },
+  {
+   "key": "meeting-docs:7c0cdd8476df",
+   "source": "meeting-docs",
+   "kind": "meeting-doc",
+   "title": "10-05-26",
+   "url": "https://townoffreedomnh.gov/wp-content/uploads/2026/11/10.05.2026-BOS-Minutes.pdf",
+   "date": "2026-10-05",
+   "doc": "minutes",
+   "firstSeen": "2026-11-05",
+   "lastSeen": "2026-11-05",
+   "text": "inbox/freedom/docs/7c0cdd8476df.txt"
+  },
+  {
+   "key": "meeting-docs:0a8fbfbd843a",
+   "source": "meeting-docs",
+   "kind": "meeting-doc",
+   "title": "9-28-26",
+   "url": "https://townoffreedomnh.gov/wp-content/uploads/2026/11/09.28.2026-BOS-Minutes.pdf",
+   "date": "2026-09-28",
+   "doc": "minutes",
+   "firstSeen": "2026-11-05",
+   "lastSeen": "2026-11-05",
+   "text": "inbox/freedom/docs/0a8fbfbd843a.txt"
+  },
   {
    "key": "feed:47dd91b7838d",
    "source": "feed",
@@ -35,7 +93,7 @@
    "url": "https://townoffreedomnh.gov/2026/11/04/2026-election-results/",
    "date": "2026-11-04",
    "firstSeen": "2026-11-04",
-   "lastSeen": "2026-11-04"
+   "lastSeen": "2026-11-05"
   },
   {
    "key": "feed:94a5e8b1447c",
@@ -89,7 +147,7 @@
    "date": "2026-10-16",
    "detail": "PUBLIC NOTICE FREEDOM HAZARD MITIGATION FINAL MEETING November 10, 2026 @ 3:30pm At the Freedom Elementary School at 40 Loon Lake Rd The Town of Freedom, with the Hazard Mitigation Planning Committee, is currently working to update Freedom’s Hazard Mitigation Plan. The Plan identifies potential natural, and human caused hazards throughout the town and various […]",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-04"
+   "lastSeen": "2026-11-05"
   },
   {
    "key": "feed:1465060d76e9",
@@ -122,7 +180,7 @@
    "date": "2026-09-21",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-04",
+   "lastSeen": "2026-11-05",
    "text": "inbox/freedom/docs/0655accab729.txt"
   },
   {
@@ -134,7 +192,7 @@
    "date": "2026-09-14",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-04",
+   "lastSeen": "2026-11-05",
    "text": "inbox/freedom/docs/030a3bf44a6f.txt"
   },
   {
@@ -146,7 +204,7 @@
    "date": "2026-09-10",
    "detail": "PUBLIC NOTICE TOWN OF FREEDOM VOTER REGISTRATION SESSION The Supervisors of the Checklist for the Town of Freedom will be in session on: Tuesday, October 27th, 2026, from 7:00 to 8:00 PM at the Freedom Town Hall This session will be for additions and corrections to the Voter Checklist. New Voters: Applicants for registration must […]",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-04"
+   "lastSeen": "2026-11-05"
   },
   {
    "key": "meeting-docs:ea55cd1b5890",
@@ -157,7 +215,7 @@
    "date": "2026-08-31",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-04"
+   "lastSeen": "2026-11-05"
   },
   {
    "key": "meeting-docs:79e862cf0c9f",
@@ -168,7 +226,7 @@
    "date": "2026-08-17",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-04"
+   "lastSeen": "2026-11-05"
   },
   {
    "key": "meeting-docs:abe08fd0cef4",
@@ -179,7 +237,7 @@
    "date": "2026-08-10",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-04"
+   "lastSeen": "2026-11-05"
   },
   {
    "key": "meeting-docs:92d757580a0c",
@@ -190,7 +248,7 @@
    "date": "2026-08-03",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-04"
+   "lastSeen": "2026-11-05"
   },
   {
    "key": "meeting-docs:5ad5de54b6d6",
@@ -201,7 +259,7 @@
    "date": "2026-07-26",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-04"
+   "lastSeen": "2026-11-05"
   },
   {
    "key": "meeting-docs:ec33ade1fe58",
@@ -212,7 +270,7 @@
    "date": "2026-07-20",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-04"
+   "lastSeen": "2026-11-05"
   }
  ]
 }
