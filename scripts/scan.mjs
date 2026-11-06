@@ -70,11 +70,11 @@ for (const t of towns) {
       const need = ['local', 'business', 'market', 'parks', 'schools', 'sports', 'issues', 'talk', 'safety', 'election'];
       for (const h of need) {
         if (h === 'market' && !(LX && LX.market)) continue; if (h === 'schools' && !(LX && LX.schools)) continue; if (h === 'sports' && !(LX && LX.sports)) continue;
-        const app = go(h); const band = app.querySelector('.nband') || (h === 'business' ? app.querySelector('.bn') : null);
+        const app = go(h); const band = app.querySelector('.nband') || (h === 'business' ? app.querySelector('.bnx, .bn') : null);
         if (!band) { out.push(`${h}: no By the numbers strip`); continue; }
-        const tiles = band.querySelectorAll('.bn-t'); if (tiles.length < 2) out.push(`${h}: By the numbers has ${tiles.length} tile`);
+        const tiles = band.querySelectorAll('.bn-t, .bnx-t'); if (tiles.length < 2) out.push(`${h}: By the numbers has ${tiles.length} tile`);
         const y = band.getBoundingClientRect().top + scrollY; if (y > 700) out.push(`${h}: By the numbers sits ${Math.round(y)}px down; it belongs at the top`);
-        [...tiles].forEach(t => { const v = (t.querySelector('.big') || {}).innerText || ''; if (v.length > 16) out.push(`${h}: tile value "${v}" is too long`); });
+        [...tiles].forEach(t => { const v = (t.querySelector('.big, .bnx-v') || {}).innerText || ''; if (v.length > 16) out.push(`${h}: tile value "${v}" is too long`); });
       }
       const iss = go('issues'); const t0 = iss.querySelector('.nband .bn-t .big'); if (t0 && +t0.innerText !== D.issues.length) out.push(`issues: strip says ${t0.innerText} being decided, record has ${D.issues.length}`);
       const loc = go('local'); const l0 = loc.querySelector('.nband .bn-t .big'); const wk = upcomingEvents().filter(e => e.date <= addDays(TODAY, 6)).length; if (l0 && +l0.innerText !== wk) out.push(`local: strip says ${l0.innerText} events this week, calendar has ${wk}`);

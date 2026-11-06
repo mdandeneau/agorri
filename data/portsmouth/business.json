@@ -505,32 +505,111 @@
   {
    "value": "$6.86M",
    "label": "Parking Fund contribution, FY27",
-   "note": "Up 67.6 percent since FY22; $2.5 million of it direct support to the General Fund",
+   "note": "Budgeted. The Parking Fund draws nothing from local property taxes, per the city.",
    "as_of": "2026-08-17",
    "source": {
     "label": "City of Portsmouth, City Council parking work session",
     "url": "https://files.portsmouthnh.gov/agendas/2026/City Council/2026.08.17.Parking_Work_Session-Presentation.pdf"
+   },
+   "icon": "parking",
+   "delta": {
+    "dir": "up",
+    "text": "67.6% since FY22"
+   },
+   "split": {
+    "parts": [
+     {
+      "label": "General Fund",
+      "value": 2.5,
+      "display": "$2.5M"
+     },
+     {
+      "label": "COAST public transportation",
+      "value": 0.998,
+      "display": "$998K"
+     }
+    ],
+    "total": 6.86,
+    "rest": "Not broken out"
+   },
+   "facts": [
+    {
+     "value": "$512",
+     "label": "offset on the median home property tax bill"
+    }
+   ]
+  },
+  {
+   "value": "$6.8M",
+   "label": "Hanover Garage reconstruction",
+   "note": "A third of the 900 spaces were out of service each year of the work, cutting revenue, so the city planned to draw down the reserve. FY27 rate changes are meant to rebuild it.",
+   "as_of": "2026-08-17",
+   "source": {
+    "label": "City of Portsmouth, City Council parking work session",
+    "url": "https://files.portsmouthnh.gov/agendas/2026/City Council/2026.08.17.Parking_Work_Session-Presentation.pdf"
+   },
+   "icon": "building",
+   "facts": [
+    {
+     "value": "900",
+     "label": "spaces, rebuilt 2022 to 2025"
+    }
+   ],
+   "spark": {
+    "title": "Parking Fund reserve at year end",
+    "points": [
+     [
+      "FY22",
+      5.6,
+      "$5.6M"
+     ],
+     [
+      "FY23",
+      6.3,
+      "$6.3M"
+     ],
+     [
+      "FY24",
+      5.6,
+      "$5.6M"
+     ],
+     [
+      "FY25",
+      4.6,
+      "$4.6M"
+     ],
+     [
+      "FY26",
+      2.9,
+      "$2.9M"
+     ]
+    ],
+    "est": [
+     "FY26"
+    ],
+    "estLabel": "projected"
    }
   },
   {
    "value": "160 a day",
    "label": "Foundry Garage workforce parkers, July 2026",
-   "note": "Up 23.1 percent on July 2025",
+   "note": "The Foundry holds all-day parking and the downtown workforce, per the city.",
    "as_of": "2026-07",
    "source": {
     "label": "City of Portsmouth, City Council parking work session",
     "url": "https://files.portsmouthnh.gov/agendas/2026/City Council/2026.08.17.Parking_Work_Session-Presentation.pdf"
-   }
-  },
-  {
-   "value": "$6.8M",
-   "label": "Hanover Garage reconstruction",
-   "note": "900 spaces, 2022 to 2025",
-   "as_of": "2026-08-17",
-   "source": {
-    "label": "City of Portsmouth, City Council parking work session",
-    "url": "https://files.portsmouthnh.gov/agendas/2026/City Council/2026.08.17.Parking_Work_Session-Presentation.pdf"
-   }
+   },
+   "icon": "parking",
+   "delta": {
+    "dir": "up",
+    "text": "23.1% on July 2025"
+   },
+   "facts": [
+    {
+     "value": "8.9 hours",
+     "label": "average stay at the Foundry Garage"
+    }
+   ]
   },
   {
    "value": "$414M",
@@ -540,7 +619,8 @@
    "source": {
     "label": "City of Portsmouth, About Portsmouth",
     "url": "https://www.portsmouthnh.gov/economic/why-portsmouth-0"
-   }
+   },
+   "icon": "ship"
   }
  ],
  "methodology": "Compiled Oct 29, 2026 from pages fetched this session: portsmouthnh.gov (Economic Development, City Clerk, Health, Inspection, Planning, news), Seacoast Current, WOKQ, Patch Portsmouth, NH Business Review, The Nashua Independent. Not covered: Seacoastonline/Portsmouth Herald (paywalled, not fetched), the Chamber Collaborative's news page at business.portsmouthchamber.org (fetch blocked), WMUR (fetch blocked), Business NH Magazine (no RSS found). No official count of registered businesses or downtown vacancy was found. Fees for vendor, sidewalk obstruction and business licenses are not published on the city pages read.",

@@ -512,16 +512,33 @@
    "source": {
     "label": "Mt Washington Valley Chamber of Commerce",
     "url": "https://www.visitmwv.com/members/mt-washington-valley-chamber-of-commerce/"
-   }
+   },
+   "icon": "people"
   },
   {
    "value": "9,822",
    "label": "Conway population, 2020 census",
-   "note": "Down from 10,115 in 2010",
+   "note": "Census counts.",
    "as_of": "2020",
    "source": {
     "label": "Wikipedia, Conway, New Hampshire (census figures)",
     "url": "https://en.wikipedia.org/wiki/Conway,_New_Hampshire"
+   },
+   "icon": "people",
+   "bars": {
+    "rows": [
+     {
+      "label": "2010",
+      "value": 10115,
+      "display": "10,115"
+     },
+     {
+      "label": "2020",
+      "value": 9822,
+      "display": "9,822",
+      "hi": true
+     }
+    ]
    }
   },
   {
@@ -532,17 +549,25 @@
    "source": {
     "label": "Wikipedia, North Conway, New Hampshire (census figures)",
     "url": "https://en.wikipedia.org/wiki/North_Conway,_New_Hampshire"
-   }
+   },
+   "icon": "map"
   },
   {
    "value": "$400K",
    "label": "Economic Council revolving loan fund",
-   "note": "Lends to small businesses and startups across 13 valley towns; fund intact after the Tech Village sale, per its executive director",
+   "note": "Lends to small businesses and startups; the fund is intact after the Tech Village sale, per its executive director.",
    "as_of": "2026-06",
    "source": {
     "label": "Conway Daily Sun, Jun 11, 2026",
     "url": "https://www.conwaydailysun.com/news/local/after-sale-of-tech-village-whats-next-for-economic-council/article_db83d604-5912-44ed-95f7-6b387209a094.html"
-   }
+   },
+   "icon": "loan",
+   "facts": [
+    {
+     "value": "13",
+     "label": "valley towns it lends across"
+    }
+   ]
   }
  ],
  "methodology": "Compiled October 30, 2026 from pages opened this session: conwaynh.gov (Town Departments, Planning and Zoning, Building Inspection, Town Clerk, Assessing, Documents, Public Notices, Broadcast, news RSS), the Chapter 23 Building Construction text posted by the town, the Conway Forward zoning project site, the Mt Washington Valley Chamber (member page, Your Chamber page, member news), the NH SBDC locations page, NH DHHS Food Protection pages, Rep. Pappas's contact page, a 2023 summary of Town of Conway v. Kudrick (casemine.com), and Conway Daily Sun articles and its Business section listing. Notices marked 'Article not opened' are headlines and dates as listed on the Daily Sun Business page. Not covered: the sign permit, rental certificate and special event PDFs could not be opened, so fees and exact rules are not shown; no North Conway or Conway Main Street organization was found; the Economic Council's own website and NHES community profile were not opened; the June 22, 2026 Assessing notice to commercial taxpayers about Sansoucy Associates falls just outside the 120-day window and its text is an image; the TD Bank North Conway branch closing (January 29, 2026) and the MaineHealth Urgent Care opening (February 2026) are older than six months and left out. Checked November 3, 2026: the valley towns' fetcher inboxes and the Conway Daily Sun Local section showed no new openings, closings, businesses for sale or business notices; the Sun's Business section could not be opened that day.",

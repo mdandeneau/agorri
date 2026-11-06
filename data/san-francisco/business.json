@@ -744,43 +744,209 @@
  ],
  "stats": [
   {
-   "value": "29.3%",
-   "label": "Office vacancy rate, Q3 2026",
-   "note": "Cushman & Wakefield, down 50 basis points from Q2; net absorption was just over 405,000 square feet (Kidder Mathews' Q3 report, measured differently, puts overall vacancy at 26.0%).",
-   "as_of": "2026-09-30",
+   "label": "New business locations registered, September 2026",
+   "value": 820,
+   "note": "Locations in San Francisco, counted by start date in the Treasurer and Tax Collector's registry. Late registrations keep adding to recent months; October shows 675 so far.",
+   "as_of": "2026-11-06",
    "source": {
-    "label": "Cushman & Wakefield, San Francisco Office MarketBeat Q3 2026",
-    "url": "https://www.cushmanwakefield.com/en/united-states/insights/us-marketbeats/san-francisco-marketbeats/office"
+    "label": "DataSF, Registered Business Locations",
+    "url": "https://data.sf.gov/d/g8m3-pdis"
+   },
+   "icon": "store",
+   "delta": {
+    "dir": "down",
+    "text": "from 877 in Sep 2025"
+   },
+   "spark": {
+    "title": "New locations registered per month",
+    "points": [
+     [
+      "2024-11",
+      757,
+      "757"
+     ],
+     [
+      "2024-12",
+      675,
+      "675"
+     ],
+     [
+      "2025-01",
+      1670,
+      "1,670"
+     ],
+     [
+      "2025-02",
+      849,
+      "849"
+     ],
+     [
+      "2025-03",
+      976,
+      "976"
+     ],
+     [
+      "2025-04",
+      1069,
+      "1,069"
+     ],
+     [
+      "2025-05",
+      957,
+      "957"
+     ],
+     [
+      "2025-06",
+      971,
+      "971"
+     ],
+     [
+      "2025-07",
+      1166,
+      "1,166"
+     ],
+     [
+      "2025-08",
+      866,
+      "866"
+     ],
+     [
+      "2025-09",
+      877,
+      "877"
+     ],
+     [
+      "2025-10",
+      895,
+      "895"
+     ],
+     [
+      "2025-11",
+      683,
+      "683"
+     ],
+     [
+      "2025-12",
+      761,
+      "761"
+     ],
+     [
+      "2026-01",
+      1551,
+      "1,551"
+     ],
+     [
+      "2026-02",
+      1027,
+      "1,027"
+     ],
+     [
+      "2026-03",
+      1048,
+      "1,048"
+     ],
+     [
+      "2026-04",
+      1069,
+      "1,069"
+     ],
+     [
+      "2026-05",
+      955,
+      "955"
+     ],
+     [
+      "2026-06",
+      833,
+      "833"
+     ],
+     [
+      "2026-07",
+      877,
+      "877"
+     ],
+     [
+      "2026-08",
+      838,
+      "838"
+     ],
+     [
+      "2026-09",
+      820,
+      "820"
+     ],
+     [
+      "2026-10",
+      675,
+      "675"
+     ]
+    ],
+    "hi": "2026-09",
+    "est": [
+     "2026-10"
+    ],
+    "estLabel": "still coming in"
    }
   },
   {
-   "value": "$72.68",
-   "label": "Average office asking rent, Q3 2026",
-   "note": "Per square foot per year, gross; up $2.39 (3.4%) from $70.29 in Q2 2026.",
+   "value": "29.3%",
+   "label": "Office vacancy rate, Q3 2026",
+   "note": "Cushman & Wakefield; net absorption was just over 405,000 square feet. Kidder Mathews' Q3 report, measured differently, puts overall vacancy at 26.0%.",
    "as_of": "2026-09-30",
    "source": {
     "label": "Cushman & Wakefield, San Francisco Office MarketBeat Q3 2026",
     "url": "https://www.cushmanwakefield.com/en/united-states/insights/us-marketbeats/san-francisco-marketbeats/office"
+   },
+   "icon": "building",
+   "delta": {
+    "dir": "down",
+    "text": "0.5 points from Q2"
+   },
+   "meter": {
+    "value": 29.3,
+    "max": 100,
+    "label": "of office space vacant"
    }
   },
   {
    "value": "4.0%",
    "label": "Unemployment rate, San Francisco County, September 2026",
-   "note": "Not seasonally adjusted: 20,100 unemployed in a labor force of 501,400. California's rate was 5.1 percent. October figures are due November 20.",
+   "note": "Not seasonally adjusted: 20,100 unemployed in a labor force of 501,400. October figures are due November 20.",
    "as_of": "2026-10-16",
    "source": {
     "label": "California EDD, September 2026 release",
     "url": "https://edd.ca.gov/en/about_edd/news_releases_and_announcements/unemployment-september-2026/"
+   },
+   "icon": "jobs",
+   "bars": {
+    "rows": [
+     {
+      "label": "San Francisco",
+      "value": 4.0,
+      "display": "4.0%",
+      "hi": true
+     },
+     {
+      "label": "California",
+      "value": 5.1,
+      "display": "5.1%"
+     }
+    ]
    }
   },
   {
-   "label": "New business locations registered, September 2026",
-   "value": 816,
-   "note": "877 in September 2025. Counted by location start date in the Treasurer and Tax Collector's registry; recent months can rise as late registrations come in (October shows 658 so far).",
-   "as_of": "2026-11-04",
+   "value": "$72.68",
+   "label": "Average office asking rent, Q3 2026",
+   "note": "Per square foot per year, gross.",
+   "as_of": "2026-09-30",
    "source": {
-    "label": "DataSF, Registered Business Locations",
-    "url": "https://data.sf.gov/d/g8m3-pdis"
+    "label": "Cushman & Wakefield, San Francisco Office MarketBeat Q3 2026",
+    "url": "https://www.cushmanwakefield.com/en/united-states/insights/us-marketbeats/san-francisco-marketbeats/office"
+   },
+   "icon": "money",
+   "delta": {
+    "dir": "up",
+    "text": "$2.39 (3.4%) from $70.29 in Q2"
    }
   }
  ],

@@ -51,3 +51,11 @@ Official sources for the live feed: [{id, who, platform, type rss|atom|bluesky, 
 - `charts`: each has `id` (unique on the page), `title`, `sub`, `period` ("month" with x values "YYYY-MM", or "year" with "YYYY"), `unit`, `series` [{label, points [[x, value]]}] (up to 3 series; leave a missing year out and the line breaks there), `source` {label, url}, `note`. Monthly charts get a yearly-total table; yearly charts list each year.
 - `tables`: each has `id`, `title`, `sub`, `cols`, `rows` as [name, this year, last year, ...extra columns] (the Change column is computed from the first two numbers), `note`, `source`; `ward: true` when rows are wards or districts, which adds a "your district" picker and marks the row only after the person picks it.
 - San Francisco's monthly series come from DataSF (Socrata, data.sf.gov): incident reports `wg3w-h783` (count distinct `incident_id` by month of `incident_date`), dispatched calls `2zdj-bwza` (agency Police, by month received), fire and EMS `nuek-vuh3` (count distinct `incident_number` by month of `received_dttm`). FBI yearly rates are the town, state and U.S. figures published by the FBI (read via OpenCrime). Refresh monthly; the latest month fills in as reports are approved.
+
+## business.json: stats (Business page, "By the numbers")
+Each stat: `value`, `label`, `note`, `as_of`, `source` {label, url}, plus optional visual fields. Every number in these fields must come from the stat's own source.
+- `icon`: money, parking, people, building, store, jobs, chart, loan, ship, event, news or map.
+- `delta`: {dir "up" or "down", text}, shown with an arrow, e.g. {"dir":"up","text":"67.6% since FY22"}. Always name the period compared.
+- `facts`: [{value, label}], small secondary figures from the same source.
+- One graphic at most: `spark` {title, points [[x, value, display]], hi (x to highlight; default the last), est [x values that are projected or still filling in], estLabel}; `bars` {title, rows [{label, value, display, hi}]} for a comparison; `split` {parts [{label, value, display}], total, rest (label for the part of the total that is not itemized)}; `meter` {value, max, label} for a share.
+- The first stat becomes a wide feature tile when it has a graphic and there are at least three stats.
