@@ -1,5 +1,5 @@
 {
- "as_of": "2026-11-03",
+ "as_of": "2026-11-06",
  "note": "Items on this page come from the City of Portsmouth's own releases and from local news outlets. Each item links to its source. Nothing here is a live feed yet; see the Sources card.",
  "housing": {
   "portsmouth": {
@@ -118,6 +118,16 @@
    },
    "strip": "Pump station",
    "stripLine": "Info meeting Monday, 6:30 pm"
+  },
+  {
+   "date": "2026-11-04",
+   "kind": "Arts",
+   "title": "Call for artists: winter textile art exhibition, Feb 1 to Apr 27, 2027",
+   "detail": "The City's Public Art Review Committee invites Seacoast-area artists to submit textile art on the theme Ice and Fire for a winter exhibition running February 1 to April 27, 2027. The call is open to artists who live or work in the New Hampshire Seacoast area. Posted by the City on Nov 4.",
+   "source": {
+    "label": "City of Portsmouth, Nov 4",
+    "url": "https://www.portsmouthnh.gov/city/news/winter-exhibition-call-artists"
+   }
   },
   {
    "date": "2026-11-03",
@@ -894,28 +904,8 @@
    "status": "not yet connected"
   }
  ],
- "events_as_of": "2026-11-05",
+ "events_as_of": "2026-11-06",
  "events": [
-  {
-   "date": "2026-11-05",
-   "time": "7:30 pm",
-   "title": "Greg Piccolo and Heavy Juice",
-   "venue": "Jimmy's Jazz & Blues Club, 135 Congress St",
-   "town": "Portsmouth",
-   "kind": "Music",
-   "url": "https://patch.com/new-hampshire/portsmouth-nh/calendar/event/20261105/aa3297d6-4a80-4265-a46c-584b3178c207/greg-piccolo-and-heavy-juice",
-   "source": "Patch calendar"
-  },
-  {
-   "date": "2026-11-05",
-   "time": "3:00 pm",
-   "title": "Recreation Board Disc Golf Subcommittee meeting",
-   "venue": "Community Campus, 100 Campus Drive",
-   "town": "Portsmouth",
-   "kind": "Civic",
-   "url": "https://files.portsmouthnh.gov/agendas/2026/Recreation%20Committee/Notice%20of%20Meeting%2011.5.26.pdf",
-   "source": "City of Portsmouth"
-  },
   {
    "date": "2026-11-06",
    "time": "4:00 pm",
@@ -934,6 +924,16 @@
    "town": "Portsmouth",
    "kind": "Art",
    "url": "https://patch.com/new-hampshire/portsmouth-nh/calendar/event/20261106/f9fcb88d-9555-4c9c-855d-9252d822fdcd/new-hampshire-art-association",
+   "source": "Patch calendar"
+  },
+  {
+   "date": "2026-11-06",
+   "time": "7:30 pm",
+   "title": "The Pocket Universe, presented by Darwin's Waiting Room (also Nov 7 at 4 pm and Nov 8 at 2:30 pm)",
+   "venue": "New Hampshire Theatre Project, 959 Islington St",
+   "town": "Portsmouth",
+   "kind": "Theater",
+   "url": "https://patch.com/new-hampshire/portsmouth-nh/calendar/event/20261106/5a736c29-144e-4f67-8e2a-7119a6345102/darwins-waiting-room-presents-the-pocket-universe",
    "source": "Patch calendar"
   },
   {
@@ -1038,6 +1038,16 @@
    "kind": "Market",
    "url": "https://www.portsmouthnh.gov/city/press-releases/city-announces-trick-or-treat-hours-and-fall-events",
    "source": "City of Portsmouth"
+  },
+  {
+   "date": "2026-11-19",
+   "time": "6:30 pm",
+   "title": "Hobbit Calligraphy (online; registration required, materials picked up at the library a week before)",
+   "venue": "Online (Zoom), Portsmouth Public Library",
+   "town": "Portsmouth",
+   "kind": "Library",
+   "url": "https://www.portsmouthnh.gov/library/news/hobbit-calligraphy-1119-630pm-online",
+   "source": "Portsmouth Public Library"
   },
   {
    "date": "2026-11-20",
@@ -1352,7 +1362,7 @@
   }
  ],
  "safety": {
-  "as_of": "2026-11-03",
+  "as_of": "2026-11-06",
   "note": "Compiled from City of Portsmouth police and fire pages, daily police logs, Police and Fire Commission minutes and local news. Incidents are described by type, street and date only; no names of people involved.",
   "alerts": {
    "name": "Smart911 Community Alert System",
@@ -2237,7 +2247,7 @@
        "points": [
         [
          "2021",
-         387.0
+         387
         ],
         [
          "2022",
@@ -2352,9 +2362,14 @@
  "paper": {
   "name": "Portsmouth Patch",
   "url": "https://patch.com/new-hampshire/portsmouth-nh",
-  "asOf": "2026-11-05",
+  "asOf": "2026-11-06",
   "note": "The Portsmouth Herald is paywalled with no public feed, so these come from Patch.",
   "headlines": [
+   {
+    "title": "Farley Of Colliers Facilitates $2.7 Million Sale Of The Local Wash In Hampton",
+    "url": "https://patch.com/new-hampshire/portsmouth-nh/farley-colliers-facilitates-2-7-million-sale-local-wash-hampton",
+    "date": "2026-11-05"
+   },
    {
     "title": "Greater Seacoast Health Expands Community-Based Health Services",
     "url": "https://patch.com/new-hampshire/portsmouth-nh/greater-seacoast-health-expands-community-based-health-services",
@@ -2389,11 +2404,6 @@
     "title": "Devine Millimet Receives Top Woman-Led Business Recognition",
     "url": "https://patch.com/new-hampshire/portsmouth-nh/devine-millimet-receives-top-woman-led-business-recognition",
     "date": "2026-10-30"
-   },
-   {
-    "title": "Colliers Promotes Reilly To Senior Property Manager",
-    "url": "https://patch.com/new-hampshire/portsmouth-nh/colliers-promotes-reilly-senior-property-manager",
-    "date": "2026-10-29"
    }
   ]
  }

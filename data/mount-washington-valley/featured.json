@@ -1,5 +1,5 @@
 {
- "as_of": "2026-11-04",
+ "as_of": "2026-11-06",
  "note": "One featured item at a time on Home. Election results: fill each town's count from its Town Clerk's posted results (Conway, Bartlett, Jackson, Madison, Tamworth) and record the valley total; mark called only when the Secretary of State or two news outlets have called the race. Rules in UPDATE.md.",
  "items": [
   {
@@ -10,8 +10,8 @@
    "election": "2026-11-03",
    "results": {
     "status": "counting",
-    "asOf": "2026-11-04T10:58:06Z",
-    "note": "Each valley town posts its own count; none had been posted when this was checked on the morning of Nov 4, so vote counts stay blank until they are. Called races: the Associated Press called Governor for Kelly Ayotte (12:42 am Nov 4, reported by InDepthNH and NHPR), U.S. Senate for Chris Pappas (reported by NHPR and the New Hampshire Bulletin) and U.S. House District 1 for Stefany Shaheen (reported by NHPR, the New Hampshire Bulletin and The Hill). Executive Council and State Senate races had not been called by two outlets.",
+    "asOf": "2026-11-06T11:00:00Z",
+    "note": "Each valley town posts its own count; the town websites could not be reached on the morning of Nov 6, so vote counts stay blank until they are read. Called races: the Associated Press called Governor for Kelly Ayotte (12:42 am Nov 4, reported by InDepthNH and NHPR), U.S. Senate for Chris Pappas (reported by NHPR and the New Hampshire Bulletin) and U.S. House District 1 for Stefany Shaheen (reported by NHPR, the New Hampshire Bulletin and The Hill). Executive Council District 1: the New Hampshire Union Leader reported Nov 5 that Luz Bay won; NHPR reported Nov 5 that Bay led Joe Kenney 51.8% to 48.2% with 93% counted and that Kenney had not conceded. State Senate District 3: The Conway Daily Sun reported Nov 4 that Mark McConkey defeated Bobbi Boudman. Neither race has been called by two outlets yet.",
     "source": {
      "label": "Town of Conway elections",
      "url": "https://conwaynh.gov/pages/elections"

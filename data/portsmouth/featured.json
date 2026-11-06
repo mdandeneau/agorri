@@ -1,5 +1,5 @@
 {
- "as_of": "2026-11-04",
+ "as_of": "2026-11-06",
  "note": "One featured item at a time on Home, for days when one thing matters more than the rest. Each item shows between from and until (inclusive). kind: election (built from candidates.json and local.json election; results below fill in the morning after), or notice (title, line, actions). Rules for filling results are in UPDATE.md.",
  "items": [
   {
@@ -10,8 +10,8 @@
    "election": "2026-11-03",
    "results": {
     "status": "counting",
-    "asOf": "2026-11-04T10:58:06Z",
-    "note": "Portsmouth's own count is posted by the City Clerk; it was not yet posted when this was checked on the morning of Nov 4, so vote counts stay blank until it is. Called races: the Associated Press called Governor for Kelly Ayotte (12:42 am Nov 4, reported by InDepthNH and NHPR), U.S. Senate for Chris Pappas (reported by NHPR and the New Hampshire Bulletin) and U.S. House District 1 for Stefany Shaheen (reported by NHPR, the New Hampshire Bulletin and The Hill). Executive Council and State Senate races had not been called by two outlets.",
+    "asOf": "2026-11-06T11:00:00Z",
+    "note": "Portsmouth's own count is posted by the City Clerk; the City's website could not be reached on the morning of Nov 6, so vote counts stay blank until it is read. Called races: the Associated Press called Governor for Kelly Ayotte (12:42 am Nov 4, reported by InDepthNH and NHPR), U.S. Senate for Chris Pappas (reported by NHPR and the New Hampshire Bulletin) and U.S. House District 1 for Stefany Shaheen (reported by NHPR, the New Hampshire Bulletin and The Hill). Executive Council District 3: the New Hampshire Union Leader reported Nov 5 that Lisa Kennedy Sheldon unseated Janet Stevens, and NHPR reported Nov 4 that Stevens was losing; not yet called by two outlets. State Senate District 21 had not been called by two outlets.",
     "source": {
      "label": "City Clerk election results",
      "url": "https://www.portsmouthnh.gov/cityclerk/voting-information"

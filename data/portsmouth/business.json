@@ -565,5 +565,19 @@
    "url": "https://www.businessbroker.net/city/portsmouth-nh-businesses-for-sale.aspx",
    "source": "BusinessBroker.net"
   }
+ ],
+ "changedHands": [
+  {
+   "name": "The Local Wash",
+   "what": "Automatic car wash, four self-service wash bays and a laundromat",
+   "town": "Hampton",
+   "date": "2026-11-05",
+   "price": "$2.7 million",
+   "detail": "Sold for $2.7 million in a sale handled by Farley of Colliers, according to a press release from the Chamber Collaborative of Greater Portsmouth posted on Patch Nov 5. The release summary does not give the sale date or name the buyer.",
+   "source": {
+    "label": "Portsmouth Patch (Chamber Collaborative press release), Nov 5",
+    "url": "https://patch.com/new-hampshire/portsmouth-nh/farley-colliers-facilitates-2-7-million-sale-local-wash-hampton"
+   }
+  }
  ]
 }

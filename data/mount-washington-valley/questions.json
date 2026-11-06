@@ -14,7 +14,7 @@
    "date": "2026-10-31",
    "issue": "school-tax-cap",
    "text": "Conway should cap how much the school district's property tax can grow for the next two years.",
-   "status": "approved",
+   "status": "retired",
    "town": "conway"
   },
   {
@@ -134,6 +134,15 @@
    "issue": "zoning-rewrite",
    "text": "Conway voters should adopt the rewritten Zoning Ordinance and zoning map at the 2027 Town Meeting.",
    "source": "https://bpg.mysocialpinpoint.com/conway-forward-zoning",
+   "status": "draft"
+  },
+  {
+   "id": "2026-11-09-tamworth-four-way-stop",
+   "date": "2026-11-09",
+   "town": "tamworth",
+   "issue": "chocorua-four-way-stop",
+   "text": "The state should add the four-way stop at Routes 16 and 113 in Chocorua that the Tamworth Select Board asked for.",
+   "source": "https://www.tamworthnh.gov/AgendaCenter/ViewFile/Minutes/_04142026-212",
    "status": "draft"
   }
  ]

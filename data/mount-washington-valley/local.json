@@ -1,5 +1,5 @@
 {
- "as_of": "2026-11-03",
+ "as_of": "2026-11-06",
  "note": "Mount Washington Valley local desk: Conway (including North Conway), Bartlett, Jackson and Madison. North Conway is a village inside the Town of Conway. Police, roads, the transfer station and elections are run by the Town of Conway; fire protection, water and sewer in North Conway come from the North Conway Water Precinct. Checked Oct 30, 2026 from town, precinct and department pages and local news. Every item links to its source.",
  "housing": {
   "region": {
@@ -219,6 +219,17 @@
    "strip": "Ski history",
    "stripLine": "Schneider re-enactment, Schouler Park, Nov 4 and 5",
    "town": "Conway"
+  },
+  {
+   "town": "Freedom",
+   "date": "2026-11-04",
+   "kind": "Taxes",
+   "title": "Freedom posts a 2026 tax bill notice",
+   "detail": "The Town of Freedom posted a notice titled \"Tax Bill 2026 PO2\" on its website on Nov 4. Open the notice for the details.",
+   "source": {
+    "label": "Town of Freedom, Nov 4",
+    "url": "https://townoffreedomnh.gov/2026/11/04/tax-bill-2026-po2/"
+   }
   },
   {
    "date": "2026-11-03",
@@ -834,37 +845,6 @@
  ],
  "events": [
   {
-   "date": "2026-11-05",
-   "time": "Morning",
-   "title": "Hannes Schneider arrival re-enactment: community ski-pole archway (second day; began Nov 4)",
-   "venue": "Schouler Park, North Conway train station",
-   "town": "North Conway",
-   "kind": "Community",
-   "url": "https://www.conwaydailysun.com/news/local/public-invited-to-attend-schneider-arrival-re-enactment-nov-4-5/article_ccb2776f-0339-4064-8be3-f0954e0efe63.html",
-   "source": "The Conway Daily Sun",
-   "note": "Check the story for 2026 times. In 2025 the museum asked archway volunteers to arrive by 9:45 am."
-  },
-  {
-   "date": "2026-11-05",
-   "time": "4:30 pm",
-   "title": "Conservation Commission meeting",
-   "venue": "Town of Madison (room not stated on the calendar)",
-   "town": "Madison",
-   "kind": "Civic",
-   "url": "https://www.madison-nh.org/departments/police/",
-   "source": "Town of Madison (calendar on department pages)"
-  },
-  {
-   "date": "2026-11-05",
-   "time": "6:00 pm",
-   "title": "Cybersecurity Awareness for NH Residents",
-   "venue": "Conway Public Library, 15 Greenwood Ave",
-   "town": "Conway",
-   "kind": "Talk",
-   "url": "https://conwaypubliclibrary.org/adult-community/events/291573/cybersecurity-awareness-nh-residents",
-   "source": "Conway Public Library"
-  },
-  {
    "date": "2026-11-07",
    "time": "5:25 pm",
    "title": "Blackout 5K/10K night mountain race (check-in from 4 pm; headlamps required)",
@@ -1082,7 +1062,7 @@
    "note": "The page gives Saturday, Dec 12 and Sunday, Dec 13 but no year; those weekdays match 2026 and the 2025 tour (28th) was Dec 13 and 14, 2025. Tickets are sold through the tour; the inn's page lists only its package."
   }
  ],
- "events_as_of": "2026-11-05",
+ "events_as_of": "2026-11-06",
  "eventsNote": "Events from the Conway Public Library, Cranmore, Conway Scenic Railroad, the Town of Conway, Settlers Green (via the Visit NH calendar) and The Conway Daily Sun, as of Oct 30. The Mt. Washington Valley Chamber calendar loads by script and the North Conway Community Center schedule could not be opened, so their events are missing. Conway Scenic's Santa's Holiday Special page says it begins Nov 27 but gives no year, so it is not listed. Confirm with the organizer. Valley-wide: Conway, Bartlett, Jackson and Madison. From the Town of Bartlett, Town of Jackson and Town of Madison calendars and notices, Jackson XC, the Jackson Area Chamber, White Mountain Ski Co., the Inn at Ellis River and OnTheSnow, as of Oct 31. Ski opening dates are OnTheSnow projections, not resort announcements. Story Land's 2026 season ended Oct 25 with Happy Hauntings (visitwhitemountains.com), so it has no events in this window. Not covered: the Jackson Area Chamber November and December calendar pages, the Attitash events calendar, the Bartlett, Jackson and Madison library sites and the Bartlett and Madison recreation sites could not be opened. Weekly programs at the Old Jackson Library (yoga, mahjong, canasta) are listed in parks-add.json, not here.",
  "election": {
   "date": "2026-11-03",
@@ -1388,7 +1368,7 @@
  "postsAsOf": "2026-10-30",
  "postsNote": "The live feed fills this in.",
  "safety": {
-  "as_of": "2026-11-03",
+  "as_of": "2026-11-06",
   "note": "Compiled from the Conway Police Department and North Conway Water Precinct pages, the Town of Conway's 2025 report and local news. Conway Police cover the whole town, including North Conway. North Conway Fire serves North Conway; Conway Fire (Conway Village, run by the town since Jan 1, 2025), Center Conway, Redstone and East Conway have their own departments. Incidents are described by type, street and date only; no names of people involved. Main listings are Conway Police and the North Conway Fire Department; Bartlett, Jackson and Madison departments are listed under \"Other departments in the valley\".",
   "alerts": {
    "name": "Conway Broadcast (town text and email notices)",
@@ -1787,7 +1767,7 @@
        "points": [
         [
          "2021",
-         387.0
+         387
         ],
         [
          "2022",
@@ -1924,48 +1904,48 @@
  "paper": {
   "name": "The Conway Daily Sun",
   "url": "https://www.conwaydailysun.com/",
-  "asOf": "2026-11-04",
+  "asOf": "2026-11-06",
   "note": "Stories open on the paper's site. Dates are the paper's last-updated dates. Picked from the Local news section for Conway relevance.",
   "headlines": [
    {
-    "title": "Election Day is here: Final look at local candidates, issues",
-    "url": "https://www.conwaydailysun.com/news/local/election-day-is-here-final-look-at-local-candidates-issues/article_c90a6e64-85e9-4549-91ef-cc1239a6f810.html",
-    "date": "2026-11-02"
+    "title": "Local Democrats ride blue tsunami to victory",
+    "url": "https://www.conwaydailysun.com/news/local/local-democrats-ride-blue-tsunami-to-victory/article_f5f4dd55-4da7-4ba9-bab8-09703f1ce1fc.html",
+    "date": "2026-11-04"
    },
    {
-    "title": "Tuesday's General Election polling places and times",
-    "url": "https://www.conwaydailysun.com/news/local/tuesdays-general-election-polling-places-and-times/article_4de657cb-0810-4fb1-8b2d-0acae423dccf.html",
-    "date": "2026-11-02"
+    "title": "In Carroll County, delegation balance hangs on 1 vote",
+    "url": "https://www.conwaydailysun.com/news/local/in-carroll-county-delegation-balance-hangs-on-1-vote/article_2e5cdf4c-9847-46d1-8450-69d81621bb2a.html",
+    "date": "2026-11-04"
+   },
+   {
+    "title": "Bucking Democratic blue wave, McConkey defeats Boudman",
+    "url": "https://www.conwaydailysun.com/news/local/bucking-democratic-blue-wave-mcconkey-defeats-boudman/article_9856d26e-2219-4243-bbca-e159de0d3c90.html",
+    "date": "2026-11-04"
+   },
+   {
+    "title": "Democratic blue wave at the polls in Conway",
+    "url": "https://www.conwaydailysun.com/news/local/democratic-blue-wave-at-the-polls-in-conway/article_70481505-96ab-428d-ac7e-1b3a3bb0db9d.html",
+    "date": "2026-11-04"
+   },
+   {
+    "title": "Bench dedicated in memory of the late Stoney Morrell in Bartlett",
+    "url": "https://www.conwaydailysun.com/news/local/bench-dedicated-in-memory-of-the-late-stoney-morrell-in-bartlett/article_1b54beef-296e-43f6-ac46-ee4ee3ad6c54.html",
+    "date": "2026-11-04"
+   },
+   {
+    "title": "Wild River Fire expands to 1,000 acres",
+    "url": "https://www.conwaydailysun.com/news/local/wild-river-fire-expands-to-1-000-acres/article_393b2a45-11d9-4084-b65a-570a97a4a970.html",
+    "date": "2026-11-04"
    },
    {
     "title": "October summary: Drier than normal month",
     "url": "https://www.conwaydailysun.com/news/local/october-summary-drier-than-normal-month/article_e9c47725-b9f3-49f8-9aa2-2583d5464d01.html",
-    "date": "2026-11-02"
+    "date": "2026-11-04"
    },
    {
-    "title": "Scanlan predicts record voter turnout on Tuesday",
-    "url": "https://www.conwaydailysun.com/news/local/scanlan-predicts-record-voter-turnout-on-tuesday/article_a5eb84f7-0d81-45bb-b131-eefc49d10739.html",
-    "date": "2026-11-02"
-   },
-   {
-    "title": "General Election polling places and times",
-    "url": "https://www.conwaydailysun.com/news/local/general-election-polling-places-and-times/article_4d3eade7-7a5f-4c3f-8be6-98d6ef244b5c.html",
-    "date": "2026-10-31"
-   },
-   {
-    "title": "Three Democrats vie for three District 1 state rep seats",
-    "url": "https://www.conwaydailysun.com/politics/three-democrats-vie-for-three-district-1-state-rep-seats/article_54ccef85-d878-4e6e-9305-fc003b812ebb.html",
-    "date": "2026-10-30"
-   },
-   {
-    "title": "School board irons out committee assignments",
-    "url": "https://www.conwaydailysun.com/news/local/school-board-irons-out-committee-assignments/article_1b91472a-ca75-45a7-bca7-c99073255e40.html",
-    "date": "2026-10-30"
-   },
-   {
-    "title": "Beckwith named school board chair; no vice chair yet",
-    "url": "https://www.conwaydailysun.com/news/local/beckwith-named-school-board-chair-no-vice-chair-yet/article_577cef40-c1f1-45d7-a79e-46c398070dea.html",
-    "date": "2026-10-30"
+    "title": "Election Day is here: Final look at local candidates, issues",
+    "url": "https://www.conwaydailysun.com/news/local/election-day-is-here-final-look-at-local-candidates-issues/article_c90a6e64-85e9-4549-91ef-cc1239a6f810.html",
+    "date": "2026-11-03"
    }
   ]
  }
