@@ -1,5 +1,5 @@
 {
- "as_of": "2026-11-06",
+ "as_of": "2026-11-07",
  "note": "Items on this page come from the City of Portsmouth's own releases and from local news outlets. Each item links to its source. Nothing here is a live feed yet; see the Sources card.",
  "housing": {
   "portsmouth": {
@@ -73,6 +73,28 @@
   "openings": []
  },
  "notices": [
+  {
+   "date": "2026-12-16",
+   "kind": "Roads",
+   "title": "Market Street and Russell Street intersection project: public input meeting Dec 16",
+   "detail": "The Bicycle Pedestrian Blue Ribbon Committee's November agenda lists a public input meeting on the Market Street and Russell Street intersection improvement project on December 16, 2026. Time and place were not given.",
+   "source": {
+    "label": "City of Portsmouth, Bicycle Pedestrian Blue Ribbon Committee agenda, Nov 5",
+    "url": "https://files.portsmouthnh.gov/agendas/2026/Bike%20Ped%20/Bike%20Ped%20Agenda%20November%20FINAL%20rev.pdf"
+   }
+  },
+  {
+   "date": "2026-11-19",
+   "kind": "Hearing",
+   "title": "Planning Board public hearing, Thursday, Nov 19, 6 pm: four applications",
+   "detail": "The Planning Board will hear a request to split 221 Woodbury Avenue into two lots, changes to the approved site plan at 175 Fleet Street, a permit to remove about 1,275 cubic yards of material at 1-15 Congress Street/Newbury Way, and a site plan for parking, outdoor dining, lighting, drainage and landscaping at 140 West Road. Council Chambers, City Hall, 1 Junkins Avenue, or on Zoom. Written comments go to Planning@portsmouthnh.gov by close of business the day before.",
+   "source": {
+    "label": "City of Portsmouth, Planning Board legal notice",
+    "url": "https://files.portsmouthnh.gov/agendas/2026/Planning+Board/11-19-2026+Meeting+/11-19-2026+PB+LN.pdf"
+   },
+   "strip": "Planning hearing",
+   "stripLine": "Planning Board hears four applications"
+  },
   {
    "date": "2026-11-12",
    "kind": "Library",
@@ -904,32 +926,12 @@
    "status": "not yet connected"
   }
  ],
- "events_as_of": "2026-11-06",
+ "events_as_of": "2026-11-07",
  "events": [
   {
-   "date": "2026-11-06",
+   "date": "2026-11-07",
    "time": "4:00 pm",
-   "title": "Field & Flower: guided outdoor floral workshop",
-   "venue": "High Standard Stable, 305 Peverly Hill Rd",
-   "town": "Portsmouth",
-   "kind": "Workshop",
-   "url": "https://patch.com/new-hampshire/portsmouth-nh/calendar/event/20261106/5fdca810-3553-472a-9b81-29d7e47a77b4/field-flower",
-   "source": "Patch calendar"
-  },
-  {
-   "date": "2026-11-06",
-   "time": "5:00 pm",
-   "title": "27th Annual Joan L. Dunfey Exhibition opening reception",
-   "venue": "New Hampshire Art Association, 136 State St",
-   "town": "Portsmouth",
-   "kind": "Art",
-   "url": "https://patch.com/new-hampshire/portsmouth-nh/calendar/event/20261106/f9fcb88d-9555-4c9c-855d-9252d822fdcd/new-hampshire-art-association",
-   "source": "Patch calendar"
-  },
-  {
-   "date": "2026-11-06",
-   "time": "7:30 pm",
-   "title": "The Pocket Universe, presented by Darwin's Waiting Room (also Nov 7 at 4 pm and Nov 8 at 2:30 pm)",
+   "title": "The Pocket Universe, presented by Darwin's Waiting Room (also Nov 8 at 2:30 pm)",
    "venue": "New Hampshire Theatre Project, 959 Islington St",
    "town": "Portsmouth",
    "kind": "Theater",
@@ -1018,6 +1020,16 @@
    "kind": "Market",
    "url": "https://patch.com/new-hampshire/portsmouth-nh/calendar/event/20261114/e9f3b691-1343-46af-b181-cbddadfcb262/seacoast-artisans-27th-annual-holiday-fine-arts-craft-show-save-the-date",
    "source": "Patch calendar"
+  },
+  {
+   "date": "2026-11-15",
+   "time": "3:00 pm",
+   "title": "Guitar Sundays: Brooks Robertson (offsite; location on the library's page)",
+   "venue": "Offsite, Portsmouth Public Library program",
+   "town": "Portsmouth",
+   "kind": "Library",
+   "url": "https://www.portsmouthnh.gov/library/news/guitarsundays",
+   "source": "Portsmouth Public Library"
   },
   {
    "date": "2026-11-17",
@@ -1112,13 +1124,14 @@
   },
   {
    "date": "2026-12-04",
-   "time": "",
-   "title": "Candlelight Stroll opens",
-   "venue": "Strawbery Banke Museum",
+   "time": "6:00 pm",
+   "title": "Candlelight Stroll (Fri 6 pm arrivals, Sat 4:30 and 5:30 pm, Sun 2 and 3 pm; through Dec 6)",
+   "venue": "Strawbery Banke Museum, 14 Hancock St",
    "town": "Portsmouth",
    "kind": "Holiday",
-   "url": "https://www.strawberybanke.org/events/",
-   "source": "Strawbery Banke"
+   "url": "https://business.portsmouthchamber.org/events/details/candlelight-stroll-at-strawbery-banke-museum-12-19-2026-90364",
+   "source": "Greater Portsmouth Chamber calendar",
+   "price": "$35 adults, $17.50 ages 3 to 17 (nonmembers)"
   },
   {
    "date": "2026-12-04",
@@ -1149,6 +1162,28 @@
    "kind": "Market",
    "url": "https://patch.com/new-hampshire/portsmouth-nh/calendar/event/20261205/c08d3869-0352-4b90-a1aa-b52b4564ce9a/treasures-treats-marketplace",
    "source": "Patch calendar"
+  },
+  {
+   "date": "2026-12-11",
+   "time": "6:00 pm",
+   "title": "Candlelight Stroll (Fri 6 pm arrivals, Sat 4:30 and 5:30 pm, Sun 2 and 3 pm; through Dec 13)",
+   "venue": "Strawbery Banke Museum, 14 Hancock St",
+   "town": "Portsmouth",
+   "kind": "Holiday",
+   "price": "$35 adults, $17.50 ages 3 to 17 (nonmembers)",
+   "url": "https://business.portsmouthchamber.org/events/details/candlelight-stroll-at-strawbery-banke-museum-12-19-2026-90364",
+   "source": "Greater Portsmouth Chamber calendar"
+  },
+  {
+   "date": "2026-12-18",
+   "time": "6:00 pm",
+   "title": "Candlelight Stroll (Fri 6 pm arrivals, Sat 4:30 and 5:30 pm, Sun 2 and 3 pm; through Dec 20)",
+   "venue": "Strawbery Banke Museum, 14 Hancock St",
+   "town": "Portsmouth",
+   "kind": "Holiday",
+   "price": "$35 adults, $17.50 ages 3 to 17 (nonmembers)",
+   "url": "https://business.portsmouthchamber.org/events/details/candlelight-stroll-at-strawbery-banke-museum-12-19-2026-90364",
+   "source": "Greater Portsmouth Chamber calendar"
   }
  ],
  "eventsNote": "Events from The Music Hall, 3S Artspace, Strawbery Banke, the Library, the City and the Patch community calendar, as of Oct 27. Confirm with the organizer. Not yet connected: Eventbrite, the Chamber calendar, the Seacoast Rep, Jimmy's, Prescott Park.",
@@ -2362,7 +2397,7 @@
  "paper": {
   "name": "Portsmouth Patch",
   "url": "https://patch.com/new-hampshire/portsmouth-nh",
-  "asOf": "2026-11-06",
+  "asOf": "2026-11-07",
   "note": "The Portsmouth Herald is paywalled with no public feed, so these come from Patch.",
   "headlines": [
    {

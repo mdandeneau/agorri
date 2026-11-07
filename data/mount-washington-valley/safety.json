@@ -1,5 +1,5 @@
 {
- "as_of": "2026-11-03",
+ "as_of": "2026-11-07",
  "note": "Per-town police and fire data for the nine valley towns. Facts trace to the source URL on each item. Several 2025 town reports could not be fully read this session (the PDF reader stops after about the first 100 pages of text or the file would not open), so many 2025 police and fire totals are missing. Incidents are described by type, place and date only; no names of people involved.",
  "towns": {
   "Conway": {

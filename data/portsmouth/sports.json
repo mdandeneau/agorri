@@ -1,6 +1,6 @@
 {
- "as_of": "2026-11-03",
- "note": "Fall 2026 high school results, local leagues, nearby teams and venues. Scores come from MaxPreps, NH-HighSchoolSports.com, TFRRS and Portsmouth Herald roundups, since the Portsmouth athletics calendar (ArbiterLive) could not be opened. Coaches are from the school's own athletics page. No students are named. Each item links to its source. Checked Nov 3, 2026: NHIAA tournament pages post brackets as images and could not be read, and MaxPreps pages for boys soccer, girls volleyball and golf had not been updated past mid-October, so those records carry their last source date.",
+ "as_of": "2026-11-07",
+ "note": "Fall 2026 high school results, local leagues, nearby teams and venues. Scores come from MaxPreps, NH-HighSchoolSports.com, TFRRS and Portsmouth Herald roundups, since the Portsmouth athletics calendar (ArbiterLive) could not be opened. Coaches are from the school's own athletics page. No students are named. Each item links to its source. Checked Nov 7, 2026: the Portsmouth-Oyster River vs. Exeter football result from Nov 6 and the Portsmouth Christian volleyball semifinal result from Nov 5 were not found in sources that could be opened. Earlier, Nov 3: NHIAA tournament pages post brackets as images and could not be read, and MaxPreps pages for boys soccer, girls volleyball and golf had not been updated past mid-October, so those records carry their last source date.",
  "schools": [
   {
    "name": "Portsmouth High School",
@@ -531,8 +531,18 @@
      "record": null,
      "recordAsOf": null,
      "coach": null,
-     "postseason": "No. 1 seed in Division IV; beat Mount Royal 5-1 in the quarterfinal; semifinal Tue Nov 3, 6:15 pm, vs No. 5 Profile at Laconia High School.",
+     "postseason": "No. 1 seed in Division IV; beat Mount Royal 5-1 in the quarterfinal and No. 5 Profile 5-0 in the Nov 3 semifinal. Played No. 2 Groveton in the Division IV final Friday, Nov 6, 5 pm, at Laconia High School; the result was not found as of Nov 7.",
      "recent": [
+      {
+       "date": "2026-11-03",
+       "opponent": "Profile School",
+       "home": false,
+       "result": "W 5-0",
+       "source": {
+        "label": "Yahoo Sports (Seacoast Media Group), Nov 4, 2026",
+        "url": "https://sports.yahoo.com/articles/n-h-girls-soccer-arico-025307133.html"
+       }
+      },
       {
        "date": "2026-10-31",
        "opponent": "Mount Royal Academy",
@@ -571,7 +581,7 @@
       }
      ],
      "needs_review": true,
-     "review_note": "Record not found. Home flag is from the Dover dateline. Checked Nov 3, 2026: the Nov 3 semifinal result was not yet published; the NHIAA bracket page could not be read (image only)."
+     "review_note": "Final result (Nov 6 vs. Groveton) not yet found; update when published."
     }
    ],
    "needs_review": true,

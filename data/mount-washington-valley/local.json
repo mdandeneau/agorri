@@ -1,5 +1,5 @@
 {
- "as_of": "2026-11-06",
+ "as_of": "2026-11-07",
  "note": "Mount Washington Valley local desk: Conway (including North Conway), Bartlett, Jackson and Madison. North Conway is a village inside the Town of Conway. Police, roads, the transfer station and elections are run by the Town of Conway; fire protection, water and sewer in North Conway come from the North Conway Water Precinct. Checked Oct 30, 2026 from town, precinct and department pages and local news. Every item links to its source.",
  "housing": {
   "region": {
@@ -158,6 +158,19 @@
    "strip": "Library closed",
    "stripLine": "Wednesday for Veterans Day",
    "town": "Conway"
+  },
+  {
+   "date": "2026-11-11",
+   "kind": "Closure",
+   "title": "Freedom Town Office closed for Veterans Day, Wednesday, Nov 11",
+   "detail": "The Town of Freedom posted a notice that the Town Office will be closed for Veterans Day.",
+   "town": "Freedom",
+   "source": {
+    "label": "Town of Freedom",
+    "url": "https://townoffreedomnh.gov/2026/11/06/veterans-day-town-office-notice-closure/"
+   },
+   "strip": "Office closed",
+   "stripLine": "Freedom Town Office closed for Veterans Day"
   },
   {
    "town": "Freedom",
@@ -468,28 +481,6 @@
    "source": {
     "label": "Town of Madison, Transfer Station",
     "url": "https://www.madison-nh.org/departments/transfer-station/"
-   }
-  },
-  {
-   "town": "Bartlett",
-   "date": "2026-10-06",
-   "kind": "Alert",
-   "title": "Bartlett warns of fake Planning Board and Zoning Board invoices",
-   "detail": "The town has received reports of fake documents and invoices that look like they come from the Planning Board or Zoning Board. Call the Town Office (603-356-2950) to confirm any document or payment request, and report scams to the NH Attorney General's Office.",
-   "source": {
-    "label": "Town of Bartlett, News Flash (posted Oct 6, 2026)",
-    "url": "https://www.townofbartlett.nh.gov/CivicAlerts.aspx?CID=1"
-   }
-  },
-  {
-   "town": "Bartlett and Jackson",
-   "date": "2026-10-06",
-   "kind": "Transfer station",
-   "title": "Bartlett/Jackson Transfer Station is hiring an attendant",
-   "detail": "Full-time (preferred, 40 hours a week) or part-time. Outdoor physical work with weekend and holiday shifts. Pay $21 to $22.50 an hour; full-time staff get health, dental and paid time off. Applications at the Selectmen's Office, 56 Town Hall Road, Intervale, weekdays 8 am to 1 pm, or online from the town's post.",
-   "source": {
-    "label": "Town of Bartlett, News Flash (posted Oct 6, 2026)",
-    "url": "https://www.townofbartlett.nh.gov/CivicAlerts.aspx?CID=1"
    }
   }
  ],
@@ -1062,7 +1053,7 @@
    "note": "The page gives Saturday, Dec 12 and Sunday, Dec 13 but no year; those weekdays match 2026 and the 2025 tour (28th) was Dec 13 and 14, 2025. Tickets are sold through the tour; the inn's page lists only its package."
   }
  ],
- "events_as_of": "2026-11-06",
+ "events_as_of": "2026-11-07",
  "eventsNote": "Events from the Conway Public Library, Cranmore, Conway Scenic Railroad, the Town of Conway, Settlers Green (via the Visit NH calendar) and The Conway Daily Sun, as of Oct 30. The Mt. Washington Valley Chamber calendar loads by script and the North Conway Community Center schedule could not be opened, so their events are missing. Conway Scenic's Santa's Holiday Special page says it begins Nov 27 but gives no year, so it is not listed. Confirm with the organizer. Valley-wide: Conway, Bartlett, Jackson and Madison. From the Town of Bartlett, Town of Jackson and Town of Madison calendars and notices, Jackson XC, the Jackson Area Chamber, White Mountain Ski Co., the Inn at Ellis River and OnTheSnow, as of Oct 31. Ski opening dates are OnTheSnow projections, not resort announcements. Story Land's 2026 season ended Oct 25 with Happy Hauntings (visitwhitemountains.com), so it has no events in this window. Not covered: the Jackson Area Chamber November and December calendar pages, the Attitash events calendar, the Bartlett, Jackson and Madison library sites and the Bartlett and Madison recreation sites could not be opened. Weekly programs at the Old Jackson Library (yoga, mahjong, canasta) are listed in parks-add.json, not here.",
  "election": {
   "date": "2026-11-03",
@@ -1904,9 +1895,29 @@
  "paper": {
   "name": "The Conway Daily Sun",
   "url": "https://www.conwaydailysun.com/",
-  "asOf": "2026-11-06",
+  "asOf": "2026-11-07",
   "note": "Stories open on the paper's site. Dates are the paper's last-updated dates. Picked from the Local news section for Conway relevance.",
   "headlines": [
+   {
+    "title": "Winners of the 2026 Best of the Mount Washington Valley contest",
+    "url": "https://www.conwaydailysun.com/news/local/winners-of-the-2026-best-of-the-mount-washington-valley-contest/article_72edb180-e35e-432c-b35f-4b5a7704beef.html",
+    "date": "2026-11-06"
+   },
+   {
+    "title": "Groundbreaking for police station addition on Monday",
+    "url": "https://www.conwaydailysun.com/news/local/groundbreaking-for-police-station-addition-on-monday/article_7003aa75-fc91-4298-abb8-4b8cadb9ddd7.html",
+    "date": "2026-11-06"
+   },
+   {
+    "title": "Wild River Fire continues to burn",
+    "url": "https://www.conwaydailysun.com/news/local/wild-river-fire-continues-to-burn/article_d491797e-5204-4ae2-a177-7636c25549a3.html",
+    "date": "2026-11-06"
+   },
+   {
+    "title": "Hillside Ave. tradition continues with 7th chili cookoff",
+    "url": "https://www.conwaydailysun.com/news/local/hillside-ave-tradition-continues-with-7th-chili-cookoff/article_6df3faf7-8e45-4ec1-b0af-aa3663bbe9b2.html",
+    "date": "2026-11-06"
+   },
    {
     "title": "Local Democrats ride blue tsunami to victory",
     "url": "https://www.conwaydailysun.com/news/local/local-democrats-ride-blue-tsunami-to-victory/article_f5f4dd55-4da7-4ba9-bab8-09703f1ce1fc.html",
@@ -1926,26 +1937,6 @@
     "title": "Democratic blue wave at the polls in Conway",
     "url": "https://www.conwaydailysun.com/news/local/democratic-blue-wave-at-the-polls-in-conway/article_70481505-96ab-428d-ac7e-1b3a3bb0db9d.html",
     "date": "2026-11-04"
-   },
-   {
-    "title": "Bench dedicated in memory of the late Stoney Morrell in Bartlett",
-    "url": "https://www.conwaydailysun.com/news/local/bench-dedicated-in-memory-of-the-late-stoney-morrell-in-bartlett/article_1b54beef-296e-43f6-ac46-ee4ee3ad6c54.html",
-    "date": "2026-11-04"
-   },
-   {
-    "title": "Wild River Fire expands to 1,000 acres",
-    "url": "https://www.conwaydailysun.com/news/local/wild-river-fire-expands-to-1-000-acres/article_393b2a45-11d9-4084-b65a-570a97a4a970.html",
-    "date": "2026-11-04"
-   },
-   {
-    "title": "October summary: Drier than normal month",
-    "url": "https://www.conwaydailysun.com/news/local/october-summary-drier-than-normal-month/article_e9c47725-b9f3-49f8-9aa2-2583d5464d01.html",
-    "date": "2026-11-04"
-   },
-   {
-    "title": "Election Day is here: Final look at local candidates, issues",
-    "url": "https://www.conwaydailysun.com/news/local/election-day-is-here-final-look-at-local-candidates-issues/article_c90a6e64-85e9-4549-91ef-cc1239a6f810.html",
-    "date": "2026-11-03"
    }
   ]
  }

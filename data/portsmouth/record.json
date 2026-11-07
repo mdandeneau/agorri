@@ -1,7 +1,7 @@
 {
  "about": {
   "town": "Portsmouth, NH",
-  "as_of": "2026-11-04",
+  "as_of": "2026-11-07",
   "records_from": "2025-10-28",
   "documents_used": 593,
   "note": "Plain-English summaries written by AI from official city PDFs; every meeting carries its source URL. Items with needs_review=true are where the official record is ambiguous or self-contradictory."
