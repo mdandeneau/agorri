@@ -1,18 +1,30 @@
 {
  "note": "Written by ingest/fetch.mjs. Each item: where it came from (source, url), the date in the document when known, firstSeen (the day the fetcher first saw it; new since the last refresh = firstSeen on or after that day) and text (the saved agenda or minutes text, when there is one). Facts for the site still come from reading the linked document.",
  "town": "greenland",
- "updated": "2026-11-06T15:05:01.251Z",
+ "updated": "2026-11-07T14:03:42.658Z",
  "sources": {
   "agenda-center": {
    "ok": true,
-   "found": 116,
-   "new": 0,
-   "checked": "2026-11-06T15:05:01.251Z",
-   "ms": 563
+   "found": 117,
+   "new": 1,
+   "checked": "2026-11-07T14:03:42.658Z",
+   "ms": 1647
   }
  },
  "notes": [],
  "items": [
+  {
+   "key": "agenda-center:68f0d97d5b9e",
+   "source": "agenda-center",
+   "kind": "meeting-doc",
+   "title": "Agenda: Conservation Commission",
+   "url": "https://www.greenland.nh.gov/AgendaCenter/ViewFile/Agenda/_11112026-145",
+   "date": "2026-11-11",
+   "doc": "agenda",
+   "firstSeen": "2026-11-07",
+   "lastSeen": "2026-11-07",
+   "text": "inbox/greenland/docs/68f0d97d5b9e.txt"
+  },
   {
    "key": "agenda-center:21fc236b8012",
    "source": "agenda-center",
@@ -22,7 +34,7 @@
    "date": "2026-11-05",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-06",
+   "lastSeen": "2026-11-07",
    "text": "inbox/greenland/docs/21fc236b8012.txt"
   },
   {
@@ -34,7 +46,7 @@
    "date": "2026-11-02",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-06",
+   "lastSeen": "2026-11-07",
    "text": "inbox/greenland/docs/4f0d7ef018af.txt"
   },
   {
@@ -46,7 +58,7 @@
    "date": "2026-10-20",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-06",
+   "lastSeen": "2026-11-07",
    "text": "inbox/greenland/docs/35e90ceb5eb4.txt"
   },
   {
@@ -58,7 +70,7 @@
    "date": "2026-10-20",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-06",
+   "lastSeen": "2026-11-07",
    "text": "inbox/greenland/docs/0e797267b62b.txt"
   },
   {
@@ -70,7 +82,7 @@
    "date": "2026-10-19",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-06",
+   "lastSeen": "2026-11-07",
    "text": "inbox/greenland/docs/8ce3b75642da.txt"
   },
   {
@@ -82,7 +94,7 @@
    "date": "2026-10-19",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-06",
+   "lastSeen": "2026-11-07",
    "text": "inbox/greenland/docs/c132fb8e90d7.txt"
   },
   {
@@ -94,7 +106,7 @@
    "date": "2026-10-15",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-06",
+   "lastSeen": "2026-11-07",
    "text": "inbox/greenland/docs/81e22bbcb36c.txt"
   },
   {
@@ -106,7 +118,7 @@
    "date": "2026-10-15",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-06",
+   "lastSeen": "2026-11-07",
    "text": "inbox/greenland/docs/531c5291951e.txt"
   },
   {
@@ -118,7 +130,7 @@
    "date": "2026-10-14",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-06",
+   "lastSeen": "2026-11-07",
    "text": "inbox/greenland/docs/99a7427dd730.txt"
   },
   {
@@ -130,7 +142,7 @@
    "date": "2026-10-14",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-06",
+   "lastSeen": "2026-11-07",
    "text": "inbox/greenland/docs/96d9ce070c8d.txt"
   },
   {
@@ -142,7 +154,7 @@
    "date": "2026-10-05",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-06",
+   "lastSeen": "2026-11-07",
    "text": "inbox/greenland/docs/89c6503b5a20.txt"
   },
   {
@@ -154,7 +166,7 @@
    "date": "2026-10-05",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-06",
+   "lastSeen": "2026-11-07",
    "text": "inbox/greenland/docs/bda7ec9db2b9.txt"
   },
   {
@@ -166,7 +178,7 @@
    "date": "2026-10-01",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-06",
+   "lastSeen": "2026-11-07",
    "text": "inbox/greenland/docs/817c74acbf0e.txt"
   },
   {
@@ -178,7 +190,7 @@
    "date": "2026-10-01",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-06",
+   "lastSeen": "2026-11-07",
    "text": "inbox/greenland/docs/e717abd71e0b.txt"
   },
   {
@@ -190,7 +202,7 @@
    "date": "2026-09-21",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-06",
+   "lastSeen": "2026-11-07",
    "text": "inbox/greenland/docs/da88baa76f7f.txt"
   },
   {
@@ -202,7 +214,7 @@
    "date": "2026-09-21",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-06",
+   "lastSeen": "2026-11-07",
    "text": "inbox/greenland/docs/a95509fd770b.txt"
   },
   {
@@ -214,7 +226,7 @@
    "date": "2026-09-17",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-06",
+   "lastSeen": "2026-11-07",
    "text": "inbox/greenland/docs/24561f100f89.txt"
   },
   {
@@ -226,7 +238,7 @@
    "date": "2026-09-17",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-06",
+   "lastSeen": "2026-11-07",
    "text": "inbox/greenland/docs/fa14d7196236.txt"
   },
   {
@@ -238,7 +250,7 @@
    "date": "2026-09-14",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-06",
+   "lastSeen": "2026-11-07",
    "text": "inbox/greenland/docs/e1fec78292db.txt"
   },
   {
@@ -250,7 +262,7 @@
    "date": "2026-09-14",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-06",
+   "lastSeen": "2026-11-07",
    "text": "inbox/greenland/docs/55f4b2f7d0d4.txt"
   },
   {
@@ -262,7 +274,7 @@
    "date": "2026-09-09",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-06",
+   "lastSeen": "2026-11-07",
    "text": "inbox/greenland/docs/c110f8e8ecc9.txt"
   },
   {
@@ -274,7 +286,7 @@
    "date": "2026-09-09",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-06",
+   "lastSeen": "2026-11-07",
    "text": "inbox/greenland/docs/d4198b85bc44.txt"
   },
   {
@@ -286,7 +298,7 @@
    "date": "2026-09-03",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-06",
+   "lastSeen": "2026-11-07",
    "text": "inbox/greenland/docs/b6847d11a148.txt"
   },
   {
@@ -298,7 +310,7 @@
    "date": "2026-09-03",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-06",
+   "lastSeen": "2026-11-07",
    "text": "inbox/greenland/docs/84db8ec95ad7.txt"
   },
   {
@@ -310,7 +322,7 @@
    "date": "2026-08-24",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-06"
+   "lastSeen": "2026-11-07"
   },
   {
    "key": "agenda-center:88fddad187a6",
@@ -321,7 +333,7 @@
    "date": "2026-08-24",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-06"
+   "lastSeen": "2026-11-07"
   },
   {
    "key": "agenda-center:fc2e45820f93",
@@ -332,7 +344,7 @@
    "date": "2026-08-20",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-06"
+   "lastSeen": "2026-11-07"
   },
   {
    "key": "agenda-center:05609bb435f4",
@@ -343,7 +355,7 @@
    "date": "2026-08-20",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-06"
+   "lastSeen": "2026-11-07"
   },
   {
    "key": "agenda-center:9ea6384192ad",
@@ -354,7 +366,7 @@
    "date": "2026-08-12",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-06"
+   "lastSeen": "2026-11-07"
   },
   {
    "key": "agenda-center:8374ce30d4ee",
@@ -365,7 +377,7 @@
    "date": "2026-08-12",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-06"
+   "lastSeen": "2026-11-07"
   },
   {
    "key": "agenda-center:75dc6495ad1e",
@@ -376,7 +388,7 @@
    "date": "2026-08-10",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-06"
+   "lastSeen": "2026-11-07"
   },
   {
    "key": "agenda-center:1449737f580f",
@@ -387,7 +399,7 @@
    "date": "2026-08-10",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-06"
+   "lastSeen": "2026-11-07"
   },
   {
    "key": "agenda-center:f2c0dec6d7f4",
@@ -398,7 +410,7 @@
    "date": "2026-08-06",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-06"
+   "lastSeen": "2026-11-07"
   },
   {
    "key": "agenda-center:54b691823ebf",
@@ -409,7 +421,7 @@
    "date": "2026-08-06",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-06"
+   "lastSeen": "2026-11-07"
   },
   {
    "key": "agenda-center:d0d8fe0eb38b",
@@ -420,7 +432,7 @@
    "date": "2026-07-27",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-06"
+   "lastSeen": "2026-11-07"
   },
   {
    "key": "agenda-center:8a4b3ad0dd1f",
@@ -431,7 +443,7 @@
    "date": "2026-07-27",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-06"
+   "lastSeen": "2026-11-07"
   },
   {
    "key": "agenda-center:97e8f1ed50fe",
@@ -442,7 +454,7 @@
    "date": "2026-07-21",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-06"
+   "lastSeen": "2026-11-07"
   },
   {
    "key": "agenda-center:899892047b27",
@@ -453,7 +465,7 @@
    "date": "2026-07-21",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-06"
+   "lastSeen": "2026-11-07"
   },
   {
    "key": "agenda-center:70f281c10ff7",
@@ -464,7 +476,7 @@
    "date": "2026-07-16",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-06"
+   "lastSeen": "2026-11-07"
   },
   {
    "key": "agenda-center:494dd4633680",
@@ -475,7 +487,7 @@
    "date": "2026-07-16",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-06"
+   "lastSeen": "2026-11-07"
   },
   {
    "key": "agenda-center:de986edf2e2f",
@@ -486,7 +498,7 @@
    "date": "2026-07-13",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-06"
+   "lastSeen": "2026-11-07"
   },
   {
    "key": "agenda-center:b53fc3aaeddc",
@@ -497,7 +509,7 @@
    "date": "2026-07-13",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-06"
+   "lastSeen": "2026-11-07"
   },
   {
    "key": "agenda-center:03dd24132a2e",
