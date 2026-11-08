@@ -926,12 +926,12 @@
    "status": "not yet connected"
   }
  ],
- "events_as_of": "2026-11-07",
+ "events_as_of": "2026-11-08",
  "events": [
   {
-   "date": "2026-11-07",
-   "time": "4:00 pm",
-   "title": "The Pocket Universe, presented by Darwin's Waiting Room (also Nov 8 at 2:30 pm)",
+   "date": "2026-11-08",
+   "time": "2:30 pm",
+   "title": "The Pocket Universe, presented by Darwin's Waiting Room",
    "venue": "New Hampshire Theatre Project, 959 Islington St",
    "town": "Portsmouth",
    "kind": "Theater",
@@ -939,23 +939,13 @@
    "source": "Patch calendar"
   },
   {
-   "date": "2026-11-07",
+   "date": "2026-11-08",
    "time": "10:00 am to 2:00 pm",
    "title": "Thanksgiving Guided Tours (weekends through Nov 29, plus Nov 25 and 27)",
    "venue": "Strawbery Banke Museum",
    "town": "Portsmouth",
    "kind": "History",
    "url": "https://www.strawberybanke.org/events-collection/thanksgiving-guided-tours-1",
-   "source": "Strawbery Banke Museum"
-  },
-  {
-   "date": "2026-11-07",
-   "time": "10:00 am to 2:00 pm",
-   "title": "Weave a Scarf in a Day Workshop (also Nov 11, 14 and 21)",
-   "venue": "Strawbery Banke Museum",
-   "town": "Portsmouth",
-   "kind": "Workshop",
-   "url": "https://www.strawberybanke.org/events-collection/weave-a-scarf-in-a-day-workshop",
    "source": "Strawbery Banke Museum"
   },
   {
@@ -968,6 +958,16 @@
    "url": "https://www.portsmouthnh.gov/city/press-releases/city-announces-trick-or-treat-hours-and-fall-events",
    "source": "City of Portsmouth",
    "note": "Veterans and spouses. RSVP 603-610-4433."
+  },
+  {
+   "date": "2026-11-11",
+   "time": "10:00 am to 2:00 pm",
+   "title": "Weave a Scarf in a Day Workshop (also Nov 14 and 21)",
+   "venue": "Strawbery Banke Museum",
+   "town": "Portsmouth",
+   "kind": "Workshop",
+   "url": "https://www.strawberybanke.org/events-collection/weave-a-scarf-in-a-day-workshop",
+   "source": "Strawbery Banke Museum"
   },
   {
    "date": "2026-11-11",
@@ -2397,9 +2397,14 @@
  "paper": {
   "name": "Portsmouth Patch",
   "url": "https://patch.com/new-hampshire/portsmouth-nh",
-  "asOf": "2026-11-07",
+  "asOf": "2026-11-08",
   "note": "The Portsmouth Herald is paywalled with no public feed, so these come from Patch.",
   "headlines": [
+   {
+    "title": "City Of Portsmouth: Veterans Day Observances",
+    "url": "https://patch.com/new-hampshire/portsmouth-nh/city-portsmouth-veterans-day-observances-0",
+    "date": "2026-11-06"
+   },
    {
     "title": "Farley Of Colliers Facilitates $2.7 Million Sale Of The Local Wash In Hampton",
     "url": "https://patch.com/new-hampshire/portsmouth-nh/farley-colliers-facilitates-2-7-million-sale-local-wash-hampton",
@@ -2434,11 +2439,6 @@
     "title": "Hotel Thaxter Named Best Boutique Hotel In New Hampshire By Boston Magazine",
     "url": "https://patch.com/new-hampshire/portsmouth-nh/hotel-thaxter-named-best-boutique-hotel-new-hampshire-boston-magazine",
     "date": "2026-10-31"
-   },
-   {
-    "title": "Devine Millimet Receives Top Woman-Led Business Recognition",
-    "url": "https://patch.com/new-hampshire/portsmouth-nh/devine-millimet-receives-top-woman-led-business-recognition",
-    "date": "2026-10-30"
    }
   ]
  }

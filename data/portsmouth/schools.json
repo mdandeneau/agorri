@@ -1,5 +1,5 @@
 {
- "as_of": "2026-10-31",
+ "as_of": "2026-11-08",
  "note": "Portsmouth runs its own school district (SAU 52) with three elementary schools, one middle school, one high school with a career and technical center, a preschool program and a small alternative high school. The elected nine-member School Board builds the school budget, and the City Council approves it as part of the city budget.",
  "districts": [
   {
@@ -192,12 +192,12 @@
    "issues": [
     {
      "title": "School tax cap question on the November 3 ballot",
-     "status": "Voters decide November 3",
-     "summary": "Every New Hampshire city and town, including Portsmouth, will vote on whether to limit how fast local school taxes can grow. It passes in a community only if at least 60% of voters there say yes. If adopted, growth in the local school tax levy would be held to the prior year's amount plus inflation and new construction, and superintendent's office spending would be capped at 6% of district spending. Bonded building costs are left out of both limits. The cap would start July 1, 2027, last two years, and go back on the ballot in 2028. It does not lower taxes; it limits how quickly they can rise.",
-     "date": "2026-10-01",
+     "status": "Did not pass in Portsmouth (unofficial): 4,853 yes, 6,361 no; 60% yes was needed",
+     "summary": "On November 3 Portsmouth voters were asked whether to limit how fast local school taxes can grow. It needed at least 60% yes to pass. Patch reported the unofficial Portsmouth count as 4,853 yes and 6,361 no, about 43% yes, so no cap was adopted in Portsmouth. The question returns to the ballot in 2028. Statewide, NHPR reported that at least 113 communities passed a cap.",
+     "date": "2026-11-03",
      "source": {
-      "label": "NHPR, Oct. 1, 2026",
-      "url": "https://www.nhpr.org/politics/2026-10-01/school-tax-cap-ballot-question-nh-midterm-election-2026"
+      "label": "Patch, Nov 3, 2026: Portsmouth 2026 midterm general election results (unofficial)",
+      "url": "https://patch.com/new-hampshire/portsmouth-nh/portsmouth-nh-2026-midterm-general-election-results"
      }
     },
     {
@@ -255,39 +255,11 @@
    ],
    "upcoming": [
     {
-     "date": "2026-11-02",
-     "time": "11:00 am",
-     "title": "School Board Community Engagement Committee",
+     "date": "2026-11-09",
+     "time": "1:00 pm",
+     "title": "School Board Safety, Well-Being and Belonging Subcommittee",
      "venue": "School Department Conference Room, City Hall",
-     "url": "https://www.portsmouthnh.gov/school/events/school-board-community-engagement-committee-meeting-2"
-    },
-    {
-     "date": "2026-11-03",
-     "time": null,
-     "title": "General election, with the local school tax cap question on the ballot (no school that day)",
-     "venue": "Ward polling places; four are in schools: New Franklin, Portsmouth Middle, Portsmouth High and Little Harbour",
-     "url": "https://www.portsmouthnh.gov/city/press-releases/voter-information-november-3-2026-general-election-0"
-    },
-    {
-     "date": "2026-11-03",
-     "time": "4:00 pm",
-     "title": "School Board Educator Capacity Committee",
-     "venue": "School Department Conference Room, City Hall",
-     "url": "https://www.portsmouthnh.gov/school/events/school-board-educator-capacity-committee-0"
-    },
-    {
-     "date": "2026-11-06",
-     "time": "9:00 am",
-     "title": "School Board Finance Committee",
-     "venue": "Alice Lee Conference Room, 4th Floor, City Hall",
-     "url": "https://www.portsmouthnh.gov/school/events/school-board-finance-committee-3"
-    },
-    {
-     "date": "2026-11-10",
-     "time": "9:30 am",
-     "title": "School Board Policy Committee",
-     "venue": "City Hall (room not yet posted)",
-     "url": "https://www.portsmouthnh.gov/school/events/school-board-policy-committee-meeting-51"
+     "url": "https://www.portsmouthnh.gov/school/events/school-board-safety-well-being-and-belonging-subcommittee"
     },
     {
      "date": "2026-11-10",
@@ -295,6 +267,13 @@
      "title": "School Board meeting",
      "venue": "Eileen Dondero Foley Council Chambers, City Hall",
      "url": "https://www.portsmouthnh.gov/school/school-events-calendar"
+    },
+    {
+     "date": "2026-11-10",
+     "time": "9:30 am",
+     "title": "School Board Policy Committee",
+     "venue": "School Department Conference Room, City Hall",
+     "url": "https://www.portsmouthnh.gov/school/events/school-board-policy-committee-meeting-51"
     },
     {
      "date": "2026-11-13",
@@ -319,6 +298,11 @@
     }
    ],
    "news": [
+    {
+     "title": "Over 100 NH communities pass a school tax cap",
+     "url": "https://www.nhpr.org/education/2026-11-04/school-tax-cap-budget-inflation-students-override",
+     "date": "2026-11-04"
+    },
     {
      "title": "What will the tax cap on the ballot mean for NH schools? Depends who you ask.",
      "url": "https://www.nhpr.org/education/2026-10-30/school-budget-taxes-cap-election-ballot-teacher-students-education-nh-newhampshire",

@@ -1,6 +1,6 @@
 {
- "as_of": "2026-10-31",
- "note": "Conway, Bartlett and Jackson are separate school districts in SAU 9; Madison is in SAU 13 with Freedom and Tamworth. Older students from all three small towns attend Kennett Middle or Kennett High in Conway under tuition contracts, and every town votes on a school tax cap question on November 3.",
+ "as_of": "2026-11-08",
+ "note": "Conway, Bartlett and Jackson are separate school districts in SAU 9; Madison is in SAU 13 with Freedom and Tamworth. Older students from all three small towns attend Kennett Middle or Kennett High in Conway under tuition contracts, and every town voted on a school tax cap question on November 3, 2026.",
  "districts": [
   {
    "id": "conway-school-district",
@@ -150,13 +150,15 @@
    "issues": [
     {
      "title": "School tax cap question on the November 3 ballot",
-     "status": "Question 2 on the November 3, 2026 ballot",
+     "status": "Voted on November 3, 2026; the town count has not yet been read here",
      "summary": "Conway voters will decide whether to limit the Conway School District's local property tax for two years under RSA 32:5-i. The levy could grow only by inflation plus new construction, and SAU central office spending could not exceed 6 percent of district spending; bonded building costs are excluded. SAU 9 says central office spending is now 4.37 percent. The Municipal Budget Committee voted 0 in favor, 9 against, with 3 abstaining. A state law (HB 1300) requires three fifths of voters to approve a cap. Only three residents who do not regularly attend school meetings came to the board's information session.",
      "date": "2026-11-03",
      "source": {
       "label": "Conway Daily Sun, Oct. 28, 2026: School tax cap info session attracts few takers",
       "url": "https://www.conwaydailysun.com/news/local/school-tax-cap-info-session-attracts-few-takers/article_946e128f-d893-40a5-a4d5-b16f6d6d1a71.html"
-     }
+     },
+     "needs_review": true,
+     "review_note": "Add the town result for the school tax cap question once the town clerk count or a news report can be read."
     },
     {
      "title": "New tuition contracts with towns that send students to Kennett",
@@ -211,13 +213,6 @@
    ],
    "upcoming": [
     {
-     "date": "2026-11-03",
-     "time": null,
-     "title": "Election Day: school tax cap question on the ballot",
-     "venue": null,
-     "url": "https://www.conwaydailysun.com/news/local/school-tax-cap-info-session-attracts-few-takers/article_946e128f-d893-40a5-a4d5-b16f6d6d1a71.html"
-    },
-    {
      "date": "2026-11-09",
      "time": "6:30 pm",
      "title": "Conway School Board meeting (regular schedule)",
@@ -240,6 +235,11 @@
     }
    ],
    "news": [
+    {
+     "title": "Over 100 NH communities pass a school tax cap",
+     "url": "https://www.nhpr.org/education/2026-11-04/school-tax-cap-budget-inflation-students-override",
+     "date": "2026-11-04"
+    },
     {
      "title": "School tax cap info session attracts few takers",
      "url": "https://www.conwaydailysun.com/news/local/school-tax-cap-info-session-attracts-few-takers/article_946e128f-d893-40a5-a4d5-b16f6d6d1a71.html",
@@ -380,23 +380,18 @@
     },
     {
      "title": "School tax cap question on the November 3 ballot",
-     "status": "Voters decide November 3, 2026",
+     "status": "Voted on November 3, 2026; the town count has not yet been read here",
      "summary": "A new state law (HB 1300) puts a local school tax cap question on every ballot this November and again in 2028. A cap takes effect only if three fifths (60 percent) of voters approve it. SAU 9's finance director told the Conway School Board that Bartlett's school budget would not be affected unless other revenue fell.",
      "date": "2026-11-03",
      "source": {
       "label": "Conway Daily Sun, Oct. 28, 2026: School tax cap info session attracts few takers",
       "url": "https://www.conwaydailysun.com/news/local/school-tax-cap-info-session-attracts-few-takers/article_946e128f-d893-40a5-a4d5-b16f6d6d1a71.html"
-     }
+     },
+     "needs_review": true,
+     "review_note": "Add the town result for the school tax cap question once the town clerk count or a news report can be read."
     }
    ],
    "upcoming": [
-    {
-     "date": "2026-11-03",
-     "time": null,
-     "title": "Election Day: school tax cap question on the ballot",
-     "venue": null,
-     "url": "https://www.nhpr.org/politics/2026-07-15/ayotte-signs-bill-local-school-tax-cap-question-november-ballot"
-    },
     {
      "date": "2026-11-10",
      "time": "6:00 pm",
@@ -413,6 +408,11 @@
     }
    ],
    "news": [
+    {
+     "title": "Over 100 NH communities pass a school tax cap",
+     "url": "https://www.nhpr.org/education/2026-11-04/school-tax-cap-budget-inflation-students-override",
+     "date": "2026-11-04"
+    },
     {
      "title": "Bartlett approves five-year high school tuition deal with Conway",
      "url": "https://www.conwaydailysun.com/news/local/bartlett-approves-five-year-high-school-tuition-deal-with-conway/article_c9c5fa8a-d842-4c81-bb89-5b1398db5b78.html",
@@ -514,23 +514,18 @@
     },
     {
      "title": "School tax cap question on the November 3 ballot",
-     "status": "Voters decide November 3, 2026",
+     "status": "Voted on November 3, 2026; the town count has not yet been read here",
      "summary": "A new state law (HB 1300) puts a local school tax cap question on every ballot this November and again in 2028. A cap takes effect only if three fifths (60 percent) of voters approve it. SAU 9's finance director told the Conway School Board that Jackson's school budget would not be affected unless other revenue fell.",
      "date": "2026-11-03",
      "source": {
       "label": "Conway Daily Sun, Oct. 28, 2026: School tax cap info session attracts few takers",
       "url": "https://www.conwaydailysun.com/news/local/school-tax-cap-info-session-attracts-few-takers/article_946e128f-d893-40a5-a4d5-b16f6d6d1a71.html"
-     }
+     },
+     "needs_review": true,
+     "review_note": "Add the town result for the school tax cap question once the town clerk count or a news report can be read."
     }
    ],
    "upcoming": [
-    {
-     "date": "2026-11-03",
-     "time": null,
-     "title": "Election Day: school tax cap question on the ballot",
-     "venue": null,
-     "url": "https://www.nhpr.org/politics/2026-07-15/ayotte-signs-bill-local-school-tax-cap-question-november-ballot"
-    },
     {
      "date": "2026-11-16",
      "time": "6:00 pm",
@@ -547,6 +542,11 @@
     }
    ],
    "news": [
+    {
+     "title": "Over 100 NH communities pass a school tax cap",
+     "url": "https://www.nhpr.org/education/2026-11-04/school-tax-cap-budget-inflation-students-override",
+     "date": "2026-11-04"
+    },
     {
      "title": "Jackson passes FA, KHS tuition contracts",
      "url": "https://www.conwaydailysun.com/news/local/jackson-passes-fa-khs-tuition-contracts/article_0827bc15-41a0-4799-bf72-26739e0c7dc5.html",
@@ -662,13 +662,15 @@
     },
     {
      "title": "School tax cap question on the November 3 ballot",
-     "status": "Voters decide November 3, 2026",
+     "status": "Voted on November 3, 2026; the town count has not yet been read here",
      "summary": "A new state law (HB 1300, Chapter 324) puts a local school tax cap question on municipal ballots in November 2026 and 2028. It also caps school central office administrative costs. SAU 13 has posted explainers on the law and on what is in the budget. A cap takes effect only if three fifths of voters approve it.",
      "date": "2026-11-03",
      "source": {
       "label": "SAU 13: Tax Cap Information",
       "url": "https://www.sau13.org/home/tax-cap-information"
-     }
+     },
+     "needs_review": true,
+     "review_note": "Add the town result for the school tax cap question once the town clerk count or a news report can be read."
     },
     {
      "title": "Using the building maintenance reserve",
@@ -681,23 +683,14 @@
      }
     }
    ],
-   "upcoming": [
+   "upcoming": [],
+   "news": [
     {
-     "date": "2026-11-02",
-     "time": "6:30 pm",
-     "title": "Madison School Board meeting with public hearing on the building maintenance reserve",
-     "venue": "Ruth Chick Library, Madison Elementary School",
-     "url": "https://sites.google.com/a/mes-nh.com/madison-elementary-school/home"
-    },
-    {
-     "date": "2026-11-03",
-     "time": null,
-     "title": "Election Day: school tax cap question on the ballot",
-     "venue": null,
-     "url": "https://www.sau13.org/home/tax-cap-information"
+     "title": "Over 100 NH communities pass a school tax cap",
+     "url": "https://www.nhpr.org/education/2026-11-04/school-tax-cap-budget-inflation-students-override",
+     "date": "2026-11-04"
     }
-   ],
-   "news": []
+   ]
   },
   {
    "id": "tamworth-school-district",
@@ -794,13 +787,15 @@
    "issues": [
     {
      "title": "School tax cap question on the November 3 ballot",
-     "status": "Voters decide November 3, 2026",
+     "status": "Voted on November 3, 2026; the town count has not yet been read here",
      "summary": "A new state law (HB 1300, Chapter 324) puts a local school tax cap question on municipal ballots in November 2026 and November 2028, bypassing local warrant articles and town meeting votes. It also caps school central office administrative costs. SAU 13 has posted four explainers, including what is in the budget.",
      "date": "2026-11-03",
      "source": {
       "label": "SAU 13: Tax Cap Information",
       "url": "https://www.sau13.org/home/tax-cap-information"
-     }
+     },
+     "needs_review": true,
+     "review_note": "Add the town result for the school tax cap question once the town clerk count or a news report can be read."
     },
     {
      "title": "LED lighting at the school",
@@ -813,16 +808,14 @@
      }
     }
    ],
-   "upcoming": [
+   "upcoming": [],
+   "news": [
     {
-     "date": "2026-11-03",
-     "time": "8 am to 7 pm",
-     "title": "Election Day: school tax cap question on the ballot; Tamworth votes in the K.A. Brett School gymnasium",
-     "venue": "K.A. Brett School gymnasium",
-     "url": "https://www.tamworthnh.gov/CivicAlerts.aspx?AID=74"
+     "title": "Over 100 NH communities pass a school tax cap",
+     "url": "https://www.nhpr.org/education/2026-11-04/school-tax-cap-budget-inflation-students-override",
+     "date": "2026-11-04"
     }
-   ],
-   "news": []
+   ]
   }
  ],
  "methodology": "Built October 31, 2026 from SAU 9 and SAU 13 web pages, Jackson Grammar and Madison Elementary sites, the Conway 2025 and 2026 school sample ballots, Bartlett Selectmen minutes, NHPR, Ballotpedia and Conway Daily Sun articles. Conway's schools changed since 2024: John H. Fuller Elementary closed, Pine Tree became the K-2 school and the former Conway Elementary building is now Conway Intermediate (grades 3-5). Cost per pupil is the NH Department of Education 2023-24 report; the copy opened is posted by the Rye Civic League because the state-hosted 2023-24 file was not found (the state-hosted 2022-23 report lists Conway $22,086, Bartlett $27,602, Jackson $35,688, Madison $31,696). Enrollment figures are rounded numbers the Conway Daily Sun reported in June 2025 for 2024-25 (Pine Tree, then named Lakeside, about 209; Bartlett about 158; Kennett High about 614; Kennett Middle about 300), not state counts; the NH DOE profile site returned errors. Gaps: no official test score or graduation results were found, so results are empty; 2026-27 budgets for Bartlett, Jackson and Madison were not found (Madison's are in SAU 13 Google Drive files that could not be opened); Jackson board members other than the chair, the Conway vice chair after the roster change, the Madison principal and the Career and Technical Center's details were not found; Bartlett officer roles date from April 2025. Conway, Bartlett and Jackson meeting dates after November come from each board's regular schedule and should be checked against the SAU 9 calendar. The Bartlett and Jackson news headlines are taken from the article web addresses because the page text did not show a headline or date; the Bartlett tuition vote date (March 3, 2026) is inferred from the article's reference to Jackson voting that Thursday, March 5."

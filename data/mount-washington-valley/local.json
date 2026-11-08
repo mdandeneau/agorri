@@ -836,37 +836,6 @@
  ],
  "events": [
   {
-   "date": "2026-11-07",
-   "time": "5:25 pm",
-   "title": "Blackout 5K/10K night mountain race (check-in from 4 pm; headlamps required)",
-   "venue": "Cranmore Mountain Resort",
-   "town": "North Conway",
-   "kind": "Sports",
-   "url": "https://cranmore.com/events/blackout-5k-10k-mountain-race",
-   "source": "Cranmore Mountain Resort"
-  },
-  {
-   "date": "2026-11-07",
-   "time": "9:00 am",
-   "title": "470 Club Excursion (all-day train trip)",
-   "venue": "Conway Scenic Railroad, North Conway station",
-   "town": "North Conway",
-   "kind": "Rail",
-   "url": "https://www.conwayscenic.com/excursions/470-club-excursion/",
-   "source": "Conway Scenic Railroad"
-  },
-  {
-   "date": "2026-11-07",
-   "time": "9:00 am",
-   "title": "Jackson XC Annual Ski Swap sale (9 am to 1 pm); consignment drop-off runs through Nov 5",
-   "venue": "Jackson XC (Jackson Ski Touring Foundation), 153 Main St",
-   "town": "Jackson",
-   "kind": "Community",
-   "url": "https://jacksonxc.org/event/ski-swap",
-   "source": "Jackson XC",
-   "note": "The sale listing does not state a location. Drop-off (9 am to 4 pm, Nov 1 to 5) is at 153 Main St, the foundation's base. Consignors register online first."
-  },
-  {
    "date": "2026-11-10",
    "time": "5:00 pm",
    "title": "Board of Selectmen meeting (also Nov 24 and Dec 8)",
@@ -1053,7 +1022,7 @@
    "note": "The page gives Saturday, Dec 12 and Sunday, Dec 13 but no year; those weekdays match 2026 and the 2025 tour (28th) was Dec 13 and 14, 2025. Tickets are sold through the tour; the inn's page lists only its package."
   }
  ],
- "events_as_of": "2026-11-07",
+ "events_as_of": "2026-11-08",
  "eventsNote": "Events from the Conway Public Library, Cranmore, Conway Scenic Railroad, the Town of Conway, Settlers Green (via the Visit NH calendar) and The Conway Daily Sun, as of Oct 30. The Mt. Washington Valley Chamber calendar loads by script and the North Conway Community Center schedule could not be opened, so their events are missing. Conway Scenic's Santa's Holiday Special page says it begins Nov 27 but gives no year, so it is not listed. Confirm with the organizer. Valley-wide: Conway, Bartlett, Jackson and Madison. From the Town of Bartlett, Town of Jackson and Town of Madison calendars and notices, Jackson XC, the Jackson Area Chamber, White Mountain Ski Co., the Inn at Ellis River and OnTheSnow, as of Oct 31. Ski opening dates are OnTheSnow projections, not resort announcements. Story Land's 2026 season ended Oct 25 with Happy Hauntings (visitwhitemountains.com), so it has no events in this window. Not covered: the Jackson Area Chamber November and December calendar pages, the Attitash events calendar, the Bartlett, Jackson and Madison library sites and the Bartlett and Madison recreation sites could not be opened. Weekly programs at the Old Jackson Library (yoga, mahjong, canasta) are listed in parks-add.json, not here.",
  "election": {
   "date": "2026-11-03",
@@ -1895,7 +1864,7 @@
  "paper": {
   "name": "The Conway Daily Sun",
   "url": "https://www.conwaydailysun.com/",
-  "asOf": "2026-11-07",
+  "asOf": "2026-11-08",
   "note": "Stories open on the paper's site. Dates are the paper's last-updated dates. Picked from the Local news section for Conway relevance.",
   "headlines": [
    {
