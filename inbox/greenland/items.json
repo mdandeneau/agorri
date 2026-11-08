@@ -1,14 +1,13 @@
 {
  "note": "Written by ingest/fetch.mjs. Each item: where it came from (source, url), the date in the document when known, firstSeen (the day the fetcher first saw it; new since the last refresh = firstSeen on or after that day) and text (the saved agenda or minutes text, when there is one). Facts for the site still come from reading the linked document.",
  "town": "greenland",
- "updated": "2026-11-07T14:03:42.658Z",
+ "updated": "2026-11-08T14:18:52.151Z",
  "sources": {
   "agenda-center": {
-   "ok": true,
-   "found": 117,
-   "new": 1,
-   "checked": "2026-11-07T14:03:42.658Z",
-   "ms": 1647
+   "ok": false,
+   "error": "https://www.greenland.nh.gov/AgendaCenter: The operation was aborted due to timeout; curl: Command failed: curl -sSL --max-time 60 -A AgorriBot/1.0 (+https://agorri.com; nonpartisan civic information; contact marcdandeneau@gmail.com) -o /home/runner/work/_temp/agorri-14bf84a1-aee9-4913-a21c-fa96947d",
+   "checked": "2026-11-08T14:18:52.151Z",
+   "lastOk": "2026-11-07T14:03:42.658Z"
   }
  },
  "notes": [],

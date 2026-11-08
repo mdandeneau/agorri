@@ -1,21 +1,20 @@
 {
  "note": "Written by ingest/fetch.mjs. Each item: where it came from (source, url), the date in the document when known, firstSeen (the day the fetcher first saw it; new since the last refresh = firstSeen on or after that day) and text (the saved agenda or minutes text, when there is one). Facts for the site still come from reading the linked document.",
  "town": "newmarket",
- "updated": "2026-11-07T14:03:42.658Z",
+ "updated": "2026-11-08T14:18:52.151Z",
  "sources": {
   "civicclerk": {
    "ok": true,
    "found": 10,
    "new": 0,
-   "checked": "2026-11-07T14:03:42.658Z",
-   "ms": 1086
+   "checked": "2026-11-08T14:18:52.151Z",
+   "ms": 1100
   },
   "town-feeds": {
-   "ok": true,
-   "found": 12,
-   "new": 3,
-   "checked": "2026-11-07T14:03:42.658Z",
-   "ms": 7735
+   "ok": false,
+   "error": "https://www.newmarketnh.gov/rss.aspx: fetch failed; curl: Command failed: curl -sSL --max-time 60 -A AgorriBot/1.0 (+https://agorri.com; nonpartisan civic information; contact marcdandeneau@gmail.com) -o /home/runner/work/_temp/agorri-b2bcc07a-e1d6-43e9-803a-1f8e2671c4f6 -w %{http_code} %{content_ty",
+   "checked": "2026-11-08T14:18:52.151Z",
+   "lastOk": "2026-11-07T14:03:42.658Z"
   }
  },
  "notes": [],
@@ -67,7 +66,7 @@
    "doc": "agenda",
    "packet": true,
    "firstSeen": "2026-11-05",
-   "lastSeen": "2026-11-07"
+   "lastSeen": "2026-11-08"
   },
   {
    "key": "town-feeds:1419dd7f9b91",
@@ -126,7 +125,7 @@
    "meeting": true,
    "files": 0,
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-07"
+   "lastSeen": "2026-11-08"
   },
   {
    "key": "civicclerk:9fc6f6680afa",
@@ -139,7 +138,7 @@
    "meeting": true,
    "files": 0,
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-07"
+   "lastSeen": "2026-11-08"
   },
   {
    "key": "civicclerk:2fdf4b5c96c8",
@@ -152,7 +151,7 @@
    "meeting": true,
    "files": 2,
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-07"
+   "lastSeen": "2026-11-08"
   },
   {
    "key": "civicclerk:3b56b27d73e0",
@@ -164,7 +163,7 @@
    "body": "Town Council",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-07",
+   "lastSeen": "2026-11-08",
    "text": "inbox/newmarket/docs/cc-7868.txt"
   },
   {
@@ -215,7 +214,7 @@
    "meeting": true,
    "files": 1,
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-07"
+   "lastSeen": "2026-11-08"
   },
   {
    "key": "civicclerk:95bc72339736",
@@ -227,7 +226,7 @@
    "body": "Town Council",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-07",
+   "lastSeen": "2026-11-08",
    "text": "inbox/newmarket/docs/cc-7865.txt"
   },
   {
@@ -241,7 +240,7 @@
    "meeting": true,
    "files": 2,
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-07"
+   "lastSeen": "2026-11-08"
   },
   {
    "key": "civicclerk:f01262eeb86f",
@@ -253,7 +252,7 @@
    "body": "Town Council",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-07",
+   "lastSeen": "2026-11-08",
    "text": "inbox/newmarket/docs/cc-7859.txt"
   },
   {
@@ -267,7 +266,7 @@
    "doc": "agenda",
    "packet": true,
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-07"
+   "lastSeen": "2026-11-08"
   },
   {
    "key": "civicclerk:8c4d7e6faae2",

@@ -1,26 +1,16 @@
 {
  "note": "Written by ingest/fetch.mjs. Each item: where it came from (source, url), the date in the document when known, firstSeen (the day the fetcher first saw it; new since the last refresh = firstSeen on or after that day) and text (the saved agenda or minutes text, when there is one). Facts for the site still come from reading the linked document.",
  "town": "tamworth",
- "updated": "2026-11-07T14:03:42.658Z",
+ "updated": "2026-11-08T14:18:52.151Z",
  "sources": {
   "agenda-center": {
-   "ok": true,
-   "found": 150,
-   "new": 0,
-   "checked": "2026-11-07T14:03:42.658Z",
-   "ms": 12108
+   "ok": false,
+   "error": "https://www.tamworthnh.gov/AgendaCenter: The operation was aborted due to timeout; curl: Command failed: curl -sSL --max-time 60 -A AgorriBot/1.0 (+https://agorri.com; nonpartisan civic information; contact marcdandeneau@gmail.com) -o /home/runner/work/_temp/agorri-38913119-bee1-4b22-ba12-9e49ff146b",
+   "checked": "2026-11-08T14:18:52.151Z",
+   "lastOk": "2026-11-07T14:03:42.658Z"
   }
  },
- "notes": [
-  "no text in https://www.tamworthnh.gov/AgendaCenter/ViewFile/Agenda/_09162026-301 (scanned image?)",
-  "no text in https://www.tamworthnh.gov/AgendaCenter/ViewFile/Agenda/_09282026-304 (scanned image?)",
-  "no text in https://www.tamworthnh.gov/AgendaCenter/ViewFile/Agenda/_10192026-315 (scanned image?)",
-  "no text in https://www.tamworthnh.gov/AgendaCenter/ViewFile/Agenda/_10132026-312 (scanned image?)",
-  "no text in https://www.tamworthnh.gov/AgendaCenter/ViewFile/Agenda/_09142026-300 (scanned image?)",
-  "no text in https://www.tamworthnh.gov/AgendaCenter/ViewFile/Agenda/_09082026-313 (scanned image?)",
-  "no text in https://www.tamworthnh.gov/AgendaCenter/ViewFile/Agenda/_10052026-305 (scanned image?)",
-  "no text in https://www.tamworthnh.gov/AgendaCenter/ViewFile/Agenda/_09142026-299 (scanned image?)"
- ],
+ "notes": [],
  "items": [
   {
    "key": "agenda-center:aaaf0a3d6a4c",
