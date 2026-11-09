@@ -1,24 +1,37 @@
 {
  "note": "Written by ingest/fetch.mjs. Each item: where it came from (source, url), the date in the document when known, firstSeen (the day the fetcher first saw it; new since the last refresh = firstSeen on or after that day) and text (the saved agenda or minutes text, when there is one). Facts for the site still come from reading the linked document.",
  "town": "newmarket",
- "updated": "2026-11-08T14:18:52.151Z",
+ "updated": "2026-11-09T17:30:31.732Z",
  "sources": {
   "civicclerk": {
    "ok": true,
    "found": 10,
    "new": 0,
-   "checked": "2026-11-08T14:18:52.151Z",
-   "ms": 1100
+   "checked": "2026-11-09T17:30:31.732Z",
+   "ms": 899
   },
   "town-feeds": {
-   "ok": false,
-   "error": "https://www.newmarketnh.gov/rss.aspx: fetch failed; curl: Command failed: curl -sSL --max-time 60 -A AgorriBot/1.0 (+https://agorri.com; nonpartisan civic information; contact marcdandeneau@gmail.com) -o /home/runner/work/_temp/agorri-b2bcc07a-e1d6-43e9-803a-1f8e2671c4f6 -w %{http_code} %{content_ty",
-   "checked": "2026-11-08T14:18:52.151Z",
-   "lastOk": "2026-11-07T14:03:42.658Z"
+   "ok": true,
+   "found": 12,
+   "new": 1,
+   "checked": "2026-11-09T17:30:31.732Z",
+   "ms": 22833
   }
  },
  "notes": [],
  "items": [
+  {
+   "key": "town-feeds:f39f730bcb99",
+   "source": "town-feeds",
+   "kind": "notice",
+   "feed": "news",
+   "title": "TOWN OF NEWMARKET TAX RATE SET AT $20.68",
+   "url": "https://www.newmarketnh.gov/CivicAlerts.aspx?aid=1144",
+   "date": "2026-11-09",
+   "detail": "An increase of $1.26 over the previous year.",
+   "firstSeen": "2026-11-09",
+   "lastSeen": "2026-11-09"
+  },
   {
    "key": "town-feeds:88a64ab37fa3",
    "source": "town-feeds",
@@ -29,7 +42,7 @@
    "date": "2026-11-06",
    "detail": "Event date: November 9, 2026 Event Time: 04:00 PM - 11:59 PM Location: 186 Main Street Newmarket, NH 03857",
    "firstSeen": "2026-11-07",
-   "lastSeen": "2026-11-07"
+   "lastSeen": "2026-11-09"
   },
   {
    "key": "town-feeds:512e38c08601",
@@ -41,7 +54,7 @@
    "date": "2026-11-06",
    "detail": "Event date: November 10, 2026 Event Time: 12:00 AM - 11:59 PM Location: Newmarket, NH 03857",
    "firstSeen": "2026-11-07",
-   "lastSeen": "2026-11-07"
+   "lastSeen": "2026-11-09"
   },
   {
    "key": "town-feeds:5907fd3d57d3",
@@ -53,7 +66,7 @@
    "date": "2026-11-06",
    "detail": "Event date: November 10, 2026 Event Time: 07:00 PM - 11:59 PM Location: 186 Main Street Newmarket, NH 03857",
    "firstSeen": "2026-11-07",
-   "lastSeen": "2026-11-07"
+   "lastSeen": "2026-11-09"
   },
   {
    "key": "civicclerk:48c39559b7c3",
@@ -66,7 +79,7 @@
    "doc": "agenda",
    "packet": true,
    "firstSeen": "2026-11-05",
-   "lastSeen": "2026-11-08"
+   "lastSeen": "2026-11-09"
   },
   {
    "key": "town-feeds:1419dd7f9b91",
@@ -77,7 +90,7 @@
    "url": "https://www.newmarketnh.gov/CivicAlerts.aspx?aid=1143",
    "date": "2026-11-04",
    "firstSeen": "2026-11-05",
-   "lastSeen": "2026-11-07"
+   "lastSeen": "2026-11-09"
   },
   {
    "key": "town-feeds:40a07b2be15e",
@@ -88,7 +101,7 @@
    "url": "https://www.newmarketnh.gov/CivicAlerts.aspx?aid=1142",
    "date": "2026-11-04",
    "firstSeen": "2026-11-04",
-   "lastSeen": "2026-11-07"
+   "lastSeen": "2026-11-09"
   },
   {
    "key": "town-feeds:e84068bb10bd",
@@ -100,7 +113,7 @@
    "date": "2026-11-02",
    "detail": "Event date: November 11, 2026 Event Time: 12:00 AM - 11:59 PM Location: 186 Main Street Newmarket, NH 03857",
    "firstSeen": "2026-11-03",
-   "lastSeen": "2026-11-07"
+   "lastSeen": "2026-11-09"
   },
   {
    "key": "town-feeds:1139b6425d77",
@@ -112,7 +125,7 @@
    "date": "2026-10-07",
    "detail": "Event date: November 17, 2026 Event Time: 06:30 PM - 11:59 PM Location: Newmarket, NH 03857",
    "firstSeen": "2026-11-03",
-   "lastSeen": "2026-11-07"
+   "lastSeen": "2026-11-09"
   },
   {
    "key": "civicclerk:8c357dd51be6",
@@ -125,7 +138,7 @@
    "meeting": true,
    "files": 0,
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-08"
+   "lastSeen": "2026-11-09"
   },
   {
    "key": "civicclerk:9fc6f6680afa",
@@ -138,7 +151,7 @@
    "meeting": true,
    "files": 0,
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-08"
+   "lastSeen": "2026-11-09"
   },
   {
    "key": "civicclerk:2fdf4b5c96c8",
@@ -151,7 +164,7 @@
    "meeting": true,
    "files": 2,
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-08"
+   "lastSeen": "2026-11-09"
   },
   {
    "key": "civicclerk:3b56b27d73e0",
@@ -163,7 +176,7 @@
    "body": "Town Council",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-08",
+   "lastSeen": "2026-11-09",
    "text": "inbox/newmarket/docs/cc-7868.txt"
   },
   {
@@ -189,7 +202,7 @@
    "date": "2026-11-04",
    "detail": "Newmarket drivers headed toward Portsmouth and Pease International Tradeport will need to plan for longer commutes starting Monday, Oct. 12, when Squamscott Road in Stratham closes for a state culvert replacement project.",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-07"
+   "lastSeen": "2026-11-09"
   },
   {
    "key": "town-feeds:102c0e451814",
@@ -214,7 +227,7 @@
    "meeting": true,
    "files": 1,
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-08"
+   "lastSeen": "2026-11-09"
   },
   {
    "key": "civicclerk:95bc72339736",
@@ -226,7 +239,7 @@
    "body": "Town Council",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-08",
+   "lastSeen": "2026-11-09",
    "text": "inbox/newmarket/docs/cc-7865.txt"
   },
   {
@@ -240,7 +253,7 @@
    "meeting": true,
    "files": 2,
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-08"
+   "lastSeen": "2026-11-09"
   },
   {
    "key": "civicclerk:f01262eeb86f",
@@ -252,7 +265,7 @@
    "body": "Town Council",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-08",
+   "lastSeen": "2026-11-09",
    "text": "inbox/newmarket/docs/cc-7859.txt"
   },
   {
@@ -266,7 +279,7 @@
    "doc": "agenda",
    "packet": true,
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-08"
+   "lastSeen": "2026-11-09"
   },
   {
    "key": "civicclerk:8c4d7e6faae2",
