@@ -106,6 +106,18 @@
    }
   },
   {
+   "date": "2026-11-12",
+   "kind": "Meeting",
+   "title": "City Council and Planning Board joint work session on the Capital Improvement Plan, Thursday, Nov 12, 6 pm",
+   "detail": "The City Council and the Planning Board hold a joint work session on the Capital Improvement Plan (CIP, the city's multi-year list of building, road and equipment projects) in the Eileen Dondero Foley City Council Chambers at City Hall. The public can take part in person or on Zoom.",
+   "source": {
+    "label": "City of Portsmouth, municipal meetings calendar",
+    "url": "https://www.portsmouthnh.gov/city-municipal-meetings-calendar"
+   },
+   "strip": "CIP session",
+   "stripLine": "Council and Planning Board, Thursday 6 pm"
+  },
+  {
    "date": "2026-11-11",
    "kind": "Event",
    "title": "Veterans Day wreath-laying at Goodwin Park, Wednesday, Nov 11, 11 am",
@@ -926,28 +938,8 @@
    "status": "not yet connected"
   }
  ],
- "events_as_of": "2026-11-08",
+ "events_as_of": "2026-11-09",
  "events": [
-  {
-   "date": "2026-11-08",
-   "time": "2:30 pm",
-   "title": "The Pocket Universe, presented by Darwin's Waiting Room",
-   "venue": "New Hampshire Theatre Project, 959 Islington St",
-   "town": "Portsmouth",
-   "kind": "Theater",
-   "url": "https://patch.com/new-hampshire/portsmouth-nh/calendar/event/20261106/5a736c29-144e-4f67-8e2a-7119a6345102/darwins-waiting-room-presents-the-pocket-universe",
-   "source": "Patch calendar"
-  },
-  {
-   "date": "2026-11-08",
-   "time": "10:00 am to 2:00 pm",
-   "title": "Thanksgiving Guided Tours (weekends through Nov 29, plus Nov 25 and 27)",
-   "venue": "Strawbery Banke Museum",
-   "town": "Portsmouth",
-   "kind": "History",
-   "url": "https://www.strawberybanke.org/events-collection/thanksgiving-guided-tours-1",
-   "source": "Strawbery Banke Museum"
-  },
   {
    "date": "2026-11-10",
    "time": "9:00 am",
@@ -1010,6 +1002,16 @@
    "kind": "Comedy",
    "url": "https://patch.com/new-hampshire/portsmouth-nh/calendar/event/20261113/7ddfecb1-2318-4344-ad04-1bd490fd323e/comedy-legend-emo-philips-at-mccues-comedy-club",
    "source": "Patch calendar"
+  },
+  {
+   "date": "2026-11-14",
+   "time": "10:00 am to 2:00 pm",
+   "title": "Thanksgiving Guided Tours (weekends through Nov 29, plus Nov 25 and 27)",
+   "venue": "Strawbery Banke Museum",
+   "town": "Portsmouth",
+   "kind": "History",
+   "url": "https://www.strawberybanke.org/events-collection/thanksgiving-guided-tours-1",
+   "source": "Strawbery Banke Museum"
   },
   {
    "date": "2026-11-14",
@@ -2397,7 +2399,7 @@
  "paper": {
   "name": "Portsmouth Patch",
   "url": "https://patch.com/new-hampshire/portsmouth-nh",
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-09",
   "note": "The Portsmouth Herald is paywalled with no public feed, so these come from Patch.",
   "headlines": [
    {
