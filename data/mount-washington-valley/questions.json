@@ -162,6 +162,24 @@
    "text": "Jackson should keep requiring a conditional use permit for every short-term rental.",
    "source": "https://www.conwaydailysun.com/news/local/jackson-selectmen-give-str-owner-a-break/article_d8820a47-5de0-41f2-adc5-65b46dbc1e54.html",
    "status": "draft"
+  },
+  {
+   "id": "2026-11-12-bartlett-revaluation",
+   "date": "2026-11-12",
+   "town": "bartlett",
+   "issue": "tax-billing-revaluation",
+   "text": "Bartlett should go ahead with the town-wide property revaluation planned for 2027.",
+   "source": "https://www.townofbartlett.nh.gov/CivicAlerts.asp?AID=16",
+   "status": "draft"
+  },
+  {
+   "id": "2026-11-13-tamworth-master-plan",
+   "date": "2026-11-13",
+   "town": "tamworth",
+   "issue": "master-plan-update",
+   "text": "Tamworth's Master Plan update should start with housing, as the Planning Board has begun to do.",
+   "source": "https://www.tamworthnh.gov/1280/Planning-Board",
+   "status": "draft"
   }
  ]
 }

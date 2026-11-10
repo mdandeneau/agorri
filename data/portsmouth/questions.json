@@ -100,6 +100,22 @@
    "text": "Portsmouth should go ahead with the phased renovation of City Hall and the police station, estimated at $58.6 million.",
    "source": "https://portsmouthnh.gov/cityclerk/municipal-building-blue-ribbon-committee",
    "status": "draft"
+  },
+  {
+   "id": "2026-11-12-schools",
+   "date": "2026-11-12",
+   "issue": "schools",
+   "text": "The next capital plan should keep about $10.6 million over six years for elementary school upgrades.",
+   "source": "https://files.portsmouthnh.gov/cip/FY27-32+CIP-Final.pdf",
+   "status": "draft"
+  },
+  {
+   "id": "2026-11-13-housing",
+   "date": "2026-11-13",
+   "issue": "housing",
+   "text": "Portsmouth should offer pre-approved plans for accessory dwelling units (backyard or in-home apartments) so homeowners can build one more easily.",
+   "source": "https://www.portsmouthnh.gov/planportsmouth/housing/housing-action-plan",
+   "status": "draft"
   }
  ]
 }

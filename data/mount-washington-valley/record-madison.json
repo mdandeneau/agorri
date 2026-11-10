@@ -1,7 +1,7 @@
 {
  "about": {
   "town": "Madison, NH",
-  "as_of": "2026-11-07",
+  "as_of": "2026-11-10",
   "records_from": "2025-09-17",
   "documents_used": 45,
   "note": "The Town of Madison, Carroll County, including Silver Lake and Eidelweiss. Madison is governed by a five-member Board of Selectmen and a Town Administrator, with an annual town meeting: officers and zoning changes are voted by ballot on the second Tuesday in March (March 10, 2026), and money articles at a business session the following Saturday (March 14, 2026). Eidelweiss is also served by the Village District of Eidelweiss, a separate small local government with its own commissioners, water system, roads and tax rate. The town posts Selectmen minutes through September 29, 2026, but those 2026 PDFs could not be opened for this research (only the January 20, 2026 minutes could), so most meeting entries are built from Conway Daily Sun reports and are marked as news reports. The results of the March 14, 2026 business session (including the final operating budget) and the 2025 tax rate breakdown were not found. Plain-English summaries written by AI; items with needs_review=true are uncertain."
@@ -39,7 +39,39 @@
    "source": "https://www.madison-nh.org/departments/town-clerk/elections-voting/"
   }
  },
- "next_council_meeting": null,
+ "next_council_meeting": {
+  "date": "2026-11-10",
+  "items": [
+   {
+    "item": "Fire Department presentation by Chief Brooks and Town Administrator Lucia Roth",
+    "from": "2026-11-10"
+   },
+   {
+    "item": "Watershed report items in the dam project plans",
+    "from": "2026-11-10"
+   },
+   {
+    "item": "Public hearing on storm damage expenses",
+    "from": "2026-11-10"
+   },
+   {
+    "item": "Dam Committee charter",
+    "from": "2026-11-10"
+   },
+   {
+    "item": "2027 warrant articles",
+    "from": "2026-11-10"
+   },
+   {
+    "item": "Advisory Budget Committee request",
+    "from": "2026-11-10"
+   },
+   {
+    "item": "Personnel Policy Manual, and town property use and insurance waiver forms",
+    "from": "2026-11-10"
+   }
+  ]
+ },
  "issues": [
   {
    "id": "equipment-investigation",
@@ -125,7 +157,8 @@
     "Pappas met selectmen at the boat ramp in early April 2026; a staffer said a spending bill with the money could pass at year's end. Not yet awarded.",
     "The 2026 draft warrant (Feb 10 hearing) asked $100,000 for the Silver Lake Dam Improvement Trust Fund, which then held $79,400. Final vote not found.",
     "October 2026: Silver Lake went down to winter level by October 15, then down another 2 feet October 19 to 23 for Public Works repairs to the boat launch (town notice).",
-    "Oct 13: the selectmen's agenda listed a public hearing on a snowmobile crossing at the dam (outcome not yet in minutes)."
+    "Oct 13: the selectmen's agenda listed a public hearing on a snowmobile crossing at the dam (outcome not yet in minutes).",
+    "Nov 10: the Selectmen's agenda lists watershed report items in the dam project plans and a Dam Committee charter (agenda only)."
    ],
    "keywords": [
     "silver lake",
@@ -152,6 +185,10 @@
     {
      "label": "Town of Madison home page notices (lake level, boat launch repair)",
      "url": "https://www.madison-nh.org/"
+    },
+    {
+     "label": "Selectmen's agenda, Nov 10, 2026",
+     "url": "https://www.madison-nh.org/wp-content/uploads/2026/11/2026-11-10-Agenda.pdf"
     }
    ],
    "scope": "Town",

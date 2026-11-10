@@ -154,6 +154,16 @@
    "stripLine": "Info meeting Monday, 6:30 pm"
   },
   {
+   "date": "2026-11-09",
+   "kind": "Library",
+   "title": "Hobbit Party at the Library, Friday, Dec 11, 6 pm",
+   "detail": "The Portsmouth Public Library building turns twenty this year, and the Library is marking it with a party modeled on Bilbo's birthday in The Lord of the Rings. Posted by the Library on Nov 9.",
+   "source": {
+    "label": "Portsmouth Public Library, Nov 9",
+    "url": "https://www.portsmouthnh.gov/library/news/hobbit-party-1211-6pm"
+   }
+  },
+  {
    "date": "2026-11-04",
    "kind": "Arts",
    "title": "Call for artists: winter textile art exhibition, Feb 1 to Apr 27, 2027",
@@ -938,7 +948,7 @@
    "status": "not yet connected"
   }
  ],
- "events_as_of": "2026-11-09",
+ "events_as_of": "2026-11-10",
  "events": [
   {
    "date": "2026-11-10",
@@ -1175,6 +1185,16 @@
    "price": "$35 adults, $17.50 ages 3 to 17 (nonmembers)",
    "url": "https://business.portsmouthchamber.org/events/details/candlelight-stroll-at-strawbery-banke-museum-12-19-2026-90364",
    "source": "Greater Portsmouth Chamber calendar"
+  },
+  {
+   "date": "2026-12-11",
+   "time": "6:00 pm",
+   "title": "Hobbit Party for the library building's 20th birthday",
+   "venue": "Portsmouth Public Library, 175 Parrott Ave",
+   "town": "Portsmouth",
+   "kind": "Library",
+   "url": "https://www.portsmouthnh.gov/library/news/hobbit-party-1211-6pm",
+   "source": "Portsmouth Public Library"
   },
   {
    "date": "2026-12-18",
@@ -2399,9 +2419,14 @@
  "paper": {
   "name": "Portsmouth Patch",
   "url": "https://patch.com/new-hampshire/portsmouth-nh",
-  "asOf": "2026-11-09",
+  "asOf": "2026-11-10",
   "note": "The Portsmouth Herald is paywalled with no public feed, so these come from Patch.",
   "headlines": [
+   {
+    "title": "Portsmouth Public Library: Library Closed Nov. 11",
+    "url": "https://patch.com/new-hampshire/portsmouth-nh/portsmouth-public-library-library-closed-nov-11",
+    "date": "2026-11-08"
+   },
    {
     "title": "City Of Portsmouth: Veterans Day Observances",
     "url": "https://patch.com/new-hampshire/portsmouth-nh/city-portsmouth-veterans-day-observances-0",
@@ -2436,11 +2461,6 @@
     "title": "Portsmouth NH General Election 2026 Midterm Voter Guide",
     "url": "https://patch.com/new-hampshire/portsmouth-nh/portsmouth-nh-general-election-2026-midterm-voter-guide",
     "date": "2026-11-02"
-   },
-   {
-    "title": "Hotel Thaxter Named Best Boutique Hotel In New Hampshire By Boston Magazine",
-    "url": "https://patch.com/new-hampshire/portsmouth-nh/hotel-thaxter-named-best-boutique-hotel-new-hampshire-boston-magazine",
-    "date": "2026-10-31"
    }
   ]
  }
