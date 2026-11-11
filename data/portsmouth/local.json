@@ -96,6 +96,19 @@
    "stripLine": "Planning Board hears four applications"
   },
   {
+   "date": "2026-11-17",
+   "until": "2026-11-24",
+   "kind": "Hearing",
+   "title": "Zoning Board of Adjustment public hearings, Tuesdays, Nov 17 and Nov 24, 7 pm",
+   "detail": "The Board of Adjustment will hear seven petitions on Nov 17, including variances (permission to break a zoning rule for one property) for additions, porches and decks, canopy signs at 1980 Woodbury Avenue, a parking space at 921 Islington Street, and a request to rehear the 28 Blossom Street appeal. Six more are set for Nov 24, including outdoor lumber storage at 103 Bartlett Road, a second house at 197 Richards Avenue, and a two-lot subdivision at 635 Lincoln Avenue. Council Chambers, City Hall, 1 Junkins Avenue, or on Zoom. Written comments go to Planning@portsmouthnh.gov by close of business the day before.",
+   "source": {
+    "label": "City of Portsmouth, Board of Adjustment legal notice",
+    "url": "https://files.portsmouthnh.gov/agendas/2026/Zoning%20Board%20of%20Adjustment/11-17-2026%20Meeting/11-17-2026%20BOA%20LN.pdf"
+   },
+   "strip": "Zoning hearings",
+   "stripLine": "Board of Adjustment hears 13 petitions"
+  },
+  {
    "date": "2026-11-12",
    "kind": "Library",
    "title": "Understanding Artificial Intelligence at the Library, Thursday, Nov 12, 6 pm",
@@ -948,19 +961,8 @@
    "status": "not yet connected"
   }
  ],
- "events_as_of": "2026-11-10",
+ "events_as_of": "2026-11-11",
  "events": [
-  {
-   "date": "2026-11-10",
-   "time": "9:00 am",
-   "title": "Veterans Breakfast and Quilts of Valor presentation (10 am)",
-   "venue": "Senior Activity Center, 125 Cottage St",
-   "town": "Portsmouth",
-   "kind": "Veterans",
-   "url": "https://www.portsmouthnh.gov/city/press-releases/city-announces-trick-or-treat-hours-and-fall-events",
-   "source": "City of Portsmouth",
-   "note": "Veterans and spouses. RSVP 603-610-4433."
-  },
   {
    "date": "2026-11-11",
    "time": "10:00 am to 2:00 pm",
@@ -2419,9 +2421,24 @@
  "paper": {
   "name": "Portsmouth Patch",
   "url": "https://patch.com/new-hampshire/portsmouth-nh",
-  "asOf": "2026-11-10",
+  "asOf": "2026-11-11",
   "note": "The Portsmouth Herald is paywalled with no public feed, so these come from Patch.",
   "headlines": [
+   {
+    "title": "Hantz Marconi Can Return To Practicing Law: Professional Conduct Committee",
+    "url": "https://patch.com/new-hampshire/portsmouth-nh/hantz-marconi-can-return-practicing-law-professional-conduct-committee",
+    "date": "2026-11-10"
+   },
+   {
+    "title": "Board Reports Modest October Sales Gain Across The New Hampshire Seacoast",
+    "url": "https://patch.com/new-hampshire/portsmouth-nh/board-reports-modest-october-sales-gain-across-new-hampshire-seacoast",
+    "date": "2026-11-10"
+   },
+   {
+    "title": "Portsmouth Public Library: Guitar Sunday @PMAC: Brooks Robertson Nov. 15",
+    "url": "https://patch.com/new-hampshire/portsmouth-nh/portsmouth-public-library-guitar-sunday-pmac-brooks-robertson-nov-15",
+    "date": "2026-11-10"
+   },
    {
     "title": "Portsmouth Public Library: Library Closed Nov. 11",
     "url": "https://patch.com/new-hampshire/portsmouth-nh/portsmouth-public-library-library-closed-nov-11",
@@ -2446,21 +2463,6 @@
     "title": "Warmington, Pappas, Shaheen Easily Win In Portsmouth: 2026 Midterm General Election Results",
     "url": "https://patch.com/new-hampshire/portsmouth-nh/portsmouth-nh-2026-midterm-general-election-results",
     "date": "2026-11-03"
-   },
-   {
-    "title": "Former Supreme Court Justice Hantz Marconi Still Fighting Ethics Case",
-    "url": "https://patch.com/new-hampshire/portsmouth-nh/former-supreme-court-justice-hantz-marconi-still-fighting-ethics-case",
-    "date": "2026-11-03"
-   },
-   {
-    "title": "Birchtree Benefit For Learning Features 200+ Prizes To Win On Nov. 14 At Black Rock Sports Club",
-    "url": "https://patch.com/new-hampshire/portsmouth-nh/birchtree-benefit-learning-features-200-prizes-win-nov-14-black-rock",
-    "date": "2026-11-03"
-   },
-   {
-    "title": "Portsmouth NH General Election 2026 Midterm Voter Guide",
-    "url": "https://patch.com/new-hampshire/portsmouth-nh/portsmouth-nh-general-election-2026-midterm-voter-guide",
-    "date": "2026-11-02"
    }
   ]
  }

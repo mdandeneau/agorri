@@ -836,27 +836,6 @@
  ],
  "events": [
   {
-   "date": "2026-11-10",
-   "time": "5:00 pm",
-   "title": "Board of Selectmen meeting (also Nov 24 and Dec 8)",
-   "venue": "Madison Town Hall meeting room (lower level), 1923 Village Road",
-   "town": "Madison",
-   "kind": "Civic",
-   "url": "https://www.madison-nh.org/selectmen/",
-   "source": "Town of Madison",
-   "note": "The Selectmen page lists 5 pm in its schedule but 4:30 pm in its introduction; confirm the start time."
-  },
-  {
-   "date": "2026-11-10",
-   "time": "6:30 pm",
-   "title": "The Story of Conway Photo Shop: Part 2",
-   "venue": "Conway Public Library, 15 Greenwood Ave",
-   "town": "Conway",
-   "kind": "Talk",
-   "url": "https://conwaypubliclibrary.org/adult-community/events/291762/story-conway-photo-shop-part-2",
-   "source": "Conway Public Library"
-  },
-  {
    "date": "2026-11-12",
    "time": "6:00 pm",
    "title": "Pajama Story Time",
@@ -926,6 +905,17 @@
    "kind": "Civic",
    "url": "https://www.jackson-nh.gov/news-and-alerts/community-planning-forum/",
    "source": "Town of Jackson"
+  },
+  {
+   "date": "2026-11-24",
+   "time": "5:00 pm",
+   "title": "Board of Selectmen meeting (also Dec 8)",
+   "venue": "Madison Town Hall meeting room (lower level), 1923 Village Road",
+   "town": "Madison",
+   "kind": "Civic",
+   "url": "https://www.madison-nh.org/selectmen/",
+   "source": "Town of Madison",
+   "note": "The Selectmen page lists 5 pm in its schedule but 4:30 pm in its introduction; confirm the start time."
   },
   {
    "date": "2026-11-26",
