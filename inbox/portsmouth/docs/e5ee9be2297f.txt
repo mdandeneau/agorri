@@ -1,0 +1,224 @@
+Source: https://files.portsmouthnh.gov/minutes/2026/PEAC/PEAC%20Meeting%20Draft%20Minutes%20November%204,%202026.pdf
+Title: Draft Minutes
+Fetched: 2026-11-12
+
+CITY OF PORTSMOUTH, NEW HAMPSHIRE
+                                ENERGY ADVISORY COMMITTEE
+
+
+                            WED, NOVEMBER 4, 2026, 6:30 pm
+                              City Hall Conference Room A
+                             1 Junkins Avenue, Portsmouth NH
+                    For the Zoom recording: https://youtu.be/Rmnn2uIJeEI
+
+
+                                          MINUTES
+
+1. Call to order and Roll Call
+Meeting called to order at 6:35 pm. Attending, Councilor John Tabor, chair; Kevin
+Charette, Tracey Cameron, Betsy Blaisdell, Peter Somssich, Ben D’Antonio,
+Sustainability Committee: Fred Calciniari. Excused: Tom Rooney, Betsy Blaisdell. Staff:
+Jillian Harris, Stephanie Seacord. Guests: Nick Shostak and Howard Plante from
+Freedom Energy
+
+2. Chairman’s Remarks –
+Chair Tabor commented on the Nov 3 General Election results and the potential shift in
+NH Legislature priorities to revive energy legislation that stalled, such as PUC
+requirements for the utilities to buy on fixed contracts, solar credits and incentives,
+offshore wind, ither clean energy initiatives. Somssich commented that the shift in the
+Executive Council to a Democrat majority will be a key piece.
+
+Chair Tabor will be attending the CPCNH Member Meeting on November 5 and expects
+to hear additional information about legislative issues.
+
+3. Approval of minutes for October 7, 2026
+On a motion by Calciniari, seconded by D’Antonio, the committee voted
+unanimously to approve the minutes.
+
+ 4. Presentation by Freedom Energy
+At their October meeting, the members agreed PEAC should invite Freedom Energy to
+provide an informational update but emphasized the invitation should make clear there
+is no current intention to shift from CPCNH.
+
+Freedom Energy’s Howard Plante, VP of Procurement and Nick Shostak, CCA Team
+Lead NH joined the discussion.
+
+For the presentation slides, go to:
+https://files.portsmouthnh.gov/minutes/2026/PEAC/FreedomEnergyPresentation_Nov42
+026.pdf
+                              CITY OF PORTSMOUTH, NEW HAMPSHIRE
+                                  ENERGY ADVISORY COMMITTEE
+
+
+Communities Freedom Energy serves with municipal energy contracts, Community
+Choice Aggregation (CCA) and combined:
+
+
+Currently CCAs in Salem, Londonderry, Windham, Merrimack and Laconia. Hudson and
+Epping are leaving CPCNH to join Freedom Energy. Epping and Hampstead expect to
+launch in Spring 2027. Shostak said Freedom Energy never launches a CCA unless the
+rate is lower than the utility.
+
+All energy supply comes from third-party suppliers, with Freedom Energy as broker
+helps municipalities choose through a competitive bid process. Once the contract is
+signed, the supplier bears the risk, but the municipality – not Freedom Energy – is
+responsible for the choice. Freedom Energy charges a 10 cents per kWh which is built
+into the contracted rate and not charged until launch.
+
+Contracts can run for 6 months or up to 5 years, with a ‘sweet spot’ at 2-3 years. It is
+possible to split. Salem contracted a rate through November 2027 before DASI hit, with
+that charge going from 0.1 cent to 1.0 cent, so they decided to split the contract to 50%
+at 12.676 through November 2030 and the anticipation of beating the rate in January
+2027 negotiations. When the second rate is determined the price is averaged across the
+full contract. Once contracted the supplier can’t change the rate.
+
+Charette asked -- once the contract is in place with the supplier, what is if the utility rate
+is less than the contract and even all of the city’s customers opt out? A. The under-
+collection impact would be to the supplier, not the city.
+
+Somssich asked about technical expertise as the city is not as well-versed. A. Howard X
+has decades of experience in energy tech and Freedom Energy, because of its large
+ISO-direct customers, is considered the expert in ISO New England.
+                           CITY OF PORTSMOUTH, NEW HAMPSHIRE
+                               ENERGY ADVISORY COMMITTEE
+
+
+Somssich asked about New England reliance on natural gas and the impact of that and
+global situation on the volatility of energy pricing. A. That is hard to predict but
+underscores the benefit of locking in a supplier rate.
+
+Freedom Energy:
+   • Is the broker administrator rather than the supplier.
+   • Assists in timing and strategy, eg a municipality like Hudson exiting CPCNH in
+      the middle of a rate period.
+   • Handles marketing: customer information including refreshes.
+   • Assists with adder fees for renewables or community projects reserves.
+   • Creates the supplier RFP and supplier v. utility recommendation based on
+      analytics.
+   • Looks for futures, opportunities through the life of the contract.
+   • The supplier contract locks a price, not the volume. Freedom’s fee doesn’t
+      change with volume changes
+   • Customer service handled through a dedicated phone line and service center in
+      Auburn NH. Opting-out or in is simple: Freedom website, email, phone or through
+      the supplier with Freedom Energy sending the drop notification from the supplier
+      to the utility.
+   • Does not collect reserves so nothing impacted by rate volatility or under-
+      collection.
+
+
+Charette asked if Freedom Energy has select suppliers. A. Yes. 4 that provide CCA
+rates. None has ever defaulted.
+
+Chair Tabor asked about green options. A. Freedom suppliers have to comply with the
+renewables percentage/REC requirements. Their Director of Renewable Operations
+joined a year ago. The premium for renewables is added to the rate. The RECs are from
+NY/New England sources.
+                             CITY OF PORTSMOUTH, NEW HAMPSHIRE
+                                 ENERGY ADVISORY COMMITTEE
+
+
+Charette asked whether Freedom Energy offers CCAs in Massachusetts. A. No.
+Colonial Power covers that market. CCAs are a small percentage of Freedom’s
+business; their main income is from large ISO-direct commercial customers.
+
+Somssich asked Freedom to define its benefits over CPCNH. A:
+  • Rate protection
+  • More stability on rates due to contract
+  • No risk to resident customers, supplier accepts the risk
+  • Fixed contracts are easier to understand/manage
+  • Contract is exempt from market volatility
+  • Long-term contracts mean long-term stability
+
+Somssich asked if an autonomous larger member such as Portsmouth would be less
+beholden to the smaller community members. Portsmouth gets 1 vote even though the
+city is providing a large load and funding to help keep CPCNH running.
+
+Chair Tabor asked how often the customer list is refreshed, an issue in Portsmouth with
+50% of customers in apartments. Delayed refreshing creates two ‘classes’ of energy
+customers such that residents don’t understand why they’re paying more/less than their
+neighbors. A. Freedom refreshes with new utility accounts, but not those who have
+opted out, and not unless the town’s supplier rate is lower than the utility. A. Freedom
+Energy will provide more specific details.
+
+Chair Tabor asked if the ‘sweet spot’ is 2-3 years, but suddenly global factors cause the
+rates to drop dramatically and the contracted rate is much higher than the utility default.
+A. Freedom informs customers, who can opt-out. Even all of them. Charette commented
+that people don’t, either because they’re not aware or they don’t understand the impact.
+There is no customer waiting period to go back to the utility.
+
+Charette asked and confirmed that when rates fluctuate, it’s possible to ‘blend and
+extend’ by purchasing a contract add-on at the lower rate, which is then averaged with
+the current rate.
+
+Chair Tabor asked whether in 3-5 years, Freedom Energy will still be doing CCAs. A.
+Since the contract is with the supplier. It continues whether Freedom Energy is around
+or not.
+
+Chair Tabor asked whether Freedom Energy is, like CPCNH, active in lobbying the NH
+Legislature. A. Yes. CEO is active.
+
+Chair Tabor offered a pro/con summary:
+  • Freedom Energy is a longer contract, reached through an RFP process, to get a
+       consistently good rate.
+  • The rate is stable with the risk on the contractor.
+                              CITY OF PORTSMOUTH, NEW HAMPSHIRE
+                                  ENERGY ADVISORY COMMITTEE
+
+
+   •   Contract remains even if the utility rate is lower – the customer can opt-out but
+       not the city.
+   •   The trend remains rising prices for supply and potentially delivery charges as
+       well. A. The utility has no incentive as it can’t profit from the supply, instead their
+       profits mean reliance on more transmission investment in the aging
+       infrastructure, which pushes delivery costs up.
+
+Somssich asked about supply from small nuclear reactors. A. Yes, in the future.
+
+Chair Tabor asked if Shostak and Plante would entertain follow-up questions. A. Yes.
+
+The committee thanked Shostak and Plante for their time and presentation.
+
+After their departure Charette suggested that PEAC schedule one or more briefings
+from CPCNH, especially the new procurement and financial directors, to get an update
+and comment on the broker model. 2023 – when CPCNH started – is not 2026.
+
+Somssich: with Freedom Energy as the broker, they can structure procurement for the
+customer. Portsmouth is subject to CPCNH portfolio management across the
+membership.
+
+Chair Tabor: CPCNH offers the lobbying and community power projects that Freedom
+does not. The broker model is purely about the money and Freedom Power
+understands procurement strategy in this regulatory environment. Freedom Energy, the
+broker model, is about a fixed contracted rate, which is where we started with
+Eversource as the default utility.
+
+Chair Tabor: The CPCNH member meeting will discuss their goal of a minimum of 60
+days of operating reserves (at 9 days at the end of Aug) while comparable entities are
+saying a minimum of 120 days. Why not CPCNH?
+
+Charette commented that Freedom Energy has scant history in CCAs and is not
+operating in MA where they are burgeoning. PEAC needs to understand CPCNH’s
+financial outlook and their perspective on brokers.
+
+5. Window Dressers Recruiting, Homes & Volunteers – Tracey Cameron
+Cameron shared the info-graphic now being circulated in the City Newsletter and social
+media. The deadline for homeowners to apply for the program is December 16. Seacord
+suggested a press release to reach a wider audience.
+
+6. Portsmouth Community Power Communications Plan Update – Stephanie
+   Seacord
+Seacord briefed the members on updates to the messaging, extending the calendar
+past September 2026 in the original plan:
+October      Opting in/opting out ‘how to’
+November Window Dressers opportunities for inserts and volunteers
+                        CITY OF PORTSMOUTH, NEW HAMPSHIRE
+                            ENERGY ADVISORY COMMITTEE
+
+
+December   Advance notice on 2027 rate change
+
+7. Public Comment – None.
+8. Adjournment – On a motion by D’Antonio, seconded by Somssich the committee
+   unanimously voted to adjourn at 8:29 pm
+
+Next meeting: Wednesday, December 2, 2026 at 6:30 pm.

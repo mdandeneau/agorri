@@ -1,21 +1,21 @@
 {
  "note": "Written by ingest/fetch.mjs. Each item: where it came from (source, url), the date in the document when known, firstSeen (the day the fetcher first saw it; new since the last refresh = firstSeen on or after that day) and text (the saved agenda or minutes text, when there is one). Facts for the site still come from reading the linked document.",
  "town": "madison",
- "updated": "2026-11-10T15:36:55.083Z",
+ "updated": "2026-11-12T15:59:14.003Z",
  "sources": {
   "feed": {
    "ok": true,
    "found": 2,
    "new": 0,
-   "checked": "2026-11-10T15:36:55.083Z",
-   "ms": 996
+   "checked": "2026-11-12T15:59:14.003Z",
+   "ms": 907
   },
   "meeting-docs": {
    "ok": true,
    "found": 74,
    "new": 0,
-   "checked": "2026-11-10T15:36:55.083Z",
-   "ms": 3627
+   "checked": "2026-11-12T15:59:14.003Z",
+   "ms": 3698
   }
  },
  "notes": [
@@ -31,7 +31,7 @@
    "date": "2026-11-10",
    "doc": "agenda",
    "firstSeen": "2026-11-09",
-   "lastSeen": "2026-11-10",
+   "lastSeen": "2026-11-12",
    "text": "inbox/madison/docs/6bf659976c1a.txt"
   },
   {
@@ -43,7 +43,7 @@
    "date": "2026-10-27",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-10",
+   "lastSeen": "2026-11-12",
    "text": "inbox/madison/docs/c05d7ce23859.txt"
   },
   {
@@ -55,7 +55,7 @@
    "date": "2026-10-13",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-10",
+   "lastSeen": "2026-11-12",
    "text": "inbox/madison/docs/9d6280e115c7.txt"
   },
   {
@@ -67,7 +67,7 @@
    "date": "2026-09-29",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-10",
+   "lastSeen": "2026-11-12",
    "text": "inbox/madison/docs/3463ac8a41ee.txt"
   },
   {
@@ -79,7 +79,7 @@
    "date": "2026-09-15",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-10",
+   "lastSeen": "2026-11-12",
    "text": "inbox/madison/docs/b8bc2713f79f.txt"
   },
   {
@@ -91,7 +91,7 @@
    "date": "2026-09-01",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-10"
+   "lastSeen": "2026-11-12"
   },
   {
    "key": "meeting-docs:bcd22555ac48",
@@ -102,7 +102,7 @@
    "date": "2026-08-18",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-10"
+   "lastSeen": "2026-11-12"
   },
   {
    "key": "meeting-docs:16123b3150e8",
@@ -113,7 +113,7 @@
    "date": "2026-08-04",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-10"
+   "lastSeen": "2026-11-12"
   },
   {
    "key": "meeting-docs:3c79ec2f31e5",
@@ -124,7 +124,7 @@
    "date": "2026-07-21",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-10"
+   "lastSeen": "2026-11-12"
   },
   {
    "key": "meeting-docs:17c38fd41815",
@@ -146,7 +146,7 @@
    "date": null,
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-10"
+   "lastSeen": "2026-11-12"
   }
  ]
 }

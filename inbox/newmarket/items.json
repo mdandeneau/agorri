@@ -1,25 +1,50 @@
 {
  "note": "Written by ingest/fetch.mjs. Each item: where it came from (source, url), the date in the document when known, firstSeen (the day the fetcher first saw it; new since the last refresh = firstSeen on or after that day) and text (the saved agenda or minutes text, when there is one). Facts for the site still come from reading the linked document.",
  "town": "newmarket",
- "updated": "2026-11-10T15:36:55.083Z",
+ "updated": "2026-11-12T15:59:14.003Z",
  "sources": {
   "civicclerk": {
    "ok": true,
-   "found": 10,
-   "new": 0,
-   "checked": "2026-11-10T15:36:55.083Z",
-   "ms": 1313
+   "found": 8,
+   "new": 1,
+   "checked": "2026-11-12T15:59:14.003Z",
+   "ms": 930
   },
   "town-feeds": {
    "ok": true,
-   "found": 12,
-   "new": 2,
-   "checked": "2026-11-10T15:36:55.083Z",
-   "ms": 7769
+   "found": 9,
+   "new": 1,
+   "checked": "2026-11-12T15:59:14.003Z",
+   "ms": 7766
   }
  },
  "notes": [],
  "items": [
+  {
+   "key": "civicclerk:a069f8f3bddb",
+   "source": "civicclerk",
+   "kind": "meeting-doc",
+   "title": "Town Council: Town Council Meeting 1st Wednesday",
+   "url": "https://newmarketnh.portal.civicclerk.com/event/2400/overview",
+   "date": "2026-12-02",
+   "body": "Town Council",
+   "meeting": true,
+   "files": 0,
+   "firstSeen": "2026-11-12",
+   "lastSeen": "2026-11-12"
+  },
+  {
+   "key": "town-feeds:8fb7f67c4163",
+   "source": "town-feeds",
+   "kind": "notice",
+   "feed": "calendar",
+   "title": "Conservation Commission Meeting",
+   "url": "https://www.newmarketnh.gov/Calendar.aspx?EID=1161",
+   "date": "2026-11-11",
+   "detail": "Event date: November 12, 2026 Event Time: 07:00 PM - 11:59 PM Location: 186 Main Street Newmarket, NH 03857",
+   "firstSeen": "2026-11-12",
+   "lastSeen": "2026-11-12"
+  },
   {
    "key": "town-feeds:547c28f75fdd",
    "source": "town-feeds",
@@ -30,7 +55,7 @@
    "date": "2026-11-10",
    "detail": "STATEMENT OF DUTIES The Administrative Assistant performs clerical, utility billing, and administrative work in the Environmental Services Department. The Administrative Assistant works under the direction of Director of Environmental Services. SUPERVISION Does not have a supervisory role. ESSENTIAL DUTIES AND RESPONSIBILITIES The duties listed below are intended only as illustrations of the various types of work that may be required. The omission of specific statements of duties does not exclude them from the position if the work is similar, related or a logical assignment to the position. Pr",
    "firstSeen": "2026-11-10",
-   "lastSeen": "2026-11-10"
+   "lastSeen": "2026-11-12"
   },
   {
    "key": "town-feeds:6e272e23737b",
@@ -54,7 +79,7 @@
    "date": "2026-11-09",
    "detail": "An increase of $1.26 over the previous year.",
    "firstSeen": "2026-11-09",
-   "lastSeen": "2026-11-10"
+   "lastSeen": "2026-11-12"
   },
   {
    "key": "town-feeds:5907fd3d57d3",
@@ -103,7 +128,7 @@
    "doc": "agenda",
    "packet": true,
    "firstSeen": "2026-11-05",
-   "lastSeen": "2026-11-10"
+   "lastSeen": "2026-11-12"
   },
   {
    "key": "town-feeds:1419dd7f9b91",
@@ -114,7 +139,7 @@
    "url": "https://www.newmarketnh.gov/CivicAlerts.aspx?aid=1143",
    "date": "2026-11-04",
    "firstSeen": "2026-11-05",
-   "lastSeen": "2026-11-10"
+   "lastSeen": "2026-11-12"
   },
   {
    "key": "town-feeds:40a07b2be15e",
@@ -123,9 +148,9 @@
    "feed": "news",
    "title": "November 3, 2026 General Election Results",
    "url": "https://www.newmarketnh.gov/CivicAlerts.aspx?aid=1142",
-   "date": "2026-11-04",
+   "date": "2026-11-10",
    "firstSeen": "2026-11-04",
-   "lastSeen": "2026-11-10"
+   "lastSeen": "2026-11-12"
   },
   {
    "key": "town-feeds:e84068bb10bd",
@@ -149,7 +174,7 @@
    "date": "2026-10-07",
    "detail": "Event date: November 17, 2026 Event Time: 06:30 PM - 11:59 PM Location: Newmarket, NH 03857",
    "firstSeen": "2026-11-03",
-   "lastSeen": "2026-11-10"
+   "lastSeen": "2026-11-12"
   },
   {
    "key": "civicclerk:8c357dd51be6",
@@ -162,7 +187,7 @@
    "meeting": true,
    "files": 0,
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-10"
+   "lastSeen": "2026-11-12"
   },
   {
    "key": "civicclerk:9fc6f6680afa",
@@ -175,7 +200,7 @@
    "meeting": true,
    "files": 0,
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-10"
+   "lastSeen": "2026-11-12"
   },
   {
    "key": "civicclerk:2fdf4b5c96c8",
@@ -188,7 +213,7 @@
    "meeting": true,
    "files": 2,
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-10"
+   "lastSeen": "2026-11-12"
   },
   {
    "key": "civicclerk:3b56b27d73e0",
@@ -200,7 +225,7 @@
    "body": "Town Council",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-10",
+   "lastSeen": "2026-11-12",
    "text": "inbox/newmarket/docs/cc-7868.txt"
   },
   {
@@ -226,7 +251,7 @@
    "date": "2026-11-04",
    "detail": "Newmarket drivers headed toward Portsmouth and Pease International Tradeport will need to plan for longer commutes starting Monday, Oct. 12, when Squamscott Road in Stratham closes for a state culvert replacement project.",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-10"
+   "lastSeen": "2026-11-12"
   },
   {
    "key": "town-feeds:102c0e451814",
@@ -251,7 +276,7 @@
    "meeting": true,
    "files": 1,
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-10"
+   "lastSeen": "2026-11-12"
   },
   {
    "key": "civicclerk:95bc72339736",
@@ -263,7 +288,7 @@
    "body": "Town Council",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-10",
+   "lastSeen": "2026-11-12",
    "text": "inbox/newmarket/docs/cc-7865.txt"
   },
   {

@@ -1,14 +1,14 @@
 {
  "note": "Written by ingest/fetch.mjs. Each item: where it came from (source, url), the date in the document when known, firstSeen (the day the fetcher first saw it; new since the last refresh = firstSeen on or after that day) and text (the saved agenda or minutes text, when there is one). Facts for the site still come from reading the linked document.",
  "town": "tamworth",
- "updated": "2026-11-10T15:36:55.083Z",
+ "updated": "2026-11-12T15:59:14.003Z",
  "sources": {
   "agenda-center": {
    "ok": true,
    "found": 150,
    "new": 0,
-   "checked": "2026-11-10T15:36:55.083Z",
-   "ms": 10572
+   "checked": "2026-11-12T15:59:14.003Z",
+   "ms": 10584
   }
  },
  "notes": [
@@ -42,7 +42,7 @@
    "date": "2026-10-19",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-10",
+   "lastSeen": "2026-11-12",
    "text": "inbox/tamworth/docs/40e9ee238e80.txt"
   },
   {
@@ -54,7 +54,7 @@
    "date": "2026-10-19",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-10"
+   "lastSeen": "2026-11-12"
   },
   {
    "key": "agenda-center:1584a0a400eb",
@@ -66,7 +66,7 @@
    "doc": "agenda",
    "packet": true,
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-10"
+   "lastSeen": "2026-11-12"
   },
   {
    "key": "agenda-center:2f049f4e4c1c",
@@ -89,7 +89,7 @@
    "date": "2026-10-13",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-10",
+   "lastSeen": "2026-11-12",
    "text": "inbox/tamworth/docs/06514fb39f22.txt"
   },
   {
@@ -101,7 +101,7 @@
    "date": "2026-10-13",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-10"
+   "lastSeen": "2026-11-12"
   },
   {
    "key": "agenda-center:629efc82cf8d",
@@ -113,7 +113,7 @@
    "doc": "agenda",
    "packet": true,
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-10"
+   "lastSeen": "2026-11-12"
   },
   {
    "key": "agenda-center:37bbfd4cb771",
@@ -124,7 +124,7 @@
    "date": "2026-10-05",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-10",
+   "lastSeen": "2026-11-12",
    "text": "inbox/tamworth/docs/37bbfd4cb771.txt"
   },
   {
@@ -136,7 +136,7 @@
    "date": "2026-10-05",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-10"
+   "lastSeen": "2026-11-12"
   },
   {
    "key": "agenda-center:a0bedc95b5ad",
@@ -148,7 +148,7 @@
    "doc": "agenda",
    "packet": true,
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-10"
+   "lastSeen": "2026-11-12"
   },
   {
    "key": "agenda-center:4aee77940205",
@@ -170,7 +170,7 @@
    "date": "2026-09-28",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-10",
+   "lastSeen": "2026-11-12",
    "text": "inbox/tamworth/docs/05a0f381c4d8.txt"
   },
   {
@@ -182,7 +182,7 @@
    "date": "2026-09-28",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-10"
+   "lastSeen": "2026-11-12"
   },
   {
    "key": "agenda-center:738c5d8470bb",
@@ -194,7 +194,7 @@
    "doc": "agenda",
    "packet": true,
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-10"
+   "lastSeen": "2026-11-12"
   },
   {
    "key": "agenda-center:76b009443641",
@@ -217,7 +217,7 @@
    "date": "2026-09-16",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-10",
+   "lastSeen": "2026-11-12",
    "text": "inbox/tamworth/docs/0d62e663d684.txt"
   },
   {
@@ -229,7 +229,7 @@
    "date": "2026-09-16",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-10"
+   "lastSeen": "2026-11-12"
   },
   {
    "key": "agenda-center:0bc91d023173",
@@ -241,7 +241,7 @@
    "doc": "agenda",
    "packet": true,
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-10"
+   "lastSeen": "2026-11-12"
   },
   {
    "key": "agenda-center:8459395b4e7a",
@@ -264,7 +264,7 @@
    "date": "2026-09-14",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-10",
+   "lastSeen": "2026-11-12",
    "text": "inbox/tamworth/docs/d401799b0896.txt"
   },
   {
@@ -276,7 +276,7 @@
    "date": "2026-09-14",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-10"
+   "lastSeen": "2026-11-12"
   },
   {
    "key": "agenda-center:866709d37c40",
@@ -288,7 +288,7 @@
    "doc": "agenda",
    "packet": true,
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-10"
+   "lastSeen": "2026-11-12"
   },
   {
    "key": "agenda-center:2df055a7a41a",
@@ -299,7 +299,7 @@
    "date": "2026-09-14",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-10",
+   "lastSeen": "2026-11-12",
    "text": "inbox/tamworth/docs/2df055a7a41a.txt"
   },
   {
@@ -311,7 +311,7 @@
    "date": "2026-09-14",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-10"
+   "lastSeen": "2026-11-12"
   },
   {
    "key": "agenda-center:a5c6cc5c4f37",
@@ -323,7 +323,7 @@
    "doc": "agenda",
    "packet": true,
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-10"
+   "lastSeen": "2026-11-12"
   },
   {
    "key": "agenda-center:1b63a510d975",
@@ -346,7 +346,7 @@
    "date": "2026-09-08",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-10",
+   "lastSeen": "2026-11-12",
    "text": "inbox/tamworth/docs/b86f7c8ecf00.txt"
   },
   {
@@ -358,7 +358,7 @@
    "date": "2026-09-08",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-10"
+   "lastSeen": "2026-11-12"
   },
   {
    "key": "agenda-center:22ca27b78856",
@@ -370,7 +370,7 @@
    "doc": "agenda",
    "packet": true,
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-10"
+   "lastSeen": "2026-11-12"
   },
   {
    "key": "agenda-center:8ace4629fd88",
@@ -393,7 +393,7 @@
    "date": "2026-09-03",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-10",
+   "lastSeen": "2026-11-12",
    "text": "inbox/tamworth/docs/aa6bc3279cf9.txt"
   },
   {
@@ -405,7 +405,7 @@
    "date": "2026-09-03",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-10"
+   "lastSeen": "2026-11-12"
   },
   {
    "key": "agenda-center:84ffd8be16a7",
@@ -417,7 +417,7 @@
    "doc": "agenda",
    "packet": true,
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-10"
+   "lastSeen": "2026-11-12"
   },
   {
    "key": "agenda-center:fb3f720182c9",
@@ -439,7 +439,7 @@
    "date": "2026-08-25",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-10"
+   "lastSeen": "2026-11-12"
   },
   {
    "key": "agenda-center:6e43fe6f35f5",
@@ -450,7 +450,7 @@
    "date": "2026-08-25",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-10"
+   "lastSeen": "2026-11-12"
   },
   {
    "key": "agenda-center:e8aba6712587",
@@ -462,7 +462,7 @@
    "doc": "agenda",
    "packet": true,
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-10"
+   "lastSeen": "2026-11-12"
   },
   {
    "key": "agenda-center:f63e1615af76",
@@ -484,7 +484,7 @@
    "date": "2026-08-25",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-10"
+   "lastSeen": "2026-11-12"
   },
   {
    "key": "agenda-center:389f8a701504",
@@ -495,7 +495,7 @@
    "date": "2026-08-25",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-10"
+   "lastSeen": "2026-11-12"
   },
   {
    "key": "agenda-center:3e33fb22654c",
@@ -507,7 +507,7 @@
    "doc": "agenda",
    "packet": true,
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-10"
+   "lastSeen": "2026-11-12"
   },
   {
    "key": "agenda-center:65b8a0dce78e",
@@ -529,7 +529,7 @@
    "date": "2026-08-17",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-10"
+   "lastSeen": "2026-11-12"
   },
   {
    "key": "agenda-center:1eff2bbf4af4",
@@ -540,7 +540,7 @@
    "date": "2026-08-17",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-10"
+   "lastSeen": "2026-11-12"
   },
   {
    "key": "agenda-center:8d74ef2c399a",
@@ -552,7 +552,7 @@
    "doc": "agenda",
    "packet": true,
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-10"
+   "lastSeen": "2026-11-12"
   },
   {
    "key": "agenda-center:47b561550a4e",
@@ -574,7 +574,7 @@
    "date": "2026-08-10",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-10"
+   "lastSeen": "2026-11-12"
   },
   {
    "key": "agenda-center:b81e9b873f36",
@@ -585,7 +585,7 @@
    "date": "2026-08-10",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-10"
+   "lastSeen": "2026-11-12"
   },
   {
    "key": "agenda-center:3f19016f14f6",
@@ -597,7 +597,7 @@
    "doc": "agenda",
    "packet": true,
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-10"
+   "lastSeen": "2026-11-12"
   },
   {
    "key": "agenda-center:6276f15a712b",
@@ -608,7 +608,7 @@
    "date": "2026-08-10",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-10"
+   "lastSeen": "2026-11-12"
   },
   {
    "key": "agenda-center:604ed8ef1d14",
@@ -619,7 +619,7 @@
    "date": "2026-08-10",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-10"
+   "lastSeen": "2026-11-12"
   },
   {
    "key": "agenda-center:336e17ffd9f5",
@@ -631,7 +631,7 @@
    "doc": "agenda",
    "packet": true,
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-10"
+   "lastSeen": "2026-11-12"
   },
   {
    "key": "agenda-center:c40ec2ff16af",
@@ -653,7 +653,7 @@
    "date": "2026-08-06",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-10"
+   "lastSeen": "2026-11-12"
   },
   {
    "key": "agenda-center:97d80d187cf6",
@@ -664,7 +664,7 @@
    "date": "2026-08-06",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-10"
+   "lastSeen": "2026-11-12"
   },
   {
    "key": "agenda-center:1ef302d80730",
@@ -676,7 +676,7 @@
    "doc": "agenda",
    "packet": true,
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-10"
+   "lastSeen": "2026-11-12"
   },
   {
    "key": "agenda-center:d470731cc75a",
@@ -698,7 +698,7 @@
    "date": "2026-07-28",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-10"
+   "lastSeen": "2026-11-12"
   },
   {
    "key": "agenda-center:58e1fab05082",
@@ -709,7 +709,7 @@
    "date": "2026-07-28",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-10"
+   "lastSeen": "2026-11-12"
   },
   {
    "key": "agenda-center:d93a4b5d86d6",
@@ -721,7 +721,7 @@
    "doc": "agenda",
    "packet": true,
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-10"
+   "lastSeen": "2026-11-12"
   },
   {
    "key": "agenda-center:193fc513cb23",
@@ -732,7 +732,7 @@
    "date": "2026-07-21",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-10"
+   "lastSeen": "2026-11-12"
   },
   {
    "key": "agenda-center:f5b335e08a75",
@@ -743,7 +743,7 @@
    "date": "2026-07-21",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-10"
+   "lastSeen": "2026-11-12"
   },
   {
    "key": "agenda-center:4a9027efb04d",
@@ -765,7 +765,7 @@
    "date": "2026-07-21",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-10"
+   "lastSeen": "2026-11-12"
   },
   {
    "key": "agenda-center:1d547c5ca3d6",
@@ -776,7 +776,7 @@
    "date": "2026-07-21",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-10"
+   "lastSeen": "2026-11-12"
   },
   {
    "key": "agenda-center:5b9007d6ae30",
@@ -788,7 +788,7 @@
    "doc": "agenda",
    "packet": true,
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-10"
+   "lastSeen": "2026-11-12"
   },
   {
    "key": "agenda-center:312b067147c0",
