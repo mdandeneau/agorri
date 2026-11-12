@@ -1854,48 +1854,48 @@
  "paper": {
   "name": "The Conway Daily Sun",
   "url": "https://www.conwaydailysun.com/",
-  "asOf": "2026-11-09",
+  "asOf": "2026-11-12",
   "note": "Stories open on the paper's site. Dates are the paper's last-updated dates. Picked from the Local news section for Conway relevance.",
   "headlines": [
    {
-    "title": "Winners of the 2026 Best of the Mount Washington Valley contest",
-    "url": "https://www.conwaydailysun.com/news/local/winners-of-the-2026-best-of-the-mount-washington-valley-contest/article_72edb180-e35e-432c-b35f-4b5a7704beef.html",
-    "date": "2026-11-06"
+    "title": "Woodcock familiarizing himself with Register of Probate duties",
+    "url": "https://www.conwaydailysun.com/news/local/woodcock-familiarizing-himself-with-register-of-probate-duties/article_4963d01a-0be5-4924-9eba-8c00cde0d1f9.html",
+    "date": "2026-11-11"
    },
    {
-    "title": "Groundbreaking for police station addition on Monday",
-    "url": "https://www.conwaydailysun.com/news/local/groundbreaking-for-police-station-addition-on-monday/article_7003aa75-fc91-4298-abb8-4b8cadb9ddd7.html",
-    "date": "2026-11-06"
+    "title": "Local ski history celebrated with Schneider re-enactment",
+    "url": "https://www.conwaydailysun.com/news/local/local-ski-history-celebrated-with-schneider-re-enactment/article_1dd83d87-5901-41be-8f45-53ff3052adec.html",
+    "date": "2026-11-11"
+   },
+   {
+    "title": "Conway Lake group wants earlier drawdown to protect wildlife",
+    "url": "https://www.conwaydailysun.com/news/local/conway-lake-group-wants-earlier-drawdown-to-protect-wildlife/article_0aff5a69-933d-423c-8daf-57842ff1d114.html",
+    "date": "2026-11-09"
+   },
+   {
+    "title": "Upshot of school tax cap passage still up in air",
+    "url": "https://www.conwaydailysun.com/news/local/upshot-of-school-tax-cap-passage-still-up-in-air/article_c1997864-57a4-4ce6-a131-01701e3430da.html",
+    "date": "2026-11-09"
+   },
+   {
+    "title": "Recount confirms Randell wins District 8 race",
+    "url": "https://www.conwaydailysun.com/news/local/recount-confirms-randell-wins-district-8-race/article_98abc41c-0352-466e-bfb0-d5b2bc1db3ea.html",
+    "date": "2026-11-09"
+   },
+   {
+    "title": "Groundbreaking held for Conway police addition",
+    "url": "https://www.conwaydailysun.com/news/local/groundbreaking-held-for-conway-police-addition/article_10e1f000-0f33-421f-bf09-7aeb66029dff.html",
+    "date": "2026-11-09"
+   },
+   {
+    "title": "Winners of the 2026 Best of the Mount Washington Valley contest",
+    "url": "https://www.conwaydailysun.com/news/local/winners-of-the-2026-best-of-the-mount-washington-valley-contest/article_72edb180-e35e-432c-b35f-4b5a7704beef.html",
+    "date": "2026-11-09"
    },
    {
     "title": "Wild River Fire continues to burn",
     "url": "https://www.conwaydailysun.com/news/local/wild-river-fire-continues-to-burn/article_d491797e-5204-4ae2-a177-7636c25549a3.html",
     "date": "2026-11-06"
-   },
-   {
-    "title": "Hillside Ave. tradition continues with 7th chili cookoff",
-    "url": "https://www.conwaydailysun.com/news/local/hillside-ave-tradition-continues-with-7th-chili-cookoff/article_6df3faf7-8e45-4ec1-b0af-aa3663bbe9b2.html",
-    "date": "2026-11-06"
-   },
-   {
-    "title": "Local Democrats ride blue tsunami to victory",
-    "url": "https://www.conwaydailysun.com/news/local/local-democrats-ride-blue-tsunami-to-victory/article_f5f4dd55-4da7-4ba9-bab8-09703f1ce1fc.html",
-    "date": "2026-11-04"
-   },
-   {
-    "title": "In Carroll County, delegation balance hangs on 1 vote",
-    "url": "https://www.conwaydailysun.com/news/local/in-carroll-county-delegation-balance-hangs-on-1-vote/article_2e5cdf4c-9847-46d1-8450-69d81621bb2a.html",
-    "date": "2026-11-04"
-   },
-   {
-    "title": "Bucking Democratic blue wave, McConkey defeats Boudman",
-    "url": "https://www.conwaydailysun.com/news/local/bucking-democratic-blue-wave-mcconkey-defeats-boudman/article_9856d26e-2219-4243-bbca-e159de0d3c90.html",
-    "date": "2026-11-04"
-   },
-   {
-    "title": "Democratic blue wave at the polls in Conway",
-    "url": "https://www.conwaydailysun.com/news/local/democratic-blue-wave-at-the-polls-in-conway/article_70481505-96ab-428d-ac7e-1b3a3bb0db9d.html",
-    "date": "2026-11-04"
    }
   ]
  }

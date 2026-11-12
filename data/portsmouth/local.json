@@ -961,29 +961,8 @@
    "status": "not yet connected"
   }
  ],
- "events_as_of": "2026-11-11",
+ "events_as_of": "2026-11-12",
  "events": [
-  {
-   "date": "2026-11-11",
-   "time": "10:00 am to 2:00 pm",
-   "title": "Weave a Scarf in a Day Workshop (also Nov 14 and 21)",
-   "venue": "Strawbery Banke Museum",
-   "town": "Portsmouth",
-   "kind": "Workshop",
-   "url": "https://www.strawberybanke.org/events-collection/weave-a-scarf-in-a-day-workshop",
-   "source": "Strawbery Banke Museum"
-  },
-  {
-   "date": "2026-11-11",
-   "time": "11:00 am",
-   "title": "Veterans Day wreath-laying",
-   "venue": "Soldiers & Sailors Monument, Goodwin Park",
-   "town": "Portsmouth",
-   "kind": "Veterans",
-   "url": "https://www.portsmouthnh.gov/city/press-releases/city-portsmouth-nh-announces-veterans-day-observances",
-   "source": "City of Portsmouth",
-   "note": "Light meal afterward at the American Legion Post, 96 Islington St. Moves indoors to the Legion if it rains."
-  },
   {
    "date": "2026-11-12",
    "time": "5:30 pm",
@@ -1014,6 +993,16 @@
    "kind": "Comedy",
    "url": "https://patch.com/new-hampshire/portsmouth-nh/calendar/event/20261113/7ddfecb1-2318-4344-ad04-1bd490fd323e/comedy-legend-emo-philips-at-mccues-comedy-club",
    "source": "Patch calendar"
+  },
+  {
+   "date": "2026-11-14",
+   "time": "10:00 am to 2:00 pm",
+   "title": "Weave a Scarf in a Day Workshop (also Nov 21)",
+   "venue": "Strawbery Banke Museum",
+   "town": "Portsmouth",
+   "kind": "Workshop",
+   "url": "https://www.strawberybanke.org/events-collection/weave-a-scarf-in-a-day-workshop",
+   "source": "Strawbery Banke Museum"
   },
   {
    "date": "2026-11-14",
@@ -2421,9 +2410,14 @@
  "paper": {
   "name": "Portsmouth Patch",
   "url": "https://patch.com/new-hampshire/portsmouth-nh",
-  "asOf": "2026-11-11",
+  "asOf": "2026-11-12",
   "note": "The Portsmouth Herald is paywalled with no public feed, so these come from Patch.",
   "headlines": [
+   {
+    "title": "$1,000 Party Experience Giveaway: Open House Event On Nov. 18",
+    "url": "https://patch.com/new-hampshire/portsmouth-nh/1-000-party-experience-giveaway-open-house-event-nov-18",
+    "date": "2026-11-11"
+   },
    {
     "title": "Hantz Marconi Can Return To Practicing Law: Professional Conduct Committee",
     "url": "https://patch.com/new-hampshire/portsmouth-nh/hantz-marconi-can-return-practicing-law-professional-conduct-committee",
@@ -2458,11 +2452,6 @@
     "title": "Greater Seacoast Health Expands Community-Based Health Services",
     "url": "https://patch.com/new-hampshire/portsmouth-nh/greater-seacoast-health-expands-community-based-health-services",
     "date": "2026-11-04"
-   },
-   {
-    "title": "Warmington, Pappas, Shaheen Easily Win In Portsmouth: 2026 Midterm General Election Results",
-    "url": "https://patch.com/new-hampshire/portsmouth-nh/portsmouth-nh-2026-midterm-general-election-results",
-    "date": "2026-11-03"
    }
   ]
  }
