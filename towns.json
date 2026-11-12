@@ -169,6 +169,10 @@
    "stateName": "California",
    "kind": "City",
    "status": "live",
+   "paused": {
+    "since": "2026-11-12",
+    "note": "Agorri is focusing on the Seacoast and the Mount Washington Valley for now, so this page is not being updated. Dates, meetings and events may be out of date."
+   },
    "site": "https://www.sf.gov/",
    "files": {
     "record": "data/san-francisco/record.json",

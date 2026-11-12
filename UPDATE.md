@@ -1,6 +1,6 @@
 # Daily refresh runbook
 
-This is what the scheduled Agorri refresh does every morning, for every town with `"status": "live"` in `towns.json` except towns marked `"paused"` (Nashua, since Nov 1, 2026: its page stays up with a banner and is not refreshed). Today that means Portsmouth and the Mount Washington Valley. A person can follow it too.
+This is what the scheduled Agorri refresh does every morning, for every town with `"status": "live"` in `towns.json` except towns marked `"paused"` (Nashua since Nov 1, 2026, and San Francisco since Nov 12, 2026: their pages stay up with a banner and are not refreshed). Today that means Portsmouth and the Mount Washington Valley. A person can follow it too.
 
 All towns share one page (`index.html`). Only edit data in `data/<town>/`. Never edit `index.html` or `functions/` during a refresh.
 
@@ -65,7 +65,7 @@ Use the source lists further down for anything the inbox does not cover (events,
 
 ## Before pushing
 10. Run `node scripts/check.mjs --strict` (checks every live town; in strict mode a section that was not refreshed today is an ERROR, so every section moves together: record within 3 days, events and paper headlines daily, safety within 3 days, sports every team on the same date, local, business, parks, schools and market within a week). Fix every ERROR. Mention WARNs in the summary.
-10b. Run `node scripts/scan.mjs` (renders every page of every live town headless and fails on a JavaScript error, leaked code or placeholders, a link to a page that does not exist, Home disagreeing with a tab page, or "the city" on a town's page). Fix every PROBLEM. Both scripts also run in GitHub Actions on every push (`.github/workflows/check.yml`), so a refresh that pushes with a failure shows red there.
+10b. Run `node scripts/scan.mjs` (renders every page of every live town headless and fails on a JavaScript error, leaked code or placeholders, a link to a page that does not exist, Home disagreeing with a tab page, or "the city" on a town's page). Fix every PROBLEM. Both scripts also run in GitHub Actions on every push (`.github/workflows/check.yml`). CI runs check.mjs without --strict, so stale sections are warnings there and only broken data or pages turn it red.
 11. Commit to `main` as "Daily refresh YYYY-MM-DD: what changed" and push. Cloudflare redeploys in about a minute.
 12. End with a short summary per town: what was added, what was removed, anything marked needs_review, any source that failed.
 

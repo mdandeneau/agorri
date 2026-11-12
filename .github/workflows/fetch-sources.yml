@@ -29,7 +29,15 @@ jobs:
         with:
           node-version: 22
       - name: Install pdftotext
-        run: sudo apt-get update -qq && sudo apt-get install -y -qq poppler-utils
+        # Retries because the runner's package mirror sometimes fails to resolve; if it still fails, fetch anyway
+        # (fetch.mjs skips PDF text without pdftotext) rather than losing the whole day's fetch.
+        continue-on-error: true
+        run: |
+          for i in 1 2 3; do
+            sudo apt-get update -qq && sudo apt-get install -y -qq poppler-utils && exit 0
+            sleep 30
+          done
+          exit 1
       - name: Fetch sources
         env:
           INGEST_DEBUG: ${{ inputs.debug && '1' || '' }}
