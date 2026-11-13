@@ -1,31 +1,78 @@
 {
  "note": "Written by ingest/fetch.mjs. Each item: where it came from (source, url), the date in the document when known, firstSeen (the day the fetcher first saw it; new since the last refresh = firstSeen on or after that day) and text (the saved agenda or minutes text, when there is one). Facts for the site still come from reading the linked document.",
  "town": "north-hampton",
- "updated": "2026-11-12T15:59:14.003Z",
+ "updated": "2026-11-13T15:25:00.205Z",
  "sources": {
   "town-feeds": {
    "ok": true,
-   "found": 31,
-   "new": 7,
-   "checked": "2026-11-12T15:59:14.003Z",
-   "ms": 6035
+   "found": 0,
+   "new": 0,
+   "checked": "2026-11-13T15:25:00.205Z",
+   "ms": 6008
   },
   "agenda-center": {
    "ok": true,
    "found": 150,
    "new": 4,
-   "checked": "2026-11-12T15:59:14.003Z",
-   "ms": 13873
+   "checked": "2026-11-13T15:25:00.205Z",
+   "ms": 12259
   }
  },
  "notes": [
   "no text in https://www.northhampton-nh.gov/AgendaCenter/ViewFile/Agenda/_12072026-529 (scanned image?)",
   "no text in https://www.northhampton-nh.gov/AgendaCenter/ViewFile/Agenda/_11302026-528 (scanned image?)",
   "no text in https://www.northhampton-nh.gov/AgendaCenter/ViewFile/Agenda/_10192026-526 (scanned image?)",
-  "no text in https://www.northhampton-nh.gov/AgendaCenter/ViewFile/Agenda/_10202026-565 (scanned image?)",
-  "no text in https://www.northhampton-nh.gov/AgendaCenter/ViewFile/Minutes/_09152026-521 (scanned image?)"
+  "no text in https://www.northhampton-nh.gov/AgendaCenter/ViewFile/Agenda/_12032026-586 (scanned image?)",
+  "no text in https://www.northhampton-nh.gov/AgendaCenter/ViewFile/Agenda/_12012026-585 (scanned image?)",
+  "no text in https://www.northhampton-nh.gov/AgendaCenter/ViewFile/Agenda/_10202026-565 (scanned image?)"
  ],
  "items": [
+  {
+   "key": "agenda-center:713e5009edbb",
+   "source": "agenda-center",
+   "kind": "meeting-doc",
+   "title": "Agenda: Long Range Planning Committee Agenda",
+   "url": "https://www.northhampton-nh.gov/AgendaCenter/ViewFile/Agenda/_12032026-586",
+   "date": "2026-12-03",
+   "doc": "agenda",
+   "firstSeen": "2026-11-13",
+   "lastSeen": "2026-11-13"
+  },
+  {
+   "key": "agenda-center:0b6071e1e4ee",
+   "source": "agenda-center",
+   "kind": "meeting-doc",
+   "title": "Packet: Long Range Planning Committee Agenda",
+   "url": "https://www.northhampton-nh.gov/AgendaCenter/ViewFile/Agenda/_12032026-586?packet=true",
+   "date": "2026-12-03",
+   "doc": "agenda",
+   "packet": true,
+   "firstSeen": "2026-11-13",
+   "lastSeen": "2026-11-13"
+  },
+  {
+   "key": "agenda-center:963a8077e5a3",
+   "source": "agenda-center",
+   "kind": "meeting-doc",
+   "title": "Agenda: Planning Board Public Hearing",
+   "url": "https://www.northhampton-nh.gov/AgendaCenter/ViewFile/Agenda/_12012026-585",
+   "date": "2026-12-01",
+   "doc": "agenda",
+   "firstSeen": "2026-11-13",
+   "lastSeen": "2026-11-13"
+  },
+  {
+   "key": "agenda-center:da188246c2b6",
+   "source": "agenda-center",
+   "kind": "meeting-doc",
+   "title": "Minutes: Planning Board Long Range Planning Committee",
+   "url": "https://www.northhampton-nh.gov/AgendaCenter/ViewFile/Minutes/_10292026-544",
+   "date": "2026-10-29",
+   "doc": "minutes",
+   "firstSeen": "2026-11-13",
+   "lastSeen": "2026-11-13",
+   "text": "inbox/north-hampton/docs/da188246c2b6.txt"
+  },
   {
    "key": "agenda-center:2c5b77f1c3e9",
    "source": "agenda-center",
@@ -35,7 +82,7 @@
    "date": "2026-11-16",
    "doc": "agenda",
    "firstSeen": "2026-11-12",
-   "lastSeen": "2026-11-12",
+   "lastSeen": "2026-11-13",
    "text": "inbox/north-hampton/docs/2c5b77f1c3e9.txt"
   },
   {
@@ -119,7 +166,7 @@
    "date": "2026-11-04",
    "doc": "minutes",
    "firstSeen": "2026-11-12",
-   "lastSeen": "2026-11-12",
+   "lastSeen": "2026-11-13",
    "text": "inbox/north-hampton/docs/1d14f0fe078f.txt"
   },
   {
@@ -143,7 +190,7 @@
    "date": "2026-10-07",
    "doc": "minutes",
    "firstSeen": "2026-11-12",
-   "lastSeen": "2026-11-12",
+   "lastSeen": "2026-11-13",
    "text": "inbox/north-hampton/docs/e6518c15bd44.txt"
   },
   {
@@ -155,7 +202,7 @@
    "date": "2026-08-05",
    "doc": "minutes",
    "firstSeen": "2026-11-12",
-   "lastSeen": "2026-11-12"
+   "lastSeen": "2026-11-13"
   },
   {
    "key": "town-feeds:260e71b5896f",
@@ -190,7 +237,7 @@
    "date": "2026-11-03",
    "doc": "minutes",
    "firstSeen": "2026-11-09",
-   "lastSeen": "2026-11-12",
+   "lastSeen": "2026-11-13",
    "text": "inbox/north-hampton/docs/759c4ec59579.txt"
   },
   {
@@ -261,7 +308,7 @@
    "date": "2026-11-12",
    "doc": "agenda",
    "firstSeen": "2026-11-05",
-   "lastSeen": "2026-11-12",
+   "lastSeen": "2026-11-13",
    "text": "inbox/north-hampton/docs/a28e4bea6332.txt"
   },
   {
@@ -309,7 +356,7 @@
    "date": "2026-10-15",
    "doc": "minutes",
    "firstSeen": "2026-11-05",
-   "lastSeen": "2026-11-12",
+   "lastSeen": "2026-11-13",
    "text": "inbox/north-hampton/docs/74a1dc8372ed.txt"
   },
   {
@@ -321,7 +368,7 @@
    "date": "2026-09-24",
    "doc": "minutes",
    "firstSeen": "2026-11-05",
-   "lastSeen": "2026-11-12",
+   "lastSeen": "2026-11-13",
    "text": "inbox/north-hampton/docs/d6f278aac9ff.txt"
   },
   {
@@ -369,7 +416,7 @@
    "date": "2026-11-04",
    "doc": "agenda",
    "firstSeen": "2026-11-04",
-   "lastSeen": "2026-11-12",
+   "lastSeen": "2026-11-13",
    "text": "inbox/north-hampton/docs/dbb9784d4f5a.txt"
   },
   {
@@ -405,7 +452,7 @@
    "date": "2026-10-20",
    "doc": "agenda",
    "firstSeen": "2026-11-04",
-   "lastSeen": "2026-11-12"
+   "lastSeen": "2026-11-13"
   },
   {
    "key": "agenda-center:f255028bd194",
@@ -416,7 +463,7 @@
    "date": "2026-10-20",
    "doc": "minutes",
    "firstSeen": "2026-11-04",
-   "lastSeen": "2026-11-12",
+   "lastSeen": "2026-11-13",
    "text": "inbox/north-hampton/docs/f255028bd194.txt"
   },
   {
@@ -428,7 +475,7 @@
    "date": "2026-10-15",
    "doc": "agenda",
    "firstSeen": "2026-11-04",
-   "lastSeen": "2026-11-12",
+   "lastSeen": "2026-11-13",
    "text": "inbox/north-hampton/docs/2f1f913eece1.txt"
   },
   {
@@ -440,7 +487,7 @@
    "date": "2026-10-13",
    "doc": "agenda",
    "firstSeen": "2026-11-04",
-   "lastSeen": "2026-11-12",
+   "lastSeen": "2026-11-13",
    "text": "inbox/north-hampton/docs/ea5369b93f91.txt"
   },
   {
@@ -452,7 +499,7 @@
    "date": "2026-10-13",
    "doc": "minutes",
    "firstSeen": "2026-11-04",
-   "lastSeen": "2026-11-12",
+   "lastSeen": "2026-11-13",
    "text": "inbox/north-hampton/docs/3917f5316f2a.txt"
   },
   {
@@ -464,7 +511,7 @@
    "date": "2026-10-06",
    "doc": "agenda",
    "firstSeen": "2026-11-04",
-   "lastSeen": "2026-11-12",
+   "lastSeen": "2026-11-13",
    "text": "inbox/north-hampton/docs/184aceaa653a.txt"
   },
   {
@@ -476,7 +523,7 @@
    "date": "2026-10-06",
    "doc": "minutes",
    "firstSeen": "2026-11-04",
-   "lastSeen": "2026-11-12",
+   "lastSeen": "2026-11-13",
    "text": "inbox/north-hampton/docs/11a14af46f17.txt"
   },
   {
@@ -488,7 +535,7 @@
    "date": "2026-09-24",
    "doc": "agenda",
    "firstSeen": "2026-11-04",
-   "lastSeen": "2026-11-12",
+   "lastSeen": "2026-11-13",
    "text": "inbox/north-hampton/docs/61d0a0a59352.txt"
   },
   {
@@ -512,7 +559,7 @@
    "date": "2026-11-05",
    "doc": "agenda",
    "firstSeen": "2026-11-03",
-   "lastSeen": "2026-11-12",
+   "lastSeen": "2026-11-13",
    "text": "inbox/north-hampton/docs/8fce81b8d135.txt"
   },
   {
@@ -642,7 +689,7 @@
    "date": "2026-11-17",
    "doc": "agenda",
    "firstSeen": "2026-11-02",
-   "lastSeen": "2026-11-12",
+   "lastSeen": "2026-11-13",
    "text": "inbox/north-hampton/docs/69f37fb7e9a2.txt"
   },
   {
@@ -733,7 +780,7 @@
    "date": "2026-12-07",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-12"
+   "lastSeen": "2026-11-13"
   },
   {
    "key": "agenda-center:46d1398dbb65",
@@ -745,7 +792,7 @@
    "doc": "agenda",
    "packet": true,
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-12"
+   "lastSeen": "2026-11-13"
   },
   {
    "key": "agenda-center:6ef853b779ea",
@@ -766,7 +813,7 @@
    "date": "2026-11-30",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-12"
+   "lastSeen": "2026-11-13"
   },
   {
    "key": "agenda-center:6d2e659bf99b",
@@ -778,7 +825,7 @@
    "doc": "agenda",
    "packet": true,
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-12"
+   "lastSeen": "2026-11-13"
   },
   {
    "key": "agenda-center:00e8904112c3",
@@ -858,7 +905,7 @@
    "date": "2026-11-03",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-12",
+   "lastSeen": "2026-11-13",
    "text": "inbox/north-hampton/docs/a45329381f8e.txt"
   },
   {
@@ -906,7 +953,7 @@
    "date": "2026-10-29",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-12",
+   "lastSeen": "2026-11-13",
    "text": "inbox/north-hampton/docs/99cf405ec054.txt"
   },
   {
@@ -1143,7 +1190,7 @@
    "date": "2026-10-19",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-12"
+   "lastSeen": "2026-11-13"
   },
   {
    "key": "agenda-center:f1168afbd9ec",
@@ -1155,7 +1202,7 @@
    "doc": "agenda",
    "packet": true,
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-12"
+   "lastSeen": "2026-11-13"
   },
   {
    "key": "agenda-center:70c22fec116d",
@@ -1166,7 +1213,7 @@
    "date": "2026-10-07",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-12",
+   "lastSeen": "2026-11-13",
    "text": "inbox/north-hampton/docs/70c22fec116d.txt"
   },
   {
@@ -1178,7 +1225,7 @@
    "date": "2026-09-22",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-12",
+   "lastSeen": "2026-11-13",
    "text": "inbox/north-hampton/docs/fd4c51e658da.txt"
   },
   {
@@ -1190,7 +1237,7 @@
    "date": "2026-09-17",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-12",
+   "lastSeen": "2026-11-13",
    "text": "inbox/north-hampton/docs/350d80f72b6c.txt"
   },
   {
@@ -1202,7 +1249,7 @@
    "date": "2026-09-15",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-12",
+   "lastSeen": "2026-11-13",
    "text": "inbox/north-hampton/docs/cccc0586d182.txt"
   },
   {
@@ -1226,7 +1273,7 @@
    "date": "2026-09-10",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-12",
+   "lastSeen": "2026-11-13",
    "text": "inbox/north-hampton/docs/cc858dbe00b3.txt"
   },
   {
@@ -1250,7 +1297,7 @@
    "date": "2026-09-09",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-12",
+   "lastSeen": "2026-11-13",
    "text": "inbox/north-hampton/docs/9cc524d3bfce.txt"
   },
   {
@@ -1262,7 +1309,7 @@
    "date": "2026-09-09",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-12",
+   "lastSeen": "2026-11-13",
    "text": "inbox/north-hampton/docs/652464076591.txt"
   },
   {
@@ -1274,7 +1321,7 @@
    "date": "2026-09-04",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-12",
+   "lastSeen": "2026-11-13",
    "text": "inbox/north-hampton/docs/ebeaf775848d.txt"
   },
   {
@@ -1286,7 +1333,7 @@
    "date": "2026-09-01",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-12"
+   "lastSeen": "2026-11-13"
   },
   {
    "key": "agenda-center:5133f049e0ac",
@@ -1308,7 +1355,7 @@
    "date": "2026-08-27",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-12"
+   "lastSeen": "2026-11-13"
   },
   {
    "key": "agenda-center:80d127d7ff17",
@@ -1330,7 +1377,7 @@
    "date": "2026-08-18",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-12"
+   "lastSeen": "2026-11-13"
   },
   {
    "key": "agenda-center:04f39409facd",
@@ -1341,7 +1388,7 @@
    "date": "2026-08-18",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-12"
+   "lastSeen": "2026-11-13"
   },
   {
    "key": "agenda-center:e0960cfc3716",
@@ -1374,7 +1421,7 @@
    "date": "2026-08-13",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-12"
+   "lastSeen": "2026-11-13"
   },
   {
    "key": "agenda-center:fb6563033f60",
@@ -1385,7 +1432,7 @@
    "date": "2026-08-13",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-12"
+   "lastSeen": "2026-11-13"
   },
   {
    "key": "agenda-center:e764b624bb11",
@@ -1418,7 +1465,7 @@
    "date": "2026-08-05",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-12"
+   "lastSeen": "2026-11-13"
   },
   {
    "key": "agenda-center:c4a82449de63",
@@ -1429,7 +1476,7 @@
    "date": "2026-08-04",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-12"
+   "lastSeen": "2026-11-13"
   },
   {
    "key": "agenda-center:99a206c97a1f",
@@ -1440,7 +1487,7 @@
    "date": "2026-08-04",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-12"
+   "lastSeen": "2026-11-13"
   },
   {
    "key": "agenda-center:3b704505a4ac",
@@ -1485,7 +1532,7 @@
    "date": "2026-07-28",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-12"
+   "lastSeen": "2026-11-13"
   },
   {
    "key": "agenda-center:d72e798b16e7",
@@ -1496,7 +1543,7 @@
    "date": "2026-07-27",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-12"
+   "lastSeen": "2026-11-13"
   },
   {
    "key": "agenda-center:d9b1c6d6637d",
@@ -1507,7 +1554,7 @@
    "date": "2026-07-24",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-12"
+   "lastSeen": "2026-11-13"
   },
   {
    "key": "agenda-center:d8d6cc4b6fc5",
@@ -1518,7 +1565,7 @@
    "date": "2026-07-24",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-12"
+   "lastSeen": "2026-11-13"
   },
   {
    "key": "agenda-center:f031f60747b2",
@@ -1529,7 +1576,7 @@
    "date": "2026-07-23",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-12"
+   "lastSeen": "2026-11-13"
   },
   {
    "key": "agenda-center:b90601bb6829",
@@ -1540,7 +1587,7 @@
    "date": "2026-07-23",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-12"
+   "lastSeen": "2026-11-13"
   },
   {
    "key": "agenda-center:cac7c1d0910f",
@@ -1573,7 +1620,7 @@
    "date": "2026-07-17",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-12"
+   "lastSeen": "2026-11-13"
   },
   {
    "key": "agenda-center:700afdc1ff38",
@@ -1584,7 +1631,7 @@
    "date": "2026-07-17",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-12"
+   "lastSeen": "2026-11-13"
   },
   {
    "key": "agenda-center:ec2cb6d393d3",
