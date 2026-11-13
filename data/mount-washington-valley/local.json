@@ -471,17 +471,6 @@
     "label": "Town of Bartlett, Agenda Center",
     "url": "https://www.townofbartlett.nh.gov/agendacenter"
    }
-  },
-  {
-   "town": "Madison",
-   "date": "2026-10-12",
-   "kind": "Closure",
-   "title": "Madison Town Hall closed Oct 12; transfer station kept regular hours",
-   "detail": "Town Hall was closed all day Monday, Oct 12. The transfer station, 219 Boulder Road, is open Monday and Friday 7 am to noon and Saturday and Sunday 7 am to 4 pm, closed Christmas Day.",
-   "source": {
-    "label": "Town of Madison, Transfer Station",
-    "url": "https://www.madison-nh.org/departments/transfer-station/"
-   }
   }
  ],
  "links": [
@@ -836,16 +825,6 @@
  ],
  "events": [
   {
-   "date": "2026-11-12",
-   "time": "6:00 pm",
-   "title": "Pajama Story Time",
-   "venue": "Conway Public Library, 15 Greenwood Ave",
-   "town": "Conway",
-   "kind": "Family",
-   "url": "https://conwaypubliclibrary.org/childrens/events/290603/pajama-story-time",
-   "source": "Conway Public Library"
-  },
-  {
    "date": "2026-11-15",
    "time": "Projected",
    "title": "Black Mountain projected opening day for the 2026-27 ski season",
@@ -1012,7 +991,7 @@
    "note": "The page gives Saturday, Dec 12 and Sunday, Dec 13 but no year; those weekdays match 2026 and the 2025 tour (28th) was Dec 13 and 14, 2025. Tickets are sold through the tour; the inn's page lists only its package."
   }
  ],
- "events_as_of": "2026-11-08",
+ "events_as_of": "2026-11-13",
  "eventsNote": "Events from the Conway Public Library, Cranmore, Conway Scenic Railroad, the Town of Conway, Settlers Green (via the Visit NH calendar) and The Conway Daily Sun, as of Oct 30. The Mt. Washington Valley Chamber calendar loads by script and the North Conway Community Center schedule could not be opened, so their events are missing. Conway Scenic's Santa's Holiday Special page says it begins Nov 27 but gives no year, so it is not listed. Confirm with the organizer. Valley-wide: Conway, Bartlett, Jackson and Madison. From the Town of Bartlett, Town of Jackson and Town of Madison calendars and notices, Jackson XC, the Jackson Area Chamber, White Mountain Ski Co., the Inn at Ellis River and OnTheSnow, as of Oct 31. Ski opening dates are OnTheSnow projections, not resort announcements. Story Land's 2026 season ended Oct 25 with Happy Hauntings (visitwhitemountains.com), so it has no events in this window. Not covered: the Jackson Area Chamber November and December calendar pages, the Attitash events calendar, the Bartlett, Jackson and Madison library sites and the Bartlett and Madison recreation sites could not be opened. Weekly programs at the Old Jackson Library (yoga, mahjong, canasta) are listed in parks-add.json, not here.",
  "election": {
   "date": "2026-11-03",
@@ -1854,9 +1833,24 @@
  "paper": {
   "name": "The Conway Daily Sun",
   "url": "https://www.conwaydailysun.com/",
-  "asOf": "2026-11-12",
+  "asOf": "2026-11-13",
   "note": "Stories open on the paper's site. Dates are the paper's last-updated dates. Picked from the Local news section for Conway relevance.",
   "headlines": [
+   {
+    "title": "Fuller ad hoc committee survives vote to dissolve it",
+    "url": "https://www.conwaydailysun.com/news/local/fuller-ad-hoc-committee-survives-vote-to-dissolve-it/article_d1d81ed0-3baf-46c0-8d6f-bddffd21ec6b.html",
+    "date": "2026-11-12"
+   },
+   {
+    "title": "Greg Frizzell Community Food Drive returns to Vaughan Nov. 18",
+    "url": "https://www.conwaydailysun.com/news/local/greg-frizzell-community-food-drive-returns-to-vaughan-nov-18/article_d07a236f-a32c-459c-af07-7c2ed25f6fee.html",
+    "date": "2026-11-12"
+   },
+   {
+    "title": "Strong turnout on Schouler Park for Veterans Day ceremonies",
+    "url": "https://www.conwaydailysun.com/news/local/strong-turnout-on-schouler-park-for-veterans-day-ceremonies/article_234fe07d-b9b1-4ef5-bbe7-caaa0d252aba.html",
+    "date": "2026-11-12"
+   },
    {
     "title": "Woodcock familiarizing himself with Register of Probate duties",
     "url": "https://www.conwaydailysun.com/news/local/woodcock-familiarizing-himself-with-register-of-probate-duties/article_4963d01a-0be5-4924-9eba-8c00cde0d1f9.html",
@@ -1881,21 +1875,6 @@
     "title": "Recount confirms Randell wins District 8 race",
     "url": "https://www.conwaydailysun.com/news/local/recount-confirms-randell-wins-district-8-race/article_98abc41c-0352-466e-bfb0-d5b2bc1db3ea.html",
     "date": "2026-11-09"
-   },
-   {
-    "title": "Groundbreaking held for Conway police addition",
-    "url": "https://www.conwaydailysun.com/news/local/groundbreaking-held-for-conway-police-addition/article_10e1f000-0f33-421f-bf09-7aeb66029dff.html",
-    "date": "2026-11-09"
-   },
-   {
-    "title": "Winners of the 2026 Best of the Mount Washington Valley contest",
-    "url": "https://www.conwaydailysun.com/news/local/winners-of-the-2026-best-of-the-mount-washington-valley-contest/article_72edb180-e35e-432c-b35f-4b5a7704beef.html",
-    "date": "2026-11-09"
-   },
-   {
-    "title": "Wild River Fire continues to burn",
-    "url": "https://www.conwaydailysun.com/news/local/wild-river-fire-continues-to-burn/article_d491797e-5204-4ae2-a177-7636c25549a3.html",
-    "date": "2026-11-06"
    }
   ]
  }

@@ -198,6 +198,15 @@
    "text": "When Main Street Project work resumes in 2027, Conway should keep two-way traffic with flaggers instead of detouring traffic onto side streets.",
    "source": "https://conwaynh.gov/pages/town-engineer",
    "status": "draft"
+  },
+  {
+   "id": "2026-11-16-tamworth-transfer-station-recycling",
+   "date": "2026-11-16",
+   "town": "tamworth",
+   "issue": "transfer-station-recycling",
+   "text": "Tamworth should open a supervised swap shop at the Transfer Station in the old can shack.",
+   "source": "https://www.tamworthnh.gov/AgendaCenter/ViewFile/Minutes/_09142026-300",
+   "status": "draft"
   }
  ]
 }

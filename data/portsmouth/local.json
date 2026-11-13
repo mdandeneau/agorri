@@ -187,6 +187,17 @@
    }
   },
   {
+   "date": "2026-11-04",
+   "until": "2026-12-16",
+   "kind": "Volunteer",
+   "title": "Window Dressers program: homeowners can apply through December 16",
+   "detail": "The Portsmouth Energy Advisory Committee's Nov 4 draft minutes say the Window Dressers program is recruiting homes and volunteers for window inserts, and the deadline for homeowners to apply is December 16. The committee shared an infographic now running in the City Newsletter and on social media.",
+   "source": {
+    "label": "City of Portsmouth, Energy Advisory Committee draft minutes, Nov 4",
+    "url": "https://files.portsmouthnh.gov/minutes/2026/PEAC/PEAC%20Meeting%20Draft%20Minutes%20November%204,%202026.pdf"
+   }
+  },
+  {
    "date": "2026-11-03",
    "kind": "Election",
    "title": "Election Day: polls open 8 am to 7 pm; Ward 4 votes at Portsmouth High School",
@@ -304,16 +315,6 @@
    "source": {
     "label": "City of Portsmouth DPW, Oct 16",
     "url": "https://www.portsmouthnh.gov/publicworks/water/news/dpw-releases-q3-2026-drinking-water-supply-updates-portsmouth-and-pease"
-   }
-  },
-  {
-   "date": "2026-10-13",
-   "kind": "Trash",
-   "title": "Leaves and yard waste: curbside collection and free drop-off at the Recycling Center",
-   "detail": "The city asks residents to keep leaves and clippings out of storm drains and waterways.",
-   "source": {
-    "label": "City of Portsmouth, Oct 13",
-    "url": "https://www.portsmouthnh.gov/city/press-releases/falling-leaves-cleaner-water-yard-waste-guidance"
    }
   }
  ],
@@ -961,29 +962,8 @@
    "status": "not yet connected"
   }
  ],
- "events_as_of": "2026-11-12",
+ "events_as_of": "2026-11-13",
  "events": [
-  {
-   "date": "2026-11-12",
-   "time": "5:30 pm",
-   "title": "The Enduring Legacy of Wentworth Cheswill",
-   "venue": "Portsmouth Historical Society, 10 Middle St",
-   "town": "Portsmouth",
-   "kind": "Talk",
-   "url": "https://www.strawberybanke.org/events/",
-   "source": "Strawbery Banke",
-   "price": "$15 members, $20 nonmembers"
-  },
-  {
-   "date": "2026-11-12",
-   "time": "6:00 pm",
-   "title": "Understanding Artificial Intelligence",
-   "venue": "Portsmouth Public Library, 175 Parrott Ave",
-   "town": "Portsmouth",
-   "kind": "Library",
-   "url": "https://portsmouthpl.librarycalendar.com/event/understand-ai",
-   "source": "Library calendar"
-  },
   {
    "date": "2026-11-13",
    "time": "8:00 pm",
@@ -2410,9 +2390,14 @@
  "paper": {
   "name": "Portsmouth Patch",
   "url": "https://patch.com/new-hampshire/portsmouth-nh",
-  "asOf": "2026-11-12",
+  "asOf": "2026-11-13",
   "note": "The Portsmouth Herald is paywalled with no public feed, so these come from Patch.",
   "headlines": [
+   {
+    "title": "League Of N.H. Craftsmen Presents Handmade In The Harbor Nov. 14 And Nov. 15",
+    "url": "https://patch.com/new-hampshire/portsmouth-nh/league-n-h-craftsmen-presents-handmade-harbor-nov-14-nov-15",
+    "date": "2026-11-12"
+   },
    {
     "title": "$1,000 Party Experience Giveaway: Open House Event On Nov. 18",
     "url": "https://patch.com/new-hampshire/portsmouth-nh/1-000-party-experience-giveaway-open-house-event-nov-18",
@@ -2447,11 +2432,6 @@
     "title": "Farley Of Colliers Facilitates $2.7 Million Sale Of The Local Wash In Hampton",
     "url": "https://patch.com/new-hampshire/portsmouth-nh/farley-colliers-facilitates-2-7-million-sale-local-wash-hampton",
     "date": "2026-11-05"
-   },
-   {
-    "title": "Greater Seacoast Health Expands Community-Based Health Services",
-    "url": "https://patch.com/new-hampshire/portsmouth-nh/greater-seacoast-health-expands-community-based-health-services",
-    "date": "2026-11-04"
    }
   ]
  }
