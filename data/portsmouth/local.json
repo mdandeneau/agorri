@@ -962,18 +962,8 @@
    "status": "not yet connected"
   }
  ],
- "events_as_of": "2026-11-13",
+ "events_as_of": "2026-11-14",
  "events": [
-  {
-   "date": "2026-11-13",
-   "time": "8:00 pm",
-   "title": "Emo Philips",
-   "venue": "McCues Comedy Club, 580 Portsmouth Traffic Circle",
-   "town": "Portsmouth",
-   "kind": "Comedy",
-   "url": "https://patch.com/new-hampshire/portsmouth-nh/calendar/event/20261113/7ddfecb1-2318-4344-ad04-1bd490fd323e/comedy-legend-emo-philips-at-mccues-comedy-club",
-   "source": "Patch calendar"
-  },
   {
    "date": "2026-11-14",
    "time": "10:00 am to 2:00 pm",
@@ -2390,9 +2380,14 @@
  "paper": {
   "name": "Portsmouth Patch",
   "url": "https://patch.com/new-hampshire/portsmouth-nh",
-  "asOf": "2026-11-13",
+  "asOf": "2026-11-14",
   "note": "The Portsmouth Herald is paywalled with no public feed, so these come from Patch.",
   "headlines": [
+   {
+    "title": "Portsmouth Public Library: Hobbit Calligraphy On Nov. 19",
+    "url": "https://patch.com/new-hampshire/portsmouth-nh/portsmouth-public-library-hobbit-calligraphy-nov-19",
+    "date": "2026-11-13"
+   },
    {
     "title": "League Of N.H. Craftsmen Presents Handmade In The Harbor Nov. 14 And Nov. 15",
     "url": "https://patch.com/new-hampshire/portsmouth-nh/league-n-h-craftsmen-presents-handmade-harbor-nov-14-nov-15",
@@ -2427,11 +2422,6 @@
     "title": "City Of Portsmouth: Veterans Day Observances",
     "url": "https://patch.com/new-hampshire/portsmouth-nh/city-portsmouth-veterans-day-observances-0",
     "date": "2026-11-06"
-   },
-   {
-    "title": "Farley Of Colliers Facilitates $2.7 Million Sale Of The Local Wash In Hampton",
-    "url": "https://patch.com/new-hampshire/portsmouth-nh/farley-colliers-facilitates-2-7-million-sale-local-wash-hampton",
-    "date": "2026-11-05"
    }
   ]
  }

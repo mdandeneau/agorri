@@ -1,7 +1,7 @@
 {
  "about": {
   "town": "Portsmouth, NH",
-  "as_of": "2026-11-07",
+  "as_of": "2026-11-14",
   "records_from": "2025-10-28",
   "documents_used": 593,
   "note": "Plain-English summaries written by AI from official city PDFs; every meeting carries its source URL. Items with needs_review=true are where the official record is ambiguous or self-contradictory."
@@ -20,10 +20,6 @@
    {
     "item": "First reading of a new Sewer Use Ordinance replacing the current one",
     "from": "2026-10-26"
-   },
-   {
-    "item": "Joint Capital Improvement Plan (CIP) work session with the Planning Board comes first, Thursday, Nov 12 at 6 pm",
-    "from": "2026-10-30"
    }
   ]
  },
@@ -8518,6 +8514,161 @@
   }
  ],
  "board_meetings": [
+  {
+   "body": "Zoning Board of Adjustment",
+   "date": "2026-11-24",
+   "record_url": "https://files.portsmouthnh.gov/agendas/2026/Zoning%20Board%20of%20Adjustment/11-17-2026%20Meeting/11-17-2026%20BOA%20AG..pdf",
+   "record_type": "agenda only",
+   "headline": "Agenda only: cases moved from November 17, including outdoor lumber storage at 103 Bartlett Street, a second house at 197 Richards Avenue and splitting 635 Lincoln Avenue into two lots; 350 Hanover Street is set to be postponed to December.",
+   "items": [
+    {
+     "address": "103 Bartlett St",
+     "applicant": "Portsmouth Lumber and Hardware LLC (owner)",
+     "request": "Wants outdoor storage of lumber and building supplies as the main use of the lot, and a fence in the front yard. Needs variances (permission to break specific zoning rules for this one property): outdoor storage where it is not allowed as a main use, and a fence over 4 feet tall in the front yard.",
+     "decision": null,
+     "vote": null,
+     "conditions": [],
+     "topic": "Downtown & business",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "address": "197 Richards Ave",
+     "applicant": "The Edwin B. Christly Revocable Trust (owner); Brian Zaneski (applicant)",
+     "request": "Wants to renovate, enlarge and convert a three-family home into a single-family home and build a second single-family home on the lot. Needs variances (permission to break specific zoning rules for this one property): 5,162 square feet of lot area per home where 7,500 is required, a 3.5-foot left side yard where 10 feet is required, and a second free-standing home where only one is allowed.",
+     "decision": null,
+     "vote": null,
+     "conditions": [],
+     "topic": "Housing & zoning",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "address": "175 Middle Rd",
+     "applicant": "John Michael Jr. and Natalie Murphy (owners)",
+     "request": "Wants to rebuild a landing and fill in and reconfigure part of the rear deck. Needs a variance (permission to break a zoning rule for this one property) to allow 37% building coverage where 20% is the maximum.",
+     "decision": null,
+     "vote": null,
+     "conditions": [],
+     "topic": "Housing & zoning",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "address": "19 Coakley Rd",
+     "applicant": "Adam Ryan and Katherine Kaplan (owners)",
+     "request": "Wants to enclose a carport as living space. Needs a variance (permission to break a zoning rule for this one property) to allow a 12.5-foot rear yard where 30 feet is required.",
+     "decision": null,
+     "vote": null,
+     "conditions": [],
+     "topic": "Housing & zoning",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "address": "350 Hanover St",
+     "applicant": "350 Hanover Street Portsmouth LLC (owner)",
+     "request": "Wants to tear down a rear addition, build a garage addition and renovate the building. Needs variances (permission to break specific zoning rules for this one property): 65% building coverage where 60% is allowed, and enlarging a nonconforming building. The agenda marks this case to be postponed to December.",
+     "decision": null,
+     "vote": null,
+     "conditions": [],
+     "topic": "Housing & zoning",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "address": "635 Lincoln Ave",
+     "applicant": "Shiembob E & B Family Living Trust (owner)",
+     "request": "Wants to tear down the garage and split the property into two lots. Needs variances (permission to break specific zoning rules for this one property): 7,046 square feet of lot area for Lot B where 7,500 is required, 63 and 39 feet of street frontage where 100 feet is required, and a 5-foot left side yard for the existing house where 10 feet is required.",
+     "decision": null,
+     "vote": null,
+     "conditions": [],
+     "topic": "Housing & zoning",
+     "needs_review": false,
+     "review_note": null
+    }
+   ],
+   "policy_items": []
+  },
+  {
+   "body": "Zoning Board of Adjustment",
+   "date": "2026-11-17",
+   "record_url": "https://files.portsmouthnh.gov/agendas/2026/Zoning%20Board%20of%20Adjustment/11-17-2026%20Meeting/11-17-2026%20BOA%20AG..pdf",
+   "record_type": "agenda only",
+   "headline": "Agenda only: the board is scheduled to take up a rear addition at 50 Whidden Street, Colbea's sign request at 1980 Woodbury Avenue, a rehearing request for 28 Blossom Street and three porch and deck cases; six more cases were moved to November 24.",
+   "items": [
+    {
+     "address": "50 Whidden St",
+     "applicant": "Christopher H. Daniell (owner)",
+     "request": "Wants a rear addition and a cantilevered deck. Needs a variance (permission to break a zoning rule for this one property) to allow a 9.5-foot rear yard where 25 feet is required. Carried over from an earlier meeting.",
+     "decision": null,
+     "vote": null,
+     "conditions": [],
+     "topic": "Housing & zoning",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "address": "1980 Woodbury Ave",
+     "applicant": "Colbea Enterprises LLC (owner)",
+     "request": "Wants larger and lit signs. Needs variances (permission to break specific zoning rules for this one property): total sign area above the limit of 1.5 square feet per foot of building frontage, lit light bars as a canopy sign background, and canopy signs of 460.74 and 192.90 square feet where 20 square feet is the maximum. Carried over from an earlier meeting.",
+     "decision": null,
+     "vote": null,
+     "conditions": [],
+     "topic": "Downtown & business",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "address": "28 Blossom St",
+     "applicant": "Kathleen B. and Kent A. Logan, Susan E. Lassen, Scott A. Lupkas, and Guy D. and Elizabeth R. Spiers (appellants)",
+     "request": "Request for a rehearing (asking the board to reconsider) of their appeal of the city's decision to classify an art studio attached to the third dwelling unit as a non-transient sleeping unit under the building code.",
+     "decision": null,
+     "vote": null,
+     "conditions": [],
+     "topic": "Housing & zoning",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "address": "27 Thaxter Rd",
+     "applicant": "Carilyn J. Kussmaul Revocable Trust of 2021 (owner)",
+     "request": "Wants to tear down and rebuild the front porch. Needs a variance (permission to break a zoning rule for this one property) to allow a 14.5-foot front yard where 30 feet is required.",
+     "decision": null,
+     "vote": null,
+     "conditions": [],
+     "topic": "Housing & zoning",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "address": "310 Dennett St",
+     "applicant": "Andrew Super (owner)",
+     "request": "Wants to rebuild a deck. Needs variances (permission to break specific zoning rules for this one property): a 5.5-foot right side yard where 10 feet is required and 39% building coverage where 25% is allowed.",
+     "decision": null,
+     "vote": null,
+     "conditions": [],
+     "topic": "Housing & zoning",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "address": "125 Echo Ave",
+     "applicant": "Arundo Group Grantor Trust (owner)",
+     "request": "Wants to remove and replace the front porch. Needs a variance (permission to break a zoning rule for this one property) to allow a 20.5-foot front yard where 30 feet is required.",
+     "decision": null,
+     "vote": null,
+     "conditions": [],
+     "topic": "Housing & zoning",
+     "needs_review": false,
+     "review_note": null
+    }
+   ],
+   "policy_items": [
+    "Recommendation to change the zoning on the ABC buildings to either MRO or MRB",
+    "Consideration to eliminate review by the ZBA over Pease properties"
+   ]
+  },
   {
    "body": "Historic District Commission",
    "date": "2026-11-04",
