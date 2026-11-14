@@ -1,14 +1,14 @@
 {
  "note": "Written by ingest/fetch.mjs. Each item: where it came from (source, url), the date in the document when known, firstSeen (the day the fetcher first saw it; new since the last refresh = firstSeen on or after that day) and text (the saved agenda or minutes text, when there is one). Facts for the site still come from reading the linked document.",
  "town": "jackson",
- "updated": "2026-11-13T15:25:00.205Z",
+ "updated": "2026-11-14T14:10:11.317Z",
  "sources": {
   "feed": {
    "ok": true,
    "found": 10,
    "new": 0,
-   "checked": "2026-11-13T15:25:00.205Z",
-   "ms": 799
+   "checked": "2026-11-14T14:10:11.317Z",
+   "ms": 1077
   }
  },
  "notes": [],
@@ -22,7 +22,7 @@
    "date": "2026-10-13",
    "detail": "Coming right up! Community Planning Forum for the Jackson School District Strategic Plan! The Jackson School District’s current strategic plan will guide us until 2027, and we are now working […]",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-13"
+   "lastSeen": "2026-11-14"
   },
   {
    "key": "feed:cb72a5971c7e",
@@ -33,7 +33,7 @@
    "date": "2026-10-05",
    "detail": "October 5th October 7, 8 , & 9 – Town Clerk Conference October 12th– Holiday October 16th The Clerk’s Office encourages residents to renew their vehicle registrations and allow […]",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-13"
+   "lastSeen": "2026-11-14"
   },
   {
    "key": "feed:6aab2f2d8b86",
@@ -44,7 +44,7 @@
    "date": "2026-10-01",
    "detail": "Town of Jackson 54 Main Street Jackson, NH 03846 Jackson Planning Board The Jackson Planning Board is developing the 2026 Master Plan. This plan will guide the Town’s future over […]",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-13"
+   "lastSeen": "2026-11-14"
   },
   {
    "key": "feed:ab32280edd9f",
@@ -55,7 +55,7 @@
    "date": "2026-08-31",
    "detail": "Please note – Town Clerk’s Office will be open 3:00pm – 5:00pm for Absentee Ballot needs ONLY on Monday September 7th",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-13"
+   "lastSeen": "2026-11-14"
   },
   {
    "key": "feed:a8cca67a4fdd",
@@ -66,7 +66,7 @@
    "date": "2026-08-31",
    "detail": "Town Clerk’s Office Closed – Monday September 7th – Labor Day Please note – Town Clerk’s Office will be open 3:00pm – 5:00pm for Absentee Ballot needs ONLY on Monday […]",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-13"
+   "lastSeen": "2026-11-14"
   },
   {
    "key": "feed:81c3cd973152",
@@ -77,7 +77,7 @@
    "date": "2026-08-12",
    "detail": "The Supervisors of the Checklist for the Town of Jackson will hold a session to: process applications for new voter registration process corrections of the checklist Date: August 31st, 2026 […]",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-13"
+   "lastSeen": "2026-11-14"
   },
   {
    "key": "feed:fd7d0e7ef76a",
@@ -87,7 +87,7 @@
    "url": "https://www.jackson-nh.gov/news-and-alerts/selectmens-office-will-be-closed-august-13th-14th/",
    "date": "2026-08-12",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-13"
+   "lastSeen": "2026-11-14"
   },
   {
    "key": "feed:ea80f96fa3d4",

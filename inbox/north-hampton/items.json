@@ -1,21 +1,21 @@
 {
  "note": "Written by ingest/fetch.mjs. Each item: where it came from (source, url), the date in the document when known, firstSeen (the day the fetcher first saw it; new since the last refresh = firstSeen on or after that day) and text (the saved agenda or minutes text, when there is one). Facts for the site still come from reading the linked document.",
  "town": "north-hampton",
- "updated": "2026-11-13T15:25:00.205Z",
+ "updated": "2026-11-14T14:10:11.317Z",
  "sources": {
   "town-feeds": {
    "ok": true,
-   "found": 0,
-   "new": 0,
-   "checked": "2026-11-13T15:25:00.205Z",
-   "ms": 6008
+   "found": 32,
+   "new": 4,
+   "checked": "2026-11-14T14:10:11.317Z",
+   "ms": 6017
   },
   "agenda-center": {
    "ok": true,
    "found": 150,
-   "new": 4,
-   "checked": "2026-11-13T15:25:00.205Z",
-   "ms": 12259
+   "new": 1,
+   "checked": "2026-11-14T14:10:11.317Z",
+   "ms": 10977
   }
  },
  "notes": [
@@ -28,6 +28,66 @@
  ],
  "items": [
   {
+   "key": "agenda-center:09fadcb6b671",
+   "source": "agenda-center",
+   "kind": "meeting-doc",
+   "title": "Packet: Planning Board Public Hearing",
+   "url": "https://www.northhampton-nh.gov/AgendaCenter/ViewFile/Agenda/_11172026-561?packet=true",
+   "date": "2026-11-17",
+   "doc": "agenda",
+   "packet": true,
+   "firstSeen": "2026-11-14",
+   "lastSeen": "2026-11-14"
+  },
+  {
+   "key": "town-feeds:d5fd972c2f5f",
+   "source": "town-feeds",
+   "kind": "notice",
+   "feed": "agenda",
+   "title": "Little Boars Head Commissioners Meeting Agenda",
+   "url": "https://www.northhampton-nh.gov/AgendaCenter/PreviousVersions/587",
+   "date": "2026-11-13",
+   "detail": "Little Boars Head Commissioners Meeting Agenda",
+   "firstSeen": "2026-11-14",
+   "lastSeen": "2026-11-14"
+  },
+  {
+   "key": "town-feeds:b7840418bdb9",
+   "source": "town-feeds",
+   "kind": "notice",
+   "feed": "agenda",
+   "title": "Long Range Planning Committee Agenda",
+   "url": "https://www.northhampton-nh.gov/AgendaCenter/PreviousVersions/586",
+   "date": "2026-11-13",
+   "detail": "Long Range Planning Committee Agenda",
+   "firstSeen": "2026-11-14",
+   "lastSeen": "2026-11-14"
+  },
+  {
+   "key": "town-feeds:e010fb368117",
+   "source": "town-feeds",
+   "kind": "notice",
+   "feed": "agenda",
+   "title": "Planning Board Public Hearing",
+   "url": "https://www.northhampton-nh.gov/AgendaCenter/PreviousVersions/585",
+   "date": "2026-11-13",
+   "detail": "Planning Board Public Hearing",
+   "firstSeen": "2026-11-14",
+   "lastSeen": "2026-11-14"
+  },
+  {
+   "key": "town-feeds:07955865dc3f",
+   "source": "town-feeds",
+   "kind": "notice",
+   "feed": "calendar",
+   "title": "Select Board Notice of Quorum",
+   "url": "https://www.northhampton-nh.gov/Calendar.aspx?EID=1056",
+   "date": "2026-11-13",
+   "detail": "Event date: November 16, 2026 Event Time: 06:30 PM - 11:59 PM Location: North Hampton, NH 03862",
+   "firstSeen": "2026-11-14",
+   "lastSeen": "2026-11-14"
+  },
+  {
    "key": "agenda-center:713e5009edbb",
    "source": "agenda-center",
    "kind": "meeting-doc",
@@ -36,7 +96,7 @@
    "date": "2026-12-03",
    "doc": "agenda",
    "firstSeen": "2026-11-13",
-   "lastSeen": "2026-11-13"
+   "lastSeen": "2026-11-14"
   },
   {
    "key": "agenda-center:0b6071e1e4ee",
@@ -48,7 +108,7 @@
    "doc": "agenda",
    "packet": true,
    "firstSeen": "2026-11-13",
-   "lastSeen": "2026-11-13"
+   "lastSeen": "2026-11-14"
   },
   {
    "key": "agenda-center:963a8077e5a3",
@@ -59,7 +119,7 @@
    "date": "2026-12-01",
    "doc": "agenda",
    "firstSeen": "2026-11-13",
-   "lastSeen": "2026-11-13"
+   "lastSeen": "2026-11-14"
   },
   {
    "key": "agenda-center:da188246c2b6",
@@ -70,7 +130,7 @@
    "date": "2026-10-29",
    "doc": "minutes",
    "firstSeen": "2026-11-13",
-   "lastSeen": "2026-11-13",
+   "lastSeen": "2026-11-14",
    "text": "inbox/north-hampton/docs/da188246c2b6.txt"
   },
   {
@@ -82,7 +142,7 @@
    "date": "2026-11-16",
    "doc": "agenda",
    "firstSeen": "2026-11-12",
-   "lastSeen": "2026-11-13",
+   "lastSeen": "2026-11-14",
    "text": "inbox/north-hampton/docs/2c5b77f1c3e9.txt"
   },
   {
@@ -95,7 +155,7 @@
    "date": "2026-11-12",
    "detail": "Recreation Commission Meeting Agenda Update: Minutes added or updated",
    "firstSeen": "2026-11-12",
-   "lastSeen": "2026-11-12"
+   "lastSeen": "2026-11-14"
   },
   {
    "key": "town-feeds:e0333071efae",
@@ -107,7 +167,7 @@
    "date": "2026-11-12",
    "detail": "Recreation Commission Meeting Agenda Update: Minutes added or updated",
    "firstSeen": "2026-11-12",
-   "lastSeen": "2026-11-12"
+   "lastSeen": "2026-11-14"
   },
   {
    "key": "town-feeds:62029e34e8ed",
@@ -119,7 +179,7 @@
    "date": "2026-11-12",
    "detail": "Recreation Commission Meeting Agenda Update: Minutes added or updated",
    "firstSeen": "2026-11-12",
-   "lastSeen": "2026-11-12"
+   "lastSeen": "2026-11-14"
   },
   {
    "key": "town-feeds:e45f6fdc49af",
@@ -131,7 +191,7 @@
    "date": "2026-11-12",
    "detail": "Budget Committee Agenda",
    "firstSeen": "2026-11-12",
-   "lastSeen": "2026-11-12"
+   "lastSeen": "2026-11-14"
   },
   {
    "key": "town-feeds:fa03c74c38bc",
@@ -143,7 +203,7 @@
    "date": "2026-11-12",
    "detail": "Select Board Notice of Quorum",
    "firstSeen": "2026-11-12",
-   "lastSeen": "2026-11-12"
+   "lastSeen": "2026-11-14"
   },
   {
    "key": "town-feeds:017a10ae336f",
@@ -155,7 +215,7 @@
    "date": "2026-11-12",
    "detail": "Event date: November 19, 2026 Event Time: 09:30 AM - 11:59 PM Location: 237A Atlantic Ave North Hampton, NH 03862",
    "firstSeen": "2026-11-12",
-   "lastSeen": "2026-11-12"
+   "lastSeen": "2026-11-14"
   },
   {
    "key": "agenda-center:1d14f0fe078f",
@@ -166,7 +226,7 @@
    "date": "2026-11-04",
    "doc": "minutes",
    "firstSeen": "2026-11-12",
-   "lastSeen": "2026-11-13",
+   "lastSeen": "2026-11-14",
    "text": "inbox/north-hampton/docs/1d14f0fe078f.txt"
   },
   {
@@ -179,7 +239,7 @@
    "date": "2026-10-27",
    "detail": "Event dates: November 26, 2026 - November 27, 2026 Event Time: 07:00 AM - 12:00 PM Location: North Hampton, NH 03862",
    "firstSeen": "2026-11-12",
-   "lastSeen": "2026-11-12"
+   "lastSeen": "2026-11-14"
   },
   {
    "key": "agenda-center:e6518c15bd44",
@@ -190,7 +250,7 @@
    "date": "2026-10-07",
    "doc": "minutes",
    "firstSeen": "2026-11-12",
-   "lastSeen": "2026-11-13",
+   "lastSeen": "2026-11-14",
    "text": "inbox/north-hampton/docs/e6518c15bd44.txt"
   },
   {
@@ -202,7 +262,7 @@
    "date": "2026-08-05",
    "doc": "minutes",
    "firstSeen": "2026-11-12",
-   "lastSeen": "2026-11-13"
+   "lastSeen": "2026-11-14"
   },
   {
    "key": "town-feeds:260e71b5896f",
@@ -214,7 +274,7 @@
    "date": "2026-11-08",
    "detail": "LBH Planning Board Zoning Ordinance Working Group — Work Session Agenda",
    "firstSeen": "2026-11-09",
-   "lastSeen": "2026-11-12"
+   "lastSeen": "2026-11-14"
   },
   {
    "key": "town-feeds:0444f98016cd",
@@ -237,7 +297,7 @@
    "date": "2026-11-03",
    "doc": "minutes",
    "firstSeen": "2026-11-09",
-   "lastSeen": "2026-11-13",
+   "lastSeen": "2026-11-14",
    "text": "inbox/north-hampton/docs/759c4ec59579.txt"
   },
   {
@@ -285,7 +345,7 @@
    "date": "2026-11-12",
    "detail": "Select Board Meeting Agenda Update: Minutes added or updated",
    "firstSeen": "2026-11-06",
-   "lastSeen": "2026-11-12"
+   "lastSeen": "2026-11-14"
   },
   {
    "key": "town-feeds:3fe17861f6aa",
@@ -308,7 +368,7 @@
    "date": "2026-11-12",
    "doc": "agenda",
    "firstSeen": "2026-11-05",
-   "lastSeen": "2026-11-13",
+   "lastSeen": "2026-11-14",
    "text": "inbox/north-hampton/docs/a28e4bea6332.txt"
   },
   {
@@ -321,7 +381,7 @@
    "date": "2026-11-04",
    "detail": "ZBA Public Hearing",
    "firstSeen": "2026-11-05",
-   "lastSeen": "2026-11-12"
+   "lastSeen": "2026-11-14"
   },
   {
    "key": "town-feeds:95c442d1ee63",
@@ -333,7 +393,7 @@
    "date": "2026-11-04",
    "detail": "Long Range Planning Committee Agenda",
    "firstSeen": "2026-11-05",
-   "lastSeen": "2026-11-12"
+   "lastSeen": "2026-11-14"
   },
   {
    "key": "town-feeds:e03ffb3e3c15",
@@ -356,7 +416,7 @@
    "date": "2026-10-15",
    "doc": "minutes",
    "firstSeen": "2026-11-05",
-   "lastSeen": "2026-11-13",
+   "lastSeen": "2026-11-14",
    "text": "inbox/north-hampton/docs/74a1dc8372ed.txt"
   },
   {
@@ -393,7 +453,7 @@
    "date": "2026-11-12",
    "detail": "Recreation Commission Meeting Agenda Update: Minutes added or updated",
    "firstSeen": "2026-11-04",
-   "lastSeen": "2026-11-12"
+   "lastSeen": "2026-11-14"
   },
   {
    "key": "town-feeds:ddef7cb5e873",
@@ -416,7 +476,7 @@
    "date": "2026-11-04",
    "doc": "agenda",
    "firstSeen": "2026-11-04",
-   "lastSeen": "2026-11-13",
+   "lastSeen": "2026-11-14",
    "text": "inbox/north-hampton/docs/dbb9784d4f5a.txt"
   },
   {
@@ -429,7 +489,7 @@
    "date": "2026-11-04",
    "detail": "Planning Board Long Range Planning Committee Meeting Update: Minutes added or updated",
    "firstSeen": "2026-11-04",
-   "lastSeen": "2026-11-12"
+   "lastSeen": "2026-11-14"
   },
   {
    "key": "town-feeds:45eba36cd55b",
@@ -441,7 +501,7 @@
    "date": "2026-11-02",
    "detail": "Event date: November 18, 2026 Event Time: 07:00 PM - 11:59 PM Location: 231 Atlantic Avenue North Hampton, NH 03862",
    "firstSeen": "2026-11-04",
-   "lastSeen": "2026-11-12"
+   "lastSeen": "2026-11-14"
   },
   {
    "key": "agenda-center:6f7fc46d7ce9",
@@ -452,7 +512,7 @@
    "date": "2026-10-20",
    "doc": "agenda",
    "firstSeen": "2026-11-04",
-   "lastSeen": "2026-11-13"
+   "lastSeen": "2026-11-14"
   },
   {
    "key": "agenda-center:f255028bd194",
@@ -463,7 +523,7 @@
    "date": "2026-10-20",
    "doc": "minutes",
    "firstSeen": "2026-11-04",
-   "lastSeen": "2026-11-13",
+   "lastSeen": "2026-11-14",
    "text": "inbox/north-hampton/docs/f255028bd194.txt"
   },
   {
@@ -475,7 +535,7 @@
    "date": "2026-10-15",
    "doc": "agenda",
    "firstSeen": "2026-11-04",
-   "lastSeen": "2026-11-13",
+   "lastSeen": "2026-11-14",
    "text": "inbox/north-hampton/docs/2f1f913eece1.txt"
   },
   {
@@ -487,7 +547,7 @@
    "date": "2026-10-13",
    "doc": "agenda",
    "firstSeen": "2026-11-04",
-   "lastSeen": "2026-11-13",
+   "lastSeen": "2026-11-14",
    "text": "inbox/north-hampton/docs/ea5369b93f91.txt"
   },
   {
@@ -499,7 +559,7 @@
    "date": "2026-10-13",
    "doc": "minutes",
    "firstSeen": "2026-11-04",
-   "lastSeen": "2026-11-13",
+   "lastSeen": "2026-11-14",
    "text": "inbox/north-hampton/docs/3917f5316f2a.txt"
   },
   {
@@ -511,7 +571,7 @@
    "date": "2026-10-06",
    "doc": "agenda",
    "firstSeen": "2026-11-04",
-   "lastSeen": "2026-11-13",
+   "lastSeen": "2026-11-14",
    "text": "inbox/north-hampton/docs/184aceaa653a.txt"
   },
   {
@@ -523,7 +583,7 @@
    "date": "2026-10-06",
    "doc": "minutes",
    "firstSeen": "2026-11-04",
-   "lastSeen": "2026-11-13",
+   "lastSeen": "2026-11-14",
    "text": "inbox/north-hampton/docs/11a14af46f17.txt"
   },
   {
@@ -535,8 +595,32 @@
    "date": "2026-09-24",
    "doc": "agenda",
    "firstSeen": "2026-11-04",
-   "lastSeen": "2026-11-13",
+   "lastSeen": "2026-11-14",
    "text": "inbox/north-hampton/docs/61d0a0a59352.txt"
+  },
+  {
+   "key": "town-feeds:cfcd3802c94e",
+   "source": "town-feeds",
+   "kind": "notice",
+   "feed": "calendar",
+   "title": "Planning Board Public Hearing",
+   "url": "https://www.northhampton-nh.gov/Calendar.aspx?EID=609",
+   "date": "2026-11-13",
+   "detail": "Event date: November 17, 2026 Event Time: 06:30 PM - 11:59 PM Location: 231 Atlantic Avenue North Hampton, NH 03862",
+   "firstSeen": "2026-11-03",
+   "lastSeen": "2026-11-14"
+  },
+  {
+   "key": "town-feeds:f6a041aa9561",
+   "source": "town-feeds",
+   "kind": "notice",
+   "feed": "calendar",
+   "title": "Little Boar's Head Commissioners Meeting",
+   "url": "https://www.northhampton-nh.gov/Calendar.aspx?EID=877",
+   "date": "2026-11-13",
+   "detail": "Event date: November 17, 2026 Event Time: 06:00 PM - 11:59 PM Location: Town of North Hampton Library, 239 Atlantic Ave North Hampton, NH 03862",
+   "firstSeen": "2026-11-03",
+   "lastSeen": "2026-11-14"
   },
   {
    "key": "town-feeds:e8fecbf211d1",
@@ -548,7 +632,7 @@
    "date": "2026-11-07",
    "detail": "Joint Little Boars Head and Rye Beach Commissioners Meeting Update: Minutes added or updated",
    "firstSeen": "2026-11-03",
-   "lastSeen": "2026-11-12"
+   "lastSeen": "2026-11-14"
   },
   {
    "key": "agenda-center:8fce81b8d135",
@@ -559,7 +643,7 @@
    "date": "2026-11-05",
    "doc": "agenda",
    "firstSeen": "2026-11-03",
-   "lastSeen": "2026-11-13",
+   "lastSeen": "2026-11-14",
    "text": "inbox/north-hampton/docs/8fce81b8d135.txt"
   },
   {
@@ -572,7 +656,7 @@
    "date": "2026-11-03",
    "detail": "North Hampton School Board Regular Meeting",
    "firstSeen": "2026-11-03",
-   "lastSeen": "2026-11-12"
+   "lastSeen": "2026-11-14"
   },
   {
    "key": "town-feeds:62051e86bf66",
@@ -584,7 +668,7 @@
    "date": "2026-11-03",
    "detail": "Planning Board Work Session Agenda Update: Minutes added or updated",
    "firstSeen": "2026-11-03",
-   "lastSeen": "2026-11-12"
+   "lastSeen": "2026-11-14"
   },
   {
    "key": "town-feeds:3c9c640d9964",
@@ -635,30 +719,6 @@
    "lastSeen": "2026-11-04"
   },
   {
-   "key": "town-feeds:cfcd3802c94e",
-   "source": "town-feeds",
-   "kind": "notice",
-   "feed": "calendar",
-   "title": "Planning Board Public Hearing",
-   "url": "https://www.northhampton-nh.gov/Calendar.aspx?EID=609",
-   "date": "2026-11-02",
-   "detail": "Event date: November 17, 2026 Event Time: 06:30 PM - 11:59 PM Location: 231 Atlantic Avenue North Hampton, NH 03862",
-   "firstSeen": "2026-11-03",
-   "lastSeen": "2026-11-12"
-  },
-  {
-   "key": "town-feeds:f6a041aa9561",
-   "source": "town-feeds",
-   "kind": "notice",
-   "feed": "calendar",
-   "title": "Little Boar's Head Commissioners Meeting",
-   "url": "https://www.northhampton-nh.gov/Calendar.aspx?EID=877",
-   "date": "2026-10-28",
-   "detail": "Event date: November 17, 2026 Event Time: 06:00 PM - 11:59 PM Location: Town of North Hampton Library, 239 Atlantic Ave North Hampton, NH 03862",
-   "firstSeen": "2026-11-03",
-   "lastSeen": "2026-11-12"
-  },
-  {
    "key": "agenda-center:28b599534eeb",
    "source": "agenda-center",
    "kind": "meeting-doc",
@@ -689,7 +749,7 @@
    "date": "2026-11-17",
    "doc": "agenda",
    "firstSeen": "2026-11-02",
-   "lastSeen": "2026-11-13",
+   "lastSeen": "2026-11-14",
    "text": "inbox/north-hampton/docs/69f37fb7e9a2.txt"
   },
   {
@@ -699,10 +759,10 @@
    "feed": "agenda",
    "title": "Planning Board Public Hearing",
    "url": "https://www.northhampton-nh.gov/AgendaCenter/PreviousVersions/561",
-   "date": "2026-11-02",
+   "date": "2026-11-13",
    "detail": "Planning Board Public Hearing",
    "firstSeen": "2026-11-02",
-   "lastSeen": "2026-11-12"
+   "lastSeen": "2026-11-14"
   },
   {
    "key": "town-feeds:e48c2c0e8cb3",
@@ -780,7 +840,7 @@
    "date": "2026-12-07",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-13"
+   "lastSeen": "2026-11-14"
   },
   {
    "key": "agenda-center:46d1398dbb65",
@@ -792,7 +852,7 @@
    "doc": "agenda",
    "packet": true,
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-13"
+   "lastSeen": "2026-11-14"
   },
   {
    "key": "agenda-center:6ef853b779ea",
@@ -813,7 +873,7 @@
    "date": "2026-11-30",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-13"
+   "lastSeen": "2026-11-14"
   },
   {
    "key": "agenda-center:6d2e659bf99b",
@@ -825,7 +885,7 @@
    "doc": "agenda",
    "packet": true,
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-13"
+   "lastSeen": "2026-11-14"
   },
   {
    "key": "agenda-center:00e8904112c3",
@@ -861,6 +921,30 @@
    "lastSeen": "2026-11-10"
   },
   {
+   "key": "town-feeds:ef7c58b8d735",
+   "source": "town-feeds",
+   "kind": "notice",
+   "feed": "agenda",
+   "title": "LBH Zoning Board Regular Meeting",
+   "url": "https://www.northhampton-nh.gov/AgendaCenter/PreviousVersions/543",
+   "date": "2026-11-13",
+   "detail": "LBH Zoning Board Regular Meeting Update: Minutes added or updated",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-14"
+  },
+  {
+   "key": "town-feeds:c227284da59e",
+   "source": "town-feeds",
+   "kind": "notice",
+   "feed": "agenda",
+   "title": "Planning Board Long Range Planning Committee",
+   "url": "https://www.northhampton-nh.gov/AgendaCenter/PreviousVersions/544",
+   "date": "2026-11-13",
+   "detail": "Planning Board Long Range Planning Committee Update: Minutes added or updated",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-14"
+  },
+  {
    "key": "town-feeds:5a8a3d7c19a9",
    "source": "town-feeds",
    "kind": "notice",
@@ -870,7 +954,7 @@
    "date": "2026-11-09",
    "detail": "Planning Board Agenda Update: Minutes added or updated",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-12"
+   "lastSeen": "2026-11-14"
   },
   {
    "key": "town-feeds:effc7db20358",
@@ -882,19 +966,7 @@
    "date": "2026-11-08",
    "detail": "LBH Planning Board Zoning Ordinance Working Group — Work Session Update: Minutes added or updated",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-12"
-  },
-  {
-   "key": "town-feeds:ef7c58b8d735",
-   "source": "town-feeds",
-   "kind": "notice",
-   "feed": "agenda",
-   "title": "LBH Zoning Board Regular Meeting",
-   "url": "https://www.northhampton-nh.gov/AgendaCenter/PreviousVersions/543",
-   "date": "2026-11-07",
-   "detail": "LBH Zoning Board Regular Meeting Update: Minutes added or updated",
-   "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-12"
+   "lastSeen": "2026-11-14"
   },
   {
    "key": "agenda-center:a45329381f8e",
@@ -905,7 +977,7 @@
    "date": "2026-11-03",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-13",
+   "lastSeen": "2026-11-14",
    "text": "inbox/north-hampton/docs/a45329381f8e.txt"
   },
   {
@@ -918,7 +990,7 @@
    "date": "2026-11-03",
    "detail": "Select Board Workshop Agenda Update: Minutes added or updated",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-12"
+   "lastSeen": "2026-11-14"
   },
   {
    "key": "town-feeds:7785dbe08802",
@@ -930,7 +1002,7 @@
    "date": "2026-11-03",
    "detail": "Select Board Workshop Agenda Update: Minutes added or updated",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-12"
+   "lastSeen": "2026-11-14"
   },
   {
    "key": "town-feeds:e5b132a39c32",
@@ -953,20 +1025,8 @@
    "date": "2026-10-29",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-13",
+   "lastSeen": "2026-11-14",
    "text": "inbox/north-hampton/docs/99cf405ec054.txt"
-  },
-  {
-   "key": "town-feeds:c227284da59e",
-   "source": "town-feeds",
-   "kind": "notice",
-   "feed": "agenda",
-   "title": "Planning Board Long Range Planning Committee",
-   "url": "https://www.northhampton-nh.gov/AgendaCenter/PreviousVersions/544",
-   "date": "2026-10-28",
-   "detail": "Planning Board Long Range Planning Committee",
-   "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-10"
   },
   {
    "key": "town-feeds:f8b827af279e",
@@ -1190,7 +1250,7 @@
    "date": "2026-10-19",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-13"
+   "lastSeen": "2026-11-14"
   },
   {
    "key": "agenda-center:f1168afbd9ec",
@@ -1202,7 +1262,7 @@
    "doc": "agenda",
    "packet": true,
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-13"
+   "lastSeen": "2026-11-14"
   },
   {
    "key": "agenda-center:70c22fec116d",
@@ -1213,7 +1273,7 @@
    "date": "2026-10-07",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-13",
+   "lastSeen": "2026-11-14",
    "text": "inbox/north-hampton/docs/70c22fec116d.txt"
   },
   {
@@ -1225,7 +1285,7 @@
    "date": "2026-09-22",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-13",
+   "lastSeen": "2026-11-14",
    "text": "inbox/north-hampton/docs/fd4c51e658da.txt"
   },
   {
@@ -1237,7 +1297,7 @@
    "date": "2026-09-17",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-13",
+   "lastSeen": "2026-11-14",
    "text": "inbox/north-hampton/docs/350d80f72b6c.txt"
   },
   {
@@ -1249,7 +1309,7 @@
    "date": "2026-09-15",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-13",
+   "lastSeen": "2026-11-14",
    "text": "inbox/north-hampton/docs/cccc0586d182.txt"
   },
   {
@@ -1273,7 +1333,7 @@
    "date": "2026-09-10",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-13",
+   "lastSeen": "2026-11-14",
    "text": "inbox/north-hampton/docs/cc858dbe00b3.txt"
   },
   {
@@ -1297,7 +1357,7 @@
    "date": "2026-09-09",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-13",
+   "lastSeen": "2026-11-14",
    "text": "inbox/north-hampton/docs/9cc524d3bfce.txt"
   },
   {
@@ -1309,7 +1369,7 @@
    "date": "2026-09-09",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-13",
+   "lastSeen": "2026-11-14",
    "text": "inbox/north-hampton/docs/652464076591.txt"
   },
   {
@@ -1321,7 +1381,7 @@
    "date": "2026-09-04",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-13",
+   "lastSeen": "2026-11-14",
    "text": "inbox/north-hampton/docs/ebeaf775848d.txt"
   },
   {
@@ -1333,7 +1393,7 @@
    "date": "2026-09-01",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-13"
+   "lastSeen": "2026-11-14"
   },
   {
    "key": "agenda-center:5133f049e0ac",
@@ -1355,7 +1415,7 @@
    "date": "2026-08-27",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-13"
+   "lastSeen": "2026-11-14"
   },
   {
    "key": "agenda-center:80d127d7ff17",
@@ -1377,7 +1437,7 @@
    "date": "2026-08-18",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-13"
+   "lastSeen": "2026-11-14"
   },
   {
    "key": "agenda-center:04f39409facd",
@@ -1388,7 +1448,7 @@
    "date": "2026-08-18",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-13"
+   "lastSeen": "2026-11-14"
   },
   {
    "key": "agenda-center:e0960cfc3716",
@@ -1421,7 +1481,7 @@
    "date": "2026-08-13",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-13"
+   "lastSeen": "2026-11-14"
   },
   {
    "key": "agenda-center:fb6563033f60",
@@ -1432,7 +1492,7 @@
    "date": "2026-08-13",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-13"
+   "lastSeen": "2026-11-14"
   },
   {
    "key": "agenda-center:e764b624bb11",
@@ -1465,7 +1525,7 @@
    "date": "2026-08-05",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-13"
+   "lastSeen": "2026-11-14"
   },
   {
    "key": "agenda-center:c4a82449de63",
@@ -1476,7 +1536,7 @@
    "date": "2026-08-04",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-13"
+   "lastSeen": "2026-11-14"
   },
   {
    "key": "agenda-center:99a206c97a1f",
@@ -1487,7 +1547,7 @@
    "date": "2026-08-04",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-13"
+   "lastSeen": "2026-11-14"
   },
   {
    "key": "agenda-center:3b704505a4ac",
@@ -1532,7 +1592,7 @@
    "date": "2026-07-28",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-13"
+   "lastSeen": "2026-11-14"
   },
   {
    "key": "agenda-center:d72e798b16e7",
@@ -1543,7 +1603,7 @@
    "date": "2026-07-27",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-13"
+   "lastSeen": "2026-11-14"
   },
   {
    "key": "agenda-center:d9b1c6d6637d",
@@ -1554,7 +1614,7 @@
    "date": "2026-07-24",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-13"
+   "lastSeen": "2026-11-14"
   },
   {
    "key": "agenda-center:d8d6cc4b6fc5",
@@ -1565,7 +1625,7 @@
    "date": "2026-07-24",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-13"
+   "lastSeen": "2026-11-14"
   },
   {
    "key": "agenda-center:f031f60747b2",
@@ -1576,7 +1636,7 @@
    "date": "2026-07-23",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-13"
+   "lastSeen": "2026-11-14"
   },
   {
    "key": "agenda-center:b90601bb6829",
@@ -1587,7 +1647,7 @@
    "date": "2026-07-23",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-13"
+   "lastSeen": "2026-11-14"
   },
   {
    "key": "agenda-center:cac7c1d0910f",
@@ -1620,7 +1680,7 @@
    "date": "2026-07-17",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-13"
+   "lastSeen": "2026-11-14"
   },
   {
    "key": "agenda-center:700afdc1ff38",
@@ -1631,7 +1691,7 @@
    "date": "2026-07-17",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-13"
+   "lastSeen": "2026-11-14"
   },
   {
    "key": "agenda-center:ec2cb6d393d3",

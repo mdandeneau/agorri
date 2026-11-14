@@ -1,28 +1,28 @@
 {
  "note": "Written by ingest/fetch.mjs. Each item: where it came from (source, url), the date in the document when known, firstSeen (the day the fetcher first saw it; new since the last refresh = firstSeen on or after that day) and text (the saved agenda or minutes text, when there is one). Facts for the site still come from reading the linked document.",
  "town": "freedom",
- "updated": "2026-11-13T15:25:00.205Z",
+ "updated": "2026-11-14T14:10:11.317Z",
  "sources": {
   "feed": {
    "ok": true,
    "found": 10,
    "new": 0,
-   "checked": "2026-11-13T15:25:00.205Z",
-   "ms": 2695
+   "checked": "2026-11-14T14:10:11.317Z",
+   "ms": 2735
   },
   "feed2": {
    "ok": true,
    "found": 0,
    "new": 0,
-   "checked": "2026-11-13T15:25:00.205Z",
-   "ms": 768
+   "checked": "2026-11-14T14:10:11.317Z",
+   "ms": 870
   },
   "meeting-docs": {
    "ok": true,
    "found": 150,
    "new": 0,
-   "checked": "2026-11-13T15:25:00.205Z",
-   "ms": 1483
+   "checked": "2026-11-14T14:10:11.317Z",
+   "ms": 1382
   }
  },
  "notes": [],
@@ -46,7 +46,7 @@
    "url": "https://townoffreedomnh.gov/2026/11/04/tax-bill-2026-po2/",
    "date": "2026-11-04",
    "firstSeen": "2026-11-05",
-   "lastSeen": "2026-11-13"
+   "lastSeen": "2026-11-14"
   },
   {
    "key": "meeting-docs:4806ef49e364",
@@ -57,7 +57,7 @@
    "date": "2026-10-26",
    "doc": "minutes",
    "firstSeen": "2026-11-05",
-   "lastSeen": "2026-11-13",
+   "lastSeen": "2026-11-14",
    "text": "inbox/freedom/docs/4806ef49e364.txt"
   },
   {
@@ -69,7 +69,7 @@
    "date": "2026-10-19",
    "doc": "minutes",
    "firstSeen": "2026-11-05",
-   "lastSeen": "2026-11-13",
+   "lastSeen": "2026-11-14",
    "text": "inbox/freedom/docs/3ffc3a10a0c2.txt"
   },
   {
@@ -81,7 +81,7 @@
    "date": "2026-10-05",
    "doc": "minutes",
    "firstSeen": "2026-11-05",
-   "lastSeen": "2026-11-13",
+   "lastSeen": "2026-11-14",
    "text": "inbox/freedom/docs/7c0cdd8476df.txt"
   },
   {
@@ -93,7 +93,7 @@
    "date": "2026-09-28",
    "doc": "minutes",
    "firstSeen": "2026-11-05",
-   "lastSeen": "2026-11-13",
+   "lastSeen": "2026-11-14",
    "text": "inbox/freedom/docs/0a8fbfbd843a.txt"
   },
   {
@@ -104,7 +104,7 @@
    "url": "https://townoffreedomnh.gov/2026/11/04/2026-election-results/",
    "date": "2026-11-04",
    "firstSeen": "2026-11-04",
-   "lastSeen": "2026-11-13"
+   "lastSeen": "2026-11-14"
   },
   {
    "key": "feed:94a5e8b1447c",
@@ -158,7 +158,7 @@
    "date": "2026-10-16",
    "detail": "PUBLIC NOTICE FREEDOM HAZARD MITIGATION FINAL MEETING December 1, 2026 @ 3:30pm At the Freedom Elementary School at 40 Loon Lake Rd The Town of Freedom, with the Hazard Mitigation Planning Committee, is currently working to update Freedom’s Hazard Mitigation Plan. The Plan identifies potential natural, and human caused hazards throughout the town and various […]",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-13"
+   "lastSeen": "2026-11-14"
   },
   {
    "key": "feed:1465060d76e9",
@@ -191,7 +191,7 @@
    "date": "2026-09-21",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-13",
+   "lastSeen": "2026-11-14",
    "text": "inbox/freedom/docs/0655accab729.txt"
   },
   {
@@ -203,7 +203,7 @@
    "date": "2026-09-14",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-13",
+   "lastSeen": "2026-11-14",
    "text": "inbox/freedom/docs/030a3bf44a6f.txt"
   },
   {
@@ -226,7 +226,7 @@
    "date": "2026-08-31",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-13"
+   "lastSeen": "2026-11-14"
   },
   {
    "key": "meeting-docs:79e862cf0c9f",
@@ -237,7 +237,7 @@
    "date": "2026-08-17",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-13"
+   "lastSeen": "2026-11-14"
   },
   {
    "key": "meeting-docs:abe08fd0cef4",
@@ -248,7 +248,7 @@
    "date": "2026-08-10",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-13"
+   "lastSeen": "2026-11-14"
   },
   {
    "key": "meeting-docs:92d757580a0c",
@@ -259,7 +259,7 @@
    "date": "2026-08-03",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-13"
+   "lastSeen": "2026-11-14"
   },
   {
    "key": "meeting-docs:5ad5de54b6d6",
@@ -270,7 +270,7 @@
    "date": "2026-07-26",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-13"
+   "lastSeen": "2026-11-14"
   },
   {
    "key": "meeting-docs:ec33ade1fe58",
@@ -281,7 +281,7 @@
    "date": "2026-07-20",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-13"
+   "lastSeen": "2026-11-14"
   }
  ]
 }

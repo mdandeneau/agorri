@@ -1,0 +1,22 @@
+Source: https://newmarketnh.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=7876,plainText=false)
+Title: Budget Committee 2026-11-13: Budget Committee 11/17/2026
+Fetched: 2026-11-14
+
+Newmarket Budget Committee Agenda
+                    November 17th, 2026
+                 6:30pm, Town Hall Auditorium
+
+  ● Call to Order
+  ● Pledge of Allegiance
+  ● Public Session
+
+  ● New Business
+       1. Town Budget Overview
+       2. Review 26OCT26 minutes
+  ● Next Meetings:
+       ○ November 30th (School budget kick-off
+  ● Adjournment
+
+
+                                                     Page 1 of 1
+Town Hall 186 Main Street, Newmarket, NH 03857
