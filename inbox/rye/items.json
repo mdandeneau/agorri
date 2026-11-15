@@ -1,21 +1,21 @@
 {
  "note": "Written by ingest/fetch.mjs. Each item: where it came from (source, url), the date in the document when known, firstSeen (the day the fetcher first saw it; new since the last refresh = firstSeen on or after that day) and text (the saved agenda or minutes text, when there is one). Facts for the site still come from reading the linked document.",
  "town": "rye",
- "updated": "2026-11-14T14:10:11.317Z",
+ "updated": "2026-11-15T14:45:48.988Z",
  "sources": {
   "town-feeds": {
    "ok": true,
    "found": 23,
-   "new": 1,
-   "checked": "2026-11-14T14:10:11.317Z",
-   "ms": 6435
+   "new": 0,
+   "checked": "2026-11-15T14:45:48.988Z",
+   "ms": 6221
   },
   "agenda-center": {
    "ok": true,
    "found": 150,
    "new": 0,
-   "checked": "2026-11-14T14:10:11.317Z",
-   "ms": 3220
+   "checked": "2026-11-15T14:45:48.988Z",
+   "ms": 3038
   }
  },
  "notes": [
@@ -32,7 +32,7 @@
    "date": "2026-08-20",
    "detail": "Event date: November 27, 2026 Event Time: 12:00 AM - 11:59 PM Location: Rye, NH 03870",
    "firstSeen": "2026-11-14",
-   "lastSeen": "2026-11-14"
+   "lastSeen": "2026-11-15"
   },
   {
    "key": "town-feeds:366893dfd81c",
@@ -44,7 +44,7 @@
    "date": "2026-11-12",
    "detail": "Planning Board Meeting",
    "firstSeen": "2026-11-12",
-   "lastSeen": "2026-11-14"
+   "lastSeen": "2026-11-15"
   },
   {
    "key": "town-feeds:11f7913f8f70",
@@ -56,7 +56,7 @@
    "date": "2026-11-12",
    "detail": "Rules and regulations",
    "firstSeen": "2026-11-12",
-   "lastSeen": "2026-11-14"
+   "lastSeen": "2026-11-15"
   },
   {
    "key": "agenda-center:86ec243dcae9",
@@ -67,7 +67,7 @@
    "date": "2026-11-02",
    "doc": "minutes",
    "firstSeen": "2026-11-12",
-   "lastSeen": "2026-11-14",
+   "lastSeen": "2026-11-15",
    "text": "inbox/rye/docs/86ec243dcae9.txt"
   },
   {
@@ -80,7 +80,7 @@
    "date": "2026-08-20",
    "detail": "Event date: November 26, 2026 Event Time: 12:00 AM - 11:59 PM Location: Rye, NH 03870",
    "firstSeen": "2026-11-12",
-   "lastSeen": "2026-11-14"
+   "lastSeen": "2026-11-15"
   },
   {
    "key": "agenda-center:8e9c78b06465",
@@ -91,7 +91,7 @@
    "date": "2026-11-12",
    "doc": "agenda",
    "firstSeen": "2026-11-10",
-   "lastSeen": "2026-11-14",
+   "lastSeen": "2026-11-15",
    "text": "inbox/rye/docs/8e9c78b06465.txt"
   },
   {
@@ -115,7 +115,7 @@
    "date": "2026-11-09",
    "detail": "Conservation Commission Agenda",
    "firstSeen": "2026-11-10",
-   "lastSeen": "2026-11-14"
+   "lastSeen": "2026-11-15"
   },
   {
    "key": "town-feeds:7e43e4f53103",
@@ -138,7 +138,7 @@
    "date": "2026-11-10",
    "doc": "agenda",
    "firstSeen": "2026-11-09",
-   "lastSeen": "2026-11-14",
+   "lastSeen": "2026-11-15",
    "text": "inbox/rye/docs/3296c5f8ca8f.txt"
   },
   {
@@ -151,7 +151,7 @@
    "date": "2026-11-09",
    "detail": "Conservation Commission Site Walk Agenda",
    "firstSeen": "2026-11-09",
-   "lastSeen": "2026-11-14"
+   "lastSeen": "2026-11-15"
   },
   {
    "key": "town-feeds:fa5a40c3e9c2",
@@ -184,10 +184,10 @@
    "feed": "agenda",
    "title": "Town of Rye Sewer Commission Meeting Agenda",
    "url": "https://www.ryenh.gov/AgendaCenter/PreviousVersions/881",
-   "date": "2026-11-05",
-   "detail": "Town of Rye Sewer Commission Meeting Agenda",
+   "date": "2026-11-15",
+   "detail": "Town of Rye Sewer Commission Meeting Agenda Update: Minutes added or updated",
    "firstSeen": "2026-11-06",
-   "lastSeen": "2026-11-14"
+   "lastSeen": "2026-11-15"
   },
   {
    "key": "town-feeds:db91efdc05b0",
@@ -198,7 +198,7 @@
    "url": "https://www.ryenh.gov/CivicAlerts.aspx?aid=51",
    "date": "2026-11-05",
    "firstSeen": "2026-11-05",
-   "lastSeen": "2026-11-14"
+   "lastSeen": "2026-11-15"
   },
   {
    "key": "town-feeds:23649ad1c517",
@@ -209,7 +209,7 @@
    "url": "https://www.ryenh.gov/CivicAlerts.aspx?aid=50",
    "date": "2026-11-04",
    "firstSeen": "2026-11-05",
-   "lastSeen": "2026-11-14"
+   "lastSeen": "2026-11-15"
   },
   {
    "key": "town-feeds:5da7e0b70495",
@@ -221,7 +221,7 @@
    "date": "2026-11-05",
    "detail": "Zoning Board of Adjustment Update: Minutes added or updated",
    "firstSeen": "2026-11-04",
-   "lastSeen": "2026-11-14"
+   "lastSeen": "2026-11-15"
   },
   {
    "key": "town-feeds:a459241530f3",
@@ -233,7 +233,7 @@
    "date": "2026-11-05",
    "detail": "Event date: November 18, 2026 Event Time: 05:30 PM - 08:30 PM Location: 581 Washington Rd Rye, NH 03870",
    "firstSeen": "2026-11-04",
-   "lastSeen": "2026-11-14"
+   "lastSeen": "2026-11-15"
   },
   {
    "key": "town-feeds:ba4af5cbfc4f",
@@ -245,7 +245,7 @@
    "date": "2026-11-03",
    "detail": "Planning Board Update: Minutes added or updated",
    "firstSeen": "2026-11-04",
-   "lastSeen": "2026-11-14"
+   "lastSeen": "2026-11-15"
   },
   {
    "key": "town-feeds:05cef8cde070",
@@ -257,7 +257,7 @@
    "date": "2026-11-03",
    "detail": "Rules and Regulations Committee Meeting Update: Minutes added or updated",
    "firstSeen": "2026-11-04",
-   "lastSeen": "2026-11-14"
+   "lastSeen": "2026-11-15"
   },
   {
    "key": "town-feeds:78444a0cb12a",
@@ -269,7 +269,7 @@
    "date": "2026-11-03",
    "detail": "Rules and Regulations Committee Update: Minutes added or updated",
    "firstSeen": "2026-11-04",
-   "lastSeen": "2026-11-14"
+   "lastSeen": "2026-11-15"
   },
   {
    "key": "town-feeds:692aca79b358",
@@ -281,7 +281,7 @@
    "date": "2026-11-03",
    "detail": "Planning Board Site Walk 701 South Road at 3:00PM Update: Minutes added or updated",
    "firstSeen": "2026-11-04",
-   "lastSeen": "2026-11-14"
+   "lastSeen": "2026-11-15"
   },
   {
    "key": "town-feeds:f33a4fb0780e",
@@ -293,7 +293,7 @@
    "date": "2026-11-03",
    "detail": "Event date: November 17, 2026 Event Time: 05:00 PM - 06:00 PM Location: 10 Central Rd Rye, NH 03870",
    "firstSeen": "2026-11-04",
-   "lastSeen": "2026-11-14"
+   "lastSeen": "2026-11-15"
   },
   {
    "key": "agenda-center:349e8a44c927",
@@ -304,7 +304,7 @@
    "date": "2026-11-02",
    "doc": "minutes",
    "firstSeen": "2026-11-04",
-   "lastSeen": "2026-11-14",
+   "lastSeen": "2026-11-15",
    "text": "inbox/rye/docs/349e8a44c927.txt"
   },
   {
@@ -317,7 +317,7 @@
    "date": "2026-10-14",
    "detail": "Event date: November 18, 2026 Event Time: 09:00 AM - 11:00 AM Location: Rye Public Library 581 Washington Rd Rye, NH 03870",
    "firstSeen": "2026-11-04",
-   "lastSeen": "2026-11-14"
+   "lastSeen": "2026-11-15"
   },
   {
    "key": "town-feeds:7e2cbcab4de3",
@@ -329,7 +329,7 @@
    "date": "2026-08-17",
    "detail": "Event date: November 18, 2026 Event Time: 06:00 PM - 08:00 PM Location: Rye Public Library 581 Washington Rd Rye, NH 03870",
    "firstSeen": "2026-11-04",
-   "lastSeen": "2026-11-14"
+   "lastSeen": "2026-11-15"
   },
   {
    "key": "town-feeds:02ea0a59a32f",
@@ -353,7 +353,7 @@
    "date": "2026-11-12",
    "detail": "Event date: November 17, 2026 Event Time: 06:00 PM - 10:00 PM Location: 10 Central Road Rye, NH 03870",
    "firstSeen": "2026-11-03",
-   "lastSeen": "2026-11-14"
+   "lastSeen": "2026-11-15"
   },
   {
    "key": "agenda-center:a88fed3f75db",
@@ -364,7 +364,7 @@
    "date": "2026-11-04",
    "doc": "agenda",
    "firstSeen": "2026-11-03",
-   "lastSeen": "2026-11-14",
+   "lastSeen": "2026-11-15",
    "text": "inbox/rye/docs/a88fed3f75db.txt"
   },
   {
@@ -412,7 +412,7 @@
    "url": "https://www.ryenh.gov/CivicAlerts.aspx?aid=49",
    "date": "2026-11-02",
    "firstSeen": "2026-11-03",
-   "lastSeen": "2026-11-14"
+   "lastSeen": "2026-11-15"
   },
   {
    "key": "agenda-center:9ff2183f28f6",
@@ -423,7 +423,7 @@
    "date": "2026-11-05",
    "doc": "agenda",
    "firstSeen": "2026-11-02",
-   "lastSeen": "2026-11-14",
+   "lastSeen": "2026-11-15",
    "text": "inbox/rye/docs/9ff2183f28f6.txt"
   },
   {
@@ -436,7 +436,7 @@
    "date": "2026-11-02",
    "detail": "Zoning Board of Adjustment",
    "firstSeen": "2026-11-02",
-   "lastSeen": "2026-11-14"
+   "lastSeen": "2026-11-15"
   },
   {
    "key": "town-feeds:b3c89f31bb82",
@@ -471,7 +471,7 @@
    "date": "2026-11-02",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-14",
+   "lastSeen": "2026-11-15",
    "text": "inbox/rye/docs/e4dda5966628.txt"
   },
   {
@@ -483,7 +483,7 @@
    "date": "2026-11-02",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-14",
+   "lastSeen": "2026-11-15",
    "text": "inbox/rye/docs/9ebddeaf9791.txt"
   },
   {
@@ -495,7 +495,7 @@
    "date": "2026-11-02",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-14",
+   "lastSeen": "2026-11-15",
    "text": "inbox/rye/docs/79c43618e013.txt"
   },
   {
@@ -698,7 +698,7 @@
    "date": "2026-10-19",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-14"
+   "lastSeen": "2026-11-15"
   },
   {
    "key": "agenda-center:59c1d41abbe5",
@@ -709,7 +709,7 @@
    "date": "2026-10-19",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-14",
+   "lastSeen": "2026-11-15",
    "text": "inbox/rye/docs/59c1d41abbe5.txt"
   },
   {
@@ -733,7 +733,7 @@
    "date": "2026-10-09",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-14",
+   "lastSeen": "2026-11-15",
    "text": "inbox/rye/docs/ca1767b544aa.txt"
   },
   {
@@ -745,7 +745,7 @@
    "date": "2026-10-09",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-14",
+   "lastSeen": "2026-11-15",
    "text": "inbox/rye/docs/67d2e7dec902.txt"
   },
   {
@@ -757,7 +757,7 @@
    "date": "2026-10-08",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-14",
+   "lastSeen": "2026-11-15",
    "text": "inbox/rye/docs/ee4ea22a0567.txt"
   },
   {
@@ -769,7 +769,7 @@
    "date": "2026-10-08",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-14",
+   "lastSeen": "2026-11-15",
    "text": "inbox/rye/docs/40e0094abba8.txt"
   },
   {
@@ -815,7 +815,7 @@
    "date": "2026-10-05",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-14",
+   "lastSeen": "2026-11-15",
    "text": "inbox/rye/docs/400e6398177f.txt"
   },
   {
@@ -827,7 +827,7 @@
    "date": "2026-10-05",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-14",
+   "lastSeen": "2026-11-15",
    "text": "inbox/rye/docs/a0f95d5d447e.txt"
   },
   {
@@ -839,7 +839,7 @@
    "date": "2026-10-02",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-14",
+   "lastSeen": "2026-11-15",
    "text": "inbox/rye/docs/506a7f0fb6a8.txt"
   },
   {
@@ -851,7 +851,7 @@
    "date": "2026-10-02",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-14",
+   "lastSeen": "2026-11-15",
    "text": "inbox/rye/docs/bac4a46d2029.txt"
   },
   {
@@ -863,7 +863,7 @@
    "date": "2026-10-02",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-14",
+   "lastSeen": "2026-11-15",
    "text": "inbox/rye/docs/b4820969ab0c.txt"
   },
   {
@@ -875,7 +875,7 @@
    "date": "2026-10-01",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-14",
+   "lastSeen": "2026-11-15",
    "text": "inbox/rye/docs/a2d7de0de9a9.txt"
   },
   {
@@ -887,7 +887,7 @@
    "date": "2026-10-01",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-14",
+   "lastSeen": "2026-11-15",
    "text": "inbox/rye/docs/74bd103f36fe.txt"
   },
   {
@@ -899,7 +899,7 @@
    "date": "2026-09-23",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-14",
+   "lastSeen": "2026-11-15",
    "text": "inbox/rye/docs/5faca44624ea.txt"
   },
   {
@@ -911,7 +911,7 @@
    "date": "2026-09-23",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-14",
+   "lastSeen": "2026-11-15",
    "text": "inbox/rye/docs/0441ad6eeb91.txt"
   },
   {
@@ -923,7 +923,7 @@
    "date": "2026-09-23",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-14",
+   "lastSeen": "2026-11-15",
    "text": "inbox/rye/docs/1ea9768f3a0d.txt"
   },
   {
@@ -935,7 +935,7 @@
    "date": "2026-09-23",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-14",
+   "lastSeen": "2026-11-15",
    "text": "inbox/rye/docs/127c729d6392.txt"
   },
   {
@@ -947,7 +947,7 @@
    "date": "2026-09-10",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-14",
+   "lastSeen": "2026-11-15",
    "text": "inbox/rye/docs/1d00edf85011.txt"
   },
   {
@@ -959,7 +959,7 @@
    "date": "2026-09-10",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-14",
+   "lastSeen": "2026-11-15",
    "text": "inbox/rye/docs/e658ab709600.txt"
   },
   {
@@ -971,7 +971,7 @@
    "date": "2026-09-07",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-14",
+   "lastSeen": "2026-11-15",
    "text": "inbox/rye/docs/bc5a887822c2.txt"
   },
   {
@@ -983,7 +983,7 @@
    "date": "2026-09-07",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-14",
+   "lastSeen": "2026-11-15",
    "text": "inbox/rye/docs/70a3ea0dffce.txt"
   },
   {
@@ -995,7 +995,7 @@
    "date": "2026-09-03",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-14",
+   "lastSeen": "2026-11-15",
    "text": "inbox/rye/docs/6bf1a7bdbed9.txt"
   },
   {
@@ -1019,7 +1019,7 @@
    "date": "2026-09-01",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-14"
+   "lastSeen": "2026-11-15"
   },
   {
    "key": "agenda-center:4bae4e75c51c",
@@ -1030,7 +1030,7 @@
    "date": "2026-09-01",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-14"
+   "lastSeen": "2026-11-15"
   },
   {
    "key": "agenda-center:17b433ae41d1",
@@ -1041,7 +1041,7 @@
    "date": "2026-09-01",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-14"
+   "lastSeen": "2026-11-15"
   },
   {
    "key": "agenda-center:4f61fe427ab7",
@@ -1052,7 +1052,7 @@
    "date": "2026-09-01",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-14"
+   "lastSeen": "2026-11-15"
   },
   {
    "key": "agenda-center:94a550ebcc3d",
@@ -1063,7 +1063,7 @@
    "date": "2026-08-31",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-14"
+   "lastSeen": "2026-11-15"
   },
   {
    "key": "agenda-center:25877525c66d",
@@ -1074,7 +1074,7 @@
    "date": "2026-08-31",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-14"
+   "lastSeen": "2026-11-15"
   },
   {
    "key": "agenda-center:f846bb47ab72",
@@ -1085,7 +1085,7 @@
    "date": "2026-08-24",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-14"
+   "lastSeen": "2026-11-15"
   },
   {
    "key": "agenda-center:897ada028b12",
@@ -1096,7 +1096,7 @@
    "date": "2026-08-24",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-14"
+   "lastSeen": "2026-11-15"
   },
   {
    "key": "town-feeds:8fdb311842e5",
@@ -1119,7 +1119,7 @@
    "date": "2026-08-20",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-14"
+   "lastSeen": "2026-11-15"
   },
   {
    "key": "agenda-center:1d875b0526d7",
@@ -1130,7 +1130,7 @@
    "date": "2026-08-19",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-14"
+   "lastSeen": "2026-11-15"
   },
   {
    "key": "agenda-center:91cb6d1639f5",
@@ -1141,7 +1141,7 @@
    "date": "2026-08-19",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-14"
+   "lastSeen": "2026-11-15"
   },
   {
    "key": "agenda-center:e830dc79ddf3",
@@ -1152,7 +1152,7 @@
    "date": "2026-08-19",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-14"
+   "lastSeen": "2026-11-15"
   },
   {
    "key": "agenda-center:3fb8eb800763",
@@ -1163,7 +1163,7 @@
    "date": "2026-08-13",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-14"
+   "lastSeen": "2026-11-15"
   },
   {
    "key": "agenda-center:9653d41a79b4",
@@ -1174,7 +1174,7 @@
    "date": "2026-08-13",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-14"
+   "lastSeen": "2026-11-15"
   },
   {
    "key": "agenda-center:b8437de25f1c",
@@ -1185,7 +1185,7 @@
    "date": "2026-08-11",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-14"
+   "lastSeen": "2026-11-15"
   },
   {
    "key": "agenda-center:a42e40b946ff",
@@ -1196,7 +1196,7 @@
    "date": "2026-08-11",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-14"
+   "lastSeen": "2026-11-15"
   },
   {
    "key": "agenda-center:f6d22e7f342b",
@@ -1207,7 +1207,7 @@
    "date": "2026-08-11",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-14"
+   "lastSeen": "2026-11-15"
   },
   {
    "key": "agenda-center:3b3c69d19923",
@@ -1218,7 +1218,7 @@
    "date": "2026-08-11",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-14"
+   "lastSeen": "2026-11-15"
   },
   {
    "key": "agenda-center:6a2bd47d2c84",
@@ -1251,7 +1251,7 @@
    "date": "2026-08-04",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-14"
+   "lastSeen": "2026-11-15"
   },
   {
    "key": "agenda-center:e68d716927b7",
@@ -1262,7 +1262,7 @@
    "date": "2026-08-04",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-14"
+   "lastSeen": "2026-11-15"
   },
   {
    "key": "agenda-center:0ac25face412",
@@ -1273,7 +1273,7 @@
    "date": "2026-08-03",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-14"
+   "lastSeen": "2026-11-15"
   },
   {
    "key": "agenda-center:5052de775dd9",
@@ -1284,7 +1284,7 @@
    "date": "2026-08-03",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-14"
+   "lastSeen": "2026-11-15"
   },
   {
    "key": "agenda-center:0fd346b8320c",
@@ -1295,7 +1295,7 @@
    "date": "2026-07-27",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-14"
+   "lastSeen": "2026-11-15"
   },
   {
    "key": "agenda-center:4899d4c76c24",
@@ -1306,7 +1306,7 @@
    "date": "2026-07-27",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-14"
+   "lastSeen": "2026-11-15"
   },
   {
    "key": "agenda-center:eb59daa9478b",
