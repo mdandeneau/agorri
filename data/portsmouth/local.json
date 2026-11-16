@@ -318,16 +318,6 @@
     "label": "City of Portsmouth DPW, Oct 16",
     "url": "https://www.portsmouthnh.gov/city/press-releases/dpw-hosts-cate-street-bridge-project-public-information-session-october-20-2026"
    }
-  },
-  {
-   "date": "2026-10-16",
-   "kind": "Water",
-   "title": "Q3 drinking water update: supplies holding up despite the drought that began in June 2025",
-   "detail": "DPW's quarterly report covers the Portsmouth and Pease Tradeport water systems.",
-   "source": {
-    "label": "City of Portsmouth DPW, Oct 16",
-    "url": "https://www.portsmouthnh.gov/publicworks/water/news/dpw-releases-q3-2026-drinking-water-supply-updates-portsmouth-and-pease"
-   }
   }
  ],
  "election": {
@@ -974,28 +964,8 @@
    "status": "not yet connected"
   }
  ],
- "events_as_of": "2026-11-14",
+ "events_as_of": "2026-11-16",
  "events": [
-  {
-   "date": "2026-11-15",
-   "time": "10:00 am to 2:00 pm",
-   "title": "Thanksgiving Guided Tours (weekends through Nov 29, plus Nov 25 and 27)",
-   "venue": "Strawbery Banke Museum",
-   "town": "Portsmouth",
-   "kind": "History",
-   "url": "https://www.strawberybanke.org/events-collection/thanksgiving-guided-tours-1",
-   "source": "Strawbery Banke Museum"
-  },
-  {
-   "date": "2026-11-15",
-   "time": "3:00 pm",
-   "title": "Guitar Sundays: Brooks Robertson (offsite; location on the library's page)",
-   "venue": "Offsite, Portsmouth Public Library program",
-   "town": "Portsmouth",
-   "kind": "Library",
-   "url": "https://www.portsmouthnh.gov/library/news/guitarsundays",
-   "source": "Portsmouth Public Library"
-  },
   {
    "date": "2026-11-17",
    "time": "6:00 pm",
@@ -1039,6 +1009,16 @@
   {
    "date": "2026-11-21",
    "time": "10:00 am to 2:00 pm",
+   "title": "Thanksgiving Guided Tours (weekends through Nov 29, plus Nov 25 and 27)",
+   "venue": "Strawbery Banke Museum",
+   "town": "Portsmouth",
+   "kind": "History",
+   "url": "https://www.strawberybanke.org/events-collection/thanksgiving-guided-tours-1",
+   "source": "Strawbery Banke Museum"
+  },
+  {
+   "date": "2026-11-21",
+   "time": "10:00 am to 2:00 pm",
    "title": "Weave a Scarf in a Day Workshop",
    "venue": "Strawbery Banke Museum",
    "town": "Portsmouth",
@@ -1076,6 +1056,17 @@
    "kind": "Holiday",
    "url": "https://www.portsmouthnh.gov/city/events/seacoast-rotary-turkey-trot-2",
    "source": "City of Portsmouth"
+  },
+  {
+   "date": "2026-11-28",
+   "time": "2:00 pm and 7:00 pm",
+   "title": "'A Christmas Carol' (runs through Dec 27)",
+   "venue": "Players Ring, 105 Marcy St",
+   "town": "Portsmouth",
+   "kind": "Theater",
+   "url": "https://patch.com/new-hampshire/portsmouth-nh/calendar/event/20261128/4fcc2228-4e17-4e45-8cc0-a689ea5ea774/a-christmas-carol",
+   "source": "Patch calendar",
+   "price": "$25 to $36"
   },
   {
    "date": "2026-12-02",
@@ -2382,7 +2373,7 @@
  "paper": {
   "name": "Portsmouth Patch",
   "url": "https://patch.com/new-hampshire/portsmouth-nh",
-  "asOf": "2026-11-15",
+  "asOf": "2026-11-16",
   "note": "The Portsmouth Herald is paywalled with no public feed, so these come from Patch.",
   "headlines": [
    {
