@@ -1,25 +1,49 @@
 {
  "note": "Written by ingest/fetch.mjs. Each item: where it came from (source, url), the date in the document when known, firstSeen (the day the fetcher first saw it; new since the last refresh = firstSeen on or after that day) and text (the saved agenda or minutes text, when there is one). Facts for the site still come from reading the linked document.",
  "town": "hampton",
- "updated": "2026-11-16T17:02:29.605Z",
+ "updated": "2026-11-17T16:53:53.757Z",
  "sources": {
   "town-feeds": {
    "ok": true,
-   "found": 22,
+   "found": 24,
    "new": 2,
-   "checked": "2026-11-16T17:02:29.605Z",
-   "ms": 10894
+   "checked": "2026-11-17T16:53:53.757Z",
+   "ms": 10956
   },
   "agenda-center": {
    "ok": true,
    "found": 150,
-   "new": 4,
-   "checked": "2026-11-16T17:02:29.605Z",
-   "ms": 7256
+   "new": 0,
+   "checked": "2026-11-17T16:53:53.757Z",
+   "ms": 1878
   }
  },
  "notes": [],
  "items": [
+  {
+   "key": "town-feeds:8ba4c1657442",
+   "source": "town-feeds",
+   "kind": "notice",
+   "feed": "agenda",
+   "title": "Master Plan Implementation Committee - September 23, 2026",
+   "url": "https://www.hamptonnh.gov/AgendaCenter/PreviousVersions/2074",
+   "date": "2026-11-17",
+   "detail": "Master Plan Implementation Committee - September 23, 2026 Update: Minutes added or updated",
+   "firstSeen": "2026-11-17",
+   "lastSeen": "2026-11-17"
+  },
+  {
+   "key": "town-feeds:9c5b367bb6b3",
+   "source": "town-feeds",
+   "kind": "notice",
+   "feed": "calendar",
+   "title": "Economic Development Advisory Committee",
+   "url": "https://www.hamptonnh.gov/Calendar.aspx?EID=3018",
+   "date": "2026-11-16",
+   "detail": "Event date: December 1, 2026 Event Time: 11:00 AM - 01:00 PM Location: Select Board Room 100 Winnacunnet Road Hampton, NH 03842",
+   "firstSeen": "2026-11-17",
+   "lastSeen": "2026-11-17"
+  },
   {
    "key": "town-feeds:b51cc48f83f9",
    "source": "town-feeds",
@@ -30,7 +54,7 @@
    "date": "2026-11-16",
    "detail": "HBVD Update: Minutes added or updated",
    "firstSeen": "2026-11-16",
-   "lastSeen": "2026-11-16"
+   "lastSeen": "2026-11-17"
   },
   {
    "key": "town-feeds:bb5b09534f7a",
@@ -42,7 +66,7 @@
    "date": "2026-11-16",
    "detail": "The Town of Hampton Department of Public Works wants to take this opportunity to recognize National Stormwater Day and remind residents of the important role stormwater management plays in protecting our community and environment.",
    "firstSeen": "2026-11-16",
-   "lastSeen": "2026-11-16"
+   "lastSeen": "2026-11-17"
   },
   {
    "key": "agenda-center:d4d4e224c400",
@@ -53,7 +77,7 @@
    "date": "2026-11-11",
    "doc": "agenda",
    "firstSeen": "2026-11-16",
-   "lastSeen": "2026-11-16",
+   "lastSeen": "2026-11-17",
    "text": "inbox/hampton/docs/d4d4e224c400.txt"
   },
   {
@@ -65,7 +89,7 @@
    "date": "2026-11-11",
    "doc": "minutes",
    "firstSeen": "2026-11-16",
-   "lastSeen": "2026-11-16",
+   "lastSeen": "2026-11-17",
    "text": "inbox/hampton/docs/f11e340ed481.txt"
   },
   {
@@ -77,7 +101,7 @@
    "date": "2026-11-09",
    "doc": "minutes",
    "firstSeen": "2026-11-16",
-   "lastSeen": "2026-11-16",
+   "lastSeen": "2026-11-17",
    "text": "inbox/hampton/docs/4d8efff78d79.txt"
   },
   {
@@ -89,7 +113,7 @@
    "date": "2026-10-20",
    "doc": "minutes",
    "firstSeen": "2026-11-16",
-   "lastSeen": "2026-11-16",
+   "lastSeen": "2026-11-17",
    "text": "inbox/hampton/docs/32e70c35b6cc.txt"
   },
   {
@@ -101,7 +125,7 @@
    "date": "2026-11-17",
    "doc": "agenda",
    "firstSeen": "2026-11-14",
-   "lastSeen": "2026-11-16",
+   "lastSeen": "2026-11-17",
    "text": "inbox/hampton/docs/07871a6e375f.txt"
   },
   {
@@ -114,7 +138,7 @@
    "date": "2026-11-13",
    "detail": "Budget Committee",
    "firstSeen": "2026-11-14",
-   "lastSeen": "2026-11-16"
+   "lastSeen": "2026-11-17"
   },
   {
    "key": "agenda-center:f39770307cdc",
@@ -125,7 +149,7 @@
    "date": "2026-11-18",
    "doc": "agenda",
    "firstSeen": "2026-11-13",
-   "lastSeen": "2026-11-16",
+   "lastSeen": "2026-11-17",
    "text": "inbox/hampton/docs/f39770307cdc.txt"
   },
   {
@@ -138,7 +162,7 @@
    "date": "2026-11-13",
    "detail": "Planning Board - November 18, 2026 Agenda",
    "firstSeen": "2026-11-13",
-   "lastSeen": "2026-11-16"
+   "lastSeen": "2026-11-17"
   },
   {
    "key": "town-feeds:b30aadb1036f",
@@ -174,7 +198,7 @@
    "date": "2026-11-12",
    "detail": "Budget Committee Update: Minutes added or updated",
    "firstSeen": "2026-11-12",
-   "lastSeen": "2026-11-16"
+   "lastSeen": "2026-11-17"
   },
   {
    "key": "town-feeds:eb124dc7b256",
@@ -186,7 +210,7 @@
    "date": "2026-11-10",
    "detail": "We want to hear from you!",
    "firstSeen": "2026-11-12",
-   "lastSeen": "2026-11-16"
+   "lastSeen": "2026-11-17"
   },
   {
    "key": "agenda-center:5e7b3c84444d",
@@ -197,7 +221,7 @@
    "date": "2026-10-20",
    "doc": "minutes",
    "firstSeen": "2026-11-12",
-   "lastSeen": "2026-11-16",
+   "lastSeen": "2026-11-17",
    "text": "inbox/hampton/docs/5e7b3c84444d.txt"
   },
   {
@@ -210,7 +234,7 @@
    "date": "2026-09-23",
    "detail": "Event date: November 25, 2026 Event Time: 06:00 PM - 07:00 PM Location: Parks & Recreation Builidng 34 Park Avenue Hampton, NH 03842",
    "firstSeen": "2026-11-12",
-   "lastSeen": "2026-11-16"
+   "lastSeen": "2026-11-17"
   },
   {
    "key": "town-feeds:21aed8c449ee",
@@ -234,7 +258,7 @@
    "date": "2026-11-09",
    "detail": "2026 September Rec Advisory Council Meeting Agenda",
    "firstSeen": "2026-11-10",
-   "lastSeen": "2026-11-16"
+   "lastSeen": "2026-11-17"
   },
   {
    "key": "town-feeds:ae3d4566b5ea",
@@ -257,7 +281,7 @@
    "date": "2026-11-04",
    "doc": "minutes",
    "firstSeen": "2026-11-10",
-   "lastSeen": "2026-11-16",
+   "lastSeen": "2026-11-17",
    "text": "inbox/hampton/docs/c407a187482d.txt"
   },
   {
@@ -269,7 +293,7 @@
    "date": "2026-10-28",
    "doc": "agenda",
    "firstSeen": "2026-11-10",
-   "lastSeen": "2026-11-16",
+   "lastSeen": "2026-11-17",
    "text": "inbox/hampton/docs/bc89db461499.txt"
   },
   {
@@ -281,7 +305,7 @@
    "date": "2026-09-23",
    "doc": "agenda",
    "firstSeen": "2026-11-10",
-   "lastSeen": "2026-11-16",
+   "lastSeen": "2026-11-17",
    "text": "inbox/hampton/docs/4c2853104075.txt"
   },
   {
@@ -293,7 +317,7 @@
    "date": "2026-08-17",
    "doc": "minutes",
    "firstSeen": "2026-11-10",
-   "lastSeen": "2026-11-16"
+   "lastSeen": "2026-11-17"
   },
   {
    "key": "agenda-center:59a9cf5781ec",
@@ -304,7 +328,7 @@
    "date": "2026-08-10",
    "doc": "agenda",
    "firstSeen": "2026-11-10",
-   "lastSeen": "2026-11-16"
+   "lastSeen": "2026-11-17"
   },
   {
    "key": "agenda-center:ee437f1b364e",
@@ -315,7 +339,7 @@
    "date": "2026-08-10",
    "doc": "minutes",
    "firstSeen": "2026-11-10",
-   "lastSeen": "2026-11-16"
+   "lastSeen": "2026-11-17"
   },
   {
    "key": "agenda-center:01686898e328",
@@ -326,7 +350,7 @@
    "date": "2026-08-05",
    "doc": "agenda",
    "firstSeen": "2026-11-10",
-   "lastSeen": "2026-11-16"
+   "lastSeen": "2026-11-17"
   },
   {
    "key": "agenda-center:8087e155501d",
@@ -415,7 +439,19 @@
    "date": "2026-11-16",
    "detail": "Economic Development Advisory Committee Update: Minutes added or updated",
    "firstSeen": "2026-11-07",
-   "lastSeen": "2026-11-16"
+   "lastSeen": "2026-11-17"
+  },
+  {
+   "key": "town-feeds:18483a6648e4",
+   "source": "town-feeds",
+   "kind": "notice",
+   "feed": "agenda",
+   "title": "Select Board",
+   "url": "https://www.hamptonnh.gov/AgendaCenter/PreviousVersions/2102",
+   "date": "2026-11-16",
+   "detail": "Select Board Update: Minutes added or updated",
+   "firstSeen": "2026-11-07",
+   "lastSeen": "2026-11-17"
   },
   {
    "key": "agenda-center:e8102c516ef8",
@@ -426,20 +462,8 @@
    "date": "2026-11-09",
    "doc": "agenda",
    "firstSeen": "2026-11-07",
-   "lastSeen": "2026-11-16",
+   "lastSeen": "2026-11-17",
    "text": "inbox/hampton/docs/e8102c516ef8.txt"
-  },
-  {
-   "key": "town-feeds:18483a6648e4",
-   "source": "town-feeds",
-   "kind": "notice",
-   "feed": "agenda",
-   "title": "Select Board",
-   "url": "https://www.hamptonnh.gov/AgendaCenter/PreviousVersions/2102",
-   "date": "2026-11-06",
-   "detail": "Select Board",
-   "firstSeen": "2026-11-07",
-   "lastSeen": "2026-11-16"
   },
   {
    "key": "agenda-center:608365a8055d",
@@ -450,7 +474,7 @@
    "date": "2026-11-12",
    "doc": "agenda",
    "firstSeen": "2026-11-06",
-   "lastSeen": "2026-11-16",
+   "lastSeen": "2026-11-17",
    "text": "inbox/hampton/docs/608365a8055d.txt"
   },
   {
@@ -487,7 +511,7 @@
    "date": "2026-11-05",
    "detail": "Planning Board Public Hearing: Wednesday, November 18, 2026 at 7:00 PM in the Selectmen's Meeting Room.",
    "firstSeen": "2026-11-06",
-   "lastSeen": "2026-11-16"
+   "lastSeen": "2026-11-17"
   },
   {
    "key": "town-feeds:8ec0dae649e1",
@@ -499,7 +523,7 @@
    "date": "2026-11-04",
    "detail": "HCC September 22, 2026 Meeting Agenda Update: Minutes added or updated",
    "firstSeen": "2026-11-04",
-   "lastSeen": "2026-11-16"
+   "lastSeen": "2026-11-17"
   },
   {
    "key": "town-feeds:f23861dd4d62",
@@ -511,7 +535,7 @@
    "date": "2026-11-04",
    "detail": "HBAC Update: Minutes added or updated",
    "firstSeen": "2026-11-04",
-   "lastSeen": "2026-11-16"
+   "lastSeen": "2026-11-17"
   },
   {
    "key": "town-feeds:bcb66a1f0436",
@@ -534,7 +558,7 @@
    "date": "2026-10-27",
    "doc": "minutes",
    "firstSeen": "2026-11-04",
-   "lastSeen": "2026-11-16",
+   "lastSeen": "2026-11-17",
    "text": "inbox/hampton/docs/1c6d53ce374c.txt"
   },
   {
@@ -546,7 +570,7 @@
    "date": "2026-10-22",
    "doc": "minutes",
    "firstSeen": "2026-11-04",
-   "lastSeen": "2026-11-16",
+   "lastSeen": "2026-11-17",
    "text": "inbox/hampton/docs/6c91b9f15a56.txt"
   },
   {
@@ -559,7 +583,7 @@
    "date": "2026-11-12",
    "detail": "Budget Committee Library Tour Update: Minutes added or updated",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-16"
+   "lastSeen": "2026-11-17"
   },
   {
    "key": "town-feeds:dbaa6453a84e",
@@ -571,7 +595,7 @@
    "date": "2026-11-09",
    "detail": "Planning Board - November 4, 2026 Agenda Update: Minutes added or updated",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-16"
+   "lastSeen": "2026-11-17"
   },
   {
    "key": "town-feeds:f62d5ffb231c",
@@ -583,7 +607,7 @@
    "date": "2026-11-06",
    "detail": "Select Board agenda Update: Minutes added or updated",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-16"
+   "lastSeen": "2026-11-17"
   },
   {
    "key": "town-feeds:515e836b88bb",
@@ -595,7 +619,7 @@
    "date": "2026-11-05",
    "detail": "Planning Board - October 21, 2026 Agenda Update: Minutes added or updated",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-16"
+   "lastSeen": "2026-11-17"
   },
   {
    "key": "agenda-center:5efc34e54fad",
@@ -606,7 +630,7 @@
    "date": "2026-11-04",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-16",
+   "lastSeen": "2026-11-17",
    "text": "inbox/hampton/docs/5efc34e54fad.txt"
   },
   {
@@ -619,7 +643,7 @@
    "date": "2026-11-04",
    "detail": "HCC October 27, 2026 Meeting Agenda Update: Minutes added or updated",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-16"
+   "lastSeen": "2026-11-17"
   },
   {
    "key": "town-feeds:cb5d99fb6472",
@@ -678,7 +702,7 @@
    "date": "2026-10-27",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-16",
+   "lastSeen": "2026-11-17",
    "text": "inbox/hampton/docs/7f556a07716e.txt"
   },
   {
@@ -702,7 +726,7 @@
    "date": "2026-10-23",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-16",
+   "lastSeen": "2026-11-17",
    "text": "inbox/hampton/docs/087286955bcf.txt"
   },
   {
@@ -714,7 +738,7 @@
    "date": "2026-10-23",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-16",
+   "lastSeen": "2026-11-17",
    "text": "inbox/hampton/docs/bd81dc292fc6.txt"
   },
   {
@@ -750,7 +774,7 @@
    "date": "2026-10-22",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-16",
+   "lastSeen": "2026-11-17",
    "text": "inbox/hampton/docs/f195aacb94ad.txt"
   },
   {
@@ -834,7 +858,7 @@
    "date": "2026-10-21",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-16",
+   "lastSeen": "2026-11-17",
    "text": "inbox/hampton/docs/4f18a63d5a32.txt"
   },
   {
@@ -846,7 +870,7 @@
    "date": "2026-10-21",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-16",
+   "lastSeen": "2026-11-17",
    "text": "inbox/hampton/docs/6948dc1e04c0.txt"
   },
   {
@@ -870,7 +894,7 @@
    "date": "2026-10-20",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-16",
+   "lastSeen": "2026-11-17",
    "text": "inbox/hampton/docs/1d18cdfb5c86.txt"
   },
   {
@@ -882,7 +906,7 @@
    "date": "2026-10-20",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-16",
+   "lastSeen": "2026-11-17",
    "text": "inbox/hampton/docs/c8da8eb1c4de.txt"
   },
   {
@@ -929,7 +953,7 @@
    "date": "2026-10-14",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-16",
+   "lastSeen": "2026-11-17",
    "text": "inbox/hampton/docs/870b63860c53.txt"
   },
   {
@@ -941,7 +965,7 @@
    "date": "2026-10-14",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-16",
+   "lastSeen": "2026-11-17",
    "text": "inbox/hampton/docs/9138e77e93c3.txt"
   },
   {
@@ -953,7 +977,7 @@
    "date": "2026-10-14",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-16",
+   "lastSeen": "2026-11-17",
    "text": "inbox/hampton/docs/0d6828163e43.txt"
   },
   {
@@ -965,7 +989,7 @@
    "date": "2026-10-14",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-16",
+   "lastSeen": "2026-11-17",
    "text": "inbox/hampton/docs/596d22cf501c.txt"
   },
   {
@@ -977,7 +1001,7 @@
    "date": "2026-10-08",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-16",
+   "lastSeen": "2026-11-17",
    "text": "inbox/hampton/docs/7540f171cc7f.txt"
   },
   {
@@ -989,7 +1013,7 @@
    "date": "2026-10-08",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-16",
+   "lastSeen": "2026-11-17",
    "text": "inbox/hampton/docs/254f30638f3e.txt"
   },
   {
@@ -1001,7 +1025,7 @@
    "date": "2026-10-07",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-16",
+   "lastSeen": "2026-11-17",
    "text": "inbox/hampton/docs/0efb01e4fb99.txt"
   },
   {
@@ -1013,7 +1037,7 @@
    "date": "2026-10-07",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-16",
+   "lastSeen": "2026-11-17",
    "text": "inbox/hampton/docs/d8cb5ec4e99f.txt"
   },
   {
@@ -1025,7 +1049,7 @@
    "date": "2026-09-30",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-16",
+   "lastSeen": "2026-11-17",
    "text": "inbox/hampton/docs/82ee19064406.txt"
   },
   {
@@ -1037,7 +1061,7 @@
    "date": "2026-09-30",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-16",
+   "lastSeen": "2026-11-17",
    "text": "inbox/hampton/docs/9f9566fa37b0.txt"
   },
   {
@@ -1049,7 +1073,7 @@
    "date": "2026-09-28",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-16",
+   "lastSeen": "2026-11-17",
    "text": "inbox/hampton/docs/451fd983aac5.txt"
   },
   {
@@ -1061,7 +1085,7 @@
    "date": "2026-09-28",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-16",
+   "lastSeen": "2026-11-17",
    "text": "inbox/hampton/docs/f120380fe969.txt"
   },
   {
@@ -1073,7 +1097,7 @@
    "date": "2026-09-24",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-16",
+   "lastSeen": "2026-11-17",
    "text": "inbox/hampton/docs/75c53cfd5fe0.txt"
   },
   {
@@ -1085,7 +1109,7 @@
    "date": "2026-09-24",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-16",
+   "lastSeen": "2026-11-17",
    "text": "inbox/hampton/docs/b43bbacab65b.txt"
   },
   {
@@ -1097,7 +1121,7 @@
    "date": "2026-09-23",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-16",
+   "lastSeen": "2026-11-17",
    "text": "inbox/hampton/docs/f1b3e607d15b.txt"
   },
   {
@@ -1109,7 +1133,7 @@
    "date": "2026-09-23",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-16",
+   "lastSeen": "2026-11-17",
    "text": "inbox/hampton/docs/a8c2041d3fe3.txt"
   },
   {
@@ -1121,7 +1145,7 @@
    "date": "2026-09-22",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-16",
+   "lastSeen": "2026-11-17",
    "text": "inbox/hampton/docs/a8588fe7a5bd.txt"
   },
   {
@@ -1133,7 +1157,7 @@
    "date": "2026-09-22",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-16",
+   "lastSeen": "2026-11-17",
    "text": "inbox/hampton/docs/c2d9e250014c.txt"
   },
   {
@@ -1145,7 +1169,7 @@
    "date": "2026-09-17",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-16",
+   "lastSeen": "2026-11-17",
    "text": "inbox/hampton/docs/7a84e0b5fc62.txt"
   },
   {
@@ -1157,7 +1181,7 @@
    "date": "2026-09-17",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-16",
+   "lastSeen": "2026-11-17",
    "text": "inbox/hampton/docs/02fb674612f3.txt"
   },
   {
@@ -1169,7 +1193,7 @@
    "date": "2026-09-16",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-16",
+   "lastSeen": "2026-11-17",
    "text": "inbox/hampton/docs/de5a01a64b39.txt"
   },
   {
@@ -1181,7 +1205,7 @@
    "date": "2026-09-16",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-16",
+   "lastSeen": "2026-11-17",
    "text": "inbox/hampton/docs/cedf134724b4.txt"
   },
   {
@@ -1193,7 +1217,7 @@
    "date": "2026-09-16",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-16",
+   "lastSeen": "2026-11-17",
    "text": "inbox/hampton/docs/0b5afc878f87.txt"
   },
   {
@@ -1205,7 +1229,7 @@
    "date": "2026-09-16",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-16",
+   "lastSeen": "2026-11-17",
    "text": "inbox/hampton/docs/7a1457e7f0d3.txt"
   },
   {
@@ -1217,7 +1241,7 @@
    "date": "2026-09-15",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-16",
+   "lastSeen": "2026-11-17",
    "text": "inbox/hampton/docs/7eb939037d26.txt"
   },
   {
@@ -1229,7 +1253,7 @@
    "date": "2026-09-15",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-16",
+   "lastSeen": "2026-11-17",
    "text": "inbox/hampton/docs/84a2534ca717.txt"
   },
   {
@@ -1241,7 +1265,7 @@
    "date": "2026-09-10",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-16",
+   "lastSeen": "2026-11-17",
    "text": "inbox/hampton/docs/bcfe5b15a460.txt"
   },
   {
@@ -1253,7 +1277,7 @@
    "date": "2026-09-10",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-16",
+   "lastSeen": "2026-11-17",
    "text": "inbox/hampton/docs/a9e8d387517e.txt"
   },
   {
@@ -1265,7 +1289,7 @@
    "date": "2026-09-09",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-16",
+   "lastSeen": "2026-11-17",
    "text": "inbox/hampton/docs/bdcd05ba55cf.txt"
   },
   {
@@ -1277,7 +1301,7 @@
    "date": "2026-09-09",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-16",
+   "lastSeen": "2026-11-17",
    "text": "inbox/hampton/docs/07e5bd3e40c3.txt"
   },
   {
@@ -1289,7 +1313,7 @@
    "date": "2026-09-09",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-16",
+   "lastSeen": "2026-11-17",
    "text": "inbox/hampton/docs/8a0684d9ff55.txt"
   },
   {
@@ -1301,7 +1325,7 @@
    "date": "2026-09-09",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-16",
+   "lastSeen": "2026-11-17",
    "text": "inbox/hampton/docs/a856deddceaa.txt"
   },
   {
@@ -1313,7 +1337,7 @@
    "date": "2026-09-02",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-16",
+   "lastSeen": "2026-11-17",
    "text": "inbox/hampton/docs/c2adbdb477fc.txt"
   },
   {
@@ -1325,7 +1349,7 @@
    "date": "2026-09-02",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-16",
+   "lastSeen": "2026-11-17",
    "text": "inbox/hampton/docs/85192a4f3548.txt"
   },
   {
@@ -1337,7 +1361,7 @@
    "date": "2026-09-02",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-16",
+   "lastSeen": "2026-11-17",
    "text": "inbox/hampton/docs/0fae3051e262.txt"
   },
   {
@@ -1349,7 +1373,7 @@
    "date": "2026-09-02",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-16"
+   "lastSeen": "2026-11-17"
   },
   {
    "key": "agenda-center:27e7824f0c0f",
@@ -1360,7 +1384,7 @@
    "date": "2026-08-25",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-16"
+   "lastSeen": "2026-11-17"
   },
   {
    "key": "agenda-center:7c78a921d9c3",
@@ -1371,7 +1395,7 @@
    "date": "2026-08-25",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-16"
+   "lastSeen": "2026-11-17"
   },
   {
    "key": "town-feeds:eaf01c8c9aa3",
@@ -1394,7 +1418,7 @@
    "date": "2026-08-19",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-16"
+   "lastSeen": "2026-11-17"
   },
   {
    "key": "agenda-center:c6ab25306012",
@@ -1405,7 +1429,7 @@
    "date": "2026-08-19",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-16"
+   "lastSeen": "2026-11-17"
   },
   {
    "key": "agenda-center:a8490beabed1",
@@ -1416,7 +1440,7 @@
    "date": "2026-08-19",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-16"
+   "lastSeen": "2026-11-17"
   },
   {
    "key": "agenda-center:b378ceb1243b",
@@ -1427,7 +1451,7 @@
    "date": "2026-08-19",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-16"
+   "lastSeen": "2026-11-17"
   },
   {
    "key": "agenda-center:b3a37764c3e7",
@@ -1438,7 +1462,7 @@
    "date": "2026-08-19",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-16"
+   "lastSeen": "2026-11-17"
   },
   {
    "key": "agenda-center:9b4dfd54e99f",
@@ -1449,7 +1473,7 @@
    "date": "2026-08-17",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-16"
+   "lastSeen": "2026-11-17"
   },
   {
    "key": "agenda-center:61efc05068ac",
@@ -1460,7 +1484,7 @@
    "date": "2026-08-13",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-16"
+   "lastSeen": "2026-11-17"
   },
   {
    "key": "agenda-center:f7ac0303d16c",
@@ -1471,7 +1495,7 @@
    "date": "2026-08-13",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-16"
+   "lastSeen": "2026-11-17"
   },
   {
    "key": "agenda-center:0e4ef3da0b5c",
@@ -1482,7 +1506,7 @@
    "date": "2026-08-12",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-16"
+   "lastSeen": "2026-11-17"
   },
   {
    "key": "agenda-center:37b0f9a6bc01",
@@ -1493,7 +1517,7 @@
    "date": "2026-08-12",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-16"
+   "lastSeen": "2026-11-17"
   },
   {
    "key": "agenda-center:8e400c3895fd",
@@ -1504,7 +1528,7 @@
    "date": "2026-08-12",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-16"
+   "lastSeen": "2026-11-17"
   },
   {
    "key": "agenda-center:281839188a79",
@@ -1515,7 +1539,7 @@
    "date": "2026-08-12",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-16"
+   "lastSeen": "2026-11-17"
   },
   {
    "key": "agenda-center:639bd32e138b",
@@ -1526,7 +1550,7 @@
    "date": "2026-08-05",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-16"
+   "lastSeen": "2026-11-17"
   },
   {
    "key": "agenda-center:88b96c1e475f",
@@ -1537,7 +1561,7 @@
    "date": "2026-08-05",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-16"
+   "lastSeen": "2026-11-17"
   },
   {
    "key": "agenda-center:75fa6d5e656c",
@@ -1548,7 +1572,7 @@
    "date": "2026-07-29",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-16"
+   "lastSeen": "2026-11-17"
   },
   {
    "key": "agenda-center:f0d11bfc7ae2",
@@ -1559,7 +1583,7 @@
    "date": "2026-07-29",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-16"
+   "lastSeen": "2026-11-17"
   },
   {
    "key": "agenda-center:26a6d374238b",
@@ -1570,7 +1594,7 @@
    "date": "2026-07-28",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-16"
+   "lastSeen": "2026-11-17"
   },
   {
    "key": "agenda-center:806ba973807d",
@@ -1581,7 +1605,7 @@
    "date": "2026-07-28",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-16"
+   "lastSeen": "2026-11-17"
   },
   {
    "key": "agenda-center:ad155e1285d6",
