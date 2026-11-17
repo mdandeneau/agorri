@@ -234,6 +234,15 @@
    "text": "Madison should create a Dam Committee to guide the Silver Lake dam replacement project.",
    "source": "https://www.madison-nh.org/wp-content/uploads/2026/11/2026-11-10-Agenda.pdf",
    "status": "draft"
+  },
+  {
+   "id": "2026-11-20-jackson-fireworks",
+   "date": "2026-11-20",
+   "town": "jackson",
+   "issue": "fireworks",
+   "text": "Jackson should set townwide rules for commercial fireworks displays.",
+   "source": "https://www.conwaydailysun.com/news/local/jackson-voters-defeat-fireworks-ban-petitioned-article/article_27688a43-5d15-4ad3-971d-ea43d068b772.html",
+   "status": "draft"
   }
  ]
 }
