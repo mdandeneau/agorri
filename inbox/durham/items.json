@@ -1,27 +1,73 @@
 {
  "note": "Written by ingest/fetch.mjs. Each item: where it came from (source, url), the date in the document when known, firstSeen (the day the fetcher first saw it; new since the last refresh = firstSeen on or after that day) and text (the saved agenda or minutes text, when there is one). Facts for the site still come from reading the linked document.",
  "town": "durham",
- "updated": "2026-11-17T16:53:53.757Z",
+ "updated": "2026-11-18T16:27:55.340Z",
  "sources": {
   "town-feeds": {
    "ok": true,
-   "found": 2,
-   "new": 0,
-   "checked": "2026-11-17T16:53:53.757Z",
-   "ms": 9039
+   "found": 12,
+   "new": 4,
+   "checked": "2026-11-18T16:27:55.340Z",
+   "ms": 9728
   },
   "agenda-center": {
    "ok": true,
    "found": 150,
-   "new": 1,
-   "checked": "2026-11-17T16:53:53.757Z",
-   "ms": 4887
+   "new": 0,
+   "checked": "2026-11-18T16:27:55.340Z",
+   "ms": 2892
   }
  },
  "notes": [
   "no text in https://www.durhamnh.gov/AgendaCenter/ViewFile/Minutes/_10072026-418 (scanned image?)"
  ],
  "items": [
+  {
+   "key": "town-feeds:913cedfaf501",
+   "source": "town-feeds",
+   "kind": "notice",
+   "feed": "news",
+   "title": "Technology Drive Parking Permits are Still Available for Purchase",
+   "url": "https://www.durhamnh.gov/CivicAlerts.aspx?aid=925",
+   "date": "2026-11-11",
+   "firstSeen": "2026-11-18",
+   "lastSeen": "2026-11-18"
+  },
+  {
+   "key": "town-feeds:a6120596e9c3",
+   "source": "town-feeds",
+   "kind": "notice",
+   "feed": "news",
+   "title": "Depot Road Lot Parking Permits are Still Available for Purchase",
+   "url": "https://www.durhamnh.gov/CivicAlerts.aspx?aid=924",
+   "date": "2026-11-11",
+   "firstSeen": "2026-11-18",
+   "lastSeen": "2026-11-18"
+  },
+  {
+   "key": "town-feeds:4adf66c91512",
+   "source": "town-feeds",
+   "kind": "notice",
+   "feed": "bid",
+   "title": "Durham Public Works - Fleet Services Division Supervisor",
+   "url": "https://www.durhamnh.gov/Jobs.aspx?UniqueId=100&CommunityJobs=False&JobID=Durham-Public-Works-Fleet-Services-Divis-9",
+   "date": "2026-11-10",
+   "detail": "TOWN OF DURHAM | NEW HAMPSHIRE FLEET SERVICES DIVISION SUPERVISOR - DURHAM PUBLIC WORKS The Town of Durham in New Hampshire's seacoast region is one of the most beautiful and desired locations in the State and is home to the University of New Hampshire. The Durham Public Works Department, a recognized leader in the Public Works field, is fully integrated and progressive, using modern equipment and facilities to achieve its goals. The Department is seeking a highly qualified team member to join an exceptional team of Public Works professionals to serve in the role of Fleet Services Division Sup",
+   "firstSeen": "2026-11-18",
+   "lastSeen": "2026-11-18"
+  },
+  {
+   "key": "town-feeds:7aa5c59efdbf",
+   "source": "town-feeds",
+   "kind": "notice",
+   "feed": "bid",
+   "title": "Durham Public Works - HIGHWAY DIVISION - MAINTENANCE WORKER IV",
+   "url": "https://www.durhamnh.gov/Jobs.aspx?UniqueId=100&CommunityJobs=False&JobID=Durham-Public-Works-HIGHWAY-DIVISION-MAI-7",
+   "date": "2026-11-10",
+   "detail": "POSITION OPENING HIGHWAY DIVISION - MAINTENANCE WORKER IV The Town of Durham in New Hampshire’s seacoast region is one of the most beautiful and desired locations in the State and is home to the University of New Hampshire. The Durham Public Works Department, a recognized leader in the Public Works field, is fully integrated and progressive using modern equipment and facilities to achieve its goals. The Department is seeking a highly qualified team member to join an exceptional team of Public Works professionals to serve in the role of Highway Division - Maintenance Worker IV. The successful c",
+   "firstSeen": "2026-11-18",
+   "lastSeen": "2026-11-18"
+  },
   {
    "key": "agenda-center:570f82f2f94a",
    "source": "agenda-center",
@@ -31,7 +77,7 @@
    "date": "2026-11-18",
    "doc": "agenda",
    "firstSeen": "2026-11-17",
-   "lastSeen": "2026-11-17",
+   "lastSeen": "2026-11-18",
    "text": "inbox/durham/docs/570f82f2f94a.txt"
   },
   {
@@ -43,7 +89,7 @@
    "date": "2026-11-04",
    "doc": "minutes",
    "firstSeen": "2026-11-12",
-   "lastSeen": "2026-11-17",
+   "lastSeen": "2026-11-18",
    "text": "inbox/durham/docs/92eff82f2a7a.txt"
   },
   {
@@ -55,7 +101,7 @@
    "date": "2026-11-05",
    "doc": "minutes",
    "firstSeen": "2026-11-10",
-   "lastSeen": "2026-11-17",
+   "lastSeen": "2026-11-18",
    "text": "inbox/durham/docs/b0aacb49915e.txt"
   },
   {
@@ -68,7 +114,7 @@
    "date": "2026-11-09",
    "detail": "Human Rights Commission Meeting Update: Minutes added or updated",
    "firstSeen": "2026-11-09",
-   "lastSeen": "2026-11-17"
+   "lastSeen": "2026-11-18"
   },
   {
    "key": "town-feeds:ff9c10de79d7",
@@ -80,7 +126,7 @@
    "date": "2026-11-09",
    "detail": "Human Rights Commission Meeting Update: Minutes added or updated",
    "firstSeen": "2026-11-09",
-   "lastSeen": "2026-11-17"
+   "lastSeen": "2026-11-18"
   },
   {
    "key": "agenda-center:a8d8ea17d127",
@@ -91,7 +137,7 @@
    "date": "2026-11-05",
    "doc": "minutes",
    "firstSeen": "2026-11-09",
-   "lastSeen": "2026-11-17",
+   "lastSeen": "2026-11-18",
    "text": "inbox/durham/docs/a8d8ea17d127.txt"
   },
   {
@@ -103,7 +149,7 @@
    "date": "2026-09-28",
    "doc": "minutes",
    "firstSeen": "2026-11-09",
-   "lastSeen": "2026-11-17",
+   "lastSeen": "2026-11-18",
    "text": "inbox/durham/docs/36d9ee169452.txt"
   },
   {
@@ -115,7 +161,7 @@
    "date": "2026-10-06",
    "doc": "agenda",
    "firstSeen": "2026-11-06",
-   "lastSeen": "2026-11-17",
+   "lastSeen": "2026-11-18",
    "text": "inbox/durham/docs/241a050dadc8.txt"
   },
   {
@@ -127,7 +173,7 @@
    "date": "2026-10-06",
    "doc": "minutes",
    "firstSeen": "2026-11-06",
-   "lastSeen": "2026-11-17",
+   "lastSeen": "2026-11-18",
    "text": "inbox/durham/docs/2e624494b5ba.txt"
   },
   {
@@ -139,7 +185,7 @@
    "date": "2026-11-09",
    "doc": "agenda",
    "firstSeen": "2026-11-04",
-   "lastSeen": "2026-11-17",
+   "lastSeen": "2026-11-18",
    "text": "inbox/durham/docs/f817c8dd2650.txt"
   },
   {
@@ -151,7 +197,7 @@
    "date": "2026-11-04",
    "doc": "agenda",
    "firstSeen": "2026-11-02",
-   "lastSeen": "2026-11-17",
+   "lastSeen": "2026-11-18",
    "text": "inbox/durham/docs/1b92e2ccba53.txt"
   },
   {
@@ -165,6 +211,18 @@
    "detail": "Event date: November 16, 2026 Event Time: 12:00 AM - 11:59 PM Description: Permit Valid: 01/01/27 Permit Expires: 12/31/27",
    "firstSeen": "2026-11-02",
    "lastSeen": "2026-11-16"
+  },
+  {
+   "key": "town-feeds:36a1a6524c09",
+   "source": "town-feeds",
+   "kind": "notice",
+   "feed": "news",
+   "title": "Durham Public Works Traffic/Construction Advisory",
+   "url": "https://www.durhamnh.gov/CivicAlerts.aspx?aid=921",
+   "date": "2026-11-17",
+   "detail": "Posted 11/16/2026 -- Alternating lane traffic on Mill Pond Road and Madbury Road - 11/18/2026",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-18"
   },
   {
    "key": "agenda-center:138192fb355c",
@@ -185,7 +243,7 @@
    "date": "2026-11-05",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17",
+   "lastSeen": "2026-11-18",
    "text": "inbox/durham/docs/5f93c53326bf.txt"
   },
   {
@@ -198,7 +256,7 @@
    "doc": "agenda",
    "packet": true,
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17"
+   "lastSeen": "2026-11-18"
   },
   {
    "key": "agenda-center:5516824fe5da",
@@ -209,8 +267,19 @@
    "date": "2026-11-05",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17",
+   "lastSeen": "2026-11-18",
    "text": "inbox/durham/docs/5516824fe5da.txt"
+  },
+  {
+   "key": "town-feeds:75daa51b54d6",
+   "source": "town-feeds",
+   "kind": "notice",
+   "feed": "news",
+   "title": "Election Information",
+   "url": "https://www.durhamnh.gov/CivicAlerts.aspx?aid=893",
+   "date": "2026-11-05",
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-18"
   },
   {
    "key": "agenda-center:73a5cf9cd788",
@@ -221,7 +290,7 @@
    "date": "2026-11-03",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17",
+   "lastSeen": "2026-11-18",
    "text": "inbox/durham/docs/73a5cf9cd788.txt"
   },
   {
@@ -233,7 +302,7 @@
    "url": "https://www.durhamnh.gov/CivicAlerts.aspx?aid=923",
    "date": "2026-10-31",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-01"
+   "lastSeen": "2026-11-18"
   },
   {
    "key": "town-feeds:31794b9fa78b",
@@ -245,7 +314,7 @@
    "date": "2026-10-31",
    "detail": "ADMINISTRATOR’S FY 2027 BUDGET HOLDS THE TOWN TAX RATE FLAT AND COMES WITH SERVICE TRADE-OFFS",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-01"
+   "lastSeen": "2026-11-18"
   },
   {
    "key": "town-feeds:dce0b75ab6ad",
@@ -269,30 +338,7 @@
    "date": "2026-10-28",
    "detail": "TOWN OF DURHAM | NEW HAMPSHIRE DEPUTY DIRECTOR - DURHAM PUBLIC WORKS A leadership opportunity in New Hampshire's Seacoast region $92,235 - $117,390 | 2026 salary range, depending on qualifications Help lead a progressive, fully integrated Public Works Team in Durham, New Hampshire, home to the University of New Hampshire's flagship campus. We are seeking a collaborative, hands-on leader who enjoys developing people, solving practical challenges, and helping shape the infrastructure and services that make a community thrive. THE OPPORTUNITY Working closely with the Director of Public Works and ",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-01"
-  },
-  {
-   "key": "town-feeds:36a1a6524c09",
-   "source": "town-feeds",
-   "kind": "notice",
-   "feed": "news",
-   "title": "Durham Public Works Traffic/Construction Advisory – Paving + Line Striping – Madbury Road",
-   "url": "https://www.durhamnh.gov/CivicAlerts.aspx?aid=921",
-   "date": "2026-10-28",
-   "detail": "Posted: 10/28/2026 -- Durham Public Works and its contractors will complete final paving and line striping on Madbury Road between Edgewood Road and Hampshire Avenue over the next week.",
-   "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-01"
-  },
-  {
-   "key": "town-feeds:75daa51b54d6",
-   "source": "town-feeds",
-   "kind": "notice",
-   "feed": "news",
-   "title": "Election Information",
-   "url": "https://www.durhamnh.gov/CivicAlerts.aspx?aid=893",
-   "date": "2026-10-28",
-   "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-01"
+   "lastSeen": "2026-11-18"
   },
   {
    "key": "town-feeds:75ec1144841d",
@@ -324,7 +370,7 @@
    "date": "2026-10-26",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17",
+   "lastSeen": "2026-11-18",
    "text": "inbox/durham/docs/515eb495b750.txt"
   },
   {
@@ -337,7 +383,7 @@
    "doc": "agenda",
    "packet": true,
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17"
+   "lastSeen": "2026-11-18"
   },
   {
    "key": "agenda-center:405662f84080",
@@ -348,7 +394,7 @@
    "date": "2026-10-21",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17",
+   "lastSeen": "2026-11-18",
    "text": "inbox/durham/docs/405662f84080.txt"
   },
   {
@@ -360,7 +406,7 @@
    "date": "2026-10-21",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17",
+   "lastSeen": "2026-11-18",
    "text": "inbox/durham/docs/e08fd1334fa8.txt"
   },
   {
@@ -372,7 +418,7 @@
    "url": "https://www.durhamnh.gov/CivicAlerts.aspx?aid=919",
    "date": "2026-10-19",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-01"
+   "lastSeen": "2026-11-18"
   },
   {
    "key": "town-feeds:325792822524",
@@ -405,7 +451,7 @@
    "date": "2026-10-07",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17",
+   "lastSeen": "2026-11-18",
    "text": "inbox/durham/docs/80a13f506924.txt"
   },
   {
@@ -417,7 +463,7 @@
    "date": "2026-10-07",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17"
+   "lastSeen": "2026-11-18"
   },
   {
    "key": "town-feeds:e6f5b860220b",
@@ -472,7 +518,7 @@
    "date": "2026-10-01",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17",
+   "lastSeen": "2026-11-18",
    "text": "inbox/durham/docs/ff63abd5f12d.txt"
   },
   {
@@ -484,7 +530,7 @@
    "date": "2026-10-01",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17",
+   "lastSeen": "2026-11-18",
    "text": "inbox/durham/docs/1484715310bc.txt"
   },
   {
@@ -496,7 +542,7 @@
    "date": "2026-09-29",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17",
+   "lastSeen": "2026-11-18",
    "text": "inbox/durham/docs/fc9d1ad7c6ba.txt"
   },
   {
@@ -508,7 +554,7 @@
    "date": "2026-09-29",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17",
+   "lastSeen": "2026-11-18",
    "text": "inbox/durham/docs/3fc7fa1de372.txt"
   },
   {
@@ -532,7 +578,7 @@
    "date": "2026-09-28",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17",
+   "lastSeen": "2026-11-18",
    "text": "inbox/durham/docs/a799c5d8f04c.txt"
   },
   {
@@ -544,7 +590,7 @@
    "date": "2026-09-16",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17",
+   "lastSeen": "2026-11-18",
    "text": "inbox/durham/docs/004d197651b1.txt"
   },
   {
@@ -556,7 +602,7 @@
    "date": "2026-09-16",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17",
+   "lastSeen": "2026-11-18",
    "text": "inbox/durham/docs/231bbc6e3273.txt"
   },
   {
@@ -568,7 +614,7 @@
    "date": "2026-09-14",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17",
+   "lastSeen": "2026-11-18",
    "text": "inbox/durham/docs/ed1195606bce.txt"
   },
   {
@@ -590,7 +636,7 @@
    "date": "2026-09-03",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17",
+   "lastSeen": "2026-11-18",
    "text": "inbox/durham/docs/725dc9db90d8.txt"
   },
   {
@@ -602,7 +648,7 @@
    "date": "2026-09-03",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17",
+   "lastSeen": "2026-11-18",
    "text": "inbox/durham/docs/04effc6a4ba7.txt"
   },
   {
@@ -615,7 +661,7 @@
    "doc": "agenda",
    "packet": true,
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17"
+   "lastSeen": "2026-11-18"
   },
   {
    "key": "agenda-center:9ed5d0c79bb7",
@@ -626,7 +672,7 @@
    "date": "2026-09-02",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17",
+   "lastSeen": "2026-11-18",
    "text": "inbox/durham/docs/9ed5d0c79bb7.txt"
   },
   {
@@ -638,7 +684,7 @@
    "date": "2026-09-02",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17",
+   "lastSeen": "2026-11-18",
    "text": "inbox/durham/docs/ac2ea0699623.txt"
   },
   {
@@ -650,7 +696,7 @@
    "date": "2026-09-01",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17"
+   "lastSeen": "2026-11-18"
   },
   {
    "key": "agenda-center:1e4da465bb45",
@@ -661,7 +707,7 @@
    "date": "2026-09-01",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17"
+   "lastSeen": "2026-11-18"
   },
   {
    "key": "agenda-center:7cd5be03255d",
@@ -672,7 +718,7 @@
    "date": "2026-08-26",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17"
+   "lastSeen": "2026-11-18"
   },
   {
    "key": "agenda-center:333f1872fb6e",
@@ -683,7 +729,7 @@
    "date": "2026-08-24",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17"
+   "lastSeen": "2026-11-18"
   },
   {
    "key": "agenda-center:7c8042bdae5c",
@@ -694,7 +740,7 @@
    "date": "2026-08-24",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17"
+   "lastSeen": "2026-11-18"
   },
   {
    "key": "agenda-center:34f2dc2dc5e4",
@@ -715,7 +761,7 @@
    "date": "2026-08-19",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17"
+   "lastSeen": "2026-11-18"
   },
   {
    "key": "agenda-center:2f592bf34e48",
@@ -727,7 +773,7 @@
    "doc": "agenda",
    "packet": true,
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17"
+   "lastSeen": "2026-11-18"
   },
   {
    "key": "town-feeds:d7d1f427110d",
@@ -760,7 +806,7 @@
    "date": "2026-08-13",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17"
+   "lastSeen": "2026-11-18"
   },
   {
    "key": "agenda-center:5a31615f3e2d",
@@ -771,7 +817,7 @@
    "date": "2026-08-13",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17"
+   "lastSeen": "2026-11-18"
   },
   {
    "key": "agenda-center:d407be23beff",
@@ -783,7 +829,7 @@
    "doc": "agenda",
    "packet": true,
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17"
+   "lastSeen": "2026-11-18"
   },
   {
    "key": "agenda-center:fff383832cf9",
@@ -794,7 +840,7 @@
    "date": "2026-08-13",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17"
+   "lastSeen": "2026-11-18"
   },
   {
    "key": "agenda-center:a747cfa42cba",
@@ -805,7 +851,7 @@
    "date": "2026-08-10",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17"
+   "lastSeen": "2026-11-18"
   },
   {
    "key": "agenda-center:37f405f1a942",
@@ -816,7 +862,7 @@
    "date": "2026-08-10",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17"
+   "lastSeen": "2026-11-18"
   },
   {
    "key": "agenda-center:e9a81c07ae6a",
@@ -827,7 +873,7 @@
    "date": "2026-08-05",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17"
+   "lastSeen": "2026-11-18"
   },
   {
    "key": "agenda-center:25e525b84113",
@@ -838,7 +884,7 @@
    "date": "2026-08-05",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17"
+   "lastSeen": "2026-11-18"
   },
   {
    "key": "agenda-center:4a64cc2987ae",
@@ -849,7 +895,7 @@
    "date": "2026-08-05",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17"
+   "lastSeen": "2026-11-18"
   },
   {
    "key": "agenda-center:eff4f8d5963c",
@@ -860,7 +906,7 @@
    "date": "2026-08-04",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17"
+   "lastSeen": "2026-11-18"
   },
   {
    "key": "agenda-center:1894f1adfca3",
@@ -871,7 +917,7 @@
    "date": "2026-08-04",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17"
+   "lastSeen": "2026-11-18"
   },
   {
    "key": "agenda-center:26f006116610",
@@ -882,7 +928,7 @@
    "date": "2026-07-27",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17"
+   "lastSeen": "2026-11-18"
   },
   {
    "key": "agenda-center:9b296d0b8e5e",
@@ -893,7 +939,7 @@
    "date": "2026-07-27",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17"
+   "lastSeen": "2026-11-18"
   },
   {
    "key": "agenda-center:7c8004011e73",

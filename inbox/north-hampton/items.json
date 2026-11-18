@@ -1,21 +1,21 @@
 {
  "note": "Written by ingest/fetch.mjs. Each item: where it came from (source, url), the date in the document when known, firstSeen (the day the fetcher first saw it; new since the last refresh = firstSeen on or after that day) and text (the saved agenda or minutes text, when there is one). Facts for the site still come from reading the linked document.",
  "town": "north-hampton",
- "updated": "2026-11-17T16:53:53.757Z",
+ "updated": "2026-11-18T16:27:55.340Z",
  "sources": {
   "town-feeds": {
    "ok": true,
-   "found": 31,
-   "new": 0,
-   "checked": "2026-11-17T16:53:53.757Z",
-   "ms": 6407
+   "found": 29,
+   "new": 8,
+   "checked": "2026-11-18T16:27:55.340Z",
+   "ms": 6255
   },
   "agenda-center": {
    "ok": true,
    "found": 150,
-   "new": 0,
-   "checked": "2026-11-17T16:53:53.757Z",
-   "ms": 10507
+   "new": 6,
+   "checked": "2026-11-18T16:27:55.340Z",
+   "ms": 13480
   }
  },
  "notes": [
@@ -23,10 +23,174 @@
   "no text in https://www.northhampton-nh.gov/AgendaCenter/ViewFile/Agenda/_11302026-528 (scanned image?)",
   "no text in https://www.northhampton-nh.gov/AgendaCenter/ViewFile/Agenda/_10192026-526 (scanned image?)",
   "no text in https://www.northhampton-nh.gov/AgendaCenter/ViewFile/Agenda/_12032026-586 (scanned image?)",
-  "no text in https://www.northhampton-nh.gov/AgendaCenter/ViewFile/Agenda/_12012026-585 (scanned image?)",
-  "no text in https://www.northhampton-nh.gov/AgendaCenter/ViewFile/Agenda/_10202026-565 (scanned image?)"
+  "no text in https://www.northhampton-nh.gov/AgendaCenter/ViewFile/Agenda/_12012026-585 (scanned image?)"
  ],
  "items": [
+  {
+   "key": "agenda-center:1e5ccfcbb255",
+   "source": "agenda-center",
+   "kind": "meeting-doc",
+   "title": "Agenda: Conservation Commission Meeting Agenda",
+   "url": "https://www.northhampton-nh.gov/AgendaCenter/ViewFile/Agenda/_11182026-590",
+   "date": "2026-11-18",
+   "doc": "agenda",
+   "firstSeen": "2026-11-18",
+   "lastSeen": "2026-11-18",
+   "text": "inbox/north-hampton/docs/1e5ccfcbb255.txt"
+  },
+  {
+   "key": "town-feeds:4f9ea784c3d8",
+   "source": "town-feeds",
+   "kind": "notice",
+   "feed": "agenda",
+   "title": "Conservation Commission Meeting Agenda",
+   "url": "https://www.northhampton-nh.gov/AgendaCenter/PreviousVersions/596",
+   "date": "2026-11-17",
+   "detail": "Conservation Commission Meeting Agenda Update: Minutes added or updated",
+   "firstSeen": "2026-11-18",
+   "lastSeen": "2026-11-18"
+  },
+  {
+   "key": "town-feeds:8515d3d98010",
+   "source": "town-feeds",
+   "kind": "notice",
+   "feed": "agenda",
+   "title": "Conservation Commission Meeting Agenda",
+   "url": "https://www.northhampton-nh.gov/AgendaCenter/PreviousVersions/595",
+   "date": "2026-11-17",
+   "detail": "Conservation Commission Meeting Agenda Update: Minutes added or updated",
+   "firstSeen": "2026-11-18",
+   "lastSeen": "2026-11-18"
+  },
+  {
+   "key": "town-feeds:bb9f46fe0df1",
+   "source": "town-feeds",
+   "kind": "notice",
+   "feed": "agenda",
+   "title": "Conservation Commission Meeting Agenda",
+   "url": "https://www.northhampton-nh.gov/AgendaCenter/PreviousVersions/594",
+   "date": "2026-11-17",
+   "detail": "Conservation Commission Meeting Agenda",
+   "firstSeen": "2026-11-18",
+   "lastSeen": "2026-11-18"
+  },
+  {
+   "key": "town-feeds:fbae3e7df672",
+   "source": "town-feeds",
+   "kind": "notice",
+   "feed": "agenda",
+   "title": "Conservation Commission Meeting Agenda",
+   "url": "https://www.northhampton-nh.gov/AgendaCenter/PreviousVersions/593",
+   "date": "2026-11-17",
+   "detail": "Conservation Commission Meeting Agenda",
+   "firstSeen": "2026-11-18",
+   "lastSeen": "2026-11-18"
+  },
+  {
+   "key": "town-feeds:6f845cc3c5b4",
+   "source": "town-feeds",
+   "kind": "notice",
+   "feed": "agenda",
+   "title": "Conservation Commission Meeting Agenda",
+   "url": "https://www.northhampton-nh.gov/AgendaCenter/PreviousVersions/592",
+   "date": "2026-11-17",
+   "detail": "Conservation Commission Meeting Agenda Update: Minutes added or updated",
+   "firstSeen": "2026-11-18",
+   "lastSeen": "2026-11-18"
+  },
+  {
+   "key": "town-feeds:a3391968135b",
+   "source": "town-feeds",
+   "kind": "notice",
+   "feed": "agenda",
+   "title": "Conservation Commission Meeting Agenda",
+   "url": "https://www.northhampton-nh.gov/AgendaCenter/PreviousVersions/591",
+   "date": "2026-11-17",
+   "detail": "Conservation Commission Meeting Agenda Update: Minutes added or updated",
+   "firstSeen": "2026-11-18",
+   "lastSeen": "2026-11-18"
+  },
+  {
+   "key": "town-feeds:733c4640020e",
+   "source": "town-feeds",
+   "kind": "notice",
+   "feed": "agenda",
+   "title": "Conservation Commission Meeting Agenda",
+   "url": "https://www.northhampton-nh.gov/AgendaCenter/PreviousVersions/590",
+   "date": "2026-11-17",
+   "detail": "Conservation Commission Meeting Agenda",
+   "firstSeen": "2026-11-18",
+   "lastSeen": "2026-11-18"
+  },
+  {
+   "key": "town-feeds:71883709b8e0",
+   "source": "town-feeds",
+   "kind": "notice",
+   "feed": "calendar",
+   "title": "Recreation Commission",
+   "url": "https://www.northhampton-nh.gov/Calendar.aspx?EID=701",
+   "date": "2026-11-04",
+   "detail": "Event date: December 2, 2026 Event Time: 06:00 PM - 11:59 PM Location: 231 Atlantic Avenue North Hampton, NH 03862",
+   "firstSeen": "2026-11-18",
+   "lastSeen": "2026-11-18"
+  },
+  {
+   "key": "agenda-center:a74463fe79f5",
+   "source": "agenda-center",
+   "kind": "meeting-doc",
+   "title": "Agenda: Conservation Commission Meeting Agenda",
+   "url": "https://www.northhampton-nh.gov/AgendaCenter/ViewFile/Agenda/_10132026-591",
+   "date": "2026-10-13",
+   "doc": "agenda",
+   "firstSeen": "2026-11-18",
+   "lastSeen": "2026-11-18",
+   "text": "inbox/north-hampton/docs/a74463fe79f5.txt"
+  },
+  {
+   "key": "agenda-center:2087f678dafc",
+   "source": "agenda-center",
+   "kind": "meeting-doc",
+   "title": "Minutes: Conservation Commission Meeting Agenda",
+   "url": "https://www.northhampton-nh.gov/AgendaCenter/ViewFile/Minutes/_10132026-591",
+   "date": "2026-10-13",
+   "doc": "minutes",
+   "firstSeen": "2026-11-18",
+   "lastSeen": "2026-11-18",
+   "text": "inbox/north-hampton/docs/2087f678dafc.txt"
+  },
+  {
+   "key": "agenda-center:00c50afc4a3f",
+   "source": "agenda-center",
+   "kind": "meeting-doc",
+   "title": "Agenda: Conservation Commission Meeting Agenda",
+   "url": "https://www.northhampton-nh.gov/AgendaCenter/ViewFile/Agenda/_09082026-592",
+   "date": "2026-09-08",
+   "doc": "agenda",
+   "firstSeen": "2026-11-18",
+   "lastSeen": "2026-11-18"
+  },
+  {
+   "key": "agenda-center:99f0fb239e3b",
+   "source": "agenda-center",
+   "kind": "meeting-doc",
+   "title": "Minutes: Conservation Commission Meeting Agenda",
+   "url": "https://www.northhampton-nh.gov/AgendaCenter/ViewFile/Minutes/_09082026-592",
+   "date": "2026-09-08",
+   "doc": "minutes",
+   "firstSeen": "2026-11-18",
+   "lastSeen": "2026-11-18"
+  },
+  {
+   "key": "agenda-center:4f0e62a8c94d",
+   "source": "agenda-center",
+   "kind": "meeting-doc",
+   "title": "Agenda: Conservation Commission Meeting Agenda",
+   "url": "https://www.northhampton-nh.gov/AgendaCenter/ViewFile/Agenda/_08112026-593",
+   "date": "2026-08-11",
+   "doc": "agenda",
+   "firstSeen": "2026-11-18",
+   "lastSeen": "2026-11-18"
+  },
   {
    "key": "agenda-center:f4972a388061",
    "source": "agenda-center",
@@ -36,7 +200,7 @@
    "date": "2026-11-19",
    "doc": "agenda",
    "firstSeen": "2026-11-16",
-   "lastSeen": "2026-11-17",
+   "lastSeen": "2026-11-18",
    "text": "inbox/north-hampton/docs/f4972a388061.txt"
   },
   {
@@ -49,7 +213,7 @@
    "date": "2026-11-16",
    "detail": "Agriculture Commission Agenda",
    "firstSeen": "2026-11-16",
-   "lastSeen": "2026-11-17"
+   "lastSeen": "2026-11-18"
   },
   {
    "key": "town-feeds:c60741f550e0",
@@ -61,7 +225,7 @@
    "date": "2026-11-16",
    "detail": "Heritage Commission Agenda",
    "firstSeen": "2026-11-16",
-   "lastSeen": "2026-11-17"
+   "lastSeen": "2026-11-18"
   },
   {
    "key": "town-feeds:372596ea4c6e",
@@ -96,7 +260,7 @@
    "date": "2026-11-16",
    "doc": "agenda",
    "firstSeen": "2026-11-16",
-   "lastSeen": "2026-11-17",
+   "lastSeen": "2026-11-18",
    "text": "inbox/north-hampton/docs/03dc0f69d00c.txt"
   },
   {
@@ -109,7 +273,7 @@
    "date": "2026-09-22",
    "detail": "Event date: November 30, 2026 Event Time: 06:30 PM - 11:59 PM Location: North Hampton, NH 03862",
    "firstSeen": "2026-11-16",
-   "lastSeen": "2026-11-17"
+   "lastSeen": "2026-11-18"
   },
   {
    "key": "agenda-center:09fadcb6b671",
@@ -121,7 +285,7 @@
    "doc": "agenda",
    "packet": true,
    "firstSeen": "2026-11-14",
-   "lastSeen": "2026-11-17"
+   "lastSeen": "2026-11-18"
   },
   {
    "key": "town-feeds:d5fd972c2f5f",
@@ -133,7 +297,7 @@
    "date": "2026-11-13",
    "detail": "Little Boars Head Commissioners Meeting Agenda",
    "firstSeen": "2026-11-14",
-   "lastSeen": "2026-11-17"
+   "lastSeen": "2026-11-18"
   },
   {
    "key": "town-feeds:b7840418bdb9",
@@ -145,7 +309,7 @@
    "date": "2026-11-13",
    "detail": "Long Range Planning Committee Agenda",
    "firstSeen": "2026-11-14",
-   "lastSeen": "2026-11-17"
+   "lastSeen": "2026-11-18"
   },
   {
    "key": "town-feeds:e010fb368117",
@@ -157,7 +321,7 @@
    "date": "2026-11-13",
    "detail": "Planning Board Public Hearing",
    "firstSeen": "2026-11-14",
-   "lastSeen": "2026-11-17"
+   "lastSeen": "2026-11-18"
   },
   {
    "key": "town-feeds:07955865dc3f",
@@ -180,7 +344,7 @@
    "date": "2026-12-03",
    "doc": "agenda",
    "firstSeen": "2026-11-13",
-   "lastSeen": "2026-11-17"
+   "lastSeen": "2026-11-18"
   },
   {
    "key": "agenda-center:0b6071e1e4ee",
@@ -192,7 +356,7 @@
    "doc": "agenda",
    "packet": true,
    "firstSeen": "2026-11-13",
-   "lastSeen": "2026-11-17"
+   "lastSeen": "2026-11-18"
   },
   {
    "key": "agenda-center:963a8077e5a3",
@@ -203,7 +367,7 @@
    "date": "2026-12-01",
    "doc": "agenda",
    "firstSeen": "2026-11-13",
-   "lastSeen": "2026-11-17"
+   "lastSeen": "2026-11-18"
   },
   {
    "key": "agenda-center:da188246c2b6",
@@ -226,7 +390,7 @@
    "date": "2026-11-16",
    "doc": "agenda",
    "firstSeen": "2026-11-12",
-   "lastSeen": "2026-11-17",
+   "lastSeen": "2026-11-18",
    "text": "inbox/north-hampton/docs/2c5b77f1c3e9.txt"
   },
   {
@@ -239,7 +403,7 @@
    "date": "2026-11-12",
    "detail": "Recreation Commission Meeting Agenda Update: Minutes added or updated",
    "firstSeen": "2026-11-12",
-   "lastSeen": "2026-11-17"
+   "lastSeen": "2026-11-18"
   },
   {
    "key": "town-feeds:e0333071efae",
@@ -251,7 +415,7 @@
    "date": "2026-11-12",
    "detail": "Recreation Commission Meeting Agenda Update: Minutes added or updated",
    "firstSeen": "2026-11-12",
-   "lastSeen": "2026-11-17"
+   "lastSeen": "2026-11-18"
   },
   {
    "key": "town-feeds:62029e34e8ed",
@@ -263,7 +427,7 @@
    "date": "2026-11-12",
    "detail": "Recreation Commission Meeting Agenda Update: Minutes added or updated",
    "firstSeen": "2026-11-12",
-   "lastSeen": "2026-11-17"
+   "lastSeen": "2026-11-18"
   },
   {
    "key": "town-feeds:e45f6fdc49af",
@@ -275,7 +439,7 @@
    "date": "2026-11-12",
    "detail": "Budget Committee Agenda",
    "firstSeen": "2026-11-12",
-   "lastSeen": "2026-11-17"
+   "lastSeen": "2026-11-18"
   },
   {
    "key": "town-feeds:fa03c74c38bc",
@@ -287,7 +451,7 @@
    "date": "2026-11-12",
    "detail": "Select Board Notice of Quorum",
    "firstSeen": "2026-11-12",
-   "lastSeen": "2026-11-17"
+   "lastSeen": "2026-11-18"
   },
   {
    "key": "town-feeds:017a10ae336f",
@@ -310,7 +474,7 @@
    "date": "2026-11-04",
    "doc": "minutes",
    "firstSeen": "2026-11-12",
-   "lastSeen": "2026-11-17",
+   "lastSeen": "2026-11-18",
    "text": "inbox/north-hampton/docs/1d14f0fe078f.txt"
   },
   {
@@ -323,7 +487,7 @@
    "date": "2026-10-27",
    "detail": "Event dates: November 26, 2026 - November 27, 2026 Event Time: 07:00 AM - 12:00 PM Location: North Hampton, NH 03862",
    "firstSeen": "2026-11-12",
-   "lastSeen": "2026-11-17"
+   "lastSeen": "2026-11-18"
   },
   {
    "key": "agenda-center:e6518c15bd44",
@@ -334,7 +498,7 @@
    "date": "2026-10-07",
    "doc": "minutes",
    "firstSeen": "2026-11-12",
-   "lastSeen": "2026-11-17",
+   "lastSeen": "2026-11-18",
    "text": "inbox/north-hampton/docs/e6518c15bd44.txt"
   },
   {
@@ -346,7 +510,7 @@
    "date": "2026-08-05",
    "doc": "minutes",
    "firstSeen": "2026-11-12",
-   "lastSeen": "2026-11-17"
+   "lastSeen": "2026-11-18"
   },
   {
    "key": "town-feeds:260e71b5896f",
@@ -358,7 +522,7 @@
    "date": "2026-11-08",
    "detail": "LBH Planning Board Zoning Ordinance Working Group — Work Session Agenda",
    "firstSeen": "2026-11-09",
-   "lastSeen": "2026-11-17"
+   "lastSeen": "2026-11-18"
   },
   {
    "key": "town-feeds:0444f98016cd",
@@ -429,7 +593,7 @@
    "date": "2026-11-12",
    "detail": "Select Board Meeting Agenda Update: Minutes added or updated",
    "firstSeen": "2026-11-06",
-   "lastSeen": "2026-11-17"
+   "lastSeen": "2026-11-18"
   },
   {
    "key": "town-feeds:3fe17861f6aa",
@@ -452,7 +616,7 @@
    "date": "2026-11-12",
    "doc": "agenda",
    "firstSeen": "2026-11-05",
-   "lastSeen": "2026-11-17",
+   "lastSeen": "2026-11-18",
    "text": "inbox/north-hampton/docs/a28e4bea6332.txt"
   },
   {
@@ -537,7 +701,7 @@
    "date": "2026-11-12",
    "detail": "Recreation Commission Meeting Agenda Update: Minutes added or updated",
    "firstSeen": "2026-11-04",
-   "lastSeen": "2026-11-17"
+   "lastSeen": "2026-11-18"
   },
   {
    "key": "town-feeds:ddef7cb5e873",
@@ -560,7 +724,7 @@
    "date": "2026-11-04",
    "doc": "agenda",
    "firstSeen": "2026-11-04",
-   "lastSeen": "2026-11-17",
+   "lastSeen": "2026-11-18",
    "text": "inbox/north-hampton/docs/dbb9784d4f5a.txt"
   },
   {
@@ -727,7 +891,7 @@
    "date": "2026-11-05",
    "doc": "agenda",
    "firstSeen": "2026-11-03",
-   "lastSeen": "2026-11-17",
+   "lastSeen": "2026-11-18",
    "text": "inbox/north-hampton/docs/8fce81b8d135.txt"
   },
   {
@@ -833,7 +997,7 @@
    "date": "2026-11-17",
    "doc": "agenda",
    "firstSeen": "2026-11-02",
-   "lastSeen": "2026-11-17",
+   "lastSeen": "2026-11-18",
    "text": "inbox/north-hampton/docs/69f37fb7e9a2.txt"
   },
   {
@@ -846,7 +1010,7 @@
    "date": "2026-11-13",
    "detail": "Planning Board Public Hearing",
    "firstSeen": "2026-11-02",
-   "lastSeen": "2026-11-17"
+   "lastSeen": "2026-11-18"
   },
   {
    "key": "town-feeds:e48c2c0e8cb3",
@@ -924,7 +1088,7 @@
    "date": "2026-12-07",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17"
+   "lastSeen": "2026-11-18"
   },
   {
    "key": "agenda-center:46d1398dbb65",
@@ -936,7 +1100,7 @@
    "doc": "agenda",
    "packet": true,
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17"
+   "lastSeen": "2026-11-18"
   },
   {
    "key": "agenda-center:6ef853b779ea",
@@ -957,7 +1121,7 @@
    "date": "2026-11-30",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17"
+   "lastSeen": "2026-11-18"
   },
   {
    "key": "agenda-center:6d2e659bf99b",
@@ -969,7 +1133,7 @@
    "doc": "agenda",
    "packet": true,
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17"
+   "lastSeen": "2026-11-18"
   },
   {
    "key": "agenda-center:00e8904112c3",
@@ -1014,7 +1178,7 @@
    "date": "2026-11-13",
    "detail": "LBH Zoning Board Regular Meeting Update: Minutes added or updated",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17"
+   "lastSeen": "2026-11-18"
   },
   {
    "key": "town-feeds:c227284da59e",
@@ -1026,7 +1190,7 @@
    "date": "2026-11-13",
    "detail": "Planning Board Long Range Planning Committee Update: Minutes added or updated",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17"
+   "lastSeen": "2026-11-18"
   },
   {
    "key": "town-feeds:5a8a3d7c19a9",
@@ -1038,7 +1202,7 @@
    "date": "2026-11-09",
    "detail": "Planning Board Agenda Update: Minutes added or updated",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17"
+   "lastSeen": "2026-11-18"
   },
   {
    "key": "town-feeds:effc7db20358",
@@ -1050,7 +1214,7 @@
    "date": "2026-11-08",
    "detail": "LBH Planning Board Zoning Ordinance Working Group — Work Session Update: Minutes added or updated",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17"
+   "lastSeen": "2026-11-18"
   },
   {
    "key": "agenda-center:a45329381f8e",
@@ -1334,7 +1498,7 @@
    "date": "2026-10-19",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17"
+   "lastSeen": "2026-11-18"
   },
   {
    "key": "agenda-center:f1168afbd9ec",
@@ -1346,7 +1510,7 @@
    "doc": "agenda",
    "packet": true,
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17"
+   "lastSeen": "2026-11-18"
   },
   {
    "key": "agenda-center:70c22fec116d",
@@ -1357,7 +1521,7 @@
    "date": "2026-10-07",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17",
+   "lastSeen": "2026-11-18",
    "text": "inbox/north-hampton/docs/70c22fec116d.txt"
   },
   {
@@ -1369,7 +1533,7 @@
    "date": "2026-09-22",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17",
+   "lastSeen": "2026-11-18",
    "text": "inbox/north-hampton/docs/fd4c51e658da.txt"
   },
   {
@@ -1381,7 +1545,7 @@
    "date": "2026-09-17",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17",
+   "lastSeen": "2026-11-18",
    "text": "inbox/north-hampton/docs/350d80f72b6c.txt"
   },
   {
@@ -1393,7 +1557,7 @@
    "date": "2026-09-15",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17",
+   "lastSeen": "2026-11-18",
    "text": "inbox/north-hampton/docs/cccc0586d182.txt"
   },
   {
@@ -1417,7 +1581,7 @@
    "date": "2026-09-10",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17",
+   "lastSeen": "2026-11-18",
    "text": "inbox/north-hampton/docs/cc858dbe00b3.txt"
   },
   {
@@ -1441,7 +1605,7 @@
    "date": "2026-09-09",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17",
+   "lastSeen": "2026-11-18",
    "text": "inbox/north-hampton/docs/9cc524d3bfce.txt"
   },
   {
@@ -1453,7 +1617,7 @@
    "date": "2026-09-09",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17",
+   "lastSeen": "2026-11-18",
    "text": "inbox/north-hampton/docs/652464076591.txt"
   },
   {
@@ -1465,7 +1629,7 @@
    "date": "2026-09-04",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17",
+   "lastSeen": "2026-11-18",
    "text": "inbox/north-hampton/docs/ebeaf775848d.txt"
   },
   {
@@ -1477,7 +1641,7 @@
    "date": "2026-09-01",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17"
+   "lastSeen": "2026-11-18"
   },
   {
    "key": "agenda-center:5133f049e0ac",
@@ -1499,7 +1663,7 @@
    "date": "2026-08-27",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17"
+   "lastSeen": "2026-11-18"
   },
   {
    "key": "agenda-center:80d127d7ff17",
@@ -1521,7 +1685,7 @@
    "date": "2026-08-18",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17"
+   "lastSeen": "2026-11-18"
   },
   {
    "key": "agenda-center:04f39409facd",
@@ -1532,7 +1696,7 @@
    "date": "2026-08-18",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17"
+   "lastSeen": "2026-11-18"
   },
   {
    "key": "agenda-center:e0960cfc3716",
@@ -1565,7 +1729,7 @@
    "date": "2026-08-13",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17"
+   "lastSeen": "2026-11-18"
   },
   {
    "key": "agenda-center:fb6563033f60",
@@ -1576,7 +1740,7 @@
    "date": "2026-08-13",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17"
+   "lastSeen": "2026-11-18"
   },
   {
    "key": "agenda-center:e764b624bb11",
@@ -1609,7 +1773,7 @@
    "date": "2026-08-05",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17"
+   "lastSeen": "2026-11-18"
   },
   {
    "key": "agenda-center:c4a82449de63",
@@ -1620,7 +1784,7 @@
    "date": "2026-08-04",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17"
+   "lastSeen": "2026-11-18"
   },
   {
    "key": "agenda-center:99a206c97a1f",
@@ -1631,7 +1795,7 @@
    "date": "2026-08-04",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17"
+   "lastSeen": "2026-11-18"
   },
   {
    "key": "agenda-center:3b704505a4ac",
@@ -1676,7 +1840,7 @@
    "date": "2026-07-28",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17"
+   "lastSeen": "2026-11-18"
   },
   {
    "key": "agenda-center:d72e798b16e7",
@@ -1687,7 +1851,7 @@
    "date": "2026-07-27",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17"
+   "lastSeen": "2026-11-18"
   },
   {
    "key": "agenda-center:d9b1c6d6637d",
@@ -1698,7 +1862,7 @@
    "date": "2026-07-24",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17"
+   "lastSeen": "2026-11-18"
   },
   {
    "key": "agenda-center:d8d6cc4b6fc5",
@@ -1709,7 +1873,7 @@
    "date": "2026-07-24",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17"
+   "lastSeen": "2026-11-18"
   },
   {
    "key": "agenda-center:f031f60747b2",
@@ -1720,7 +1884,7 @@
    "date": "2026-07-23",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17"
+   "lastSeen": "2026-11-18"
   },
   {
    "key": "agenda-center:b90601bb6829",
@@ -1731,7 +1895,7 @@
    "date": "2026-07-23",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17"
+   "lastSeen": "2026-11-18"
   },
   {
    "key": "agenda-center:cac7c1d0910f",

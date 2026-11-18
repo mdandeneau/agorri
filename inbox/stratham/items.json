@@ -1,18 +1,42 @@
 {
  "note": "Written by ingest/fetch.mjs. Each item: where it came from (source, url), the date in the document when known, firstSeen (the day the fetcher first saw it; new since the last refresh = firstSeen on or after that day) and text (the saved agenda or minutes text, when there is one). Facts for the site still come from reading the linked document.",
  "town": "stratham",
- "updated": "2026-11-17T16:53:53.757Z",
+ "updated": "2026-11-18T16:27:55.340Z",
  "sources": {
   "meeting-docs": {
    "ok": true,
    "found": 150,
-   "new": 0,
-   "checked": "2026-11-17T16:53:53.757Z",
-   "ms": 398
+   "new": 2,
+   "checked": "2026-11-18T16:27:55.340Z",
+   "ms": 3262
   }
  },
  "notes": [],
  "items": [
+  {
+   "key": "meeting-docs:4ef1d30888b9",
+   "source": "meeting-docs",
+   "kind": "meeting-doc",
+   "title": "Minutes: 11 4 2026 special sb meeting.pdf?t=202611180802310",
+   "url": "https://www.strathamnh.gov/Documents/Boards%20and%20Committees/Select%20Board/Agendas%20and%20Minutes/2026/minutes/11%204%202026%20special%20sb%20meeting.pdf?t=202611180802310",
+   "date": null,
+   "doc": "minutes",
+   "firstSeen": "2026-11-18",
+   "lastSeen": "2026-11-18",
+   "text": "inbox/stratham/docs/4ef1d30888b9.txt"
+  },
+  {
+   "key": "meeting-docs:faeb2a8eee1c",
+   "source": "meeting-docs",
+   "kind": "meeting-doc",
+   "title": "Minutes: 11 2 2026 sb minutes.pdf?t=202611180801260",
+   "url": "https://www.strathamnh.gov/Documents/Boards%20and%20Committees/Select%20Board/Agendas%20and%20Minutes/2026/minutes/11%202%202026%20sb%20minutes.pdf?t=202611180801260",
+   "date": null,
+   "doc": "minutes",
+   "firstSeen": "2026-11-18",
+   "lastSeen": "2026-11-18",
+   "text": "inbox/stratham/docs/faeb2a8eee1c.txt"
+  },
   {
    "key": "meeting-docs:03390f0467bc",
    "source": "meeting-docs",
@@ -22,7 +46,7 @@
    "date": null,
    "doc": "agenda",
    "firstSeen": "2026-11-14",
-   "lastSeen": "2026-11-17",
+   "lastSeen": "2026-11-18",
    "text": "inbox/stratham/docs/03390f0467bc.txt"
   },
   {
@@ -34,7 +58,7 @@
    "date": null,
    "packet": true,
    "firstSeen": "2026-11-14",
-   "lastSeen": "2026-11-17"
+   "lastSeen": "2026-11-18"
   },
   {
    "key": "meeting-docs:1cb5f2e2c068",
@@ -45,7 +69,7 @@
    "date": null,
    "doc": "minutes",
    "firstSeen": "2026-11-04",
-   "lastSeen": "2026-11-17",
+   "lastSeen": "2026-11-18",
    "text": "inbox/stratham/docs/1cb5f2e2c068.txt"
   },
   {
@@ -57,7 +81,7 @@
    "date": "2026-11-04",
    "doc": "agenda",
    "firstSeen": "2026-11-03",
-   "lastSeen": "2026-11-17",
+   "lastSeen": "2026-11-18",
    "text": "inbox/stratham/docs/8f1770013f94.txt"
   },
   {
@@ -69,7 +93,7 @@
    "date": "2026-11-13",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17",
+   "lastSeen": "2026-11-18",
    "text": "inbox/stratham/docs/a0e1f96b43ab.txt"
   },
   {
@@ -81,7 +105,7 @@
    "date": null,
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17",
+   "lastSeen": "2026-11-18",
    "text": "inbox/stratham/docs/c363fa6f2d2e.txt"
   },
   {
@@ -93,7 +117,7 @@
    "date": null,
    "packet": true,
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17"
+   "lastSeen": "2026-11-18"
   },
   {
    "key": "meeting-docs:420be2d4f2ef",
@@ -104,7 +128,7 @@
    "date": null,
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17",
+   "lastSeen": "2026-11-18",
    "text": "inbox/stratham/docs/420be2d4f2ef.txt"
   },
   {
@@ -116,7 +140,7 @@
    "date": null,
    "packet": true,
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17"
+   "lastSeen": "2026-11-18"
   },
   {
    "key": "meeting-docs:3b1f65fad9e7",
@@ -127,7 +151,7 @@
    "date": null,
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17",
+   "lastSeen": "2026-11-18",
    "text": "inbox/stratham/docs/3b1f65fad9e7.txt"
   },
   {
@@ -139,7 +163,7 @@
    "date": null,
    "packet": true,
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17"
+   "lastSeen": "2026-11-18"
   },
   {
    "key": "meeting-docs:23cfe1567e37",
@@ -150,7 +174,7 @@
    "date": null,
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17",
+   "lastSeen": "2026-11-18",
    "text": "inbox/stratham/docs/23cfe1567e37.txt"
   },
   {
@@ -162,7 +186,7 @@
    "date": null,
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17",
+   "lastSeen": "2026-11-18",
    "text": "inbox/stratham/docs/d8cc2eeb496c.txt"
   },
   {
@@ -174,7 +198,7 @@
    "date": null,
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17",
+   "lastSeen": "2026-11-18",
    "text": "inbox/stratham/docs/b21867fbb877.txt"
   },
   {
@@ -186,7 +210,7 @@
    "date": null,
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17",
+   "lastSeen": "2026-11-18",
    "text": "inbox/stratham/docs/e3f66cf32fc9.txt"
   },
   {
@@ -198,7 +222,7 @@
    "date": null,
    "packet": true,
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17"
+   "lastSeen": "2026-11-18"
   },
   {
    "key": "meeting-docs:93b2709a548c",
@@ -209,7 +233,7 @@
    "date": null,
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17",
+   "lastSeen": "2026-11-18",
    "text": "inbox/stratham/docs/93b2709a548c.txt"
   },
   {
@@ -221,7 +245,7 @@
    "date": null,
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17",
+   "lastSeen": "2026-11-18",
    "text": "inbox/stratham/docs/c9b475385bda.txt"
   },
   {
@@ -233,7 +257,7 @@
    "date": null,
    "packet": true,
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17"
+   "lastSeen": "2026-11-18"
   },
   {
    "key": "meeting-docs:fefa8732de87",
@@ -244,7 +268,7 @@
    "date": null,
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17",
+   "lastSeen": "2026-11-18",
    "text": "inbox/stratham/docs/fefa8732de87.txt"
   },
   {
@@ -256,7 +280,7 @@
    "date": null,
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17",
+   "lastSeen": "2026-11-18",
    "text": "inbox/stratham/docs/3d9124cfe624.txt"
   },
   {
@@ -268,7 +292,7 @@
    "date": null,
    "packet": true,
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17"
+   "lastSeen": "2026-11-18"
   },
   {
    "key": "meeting-docs:8cf3fff63e3d",
@@ -279,7 +303,7 @@
    "date": null,
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17",
+   "lastSeen": "2026-11-18",
    "text": "inbox/stratham/docs/8cf3fff63e3d.txt"
   },
   {
@@ -291,7 +315,7 @@
    "date": null,
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17",
+   "lastSeen": "2026-11-18",
    "text": "inbox/stratham/docs/f1923cfb9617.txt"
   },
   {
@@ -303,7 +327,7 @@
    "date": null,
    "packet": true,
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17"
+   "lastSeen": "2026-11-18"
   },
   {
    "key": "meeting-docs:abb325731c3c",
@@ -314,7 +338,7 @@
    "date": null,
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17",
+   "lastSeen": "2026-11-18",
    "text": "inbox/stratham/docs/abb325731c3c.txt"
   },
   {
@@ -326,7 +350,7 @@
    "date": null,
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17",
+   "lastSeen": "2026-11-18",
    "text": "inbox/stratham/docs/035c879a0b31.txt"
   },
   {
@@ -338,7 +362,7 @@
    "date": null,
    "packet": true,
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17"
+   "lastSeen": "2026-11-18"
   },
   {
    "key": "meeting-docs:46c5eb8abba0",
@@ -349,7 +373,7 @@
    "date": null,
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17",
+   "lastSeen": "2026-11-18",
    "text": "inbox/stratham/docs/46c5eb8abba0.txt"
   },
   {
@@ -361,7 +385,7 @@
    "date": null,
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17",
+   "lastSeen": "2026-11-18",
    "text": "inbox/stratham/docs/da15440ab7bf.txt"
   },
   {
@@ -373,7 +397,7 @@
    "date": null,
    "packet": true,
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17"
+   "lastSeen": "2026-11-18"
   },
   {
    "key": "meeting-docs:b02ce0b9afde",
@@ -384,7 +408,7 @@
    "date": null,
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17",
+   "lastSeen": "2026-11-18",
    "text": "inbox/stratham/docs/b02ce0b9afde.txt"
   },
   {
@@ -396,7 +420,7 @@
    "date": null,
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17",
+   "lastSeen": "2026-11-18",
    "text": "inbox/stratham/docs/9028badcafd4.txt"
   },
   {
@@ -408,7 +432,7 @@
    "date": null,
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17",
+   "lastSeen": "2026-11-18",
    "text": "inbox/stratham/docs/09e887fd5d5d.txt"
   },
   {
@@ -420,7 +444,7 @@
    "date": null,
    "packet": true,
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17"
+   "lastSeen": "2026-11-18"
   },
   {
    "key": "meeting-docs:6bc894648b1e",
@@ -431,7 +455,7 @@
    "date": null,
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17",
+   "lastSeen": "2026-11-18",
    "text": "inbox/stratham/docs/6bc894648b1e.txt"
   },
   {
@@ -443,7 +467,7 @@
    "date": null,
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17",
+   "lastSeen": "2026-11-18",
    "text": "inbox/stratham/docs/a0f90a91254a.txt"
   },
   {
@@ -455,7 +479,7 @@
    "date": null,
    "packet": true,
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17"
+   "lastSeen": "2026-11-18"
   },
   {
    "key": "meeting-docs:05976e8b37c2",
@@ -466,7 +490,7 @@
    "date": null,
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17",
+   "lastSeen": "2026-11-18",
    "text": "inbox/stratham/docs/05976e8b37c2.txt"
   },
   {
@@ -478,7 +502,7 @@
    "date": null,
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17",
+   "lastSeen": "2026-11-18",
    "text": "inbox/stratham/docs/482c22f77560.txt"
   },
   {
@@ -490,7 +514,7 @@
    "date": null,
    "packet": true,
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17"
+   "lastSeen": "2026-11-18"
   },
   {
    "key": "meeting-docs:3e721c2edeca",
@@ -501,7 +525,7 @@
    "date": null,
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17",
+   "lastSeen": "2026-11-18",
    "text": "inbox/stratham/docs/3e721c2edeca.txt"
   },
   {
@@ -513,7 +537,7 @@
    "date": null,
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17",
+   "lastSeen": "2026-11-18",
    "text": "inbox/stratham/docs/0e59397b0f2a.txt"
   },
   {
@@ -525,7 +549,7 @@
    "date": null,
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17",
+   "lastSeen": "2026-11-18",
    "text": "inbox/stratham/docs/387b7d1b74e4.txt"
   },
   {
@@ -537,7 +561,7 @@
    "date": null,
    "packet": true,
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17"
+   "lastSeen": "2026-11-18"
   },
   {
    "key": "meeting-docs:d752a7e153e0",
@@ -548,7 +572,7 @@
    "date": null,
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17",
+   "lastSeen": "2026-11-18",
    "text": "inbox/stratham/docs/d752a7e153e0.txt"
   },
   {
@@ -560,7 +584,7 @@
    "date": null,
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17",
+   "lastSeen": "2026-11-18",
    "text": "inbox/stratham/docs/b4ccba231746.txt"
   },
   {
@@ -572,7 +596,7 @@
    "date": null,
    "packet": true,
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17"
+   "lastSeen": "2026-11-18"
   },
   {
    "key": "meeting-docs:3f74cfa018cf",
@@ -583,7 +607,7 @@
    "date": null,
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17",
+   "lastSeen": "2026-11-18",
    "text": "inbox/stratham/docs/3f74cfa018cf.txt"
   },
   {
@@ -595,7 +619,7 @@
    "date": null,
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17",
+   "lastSeen": "2026-11-18",
    "text": "inbox/stratham/docs/3da976ea2e0d.txt"
   },
   {
@@ -607,7 +631,7 @@
    "date": null,
    "packet": true,
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17"
+   "lastSeen": "2026-11-18"
   },
   {
    "key": "meeting-docs:1856f2a128bb",
@@ -618,7 +642,7 @@
    "date": null,
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17",
+   "lastSeen": "2026-11-18",
    "text": "inbox/stratham/docs/1856f2a128bb.txt"
   },
   {
@@ -630,7 +654,7 @@
    "date": null,
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17",
+   "lastSeen": "2026-11-18",
    "text": "inbox/stratham/docs/db9c0649fe88.txt"
   },
   {
@@ -642,7 +666,7 @@
    "date": null,
    "packet": true,
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17"
+   "lastSeen": "2026-11-18"
   },
   {
    "key": "meeting-docs:fef6543ce64e",
@@ -653,7 +677,7 @@
    "date": null,
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17",
+   "lastSeen": "2026-11-18",
    "text": "inbox/stratham/docs/fef6543ce64e.txt"
   },
   {
@@ -665,7 +689,7 @@
    "date": null,
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17",
+   "lastSeen": "2026-11-18",
    "text": "inbox/stratham/docs/7c0d6ce80af3.txt"
   },
   {
@@ -677,7 +701,7 @@
    "date": null,
    "packet": true,
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17"
+   "lastSeen": "2026-11-18"
   },
   {
    "key": "meeting-docs:e2fdf74e8120",
@@ -688,7 +712,7 @@
    "date": null,
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17",
+   "lastSeen": "2026-11-18",
    "text": "inbox/stratham/docs/e2fdf74e8120.txt"
   },
   {
@@ -700,7 +724,7 @@
    "date": null,
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17",
+   "lastSeen": "2026-11-18",
    "text": "inbox/stratham/docs/2035c9cb294d.txt"
   },
   {
@@ -712,7 +736,7 @@
    "date": null,
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17",
+   "lastSeen": "2026-11-18",
    "text": "inbox/stratham/docs/9f4b2736f3af.txt"
   },
   {
@@ -724,7 +748,7 @@
    "date": null,
    "packet": true,
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17"
+   "lastSeen": "2026-11-18"
   },
   {
    "key": "meeting-docs:60eac7cce42a",
@@ -735,7 +759,7 @@
    "date": null,
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17",
+   "lastSeen": "2026-11-18",
    "text": "inbox/stratham/docs/60eac7cce42a.txt"
   },
   {
@@ -747,7 +771,7 @@
    "date": null,
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17",
+   "lastSeen": "2026-11-18",
    "text": "inbox/stratham/docs/8b48fbc1cc80.txt"
   },
   {
@@ -759,7 +783,7 @@
    "date": null,
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17",
+   "lastSeen": "2026-11-18",
    "text": "inbox/stratham/docs/633d65856cd8.txt"
   },
   {
@@ -771,7 +795,7 @@
    "date": null,
    "packet": true,
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17"
+   "lastSeen": "2026-11-18"
   },
   {
    "key": "meeting-docs:0e939f66b8e8",
@@ -782,7 +806,7 @@
    "date": null,
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17",
+   "lastSeen": "2026-11-18",
    "text": "inbox/stratham/docs/0e939f66b8e8.txt"
   },
   {
@@ -794,7 +818,7 @@
    "date": null,
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17",
+   "lastSeen": "2026-11-18",
    "text": "inbox/stratham/docs/49587f90a246.txt"
   },
   {
@@ -806,7 +830,7 @@
    "date": null,
    "packet": true,
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17"
+   "lastSeen": "2026-11-18"
   },
   {
    "key": "meeting-docs:b4d64c84da30",
@@ -817,7 +841,7 @@
    "date": null,
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17",
+   "lastSeen": "2026-11-18",
    "text": "inbox/stratham/docs/b4d64c84da30.txt"
   },
   {
@@ -829,7 +853,7 @@
    "date": null,
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17",
+   "lastSeen": "2026-11-18",
    "text": "inbox/stratham/docs/f884dd6af63c.txt"
   },
   {
@@ -841,7 +865,7 @@
    "date": null,
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17",
+   "lastSeen": "2026-11-18",
    "text": "inbox/stratham/docs/baab40bd5bda.txt"
   },
   {
@@ -853,7 +877,7 @@
    "date": null,
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17",
+   "lastSeen": "2026-11-18",
    "text": "inbox/stratham/docs/0233daa24aaf.txt"
   },
   {
@@ -865,7 +889,7 @@
    "date": null,
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17",
+   "lastSeen": "2026-11-18",
    "text": "inbox/stratham/docs/b19b1608ecbb.txt"
   },
   {
@@ -877,7 +901,7 @@
    "date": null,
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17",
+   "lastSeen": "2026-11-18",
    "text": "inbox/stratham/docs/05b70abf8569.txt"
   },
   {
@@ -889,7 +913,7 @@
    "date": null,
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17",
+   "lastSeen": "2026-11-18",
    "text": "inbox/stratham/docs/7eef96209d45.txt"
   },
   {
@@ -901,7 +925,7 @@
    "date": null,
    "packet": true,
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17"
+   "lastSeen": "2026-11-18"
   },
   {
    "key": "meeting-docs:456f2dc23155",
@@ -912,7 +936,7 @@
    "date": null,
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17",
+   "lastSeen": "2026-11-18",
    "text": "inbox/stratham/docs/456f2dc23155.txt"
   },
   {
@@ -924,7 +948,7 @@
    "date": null,
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17",
+   "lastSeen": "2026-11-18",
    "text": "inbox/stratham/docs/6e99212609c0.txt"
   },
   {
@@ -936,7 +960,7 @@
    "date": null,
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17",
+   "lastSeen": "2026-11-18",
    "text": "inbox/stratham/docs/acf1f0c0427b.txt"
   },
   {
@@ -948,7 +972,7 @@
    "date": null,
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17",
+   "lastSeen": "2026-11-18",
    "text": "inbox/stratham/docs/04de894e4ec9.txt"
   },
   {
@@ -960,7 +984,7 @@
    "date": null,
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17",
+   "lastSeen": "2026-11-18",
    "text": "inbox/stratham/docs/5be7a166d14d.txt"
   },
   {
@@ -972,7 +996,7 @@
    "date": null,
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-17",
+   "lastSeen": "2026-11-18",
    "text": "inbox/stratham/docs/c744398907bf.txt"
   }
  ]

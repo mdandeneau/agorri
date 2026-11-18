@@ -1,14 +1,14 @@
 {
  "note": "Written by ingest/fetch.mjs. Each item: where it came from (source, url), the date in the document when known, firstSeen (the day the fetcher first saw it; new since the last refresh = firstSeen on or after that day) and text (the saved agenda or minutes text, when there is one). Facts for the site still come from reading the linked document.",
  "town": "dover",
- "updated": "2026-11-17T16:53:53.757Z",
+ "updated": "2026-11-18T16:27:55.340Z",
  "sources": {
   "feed": {
    "ok": true,
    "found": 0,
    "new": 0,
-   "checked": "2026-11-17T16:53:53.757Z",
-   "ms": 327
+   "checked": "2026-11-18T16:27:55.340Z",
+   "ms": 78
   }
  },
  "notes": [],
