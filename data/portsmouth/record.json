@@ -1,9 +1,9 @@
 {
  "about": {
   "town": "Portsmouth, NH",
-  "as_of": "2026-11-15",
+  "as_of": "2026-11-18",
   "records_from": "2025-10-28",
-  "documents_used": 596,
+  "documents_used": 598,
   "note": "Plain-English summaries written by AI from official city PDFs; every meeting carries its source URL. Items with needs_review=true are where the official record is ambiguous or self-contradictory."
  },
  "next_council_meeting": {
@@ -87,7 +87,7 @@
     {
      "date": "2026-10-26",
      "body": "City Council",
-     "url": "https://files.portsmouthnh.gov/minutes/2026/citycouncil/10.26.26%20City%20Council%20Minutes%20DRAFT.pdf",
+     "url": "https://files.portsmouthnh.gov/minutes/2026/citycouncil/10.26.26%20City%20Council%20Minutes.pdf",
      "d": {
       "title": "Adopted the off-peak workweek parking recommendations",
       "detail": "After the Resident Access Parking Program (RAPP) first-quarter report and the report on off-peak parking for downtown business employees, the Council adopted staff's recommendations.",
@@ -106,7 +106,7 @@
     {
      "date": "2026-10-26",
      "body": "City Council",
-     "url": "https://files.portsmouthnh.gov/minutes/2026/citycouncil/10.26.26%20City%20Council%20Minutes%20DRAFT.pdf",
+     "url": "https://files.portsmouthnh.gov/minutes/2026/citycouncil/10.26.26%20City%20Council%20Minutes.pdf",
      "d": {
       "title": "Passed third and final reading moving most parking rules from zoning into site plan review",
       "detail": "Parking rules for most projects, except one- and two-family homes, move from the Zoning Ordinance (Chapter 10) to the Site Plan Review Regulations. Councilor Moreau said the change allows more condition-based reviews; Councilor Tabor said it was also a goal of the Housing Committee.",
@@ -138,7 +138,7 @@
     {
      "date": "2026-10-13",
      "body": "City Council",
-     "url": "https://files.portsmouthnh.gov/minutes/2026/citycouncil/DRAFT City Council minutes and actions of October 13, 2026.pdf",
+     "url": "https://files.portsmouthnh.gov/minutes/2026/citycouncil/Minutes%20and%20Actions%20City%20Council%2010.13.2026.pdf",
      "d": {
       "title": "Passed second reading on moving most parking rules from zoning into site plan review",
       "detail": "Parking requirements for most projects (not one- and two-family homes) would be handled through Planning Board site plan review instead of a conditional use permit under the Zoning Ordinance. Councilor Bagley said parking requirements should be eliminated instead. Third and final reading is set for October 26.",
@@ -157,7 +157,7 @@
     {
      "date": "2026-10-13",
      "body": "City Council",
-     "url": "https://files.portsmouthnh.gov/minutes/2026/citycouncil/DRAFT City Council minutes and actions of October 13, 2026.pdf",
+     "url": "https://files.portsmouthnh.gov/minutes/2026/citycouncil/Minutes%20and%20Actions%20City%20Council%2010.13.2026.pdf",
      "d": {
       "title": "Renewed valet licenses for Portwalk and the Parade Residence Hotel",
       "detail": "Two separate unanimous votes renewed annual valet license agreements with LAZ Parking Limited, LLC for Portwalk HI, LLC and for Parade Residence Hotel, LLC.",
@@ -686,7 +686,7 @@
     {
      "date": "2026-10-13",
      "body": "City Council",
-     "url": "https://files.portsmouthnh.gov/minutes/2026/citycouncil/DRAFT City Council minutes and actions of October 13, 2026.pdf",
+     "url": "https://files.portsmouthnh.gov/minutes/2026/citycouncil/Minutes%20and%20Actions%20City%20Council%2010.13.2026.pdf",
      "d": {
       "title": "Chose the final design for the City Hall and police station upgrade",
       "detail": "The Council accepted the Municipal Building Blue Ribbon Committee's Final Concept C, including revised third and fourth floors and HVAC and electrical upgrades, with a total estimated cost of $58.6 million. The project will be phased and the capital plan (FY28-33 CIP) will be updated. Councilor Cook said the money would come from the existing capital budget.",
@@ -817,7 +817,7 @@
     {
      "date": "2026-10-26",
      "body": "City Council",
-     "url": "https://files.portsmouthnh.gov/minutes/2026/citycouncil/10.26.26%20City%20Council%20Minutes%20DRAFT.pdf",
+     "url": "https://files.portsmouthnh.gov/minutes/2026/citycouncil/10.26.26%20City%20Council%20Minutes.pdf",
      "d": {
       "title": "Passed third and final reading moving most parking rules from zoning into site plan review",
       "detail": "Parking rules for most projects, except one- and two-family homes, move from the Zoning Ordinance (Chapter 10) to the Site Plan Review Regulations. Councilor Moreau said the change allows more condition-based reviews; Councilor Tabor said it was also a goal of the Housing Committee.",
@@ -849,7 +849,7 @@
     {
      "date": "2026-10-13",
      "body": "City Council",
-     "url": "https://files.portsmouthnh.gov/minutes/2026/citycouncil/DRAFT City Council minutes and actions of October 13, 2026.pdf",
+     "url": "https://files.portsmouthnh.gov/minutes/2026/citycouncil/Minutes%20and%20Actions%20City%20Council%2010.13.2026.pdf",
      "d": {
       "title": "Asked state legislators for a local property tax break on new ADUs",
       "detail": "An ADU (accessory dwelling unit) is a small second home on a lot. The Council asked Portsmouth's legislators to file a 2027 bill letting towns exempt the added value of new ADUs from property tax for up to 20 years. Assistant Mayor Kelley asked for a report from the Assessing Department.",
@@ -868,7 +868,7 @@
     {
      "date": "2026-10-13",
      "body": "City Council",
-     "url": "https://files.portsmouthnh.gov/minutes/2026/citycouncil/DRAFT City Council minutes and actions of October 13, 2026.pdf",
+     "url": "https://files.portsmouthnh.gov/minutes/2026/citycouncil/Minutes%20and%20Actions%20City%20Council%2010.13.2026.pdf",
      "d": {
       "title": "Asked the City Attorney whether existing state tax relief could cover new ADUs",
       "detail": "The City Attorney will report on whether tax relief under RSA 79-E:4-c, as amended in 2026, could apply to newly created accessory dwelling units.",
@@ -1581,8 +1581,8 @@
   {
    "body": "City Council",
    "date": "2026-10-26",
-   "minutes_url": "https://files.portsmouthnh.gov/minutes/2026/citycouncil/10.26.26%20City%20Council%20Minutes%20DRAFT.pdf",
-   "minutes_status": "draft",
+   "minutes_url": "https://files.portsmouthnh.gov/minutes/2026/citycouncil/10.26.26%20City%20Council%20Minutes.pdf",
+   "minutes_status": "final",
    "ocr": false,
    "attendance": {
     "present": [
@@ -1887,8 +1887,8 @@
   {
    "body": "City Council",
    "date": "2026-10-13",
-   "minutes_url": "https://files.portsmouthnh.gov/minutes/2026/citycouncil/DRAFT City Council minutes and actions of October 13, 2026.pdf",
-   "minutes_status": "draft",
+   "minutes_url": "https://files.portsmouthnh.gov/minutes/2026/citycouncil/Minutes%20and%20Actions%20City%20Council%2010.13.2026.pdf",
+   "minutes_status": "final",
    "ocr": false,
    "attendance": {
     "present": [
@@ -14893,7 +14893,7 @@
    "no": [
     "Blalock"
    ],
-   "url": "https://files.portsmouthnh.gov/minutes/2026/citycouncil/10.26.26%20City%20Council%20Minutes%20DRAFT.pdf"
+   "url": "https://files.portsmouthnh.gov/minutes/2026/citycouncil/10.26.26%20City%20Council%20Minutes.pdf"
   },
   {
    "date": "2026-10-26",
@@ -14911,7 +14911,7 @@
     "Hopkins"
    ],
    "no": [],
-   "url": "https://files.portsmouthnh.gov/minutes/2026/citycouncil/10.26.26%20City%20Council%20Minutes%20DRAFT.pdf"
+   "url": "https://files.portsmouthnh.gov/minutes/2026/citycouncil/10.26.26%20City%20Council%20Minutes.pdf"
   },
   {
    "date": "2026-09-14",
@@ -15447,7 +15447,7 @@
   "note": "The Council's CIP Citizen Request Subcommittee reviewed 27 resident requests this year; the Oct 13 minutes name these. Because they went to the city directly, they skip the threshold and the 30-day clock started Oct 13. The subcommittee's answers are not in the record yet.",
   "source": {
    "label": "Oct 13 minutes (PDF)",
-   "url": "https://files.portsmouthnh.gov/minutes/2026/citycouncil/DRAFT City Council minutes and actions of October 13, 2026.pdf"
+   "url": "https://files.portsmouthnh.gov/minutes/2026/citycouncil/Minutes%20and%20Actions%20City%20Council%2010.13.2026.pdf"
   },
   "items": [
    [

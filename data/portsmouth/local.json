@@ -97,6 +97,18 @@
   },
   {
    "date": "2026-11-17",
+   "kind": "Event",
+   "title": "Holiday Tree Lighting and Illuminated Holiday Parade, Saturday, Dec 5",
+   "detail": "The tree lighting in Market Square begins at 5 pm with music from the Portsmouth Middle and High School Holiday Ensemble, and the Mayor lights the tree at 5:30 pm. The Illuminated Holiday Parade follows. The Mayor named the Portsmouth Little League 12-year-old All-Star team as the parade's grand marshals.",
+   "source": {
+    "label": "City of Portsmouth",
+    "url": "https://www.portsmouthnh.gov/city/news/mayor-names-portsmouth-little-league-12-year-old-all-star-team-grand-marshals-2026"
+   },
+   "strip": "Holiday parade",
+   "stripLine": "Tree lighting 5 pm, then the parade"
+  },
+  {
+   "date": "2026-11-17",
    "until": "2026-11-24",
    "kind": "Hearing",
    "title": "Zoning Board of Adjustment public hearings, Tuesdays, Nov 17 and Nov 24, 7 pm",
@@ -964,18 +976,8 @@
    "status": "not yet connected"
   }
  ],
- "events_as_of": "2026-11-17",
+ "events_as_of": "2026-11-18",
  "events": [
-  {
-   "date": "2026-11-17",
-   "time": "6:00 pm",
-   "title": "Conversation Skills Practice: Start, Join & Leave Conversations Comfortably",
-   "venue": "South Church, 292 State St",
-   "town": "Portsmouth",
-   "kind": "Workshop",
-   "url": "https://patch.com/new-hampshire/portsmouth-nh/calendar/event/20261117/dddbae1b-3f74-4ec1-8b86-7c513510a27b/conversation-skills-practice-start-join-leave-conversations-comfortably",
-   "source": "Patch calendar"
-  },
   {
    "date": "2026-11-19",
    "time": "9:30 am to 1:30 pm",
@@ -2373,9 +2375,19 @@
  "paper": {
   "name": "Portsmouth Patch",
   "url": "https://patch.com/new-hampshire/portsmouth-nh",
-  "asOf": "2026-11-17",
+  "asOf": "2026-11-18",
   "note": "The Portsmouth Herald is paywalled with no public feed, so these come from Patch.",
   "headlines": [
+   {
+    "title": "Portsmouth Collecting Holiday Gift Cards for Teens Through Dec. 15",
+    "url": "https://patch.com/new-hampshire/portsmouth-nh/portsmouth-collecting-holiday-gift-cards-teens-through-dec-15",
+    "date": "2026-11-17"
+   },
+   {
+    "title": "Fox Run Eye Care Welcomes Seacoast Families To Its Greenland Office",
+    "url": "https://patch.com/new-hampshire/portsmouth-nh/fox-run-eye-care-welcomes-seacoast-families-its-greenland-office",
+    "date": "2026-11-17"
+   },
    {
     "title": "Merging Finances, Investing, And Buying A Home Webinar On Nov. 18",
     "url": "https://patch.com/new-hampshire/portsmouth-nh/merging-finances-investing-buying-home-webinar-nov-18",
@@ -2404,16 +2416,6 @@
    {
     "title": "Hantz Marconi Can Return To Practicing Law: Professional Conduct Committee",
     "url": "https://patch.com/new-hampshire/portsmouth-nh/hantz-marconi-can-return-practicing-law-professional-conduct-committee",
-    "date": "2026-11-10"
-   },
-   {
-    "title": "Board Reports Modest October Sales Gain Across The New Hampshire Seacoast",
-    "url": "https://patch.com/new-hampshire/portsmouth-nh/board-reports-modest-october-sales-gain-across-new-hampshire-seacoast",
-    "date": "2026-11-10"
-   },
-   {
-    "title": "Portsmouth Public Library: Guitar Sunday @PMAC: Brooks Robertson Nov. 15",
-    "url": "https://patch.com/new-hampshire/portsmouth-nh/portsmouth-public-library-guitar-sunday-pmac-brooks-robertson-nov-15",
     "date": "2026-11-10"
    }
   ]
