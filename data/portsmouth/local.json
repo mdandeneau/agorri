@@ -97,6 +97,17 @@
   },
   {
    "date": "2026-11-17",
+   "kind": "Volunteer",
+   "title": "Welfare Department collecting holiday gift cards for teens through Dec 15",
+   "detail": "The Portsmouth Welfare Department is collecting small gift cards for local families with teens ages 13 to 17. Mail them to the Welfare Department at City Hall, 1 Junkins Avenue, leave them in the gray drop box in front of City Hall, or give online through the city bill pay system (Miscellaneous Payments, Other, \"Teen Gift Card\"). Questions: 603-610-7267 or welfare@portsmouthnh.gov.",
+   "source": {
+    "label": "Portsmouth Patch",
+    "url": "https://patch.com/new-hampshire/portsmouth-nh/portsmouth-collecting-holiday-gift-cards-teens-through-dec-15"
+   },
+   "until": "2026-12-15"
+  },
+  {
+   "date": "2026-11-17",
    "kind": "Event",
    "title": "Holiday Tree Lighting and Illuminated Holiday Parade, Saturday, Dec 5",
    "detail": "The tree lighting in Market Square begins at 5 pm with music from the Portsmouth Middle and High School Holiday Ensemble, and the Mayor lights the tree at 5:30 pm. The Illuminated Holiday Parade follows. The Mayor named the Portsmouth Little League 12-year-old All-Star team as the parade's grand marshals.",
@@ -976,7 +987,7 @@
    "status": "not yet connected"
   }
  ],
- "events_as_of": "2026-11-18",
+ "events_as_of": "2026-11-19",
  "events": [
   {
    "date": "2026-11-19",
@@ -1047,6 +1058,16 @@
    "town": "Portsmouth",
    "kind": "Art",
    "url": "https://patch.com/new-hampshire/portsmouth-nh/calendar/event/20261122/d8c512a4-7cc0-4267-a9ce-3c0968fa785a/meet-the-artists",
+   "source": "Patch calendar"
+  },
+  {
+   "date": "2026-11-24",
+   "time": "6:00 pm",
+   "title": "Full Moon Madness fundraiser for Hope on Haven Hill (15% of sales donated)",
+   "venue": "Howling Wolf Taqueria, 40 Pleasant St",
+   "town": "Portsmouth",
+   "kind": "Fundraiser",
+   "url": "https://patch.com/new-hampshire/portsmouth-nh/calendar/event/20261124/a4f4d829-5543-48db-bb8e-16382724592f/howling-wolf-taqueria-hosts-full-moon-madness-to-benefit-hope-on-haven-hill",
    "source": "Patch calendar"
   },
   {
@@ -2375,9 +2396,14 @@
  "paper": {
   "name": "Portsmouth Patch",
   "url": "https://patch.com/new-hampshire/portsmouth-nh",
-  "asOf": "2026-11-18",
+  "asOf": "2026-11-19",
   "note": "The Portsmouth Herald is paywalled with no public feed, so these come from Patch.",
   "headlines": [
+   {
+    "title": "40th Annual Lights Of Love Event Held Dec. 2",
+    "url": "https://patch.com/new-hampshire/portsmouth-nh/40th-annual-lights-love-event-held-dec-2",
+    "date": "2026-11-18"
+   },
    {
     "title": "Portsmouth Collecting Holiday Gift Cards for Teens Through Dec. 15",
     "url": "https://patch.com/new-hampshire/portsmouth-nh/portsmouth-collecting-holiday-gift-cards-teens-through-dec-15",
@@ -2386,6 +2412,11 @@
    {
     "title": "Fox Run Eye Care Welcomes Seacoast Families To Its Greenland Office",
     "url": "https://patch.com/new-hampshire/portsmouth-nh/fox-run-eye-care-welcomes-seacoast-families-its-greenland-office",
+    "date": "2026-11-17"
+   },
+   {
+    "title": "Seacoast Camp Assistant, Nicknamed ‘Merlin,’ Faces Indecent Exposure, Computer Services Charges",
+    "url": "https://patch.com/new-hampshire/portsmouth-nh/seacoast-camp-assistant-nicknamed-merlin-faces-indecent-exposure",
     "date": "2026-11-17"
    },
    {
@@ -2407,16 +2438,6 @@
     "title": "League Of N.H. Craftsmen Presents Handmade In The Harbor Nov. 14 And Nov. 15",
     "url": "https://patch.com/new-hampshire/portsmouth-nh/league-n-h-craftsmen-presents-handmade-harbor-nov-14-nov-15",
     "date": "2026-11-12"
-   },
-   {
-    "title": "$1,000 Party Experience Giveaway: Open House Event On Nov. 18",
-    "url": "https://patch.com/new-hampshire/portsmouth-nh/1-000-party-experience-giveaway-open-house-event-nov-18",
-    "date": "2026-11-11"
-   },
-   {
-    "title": "Hantz Marconi Can Return To Practicing Law: Professional Conduct Committee",
-    "url": "https://patch.com/new-hampshire/portsmouth-nh/hantz-marconi-can-return-practicing-law-professional-conduct-committee",
-    "date": "2026-11-10"
    }
   ]
  }
