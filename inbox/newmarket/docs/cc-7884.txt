@@ -1,0 +1,384 @@
+Source: https://newmarketnh.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=7884,plainText=false)
+Title: Town Council 2026-10-31: Town Council FY2028 Budget Work Session 10/31/2026
+Fetched: 2026-11-20
+
+Town Council FY2028 Budget Work Session
+                              October 31, 2026 at 9:00 AM
+                                 Town Council Chambers
+
+                                        MINUTES
+
+     1.   Pledge of Allegiance
+          Vice Chair LaMattina convened the meeting at 9:00 AM, and led the Pledge of
+          Allegiance.
+
+     2.   Roll Call
+          Councilors present: Joe LaMattina (Vice Chair), Scott Blackstone, Sonke Dornblut,
+          Katanna Conley, Justin Glazebrook, Stella McShera. Chair Brian Ward was absent at
+          roll call and arrived shortly after, during the Recreation review.
+
+          Staff present: Town Manager Steve Fournier; Director of Finance & Administration
+          William Tappan; Recreation Director Aimee Gigandet; Police Chief Gregory Jordan;
+          Environmental Services Director Sean Greig; Public Works Director/Fire Chief Rick
+          Malasky; Town Engineer Lyndsay R. Butler; Library Director Andy Richmond; Director
+          of Planning & Community Development Bart McDonough; Executive Assistant to the
+          Town Manager Wendy Chase.
+
+          Summary of Council Changes
+
+          The Council reached consensus on four adjustments to the Town Manager's proposed
+          budget, for a net reduction of about $198,000.
+
+          Department / Line    Change                    Moved by         Outcome
+
+          Roadways & Sidewalks Increase from $200,000 to Councilor        Consensus, 4
+          – Hot Top (paving)   $300,000 (+$100,000)      Blackstone       in favor
+
+          Fire & Rescue – Part- Reduce from $683,000 to  Motion made on   Consensus
+          time/per diem salaries $500,000 (–$183,000)    Town Manager's
+                                                         suggestion;
+                                                         seconded
+
+          Town Council – Part- Remove $2,912 increase    Town Manager     Agreed
+          time salaries        (minute-taker position will not recommendation
+                               be filled)
+
+
+Town of Newmarket, NH                                                            10/31/2026
+
+
+          HR – Health insurance Reduce by $111,816 to    Motion and       Consensus
+                               reflect 9% GMR rate (vs.  second
+                               10% budgeted)
+
+          Buildings & Grounds – Add $20,000 for Schanda  Councilor        Not adopted;
+          Maintenance Parks    Park walkway              LaMattina;       Town Manager
+          (54300)                                        seconded for     will find about
+                                                         discussion       $5,000 in
+                                                                          existing budget
+
+          Also agreed: the Arts, Culture & Tourism Commission will receive its own line item,
+          separate from fireworks, before the budget goes to the Budget Committee.
+
+          The Town Manager noted that, under this year's charter amendment, each department
+          budget now includes the department's goals. Because this was a workshop, the Council
+          expressed preferences by show of hands ("friendly agreements"); no binding votes
+          were taken. The final budget vote is scheduled for Wednesday.
+
+
+     3.    Budget Review by Department
+
+
+          a.   9:00 AM Recreation Department
+               Proposed $388,538, up $33,703 (9%), mainly full-time salaries. The Recreation
+               Director explained that two full-time staff resigned in January, citing salary and
+               workload; positions were adjusted to the recent salary survey.
+               Telecommunications costs dropped. The Arts, Culture & Tourism Commission
+               line rises $4,000 to $8,000, mostly for the new mill worker mural on Elm Street,
+               mural finalist fees and Pocket Park panel maintenance. Fireworks stay at last
+               year's level ahead of the 300th anniversary.
+
+                   • Councilor McShera: asked about salary as a factor in turnover and about
+                     staff training (NHRPA, Northern New England conference, NRPA).
+                   • Councilor LaMattina: asked about the Newmarket Youth Athletic
+                     Association. It is a separate organization; the Town provides a grant of
+                     about $21,000 and manages field reservations.
+                   • No changes.
+
+               Recreation – Revolving Fund
+
+               Proposed $578,977, up $27,666 (5%). The fund is supported entirely by
+               participant fees, not taxes. Contract instructors now sit under contractual services
+               (70/30 split). Summer camp grew by 40 children to 240. Equipment purchase is
+               budgeted at $45,000 for repairs and storage improvements.
+
+                   • Councilor Dornblut: asked what makes up the $101,500 Recreation
+                     Programs line (summer camp ~$22,000; Sunrise Sunset Center $34,000;
+                     events ~$35,500; splash pad $8,500; teen program $1,500). The senior
+                     center spent $36,000 and brought in $48,000. Councilor Dornblut
+
+Town of Newmarket, NH                                                            10/31/2026
+
+                     suggested a breakout; the Town Manager prefers reporting detail in notes
+                     rather than adding line items.
+                   • Councilor Blackstone: asked about fund structure. The CFO confirmed it is
+                     Fund 05, a special enterprise fund owned by the Town. Fund balance is
+                     near $1 million after buying 11 Creighton Street for $685,000.
+                   • Councilor Glazebrook: asked about health insurance; addressed later
+                     under HR.
+                   • No changes.
+
+          b.   9:30 AM Police Department
+               Proposed about $2.89 million, up $123,731 (4.5%), mainly the voter-approved
+               collective bargaining agreement (~$59,000). Part-time salaries rise $13,000 for
+               prosecutor fees and more accreditation manager hours. Overtime rises ~$17,000
+               for training, court time and town events.
+
+                   • Body cameras: switching from Motorola to Axon, adding about $20,000 a
+                     year in lease costs. A state law change on January 1 makes most footage
+                     disclosable, which will require dedicated redaction time.
+                   • Councilor Conley/Councilor Dornblut/Councilor McShera: asked about
+                     part-time costs, overtime and speed enforcement data (six speed signs
+                     plus a trailer that records speed only).
+                   • Councilor Blackstone: the Department is pursuing state accreditation
+                     ($500/year) rather than CALEA ($5,000–$10,000/year).
+                   • Councilor LaMattina: recent departures were personal; the Department is
+                     fully staffed for the first time in over 10 years.
+                   • Councilor Dornblut: online parking permits will be funded by users.
+                   • No changes.
+
+
+          c.   10:00 AM Environmental Services
+               Water
+
+               Proposed $1,778,074, up $24,722, funded by ratepayers. Main drivers are health
+               insurance and electricity. The department has two vacancies (systems technician
+               and administrative).
+
+                   • Councilor LaMattina: land for a new water tower will come from capital
+                     reserves.
+                   • Solar is not cost-effective without grant aid.
+                   • No changes.
+
+
+               Wastewater
+
+               Increase of 2.43%, below inflation. Part-time salaries fund two summer
+               engineering interns from UNH. Sludge disposal (Turnkey, Rochester) rises under
+               a five-year contract with three years left.
+
+
+Town of Newmarket, NH                                                            10/31/2026
+
+                   • A separate warrant article (p. 142) funds asset management through a
+                     state loan that is forgiven on completion.
+                   • No changes.
+
+          d.   10:30 AM Public Works Department
+               Public Works – Administration (p. 82)
+
+               Proposed $796,940, up $40,000, mainly salaries. The department requested
+               $125,000 for overtime after last year's heavy winter; the Town Manager reduced
+               it to $100,000.
+
+                   • Councilor Conley: "labor" salaries are hourly staff; "full-time" are salaried
+                     administrative staff.
+                   • Councilor Blackstone/Councilor McShera: the budget keeps three
+                     administrative positions for a planned transition. The Director role may
+                     become more administrative and the engineer a deputy director.
+                   • No changes.
+
+               Roadways & Sidewalks
+
+               Proposed $667,900, up $33,000, mainly salt. The Town took over about 5.5
+               miles of former state roads.
+
+               The Public Works Director said the $200,000 hot top line cannot sustain the
+               paving plan; the real need is about $450,000. Mix is about $100 a ton and rising.
+               Grant Road, Doe Farm, Fox Circle, part of Doral and Hershey Lane were not
+               completed this year.
+
+               Councilor Blackstone moved to increase hot top to $300,000; Councilor
+               Glazebrook seconded. The estimated tax impact is about $0.06 per $1,000,
+               under $40 a year for a median home. Supporters cited visible benefits and rising
+               future costs. Councilor Conley questioned whether the need had been quantified.
+               Consensus to add $100,000 (4 in favor).
+
+               Street Lights, Bridges, Cemeteries
+
+                   • Street lights: up $1,500 for electricity.
+                   • Bridges: up $8,000 for metal guardrails replacing wood.
+                   • Cemeteries (p. 97): up $6,336, mainly salaries.
+                   • No changes.
+
+               Buildings & Grounds
+
+               Proposed about $979,675, up $56,000, mainly utilities. Councilor LaMattina
+               asked about funding to fix the Schanda Park river walkway, a Riverfront Advisory
+               Committee priority. He moved to add $20,000 to Maintenance Parks (line 54300);
+               seconded by Councilor Glazebrook for discussion. The Town Engineer estimated
+               the cost closer to $5,000, which the Town Manager said he could find. The
+               increase was not adopted.
+
+
+Town of Newmarket, NH                                                            10/31/2026
+
+               The Council recessed for 10 minutes.
+
+               Vehicles
+
+               Proposed $354,000, up $23,300.
+
+                   • Councilor LaMattina: diesel is already running over prior-year costs. The
+                     Town Manager said the budget has no contingency; shortfalls are covered
+                     by holding vacancies open.
+                   • Councilor Dornblut: radio maintenance (+$4,000) covers replacing old,
+                     failing mobile radios.
+                   • Councilor McShera: fire vehicle maintenance (+$10,000) reflects required
+                     third-party pump and aerial testing.
+                   • No changes.
+
+               Solid Waste
+
+               Proposed about $1,033,080, up $23,180, mostly contractual. A $300,000 capital
+               reserve withdrawal is proposed to buy totes for automated collection expected in
+               FY2028.
+
+                   • Councilor Dornblut: asked whether collection trucks could weigh waste; to
+                     be answered as implementation is planned.
+                   • No changes.
+
+
+          e.   11:00 AM Fire Department
+               Fire & Rescue (p. 103)
+
+               Up about $437,500. Full-time salaries of $1,173,745 include converting the fire
+               chief from part-time to full-time, as recommended by the MRI study. Part-time/per
+               diem was proposed at $683,000, up $233,000; last year's actual was $585,000.
+
+               Staffing: two full-time firefighters, one per diem and the full-time chief on
+               weekdays; three per diem on nights and weekends. The Town Manager said he
+               would have set per diem at $500,000–$550,000. A motion to reduce it to
+               $500,000 was seconded. Consensus to reduce per diem to $500,000.
+
+                   • Councilor Blackstone: noted Fire & Rescue submitted no goals; the Town
+                     Manager will request them.
+
+               Emergency Management
+
+               Level funded at $2,250. A grant resolution to update the emergency operations
+               plan is pending this week. No changes.
+
+               Town Council (p. 32)
+
+
+Town of Newmarket, NH                                                            10/31/2026
+
+
+               The Town Manager recommended removing the $2,912 part-time increase
+               because the minute-taker vacancy will not be filled. Agreed.
+
+               Town Manager and Finance
+
+                   • Town Manager: up $10,616, mainly salaries and books. The Town
+                     Manager's salary is split across general, water and sewer funds. Councilor
+                     Blackstone asked about goals; the Town Manager said his goals are the
+                     Council's goals.
+                   • Finance: down $9,418 from an anticipated retirement; the position will be
+                     filled at a lower rate.
+
+               Human Resources
+
+               Proposed $2,992,340, up $155,368 (5%). Retirement contributions are down;
+               health insurance is up $170,396. The guaranteed maximum rate came in at 9%
+               versus the 10% budgeted. The CFO recommended a partial reduction to keep a
+               small cushion. Coverage is unaffected.
+
+               A motion to reduce the health insurance line by $111,816 was seconded.
+               Consensus to reduce. The CFO advised against reducing water and sewer
+               health lines this year because new hires' plans are unknown.
+
+               Town Clerk (p. 46)
+
+               Down $4,949 in part-time salaries after a position moved to full-time last year.
+               Election officials increase because the state primary moves to June, into
+               FY2028. Equipment includes $4,800 for electronic poll books. No changes.
+
+               Code Enforcement, Welfare, Assessing, Legal
+
+                   • Code Enforcement: up $3,913 for merit increases, dues and training.
+                   • Welfare: up $1,012; assistance is mandated by state law and town
+                     guidelines. Councilor Dornblut requested a future presentation on welfare
+                     operations. Councilor McShera raised staffing concerns; personnel
+                     matters would go to nonpublic session.
+                   • Assessing: contract level, software up.
+                   • Legal: level; counsel is on retainer.
+                   • No changes.
+
+          f.   11:30 AM Library
+               Library
+
+               Proposed about $662,498, up $49,037. Increases cover salary-study
+               adjustments and a new $6,203 share of Siemens HVAC maintenance. Full-time
+               library staff share the town health plan. No changes.
+
+          g.   12:00 PM CIP/Planning
+               Planning, Conservation, Economic Development
+
+Town of Newmarket, NH                                                            10/31/2026
+
+
+                   • Planning (p. 59): $187,658, up $6,348 for merit increases and Strafford
+                     Regional Planning Commission dues. Charrettes are grant-funded.
+                   • Conservation Commission: up $300; contractual services are for SELT.
+                   • Economic Development: level at $20,000.
+                   • No changes.
+
+     4.   Town Manager Remaining Budget Lines
+          Remaining Lines
+
+              • Debt principal: up $787. Debt interest: down $5,376.
+              • Information Technology: up about $21,000, mainly 5% software increases and
+                GIS licensing. Councilor McShera confirmed the licenses are necessary.
+              • Media Services: up $6,636; includes on-call PR firm JPSG, paid only when used.
+              • Community Grants: level. COAST's share will rise next year.
+              • Property & Liability Insurance: up $47,185.
+              • Social Service Grants: up $7,350; recipients must submit audited financials.
+              • Patriotic Purposes: level (Memorial Day parade).
+              • No changes.
+
+          Capital Reserve Fund Contributions (Warrant Articles)
+
+          The Town Manager recommends $2,349,235 in capital reserve contributions; the CIP
+          committee recommended $3,389,161. These are separate warrant articles, not part of
+          the operating budget, and are funded from fund balance with no tax rate impact. The
+          largest items are the water tower (drawn from the water fund balance) and $300,000 for
+          solid waste totes.
+
+              • Councilor LaMattina: asked to add $25,000 for Schanda Park waterfront items.
+                No capital reserve fund exists for the park; creating one requires a resolution.
+                The Planning Director said baseline analysis is underway and a dedicated fund
+                could be part of that conversation. The presiding officer preferred waiting for a
+                plan with costs. No change made.
+              • Councilor Glazebrook: asked how cutting stormwater from the proposed
+                $211,666 to $50,000 affects planned work. The Town Manager said
+                departments will adjust once budgets are final.
+              • Councilor Blackstone: raised elevated bacteria in Moonlight Brook near the
+                Schanda Park dock and boat ramp, and asked about warning signs. The Town
+                Engineer said the source is unconfirmed; stormwater reserve funds pay for the
+                illicit discharge detection program (MS4 compliance).
+              • Councilor Dornblut: asked whether the water tank, which benefits all residents
+                (e.g., fire protection), should be funded only by water users. The Town Manager
+                said ratepayers are the primary beneficiaries, schools pay water rates, and the
+                project also uses $800,000 of water fund balance and grants.
+              • Councilor LaMattina: asked about remaining fund balance. The CFO said
+                contributions draw from general, water, sewer and other fund balances. Policy
+                (GFOA/DRA guidance and a town ordinance) keeps unreserved fund balance at
+
+
+Town of Newmarket, NH                                                            10/31/2026
+
+                5–15%; it has historically been 5–9%. If it fell below 5%, capital reserve
+                contributions would stop.
+
+     5.   Adjournment
+          Budget Total and Adjournment
+
+          With the workshop changes, the proposed FY2028 operating budget totals
+          $19,441,428, about $198,000 below the Town Manager's proposal. The Town Manager
+          estimated the tax rate impact as an increase of about $0.62 per $1,000, $0.11 less than
+          his proposed budget. He had no further recommendations. The Council will vote on the
+          budget Wednesday.
+
+          Councilor LaMattina asked about the school budget increase; it has not yet been
+          received.
+
+          The meeting adjourned at approximately 11:50 AM without objection.
+
+          Respectfully submitted,
+
+          Wendy V. Chase
+          Recording Secretary
+
+
+Town of Newmarket, NH                                                            10/31/2026

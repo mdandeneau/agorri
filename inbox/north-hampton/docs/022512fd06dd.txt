@@ -1,0 +1,348 @@
+Source: https://www.northhampton-nh.gov/AgendaCenter/ViewFile/Minutes/_10192026-526
+Title: Minutes: Budget Committee Meeting
+Fetched: 2026-11-20
+
+1
+ 2
+ 3
+
+
+ 4
+ 5
+ 6
+ 7                               TOWN OF NORTH HAMPTON, NEW HAMPSHIRE
+ 8
+ 9                       NORTH HAMPTON MUNICIPAL BUDGET COMMITTEE MEETING
+10                                       October 19, 2026
+11                                        NORTH HAMPTON TOWN HALL
+12                                               DRAFT MINUTES
+13
+14
+15   MEMBERS PRESENT: Chairman Paul Martino, Vice Chair John Cannon, Larry Miller, Rick Stanton, Sean
+16   Dionne, Leszek Stachow, James Sununu (Select Board Rep), Andrew Heitman (School Board Rep), Katie
+17   O’Brien (LBH Rep)
+18   ALSO PRESENT: Library Director Liz Herold, Associate Superintendent for Finance & Operations Matt
+19   Ferreira, Town Administrator Michael Tully, Finance Director Ryan Cornwell, State Representative James
+20   Maggiore
+
+21
+22   Chairman Paul Martino welcomed everyone to the Municipal Budget Committee Meeting of Monday,
+23   October 19, 2026, and called the meeting to order at 6:30 pm, followed by the Pledge of Allegiance.
+24
+25   NEW BUSINESS
+26
+27   Discuss and understand Question 2 on November 3 ballot
+28   Chairman Martino said this question appears on the ballot November 3 and there is nothing the Budget
+29   Committee can say or recommend.
+30
+31   State Representative Jim Maggiore said HB-1300 was introduced in the House in 2025 as HB-675 and
+32   defeated on the floor; ended up as non-general amendment introduced in election law, a bill for
+33   redistricting of congressional districts. It then became HB-1300, passed House 183-170 and is now law,
+34   and the State mandates that it go on every ballot. He said there are two parts to the bill and both require
+35   3/5 majority to pass; if passed, it then becomes a tax levy for the North Hampton Elementary School.
+36
+37   Mr. Maggiore said the tax cannot exceed last year’s tax levy except for CPI plus any bonds and increases
+38   to taxable revenues. There is an override procedure (RSA 32-5) you can consider. Each town would have
+39   to have override on its ballot. He said it does not affect the municipal tax rate, only the school portion.
+40   Selectman Sununu asked for clarification about new construction and whether the tax cap only applied to
+41   the line item in the School Budget for SAU. Mr. Maggiore said your questions came up many times but we
+42   did not have the specificity and clarity for us to have confidence to answer, and said he also has a 7-page
+43   document from DRA asking questions that are still not fully flushed out and answered.
+44
+     Select Board Regular Meeting
+     October 19, 2026
+
+ 1   Mr. Miller asked if it is then 6% of each town’s SAU levy. Mr. Maggiore said 6% is applied to administrative
+ 2   costs at SAU, so the Operating Budget not the levy, parsing out any classroom instruction that applies to
+ 3   those administrative costs. Mr. Stanton said this sends a message to school districts and schools that
+ 4   citizens want to see better control of the administrative portion of the School Budget and are upset about
+ 5   rising prices without some control and it is a campaign issue. Mr. Heitman said there are 4 towns in SAU21
+ 6   and if 3 pass it and 1 does not, does it go through the process again. Mr. Maggiore said it needs a 3/5 vote.
+ 7
+ 8   Selectman Sununu said the vote in North Hampton counts toward 2 different caps: (1) cap on North
+ 9   Hampton School Budget but if not 3/5 across the board it would not apply to Winnacunnet Budget. Mr.
+10   Maggiore said just looking at North Hampton School it cannot expand the tax levy from last year except
+11   for CPI, which is now 3.5%. He said for North Hampton it has been 3% over the last 5 years; nothing will
+12   happen because the Budget Committee does a great job. This bill will actually allow you to spend more.
+13
+14   Mr. Heitman asked about catastrophic emergencies or 10 new students needing Special Education. Mr.
+15   Maggiore said to that point you have to look at things in the aggregate as there are other bills affecting
+16   the School Districts: a bill that allows certain students outside the district to be able to take classes in-
+17   district and you would have to account for that increase in enrollment. Mr. Dionne said there will probably
+18   not be much of a difference for North Hampton.
+19
+20   Mr. Stachow said there seems to be a dissonance in application of the 2 parts and there is still work to be
+21   done to clarify the application. Mr. Heitman said his preference is to keep control of the Town of North
+22   Hampton, by the Town of North Hampton and punting this to Concord is a step in the wrong direction.
+23   Selectman Sununu said he agrees that it sends a message but it won’t make much difference and wonders
+24   why it is on the ballot.
+25
+26   Mr. Maggiore said he left out an important part that this bill will be on the ballot this year and in 2028; if
+27   it passes it stands for 2 years; if the second one passes it sunsets in 2030 irrespective of any tax caps that
+28   pass in a town. Mr. Miller reiterated what Mr. Heitman said and said it seems ironic to cap something we
+29   pay for, but special needs cannot be controlled and he does not see the point in this.
+30
+31   Selectman Sununu said he agrees with points made and said this Budget Committee has done a really
+32   good job over the years with the School and Town budgets; the biggest problem with this is that it is poorly
+33   written and will end up being litigated. Chairman Martino said it is poorly written but the School has done
+34   a good job over the last couple of years and he would hate to hold budgets to a CPI number.
+35
+36   Economic Review and Discussion - James Sununu
+37
+38   Selectman Sununu said the data being presented is mostly national and state data. He started with
+39   Quarterly GDP Growth in the country and said the pattern is lukewarm and cold, and the trillions being
+40   spent on AI Data Centers is what is propping up the economy (Quarter 2 GDP growth 2026, 2.2%). He said
+41   CPI was coming down in 2024 and 2025 to 2% federal target but has picked up and is recently 3.7% and
+42   not going in the right direction; only lever is for feds to increase interest rates.
+43
+44   Unemployment Rate shows more than a decade of almost unprecedented slow to steady unemployment
+45   and remains fairly tight but the employment economy is pretty steady. New Hampshire Median Income
+46   is a bit erratic, ramps up in 2012 with big drop in 2022 because of inflation and lag of adjusting wages;
+47   trend line is steadily rising but state may have impact with more people retiring. Wage and Salary Growth
+48   private vs public sector; public sector wages lag private sector wages as public sector wages are contract
+
+
+                                                           2
+     Select Board Regular Meeting
+     October 19, 2026
+
+ 1   driven, rates similar for both. Recent: private sector 3.1%, public sector 4.0%. Benefit Growth private 3.8%,
+ 2   public 4.0; more public sector which may be driven by retirement benefits as 80% of Town Budget is
+ 3   personnel wages and benefits.
+ 4
+ 5   10-Year Treasury Rates: Dramatic changes in last few years; 10-Year Treasuries are usually the bench mark
+ 6   to determine mortgage and bond rates; most significant were rates bottomed out in 2020 and started to
+ 7   rise again steeply and rapidly; still at historic low point for rate. Mortgage Rates 30-year Fixed: it is
+ 8   significant when mortgage rates go up that high, on the heels of an historic low. People are reluctant to
+ 9   leave a 2% mortgage and take on one at 7%, a major issue that affects housing and the natural transition
+10   of a community. Mr. Heitman asked if portable rates like in Canada and Europe would alleviate the
+11   situation; Selectman Sununu said it would but is not legal in the United States.
+12
+13   New Hampshire Housing Prices: Up about 55% in the last few years with median household income at
+14   26%; increasing dramatically; New Hampshire has been through 2 other housing cycles which were not as
+15   dramatic a runoff as it is now. He said this affects who can move into the community anywhere on the
+16   seacoast and said New Hampshire Housing shows an affordability gap, needing a median income of
+17   $103,503 to afford a $160,996 median home.
+18
+19   New Hampshire Housing Facts: June 2026 median home price is now $575,000, needed to afford is income
+20   of $189,000, about $91/hr; median effective rent is $2,511/month with $80,000/yr to afford, New
+21   Hampshire needs 76K more housing units by 2040, production must rise from 5K to 8K units/year. Rent
+22   has slowed to 2% increase year-over-year. The single biggest issue in the state is housing affordability.
+23   Labor Force Participation: New Hampshire 64.8%, national 61.81%, both trending down largely due to
+24   retirement.
+25
+26   Labor Force by Age Group: 1992: 11% of work force over 55, 2024: 33% over age 55; these workers, more
+27   likely to be on fixed income, will be retiring and affected by property tax increases and in need of more
+28   services; we need to insure a strong stream of younger workers to drive economic growth. Social Security
+29   trust fund will run out in 2032; money paid in today is going out to today’s retirees. If Congress does
+30   nothing there will be a 22% benefit cut. In New Hampshire 1/3 of people are collecting social security and
+31   it would be catastrophic.
+32
+33   North Hampton Tax Rate History: Shows combined tax rate, where North Hampton ranks in the state,
+34   showing downward drops for revaluations; similar to other towns. Tax Rates by Function: Shows School,
+35   municipal and county with a gap between town and school which has dropped over the years. Chairman
+36   Martino asked if the school has done any demographic work on 15 years from now. Mr. Ferreira said it is
+37   relatively superficial but every year they do a contract with NESDEC on enrollment projections based on
+38   birth rate and said he would include the data in the budget materials.
+39
+40   Mr. Miller asked what the enrollment is currently and whether there are any out-of-district placements;
+41   Mr. Ferreira said enrollment was 273 as of October 1, 2026, official beginning of school year, and they
+42   have 2 out-of-district placements. Mr. Stanton said the focus on wages will be very powerful over the next
+43   10 years and kids now in High School will not be able to afford to live here. Mr. Miller asked about
+44   providing special needs programming in school; Mr. Ferreira said they are always looking at whether
+45   programming can be provided locally but cannot provide significant special needs.
+46
+47   Mr. Stachow asked if in light of the nature of the economy and mindful of the opportunity we still have
+48   going forward, it would make sense for some committee to start developing a mitigating strategy on how
+
+                                                          3
+     Select Board Regular Meeting
+     October 19, 2026
+
+ 1   to curtail some of our expenses in a manner that would anticipate the potential decline of the disposable
+ 2   income, especially for the retired community. Chairman Martino said it is a good idea in a privately held
+ 3   business with the ability to adapt continuity of leadership.
+ 4
+ 5   Selectman Sununu said there may be a problem and we should be mindful as we get closer in time. The
+ 6   only mitigation would be to curtail services now which he did not feel was supportable. Mr. Stachow said
+ 7   there comes a point where we have a social obligation to cope with a retrenchment strategy; and also
+ 8   look at ways to stimulate activity that would bring more tax dollars to the Town.
+ 9
+10   Review Library Year-End and Default Budgets
+11   Library Director Liz Herold said the first page shows the last 3 years of expenditures 2024 through 2026
+12   with last column expenditures broken down by line items; for the last 3 years the Library returned money
+13   to the town. FY2026 Approved Operating Budget $554,122, expended funds $515,884, unexpended funds
+14   $38,237 returned to town, mostly unspent health insurance costs.
+15
+16   Year-to-Date: Expenditures July to September 2026 $101,403; YTD budget $101,500, annual budget
+17   $406,003; Programs $1,511, YTD $887, annual budget $3,552; Operations $4,703, YTD $4,532, annual
+18   budget $18,132; Utilities $5,066, YTD $8,212, annual budget $32,850; Maintenance $9,530, YTD $9,250,
+19   annual budget $32,850; Media $5,475, YTD $6,511, annual budget $26,045; Totals: July to September
+20   $127, 691, YTD $130, 895, annual budget $523,584. Received 25% and spent 24% for FY2027.
+21
+22   FY2026 Default Budget: Approved Operating Budget $523,584; FY2028 Default $531,851; difference
+23   $8,267. Have no contractual obligations; health and dental coverage to our 3 full time employees: 1 family
+24   plan and 2 singles; $15.7% with health and dental. Last page town reports with circulation, what is in
+25   collection, and our financial report for FY2026. Mr. Stachow asked for clarification on a conscious
+26   donation. Ms. Herold said there is a conscience jar at the front desk for people who return late books. She
+27   said museum passes are reimbursed by Friends of the Library, which is a separate 501(c)(3).
+28
+29   Review School Year-End and Default Budgets
+30   Matt Ferreira, Associate Superintendent for Finance and Operations for SAU21, said there are 2 separate
+31   reports: FY2026 summary and FY2028 Default Budget.
+32
+33   North Hampton School’s financial position and preliminary audit results: district closed FY2026 with an
+34   unreserved fund balance of $224,344 returned to the town to offset FY2027 property tax assessment:
+35   School Board voted to retain an additional $75,000 in fund balance. Special Education finished $352,000
+36   under budget and also saved in Special Education Transportation Expenses $58,000 under budget;
+37   Support Services $58,000 under budget; no School Resource Office for entire year; over budget on
+38   Buildings & Grounds by about $200,000 for fire alarm repairs. Employee Benefits $164,000 over budget,
+39   mostly due to underbudgeting health insurance; General Fund $53,000 over budget.
+40
+41   Director Ferreira said on the Revenue side, we report estimates to DRA and had more revenues than
+42   estimated. Last year received $13,000 more than anticipated in contributions and donations; received
+43   $10,000 more in Special Education Aid; Medicaid revenue was $8,000 less. Distributed Expense Trust
+44   Funds all remain well funded: Special Education Trust balance as of June 30 was $470,220; Building
+45   Maintenance Trust Fund $161,559; Healthcare Expendable Trust balance $220,916, protects against
+46   fluctuations in health insurance costs allowing us to under-budget in Operating Budget.
+47
+
+
+                                                         4
+     Select Board Regular Meeting
+     October 19, 2026
+
+ 1   FY2026 General Fund Encumbrances: $85,690 carried over to FY2027 due to an open contract completed
+ 2   after fiscal year end which goes into FY2027 unreserved Fund Balance. FY2026 Operating Budget also
+ 3   included $74,912 transfer to cover School Nutrition Program deficit. Audit: No material weaknesses, no
+ 4   significant efficiencies, one minor control recommendation re purchase orders. Overall ended FY2026 in
+ 5   the positive with $224,344 returned to town; $75,000 retained in Fund Balance.
+ 6
+ 7   Mr. Stanton asked for rationale for retaining $75,000 of Fund Balance. Director Ferreira said it was the
+ 8   amount retained last year with the purpose of safeguarding the district against unanticipated costs. Mr.
+ 9   Stanton asked if it was spent and Director Ferreira said it was not utilized, and said the Board has to vote
+10   every year from zero. He said he modeled out how the tax cap would affect the school and we came in
+11   well below based on March CPI. He said across SAU21 only 2 districts went over, both because of
+12   unexpected Special Education costs, which is a risk.
+13
+14   School Default Budget: FY2028 is $10,148,627, not yet finalized by School Board which could affect the
+15   default. Represents a decrease of $418,759, just under 4%. Contributions to Decrease: changes based on
+16   HB-564 with School Budget now a separate Warrant Article and not in Operating Budget; last year’s line
+17   item was $311,217, included in default and will now be a stand-alone warrant. No increases for Teacher
+18   salaries: now in negotiations for new Teacher CBA.
+19
+20   There are reductions in certain areas but we have some legally mandated obligations that resulted in a
+21   Default increase of $180,000: Special Education Transportation increase of about $17,500, and $40,000
+22   increase in contracted services for mandated ESOL. Chairman Martino asked if there are general target
+23   numbers for healthcare. Director Ferreira said all trusts have reached or exceeded target numbers and
+24   are determined by the School Board.
+25
+26   Selectman Sununu said the SAU Budget is being broken out into a Town Warrant Article and asked if it will
+27   have a default amount like a regular warrant. Director Ferreira said there will be 6 numbers: a total SAU
+28   Budget and adjusted budget if it fails; North Hampton’s portion ($300,000+) and adjusted portion for
+29   North Hampton; Winnacunnet portion will be on Winnacunnet ballot. He said “adjusted” ballots are
+30   calculated differently from a default: removes any new positions, services, or salary increases.
+31
+32   Director Ferreira said we are predicting a 0% COLA adjustment for Administrators and 2.5% for staff;
+33   support staff will not get a raise. Selectman Sununu said it is coming in as a single warrant, not as a budget
+34   we will renew; Mr. Heitman said it is separate from the SEA Budget. Director Ferreira said he will plan to
+35   provide the full SAU Budget to the Budget Committee for review as well as a separate stand-alone Warrant
+36   Article. Mr. Dionne questioned Salary Certified Staff; Director Ferreira said the decrease was due to staff
+37   changes.
+38
+39   Review Town Year-End and Default Budgets
+40   Town Administrator Tully said last year General Fund Operating Budget was $10,024,131 plus warrant
+41   article $1,315,328 for total approved General Fund Budget of $11,339,459; add prior year encumbrances
+42   $8,601, less current-year General Fund encumbrances $3,934; less current-year General Fund corrected
+43   Fund Balance Warrant Article, less $580,000 current year General Fund committed Fund Balance; adjusted
+44   General Fund Expenditure Budget of $10,764,125, expended $10,383,934 with return of investment just
+45   over $380,190. FY2026 Year-End Summary: current year encumbrances, Conservation Commission
+46   $3,394.
+47
+
+
+                                                           5
+     Select Board Regular Meeting
+     October 19, 2026
+
+ 1   Town Administrator Tully said for Revenues: General Fund Budget $11,339,459; less General Fund
+ 2   Unassigned Fund Balance $10,000, adjusted General Fund Budget $11,239,459; Budgetary Revenues
+ 3   $11,487,174; Revenues in excess of Budget $247,715 returned to Town for fund balance. Budgetary
+ 4   Revenues: Property Taxes $7,995,566; Timber yield -S185.88; Interest on taxes $35,002; Business Licenses
+ 5   and Permits $2,164; Motor Vehicle Permit fees $1,725,351; Building Permits $306,855; other
+ 6   Licenses/Permits $29,594; Rooms and Meals $451,556; HIghway Block Grant $107,285; Special Revenue
+ 7   $605,000.
+ 8
+ 9   Transfer from Capital Reserves $30,000; also unanticipated revenue $76,074 with related expenditures of
+10   -$183,696; add prior year general fund restricted fund balance $119,002; less current- year general fund
+11   restricted Fund Balance asset $89,372. Net change for non-budgetary activity $77,990. Had more
+12   expenditures than were taken in: Mr. Spooner received a grant for a truck with 80:20 split, bought truck
+13   but money not yet received back from grant, actually another $76,000 increase.
+14
+15   FY2026 Year End: Budget returned to Fund Balance $380,190; Revenues in excess of Budget -$77,990; Net
+16   Change: $49,915. Prior year Unassigned Fund Balance $3,108,288; use of unassigned fund balance
+17   $404,000 (Town Meeting); use of General Fund balance to reduce taxes $100,000, change in General Fund
+18   less Fund Balance $549,915 (would have been $625,000 if money returned); current-year Unassigned
+19   Fund Balance $5,154,204. We are at about $3.1 Mil, used $404,000, and reduced taxes by $100,000:
+20   change was $549,915 in General Fund Balance; currently sit at approximately $1.35 MIl. Mr. Dionne said
+21   a page was skipped; TownAdministrator Tully said he did not go through every revenue source.
+22
+23   Default Budget: Preliminary, not set by Select Board and some could change. FY2027 Operating Budget
+24   $10,285,024, General Fund Default Operating Budget $10,204,125; change -$80,899, -0.79%. Executive -
+25   $3,160 (retirements); Finance Administration -$1,626; Personnel Administration +$11,136 (health
+26   insurance increase); Planning and Zoning -$1,095; Insurance -$20,473 (workers comp and property
+27   liability); Police -$13,951 (health insurance); Fire & Rescue savings of -$74,186 (retirement savings); Code
+28   Enforcement $1,035; Emergency Management -$1,283; Highways/Streets +$14,534 (salaries and health
+29   insurance); Hydrants up $1,820 (increased distribution costs); Parks & Rec -$828; Library up $8,267; Debt
+30   Service Principal $23,400; Debt Service Interest -$21,300; TOTAL: $80,899 savings in default this year.
+31
+32   Mr. Miller asked the interest rate when borrowing for large construction projects; Finance Director
+33   Cornwall said close to 3%. Town Administrator Tully said interest rates started going up just after Safety
+34   Building project; Select Board has option to use the interest money to buy down taxes and will be able to
+35   use another portion this year. Selectman Sununu said this year will be $147,000 closing out the project.
+36
+37   MINUTES
+38   Minutes of Joint Select Board-Budget Committee of July 27, 2026
+39
+40   Motion: James Sununu made a motion to approve the meeting minutes of July 27, 2026; Seconded: Larry
+41   Miller; Vote: 7-0, with 2 abstentions.
+42
+43   ANY OTHER ITEM THAT MAY COME BEFORE THE COMMITTEE
+44
+45   PERIOD OF PUBLIC COMMENT:
+46
+47   Kirsten Larsen Schultz of 121 Post Road made a request for a motion that the School Board Warrant
+48   Article provide voters with the following information: (1) cost per pupil from Total School Budget divided
+
+                                                          6
+     Select Board Regular Meeting
+     October 19, 2026
+
+ 1   by K-8 enrollment; (2) total amount for stipends paid to School Board members; (3) SAU Administration
+ 2   spending, percentage of total school appropriations allocated to SAU Central Office Administration in
+ 3   current and proposed budgets.
+ 4
+ 5   Selectman Sununu said the Budget Committee does not write the Warrant Articles for the School, it is
+ 6   done by the School District, and she should ask the School Board as part of their process. He said the
+ 7   Budget Committee can change the amounts on the warrant articles but not the editing. Mr. Stanton said
+ 8   State Law and DRA determine the wording and the intent cannot be changed.
+ 9
+10   Ms. Schultz said it is not the “intent”, but for transparency for voters, and guessed citizens do not have a
+11   voice on how warrant articles are presented on a ballot. Selectman Sununu said not always as DRA is the
+12   ultimate arbiter. Ms. Shultz asked if school and town deliberatives have to be held on different days.
+13   Selectman Sununu said it is a scheduling matter. Mr. Heitman said it is a logistic issue and said using the
+14   school on weekends incurs custodial costs. Ms. Shultz said on Saturday more people would be able to
+15   attend.
+16
+17   Next Meeting: November 16, 2026.
+18
+19   ADJOURNMENT
+20
+21   Motion: Katie O’Brien made a motion to adjourn the Budget Committee Meeting; Seconded: Chairman
+22   Martino; Vote: approved 9-0.
+23
+24   Respectfully submitted,
+25   Patricia Denmark, Recording Secretary
+
+
+                                                          7

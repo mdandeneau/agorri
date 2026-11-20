@@ -1,63 +1,63 @@
 {
  "note": "Written by ingest/fetch.mjs. Each item: where it came from (source, url), the date in the document when known, firstSeen (the day the fetcher first saw it; new since the last refresh = firstSeen on or after that day) and text (the saved agenda or minutes text, when there is one). Facts for the site still come from reading the linked document.",
  "town": "portsmouth",
- "updated": "2026-11-19T16:35:09.545Z",
+ "updated": "2026-11-20T16:10:55.658Z",
  "sources": {
   "city-news": {
    "ok": true,
    "found": 10,
-   "new": 3,
-   "checked": "2026-11-19T16:35:09.545Z",
-   "ms": 207
+   "new": 2,
+   "checked": "2026-11-20T16:10:55.658Z",
+   "ms": 167
   },
   "police-news": {
    "ok": true,
    "found": 10,
    "new": 0,
-   "checked": "2026-11-19T16:35:09.545Z",
-   "ms": 1641
+   "checked": "2026-11-20T16:10:55.658Z",
+   "ms": 1855
   },
   "fire-news": {
    "ok": true,
    "found": 10,
    "new": 0,
-   "checked": "2026-11-19T16:35:09.545Z",
-   "ms": 1419
+   "checked": "2026-11-20T16:10:55.658Z",
+   "ms": 1452
   },
   "police-logs": {
    "ok": true,
    "found": 14,
    "new": 0,
-   "checked": "2026-11-19T16:35:09.545Z",
-   "ms": 1419
+   "checked": "2026-11-20T16:10:55.658Z",
+   "ms": 1077
   },
   "meetings": {
    "ok": true,
-   "found": 12,
+   "found": 3,
    "new": 0,
-   "checked": "2026-11-19T16:35:09.545Z",
-   "ms": 4385
+   "checked": "2026-11-20T16:10:55.658Z",
+   "ms": 5027
   },
   "meetings-archive": {
    "ok": true,
-   "found": 29,
-   "new": 13,
-   "checked": "2026-11-19T16:35:09.545Z",
-   "ms": 5244
+   "found": 35,
+   "new": 9,
+   "checked": "2026-11-20T16:10:55.658Z",
+   "ms": 2844
   },
   "council": {
    "ok": true,
    "found": 32,
-   "new": 1,
-   "checked": "2026-11-19T16:35:09.545Z",
-   "ms": 2080
+   "new": 0,
+   "checked": "2026-11-20T16:10:55.658Z",
+   "ms": 1554
   },
   "surplus-sales": {
    "ok": true,
    "found": 1,
    "new": 0,
-   "checked": "2026-11-19T16:35:09.545Z",
-   "ms": 1046
+   "checked": "2026-11-20T16:10:55.658Z",
+   "ms": 1508
   }
  },
  "notes": [
@@ -65,6 +65,127 @@
   "no text in https://files.portsmouthnh.gov/agendas/2026/Trustees%20of%20the%20Trust%20Funds/10-16-26%20Minutes%20Draft%20-%20Trustees%20of%20Trust%20Funds.pdf (scanned image?)"
  ],
  "items": [
+  {
+   "key": "city-news:856d05e02825",
+   "source": "city-news",
+   "kind": "notice",
+   "title": "City of Portsmouth, NH DPW to Host Fleet Street Project Pre-Construction Public Information Meeting on November 30",
+   "url": "https://www.portsmouthnh.gov/city/press-releases/city-portsmouth-nh-dpw-host-fleet-street-project-pre-construction-public",
+   "date": "2026-11-19",
+   "detail": "City of Portsmouth, NH DPW to Host Fleet Street Project Pre-Construction Public Information Meeting on November 30 Portsmouth, N.H. – The City of Portsmouth Department of Public Works is hosting a pre-construction Public Information Meeting to discuss the Fleet Street Reconstruction Project on Monday, November 30, 2026, at 6 pm in Conference Room A of City Hall, 1 Junkins Avenue. Residents and business owners are encouraged to attend. City staff and the project team will review construction plans, the anticipated schedule, and how construction will impact traffic and parking, followed by an op",
+   "firstSeen": "2026-11-20",
+   "lastSeen": "2026-11-20"
+  },
+  {
+   "key": "meetings-archive:92113e1997c3",
+   "source": "meetings-archive",
+   "kind": "meeting-doc",
+   "title": "Agenda: Agenda 11.19.2026.pdf",
+   "url": "https://files.portsmouthnh.gov/agendas/2026/Library%20Board%20of%20Trustees/Agenda%2011.19.2026.pdf",
+   "date": "2026-11-19",
+   "doc": "agenda",
+   "firstSeen": "2026-11-20",
+   "lastSeen": "2026-11-20",
+   "text": "inbox/portsmouth/docs/92113e1997c3.txt"
+  },
+  {
+   "key": "meetings-archive:feebebe60133",
+   "source": "meetings-archive",
+   "kind": "meeting-doc",
+   "title": "Legal Notice",
+   "url": "https://files.portsmouthnh.gov/agendas/2026/Planning+Board/11-19-2026+Meeting+/11-19-2026+PB+LN.pdf",
+   "date": "2026-11-19",
+   "doc": "legal notice",
+   "firstSeen": "2026-11-20",
+   "lastSeen": "2026-11-20",
+   "text": "inbox/portsmouth/docs/feebebe60133.txt"
+  },
+  {
+   "key": "meetings-archive:b44c75e985db",
+   "source": "meetings-archive",
+   "kind": "meeting-doc",
+   "title": "Agenda: 11-19-2026_pb_ag.pdf",
+   "url": "https://files.portsmouthnh.gov/agendas/2026/Planning+Board/11-19-2026+Meeting+/11-19-2026_pb_ag.pdf",
+   "date": "2026-11-19",
+   "doc": "agenda",
+   "firstSeen": "2026-11-20",
+   "lastSeen": "2026-11-20",
+   "text": "inbox/portsmouth/docs/b44c75e985db.txt"
+  },
+  {
+   "key": "meetings-archive:533fa212257c",
+   "source": "meetings-archive",
+   "kind": "meeting-doc",
+   "title": "Staff Memo REVISED",
+   "url": "https://files.portsmouthnh.gov/agendas/2026/Planning+Board/11-19-2026+Meeting+/11-19-2026_PB_Memo_REV.pdf",
+   "date": "2026-11-19",
+   "firstSeen": "2026-11-20",
+   "lastSeen": "2026-11-20"
+  },
+  {
+   "key": "meetings-archive:de7610ae6d18",
+   "source": "meetings-archive",
+   "kind": "meeting-doc",
+   "title": "Meeting Packet",
+   "url": "https://files.portsmouthnh.gov/agendas/2026/Planning+Board/11-19-2026+Meeting+/11-19-2026_pb_packet.pdf",
+   "date": "2026-11-19",
+   "packet": true,
+   "firstSeen": "2026-11-20",
+   "lastSeen": "2026-11-20"
+  },
+  {
+   "key": "meetings-archive:5b9e099d905c",
+   "source": "meetings-archive",
+   "kind": "meeting-doc",
+   "title": "DRAFT Zoning Amendment: Child Care Centers & Residential in Commercial Districts",
+   "url": "https://files.portsmouthnh.gov/agendas/2026/Planning+Board/11-19-2026+Meeting+/DRAFT_RSA_Ordinance_pb_11192026_Childcarecenters_Zoning-amend.pdf",
+   "date": "2026-11-19",
+   "firstSeen": "2026-11-20",
+   "lastSeen": "2026-11-20"
+  },
+  {
+   "key": "meetings-archive:9bd701b09b7f",
+   "source": "meetings-archive",
+   "kind": "meeting-doc",
+   "title": "DRAFT Zoning Amendment: Expansion of Workforce Housing",
+   "url": "https://files.portsmouthnh.gov/agendas/2026/Planning+Board/11-19-2026+Meeting+/WFH_Options_DRAFT_pb_11192026__Zoning-amend.pdf",
+   "date": "2026-11-19",
+   "firstSeen": "2026-11-20",
+   "lastSeen": "2026-11-20"
+  },
+  {
+   "key": "city-news:05442c99bfc7",
+   "source": "city-news",
+   "kind": "notice",
+   "title": "City Council Meeting Explorer",
+   "url": "https://www.portsmouthnh.gov/citycouncil/city-council-meeting-explorer",
+   "date": "2026-11-18",
+   "detail": "City Council Meeting Explorer × (function () { \"use strict\"; var explorer = document.getElementById(\"council-meeting-explorer\"); var modal = document.getElementById(\"council-media-modal\"); var mediaBox = document.getElementById(\"council-media-box\"); var mediaFrame = document.getElementById(\"council-media-frame\"); var closeButton = document.getElementById(\"council-media-close\"); if (!explorer || !modal || !mediaBox || !mediaFrame || !closeButton) { return; } // Keep the modal outside Drupal layout containers. if (modal.parentNode !== document.body) { document.body.appendChild(modal); } // Accep",
+   "firstSeen": "2026-11-20",
+   "lastSeen": "2026-11-20"
+  },
+  {
+   "key": "meetings-archive:2e76f30bad1d",
+   "source": "meetings-archive",
+   "kind": "meeting-doc",
+   "title": "Action Sheet",
+   "url": "https://files.portsmouthnh.gov/agendas/2026/Conservation%20Commission/November/11-18-26_CC_as.pdf",
+   "date": "2026-11-18",
+   "firstSeen": "2026-11-20",
+   "lastSeen": "2026-11-20"
+  },
+  {
+   "key": "meetings-archive:f81c8cdb20df",
+   "source": "meetings-archive",
+   "kind": "meeting-doc",
+   "title": "Agenda: November_19_2026_ag.pdf",
+   "url": "https://files.portsmouthnh.gov/agendas/2026/Sustainability+Committee/November/November_19_2026_ag.pdf",
+   "date": null,
+   "doc": "agenda",
+   "firstSeen": "2026-11-20",
+   "lastSeen": "2026-11-20",
+   "text": "inbox/portsmouth/docs/f81c8cdb20df.txt"
+  },
   {
    "key": "city-news:d60288ab9b59",
    "source": "city-news",
@@ -74,7 +195,7 @@
    "date": "2026-11-19",
    "detail": "10-26-2026 - MINUTES - City Council Rolling Stock kagriggs Thu, 11/19/2026 - 10:30 https://files.portsmouthnh.gov/minutes/2026/citycouncil/10.26.26 Rolling Stock WS Minutes.pdf CityCouncil Document Type Minutes",
    "firstSeen": "2026-11-19",
-   "lastSeen": "2026-11-19"
+   "lastSeen": "2026-11-20"
   },
   {
    "key": "city-news:831f8cd6b4a6",
@@ -85,7 +206,7 @@
    "date": "2026-11-19",
    "detail": "Thanksgiving Facility Closures and Service Impacts mrbohanan Thu, 11/19/2026 - 09:24 The following facilities and services will be impacted due to the Thanksgiving holiday. Library Wednesday, November 25: Open 10 am - 5 pm Thursday, November 26 & Friday, November 27: Closed Recreation Wednesday, November 25: All buildings closed by 5 pm Thursday, November 26 & Friday, November 27: All buildings closed Schools Wednesday, November 25 through Friday, November 27: No school City Offices Wednesday, November 25: Closed at 1 pm Thursday, November 26 & Friday, November 27: Closed Trash & Recycling Thu",
    "firstSeen": "2026-11-19",
-   "lastSeen": "2026-11-19"
+   "lastSeen": "2026-11-20"
   },
   {
    "key": "city-news:5bba348d4d68",
@@ -96,7 +217,7 @@
    "date": "2026-11-19",
    "detail": "Planner Society YOU-niversity: Curating Your Year 12/15 @6:30pm arladebush Thu, 11/19/2026 - 09:15 Spend an evening with us exploring supportive tools to help craft the year ahead. We’ll discuss choosing a Word of the Year, using the Year Compass workbook, energy audits, and other ways to go into the new year with more of what you need. You are welcome to bring your planners and/or a journal. Library https://portsmouthpl.librarycalendar.com/event/ps1226",
    "firstSeen": "2026-11-19",
-   "lastSeen": "2026-11-19"
+   "lastSeen": "2026-11-20"
   },
   {
    "key": "meetings-archive:f7c155680e56",
@@ -107,7 +228,7 @@
    "date": "2026-11-19",
    "doc": "agenda",
    "firstSeen": "2026-11-19",
-   "lastSeen": "2026-11-19",
+   "lastSeen": "2026-11-20",
    "text": "inbox/portsmouth/docs/f7c155680e56.txt"
   },
   {
@@ -119,7 +240,7 @@
    "date": "2026-11-18",
    "doc": "agenda",
    "firstSeen": "2026-11-19",
-   "lastSeen": "2026-11-19",
+   "lastSeen": "2026-11-20",
    "text": "inbox/portsmouth/docs/21d5cd7e38a5.txt"
   },
   {
@@ -131,7 +252,7 @@
    "date": "2026-11-18",
    "doc": "agenda",
    "firstSeen": "2026-11-19",
-   "lastSeen": "2026-11-19",
+   "lastSeen": "2026-11-20",
    "text": "inbox/portsmouth/docs/325ad8a53f0a.txt"
   },
   {
@@ -142,7 +263,7 @@
    "url": "https://files.portsmouthnh.gov/agendas/2026/Zoning%20Board%20of%20Adjustment/11-17-2026%20Meeting/11-17-2026%20BOA%20AS.pdf",
    "date": "2026-11-17",
    "firstSeen": "2026-11-19",
-   "lastSeen": "2026-11-19"
+   "lastSeen": "2026-11-20"
   },
   {
    "key": "meetings-archive:aa7a7ca29c4f",
@@ -153,7 +274,7 @@
    "date": "2026-11-10",
    "doc": "minutes",
    "firstSeen": "2026-11-19",
-   "lastSeen": "2026-11-19",
+   "lastSeen": "2026-11-20",
    "text": "inbox/portsmouth/docs/aa7a7ca29c4f.txt"
   },
   {
@@ -165,7 +286,7 @@
    "date": "2026-10-26",
    "doc": "minutes",
    "firstSeen": "2026-11-19",
-   "lastSeen": "2026-11-19",
+   "lastSeen": "2026-11-20",
    "text": "inbox/portsmouth/docs/bcf660d44e2a.txt"
   },
   {
@@ -176,7 +297,7 @@
    "url": "https://files.portsmouthnh.gov/agendas/2026/Conservation%20Commission/November/50+Andrew+Jarvis+Drive+WCUP.pdf",
    "date": null,
    "firstSeen": "2026-11-19",
-   "lastSeen": "2026-11-19"
+   "lastSeen": "2026-11-20"
   },
   {
    "key": "meetings-archive:cc37aca84b87",
@@ -186,7 +307,7 @@
    "url": "https://files.portsmouthnh.gov/agendas/2026/Conservation%20Commission/November/175+Middle+Road+WCUP.pdf",
    "date": null,
    "firstSeen": "2026-11-19",
-   "lastSeen": "2026-11-19"
+   "lastSeen": "2026-11-20"
   },
   {
    "key": "meetings-archive:b4d63ee3a49c",
@@ -196,7 +317,7 @@
    "url": "https://files.portsmouthnh.gov/agendas/2026/Conservation%20Commission/November/Borthwick+%26+Coakley+Connector+WCUP.pdf",
    "date": null,
    "firstSeen": "2026-11-19",
-   "lastSeen": "2026-11-19"
+   "lastSeen": "2026-11-20"
   },
   {
    "key": "meetings-archive:eadec58451d2",
@@ -206,7 +327,7 @@
    "url": "https://files.portsmouthnh.gov/agendas/2026/Conservation%20Commission/November/182+Birch+Street+WS.pdf",
    "date": null,
    "firstSeen": "2026-11-19",
-   "lastSeen": "2026-11-19"
+   "lastSeen": "2026-11-20"
   },
   {
    "key": "meetings-archive:07b5dbf09a17",
@@ -216,7 +337,7 @@
    "url": "https://files.portsmouthnh.gov/agendas/2026/Conservation%20Commission/November/NHDES+Correspondence.pdf",
    "date": null,
    "firstSeen": "2026-11-19",
-   "lastSeen": "2026-11-19"
+   "lastSeen": "2026-11-20"
   },
   {
    "key": "meetings-archive:68ec04104e03",
@@ -226,7 +347,7 @@
    "url": "https://files.portsmouthnh.gov/agendas/2026/Conservation%20Commission/November/Staff+Memo_REV.pdf",
    "date": null,
    "firstSeen": "2026-11-19",
-   "lastSeen": "2026-11-19"
+   "lastSeen": "2026-11-20"
   },
   {
    "key": "meetings-archive:285065a13df2",
@@ -237,7 +358,7 @@
    "date": null,
    "packet": true,
    "firstSeen": "2026-11-19",
-   "lastSeen": "2026-11-19"
+   "lastSeen": "2026-11-20"
   },
   {
    "key": "meetings-archive:d4b0216cf627",
@@ -248,7 +369,7 @@
    "date": null,
    "doc": "agenda",
    "firstSeen": "2026-11-19",
-   "lastSeen": "2026-11-19",
+   "lastSeen": "2026-11-20",
    "text": "inbox/portsmouth/docs/d4b0216cf627.txt"
   },
   {
@@ -270,7 +391,7 @@
    "date": "2026-11-18",
    "doc": "agenda",
    "firstSeen": "2026-11-18",
-   "lastSeen": "2026-11-19"
+   "lastSeen": "2026-11-20"
   },
   {
    "key": "city-news:0931f6c2bacd",
@@ -281,7 +402,7 @@
    "date": "2026-11-17",
    "detail": "City of Portsmouth NH Citywide Neighborhood Committee Announces Annual Holiday Lights Contest bmmurphy Tue, 11/17/2026 - 16:30 Portsmouth, New Hampshire – The Citywide Neighborhood Committee’s Holiday Lights Contest is a cherished tradition in Portsmouth because it gives neighbors another reason to celebrate together this holiday season. The Committee will create a map of the Holiday Lights Contest entries so residents and visitors can tour the houses. Registration for this year’s contest opens Tuesday, November 17, 2026. Residents are invited to register to participate in the contest by compl",
    "firstSeen": "2026-11-18",
-   "lastSeen": "2026-11-19"
+   "lastSeen": "2026-11-20"
   },
   {
    "key": "city-news:2fec473b220a",
@@ -292,7 +413,7 @@
    "date": "2026-11-17",
    "detail": "Portsmouth Welfare Department Seeks Holiday Gift Cards for Teens bmmurphy Tue, 11/17/2026 - 16:20 Portsmouth, N.H. – The City of Portsmouth Welfare Department is continuing its annual holiday tradition of collecting gift cards for families with teens ages 13–17, who are often overlooked by other holiday gift programs. Donations will be accepted until December 15, 2026. Welfare Department Director Jodi Carnes noted, “Local agencies that provide holiday assistance do a wonderful job here in Portsmouth, but teenagers can often be an overlooked population that we serve. To help close that gap, the",
    "firstSeen": "2026-11-18",
-   "lastSeen": "2026-11-19"
+   "lastSeen": "2026-11-20"
   },
   {
    "key": "city-news:329488a85a5c",
@@ -303,7 +424,7 @@
    "date": "2026-11-17",
    "detail": "FY2007 Financial Documents ← Back to all prior year pages Fiscal Year 2007 July 1, 2006 – June 30, 2007 Budget If you would like to view a hard copy of the FY07 Proposed Annual Budget, please visit the Portsmouth Public Library or the City Clerk’s Office. Adopted Annual Budget (Addendum) Introduction / Budget Document / Fund Summaries / Revenues / Debt Service (Pages 1–72) Municipal (Pages 73–120 and 149–188) Police (Pages 121–135) Fire and Emergency Management (Pages 136–148) School (Pages 189–224) Non-Operating (Pages 225–226) Water and Sewer (Pages 227–256) Special Revenue (Pages 257–276) A",
    "firstSeen": "2026-11-18",
-   "lastSeen": "2026-11-19"
+   "lastSeen": "2026-11-20"
   },
   {
    "key": "city-news:81cc5d519fe9",
@@ -314,7 +435,7 @@
    "date": "2026-11-17",
    "detail": "FY2008 Financial Documents ← Back to all prior year pages Fiscal Year 2008 July 1, 2007 – June 30, 2008 Budget If you would like to view a hard copy of the FY08 Proposed Annual Budget, please visit the Portsmouth Public Library or the City Clerk’s Office. Adopted Annual Budget (Addendum) Introduction / Budget Document / Fund Summaries / Revenues / Debt Service (Pages 1–80) Municipal (Pages 81–130 and 157–196) Police (Pages 131–145) Fire and Emergency Management (Pages 146–156) School (Pages 197–246) Non-Operating (Pages 247–248) Water and Sewer (Pages 249–276) Special Revenues (Pages 277–296) ",
    "firstSeen": "2026-11-18",
-   "lastSeen": "2026-11-19"
+   "lastSeen": "2026-11-20"
   },
   {
    "key": "city-news:cfc4773798fa",
@@ -380,7 +501,7 @@
    "date": "2026-11-17",
    "doc": "legal notice",
    "firstSeen": "2026-11-18",
-   "lastSeen": "2026-11-19",
+   "lastSeen": "2026-11-20",
    "text": "inbox/portsmouth/docs/639c0d8125e8.txt"
   },
   {
@@ -391,7 +512,7 @@
    "url": "https://files.portsmouthnh.gov/agendas/2026/Zoning%20Board%20of%20Adjustment/11-17-2026%20Meeting/11-17-2026_boa_public-comment.pdf",
    "date": "2026-11-17",
    "firstSeen": "2026-11-18",
-   "lastSeen": "2026-11-19"
+   "lastSeen": "2026-11-20"
   },
   {
    "key": "meetings-archive:76b9c9b37e81",
@@ -402,7 +523,7 @@
    "date": "2026-10-16",
    "doc": "minutes",
    "firstSeen": "2026-11-18",
-   "lastSeen": "2026-11-19"
+   "lastSeen": "2026-11-20"
   },
   {
    "key": "meetings:1a9db40fb06e",
@@ -412,7 +533,7 @@
    "url": "https://files.portsmouthnh.gov/agendas/2026/SWAG/SWAG%20Meeting%20Notice%20Dec%2010,%202026%20rev.pdf",
    "date": null,
    "firstSeen": "2026-11-18",
-   "lastSeen": "2026-11-19"
+   "lastSeen": "2026-11-20"
   },
   {
    "key": "meetings:5d7da3788b61",
@@ -423,7 +544,7 @@
    "date": "2026-12-03",
    "doc": "agenda",
    "firstSeen": "2026-11-17",
-   "lastSeen": "2026-11-19",
+   "lastSeen": "2026-11-20",
    "text": "inbox/portsmouth/docs/5d7da3788b61.txt"
   },
   {
@@ -458,7 +579,7 @@
    "doc": "agenda",
    "packet": true,
    "firstSeen": "2026-11-17",
-   "lastSeen": "2026-11-19"
+   "lastSeen": "2026-11-20"
   },
   {
    "key": "meetings-archive:5d585d47f048",
@@ -470,7 +591,7 @@
    "doc": "agenda",
    "packet": true,
    "firstSeen": "2026-11-17",
-   "lastSeen": "2026-11-19"
+   "lastSeen": "2026-11-20"
   },
   {
    "key": "meetings-archive:43a3c377ec6f",
@@ -480,7 +601,7 @@
    "url": "https://files.portsmouthnh.gov/agendas/2026/City%20Council/Non%20Public%20Notice%2011.16.2026.pdf",
    "date": "2026-11-16",
    "firstSeen": "2026-11-17",
-   "lastSeen": "2026-11-19"
+   "lastSeen": "2026-11-20"
   },
   {
    "key": "meetings-archive:ddefa20b2372",
@@ -491,7 +612,7 @@
    "date": "2026-11-16",
    "doc": "agenda",
    "firstSeen": "2026-11-17",
-   "lastSeen": "2026-11-19",
+   "lastSeen": "2026-11-20",
    "text": "inbox/portsmouth/docs/ddefa20b2372.txt"
   },
   {
@@ -503,7 +624,7 @@
    "date": "2026-11-16",
    "doc": "agenda",
    "firstSeen": "2026-11-17",
-   "lastSeen": "2026-11-19",
+   "lastSeen": "2026-11-20",
    "text": "inbox/portsmouth/docs/6c47e226a933.txt"
   },
   {
@@ -515,7 +636,7 @@
    "date": "2026-10-26",
    "doc": "minutes",
    "firstSeen": "2026-11-17",
-   "lastSeen": "2026-11-19",
+   "lastSeen": "2026-11-20",
    "text": "inbox/portsmouth/docs/8a1a60228f03.txt"
   },
   {
@@ -561,7 +682,7 @@
    "url": "https://www.portsmouthnh.gov/sites/default/files/2026-11/November%2014-15.pdf",
    "date": "2026-11-14",
    "firstSeen": "2026-11-16",
-   "lastSeen": "2026-11-19"
+   "lastSeen": "2026-11-20"
   },
   {
    "key": "police-logs:03764625a758",
@@ -571,7 +692,7 @@
    "url": "https://www.portsmouthnh.gov/sites/default/files/2026-11/November%2013-14.pdf",
    "date": "2026-11-13",
    "firstSeen": "2026-11-16",
-   "lastSeen": "2026-11-19"
+   "lastSeen": "2026-11-20"
   },
   {
    "key": "police-logs:e43a2e0becbe",
@@ -581,7 +702,7 @@
    "url": "https://www.portsmouthnh.gov/sites/default/files/2026-11/November%2012-13.pdf",
    "date": "2026-11-12",
    "firstSeen": "2026-11-16",
-   "lastSeen": "2026-11-19"
+   "lastSeen": "2026-11-20"
   },
   {
    "key": "meetings:b44c75e985db",
@@ -739,7 +860,7 @@
    "date": "2026-11-16",
    "doc": "agenda",
    "firstSeen": "2026-11-14",
-   "lastSeen": "2026-11-19",
+   "lastSeen": "2026-11-20",
    "text": "inbox/portsmouth/docs/363e0402a01c.txt"
   },
   {
@@ -751,7 +872,7 @@
    "date": "2026-11-16",
    "doc": "agenda",
    "firstSeen": "2026-11-14",
-   "lastSeen": "2026-11-19",
+   "lastSeen": "2026-11-20",
    "text": "inbox/portsmouth/docs/de474e119ee9.txt"
   },
   {
@@ -911,7 +1032,7 @@
    "date": "2026-11-12",
    "doc": "agenda",
    "firstSeen": "2026-11-13",
-   "lastSeen": "2026-11-19",
+   "lastSeen": "2026-11-20",
    "text": "inbox/portsmouth/docs/2f8ab639aedb.txt"
   },
   {
@@ -922,7 +1043,7 @@
    "url": "https://files.portsmouthnh.gov/agendas/2026/City%20Council/FY28-33%20CIP%2011-12-26%20Work%20Session%20Intro%20slides.pdf",
    "date": "2026-11-12",
    "firstSeen": "2026-11-13",
-   "lastSeen": "2026-11-19"
+   "lastSeen": "2026-11-20"
   },
   {
    "key": "police-logs:88b5f08fa39b",
@@ -932,7 +1053,7 @@
    "url": "https://www.portsmouthnh.gov/sites/default/files/2026-11/November%2011-12.pdf",
    "date": "2026-11-11",
    "firstSeen": "2026-11-13",
-   "lastSeen": "2026-11-19"
+   "lastSeen": "2026-11-20"
   },
   {
    "key": "meetings-archive:d0dc8f618a03",
@@ -944,7 +1065,7 @@
    "doc": "agenda",
    "packet": true,
    "firstSeen": "2026-11-13",
-   "lastSeen": "2026-11-19"
+   "lastSeen": "2026-11-20"
   },
   {
    "key": "police-logs:4651dffdbe2b",
@@ -954,7 +1075,7 @@
    "url": "https://www.portsmouthnh.gov/sites/default/files/2026-11/November%2010-11.pdf",
    "date": "2026-11-10",
    "firstSeen": "2026-11-12",
-   "lastSeen": "2026-11-19"
+   "lastSeen": "2026-11-20"
   },
   {
    "key": "meetings-archive:31c2662d20bb",
@@ -964,7 +1085,7 @@
    "url": "https://files.portsmouthnh.gov/agendas/2026/Fire%20Commission/11.10.26%20Fire%20with%20NonPublic.pdf",
    "date": "2026-11-10",
    "firstSeen": "2026-11-12",
-   "lastSeen": "2026-11-19"
+   "lastSeen": "2026-11-20"
   },
   {
    "key": "meetings-archive:3d9e6278cf35",
@@ -986,7 +1107,7 @@
    "url": "https://www.portsmouthnh.gov/sites/default/files/2026-11/November%209-10.pdf",
    "date": "2026-11-09",
    "firstSeen": "2026-11-12",
-   "lastSeen": "2026-11-19"
+   "lastSeen": "2026-11-20"
   },
   {
    "key": "police-logs:0310411345d4",
@@ -996,7 +1117,7 @@
    "url": "https://www.portsmouthnh.gov/sites/default/files/2026-11/November%208-9.pdf",
    "date": "2026-11-08",
    "firstSeen": "2026-11-12",
-   "lastSeen": "2026-11-19"
+   "lastSeen": "2026-11-20"
   },
   {
    "key": "meetings-archive:e5ee9be2297f",
@@ -1019,7 +1140,7 @@
    "date": "2026-11-17",
    "doc": "legal notice",
    "firstSeen": "2026-11-10",
-   "lastSeen": "2026-11-19",
+   "lastSeen": "2026-11-20",
    "text": "inbox/portsmouth/docs/639c0d8125e8.txt"
   },
   {
@@ -1065,7 +1186,7 @@
    "date": "2026-11-12",
    "doc": "agenda",
    "firstSeen": "2026-11-09",
-   "lastSeen": "2026-11-19",
+   "lastSeen": "2026-11-20",
    "text": "inbox/portsmouth/docs/2f8ab639aedb.txt"
   },
   {
@@ -1108,7 +1229,7 @@
    "url": "https://www.portsmouthnh.gov/sites/default/files/2026-11/November%207-8.pdf",
    "date": "2026-11-07",
    "firstSeen": "2026-11-09",
-   "lastSeen": "2026-11-19"
+   "lastSeen": "2026-11-20"
   },
   {
    "key": "police-logs:f5afa628132e",
@@ -1118,7 +1239,7 @@
    "url": "https://www.portsmouthnh.gov/sites/default/files/2026-11/November%206-7.pdf",
    "date": "2026-11-06",
    "firstSeen": "2026-11-09",
-   "lastSeen": "2026-11-19"
+   "lastSeen": "2026-11-20"
   },
   {
    "key": "police-logs:063a51fbc7e1",
@@ -1128,7 +1249,7 @@
    "url": "https://www.portsmouthnh.gov/sites/default/files/2026-11/November%205-6.pdf",
    "date": "2026-11-05",
    "firstSeen": "2026-11-09",
-   "lastSeen": "2026-11-19"
+   "lastSeen": "2026-11-20"
   },
   {
    "key": "meetings-archive:027cef369be7",
@@ -1276,7 +1397,7 @@
    "url": "https://www.portsmouthnh.gov/sites/default/files/2026-11/November%204-5.pdf",
    "date": "2026-11-04",
    "firstSeen": "2026-11-06",
-   "lastSeen": "2026-11-19"
+   "lastSeen": "2026-11-20"
   },
   {
    "key": "police-logs:f35a0e128149",
@@ -1286,7 +1407,7 @@
    "url": "https://www.portsmouthnh.gov/sites/default/files/2026-11/November%203-4.pdf",
    "date": "2026-11-03",
    "firstSeen": "2026-11-06",
-   "lastSeen": "2026-11-19"
+   "lastSeen": "2026-11-20"
   },
   {
    "key": "meetings-archive:a00746fa7863",
@@ -1574,7 +1695,7 @@
    "url": "https://www.portsmouthnh.gov/sites/default/files/2026-11/November%202-3.pdf",
    "date": "2026-11-02",
    "firstSeen": "2026-11-04",
-   "lastSeen": "2026-11-19"
+   "lastSeen": "2026-11-20"
   },
   {
    "key": "police-logs:a91ea5d29422",
@@ -1584,7 +1705,7 @@
    "url": "https://www.portsmouthnh.gov/sites/default/files/2026-11/November%201-2.pdf",
    "date": "2026-11-01",
    "firstSeen": "2026-11-04",
-   "lastSeen": "2026-11-19"
+   "lastSeen": "2026-11-20"
   },
   {
    "key": "meetings-archive:17dea1260d11",
@@ -1629,7 +1750,7 @@
    "date": null,
    "doc": "legal notice",
    "firstSeen": "2026-11-04",
-   "lastSeen": "2026-11-19"
+   "lastSeen": "2026-11-20"
   },
   {
    "key": "meetings:04d4c1fcc0c6",
@@ -2149,7 +2270,7 @@
    "date": "2026-10-26",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-19",
+   "lastSeen": "2026-11-20",
    "text": "inbox/portsmouth/docs/7bf0b03c798e.txt"
   },
   {
@@ -2573,7 +2694,7 @@
    "date": "2026-10-13",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-19",
+   "lastSeen": "2026-11-20",
    "text": "inbox/portsmouth/docs/3c36c5e6c824.txt"
   },
   {
@@ -2585,7 +2706,7 @@
    "date": "2026-10-13",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-19",
+   "lastSeen": "2026-11-20",
    "text": "inbox/portsmouth/docs/bba8d9f47cea.txt"
   },
   {
@@ -2729,7 +2850,7 @@
    "date": "2026-09-28",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-19",
+   "lastSeen": "2026-11-20",
    "text": "inbox/portsmouth/docs/984674f67c14.txt"
   },
   {
@@ -2741,7 +2862,7 @@
    "date": "2026-09-28",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-19",
+   "lastSeen": "2026-11-20",
    "text": "inbox/portsmouth/docs/21c82464a34f.txt"
   },
   {
@@ -2752,7 +2873,7 @@
    "url": "https://www.portsmouthnh.gov/police/press-releases/jewelry-theft",
    "date": "2026-09-24",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-19"
+   "lastSeen": "2026-11-20"
   },
   {
    "key": "meetings-archive:41439de0fa94",
@@ -2797,7 +2918,7 @@
    "date": "2026-09-14",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-19",
+   "lastSeen": "2026-11-20",
    "text": "inbox/portsmouth/docs/9b73d908a9bf.txt"
   },
   {
@@ -2809,7 +2930,7 @@
    "date": "2026-09-14",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-19",
+   "lastSeen": "2026-11-20",
    "text": "inbox/portsmouth/docs/c12736192fa2.txt"
   },
   {
@@ -2822,7 +2943,7 @@
    "doc": "agenda",
    "packet": true,
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-19"
+   "lastSeen": "2026-11-20"
   },
   {
    "key": "council:17332aaaafec",
@@ -2833,7 +2954,7 @@
    "date": "2026-08-17",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-19"
+   "lastSeen": "2026-11-20"
   },
   {
    "key": "police-news:d5da07375472",
@@ -2843,7 +2964,7 @@
    "url": "https://www.portsmouthnh.gov/police/gary-dozier",
    "date": "2026-08-06",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-19"
+   "lastSeen": "2026-11-20"
   },
   {
    "key": "police-news:53247cc8908a",
@@ -2853,7 +2974,7 @@
    "url": "https://www.portsmouthnh.gov/police/events/911-remembrance-ceremony-0",
    "date": "2026-08-04",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-19"
+   "lastSeen": "2026-11-20"
   },
   {
    "key": "council:43d563091f7d",
@@ -2864,7 +2985,7 @@
    "date": "2026-08-03",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-19",
+   "lastSeen": "2026-11-20",
    "text": "inbox/portsmouth/docs/43d563091f7d.txt"
   },
   {
@@ -2876,7 +2997,7 @@
    "date": "2026-08-03",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-19"
+   "lastSeen": "2026-11-20"
   },
   {
    "key": "police-news:720b15089632",
@@ -2886,7 +3007,7 @@
    "url": "https://www.portsmouthnh.gov/police/events/coffee-cop-1",
    "date": "2026-07-30",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-19"
+   "lastSeen": "2026-11-20"
   },
   {
    "key": "police-news:b4748ff7b3fc",
@@ -2896,7 +3017,7 @@
    "url": "https://www.portsmouthnh.gov/police/events/national-night-out-1",
    "date": "2026-07-30",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-19"
+   "lastSeen": "2026-11-20"
   },
   {
    "key": "council:2327964c6019",
