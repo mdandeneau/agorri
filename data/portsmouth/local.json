@@ -96,6 +96,19 @@
    "stripLine": "Planning Board hears four applications"
   },
   {
+   "date": "2026-11-19",
+   "kind": "Event",
+   "title": "Thanksgiving closures: City offices close at 1 pm Nov 25 and are closed Nov 26 and 27",
+   "detail": "City offices close at 1 pm on Wednesday, Nov 25, and are closed Thursday and Friday, Nov 26 and 27. The library is open 10 am to 5 pm on Nov 25 and closed Nov 26 and 27. Recreation buildings close by 5 pm on Nov 25 and are closed Nov 26 and 27. There is no school Nov 25 through Nov 27. The notice also lists trash and recycling changes for the holiday week.",
+   "source": {
+    "label": "City of Portsmouth, Nov 19",
+    "url": "https://www.portsmouthnh.gov/city/news/thanksgiving-facility-closures-and-service-impacts"
+   },
+   "strip": "Thanksgiving closures",
+   "stripLine": "City offices closed Nov 26 and 27",
+   "until": "2026-11-27"
+  },
+  {
    "date": "2026-11-17",
    "kind": "Volunteer",
    "title": "Welfare Department collecting holiday gift cards for teens through Dec 15",
@@ -130,6 +143,16 @@
    },
    "strip": "Zoning hearings",
    "stripLine": "Board of Adjustment hears 13 petitions"
+  },
+  {
+   "date": "2026-11-17",
+   "kind": "Event",
+   "title": "Holiday Lights Contest: registration opened Nov 17",
+   "detail": "The Citywide Neighborhood Committee's annual Holiday Lights Contest is taking registrations from residents, starting Tuesday, Nov 17. The committee will publish a map of entries so people can tour the houses.",
+   "source": {
+    "label": "City of Portsmouth, Nov 17",
+    "url": "https://www.portsmouthnh.gov/city/news/city-portsmouth-nh-citywide-neighborhood-committee-announces-annual-holiday-lights"
+   }
   },
   {
    "date": "2026-11-13",
@@ -330,16 +353,6 @@
    "source": {
     "label": "City of Portsmouth, Oct 23",
     "url": "https://www.portsmouthnh.gov/community/news/fy27-cdbg-public-facility-and-accessibility-improvement-grants-available"
-   }
-  },
-  {
-   "date": "2026-10-20",
-   "kind": "Roads",
-   "title": "Cate Street Bridge project: public information session held October 20",
-   "detail": "6:30 pm at the Senior Activity Center, 125 Cottage Street, with questions afterward.",
-   "source": {
-    "label": "City of Portsmouth DPW, Oct 16",
-    "url": "https://www.portsmouthnh.gov/city/press-releases/dpw-hosts-cate-street-bridge-project-public-information-session-october-20-2026"
    }
   }
  ],
@@ -987,28 +1000,8 @@
    "status": "not yet connected"
   }
  ],
- "events_as_of": "2026-11-19",
+ "events_as_of": "2026-11-20",
  "events": [
-  {
-   "date": "2026-11-19",
-   "time": "9:30 am to 1:30 pm",
-   "title": "Craft Fair and Thanksgiving Luncheon (lunch 11:30)",
-   "venue": "Community Campus, 100 Campus Dr",
-   "town": "Portsmouth",
-   "kind": "Market",
-   "url": "https://www.portsmouthnh.gov/city/press-releases/city-announces-trick-or-treat-hours-and-fall-events",
-   "source": "City of Portsmouth"
-  },
-  {
-   "date": "2026-11-19",
-   "time": "6:30 pm",
-   "title": "Hobbit Calligraphy (online; registration required, materials picked up at the library a week before)",
-   "venue": "Online (Zoom), Portsmouth Public Library",
-   "town": "Portsmouth",
-   "kind": "Library",
-   "url": "https://www.portsmouthnh.gov/library/news/hobbit-calligraphy-1119-630pm-online",
-   "source": "Portsmouth Public Library"
-  },
   {
    "date": "2026-11-20",
    "time": "8:00 pm",
@@ -1171,6 +1164,16 @@
    "town": "Portsmouth",
    "kind": "Library",
    "url": "https://www.portsmouthnh.gov/library/news/hobbit-party-1211-6pm",
+   "source": "Portsmouth Public Library"
+  },
+  {
+   "date": "2026-12-15",
+   "time": "6:30 pm",
+   "title": "Planner Society YOU-niversity: Curating Your Year",
+   "venue": "Portsmouth Public Library",
+   "town": "Portsmouth",
+   "kind": "Library",
+   "url": "https://portsmouthpl.librarycalendar.com/event/ps1226",
    "source": "Portsmouth Public Library"
   },
   {
@@ -1396,7 +1399,7 @@
   }
  ],
  "safety": {
-  "as_of": "2026-11-06",
+  "as_of": "2026-11-20",
   "note": "Compiled from City of Portsmouth police and fire pages, daily police logs, Police and Fire Commission minutes and local news. Incidents are described by type, street and date only; no names of people involved.",
   "alerts": {
    "name": "Smart911 Community Alert System",
@@ -1973,22 +1976,22 @@
    "oversight": "Elected three-member Board of Fire Commissioners (four-year terms under City Charter Amendment A); meets at Fire Station 2 on Lafayette Road.",
    "stats": [
     {
-     "label": "Calls for service, September",
-     "value": 549,
+     "label": "Calls for service, October",
+     "value": 618,
      "year": "2026",
-     "src": "https://files.portsmouthnh.gov/minutes/2026/FIRE%202026%20/Minutes%20of%2010%20October%2013,%202026%20-%20DRAFT.pdf"
+     "src": "https://files.portsmouthnh.gov/minutes/2026/FIRE%202026%20/Minutes%20of%2011%20November%2010,%202026%20w%20non-public%20session-%20DRAFT.pdf"
     },
     {
-     "label": "Ambulance calls, September",
-     "value": 311,
+     "label": "Ambulance calls, October",
+     "value": 361,
      "year": "2026",
-     "src": "https://files.portsmouthnh.gov/minutes/2026/FIRE%202026%20/Minutes%20of%2010%20October%2013,%202026%20-%20DRAFT.pdf"
+     "src": "https://files.portsmouthnh.gov/minutes/2026/FIRE%202026%20/Minutes%20of%2011%20November%2010,%202026%20w%20non-public%20session-%20DRAFT.pdf"
     },
     {
-     "label": "Fire prevention inspections, September",
+     "label": "Fire prevention inspections, October",
      "value": 43,
      "year": "2026",
-     "src": "https://files.portsmouthnh.gov/minutes/2026/FIRE%202026%20/Minutes%20of%2010%20October%2013,%202026%20-%20DRAFT.pdf"
+     "src": "https://files.portsmouthnh.gov/minutes/2026/FIRE%202026%20/Minutes%20of%2011%20November%2010,%202026%20w%20non-public%20session-%20DRAFT.pdf"
     },
     {
      "label": "Calls for service, January",
@@ -2010,6 +2013,39 @@
     }
    ],
    "recent": [
+    {
+     "date": "2026-11-10",
+     "kind": "Community",
+     "title": "Fire Chief McQuillen plans to retire Dec 23",
+     "detail": "Chief William McQuillen gave the Fire Commission his letter of intent to retire, effective December 23, 2026. The commission voted unanimously to accept it.",
+     "area": null,
+     "source": {
+      "label": "Fire Commission minutes (draft), Nov 10",
+      "url": "https://files.portsmouthnh.gov/minutes/2026/FIRE%202026%20/Minutes%20of%2011%20November%2010,%202026%20w%20non-public%20session-%20DRAFT.pdf"
+     }
+    },
+    {
+     "date": "2026-11-10",
+     "kind": "Community",
+     "title": "618 calls in October, 361 of them ambulance runs",
+     "detail": "The chief's monthly report listed weakness, head injury and 'no apparent illness' as the top EMS calls. Fire prevention issued 43 permits and did 43 inspections.",
+     "area": null,
+     "source": {
+      "label": "Fire Commission minutes (draft), Nov 10",
+      "url": "https://files.portsmouthnh.gov/minutes/2026/FIRE%202026%20/Minutes%20of%2011%20November%2010,%202026%20w%20non-public%20session-%20DRAFT.pdf"
+     }
+    },
+    {
+     "date": "2026-10-28",
+     "kind": "Incident",
+     "title": "Rollover crash with one person trapped",
+     "detail": "Crews freed one person trapped in a vehicle after a rollover crash. Two patients were taken to the hospital.",
+     "area": "Ocean Road and Lafayette Road",
+     "source": {
+      "label": "Fire Commission minutes (draft), Nov 10",
+      "url": "https://files.portsmouthnh.gov/minutes/2026/FIRE%202026%20/Minutes%20of%2011%20November%2010,%202026%20w%20non-public%20session-%20DRAFT.pdf"
+     }
+    },
     {
      "date": "2026-10-13",
      "kind": "Community",
@@ -2085,6 +2121,17 @@
      "source": {
       "label": "Fire Commission minutes, Oct 13",
       "url": "https://files.portsmouthnh.gov/minutes/2026/FIRE%202026%20/Minutes%20of%2010%20October%2013,%202026%20-%20DRAFT.pdf"
+     }
+    },
+    {
+     "date": "2026-10-07",
+     "kind": "Incident",
+     "title": "Car shears off underground propane tank valve",
+     "detail": "Crews worked until about 2 am dispersing gas and standing by while the fuel company burned off the gas.",
+     "area": "Eastwood Drive",
+     "source": {
+      "label": "Fire Commission minutes (draft), Nov 10",
+      "url": "https://files.portsmouthnh.gov/minutes/2026/FIRE%202026%20/Minutes%20of%2011%20November%2010,%202026%20w%20non-public%20session-%20DRAFT.pdf"
      }
     }
    ],
@@ -2396,9 +2443,14 @@
  "paper": {
   "name": "Portsmouth Patch",
   "url": "https://patch.com/new-hampshire/portsmouth-nh",
-  "asOf": "2026-11-19",
+  "asOf": "2026-11-20",
   "note": "The Portsmouth Herald is paywalled with no public feed, so these come from Patch.",
   "headlines": [
+   {
+    "title": "Devine Millimet Welcomes Of Counsel Attorney Hedges",
+    "url": "https://patch.com/new-hampshire/portsmouth-nh/devine-millimet-welcomes-counsel-attorney-hedges",
+    "date": "2026-11-19"
+   },
    {
     "title": "40th Annual Lights Of Love Event Held Dec. 2",
     "url": "https://patch.com/new-hampshire/portsmouth-nh/40th-annual-lights-love-event-held-dec-2",
@@ -2433,11 +2485,6 @@
     "title": "Portsmouth Public Library: Hobbit Calligraphy On Nov. 19",
     "url": "https://patch.com/new-hampshire/portsmouth-nh/portsmouth-public-library-hobbit-calligraphy-nov-19",
     "date": "2026-11-13"
-   },
-   {
-    "title": "League Of N.H. Craftsmen Presents Handmade In The Harbor Nov. 14 And Nov. 15",
-    "url": "https://patch.com/new-hampshire/portsmouth-nh/league-n-h-craftsmen-presents-handmade-harbor-nov-14-nov-15",
-    "date": "2026-11-12"
    }
   ]
  }

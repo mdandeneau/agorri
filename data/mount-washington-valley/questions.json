@@ -261,6 +261,15 @@
    "text": "Tamworth should hire a Regulatory Compliance Officer to handle building notifications under its new ordinance.",
    "source": "https://www.tamworthnh.gov/AgendaCenter/ViewFile/Minutes/_04142026-212",
    "status": "draft"
+  },
+  {
+   "id": "2026-11-23-conway-zoning-rewrite",
+   "date": "2026-11-23",
+   "town": "conway",
+   "issue": "zoning-rewrite",
+   "text": "Conway should adopt the Conway Forward rewrite of its zoning ordinance.",
+   "source": "https://bpg.mysocialpinpoint.com/conway-forward-zoning",
+   "status": "draft"
   }
  ]
 }

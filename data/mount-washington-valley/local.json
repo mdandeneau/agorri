@@ -448,18 +448,6 @@
     "url": "https://www.conwaydailysun.com/news/local/north-south-road-to-be-shut-down-this-week/article_2a251d06-dedc-4f38-943a-8638a28f21b4.html"
    },
    "town": "Conway"
-  },
-  {
-   "town": "Madison",
-   "date": "2026-10-19",
-   "until": "2026-10-23",
-   "kind": "Parks",
-   "title": "Silver Lake drawn down for winter; boat launch repaired Oct 19 to 23",
-   "detail": "The lake was lowered to its normal winter level by Oct 15, then dropped another 2 feet from Oct 19 to 23 so the DPW could repair the boat launch. Boat owners were asked to remove boats first.",
-   "source": {
-    "label": "Town of Madison, home page",
-    "url": "https://www.madison-nh.org/"
-   }
   }
  ],
  "links": [
@@ -813,16 +801,6 @@
   }
  ],
  "events": [
-  {
-   "date": "2026-11-19",
-   "time": "3:30 pm",
-   "title": "Jackson School District strategic plan community workshop (3:30 to 5:30 pm)",
-   "venue": "The Whitney Center",
-   "town": "Jackson",
-   "kind": "Civic",
-   "url": "https://www.jackson-nh.gov/news-and-alerts/community-planning-forum/",
-   "source": "Town of Jackson"
-  },
   {
    "date": "2026-11-24",
    "time": "5:00 pm",

@@ -1,7 +1,7 @@
 {
  "about": {
   "town": "Portsmouth, NH",
-  "as_of": "2026-11-18",
+  "as_of": "2026-11-20",
   "records_from": "2025-10-28",
   "documents_used": 598,
   "note": "Plain-English summaries written by AI from official city PDFs; every meeting carries its source URL. Items with needs_review=true are where the official record is ambiguous or self-contradictory."
@@ -1843,8 +1843,12 @@
    "discussed": [
     {
      "title": "Rolling stock work session (6 pm)",
-     "detail": "Deputy City Manager Nathan Lunney reviewed the city's vehicles and equipment before the meeting.",
-     "topic": "Budget & taxes"
+     "detail": "Deputy City Manager Nathan Lunney presented what vehicles and equipment the city owns, how they are managed, purchasing challenges and funding sources. Councilors asked about electric vehicles in the fleet and about weighing maintenance costs against replacement. Mayor McEachern asked for the data broken down by vehicle class and use, compared with other municipalities, and for repair and lifecycle costs of electric vehicles. Two members of the public spoke. No vote was taken.",
+     "topic": "Budget & taxes",
+     "source": {
+      "label": "Rolling Stock work session minutes, Oct 26",
+      "url": "https://files.portsmouthnh.gov/minutes/2026/citycouncil/10.26.26%20Rolling%20Stock%20WS%20Minutes.pdf"
+     }
     },
     {
      "title": "Borthwick Avenue sewer upgrade",
