@@ -270,6 +270,15 @@
    "text": "Conway should adopt the Conway Forward rewrite of its zoning ordinance.",
    "source": "https://bpg.mysocialpinpoint.com/conway-forward-zoning",
    "status": "draft"
+  },
+  {
+   "id": "2026-11-24-bartlett-school-bus-parking",
+   "date": "2026-11-24",
+   "town": "bartlett",
+   "issue": "school-bus-parking",
+   "text": "Bartlett should let the school district park its buses on nearby private land, with the Highway Department plowing and maintaining the lot.",
+   "source": "https://www.townofbartlett.nh.gov/AgendaCenter/ViewFile/Minutes/_10212026-208",
+   "status": "draft"
   }
  ]
 }
