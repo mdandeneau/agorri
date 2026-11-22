@@ -84,6 +84,43 @@
    }
   },
   {
+   "date": "2026-11-20",
+   "kind": "Parking",
+   "title": "Three hours of free parking in the Foundry and Hanover garages, Dec 14 to Jan 1",
+   "detail": "On Nov 16 the City Council voted to approve three hours of free parking in the Foundry and Hanover garages from Monday, Dec 14, 2026 through Friday, Jan 1, 2027. Enforcement continues for on-street and surface lot metered spaces and timed spaces, including 15-minute spaces.",
+   "source": {
+    "label": "City of Portsmouth press release, Nov 20",
+    "url": "https://www.portsmouthnh.gov/city/press-releases/portsmouth-nh-city-council-approves-holiday-gift-three-hours-free-parking-city"
+   },
+   "until": "2027-01-01"
+  },
+  {
+   "date": "2026-11-20",
+   "kind": "Roads",
+   "title": "Fleet Street saw cutting between Congress and Hanover, Monday, Nov 23",
+   "detail": "A contractor (Granese) will saw-cut Fleet Street between Congress and Hanover Streets on Monday, Nov 23, to prepare for utility installation planned over the winter. The work is expected to take one day.",
+   "source": {
+    "label": "City of Portsmouth notice, Nov 20",
+    "url": "https://www.portsmouthnh.gov/node/729100"
+   },
+   "strip": "Fleet Street work",
+   "stripLine": "Saw cutting Monday, Congress to Hanover",
+   "until": "2026-11-23"
+  },
+  {
+   "date": "2026-11-20",
+   "kind": "Roads",
+   "title": "Market Street: parking removed near 40 Market Street, Nov 23 to 25",
+   "detail": "Private contractors will work at 40 Market Street from Monday, Nov 23 through Wednesday, Nov 25. The street stays open, but parking will be temporarily removed on both sides of the street.",
+   "source": {
+    "label": "City of Portsmouth notice, Nov 20",
+    "url": "https://www.portsmouthnh.gov/node/729099"
+   },
+   "strip": "Market Street parking",
+   "stripLine": "No parking near 40 Market, Nov 23 to 25",
+   "until": "2026-11-25"
+  },
+  {
    "date": "2026-11-19",
    "kind": "Roads",
    "title": "Fleet Street reconstruction: public information meeting Monday, Nov 30, 6 pm",
@@ -1013,38 +1050,17 @@
    "status": "not yet connected"
   }
  ],
- "events_as_of": "2026-11-21",
+ "events_as_of": "2026-11-22",
  "events": [
   {
-   "date": "2026-11-21",
+   "date": "2026-11-22",
    "time": "10:00 am to 2:00 pm",
-   "title": "Thanksgiving Guided Tours (weekends through Nov 29, plus Nov 25 and 27)",
+   "title": "Thanksgiving Guided Tours (Nov 22, 25, 27, 28 and 29)",
    "venue": "Strawbery Banke Museum",
    "town": "Portsmouth",
    "kind": "History",
    "url": "https://www.strawberybanke.org/events-collection/thanksgiving-guided-tours-1",
    "source": "Strawbery Banke Museum"
-  },
-  {
-   "date": "2026-11-21",
-   "time": "10:00 am to 2:00 pm",
-   "title": "Weave a Scarf in a Day Workshop",
-   "venue": "Strawbery Banke Museum",
-   "town": "Portsmouth",
-   "kind": "Workshop",
-   "url": "https://www.strawberybanke.org/events-collection/weave-a-scarf-in-a-day-workshop",
-   "source": "Strawbery Banke Museum"
-  },
-  {
-   "date": "2026-11-21",
-   "time": "5:00 pm and 8:00 pm",
-   "title": "Griffin House",
-   "venue": "The Music Hall Lounge, 131 Congress St",
-   "town": "Portsmouth",
-   "kind": "Music",
-   "url": "https://www.themusichall.org/events/griffinhouse26/",
-   "source": "The Music Hall",
-   "price": "$28 advance, $30 day of show"
   },
   {
    "date": "2026-11-22",
@@ -1096,6 +1112,16 @@
    "kind": "Theater",
    "url": "https://www.themusichall.org/marypoppins/",
    "source": "The Music Hall"
+  },
+  {
+   "date": "2026-12-02",
+   "time": "7:00 pm",
+   "title": "'What The Dickens'",
+   "venue": "Players Ring, 105 Marcy St",
+   "town": "Portsmouth",
+   "kind": "Theater",
+   "url": "https://patch.com/new-hampshire/portsmouth-nh/calendar/event/20261202/94d0f617-3b06-4eff-af9e-d8bb5560fe05/what-the-dickens",
+   "source": "Patch calendar"
   },
   {
    "date": "2026-12-03",
@@ -1402,7 +1428,7 @@
   }
  ],
  "safety": {
-  "as_of": "2026-11-20",
+  "as_of": "2026-11-22",
   "note": "Compiled from City of Portsmouth police and fire pages, daily police logs, Police and Fire Commission minutes and local news. Incidents are described by type, street and date only; no names of people involved.",
   "alerts": {
    "name": "Smart911 Community Alert System",
@@ -2446,9 +2472,14 @@
  "paper": {
   "name": "Portsmouth Patch",
   "url": "https://patch.com/new-hampshire/portsmouth-nh",
-  "asOf": "2026-11-21",
+  "asOf": "2026-11-22",
   "note": "The Portsmouth Herald is paywalled with no public feed, so these come from Patch.",
   "headlines": [
+   {
+    "title": "Horse-Drawn Carriage Rides Return To Candlelight Stroll At Strawbery Banke Museum",
+    "url": "https://patch.com/new-hampshire/portsmouth-nh/horse-drawn-carriage-rides-return-candlelight-stroll-strawbery-banke",
+    "date": "2026-11-21"
+   },
    {
     "title": "Violet's Way: Portsmouth Church Property Transformed Into Community Of Housing, Healing And Hope",
     "url": "https://patch.com/new-hampshire/portsmouth-nh/violets-way-portsmouth-church-property-transformed-community-housing",
@@ -2483,11 +2514,6 @@
     "title": "Seacoast Camp Assistant, Nicknamed ‘Merlin,’ Faces Indecent Exposure, Computer Services Charges",
     "url": "https://patch.com/new-hampshire/portsmouth-nh/seacoast-camp-assistant-nicknamed-merlin-faces-indecent-exposure",
     "date": "2026-11-17"
-   },
-   {
-    "title": "Merging Finances, Investing, And Buying A Home Webinar On Nov. 18",
-    "url": "https://patch.com/new-hampshire/portsmouth-nh/merging-finances-investing-buying-home-webinar-nov-18",
-    "date": "2026-11-16"
    }
   ]
  }

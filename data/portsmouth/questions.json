@@ -155,7 +155,7 @@
    "issue": "parking",
    "text": "Portsmouth should offer three hours of free parking a day at the High Hanover and Foundry Place garages from Dec 14 to Jan 1, as it did last holiday season.",
    "source": "https://files.portsmouthnh.gov/agendas/2026/City%20Council/City%20Council%20Regular%20Meeting%20Agenda%2011.16.26.pdf",
-   "status": "draft"
+   "status": "retired"
   },
   {
    "id": "2026-11-19-housing",
@@ -203,6 +203,14 @@
    "issue": "schools",
    "text": "Portsmouth should renovate the Career and Technical Education Center, which the capital plan schedules at $20.1 million over six years.",
    "source": "https://files.portsmouthnh.gov/cip/FY27-32+CIP-Final.pdf",
+   "status": "draft"
+  },
+  {
+   "id": "2026-11-25-prescott",
+   "date": "2026-11-25",
+   "issue": "prescott",
+   "text": "Portsmouth should build a covered stage in Prescott Park, paid for by the Prescott Park Arts Festival.",
+   "source": "https://files.portsmouthnh.gov/agendas/2026/City%20Council/City%20Council%20Regular%20Meeting%20Agenda%2011.16.26.pdf",
    "status": "draft"
   }
  ]

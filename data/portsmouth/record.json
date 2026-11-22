@@ -1,48 +1,16 @@
 {
  "about": {
   "town": "Portsmouth, NH",
-  "as_of": "2026-11-20",
+  "as_of": "2026-11-22",
   "records_from": "2025-10-28",
   "documents_used": 598,
   "note": "Plain-English summaries written by AI from official city PDFs; every meeting carries its source URL. Items with needs_review=true are where the official record is ambiguous or self-contradictory."
  },
  "next_council_meeting": {
-  "date": "2026-11-16",
+  "date": "2026-12-07",
   "items": [
    {
-    "item": "6 pm work session and public hearing on landscape and pole licenses for 361 Hanover Street; the vote is a City Manager item later in the meeting",
-    "from": "2026-11-16 agenda"
-   },
-   {
-    "item": "Public hearing on giving up (discontinuing) part of Cornwall Street",
-    "from": "2026-11-16 agenda"
-   },
-   {
-    "item": "First reading of a new Sewer Use Ordinance replacing the current one, with a public hearing and second reading proposed for Dec 7",
-    "from": "2026-11-16 agenda"
-   },
-   {
-    "item": "Public Art Review Committee recommendation: a $60,000 Percent for Art contract with Badway Creative of Rye for artwork at the High Hanover Garage",
-    "from": "2026-11-16 agenda"
-   },
-   {
-    "item": "Accepting Sage Lane as a city right of way from the Parson Woods Condominium Association, effective Dec 1",
-    "from": "2026-11-16 agenda"
-   },
-   {
-    "item": "Councilors Bagley and Hopkins: three hours of free parking daily at the High Hanover and Foundry Place garages from Dec 14 to Jan 1",
-    "from": "2026-11-16 agenda"
-   },
-   {
-    "item": "Grants: $397,471 for the police Internet Crimes Against Children task force and a $25,025 Violence Against Women Act grant",
-    "from": "2026-11-16 agenda"
-   },
-   {
-    "item": "City Manager updates on the Market and Russell Street intersection plan, outdoor dining season, an amended resident parking pilot policy, natural burials, Fleet Street construction, Prescott Park and the Mechanic Street pump station",
-    "from": "2026-11-16 agenda"
-   },
-   {
-    "item": "Councilor Flynn: Fuel to Learn Task Force preliminary findings",
+    "item": "Public hearing and second reading of the new Sewer Use Ordinance, as proposed on the Nov 16 agenda",
     "from": "2026-11-16 agenda"
    }
   ]
@@ -63,7 +31,8 @@
     "A Shuttle Loop and Public Transit Working Group reports back by Jan 29, 2027.",
     "Nov 2: the Shuttle Loop and Public Transit Working Group's second meeting agenda covered barriers to riding, a downtown evening circulator, on-demand microtransit (Via) and a possible federal CMAQ grant application by COAST (80 percent federal, 20 percent City match), with a ranked project list to recommend to the Council.",
     "Oct 26: the Council heard the RAPP first-quarter report and adopted staff recommendations on off-peak workweek parking for downtown employees (unanimous), and moved most parking rules from zoning into site plan review (9-0).",
-    "Nov 16 Council agenda: an amended Resident Access Parking Pilot policy (informational item) and a proposal by Councilors Bagley and Hopkins for three hours of free parking daily at the High Hanover and Foundry Place garages from Dec 14 to Jan 1."
+    "Nov 16 Council agenda: an amended Resident Access Parking Pilot policy (informational item) and a proposal by Councilors Bagley and Hopkins for three hours of free parking daily at the High Hanover and Foundry Place garages from Dec 14 to Jan 1.",
+    "Nov 16: the Council voted to approve three hours of free parking in the Foundry and Hanover garages from Dec 14, 2026 through Jan 1, 2027, according to a city press release. Metered and timed street and surface lot spaces are still enforced."
    ],
    "keywords": [
     "parking",
@@ -80,6 +49,10 @@
     {
      "label": "Shuttle Loop and Transit Working Group agenda, Nov 2",
      "url": "https://files.portsmouthnh.gov/agendas/2026/Seacoast%20Shuttle%20Group/11-02-26%20Agenda.pdf"
+    },
+    {
+     "label": "City of Portsmouth press release, Nov 20",
+     "url": "https://www.portsmouthnh.gov/city/press-releases/portsmouth-nh-city-council-approves-holiday-gift-three-hours-free-parking-city"
     }
    ],
    "scope": "council",

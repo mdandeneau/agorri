@@ -4,18 +4,7 @@
  "zip": "03860",
  "radius": 30,
  "surplus": [],
- "sales": [
-  {
-   "title": "3-bedroom home on 1.7 acres, 22 Rainbow Drive",
-   "kind": "Real estate auction",
-   "date": "2026-11-06",
-   "time": "11 am",
-   "town": "Ossipee",
-   "where": "On site",
-   "url": "https://paulmcinnis.com/auctions/upcoming-auctions/26pm-31-ossipee-nh/",
-   "source": "Paul McInnis LLC"
-  }
- ],
+ "sales": [],
  "watch": [
   {
    "id": "municibid-nh",
