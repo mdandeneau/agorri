@@ -394,16 +394,6 @@
     "label": "Library calendar",
     "url": "https://portsmouthpl.librarycalendar.com/event/hangul26"
    }
-  },
-  {
-   "date": "2026-10-23",
-   "kind": "Grants",
-   "title": "FY27 CDBG grants open for public facility and accessibility improvements",
-   "detail": "Federal Community Development Block Grant money for public facility and accessibility projects.",
-   "source": {
-    "label": "City of Portsmouth, Oct 23",
-    "url": "https://www.portsmouthnh.gov/community/news/fy27-cdbg-public-facility-and-accessibility-improvement-grants-available"
-   }
   }
  ],
  "election": {
@@ -1050,28 +1040,8 @@
    "status": "not yet connected"
   }
  ],
- "events_as_of": "2026-11-22",
+ "events_as_of": "2026-11-23",
  "events": [
-  {
-   "date": "2026-11-22",
-   "time": "10:00 am to 2:00 pm",
-   "title": "Thanksgiving Guided Tours (Nov 22, 25, 27, 28 and 29)",
-   "venue": "Strawbery Banke Museum",
-   "town": "Portsmouth",
-   "kind": "History",
-   "url": "https://www.strawberybanke.org/events-collection/thanksgiving-guided-tours-1",
-   "source": "Strawbery Banke Museum"
-  },
-  {
-   "date": "2026-11-22",
-   "time": "1:00 pm",
-   "title": "Meet The Artists gallery talk",
-   "venue": "Robert Lincoln Levy Gallery, 136 State St",
-   "town": "Portsmouth",
-   "kind": "Art",
-   "url": "https://patch.com/new-hampshire/portsmouth-nh/calendar/event/20261122/d8c512a4-7cc0-4267-a9ce-3c0968fa785a/meet-the-artists",
-   "source": "Patch calendar"
-  },
   {
    "date": "2026-11-24",
    "time": "6:00 pm",
@@ -1081,6 +1051,16 @@
    "kind": "Fundraiser",
    "url": "https://patch.com/new-hampshire/portsmouth-nh/calendar/event/20261124/a4f4d829-5543-48db-bb8e-16382724592f/howling-wolf-taqueria-hosts-full-moon-madness-to-benefit-hope-on-haven-hill",
    "source": "Patch calendar"
+  },
+  {
+   "date": "2026-11-25",
+   "time": "10:00 am to 2:00 pm",
+   "title": "Thanksgiving Guided Tours (Nov 25, 27, 28 and 29)",
+   "venue": "Strawbery Banke Museum",
+   "town": "Portsmouth",
+   "kind": "History",
+   "url": "https://www.strawberybanke.org/events-collection/thanksgiving-guided-tours-1",
+   "source": "Strawbery Banke Museum"
   },
   {
    "date": "2026-11-26",
@@ -2472,9 +2452,14 @@
  "paper": {
   "name": "Portsmouth Patch",
   "url": "https://patch.com/new-hampshire/portsmouth-nh",
-  "asOf": "2026-11-22",
+  "asOf": "2026-11-23",
   "note": "The Portsmouth Herald is paywalled with no public feed, so these come from Patch.",
   "headlines": [
+   {
+    "title": "Langdon House To Host Revolutionary Era Yuletide Event On Dec. 3 And Dec. 5",
+    "url": "https://patch.com/new-hampshire/portsmouth-nh/langdon-house-host-revolutionary-era-yuletide-event-dec-3-dec-5",
+    "date": "2026-11-22"
+   },
    {
     "title": "Horse-Drawn Carriage Rides Return To Candlelight Stroll At Strawbery Banke Museum",
     "url": "https://patch.com/new-hampshire/portsmouth-nh/horse-drawn-carriage-rides-return-candlelight-stroll-strawbery-banke",
@@ -2508,11 +2493,6 @@
    {
     "title": "Fox Run Eye Care Welcomes Seacoast Families To Its Greenland Office",
     "url": "https://patch.com/new-hampshire/portsmouth-nh/fox-run-eye-care-welcomes-seacoast-families-its-greenland-office",
-    "date": "2026-11-17"
-   },
-   {
-    "title": "Seacoast Camp Assistant, Nicknamed ‘Merlin,’ Faces Indecent Exposure, Computer Services Charges",
-    "url": "https://patch.com/new-hampshire/portsmouth-nh/seacoast-camp-assistant-nicknamed-merlin-faces-indecent-exposure",
     "date": "2026-11-17"
    }
   ]

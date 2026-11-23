@@ -402,18 +402,7 @@
    }
   }
  ],
- "closures": [
-  {
-   "name": "Stan's Service Center",
-   "what": "Auto repair shop at 46 Main St., Conway Village",
-   "date": "2026-04",
-   "detail": "Reported April 1, 2026 to be closing after more than 50 years; the article notes cars increasingly need dealer service for proprietary systems.",
-   "source": {
-    "label": "Conway Daily Sun, Apr 1, 2026",
-    "url": "https://www.conwaydailysun.com/business/local/a-conway-landmark-stans-service-center-closing-its-doors/article_b59f9528-3a49-4812-b8fe-a8f0f13e999b.html"
-   }
-  }
- ],
+ "closures": [],
  "keywords": [
   "79-e",
   "attitash",

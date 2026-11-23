@@ -15,16 +15,6 @@
  ],
  "sales": [
   {
-   "title": "Dover downsizing online auction",
-   "kind": "Online auction",
-   "date": "2026-11-08",
-   "time": "Ends 7:15 pm",
-   "town": "Dover",
-   "where": "Bidrush",
-   "url": "https://www.estatesales.net/NH/Dover/03820/5139177",
-   "source": "EstateSales.net"
-  },
-  {
    "title": "The Brunson Family Collection",
    "kind": "Estate sale",
    "date": "2026-11-15",
@@ -180,5 +170,5 @@
   "York"
  ],
  "nearby": false,
- "sales_as_of": "2026-11-05"
+ "sales_as_of": "2026-11-23"
 }

@@ -80,18 +80,7 @@
     }
    }
   ],
-  "closures": [
-   {
-    "name": "Stan's Service Center",
-    "what": "Auto repair and used car business in Conway Village, open since 1972",
-    "date": "2026-04",
-    "detail": "Closed after more than 50 years at 46 Main St. Bellen's Service Center, which operated in the same building, also closed, which the Sun called the end of car repair garages on Main Street in Conway.",
-    "source": {
-     "label": "The Conway Daily Sun, Apr 1, 2026",
-     "url": "https://conwaydailysun.com/business/local/a-conway-landmark-stans-service-center-closing-its-doors/article_b59f9528-3a49-4812-b8fe-a8f0f13e999b.html"
-    }
-   }
-  ]
+  "closures": []
  },
  "notices": [
   {
