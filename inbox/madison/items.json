@@ -1,27 +1,39 @@
 {
  "note": "Written by ingest/fetch.mjs. Each item: where it came from (source, url), the date in the document when known, firstSeen (the day the fetcher first saw it; new since the last refresh = firstSeen on or after that day) and text (the saved agenda or minutes text, when there is one). Facts for the site still come from reading the linked document.",
  "town": "madison",
- "updated": "2026-11-22T15:18:41.584Z",
+ "updated": "2026-11-23T19:15:11.060Z",
  "sources": {
   "feed": {
    "ok": true,
    "found": 2,
    "new": 0,
-   "checked": "2026-11-22T15:18:41.584Z",
-   "ms": 829
+   "checked": "2026-11-23T19:15:11.060Z",
+   "ms": 940
   },
   "meeting-docs": {
    "ok": true,
-   "found": 74,
-   "new": 0,
-   "checked": "2026-11-22T15:18:41.584Z",
-   "ms": 3955
+   "found": 75,
+   "new": 1,
+   "checked": "2026-11-23T19:15:11.060Z",
+   "ms": 5178
   }
  },
  "notes": [
   "no text in https://www.madison-nh.org/wp-content/uploads/2026/01/1a-Selectmens-Meeting-Procedure-2.pdf (scanned image?)"
  ],
  "items": [
+  {
+   "key": "meeting-docs:cdfd9edc23c9",
+   "source": "meeting-docs",
+   "kind": "meeting-doc",
+   "title": "November 24, 2026",
+   "url": "https://www.madison-nh.org/wp-content/uploads/2026/11/2026-11-24-Agenda.pdf",
+   "date": "2026-11-24",
+   "doc": "agenda",
+   "firstSeen": "2026-11-23",
+   "lastSeen": "2026-11-23",
+   "text": "inbox/madison/docs/cdfd9edc23c9.txt"
+  },
   {
    "key": "meeting-docs:6bf659976c1a",
    "source": "meeting-docs",
@@ -31,7 +43,7 @@
    "date": "2026-11-10",
    "doc": "agenda",
    "firstSeen": "2026-11-09",
-   "lastSeen": "2026-11-22",
+   "lastSeen": "2026-11-23",
    "text": "inbox/madison/docs/6bf659976c1a.txt"
   },
   {
@@ -43,7 +55,7 @@
    "date": "2026-10-27",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-22",
+   "lastSeen": "2026-11-23",
    "text": "inbox/madison/docs/c05d7ce23859.txt"
   },
   {
@@ -55,7 +67,7 @@
    "date": "2026-10-13",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-22",
+   "lastSeen": "2026-11-23",
    "text": "inbox/madison/docs/9d6280e115c7.txt"
   },
   {
@@ -67,7 +79,7 @@
    "date": "2026-09-29",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-22",
+   "lastSeen": "2026-11-23",
    "text": "inbox/madison/docs/3463ac8a41ee.txt"
   },
   {
@@ -79,7 +91,7 @@
    "date": "2026-09-15",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-22",
+   "lastSeen": "2026-11-23",
    "text": "inbox/madison/docs/b8bc2713f79f.txt"
   },
   {
@@ -91,7 +103,7 @@
    "date": "2026-09-01",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-22"
+   "lastSeen": "2026-11-23"
   },
   {
    "key": "meeting-docs:bcd22555ac48",
@@ -102,7 +114,7 @@
    "date": "2026-08-18",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-22"
+   "lastSeen": "2026-11-23"
   },
   {
    "key": "meeting-docs:16123b3150e8",
@@ -113,7 +125,7 @@
    "date": "2026-08-04",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-22"
+   "lastSeen": "2026-11-23"
   },
   {
    "key": "meeting-docs:3c79ec2f31e5",
@@ -146,7 +158,7 @@
    "date": null,
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-22"
+   "lastSeen": "2026-11-23"
   }
  ]
 }
