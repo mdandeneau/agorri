@@ -1,21 +1,21 @@
 {
  "about": {
   "town": "San Francisco, CA",
-  "as_of": "2026-11-04",
+  "as_of": "2026-11-24",
   "records_from": "2026-06-30",
   "documents_used": 33,
   "note": "Plain-English summaries written by AI from official City and County of San Francisco documents: Board of Supervisors minutes and agendas, Police Commission and SFMTA Board minutes, Planning, Historic Preservation and SFMTA Board agendas, committee pages and budget documents. Every meeting carries its source URL. Election items on Nov 3 results are preliminary and marked needs_review. Items with needs_review=true are where the record is incomplete, secondary-sourced or ambiguous."
  },
  "next_council_meeting": {
-  "date": "2026-11-10",
+  "date": "2026-12-01",
   "items": [
    {
-    "item": "Mayor's monthly appearance at the Board; supervisors in Districts 9 to 11 may submit a question",
+    "item": "No full Board meeting on Nov 24 (Thanksgiving week). The Dec 1 agenda was not posted as of Nov 24; packets are usually posted the Friday before.",
     "from": "2026 regular meeting schedule"
    },
    {
-    "item": "The Board also met Nov 3 (final votes on the firearm procurement ordinance and eleven settlements were on that agenda). As of Nov 4 the Nov 3 minutes and the Nov 10 agenda were not posted; sf.gov's Board calendar listed meetings only through Nov 6.",
-    "from": "Nov 3 agenda and sf.gov Board calendar"
+    "item": "Final reading of the tourist hotel private right of action (File 241212), the Ethics Commission campaign disclaimer website (File 260987), the Airport license plate reader policy (File 261035) and Port resilience projects (File 261087), all passed on first reading Nov 17",
+    "from": "Nov 17 minutes"
    }
   ],
   "source": "https://www.sf.gov/regularly-scheduled-board-of-supervisors-meetings"
@@ -592,6 +592,7 @@
    "next": "Final vote not yet in the record opened for this update.",
    "summary": "Supervisor Walton's urgency ordinance would pause new data centers citywide for 45 days while the City studies rules for them. As an urgency measure it needs 9 of 11 votes; it received 11 on first reading.",
    "points": [
+    "Nov 17: an urgency ordinance extending the data center moratorium by 10 months and 15 days passed on first reading 11-0 (from a summary of the draft minutes; check before relying on it).",
     "Oct 6: IMMEDIATELY PASSED ON FIRST READING, Ayes: 11. Co-sponsors: Chan, Fielder, Chen.",
     "The Oct 20 agenda listed 18 public letters about the moratorium (File 261021)."
    ],
@@ -1362,6 +1363,7 @@
    "next": "Government Audit and Oversight Committee review of the Airport and Recreation and Park license plate reader policies.",
    "summary": "Under the City's surveillance technology law, departments need Board approval for policies on tools like license plate readers. The Board accepted a $3 million gift for SFPD's Real Time Investigation Center, and new policies for the Airport and Recreation and Park are in committee.",
    "points": [
+    "Nov 17: Rec and Park's license plate reader policy finally passed 9-1 (Wong no); the Airport's passed first reading.",
     "Sep 29: $3,000,000 gift for the SFPD Real Time Investigation Center, ADOPTED, Ayes: 11.",
     "Sep 29: Airport (File 261035) and Recreation and Park (File 261036) automated license plate reader policies assigned to Government Audit and Oversight under the 30-day rule.",
     "Oct 20 agenda: first readings of the Department of Elections security camera policy (File 260272) and the Fire Department social media monitoring policy (File 260414).",
@@ -1474,10 +1476,11 @@
    "id": "landmarks",
    "title": "New City landmarks",
    "topic": "Historic preservation",
-   "status": "22 landmarks designated Sept 1; 12 more introduced",
+   "status": "18 more landmarks finally passed Nov 17; Transamerica Pyramid sent back to committee",
    "next": "Files 260914 to 260925, more landmark designations, went to committee on Sept 1. Changes to existing landmarks go to the Historic Preservation Commission, which has three on its Nov 4 agenda.",
    "summary": "The Board designated 22 City landmarks in one sitting on Sept 1, most of them homes, after passing them on first reading July 28. It also gave final approval to the House of Latin Rock in July and expanded the Compton's Cafeteria Riot landmark in October.",
    "points": [
+    "Nov 17: the Board gave final approval to 18 landmark designations; the Transamerica Pyramid designation (File 260988) was re-referred to the Land Use and Transportation Committee.",
     "July 28: 22 designations passed first reading, 10-0 (Walton excused).",
     "Sept 1: all 22 FINALLY PASSED, Ayes: 11. They include Holy Innocents Church (455 Fair Oaks St), Mission Congregational Church (3689 19th St), Second Church of Christ Scientist (651 Dolores St), the Phoenix Brewery (552 Noe St), Engine Company No. 33 (117 Broad St) and the Richard Spreckels Mansion (737 Buena Vista Ave West).",
     "July 28: the House of Latin Rock at 2880 25th Street FINALLY PASSED, Ayes: 11.",
@@ -1818,6 +1821,1016 @@
   }
  ],
  "council_meetings": [
+  {
+   "body": "Board of Supervisors",
+   "date": "2026-11-17",
+   "minutes_url": "https://sfgov.legistar.com/View.ashx?M=M&ID=1464054&GUID=8E6D11BE-6588-4115-BDE0-54EC9D16A4DA",
+   "minutes_status": "draft",
+   "ocr": false,
+   "attendance": {
+    "present": [
+     "Chan",
+     "Chen",
+     "Dorsey",
+     "Fielder",
+     "Mahmood",
+     "Mandelman",
+     "Melgar",
+     "Sauter",
+     "Sherrill",
+     "Walton",
+     "Wong"
+    ],
+    "absent": []
+   },
+   "headline": "The Board gave final approval to city labor contracts, home kitchen businesses (MEHKO), immigration legal services funding and 18 landmarks, approved Rec and Park's license plate reader policy 9-1, and passed the tourist hotel private right of action 9-2 on first reading.",
+   "decisions": [
+    {
+     "title": "Final approval: city labor contracts and pay for unrepresented employees",
+     "detail": "Files 261136 to 261143, on consent.",
+     "outcome": "FINALLY PASSED, Ayes: 10, Excused: 1 (Chan)",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": {
+      "yes": [
+       "Chen",
+       "Dorsey",
+       "Fielder",
+       "Mahmood",
+       "Mandelman",
+       "Melgar",
+       "Sauter",
+       "Sherrill",
+       "Walton",
+       "Wong"
+      ],
+      "no": []
+     },
+     "dissent": [],
+     "topic": "Budget & taxes",
+     "dollars": null,
+     "ordinance_reading": "final",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Final approval: 18 landmark designations and Ellis Act relocation payments",
+     "detail": "Files 260915, 260917 to 260919, 260921 to 260925, 260992, 260980 to 260982, 260984 to 260986, 260989, 260990 and 261013, on consent.",
+     "outcome": "FINALLY PASSED, Ayes: 10, Excused: 1 (Chan)",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": {
+      "yes": [
+       "Chen",
+       "Dorsey",
+       "Fielder",
+       "Mahmood",
+       "Mandelman",
+       "Melgar",
+       "Sauter",
+       "Sherrill",
+       "Walton",
+       "Wong"
+      ],
+      "no": []
+     },
+     "dissent": [],
+     "topic": "Historic preservation",
+     "dollars": null,
+     "ordinance_reading": "final",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Final approval: ban on butane lighters and posthumous transfer of cannabis equity permits",
+     "detail": "Files 261089 and 261054, on consent.",
+     "outcome": "FINALLY PASSED, Ayes: 10, Excused: 1 (Chan)",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": {
+      "yes": [
+       "Chen",
+       "Dorsey",
+       "Fielder",
+       "Mahmood",
+       "Mandelman",
+       "Melgar",
+       "Sauter",
+       "Sherrill",
+       "Walton",
+       "Wong"
+      ],
+      "no": []
+     },
+     "dissent": [],
+     "topic": "Public safety",
+     "dollars": null,
+     "ordinance_reading": "final",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Final approval: Rec and Park automated license plate reader policy",
+     "detail": "File 261036, severed from consent.",
+     "outcome": "FINALLY PASSED, Ayes: 9, Noes: 1 (Wong), Excused: 1 (Chan)",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": {
+      "yes": [
+       "Chen",
+       "Dorsey",
+       "Fielder",
+       "Mahmood",
+       "Mandelman",
+       "Melgar",
+       "Sauter",
+       "Sherrill",
+       "Walton"
+      ],
+      "no": [
+       "Wong"
+      ]
+     },
+     "dissent": [
+      "Wong"
+     ],
+     "topic": "Public safety",
+     "dollars": null,
+     "ordinance_reading": "final",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Transamerica Pyramid landmark sent back to committee",
+     "detail": "File 260988, re-referred to the Land Use and Transportation Committee.",
+     "outcome": "RE-REFERRED, Ayes: 10, Excused: 1 (Chan)",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": {
+      "yes": [
+       "Chen",
+       "Dorsey",
+       "Fielder",
+       "Mahmood",
+       "Mandelman",
+       "Melgar",
+       "Sauter",
+       "Sherrill",
+       "Walton",
+       "Wong"
+      ],
+      "no": []
+     },
+     "dissent": [],
+     "topic": "Historic preservation",
+     "dollars": null,
+     "ordinance_reading": null,
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Final approval: home kitchen food businesses (MEHKO)",
+     "detail": "File 261052.",
+     "outcome": "FINALLY PASSED, Ayes: 10, Excused: 1 (Chan)",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": {
+      "yes": [
+       "Chen",
+       "Dorsey",
+       "Fielder",
+       "Mahmood",
+       "Mandelman",
+       "Melgar",
+       "Sauter",
+       "Sherrill",
+       "Walton",
+       "Wong"
+      ],
+      "no": []
+     },
+     "dissent": [],
+     "topic": "Downtown & business",
+     "dollars": null,
+     "ordinance_reading": "final",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Final approval: $1,765,000 for immigration legal services",
+     "detail": "File 261148.",
+     "outcome": "FINALLY PASSED, Ayes: 10, Excused: 1 (Chan)",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": {
+      "yes": [
+       "Chen",
+       "Dorsey",
+       "Fielder",
+       "Mahmood",
+       "Mandelman",
+       "Melgar",
+       "Sauter",
+       "Sherrill",
+       "Walton",
+       "Wong"
+      ],
+      "no": []
+     },
+     "dissent": [],
+     "topic": "Health & human services",
+     "dollars": 1765000,
+     "ordinance_reading": "final",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "First reading: Ethics Commission website for campaign disclaimers, and the Airport license plate reader policy",
+     "detail": "Files 260987 and 261035.",
+     "outcome": "PASSED ON FIRST READING, Ayes: 10, Excused: 1 (Chan)",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": {
+      "yes": [
+       "Chen",
+       "Dorsey",
+       "Fielder",
+       "Mahmood",
+       "Mandelman",
+       "Melgar",
+       "Sauter",
+       "Sherrill",
+       "Walton",
+       "Wong"
+      ],
+      "no": []
+     },
+     "dissent": [],
+     "topic": "Government & elections",
+     "dollars": null,
+     "ordinance_reading": "first",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Motion to send the tourist hotel private right of action back to committee",
+     "detail": "File 241212.",
+     "outcome": "FAILED, Ayes: 2 (Sauter, Sherrill), Noes: 8, Excused: 1 (Chan)",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": {
+      "yes": [
+       "Sauter",
+       "Sherrill"
+      ],
+      "no": [
+       "Chen",
+       "Dorsey",
+       "Fielder",
+       "Mahmood",
+       "Mandelman",
+       "Melgar",
+       "Walton",
+       "Wong"
+      ]
+     },
+     "dissent": [
+      "Chen",
+      "Dorsey",
+      "Fielder",
+      "Mahmood",
+      "Mandelman",
+      "Melgar",
+      "Walton",
+      "Wong"
+     ],
+     "topic": "Downtown & business",
+     "dollars": null,
+     "ordinance_reading": null,
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "First reading: tourist hotel workers may sue under a private right of action",
+     "detail": "File 241212.",
+     "outcome": "PASSED ON FIRST READING, Ayes: 9, Noes: 2 (Sauter, Sherrill)",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": {
+      "yes": [
+       "Chan",
+       "Chen",
+       "Dorsey",
+       "Fielder",
+       "Mahmood",
+       "Mandelman",
+       "Melgar",
+       "Walton",
+       "Wong"
+      ],
+      "no": [
+       "Sauter",
+       "Sherrill"
+      ]
+     },
+     "dissent": [
+      "Sauter",
+      "Sherrill"
+     ],
+     "topic": "Downtown & business",
+     "dollars": null,
+     "ordinance_reading": "first",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "First reading: Port resilience projects exempt from the fiscal feasibility ordinance",
+     "detail": "File 261087.",
+     "outcome": "PASSED, ON FIRST READING, Ayes: 11",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": {
+      "yes": [
+       "Chan",
+       "Chen",
+       "Dorsey",
+       "Fielder",
+       "Mahmood",
+       "Mandelman",
+       "Melgar",
+       "Sauter",
+       "Sherrill",
+       "Walton",
+       "Wong"
+      ],
+      "no": []
+     },
+     "dissent": [],
+     "topic": "Environment & resilience",
+     "dollars": null,
+     "ordinance_reading": "first",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Four Immigrant Rights Commission members appointed",
+     "detail": "File 261168 (Motion M26-116).",
+     "outcome": "APPROVED, Ayes: 11",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": {
+      "yes": [
+       "Chan",
+       "Chen",
+       "Dorsey",
+       "Fielder",
+       "Mahmood",
+       "Mandelman",
+       "Melgar",
+       "Sauter",
+       "Sherrill",
+       "Walton",
+       "Wong"
+      ],
+      "no": []
+     },
+     "dissent": [],
+     "topic": "Government & elections",
+     "dollars": null,
+     "ordinance_reading": null,
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Data center moratorium extended by 10 months and 15 days",
+     "detail": "File 261175, an urgency ordinance; the Board also approved the Planning Department's report on the interim moratorium (File 261250).",
+     "outcome": "IMMEDIATELY PASSED ON FIRST READING, Ayes: 11",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": null,
+     "dissent": [],
+     "topic": "Housing & zoning",
+     "dollars": null,
+     "ordinance_reading": "first",
+     "needs_review": true,
+     "review_note": "Taken from an automated summary of the minutes PDF, whose text could not be read in full; check against the minutes."
+    }
+   ],
+   "discussed": [
+    {
+     "title": "Late arrivals",
+     "detail": "Supervisor Chan was excused at the start and noted present at 3:44 pm; Supervisor Sherrill was noted present at 2:04 pm.",
+     "topic": "Government & elections"
+    }
+   ],
+   "public_comment": [],
+   "coming_up": []
+  },
+  {
+   "body": "Board of Supervisors",
+   "date": "2026-11-10",
+   "minutes_url": "https://sfgov.legistar.com/View.ashx?M=M&ID=1462355&GUID=4DD4D1CE-BEA8-4404-B0DC-EDF3DA9775DA",
+   "minutes_status": "draft",
+   "ocr": false,
+   "attendance": {
+    "present": [
+     "Chan",
+     "Chen",
+     "Dorsey",
+     "Fielder",
+     "Mahmood",
+     "Mandelman",
+     "Melgar",
+     "Sauter",
+     "Sherrill",
+     "Walton",
+     "Wong"
+    ],
+    "absent": []
+   },
+   "headline": "Mayor Lurie made his formal policy appearance; the Board gave final approval 11-0 to $3.94 million for rent relief and to the Jefferson Airplane House landmark, and passed home kitchen businesses (MEHKO), $1.77 million for immigration legal services and a batch of landmark designations on first reading.",
+   "decisions": [
+    {
+     "title": "Final approval: $3.94 million for rent relief",
+     "detail": "File 261012.",
+     "outcome": "FINALLY PASSED, Ayes: 11",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": {
+      "yes": [
+       "Chan",
+       "Chen",
+       "Dorsey",
+       "Fielder",
+       "Mahmood",
+       "Mandelman",
+       "Melgar",
+       "Sauter",
+       "Sherrill",
+       "Walton",
+       "Wong"
+      ],
+      "no": []
+     },
+     "dissent": [],
+     "topic": "Housing & zoning",
+     "dollars": 3940000,
+     "ordinance_reading": "final",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Final approval: District 7 funds, rooftop restrooms, Jefferson Airplane House landmark and tenant notice disclosure",
+     "detail": "Files 261055, 260791, 260991 and 261015, on consent.",
+     "outcome": "FINALLY PASSED, Ayes: 11",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": {
+      "yes": [
+       "Chan",
+       "Chen",
+       "Dorsey",
+       "Fielder",
+       "Mahmood",
+       "Mandelman",
+       "Melgar",
+       "Sauter",
+       "Sherrill",
+       "Walton",
+       "Wong"
+      ],
+      "no": []
+     },
+     "dissent": [],
+     "topic": "Housing & zoning",
+     "dollars": null,
+     "ordinance_reading": "final",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "First reading: let residents run small food businesses from home kitchens (MEHKO)",
+     "detail": "File 261052, amended.",
+     "outcome": "PASSED ON FIRST READING AS AMENDED, Ayes: 11",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": {
+      "yes": [
+       "Chan",
+       "Chen",
+       "Dorsey",
+       "Fielder",
+       "Mahmood",
+       "Mandelman",
+       "Melgar",
+       "Sauter",
+       "Sherrill",
+       "Walton",
+       "Wong"
+      ],
+      "no": []
+     },
+     "dissent": [],
+     "topic": "Downtown & business",
+     "dollars": null,
+     "ordinance_reading": "first",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "First reading: $1,765,000 for immigration legal services",
+     "detail": "File 261148.",
+     "outcome": "PASSED ON FIRST READING, Ayes: 11",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": {
+      "yes": [
+       "Chan",
+       "Chen",
+       "Dorsey",
+       "Fielder",
+       "Mahmood",
+       "Mandelman",
+       "Melgar",
+       "Sauter",
+       "Sherrill",
+       "Walton",
+       "Wong"
+      ],
+      "no": []
+     },
+     "dissent": [],
+     "topic": "Health & human services",
+     "dollars": 1765000,
+     "ordinance_reading": "first",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "First reading: landmark designations",
+     "detail": "Files 260915, 260917 to 260919, 260921 to 260925, 260992, 260980 to 260982, 260984 to 260986 and 260988 (Transamerica Pyramid).",
+     "outcome": "PASSED, ON FIRST READING, Ayes: 11",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": {
+      "yes": [
+       "Chan",
+       "Chen",
+       "Dorsey",
+       "Fielder",
+       "Mahmood",
+       "Mandelman",
+       "Melgar",
+       "Sauter",
+       "Sherrill",
+       "Walton",
+       "Wong"
+      ],
+      "no": []
+     },
+     "dissent": [],
+     "topic": "Historic preservation",
+     "dollars": null,
+     "ordinance_reading": "first",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Three SFO coffee and grab-and-go leases",
+     "detail": "Files 261045, 261046 and 261047.",
+     "outcome": "ADOPTED, Ayes: 11",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": {
+      "yes": [
+       "Chan",
+       "Chen",
+       "Dorsey",
+       "Fielder",
+       "Mahmood",
+       "Mandelman",
+       "Melgar",
+       "Sauter",
+       "Sherrill",
+       "Walton",
+       "Wong"
+      ],
+      "no": []
+     },
+     "dissent": [],
+     "topic": "Downtown & business",
+     "dollars": null,
+     "ordinance_reading": null,
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Grant amendments for the Lark Inn and a Bayview Navigation Center",
+     "detail": "Files 261074 (up to $14,926,904) and 261075 (up to $25,737,447).",
+     "outcome": "ADOPTED, Ayes: 11",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": {
+      "yes": [
+       "Chan",
+       "Chen",
+       "Dorsey",
+       "Fielder",
+       "Mahmood",
+       "Mandelman",
+       "Melgar",
+       "Sauter",
+       "Sherrill",
+       "Walton",
+       "Wong"
+      ],
+      "no": []
+     },
+     "dissent": [],
+     "topic": "Health & human services",
+     "dollars": null,
+     "ordinance_reading": null,
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Resolution of intention to rename Cesar Chavez Street to Las Campesinas Street",
+     "detail": "File 261159.",
+     "outcome": "ADOPTED",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": null,
+     "dissent": [],
+     "topic": "Parking & transportation",
+     "dollars": null,
+     "ordinance_reading": null,
+     "needs_review": true,
+     "review_note": "Taken from an automated summary of the minutes PDF, whose text could not be read in full; check against the minutes."
+    },
+    {
+     "title": "Start the process to create Castro and North Beach historic districts",
+     "detail": "Files 261059 and 261063.",
+     "outcome": "ADOPTED",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": null,
+     "dissent": [],
+     "topic": "Historic preservation",
+     "dollars": null,
+     "ordinance_reading": null,
+     "needs_review": true,
+     "review_note": "Taken from an automated summary of the minutes PDF, whose text could not be read in full; check against the minutes."
+    }
+   ],
+   "discussed": [
+    {
+     "title": "Mayor's formal policy discussion",
+     "detail": "Mayor Daniel Lurie appeared at the 2 pm special order on topics noticed by Districts 9 and 11 (File 261234), which was heard and filed.",
+     "topic": "Government & elections"
+    }
+   ],
+   "public_comment": [],
+   "coming_up": []
+  },
+  {
+   "body": "Board of Supervisors",
+   "date": "2026-11-03",
+   "minutes_url": "https://sfgov.legistar.com/View.ashx?M=M&ID=1460912&GUID=7AA35FFF-0BFF-4D90-B414-0BD2986C613A",
+   "minutes_status": "draft",
+   "ocr": false,
+   "attendance": {
+    "present": [
+     "Chan",
+     "Chen",
+     "Dorsey",
+     "Fielder",
+     "Mahmood",
+     "Mandelman",
+     "Melgar",
+     "Sauter",
+     "Sherrill",
+     "Walton",
+     "Wong"
+    ],
+    "absent": []
+   },
+   "headline": "The Board gave final approval 11-0 to eleven lawsuit settlements and the firearm and ammunition procurement rules, passed $3.94 million for rent relief on first reading, and adopted a resolution urging SFUSD to move to neighborhood-based student assignment.",
+   "decisions": [
+    {
+     "title": "Final approval: eleven lawsuit settlements",
+     "detail": "Files 260926 to 260929, 260993 to 260995, 261038 to 261040 and 261042, ranging from $50,000 to $1,500,000.",
+     "outcome": "FINALLY PASSED, Ayes: 11",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": {
+      "yes": [
+       "Chan",
+       "Chen",
+       "Dorsey",
+       "Fielder",
+       "Mahmood",
+       "Mandelman",
+       "Melgar",
+       "Sauter",
+       "Sherrill",
+       "Walton",
+       "Wong"
+      ],
+      "no": []
+     },
+     "dissent": [],
+     "topic": "Budget & taxes",
+     "dollars": null,
+     "ordinance_reading": "final",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Final approval: new rules for how the City buys firearms and ammunition",
+     "detail": "File 260838, an Administrative Code change.",
+     "outcome": "FINALLY PASSED",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": {
+      "yes": [
+       "Chan",
+       "Chen",
+       "Dorsey",
+       "Fielder",
+       "Mahmood",
+       "Mandelman",
+       "Melgar",
+       "Sauter",
+       "Sherrill",
+       "Walton",
+       "Wong"
+      ],
+      "no": []
+     },
+     "dissent": [],
+     "topic": "Public safety",
+     "dollars": null,
+     "ordinance_reading": "final",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "First reading: $3.94 million for rent relief",
+     "detail": "File 261012, an appropriation for the Mayor's Office of Housing and Community Development.",
+     "outcome": "PASSED ON FIRST READING, Ayes: 11",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": {
+      "yes": [
+       "Chan",
+       "Chen",
+       "Dorsey",
+       "Fielder",
+       "Mahmood",
+       "Mandelman",
+       "Melgar",
+       "Sauter",
+       "Sherrill",
+       "Walton",
+       "Wong"
+      ],
+      "no": []
+     },
+     "dissent": [],
+     "topic": "Housing & zoning",
+     "dollars": 3940000,
+     "ordinance_reading": "first",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "First reading: shift $540,000 in District 7 funds",
+     "detail": "File 261055.",
+     "outcome": "PASSED, ON FIRST READING, Ayes: 11",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": {
+      "yes": [
+       "Chan",
+       "Chen",
+       "Dorsey",
+       "Fielder",
+       "Mahmood",
+       "Mandelman",
+       "Melgar",
+       "Sauter",
+       "Sherrill",
+       "Walton",
+       "Wong"
+      ],
+      "no": []
+     },
+     "dissent": [],
+     "topic": "Budget & taxes",
+     "dollars": 540000,
+     "ordinance_reading": "first",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "First reading: tenant protection notices must be disclosed",
+     "detail": "File 261015.",
+     "outcome": "PASSED, ON FIRST READING, Ayes: 11",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": {
+      "yes": [
+       "Chan",
+       "Chen",
+       "Dorsey",
+       "Fielder",
+       "Mahmood",
+       "Mandelman",
+       "Melgar",
+       "Sauter",
+       "Sherrill",
+       "Walton",
+       "Wong"
+      ],
+      "no": []
+     },
+     "dissent": [],
+     "topic": "Housing & zoning",
+     "dollars": null,
+     "ordinance_reading": "first",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "First reading: Jefferson Airplane House made a city landmark",
+     "detail": "File 260991.",
+     "outcome": "PASSED, ON FIRST READING, Ayes: 11",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": {
+      "yes": [
+       "Chan",
+       "Chen",
+       "Dorsey",
+       "Fielder",
+       "Mahmood",
+       "Mandelman",
+       "Melgar",
+       "Sauter",
+       "Sherrill",
+       "Walton",
+       "Wong"
+      ],
+      "no": []
+     },
+     "dissent": [],
+     "topic": "Historic preservation",
+     "dollars": null,
+     "ordinance_reading": "first",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "First reading: height exemption for rooftop restrooms",
+     "detail": "File 260791.",
+     "outcome": "PASSED, ON FIRST READING, Ayes: 11",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": {
+      "yes": [
+       "Chan",
+       "Chen",
+       "Dorsey",
+       "Fielder",
+       "Mahmood",
+       "Mandelman",
+       "Melgar",
+       "Sauter",
+       "Sherrill",
+       "Walton",
+       "Wong"
+      ],
+      "no": []
+     },
+     "dissent": [],
+     "topic": "Housing & zoning",
+     "dollars": null,
+     "ordinance_reading": "first",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Eleven contracts, grants and amendments approved",
+     "detail": "Files 261023, 261043, 261048, 261049, 261076, 261077, 261090, 261091, 261106, 261107 and 261108, including a $70.9 million state agreement for UCSF Hyde Hospital, a $22.2 million MEDA Small Properties loan and a $4 million EPA brownfield grant for Rec and Park.",
+     "outcome": "ADOPTED, Ayes: 11",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": {
+      "yes": [
+       "Chan",
+       "Chen",
+       "Dorsey",
+       "Fielder",
+       "Mahmood",
+       "Mandelman",
+       "Melgar",
+       "Sauter",
+       "Sherrill",
+       "Walton",
+       "Wong"
+      ],
+      "no": []
+     },
+     "dissent": [],
+     "topic": "Budget & taxes",
+     "dollars": null,
+     "ordinance_reading": null,
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Resolution urging SFUSD to use neighborhood-based student assignment",
+     "detail": "File 260891.",
+     "outcome": "ADOPTED, Ayes: 11",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": {
+      "yes": [
+       "Chan",
+       "Chen",
+       "Dorsey",
+       "Fielder",
+       "Mahmood",
+       "Mandelman",
+       "Melgar",
+       "Sauter",
+       "Sherrill",
+       "Walton",
+       "Wong"
+      ],
+      "no": []
+     },
+     "dissent": [],
+     "topic": "Schools",
+     "dollars": null,
+     "ordinance_reading": null,
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Resolution supporting free, fair and secure elections",
+     "detail": "File 261180, adopted without committee reference.",
+     "outcome": "ADOPTED",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": null,
+     "dissent": [],
+     "topic": "Government & elections",
+     "dollars": null,
+     "ordinance_reading": null,
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Golden State Valkyries Day",
+     "detail": "File 261183, amended by motion.",
+     "outcome": "ADOPTED AS AMENDED, Ayes: 11",
+     "moved_by": null,
+     "seconded_by": null,
+     "roll_call": {
+      "yes": [
+       "Chan",
+       "Chen",
+       "Dorsey",
+       "Fielder",
+       "Mahmood",
+       "Mandelman",
+       "Melgar",
+       "Sauter",
+       "Sherrill",
+       "Walton",
+       "Wong"
+      ],
+      "no": []
+     },
+     "dissent": [],
+     "topic": "Arts & culture",
+     "dollars": null,
+     "ordinance_reading": null,
+     "needs_review": false,
+     "review_note": null
+    }
+   ],
+   "discussed": [
+    {
+     "title": "Commendations",
+     "detail": "Certificates of Honor presented at 2:30 pm, including to San Francisco Zoos and Gardens and American Indian Cultural District volunteers.",
+     "topic": "Other"
+    }
+   ],
+   "public_comment": [],
+   "coming_up": []
+  },
   {
    "body": "Board of Supervisors",
    "date": "2026-10-27",
@@ -6077,6 +7090,67 @@
  },
  "roll_call_votes": [
   {
+   "date": "2026-11-17",
+   "title": "Tourist hotel private right of action, first reading (File 241212)",
+   "outcome": "PASSED ON FIRST READING, Ayes: 9, Noes: 2 (Sauter, Sherrill)",
+   "yes": [
+    "Chan",
+    "Chen",
+    "Dorsey",
+    "Fielder",
+    "Mahmood",
+    "Mandelman",
+    "Melgar",
+    "Walton",
+    "Wong"
+   ],
+   "no": [
+    "Sauter",
+    "Sherrill"
+   ],
+   "url": "https://sfgov.legistar.com/View.ashx?M=M&ID=1464054&GUID=8E6D11BE-6588-4115-BDE0-54EC9D16A4DA"
+  },
+  {
+   "date": "2026-11-17",
+   "title": "Motion to re-refer the tourist hotel private right of action to committee (File 241212)",
+   "outcome": "FAILED, Ayes: 2 (Sauter, Sherrill), Noes: 8",
+   "yes": [
+    "Sauter",
+    "Sherrill"
+   ],
+   "no": [
+    "Chen",
+    "Dorsey",
+    "Fielder",
+    "Mahmood",
+    "Mandelman",
+    "Melgar",
+    "Walton",
+    "Wong"
+   ],
+   "url": "https://sfgov.legistar.com/View.ashx?M=M&ID=1464054&GUID=8E6D11BE-6588-4115-BDE0-54EC9D16A4DA"
+  },
+  {
+   "date": "2026-11-17",
+   "title": "Final approval of the Rec and Park license plate reader policy (File 261036)",
+   "outcome": "FINALLY PASSED, Ayes: 9, Noes: 1 (Wong), Excused: 1 (Chan)",
+   "yes": [
+    "Chen",
+    "Dorsey",
+    "Fielder",
+    "Mahmood",
+    "Mandelman",
+    "Melgar",
+    "Sauter",
+    "Sherrill",
+    "Walton"
+   ],
+   "no": [
+    "Wong"
+   ],
+   "url": "https://sfgov.legistar.com/View.ashx?M=M&ID=1464054&GUID=8E6D11BE-6588-4115-BDE0-54EC9D16A4DA"
+  },
+  {
    "date": "2026-10-20",
    "title": "Final approval of changes to local CEQA (environmental review) procedures",
    "outcome": "FINALLY PASSED, Ayes: 8, Noes: 1 (Chan)",
@@ -6937,48 +8011,48 @@
  },
  "attendance": {
   "Chan": {
-   "present": 10,
-   "total": 10
+   "present": 13,
+   "total": 13
   },
   "Chen": {
-   "present": 9,
-   "total": 10
+   "present": 12,
+   "total": 13
   },
   "Dorsey": {
-   "present": 10,
-   "total": 10
+   "present": 13,
+   "total": 13
   },
   "Fielder": {
-   "present": 10,
-   "total": 10
+   "present": 13,
+   "total": 13
   },
   "Mahmood": {
-   "present": 10,
-   "total": 10
+   "present": 13,
+   "total": 13
   },
   "Mandelman": {
-   "present": 10,
-   "total": 10
+   "present": 13,
+   "total": 13
   },
   "Melgar": {
-   "present": 9,
-   "total": 10
+   "present": 12,
+   "total": 13
   },
   "Sauter": {
-   "present": 10,
-   "total": 10
+   "present": 13,
+   "total": 13
   },
   "Sherrill": {
-   "present": 10,
-   "total": 10
+   "present": 13,
+   "total": 13
   },
   "Walton": {
-   "present": 10,
-   "total": 10
+   "present": 13,
+   "total": 13
   },
   "Wong": {
-   "present": 10,
-   "total": 10
+   "present": 13,
+   "total": 13
   }
  },
  "attendance_from": "2026-06-30",
