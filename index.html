@@ -1097,11 +1097,12 @@ a.agm-line:hover .agm-t b{color:var(--accent)}
 .pv-meet{display:block;margin-top:10px;font-size:13.5px;color:var(--ink);text-decoration:none;line-height:1.4}.pv-meet:hover{text-decoration:underline}
 .askcard .qtext{margin-top:0}
 .side .sitefb-side{display:none!important}
-.side .nav .sitefb-nav{display:flex;align-items:center;gap:14px;width:100%;padding:10px 12px;margin:6px 0 2px;border:0;border-radius:12px;background:var(--accent);color:var(--accent-ink);font:inherit;font-size:15px;font-weight:700;text-align:left;cursor:pointer;box-shadow:0 2px 8px rgba(27,116,228,.28)}
-.side .nav .sitefb-nav svg{flex-shrink:0;color:var(--accent-ink)}
-.side .nav .sitefb-nav:hover{filter:brightness(1.06)}
-@media (max-width:999px) and (min-width:641px){.side .nav .sitefb-nav{width:52px;height:48px;padding:0;justify-content:center}}
-#sitefb{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}#sitefb:hover{color:var(--accent-ink);filter:brightness(1.06)}
+.side .nav .sitefb-nav{display:flex;align-items:center;gap:12px;width:100%;padding:8px 12px;margin:6px 0 2px;border:0;border-radius:12px;background:transparent;color:var(--ink2);font:inherit;font-size:13.5px;font-weight:500;text-align:left;cursor:pointer}
+.side .nav .sitefb-nav svg{flex-shrink:0;color:var(--muted);width:19px;height:19px}
+.side .nav .sitefb-nav:hover{background:rgba(0,0,0,.045);color:var(--ink)}
+:root[data-theme="dark"] .side .nav .sitefb-nav:hover{background:rgba(255,255,255,.06)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .side .nav .sitefb-nav:hover{background:rgba(255,255,255,.06)}}
+@media (max-width:999px) and (min-width:641px){.side .nav .sitefb-nav{width:52px;height:44px;padding:0;justify-content:center}}
 .wrap.wide{max-width:900px}
 .tbback{display:inline-flex;align-items:center;justify-content:center;width:38px;height:38px;flex-shrink:0;border-radius:50%;border:0;background:var(--surface);box-shadow:0 0 0 1px var(--line);color:var(--ink);cursor:pointer;margin-right:4px}
 .tbback[hidden]{display:none}.tbback:hover{color:var(--accent);box-shadow:0 0 0 1px var(--accent)}
