@@ -1,6 +1,6 @@
 # Daily refresh runbook
 
-This is what the scheduled Agorri refresh does every morning, for every town with `"status": "live"` in `towns.json` except towns marked `"paused"` (Nashua since Nov 1, 2026, and San Francisco since Nov 12, 2026: their pages stay up with a banner and are not refreshed). Today that means Portsmouth and the Mount Washington Valley. A person can follow it too.
+This is what the scheduled Agorri refresh does every morning, for every town with `"status": "live"` in `towns.json` except towns marked `"paused"` (Nashua since Nov 1, 2026: its page stays up with a banner and is not refreshed). Today that means Portsmouth, the Mount Washington Valley and San Francisco. A person can follow it too.
 
 All towns share one page (`index.html`). Only edit data in `data/<town>/`. Never edit `index.html` or `functions/` during a refresh.
 
