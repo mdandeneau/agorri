@@ -1,23 +1,203 @@
 {
  "note": "Written by ingest/fetch.mjs. Each item: where it came from (source, url), the date in the document when known, firstSeen (the day the fetcher first saw it; new since the last refresh = firstSeen on or after that day) and text (the saved agenda or minutes text, when there is one). Facts for the site still come from reading the linked document.",
  "town": "tamworth",
- "updated": "2026-11-23T19:15:11.060Z",
+ "updated": "2026-11-24T18:54:22.625Z",
  "sources": {
   "agenda-center": {
    "ok": true,
    "found": 150,
-   "new": 0,
-   "checked": "2026-11-23T19:15:11.060Z",
-   "ms": 6297
+   "new": 15,
+   "checked": "2026-11-24T18:54:22.625Z",
+   "ms": 21160
   }
  },
  "notes": [
+  "no text in https://www.tamworthnh.gov/AgendaCenter/ViewFile/Agenda/_11172026-325 (scanned image?)",
   "no text in https://www.tamworthnh.gov/AgendaCenter/ViewFile/Agenda/_09282026-304 (scanned image?)",
+  "no text in https://www.tamworthnh.gov/AgendaCenter/ViewFile/Agenda/_11102026-322 (scanned image?)",
+  "no text in https://www.tamworthnh.gov/AgendaCenter/ViewFile/Agenda/_11092026-323 (scanned image?)",
   "no text in https://www.tamworthnh.gov/AgendaCenter/ViewFile/Agenda/_10192026-315 (scanned image?)",
   "no text in https://www.tamworthnh.gov/AgendaCenter/ViewFile/Agenda/_10132026-312 (scanned image?)",
+  "no text in https://www.tamworthnh.gov/AgendaCenter/ViewFile/Agenda/_10012026-321 (scanned image?)",
+  "no text in https://www.tamworthnh.gov/AgendaCenter/ViewFile/Agenda/_11092026-324 (scanned image?)",
   "no text in https://www.tamworthnh.gov/AgendaCenter/ViewFile/Agenda/_10052026-305 (scanned image?)"
  ],
  "items": [
+  {
+   "key": "agenda-center:66d6dae08100",
+   "source": "agenda-center",
+   "kind": "meeting-doc",
+   "title": "Minutes: Cemetery Trustees Meeting - Minutes Draft",
+   "url": "https://www.tamworthnh.gov/AgendaCenter/ViewFile/Minutes/_11172026-325",
+   "date": "2026-11-17",
+   "doc": "minutes",
+   "firstSeen": "2026-11-24",
+   "lastSeen": "2026-11-24",
+   "text": "inbox/tamworth/docs/66d6dae08100.txt"
+  },
+  {
+   "key": "agenda-center:a3bafdc467ad",
+   "source": "agenda-center",
+   "kind": "meeting-doc",
+   "title": "Agenda: Cemetery Trustees Meeting - Minutes Draft",
+   "url": "https://www.tamworthnh.gov/AgendaCenter/ViewFile/Agenda/_11172026-325",
+   "date": "2026-11-17",
+   "doc": "agenda",
+   "firstSeen": "2026-11-24",
+   "lastSeen": "2026-11-24"
+  },
+  {
+   "key": "agenda-center:d01dd3ae21c6",
+   "source": "agenda-center",
+   "kind": "meeting-doc",
+   "title": "Packet: Cemetery Trustees Meeting - Minutes Draft",
+   "url": "https://www.tamworthnh.gov/AgendaCenter/ViewFile/Agenda/_11172026-325?packet=true",
+   "date": "2026-11-17",
+   "doc": "agenda",
+   "packet": true,
+   "firstSeen": "2026-11-24",
+   "lastSeen": "2026-11-24"
+  },
+  {
+   "key": "agenda-center:66792143409a",
+   "source": "agenda-center",
+   "kind": "meeting-doc",
+   "title": "Minutes: Conservation Land Review Committee Meeting - Minutes Draft",
+   "url": "https://www.tamworthnh.gov/AgendaCenter/ViewFile/Minutes/_11102026-322",
+   "date": "2026-11-10",
+   "doc": "minutes",
+   "firstSeen": "2026-11-24",
+   "lastSeen": "2026-11-24",
+   "text": "inbox/tamworth/docs/66792143409a.txt"
+  },
+  {
+   "key": "agenda-center:fd8320621362",
+   "source": "agenda-center",
+   "kind": "meeting-doc",
+   "title": "Agenda: Conservation Land Review Committee Meeting - Minutes Draft",
+   "url": "https://www.tamworthnh.gov/AgendaCenter/ViewFile/Agenda/_11102026-322",
+   "date": "2026-11-10",
+   "doc": "agenda",
+   "firstSeen": "2026-11-24",
+   "lastSeen": "2026-11-24"
+  },
+  {
+   "key": "agenda-center:b9680afa9481",
+   "source": "agenda-center",
+   "kind": "meeting-doc",
+   "title": "Packet: Conservation Land Review Committee Meeting - Minutes Draft",
+   "url": "https://www.tamworthnh.gov/AgendaCenter/ViewFile/Agenda/_11102026-322?packet=true",
+   "date": "2026-11-10",
+   "doc": "agenda",
+   "packet": true,
+   "firstSeen": "2026-11-24",
+   "lastSeen": "2026-11-24"
+  },
+  {
+   "key": "agenda-center:2f97e08a6bbe",
+   "source": "agenda-center",
+   "kind": "meeting-doc",
+   "title": "Minutes: Conservation Commission Meeting - Minutes Draft",
+   "url": "https://www.tamworthnh.gov/AgendaCenter/ViewFile/Minutes/_11092026-323",
+   "date": "2026-11-09",
+   "doc": "minutes",
+   "firstSeen": "2026-11-24",
+   "lastSeen": "2026-11-24",
+   "text": "inbox/tamworth/docs/2f97e08a6bbe.txt"
+  },
+  {
+   "key": "agenda-center:645847e2413c",
+   "source": "agenda-center",
+   "kind": "meeting-doc",
+   "title": "Agenda: Conservation Commission Meeting - Minutes Draft",
+   "url": "https://www.tamworthnh.gov/AgendaCenter/ViewFile/Agenda/_11092026-323",
+   "date": "2026-11-09",
+   "doc": "agenda",
+   "firstSeen": "2026-11-24",
+   "lastSeen": "2026-11-24"
+  },
+  {
+   "key": "agenda-center:5872093c69a1",
+   "source": "agenda-center",
+   "kind": "meeting-doc",
+   "title": "Packet: Conservation Commission Meeting - Minutes Draft",
+   "url": "https://www.tamworthnh.gov/AgendaCenter/ViewFile/Agenda/_11092026-323?packet=true",
+   "date": "2026-11-09",
+   "doc": "agenda",
+   "packet": true,
+   "firstSeen": "2026-11-24",
+   "lastSeen": "2026-11-24"
+  },
+  {
+   "key": "agenda-center:b8041d15908c",
+   "source": "agenda-center",
+   "kind": "meeting-doc",
+   "title": "Minutes: Library Trustees Meeting - Minutes Draft",
+   "url": "https://www.tamworthnh.gov/AgendaCenter/ViewFile/Minutes/_11092026-324",
+   "date": "2026-11-09",
+   "doc": "minutes",
+   "firstSeen": "2026-11-24",
+   "lastSeen": "2026-11-24",
+   "text": "inbox/tamworth/docs/b8041d15908c.txt"
+  },
+  {
+   "key": "agenda-center:648002c13c02",
+   "source": "agenda-center",
+   "kind": "meeting-doc",
+   "title": "Agenda: Library Trustees Meeting - Minutes Draft",
+   "url": "https://www.tamworthnh.gov/AgendaCenter/ViewFile/Agenda/_11092026-324",
+   "date": "2026-11-09",
+   "doc": "agenda",
+   "firstSeen": "2026-11-24",
+   "lastSeen": "2026-11-24"
+  },
+  {
+   "key": "agenda-center:216b82f64bca",
+   "source": "agenda-center",
+   "kind": "meeting-doc",
+   "title": "Packet: Library Trustees Meeting - Minutes Draft",
+   "url": "https://www.tamworthnh.gov/AgendaCenter/ViewFile/Agenda/_11092026-324?packet=true",
+   "date": "2026-11-09",
+   "doc": "agenda",
+   "packet": true,
+   "firstSeen": "2026-11-24",
+   "lastSeen": "2026-11-24"
+  },
+  {
+   "key": "agenda-center:cd101fd66bd9",
+   "source": "agenda-center",
+   "kind": "meeting-doc",
+   "title": "Minutes: Firewards Meeting Minutes - Draft",
+   "url": "https://www.tamworthnh.gov/AgendaCenter/ViewFile/Minutes/_10012026-321",
+   "date": "2026-10-01",
+   "doc": "minutes",
+   "firstSeen": "2026-11-24",
+   "lastSeen": "2026-11-24",
+   "text": "inbox/tamworth/docs/cd101fd66bd9.txt"
+  },
+  {
+   "key": "agenda-center:90f253223d9c",
+   "source": "agenda-center",
+   "kind": "meeting-doc",
+   "title": "Agenda: Firewards Meeting Minutes - Draft",
+   "url": "https://www.tamworthnh.gov/AgendaCenter/ViewFile/Agenda/_10012026-321",
+   "date": "2026-10-01",
+   "doc": "agenda",
+   "firstSeen": "2026-11-24",
+   "lastSeen": "2026-11-24"
+  },
+  {
+   "key": "agenda-center:dd719d4905f8",
+   "source": "agenda-center",
+   "kind": "meeting-doc",
+   "title": "Packet: Firewards Meeting Minutes - Draft",
+   "url": "https://www.tamworthnh.gov/AgendaCenter/ViewFile/Agenda/_10012026-321?packet=true",
+   "date": "2026-10-01",
+   "doc": "agenda",
+   "packet": true,
+   "firstSeen": "2026-11-24",
+   "lastSeen": "2026-11-24"
+  },
   {
    "key": "agenda-center:aaaf0a3d6a4c",
    "source": "agenda-center",
@@ -34,36 +214,36 @@
    "key": "agenda-center:40e9ee238e80",
    "source": "agenda-center",
    "kind": "meeting-doc",
-   "title": "Minutes: Conservation Commission Meeting - Minutes Draft",
+   "title": "Minutes: Conservation Commission Meeting - Minutes Approved",
    "url": "https://www.tamworthnh.gov/AgendaCenter/ViewFile/Minutes/_10192026-315",
    "date": "2026-10-19",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-23",
+   "lastSeen": "2026-11-24",
    "text": "inbox/tamworth/docs/40e9ee238e80.txt"
   },
   {
    "key": "agenda-center:5f52f439b163",
    "source": "agenda-center",
    "kind": "meeting-doc",
-   "title": "Agenda: Conservation Commission Meeting - Minutes Draft",
+   "title": "Agenda: Conservation Commission Meeting - Minutes Approved",
    "url": "https://www.tamworthnh.gov/AgendaCenter/ViewFile/Agenda/_10192026-315",
    "date": "2026-10-19",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-23"
+   "lastSeen": "2026-11-24"
   },
   {
    "key": "agenda-center:1584a0a400eb",
    "source": "agenda-center",
    "kind": "meeting-doc",
-   "title": "Packet: Conservation Commission Meeting - Minutes Draft",
+   "title": "Packet: Conservation Commission Meeting - Minutes Approved",
    "url": "https://www.tamworthnh.gov/AgendaCenter/ViewFile/Agenda/_10192026-315?packet=true",
    "date": "2026-10-19",
    "doc": "agenda",
    "packet": true,
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-23"
+   "lastSeen": "2026-11-24"
   },
   {
    "key": "agenda-center:2f049f4e4c1c",
@@ -81,71 +261,71 @@
    "key": "agenda-center:06514fb39f22",
    "source": "agenda-center",
    "kind": "meeting-doc",
-   "title": "Minutes: Conservation Land Review Committee Meeting - Minutes Draft",
+   "title": "Minutes: Conservation Land Review Committee Meeting - Minutes Approved",
    "url": "https://www.tamworthnh.gov/AgendaCenter/ViewFile/Minutes/_10132026-312",
    "date": "2026-10-13",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-23",
+   "lastSeen": "2026-11-24",
    "text": "inbox/tamworth/docs/06514fb39f22.txt"
   },
   {
    "key": "agenda-center:bbfcaeb81f29",
    "source": "agenda-center",
    "kind": "meeting-doc",
-   "title": "Agenda: Conservation Land Review Committee Meeting - Minutes Draft",
+   "title": "Agenda: Conservation Land Review Committee Meeting - Minutes Approved",
    "url": "https://www.tamworthnh.gov/AgendaCenter/ViewFile/Agenda/_10132026-312",
    "date": "2026-10-13",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-23"
+   "lastSeen": "2026-11-24"
   },
   {
    "key": "agenda-center:629efc82cf8d",
    "source": "agenda-center",
    "kind": "meeting-doc",
-   "title": "Packet: Conservation Land Review Committee Meeting - Minutes Draft",
+   "title": "Packet: Conservation Land Review Committee Meeting - Minutes Approved",
    "url": "https://www.tamworthnh.gov/AgendaCenter/ViewFile/Agenda/_10132026-312?packet=true",
    "date": "2026-10-13",
    "doc": "agenda",
    "packet": true,
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-23"
+   "lastSeen": "2026-11-24"
   },
   {
    "key": "agenda-center:37bbfd4cb771",
    "source": "agenda-center",
    "kind": "meeting-doc",
-   "title": "Minutes: Library Trustees Meeting - Minutes Draft",
+   "title": "Minutes: Library Trustees Meeting - Minutes Approved",
    "url": "https://www.tamworthnh.gov/AgendaCenter/ViewFile/Minutes/_10052026-305",
    "date": "2026-10-05",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-23",
+   "lastSeen": "2026-11-24",
    "text": "inbox/tamworth/docs/37bbfd4cb771.txt"
   },
   {
    "key": "agenda-center:26efdb309c49",
    "source": "agenda-center",
    "kind": "meeting-doc",
-   "title": "Agenda: Library Trustees Meeting - Minutes Draft",
+   "title": "Agenda: Library Trustees Meeting - Minutes Approved",
    "url": "https://www.tamworthnh.gov/AgendaCenter/ViewFile/Agenda/_10052026-305",
    "date": "2026-10-05",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-23"
+   "lastSeen": "2026-11-24"
   },
   {
    "key": "agenda-center:a0bedc95b5ad",
    "source": "agenda-center",
    "kind": "meeting-doc",
-   "title": "Packet: Library Trustees Meeting - Minutes Draft",
+   "title": "Packet: Library Trustees Meeting - Minutes Approved",
    "url": "https://www.tamworthnh.gov/AgendaCenter/ViewFile/Agenda/_10052026-305?packet=true",
    "date": "2026-10-05",
    "doc": "agenda",
    "packet": true,
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-23"
+   "lastSeen": "2026-11-24"
   },
   {
    "key": "agenda-center:4aee77940205",
@@ -162,36 +342,36 @@
    "key": "agenda-center:05a0f381c4d8",
    "source": "agenda-center",
    "kind": "meeting-doc",
-   "title": "Minutes: Cemetery Trustees Meeting - Minutes Draft",
+   "title": "Minutes: Cemetery Trustees Meeting - Minutes Approved",
    "url": "https://www.tamworthnh.gov/AgendaCenter/ViewFile/Minutes/_09282026-304",
    "date": "2026-09-28",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-23",
+   "lastSeen": "2026-11-24",
    "text": "inbox/tamworth/docs/05a0f381c4d8.txt"
   },
   {
    "key": "agenda-center:27e07ea23ef5",
    "source": "agenda-center",
    "kind": "meeting-doc",
-   "title": "Agenda: Cemetery Trustees Meeting - Minutes Draft",
+   "title": "Agenda: Cemetery Trustees Meeting - Minutes Approved",
    "url": "https://www.tamworthnh.gov/AgendaCenter/ViewFile/Agenda/_09282026-304",
    "date": "2026-09-28",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-23"
+   "lastSeen": "2026-11-24"
   },
   {
    "key": "agenda-center:738c5d8470bb",
    "source": "agenda-center",
    "kind": "meeting-doc",
-   "title": "Packet: Cemetery Trustees Meeting - Minutes Draft",
+   "title": "Packet: Cemetery Trustees Meeting - Minutes Approved",
    "url": "https://www.tamworthnh.gov/AgendaCenter/ViewFile/Agenda/_09282026-304?packet=true",
    "date": "2026-09-28",
    "doc": "agenda",
    "packet": true,
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-23"
+   "lastSeen": "2026-11-24"
   },
   {
    "key": "agenda-center:76b009443641",
@@ -214,7 +394,7 @@
    "date": "2026-09-16",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-23",
+   "lastSeen": "2026-11-24",
    "text": "inbox/tamworth/docs/0d62e663d684.txt"
   },
   {
@@ -226,7 +406,7 @@
    "date": "2026-09-16",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-23"
+   "lastSeen": "2026-11-24"
   },
   {
    "key": "agenda-center:0bc91d023173",
@@ -238,7 +418,7 @@
    "doc": "agenda",
    "packet": true,
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-23"
+   "lastSeen": "2026-11-24"
   },
   {
    "key": "agenda-center:8459395b4e7a",
@@ -261,7 +441,7 @@
    "date": "2026-09-14",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-23",
+   "lastSeen": "2026-11-24",
    "text": "inbox/tamworth/docs/d401799b0896.txt"
   },
   {
@@ -273,7 +453,7 @@
    "date": "2026-09-14",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-23"
+   "lastSeen": "2026-11-24"
   },
   {
    "key": "agenda-center:866709d37c40",
@@ -285,7 +465,7 @@
    "doc": "agenda",
    "packet": true,
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-23"
+   "lastSeen": "2026-11-24"
   },
   {
    "key": "agenda-center:2df055a7a41a",
@@ -296,7 +476,7 @@
    "date": "2026-09-14",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-23",
+   "lastSeen": "2026-11-24",
    "text": "inbox/tamworth/docs/2df055a7a41a.txt"
   },
   {
@@ -308,7 +488,7 @@
    "date": "2026-09-14",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-23"
+   "lastSeen": "2026-11-24"
   },
   {
    "key": "agenda-center:a5c6cc5c4f37",
@@ -320,7 +500,7 @@
    "doc": "agenda",
    "packet": true,
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-23"
+   "lastSeen": "2026-11-24"
   },
   {
    "key": "agenda-center:1b63a510d975",
@@ -343,7 +523,7 @@
    "date": "2026-09-08",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-23",
+   "lastSeen": "2026-11-24",
    "text": "inbox/tamworth/docs/b86f7c8ecf00.txt"
   },
   {
@@ -355,7 +535,7 @@
    "date": "2026-09-08",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-23"
+   "lastSeen": "2026-11-24"
   },
   {
    "key": "agenda-center:22ca27b78856",
@@ -367,7 +547,7 @@
    "doc": "agenda",
    "packet": true,
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-23"
+   "lastSeen": "2026-11-24"
   },
   {
    "key": "agenda-center:8ace4629fd88",
@@ -385,36 +565,36 @@
    "key": "agenda-center:aa6bc3279cf9",
    "source": "agenda-center",
    "kind": "meeting-doc",
-   "title": "Minutes: Firewards Meeting - Minutes Draft",
+   "title": "Minutes: Firewards Meeting - Minutes",
    "url": "https://www.tamworthnh.gov/AgendaCenter/ViewFile/Minutes/_09032026-311",
    "date": "2026-09-03",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-23",
+   "lastSeen": "2026-11-24",
    "text": "inbox/tamworth/docs/aa6bc3279cf9.txt"
   },
   {
    "key": "agenda-center:647df12689a5",
    "source": "agenda-center",
    "kind": "meeting-doc",
-   "title": "Agenda: Firewards Meeting - Minutes Draft",
+   "title": "Agenda: Firewards Meeting - Minutes",
    "url": "https://www.tamworthnh.gov/AgendaCenter/ViewFile/Agenda/_09032026-311",
    "date": "2026-09-03",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-23"
+   "lastSeen": "2026-11-24"
   },
   {
    "key": "agenda-center:84ffd8be16a7",
    "source": "agenda-center",
    "kind": "meeting-doc",
-   "title": "Packet: Firewards Meeting - Minutes Draft",
+   "title": "Packet: Firewards Meeting - Minutes",
    "url": "https://www.tamworthnh.gov/AgendaCenter/ViewFile/Agenda/_09032026-311?packet=true",
    "date": "2026-09-03",
    "doc": "agenda",
    "packet": true,
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-23"
+   "lastSeen": "2026-11-24"
   },
   {
    "key": "agenda-center:fb3f720182c9",
@@ -436,7 +616,7 @@
    "date": "2026-08-25",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-23"
+   "lastSeen": "2026-11-24"
   },
   {
    "key": "agenda-center:6e43fe6f35f5",
@@ -447,7 +627,7 @@
    "date": "2026-08-25",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-23"
+   "lastSeen": "2026-11-24"
   },
   {
    "key": "agenda-center:e8aba6712587",
@@ -459,7 +639,7 @@
    "doc": "agenda",
    "packet": true,
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-23"
+   "lastSeen": "2026-11-24"
   },
   {
    "key": "agenda-center:f63e1615af76",
@@ -481,7 +661,7 @@
    "date": "2026-08-25",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-23"
+   "lastSeen": "2026-11-24"
   },
   {
    "key": "agenda-center:389f8a701504",
@@ -492,7 +672,7 @@
    "date": "2026-08-25",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-23"
+   "lastSeen": "2026-11-24"
   },
   {
    "key": "agenda-center:3e33fb22654c",
@@ -504,7 +684,7 @@
    "doc": "agenda",
    "packet": true,
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-23"
+   "lastSeen": "2026-11-24"
   },
   {
    "key": "agenda-center:65b8a0dce78e",
@@ -526,7 +706,7 @@
    "date": "2026-08-17",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-23"
+   "lastSeen": "2026-11-24"
   },
   {
    "key": "agenda-center:1eff2bbf4af4",
@@ -537,7 +717,7 @@
    "date": "2026-08-17",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-23"
+   "lastSeen": "2026-11-24"
   },
   {
    "key": "agenda-center:8d74ef2c399a",
@@ -549,7 +729,7 @@
    "doc": "agenda",
    "packet": true,
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-23"
+   "lastSeen": "2026-11-24"
   },
   {
    "key": "agenda-center:47b561550a4e",
@@ -571,7 +751,7 @@
    "date": "2026-08-10",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-23"
+   "lastSeen": "2026-11-24"
   },
   {
    "key": "agenda-center:b81e9b873f36",
@@ -582,7 +762,7 @@
    "date": "2026-08-10",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-23"
+   "lastSeen": "2026-11-24"
   },
   {
    "key": "agenda-center:3f19016f14f6",
@@ -594,7 +774,7 @@
    "doc": "agenda",
    "packet": true,
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-23"
+   "lastSeen": "2026-11-24"
   },
   {
    "key": "agenda-center:6276f15a712b",
@@ -605,7 +785,7 @@
    "date": "2026-08-10",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-23"
+   "lastSeen": "2026-11-24"
   },
   {
    "key": "agenda-center:604ed8ef1d14",
@@ -616,7 +796,7 @@
    "date": "2026-08-10",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-23"
+   "lastSeen": "2026-11-24"
   },
   {
    "key": "agenda-center:336e17ffd9f5",
@@ -628,7 +808,7 @@
    "doc": "agenda",
    "packet": true,
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-23"
+   "lastSeen": "2026-11-24"
   },
   {
    "key": "agenda-center:c40ec2ff16af",
@@ -650,7 +830,7 @@
    "date": "2026-08-06",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-23"
+   "lastSeen": "2026-11-24"
   },
   {
    "key": "agenda-center:97d80d187cf6",
@@ -661,7 +841,7 @@
    "date": "2026-08-06",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-23"
+   "lastSeen": "2026-11-24"
   },
   {
    "key": "agenda-center:1ef302d80730",
@@ -673,7 +853,7 @@
    "doc": "agenda",
    "packet": true,
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-23"
+   "lastSeen": "2026-11-24"
   },
   {
    "key": "agenda-center:d470731cc75a",
@@ -695,7 +875,7 @@
    "date": "2026-07-28",
    "doc": "minutes",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-23"
+   "lastSeen": "2026-11-24"
   },
   {
    "key": "agenda-center:58e1fab05082",
@@ -706,7 +886,7 @@
    "date": "2026-07-28",
    "doc": "agenda",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-23"
+   "lastSeen": "2026-11-24"
   },
   {
    "key": "agenda-center:d93a4b5d86d6",
@@ -718,7 +898,7 @@
    "doc": "agenda",
    "packet": true,
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-23"
+   "lastSeen": "2026-11-24"
   },
   {
    "key": "agenda-center:193fc513cb23",

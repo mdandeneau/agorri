@@ -1,0 +1,113 @@
+Source: https://www.tamworthnh.gov/AgendaCenter/ViewFile/Minutes/_11102026-322
+Title: Minutes: Conservation Land Review Committee Meeting - Minutes Draft
+Fetched: 2026-11-24
+
+Conservation Land Review Committee
+A subcommittee of Tamworth & Sandwich Conservation Commissions
+
+MINUTES
+Meeting of November 10, 2026 • Sandwich Town Office & Online
+DRAFT to be approved at a subsequent meeting. Action steps are underline.
+
+Present: Teresa Fournier, Dylan Alden, David Li9le (online), Ned Beecher (online), Nancy
+Walser, Dwight Emery.
+
+MeeEng started at ~5:05 pm.
+
+Discussion of whether or not to purchase ArcGIS and/or hire a consultant (e.g.
+Karoline Jacobs) to build co-occurence maps…
+   • Cost is a concern. Dylan researched options and was told that we could
+       purchase one level of plan and then switch up and down and pay prorated rates
+       based on the amount of time on each kind of plan.
+   • Dylan will confirm with the contact at ESRI if we can do this kind of thing:
+           o Buy the Standard level, which Karoline and Dylan think is needed for us to
+             have buffers and scoring/weighting included and create the full co-
+             occurrence map we’re looking for. Standard costs $2000/year. If we had it
+             for 3 months for the initial build by an expert, that comes to $500.
+           o After Karoline or someone creates the maps we want, we would go down
+             to the Basic plan for the rest of the first year ($700 * .75 = $525).
+           o We would keep the Basic plan going to allow us to access and provide
+             presentations, etc., at $700/year, during which we compile errata &
+             needed updates.
+           o Every few years: hire an expert or have volunteers create an update,
+             upgrading to the Standard plan again for 3 months.
+   • Hiring consultant for 3 months:
+           o 10 hours each month working with CLRC iteratively = 30 hours
+           o Guessing that an expert might help at $50/hour = $1500, split 2 ways
+   • Cost summary:
+           o Year 1:
+                 § ArcGIS: $1025, split 2 ways: $512.50 for each town’s CC
+                 § Consulting: $750 for each town’s CC
+           o Year 2 & ongoing.:
+                 § ArcGIS: $350 for each town’s CC
+   • Ned will finish drafting a proposal for each CC to consider in December (1st Wed
+       of December = SCC meeting; 2nd Monday of December = TCC meeting)
+           o Line up the labor before actually paying for ArcGIS, to make the most
+             efficient use of the time & effort
+            o Include a proposed timeline for the project, so contractors and we know
+               more exactly what it looks like.
+    •    Dylan will share proposal with Karoline and see what her work might cost us….
+         Are above estimates reasonable?
+
+Further discussion of prioritizing, scoring, which data layers to use
+   • Nancy had provided the CLRC with a link to the new Hampton Falls co-
+      occurrence mapping (link below).
+          o Hampton Falls used a binary system: either the parcel has wetlands or not
+          o Hampton Falls used 7 layers, and chose, for example “prime ag soils” yes
+              or no for the one soil layer
+   • Between GRANIT and other organizations, we probably have access to the
+      layers we need
+   • Nancy will call FB Environmental and see what ideas they may have for us. She
+      will call Hampton Falls too.
+
+Next CLRC Meeting: Tuesday, Dec. 8, 5:00 pm, Tamworth Town Office & online
+
+Adjourned 6:25 pm
+
+Resources forwarded by Nancy – other towns’ recent co-occurrence mapping by FB:
+  1. https://www.fbenvironmental.com/_ﬁles/ugd/b60db7_d14cca9549a74f4e94A8002
+     8e24f796.pdf done by FB Environmental for Hampton Falls
+    2.   From: Chris'ne Bunyon <chris'neb@2environmental.com>
+         Sent: Thursday, November 12, 2026 11:39 AM
+         To: Conserva'on <Conserva'on@sandwichnh.org>
+         Cc: Forrest Bell <info@2environmental.com>
+         Subject: Re: Mapping services inquiry
+         ……In the meantime, we recently completed a co-occurrence analysis for the City of Lacona with a focus on
+         protecting freshwater resources. Here is a link if you'd like to check it out. This one is a bit more
+         comprehensive than the Hampton Falls Co-occurrence analysis as it was a standalone
+         project. https://238e59e2-b836-4203-9b1e-
+         13e1f31ce10c.filesusr.com/ugd/b60db7_ed287e403a8742a5b4c425140fa42b39.pdf
+
+
+———
+
+Plans for upcoming work & meetings (copied from prior minutes):
+– Continue work on co-occurrence mapping & scoring to help set priorities for conservation in the two towns.
+    We had discussed taking the final categories & beginning to…
+        1) Determine which categories & sub-categories we want to definitely include; try to make it as simple as
+             possible, with fewer layers.
+        2) Then, with GIS expert contracted help, we will determine what layers have mapping data / layers online
+        3) Then figure out weighting and scoring amongst the categories & subcategories
+        4) Finish building data layers
+        5) Try applying our developing new system to 2 potential conservation properties in Tamworth & 1 in
+             Sandwich that landowners have discussed easements on.
+    Items identified for discussion:
+        • David notes that USVLT does not cover Tamworth & Sandwich, so their co-occurrence mapping does
+             not have layers for our towns, so we’ll have to build the layers ourselves. And he is not sure about what
+             data layers we may be able to find for climate resiliency, etc. LRCT may be able to share some layers
+             for our towns.
+         •   Consider having an overall top focus be on preserving the mosaic of habitat types; doing that protects
+             wildlife inherently, meaning that we may not need specific data layers for particular animals or plants –
+             they come with the habitat
+         •   Consider using a flowchart matrix in the assessment process…. For example, if there are top
+             overarching priorities that outweigh all others, such as shoreland protection, then the flow chart will ask
+             the question “Does this easement/purchase protect significant water frontage/shoreland? If yes,
+             proceed with the project and only cursorily document other values.”
+         •    For each resource, what % in each town is already protected? If, say, 70% of a resource is already
+              protected, then that may mean we don’t need to include that layer/resource in our strategy, in our
+              priori>za>on.
+
+--Are organizations with land conservation in S & T willing to take on more in these towns? We could check with
+them, perhaps when we share the results of our prioritization work with LRCT, TNC, SPNHF, etc. David provided a
+list of all conservation organizations in S & T. Ned will talk to Black Bear. Ned will provide recent federal easement in
+Tamworth, just FYI.

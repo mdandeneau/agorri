@@ -1,14 +1,14 @@
 {
  "note": "Written by ingest/fetch.mjs. Each item: where it came from (source, url), the date in the document when known, firstSeen (the day the fetcher first saw it; new since the last refresh = firstSeen on or after that day) and text (the saved agenda or minutes text, when there is one). Facts for the site still come from reading the linked document.",
  "town": "conway",
- "updated": "2026-11-23T19:15:11.060Z",
+ "updated": "2026-11-24T18:54:22.625Z",
  "sources": {
   "town-news": {
    "ok": true,
    "found": 22,
    "new": 0,
-   "checked": "2026-11-23T19:15:11.060Z",
-   "ms": 152
+   "checked": "2026-11-24T18:54:22.625Z",
+   "ms": 566
   }
  },
  "notes": [],
@@ -22,7 +22,7 @@
    "date": "2026-09-29",
    "detail": "Election Results",
    "firstSeen": "2026-11-04",
-   "lastSeen": "2026-11-23"
+   "lastSeen": "2026-11-24"
   },
   {
    "key": "town-news:81f8faf78542",
@@ -55,7 +55,7 @@
    "date": "2026-09-09",
    "detail": "Election Results",
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-23"
+   "lastSeen": "2026-11-24"
   }
  ]
 }
