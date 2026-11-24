@@ -84,6 +84,19 @@
    }
   },
   {
+   "date": "2026-11-23",
+   "until": "2026-12-02",
+   "kind": "Hearing",
+   "title": "Historic District Commission public hearings, Wednesday, Dec 2, 6:30 pm",
+   "detail": "The commission will hear four petitions to replace windows: 213 South Street, 117 Bow Street, 85 Gates Street and 12 Fleet Street. Council Chambers, Municipal Complex, 1 Junkins Avenue, or on Zoom after registering through the agenda. Written comments go to planning@cityofportsmouth.com by 4:30 pm the day before. A second commission meeting is set for Wednesday, Dec 9.",
+   "source": {
+    "label": "City of Portsmouth, Historic District Commission legal notice",
+    "url": "https://files.portsmouthnh.gov/agendas/2026/HDC/December+02%2C+2026/12-02-26_HDC_ln.pdf"
+   },
+   "strip": "Historic hearings",
+   "stripLine": "Four window replacement petitions Wednesday, Dec 2"
+  },
+  {
    "date": "2026-11-20",
    "kind": "Parking",
    "title": "Three hours of free parking in the Foundry and Hanover garages, Dec 14 to Jan 1",
@@ -1040,7 +1053,7 @@
    "status": "not yet connected"
   }
  ],
- "events_as_of": "2026-11-23",
+ "events_as_of": "2026-11-24",
  "events": [
   {
    "date": "2026-11-24",
@@ -2452,9 +2465,14 @@
  "paper": {
   "name": "Portsmouth Patch",
   "url": "https://patch.com/new-hampshire/portsmouth-nh",
-  "asOf": "2026-11-23",
+  "asOf": "2026-11-24",
   "note": "The Portsmouth Herald is paywalled with no public feed, so these come from Patch.",
   "headlines": [
+   {
+    "title": "New Hampshire Theatre Project Offers Open Workshop On Dec 3: 'Fail Forward'",
+    "url": "https://patch.com/new-hampshire/portsmouth-nh/new-hampshire-theatre-project-offers-open-workshop-dec-3-fail-forward",
+    "date": "2026-11-23"
+   },
    {
     "title": "Langdon House To Host Revolutionary Era Yuletide Event On Dec. 3 And Dec. 5",
     "url": "https://patch.com/new-hampshire/portsmouth-nh/langdon-house-host-revolutionary-era-yuletide-event-dec-3-dec-5",
@@ -2488,11 +2506,6 @@
    {
     "title": "Portsmouth Collecting Holiday Gift Cards for Teens Through Dec. 15",
     "url": "https://patch.com/new-hampshire/portsmouth-nh/portsmouth-collecting-holiday-gift-cards-teens-through-dec-15",
-    "date": "2026-11-17"
-   },
-   {
-    "title": "Fox Run Eye Care Welcomes Seacoast Families To Its Greenland Office",
-    "url": "https://patch.com/new-hampshire/portsmouth-nh/fox-run-eye-care-welcomes-seacoast-families-its-greenland-office",
     "date": "2026-11-17"
    }
   ]

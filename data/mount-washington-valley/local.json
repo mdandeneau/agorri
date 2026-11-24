@@ -109,6 +109,20 @@
    "town": "Conway"
   },
   {
+   "town": "Freedom",
+   "date": "2026-11-26",
+   "until": "2026-11-30",
+   "kind": "Closure",
+   "title": "Freedom Town Office closed Thanksgiving Day; Transfer Station keeps regular hours",
+   "detail": "The Freedom Town Office is closed on Thanksgiving Day, Thursday, Nov 26. The Freedom Transfer Station keeps regular hours through the holiday weekend, Friday to Monday, 8 am to 4 pm.",
+   "source": {
+    "label": "Town of Freedom",
+    "url": "https://townoffreedomnh.gov/2026/11/23/thanksgiving/"
+   },
+   "strip": "Office closed",
+   "stripLine": "Freedom Town Office closed Thanksgiving Day"
+  },
+  {
    "town": "Jackson",
    "date": "2026-11-19",
    "kind": "Schools",

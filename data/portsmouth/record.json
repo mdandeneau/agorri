@@ -1,7 +1,7 @@
 {
  "about": {
   "town": "Portsmouth, NH",
-  "as_of": "2026-11-22",
+  "as_of": "2026-11-24",
   "records_from": "2025-10-28",
   "documents_used": 598,
   "note": "Plain-English summaries written by AI from official city PDFs; every meeting carries its source URL. Items with needs_review=true are where the official record is ambiguous or self-contradictory."
@@ -8526,6 +8526,60 @@
   }
  ],
  "board_meetings": [
+  {
+   "body": "Historic District Commission",
+   "date": "2026-12-02",
+   "record_url": "https://files.portsmouthnh.gov/agendas/2026/HDC/December+02%2C+2026/12-02-26_HDC_ln.pdf",
+   "record_type": "agenda only",
+   "headline": "Legal notice for Dec 2: public hearings on replacement windows at 213 South Street, 117 Bow Street, 85 Gates Street and 12 Fleet Street. A second Historic District Commission meeting is set for Dec 9.",
+   "items": [
+    {
+     "address": "213 South St",
+     "applicant": "Knight Trust (owner)",
+     "request": "Public hearing on replacing 13 windows on an existing building.",
+     "decision": null,
+     "vote": null,
+     "conditions": [],
+     "topic": "Historic preservation",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "address": "117 Bow St, Unit 203",
+     "applicant": "Family Access Trust For Katsapetses N. (owner)",
+     "request": "Public hearing on replacing 13 windows and 4 patio doors.",
+     "decision": null,
+     "vote": null,
+     "conditions": [],
+     "topic": "Historic preservation",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "address": "85 Gates St, Unit B",
+     "applicant": "Kaila Krauser and James Taylor (owners)",
+     "request": "Public hearing on replacing 10 windows.",
+     "decision": null,
+     "vote": null,
+     "conditions": [],
+     "topic": "Historic preservation",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "address": "12 Fleet St",
+     "applicant": "New Horizon Real Estate LLC (owner)",
+     "request": "Public hearing on replacing 12 windows.",
+     "decision": null,
+     "vote": null,
+     "conditions": [],
+     "topic": "Historic preservation",
+     "needs_review": false,
+     "review_note": null
+    }
+   ],
+   "policy_items": []
+  },
   {
    "body": "Zoning Board of Adjustment",
    "date": "2026-11-24",

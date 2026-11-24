@@ -1,7 +1,7 @@
 {
  "about": {
   "town": "Madison, NH",
-  "as_of": "2026-11-10",
+  "as_of": "2026-11-24",
   "records_from": "2025-09-17",
   "documents_used": 45,
   "note": "The Town of Madison, Carroll County, including Silver Lake and Eidelweiss. Madison is governed by a five-member Board of Selectmen and a Town Administrator, with an annual town meeting: officers and zoning changes are voted by ballot on the second Tuesday in March (March 10, 2026), and money articles at a business session the following Saturday (March 14, 2026). Eidelweiss is also served by the Village District of Eidelweiss, a separate small local government with its own commissioners, water system, roads and tax rate. The town posts Selectmen minutes through September 29, 2026, but those 2026 PDFs could not be opened for this research (only the January 20, 2026 minutes could), so most meeting entries are built from Conway Daily Sun reports and are marked as news reports. The results of the March 14, 2026 business session (including the final operating budget) and the 2025 tax rate breakdown were not found. Plain-English summaries written by AI; items with needs_review=true are uncertain."
@@ -40,35 +40,39 @@
   }
  },
  "next_council_meeting": {
-  "date": "2026-11-10",
+  "date": "2026-11-24",
   "items": [
    {
-    "item": "Fire Department presentation by Chief Brooks and Town Administrator Lucia Roth",
-    "from": "2026-11-10"
+    "item": "Approval of minutes and non-public minutes of November 10, 2026",
+    "from": "2026-11-24 agenda"
    },
    {
-    "item": "Watershed report items in the dam project plans",
-    "from": "2026-11-10"
+    "item": "Library building addition, donation funded",
+    "from": "2026-11-24 agenda"
    },
    {
-    "item": "Public hearing on storm damage expenses",
-    "from": "2026-11-10"
+    "item": "MADTV check-in on work session changes",
+    "from": "2026-11-24 agenda"
    },
    {
-    "item": "Dam Committee charter",
-    "from": "2026-11-10"
+    "item": "Watershed management plan in the dam project",
+    "from": "2026-11-24 agenda"
    },
    {
-    "item": "2027 warrant articles",
-    "from": "2026-11-10"
+    "item": "Historical Society applications to list the Town House (MHS Museum building) on the State and National Registers of Historic Places",
+    "from": "2026-11-24 agenda"
    },
    {
-    "item": "Advisory Budget Committee request",
-    "from": "2026-11-10"
+    "item": "Conway Branch Rec Trail Committee",
+    "from": "2026-11-24 agenda"
    },
    {
-    "item": "Personnel Policy Manual, and town property use and insurance waiver forms",
-    "from": "2026-11-10"
+    "item": "Trash problems, budget discussions, Dam Committee charter and department head reviews",
+    "from": "2026-11-24 agenda"
+   },
+   {
+    "item": "Fee schedules and the master calendar",
+    "from": "2026-11-24 agenda"
    }
   ]
  },
@@ -416,6 +420,107 @@
   }
  ],
  "council_meetings": [
+  {
+   "body": "Board of Selectmen",
+   "date": "2026-11-24",
+   "minutes_url": "https://www.madison-nh.org/wp-content/uploads/2026/11/2026-11-24-Agenda.pdf",
+   "minutes_status": "agenda only",
+   "ocr": false,
+   "source_note": "Built from the posted agenda only; the town has not posted minutes for this meeting, so what was decided is not known.",
+   "attendance": {
+    "present": [],
+    "absent": []
+   },
+   "headline": "Agenda for Nov 24: selectmen are scheduled to take up a donation-funded library addition, the watershed management plan in the dam project, a Historical Society plan to seek historic register listing for the Town House, the Conway Branch rail trail and trash problems.",
+   "decisions": [],
+   "discussed": [
+    {
+     "title": "Library building addition",
+     "detail": "On the department head list as a donation-funded addition.",
+     "topic": "City buildings & facilities"
+    },
+    {
+     "title": "MADTV",
+     "detail": "A check-in on work session changes.",
+     "topic": "Government & elections"
+    },
+    {
+     "title": "Silver Lake dam project",
+     "detail": "The watershed management plan in the dam project (Shawn B.).",
+     "topic": "Infrastructure & utilities"
+    },
+    {
+     "title": "Town House historic register applications",
+     "detail": "The Historical Society plans to apply to place the Town House, also called the MHS Museum building, on the State and National Registers of Historic Places.",
+     "topic": "Historic preservation"
+    },
+    {
+     "title": "Conway Branch Rec Trail Committee",
+     "detail": "Presentation by Tia Gagnon.",
+     "topic": "Parks & recreation"
+    },
+    {
+     "title": "Selectmen's list",
+     "detail": "Public health issues with trash problems, budget discussions and a possible work session, the Dam Committee charter, and department head reviews.",
+     "topic": "Budget & taxes"
+    },
+    {
+     "title": "Administrator's list",
+     "detail": "Fee schedules and possible public hearings on them, and the master calendar and yearly plan.",
+     "topic": "Government & elections"
+    }
+   ],
+   "public_comment": [],
+   "coming_up": []
+  },
+  {
+   "body": "Board of Selectmen",
+   "date": "2026-11-10",
+   "minutes_url": "https://www.madison-nh.org/wp-content/uploads/2026/11/2026-11-10-Agenda.pdf",
+   "minutes_status": "agenda only",
+   "ocr": false,
+   "source_note": "Built from the posted agenda only; the town has not posted minutes for this meeting, so what was decided is not known.",
+   "attendance": {
+    "present": [],
+    "absent": []
+   },
+   "headline": "Agenda only: selectmen were scheduled to hear a Fire Department presentation, hold a public hearing on storm damage expenses, and take up the dam project watershed report, the Dam Committee charter and 2027 warrant articles.",
+   "decisions": [],
+   "discussed": [
+    {
+     "title": "Fire Department presentation",
+     "detail": "By Chief Brooks and Town Administrator Lucia Roth.",
+     "topic": "Public safety"
+    },
+    {
+     "title": "Silver Lake dam project",
+     "detail": "Watershed report items in the dam project plans (Shawn B.).",
+     "topic": "Infrastructure & utilities"
+    },
+    {
+     "title": "Public hearing on storm damage expenses",
+     "detail": "Listed under old business.",
+     "topic": "Budget & taxes"
+    },
+    {
+     "title": "Selectmen's list",
+     "detail": "The Dam Committee charter, 2027 warrant articles, quarterly department head check-ins and an Advisory Budget Committee request.",
+     "topic": "Budget & taxes"
+    },
+    {
+     "title": "Administrator's list",
+     "detail": "A Dec 22 selectmen's meeting, the 2027 board calendar, the Personnel Policy Manual, an alcohol waiver, and town property use and insurance waiver forms.",
+     "topic": "Government & elections"
+    },
+    {
+     "title": "Non-public sessions",
+     "detail": "Two non-public sessions were listed at 4 pm under RSA 91-A:3 II(a).",
+     "topic": "Government & elections"
+    }
+   ],
+   "public_comment": [],
+   "coming_up": []
+  },
   {
    "body": "Board of Selectmen",
    "date": "2026-10-27",
