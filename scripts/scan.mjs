@@ -14,7 +14,7 @@ const ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..')
 const PORT = 8800 + Math.floor(Math.random() * 100);
 const QUIET = process.argv.includes('--quiet');
 const ROUTES = ['home', 'local', 'business', 'market', 'parks', 'schools', 'sports', 'issues', 'talk', 'ideas', 'safety', 'election', 'housing', 'budget', 'officials', 'beyond', 'record', 'around', 'town', 'events', 'faith', 'lookup', 'unsure', 'social', 'staff', 'mod'];
-const HANDLED = /^(issue-.+|official-.+|meeting-.+|bmeeting-.+|person-.+|talk-.+|candidate-.+|issues|ideas|around|lookup|budget|officials|record|beyond|town|safety|safety-log|safety-latest|local|events|social|business|market|parks|schools|sports|faith|unsure|housing|election|vote|candidates|where|neighbors|talk|mod|friends|staff|home|home-classic|home-v39|home-v40)$/;
+const HANDLED = /^(issue-.+|official-.+|meeting-.+|bmeeting-.+|budget-.+|person-.+|talk-.+|candidate-.+|issues|ideas|around|lookup|budget|officials|record|beyond|town|safety|safety-log|safety-latest|local|events|social|business|market|parks|schools|sports|faith|unsure|housing|election|vote|candidates|where|neighbors|talk|mod|friends|staff|home|home-classic|home-v39|home-v40)$/;
 
 const srv = http.createServer((req, res) => {
   let u = req.url.split('?')[0];
@@ -45,6 +45,7 @@ for (const t of towns) {
     await page.waitForTimeout(900);
     const label = t.id + (sub ? ':' + sub : '');
     const isTown = t.kind === 'Town' || !!t.subtowns;
+    const blinks = new Set();
     for (const r of ROUTES) {
       pageErrors.length = 0;
       await page.evaluate(h => { location.hash = '#' + h; route(); }, r);
@@ -58,11 +59,26 @@ for (const t of towns) {
         const links = [...new Set([...app.querySelectorAll('a[href^="#"]')].map(a => a.getAttribute('href').slice(1)).filter(Boolean))];
         return { bad, links, len: txt.length, h1: (app.querySelector('h1') || {}).innerText || '' };
       }, { isTown });
+      info.links.filter(h => h.startsWith('budget-')).forEach(h => blinks.add(h));
       const dead = info.links.filter(h => !HANDLED.test(h));
       if (pageErrors.length) problems.push(`${label}/${r}: JS error: ${pageErrors.join(' | ')}`);
       if (info.bad.length) problems.push(`${label}/${r}: ${info.bad.join(', ')}`);
       if (dead.length) problems.push(`${label}/${r}: links to pages that do not exist: ${dead.join(', ')}`);
       if (info.len < 300 && !['mod', 'staff', 'unsure', 'social', 'ideas'].includes(r)) problems.push(`${label}/${r}: page is nearly empty (${info.len} chars)`);
+    }
+    // every budget line links to its own page, and those pages render clean
+    for (const h of blinks) {
+      pageErrors.length = 0;
+      await page.evaluate(x => { location.hash = '#' + x; route(); }, h);
+      await page.waitForTimeout(80);
+      const bi = await page.evaluate(({ isTown }) => { const app = document.getElementById('app'); const txt = app.innerText; const bad = [];
+        for (const w of ['undefined', 'NaN', '[object Object]', 'Invalid Date', '${', 'null ·', '· null']) if (txt.includes(w)) bad.push(w);
+        if (/—/.test(txt)) bad.push('em dash');
+        if (isTown) { const m = txt.match(/[^.\n]*\b(the city|City Hall|city's)\b[^.\n]*/i); if (m) bad.push('says city for a town: "' + m[0].trim().slice(0, 80) + '"'); }
+        return { bad, h1: (app.querySelector('h1') || {}).innerText || '' }; }, { isTown });
+      if (pageErrors.length) problems.push(`${label}/${h}: JS error: ${pageErrors.join(' | ')}`);
+      if (/^Budget and taxes$/.test(bi.h1)) problems.push(`${label}/${h}: budget line link falls back to the budget page`);
+      if (bi.bad.length) problems.push(`${label}/${h}: ${bi.bad.join(', ')}`);
     }
     // every sidebar section opens with By the numbers, and its figures agree with the page under it
     const nb = await page.evaluate(() => {

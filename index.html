@@ -1114,6 +1114,22 @@ a.agm-line:hover .agm-t b{color:var(--accent)}
 .bgt-row.rest .bgt-fill{background:var(--muted);opacity:.55}
 .bgt-row:hover .bgt-n{text-decoration:underline}
 .bgt-foot{font-size:12.5px}
+.bgt-rows>li{margin:0;padding:0;list-style:none}.bgt-rows:has(.bgt-go){gap:2px}
+.bgt-go{width:calc(100% + 16px);margin:0 -8px;padding:6px 8px;box-sizing:border-box;border-radius:10px;color:inherit;text-decoration:none;background:none;border:0;font:inherit;text-align:left;cursor:pointer}
+.bgt-go:hover,.bgt-go:focus-visible{background:var(--soft)}.bgt-go .bgt-v::after{content:"›";margin-left:8px;color:var(--muted);font-weight:600}
+.ba-money{gap:12px}.ba-fig{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap}.ba-v{font-size:44px;font-weight:700;letter-spacing:-.02em;line-height:1.05}
+.ba-share{height:10px;border-radius:5px;background:var(--soft);overflow:hidden}.ba-share i{display:block;height:100%;background:var(--accent);border-radius:5px}
+.ba-h{font-size:12.5px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;color:var(--muted)}
+.ba-tl{list-style:none;margin:0;padding:0;display:flex;flex-direction:column}
+.ba-ev{display:grid;grid-template-columns:64px minmax(0,1fr) auto;gap:4px 12px;align-items:start;padding:10px 0;border-top:1px solid var(--line)}.ba-ev:first-child{border-top:0;padding-top:2px}
+.ba-d{font-size:12.5px;color:var(--muted);font-variant-numeric:tabular-nums;padding-top:2px}.ba-b{display:flex;flex-direction:column;gap:3px;min-width:0}
+.ba-t{font-size:14px;font-weight:600}.ba-t a{color:var(--ink)}.ba-k{font-size:12.5px}.ba-s{font-size:13.5px;color:var(--ink2);margin:0;line-height:1.45}
+.ba-star .ibar{margin-left:0}.ba-src{font-size:12px;color:var(--muted)}.ba-src:hover{color:var(--accent)}
+.ba-ul{margin:0;padding-left:18px;display:flex;flex-direction:column;gap:4px;font-size:14px}
+.ba-nav{display:flex;flex-direction:column;gap:2px}.ba-nav a{display:flex;justify-content:space-between;gap:10px;padding:6px 8px;margin:0 -8px;border-radius:8px;color:var(--ink);text-decoration:none;font-size:13.5px}.ba-nav a:hover{background:var(--soft)}.ba-nav a.on{background:var(--accent-soft);color:var(--accent-soft-ink);font-weight:600}.ba-nav b{font-variant-numeric:tabular-nums;font-weight:600}
+.ba-who{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px 24px;align-items:start}.ba-board{padding-left:14px;border-left:3px solid var(--line)}
+.ba-nav{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:2px 16px}
+@media (max-width:640px){.ba-v{font-size:36px}.ba-ev{grid-template-columns:minmax(0,1fr) auto}.ba-d{grid-column:1/-1;padding:0}}
 .wrap.wide{max-width:900px}
 .tbback{display:inline-flex;align-items:center;justify-content:center;width:38px;height:38px;flex-shrink:0;border-radius:50%;border:0;background:var(--surface);box-shadow:0 0 0 1px var(--line);color:var(--ink);cursor:pointer;margin-right:4px}
 .tbback[hidden]{display:none}.tbback:hover{color:var(--accent);box-shadow:0 0 0 1px var(--accent)}
@@ -1710,7 +1726,7 @@ function pageBudget(){if(ALLMODE())return pageBudgetAll();const B=D.budget,r=B.t
   ${B.debtOutstanding&&B.debtOutstanding.fy25?`<div class="card stack" style="gap:6px"><h3>City debt</h3><div class="big" style="font-size:24px">${money(B.debtOutstanding.fy25)}</div><span class="muted">Outstanding, FY25.${B.debtOutstanding.fy24?(B.debtOutstanding.fy25>=B.debtOutstanding.fy24?' Up':' Down')+' from '+money(B.debtOutstanding.fy24)+'.':''}${debtLine&&debtLine.fy27?' Debt service is '+money(debtLine.fy27)+' of this year\'s budget.':''}</span></div>`:''}
   </div>
   ${(B.departments||[]).length?`<section class="card stack"><div class="stack" style="gap:2px"><h2>What changed from last year</h2>${B.changePct!=null?`<p class="muted">${esc(B.fundLabel||'General Fund')} ${B.changePct>=0?'up':'down'} ${Math.abs(B.changePct)}% (${money(B.priorGeneralFund)} to ${money(B.generalFund)}).</p>`:''}</div>
-   ${changeChart(B)}<details class="more"><summary>Line by line</summary><div class="list">${B.departments.map(d=>{const ch=d.fy26&&d.fy27?((d.fy27-d.fy26)/d.fy26*100):null;return `<div class="chg"><b>${esc(d.name)}</b><span class="tag ${ch===null?'':ch>0?'amber':'green'}">${ch!==null?(ch>0?'+':'')+ch.toFixed(1)+'%':d.fy26===0?'new':d.fy27?'FY26 n/a':'FY27 n/a'}</span><span class="muted" style="grid-column:1 / -1">${d.fy26?money(d.fy26)+(d.fy27?' → ':''):''}${d.fy27?money(d.fy27):''}${d.note?' · '+esc(d.note):''}</span></div>`;}).join('')}</div></details>
+   ${changeChart(B)}<details class="more"><summary>Line by line</summary><div class="list">${B.departments.map(d=>{const ch=d.fy26&&d.fy27?((d.fy27-d.fy26)/d.fy26*100):null;const ah=baHref(d);return `<div class="chg">${ah?`<a href="${ah}"><b>${esc(d.name)}</b></a>`:`<b>${esc(d.name)}</b>`}<span class="tag ${ch===null?'':ch>0?'amber':'green'}">${ch!==null?(ch>0?'+':'')+ch.toFixed(1)+'%':d.fy26===0?'new':d.fy27?'FY26 n/a':'FY27 n/a'}</span><span class="muted" style="grid-column:1 / -1">${d.fy26?money(d.fy26)+(d.fy27?' → ':''):''}${d.fy27?money(d.fy27):''}${d.note?' · '+esc(d.note):''}</span></div>`;}).join('')}</div></details>
    ${(B.drivers||[]).length?`<div class="answer"><b>Why:</b> ${B.drivers.map(x=>esc(x).replace(/\.$/,'')).join('. ')}.</div>`:''}${B.departmentsNote?`<span class="srcline">${esc(B.departmentsNote)}</span>`:''}</section>`:''}
   ${B.revenue&&B.revenue.propertyTaxLevy&&B.generalFund?`<section class="card stack"><h2>Where the money comes from</h2><div class="concern"><span>Property taxes</span><b>${money(B.revenue.propertyTaxLevy)}</b><div class="bar"><span style="width:${Math.min(100,Math.round(B.revenue.propertyTaxLevy/B.generalFund*100))}%"></span></div></div>${(B.revenue.nonPropertyTaxDetail||[]).map(x=>`<div class="concern"><span style="font-size:13px">${esc(x.name)}</span><b style="font-size:13px">${money(x.amount)}</b><div class="bar"><span style="width:${Math.max(1,Math.round(x.amount/B.generalFund*100))}%;background:var(--amber)"></span></div></div>`).join('')}${B.revenue.note?`<span class="srcline">${esc(B.revenue.note)}</span>`:''}</section>`:''}
   ${B.cip&&(B.cip.top||[]).length?`<section class="card stack"><div class="stack" style="gap:2px"><h2>Biggest capital projects</h2><p class="muted">${esc(B.cip.label)}${B.cip.sixYear?': '+money(B.cip.sixYear)+' over six years':''}${B.cip.projects?', '+B.cip.projects+' projects':''}${B.cip.fy27?', '+money(B.cip.fy27)+' this year':''}.</p></div><div class="list">${B.cip.top.map(p=>`<div class="between" style="gap:10px;flex-wrap:nowrap;align-items:flex-start"><span style="min-width:0"><b style="font-size:14px">${esc(p.name)}</b>${p.note?`<br><span class="muted">${esc(p.note)}</span>`:''}</span><span class="row" style="gap:8px;flex-wrap:nowrap;align-items:center"><b class="num">${money(p.amount)}</b>${itemBar({t:'project',id:p.name,label:p.name,href:'#budget'},{sm:true})}</span></div>`).join('')}</div></section>`:''}
@@ -1820,6 +1836,7 @@ function route(){if(!TOWN)return;if(TLIVE()&&!D)return;let h=(location.hash||'#h
  else if(h==='around'){html=pageAround();active='lookup';}
  else if(h==='lookup'){html=pageLookupHub();active='lookup';}
  else if(h==='budget'){html=pageBudget();active='lookup';}
+ else if(h.startsWith('budget-')){html=pageBudgetArea(h.slice(7));active='lookup';}
  else if(h==='officials'){html=pageOfficials();active='lookup';}
  else if(h==='record'){html=pageRecord();active='lookup';}
  else if(h==='beyond'){html=pageBeyond();active='lookup';}
@@ -3033,21 +3050,99 @@ document.addEventListener('click',e=>{const b=e.target.closest('[data-hcar]');if
 /* ---- the ask card: the day's statement plus the idea box ---- */
 /* Home: where the money goes. Department lines (top 6, the rest grouped), or the tax-dollar split when a town only publishes that; the valley's all-towns view compares town plus school budgets by town. */
 function bgtMoney(n){if(n>=1e9)return '$'+(n/1e9).toFixed(n>=1e10?1:2)+'B';if(n>=1e6)return '$'+(n/1e6).toFixed(n>=1e8?0:1)+'M';if(n>=1e3)return '$'+Math.round(n/1e3)+'K';return '$'+Math.round(n);}
-function bgtRows(items,unit){const mx=Math.max(...items.map(i=>i.pct),1);return `<ul class="bgt-rows">${items.map(i=>{const pct=i.pct<1?'<1':Math.round(i.pct);const tip=`${i.name}: ${i.v!=null?bgtMoney(i.v)+', ':''}${pct==='<1'?'less than 1':pct}% of ${unit}`;return `<li class="bgt-row${i.rest?' rest':''}" data-tip="${esc(tip)}" aria-label="${esc(tip)}"><span class="bgt-n">${esc(i.name)}</span><span class="bgt-v">${i.v!=null?`<b>${bgtMoney(i.v)}</b> · `:''}${pct}%</span><span class="bgt-track" aria-hidden="true"><span class="bgt-fill" style="width:${Math.max(1,i.pct/mx*100).toFixed(1)}%"></span></span></li>`;}).join('')}</ul>`;}
+function bgtRows(items,unit){const mx=Math.max(...items.map(i=>i.pct),1);return `<ul class="bgt-rows">${items.map(i=>{const pct=i.pct<1?'<1':Math.round(i.pct);const tip=`${i.name}: ${i.v!=null?bgtMoney(i.v)+', ':''}${pct==='<1'?'less than 1':pct}% of ${unit}`;const cls=`bgt-row${i.rest?' rest':''}`;
+ const inner=`<span class="bgt-n">${esc(i.name)}</span><span class="bgt-v">${i.v!=null?`<b>${bgtMoney(i.v)}</b> · `:''}${pct}%</span><span class="bgt-track" aria-hidden="true"><span class="bgt-fill" style="width:${Math.max(1,i.pct/mx*100).toFixed(1)}%"></span></span>`;
+ return i.href?`<li><a class="${cls} bgt-go" href="${esc(i.href)}" data-tip="${esc(tip)}" aria-label="${esc(tip)}. Open details">${inner}</a></li>`:i.sub?`<li><button type="button" class="${cls} bgt-go" data-sub="${esc(i.sub)}" data-tip="${esc(tip)}" aria-label="${esc(tip)}. Show this town">${inner}</button></li>`:`<li class="${cls}" data-tip="${esc(tip)}" aria-label="${esc(tip)}">${inner}</li>`;}).join('')}</ul>`;}
 function budgetGlance(){
  const head=(t,sub)=>`<div class="between" style="flex-wrap:nowrap;align-items:flex-start;gap:12px"><div class="stack" style="gap:2px;min-width:0"><h2>${t}</h2>${sub?`<span class="muted" style="font-size:13.5px">${sub}</span>`:''}</div><a href="#budget" style="white-space:nowrap;font-size:14px">Full budget ›</a></div>`;
- if(ALLMODE()){const rows=valleyRows();if(!rows)return '';const R=rows.map(r=>({name:r.name,v:rowAll(r).sum})).filter(r=>r.v>0).sort((a,b)=>b.v-a.v);if(R.length<2)return '';const tot=R.reduce((n,r)=>n+r.v,0);
-  return `<section class="card stack bgt" aria-label="Budgets by town">${head('Where the money goes',`Town and school budgets by town, ${bgtMoney(tot)} in all`)}${bgtRows(R.map(r=>({...r,pct:r.v/tot*100})),'the valley total')}<span class="muted bgt-foot">Each town's own budget plus its school district budget. Pick a town for its department breakdown.</span></section>`;}
+ if(ALLMODE()){const rows=valleyRows();if(!rows)return '';const R=rows.map(r=>({name:r.name,v:rowAll(r).sum,id:r.id,detail:r.detail})).filter(r=>r.v>0).sort((a,b)=>b.v-a.v);if(R.length<2)return '';const tot=R.reduce((n,r)=>n+r.v,0);
+  return `<section class="card stack bgt" aria-label="Budgets by town">${head('Where the money goes',`Town and school budgets by town, ${bgtMoney(tot)} in all`)}${bgtRows(R.map(r=>({...r,pct:r.v/tot*100,sub:r.detail&&r.id?r.id:null})),'the valley total')}<span class="muted bgt-foot">Each town's own budget plus its school district budget. Tap a town for its department breakdown.</span></section>`;}
  const B=D&&D.budget;if(!B)return '';
- const deps=(B.departments||[]).filter(d=>d&&d.fy27>0);
- if(deps.length>=3){const sum=deps.reduce((n,d)=>n+d.fy27,0);const all=B.totalAllFunds&&B.totalAllFunds>sum?B.totalAllFunds:null;const tot=all||sum;
-  const sorted=[...deps].sort((a,b)=>b.fy27-a.fy27);const top=sorted.slice(0,6).map(d=>({name:d.short||d.name,v:d.fy27,pct:d.fy27/tot*100}));
-  const restV=sorted.slice(6).reduce((n,d)=>n+d.fy27,0)+(all?all-sum:0);if(restV>0)top.push({name:all?'All other departments':`Everything else (${sorted.length-6} lines)`,v:restV,pct:restV/tot*100,rest:true});
-  const yr=String(B.fiscalYear||'').replace(/\s*\(.*$/,'');const what=all?'budget, all funds':(B.fundLabel&&!/general fund/i.test(B.fundLabel)?B.fundLabel.replace(/\s*\(.*$/,''):'budget');
-  return `<section class="card stack bgt" aria-label="Budget breakdown">${head(`Where ${esc(TN())}'s money goes`,`${esc(yr)} ${esc(what)}: ${bgtMoney(tot)}${B.adopted===false||/propos|draft|warrant/i.test(B.fundLabel||'')?' (proposed)':''}`)}${bgtRows(top,'the total')}</section>`;}
+ const I=baInfo();
+ if(I){const top=I.top.map(x=>({name:x.name,v:x.v,pct:x.pct,href:'#budget-'+x.slug}));if(I.restV>0)top.push({name:I.restName,v:I.restV,pct:I.restV/I.tot*100,rest:true,href:'#budget-other'});
+  const what=I.all?'budget, all funds':(B.fundLabel&&!/general fund/i.test(B.fundLabel)?B.fundLabel.replace(/\s*\(.*$/,''):'budget');
+  return `<section class="card stack bgt" aria-label="Budget breakdown">${head(`Where ${esc(TN())}'s money goes`,`${esc(I.yr)} ${esc(what)}: ${bgtMoney(I.tot)}${I.proposed?' (proposed)':''}`)}${bgtRows(top,'the total')}<span class="muted bgt-foot">Tap a line for who runs it and the decisions behind it.</span></section>`;}
  const T=B.taxDollar;if(T&&T.items&&T.items.length>=2){const items=T.items.map(i=>({name:i.name,v:null,pct:i.pct}));
   return `<section class="card stack bgt" aria-label="Where a tax dollar goes">${head(`Where ${esc(TN())}'s tax dollar goes`,esc(T.label||''))}${bgtRows(items,'the tax bill')}</section>`;}
  return '';}
+/* ---- Budget areas: every line of "Where the money goes" opens its own page (#budget-<slug>): the money, who runs it, and
+   the policies and decisions on Agorri that touch it. Curated details live in record.json budget.areas (docs/DATA_GUIDE.md);
+   without them a line still gets a page, matched to the records by keywords from its name. ---- */
+const baSlug=s=>String(s||'').toLowerCase().replace(/&/g,' and ').replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'').slice(0,40);
+const BA_KW=[[/school|education|\bsau\b/i,'\\bschools?\\b|\\bstudents?\\b|superintendent|\\bSAU\\b'],[/police/i,'\\bpolice\\b|body cameras?'],[/fire|ambulance|rescue|\bems\b/i,'\\bfire\\b|ambulance|\\bEMS\\b'],
+ [/public works|highway|\broads?\b|\bstreets?\b|\bdpw\b/i,'public works|\\broads?\\b|highway|paving|sidewalks?|\\bplow(ing)?\\b|\\bDPW\\b'],[/librar/i,'\\blibrar'],[/recreation|\bparks?\b/i,'\\bparks?\\b|recreation|playgrounds?|\\bpools?\\b'],
+ [/debt|notes due|\bbonds?\b/i,'\\bbonds?\\b|\\bdebt\\b|borrow'],[/transfer station|solid waste|recycl|sanitation/i,'transfer station|solid waste|recycl|\\btrash\\b|landfill'],[/water|sewer|wastewater/i,'\\bwater\\b|\\bsewer|wastewater|stormwater'],
+ [/welfare|human services/i,'welfare|human services|general assistance'],[/planning|zoning|inspection|code enforcement/i,'planning|zoning|inspections?|code enforcement'],[/county/i,'county tax|county budget|county commissioners?'],[/sheriff/i,'\\bsheriff']];
+function baInfo(){const B=D&&D.budget;if(!B||ALLMODE())return null;const deps=(B.departments||[]).filter(d=>d&&d.fy27>0);if(deps.length<3)return null;
+ const sum=deps.reduce((n,d)=>n+d.fy27,0);const all=B.totalAllFunds&&B.totalAllFunds>sum?B.totalAllFunds:null;const tot=all||sum;const AR=B.areas||[];
+ const mk=d=>{const a=AR.find(x=>x.dept===d.name)||null;return {d,a,slug:(a&&a.slug)||baSlug(d.short||d.name),name:d.short||d.name,v:d.fy27,pct:d.fy27/tot*100};};
+ const sorted=[...deps].sort((a,b)=>b.fy27-a.fy27).map(mk);const top=sorted.slice(0,6),rest=sorted.slice(6);const restV=rest.reduce((n,x)=>n+x.v,0)+(all?all-sum:0);
+ return {B,tot,all,sum,top,rest,restV,restName:all?'All other departments':`Everything else (${rest.length} lines)`,yr:String(B.fiscalYear||'').replace(/\s*\(.*$/,''),proposed:B.adopted===false||/propos|draft|warrant/i.test(B.fundLabel||'')};}
+function baHref(d){const I=baInfo();if(!I)return null;const x=[...I.top,...I.rest].find(z=>z.d===d||z.d.name===d.name);return x?'#budget-'+x.slug:null;}
+function baCfg(x){const a=x.a||{};let rx=a.match||null;const n=x.d.name;
+ if(!rx){const k=BA_KW.find(([re])=>re.test(n));if(k)rx=k[1];else{const par=(n.match(/\(([^)]+)\)/)||[])[1];if(par)rx=par.split(/,|\band\b/).map(w=>w.trim()).filter(w=>w.length>3).map(w=>w.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')).join('|')||null;}}
+ let re=null;try{re=rx?new RegExp(rx,'i'):null;}catch(e){}return {...a,re};}
+function baRelated(cfg){const re=cfg.re,hit=t=>!!(re&&t&&re.test(t)),ids=new Set((cfg.issues||[]).map(String)),bodies=new Set(cfg.bodies||[]);const B=D.budget;
+ const issues=(D.issues||[]).filter(i=>ids.has(String(i.id))||hit(i.title));
+ const acts=[];(D.council_meetings||[]).forEach((m,k)=>(m.decisions||[]).forEach(d=>{if(hit(cfg.detail?d.title+' '+(d.detail||''):d.title))acts.push({date:m.date,title:d.title,outcome:d.outcome,href:'#meeting-'+k,kind:m.body||GB(),ref:{t:'decision',id:m.date+':'+String(d.title).toLowerCase().replace(/[^a-z0-9]+/g,'-').slice(0,60),label:d.title,href:'#meeting-'+k}});}));
+ (D.board_meetings||[]).forEach((b,k)=>{if(bodies.has(b.body)||(!cfg.bodies&&hit(b.body)))acts.push({date:b.date,title:b.headline||b.body+' meeting',href:'#bmeeting-'+k,kind:b.body,ref:{t:'bmeeting',id:b.date+' '+b.body,label:b.body+', '+fmtD(b.date),href:'#bmeeting-'+k}});});
+ (cfg.policies||[]).forEach(p=>acts.push({date:p.date,title:p.title,summary:p.summary,url:p.url,ref:{t:'budget',id:p.title,label:p.title,href:location.hash}}));
+ acts.sort((a,b)=>String(b.date||'').localeCompare(String(a.date||'')));
+ const drivers=(B.drivers||[]).filter(hit);const cip=((B.cip&&B.cip.top)||[]).filter(p=>hit(p.name+' '+(p.note||'')));
+ const M=LX&&LX.cand&&LX.cand.measures;const ballot=M&&typeof M==='object'?['local','regional'].flatMap(k=>(M[k]||[]).filter(m=>hit(m.title+' '+(m.what||'')))):[];
+ const N=LX&&LX.paper;const news=((N&&N.headlines)||[]).filter(h=>hit(h.title)).slice(0,5);
+ return {issues,acts,drivers,cip,ballot,news,paper:N&&N.name};}
+function baWho(x,cfg){const n=x.d.name,W=[],Sf=(LX&&LX.safety)||{};let board=cfg.board||null,link=null;
+ if(cfg.head)W.push(cfg.head);
+ if(/police/i.test(n)){const p=Sf.police||{};if(!cfg.head&&p.chief)W.push({name:p.chief.name,title:'Chief of Police',since:p.chief.since,src:p.chief.src});if(!board&&p.oversight)board={about:p.oversight};link=['#safety','Police and fire page'];}
+ else if(/fire|ambulance|rescue/i.test(n)){const f=Sf.fire||{};if(!cfg.head&&f.chief)W.push({name:f.chief.name,title:'Fire Chief',since:f.chief.since,src:f.chief.src});if(!board&&f.oversight)board={about:f.oversight};link=['#safety','Police and fire page'];}
+ else if(/school|education/i.test(n)){const sd=(LX&&LX.schools&&LX.schools.districts||[])[0];if(sd){if(!cfg.head&&sd.superintendent)W.push({name:sd.superintendent.name,title:'Superintendent, '+sd.name,src:sd.superintendent.src&&sd.superintendent.src.url});if(!board&&sd.board)board={name:sd.board.name,meets:sd.board.meets};}link=['#schools','Schools page'];}
+ else if(!cfg.head&&/general government|administration|executive|manager/i.test(n)){const st=((D.officials&&D.officials.staff)||[])[0];if(st)W.push({name:st.name,title:st.role,since:st.since,src:st.source});}
+ return {W,board,link};}
+function baEv(e){return `<li class="ba-ev"><span class="ba-d">${e.date?esc(fmtD(e.date)):''}</span><div class="ba-b"><div class="row" style="gap:6px;align-items:baseline"><b class="ba-t">${e.href?`<a href="${esc(e.href)}">${esc(e.title)}</a>`:esc(e.title)}</b>${e.outcome?outTag(e.outcome):''}</div>${e.kind?`<span class="muted ba-k">${esc(e.kind)}</span>`:''}${e.summary?`<p class="ba-s">${esc(e.summary)}</p>`:''}${e.url?`<a class="ba-src" href="${esc(e.url)}" target="_blank" rel="noopener">Source ↗</a>`:''}</div>${e.ref?itemBar(e.ref,{sm:true}):''}</li>`;}
+function baWhoCard(who,cfg){if(!(who.W.length||who.board||cfg.site||who.link))return '';
+ return `<section class="card stack" style="gap:12px"><h2>Who runs it</h2><div class="ba-who">${who.W.map(w=>`<div class="person" style="gap:10px;align-items:flex-start">${av(ini(w.name),'#7A8CA5',40)}<div class="stack" style="gap:1px;min-width:0"><b style="font-size:14px">${esc(w.name)}</b><span class="muted" style="font-size:13px">${esc(w.title||'')}${w.since?' · since '+esc(w.since):''}</span>${w.note?`<span class="muted" style="font-size:12.5px">${esc(w.note)}</span>`:''}${w.src?`<a class="ba-src" href="${esc(w.src)}" target="_blank" rel="noopener">Source ↗</a>`:''}</div></div>`).join('')}
+  ${who.board?`<div class="stack ba-board" style="gap:3px">${who.board.name?`<b style="font-size:14px">${esc(who.board.name)}</b>`:'<b style="font-size:14px">Oversight</b>'}${who.board.about?`<span class="muted" style="font-size:13px">${esc(who.board.about)}</span>`:''}${who.board.meets?`<span style="font-size:13px"><b>Meets:</b> ${esc(who.board.meets)}</span>`:''}${who.board.url?`<a class="ba-src" href="${esc(who.board.url)}" target="_blank" rel="noopener">Agendas and members ↗</a>`:''}</div>`:''}</div>
+  ${cfg.site||who.link?`<div class="row" style="gap:16px">${cfg.site?`<a href="${esc(cfg.site)}" target="_blank" rel="noopener" style="font-size:13.5px">Department website ↗</a>`:''}${who.link?`<a href="${who.link[0]}" style="font-size:13.5px">${esc(who.link[1])} ›</a>`:''}</div>`:''}</section>`;}
+function baRail(I,cur){const all=[...I.top.map(x=>({name:x.name,v:x.v,slug:x.slug})),...(I.restV>0?[{name:I.restName,v:I.restV,slug:'other'}]:[])];
+ return `<section class="card stack" style="gap:8px"><h3>Other budget areas</h3><div class="ba-nav">${all.map(x=>`<a href="#budget-${esc(x.slug)}"${x.slug===cur?' class="on" aria-current="page"':''}><span>${esc(x.name)}</span><b>${bgtMoney(x.v)}</b></a>`).join('')}</div><a href="#budget" style="font-size:13.5px">Budget and taxes ›</a></section>`;}
+function baHow(I){const B=I.B;return B.adopted||B.adoptedVote?`<section class="card stack" style="gap:6px"><h3>How it's decided</h3><p style="font-size:14px;margin:0">The ${esc(GB())} ${I.proposed?'votes on':'adopted'} the ${esc(I.yr)} budget${B.adopted?' on '+esc(fmtD(B.adopted)):''}.</p>${B.adoptedVote?`<span class="muted" style="font-size:13px">${esc(B.adoptedVote)}</span>`:''}</section>`:'';}
+function pageBudgetArea(slug){const I=baInfo();if(!I)return pageBudget();if(slug==='other')return baOther(I);
+ const x=[...I.top,...I.rest].find(z=>z.slug===slug);if(!x)return pageBudget();
+ const cfg=baCfg(x),R=baRelated(cfg),who=baWho(x,cfg),B=I.B,d=x.d;const title=cfg.title||d.name;const pct=x.pct<1?'less than 1':Math.round(x.pct);
+ const gfm=(d.note||'').match(/General Fund support: \$([\d,]+)/);const gf=gfm?+gfm[1].replace(/,/g,''):null;const noteRest=(d.note||'').replace(/^All funds, FY[\d-]+\.\s*/,'').replace(/General Fund support: \$[\d,]+\.?\s*/,'').trim();
+ const ch=d.fy26&&d.fy27?(d.fy27-d.fy26)/d.fy26*100:null;const src=B.sources&&(B.sources.adopted||B.sources.budget||B.sources.proposed);
+ const ref={t:'budget',id:'area:'+(TOWN.subtowns?subId(TOWN)+'/':'')+x.slug,label:title+' budget',href:'#budget-'+x.slug};
+ const seg=gf!=null?`<div class="bnx-viz"><span class="bnx-vt">How it's paid for</span><div class="bnx-seg" role="img" aria-label="${esc('General Fund '+bgtMoney(gf)+', other sources '+bgtMoney(Math.max(0,x.v-gf)))}">${gf>0?`<i class="s0" style="width:${(gf/x.v*100).toFixed(1)}%" data-tip="${esc('General Fund: '+bgtMoney(gf))}"></i>`:''}${x.v-gf>0?`<i class="rest" style="width:${((x.v-gf)/x.v*100).toFixed(1)}%" data-tip="${esc('Fees, grants and other sources: '+bgtMoney(x.v-gf))}"></i>`:''}</div><div class="bnx-lg">${gf>0?`<span><i class="s0"></i><b>${bgtMoney(gf)}</b> General Fund</span>`:'<span>No General Fund support</span>'}${x.v-gf>0?`<span><i class="rest"></i><b>${bgtMoney(x.v-gf)}</b> fees, grants and other sources</span>`:''}</div></div>`:'';
+ const debt=/^debt/i.test(d.name)&&B.debtOutstanding&&B.debtOutstanding.fy25?`<p class="muted" style="font-size:13.5px">Debt service is the yearly payment on money the ${esc(CW1())} has borrowed. ${esc(TN())} owed ${money(B.debtOutstanding.fy25)} at the end of FY25.</p>`:'';
+ const sec=(h,body)=>body?`<div class="stack" style="gap:8px"><h3 class="ba-h">${h}</h3>${body}</div>`:'';
+ const acts=R.acts.length?`<ol class="ba-tl">${R.acts.slice(0,8).map(baEv).join('')}</ol>${R.acts.length>8?`<details class="more"><summary>${R.acts.length-8} more</summary><ol class="ba-tl">${R.acts.slice(8).map(baEv).join('')}</ol></details>`:''}`:'';
+ const any=R.issues.length+R.acts.length+R.drivers.length+R.cip.length+R.ballot.length;
+ return `
+ <section class="stack" style="gap:6px"><a href="#budget" class="muted" style="text-decoration:none">‹ Budget and taxes</a><span class="eyebrow">${esc(x.name)} · ${esc(I.yr)} budget</span><h1 style="font-size:30px">${esc(title)}</h1>${cfg.about?`<p class="lead">${esc(cfg.about)}${cfg.aboutSrc?` <a class="ba-src" href="${esc(cfg.aboutSrc)}" target="_blank" rel="noopener">Source ↗</a>`:''}</p>`:''}<div class="row ba-star" style="gap:8px">${itemBar(ref,{sm:true})}<span class="muted" style="font-size:13px">Star for email updates, or comment</span></div></section>
+ <div class="cols"><div class="main">
+  <section class="card stack ba-money"><div class="ba-fig"><span class="ba-v">${bgtMoney(x.v)}</span><span class="muted">${pct}% of ${esc(TN())}'s ${bgtMoney(I.tot)} ${I.all?'budget, all funds':'budget'}${I.proposed?' (proposed)':''}</span></div>
+   <div class="ba-share" role="img" aria-label="${esc(pct+'% of the total')}"><i style="width:${Math.max(.6,x.pct).toFixed(2)}%"></i></div>
+   ${ch!=null?`<span class="bnx-d" style="align-self:flex-start"><svg viewBox="0 0 12 12" aria-hidden="true"><path d="${ch<0?'M6 10.5L1 3h10z':'M6 1.5L11 9H1z'}" fill="currentColor"/></svg><span class="sr">${ch<0?'Down':'Up'} </span>${Math.abs(ch).toFixed(1)}% from ${money(d.fy26)} last year</span>`:''}
+   ${seg}${noteRest?`<p class="muted" style="font-size:13.5px">${esc(noteRest)}</p>`:''}${debt}
+   ${src?`<span class="srcline">Source: <a href="${esc(src)}" target="_blank" rel="noopener">${I.proposed?'proposed':'adopted'} budget</a></span>`:''}</section>
+  ${baWhoCard(who,cfg)}
+  <section class="card stack" style="gap:16px"><h2>Policies and decisions</h2>
+   ${sec('Being decided',R.issues.length?`<div class="list">${R.issues.map(issueRow).join('')}</div>`:'')}
+   ${sec('Recent decisions and actions',acts)}
+   ${sec('In this year\'s budget',R.drivers.length?`<ul class="ba-ul">${R.drivers.map(t=>`<li>${esc(t)}</li>`).join('')}</ul>`:'')}
+   ${sec('Building projects',R.cip.length?`<div class="list">${R.cip.map(p=>`<div class="between" style="gap:10px;flex-wrap:nowrap;align-items:flex-start"><span style="min-width:0"><b style="font-size:14px">${esc(p.name)}</b>${p.note?`<br><span class="muted">${esc(p.note)}</span>`:''}</span><b class="num" style="white-space:nowrap">${p.amount?money(p.amount):''}</b></div>`).join('')}</div>`:'')}
+   ${sec('On the ballot',R.ballot.length?`<div class="list">${R.ballot.map(measureRow).join('')}</div>`:'')}
+   ${any?'':`<p class="muted">Nothing on Agorri is tied to this part of the budget yet. Decisions show up here as the ${esc(GB())} takes them up; the <a href="#record">meeting record</a> has everything so far.</p>`}
+  </section>
+  ${R.news.length?`<section class="card stack" style="gap:8px"><h2>In the news</h2><div class="list">${R.news.map(h=>`<div class="between" style="gap:10px;flex-wrap:nowrap;align-items:flex-start"><a href="${esc(h.url)}" target="_blank" rel="noopener" style="min-width:0">${esc(h.title)} ↗</a><span class="muted" style="white-space:nowrap">${esc(fmtD(h.date))}</span></div>`).join('')}</div>${R.paper?`<span class="srcline">Headlines from ${esc(R.paper)}.</span>`:''}</section>`:''}
+ ${baHow(I)}${baRail(I,x.slug)}
+ </div></div>${foot()}`;}
+function baOther(I){const B=I.B;const rows=I.rest.map(x=>({name:x.d.name,v:x.v,pct:x.pct,href:'#budget-'+x.slug}));const un=I.all?I.all-I.sum:0;
+ if(un>0)rows.push({name:'Departments not listed in this summary',v:un,pct:un/I.tot*100,rest:true});
+ return `
+ <section class="stack" style="gap:6px"><a href="#budget" class="muted" style="text-decoration:none">‹ Budget and taxes</a><span class="eyebrow">${esc(I.yr)} budget</span><h1 style="font-size:30px">${esc(I.restName)}</h1><p class="lead">${bgtMoney(I.restV)}, ${Math.round(I.restV/I.tot*100)}% of ${esc(TN())}'s ${bgtMoney(I.tot)} ${I.all?'budget, all funds':'budget'}. ${rows.some(r=>r.href)?'Tap a line for its page.':''}</p></section>
+ <div class="cols"><div class="main"><section class="card stack bgt">${bgtRows(rows,'the total')}${B.departmentsNote?`<span class="srcline">${esc(B.departmentsNote)}</span>`:''}</section>${baHow(I)}${baRail(I,'other')}</div></div>${foot()}`;}
 function askCard(){const q=todaysQ();
  if(!q)return tkComposer({id:'home',kinds:['idea'],kind:'idea',compact:true,showRef:false,head:`<b>Share an idea for the ${CW1()}.</b> <span class="muted">To comment on something, tap ${BUBBLE} on it.</span>`});
  const iss=D.issues.find(i=>i.id===q.issue);const mine=qMine(q.id);if(OWNHOST&&QX.id!==q.id)qLoad(q);const res=QX.id===q.id?QX.res:null;

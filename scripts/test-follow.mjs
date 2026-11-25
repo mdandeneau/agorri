@@ -66,6 +66,12 @@ const pi = pd.issues[0];
 t('finds a school board decision', findItem({ t: 'school', id: pd.id + '|issue|' + (pi.id || slug(pi.title)) }, port)?.obj.title === pi.title);
 t('finds a school', findItem({ t: 'school', id: pd.id + '|school|' + slug(pd.schools[0].name) }, port)?.obj.name === pd.schools[0].name);
 
+const sfd = await loadTownData(async p => { try { return JSON.parse(fs.readFileSync(path.join(ROOT, p), 'utf8')); } catch (e) { return null; } }, 'san-francisco', []);
+const ba = findItem({ t: 'budget', id: 'area:public-health' }, sfd)?.obj;
+t('finds a budget area page with its amount and latest policy', ba && ba.title === 'Department of Public Health' && /^\$3,621,244,753 in FY2026-27$/.test(ba.areaBudget) && !!ba.areaLatest);
+t('budget areas without curated details resolve by their line name', findItem({ t: 'budget', id: 'area:police' }, port)?.obj.title === 'Police');
+t('a curated policy on an area page resolves by its title', !!findItem({ t: 'budget', id: sfd.records[0].budget.areas[0].policies[0].title }, sfd));
+
 // ---- the notify run ----
 const NENV = { DB: D1 };
 const mails = []; const send = async (to, m, h) => { mails.push({ to, m, h }); return true; };

@@ -15402,6 +15402,19 @@
     "Staffing",
     "−9 positions"
    ]
+  ],
+  "areas": [
+   {
+    "dept": "General Government",
+    "slug": "city-services",
+    "title": "City departments (General Government)",
+    "match": "Public Works|\\blibrar|recreation|planning (board|department)|inspections?|City Hall|stormwater|paving|sidewalks?|Housing Action Plan",
+    "issues": [
+     "municipal",
+     "stormwater",
+     "housing"
+    ]
+   }
   ]
  },
  "town": {

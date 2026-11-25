@@ -7832,7 +7832,7 @@
     "short": "Parks"
    }
   ],
-  "departmentsNote": "Selected departments' total sources for FY2026-27 from the adopted Annual Appropriation Ordinance; the City funds many departments mostly from fees, grants and enterprise revenue, so General Fund support is shown in each note. FY2025-26 department figures were not in the document, so fy26 is null. The Airport and Port are not listed.",
+  "departmentsNote": "Selected departments' total sources for FY2026-27 from the adopted Annual Appropriation Ordinance; the City funds many departments mostly from fees, grants and enterprise revenue, so General Fund support is shown in each note. FY2025-26 department figures were not in the document, so last year's amounts are not shown. The Airport and Port are not listed.",
   "departments_needs_review": true,
   "departments_review_note": "Figures were read from a long PDF by a summarizing tool; spot-check against the AAO's Sources of Funds by Service Area and Department table.",
   "serviceAreas": {
@@ -7963,7 +7963,225 @@
    "signing": "https://www.sf.gov/news-mayor-lurie-signs-balanced-budge-strengthening-san-franciscos-social-safety-net-advancing-citys-economic-recover",
    "taxRate": "https://sfbos.org/sites/default/files/r0447-25.pdf",
    "boardVote": "https://media.api.sf.gov/documents/bag072826_minutes.pdf"
-  }
+  },
+  "areas": [
+   {
+    "dept": "Public Health",
+    "slug": "public-health",
+    "title": "Department of Public Health",
+    "about": "Protects and promotes the health of all San Franciscans. Its San Francisco Health Network gives direct care to more than 125,000 people a year through Zuckerberg San Francisco General, Laguna Honda Hospital and more than 14 primary care clinics, and its Behavioral Health division is the City's largest provider of mental health and substance use services.",
+    "aboutSrc": "https://www.sf.gov/departments--department-public-health--about",
+    "head": {
+     "name": "Daniel Tsai",
+     "title": "Director of Health",
+     "src": "https://media.api.sf.gov/documents/SFDPH-Directors-Report-11-16.pdf"
+    },
+    "board": {
+     "name": "Health Commission",
+     "about": "Seven commissioners appointed by the Mayor to staggered four-year terms; the department's governing body.",
+     "meets": "1st and 3rd Mondays at 4:00 pm, City Hall Room 408",
+     "url": "https://sf.gov/departments/san-francisco-health-commission"
+    },
+    "site": "https://www.sf.gov/departments--department-public-health",
+    "policies": [
+     {
+      "date": "2026-11-16",
+      "title": "Treasure Island Behavioral Health Building breaks ground",
+      "summary": "A $72 million project with 300 treatment and transitional housing beds, per the Director's report to the Health Commission.",
+      "url": "https://media.api.sf.gov/documents/SFDPH-Directors-Report-11-16.pdf"
+     },
+     {
+      "date": "2026-11-16",
+      "title": "New head of the San Francisco Health Network",
+      "summary": "Jacey Cooper becomes Director and CEO of the Health Network on January 4, 2027; Dr. Naveena Bobba is acting until then.",
+      "url": "https://media.api.sf.gov/documents/SFDPH-Directors-Report-11-16.pdf"
+     },
+     {
+      "date": "2026-02-17",
+      "title": "Federal cuts from H.R. 1",
+      "summary": "The City expects to lose roughly $300 million in revenue over two years from the 2025 federal law, mostly at Public Health and also at the Human Services Agency, per a Human Services Agency budget memo.",
+      "url": "https://www.sfhsa.org/sites/default/files/media/document/2026-02/hsa-bfs_budget_memo_feb_2026.pdf"
+     }
+    ],
+    "match": "\\bpublic health\\b|\\bDPH\\b|Laguna Honda|Zuckerberg|San Francisco General|behavioral health|mental health|substance use|overdose|Health Commission",
+    "detail": true
+   },
+   {
+    "dept": "Public Utilities Commission",
+    "slug": "water-sewer-power",
+    "title": "Public Utilities Commission (SFPUC)",
+    "about": "Delivers drinking water to 2.7 million people in the Bay Area, collects and treats San Francisco's wastewater, and meets 75% of the City's electricity demand with clean power.",
+    "aboutSrc": "https://www.sfpuc.gov/about-us/news/sfpuc-general-manager-dennis-herrera-announces-retirement-after-nearly-25-years",
+    "head": {
+     "name": "Dennis J. Herrera",
+     "title": "General Manager",
+     "note": "Announced in June that he will retire in December 2026",
+     "src": "https://www.sfpuc.gov/about-us/who-we-are/executive-management"
+    },
+    "board": {
+     "name": "SFPUC Commission",
+     "about": "Five members nominated by the Mayor and approved by the Board of Supervisors.",
+     "meets": "2nd and 4th Tuesdays at 1:30 pm, City Hall Room 400",
+     "url": "https://www.sfpuc.gov/about-us/boards-commissions-committees/sfpuc-commission"
+    },
+    "site": "https://www.sfpuc.gov/",
+    "policies": [
+     {
+      "date": "2026-06-23",
+      "title": "General Manager Dennis Herrera to retire in December",
+      "summary": "He announced his retirement after nearly 25 years in City service, leaving the Mayor and the Commission time to find a replacement.",
+      "url": "https://www.sfpuc.gov/about-us/news/sfpuc-general-manager-dennis-herrera-announces-retirement-after-nearly-25-years"
+     },
+     {
+      "date": "2026-04-28",
+      "title": "Water and sewer rates up about 12.6% this year and 12.5% next",
+      "summary": "The Commission adopted the rates after its April 28 hearing: about $21 a month more for the average residential household from July 1, 2026, and $23 more from July 1, 2027.",
+      "url": "https://www.sfpuc.gov/2026rates"
+     }
+    ],
+    "match": "\\bSFPUC\\b|\\bPUC\\b|Public Utilities|\\bwater\\b|\\bsewer|wastewater|CleanPowerSF|Hetch Hetchy|525 Golden Gate",
+    "detail": true
+   },
+   {
+    "dept": "Municipal Transportation Agency (Muni)",
+    "slug": "muni-and-streets",
+    "title": "Municipal Transportation Agency (SFMTA)",
+    "about": "Runs Muni and oversees how people and goods move on the City's streets, including cars and trucks, taxis, bicycling and walking.",
+    "aboutSrc": "https://www.sfmta.com/units/board-directors",
+    "head": {
+     "name": "Julie Kirschbaum",
+     "title": "Director of Transportation",
+     "since": "2025",
+     "src": "https://sf.gov/mayor-lurie-sfmta-board-of-directors-name-julie-kirschbaum-sfmta-director-of-transportation"
+    },
+    "board": {
+     "name": "SFMTA Board of Directors",
+     "about": "Seven members appointed by the Mayor; it also governs the Parking Authority.",
+     "meets": "1st and 3rd Tuesdays at 1:00 pm, City Hall Room 400",
+     "url": "https://www.sfmta.com/units/board-directors"
+    },
+    "site": "https://www.sfmta.com/",
+    "policies": [
+     {
+      "date": "2026-11-04",
+      "title": "Prop H and the Regional Transit Measure pass, per the SFMTA",
+      "summary": "Per the SFMTA, the Prop H parcel tax will raise about $160 million a year for Muni and the regional sales tax about $155 million a year for Muni; with internal savings, the agency says Muni avoids the service cuts it faced.",
+      "url": "https://www.sfmta.com/index%2ephp/blog/bay-area-chooses-transit-funding-measures-pass"
+     }
+    ],
+    "match": "\\bMuni\\b|SFMTA|\\btransit\\b|speed cameras?|parking (meters?|enforcement|tickets?)|\\bbus(es)?\\b|Transit Revenue Measure",
+    "issues": [
+     "muni"
+    ],
+    "bodies": [
+     "SFMTA Board of Directors"
+    ],
+    "detail": true
+   },
+   {
+    "dept": "Human Services Agency",
+    "slug": "human-services",
+    "title": "Human Services Agency",
+    "about": "Connects more than 225,000 San Franciscans to more than 60 services, including CalFresh, Medi-Cal, CalWORKs, County Adult Assistance (CAAP), In-Home Supportive Services, and foster care and adoption. It is made up of the Department of Benefits and Family Support and the Department of Disability and Aging Services.",
+    "aboutSrc": "https://www.sfhsa.org/our-story",
+    "head": {
+     "name": "Trent Rhorer",
+     "title": "Executive Director",
+     "src": "https://www.sf.gov/profile--trent-rhorer"
+    },
+    "board": {
+     "name": "Human Services Commission",
+     "about": "Five commissioners appointed by the Mayor to overlapping four-year terms; it oversees Benefits and Family Support and approves its yearly goals and budget.",
+     "meets": "4th Thursday of the month at 10:00 am (3rd Thursday in November and December), 170 Otis Street",
+     "url": "https://sfhsa.org/about/commissions-committees/human-services-commission"
+    },
+    "site": "https://www.sfhsa.org/",
+    "policies": [
+     {
+      "date": "2026-02-17",
+      "title": "Federal H.R. 1 tightens CalFresh and Medi-Cal",
+      "summary": "The 2025 federal law brings stricter eligibility and compliance rules, including work requirements, and a smaller federal share of CalFresh administration starting in FY2026-27. The February budget memo proposed raising General Fund support for Benefits and Family Support by $33.3 million (19.1%) to $207.2 million, partly to cover the loss.",
+      "url": "https://www.sfhsa.org/sites/default/files/media/document/2026-02/hsa-bfs_budget_memo_feb_2026.pdf"
+     }
+    ],
+    "match": "Human Services|\\bHSA\\b|CalFresh|Medi-?Cal|CalWORKs|\\bCAAP\\b|In-Home Supportive|\\bIHSS\\b|food security|Disability and Aging|foster care|child care",
+    "detail": true
+   },
+   {
+    "dept": "Police",
+    "slug": "police",
+    "title": "Police Department (SFPD)",
+    "match": "\\bpolice\\b|\\bSFPD\\b|Real Time Investigation|firearms",
+    "issues": [
+     "surveillance"
+    ],
+    "bodies": [
+     "Police Commission"
+    ],
+    "detail": true
+   },
+   {
+    "dept": "Homelessness and Supportive Housing",
+    "slug": "homelessness",
+    "title": "Department of Homelessness and Supportive Housing",
+    "about": "Works to make homelessness in San Francisco rare, brief and one-time.",
+    "aboutSrc": "https://www.sf.gov/departments/department-homelessness-and-supportive-housing",
+    "head": {
+     "name": "Mike Levine",
+     "title": "Executive Director",
+     "since": "2026",
+     "src": "https://www.sf.gov/departments/department-homelessness-and-supportive-housing"
+    },
+    "board": {
+     "name": "Homelessness Oversight Commission",
+     "about": "Created by voters in November 2022 and launched in May 2023 to oversee the department.",
+     "meets": "1st Thursday of the month, City Hall Room 416",
+     "url": "https://www.sf.gov/departments/homelessness-oversight-commission"
+    },
+    "site": "https://www.sf.gov/departments/department-homelessness-and-supportive-housing",
+    "policies": [
+     {
+      "date": "2026-08-31",
+      "title": "Every homelessness contract to be rebid on outcomes",
+      "summary": "HSH will re-award its full portfolio of homelessness services and housing contracts through a competitive, outcomes-based process, in phases through May 2029. The Mayor says the City spends about $1 billion on the current system.",
+      "url": "https://www.sf.gov/news-mayor-lurie-launches-sweeping-effort-to-redo-all-city-homelessness-contracts-with-focus-on-outcomes-accountability-for-results"
+     },
+     {
+      "date": "2026-04-08",
+      "title": "Mike Levine named to lead the department",
+      "summary": "Under the Mayor's Breaking the Cycle plan, which pairs housing with addiction and mental health treatment. The announcement also points to a planned drug-focused RESET Center, a 24/7 crisis stabilization center and wider use of Medi-Cal to pay for homeless services.",
+      "url": "https://www.sf.gov/news-mayor-lurie-appoints-mike-levine-to-lead-department-of-homelessness-and-supportive-housing"
+     }
+    ],
+    "match": "homeless|supportive housing|Navigation Center|\\bshelters?\\b|\\bHSH\\b|Lark Inn|Breaking the Cycle",
+    "issues": [
+     "homelessness"
+    ],
+    "detail": true
+   },
+   {
+    "dept": "Public Works",
+    "slug": "public-works",
+    "title": "Public Works",
+    "match": "Public Works|street cleaning|illegal dumping|street trees?|resurfacing|repaving|potholes?",
+    "issues": [
+     "streettrees"
+    ],
+    "detail": true
+   },
+   {
+    "dept": "Sheriff",
+    "slug": "sheriff",
+    "title": "Sheriff's Office",
+    "head": {
+     "name": "Paul Miyamoto",
+     "title": "Sheriff (elected)",
+     "src": "https://www.sf.gov/topics--government"
+    },
+    "match": "Sheriff",
+    "detail": true
+   }
+  ]
  },
  "town": {
   "name": "San Francisco",
