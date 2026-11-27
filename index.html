@@ -1349,17 +1349,25 @@ a.wc-t:hover{text-decoration:underline}
 /* Home layouts: picker and Layout 2 section blocks */
 .lyt{width:auto;max-width:none;height:38px;border-radius:10px;border:1px solid var(--line);background:var(--surface);color:var(--ink);font:inherit;font-size:13.5px;font-weight:600;padding:0 28px 0 12px;margin-left:6px;cursor:pointer;appearance:none;-webkit-appearance:none;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%23888' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 10px center;flex-shrink:0}
 .lyt:hover{border-color:var(--muted)}
-.hx-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;grid-auto-flow:dense}
-.hx{display:flex;flex-direction:column;background:var(--surface);border-radius:18px;box-shadow:var(--shadow);overflow:hidden;color:var(--ink);text-decoration:none;transition:transform .15s ease,box-shadow .15s ease;--tn:#2a78d6;min-width:0}
-.hx:hover{transform:translateY(-2px);box-shadow:0 10px 28px rgba(0,0,0,.12)}.hx:focus-visible{outline:3px solid var(--tn);outline-offset:2px}
-.hx.wide{grid-column:span 2}
-.hx-g{position:relative;height:180px;overflow:hidden;background:radial-gradient(120% 90% at 85% 0%,color-mix(in srgb,var(--tn) 26%,var(--surface)) 0%,color-mix(in srgb,var(--tn) 8%,var(--surface)) 70%);color:var(--tn);display:flex;align-items:center;justify-content:center;padding:14px 16px}
-.hx-art{width:100%;height:100%;max-height:150px}
-.hx-tx{display:flex;flex-direction:column;gap:5px;padding:16px 20px 18px;flex:1}
-.hx-k{display:flex;align-items:center;gap:6px;font-size:11.5px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;color:color-mix(in srgb,var(--tn) 75%,var(--ink))}
-.hx-h{font-size:18px;font-weight:700;line-height:1.25;letter-spacing:-.01em;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
-.hx-s{font-size:13.5px;color:var(--muted);line-height:1.4}
-.hx-go{margin-top:auto;padding-top:6px;font-size:13.5px;font-weight:600;color:color-mix(in srgb,var(--tn) 80%,var(--ink))}
+@font-face{font-family:'Public Sans';font-style:normal;font-weight:700;font-display:swap;src:url(/fonts/public-sans-latin-700-normal.woff2) format('woff2')}
+@font-face{font-family:'Public Sans';font-style:normal;font-weight:800;font-display:swap;src:url(/fonts/public-sans-latin-800-normal.woff2) format('woff2')}
+:root{--l2f:'Public Sans',var(--display)}
+.wrap.l2{max-width:1340px}
+.wrap.l2 h1{font-family:var(--l2f);letter-spacing:-.02em}
+.hx-sec{display:flex;flex-direction:column;gap:20px;margin-top:10px}
+.hx-hd h2{font-family:var(--l2f);font-size:32px;font-weight:800;letter-spacing:-.025em;line-height:1.1;margin:0;color:var(--ink)}
+.hx-hd p{margin:6px 0 0;color:var(--muted);font-size:15.5px}
+.hx-grid{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:20px;grid-auto-flow:dense}
+.hx{display:flex;flex-direction:column;background:color-mix(in srgb,var(--tn) 6%,var(--surface));border:1px solid color-mix(in srgb,var(--tn) 20%,var(--line));border-radius:26px;padding:10px;overflow:hidden;color:var(--ink);text-decoration:none;transition:transform .15s ease,border-color .15s ease;--tn:#2a78d6;min-width:0}
+.hx:hover{transform:translateY(-2px);border-color:color-mix(in srgb,var(--tn) 60%,var(--line))}.hx:focus-visible{outline:3px solid var(--tn);outline-offset:2px}
+.hx.s5{grid-column:span 5}.hx.s7{grid-column:span 7}.hx.wide{grid-column:1/-1}
+.hx-g{position:relative;height:240px;overflow:hidden;border-radius:18px;background:color-mix(in srgb,var(--tn) 15%,var(--surface));color:var(--tn);display:flex;align-items:center;justify-content:center;padding:18px 20px}
+.hx-art{width:100%;height:100%;max-height:196px}
+.hx-tx{display:flex;flex-direction:column;gap:6px;padding:18px 14px 10px;flex:1}
+.hx-k{display:flex;align-items:center;gap:7px;font-size:14px;font-weight:650;color:color-mix(in srgb,var(--tn) 72%,var(--ink))}
+.hx-h{font-family:var(--l2f);font-size:26px;font-weight:800;line-height:1.14;letter-spacing:-.022em;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.hx-s{font-size:15px;color:var(--muted);line-height:1.45;max-width:62ch}
+.hx-go{margin-top:auto;padding-top:12px;font-size:14.5px;font-weight:650;color:color-mix(in srgb,var(--tn) 80%,var(--ink))}
 .hx:hover .hx-go{text-decoration:underline}
 .hx-issues{--tn:#2a78d6}.hx-talk{--tn:#7c5cd6}.hx-local{--tn:#e0861b}.hx-budget{--tn:#1f9d6b}.hx-safety{--tn:#4a6fa5}.hx-housing{--tn:#0e8c8c}.hx-schools{--tn:#5b5fd6}.hx-parks{--tn:#3b9a3b}.hx-sports{--tn:#e0602a}.hx-vote{--tn:#2f6fd6}.hx-officials{--tn:#9b4fb8}.hx-record{--tn:#64748b}.hx-ideas{--tn:#d49a12}
 .hx-badge{position:absolute;right:14px;top:12px;background:var(--surface);color:var(--ink);font-size:12.5px;font-weight:700;padding:4px 10px;border-radius:999px;box-shadow:0 2px 8px rgba(0,0,0,.08)}
@@ -1369,35 +1377,44 @@ a.wc-t:hover{text-decoration:underline}
 .hx-ph{display:flex;align-items:center;gap:6px;font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--tn)}
 .hx-li{display:flex;align-items:center;gap:9px;font-size:13.5px;color:var(--ink);min-width:0}.hx-lt{flex:1;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.hx-li em{font-style:normal;font-size:11.5px;font-weight:700;color:var(--tn);white-space:nowrap}
 .hx-cb{width:15px;height:15px;border:2px solid var(--tn);border-radius:4px;flex-shrink:0;position:relative}.hx-cb.on{background:var(--tn)}.hx-cb.on::after{content:"";position:absolute;left:3.5px;top:0;width:4px;height:8px;border:solid var(--surface);border-width:0 2px 2px 0;transform:rotate(45deg)}
-.hx-chat{display:flex;flex-direction:column;gap:7px;width:100%}
-.hx-bub{align-self:flex-start;max-width:88%;background:var(--surface);color:var(--ink);font-size:12.5px;padding:7px 11px;border-radius:14px 14px 14px 4px;box-shadow:0 2px 8px rgba(0,0,0,.07);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.hx-chat{display:flex;flex-direction:column;gap:10px;width:100%}
+.hx-bub{align-self:flex-start;max-width:88%;background:var(--surface);color:var(--ink);font-size:14px;padding:9px 14px;border-radius:14px 14px 14px 4px;box-shadow:0 2px 8px rgba(0,0,0,.07);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .hx-bub.r{align-self:flex-end;background:var(--tn);color:#fff;border-radius:14px 14px 4px 14px}
-.hx-donut{display:flex;align-items:center;gap:12px;width:100%;justify-content:center}.hx-donut ul{font-size:12px!important;max-width:150px}.hx-donut svg{flex-shrink:0}
+.hx-donut{display:flex;align-items:center;gap:22px;width:100%;justify-content:center}.hx-donut ul{font-size:13.5px!important;max-width:230px}.hx-donut svg{flex-shrink:0;width:150px;height:150px}
 .hx-dt{font-size:15px;font-weight:700;fill:var(--ink)}.hx-ds{font-size:8px;fill:var(--muted)}
 .hx-donut ul{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:6px;min-width:0;font-size:12.5px;color:var(--ink)}
 .hx-donut li{display:flex;align-items:flex-start;gap:7px;min-width:0;line-height:1.25}.hx-donut li i{width:10px;height:10px;border-radius:3px;background:var(--tn);flex-shrink:0;margin-top:2px}.hx-donut li span{min-width:0}.hx-donut li b{margin-left:auto;padding-left:6px}
 .hx-week{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:6px;flex:1.4;height:100%;min-width:0}
 .hx-day{display:flex;flex-direction:column;align-items:center;gap:1px;padding:6px 2px 4px;border-radius:10px;color:var(--ink)}
 .hx-day.on{background:var(--surface);box-shadow:0 3px 10px rgba(0,0,0,.08)}
-.hx-day em{font-style:normal;font-size:10.5px;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.03em}.hx-day b{font-size:16px}
-.hx-day i{margin-top:auto;width:58%;border-radius:4px 4px 2px 2px;background:var(--tn);opacity:.85}.hx-day small{font-size:11px;font-weight:700;color:var(--tn)}
+.hx-day em{font-style:normal;font-size:11.5px;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.03em}.hx-day b{font-family:var(--l2f);font-size:20px}
+.hx-day i{margin-top:auto;height:calc(var(--h)*96px + 3px);width:58%;border-radius:4px 4px 2px 2px;background:var(--tn);opacity:.85}.hx-day small{font-size:11px;font-weight:700;color:var(--tn)}
 .hx-g:has(.hx-week){gap:16px;justify-content:space-between}
 .hx-ev{flex:1;min-width:0;background:var(--surface);border-radius:12px;box-shadow:0 6px 18px rgba(0,0,0,.08);padding:12px 14px;display:flex;flex-direction:column;gap:3px;font-size:12.5px;color:var(--muted)}
 .hx-ev b{font-size:14.5px;color:var(--ink);line-height:1.3;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}.hx-evk{font-size:11px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;color:var(--tn)}.hx-evm{font-weight:600;color:var(--tn)}
 .hx-ev span:not(.hx-evk):not(.hx-evm){white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .hx-spark{position:absolute;left:0;right:0;bottom:0;width:100%;height:80%}
-.hx-tag{display:flex;align-items:center;gap:14px;width:100%;justify-content:center}.hx-house{width:96px;height:80px;flex-shrink:0}
-.hx-tagb{display:flex;flex-direction:column;gap:2px;min-width:0}.hx-tagb b{font-size:30px;line-height:1.05;color:var(--ink);letter-spacing:-.02em}.hx-tl{font-size:11.5px;font-weight:600;color:var(--muted)}
+.hx-tag{display:flex;align-items:center;gap:26px;width:100%;justify-content:center}.hx-house{width:132px;height:130px;flex-shrink:0}
+.hx-tagb{display:flex;flex-direction:column;gap:2px;min-width:0}.hx-tagb b{font-family:var(--l2f);font-weight:800;font-size:46px;line-height:1.05;color:var(--ink);letter-spacing:-.02em}.hx-tl{font-size:11.5px;font-weight:600;color:var(--muted)}
 .hx-yoy{align-self:flex-start;white-space:nowrap;font-size:12px;font-weight:700;color:var(--ink2);background:var(--surface);border-radius:999px;padding:2px 9px}
 .hx-board{background:#1b2230;color:#fff;border-radius:14px;padding:12px 16px;width:min(100%,300px);display:flex;flex-direction:column;align-items:center;gap:6px;box-shadow:0 8px 20px rgba(0,0,0,.18);border:2px solid color-mix(in srgb,var(--tn) 60%,#1b2230)}
 .hx-bh{font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:#ffb36b}
 .hx-bt{display:flex;align-items:center;justify-content:center;gap:10px;max-width:100%;font-size:15px;text-align:center}.hx-bt b{min-width:0;line-height:1.2;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}.hx-bt span{font-size:12px;opacity:.7;flex-shrink:0}.hx-bs{font-size:11.5px;opacity:.7}
-.hx-avs{display:flex;align-items:center}.hx-av{margin-left:-7px;border-radius:50%;box-shadow:0 0 0 3px var(--surface);display:inline-flex}.hx-av:first-child{margin-left:0}.hx-av .av{font-size:15px}
-.hx-more{margin-left:8px;font-size:14px;font-weight:700;color:var(--ink);background:var(--surface);border-radius:999px;padding:6px 10px}
-.hx-mt{display:flex;align-items:flex-end;gap:14px;height:100%;padding-top:26px}
-.hx-mti{display:flex;flex-direction:column;align-items:center;gap:3px;color:var(--ink)}.hx-mti i{width:26px;border-radius:5px 5px 2px 2px;background:var(--tn);opacity:.45}.hx-mti.on i{opacity:1}.hx-mti b{font-size:12.5px}.hx-mti em{font-style:normal;font-size:10.5px;color:var(--muted);white-space:nowrap}
-.hx-local:not(.wide) .hx-ev{display:none}
-@media (max-width:600px){.hx-grid{grid-template-columns:1fr;gap:12px}.hx.wide{grid-column:auto}.hx-g{height:150px}.hx-ev{display:none}}
+.hx-avs{display:flex;align-items:center}.hx-av{margin-left:-7px;border-radius:50%;box-shadow:0 0 0 3px var(--surface);display:inline-flex}.hx-av:first-child{margin-left:0}.hx-av .av{font-size:19px}
+.hx-more{margin-left:10px;font-size:16px;font-weight:700;color:var(--ink);background:var(--surface);border-radius:999px;padding:6px 10px}
+.hx-mt{display:flex;align-items:flex-end;gap:22px;height:100%;padding-top:30px}
+.hx-mti{display:flex;flex-direction:column;align-items:center;gap:3px;color:var(--ink)}.hx-mti i{height:calc(var(--h)*118px + 6px);width:40px;border-radius:6px 6px 2px 2px;background:var(--tn);opacity:.45}.hx-mti.on i{opacity:1}.hx-mti b{font-family:var(--l2f);font-size:15px}.hx-mti em{font-style:normal;font-size:10.5px;color:var(--muted);white-space:nowrap}
+.hx.wide{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:10px}
+.hx.wide .hx-g{order:2;height:auto;min-height:290px}
+.hx.wide .hx-tx{order:1;justify-content:center;padding:26px 28px 22px}
+.hx.wide .hx-h{font-size:38px;line-height:1.06;-webkit-line-clamp:3}
+.hx.wide .hx-s{font-size:16px}
+.hx.wide .hx-go{margin-top:10px}
+.hx.wide .hx-paper{width:min(100%,560px);padding:16px 20px;gap:11px}.hx.wide .hx-li{font-size:15px}
+.hx-local.s5 .hx-ev{display:none}
+@media (max-width:1199px){.hx-h{font-size:22px}.hx.wide .hx-h{font-size:30px}.hx-g{height:210px}.hx-local:not(.wide) .hx-ev{display:none}.hx-tagb b{font-size:32px}.hx-house{width:84px;height:84px}.hx-tag{gap:16px}.hx-donut svg{width:124px;height:124px}.hx-donut ul{font-size:12.5px!important}}
+@media (max-width:900px){.hx.s5,.hx.s7{grid-column:span 6}.hx.wide{display:flex}.hx.wide .hx-g{order:0;min-height:0;height:210px}.hx.wide .hx-tx{padding:18px 14px 10px}.hx.wide .hx-h{font-size:26px}.hx-hd h2{font-size:28px}}
+@media (max-width:600px){.hx-grid{grid-template-columns:1fr;gap:14px}.hx.s5,.hx.s7,.hx.wide{grid-column:auto}.hx-g{height:160px}.hx.wide .hx-g{height:180px}.hx.wide .hx-paper{padding:12px 16px;gap:8px}.hx.wide .hx-li{font-size:13.5px}.hx-paper .hx-li:nth-child(5){display:none}.hx-donut svg{width:120px;height:120px}.hx-ev{display:none}.hx-h{font-size:21px}.hx.wide .hx-h{font-size:24px}.hx-hd h2{font-size:24px}.hx-hd p{font-size:14px}.hx{border-radius:22px;padding:8px}.hx-g{border-radius:15px}.hx-tagb b{font-size:32px}.hx-house{width:84px;height:84px}.hx-day i{height:calc(var(--h)*52px + 3px)}.hx-mti i{height:calc(var(--h)*60px + 6px);width:28px}.hx-mt{gap:14px;padding-top:26px}.hx-bub{font-size:12.5px;padding:7px 11px}.hx-chat{gap:7px}.hx-av .av{width:46px!important;height:46px!important;font-size:16px!important}}
 @media (max-width:640px){.tbar .lyt{order:6;width:40px;height:40px;margin:0;padding:0;font-size:0;color:transparent;border-radius:12px;background-position:center;background-size:18px;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 24 24' fill='none' stroke='%23777' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'%3E%3Crect x='3.5' y='3.5' width='7' height='7' rx='1.5'/%3E%3Crect x='13.5' y='3.5' width='7' height='7' rx='1.5'/%3E%3Crect x='3.5' y='13.5' width='7' height='7' rx='1.5'/%3E%3Crect x='13.5' y='13.5' width='7' height='7' rx='1.5'/%3E%3C/svg%3E")}.tbar .ask,#gask{flex:1 1 calc(100% - 48px)}}
 </style>
 
@@ -1923,7 +1940,7 @@ function route(){if(!TOWN)return;if(TLIVE()&&!D)return;let h=(location.hash||'#h
  else html=pageHomeL();
  currentArea={home:'Home',ideas:'Ideas',local:'Local',social:'Lookup',safety:'Lookup',friends:'Neighbors',issues:'Issues',lookup:'Lookup',neighbors:'Neighbors',talk:'Talk',business:'Housing and business',market:'Buy & sell',parks:'Parks & public works',schools:'Schools',sports:'Sports',election:'Vote'}[active]||'Home';
  if(TLIVE()&&TOWN.paused)html=pausedBanner(TOWN)+html;
- $('app').innerHTML=html;
+ $('app').innerHTML=html;$('app').classList.toggle('l2',!!$('app').querySelector('.hx-grid'));
  const L=[['home','Home'],['local','Local'],['issues','Issues'],['talk','Talk'],['lookup','More']];
  const SL=[['home','Home'],['local','Local'],['business','Housing and business'],['parks','Parks & public works'],['schools','Schools'],['sports','Sports'],['issues','Issues'],['talk','Talk'],['safety','Safety'],['election','Vote']];
  const REC=[['housing','Housing market'],['budget','Budget and taxes'],['officials',ISTOWN()?'Town officials':'City officials'],['beyond','County, state, federal'],['record','Meeting record'],['around','Around town'],['town','Voters']];
@@ -3361,13 +3378,15 @@ const HX_ART={
  safety:`<svg class="hx-art" viewBox="0 0 320 130" preserveAspectRatio="xMidYMid meet"><path d="M160 10 L204 26 V60 C204 92 160 116 160 116 C160 116 116 92 116 60 V26z" fill="currentColor" opacity=".6"/><path d="M144 62 l12 12 22 -24" fill="none" stroke="var(--surface)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/></svg>`,
  budget:`<svg class="hx-art" viewBox="0 0 320 130" preserveAspectRatio="xMidYMid meet"><g fill="currentColor"><rect x="96" y="70" width="26" height="46" rx="3" opacity=".35"/><rect x="132" y="48" width="26" height="68" rx="3" opacity=".5"/><rect x="168" y="30" width="26" height="86" rx="3" opacity=".7"/><rect x="204" y="58" width="26" height="58" rx="3" opacity=".45"/></g></svg>`,
  housing:`<svg class="hx-art" viewBox="0 0 320 130" preserveAspectRatio="xMidYMax meet"><path d="M110 62 L160 22 L210 62 V122 H110z" fill="currentColor" opacity=".55"/><rect x="148" y="86" width="24" height="36" fill="var(--surface)"/><rect x="122" y="70" width="18" height="16" fill="var(--surface)"/><rect x="180" y="70" width="18" height="16" fill="var(--surface)"/></svg>`};
-function hxCard(b){return `<a class="hx hx-${b.tone}${b.wide?' wide':''}" href="${b.href}"><div class="hx-g" aria-hidden="true">${b.g}</div><div class="hx-tx"><span class="hx-k">${hxI(b.icon||b.tone)}${esc(b.k)}</span><b class="hx-h">${esc(b.h)}</b>${b.s?`<span class="hx-s">${esc(b.s)}</span>`:''}<span class="hx-go">${esc(b.go||'Open')} ›</span></div></a>`;}
+function hxCard(b){return `<a class="hx hx-${b.tone}${b.wide?' wide':' s'+(b.span||6)}" href="${b.href}"><div class="hx-g" aria-hidden="true">${b.g}</div><div class="hx-tx"><span class="hx-k">${hxI(b.icon||b.tone)}${esc(b.k)}</span><b class="hx-h">${esc(b.h)}</b>${b.s?`<span class="hx-s">${esc(b.s)}</span>`:''}<span class="hx-go">${esc(b.go||'Open')} ›</span></div></a>`;}
 function sectionBlocks(){const L=[hxIssues,hxTalk,hxBudget,hxLocal,hxSafety,hxHousing,hxSchools,hxParks,hxSports,hxVote,hxOfficials,hxRecord,hxIdeas].map(f=>{try{return f();}catch(e){return null;}}).filter(Boolean);
  /* two per row: the issues block runs full width; if that leaves an odd one out, the calendar (or the last block) runs full width too */
  L.forEach(b=>{b.wide=b.tone==='issues';});if(L.filter(b=>!b.wide).length%2){(L.find(b=>b.tone==='local')||L[L.length-1]).wide=true;}
- return `<section class="blk"><div class="sec"><h2>Explore ${esc(TN())}</h2></div><div class="hx-grid">${L.map(hxCard).join('')}</div></section>`;}
+ /* pairs alternate a narrow and a wide block (5 and 7 of 12 columns) so the rows do not line up like a table */
+ let row=0,pos=0;L.forEach(b=>{if(b.wide)return;b.span=(row%2===0)===(pos===0)?5:7;if(++pos===2){pos=0;row++;}});
+ return `<section class="blk hx-sec"><div class="hx-hd"><h2>Explore ${esc(TN())}</h2><p>Everything Agorri tracks in ${esc(TN())}, with the latest from each.</p></div><div class="hx-grid">${L.map(hxCard).join('')}</div></section>`;}
 function hxIssues(){const I=D.issues||[];if(!I.length)return null;const nm=D.next_council_meeting;const nd=nm&&nm.date&&nm.date>=TODAY?nm.date:null;
- const top=(typeof voteRank==='function'?voteRank().map(r=>r.i):I).slice(0,3);
+ const top=(typeof voteRank==='function'?voteRank().map(r=>r.i):I).slice(0,4);
  const g=`<div class="hx-paper"><span class="hx-ph">${hxI('issues',12)} ${esc(GBS())} agenda${nd?' · '+esc(fmtD(nd)):''}</span>${top.map((i,n)=>{const c=cnt(i.id),k=c.s+c.o;return `<span class="hx-li"><i class="hx-cb${n===0?' on':''}"></i><span class="hx-lt">${esc(i.title)}</span>${k?`<em>${Math.round(c.s/k*100)}% support</em>`:''}</span>`;}).join('')}</div>`;
  return {tone:'issues',k:'Issues',wide:true,href:'#issues',h:ALLMODE()?`What the ${CW()} ${CWIS()} deciding`:`What the ${GB()} is deciding`,s:`${I.length} issue${I.length===1?'':'s'} on the table${nd?'. Weigh in before '+fmtD(nd)+'.':'. Support or oppose each one.'}`,go:'Weigh in',g};}
 function hxTalk(){const ready=!!(window.TALK&&TALK.ready);const posts=ready?tkSort(tkTop(),'New').slice(0,3):[];
@@ -3378,11 +3397,11 @@ function hxBudget(){const I=baInfo();if(!I)return {tone:'budget',k:'Budget and t
  const top=I.top.slice(0,4);const rest=I.tot-top.reduce((a,x)=>a+x.v,0);const sl=[...top.map(x=>({n:x.name,v:x.v})),...(rest>0?[{n:'Everything else',v:rest,o:1}]:[])];
  const C=2*Math.PI*38;let acc=0;const op=[1,.72,.5,.34];
  const arcs=sl.map((x,i)=>{const f=x.v/I.tot,len=Math.max(0,f*C-2);const a=`<circle cx="50" cy="50" r="38" fill="none" stroke="${x.o?'color-mix(in srgb,var(--muted) 35%,var(--surface))':'currentColor'}" stroke-opacity="${x.o?1:op[i]}" stroke-width="16" stroke-dasharray="${len.toFixed(1)} ${(C-len).toFixed(1)}" stroke-dashoffset="${(-acc).toFixed(1)}" transform="rotate(-90 50 50)"/>`;acc+=f*C;return a;}).join('');
- const g=`<div class="hx-donut"><svg viewBox="0 0 100 100" width="104" height="104">${arcs}<text x="50" y="47" text-anchor="middle" class="hx-dt">${bgtMoney(I.tot)}</text><text x="50" y="60" text-anchor="middle" class="hx-ds">${esc(I.yr.replace(/^FY/,'FY '))}</text></svg><ul>${top.slice(0,3).map((x,i)=>`<li><i style="opacity:${op[i]}"></i><span>${esc(x.name)}</span><b>${Math.round(x.pct)}%</b></li>`).join('')}</ul></div>`;
+ const g=`<div class="hx-donut"><svg viewBox="0 0 100 100" width="104" height="104">${arcs}<text x="50" y="47" text-anchor="middle" class="hx-dt">${bgtMoney(I.tot)}</text><text x="50" y="60" text-anchor="middle" class="hx-ds">${esc(I.yr.replace(/^FY/,'FY '))}</text></svg><ul>${top.slice(0,4).map((x,i)=>`<li><i style="opacity:${op[i]}"></i><span>${esc(x.name)}</span><b>${Math.round(x.pct)}%</b></li>`).join('')}</ul></div>`;
  return {tone:'budget',k:'Budget and taxes',href:'#budget',h:`Where ${bgtMoney(I.tot)} goes`,s:`${I.top[0].name} is the biggest share, at ${Math.round(I.top[0].pct)}%. See who runs each part.`,go:'See the budget',g};}
 function hxLocal(){const ev=upcomingEvents().filter(worksTownOk);if(!ev.length)return null;const days=[...Array(7)].map((_,i)=>addDays(TODAY,i));const n=days.map(d=>ev.filter(e=>e.date===d).length);const mx=Math.max(...n,1);
  const td=ev.filter(e=>e.date===TODAY);const pick=td[0]||ev[0];
- const g=`<div class="hx-week">${days.map((d,i)=>{const dt=ld(d);return `<span class="hx-day${i===0?' on':''}"><em>${i===0?'Today':dt.toLocaleDateString('en-US',{weekday:'short'})}</em><b>${dt.getDate()}</b><i style="height:${Math.round(n[i]/mx*52)+3}px"></i><small>${n[i]}</small></span>`;}).join('')}</div>
+ const g=`<div class="hx-week">${days.map((d,i)=>{const dt=ld(d);return `<span class="hx-day${i===0?' on':''}"><em>${i===0?'Today':dt.toLocaleDateString('en-US',{weekday:'short'})}</em><b>${dt.getDate()}</b><i style="--h:${(n[i]/mx).toFixed(3)}"></i><small>${n[i]}</small></span>`;}).join('')}</div>
   <div class="hx-ev"><span class="hx-evk">${pick.date===TODAY?'Today':esc(fmtD(pick.date))}${pick.time?' · '+esc(pick.time):''}</span><b>${esc(pick.title)}</b>${pick.venue?`<span>${esc(pick.venue)}</span>`:''}${td.length>1?`<span class="hx-evm">+${td.length-1} more today</span>`:''}</div>`;
  return {tone:'local',k:'Local',wide:true,href:'#events',h:`${ev.length.toLocaleString()} things coming up`,s:'Events, meetings, notices and estate sales, day by day',go:'See the calendar',g};}
 function hxSafety(){const SF=LX&&LX.safety;if(!SF)return null;const c=SF.trends&&(SF.trends.charts||[])[0];const s0=c&&c.series&&c.series[0];let g=HX_ART.safety,cap='';
@@ -3392,7 +3411,7 @@ function hxSafety(){const SF=LX&&LX.safety;if(!SF)return null;const c=SF.trends&
   g=`<svg class="hx-spark" viewBox="0 -6 300 104" preserveAspectRatio="none"><path d="${a}" fill="currentColor" opacity=".16"/><path d="${d}" fill="none" stroke="currentColor" stroke-width="2.4" vector-effect="non-scaling-stroke" stroke-linejoin="round"/>${dg?`<path d="${dg}" fill="none" stroke="currentColor" stroke-width="2" stroke-dasharray="4 4" opacity=".7" vector-effect="non-scaling-stroke"/>`:''}</svg><span class="hx-cap">${esc(c.title)}${yr&&c.series.length>1?', '+esc(s0.label):''} · ${esc(bnLab(P[0][0]))} to ${esc(bnLab(P[P.length-1][0]))}</span>`;cap=c.title;}
  return {tone:'safety',k:'Safety',href:'#safety',h:'Police and fire, with the trends',s:cap?'Charts of crime over time and the latest calls. No names.':'The latest calls from the departments\' own logs. No names.',go:'See safety',g};}
 function hxHousing(){const H=HTOWN();const ok=H&&H.median;
- const g=ok?`<div class="hx-tag">${HX_ART.housing.replace('class="hx-art"','class="hx-house"')}<div class="hx-tagb"><span class="hx-tl">Median sale price</span><b>${bgtMoney(H.median)}</b>${H.yoy!=null?`<span class="hx-yoy">${H.yoy<0?'▼':'▲'} ${Math.abs(H.yoy)}% in a year</span>`:''}${H.sold?`<span class="hx-tl">${H.sold.toLocaleString()} ${esc(String(H.soldLabel||'homes sold').toLowerCase())}</span>`:''}</div></div>`:HX_ART.housing;
+ const g=ok?`<div class="hx-tag">${HX_ART.housing.replace('class="hx-art"','class="hx-house"').replace('viewBox="0 0 320 130"','viewBox="104 16 112 110"')}<div class="hx-tagb"><span class="hx-tl">Median sale price</span><b>${bgtMoney(H.median)}</b>${H.yoy!=null?`<span class="hx-yoy">${H.yoy<0?'▼':'▲'} ${Math.abs(H.yoy)}% in a year</span>`:''}${H.sold?`<span class="hx-tl">${H.sold.toLocaleString()} ${esc(String(H.soldLabel||'homes sold').toLowerCase())}</span>`:''}</div></div>`:HX_ART.housing;
  return {tone:'housing',icon:'housing',k:'Housing and business',href:'#business',h:ok?`Median home: ${bgtMoney(H.median)}`:'Housing and business',s:'The housing market, openings, closings and permits',go:'Open',g};}
 function hxSchools(){const ds=districtsHere();if(!ds.length)return null;const n=ds.reduce((a,d)=>a+((d.schools||[]).length),0);
  const g=HX_ART.schools+(n?`<span class="hx-badge">${n.toLocaleString()} schools</span>`:'');
@@ -3411,10 +3430,10 @@ function hxVote(){const e=LX&&LX.election,C=LX&&LX.cand;if(!e&&!C)return null;co
  const badge=e&&e.date?`<span class="hx-badge">${up?(days===0?'Election day':days+' days to go'):esc(fmtD(e.date))+' results'}</span>`:'';
  return {tone:'vote',k:'Vote',href:'#election',h:up?(days===0?'Today is election day':`Election in ${days} days`):recent?`The ${fmtD(e.date)} election, race by race`:'Every race on your ballot',s:recent?'Results, and every candidate who ran':'Every race, every candidate, where to vote',go:'See the ballot',g:HX_ART.vote+badge};}
 function hxOfficials(){const C=(D.officials&&D.officials.council)||[];if(!C.length||ALLMODE())return null;const pal=['#5b7fd6','#d67a5b','#4fa37a','#9b6fd6','#d6a23f','#4f9fb8','#c25f8f','#7a8ca5'];
- const g=`<div class="hx-avs">${C.slice(0,5).map((o,i)=>`<span class="hx-av" style="z-index:${10-i}">${av(ini(o.name),pal[i%pal.length],44)}</span>`).join('')}${C.length>5?`<span class="hx-more">+${C.length-5}</span>`:''}</div>`;
+ const g=`<div class="hx-avs">${C.slice(0,5).map((o,i)=>`<span class="hx-av" style="z-index:${10-i}">${av(ini(o.name),pal[i%pal.length],60)}</span>`).join('')}${C.length>5?`<span class="hx-more">+${C.length-5}</span>`:''}</div>`;
  return {tone:'officials',k:ISTOWN()?'Town officials':'City officials',href:'#officials',h:'Who represents you',s:`${C.length} ${(D.town&&D.town.members)||'members'}: how they vote, attendance and how to reach them`,go:'Meet them',g};}
 function hxRecord(){const M=(D.council_meetings||[]).slice(0,5).reverse();if(!M.length)return null;const mx=Math.max(...M.map(m=>(m.decisions||[]).length),1);const last=M[M.length-1];
- const g=`<div class="hx-mt">${M.map((m,i)=>{const k=(m.decisions||[]).length;return `<span class="hx-mti${i===M.length-1?' on':''}"><i style="height:${Math.round(k/mx*54)+6}px"></i><b>${k}</b><em>${esc(fmtD(m.date))}</em></span>`;}).join('')}</div><span class="hx-cap">Decisions per meeting</span>`;
+ const g=`<div class="hx-mt">${M.map((m,i)=>{const k=(m.decisions||[]).length;return `<span class="hx-mti${i===M.length-1?' on':''}"><i style="--h:${(k/mx).toFixed(3)}"></i><b>${k}</b><em>${esc(fmtD(m.date))}</em></span>`;}).join('')}</div><span class="hx-cap">Decisions per meeting</span>`;
  return {tone:'record',k:'Meeting record',href:'#record',h:'Every vote, on the record',s:`Latest: ${fmtD(last.date)}, ${(last.decisions||[]).length} decision${(last.decisions||[]).length===1?'':'s'}`,go:'Read the record',g};}
 function hxIdeas(){const R=allRequests();const n=R.length;const top=R.slice().sort((a,b)=>reqVotes(b)-reqVotes(a))[0];
  const g=HX_ART.ideas+(top?`<span class="hx-badge wide">${esc(top.title)}</span>`:'');
