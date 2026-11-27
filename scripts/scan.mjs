@@ -66,6 +66,17 @@ for (const t of towns) {
       if (dead.length) problems.push(`${label}/${r}: links to pages that do not exist: ${dead.join(', ')}`);
       if (info.len < 300 && !['mod', 'staff', 'unsure', 'social', 'ideas'].includes(r)) problems.push(`${label}/${r}: page is nearly empty (${info.len} chars)`);
     }
+    // Home layout 2 (section blocks) renders clean too
+    { pageErrors.length = 0;
+      const li = await page.evaluate(({ isTown }) => { const keep = S.layout; S.layout = '2'; location.hash = '#home'; route(); const app = document.getElementById('app'); const txt = app.innerText; const bad = [];
+        for (const w of ['undefined', 'NaN', '[object Object]', 'Invalid Date', '${', 'null ·', '· null']) if (txt.includes(w)) bad.push(w);
+        if (/—/.test(txt)) bad.push('em dash');
+        if (isTown) { const m = txt.match(/[^.\n]*\b(the city|City Hall|city's)\b[^.\n]*/i); if (m) bad.push('says city for a town: "' + m[0].trim().slice(0, 80) + '"'); }
+        const n = app.querySelectorAll('.hx').length; S.layout = keep; route(); return { bad, n }; }, { isTown });
+      if (pageErrors.length) problems.push(`${label}/home layout 2: JS error: ${pageErrors.join(' | ')}`);
+      if (li.n < 6) problems.push(`${label}/home layout 2: only ${li.n} section blocks`);
+      if (li.bad.length) problems.push(`${label}/home layout 2: ${li.bad.join(', ')}`);
+    }
     // every budget line links to its own page, and those pages render clean
     for (const h of blinks) {
       pageErrors.length = 0;
