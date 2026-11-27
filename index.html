@@ -1349,13 +1349,13 @@ a.wc-t:hover{text-decoration:underline}
 /* Home layouts: picker and Layout 2 section blocks */
 .lyt{width:auto;max-width:none;height:38px;border-radius:10px;border:1px solid var(--line);background:var(--surface);color:var(--ink);font:inherit;font-size:13.5px;font-weight:600;padding:0 28px 0 12px;margin-left:6px;cursor:pointer;appearance:none;-webkit-appearance:none;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%23888' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 10px center;flex-shrink:0}
 .lyt:hover{border-color:var(--muted)}
-.hx-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;grid-auto-flow:dense}
+.hx-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;grid-auto-flow:dense}
 .hx{display:flex;flex-direction:column;background:var(--surface);border-radius:18px;box-shadow:var(--shadow);overflow:hidden;color:var(--ink);text-decoration:none;transition:transform .15s ease,box-shadow .15s ease;--tn:#2a78d6;min-width:0}
 .hx:hover{transform:translateY(-2px);box-shadow:0 10px 28px rgba(0,0,0,.12)}.hx:focus-visible{outline:3px solid var(--tn);outline-offset:2px}
 .hx.wide{grid-column:span 2}
-.hx-g{position:relative;height:158px;overflow:hidden;background:radial-gradient(120% 90% at 85% 0%,color-mix(in srgb,var(--tn) 26%,var(--surface)) 0%,color-mix(in srgb,var(--tn) 8%,var(--surface)) 70%);color:var(--tn);display:flex;align-items:center;justify-content:center;padding:14px 16px}
-.hx-art{width:100%;height:100%;max-height:130px}
-.hx-tx{display:flex;flex-direction:column;gap:5px;padding:14px 16px 16px;flex:1}
+.hx-g{position:relative;height:180px;overflow:hidden;background:radial-gradient(120% 90% at 85% 0%,color-mix(in srgb,var(--tn) 26%,var(--surface)) 0%,color-mix(in srgb,var(--tn) 8%,var(--surface)) 70%);color:var(--tn);display:flex;align-items:center;justify-content:center;padding:14px 16px}
+.hx-art{width:100%;height:100%;max-height:150px}
+.hx-tx{display:flex;flex-direction:column;gap:5px;padding:16px 20px 18px;flex:1}
 .hx-k{display:flex;align-items:center;gap:6px;font-size:11.5px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;color:color-mix(in srgb,var(--tn) 75%,var(--ink))}
 .hx-h{font-size:18px;font-weight:700;line-height:1.25;letter-spacing:-.01em;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
 .hx-s{font-size:13.5px;color:var(--muted);line-height:1.4}
@@ -1363,7 +1363,7 @@ a.wc-t:hover{text-decoration:underline}
 .hx:hover .hx-go{text-decoration:underline}
 .hx-issues{--tn:#2a78d6}.hx-talk{--tn:#7c5cd6}.hx-local{--tn:#e0861b}.hx-budget{--tn:#1f9d6b}.hx-safety{--tn:#4a6fa5}.hx-housing{--tn:#0e8c8c}.hx-schools{--tn:#5b5fd6}.hx-parks{--tn:#3b9a3b}.hx-sports{--tn:#e0602a}.hx-vote{--tn:#2f6fd6}.hx-officials{--tn:#9b4fb8}.hx-record{--tn:#64748b}.hx-ideas{--tn:#d49a12}
 .hx-badge{position:absolute;right:14px;top:12px;background:var(--surface);color:var(--ink);font-size:12.5px;font-weight:700;padding:4px 10px;border-radius:999px;box-shadow:0 2px 8px rgba(0,0,0,.08)}
-.hx-badge.wide{left:14px;right:14px;top:auto;bottom:12px;text-align:center;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.hx-badge.wide{left:14px;right:14px;max-width:440px;margin-inline:auto;top:auto;bottom:12px;text-align:center;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .hx-cap{position:absolute;left:14px;top:10px;max-width:calc(100% - 28px);font-size:11.5px;font-weight:600;color:color-mix(in srgb,var(--tn) 70%,var(--ink));background:color-mix(in srgb,var(--surface) 80%,transparent);padding:2px 8px;border-radius:6px}
 .hx-paper{background:var(--surface);border-radius:12px;box-shadow:0 6px 18px rgba(0,0,0,.10);padding:12px 16px;width:min(100%,520px);transform:rotate(-1.2deg);display:flex;flex-direction:column;gap:8px}
 .hx-ph{display:flex;align-items:center;gap:6px;font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--tn)}
@@ -1396,7 +1396,7 @@ a.wc-t:hover{text-decoration:underline}
 .hx-more{margin-left:8px;font-size:14px;font-weight:700;color:var(--ink);background:var(--surface);border-radius:999px;padding:6px 10px}
 .hx-mt{display:flex;align-items:flex-end;gap:14px;height:100%;padding-top:26px}
 .hx-mti{display:flex;flex-direction:column;align-items:center;gap:3px;color:var(--ink)}.hx-mti i{width:26px;border-radius:5px 5px 2px 2px;background:var(--tn);opacity:.45}.hx-mti.on i{opacity:1}.hx-mti b{font-size:12.5px}.hx-mti em{font-style:normal;font-size:10.5px;color:var(--muted);white-space:nowrap}
-@media (max-width:1000px){.hx-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.hx-local:not(.wide) .hx-ev{display:none}
 @media (max-width:600px){.hx-grid{grid-template-columns:1fr;gap:12px}.hx.wide{grid-column:auto}.hx-g{height:150px}.hx-ev{display:none}}
 @media (max-width:640px){.tbar .lyt{order:6;width:40px;height:40px;margin:0;padding:0;font-size:0;color:transparent;border-radius:12px;background-position:center;background-size:18px;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 24 24' fill='none' stroke='%23777' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'%3E%3Crect x='3.5' y='3.5' width='7' height='7' rx='1.5'/%3E%3Crect x='13.5' y='3.5' width='7' height='7' rx='1.5'/%3E%3Crect x='3.5' y='13.5' width='7' height='7' rx='1.5'/%3E%3Crect x='13.5' y='13.5' width='7' height='7' rx='1.5'/%3E%3C/svg%3E")}.tbar .ask,#gask{flex:1 1 calc(100% - 48px)}}
 </style>
@@ -3363,6 +3363,8 @@ const HX_ART={
  housing:`<svg class="hx-art" viewBox="0 0 320 130" preserveAspectRatio="xMidYMax meet"><path d="M110 62 L160 22 L210 62 V122 H110z" fill="currentColor" opacity=".55"/><rect x="148" y="86" width="24" height="36" fill="var(--surface)"/><rect x="122" y="70" width="18" height="16" fill="var(--surface)"/><rect x="180" y="70" width="18" height="16" fill="var(--surface)"/></svg>`};
 function hxCard(b){return `<a class="hx hx-${b.tone}${b.wide?' wide':''}" href="${b.href}"><div class="hx-g" aria-hidden="true">${b.g}</div><div class="hx-tx"><span class="hx-k">${hxI(b.icon||b.tone)}${esc(b.k)}</span><b class="hx-h">${esc(b.h)}</b>${b.s?`<span class="hx-s">${esc(b.s)}</span>`:''}<span class="hx-go">${esc(b.go||'Open')} ›</span></div></a>`;}
 function sectionBlocks(){const L=[hxIssues,hxTalk,hxBudget,hxLocal,hxSafety,hxHousing,hxSchools,hxParks,hxSports,hxVote,hxOfficials,hxRecord,hxIdeas].map(f=>{try{return f();}catch(e){return null;}}).filter(Boolean);
+ /* two per row: the issues block runs full width; if that leaves an odd one out, the calendar (or the last block) runs full width too */
+ L.forEach(b=>{b.wide=b.tone==='issues';});if(L.filter(b=>!b.wide).length%2){(L.find(b=>b.tone==='local')||L[L.length-1]).wide=true;}
  return `<section class="blk"><div class="sec"><h2>Explore ${esc(TN())}</h2></div><div class="hx-grid">${L.map(hxCard).join('')}</div></section>`;}
 function hxIssues(){const I=D.issues||[];if(!I.length)return null;const nm=D.next_council_meeting;const nd=nm&&nm.date&&nm.date>=TODAY?nm.date:null;
  const top=(typeof voteRank==='function'?voteRank().map(r=>r.i):I).slice(0,3);
@@ -3384,10 +3386,10 @@ function hxLocal(){const ev=upcomingEvents().filter(worksTownOk);if(!ev.length)r
   <div class="hx-ev"><span class="hx-evk">${pick.date===TODAY?'Today':esc(fmtD(pick.date))}${pick.time?' · '+esc(pick.time):''}</span><b>${esc(pick.title)}</b>${pick.venue?`<span>${esc(pick.venue)}</span>`:''}${td.length>1?`<span class="hx-evm">+${td.length-1} more today</span>`:''}</div>`;
  return {tone:'local',k:'Local',wide:true,href:'#events',h:`${ev.length.toLocaleString()} things coming up`,s:'Events, meetings, notices and estate sales, day by day',go:'See the calendar',g};}
 function hxSafety(){const SF=LX&&LX.safety;if(!SF)return null;const c=SF.trends&&(SF.trends.charts||[])[0];const s0=c&&c.series&&c.series[0];let g=HX_ART.safety,cap='';
- if(s0&&s0.points&&s0.points.length>2){const P=s0.points,yr=c.period==='year';const xs=P.map((p,i)=>i);const vals=P.map(p=>+p[1]);const mx=Math.max(...vals)*1.08||1;const W=300,H=96;const X=i=>i/(P.length-1)*W,Y=v=>H-v/mx*H;
-  let d='',a='',seg=[];P.forEach((p,i)=>{const gap=yr&&i>0&&(+p[0]-+P[i-1][0])>1;if(i===0||gap){if(seg.length)a+=`M${seg[0][0]},${H} `+seg.map(q=>`L${q[0]},${q[1]}`).join(' ')+` L${seg[seg.length-1][0]},${H}Z `;seg=[];d+='M';}else d+='L';const q=[X(i).toFixed(1),Y(vals[i]).toFixed(1)];seg.push(q);d+=q[0]+','+q[1]+' ';});
+ if(s0&&s0.points&&s0.points.length>2){const P=s0.points,yr=c.period==='year';const xs=P.map((p,i)=>i);const vals=P.map(p=>+p[1]);const mx=Math.max(...vals)*1.08||1;const W=300,H=96;const y0=+P[0][0],yN=+P[P.length-1][0],byYr=yr&&yN>y0;const X=i=>(byYr?(+P[i][0]-y0)/(yN-y0):i/(P.length-1))*W,Y=v=>H-v/mx*H;
+  let d='',a='',dg='',seg=[];P.forEach((p,i)=>{const gap=yr&&i>0&&(+p[0]-+P[i-1][0])>1;if(gap)dg+=`M${X(i-1).toFixed(1)},${Y(vals[i-1]).toFixed(1)} L${X(i).toFixed(1)},${Y(vals[i]).toFixed(1)} `;if(i===0||gap){if(seg.length)a+=`M${seg[0][0]},${H} `+seg.map(q=>`L${q[0]},${q[1]}`).join(' ')+` L${seg[seg.length-1][0]},${H}Z `;seg=[];d+='M';}else d+='L';const q=[X(i).toFixed(1),Y(vals[i]).toFixed(1)];seg.push(q);d+=q[0]+','+q[1]+' ';});
   if(seg.length)a+=`M${seg[0][0]},${H} `+seg.map(q=>`L${q[0]},${q[1]}`).join(' ')+` L${seg[seg.length-1][0]},${H}Z`;
-  g=`<svg class="hx-spark" viewBox="0 -6 300 104" preserveAspectRatio="none"><path d="${a}" fill="currentColor" opacity=".16"/><path d="${d}" fill="none" stroke="currentColor" stroke-width="2.4" vector-effect="non-scaling-stroke" stroke-linejoin="round"/></svg><span class="hx-cap">${esc(c.title)}${yr&&c.series.length>1?', '+esc(s0.label):''} · ${esc(bnLab(P[0][0]))} to ${esc(bnLab(P[P.length-1][0]))}</span>`;cap=c.title;}
+  g=`<svg class="hx-spark" viewBox="0 -6 300 104" preserveAspectRatio="none"><path d="${a}" fill="currentColor" opacity=".16"/><path d="${d}" fill="none" stroke="currentColor" stroke-width="2.4" vector-effect="non-scaling-stroke" stroke-linejoin="round"/>${dg?`<path d="${dg}" fill="none" stroke="currentColor" stroke-width="2" stroke-dasharray="4 4" opacity=".7" vector-effect="non-scaling-stroke"/>`:''}</svg><span class="hx-cap">${esc(c.title)}${yr&&c.series.length>1?', '+esc(s0.label):''} · ${esc(bnLab(P[0][0]))} to ${esc(bnLab(P[P.length-1][0]))}</span>`;cap=c.title;}
  return {tone:'safety',k:'Safety',href:'#safety',h:'Police and fire, with the trends',s:cap?'Charts of crime over time and the latest calls. No names.':'The latest calls from the departments\' own logs. No names.',go:'See safety',g};}
 function hxHousing(){const H=HTOWN();const ok=H&&H.median;
  const g=ok?`<div class="hx-tag">${HX_ART.housing.replace('class="hx-art"','class="hx-house"')}<div class="hx-tagb"><span class="hx-tl">Median sale price</span><b>${bgtMoney(H.median)}</b>${H.yoy!=null?`<span class="hx-yoy">${H.yoy<0?'▼':'▲'} ${Math.abs(H.yoy)}% in a year</span>`:''}${H.sold?`<span class="hx-tl">${H.sold.toLocaleString()} ${esc(String(H.soldLabel||'homes sold').toLowerCase())}</span>`:''}</div></div>`:HX_ART.housing;
