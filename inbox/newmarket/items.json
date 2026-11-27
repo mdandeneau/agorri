@@ -1,21 +1,21 @@
 {
  "note": "Written by ingest/fetch.mjs. Each item: where it came from (source, url), the date in the document when known, firstSeen (the day the fetcher first saw it; new since the last refresh = firstSeen on or after that day) and text (the saved agenda or minutes text, when there is one). Facts for the site still come from reading the linked document.",
  "town": "newmarket",
- "updated": "2026-11-26T17:43:51.345Z",
+ "updated": "2026-11-27T17:28:39.223Z",
  "sources": {
   "civicclerk": {
    "ok": true,
    "found": 12,
    "new": 0,
-   "checked": "2026-11-26T17:43:51.345Z",
-   "ms": 1127
+   "checked": "2026-11-27T17:28:39.223Z",
+   "ms": 962
   },
   "town-feeds": {
    "ok": true,
    "found": 13,
-   "new": 1,
-   "checked": "2026-11-26T17:43:51.345Z",
-   "ms": 7701
+   "new": 0,
+   "checked": "2026-11-27T17:28:39.223Z",
+   "ms": 7798
   }
  },
  "notes": [],
@@ -30,7 +30,7 @@
    "date": "2026-11-25",
    "detail": "Event date: December 8, 2026 Event Time: 07:00 PM - 11:59 PM Location: 186 Main Street Newmarket, NH 03857",
    "firstSeen": "2026-11-26",
-   "lastSeen": "2026-11-26"
+   "lastSeen": "2026-11-27"
   },
   {
    "key": "civicclerk:b887e1f001c6",
@@ -43,7 +43,7 @@
    "meeting": true,
    "files": 0,
    "firstSeen": "2026-11-25",
-   "lastSeen": "2026-11-26"
+   "lastSeen": "2026-11-27"
   },
   {
    "key": "civicclerk:5d0f8df3905d",
@@ -55,7 +55,7 @@
    "body": "Town Council",
    "doc": "agenda",
    "firstSeen": "2026-11-25",
-   "lastSeen": "2026-11-26",
+   "lastSeen": "2026-11-27",
    "text": "inbox/newmarket/docs/cc-7885.txt"
   },
   {
@@ -69,7 +69,7 @@
    "doc": "agenda",
    "packet": true,
    "firstSeen": "2026-11-25",
-   "lastSeen": "2026-11-26"
+   "lastSeen": "2026-11-27"
   },
   {
    "key": "town-feeds:1d74af8a5ed9",
@@ -81,7 +81,7 @@
    "date": "2026-10-28",
    "detail": "Event date: December 7, 2026 Event Time: 06:30 PM - 11:59 PM Location: Newmarket, NH 03857",
    "firstSeen": "2026-11-23",
-   "lastSeen": "2026-11-26"
+   "lastSeen": "2026-11-27"
   },
   {
    "key": "town-feeds:9adaacdf6e1a",
@@ -93,7 +93,7 @@
    "date": "2026-10-13",
    "detail": "Event date: December 5, 2026 Event Time: 01:30 PM - 03:30 PM Location: 1 Terrace Drive Newmarket, NH 03857 Description: The Rec’s FREE Very Merry Holiday Party Saturday, December 6th 1:30pm – 3:30pm GUESS WHAT? Once again, we are guaranteeing snow during the event! That’s right! We said, Snow!",
    "firstSeen": "2026-11-21",
-   "lastSeen": "2026-11-26"
+   "lastSeen": "2026-11-27"
   },
   {
    "key": "civicclerk:2ac83ed64c1e",
@@ -131,7 +131,7 @@
    "date": "2026-11-18",
    "detail": "The Town’s interactive FY2027 Taxpayer Guide lets residents estimate their tax bill and see how every dollar is divided among schools, the Town, the State and the County.",
    "firstSeen": "2026-11-19",
-   "lastSeen": "2026-11-26"
+   "lastSeen": "2026-11-27"
   },
   {
    "key": "civicclerk:74be7adbed53",
@@ -144,7 +144,7 @@
    "meeting": true,
    "files": 0,
    "firstSeen": "2026-11-17",
-   "lastSeen": "2026-11-26"
+   "lastSeen": "2026-11-27"
   },
   {
    "key": "civicclerk:30ad325495c3",
@@ -156,7 +156,7 @@
    "body": "Town Council",
    "doc": "agenda",
    "firstSeen": "2026-11-17",
-   "lastSeen": "2026-11-26",
+   "lastSeen": "2026-11-27",
    "text": "inbox/newmarket/docs/cc-7881.txt"
   },
   {
@@ -170,7 +170,7 @@
    "doc": "agenda",
    "packet": true,
    "firstSeen": "2026-11-17",
-   "lastSeen": "2026-11-26"
+   "lastSeen": "2026-11-27"
   },
   {
    "key": "town-feeds:87550b7eb9b7",
@@ -182,7 +182,7 @@
    "date": "2026-11-18",
    "detail": "The Town Offices will Close Wednesday, 11/25 at noon; Closed Thursday 11/26 and Friday 11/27. Happy Thanksgiving!",
    "firstSeen": "2026-11-17",
-   "lastSeen": "2026-11-26"
+   "lastSeen": "2026-11-27"
   },
   {
    "key": "civicclerk:c9c7f60d3880",
@@ -220,7 +220,7 @@
    "date": "2026-09-02",
    "detail": "Event date: November 30, 2026 Event Time: 06:30 PM - 11:59 PM Location: 186 Main Street Newmarket, NH 03857",
    "firstSeen": "2026-11-16",
-   "lastSeen": "2026-11-26"
+   "lastSeen": "2026-11-27"
   },
   {
    "key": "civicclerk:07eb6d3cf79d",
@@ -259,7 +259,7 @@
    "meeting": true,
    "files": 0,
    "firstSeen": "2026-11-14",
-   "lastSeen": "2026-11-26"
+   "lastSeen": "2026-11-27"
   },
   {
    "key": "civicclerk:7f56557d545d",
@@ -272,7 +272,7 @@
    "meeting": true,
    "files": 1,
    "firstSeen": "2026-11-14",
-   "lastSeen": "2026-11-26"
+   "lastSeen": "2026-11-27"
   },
   {
    "key": "civicclerk:0feb0d2dee90",
@@ -284,7 +284,7 @@
    "body": "Budget Committee",
    "doc": "agenda",
    "firstSeen": "2026-11-14",
-   "lastSeen": "2026-11-26",
+   "lastSeen": "2026-11-27",
    "text": "inbox/newmarket/docs/cc-7876.txt"
   },
   {
@@ -310,7 +310,7 @@
    "meeting": true,
    "files": 2,
    "firstSeen": "2026-11-12",
-   "lastSeen": "2026-11-26"
+   "lastSeen": "2026-11-27"
   },
   {
    "key": "town-feeds:8fb7f67c4163",
@@ -334,7 +334,7 @@
    "date": "2026-11-10",
    "detail": "STATEMENT OF DUTIES The Administrative Assistant performs clerical, utility billing, and administrative work in the Environmental Services Department. The Administrative Assistant works under the direction of Director of Environmental Services. SUPERVISION Does not have a supervisory role. ESSENTIAL DUTIES AND RESPONSIBILITIES The duties listed below are intended only as illustrations of the various types of work that may be required. The omission of specific statements of duties does not exclude them from the position if the work is similar, related or a logical assignment to the position. Pr",
    "firstSeen": "2026-11-10",
-   "lastSeen": "2026-11-26"
+   "lastSeen": "2026-11-27"
   },
   {
    "key": "town-feeds:6e272e23737b",
@@ -358,7 +358,7 @@
    "date": "2026-11-09",
    "detail": "An increase of $1.26 over the previous year.",
    "firstSeen": "2026-11-09",
-   "lastSeen": "2026-11-26"
+   "lastSeen": "2026-11-27"
   },
   {
    "key": "town-feeds:5907fd3d57d3",
@@ -429,7 +429,7 @@
    "url": "https://www.newmarketnh.gov/CivicAlerts.aspx?aid=1142",
    "date": "2026-11-10",
    "firstSeen": "2026-11-04",
-   "lastSeen": "2026-11-26"
+   "lastSeen": "2026-11-27"
   },
   {
    "key": "town-feeds:e84068bb10bd",
@@ -466,7 +466,7 @@
    "meeting": true,
    "files": 2,
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-26"
+   "lastSeen": "2026-11-27"
   },
   {
    "key": "civicclerk:9fc6f6680afa",
@@ -479,7 +479,7 @@
    "meeting": true,
    "files": 0,
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-26"
+   "lastSeen": "2026-11-27"
   },
   {
    "key": "civicclerk:2fdf4b5c96c8",
