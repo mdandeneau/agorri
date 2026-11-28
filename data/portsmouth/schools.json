@@ -1,5 +1,5 @@
 {
- "as_of": "2026-11-08",
+ "as_of": "2026-11-27",
  "note": "Portsmouth runs its own school district (SAU 52) with three elementary schools, one middle school, one high school with a career and technical center, a preschool program and a small alternative high school. The elected nine-member School Board builds the school budget, and the City Council approves it as part of the city budget.",
  "districts": [
   {
@@ -191,6 +191,16 @@
    "closingsUrl": "https://www.portsmouthnh.gov/school/school-closings",
    "issues": [
     {
+     "title": "Free school meals pilot from January 2027",
+     "status": "School Board supports it; depends on City funding",
+     "summary": "On November 10 the School Board voted unanimously to support a pilot, starting in January 2027, that would make free school meals available to students from families earning up to 260% of the federal poverty level, if the City funds it and helps run it. The idea came from the City Council's Fuel to Learn task force; Councilor Flynn reported it to the Council on November 16 and plans a fuller report with estimated costs in December. Refrigerators are also being placed and stocked weekly at all the schools.",
+     "date": "2026-11-10",
+     "source": {
+      "label": "City Council draft minutes, Nov 16, 2026",
+      "url": "https://files.portsmouthnh.gov/minutes/2026/citycouncil/DRAFT%20City%20Council%20Minutes%20and%20Actions%20of%20November%2016%202026.pdf"
+     }
+    },
+    {
      "title": "School tax cap question on the November 3 ballot",
      "status": "Did not pass in Portsmouth (unofficial): 4,853 yes, 6,361 no; 60% yes was needed",
      "summary": "On November 3 Portsmouth voters were asked whether to limit how fast local school taxes can grow. It needed at least 60% yes to pass. Patch reported the unofficial Portsmouth count as 4,853 yes and 6,361 no, about 43% yes, so no cap was adopted in Portsmouth. The question returns to the ballot in 2028. Statewide, NHPR reported that at least 113 communities passed a cap.",
@@ -254,34 +264,6 @@
     }
    ],
    "upcoming": [
-    {
-     "date": "2026-11-09",
-     "time": "1:00 pm",
-     "title": "School Board Safety, Well-Being and Belonging Subcommittee",
-     "venue": "School Department Conference Room, City Hall",
-     "url": "https://www.portsmouthnh.gov/school/events/school-board-safety-well-being-and-belonging-subcommittee"
-    },
-    {
-     "date": "2026-11-10",
-     "time": "7:00 pm",
-     "title": "School Board meeting",
-     "venue": "Eileen Dondero Foley Council Chambers, City Hall",
-     "url": "https://www.portsmouthnh.gov/school/school-events-calendar"
-    },
-    {
-     "date": "2026-11-10",
-     "time": "9:30 am",
-     "title": "School Board Policy Committee",
-     "venue": "School Department Conference Room, City Hall",
-     "url": "https://www.portsmouthnh.gov/school/events/school-board-policy-committee-meeting-51"
-    },
-    {
-     "date": "2026-11-13",
-     "time": "9:00 am",
-     "title": "School Board Facilities Committee",
-     "venue": "School Department Conference Room, City Hall",
-     "url": "https://www.portsmouthnh.gov/school/events/school-board-facilities-committee-3"
-    },
     {
      "date": "2026-12-04",
      "time": "9:00 am",

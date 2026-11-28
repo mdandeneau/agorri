@@ -1,5 +1,5 @@
 {
- "as_of": "2026-11-03",
+ "as_of": "2026-11-27",
  "note": "Parks and recreation across the Mount Washington Valley: Conway Parks and Recreation plus Bartlett, Jackson and Madison. From the Conway Parks and Recreation Department's own pages (conwaynh.myrec.com), the Town of Conway website and town code, NH State Parks pages and the Conway Daily Sun, with a source on every item. North Conway is a village inside the Town of Conway, so town parks serve all of Conway. State parks and the private North Conway Community Center are labeled as not town-run.",
  "department": {
   "name": "Town of Conway Parks and Recreation Department",
@@ -727,6 +727,16 @@
   }
  ],
  "seasonal": [
+  {
+   "title": "Black Mountain opened Wednesday, Nov 25",
+   "detail": "Black Mountain in Jackson opened its 91st season at 8:45 am on Nov 25, ahead of its Thanksgiving target, the first ski area in New Hampshire to open this season, the Conway Daily Sun reported.",
+   "dates": "Open from Nov 25, 2026",
+   "url": "https://www.conwaydailysun.com/news/local/black-mountain-to-open-for-91st-season-today/article_9f87a5d6-1e33-41ea-a124-903d875dc844.html",
+   "source": {
+    "label": "The Conway Daily Sun, Nov 25",
+    "url": "https://www.conwaydailysun.com/news/local/black-mountain-to-open-for-91st-season-today/article_9f87a5d6-1e33-41ea-a124-903d875dc844.html"
+   }
+  },
   {
    "title": "Echo Lake and Cathedral Ledge state parks go unstaffed",
    "detail": "After October 31 both NH State Parks are unstaffed: no comfort stations, gates may be closed, and you pay at self-serve Iron Ranger stations. The parks stay open for recreation unless posted.",

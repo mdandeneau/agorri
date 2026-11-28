@@ -1,5 +1,5 @@
 {
- "as_of": "2026-11-06",
+ "as_of": "2026-11-27",
  "note": "One featured item at a time on Home, for days when one thing matters more than the rest. Each item shows between from and until (inclusive). kind: election (built from candidates.json and local.json election; results below fill in the morning after), or notice (title, line, actions). Rules for filling results are in UPDATE.md.",
  "items": [
   {
@@ -166,6 +166,25 @@
       "url": "https://thehill.com/homenews/campaign/6178282-shaheen-wins-nh-congressional-race/"
      }
     ]
+   }
+  },
+  {
+   "id": "holiday-parade-2026",
+   "kind": "notice",
+   "from": "2026-12-01",
+   "until": "2026-12-05",
+   "kicker": "Saturday, Dec 5",
+   "title": "Holiday Tree Lighting and Illuminated Holiday Parade",
+   "line": "Tree lighting in Market Square 5 to 5:30 pm; the parade leaves Goodwin Park at 6 pm and comes down Islington Street to Market Square. Free.",
+   "actions": [
+    {
+     "label": "Event details",
+     "href": "https://www.portsmouthnh.gov/city/events/2026-illuminated-holiday-parade"
+    }
+   ],
+   "source": {
+    "label": "City of Portsmouth, 2026 Illuminated Holiday Parade",
+    "url": "https://www.portsmouthnh.gov/city/events/2026-illuminated-holiday-parade"
    }
   }
  ]

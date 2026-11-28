@@ -1,5 +1,5 @@
 {
- "as_of": "2026-11-07",
+ "as_of": "2026-11-27",
  "note": "Mount Washington Valley local desk: Conway (including North Conway), Bartlett, Jackson and Madison. North Conway is a village inside the Town of Conway. Police, roads, the transfer station and elections are run by the Town of Conway; fire protection, water and sewer in North Conway come from the North Conway Water Precinct. Checked Oct 30, 2026 from town, precinct and department pages and local news. Every item links to its source.",
  "housing": {
   "region": {
@@ -121,6 +121,17 @@
    },
    "strip": "Office closed",
    "stripLine": "Freedom Town Office closed Thanksgiving Day"
+  },
+  {
+   "date": "2026-11-24",
+   "town": "Tamworth",
+   "kind": "Transportation",
+   "title": "Tamworth's electric vehicle charger behind the Town Office is open",
+   "detail": "The two-port Level 2 charger in the lot behind the Town Office at 84 Main St. opened Tuesday, Nov 24, with a ribbon-cutting. It is capped at 8 kilowatts while the town and the equipment provider finish setting up power monitoring, and can later provide up to 19.2 kilowatts.",
+   "source": {
+    "label": "The Conway Daily Sun, Nov 25",
+    "url": "https://www.conwaydailysun.com/news/local/tamworth-boasts-new-charging-station-for-evs/article_5fa5cca7-5099-460e-9dea-e49c43485daa.html"
+   }
   },
   {
    "town": "Jackson",
@@ -416,39 +427,6 @@
    "source": {
     "label": "The Conway Daily Sun, Oct 28 (and June 24)",
     "url": "https://www.conwaydailysun.com/news/local/blue-skies-and-wagging-tails-at-dog-park-opening/article_7152fe12-ed87-433f-8f81-2e1a0e6e5fc3.html"
-   },
-   "town": "Conway"
-  },
-  {
-   "town": "Madison",
-   "date": "2026-10-27",
-   "kind": "Roads",
-   "title": "Madison DPW posts updated snow removal and ice control guidelines",
-   "detail": "The Department of Public Works page links to Standard Operating Guidelines for snow removal and ice control dated Oct 27, 2026. DPW: 603-367-8233, dpw@madison-nh.org.",
-   "source": {
-    "label": "Town of Madison, Department of Public Works",
-    "url": "https://www.madison-nh.org/departments/department-of-public-works/"
-   }
-  },
-  {
-   "date": "2026-10-26",
-   "kind": "Road work",
-   "title": "Conway Village Main Street (Route 16) project pauses for winter in November",
-   "detail": "Phase 2 began Sept 2 on the west side of Route 16, from the Route 16 and 113 intersection north to the Saco River bridge. The plan keeps two-way traffic throughout, with flaggers at times. The Conway Daily Sun reported that work continues through November, then pauses for winter and resumes in April 2027. The town engineer says the project is scheduled to finish by Oct 1, 2027.",
-   "source": {
-    "label": "Town of Conway, Town Engineer project updates",
-    "url": "https://conwaynh.gov/pages/town-engineer"
-   },
-   "town": "Conway"
-  },
-  {
-   "date": "2026-10-26",
-   "kind": "Roads",
-   "title": "North-South Road to be shut down this week",
-   "detail": "The Conway Daily Sun reported on Oct 26 that North-South Road would be closed this week. Check the story for dates and detours.",
-   "source": {
-    "label": "The Conway Daily Sun, Oct 26",
-    "url": "https://www.conwaydailysun.com/news/local/north-south-road-to-be-shut-down-this-week/article_2a251d06-dedc-4f38-943a-8638a28f21b4.html"
    },
    "town": "Conway"
   }
@@ -805,28 +783,6 @@
  ],
  "events": [
   {
-   "date": "2026-11-24",
-   "time": "5:00 pm",
-   "title": "Board of Selectmen meeting (also Dec 8)",
-   "venue": "Madison Town Hall meeting room (lower level), 1923 Village Road",
-   "town": "Madison",
-   "kind": "Civic",
-   "url": "https://www.madison-nh.org/selectmen/",
-   "source": "Town of Madison",
-   "note": "The Selectmen page lists 5 pm in its schedule but 4:30 pm in its introduction; confirm the start time."
-  },
-  {
-   "date": "2026-11-26",
-   "time": "9:00 am",
-   "title": "Jackson Turkey Trot 5K (9:30 am) and Kids 1K Fun Run (9 am), benefiting Jackson Grammar School and Girls on the Run",
-   "venue": "Eagle Mountain House lower fields, 179 Carter Notch Rd (staging and parking)",
-   "town": "Jackson",
-   "kind": "Sports",
-   "url": "https://whitemountainski.co/pages/jackson-turkey-trot",
-   "source": "White Mountain Ski Co.",
-   "price": "$25 for the 5K ($30 race day); kids 10 and under free"
-  },
-  {
    "date": "2026-11-28",
    "time": "10:30 am",
    "title": "Winter Mountaineer train season begins (select dates through March 2027)",
@@ -910,7 +866,7 @@
    "note": "The page gives Saturday, Dec 12 and Sunday, Dec 13 but no year; those weekdays match 2026 and the 2025 tour (28th) was Dec 13 and 14, 2025. Tickets are sold through the tour; the inn's page lists only its package."
   }
  ],
- "events_as_of": "2026-11-14",
+ "events_as_of": "2026-11-27",
  "eventsNote": "Events from the Conway Public Library, Cranmore, Conway Scenic Railroad, the Town of Conway, Settlers Green (via the Visit NH calendar) and The Conway Daily Sun, as of Oct 30. The Mt. Washington Valley Chamber calendar loads by script and the North Conway Community Center schedule could not be opened, so their events are missing. Conway Scenic's Santa's Holiday Special page says it begins Nov 27 but gives no year, so it is not listed. Confirm with the organizer. Valley-wide: Conway, Bartlett, Jackson and Madison. From the Town of Bartlett, Town of Jackson and Town of Madison calendars and notices, Jackson XC, the Jackson Area Chamber, White Mountain Ski Co., the Inn at Ellis River and OnTheSnow, as of Oct 31. Ski opening dates are OnTheSnow projections, not resort announcements. Story Land's 2026 season ended Oct 25 with Happy Hauntings (visitwhitemountains.com), so it has no events in this window. Not covered: the Jackson Area Chamber November and December calendar pages, the Attitash events calendar, the Bartlett, Jackson and Madison library sites and the Bartlett and Madison recreation sites could not be opened. Weekly programs at the Old Jackson Library (yoga, mahjong, canasta) are listed in parks-add.json, not here.",
  "election": {
   "date": "2026-11-03",
@@ -1216,7 +1172,7 @@
  "postsAsOf": "2026-10-30",
  "postsNote": "The live feed fills this in.",
  "safety": {
-  "as_of": "2026-11-06",
+  "as_of": "2026-11-27",
   "note": "Compiled from the Conway Police Department and North Conway Water Precinct pages, the Town of Conway's 2025 report and local news. Conway Police cover the whole town, including North Conway. North Conway Fire serves North Conway; Conway Fire (Conway Village, run by the town since Jan 1, 2025), Center Conway, Redstone and East Conway have their own departments. Incidents are described by type, street and date only; no names of people involved. Main listings are Conway Police and the North Conway Fire Department; Bartlett, Jackson and Madison departments are listed under \"Other departments in the valley\".",
   "alerts": {
    "name": "Conway Broadcast (town text and email notices)",
@@ -1366,7 +1322,20 @@
      "src": "https://www.ncwp.nh.gov/sites/g/files/vyhlif3586/f/pages/2023_annual_report.pdf"
     }
    ],
-   "recent": [],
+   "recent": [
+    {
+     "town": "Conway",
+     "date": "2026-11-22",
+     "kind": "Training",
+     "title": "Eight departments train on a controlled house burn in East Conway",
+     "detail": "Center Conway, Conway, North Conway, Bartlett, Jackson, Fryeburg, Brownfield and Saco Valley firefighters burned a house on East Conway Road, across from the East Conway Fire Station, on Sunday so less experienced firefighters could practice putting out live fires inside a house.",
+     "area": "East Conway Road, East Conway",
+     "source": {
+      "label": "The Conway Daily Sun, Nov 23",
+      "url": "https://www.conwaydailysun.com/news/local/east-conway-controlled-burn-lets-firefighters-practice-skills/article_70bfa18a-9340-4870-ad03-afac3a5f27f7.html"
+     }
+    }
+   ],
    "programs": [
     {
      "name": "Outdoor burning permits",
@@ -1752,48 +1721,48 @@
  "paper": {
   "name": "The Conway Daily Sun",
   "url": "https://www.conwaydailysun.com/",
-  "asOf": "2026-11-13",
+  "asOf": "2026-11-27",
   "note": "Stories open on the paper's site. Dates are the paper's last-updated dates. Picked from the Local news section for Conway relevance.",
   "headlines": [
    {
-    "title": "Fuller ad hoc committee survives vote to dissolve it",
-    "url": "https://www.conwaydailysun.com/news/local/fuller-ad-hoc-committee-survives-vote-to-dissolve-it/article_d1d81ed0-3baf-46c0-8d6f-bddffd21ec6b.html",
-    "date": "2026-11-12"
+    "title": "Conway principals address band's Veterans Day non-participation",
+    "url": "https://www.conwaydailysun.com/news/local/conway-principals-address-bands-veterans-day-non-participation/article_23ba5e80-63c5-4de9-86b8-5220bf2b59b5.html",
+    "date": "2026-11-25"
    },
    {
-    "title": "Greg Frizzell Community Food Drive returns to Vaughan Nov. 18",
-    "url": "https://www.conwaydailysun.com/news/local/greg-frizzell-community-food-drive-returns-to-vaughan-nov-18/article_d07a236f-a32c-459c-af07-7c2ed25f6fee.html",
-    "date": "2026-11-12"
+    "title": "Tamworth boasts new charging station for EVs",
+    "url": "https://www.conwaydailysun.com/news/local/tamworth-boasts-new-charging-station-for-evs/article_5fa5cca7-5099-460e-9dea-e49c43485daa.html",
+    "date": "2026-11-25"
    },
    {
-    "title": "Strong turnout on Schouler Park for Veterans Day ceremonies",
-    "url": "https://www.conwaydailysun.com/news/local/strong-turnout-on-schouler-park-for-veterans-day-ceremonies/article_234fe07d-b9b1-4ef5-bbe7-caaa0d252aba.html",
-    "date": "2026-11-12"
+    "title": "Black Mountain to open for 91st season today",
+    "url": "https://www.conwaydailysun.com/news/local/black-mountain-to-open-for-91st-season-today/article_9f87a5d6-1e33-41ea-a124-903d875dc844.html",
+    "date": "2026-11-25"
    },
    {
-    "title": "Woodcock familiarizing himself with Register of Probate duties",
-    "url": "https://www.conwaydailysun.com/news/local/woodcock-familiarizing-himself-with-register-of-probate-duties/article_4963d01a-0be5-4924-9eba-8c00cde0d1f9.html",
-    "date": "2026-11-11"
+    "title": "SAU 13 board walks back high superintendent pay",
+    "url": "https://www.conwaydailysun.com/news/local/sau-13-board-walks-back-high-superintendent-pay/article_88353403-3d42-442e-af43-8f52145e545f.html",
+    "date": "2026-11-25"
    },
    {
-    "title": "Local ski history celebrated with Schneider re-enactment",
-    "url": "https://www.conwaydailysun.com/news/local/local-ski-history-celebrated-with-schneider-re-enactment/article_1dd83d87-5901-41be-8f45-53ff3052adec.html",
-    "date": "2026-11-11"
+    "title": "Board OKs early retirement for three longtime educators",
+    "url": "https://www.conwaydailysun.com/news/local/board-oks-early-retirement-for-three-longtime-educators/article_52a14143-2e16-4481-870f-51e2c0e4b15b.html",
+    "date": "2026-11-24"
    },
    {
-    "title": "Conway Lake group wants earlier drawdown to protect wildlife",
-    "url": "https://www.conwaydailysun.com/news/local/conway-lake-group-wants-earlier-drawdown-to-protect-wildlife/article_0aff5a69-933d-423c-8daf-57842ff1d114.html",
-    "date": "2026-11-09"
+    "title": "Company seeks reconsideration of West Side cell tower",
+    "url": "https://www.conwaydailysun.com/news/local/company-seeks-reconsideration-of-west-side-cell-tower/article_d40cb000-c7da-4e29-8309-9170aee605af.html",
+    "date": "2026-11-24"
    },
    {
-    "title": "Upshot of school tax cap passage still up in air",
-    "url": "https://www.conwaydailysun.com/news/local/upshot-of-school-tax-cap-passage-still-up-in-air/article_c1997864-57a4-4ce6-a131-01701e3430da.html",
-    "date": "2026-11-09"
+    "title": "Hounsell: Extending water, N-S Road should be planning priority",
+    "url": "https://www.conwaydailysun.com/news/local/hounsell-extending-water-n-s-road-should-be-planning-priority/article_7e27d7fb-9143-41cb-a8be-da72b2800552.html",
+    "date": "2026-11-24"
    },
    {
-    "title": "Recount confirms Randell wins District 8 race",
-    "url": "https://www.conwaydailysun.com/news/local/recount-confirms-randell-wins-district-8-race/article_98abc41c-0352-466e-bfb0-d5b2bc1db3ea.html",
-    "date": "2026-11-09"
+    "title": "State orders SAU 9 to hire monitor",
+    "url": "https://www.conwaydailysun.com/news/local/state-orders-sau-9-to-hire-monitor/article_d76019d2-8878-41b6-9668-cd1aa51c10e9.html",
+    "date": "2026-11-24"
    }
   ]
  }

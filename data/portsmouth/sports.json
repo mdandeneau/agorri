@@ -1,6 +1,6 @@
 {
- "as_of": "2026-11-07",
- "note": "Fall 2026 high school results, local leagues, nearby teams and venues. Scores come from MaxPreps, NH-HighSchoolSports.com, TFRRS and Portsmouth Herald roundups, since the Portsmouth athletics calendar (ArbiterLive) could not be opened. Coaches are from the school's own athletics page. No students are named. Each item links to its source. Checked Nov 7, 2026: the Portsmouth-Oyster River vs. Exeter football result from Nov 6 and the Portsmouth Christian volleyball semifinal result from Nov 5 were not found in sources that could be opened. Earlier, Nov 3: NHIAA tournament pages post brackets as images and could not be read, and MaxPreps pages for boys soccer, girls volleyball and golf had not been updated past mid-October, so those records carry their last source date.",
+ "as_of": "2026-11-27",
+ "note": "Fall 2026 high school results, local leagues, nearby teams and venues. Scores come from MaxPreps, NH-HighSchoolSports.com, TFRRS and Portsmouth Herald roundups, since the Portsmouth athletics calendar (ArbiterLive) could not be opened. Coaches are from the school's own athletics page. No students are named. Each item links to its source. Checked Nov 27, 2026: the fall season is over; football reached the Division I quarterfinals (per the Nov 16 City Council minutes) but no 2026 playoff scores were found, MaxPreps still shows only 2025 for several teams, and no 2026-27 winter schedules were posted where they could be read. Earlier, Nov 7: the Portsmouth-Oyster River vs. Exeter football result from Nov 6 and the Portsmouth Christian volleyball semifinal result from Nov 5 were not found in sources that could be opened. Earlier, Nov 3: NHIAA tournament pages post brackets as images and could not be read, and MaxPreps pages for boys soccer, girls volleyball and golf had not been updated past mid-October, so those records carry their last source date.",
  "schools": [
   {
    "name": "Portsmouth High School",
@@ -32,7 +32,7 @@
       "label": "Portsmouth High School Athletics (City of Portsmouth)",
       "url": "https://www.portsmouthnh.gov/school/phs-0"
      },
-     "postseason": "No. 6 seed in NHIAA Division I (6-2 in division play). Hosts No. 11 Exeter in the preliminary round Friday, Nov 6 at 6 pm. The winner plays at No. 3 Winnacunnet Friday, Nov 13 at 7 pm.",
+     "postseason": "Season over. The team was the No. 6 seed in NHIAA Division I and played in the quarterfinals, according to Councilor Blalock's remarks in the Nov 16 City Council minutes. Scores from the Nov 6 preliminary round and the quarterfinal were not found in sources that could be opened.",
      "recent": [
       {
        "date": "2026-10-30",
@@ -86,34 +86,13 @@
        }
       }
      ],
-     "next": [
-      {
-       "date": "2026-11-06",
-       "time": "6:00 pm",
-       "opponent": "Exeter",
-       "home": true,
-       "venue": "Portsmouth High School",
-       "note": "NHIAA Division I preliminary round, No. 11 Exeter (4-4) at No. 6 Portsmouth-Oyster River (6-2).",
-       "source": {
-        "label": "NH-HighSchoolSports.com, Playoff Pairings: Football (updated Nov 2)",
-        "url": "https://www.nh-highschoolsports.com/playoff-pairings-football-7/"
-       }
-      },
-      {
-       "date": "2026-11-13",
-       "time": "7:00 pm",
-       "opponent": "Winnacunnet",
-       "home": false,
-       "venue": "Winnacunnet High School, Hampton",
-       "note": "Division I quarterfinal, only if Portsmouth-Oyster River beats Exeter.",
-       "source": {
-        "label": "NH-HighSchoolSports.com, Playoff Pairings: Football (updated Nov 2)",
-        "url": "https://www.nh-highschoolsports.com/playoff-pairings-football-7/"
-       }
-      }
-     ],
+     "next": [],
      "needs_review": true,
-     "review_note": "Overall record 6-3 is from MaxPreps (Oct 31); the Nov 2 NHIAA pairings list 6-2, which is the division record. Playoff date, time and site are from NH-HighSchoolSports.com's Nov 2 pairings. Checked Nov 3, 2026: no games played since Oct 30. MaxPreps shows the Sept 4 opener at Winnacunnet as L 6-27 while an NHSportsPage recap reports Winnacunnet 26, Portsmouth-Oyster River 7."
+     "review_note": "Overall record 6-3 is from MaxPreps (Oct 31); the Nov 2 NHIAA pairings list 6-2, which is the division record. Playoff date, time and site are from NH-HighSchoolSports.com's Nov 2 pairings. Checked Nov 3, 2026: no games played since Oct 30. MaxPreps shows the Sept 4 opener at Winnacunnet as L 6-27 while an NHSportsPage recap reports Winnacunnet 26, Portsmouth-Oyster River 7.",
+     "postseasonSource": {
+      "label": "Portsmouth City Council draft minutes, Nov 16, 2026",
+      "url": "https://files.portsmouthnh.gov/minutes/2026/citycouncil/DRAFT%20City%20Council%20Minutes%20and%20Actions%20of%20November%2016%202026.pdf"
+     }
     },
     {
      "sport": "Boys Soccer",
@@ -268,7 +247,7 @@
      "season": "Fall 2026",
      "level": "Varsity",
      "record": "8-8-1",
-     "recordAsOf": "2026-11-03",
+     "recordAsOf": "2026-11-27",
      "coach": "Allison St. Jean",
      "coachSource": {
       "label": "Portsmouth High School Athletics (City of Portsmouth)",
@@ -290,7 +269,7 @@
      ],
      "next": [],
      "needs_review": false,
-     "note": "Season over after the Oct 21 preliminary round. Checked Nov 3, 2026."
+     "note": "Season over after the Oct 21 preliminary round. Checked Nov 27, 2026."
     },
     {
      "sport": "Girls Volleyball",
@@ -365,7 +344,7 @@
      "season": "Fall 2026",
      "level": "Varsity",
      "record": null,
-     "recordAsOf": "2026-11-03",
+     "recordAsOf": "2026-11-27",
      "coach": "Mike Lyford",
      "coachSource": {
       "label": "Portsmouth High School Athletics (City of Portsmouth)",
@@ -386,14 +365,14 @@
      ],
      "next": [],
      "needs_review": false,
-     "note": "Season ended with the Oct 31 Division I championship. Checked Nov 3, 2026."
+     "note": "Season ended with the Oct 31 Division I championship. Checked Nov 27, 2026."
     },
     {
      "sport": "Girls Cross Country",
      "season": "Fall 2026",
      "level": "Varsity",
      "record": null,
-     "recordAsOf": "2026-11-03",
+     "recordAsOf": "2026-11-27",
      "coach": "Beth Polizzotto",
      "coachSource": {
       "label": "Portsmouth High School Athletics (City of Portsmouth)",
@@ -414,7 +393,7 @@
      ],
      "next": [],
      "needs_review": false,
-     "note": "Season ended with the Oct 31 Division I championship. Checked Nov 3, 2026."
+     "note": "Season ended with the Oct 31 Division I championship. Checked Nov 27, 2026."
     },
     {
      "sport": "Golf",
@@ -471,20 +450,7 @@
        "note": "Division III quarterfinal"
       }
      ],
-     "next": [
-      {
-       "date": "2026-11-05",
-       "time": null,
-       "opponent": "St. Thomas Aquinas",
-       "home": false,
-       "venue": "Oyster River High School",
-       "note": "Division III semifinal; start time not published in the sources read.",
-       "source": {
-        "label": "Portsmouth Herald via AOL, Saturday Tourney Roundup (Nov 1, 2026)",
-        "url": "https://www.aol.com/articles/saturday-tourney-roundup-st-thomas-002636312.html"
-       }
-      }
-     ],
+     "next": [],
      "needs_review": true,
      "review_note": "Record computed from the article (16-1 going in, plus the quarterfinal win). Home flag assumes the No. 1 seed hosted (the roundup datelines the game in Dover). The Nov 1 roundup gives the semifinal day and site but no time; the 6:00 pm listed earlier could not be confirmed on Nov 3 (NHIAA bracket is an image). MaxPreps's PCA page has no 2026 results."
     },
@@ -566,20 +532,7 @@
        "note": "NHIAA Division IV."
       }
      ],
-     "next": [
-      {
-       "date": "2026-11-03",
-       "time": "6:15 pm",
-       "opponent": "Profile School",
-       "home": false,
-       "venue": "Laconia High School",
-       "note": "Division IV semifinal",
-       "source": {
-        "label": "NHIAA 2026 Division IV Girls Soccer tournament",
-        "url": "https://www.nhiaa.org/nhiaa-2026-27-division-iv-girls-soccer-tournament/"
-       }
-      }
-     ],
+     "next": [],
      "needs_review": true,
      "review_note": "Final result (Nov 6 vs. Groveton) not yet found; update when published."
     }

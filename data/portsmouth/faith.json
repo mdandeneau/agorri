@@ -1,5 +1,5 @@
 {
- "as_of": "2026-11-01",
+ "as_of": "2026-11-27",
  "note": "Congregations of every tradition found in or listed under Portsmouth, in no particular order of importance. Many entries come only from church directories and are marked for review; service times should be confirmed with each congregation. Two congregations in Newington with a Portsmouth ZIP or Portsmouth listing are included and marked. Few November and December public events were posted yet.",
  "congregations": [
   {
@@ -458,16 +458,6 @@
   }
  ],
  "events": [
-  {
-   "date": "2026-11-15",
-   "time": "5:00 pm",
-   "title": "Evening Eucharist followed by supper (Christ Church stewardship)",
-   "venue": "Holy Trinity Lutheran Church sanctuary, 22 Fox Run Road",
-   "town": "Newington",
-   "kind": "Faith",
-   "url": "https://christchurchportsmouth.net/",
-   "source": "Christ Church Portsmouth"
-  },
   {
    "date": "2026-11-29",
    "time": "9:30 am",

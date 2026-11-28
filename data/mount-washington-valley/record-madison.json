@@ -1,7 +1,7 @@
 {
  "about": {
   "town": "Madison, NH",
-  "as_of": "2026-11-24",
+  "as_of": "2026-11-27",
   "records_from": "2025-09-17",
   "documents_used": 45,
   "note": "The Town of Madison, Carroll County, including Silver Lake and Eidelweiss. Madison is governed by a five-member Board of Selectmen and a Town Administrator, with an annual town meeting: officers and zoning changes are voted by ballot on the second Tuesday in March (March 10, 2026), and money articles at a business session the following Saturday (March 14, 2026). Eidelweiss is also served by the Village District of Eidelweiss, a separate small local government with its own commissioners, water system, roads and tax rate. The town posts Selectmen minutes through September 29, 2026, but those 2026 PDFs could not be opened for this research (only the January 20, 2026 minutes could), so most meeting entries are built from Conway Daily Sun reports and are marked as news reports. The results of the March 14, 2026 business session (including the final operating budget) and the 2025 tax rate breakdown were not found. Plain-English summaries written by AI; items with needs_review=true are uncertain."
@@ -39,43 +39,7 @@
    "source": "https://www.madison-nh.org/departments/town-clerk/elections-voting/"
   }
  },
- "next_council_meeting": {
-  "date": "2026-11-24",
-  "items": [
-   {
-    "item": "Approval of minutes and non-public minutes of November 10, 2026",
-    "from": "2026-11-24 agenda"
-   },
-   {
-    "item": "Library building addition, donation funded",
-    "from": "2026-11-24 agenda"
-   },
-   {
-    "item": "MADTV check-in on work session changes",
-    "from": "2026-11-24 agenda"
-   },
-   {
-    "item": "Watershed management plan in the dam project",
-    "from": "2026-11-24 agenda"
-   },
-   {
-    "item": "Historical Society applications to list the Town House (MHS Museum building) on the State and National Registers of Historic Places",
-    "from": "2026-11-24 agenda"
-   },
-   {
-    "item": "Conway Branch Rec Trail Committee",
-    "from": "2026-11-24 agenda"
-   },
-   {
-    "item": "Trash problems, budget discussions, Dam Committee charter and department head reviews",
-    "from": "2026-11-24 agenda"
-   },
-   {
-    "item": "Fee schedules and the master calendar",
-    "from": "2026-11-24 agenda"
-   }
-  ]
- },
+ "next_council_meeting": null,
  "issues": [
   {
    "id": "equipment-investigation",
@@ -317,7 +281,7 @@
    "title": "Updating Madison's Master Plan",
    "topic": "Housing & zoning",
    "status": "Under way with North Country Council; steering committee meeting November 4, 2026",
-   "next": "2026-11-04: Master Plan Steering Committee, 5:30 PM, Town Hall",
+   "next": "",
    "summary": "The Planning Board is updating the town's Master Plan (the long-range guide for land use, housing, roads and conservation) with the regional planning agency North Country Council. A separate Silver Lake watershed management plan is nearing completion.",
    "points": [
     "Kickoff with North Country Council was set for January 7, 2026; a community workshop for March 28, 2026 at the school.",

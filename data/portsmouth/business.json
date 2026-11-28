@@ -1,5 +1,5 @@
 {
- "as_of": "2026-11-03",
+ "as_of": "2026-11-27",
  "note": "From the city's own pages (Economic Development, City Clerk, Health, Inspection, Planning) and open local coverage: Seacoast Current, Patch, NH Business Review. The Portsmouth Herald is paywalled and not used. Fees that the city does not publish online are left out.",
  "organizations": [
   {
@@ -430,6 +430,16 @@
   }
  ],
  "closures": [
+  {
+   "name": "FIVE81 NE",
+   "what": "Northeastern Thai (Isaan) restaurant, 581 Lafayette Road",
+   "date": "2026-11-29",
+   "detail": "Closing after three years; last day Sunday, Nov 29. Outstanding gift cards will be honored at Green Elephant in Portsmouth and The Joy Nest in Newburyport, Mass.",
+   "source": {
+    "label": "Seacoast Current, Nov 27",
+    "url": "https://seacoastcurrent.com/ixp/701/p/five81-ne-closes-portsmouth-nh/"
+   }
+  },
   {
    "name": "Red Rover Creamery",
    "what": "Ice cream shop in Portsmouth",

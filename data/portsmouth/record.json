@@ -1,17 +1,25 @@
 {
  "about": {
   "town": "Portsmouth, NH",
-  "as_of": "2026-11-24",
+  "as_of": "2026-11-27",
   "records_from": "2025-10-28",
-  "documents_used": 598,
+  "documents_used": 599,
   "note": "Plain-English summaries written by AI from official city PDFs; every meeting carries its source URL. Items with needs_review=true are where the official record is ambiguous or self-contradictory."
  },
  "next_council_meeting": {
   "date": "2026-12-07",
   "items": [
    {
-    "item": "Public hearing and second reading of the new Sewer Use Ordinance, as proposed on the Nov 16 agenda",
-    "from": "2026-11-16 agenda"
+    "item": "Public hearing and second reading of the new Sewer Use Ordinance",
+    "from": "2026-11-16 minutes"
+   },
+   {
+    "item": "Continued public hearing on landscape and pole licenses for 361 Hanover Street, with a staff report on councilors' questions",
+    "from": "2026-11-16 minutes"
+   },
+   {
+    "item": "City Manager report on COAST bus options during the holidays",
+    "from": "2026-11-16 minutes"
    }
   ]
  },
@@ -32,7 +40,8 @@
     "Nov 2: the Shuttle Loop and Public Transit Working Group's second meeting agenda covered barriers to riding, a downtown evening circulator, on-demand microtransit (Via) and a possible federal CMAQ grant application by COAST (80 percent federal, 20 percent City match), with a ranked project list to recommend to the Council.",
     "Oct 26: the Council heard the RAPP first-quarter report and adopted staff recommendations on off-peak workweek parking for downtown employees (unanimous), and moved most parking rules from zoning into site plan review (9-0).",
     "Nov 16 Council agenda: an amended Resident Access Parking Pilot policy (informational item) and a proposal by Councilors Bagley and Hopkins for three hours of free parking daily at the High Hanover and Foundry Place garages from Dec 14 to Jan 1.",
-    "Nov 16: the Council voted to approve three hours of free parking in the Foundry and Hanover garages from Dec 14, 2026 through Jan 1, 2027, according to a city press release. Metered and timed street and surface lot spaces are still enforced."
+    "Nov 16: the Council voted to approve three hours of free parking in the Foundry and Hanover garages from Dec 14, 2026 through Jan 1, 2027, according to a city press release. Metered and timed street and surface lot spaces are still enforced.",
+    "Nov 16 (draft minutes): the free holiday garage parking passed 7-0; the City Manager reports Dec 7 on COAST options for the holidays. An amended RAPP policy added new areas and a $10 option for those who do not qualify for the $3 option."
    ],
    "keywords": [
     "parking",
@@ -42,6 +51,10 @@
     "shuttle"
    ],
    "sources": [
+    {
+     "label": "City Council draft minutes, Nov 16, 2026",
+     "url": "https://files.portsmouthnh.gov/minutes/2026/citycouncil/DRAFT%20City%20Council%20Minutes%20and%20Actions%20of%20November%2016%202026.pdf"
+    },
     {
      "label": "City RAPP page",
      "url": "https://www.portsmouthnh.gov/publicworks/parkportsmouth/rapp"
@@ -57,6 +70,25 @@
    ],
    "scope": "council",
    "related": [
+    {
+     "date": "2026-11-16",
+     "body": "City Council",
+     "url": "https://files.portsmouthnh.gov/minutes/2026/citycouncil/DRAFT%20City%20Council%20Minutes%20and%20Actions%20of%20November%2016%202026.pdf",
+     "d": {
+      "title": "Approved three hours of free parking a day in two city garages for the holidays",
+      "detail": "Three free hours daily at the High Hanover Parking Facility and the Foundry Place Garage from Monday, Dec 14, 2026 through Friday, Jan 1, 2027, mirroring last year's program. Several councilors asked about COAST bus service during the holidays; the City Manager will report on options, including possible sponsorships for Saturday riders, on Dec 7.",
+      "outcome": "passed 7-0",
+      "moved_by": "Hopkins",
+      "seconded_by": "Moreau",
+      "roll_call": null,
+      "dissent": [],
+      "topic": "Parking & transportation",
+      "dollars": null,
+      "ordinance_reading": null,
+      "needs_review": false,
+      "review_note": null
+     }
+    },
     {
      "date": "2026-10-26",
      "body": "City Council",
@@ -758,7 +790,7 @@
    "title": "Housing Action Plan",
    "topic": "Housing & zoning",
    "status": "Adopted Sept 28 (8-0)",
-   "next": "Nov 19: Planning Board discusses draft zoning amendments on workforce housing and child care centers",
+   "next": "",
    "summary": "A city plan of zoning changes and incentives meant to add housing. The council adopted it 8-0 on Sept 28 after Planning Board review and two public input sessions. Councilors said more work is needed, citing slow timelines, rents and parking.",
    "points": [
     "Feb 17: the council voted to develop a Housing Action Plan by July 2026 and gave final approval to zoning changes on accessory dwelling units (backyard or in-home apartments).",
@@ -1377,17 +1409,22 @@
    "id": "prescott",
    "title": "Prescott Park improvements and a covered stage",
    "topic": "Parks & recreation",
-   "status": "Report requested",
-   "next": "Nov 16: City Manager gives a verbal Prescott Park update at the Council meeting",
+   "status": "Under review by the Attorney General's Charitable Trust Unit",
+   "next": "No timeline for the Charitable Trust Unit's guidance",
    "summary": "In April the council voted to work with the Prescott Park Arts Festival on park improvements, including a covered stage paid for by the Festival. On Sept 28 it asked staff to report back on those plans.",
    "points": [
     "April 20: unanimous votes to work with the Festival on a covered stage and to add park maintenance to the capital plan.",
-    "Sept 28: report back requested (8-0); Councilor Bagley also asked Legal to report on the Prescott Park trust funds."
+    "Sept 28: report back requested (8-0); Councilor Bagley also asked Legal to report on the Prescott Park trust funds.",
+    "Nov 16: the City Manager said three projects could affect the park: the Arts Festival's request for a permanent stage, phase one of the Prescott Park Master Plan (moving and raising three structures for resiliency) and the Mechanic Street pump station. City staff asked the NH Attorney General's Charitable Trust Unit for guidance; there is no timeline. The Prescott Park Trust held $8.344 million as of Oct 31, 2026, and the City puts no General Fund money into it."
    ],
    "keywords": [
     "Prescott Park"
    ],
    "sources": [
+    {
+     "label": "City Council draft minutes, Nov 16, 2026",
+     "url": "https://files.portsmouthnh.gov/minutes/2026/citycouncil/DRAFT%20City%20Council%20Minutes%20and%20Actions%20of%20November%2016%202026.pdf"
+    },
     {
      "label": "City Council agenda, Nov 16, 2026",
      "url": "https://files.portsmouthnh.gov/agendas/2026/City%20Council/City%20Council%20Regular%20Meeting%20Agenda%2011.16.26.pdf"
@@ -1551,6 +1588,237 @@
   }
  ],
  "council_meetings": [
+  {
+   "body": "City Council",
+   "date": "2026-11-16",
+   "minutes_url": "https://files.portsmouthnh.gov/minutes/2026/citycouncil/DRAFT%20City%20Council%20Minutes%20and%20Actions%20of%20November%2016%202026.pdf",
+   "minutes_status": "draft",
+   "ocr": false,
+   "attendance": {
+    "present": [
+     "McEachern",
+     "Cook",
+     "Tabor",
+     "Blalock",
+     "Moreau",
+     "Flynn",
+     "Hopkins"
+    ],
+    "absent": [
+     "Kelley",
+     "Bagley"
+    ]
+   },
+   "headline": "The Council approved free holiday parking in two city garages, passed first reading of a new Sewer Use Ordinance with a Dec 7 hearing, discontinued part of Cornwall Street, and accepted a $397,471 police grant for internet crimes against children.",
+   "decisions": [
+    {
+     "title": "Approved three hours of free parking a day in two city garages for the holidays",
+     "detail": "Three free hours daily at the High Hanover Parking Facility and the Foundry Place Garage from Monday, Dec 14, 2026 through Friday, Jan 1, 2027, mirroring last year's program. Several councilors asked about COAST bus service during the holidays; the City Manager will report on options, including possible sponsorships for Saturday riders, on Dec 7.",
+     "outcome": "passed 7-0",
+     "moved_by": "Hopkins",
+     "seconded_by": "Moreau",
+     "roll_call": null,
+     "dissent": [],
+     "topic": "Parking & transportation",
+     "dollars": null,
+     "ordinance_reading": null,
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Passed first reading of a new Sewer Use Ordinance",
+     "detail": "The amendment deletes the existing ordinance in Chapter 11, Article II and replaces it with a new one in Chapter 16, Article III. The public hearing and second reading are set for Dec 7. Councilor Tabor asked that the appendix of load limits be published with it and for more on grease trap rules for the Fats, Oil and Grease program; Councilor Cook asked that businesses and industrial users be notified before the second reading.",
+     "outcome": "passed 7-0",
+     "moved_by": "Blalock",
+     "seconded_by": "Moreau",
+     "roll_call": null,
+     "dissent": [],
+     "topic": "Infrastructure & utilities",
+     "dollars": null,
+     "ordinance_reading": "first",
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Extended the public hearing on 361 Hanover Street landscape and pole licenses to Dec 7",
+     "detail": "The Council asked staff to report back on questions raised at the public hearing held before the meeting. Councilor Moreau recused herself.",
+     "outcome": "passed 6-0",
+     "moved_by": "Blalock",
+     "seconded_by": "Hopkins",
+     "roll_call": null,
+     "dissent": [],
+     "topic": "Housing & zoning",
+     "dollars": null,
+     "ordinance_reading": null,
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Discontinued a portion of Cornwall Street",
+     "detail": "Petitioned by Regan Electric. The discontinuance is subject to recording a utility easement over the existing sewer line and a voluntary lot merger to match the City Tax Map. Deputy City Attorney Trevor McCourt said the street had houses until the late 1920s and that discontinuing it allows private development while the City keeps the right to maintain the sewer line. One resident spoke in favor.",
+     "outcome": "passed 7-0",
+     "moved_by": "Cook",
+     "seconded_by": "Tabor",
+     "roll_call": null,
+     "dissent": [],
+     "topic": "Infrastructure & utilities",
+     "dollars": null,
+     "ordinance_reading": null,
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Approved a $60,000 public art contract for the High Hanover Garage",
+     "detail": "On the Public Art Review Committee's recommendation, the City Manager may contract with Sam Malpass (Badway Creative) of Rye for artwork on the outside and inside of the garage, paid from the Public Art Trust Fund's Percent for Art account for the garage. Work is scheduled to begin in March 2027.",
+     "outcome": "passed 7-0",
+     "moved_by": "Cook",
+     "seconded_by": "Moreau",
+     "roll_call": null,
+     "dissent": [],
+     "topic": "Arts & culture",
+     "dollars": 60000,
+     "ordinance_reading": null,
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Accepted a $397,471 federal grant for the police Internet Crimes Against Children task force",
+     "detail": "The FY26 Missing Children's Assistance Grant from the Office of Juvenile Justice and Delinquency Prevention.",
+     "outcome": "passed 7-0",
+     "moved_by": "Blalock",
+     "seconded_by": "Moreau",
+     "roll_call": null,
+     "dissent": [],
+     "topic": "Public safety",
+     "dollars": 397471,
+     "ordinance_reading": null,
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Accepted a $25,025 Violence Against Women Act grant",
+     "detail": "The City Manager may sign the documents to accept the grant.",
+     "outcome": "passed 7-0",
+     "moved_by": "Flynn",
+     "seconded_by": "Hopkins",
+     "roll_call": null,
+     "dissent": [],
+     "topic": "Public safety",
+     "dollars": 25025,
+     "ordinance_reading": null,
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Accepted Sage Lane as a city street",
+     "detail": "The City Manager may accept a right-of-way deed from the Parson Woods Condominium Association, with easements for road maintenance and future utilities, and license the drainage crossing the road back to the association. Acceptance takes effect Dec 1, 2026.",
+     "outcome": "passed 7-0",
+     "moved_by": "Cook",
+     "seconded_by": "Tabor",
+     "roll_call": null,
+     "dissent": [],
+     "topic": "Infrastructure & utilities",
+     "dollars": null,
+     "ordinance_reading": null,
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Released $2,000 from the Lower State Street Pocket Park Trust to design a new bust of Jay Smith",
+     "detail": "Artist Carl Aichele will design it. Public Works Director Peter Rice said the pedestal goes in within weeks and the sculpture before the new year.",
+     "outcome": "passed 7-0",
+     "moved_by": "Flynn",
+     "seconded_by": "Hopkins",
+     "roll_call": null,
+     "dissent": [],
+     "topic": "Arts & culture",
+     "dollars": 2000,
+     "ordinance_reading": null,
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Approved lighting the Memorial Bridge for Dr. Martin Luther King Jr. on Jan 18, 2027",
+     "detail": "The request came from third-grade students at New Franklin School. The fee is waived.",
+     "outcome": "passed 7-0",
+     "moved_by": "Cook",
+     "seconded_by": "Tabor",
+     "roll_call": null,
+     "dissent": [],
+     "topic": "Other",
+     "dollars": null,
+     "ordinance_reading": null,
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Accepted three donations totaling $3,670",
+     "detail": "$500 for the Senior Activity Center Luncheon Fund, $2,170 for the Point of Graves Cemetery wall replacement and $1,000 for the Fire Department.",
+     "outcome": "passed 7-0 (three votes)",
+     "moved_by": "Cook",
+     "seconded_by": "Tabor",
+     "roll_call": null,
+     "dissent": [],
+     "topic": "Other",
+     "dollars": 3670,
+     "ordinance_reading": null,
+     "needs_review": false,
+     "review_note": null
+    },
+    {
+     "title": "Reappointed Peter Weeks to the Trustees of the Trust Funds",
+     "detail": "The Council also accepted resignations from the Zoning Board of Adjustment (an alternate) and the Housing Endowment Fund Board. Appointments of a full Zoning Board member and reappointments to the Planning Board and the Parking and Traffic Safety Committee were introduced for a later vote.",
+     "outcome": "passed 7-0",
+     "moved_by": "Cook",
+     "seconded_by": "Tabor",
+     "roll_call": null,
+     "dissent": [],
+     "topic": "Government & elections",
+     "dollars": null,
+     "ordinance_reading": null,
+     "needs_review": false,
+     "review_note": null
+    }
+   ],
+   "discussed": [
+    {
+     "title": "Prescott Park update",
+     "detail": "The City Manager described three projects that could affect the park: the Arts Festival's request for a permanent stage, phase one of the Prescott Park Master Plan and the Mechanic Street pump station. Staff asked the NH Attorney General's Charitable Trust Unit for guidance. The Prescott Park Trust held $8.344 million as of Oct 31.",
+     "topic": "Parks & recreation"
+    },
+    {
+     "title": "Fuel to Learn task force",
+     "detail": "Councilor Flynn reported that the School Board voted Nov 10 to support a free school meals pilot from January 2027 for families earning up to 260% of the federal poverty level, contingent on City funding. A fuller report with estimated costs comes in December.",
+     "topic": "Schools"
+    },
+    {
+     "title": "City Manager updates",
+     "detail": "The outdoor dining season (May 1 to Oct 12) issued 31 permits and raised $43,000. The household hazardous waste day served 340 vehicles. Staff have begun identifying city-owned sites for natural burials for Council consideration from 2028. City Attorney Susan Morrell retires Nov 30.",
+     "topic": "Other"
+    }
+   ],
+   "public_comment": [
+    {
+     "topic": "General public comment",
+     "speakers": 2,
+     "gist": "Speakers raised Sherburne School and sewer upgrades, and free bus rides during holiday free parking."
+    }
+   ],
+   "coming_up": [
+    {
+     "date": "2026-11-30",
+     "item": "Public pre-construction meeting on Fleet Street from Congress Street to Hanover Street; work begins Dec 7"
+    },
+    {
+     "date": "2026-12-07",
+     "item": "Public hearing and second reading of the Sewer Use Ordinance; continued hearing on 361 Hanover Street licenses"
+    },
+    {
+     "date": "2026-12-16",
+     "item": "Public input session on the Market Street and Russell Street intersection, launching an engineering study"
+    }
+   ]
+  },
   {
    "body": "City Council",
    "date": "2026-10-26",
@@ -15448,40 +15716,40 @@
  },
  "attendance": {
   "McEachern": {
-   "present": 19,
-   "total": 19
+   "present": 20,
+   "total": 20
   },
   "Kelley": {
    "present": 16,
-   "total": 19
+   "total": 20
   },
   "Cook": {
-   "present": 19,
-   "total": 19
+   "present": 20,
+   "total": 20
   },
   "Tabor": {
-   "present": 17,
-   "total": 19
+   "present": 18,
+   "total": 20
   },
   "Blalock": {
-   "present": 18,
-   "total": 19
+   "present": 19,
+   "total": 20
   },
   "Bagley": {
    "present": 16,
-   "total": 19
+   "total": 20
   },
   "Moreau": {
-   "present": 19,
-   "total": 19
+   "present": 20,
+   "total": 20
   },
   "Flynn": {
-   "present": 19,
-   "total": 19
+   "present": 20,
+   "total": 20
   },
   "Hopkins": {
-   "present": 19,
-   "total": 19
+   "present": 20,
+   "total": 20
   }
  },
  "attendance_from": "2026-01-05",

@@ -1,5 +1,5 @@
 {
- "as_of": "2026-11-08",
+ "as_of": "2026-11-27",
  "note": "Conway, Bartlett and Jackson are separate school districts in SAU 9; Madison is in SAU 13 with Freedom and Tamworth. Older students from all three small towns attend Kennett Middle or Kennett High in Conway under tuition contracts, and every town voted on a school tax cap question on November 3, 2026.",
  "districts": [
   {
@@ -213,20 +213,6 @@
    ],
    "upcoming": [
     {
-     "date": "2026-11-09",
-     "time": "6:30 pm",
-     "title": "Conway School Board meeting (regular schedule)",
-     "venue": "Conway Professional Development Center, Kennett Middle School",
-     "url": "https://sau9.org/conway-home"
-    },
-    {
-     "date": "2026-11-23",
-     "time": "6:30 pm",
-     "title": "Conway School Board meeting (regular schedule)",
-     "venue": "Conway Professional Development Center, Kennett Middle School",
-     "url": "https://sau9.org/conway-home"
-    },
-    {
      "date": "2026-12-14",
      "time": "6:30 pm",
      "title": "Conway School Board meeting (regular schedule)",
@@ -235,6 +221,16 @@
     }
    ],
    "news": [
+    {
+     "title": "State orders SAU 9 to hire monitor",
+     "url": "https://www.conwaydailysun.com/news/local/state-orders-sau-9-to-hire-monitor/article_d76019d2-8878-41b6-9668-cd1aa51c10e9.html",
+     "date": "2026-11-24"
+    },
+    {
+     "title": "Conway principals address band's Veterans Day non-participation",
+     "url": "https://www.conwaydailysun.com/news/local/conway-principals-address-bands-veterans-day-non-participation/article_23ba5e80-63c5-4de9-86b8-5220bf2b59b5.html",
+     "date": "2026-11-25"
+    },
     {
      "title": "Over 100 NH communities pass a school tax cap",
      "url": "https://www.nhpr.org/education/2026-11-04/school-tax-cap-budget-inflation-students-override",
@@ -393,13 +389,6 @@
    ],
    "upcoming": [
     {
-     "date": "2026-11-10",
-     "time": "6:00 pm",
-     "title": "Bartlett School Board meeting",
-     "venue": "Josiah Bartlett Elementary School",
-     "url": "https://www.townofbartlett.nh.gov/AgendaCenter/ViewFile/Minutes/_10212026-208"
-    },
-    {
      "date": "2026-12-01",
      "time": "6:00 pm",
      "title": "Bartlett School Board meeting (regular schedule)",
@@ -525,22 +514,7 @@
      "review_note": "Add the town result for the school tax cap question once the town clerk count or a news report can be read."
     }
    ],
-   "upcoming": [
-    {
-     "date": "2026-11-16",
-     "time": "6:00 pm",
-     "title": "Jackson School Board meeting (regular schedule)",
-     "venue": "Whitney Center",
-     "url": "https://jgs.sau9.org/324684_2"
-    },
-    {
-     "date": "2026-11-19",
-     "time": "3:30 pm",
-     "title": "Strategic plan community workshop 3",
-     "venue": "Whitney Center",
-     "url": "https://jgs.sau9.org/strategicplanning"
-    }
-   ],
+   "upcoming": [],
    "news": [
     {
      "title": "Over 100 NH communities pass a school tax cap",
@@ -686,6 +660,11 @@
    "upcoming": [],
    "news": [
     {
+     "title": "SAU 13 board walks back high superintendent pay",
+     "url": "https://www.conwaydailysun.com/news/local/sau-13-board-walks-back-high-superintendent-pay/article_88353403-3d42-442e-af43-8f52145e545f.html",
+     "date": "2026-11-25"
+    },
+    {
      "title": "Over 100 NH communities pass a school tax cap",
      "url": "https://www.nhpr.org/education/2026-11-04/school-tax-cap-budget-inflation-students-override",
      "date": "2026-11-04"
@@ -810,6 +789,11 @@
    ],
    "upcoming": [],
    "news": [
+    {
+     "title": "SAU 13 board walks back high superintendent pay",
+     "url": "https://www.conwaydailysun.com/news/local/sau-13-board-walks-back-high-superintendent-pay/article_88353403-3d42-442e-af43-8f52145e545f.html",
+     "date": "2026-11-25"
+    },
     {
      "title": "Over 100 NH communities pass a school tax cap",
      "url": "https://www.nhpr.org/education/2026-11-04/school-tax-cap-budget-inflation-students-override",

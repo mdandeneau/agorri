@@ -1,5 +1,5 @@
 {
- "as_of": "2026-11-03",
+ "as_of": "2026-11-27",
  "note": "From the city's own parks and recreation pages, with a source on every item. Fees shown only as images on the city site are left out.",
  "department": {
   "name": "City of Portsmouth Recreation Department",
@@ -740,6 +740,16 @@
   }
  ],
  "seasonal": [
+  {
+   "title": "Labrie Family Skate at Puddle Dock Pond: opening delayed to Thursday, Dec 3",
+   "detail": "Strawbery Banke says recent weather made it hard to build ice, so the outdoor rink's planned Nov 27 opening moved to an anticipated Thursday, Dec 3, weather permitting. Check the museum's Facebook page or call 603-422-0600 for the day's schedule and closings.",
+   "dates": "Anticipated from Dec 3, 2026",
+   "url": "https://www.strawberybanke.org/labrie-family-skate",
+   "source": {
+    "label": "Strawbery Banke Museum, rink opening update",
+    "url": "https://www.strawberybanke.org/labrie-family-skate"
+   }
+  },
   {
    "title": "Peirce Island Outdoor Pool closed for the season",
    "detail": "The 2026 season ran June 22 to August 21. The city page says See you next summer.",

@@ -1,5 +1,5 @@
 {
- "as_of": "2026-11-07",
+ "as_of": "2026-11-27",
  "note": "Items on this page come from the City of Portsmouth's own releases and from local news outlets. Each item links to its source. Nothing here is a live feed yet; see the Sources card.",
  "housing": {
   "portsmouth": {
@@ -60,6 +60,16 @@
   "note": "Openings and closures come from local news coverage, not from the city. In the coverage checked for the last 90 days, one Portsmouth closure could be verified and no openings. Reports from the Portsmouth Herald are behind a paywall and were not used.",
   "closures": [
    {
+    "name": "FIVE81 NE",
+    "what": "Northeastern Thai (Isaan) restaurant, 581 Lafayette Road",
+    "date": "2026-11-29",
+    "detail": "Closing after three years; last day Sunday, Nov 29. Outstanding gift cards will be honored at Green Elephant in Portsmouth and The Joy Nest in Newburyport, Mass.",
+    "source": {
+     "label": "Seacoast Current, Nov 27",
+     "url": "https://seacoastcurrent.com/ixp/701/p/five81-ne-closes-portsmouth-nh/"
+    }
+   },
+   {
     "name": "Red Rover Creamery",
     "what": "Ice cream shop, open since 2019",
     "date": "2026-10-31",
@@ -74,6 +84,16 @@
  },
  "notices": [
   {
+   "date": "2026-12-24",
+   "kind": "Library",
+   "title": "Library closes at 1 pm Thursday, Dec 24, and is closed Friday, Dec 25",
+   "detail": "The Portsmouth Public Library calendar lists a 1 pm closing on Christmas Eve and a full-day closing on Christmas Day.",
+   "source": {
+    "label": "Portsmouth Public Library calendar",
+    "url": "https://portsmouthpl.librarycalendar.com/events/week/2026/12/23"
+   }
+  },
+  {
    "date": "2026-12-16",
    "kind": "Roads",
    "title": "Market Street and Russell Street intersection project: public input meeting Dec 16",
@@ -81,6 +101,18 @@
    "source": {
     "label": "City of Portsmouth, Bicycle Pedestrian Blue Ribbon Committee agenda, Nov 5",
     "url": "https://files.portsmouthnh.gov/agendas/2026/Bike%20Ped%20/Bike%20Ped%20Agenda%20November%20FINAL%20rev.pdf"
+   }
+  },
+  {
+   "date": "2026-11-30",
+   "kind": "Roads",
+   "title": "Route 33 westbound detour overnight near Lowe's and Target, four nights from Monday, Nov 30",
+   "detail": "The westbound lane of Route 33 between Portsmouth Avenue and Ocean Road, at the rail crossing, closes 8 pm to 6 am for four nights starting Monday, Nov 30, to replace a signal structure. Overnight, westbound drivers cannot go past the Lowe's and Target driveways and follow a posted detour. Both stores stay open. The notice covers Nov 25 to Dec 4.",
+   "strip": "Route 33 nights",
+   "stripLine": "Westbound detour 8 pm to 6 am from Monday",
+   "source": {
+    "label": "City of Portsmouth, construction impacts",
+    "url": "https://www.portsmouthnh.gov/publicworks/construction-impacts"
    }
   },
   {
@@ -211,7 +243,7 @@
    "date": "2026-11-17",
    "kind": "Event",
    "title": "Holiday Lights Contest: registration opened Nov 17",
-   "detail": "The Citywide Neighborhood Committee's annual Holiday Lights Contest is taking registrations from residents, starting Tuesday, Nov 17. The committee will publish a map of entries so people can tour the houses.",
+   "detail": "The Citywide Neighborhood Committee's annual Holiday Lights Contest is taking registrations from residents, starting Tuesday, Nov 17. The committee will publish a map of entries so people can tour the houses. Judging is Dec 12 and 13, and winners are announced at the Dec 21 City Council meeting, Patch reported.",
    "source": {
     "label": "City of Portsmouth, Nov 17",
     "url": "https://www.portsmouthnh.gov/city/news/city-portsmouth-nh-citywide-neighborhood-committee-announces-annual-holiday-lights"
@@ -397,16 +429,6 @@
    },
    "strip": "Trick-or-treat",
    "stripLine": "Friday, 5 to 8 pm"
-  },
-  {
-   "date": "2026-10-26",
-   "kind": "Library",
-   "title": "Korean Alphabet (Hangul) at the Library, Monday 5:30 pm",
-   "detail": "Portsmouth Public Library, 175 Parrott Avenue.",
-   "source": {
-    "label": "Library calendar",
-    "url": "https://portsmouthpl.librarycalendar.com/event/hangul26"
-   }
   }
  ],
  "election": {
@@ -1053,37 +1075,17 @@
    "status": "not yet connected"
   }
  ],
- "events_as_of": "2026-11-24",
+ "events_as_of": "2026-11-27",
  "events": [
   {
-   "date": "2026-11-24",
-   "time": "6:00 pm",
-   "title": "Full Moon Madness fundraiser for Hope on Haven Hill (15% of sales donated)",
-   "venue": "Howling Wolf Taqueria, 40 Pleasant St",
-   "town": "Portsmouth",
-   "kind": "Fundraiser",
-   "url": "https://patch.com/new-hampshire/portsmouth-nh/calendar/event/20261124/a4f4d829-5543-48db-bb8e-16382724592f/howling-wolf-taqueria-hosts-full-moon-madness-to-benefit-hope-on-haven-hill",
-   "source": "Patch calendar"
-  },
-  {
-   "date": "2026-11-25",
+   "date": "2026-11-27",
    "time": "10:00 am to 2:00 pm",
-   "title": "Thanksgiving Guided Tours (Nov 25, 27, 28 and 29)",
+   "title": "Thanksgiving Guided Tours (Nov 27, 28 and 29)",
    "venue": "Strawbery Banke Museum",
    "town": "Portsmouth",
    "kind": "History",
    "url": "https://www.strawberybanke.org/events-collection/thanksgiving-guided-tours-1",
    "source": "Strawbery Banke Museum"
-  },
-  {
-   "date": "2026-11-26",
-   "time": "8:30 am",
-   "title": "Seacoast Rotary Turkey Trot",
-   "venue": "Strawbery Banke Museum, 14 Hancock St",
-   "town": "Portsmouth",
-   "kind": "Holiday",
-   "url": "https://www.portsmouthnh.gov/city/events/seacoast-rotary-turkey-trot-2",
-   "source": "City of Portsmouth"
   },
   {
    "date": "2026-11-28",
@@ -1128,6 +1130,16 @@
   },
   {
    "date": "2026-12-04",
+   "time": "5:00 pm",
+   "title": "39th Annual Button Factory Open Studios",
+   "venue": "Button Factory, 855 Islington St",
+   "town": "Portsmouth",
+   "kind": "Art",
+   "url": "https://patch.com/new-hampshire/portsmouth-nh/calendar/event/20261204/44ef6e67-14b4-40d0-9f99-8009fa5a8c7b/39th-annual-button-factory-open-studios",
+   "source": "Patch calendar"
+  },
+  {
+   "date": "2026-12-04",
    "time": "6:00 pm",
    "title": "Candlelight Stroll (Fri 6 pm arrivals, Sat 4:30 and 5:30 pm, Sun 2 and 3 pm; through Dec 6)",
    "venue": "Strawbery Banke Museum, 14 Hancock St",
@@ -1136,16 +1148,6 @@
    "url": "https://business.portsmouthchamber.org/events/details/candlelight-stroll-at-strawbery-banke-museum-12-19-2026-90364",
    "source": "Greater Portsmouth Chamber calendar",
    "price": "$35 adults, $17.50 ages 3 to 17 (nonmembers)"
-  },
-  {
-   "date": "2026-12-04",
-   "time": "5:00 pm",
-   "title": "39th Annual Button Factory Open Studios",
-   "venue": "Button Factory, 855 Islington St",
-   "town": "Portsmouth",
-   "kind": "Art",
-   "url": "https://patch.com/new-hampshire/portsmouth-nh/calendar/event/20261204/44ef6e67-14b4-40d0-9f99-8009fa5a8c7b/39th-annual-button-factory-open-studios",
-   "source": "Patch calendar"
   },
   {
    "date": "2026-12-05",
@@ -1199,6 +1201,16 @@
    "source": "Portsmouth Public Library"
   },
   {
+   "date": "2026-12-17",
+   "time": "6:30 pm",
+   "title": "Carols, Cookies and Community",
+   "venue": "First Parish Congregational Church, 218 Central Ave",
+   "town": "Dover",
+   "kind": "Holiday",
+   "url": "https://patch.com/new-hampshire/portsmouth-nh/calendar/event/20261217/c72aeb4e-2655-4cfd-bd0c-e5a67ab5d968/carols-cookies-and-community",
+   "source": "Patch calendar"
+  },
+  {
    "date": "2026-12-18",
    "time": "6:00 pm",
    "title": "Candlelight Stroll (Fri 6 pm arrivals, Sat 4:30 and 5:30 pm, Sun 2 and 3 pm; through Dec 20)",
@@ -1210,7 +1222,7 @@
    "source": "Greater Portsmouth Chamber calendar"
   }
  ],
- "eventsNote": "Events from The Music Hall, 3S Artspace, Strawbery Banke, the Library, the City and the Patch community calendar, as of Oct 27. Confirm with the organizer. Not yet connected: Eventbrite, the Chamber calendar, the Seacoast Rep, Jimmy's, Prescott Park.",
+ "eventsNote": "Events from The Music Hall, 3S Artspace, Strawbery Banke, the Library, the City and the Patch community calendar, as of Nov 27. Confirm with the organizer. Not yet connected: Eventbrite, the Chamber calendar, the Seacoast Rep, Jimmy's, Prescott Park.",
  "posts": [
   {
    "who": "Jeanne Shaheen",
@@ -1421,8 +1433,8 @@
   }
  ],
  "safety": {
-  "as_of": "2026-11-22",
-  "note": "Compiled from City of Portsmouth police and fire pages, daily police logs, Police and Fire Commission minutes and local news. Incidents are described by type, street and date only; no names of people involved.",
+  "as_of": "2026-11-27",
+  "note": "Compiled from City of Portsmouth police and fire pages, daily police logs, Police and Fire Commission minutes and local news. Incidents are described by type, street and date only; no names of people involved. Nov 27, 2026: the city's daily police log PDFs posted after Oct 31 could not be opened in this run, so the newest police log items are from Oct 31; the police and fire news feeds had nothing new beyond the canceled Nov 20 Police Commission session.",
   "alerts": {
    "name": "Smart911 Community Alert System",
    "url": "https://www.smart911.com/smart911/ref/login.action?pa=cityofportsmouthnh"
@@ -2465,9 +2477,19 @@
  "paper": {
   "name": "Portsmouth Patch",
   "url": "https://patch.com/new-hampshire/portsmouth-nh",
-  "asOf": "2026-11-24",
+  "asOf": "2026-11-27",
   "note": "The Portsmouth Herald is paywalled with no public feed, so these come from Patch.",
   "headlines": [
+   {
+    "title": "Portsmouth Announces Details For Annual Holiday Lights Contest",
+    "url": "https://patch.com/new-hampshire/portsmouth-nh/portsmouth-announces-details-annual-holiday-lights-contest",
+    "date": "2026-11-24"
+   },
+   {
+    "title": "Portsmouth, Somersworth Health Center Adds 4 Providers To Primary Care, Women's Health",
+    "url": "https://patch.com/new-hampshire/portsmouth-nh/portsmouth-somersworth-health-center-adds-4-providers-primary-care",
+    "date": "2026-11-24"
+   },
    {
     "title": "New Hampshire Theatre Project Offers Open Workshop On Dec 3: 'Fail Forward'",
     "url": "https://patch.com/new-hampshire/portsmouth-nh/new-hampshire-theatre-project-offers-open-workshop-dec-3-fail-forward",
@@ -2497,16 +2519,6 @@
     "title": "Devine Millimet Welcomes Of Counsel Attorney Hedges",
     "url": "https://patch.com/new-hampshire/portsmouth-nh/devine-millimet-welcomes-counsel-attorney-hedges",
     "date": "2026-11-19"
-   },
-   {
-    "title": "40th Annual Lights Of Love Event Held Dec. 2",
-    "url": "https://patch.com/new-hampshire/portsmouth-nh/40th-annual-lights-love-event-held-dec-2",
-    "date": "2026-11-18"
-   },
-   {
-    "title": "Portsmouth Collecting Holiday Gift Cards for Teens Through Dec. 15",
-    "url": "https://patch.com/new-hampshire/portsmouth-nh/portsmouth-collecting-holiday-gift-cards-teens-through-dec-15",
-    "date": "2026-11-17"
    }
   ]
  }

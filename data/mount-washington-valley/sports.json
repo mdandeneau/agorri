@@ -1,6 +1,6 @@
 {
- "as_of": "2026-11-07",
- "note": "Sports in the Mount Washington Valley (Conway including North Conway, Bartlett, Tamworth, Madison, Freedom, Jackson, Albany, Eaton and Hart's Location). Kennett High School in North Conway is the valley's public high school. Coaches come from Kennett's own team pages; game results come from MaxPreps and SI High School (aggregators, so every result is marked for review) because Kennett's official schedule site (kennettathletics.bigteams.com, which now redirects to an Arbiter site) and NHIAA brackets could not be opened. Conway Daily Sun headlines were read from the Sun's high school sports page; on Nov 3, 2026 its Nov 2 boys and girls soccer playoff stories were read for records, coaches and playoff details, while other Sun articles could not be opened. No student athletes are named. Kennett Middle School sports schedules were not found. Checked Nov 7, 2026: no newer Kennett results were found in sources that could be opened; records keep their last source dates.",
+ "as_of": "2026-11-27",
+ "note": "Sports in the Mount Washington Valley (Conway including North Conway, Bartlett, Tamworth, Madison, Freedom, Jackson, Albany, Eaton and Hart's Location). Kennett High School in North Conway is the valley's public high school. Coaches come from Kennett's own team pages; game results come from MaxPreps and SI High School (aggregators, so every result is marked for review) because Kennett's official schedule site (kennettathletics.bigteams.com, which now redirects to an Arbiter site) and NHIAA brackets could not be opened. Conway Daily Sun headlines were read from the Sun's high school sports page; on Nov 3, 2026 its Nov 2 boys and girls soccer playoff stories were read for records, coaches and playoff details, while other Sun articles could not be opened. No student athletes are named. Kennett Middle School sports schedules were not found. Checked Nov 27, 2026: the fall season is over and no newer Kennett fall results were found; MaxPreps now lists the boys basketball schedule. Earlier, Nov 7: no newer Kennett results were found in sources that could be opened; records keep their last source dates.",
  "schools": [
   {
    "name": "Kennett High School",
@@ -319,29 +319,7 @@
      },
      "postseason": null,
      "recent": [],
-     "next": [
-      {
-       "date": "2026-11-07",
-       "time": "2:30 pm (girls), 3:10 pm (boys)",
-       "opponent": "Hopkinton High School meet",
-       "home": false,
-       "venue": "Hopkinton High School",
-       "source": {
-        "label": "Kennett High School athletics calendar (Arbiter)",
-        "url": "https://arbiterlive.com/School/Calendar/55775"
-       }
-      },
-      {
-       "date": "2026-11-14",
-       "time": "11:30 am (boys), 12:15 pm (girls)",
-       "opponent": "away meet (site not listed)",
-       "home": false,
-       "source": {
-        "label": "Kennett High School athletics calendar (Arbiter)",
-        "url": "https://arbiterlive.com/School/Calendar/55775"
-       }
-      }
-     ],
+     "next": [],
      "note": "The Conway Daily Sun's Oct. 28 headline: 'Kennett harriers compete in largest meet of the season; win at White Mountains.' State meet results and dates were not found. The Arbiter athletics calendar that lists the Nov 7 and Nov 14 meets could not be reopened on Nov 3 (robots disallowed), so those dates are as read Nov 1.",
      "needs_review": true,
      "review_note": "Results known only from a headline."
@@ -373,8 +351,54 @@
      },
      "postseason": null,
      "recent": [],
-     "next": [],
-     "note": "The team page lists varsity tryouts and JV/reserve practice start as TBD."
+     "next": [
+      {
+       "date": "2026-12-02",
+       "time": "5:00 pm",
+       "opponent": "Littleton",
+       "home": false,
+       "note": "Non-league",
+       "source": {
+        "label": "MaxPreps, Kennett boys basketball schedule (aggregator, updated Nov 27, 2026)",
+        "url": "https://www.maxpreps.com/nh/conway/kennett-eagles/basketball/schedule"
+       }
+      },
+      {
+       "date": "2026-12-05",
+       "time": "11:00 am",
+       "opponent": "Derryfield",
+       "home": false,
+       "note": "Non-league",
+       "source": {
+        "label": "MaxPreps, Kennett boys basketball schedule (aggregator, updated Nov 27, 2026)",
+        "url": "https://www.maxpreps.com/nh/conway/kennett-eagles/basketball/schedule"
+       }
+      },
+      {
+       "date": "2026-12-11",
+       "time": "6:30 pm",
+       "opponent": "Milford",
+       "home": false,
+       "note": "League opener",
+       "source": {
+        "label": "MaxPreps, Kennett boys basketball schedule (aggregator, updated Nov 27, 2026)",
+        "url": "https://www.maxpreps.com/nh/conway/kennett-eagles/basketball/schedule"
+       }
+      },
+      {
+       "date": "2026-12-18",
+       "time": "6:00 pm",
+       "opponent": "St. Thomas Aquinas",
+       "home": true,
+       "venue": "Kennett High School",
+       "note": "Non-league",
+       "source": {
+        "label": "MaxPreps, Kennett boys basketball schedule (aggregator, updated Nov 27, 2026)",
+        "url": "https://www.maxpreps.com/nh/conway/kennett-eagles/basketball/schedule"
+       }
+      }
+     ],
+     "note": "MaxPreps lists a 17-game schedule from Dec 2 to Feb 23 (aggregator; confirm with the school)."
     },
     {
      "sport": "Girls Basketball",

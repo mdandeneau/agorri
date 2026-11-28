@@ -1,5 +1,5 @@
 {
- "as_of": "2026-11-01",
+ "as_of": "2026-11-27",
  "note": "Congregations, community help and events run by congregations in the Mount Washington Valley towns. Service times are given only where a source was opened; many come from third-party directories and are marked for review. Several congregations' own websites could not be opened in this update, so many entries have no service times. No congregation was found in Albany or Hart's Location in the sources opened; that is a gap in this list, not proof there are none. No Muslim, Quaker, Buddhist, Latter-day Saints, Jehovah's Witnesses, Baha'i, Christian Science or Orthodox congregation was found meeting in the nine towns; the nearest found were outside the valley (for example a Latter-day Saints branch in Wolfeboro and Kingdom Halls in Campton and Bath). Listing is in no particular order and implies no endorsement.",
  "congregations": [
   {
@@ -483,19 +483,7 @@
    "review_note": "Meeting place not stated (listed only as Mount Washington Valley); town set to Conway as a placeholder. Monthly dates not found."
   }
  ],
- "events": [
-  {
-   "date": "2026-11-18",
-   "time": "6 am to 6 pm",
-   "title": "25th Annual Food Drive",
-   "venue": "Vaughan Community Services parking lot (drive-through)",
-   "town": "Conway",
-   "kind": "Faith",
-   "url": "https://firstchurchnc.com/",
-   "source": "First Church of Christ, Congregational (church website)",
-   "note": "Drive through and donate food from your car."
-  }
- ],
+ "events": [],
  "services": [
   {
    "name": "Brown Church Food Pantry (Conway Village Congregational Church)",
